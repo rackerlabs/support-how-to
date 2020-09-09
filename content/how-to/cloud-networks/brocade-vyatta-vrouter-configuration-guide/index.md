@@ -17,17 +17,17 @@ You read more about the Brocade Vyatta vRouter at the [Rackspace virtual cloud s
 
 The following articles provide detailed configurations for the Brocade Vyatta vrouter:
 
-[Configuring a policy-based IPsec site-to-site VPN on a Vyatta vRouter](/how-to/vyatta-ipsec-site-to-site-vpn)
+[Configuring a policy-based IPsec site-to-site VPN on a Vyatta vRouter](/support/how-to/vyatta-ipsec-site-to-site-vpn)
 
-[Configure a Site-to-site VPN using the Vyatta Network Appliance](/how-to/configure-a-site-to-site-vpn-using-the-vyatta-network-appliance)
+[Configure a Site-to-site VPN using the Vyatta Network Appliance](/support/how-to/configure-a-site-to-site-vpn-using-the-vyatta-network-appliance)
 
-[Creating NAT rules for Vyatta vRouter](/how-to/creating-nat-rules-for-vyatta-vrouter)
+[Creating NAT rules for Vyatta vRouter](/support/how-to/creating-nat-rules-for-vyatta-vrouter)
 
-[Vyatta vRouter: Allow an IP address to access the vRouter via SSH](/how-to/vyatta-vrouter-allow-an-ip-address-to-access-the-vrouter-via-ssh)
+[Vyatta vRouter: Allow an IP address to access the vRouter via SSH](/support/how-to/vyatta-vrouter-allow-an-ip-address-to-access-the-vrouter-via-ssh)
 
-[Vyatta vRouter: Adding a local administrative user](/how-to/vyatta-vrouter-add-a-local-administrative-user)
+[Vyatta vRouter: Adding a local administrative user](/support/how-to/vyatta-vrouter-add-a-local-administrative-user)
 
-[Vyatta vRouter: Configure an interface firewall](/how-to/vyatta-vrouter-configure-an-interface-firewall)
+[Vyatta vRouter: Configure an interface firewall](/support/how-to/vyatta-vrouter-configure-an-interface-firewall)
 
 The following table shows the list of Rackspace supported features on the Brocade Vyatta vRouter
 

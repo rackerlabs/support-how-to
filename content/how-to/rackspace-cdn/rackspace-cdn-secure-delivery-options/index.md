@@ -133,7 +133,7 @@ To use the Rackspace shared domain certificate, create a CDN service in
 the Cloud Control Panel, select **HTTPS** in **Choose Traffic Type**,
 and select **Shared Rackspace Domain Certificate** in **Choose
 Certificate Type**. For more information, see [Create a Rackspace CDN
-service](/how-to/create-a-rackspace-cdn-service).
+service](/support/how-to/create-a-rackspace-cdn-service).
 
 {{<image src="ScreenShot2015-12-17at9.49.51AM.png" alt="" title="">}}
 
@@ -164,7 +164,7 @@ under **Choose Traffic Type** and **Shared SAN Certificate** selected
 under **Choose Certificate Type**. Make sure that you enter a **Domain
 Name** with a subdomain and also enter an **Origin**. Then click **Create
 Service**. For more information, see [Create a Rackspace CDN
-service](/how-to/create-a-rackspace-cdn-service).
+service](/support/how-to/create-a-rackspace-cdn-service).
 
 {{<image src="ScreenShot2015-12-17at10.28.59AM.png" alt="" title="">}}
 

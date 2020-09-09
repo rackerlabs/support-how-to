@@ -11,11 +11,11 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-The previous article described how to [restore servers from an image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image). These images are ideal for use as templates or "gold images" that enable you to easily restore a server to a known configuration or rapidly deploy additional servers. However, this system was designed primarily to speed deployment of new servers and not as a robust backup solution. As a result, the system has a number of practical limitations:
+The previous article described how to [restore servers from an image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image). These images are ideal for use as templates or "gold images" that enable you to easily restore a server to a known configuration or rapidly deploy additional servers. However, this system was designed primarily to speed deployment of new servers and not as a robust backup solution. As a result, the system has a number of practical limitations:
 
--   Cloud server images are useful for storing configuration and static data, but they are not a reliable way to back up a dynamic database. We recommend using standard backup tools such as mysqldump or the SQL Server Management Studio for this task. We recommend backing up your database before creating an image of your server. If you want to create an image of a server that contains a database, you must take the database down, initiate the image creation, and restart the database when the server reaches the appropriate task state.  For more information about the task monitoring process, see [Using task states with server imaging](/how-to/using-task-states-with-server-imaging). For instructions on using Cloud Backup to back up a database, see [Rackspace Cloud Backup - Backing up Databases](/how-to/rackspace-cloud-backup-backing-up-databases).
+-   Cloud server images are useful for storing configuration and static data, but they are not a reliable way to back up a dynamic database. We recommend using standard backup tools such as mysqldump or the SQL Server Management Studio for this task. We recommend backing up your database before creating an image of your server. If you want to create an image of a server that contains a database, you must take the database down, initiate the image creation, and restart the database when the server reaches the appropriate task state.  For more information about the task monitoring process, see [Using task states with server imaging](/support/how-to/using-task-states-with-server-imaging). For instructions on using Cloud Backup to back up a database, see [Rackspace Cloud Backup - Backing up Databases](/support/how-to/rackspace-cloud-backup-backing-up-databases).
 
--   Cloud server images do not include Cloud Block Storage volumes in their data, even if the volume is used as the boot volume.  For information about making snapshots of Cloud Block Storage volumes, see [Create and use Cloud Block Storage snapshots](/how-to/create-and-use-cloud-block-storage-snapshots).
+-   Cloud server images do not include Cloud Block Storage volumes in their data, even if the volume is used as the boot volume.  For information about making snapshots of Cloud Block Storage volumes, see [Create and use Cloud Block Storage snapshots](/support/how-to/create-and-use-cloud-block-storage-snapshots).
 
 -   I/O-optimized cloud servers images capture only the system
     disk, *not any attached data disks*. The Cloud Backup service can
@@ -23,15 +23,15 @@ The previous article described how to [restore servers from an image](/how-to/cr
 
 -   Although you can import images into the Rackspace open cloud by using Cloud Images, you can boot a server from such an image only if it's been properly prepared for use in the Rackspace open cloud.
 
-    **Note**: All servers based on the OpenStack architecture can have images exported and imported between accounts. For more information, see the [Cloud Images FAQ](/how-to/cloud-images-faq).
+    **Note**: All servers based on the OpenStack architecture can have images exported and imported between accounts. For more information, see the [Cloud Images FAQ](/support/how-to/cloud-images-faq).
 
 -   While you can download images exported from the Rackspace open cloud, whether those images will work in another cloud or in your local virtualization solution depends upon the target cloud or local solution.  Consult your vendor for details.
 
-    **Note**: Not all images may be exported from the Rackspace open cloud.  For more information, see the [Cloud Images FAQ](/how-to/cloud-images-faq).
+    **Note**: Not all images may be exported from the Rackspace open cloud.  For more information, see the [Cloud Images FAQ](/support/how-to/cloud-images-faq).
 
 -   Images go through several stages, from preparing the server data to the actual copy of the image to Cloud Files. The imaging process can take several hours, and can fail if the image very close to the maximum disk size for images or if the image have an extremely large number of files.
 
-    You can monitor the tasks involved in this process. For information on the task monitoring process, see [Using task states with server imaging](/how-to/using-task-states-with-server-imaging).
+    You can monitor the tasks involved in this process. For information on the task monitoring process, see [Using task states with server imaging](/support/how-to/using-task-states-with-server-imaging).
 
 -   The imaging process can be delayed if a large number of image requests are made at one time for a group of servers. The number of concurrent images is limited to keep the disk activity of multiple images from affecting performance on a host. If the image takes longer than 24 hours to complete, contact Rackspace Cloud support.
 

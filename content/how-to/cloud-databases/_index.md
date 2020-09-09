@@ -14,19 +14,19 @@ Our Cloud Databases product is a standalone, API-based relational database servi
 
 ###  Managing an Instance
 
-- [Connect to a Cloud Databases Instance](/how-to/connect-to-a-cloud-databases-instance)
-- [Managing Cloud Databases HA instance groups in the Cloud Control Panel](/how-to/managing-cloud-databases-ha-groups-in-the-cloud-control-panel)
-- [Manage Backups for Cloud Databases](/how-to/managing-backups-for-cloud-databases)
-- [Importing Data to Cloud Databases](/how-to/importing-data-into-cloud-databases)
-- [Monitoring Cloud Databases in the Cloud Control Panel](/how-to/monitoring-cloud-databases-in-the-cloud-control-panel)
-- [Manage Cloud Databases configuration groups in the Cloud Control Panel](/how-to/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel)
-- [Setting the time zone for a Cloud Databases instance](/how-to/setting-the-time-zone-for-a-cloud-databases-instance)
+- [Connect to a Cloud Databases Instance](/support/how-to/connect-to-a-cloud-databases-instance)
+- [Managing Cloud Databases HA instance groups in the Cloud Control Panel](/support/how-to/managing-cloud-databases-ha-groups-in-the-cloud-control-panel)
+- [Manage Backups for Cloud Databases](/support/how-to/managing-backups-for-cloud-databases)
+- [Importing Data to Cloud Databases](/support/how-to/importing-data-into-cloud-databases)
+- [Monitoring Cloud Databases in the Cloud Control Panel](/support/how-to/monitoring-cloud-databases-in-the-cloud-control-panel)
+- [Manage Cloud Databases configuration groups in the Cloud Control Panel](/support/how-to/managing-cloud-databases-configuration-groups-in-the-cloud-control-panel)
+- [Setting the time zone for a Cloud Databases instance](/support/how-to/setting-the-time-zone-for-a-cloud-databases-instance)
 
 ###  Cloud Databases Information
 
 - [Cloud Databases Product and Pricing Information](https://www.rackspace.com/cloud/databases)
-- [Public and Private Access for Cloud Databases](/how-to/public-and-private-access-for-cloud-databases)
-- [Cloud Database Instance Parameters](/how-to/cloud-database-instance-parameters)
+- [Public and Private Access for Cloud Databases](/support/how-to/public-and-private-access-for-cloud-databases)
+- [Cloud Database Instance Parameters](/support/how-to/cloud-database-instance-parameters)
 
 ###  Cloud Databases API
 

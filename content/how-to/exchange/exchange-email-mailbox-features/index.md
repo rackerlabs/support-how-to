@@ -27,7 +27,7 @@ scott@example.com. Adding all members of the billing team to one distribution
 list makes it possible to communicate new upcoming billing updates
 within the team by writing to one address, such as billingupdates@example.com.
 
-See [Manage distribution lists in Exchange](/how-to/manage-distribution-lists-in-exchange/)
+See [Manage distribution lists in Exchange](/support/how-to/manage-distribution-lists-in-exchange/)
 for instructions on setting up distribution lists.
 
 ### Outlook Web App (OWA)

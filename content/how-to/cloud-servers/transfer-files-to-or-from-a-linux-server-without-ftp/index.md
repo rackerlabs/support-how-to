@@ -24,7 +24,7 @@ FileZilla&reg;, Cyberduck&reg;, or WinSCP&reg;, this protocol might be listed as
 SFTP (Secure FTP), which does *not* require an extra FTP service. You can use
 any of the following GUI tools to perform a file transfer over SFTP:
 
-- [FileZilla](/how-to/connect-to-cloud-servers-with-filezilla-by-using-sftp)
+- [FileZilla](/support/how-to/connect-to-cloud-servers-with-filezilla-by-using-sftp)
 
 - [Cyberduck](https://cyberduck.io/?l=en)
 
@@ -34,9 +34,9 @@ If you cannot connect after you have logged in by using SSH, you should verify
 that FTP has been used in the past. If you need assistance getting logged in
 with SSH, review the following article for your platform:
 
-- [Windows](/how-to/connecting-to-linux-from-windows-by-using-putty/)
+- [Windows](/support/how-to/connecting-to-linux-from-windows-by-using-putty/)
 
-- [Mac OSX](/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal/)
+- [Mac OSX](/support/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal/)
 
 ### Log in to a Linux server
 

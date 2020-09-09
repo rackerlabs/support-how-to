@@ -114,6 +114,6 @@ steps:
 
 For more information, see the following resources:
 
-- [Create a DKIM TXT record](/how-to/create-a-dkim-txt-record)
+- [Create a DKIM TXT record](/support/how-to/create-a-dkim-txt-record)
 
 - [SPF Record Testing Tools](https://www.kitterman.com/spf/validate.html)

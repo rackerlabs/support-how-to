@@ -20,13 +20,13 @@ DomainKeys identified mail (DKIM) adds a secure signature to your domain to auth
 - **Time needed:** Approximately 15 minutes to create record, 24-48 hours for the record to propagate
 - **Tools required:**  DNS host administrator access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 Before enabling DKIM, we recommend you create a robust email verification policy by completing the steps in the following articles: 
 
-1. [Create an **SPF** record policy](/how-to/create-an-spf-policy). 
+1. [Create an **SPF** record policy](/support/how-to/create-an-spf-policy). 
 2. Create a **DKIM** record. 
-3. [Create a DMARC record policy](/how-to/create-a-dmarc-policy).
+3. [Create a DMARC record policy](/support/how-to/create-a-dmarc-policy).
 
 For a video tutorial of the following steps, see [Rackspace Email - DMARC / DKIM: What It Is & How to Setup](https://emailhelp.rackspace.com/l/dmarc-dkim-records-setup).
 
@@ -47,7 +47,7 @@ want to enable DKIM.
 
     - If your domain's DNS is managed through your Cloud Office Control Panel, then DKIM enabling is automatic.
 
-    - If your domain's DNS is managed through another service, then you are given the DNS key and value information to add a new TXT record. See the documentation of your DNS hosting provider for instructions on adding a new TXT record for your domain. If you do not know where your DNS is hosted, see [Find your DNS host](/how-to/find-dns-host).
+    - If your domain's DNS is managed through another service, then you are given the DNS key and value information to add a new TXT record. See the documentation of your DNS hosting provider for instructions on adding a new TXT record for your domain. If you do not know where your DNS is hosted, see [Find your DNS host](/support/how-to/find-dns-host).
 
 
 

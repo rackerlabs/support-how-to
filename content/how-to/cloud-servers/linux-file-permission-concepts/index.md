@@ -15,7 +15,7 @@ This article explores the core concepts of Linux&reg; file permissions. It start
 with the basics and moves on to more advanced topics. It also provides some
 practical examples. To get an introduction to file permissions and to learn how
 to view file permissions, see
-[Check Linux file permissions with ls](/how-to/checking-linux-file-permissions-with-ls/).
+[Check Linux file permissions with ls](/support/how-to/checking-linux-file-permissions-with-ls/).
 
 ### File access
 

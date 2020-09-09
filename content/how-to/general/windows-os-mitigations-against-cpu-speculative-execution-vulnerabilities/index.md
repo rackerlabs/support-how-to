@@ -94,7 +94,7 @@ In addition to updating the registry, applying the update, and enabling update p
 
 **Install the firmware updates**
 
-Instructions for applying firmware updates are outlined in [Firmware/Microcode mitigations against CPU speculative execution vulnerabilities](/how-to/firmware-microcode-mitigations-against-cpu-speculative-execution-vulnerabilities/).
+Instructions for applying firmware updates are outlined in [Firmware/Microcode mitigations against CPU speculative execution vulnerabilities](/support/how-to/firmware-microcode-mitigations-against-cpu-speculative-execution-vulnerabilities/).
 
 
 As always, please contact your support team if you have any questions.

@@ -69,12 +69,12 @@ For detailed descriptions of these remote checks, see [Remote check types](https
 
 Hostinfo checks, which are a special class of checks that run on demand, cannot be
 created in the Rackspace Intelligence interface. However, you can create them by using
-the Rackspace Monitoring CLI or API. These checks are described in [Rackspace Cloud Monitoring Checks and Alarms](/how-to/rackspace-monitoring-checks-and-alarms).
+the Rackspace Monitoring CLI or API. These checks are described in [Rackspace Cloud Monitoring Checks and Alarms](/support/how-to/rackspace-monitoring-checks-and-alarms).
 
 ### Checks and alerts
 
 Checks can generate alerts. You can observe open alerts within the Rackspace Intelligence dashboard, as explained at
-[Monitor open alerts with Rackspace Intelligence](/how-to/monitoring-open-alerts-with-rackspace-intelligence).
+[Monitor open alerts with Rackspace Intelligence](/support/how-to/monitoring-open-alerts-with-rackspace-intelligence).
 You can also choose to notify someone (for example, on-call technical support) or to suppress notification (for example, during scheduled maintenance).
 
 ### Create a check
@@ -106,7 +106,7 @@ You can perform the following editing actions for checks.
 #### Add an alarm
 
 For instructions on adding an alarm for a check, see the "Create an alarm" section of
-[Working with alarms](/how-to/working-with-alarms).
+[Working with alarms](/support/how-to/working-with-alarms).
 
 #### Modify the status of a check
 

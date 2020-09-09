@@ -12,7 +12,7 @@ product_url: account-management
 ---
 
 **Previous section:** [Getting started with Role-Based Access Control
-(RBAC)](/how-to/getting-started-with-role-based-access-control-rbac)
+(RBAC)](/support/how-to/getting-started-with-role-based-access-control-rbac)
 
 This article answers basic questions about the Role-Based Access Control
 (RBAC) service.
@@ -186,23 +186,23 @@ API documentation](https://docs.rackspace.com/docs/).
 
 The following Rackspace products are RBAC-enabled:
 
--   [Cloud Servers](/how-to/cloud-servers)
--   [Cloud Files](/how-to/cloud-files)
--   [Cloud Databases](/how-to/cloud-databases)
--   [Cloud Load Balancers](/how-to/cloud-load-balancers)
--   [Cloud Queues](/how-to/cloud-queues)
--   [Rackspace Monitoring](/how-to/rackspace-monitoring)
--   [Rackspace Metrics](/how-to/rackspace-metrics)
--   [Cloud Backup](/how-to/cloud-backup)
--   [Cloud Networks](/how-to/cloud-networks)
--   [Cloud Block Storage](/how-to/cloud-block-storage)
--   [Auto Scale](/how-to/rackspace-auto-scale)
--   [Cloud Images](/how-to/cloud-images)
--   [Cloud Orchestration](/how-to/cloud-orchestration)
--   [Cloud DNS](/how-to/cloud-dns)
--   [Cloud Feeds](/how-to/cloud-feeds-overview)
--   [Rackspace CDN](/how-to/rackspace-cdn)
--   [Rackspace billing FAQ](/how-to/rackspace-billing-faq)
+-   [Cloud Servers](/support/how-to/cloud-servers)
+-   [Cloud Files](/support/how-to/cloud-files)
+-   [Cloud Databases](/support/how-to/cloud-databases)
+-   [Cloud Load Balancers](/support/how-to/cloud-load-balancers)
+-   [Cloud Queues](/support/how-to/cloud-queues)
+-   [Rackspace Monitoring](/support/how-to/rackspace-monitoring)
+-   [Rackspace Metrics](/support/how-to/rackspace-metrics)
+-   [Cloud Backup](/support/how-to/cloud-backup)
+-   [Cloud Networks](/support/how-to/cloud-networks)
+-   [Cloud Block Storage](/support/how-to/cloud-block-storage)
+-   [Auto Scale](/support/how-to/rackspace-auto-scale)
+-   [Cloud Images](/support/how-to/cloud-images)
+-   [Cloud Orchestration](/support/how-to/cloud-orchestration)
+-   [Cloud DNS](/support/how-to/cloud-dns)
+-   [Cloud Feeds](/support/how-to/cloud-feeds-overview)
+-   [Rackspace CDN](/support/how-to/rackspace-cdn)
+-   [Rackspace billing FAQ](/support/how-to/rackspace-billing-faq)
 
 ### Which products will be RBAC-enabled in the future?
 
@@ -217,4 +217,4 @@ The following Rackspace products will not have RBAC:
 ### Next section
 
 [Use Role-Based Access Control
-(RBAC)](/how-to/managing-role-based-access-control-rbac)
+(RBAC)](/support/how-to/managing-role-based-access-control-rbac)

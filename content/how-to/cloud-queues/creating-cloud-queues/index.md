@@ -16,7 +16,7 @@ at the command line. After creating the Queue, you can use the
 Control Panel for viewing Queue details or deleting the Queue as
 needed. All other Queue commands will be completed through the command line.
 
-**Note:** Be sure to [set up your authentication token](/how-to/cloud-queues-curl-cookbook)
+**Note:** Be sure to [set up your authentication token](/support/how-to/cloud-queues-curl-cookbook)
 before creating a queue by using the command line.
 
 ### Create a queue in the control panel
@@ -31,7 +31,7 @@ before creating a queue by using the command line.
 
 When the queue is finished building, you will see the details for your
 queue listed in the Control Panel. You will then need to complete the
-steps under [Testing Your Queue](/how-to/cloud-queues-curl-cookbook)
+steps under [Testing Your Queue](/support/how-to/cloud-queues-curl-cookbook)
 in your terminal to begin posting messages to your Queue.
 
 ### Create a queue from the command line

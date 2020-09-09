@@ -20,9 +20,9 @@ This article describes how to prepare Mac users to migrate from Rackspace Email 
 - **Time needed:** Approximately 30 minutes
 - **Tools required:** Mac computer, apps.rackspace.com access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
-**Warning:** Log in to [apps.rackspace.com](https://apps.rackspace.com/index.php) to verify that all email data is stored in your mailbox on the server. If it is not, you risk losing data, and should contact your [Administrator](/how-to/cloud-office-support-terminology/) to troubleshoot synchronizing your mail up to [apps.rackspace.com](https://apps.rackspace.com/index.php).
+**Warning:** Log in to [apps.rackspace.com](https://apps.rackspace.com/index.php) to verify that all email data is stored in your mailbox on the server. If it is not, you risk losing data, and should contact your [Administrator](/support/how-to/cloud-office-support-terminology/) to troubleshoot synchronizing your mail up to [apps.rackspace.com](https://apps.rackspace.com/index.php).
 
 ### Create a backup by exporting the mailbox
 

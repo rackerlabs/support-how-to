@@ -11,7 +11,7 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-**Previous section:** [RackConnect v2.0 requirements](/how-to/rackconnect-v20-requirements)
+**Previous section:** [RackConnect v2.0 requirements](/support/how-to/rackconnect-v20-requirements)
 
 **Applies to:** RackConnect v3.0 and RackConnect v2.0
 
@@ -46,4 +46,4 @@ For more information about our support service levels, see [Dedicated service le
 
 ### Next step
 
-[Getting started with RackConnect v2.0](/how-to/rackconnect-v20)
+[Getting started with RackConnect v2.0](/support/how-to/rackconnect-v20)

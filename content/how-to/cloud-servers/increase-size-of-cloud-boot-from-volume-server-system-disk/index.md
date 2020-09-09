@@ -44,7 +44,7 @@ Use the following steps to detach the volume from the VM:
 
    **Note**: To learn how to obtain your API key, see [View and reset
    your API
-   key](/how-to/view-and-reset-your-api-key/).
+   key](/support/how-to/view-and-reset-your-api-key/).
 
 3. After you are logged in to Pitchfork, select **Cloud Servers**.
 4. Scroll to the **Volumes** section. Next to **List Attached Volumes**,
@@ -124,4 +124,4 @@ In the Cloud Control Panel, run the **Reboot** command.
 
 After the VM is in **Active** status, you are able to
 log in to the VM again by using SSH and RDP or the [Emergency
-Console](/how-to/start-a-console-session/).
+Console](/support/how-to/start-a-console-session/).

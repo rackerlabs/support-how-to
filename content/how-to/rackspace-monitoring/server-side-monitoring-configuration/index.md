@@ -15,7 +15,7 @@ Monitoring configurations can be applied across an entire environment with a ser
 
 ### Set up the Rackspace Monitoring Agent
 
-Before you create a monitoring configuration file on a server, ensure that the latest version of the Rackspace Monitoring Agent is connected to the server that you are targeting for configuration. To learn how to connect the monitoring agent, see [Install and configure the Rackspace Monitoring Agent](/how-to/install-and-configure-the-rackspace-monitoring-agent/).
+Before you create a monitoring configuration file on a server, ensure that the latest version of the Rackspace Monitoring Agent is connected to the server that you are targeting for configuration. To learn how to connect the monitoring agent, see [Install and configure the Rackspace Monitoring Agent](/support/how-to/install-and-configure-the-rackspace-monitoring-agent/).
 
 ### Create a server-side configuration file
 

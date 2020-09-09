@@ -16,7 +16,7 @@ This means that many features that are present in the full version of
 MigrationWiz are not readily available. If you choose to, you can use the full
 version instead. If you are not looking for the features provided by the
 full version of MigrationWiz, see
-[Migrate your email by using the Self-Service Migration tool](/how-to/migrate-your-email-by-using-the-self-service-migration-tool)
+[Migrate your email by using the Self-Service Migration tool](/support/how-to/migrate-your-email-by-using-the-self-service-migration-tool)
 for the standard steps.
 
 ### Benefits of the full version of MigrationWiz

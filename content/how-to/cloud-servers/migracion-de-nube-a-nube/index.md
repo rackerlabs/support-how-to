@@ -113,7 +113,7 @@ aplicación y puedes agregar o eliminar nodos a medida que cambie la carga. Cabe
 señalar que el escalamiento horizontal no es necesariamente el indicado para
 todas las aplicaciones.
 
-El artículo [open cloud reference architectures](/how-to/rackspace-open-cloud-reference-architecture)
+El artículo [open cloud reference architectures](/support/how-to/rackspace-open-cloud-reference-architecture)
 ilustra algunos ejemplos de diferentes ambientes de nube.
 
 **Nota:** Si estás usando servidores tipo Performance es importante observar
@@ -130,10 +130,10 @@ Cloud Block Storage realizando un formateo del disco y configurando el
 sistema operativo para usarlos.
 
 Para preparar Cloud Block Storage puedes ver
-[Prepare your Cloud Block Storage volume](/how-to/prepare-your-cloud-block-storage-volume).
+[Prepare your Cloud Block Storage volume](/support/how-to/prepare-your-cloud-block-storage-volume).
 
 Para preparar los discos de datos en servidores tipo I/O-optimized puedes ver
-[Prepare data disks on a Linux Cloud Servers](/how-to/preparing-data-disks-on-linux-cloud-servers).
+[Prepare data disks on a Linux Cloud Servers](/support/how-to/preparing-data-disks-on-linux-cloud-servers).
 
 Si deseas utilizar los discos adicionales en configuración RAID en Linux puedes
 ver [Linux Software-RAID HOWTO](https://www.tldp.org/HOWTO/Software-RAID-HOWTO.html).
@@ -171,7 +171,7 @@ transfieres la data mediante la IP pública incurrirás cargos por uso de
 ancho de banda.
 
 Para mas información sobre rsync puedes ver
-[Back up your files with rsync](/how-to/backing-up-your-files-with-rsync).
+[Back up your files with rsync](/support/how-to/backing-up-your-files-with-rsync).
 
 #### Opciones específicas en aplicaciones
 

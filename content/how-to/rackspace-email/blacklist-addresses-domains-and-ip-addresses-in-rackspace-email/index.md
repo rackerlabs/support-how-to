@@ -20,11 +20,11 @@ This article explains how to add an email address,domain, or IP address to a bla
 - **Time needed:** Approximately 5 minutes
 - **Tools required:**  apps.rackspace.com access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Why use a Blacklist?
 
-When you blacklist an email address, domain, or IP address, this creates a rule that rejects any mail sent from the source that you specified. Using a blacklist can help [combat spoofing](/how-to/email-spoofing-best-practices) or spam. If you need to **safelist** a sender see [Safelist addresses, domains and IP addresses in Rackspace email](/how-to/safelist-addresses-domains-and-ips-in-rackspace-email).
+When you blacklist an email address, domain, or IP address, this creates a rule that rejects any mail sent from the source that you specified. Using a blacklist can help [combat spoofing](/support/how-to/email-spoofing-best-practices) or spam. If you need to **safelist** a sender see [Safelist addresses, domains and IP addresses in Rackspace email](/support/how-to/safelist-addresses-domains-and-ips-in-rackspace-email).
 
 **Warning:** Use caution when blacklisting entire domains or IP addresses, because you might unintentionally block legitimate mail.
 

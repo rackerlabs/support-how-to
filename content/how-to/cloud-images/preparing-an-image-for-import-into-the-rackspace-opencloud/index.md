@@ -26,7 +26,7 @@ correctly, prepare them according to the following requirements and instructions
 **Tools used:**
 
 - [xcp-ng](https://xcp-ng.org)
-- [Swiftly](/how-to/install-the-swiftly-client-for-cloud-files/)
+- [Swiftly](/support/how-to/install-the-swiftly-client-for-cloud-files/)
 - [Pitchfork](https://pitchfork.rax.io/)
 
 Beginning with an on-premises virtual machine (VM), we demonstrate how to import and boot a
@@ -128,7 +128,7 @@ If the ``creator-application`` is ``qemu``, the VHD doesn't resize, and any buil
 
 ### Upload the VHD image to the Rackspace Cloud Files
 
-For the next steps, you need [Swiftly](/how-to/install-the-swiftly-client-for-cloud-files/),
+For the next steps, you need [Swiftly](/support/how-to/install-the-swiftly-client-for-cloud-files/),
 a Rackspace Cloud Files client. Install and configure Swiftly according to the linked article.
 
 Next, create a Cloud Files container, which receives your VHD image file. In this example, create
@@ -169,7 +169,7 @@ can boot properly. Using the image ID you got from the previous step, make the [
 | --- | ----- | ------------ |
 | vm_mode | hvm | Boots in the correct virtualizaton mode. If you do not set this correctly, you get bootloader errors. |
 | img_config_drive | mandatory| Attaches the OpenStack&reg; config-drive for metadata information (network, SSH keys) to servers built from this image. |
-| xenapi_use_agent | False | Don't use [the nova-agent](/how-to/nova-agent-unix-and-rackspace-agent-windows/) to set up the server. |
+| xenapi_use_agent | False | Don't use [the nova-agent](/support/how-to/nova-agent-unix-and-rackspace-agent-windows/) to set up the server. |
 
 <br/>
 
@@ -191,7 +191,7 @@ configuration.
 
 #### Log in via the emergency console and configure your network
 
-Use the [emergency console](/how-to/start-a-console-session/) to
+Use the [emergency console](/support/how-to/start-a-console-session/) to
 log in to your new Rackspace Cloud Server and switch to the root user. Find the network configuration
 including DNS servers, routes, and so on on the server's OpenStack config-drive (**/dev/xvdd**),
 in a file called **network-data.json**. To read the **network-data.json** file, execute the

@@ -13,7 +13,7 @@ product_url: exchange
 
 This article provides instructions about configuring Outlook&reg; 2010 email client to work with your Microsoft&reg; Exchange&reg; 2010 mailbox.
 
-**Note:** We recommend that customers on Exchange 2010 update to a later [Exchange version](/how-to/upgrading-your-exchange-version) or to our [Office 365&reg;](/how-to/upgrade-rackspace-email-and-microsoft-exchange-to-office-365-faq) offering.
+**Note:** We recommend that customers on Exchange 2010 update to a later [Exchange version](/support/how-to/upgrading-your-exchange-version) or to our [Office 365&reg;](/support/how-to/upgrade-rackspace-email-and-microsoft-exchange-to-office-365-faq) offering.
 
 1. Click the Windows&reg; **Start** button, select **Control Panel**, and then select the
    **Mail** icon. Change the **View by** setting to **Large Icons** if you do not see the **Mail** icon on this screen.

@@ -11,7 +11,7 @@ product: Account Management
 product_url: account-management
 ---
 
-To review instructions for using the support PIN system please see [Support PIN management](/how-to/support-pin-management).
+To review instructions for using the support PIN system please see [Support PIN management](/support/how-to/support-pin-management).
 
 
 ### Support PIN FAQs
@@ -42,12 +42,12 @@ To review instructions for using the support PIN system please see [Support PIN 
 
 {{< accordion title="Where can customers locate their support PIN?" col="in" href="accordion5" >}}
 
-- All Rackspace account users can find their support PIN within the MyRack, MyCloud, and the mobile app, under the **Support** section. See [View or edit an account user or contact Support PIN](/how-to/support-pin-management/#view-or-edit-an-account-user-or-contact-support-pin) for detailed instructions on viewing a Support PIN.
+- All Rackspace account users can find their support PIN within the MyRack, MyCloud, and the mobile app, under the **Support** section. See [View or edit an account user or contact Support PIN](/support/how-to/support-pin-management/#view-or-edit-an-account-user-or-contact-support-pin) for detailed instructions on viewing a Support PIN.
 {{< /accordion >}}
 
 {{< accordion title="Can customers change their support PIN?" col="in" href="accordion6" >}}
 
-- Yes, Rackspace account users can change their pin at any time unless their Support PIN is locked. See [View or edit an account user or contact Support PIN](/how-to/support-pin-management/#view-or-edit-an-account-user-or-contact-support-pin) for detailed instructions on changing a Support PIN.
+- Yes, Rackspace account users can change their pin at any time unless their Support PIN is locked. See [View or edit an account user or contact Support PIN](/support/how-to/support-pin-management/#view-or-edit-an-account-user-or-contact-support-pin) for detailed instructions on changing a Support PIN.
 {{< /accordion >}}
 
 {{< accordion title="How does a support PIN protect your account against social engineering?" col="in" href="accordion7" >}}
@@ -59,7 +59,7 @@ To review instructions for using the support PIN system please see [Support PIN 
 
 Customers are still able to log in to their portals. The portal password and support PIN are completely separate and are not tied to each other. To unlock the support PIN, the customer needs to log in to the portal and take the **Unlock** action in the **User Management** section. After the support PIN is unlocked, the customer can call in for phone support.
 
-See [Unlock a Support PIN](/how-to/support-pin-management/#unlock-a-support-pin) for further instructions on unlocking a Support PIN.
+See [Unlock a Support PIN](/support/how-to/support-pin-management/#unlock-a-support-pin) for further instructions on unlocking a Support PIN.
 {{< /accordion >}}
 
 {{< accordion title="Are there any requirements for a support PIN?" col="in" href="accordion9" >}}

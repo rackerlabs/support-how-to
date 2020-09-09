@@ -29,7 +29,7 @@ Cloud Files has the following characteristics:
 -   You can have any number of objects within each container.
 -   Objects can vary in size from a few bytes to several gigabyes.
 
-For more details, see the [Cloud Files Key Concepts](/how-to/cloud-files-key-concepts).
+For more details, see the [Cloud Files Key Concepts](/support/how-to/cloud-files-key-concepts).
 
 ### What is the CDN?
 
@@ -75,4 +75,4 @@ Use the following steps to upload files to a container:
 
     Options for sharing your file are displayed.
 
-To learn more about how to operate with Cloud Files through the API, see [Connecting to Cloud Files](/how-to/connecting-to-cloudfiles) and the [Cloud Files API Developer Guide](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/).
+To learn more about how to operate with Cloud Files through the API, see [Connecting to Cloud Files](/support/how-to/connecting-to-cloudfiles) and the [Cloud Files API Developer Guide](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/).

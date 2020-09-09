@@ -13,7 +13,7 @@ product_url: rackspace-email
 
 This article describes how to locate your domain’s DNS host. 
 
-If you need to configure your DNS for Rackspace Cloud Office Email products, see [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email).
+If you need to configure your DNS for Rackspace Cloud Office Email products, see [Set up DNS records for Cloud Office email](/support/how-to/set-up-dns-records-for-cloud-office-email).
 
 ### Prerequisites
 
@@ -22,7 +22,7 @@ If you need to configure your DNS for Rackspace Cloud Office Email products, see
 - **Time needed:** Approximately 10 minutes
 - **Tools required:** Internet browser
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Find the DNS host
 
@@ -32,7 +32,7 @@ For more information on prerequisite terminology, see [Cloud Office support term
    
    If any of the following server names are listed in the **Name Servers** section for your domain, Rackspace is most likely your DNS host and can assist you with editing your DNS records.
    
-   For more information, see [Set up DNS records for Cloud Office email](/how-to/set-up-dns-records-for-cloud-office-email).
+   For more information, see [Set up DNS records for Cloud Office email](/support/how-to/set-up-dns-records-for-cloud-office-email).
    
    - NS.RACKSPACE.COM
    - NS2.RACKSPACE.COM
@@ -57,5 +57,5 @@ The following websites provide instructions for editing your DNS records for som
 - [GoDaddy](https://www.godaddy.com/help/manage-dns-680)
 - [BlueHost](https://my.bluehost.com/cgi/help/559)
 - [HostGator](https://support.hostgator.com/articles/changing-dns-records)
-- [Network Solutions](https://www.networksolutions.com/how-to-manage-advanced-dns-records/)
+- [Network Solutions](https://www.networksolutions.com/support/how-to-manage-advanced-dns-records/)
 - [1&1](https://help.1and1.com/domains-c36931/manage-domains-c79822/dns-c37586)

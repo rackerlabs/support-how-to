@@ -20,7 +20,7 @@ This article shows how to create an alias that forwards emails to another mailbo
 - **Time needed:** 5 minutes
 - **Tools required:** Cloud Office Control Panel access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 Aliases are a way to create an alternate email address name for an existing email address. For example, John likes to go by Johnny and would like to receive emails to both John@domain.com (actual email address), for business partners, and Johnny@domain.com (alias email address), for friends and family, without checking two different accounts. In this case, he needs anything sent to johnny@domain.com to be delivered to john@domain.com.
 

@@ -15,7 +15,7 @@ This article walks you through creating an on-demand image of a General
 Purpose v1 Cloud Server. You can also schedule a daily image for your
 Cloud Servers using the [Cloud Control Panel](https://login.rackspace.com).
 If you are interested in creating an image of a virtual Cloud Server, see
-[Creating an image of your Performance Flavor Server with the Control Panel](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
+[Creating an image of your Performance Flavor Server with the Control Panel](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
 
 **Note**: This is an optional service that incurs storage and bandwidth
 charges on Cloud Files, but the convenience of easily restoring a

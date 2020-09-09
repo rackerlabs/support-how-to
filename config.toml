@@ -84,10 +84,6 @@ defaultMarkdownHandler = "goldmark"
     ordered = false
     startLevel = 2
 
-[[menu.docs]]
-    name = "Welcome"
-    weight = 1
-
 [[menu.footer]]
     name = "Support Network Home"
     parent = "Support Network"
@@ -193,7 +189,7 @@ defaultMarkdownHandler = "goldmark"
 [[menu.main]]
     identifier = "how_to"
     name = "How-To"
-    url = "/how-to"
+    url = "/support/how-to"
     weight = 2
 [[menu.main]]
     identifier = "developer_documentation"

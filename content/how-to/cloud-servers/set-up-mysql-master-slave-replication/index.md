@@ -15,7 +15,7 @@ Master-slave data replication allows for replicated data to be copied to
 multiple computers for backup and analysis by multiple parties. Needed
 changes identified by a group member must to be submitted to the
 designated "master" of the node. This differs from [Master-Master
-replication](/how-to/mysql-master-master-replication),
+replication](/support/how-to/mysql-master-master-replication),
 in which data can be updated by any authorized contributor of the group.
 
 This article provides steps for setting up MySQL&reg; master-slave database

@@ -20,7 +20,7 @@ A domain's WHOIS record includes various types of information about each domain 
 - **Time needed:** Approximately 15 minutes to update WHOIS and to confirm any changes
 - **Tools required:**  Access to Control Panel and WHOIS contact email address
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
 
 **Note:** The information that you provide is visible to anyone who searches the Internet for your domain's WHOIS record.

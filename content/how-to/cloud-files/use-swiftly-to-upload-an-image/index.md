@@ -29,7 +29,7 @@ GB to Cloud Files as a Static Large Object.
 
 For more information about Cloud Files Large Objects, see the [Cloud Files documentation](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/).
 
-**Note:** If you prefer to use the API to manage large files, see [Use the API to manage large files](/how-to/use-the-api-to-manage-large-files), and if you prefer Swift, see [Use Swift to manage large files](/how-to/use-swift-to-manage-large-files).
+**Note:** If you prefer to use the API to manage large files, see [Use the API to manage large files](/support/how-to/use-the-api-to-manage-large-files), and if you prefer Swift, see [Use Swift to manage large files](/support/how-to/use-swift-to-manage-large-files).
 
 ### Prerequisites
 
@@ -38,8 +38,8 @@ an image for import into the public cloud and that you have already
 installed the Swiftly client. If you need help with either of these
 prerequisites, see the following articles:
 
-- [Preparing an image for import into the Rackspace open cloud](/how-to/preparing-an-image-for-import-into-the-rackspace-opencloud)
-- [Install the Swiftly client for Cloud Files](/how-to/install-the-swiftly-client-for-cloud-files)
+- [Preparing an image for import into the Rackspace open cloud](/support/how-to/preparing-an-image-for-import-into-the-rackspace-opencloud)
+- [Install the Swiftly client for Cloud Files](/support/how-to/install-the-swiftly-client-for-cloud-files)
 
 ### Set environment variables
 
@@ -54,7 +54,7 @@ In a Bash shell, set the following environment variables:
     SWFLY_SEG_BYTES=134217728
     SWFLY_CONCURRENCY=20
 
-To view information about viewing your Rackspace API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
+To view information about viewing your Rackspace API key, see [View and reset your API key](/support/how-to/view-and-reset-your-api-key).
 
 Ensure that the container into which you want to uploads your object
 already exists in the appropriate region in Cloud Files. (You can create
@@ -85,7 +85,7 @@ line to perform the upload, as follows.
 
 **Note**: Consider using a screen session to perform this task. If
 you're not familiar with the GNU Screen program, you can find an
-introduction in [Install the Swiftly client for Cloud Files](/how-to/install-the-swiftly-client-for-cloud-files).
+introduction in [Install the Swiftly client for Cloud Files](/support/how-to/install-the-swiftly-client-for-cloud-files).
 
     swiftly
       --auth-url=https://identity.api.rackspacecloud.com/v2.0

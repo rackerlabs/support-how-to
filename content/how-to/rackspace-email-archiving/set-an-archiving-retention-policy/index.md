@@ -21,7 +21,7 @@ This article describes how to set a retention policy in your email archive. This
 - **Time needed:** Approximately 10 minutes
 - **Tools required:** Cloud Office Control Panel access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 
 ### Set an archive retention policy

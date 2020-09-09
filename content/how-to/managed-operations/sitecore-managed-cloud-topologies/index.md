@@ -11,14 +11,14 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-[Sitecore Managed Cloud Premium – FAQ](/how-to/sitecore-cloud-faq/).
+[Sitecore Managed Cloud Premium – FAQ](/support/how-to/sitecore-cloud-faq/).
 
 The following table describes differences between various Sitecore XP environments for the Sitecore Managed Cloud service, as well as their related Azure components.
 
 Customers can purchase these configurations under both Prod and NonProd SLA's.
 
 
-**Note:** Tiers and topologies are subject to availability. Check [Sitecore Managed Cloud Premium – FAQ](/how-to/sitecore-cloud-faq/) for currently supported tiers for provisioning new Sitecore Managed Cloud, as well as Microsoft Azure data center compatibility information.
+**Note:** Tiers and topologies are subject to availability. Check [Sitecore Managed Cloud Premium – FAQ](/support/how-to/sitecore-cloud-faq/) for currently supported tiers for provisioning new Sitecore Managed Cloud, as well as Microsoft Azure data center compatibility information.
 
 ### Experience Management
 
@@ -97,4 +97,4 @@ Customers can purchase these configurations under both Prod and NonProd SLA's.
 
 ### Next steps
 
-For more information about Sitecore Managed Cloud, see [Sitecore Managed Cloud Premium – FAQ](/how-to/sitecore-cloud-faq/).
+For more information about Sitecore Managed Cloud, see [Sitecore Managed Cloud Premium – FAQ](/support/how-to/sitecore-cloud-faq/).

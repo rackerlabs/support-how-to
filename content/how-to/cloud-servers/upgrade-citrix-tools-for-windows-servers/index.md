@@ -44,17 +44,17 @@ before beginning this tutorial.
 #### Create a Backup using Cloud Backup
 
 Use the Cloud Backup product to back up all user data. This
-[Cloud Backup instruction](/how-to/rackspace-cloud-backup-create-a-backup/)
+[Cloud Backup instruction](/support/how-to/rackspace-cloud-backup-create-a-backup/)
 covers the installation of the Cloud Backup agent and the configuration of the
 backup.
 
 #### Create an image of the production server
 
-1. [Create an image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image/)
+1. [Create an image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image/)
 of the production server that needs the upgrades. This can take less than an
 hour or multiple hours depending on the size of your server's virtual hard
 drive. You can find more information about images on the
-[Cloud Images FAQ](/how-to/cloud-images-faq/).
+[Cloud Images FAQ](/support/how-to/cloud-images-faq/).
 
 2. Create a new server by using the image that you created.
 

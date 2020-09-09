@@ -38,7 +38,7 @@ that allocate resources based on a process called central processing unit
 (CPU) scheduling. As a result, they don't perform exactly like a dedicated
 machine with similar resources. You can learn more about CPU scheduling by
 reading the "Performance" section of the [Cloud Servers
-FAQ](/how-to/cloud-servers-faq).
+FAQ](/support/how-to/cloud-servers-faq).
 
 [OnMetal Cloud Servers](https://www.rackspace.com/cloud/servers/onmetal) are
 also available. OnMetal servers are single-tenant, bare metal servers that you

@@ -14,7 +14,7 @@ product_url: rackspace-intelligence
 **Note**: This guide is for Rackspace Intelligence on a dedicated
 account. If you have a standard cloud account, see
 [Getting started with Rackspace Intelligence for the
-cloud](/how-to/getting-started-with-rackspace-intelligence-for-the-cloud).
+cloud](/support/how-to/getting-started-with-rackspace-intelligence-for-the-cloud).
 
 Rackspace Intelligence supports dedicated customer accounts. If you're a
 dedicated customer, you can use the Rackspace Intelligence dashboard to view
@@ -27,7 +27,7 @@ As a customer with a dedicated account, you can perform the following tasks:
 - View the availability of your applications.
 - Create customized visualizations and graphs.
 - Use the following types of [remote
-  checks](/how-to/working-with-alarms/):
+  checks](/support/how-to/working-with-alarms/):
 
     - Ping
 
@@ -36,7 +36,7 @@ As a customer with a dedicated account, you can perform the following tasks:
     - HTTP
 
 For more information, see [Working with
-alarms](/how-to/working-with-alarms/).
+alarms](/support/how-to/working-with-alarms/).
 
 ### Prerequisites
 
@@ -44,11 +44,11 @@ Before you begin to use Rackspace Intelligence, you might want to review the
 following resources:
 
 - [Learn the Rackspace Intelligence
-  vocabulary](/how-to/learning-the-rackspace-intelligence-vocabulary)
+  vocabulary](/support/how-to/learning-the-rackspace-intelligence-vocabulary)
 - [Understanding the Rackspace Intelligence User Interface for dedicated
-  accounts](/how-to/understanding-the-rackspace-intelligence-user-interface-for-dedicated-accounts)
+  accounts](/support/how-to/understanding-the-rackspace-intelligence-user-interface-for-dedicated-accounts)
 - [Differences between Rackspace Intelligence for cloud accounts and dedicated
-  accounts](https://docs.rackspace.com/how-to/differences-between-rackspace-intelligence-for-cloud-account-and-dedicated-account/)
+  accounts](https://docs.rackspace.com/support/how-to/differences-between-rackspace-intelligence-for-cloud-account-and-dedicated-account/)
 
 ### Access Rackspace Intelligence
 
@@ -65,4 +65,4 @@ You are redirected to the Rackspace Intelligence dashboard.
 
 For more information about these features, see [Work with alarms, checks,
 notifications, and notification plans for dedicated
-accounts](/how-to/working-with-alarms-checks-entities-notifications-and-notification-plans-in-rackspace).
+accounts](/support/how-to/working-with-alarms-checks-entities-notifications-and-notification-plans-in-rackspace).

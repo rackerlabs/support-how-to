@@ -11,7 +11,7 @@ product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
 
-**Previous section:** [Prepare your Cloud Block Storage volume](/how-to/prepare-your-cloud-block-storage-volume)
+**Previous section:** [Prepare your Cloud Block Storage volume](/support/how-to/prepare-your-cloud-block-storage-volume)
 
 A snapshot is a copy made of your volume at a specific moment in time.
 It contains the full directory structure of the volume. Each subsequent
@@ -37,8 +37,8 @@ It is a good idea to detach your volume from your server before you take
 a snapshot. This is the safest method to prevent your server from
 writing information while you are backing it up. That could get your
 data out of sync and could create a problem. To detach your volume, see
-the instructions on how to [detach and delete volumes](/how-to/detach-and-delete-cloud-block-storage-volumes).
-You can always re-attach the volume by following the steps in [Allowing snapshots without detaching the volumes](/how-to/create-and-attach-a-cloud-block-storage-volume) steps
+the instructions on how to [detach and delete volumes](/support/how-to/detach-and-delete-cloud-block-storage-volumes).
+You can always re-attach the volume by following the steps in [Allowing snapshots without detaching the volumes](/support/how-to/create-and-attach-a-cloud-block-storage-volume) steps
 on the **Create/Attach Volume** page.
 
 More advanced users might sync the file system to ensure the
@@ -122,4 +122,4 @@ The larger your volume, the longer it takes to create.
 2.  Click **Delete Snapshot**.
 
 
-**Next steps:** [Detach and delete Cloud Block Storage volumes](/how-to/detach-and-delete-cloud-block-storage-volumes)
+**Next steps:** [Detach and delete Cloud Block Storage volumes](/support/how-to/detach-and-delete-cloud-block-storage-volumes)

@@ -116,7 +116,7 @@ To create a check for an entity:
 2. Select a check from the **Check Type** list, and then enter all the required information.
 
    **Note:** Different check types require different values of input. For
-   more information, see [Working with checks](/how-to/working-with-checks).
+   more information, see [Working with checks](/support/how-to/working-with-checks).
 
 3. Click **Create Check**.
 
@@ -140,7 +140,7 @@ To create a suppression:
 5. When asked to confirm that you want to create a suppression, click **Create Suppression Now**.
 
 For more information about suppressions, see [Working with notification
-suppressions](/how-to/working-with-notification-suppressions-in-rackspace-intelligence).
+suppressions](/support/how-to/working-with-notification-suppressions-in-rackspace-intelligence).
 
 ### Visualize an entity
 

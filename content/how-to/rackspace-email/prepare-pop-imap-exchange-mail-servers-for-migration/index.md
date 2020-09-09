@@ -13,15 +13,15 @@ product_url: rackspace-email
 
 This article outlines important information to consider when you are migrating to Rackspace from one of the most common types of mail servers. Prior to migrating, we recommend that you review this information for your source (current) mail server.
 
-After you have reviewed this information, you can follow the steps in the article [Migrate your email by using the Self-Service Migration tool](/how-to/migrate-your-email-by-using-the-self-service-migration-tool/) to complete your migration.
+After you have reviewed this information, you can follow the steps in the article [Migrate your email by using the Self-Service Migration tool](/support/how-to/migrate-your-email-by-using-the-self-service-migration-tool/) to complete your migration.
 
 ### POP server
 
 POP mail servers store email on the user's local computer and not the source server so you might not need to migrate your users' mail. Therefore, we recommend a local data migration, which you can perform by following the steps in these articles:
 
-- (Mac) [Migrating from a POP server to Rackspace email IMAP using Outlook 2011](/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/)
+- (Mac) [Migrating from a POP server to Rackspace email IMAP using Outlook 2011](/support/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/)
 
-- (Windows) [Migrating from a POP server to Rackspace Email using Outlook 2010](/how-to/migrating-from-a-pop-server-to-rackspace-email-pop-using-outlook-2010/)
+- (Windows) [Migrating from a POP server to Rackspace Email using Outlook 2010](/support/how-to/migrating-from-a-pop-server-to-rackspace-email-pop-using-outlook-2010/)
 
 ### IMAP server
 

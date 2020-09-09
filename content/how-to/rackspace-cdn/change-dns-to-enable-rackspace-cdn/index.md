@@ -35,7 +35,7 @@ Most DNS records for a domain already have an A record that maps your domain to 
 
 If the A record is already created, you must change it to a CNAME that points to the CDN Domain Access domain. Create a CNAME record that points your domain to the CDN domain URL that you retrieved from the Cloud Control Panel. You can see these URLs by hovering over each individual domain name for your CDN service.
 
-If you host your domain with Rackspace, you can manage your DNS records by following the instructions at [Create DNS Records for cloud servers with the Control Panel](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel).
+If you host your domain with Rackspace, you can manage your DNS records by following the instructions at [Create DNS Records for cloud servers with the Control Panel](/support/how-to/create-dns-records-for-cloud-servers-with-the-control-panel).
 
 **Note:** Some DNS providers allow for a CNAME of the root of your domain. Do not use this because it breaks the geolocation of the CDN service. These types of DNS services do the DNS lookup and return the A record (IP address) to which to connect. The geolocation depends on the DNS lookup and locates the best possible CDN edge node based on that DNS lookup. If your DNS service does this lookup for you, it will provide the best possible CDN edge node based on the DNS service's geolocation and not your end-users' location. This causes slow network connections.
 

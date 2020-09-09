@@ -13,7 +13,7 @@ product_url: dedicated-hosting
 
 Firewall Manager v2 is a new tool within the MyRackspace Portal. This article describes the change log feature within this tool.
 
-To learn more about the tool, see [Firewall Manager v2](/how-to/firewall-manager-v2).
+To learn more about the tool, see [Firewall Manager v2](/support/how-to/firewall-manager-v2).
 
 ### What is the change log?
 
@@ -23,7 +23,7 @@ The change log documents the events that Firewall Manager v2 executes on your Ci
 
 ### Access the change log
 
-1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](/how-to/firewall-manager-v2) article.
+1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](/support/how-to/firewall-manager-v2) article.
 
 2. Select the correct firewall from the firewall list in the left pane.
 

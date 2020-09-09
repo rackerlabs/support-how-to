@@ -13,13 +13,13 @@ product_url: rackspace-email
 
 This article provides best practices for sending legitimate email to many recipients through the Rackspace mail system.
 
-If you have received a bounce message when sending an email, see our list of [common email bounce messages](/how-to/common-email-bounces/) for more information.
+If you have received a bounce message when sending an email, see our list of [common email bounce messages](/support/how-to/common-email-bounces/) for more information.
 
 ### Prerequisite
 
 - **Applies to:** Administrators and Users
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Best practices
 
@@ -54,7 +54,7 @@ If you allow other companies to include references to your business, ensure that
 
 #### Message content
 
-We recommend that you follow our person-to-person best practices when creating message content. For more information, see [Best practices for sending person-to-person email](/how-to/best-practices-for-sending-person-to-person-email).
+We recommend that you follow our person-to-person best practices when creating message content. For more information, see [Best practices for sending person-to-person email](/support/how-to/best-practices-for-sending-person-to-person-email).
 
 **Note:** Rackspace strives to maintain the best possible reputation with other mail providers and the email industry. Our Anti-Abuse and Acceptable Use teams work diligently to protect our users from abusive email. An important part of helping us maintain our reputation is helping you send good email.
 

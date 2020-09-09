@@ -15,7 +15,7 @@ Rackspace Intelligence monitors the availability of your IT
 infrastructure and, when limits are exceeded, can respond by notifying
 someone.
 
-When you [log in to Rackspace Intelligence](/how-to/log-in-to-rackspace-intelligence-for-dedicated-accounts)[,](/how-to/log-in-to-rackspace-intelligence-for-dedicated-accounts)
+When you [log in to Rackspace Intelligence](/support/how-to/log-in-to-rackspace-intelligence-for-dedicated-accounts)[,](/support/how-to/log-in-to-rackspace-intelligence-for-dedicated-accounts)
 you can view all your relevant information on the dashboard:
 
 {{<image alt="screenshot of rackspace intelligence dashboard landing page" src="Dashboard.png" title="screenshot of rackspace intelligence dashboard landing page">}}
@@ -46,7 +46,7 @@ to view information about the following items:
 
 You can also use the Rackspace Intelligence dashboard to [view and
 generate graphs to visualize infrastructure
-availability](/how-to/viewing-and-creating-graphs-of-activity-in-rackspace-intelligence-for-dedicated-accounts).
+availability](/support/how-to/viewing-and-creating-graphs-of-activity-in-rackspace-intelligence-for-dedicated-accounts).
 
 **Note** Customers with dedicated accounts cannot use Rackspace
 Intelligence to create or edit entities, alarms, checks, notifications,

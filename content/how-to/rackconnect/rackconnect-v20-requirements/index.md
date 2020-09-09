@@ -11,7 +11,7 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-**Previous section:** [RackConnect key terms](/how-to/rackconnect-key-terms)
+**Previous section:** [RackConnect key terms](/support/how-to/rackconnect-key-terms)
 
 **Applies to:** RackConnect v2.0
 
@@ -68,4 +68,4 @@ configuration and cloud servers secure.
 
 ### Next step
 
-[Getting RackConnect support](/how-to/getting-rackconnect-support)
+[Getting RackConnect support](/support/how-to/getting-rackconnect-support)

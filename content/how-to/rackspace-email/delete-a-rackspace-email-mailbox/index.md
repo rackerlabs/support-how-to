@@ -20,7 +20,7 @@ This article explains how to delete a Rackspace email mailbox in your Cloud Offi
 - **Time needed:** Approximately 5 minutes
 - **Tools required:**  Cloud Office Control Panel access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 
 ### Block access versus delete
@@ -31,7 +31,7 @@ It is important to know the difference between blocking access to a mailbox and 
 
 - Deleting a mailbox removes that mailbox and all of its data from Rackspace's servers.
 
-If you need any of the data in the mailbox, you must export the data before you delete the mailbox. Data exports must be performed through a [local mail client](/how-to/cloud-office-support-terminology), such as Outlook.
+If you need any of the data in the mailbox, you must export the data before you delete the mailbox. Data exports must be performed through a [local mail client](/support/how-to/cloud-office-support-terminology), such as Outlook.
 
 ### Delete a mailbox
 
@@ -53,7 +53,7 @@ If you need any of the data in the mailbox, you must export the data before you 
 
     {{<image src="yes_delete.png" alt="" title="">}}
 
-    **Warning:** A deleted mailbox can be recovered for up to 14 days. For instructions, see [Recover a deleted mailbox](/how-to/recover-a-deleted-rackspace-email-mailbox/).
+    **Warning:** A deleted mailbox can be recovered for up to 14 days. For instructions, see [Recover a deleted mailbox](/support/how-to/recover-a-deleted-rackspace-email-mailbox/).
 
 7. You are returned to the mailbox list where you can see that the mailbox has been removed from the list.
 

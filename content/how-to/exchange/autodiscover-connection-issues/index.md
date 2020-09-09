@@ -11,7 +11,7 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-If you are having issues setting up Microsoft&reg; Exchange mailboxes on your domain in Outlook&reg; 2016 or later, you might be experiencing issues related to your [Autodiscover](/how-to/dns-record-definitions/#cname-record) record. This article outlines the symptoms for this problem and suggested solutions.
+If you are having issues setting up Microsoft&reg; Exchange mailboxes on your domain in Outlook&reg; 2016 or later, you might be experiencing issues related to your [Autodiscover](/support/how-to/dns-record-definitions/#cname-record) record. This article outlines the symptoms for this problem and suggested solutions.
 
 ### Prerequisites
 
@@ -38,7 +38,7 @@ When Outlook sends a request to the server for email, it checks for open connect
 For Outlook to successfully connect to your Exchange account, it must fail to connect on steps 1 and 2, to proceed to step 3. See [Outlook 2016 implementation of Autodiscover](https://support.microsoft.com/en-us/help/3211279/outlook-2016-implementation-of-autodiscover) to learn more about the full path that Autodiscover takes with Outlook 2016 and later.
 
 To verify that Autodiscover is the root cause of this issue, perform an auto-configuration from the affected computer. You can use this test to confirm that the path that Outlook is taking from your computer to your Exchange server is not obstructed.
-See [Test Autodiscover functionality in Outlook](/how-to/set-up-autodiscover-for-outlook/) for details about performing the auto-configuration test.
+See [Test Autodiscover functionality in Outlook](/support/how-to/set-up-autodiscover-for-outlook/) for details about performing the auto-configuration test.
 
 
 ### Identifying issues connecting Outlook using Autodiscover

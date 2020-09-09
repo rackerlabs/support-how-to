@@ -14,7 +14,7 @@ ActiveSync on a Blackberry 10 Phone:
 
 **Note:** A BES data plan must be purchased through your provider and
 added to your account; your administrator will then purchase a [BES
-license](/how-to/add-an-activesync-or-bes-license),  
+license](/support/how-to/add-an-activesync-or-bes-license),  
 assign it to your email address, and provide you with an activation PIN.
 
 1. Log into your User Control

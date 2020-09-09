@@ -56,7 +56,7 @@ complete the setup process.
 
 -   MyRackspace also implements multi-factor authentication, but it is
     not implemented through the Identity 2.0 API. For
-    information, see [Multi-factor authentication from the MyRackspace portal](/how-to/multi-factor-authentication-from-the-myrackspace-portal).
+    information, see [Multi-factor authentication from the MyRackspace portal](/support/how-to/multi-factor-authentication-from-the-myrackspace-portal).
 
 -   When multi-factor authentication is enabled for an account, it is
     enabled only for authentication via username and password

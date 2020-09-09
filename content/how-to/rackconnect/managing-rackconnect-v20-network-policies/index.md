@@ -11,7 +11,7 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-**Previous section:** [Access the RackConnect v2.0 Management Interface](/how-to/access-the-rackconnect-management-interface)
+**Previous section:** [Access the RackConnect v2.0 Management Interface](/support/how-to/access-the-rackconnect-management-interface)
 
 **Applies to:** RackConnect v2.0
 
@@ -108,7 +108,7 @@ updates a system. As a result, any custom software firewall rules not
 created by network policies are overwritten.
 
 This behavior can be changed on Linux cloud servers to allow custom iptables rules ([within certain
-limitations](/how-to/how-to-prevent-rackconnect-from-overwriting-custom-iptables-rules-on-linux-cloud-servers)). However, because of the technical limitations in Windows Firewall, all firewall rules on Windows cloud servers must be managed through network policies only.
+limitations](/support/how-to/support/how-to-prevent-rackconnect-from-overwriting-custom-iptables-rules-on-linux-cloud-servers)). However, because of the technical limitations in Windows Firewall, all firewall rules on Windows cloud servers must be managed through network policies only.
 
 #### Why am I limited to port ranges of 100 or fewer ports?
 
@@ -131,4 +131,4 @@ to allow the Cloud Monitoring systems to connect.
 
 ### Next step
 
-[Accessing RackConnect cloud servers](/how-to/accessing-rackconnect-cloud-servers)
+[Accessing RackConnect cloud servers](/support/how-to/accessing-rackconnect-cloud-servers)

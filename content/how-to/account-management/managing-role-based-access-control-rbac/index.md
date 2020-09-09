@@ -12,7 +12,7 @@ product_url: account-management
 ---
 
 **Previous section:** [Learn about Role Based Access Control
-(RBAC)](/how-to/overview-role-based-access-control-rbac)
+(RBAC)](/support/how-to/overview-role-based-access-control-rbac)
 
 The account owner implements Role Based Access Control (RBAC) by adding users
 to the account and assigning roles. This article is intended to guide account
@@ -95,7 +95,7 @@ To create a new user, use the following steps:
    account administrator role at the account level, that action overwrites all
    product-level custom roles. For more information, see [Known issues and
    suggested workarounds for
-   RBAC](/how-to/known-issues-and-suggested-workarounds-role-based-access-control-rbac).
+   RBAC](/support/how-to/known-issues-and-suggested-workarounds-role-based-access-control-rbac).
 
 ### Suggested role configurations
 

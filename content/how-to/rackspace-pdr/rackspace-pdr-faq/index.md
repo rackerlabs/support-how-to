@@ -52,5 +52,5 @@ Reach out to our Rackspace PDR team as soon as possible so that we can help you 
 {{</accordion>}}
 {{<accordion title="I need to create a base or Golden image from a host that has Rackspace PDR agents. What should I do to prepare it?" col="in" href="accordion8">}}
 
-It is important that images taken from hosts that have Rackspace PDR agents deployed be prepared for deployment before using them as base images. Follow the [Rackspace PDR imaging hosts](/how-to/rackspace-pdr-imaging/) guide to ensure that Golden images are properly prepared.
+It is important that images taken from hosts that have Rackspace PDR agents deployed be prepared for deployment before using them as base images. Follow the [Rackspace PDR imaging hosts](/support/how-to/rackspace-pdr-imaging/) guide to ensure that Golden images are properly prepared.
 {{</accordion>}}

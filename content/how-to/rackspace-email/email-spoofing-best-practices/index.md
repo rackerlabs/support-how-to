@@ -20,9 +20,9 @@ This article explains email spoofing and describes the steps that you can take t
 - **Time needed:** Approximately 15 minutes
 - **Tools required:**  Email access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
-If you would prefer a video tutorial see [Rackspace Email - Spoofing: How to identify & protect your organization](https://emailhelp.rackspace.com/l/how-to-prevent-email-spoofing).
+If you would prefer a video tutorial see [Rackspace Email - Spoofing: How to identify & protect your organization](https://emailhelp.rackspace.com/l/support/how-to-prevent-email-spoofing).
 
 ### What is email spoofing?
 
@@ -62,34 +62,34 @@ In this message header snippet, we see that the **From:** field shows the messag
 
 You should blacklist any address that you find in the **REPLY-TO**, **RETURN-PATH**, and **SOURCE IP** field that is not an email address or IP address from which you normally receive mail.
 
-For more information on viewing and understanding email headers, see [View and read Rackspace email headers](/how-to/view-and-read-rackspace-email-headers).
+For more information on viewing and understanding email headers, see [View and read Rackspace email headers](/support/how-to/view-and-read-rackspace-email-headers).
 
 ### Combat spoofing
 
 User education is the first line of defense against these types of attacks. If a user receives a spoofed message, they should perform the following tasks:
 
- - Blacklist any email address or IP address listed in the **REPLY-TO**, **RETURN-PATH**, or **SOURCE IP** that you have determined to be fraudulent. For instructions, see [Blacklist addresses, domains, and IP addresses in Rackspace Email](/how-to/blacklist-addresses-domains-and-ip-addresses-in-rackspace-email).
- - Immediately [change the password of your email account](/how-to/change-rackspace-email-mailbox-password) if you or your users provided that information at any point.
+ - Blacklist any email address or IP address listed in the **REPLY-TO**, **RETURN-PATH**, or **SOURCE IP** that you have determined to be fraudulent. For instructions, see [Blacklist addresses, domains, and IP addresses in Rackspace Email](/support/how-to/blacklist-addresses-domains-and-ip-addresses-in-rackspace-email).
+ - Immediately [change the password of your email account](/support/how-to/change-rackspace-email-mailbox-password) if you or your users provided that information at any point.
  - Alert the rest of your business to the situation.
 
 Spoofing is possibly the most frustrating abuse issue to deal with, simply because it cannot be stopped. Spoofing is similar to hand-writing many letters, and signing someone else's name to it. You can imagine how difficult that would be to trace.
 
 The most impactful change you can make as an administrator is to implement **SPF**, **DKIM**, and **DMARC** records in that order. These are DNS records that add extra layers of protection to prevent malicious email from being sent out using your domain name.
 
-   - **Sender Policy Framework (SPF)** records help recipient mail servers identify unauthorized use of your domain in the form of forgeries (spoofing). [Create an SPF record policy](/how-to/create-an-spf-policy) first.
+   - **Sender Policy Framework (SPF)** records help recipient mail servers identify unauthorized use of your domain in the form of forgeries (spoofing). [Create an SPF record policy](/support/how-to/create-an-spf-policy) first.
 
        **Note:** If you send email from other providers on behalf of your domain, be sure to include their sending servers in the same SPF record entry. Do not create multiple SPF records.
 
-   - **DomainKeys Identified Mail (DKIM)** records assign a digital signature to mail sent from your domain, marking it as authorized mail sent from your domain. If you require instructions to enable DKIM for your Rackspace Cloud Office email, see [Enable DKIM in the Cloud Office Control Panel](/how-to/enable-dkim-in-the-cloud-office-control-panel). Creating a DKIM record is the second step in the process.
+   - **DomainKeys Identified Mail (DKIM)** records assign a digital signature to mail sent from your domain, marking it as authorized mail sent from your domain. If you require instructions to enable DKIM for your Rackspace Cloud Office email, see [Enable DKIM in the Cloud Office Control Panel](/support/how-to/enable-dkim-in-the-cloud-office-control-panel). Creating a DKIM record is the second step in the process.
 
-   - **Domain Message Authentication Reporting and Compliance (DMARC)** records indicate to recipient mail servers that messages sent from that domain are employing DKIM and SPF sending policies. The recipient mail server then validates the message that you sent by using your DKIM and SPF policies. [Creating a DMARC record policy](/how-to/create-a-dmarc-policy) enables you to enforce DKIM and SPF records. This is the last step in the process.
+   - **Domain Message Authentication Reporting and Compliance (DMARC)** records indicate to recipient mail servers that messages sent from that domain are employing DKIM and SPF sending policies. The recipient mail server then validates the message that you sent by using your DKIM and SPF policies. [Creating a DMARC record policy](/support/how-to/create-a-dmarc-policy) enables you to enforce DKIM and SPF records. This is the last step in the process.
 
-Using record policies protects the integrity of internal emails, as well as the external reputation of your domain. Implementing this protection is a multi-step process that you must carefully follow. For more information, see [Create a DMARC policy](/how-to/create-a-dmarc-policy).
+Using record policies protects the integrity of internal emails, as well as the external reputation of your domain. Implementing this protection is a multi-step process that you must carefully follow. For more information, see [Create a DMARC policy](/support/how-to/create-a-dmarc-policy).
 
 
 ### References
 
-- [Change a Rackspace email mailbox password](/how-to/change-rackspace-email-mailbox-password)
-- [Cloud Office support terminology](/how-to/cloud-office-support-terminology)
-- [Create a DMARC policy](/how-to/create-a-dmarc-policy)
-- [View and read Rackspace email headers](/how-to/view-and-read-rackspace-email-headers)
+- [Change a Rackspace email mailbox password](/support/how-to/change-rackspace-email-mailbox-password)
+- [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology)
+- [Create a DMARC policy](/support/how-to/create-a-dmarc-policy)
+- [View and read Rackspace email headers](/support/how-to/view-and-read-rackspace-email-headers)

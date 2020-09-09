@@ -32,12 +32,12 @@ Control Panel interface.
 6.  From the Region list, select the region in which you want to create
     the server.
 
-    For more information about regions and how to use them effectively, see [About regions](/how-to/about-regions).
+    For more information about regions and how to use them effectively, see [About regions](/support/how-to/about-regions).
 
 7.  In the **Image** section, select the operating system that you want to
     use.
 
-    For a complete list of available images, see the [Images section](/how-to/hidden-base-images/)
+    For a complete list of available images, see the [Images section](/support/how-to/hidden-base-images/)
     of the Cloud Servers product page.
 
 8.  In the **Flavor** section, choose the appropriate configuration for
@@ -54,10 +54,10 @@ Control Panel interface.
     b. Provide a Key Name for your new public key.
     c. Paste your public key into the **Public Key** field.
 
-       **Note:** If you do not have a public key, click [How to get a public key](/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os)
+       **Note:** If you do not have a public key, click [How to get a public key](/support/how-to/connecting-to-a-server-using-ssh-on-linux-or-mac-os)
        and follow the instructions in that article. For more information on how
        to generate public and private key pairs, see
-       [Manage SSH Keypairs for Cloud Servers with python-novaclient](/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
+       [Manage SSH Keypairs for Cloud Servers with python-novaclient](/support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
 
     d. After you have your entered your Key Name and the Public Key, click **Add Public Key**.
 
@@ -82,4 +82,4 @@ Panel.
 
 ### Related articles
 
-- [Create an image from a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
+- [Create an image from a server and restore a server from a saved image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)

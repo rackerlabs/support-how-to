@@ -20,16 +20,16 @@ You can rename an existing Rackspace Email address. This article provides an ove
 - **Time needed:** Dependent on the amount of data backed up, otherwise approximately 20 minutes
 - **Tools required:**  Email address password and access to the devices you want to connect
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
 
 ### Back up the mailbox
 
-Before you rename your mailbox, export a copy of the mailbox from your [local mail client](/how-to/cloud-office-support-terminology). Creating a copy ensures that you won't lose any data when making configuration changes.
+Before you rename your mailbox, export a copy of the mailbox from your [local mail client](/support/how-to/cloud-office-support-terminology). Creating a copy ensures that you won't lose any data when making configuration changes.
 
 ### Rename the email address
 
-For instructions, see [Rename a Rackspace Email address](/how-to/rename-a-rackspace-email-address)
+For instructions, see [Rename a Rackspace Email address](/support/how-to/rename-a-rackspace-email-address)
 
 ### Connect to the newly named address
 
@@ -37,16 +37,16 @@ After you have backed up the mail data locally, you are ready to connect to the 
 
 #### Desktop clients
 
-- [Outlook 2016, 2013 and 2010 for Windows](/how-to/configure-a-renamed-email-address-on-outlook-for-windows)
-- [Outlook 2016 for Mac](/how-to/configure-a-renamed-email-address-on-outlook-2016-for-mac)
-- [Outlook 2011 for Mac](/how-to/configure-a-renamed-email-address-on-outlook-2011-for-mac)
-- [Apple Mail](/how-to/configure-a-renamed-email-address-in-apple-mail)
+- [Outlook 2016, 2013 and 2010 for Windows](/support/how-to/configure-a-renamed-email-address-on-outlook-for-windows)
+- [Outlook 2016 for Mac](/support/how-to/configure-a-renamed-email-address-on-outlook-2016-for-mac)
+- [Outlook 2011 for Mac](/support/how-to/configure-a-renamed-email-address-on-outlook-2011-for-mac)
+- [Apple Mail](/support/how-to/configure-a-renamed-email-address-in-apple-mail)
 
 #### Mobile clients
 
-- [Iphone iOS](/how-to/configure-a-renamed-email-address-on-iphone-iOS)
-- [Android](/how-to/configure-a-renamed-email-address-on-android-devices)
-- [Windows](/how-to/configure-a-renamed-email-address-configuration-for-windows-mobile-phone)
+- [Iphone iOS](/support/how-to/configure-a-renamed-email-address-on-iphone-iOS)
+- [Android](/support/how-to/configure-a-renamed-email-address-on-android-devices)
+- [Windows](/support/how-to/configure-a-renamed-email-address-configuration-for-windows-mobile-phone)
 
 ### Troubleshooting
 

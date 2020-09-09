@@ -67,7 +67,7 @@ Locate the appropriate KMS server in the following list:
    **Note**: If there is a reply, continue to step 3. No reply means that there
    is an interface, hardware, or routing issue. We recommend the following
    article for help resolving the issue: [Update ServiceNet routes on cloud
-   servers](/how-to/updating-servicenet-routes-on-cloud-servers/)
+   servers](/support/how-to/updating-servicenet-routes-on-cloud-servers/)
 
 3. Set the KMS manually within the registry:
 

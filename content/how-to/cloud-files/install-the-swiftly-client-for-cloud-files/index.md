@@ -58,7 +58,7 @@ Use the following instructions from a Bash shell on your server:
 
     If you get an error saying the package can't be found, the EPEL
     repository needs to be enabled. For information on setting up the
-    EPEL repository on your system, see [Install EPEL and additional repositories on CentOS and Red Hat](/how-to/install-epel-and-additional-repositories-on-centos-and-red-hat).
+    EPEL repository on your system, see [Install EPEL and additional repositories on CentOS and Red Hat](/support/how-to/install-epel-and-additional-repositories-on-centos-and-red-hat).
     When EPEL is enabled, run the `install` command for pip again.
 
 2.  Install Swiftly by using `pip`.

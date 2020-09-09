@@ -25,7 +25,7 @@ Use the following steps to set up a new Role-Based Access Control (RBAC) user:
 3. Click **Create User**.
 4. Enter the user's information and click **Create User**.
 5. On the **User Details** page that appears, assign the user
-   [roles](/how-to/overview-role-based-access-control-rbac/). Under
+   [roles](/support/how-to/overview-role-based-access-control-rbac/). Under
    **User Permissions**, ensure that you leave the Cloud Files role set
    to **No Access**.
 6. In the **Security Settings** section, click **Show** to display your

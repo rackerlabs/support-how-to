@@ -23,7 +23,7 @@ Contacts tab.
 - **Time needed:** Approximately 5 minutes
 - **Tools required:** Cloud Office Control Panel access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### View company directory list
 

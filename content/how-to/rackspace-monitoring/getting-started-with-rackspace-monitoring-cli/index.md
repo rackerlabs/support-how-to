@@ -45,7 +45,7 @@ The utility can be installed via
 ### Getting your API Key
 
 You will need to [obtain your API
-key](/how-to/view-and-reset-your-api-key)
+key](/support/how-to/view-and-reset-your-api-key)
 in order to be able to administer Rackspace Monitoring.
 
 Once you've obtained your API key, go to your Home folder (you can use
@@ -218,4 +218,4 @@ your infrastructure.  For more information, be sure to consult the
 [Development Guide for Rackspace
 Monitoring](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#developer-guide)
 as well as the [Rackspace Monitoring
-FAQ](/how-to/rackspace-monitoring-faq).
+FAQ](/support/how-to/rackspace-monitoring-faq).

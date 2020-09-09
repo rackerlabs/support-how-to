@@ -71,7 +71,7 @@ Once created this will make it painless to use the recipes without
 having to include API key and Rackspace Cloud account username for every
 call. For information about how to find your API key, see [View and
 reset your API
-key](/how-to/view-and-reset-your-api-key).
+key](/support/how-to/view-and-reset-your-api-key).
 
 ### **Step 2: Add the default recipe to the runlist**
 

@@ -15,7 +15,7 @@ This page presents the characteristics of relational database management systems
 
 ### Prerequisite
 
-For an introduction to relational databases and NoSQL databases, see [Types of databases](/how-to/types-of-databases).
+For an introduction to relational databases and NoSQL databases, see [Types of databases](/support/how-to/types-of-databases).
 
 ### Properties of relational databases
 
@@ -67,4 +67,4 @@ features associated with them:
 
 ### Next step
 
-[Reasons to use an SQL database](/how-to/reasons-to-use-an-sql-db)
+[Reasons to use an SQL database](/support/how-to/reasons-to-use-an-sql-db)

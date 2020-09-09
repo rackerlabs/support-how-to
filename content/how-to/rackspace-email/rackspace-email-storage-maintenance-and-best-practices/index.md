@@ -19,7 +19,7 @@ This article describes how to monitor user storage in the Cloud Office Control P
 - **Difficulty:** Moderate
 - **Tools required:**  Cloud Office Control Panel access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Check mailbox storage in the Cloud Office Control Panel
 
@@ -61,7 +61,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Recommendations for users nearing their storage capacity
 
-Notify users near capacity and counsel them on archiving items to free up mailbox storage. Rackspace Email Archiving ensures that email traffic to and from your domain is archived. For more information, see [Enable email archiving: Cloud Office Control Panel](/how-to/enable-email-archiving-cloud-office-control-panel/).
+Notify users near capacity and counsel them on archiving items to free up mailbox storage. Rackspace Email Archiving ensures that email traffic to and from your domain is archived. For more information, see [Enable email archiving: Cloud Office Control Panel](/support/how-to/enable-email-archiving-cloud-office-control-panel/).
 
 Deleting emails frees up mailbox storage, however if a user deletes an excessive number of emails, it takes longer to process the deletion. Allow ample time for that deletion to be reflected in the mailbox storage capacity.
 
@@ -70,13 +70,13 @@ Email in the **Trash** folder *does* count toward mailbox storage capacity. Foll
 1. Move an unwanted message to **Trash**.
 2. Delete the message from the **Trash** folder.   
 
-The message no longer counts toward the mailbox storage. If you need to recover a message that you deleted from trash, see [Recover deleted email in Webmail](/how-to/recover-deleted-email-in-webmail/).
+The message no longer counts toward the mailbox storage. If you need to recover a message that you deleted from trash, see [Recover deleted email in Webmail](/support/how-to/recover-deleted-email-in-webmail/).
 
 **Warning:** Messages purged from the **Trash** folder can be recovered for up to 14 days after deletion. After 14 days, the message cannot be recovered.
 
 ### Mailbox storage best practices
 
-- Enable [Rackspace Email Archiving](/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains.    
+- Enable [Rackspace Email Archiving](/support/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains.    
 - Rackspace Email storage is maxed at 25GB. Consider upgrading to [Microsoft Exchange](https://www.rackspace.com/email-hosting/hosted-exchange) or [Office 365](https://www.rackspace.com/office-365) for higher storage limits.
 - Never store over 10,000 items in one folder.
 - You should not exceed more than 3 levels of subfolders.
@@ -92,4 +92,4 @@ The message no longer counts toward the mailbox storage. If you need to recover 
                 - Not best practice folder
 
 - Consider removing items from your **Spam** or **Trash** folders.
-- If you archive or delete messages on your [local mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology), log in to [apps.rackspace.com](https://apps.rackspace.com/index.php) to ensure that those changes are reflected in webmail.
+- If you archive or delete messages on your [local mail client](/support/how-to/cloud-office-support-terminology/#cloud-office-terminology), log in to [apps.rackspace.com](https://apps.rackspace.com/index.php) to ensure that those changes are reflected in webmail.

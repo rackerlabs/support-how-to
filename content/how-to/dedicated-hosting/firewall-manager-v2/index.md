@@ -59,8 +59,8 @@ These feature enhancements provide the following new abilities:
 
 The following articles provide detailed information about Firewall Manager v2 features and how to use them:
 
-- [Firewall Manager v2 object-groups](/how-to/firewall-manager-v2-object-groups)
-- [Firewall Manager v2 port-objects](/how-to/firewall-manager-v2-port-groups)
-- [Firewall Manager v2 change log](/how-to/firewall-manager-v2-change-log)
-- [Firewall Manager v2 access-list theory and best practices](/how-to/firewall-manager-v2-access-list-theory-and-best-practices)
-- [Firewall Manager v2 access-list rules](/how-to/firewall-manager-v2-access-list-rules)
+- [Firewall Manager v2 object-groups](/support/how-to/firewall-manager-v2-object-groups)
+- [Firewall Manager v2 port-objects](/support/how-to/firewall-manager-v2-port-groups)
+- [Firewall Manager v2 change log](/support/how-to/firewall-manager-v2-change-log)
+- [Firewall Manager v2 access-list theory and best practices](/support/how-to/firewall-manager-v2-access-list-theory-and-best-practices)
+- [Firewall Manager v2 access-list rules](/support/how-to/firewall-manager-v2-access-list-rules)

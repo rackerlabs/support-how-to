@@ -27,7 +27,7 @@ click
 
 For guidance on configuring the relevant firewall rules to allow remote-access VPN on the Vyatta please refer to the following article:
 
-[Configuring interface based firewall on the Vyatta network appliance](/how-to/configuring-interface-based-firewall-on-the-vyatta-network-appliance)
+[Configuring interface based firewall on the Vyatta network appliance](/support/how-to/configuring-interface-based-firewall-on-the-vyatta-network-appliance)
 
 The VPN access using L2TP/IPsec with pre-shared key works as follows:
 

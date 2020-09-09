@@ -18,7 +18,7 @@ remotely.
 **Note**: The article shows you how to connect to a MySQL instance local to a
 server. For the corresponding steps for Cloud Databases, see [Connect to a
 Cloud Database
-instance](/how-to/connect-to-a-cloud-databases-instance/).
+instance](/support/how-to/connect-to-a-cloud-databases-instance/).
 
 In order to perform these steps, you must have local server access to log in as
 the `root` MySQL user.

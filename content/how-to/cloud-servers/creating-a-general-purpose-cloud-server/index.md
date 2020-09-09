@@ -13,7 +13,7 @@ product_url: cloud-servers
 
 This article explains how to set up a general purpose Cloud Server
 through the Cloud Control Panel. For more information about General Purpose
-servers, see [New Features in General Purpose and Work-Optimized Cloud Servers](/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers).
+servers, see [New Features in General Purpose and Work-Optimized Cloud Servers](/support/how-to/new-features-in-general-purpose-and-work-optimized-cloud-servers).
 
 1.  Log in to the [Cloud Control Panel](https://login.rackspace.com).
 

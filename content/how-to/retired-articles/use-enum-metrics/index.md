@@ -104,7 +104,7 @@ For API command and information about retrieving enum metrics, see  [Retrieving 
 
  - Product Overview:  [https://bit.ly/rax-metrics-overview](https://bit.ly/rax-metrics-overview)
  - Getting Started: [https://docs.rackspace.com/docs/metrics/v2/developer-guide/#getting-started](https://docs.rackspace.com/docs/metrics/v2/developer-guide/#getting-started)
- - Grafana support article: [/how-to/create-a-grafana-dashboard-for-rackspace-metrics/](/how-to/create-a-grafana-dashboard-for-rackspace-metrics/)
+ - Grafana support article: [/support/how-to/create-a-grafana-dashboard-for-rackspace-metrics/](/support/how-to/create-a-grafana-dashboard-for-rackspace-metrics/)
 
 #### How do I sign up an account for EAP?
 

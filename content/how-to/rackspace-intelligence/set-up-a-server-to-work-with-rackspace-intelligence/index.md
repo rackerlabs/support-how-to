@@ -26,7 +26,7 @@ Panel](https://login.rackspace.com/) by following these steps:
 
 3.  Create a server as you normally would, or select an existing server.
     For instructions on creating a server, see
-    [Create a Cloud Server](/how-to/create-a-cloud-server).
+    [Create a Cloud Server](/support/how-to/create-a-cloud-server).
 4.  List the server's details by selecting **Servers > Cloud
     Servers** and then clicking the server's name.
 5.  On the server details page, scroll down to the **Monitoring
@@ -53,7 +53,7 @@ Panel](https://login.rackspace.com/) by following these steps:
     sending commands to a server vary depending on what kind of
     workstation you use when you communicate with the server. For
     example, [Connecting to Linux from Mac OS X by using
-    Terminal](/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal) shows
+    Terminal](/support/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal) shows
     how to install and use the Terminal utility on a Mac OS X
     workstation communicating with a Linux server; if you are working in
     a different configuration, adapt these instructions to match your
@@ -67,7 +67,7 @@ Panel](https://login.rackspace.com/) by following these steps:
     but you are able to log in to the Cloud Control Panel for your
     account, you can change the server's password as described at [How
     to change your server root/admin password from your
-    account](/how-to/how-to-change-your-server-rootadmin-password-from-your-account).
+    account](/support/how-to/support/how-to-change-your-server-rootadmin-password-from-your-account).
 
     In the terminal session where you entered the installation commands,
     you can confirm that the installation succeeded if you see the
@@ -87,4 +87,4 @@ Panel](https://login.rackspace.com/) by following these steps:
     details page for the server, in the **Monitoring Checks** section.
 10.  To make the checks useful, define alarms that identify boundaries
     between OK, Warning, and Critical statuses. For instructions,
-    see [Working with alarms](/how-to/working-with-alarms).
+    see [Working with alarms](/support/how-to/working-with-alarms).

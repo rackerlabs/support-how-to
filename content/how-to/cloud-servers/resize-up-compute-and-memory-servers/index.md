@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Previous section:** [Resize standard and general purpose servers](/how-to/resize-standard-and-general-purpose-servers/)
+**Previous section:** [Resize standard and general purpose servers](/support/how-to/resize-standard-and-general-purpose-servers/)
 
 This article shows you how to use the Cloud Control Panel to resize up a
 compute or memory server. Resizing a server changes the RAM and disk space
@@ -59,7 +59,7 @@ Control Panel:
    For a Windows&reg; server, additional steps are required to use additional
    space after resizing up. For more information, see [Adding Disk Space After
    Resizing a Windows Server 2012 Cloud
-   Server](/how-to/adding-disk-space-after-resizing-a-windows-server-2012-cloud-server).
+   Server](/support/how-to/adding-disk-space-after-resizing-a-windows-server-2012-cloud-server).
 
 7. After you have verified the system resources and checked your file systems,
    select **Confirm** to confirm the resize or **Revert** to revert to the
@@ -114,9 +114,9 @@ navigating to the **Server Details** page for the server that you resized.
 For more information, see the following resources:
 
 - [Cloud Servers API reference: Resize specified server](https://docs.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations/#resize-specified-server)
-- [Pitchfork - the Rackspace Cloud API web application](/how-to/pitchfork-the-rackspace-cloud-api-web-application)
-- [Reset a server password](/how-to/reset-a-server-password)
-- [Basic Cloud Server security](/how-to/basic-cloud-server-security)
-- [Reboot a server](/how-to/reboot-a-server)
-- [Rebuild a Cloud Server](/how-to/rebuild-a-cloud-server)
-- [Delete a server](/how-to/delete-a-server)
+- [Pitchfork - the Rackspace Cloud API web application](/support/how-to/pitchfork-the-rackspace-cloud-api-web-application)
+- [Reset a server password](/support/how-to/reset-a-server-password)
+- [Basic Cloud Server security](/support/how-to/basic-cloud-server-security)
+- [Reboot a server](/support/how-to/reboot-a-server)
+- [Rebuild a Cloud Server](/support/how-to/rebuild-a-cloud-server)
+- [Delete a server](/support/how-to/delete-a-server)

@@ -28,7 +28,7 @@ Now that RackConnect v3.0 is UA, RackConnect v2.0 will be unavailable to new cus
 
 Cloud Networks is a requirement for and is an inherent part of how RackConnect v3.0 works. With RackConnect v3.0, your cloud network connects directly to your dedicated environment. With RackConnect v2.0, connectivity between a cloud server and a dedicated environment is possible only via ServiceNet.
 
-For more information about how Cloud Networks works with RackConnect v2.0, see the [RackConnect v2.0 with Cloud Networks FAQ](/how-to/rackconnect-v20-with-cloud-networks-faq).
+For more information about how Cloud Networks works with RackConnect v2.0, see the [RackConnect v2.0 with Cloud Networks FAQ](/support/how-to/rackconnect-v20-with-cloud-networks-faq).
 
 ### QoS policies
 
@@ -36,7 +36,7 @@ For more information about how Cloud Networks works with RackConnect v2.0, see t
 customers and is no longer applicable for a majority of RackConnect
 v3.0 deployments.
 
-Traffic across a RackConnect v3.0 link between cloud and dedicated environments has its bandwidth limited by quality of service (QoS) policies. By default, these QoS policies are set to limit bandwidth throughput to 100 Mbps (megabits per second), but this limit may be increased on a case-by-case basis. If you need this value increased, [contact us](/how-to/support).
+Traffic across a RackConnect v3.0 link between cloud and dedicated environments has its bandwidth limited by quality of service (QoS) policies. By default, these QoS policies are set to limit bandwidth throughput to 100 Mbps (megabits per second), but this limit may be increased on a case-by-case basis. If you need this value increased, [contact us](/support/how-to/support).
 
 As with RackConnect v2.0, RackConnect v3.0 bandwidth might be limited by the capabilities or QoS settings of the Cloud Servers flavors that you are running, your network device's capabilities, and your dedicated server's capabilities.
 
@@ -44,7 +44,7 @@ As with RackConnect v2.0, RackConnect v3.0 bandwidth might be limited by the cap
 
 The API for RackConnect v3.0 has been enhanced and rewritten so that it no longer uses the Cloud Servers API metadata options that are needed to accomplish certain tasks with RackConnect v2.0. The RackConnect v3.0 API is public-facing and enables you to seamlessly add and remove cloud servers from your load balancer pools, add and remove public IP addresses from your cloud servers, and list the cloud networks associated with your RackConnect configuration.
 
-For details, see [Getting started with the RackConnect v3.0 API](/how-to/getting-started-with-the-rackconnect-v30-api) and [RackConnect v2.0 API](/how-to/the-rackconnect-v20-api).
+For details, see [Getting started with the RackConnect v3.0 API](/support/how-to/getting-started-with-the-rackconnect-v30-api) and [RackConnect v2.0 API](/support/how-to/the-rackconnect-v20-api).
 
 ### Automation access for Cloud Servers
 
@@ -54,7 +54,7 @@ Because of these changes, RackConnect network policies are not available with Ra
 
 Modifying local software firewall rules to allow automation access is not required in v3.0, as it is with v2.0. One major benefit of this change is no more restrictions on cloud server images. Any custom cloud server images that are built after your RackConnect v3.0 implementation is online should work seamlessly.
 
-For details, see [RackConnect v3.0 Cloud Servers image compatibility](/how-to/rackconnect-v30-cloud-server-image-compatibility).
+For details, see [RackConnect v3.0 Cloud Servers image compatibility](/support/how-to/rackconnect-v30-cloud-server-image-compatibility).
 
 ### PublicNet and ServiceNet access for cloud servers
 
@@ -74,7 +74,7 @@ ServiceNet connectivity on RackConnect v3.0 cloud servers is highly restricted t
 
 These restrictions are set at the hypervisor level and are immutable, which means that ServiceNet on RackConnect v3.0 cloud servers cannot be used to connect to or from any other cloud servers. This restriction frees you from having to use a software firewall to restrict ServiceNet access to your RackConnect v3.0 cloud servers.
 
-Even with ServiceNet added, not all Rackspace cloud products are compatible with RackConnect v3.0 cloud servers. For a list of supported cloud products, see the [RackConnect v3.0 compatibility](/how-to/rackconnect-v30-compatibility).
+Even with ServiceNet added, not all Rackspace cloud products are compatible with RackConnect v3.0 cloud servers. For a list of supported cloud products, see the [RackConnect v3.0 compatibility](/support/how-to/rackconnect-v30-compatibility).
 
 ### Comparison matrix
 
@@ -87,7 +87,7 @@ Direct connectivity between Cloud Networks and the dedicated environment | Yes |
 ServiceNet required | Managed Infrastructure: No <br /> Managed Operations: Yes | Yes
 Highly restricted ServiceNet available | Yes | No
 PublicNet available | No | No
-Compatible with Public Cloud product offerings | <a href="/how-to/rackconnect-v30-compatibility">Yes, with caveats</a> | <a href="/how-to/rackconnect-v20-compatibility">Yes, with caveats</a>
+Compatible with Public Cloud product offerings | <a href="/support/how-to/rackconnect-v30-compatibility">Yes, with caveats</a> | <a href="/support/how-to/rackconnect-v20-compatibility">Yes, with caveats</a>
 RackConnect QoS bandwidth limits | Yes | No
 Basic API (non-public facing) | No | Yes
 Public Facing API | Yes | No

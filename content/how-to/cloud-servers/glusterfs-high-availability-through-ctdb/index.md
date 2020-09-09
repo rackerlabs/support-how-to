@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Previous section** - [GlusterFS troubleshooting](/how-to/glusterfs-troubleshooting)
+**Previous section** - [GlusterFS troubleshooting](/support/how-to/glusterfs-troubleshooting)
 
 In its native form, GlusterFS gives you redundancy and high availability (HA). However,
 the clients that connect to your GlusterFS volumes by using its NFS or Samba exports need

@@ -14,24 +14,24 @@ What is load balancing? Mission critical web-based applications and workloads of
 
 ###  Add a Load Balancer
 
-- [Create and Configure a Load Balancer](/how-to/configure-a-load-balancer)
+- [Create and Configure a Load Balancer](/support/how-to/configure-a-load-balancer)
 
 ### Best Practices
 
-- [Load Balancing Private IPs in the Same Region](/how-to/load-balancing-internal-ips-in-the-same-region)
-- [Preventing Server Overload](/how-to/prevent-server-overload-with-cloud-load-balancers)
-- [Configuring a Health Monitor](/how-to/configure-a-health-monitor-in-cloud-load-balancers)
-- [Using SSL Termination](/how-to/cloud-load-balancers-faq)
+- [Load Balancing Private IPs in the Same Region](/support/how-to/load-balancing-internal-ips-in-the-same-region)
+- [Preventing Server Overload](/support/how-to/prevent-server-overload-with-cloud-load-balancers)
+- [Configuring a Health Monitor](/support/how-to/configure-a-health-monitor-in-cloud-load-balancers)
+- [Using SSL Termination](/support/how-to/cloud-load-balancers-faq)
 
 ###  Load Balancer features
 
-- [Content caching for Cloud Load Balancers](/how-to/content-caching-for-cloud-load-balancers)
-- [Using SSL offloading with IIS and Cloud Load Balancers](/how-to/configuring-load-balanced-sites-with-ssl-offloading-using-iis)
-- [Using Cloud Load Balancers with RackConnect](/how-to/using-cloud-load-balancers-with-rackconnect)
+- [Content caching for Cloud Load Balancers](/support/how-to/content-caching-for-cloud-load-balancers)
+- [Using SSL offloading with IIS and Cloud Load Balancers](/support/how-to/configuring-load-balanced-sites-with-ssl-offloading-using-iis)
+- [Using Cloud Load Balancers with RackConnect](/support/how-to/using-cloud-load-balancers-with-rackconnect)
 
 ###  Cloud Load Balancers API
 
 - [API Getting Started Guide](https://docs.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/#getting-started)
 - [API Developer's Guide](https://docs.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/#developer-guide)
-- [Role-Based Access Permissions via the API](/how-to/permissions-matrix-for-cloud-load-balancers)
+- [Role-Based Access Permissions via the API](/support/how-to/permissions-matrix-for-cloud-load-balancers)
 

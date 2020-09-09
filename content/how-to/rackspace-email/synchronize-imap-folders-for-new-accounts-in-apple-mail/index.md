@@ -26,7 +26,7 @@ This article describes how to synchronize IMAP folders after you set up a new ac
 - **Time needed:** Approximately 10 minutes
 - **Tools required:**  Access to Apple Mail IMAP account
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
 ### Map IMAP folders in Sierra Apple Mail
 

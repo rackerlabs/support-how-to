@@ -12,7 +12,7 @@ product_url: cloud-backup
 ---
 
 If the Cloud Backup updater, which is described in
-[Install or update the Cloud Backup agent on Linux&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
+[Install or update the Cloud Backup agent on Linux&reg;](/support/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 failed, use the steps in this article to manually update the Rackspace Cloud
 Backup agent.
 
@@ -28,7 +28,7 @@ installed.
 ### Update the agent for APT-based systems
 
 For APT-based systems, you might want to review
-[Install or update the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
+[Install or update the Cloud Backup agent on Linux](/support/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 before performing these steps.
 
 **Note:** The Advanced Packaging Tool (APT) automatically stops and restarts
@@ -57,7 +57,7 @@ Use the following steps to update the backup agent for APT-based systems, such a
 ### Update the agent for yum-based systems, including CentOS and Red Hat
 
 For yum-based systems, including CentOS&reg; and Red Hat&reg;, you might want to review
-[Install or update the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
+[Install or update the Cloud Backup agent on Linux](/support/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 before performing these steps.
 
 **Note:** `yum` automatically stops and restarts the driveclient service as
@@ -76,7 +76,7 @@ Cloud Backup updater service, which keeps the agent up-to-date on the system.
 ### Update the agent for Arch, Gentoo, and SUSE systems
 
 For Arch&reg;, Gentoo&reg;, and SUSE&reg; systems, you might want to review
-[Install or update the Cloud Backup agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
+[Install or update the Cloud Backup agent on Linux](/support/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 before performing these steps.
 
 **Note:** The `tarball` that you download has the most up-to-date instructions.
@@ -124,7 +124,7 @@ Example init/startup scripts are included in the tarball.
 
 Run the steps in this section as Administrator or as a user with Administrator
 privileges. You might want to review
-[Install the Cloud Backup agent on Windows](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
+[Install the Cloud Backup agent on Windows](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
 before performing these steps.
 
 Because the Windows agent includes an automated updater, you should rarely need
@@ -166,4 +166,4 @@ without APIUSER and APIKEY.
 Otherwise, updating the agent by using the MSI is the same as a fresh
 installation. You have all the same MSI options available. For the verification
 steps to test the update, see
-[Test the Windows installation or update](/how-to/rackspace-cloud-backup-install-the-agent-on-windows#test-the-windows-installation-or-update).
+[Test the Windows installation or update](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows#test-the-windows-installation-or-update).

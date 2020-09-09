@@ -13,7 +13,7 @@ product_url: cloud-files
 
 This tutorial shows the basic steps for setting up the W3 Total Cache plug-in to work with Rackspace Cloud Files. Cloud Files uses a *push* content delivery network (CDN), which automatically uploads the content from your primary web server and stores the data on Cloud Files. The benefits of a push CDN are more space on your local server's disk and scaling more servers without having to keep your user-generated content in sync.
 
-**Note:** Push CDNs work better for sites that frequently experience surges in traffic that might require servers to scale up or down. If your site experiences consistently moderate to high levels of traffic, see [Configure W3 Total Cache for WordPress with Rackspace CDN](/how-to/configure-w3-total-cache-for-wordpress-with-rackspace-cdn).
+**Note:** Push CDNs work better for sites that frequently experience surges in traffic that might require servers to scale up or down. If your site experiences consistently moderate to high levels of traffic, see [Configure W3 Total Cache for WordPress with Rackspace CDN](/support/how-to/configure-w3-total-cache-for-wordpress-with-rackspace-cdn).
 
 ### Prerequisite
 
@@ -57,7 +57,7 @@ You need to have a WordPress website and database.
 
    {{<image alt="enter your rackspace cloud account information into the username and api key fields" src="add-account-information.png" title="enter your rackspace cloud account information into the username and api key fields">}}
 
-   **Note:** If you need help finding your API key, see [View and reset your API key](/how-to/view-and-reset-your-api-key).
+   **Note:** If you need help finding your API key, see [View and reset your API key](/support/how-to/view-and-reset-your-api-key).
 
 4. Select the region in which you want to host the files for your website, and then click **Next**.
 

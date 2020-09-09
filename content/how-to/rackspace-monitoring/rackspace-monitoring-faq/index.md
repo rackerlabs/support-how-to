@@ -64,11 +64,11 @@ optimization of your application’s code and infrastructure as well as the
 ability to maintain high availability for your customers.
 
 Rackspace Monitoring is an API-based system, so you can
-[start creating monitoring checks](/how-to/available-checks-for-rackspace-monitoring/)
+[start creating monitoring checks](/support/how-to/available-checks-for-rackspace-monitoring/)
 by using the following methods:
 
--   [Cloud Control Panel](/how-to/creating-a-monitoring-check-using-the-cloud-control-panel/)
--   [raxmon command-line interface (CLI)](/how-to/getting-started-with-rackspace-monitoring-cli/)
+-   [Cloud Control Panel](/support/how-to/creating-a-monitoring-check-using-the-cloud-control-panel/)
+-   [raxmon command-line interface (CLI)](/support/how-to/getting-started-with-rackspace-monitoring-cli/)
 -   [Rackspace Monitoring API](https://docs.rackspace.com/docs/rackspace-monitoring/v1/)
 
 {{</accordion>}}
@@ -215,7 +215,7 @@ addressed.
 {{<accordion title="What is a check?" col="in" href="accordion28">}}
 
 A check specifies what aspect of the resource you want to monitor. To learn
-more, see [Rackspace Monitoring checks and alarms](/how-to/rackspace-monitoring-checks-and-alarms/).
+more, see [Rackspace Monitoring checks and alarms](/support/how-to/rackspace-monitoring-checks-and-alarms/).
 {{</accordion>}}
 {{<accordion title="What is a remote service check?" col="in" href="accordion29">}}
 

@@ -97,7 +97,7 @@ Perform the following steps to access the master server:
 To make your site publicly accessible, you need to create Domain Name System (DNS) records for your new domain. For this
 section, you need the load balancer IP address. If you do not want to make the site publicly available
 at this time, you can modify your host file to allow local access. For more information, see
-[Modify your hosts file](/how-to/modify-your-hosts-file/).
+[Modify your hosts file](/support/how-to/modify-your-hosts-file/).
 
 1. In the [Rackspace Cloud Control Panel](https://mycloud.rackspace.com), select **Networking** >> **Cloud DNS**. 	
 2. Click **Create Domain**.
@@ -151,7 +151,7 @@ This section assumes that the stack deployed with only one node.
 
 To scale out your Wordpress stack, first create an image of your master server and build
 a new server from the image. To complete this task, see
-[Create an image of a server and restore a server from a saved image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image/). 
+[Create an image of a server and restore a server from a saved image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image/). 
 
 **IMPORTANT**: Make sure the server image that you create is the same size as the master
 server to avoid bottlenecks and unbalanced server traffic.

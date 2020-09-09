@@ -24,7 +24,7 @@ email account with Mac&reg; Mail.
 
 4. When you are presented with the options to **Configure Manually** or **Sign In**, click **Configure Manually**.
 
-    **Note:** We recommend that you configure your account automatically by using [Autodiscover](/how-to/dns-record-definitions/#cname-record). If you set up your account by using Autodiscover, click **Sign In** instead of **Configure Manually**.
+    **Note:** We recommend that you configure your account automatically by using [Autodiscover](/support/how-to/dns-record-definitions/#cname-record). If you set up your account by using Autodiscover, click **Sign In** instead of **Configure Manually**.
 
 5. On the next screen, enter your full name, email address, and password, and then click **Sign In**.
 

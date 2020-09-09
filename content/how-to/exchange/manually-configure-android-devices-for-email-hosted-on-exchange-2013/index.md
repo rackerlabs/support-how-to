@@ -21,7 +21,7 @@ instructions, use the [Email Help Tool](https://emailhelp.rackspace.com/).
 ### Before you begin
 
 Your administrator must [add an ActiveSync
-license](/how-to/add-an-activesync-or-bes-license) and assign it to your email
+license](/support/how-to/add-an-activesync-or-bes-license) and assign it to your email
 address.
 
 ### Configure your device

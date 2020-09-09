@@ -37,7 +37,7 @@ might need to download and install the following software:
   - An SSH File Transfer Protocol (SFTP) client application
 
 If you don't have a website to upload, you can use the following sample HTML
-file that we created for this exercise. Right-click the [link](/how-to/create-your-first-website-on-cloud-servers-quickly/download.html) to
+file that we created for this exercise. Right-click the [link](/support/how-to/create-your-first-website-on-cloud-servers-quickly/download.html) to
 save the file and rename the file to **index.html**.
 
 ### Build the infrastructure
@@ -55,7 +55,7 @@ Use the following steps to create a cloud server:
     The Cloud Control Panel supports many Rackspace products and services. For
     more information about the Cloud Control Panel, see [Introducing the
     Rackspace Cloud Control
-    Panel](/how-to/introducing-the-rackspace-cloud-control-panel).
+    Panel](/support/how-to/introducing-the-rackspace-cloud-control-panel).
 
 2.  In the top navigation bar, click **Select a Product > Rackspace Cloud**.
 
@@ -119,13 +119,13 @@ information to and from your server securely.
     to your desktop operating system:
 
     -   [Connect to Linux from Mac OS X by using
-        Terminal](/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal/)
+        Terminal](/support/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal/)
 
         **Note**: You can use either Terminal or the SSH client
         that you downloaded at the beginning of this guide.
 
     -   [Connect to Linux from Windows by using
-        PuTTY](/how-to/connecting-to-linux-from-windows-by-using-putty)
+        PuTTY](/support/how-to/connecting-to-linux-from-windows-by-using-putty)
 
         The first time that you connect to a cloud server, your computer
         verifies that this is something you want to do.
@@ -205,7 +205,7 @@ image:
 
 Several resources are available to help you progress:
 
-- [Rackspace How-To articles](/how-to/): Information about all
+- [Rackspace How-To articles](/support/how-to/): Information about all
   Rackspace products
 - [Rackspace Support](https://www.rackspace.com/support): Information about
   how to contact Rackspace Support

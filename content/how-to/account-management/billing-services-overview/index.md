@@ -134,4 +134,4 @@ If you're a VAT-registered business or organization, in most cases you can recla
 If you're not a VAT-registered business or organization, you can't reclaim the VAT that you pay when you buy goods and services.
 
 ### Next step
-[Viewing and editing user information for your account](/how-to/viewing-and-editing-user-information-for-your-account)
+[Viewing and editing user information for your account](/support/how-to/viewing-and-editing-user-information-for-your-account)

@@ -12,7 +12,7 @@ product_url: rackconnect
 ---
 
 **Previous section:** [Features introduced in RackConnect
-v2.0](/how-to/features-introduced-in-rackconnect-v20)
+v2.0](/support/how-to/features-introduced-in-rackconnect-v20)
 
 **Applies to**: RackConnect v3.0 and RackConnect v2.0
 
@@ -115,4 +115,4 @@ network. If enabled, it is very important to secure this network because other R
 
 ### Next step
 
-[RackConnect v2.0 requirements](/how-to/rackconnect-v20-requirements)
+[RackConnect v2.0 requirements](/support/how-to/rackconnect-v20-requirements)

@@ -13,7 +13,7 @@ product_url: rackspace-email
 
 You can add a single mailbox to your Rackspace Email account or you can add multiple mailboxes by using a CSV or Microsoft Excel file.
 
-If you need to add a Microsoft Exchange mailbox see [Add Microsoft Exchange mailboxes](/how-to/adding-microsoft-exchange-mailboxes/).
+If you need to add a Microsoft Exchange mailbox see [Add Microsoft Exchange mailboxes](/support/how-to/adding-microsoft-exchange-mailboxes/).
 
 ### Prerequisites
 
@@ -22,7 +22,7 @@ If you need to add a Microsoft Exchange mailbox see [Add Microsoft Exchange mail
 - **Time needed:** Approximately 5 minutes to create a mailbox and approximately 15 additional minutes for the mailbox to become accessible
 - **Tools required:** Cloud Office Control Panel access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Add a single mailbox
 
@@ -111,7 +111,7 @@ If the buttons to add one or more mailboxes are unavailable, you must add the ne
 
 ### References
 
-- [Cloud Office support terminology](/how-to/cloud-office-support-terminology)
+- [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology)
 - [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f "Cloud Office Control Panel")
 - [Cloud Office Email Portal](https://apps.rackspace.com/index.php)
-- [Add Microsoft Exchange mailboxes](/how-to/adding-microsoft-exchange-mailboxes/)
+- [Add Microsoft Exchange mailboxes](/support/how-to/adding-microsoft-exchange-mailboxes/)

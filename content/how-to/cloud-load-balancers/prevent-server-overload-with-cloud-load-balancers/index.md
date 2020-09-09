@@ -22,7 +22,7 @@ abusive traffic from reaching your server and its installed applications.
 This procedure assumes that you're working with an existing load balancer. If
 you don't have a load balancer yet, follow the instructions in the article
 [Configure a load
-balancer](/how-to/configure-a-load-balancer/) to
+balancer](/support/how-to/configure-a-load-balancer/) to
 create one.
 
 ### Configure connection throttling

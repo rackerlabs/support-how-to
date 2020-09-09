@@ -240,4 +240,4 @@ Calculator](https://www.rackspace.com/cloud/cloud_hosting_products/loadbalancers
 For information about connecting to a High Availability Cloud Databases
 instance by using a public Internet Protocol (IP) address, see [High
 Availability for Cloud
-Databases](/how-to/high-availability-for-cloud-databases).
+Databases](/support/how-to/high-availability-for-cloud-databases).

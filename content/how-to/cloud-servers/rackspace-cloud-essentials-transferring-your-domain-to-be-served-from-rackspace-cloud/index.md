@@ -12,10 +12,10 @@ product_url: cloud-servers
 ---
 
 **Previous section:** [Rackspace Cloud Essentials - What are your name
-servers](/how-to/rackspace-cloud-essentials-what-are-your-name-servers)
+servers](/support/how-to/rackspace-cloud-essentials-what-are-your-name-servers)
 
 In the previous article you learned how to [identify the Rackspace Cloud
-Nameservers](/how-to/rackspace-cloud-essentials-what-are-your-name-servers),
+Nameservers](/support/how-to/rackspace-cloud-essentials-what-are-your-name-servers),
 and that you need to update them with your current domain registrar
 in order to enable an existing domain to be served from your new Cloud
 Server.
@@ -73,7 +73,7 @@ servers to **ns.rackspace.com** and **ns2.rackspace.com**.
 Finally, you need to create the corresponding DNS records for your domain in
 the Rackspace Cloud Control Panel. For instructions, see [create DNS records
 through the Control
-Panel](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel).
+Panel](/support/how-to/create-dns-records-for-cloud-servers-with-the-control-panel).
 
 #### How long does DNS propagation take?
 
@@ -107,4 +107,4 @@ correctly configured and your site is still inaccessible, you need
 to take a closer look at the configuration of your web applications.
 
 **Next steps:** [Create DNS records for Cloud Servers with the Control
-Panel](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel)
+Panel](/support/how-to/create-dns-records-for-cloud-servers-with-the-control-panel)

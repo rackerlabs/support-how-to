@@ -14,20 +14,20 @@ Rackspace Auto Scale automatically scales resources that are allocated to your a
 
 ###  Introduction
 
-- [Rackspace Auto Scale Overview](/how-to/rackspace-auto-scale-overview)
+- [Rackspace Auto Scale Overview](/support/how-to/rackspace-auto-scale-overview)
 
 ###  General information
 
-- [Rackspace Auto Scale Glossary](/how-to/rackspace-auto-scale-glossary)
-- [Rackspace Auto Scale Tips and How To's](/how-to/rackspace-auto-scale-tips-and-how-tos)
-- [Rackspace Auto Scale RBAC Permissions Matrix](/how-to/permissions-matrix-for-auto-scale)
+- [Rackspace Auto Scale Glossary](/support/how-to/rackspace-auto-scale-glossary)
+- [Rackspace Auto Scale Tips and How To's](/support/how-to/rackspace-auto-scale-tips-and-how-tos)
+- [Rackspace Auto Scale RBAC Permissions Matrix](/support/how-to/permissions-matrix-for-auto-scale)
 
 ###  Information for administrators
 
-- [Rackspace Auto Scale Control Panel User Guide -- Introduction](/how-to/rackspace-auto-scale-control-panel-user-guide-introduction)
-- [Rackspace Auto Scale Control Panel User Guide -- Concepts](/how-to/rackspace-auto-scale-control-panel-user-guide-concepts)
-- [Rackspace Auto Scale Control Panel User Guide -- Creating Scaling Groups](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group)
-- [Rackspace Auto Scale Control Panel User Guide -- Creating Scaling Policies](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy)
+- [Rackspace Auto Scale Control Panel User Guide -- Introduction](/support/how-to/rackspace-auto-scale-control-panel-user-guide-introduction)
+- [Rackspace Auto Scale Control Panel User Guide -- Concepts](/support/how-to/rackspace-auto-scale-control-panel-user-guide-concepts)
+- [Rackspace Auto Scale Control Panel User Guide -- Creating Scaling Groups](/support/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group)
+- [Rackspace Auto Scale Control Panel User Guide -- Creating Scaling Policies](/support/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-policy)
 
 ###  Information for developers
 

@@ -15,7 +15,7 @@ product_url: cloud-servers
 
 If you have a network service that's not behaving like it should but you
 know it's [listening to a network
-port](/how-to/checking-listening-ports-with-netstat),
+port](/support/how-to/checking-listening-ports-with-netstat),
 you can take a closer look at a connection to the program to see if it
 reveals the problem.
 
@@ -63,7 +63,7 @@ firewall is rejecting the connection.
 If you haven't already confirmed that the service is running you can
 check using the ps and service commands as explained in the [previous
 article in this series on checking running
-services](/how-to/checking-running-services-on-linux).
+services](/support/how-to/checking-running-services-on-linux).
 
 If your service is running it's likely the connection being refused
 because your firewall is rejecting the connection. Take a look at the

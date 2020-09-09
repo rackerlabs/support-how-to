@@ -13,7 +13,7 @@ product_url: cloud-networks
 
 More than half of all deployment issues involve an offline website. The causes of a website being offline are often easy to fix. This article describes how to troubleshoot an offline website.
 
-**Note:** This article assumes knowledge of networking tools such as `ping` and `nmap` and `traceroute`. For more information about these tools, see [Common network troubleshooting tools](/how-to/common-network-troubleshooting-tools/)
+**Note:** This article assumes knowledge of networking tools such as `ping` and `nmap` and `traceroute`. For more information about these tools, see [Common network troubleshooting tools](/support/how-to/common-network-troubleshooting-tools/)
 
 ### Prerequisites
 
@@ -33,7 +33,7 @@ Gather the following information before troubleshooting your site:
 
          **Note:** Rackspace Support can't assist with configuration errors.
 
-    - If the site loads and functions as intended, load the site through a different web browser. It is possible that you are experiencing [network issues](/how-to/common-network-troubleshooting-tools/).
+    - If the site loads and functions as intended, load the site through a different web browser. It is possible that you are experiencing [network issues](/support/how-to/common-network-troubleshooting-tools/).
 
 2. Ping the web server using the server's IP address.
 
@@ -150,4 +150,4 @@ Press **Ctrl+Alt+Del** to see if the server prompts you to log in.
 **Note:** If you can’t connect to your Windows server’s console at all, contact Support to ensure that your host is not down.
 
 
-If none of the preceding troubleshooting steps bring your website online, review the steps in [Common network troubleshooting tools](/how-to/common-network-troubleshooting-tools/) before contacting Rackspace support.
+If none of the preceding troubleshooting steps bring your website online, review the steps in [Common network troubleshooting tools](/support/how-to/common-network-troubleshooting-tools/) before contacting Rackspace support.

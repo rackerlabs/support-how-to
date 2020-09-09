@@ -14,49 +14,49 @@ This introduction covers everything you need to know as a new Rackspace customer
 
 ### Manage server images
 
-- [Create a cloud server](/how-to/create-a-cloud-server)
-- [Save a cloud server image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
-- [Restore a server from an image](/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
-- [Image limitations](/how-to/cloud-server-image-limitations)
+- [Create a cloud server](/support/how-to/create-a-cloud-server)
+- [Save a cloud server image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
+- [Restore a server from an image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image)
+- [Image limitations](/support/how-to/cloud-server-image-limitations)
 
 ### Remote access
 
-- [Remote connection from Windows to a Linux server](/how-to/connecting-to-linux-from-windows-by-using-putty)
-- [Remote connection from MacOS to a Linux server](/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal)
-- [Remote connection to a Windows Cloud Server using RDP](/how-to/log-in-to-your-server-via-rdp-windows)
+- [Remote connection from Windows to a Linux server](/support/how-to/connecting-to-linux-from-windows-by-using-putty)
+- [Remote connection from MacOS to a Linux server](/support/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal)
+- [Remote connection to a Windows Cloud Server using RDP](/support/how-to/log-in-to-your-server-via-rdp-windows)
 
 ### Cloud Server security
 
-- [Basic Linux cloud server security](/how-to/basic-cloud-server-security)
-- [Windows firewall rules](/how-to/create-an-inbound-port-allow-rule-for-windows-firewall-2008)
+- [Basic Linux cloud server security](/support/how-to/basic-cloud-server-security)
+- [Windows firewall rules](/support/how-to/create-an-inbound-port-allow-rule-for-windows-firewall-2008)
 
 ### Upload your content
 
-- [CentOS - installing vsftpd](/how-to/rackspace-cloud-essentials-centos-installing-vsftpd)
-- [CentOS - configuring a user in vsftpd](/how-to/rackspace-cloud-essentials-centos-configuring-a-user-in-vsftpd)
+- [CentOS - installing vsftpd](/support/how-to/rackspace-cloud-essentials-centos-installing-vsftpd)
+- [CentOS - configuring a user in vsftpd](/support/how-to/rackspace-cloud-essentials-centos-configuring-a-user-in-vsftpd)
 
 ### DNS & domain management
 
-- [Transferring your domain to the Rackspace Cloud](/how-to/rackspace-cloud-essentials-transferring-your-domain-to-be-served-from-rackspace-cloud)
-- [Managing DNS](/how-to/create-dns-records-for-cloud-servers-with-the-control-panel)
+- [Transferring your domain to the Rackspace Cloud](/support/how-to/rackspace-cloud-essentials-transferring-your-domain-to-be-served-from-rackspace-cloud)
+- [Managing DNS](/support/how-to/create-dns-records-for-cloud-servers-with-the-control-panel)
 
 ### Manage your account
 
-- [Billing services overview](/how-to/billing-services-overview)
-- [Navigating the Cloud Control Panel](/how-to/introducing-the-rackspace-cloud-control-panel)
-- [Generating your API key](/how-to/view-and-reset-your-api-key)
+- [Billing services overview](/support/how-to/billing-services-overview)
+- [Navigating the Cloud Control Panel](/support/how-to/introducing-the-rackspace-cloud-control-panel)
+- [Generating your API key](/support/how-to/view-and-reset-your-api-key)
 
 ### Manage your server
 
-- [Start a console session](/how-to/start-a-console-session)
-- [Manage a cloud server](/how-to/manage-a-cloud-server)
-- [Reboot your server](/how-to/reboot-a-server)
-- [Stop your server](/how-to/use-an-api-call-to-stop-a-cloud-server)
-- [Rescue mode](/how-to/rescue-mode)
-- [Rebuild a cloud server](/how-to/rebuild-a-cloud-server)
-- [Resize standard servers](/how-to/resize-standard-and-general-purpose-servers)
-- [Resize up compute and memory servers](/how-to/resize-up-compute-and-memory-servers/)
-- [Troubleshooting low disk space for a Linux cloud server](/how-to/linux-cloud-server-low-disk-troubleshooting)
-- [Using server logs](/how-to/using-server-logs)
-- [Reset your server password](/how-to/reset-a-server-password)
-- [Deleting your server](/how-to/delete-a-server)
+- [Start a console session](/support/how-to/start-a-console-session)
+- [Manage a cloud server](/support/how-to/manage-a-cloud-server)
+- [Reboot your server](/support/how-to/reboot-a-server)
+- [Stop your server](/support/how-to/use-an-api-call-to-stop-a-cloud-server)
+- [Rescue mode](/support/how-to/rescue-mode)
+- [Rebuild a cloud server](/support/how-to/rebuild-a-cloud-server)
+- [Resize standard servers](/support/how-to/resize-standard-and-general-purpose-servers)
+- [Resize up compute and memory servers](/support/how-to/resize-up-compute-and-memory-servers/)
+- [Troubleshooting low disk space for a Linux cloud server](/support/how-to/linux-cloud-server-low-disk-troubleshooting)
+- [Using server logs](/support/how-to/using-server-logs)
+- [Reset your server password](/support/how-to/reset-a-server-password)
+- [Deleting your server](/support/how-to/delete-a-server)

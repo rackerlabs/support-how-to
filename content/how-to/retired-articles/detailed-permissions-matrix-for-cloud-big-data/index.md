@@ -53,4 +53,4 @@ A group of servers (nodes). In Cloud Big Data, the servers are virtual.
 
 In a network, a node is a connection point, either a redistribution point or an end point for data transmissions. In general, a node has programmed or engineered capability to recognize and process or forward transmissions to other nodes.
 
-[Permissions Matrices for RBAC](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+[Permissions Matrices for RBAC](/support/how-to/permissions-matrix-for-role-based-access-control-rbac)

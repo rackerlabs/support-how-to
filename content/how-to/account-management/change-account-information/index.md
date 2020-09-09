@@ -20,7 +20,7 @@ request and the appropriate steps needed to complete them.
 Dedicated customers can download the **Primary Contact Change** form in the
 [MyRackspace Control Panel](https://login.rackspace.com). For instructions
 about how to find the form, see the **Dedicated customers** section of [Change
-to a new primary contact](/how-to/change-to-new-primary-contact).
+to a new primary contact](/support/how-to/change-to-new-primary-contact).
 
 If you are the current primary contact for your account, you can update the
 primary contact information by selecting and editing the **Primary Contact
@@ -94,7 +94,7 @@ form:
 The following articles provide detailed information about what changes can be
 made to your account by using the Service Transfer Form:
 
-- [Update an account's billing information](/how-to/update-account-billing-information)
-- [Transfer an account's ownership or Tax ID](/how-to/transfer-account-ownership-or-tax-id)
-- [Change an account's company name](/how-to/change-account-company-name)
-- [Change an account's primary contact](/how-to/change-to-new-primary-contact)
+- [Update an account's billing information](/support/how-to/update-account-billing-information)
+- [Transfer an account's ownership or Tax ID](/support/how-to/transfer-account-ownership-or-tax-id)
+- [Change an account's company name](/support/how-to/change-account-company-name)
+- [Change an account's primary contact](/support/how-to/change-to-new-primary-contact)

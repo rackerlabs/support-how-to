@@ -45,7 +45,7 @@ We continue to work with our vendors as they iterate on their patches to improve
 
 ### Operating System-Specific guidance
 
-[Windows information](/how-to/windows-os-mitigations-against-cpu-speculative-execution-vulnerabilities/) and [Linux information](/how-to/linux-os-mitigations-against-cpu-speculative-execution-vulnerabilities/) are posted on other pages within the [Rackspace Support Network](/how-to/rackspace-mitigations-against-cpu-speculative-execution-vulnerabilities/).
+[Windows information](/support/how-to/windows-os-mitigations-against-cpu-speculative-execution-vulnerabilities/) and [Linux information](/support/how-to/linux-os-mitigations-against-cpu-speculative-execution-vulnerabilities/) are posted on other pages within the [Rackspace Support Network](/support/how-to/rackspace-mitigations-against-cpu-speculative-execution-vulnerabilities/).
 
 Rackspace has provided additional guidance directly to Managed Operations customers on Rackspace Public Cloud.
 

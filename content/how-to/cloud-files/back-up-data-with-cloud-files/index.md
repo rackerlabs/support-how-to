@@ -51,7 +51,7 @@ Use the following steps to back up your data:
 
     For more information about selecting a region for your backup files,
     see [Multi-region support in Cloud
-    Files](/how-to/multi-region-support-in-cloud-files).
+    Files](/support/how-to/multi-region-support-in-cloud-files).
 
 6.  *(Optional)* If you want to create a folder to group your uploaded
     files, perform the following steps:

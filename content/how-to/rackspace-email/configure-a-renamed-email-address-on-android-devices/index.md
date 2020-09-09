@@ -20,7 +20,7 @@ After you have renamed a Rackspace Email address, your devices will receive new 
 - **Time needed:** Approximately 10 minutes
 - **Tools required:**  Mailbox password and access to the devices that you want to configure
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
 ### Configure mail settings
 
@@ -69,4 +69,4 @@ The following steps use general settings for Android devices. Some steps might v
 
 You have now successfully configured your Android device to connect to the renamed mailbox. When you have confirmed your mail data is synchronized to the device, you can remove the old account that uses the previous email address from your phone.
 
-**Note:** You can synchronize only Mail with Rackspace Email. If you need to synchronize Mail, Contacts, and Calendar items to your mobile device, consider upgrading to [Rackspace Email Plus](/how-to/upgrade-to-rackspace-email-plus/).
+**Note:** You can synchronize only Mail with Rackspace Email. If you need to synchronize Mail, Contacts, and Calendar items to your mobile device, consider upgrading to [Rackspace Email Plus](/support/how-to/upgrade-to-rackspace-email-plus/).

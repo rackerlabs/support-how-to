@@ -108,4 +108,4 @@ balancer pool memberships, see the [RackConnect v3.0
 API](https://docs.rcv3.apiary.io/#loadbalancerpools).
 
 If you have any questions, we are here to help. Our contact information
-is available on the [Contact Us](/how-to/support) page.
+is available on the [Contact Us](/support/how-to/support) page.

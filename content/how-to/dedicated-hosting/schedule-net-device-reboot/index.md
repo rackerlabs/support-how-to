@@ -16,7 +16,7 @@ portal. The Schedule Reboot tool enables you to schedule a net device reboot
 for a predefined date and time, and it activates the reboot button process for
 your net device.
 
-For more information about the reboot button process, see the [Network device reboot FAQ](/how-to/network-device-reboot-faq/).
+For more information about the reboot button process, see the [Network device reboot FAQ](/support/how-to/network-device-reboot-faq/).
 
 ### Schedule a net device reboot
 

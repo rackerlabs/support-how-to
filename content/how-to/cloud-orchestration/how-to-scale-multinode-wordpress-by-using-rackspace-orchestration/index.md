@@ -67,7 +67,7 @@ Use the following steps to prepare the new server:
 
    If you do not have the stack's private key, you can reset the master server's root password.
 
-   For help using the SSH key with your server, see the How-To articles for [Mac and Linux](/how-to/logging-in-with-an-ssh-private-key-on-linuxmac) or [Windows](/how-to/logging-in-with-an-ssh-private-key-on-windows).
+   For help using the SSH key with your server, see the How-To articles for [Mac and Linux](/support/how-to/logging-in-with-an-ssh-private-key-on-linuxmac) or [Windows](/support/how-to/logging-in-with-an-ssh-private-key-on-windows).
 
 5. After you have logged in to the master server, change the directory to **/etc/lsyncd**, and open the **lsyncd.conf.lua** file with `nano`.
 

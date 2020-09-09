@@ -58,7 +58,7 @@ following command:
 ### Add an Admin User
 
 **Note**: If you are setting up additional SSH users for an OnMetal
-server, see [Create OnMetal Cloud Servers](/how-to/create-onmetal-cloud-servers)
+server, see [Create OnMetal Cloud Servers](/support/how-to/create-onmetal-cloud-servers)
 for applicable OnMetal steps.
 
 1.  To add an admin user, issue the following command and replace
@@ -111,7 +111,7 @@ steps: create the key on your local computer, copy the public key to the
 server, and set the correct permissions for the key.
 
 The following instructions assume that you use Linux or Mac OS X. For
-Windows instructions, see [Key generation using Putty forWindows](/how-to/generating-rsa-keys-with-ssh-puttygen).
+Windows instructions, see [Key generation using Putty forWindows](/support/how-to/generating-rsa-keys-with-ssh-puttygen).
 
 #### Step 1. Create the public and private keys
 
@@ -422,7 +422,7 @@ the symptoms to determine what might be wrong.
 -   If you get a warning about a private key, your key might not be
     installed on the server properly (check for extra line breaks or
     characters that were missed in a copy-and-paste operation).
--   If you've been rebuilding the server, you might need to [remove the host key from your known_hosts file](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console) before
+-   If you've been rebuilding the server, you might need to [remove the host key from your known_hosts file](/support/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console) before
     you can make a connection.
 
 ### If you're locked out
@@ -433,5 +433,5 @@ Rackspace Cloud Control Panel and use the Emergency Console or Rescue Mode to
 repair the configurations.
 
 These are the basics of connecting to a Linux Cloud Server and setting
-up security.  See [Windows Cloud Server](/how-to/log-in-to-your-server-via-rdp-windows) to
+up security.  See [Windows Cloud Server](/support/how-to/log-in-to-your-server-via-rdp-windows) to
 be perform these steps on a Windows server.

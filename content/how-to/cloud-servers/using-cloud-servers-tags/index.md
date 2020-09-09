@@ -85,4 +85,4 @@ your servers from one another.
 
 ### Related information
 
-[Learn more about Cloud Servers](/how-to/learn-more-about-cloud-servers)
+[Learn more about Cloud Servers](/support/how-to/learn-more-about-cloud-servers)

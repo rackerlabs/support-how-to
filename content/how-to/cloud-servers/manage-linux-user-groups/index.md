@@ -29,7 +29,7 @@ User groups in Linux allow a group of users specific access or permissions to di
 the Linux operating system. This access depends on the *group* permissions for the file or directory. 
 
 **Note**: For more information on directory and file permissions, see 
-[Changing Linux permissions](/how-to/changing-linux-permissions/#permissions).
+[Changing Linux permissions](/support/how-to/changing-linux-permissions/#permissions).
 
 The following example shows how group permissions affect a user's access.
 

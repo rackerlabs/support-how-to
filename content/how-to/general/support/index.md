@@ -31,7 +31,7 @@ support, the knowledge base, and How-To videos.
 
 ### Email support
 
-You can find support documentation at the [How-To Rackspace Email page](/how-to/rackspace-email).
+You can find support documentation at the [How-To Rackspace Email page](/support/how-to/rackspace-email).
 
 Use the [Email Setup Wizard](https://emailhelp.rackspace.com/) to get help setting up your email and other email-related tasks.
 
@@ -49,7 +49,7 @@ You can also log in to the [Fanatical Support for AWS Control Panel](https://man
 
 Call Cloud support at 1-800-961-4454.
 
-Find API documentation at the [Rackspace Developer Docs site](https://docs.rackspace.com/docs/) and support documentation at the [How-To site](/how-to/).
+Find API documentation at the [Rackspace Developer Docs site](https://docs.rackspace.com/docs/) and support documentation at the [How-To site](/support/how-to/).
 
 You can also log in to the [Cloud Control Panel](https://login.rackspace.com/) to access chat support.
 
@@ -73,5 +73,5 @@ You can call the following numbers for legacy Datapipe support:
 
 ### Additional support resources
 
-- [How-To articles](/how-to/)
+- [How-To articles](/support/how-to/)
 - [Developer and API documentation](https://docs.rackspace.com/docs/)

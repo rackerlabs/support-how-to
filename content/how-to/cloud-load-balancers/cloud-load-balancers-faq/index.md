@@ -49,7 +49,7 @@ Balancers.
 
 **Note**: You should not use SSL termination when you are transferring certain
 types of [Personally Identifiable Information
-(PII)](/how-to/definition-of-personally-identifiable-information-pii).
+(PII)](/support/how-to/definition-of-personally-identifiable-information-pii).
 {{< /accordion >}}
 {{< accordion title="How do I configure SSL termination by using the Cloud Control Panel?" col="in" href="accordion4" >}}
 
@@ -99,7 +99,7 @@ take no more than a few minutes to complete the provisioning process.
 
 You should not use SSL termination when transferring certain types of
 sensitive customer data classified as [Personally Identifiable Information
-(PII)](/how-to/definition-of-personally-identifiable-information-pii).
+(PII)](/support/how-to/definition-of-personally-identifiable-information-pii).
 Examples of PII include information protected by the Health Insurance
 Portability and Accountability Act of 1996 (HIPAA) and
 Gramm-Leach-Bliley acts, credit card information, or any personal data
@@ -207,7 +207,7 @@ If you filter traffic to your servers by using a firewall, the best
 practice is to allow the subnet range in which your load balancer
 resides. For more information about how to filter traffic from
 a load balancer on your servers, see [Using Cloud Load Balancers with
-RackConnect](/how-to/using-cloud-load-balancers-with-rackconnect).
+RackConnect](/support/how-to/using-cloud-load-balancers-with-rackconnect).
 {{< /accordion >}}
 {{< accordion title="What are the security concerns with SSL termination?" col="in" href="accordion18" >}}
 

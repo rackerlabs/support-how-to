@@ -20,7 +20,7 @@ A custom control panel allows you to customize the portal that your customers us
 - **Time needed:** Approximately 5 minutes to create the site and 24 to 48 hours for the DNS changes to propagate
 - **Tools required:**  DNS host administrator access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Create a Custom Control Panel Site
 
@@ -70,7 +70,7 @@ For more information on prerequisite terminology, see [Cloud Office support term
         |---|---|---|
         |CNAME| cp | pl-10.admin.emailsrvr.com |
 
-    **Note:** For specific instructions on editing your DNS records, contact your DNS host. [Find your DNS host here.](/how-to/find-dns-host)
+    **Note:** For specific instructions on editing your DNS records, contact your DNS host. [Find your DNS host here.](/support/how-to/find-dns-host)
 
 The site now appears in the **Custom Control Panel** listing. After the DNS change is propagated, a green "locked" icon appears to the right of the name to show that the site is secure.
 

@@ -18,7 +18,7 @@ common issues identified by our support technicians, but these are not
 mandatory. Some of these recommendations can cause significant downtime,
 so you should schedule them accordingly.
 
-For Windows migration preparation, see [Prepare to migrate a Windows server](/how-to/prepare-to-migrate-a-windows-server).
+For Windows migration preparation, see [Prepare to migrate a Windows server](/support/how-to/prepare-to-migrate-a-windows-server).
 
 ### Back up your data
 
@@ -27,8 +27,8 @@ important data. You can use Rackspace Cloud Backup to automate the
 storing and retrieving of backup data from Cloud Files, or you can use
 rsync to copy your data to another server.
 
--   [Rackspace Cloud Backup - Install the agent on Linux](/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
--   [Backing up your files with rsync](/how-to/backing-up-your-files-with-rsync)
+-   [Rackspace Cloud Backup - Install the agent on Linux](/support/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
+-   [Backing up your files with rsync](/support/how-to/backing-up-your-files-with-rsync)
 
 ### Prepare for a system reboot
 
@@ -53,7 +53,7 @@ on these hosts can be inaccurate. To avoid migration issues related to
 the server date or file time stamps, set up and configure Network Time
 Protocol (NTP) on your server.
 
-For details on setting up NTP on your server, see [Using NTP to sync time](/how-to/using-ntp-to-sync-time).
+For details on setting up NTP on your server, see [Using NTP to sync time](/support/how-to/using-ntp-to-sync-time).
 
 #### Reduce number and size of files
 

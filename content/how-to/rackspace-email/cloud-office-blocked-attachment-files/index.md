@@ -13,13 +13,13 @@ product_url: rackspace-email
 
 This article provides a comprehensive list of file types that are not permitted when you use Rackspace Email or Hosted Exchange.
 
-If you receive a bounce message when sending an email, see our list of [common email bounce messages](/how-to/common-email-bounces) for more information.
+If you receive a bounce message when sending an email, see our list of [common email bounce messages](/support/how-to/common-email-bounces) for more information.
 
 ### Prerequisite
 
 - **Applies to:** Administrators and Users
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Blocked attachment types
 

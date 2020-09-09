@@ -14,7 +14,7 @@ product_url: cloud-backup
 **Note**: Rackspace deprecated the Red Hat&reg; and Debian&reg; updaters in
 favor of an updater designed to support multiple flavors of Linux&reg;. At some point,
 we will no longer support the old **.rpm** and **.deb** installers and automated updaters.
-Instead, see the documentation for the [standard RCBU Linux updater](/how-to/update-or-install-the-cloud-backup-agent-on-linux/).
+Instead, see the documentation for the [standard RCBU Linux updater](/support/how-to/update-or-install-the-cloud-backup-agent-on-linux/).
 
 The Rackspace Cloud Backup agent facilitates the backup process on your servers.
 You must install the agent on every server that you want to back up. This
@@ -22,7 +22,7 @@ article provides instructions for installing the agent on a Linux&reg; server
 by using the Cloud Backup Updater.
 
 If you are using a Windows Server&reg;, see
-[Install the Cloud Backup agent on Windows&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
+[Install the Cloud Backup agent on Windows&reg;](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
 for Windows instructions.
 
 ### Considerations
@@ -38,7 +38,7 @@ service level. See the following section to determine if the agent is already
 installed on a server.
 
 If the Cloud Backup Updater fails, use the instructions in
-[Manually update the Rackspace Cloud Backup agent](/how-to/update-the-rackspace-cloud-backup-agent).
+[Manually update the Rackspace Cloud Backup agent](/support/how-to/update-the-rackspace-cloud-backup-agent).
 
 ### Verify whether the agent is already installed
 
@@ -100,7 +100,7 @@ add other options as needed.
 
    - Use your Rackspace Cloud account username and API key for `<username>`
      and `<apiKey>`. For information about how to find your API key, see
-     [View and reset your API key](/how-to/view-and-reset-your-api-key).
+     [View and reset your API key](/support/how-to/view-and-reset-your-api-key).
 
    - The value for `<flavor>` is `privatecloud`, `raxcloudserver`, or `dedicated`.
 
@@ -162,7 +162,7 @@ add other options as needed.
 
     - Use your Rackspace Cloud account username and API key for `<username>`
     and `<apiKey>`. For information about how to find your API key, see
-    [View and reset your API key](/how-to/view-and-reset-your-api-key).
+    [View and reset your API key](/support/how-to/view-and-reset-your-api-key).
 
     - The value for `<flavor>` is `privatecloud`, `raxcloudserver`, or `dedicated`.
 
@@ -221,7 +221,7 @@ add other options as needed.
 
     - Use your Rackspace Cloud account username and API key for `<username>`
     and `<apiKey>`. For information about how to find your API key, see
-    [View and reset your API key.](/how-to/view-and-reset-your-api-key).
+    [View and reset your API key.](/support/how-to/view-and-reset-your-api-key).
 
     - The value for `<flavor>` is `raxcloudserver`, `privatecloud`, or `dedicated`.
 
@@ -330,4 +330,4 @@ uninstall the agent.
 3. If the `init` script for the `driveclient` was added for this installation,
 remove that as well.
 
-**Next step:** [Create a backup](/how-to/rackspace-cloud-backup-create-a-backup)
+**Next step:** [Create a backup](/support/how-to/rackspace-cloud-backup-create-a-backup)

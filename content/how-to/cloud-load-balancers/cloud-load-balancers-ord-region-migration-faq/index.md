@@ -64,7 +64,7 @@ The following options are available:
 If you have a firewall between your Cloud load balancer and other
 devices you may be required to update your policy settings due to the
 fact that the ServiceNet IP address will change. Follow the instructions
-outlined in the article, [Using Cloud Load Balancers with RackConnect](/how-to/using-cloud-load-balancers-with-rackconnect),
+outlined in the article, [Using Cloud Load Balancers with RackConnect](/support/how-to/using-cloud-load-balancers-with-rackconnect),
 to set up the appropriate policies so that you are not affected by the
 ServiceNet IP changes.
 {{< /accordion >}}

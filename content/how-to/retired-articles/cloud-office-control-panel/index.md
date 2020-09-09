@@ -11,10 +11,10 @@ last_modified_by: Nate Archer
 
 The [Cloud Office Control Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f) is an easy-to-use, unified tool that you can use to easily manage your mailboxes, applications, and Cloud Office account.
 
-- [Account administration](/how-to/my-account-cloud-office-control-panel) - You can modify contact or billing information, view invoices, set up auto-renewal, add and remove services.
-- [Domain management](/how-to/domains-cloud-office-control-panel) - Easily manage self-service migration, DNS settings, spam filtering rules, access rights, disclaimers, and archiving.
+- [Account administration](/support/how-to/my-account-cloud-office-control-panel) - You can modify contact or billing information, view invoices, set up auto-renewal, add and remove services.
+- [Domain management](/support/how-to/domains-cloud-office-control-panel) - Easily manage self-service migration, DNS settings, spam filtering rules, access rights, disclaimers, and archiving.
 
-For more information on managing both Rackspace Email and Microsoft Exchange through the Cloud Office Control Panel, see the [Cloud Office Control Panel overview](/how-to/cloud-office-control-panel-overview/).
+For more information on managing both Rackspace Email and Microsoft Exchange through the Cloud Office Control Panel, see the [Cloud Office Control Panel overview](/support/how-to/cloud-office-control-panel-overview/).
 
 The following lists Cloud Office Control Panel features:
 

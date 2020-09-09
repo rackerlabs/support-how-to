@@ -60,9 +60,9 @@ note that it can take up to 48 hours for the name servers to propagate fully.
 You might need to wait for propagation to occur.
 
 **Note**: For more information about DNS lookups, see [Using dig to query name
-servers](/how-to/using-dig-to-query-nameservers) (for Linux&reg; and
+servers](/support/how-to/using-dig-to-query-nameservers) (for Linux&reg; and
 macOS&reg;) and [Check DNS records on Windows with
-nslookup](/how-to/nslookup-checking-dns-records-on-windows) (for Windows&reg;).
+nslookup](/support/how-to/nslookup-checking-dns-records-on-windows) (for Windows&reg;).
 
 ### Check the Time to Live
 

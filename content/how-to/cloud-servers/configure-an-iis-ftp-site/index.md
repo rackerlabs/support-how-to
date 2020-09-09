@@ -13,7 +13,7 @@ product_url: cloud-servers
 
 This article describes how to set up an FTP site in Microsoft&reg; Internet Information Services (IIS)
 and add an FTP user to an existing FTP site. For help installing FTP, see 
-[Install FTP on Windows Server&reg; 2012 (R2)](/how-to/installing-ftp-on-windows-server-2012-r2/).
+[Install FTP on Windows Server&reg; 2012 (R2)](/support/how-to/installing-ftp-on-windows-server-2012-r2/).
 
 ### Verify the installation of IIS and FTP services
 

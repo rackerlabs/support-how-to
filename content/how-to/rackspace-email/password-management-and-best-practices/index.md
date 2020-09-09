@@ -18,7 +18,7 @@ As the ways to compromise an account become more numerous and sophisticated, it'
 
 - **Applies to:** Administrator and User
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 
 ### Common password attack types
@@ -27,7 +27,7 @@ The following things are common methods used by attackers trying to compromise y
 
 #### Phishing
 
-Phishing is the act of impersonating a legitimate entity to obtain sensitive information from users like usernames, passwords, and credit card numbers. In email, phishing scams commonly use a method of email impersonation called [spoofing](/how-to/email-spoofing-best-practices). A successful phishing attack is particularly damaging because you have volunteered your current credentials to the scammer.
+Phishing is the act of impersonating a legitimate entity to obtain sensitive information from users like usernames, passwords, and credit card numbers. In email, phishing scams commonly use a method of email impersonation called [spoofing](/support/how-to/email-spoofing-best-practices). A successful phishing attack is particularly damaging because you have volunteered your current credentials to the scammer.
 
 Use the following guidelines to protect your passwords from phishing attempts:
 

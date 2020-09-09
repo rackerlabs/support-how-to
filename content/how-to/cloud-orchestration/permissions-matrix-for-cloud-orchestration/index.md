@@ -70,4 +70,4 @@ Show build information | `GET /v1/{tenant_id}/build_info` | **Observer, Creator,
 
 ### Related article
 
-[Role-based Access Control (RBAC) permissions matrix for Cloud Hosting](/how-to/permissions-matrix-for-role-based-access-control-rbac)
+[Role-based Access Control (RBAC) permissions matrix for Cloud Hosting](/support/how-to/permissions-matrix-for-role-based-access-control-rbac)

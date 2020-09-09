@@ -46,13 +46,13 @@ Due to the General Data Protection Regulation (GDPR), European Union (EU) region
 separate HA pair of NIDS appliances. Firewall rules ensure that connectivity between the EU and the
 United States is blocked for compliance with GDPR.
 
-For more information, see [Rackspace PDR Threat Manager network requirements](/how-to/rackspace-pdr-nids-networking/).
+For more information, see [Rackspace PDR Threat Manager network requirements](/support/how-to/rackspace-pdr-nids-networking/).
 
 #### NIDS appliance end-to-end decryption
 
 Many appliactions terminate Secure Socket Layer (SSL) and Transport Layer Security (TLS) at the network
 edge with a load-balancer or web application firewall. If your application uses end-to-end encryption, see
-the [Rackspace PDR SSL decryption guide](/how-to/rackspace-pdr-ssl-decryption/).
+the [Rackspace PDR SSL decryption guide](/support/how-to/rackspace-pdr-ssl-decryption/).
 
 ### Deployment of vendor agents
 
@@ -70,11 +70,11 @@ Following these steps helps to ensure successful agent deployments:
 
 Due to the various vendors that we have selected to provide the nessessary telemetry to our systems, it is
 important that you select operating systems and kernel versions that are compatable with the vendor agents. For
-more information, see the [Rackspace PDR System Requirements](/how-to/rackspace-pdr-agent-compatibility/).
+more information, see the [Rackspace PDR System Requirements](/support/how-to/rackspace-pdr-agent-compatibility/).
 
 #### Golden or Base images
 
-It is important that images taken from hosts that have Rackspace PDR agents deployed be prepared for deployment before using them as base images. Follow the [Rackspace PDR imaging hosts](/how-to/rackspace-pdr-imaging/) guide to ensure Golden images are properly prepared.
+It is important that images taken from hosts that have Rackspace PDR agents deployed be prepared for deployment before using them as base images. Follow the [Rackspace PDR imaging hosts](/support/how-to/rackspace-pdr-imaging/) guide to ensure Golden images are properly prepared.
 
 #### Deployment boot script
 
@@ -86,7 +86,7 @@ configuration at boot is required to provision instances for Rackspace PDR.
 
 The agents that are used to provide telementry to our Security Operations Center (SOC) have specific networking
 requirements that must be implemented. Use the
-[Rackspace PDR Agent network requirements](/how-to/rackspace-pdr-agent-networking/) guide to
+[Rackspace PDR Agent network requirements](/support/how-to/rackspace-pdr-agent-networking/) guide to
 correctly implement network ACLs and firewall rules for your platform.
 
 ### Additional information

@@ -327,10 +327,10 @@ Cloud Control Panel and click **Exit Rescue Mode**.
 
 ### Next steps
 
-- [Host key fingerprints](/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console)
+- [Host key fingerprints](/support/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console)
 
 ### Related articles
 
 For more information, see the following article:
 
-- [Rebuild a Cloud Server](/how-to/rebuild-a-cloud-server)
+- [Rebuild a Cloud Server](/support/how-to/rebuild-a-cloud-server)

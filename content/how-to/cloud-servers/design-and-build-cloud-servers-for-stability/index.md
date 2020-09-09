@@ -23,10 +23,10 @@ remember the basics. Learn how to learn how to use these two key features of
 the Rackspace Cloud to help you monitor, report, and restore your data
 in the cloud.
 
--   Learn more about [Rackspace Monitoring](/how-to/available-checks-for-rackspace-monitoring)
-    and read the [Rackspace Monitoring FAQ](/how-to/rackspace-monitoring-faq).
--   Learn more about [Cloud Backup](/how-to/cloud-backup)
-    and read the [Cloud Backup FAQ](/how-to/cloud-backup-faq).
+-   Learn more about [Rackspace Monitoring](/support/how-to/available-checks-for-rackspace-monitoring)
+    and read the [Rackspace Monitoring FAQ](/support/how-to/rackspace-monitoring-faq).
+-   Learn more about [Cloud Backup](/support/how-to/cloud-backup)
+    and read the [Cloud Backup FAQ](/support/how-to/cloud-backup-faq).
 
 In addition to the Rackspace Monitoring, consider exploring some of our
 partners that specialize in monitoring and reporting in the cloud. For
@@ -87,5 +87,5 @@ solid stability under the heaviest of traffic. Learn more about how
 RackConnect can help you build for and maintain the highest availability
 possible.
 
-For more information, read [How do I get started with RackConnect v2.0](/how-to/rackconnect-v20) and
-[RackConnect v2.0 Best Practices](/how-to/rackconnect-v20-best-practices).
+For more information, read [How do I get started with RackConnect v2.0](/support/how-to/rackconnect-v20) and
+[RackConnect v2.0 Best Practices](/support/how-to/rackconnect-v20-best-practices).

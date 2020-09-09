@@ -17,9 +17,9 @@ This article describes how to install a Sitecore package from a zip file.
 
 To set up your deployment, you need the following:
 
-- Familiarity with [Sitecore Cloud portals and account management](/how-to/sitecore-cloud-portals-and-account-management/).
+- Familiarity with [Sitecore Cloud portals and account management](/support/how-to/sitecore-cloud-portals-and-account-management/).
 
-- Familiarity with how to [publish content to Sitecore](/how-to/publish-content-to-sitecore/).
+- Familiarity with how to [publish content to Sitecore](/support/how-to/publish-content-to-sitecore/).
 
 - A zip file that contains Sitecore package files. The zip file contains 3 folders; **/items**, **/files**, and **/metadata**. These folders hold both content items and package configuration files.
 
@@ -57,7 +57,7 @@ The website is now considered down for maintenance. You might want to publish an
 
 ### Publish the contents and deploy the extracted files
 
-1. If necessary, [publish the contents of your package](/how-to/publish-content-to-sitecore/).
+1. If necessary, [publish the contents of your package](/support/how-to/publish-content-to-sitecore/).
 
 2. Deploy the extracted **/files** folder to the website, preserving the same folder structure so that existing files are overwritten.
 

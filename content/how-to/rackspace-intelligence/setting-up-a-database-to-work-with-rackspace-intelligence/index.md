@@ -20,4 +20,4 @@ Panel](https://login.rackspace.com/) by following these steps:
     command-line by using the trove client, see [Create a database instance by using the trove client](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/#create-a-database-instance-by-using-the-trove-client).
 
 2.  Establish monitoring checks and alarms for the database as described in
-    [Monitoring Cloud Databases in the Cloud Control Panel](/how-to/monitoring-cloud-databases-in-the-cloud-control-panel).
+    [Monitoring Cloud Databases in the Cloud Control Panel](/support/how-to/monitoring-cloud-databases-in-the-cloud-control-panel).

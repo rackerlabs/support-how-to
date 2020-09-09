@@ -23,11 +23,11 @@ The maximum size for an attachment in the Rackspace environment is 50 MB.
 {{</accordion>}}
 {{<accordion title="How do I add a signature to my email?" col="in" href="accordion3">}}
 
-You can find instructions for this in [Add a signature to Rackspace Email](/how-to/adding-a-signature-to-rackspace-email).
+You can find instructions for this in [Add a signature to Rackspace Email](/support/how-to/adding-a-signature-to-rackspace-email).
 {{</accordion>}}
 {{<accordion title="How do I add an alias?" col="in" href="accordion4">}}
 
-You can find instructions for this in [Add an alias with Rackspace Email](/how-to/adding-an-alias-with-rackspace-email).
+You can find instructions for this in [Add an alias with Rackspace Email](/support/how-to/adding-an-alias-with-rackspace-email).
 {{</accordion>}}
 {{<accordion title="How many group lists can I create?" col="in" href="accordion5">}}
 
@@ -39,11 +39,11 @@ You can view and manage your email at [https://apps.rackspace.com](https://apps.
 {{</accordion>}}
 {{<accordion title="How do I change my password?" col="in" href="accordion7">}}
 
-A Rackspace Email user can change their password through [Webmail](https://apps.rackspace.com/). For more information, see [Change a Rackspace Email mailbox password](/how-to/change-rackspace-email-mailbox-password/).
+A Rackspace Email user can change their password through [Webmail](https://apps.rackspace.com/). For more information, see [Change a Rackspace Email mailbox password](/support/how-to/change-rackspace-email-mailbox-password/).
 {{</accordion>}}
 {{<accordion title="What's the difference between IMAP and POP?" col="in" href="accordion8">}}
 
-The main difference between IMAP and POP is that IMAP works with email directly on the server, while POP fetches mail from the server and works with it on your local computer. For more information, see [IMAP and POP mail protocol comparison](/how-to/imap-and-pop-mail-protocol-comparison).
+The main difference between IMAP and POP is that IMAP works with email directly on the server, while POP fetches mail from the server and works with it on your local computer. For more information, see [IMAP and POP mail protocol comparison](/support/how-to/imap-and-pop-mail-protocol-comparison).
 
 We strongly recommend using an IMAP connection with Rackspace Email.
 {{</accordion>}}
@@ -61,7 +61,7 @@ To purchase or make an upgrade to your account, log in to your control panel, cl
 {{</accordion>}}
 {{<accordion title="How can I add an admin to my account?" col="in" href="accordion12">}}
 
-For instructions, see [Manage email administrators with the Cloud Office Control Panel](/how-to/manage-email-administrators-with-the-cloud-office-control-panel).
+For instructions, see [Manage email administrators with the Cloud Office Control Panel](/support/how-to/manage-email-administrators-with-the-cloud-office-control-panel).
 {{</accordion>}}
 {{<accordion title="How do I submit a ticket?" col="in" href="accordion13">}}
 

@@ -29,4 +29,4 @@ map the directory structure to a physical storage device. You can only
 mount a volume through the computer's operating system.
 
 For more information about how to mount your volume, see [Prepare your
-volume](/how-to/prepare-your-cloud-block-storage-volume). 
+volume](/support/how-to/prepare-your-cloud-block-storage-volume). 

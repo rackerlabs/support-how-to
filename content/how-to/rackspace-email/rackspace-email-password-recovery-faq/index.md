@@ -24,7 +24,7 @@ must enter a mobile phone number on your account.
 - **Time needed:** Approximately 5 minutes
 - **Tools required:** Your cell phone
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 Following are some frequently asked questions and answers about this
 feature.

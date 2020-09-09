@@ -18,7 +18,7 @@ product_url: office-365
 - **Time needed:** 5-10 Minutes for initial configuration (sync time varies based on network speed)
 - **Tools required:** iPad&reg; (OS 13 or newer), Microsoft Outlook&reg; app, Microsoft 365&reg; email address and password (Exchange Online Kiosk license or greater), Apple&reg; ID and password, active network connection
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 For additional information about Microsoft 365 licensing, see our [product comparison chart](https://www.rackspace.com/sites/default/files/2020-06/Rackspace-Data-Sheet-Microsoft-365-Plans-and-Pricing-Sheet-CLO-TSK-1487.pdf).
 

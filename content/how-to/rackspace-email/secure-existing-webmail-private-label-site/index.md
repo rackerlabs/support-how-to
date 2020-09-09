@@ -20,7 +20,7 @@ Webmail private label sites created before September 2017 were deployed to an en
 - **Time needed:** Approximately 5 minutes to secure the site, and 24 to 48 hours for the DNS changes to propagate
 - **Tools required:**  DNS host administrator access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Secure Webmail private label site
 
@@ -70,7 +70,7 @@ To secure a Webmail private label site site, perform the following steps:
         |---|---|---|
         |CNAME| mail| pl-10.webmail.emailsrvr.com |
 
-    **Note:** For specific instructions on editing your DNS records, contact your DNS host. [Find your DNS host here.](/how-to/find-dns-host)
+    **Note:** For specific instructions on editing your DNS records, contact your DNS host. [Find your DNS host here.](/support/how-to/find-dns-host)
 
 After the DNS change is propagated, the site displays as secured in the **Webmail Sites** listing and has a green locked icon to the right of the name.
 

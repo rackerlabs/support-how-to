@@ -25,7 +25,7 @@ Cloud Feeds is available at no charge.
 {{<accordion title="How do I grant access to Cloud Feeds?" col="in" href="accordion1">}}
 
 For information about how to add Cloud Feeds to individual users on your
-Cloud account, see [Cloud Feeds overview](/how-to/cloud-feeds-overview).
+Cloud account, see [Cloud Feeds overview](/support/how-to/cloud-feeds-overview).
 {{</accordion>}}
 {{<accordion title="What can I use Cloud Feeds for?" col="in" href="accordion1">}}
 

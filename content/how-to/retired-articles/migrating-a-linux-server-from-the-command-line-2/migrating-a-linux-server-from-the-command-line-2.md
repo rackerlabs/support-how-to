@@ -50,7 +50,7 @@ while the system isn't running. For Rackspace Cloud Servers it's called
 
 For a Cloud Server you can put the instance into rescue mode via
 the [Cloud Control Panel](https://mycloud.rackspace.com).
-For more information on rescue mode see [Rescue mode](/how-to/rescue-mode).
+For more information on rescue mode see [Rescue mode](/support/how-to/rescue-mode).
 
 Once the server is in rescue mode remember that the SSH key for the host
 will have changed, so you'll probably need to delete the server's key

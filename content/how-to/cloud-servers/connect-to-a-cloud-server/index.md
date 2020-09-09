@@ -22,9 +22,9 @@ instructions, see the appropriate article for your desktop operating
 system:
 
 -   [Connect to Linux from MacOS X by using
-    Terminal](/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal)
+    Terminal](/support/how-to/connecting-to-linux-from-mac-os-x-by-using-terminal)
 -   [Connect to Linux from Windows by using
-    PuTTY](/how-to/connecting-to-linux-from-windows-by-using-putty)
+    PuTTY](/support/how-to/connecting-to-linux-from-windows-by-using-putty)
 
 ### Connect to a Windows server
 
@@ -33,10 +33,10 @@ connection instructions, see the appropriate article for your desktop
 operating system:
 
 -   [Log in to your server via RDP
-    (Windows)](/how-to/log-in-to-your-server-via-rdp-windows)
+    (Windows)](/support/how-to/log-in-to-your-server-via-rdp-windows)
 
 ### More information
 
 If you can't connect to your cloud server remotely by using SSH or RDP, you can
 access your server by using the [console in the Cloud Control
-Panel](/how-to/start-a-console-session).
+Panel](/support/how-to/start-a-console-session).

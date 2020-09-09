@@ -15,7 +15,7 @@ Firewall Manager v2 is a tool within the MyRackspace Portal that allows you to m
 
 This article describes how to add an access-list rule using Firewall Manager v2.
 
-To learn more about the tool, see [Firewall Manager v2](/how-to/firewall-manager-v2).
+To learn more about the tool, see [Firewall Manager v2](/support/how-to/firewall-manager-v2).
 
 ### Why use access-lists?
 
@@ -27,9 +27,9 @@ An access control entry (ACE) is an individual entry in an ACL. ACEs are referre
 
 For more information about how to view, modify, or delete access-lists, see the following articles:
 
-- [View an access-list rule](/how-to/view-an-access-list-rules-with-firewall-manager-v2)
-- [Modify an access-list's execution order](/how-to/modify-an-access-lists-execution-order-with-firewall-manager-v2)
-- [Delete an access-list](/how-to/delete-an-access-list-with-firewall-manager-v2)
+- [View an access-list rule](/support/how-to/view-an-access-list-rules-with-firewall-manager-v2)
+- [Modify an access-list's execution order](/support/how-to/modify-an-access-lists-execution-order-with-firewall-manager-v2)
+- [Delete an access-list](/support/how-to/delete-an-access-list-with-firewall-manager-v2)
 
 ### Access-list best practices
 
@@ -49,7 +49,7 @@ To remain secure and follow compliance requirements, use the following best prac
 
 **Note:** Cisco firewalls execute access-list rules in order from first to last, based on the line number. If a customer request matches a rule, Cisco firewalls stop processing the request and performs the action.
 
-1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](/how-to/firewall-manager-v2) article.
+1. Access Firewall Manager v2 by following the steps in the [Firewall Manager v2](/support/how-to/firewall-manager-v2) article.
 
 2. In the navigation pane on the left side of the panel, click the firewall for which you want to see access-list rules.
 
@@ -80,9 +80,9 @@ To remain secure and follow compliance requirements, use the following best prac
 
      - A CIDR IP: Define a subnet range.
 
-     - A group of IPs: This is the recommended option. Select an existing object-group. If you need to create a new object-group first, see [Firewall Manager v2 object-groups](/how-to/firewall-manager-v2-object-groups).
+     - A group of IPs: This is the recommended option. Select an existing object-group. If you need to create a new object-group first, see [Firewall Manager v2 object-groups](/support/how-to/firewall-manager-v2-object-groups).
 
-      - Any IP: This option defines the source as **any**. Before choosing this option, refer to the best practices section in the [Firewall Manager v2 access-list theory and best practices](/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article.
+      - Any IP: This option defines the source as **any**. Before choosing this option, refer to the best practices section in the [Firewall Manager v2 access-list theory and best practices](/support/how-to/firewall-manager-v2-access-list-theory-and-best-practices) article.
 
          {{<image src="image-traffic-coming-from.png" alt="" title="">}}
 
@@ -100,17 +100,17 @@ To remain secure and follow compliance requirements, use the following best prac
 
 Firewall Manager v2 interacts with your firewall and adds the configuration. This typically takes about 30 seconds, depending on the size of your firewall's configuration.
 
-The new access-list rule is added to the end of the access-list. If you need to change the execution order of the rule, follow the steps in [Modify an access-list's execution order]((/how-to/modify-an-access-lists-execution-order-with-firewall-manager-v2).
+The new access-list rule is added to the end of the access-list. If you need to change the execution order of the rule, follow the steps in [Modify an access-list's execution order]((/support/how-to/modify-an-access-lists-execution-order-with-firewall-manager-v2).
 
 ### Related articles
 
-- [Firewall Manager v2 object-groups](/how-to/firewall-manager-v2-object-groups)
+- [Firewall Manager v2 object-groups](/support/how-to/firewall-manager-v2-object-groups)
 
-   - [View an object-group](/how-to/view-an-object-group-with-firewall-manager-v2)
-   - [Create an object-group](/how-to/create-an-object-group-with-firewall-manager-v2)
-   - [Modify an object-group](/how-to/modify-an-object-group-with-firewall-manager-v2)
-   - [Delete an object-group](/how-to/delete-an-object-group-with-firewall-manager-v2)
+   - [View an object-group](/support/how-to/view-an-object-group-with-firewall-manager-v2)
+   - [Create an object-group](/support/how-to/create-an-object-group-with-firewall-manager-v2)
+   - [Modify an object-group](/support/how-to/modify-an-object-group-with-firewall-manager-v2)
+   - [Delete an object-group](/support/how-to/delete-an-object-group-with-firewall-manager-v2)
 
-- [Firewall Manager v2 port-objects](/how-to/firewall-manager-v2-port-groups)
-- [Firewall Manager v2 change log](/how-to/firewall-manager-v2-change-log)
-- [Firewall Manager v2 access-list theory and best practices](/how-to/firewall-manager-v2-access-list-theory-and-best-practices)
+- [Firewall Manager v2 port-objects](/support/how-to/firewall-manager-v2-port-groups)
+- [Firewall Manager v2 change log](/support/how-to/firewall-manager-v2-change-log)
+- [Firewall Manager v2 access-list theory and best practices](/support/how-to/firewall-manager-v2-access-list-theory-and-best-practices)

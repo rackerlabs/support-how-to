@@ -169,9 +169,9 @@ distribution.
 
 **Note:** These instructions are for Linux and macOS&reg; desktops. If you are
 connecting from a Windows&reg; desktop, follow the instructions in
-[Generate RSA keys with SSH PUTTYgen](/how-to/generating-rsa-keys-with-ssh-puttygen/)
+[Generate RSA keys with SSH PUTTYgen](/support/how-to/generating-rsa-keys-with-ssh-puttygen/)
 and
-[Log in with a SSH private key on Windows](/how-to/logging-in-with-an-ssh-private-key-on-windows)
+[Log in with a SSH private key on Windows](/support/how-to/logging-in-with-an-ssh-private-key-on-windows)
 to generate and add the SSH key pair.
 
 1.  Run the following command to generate a key pair on your *local* Linux or
@@ -290,7 +290,7 @@ and disable password authentication by using the following steps:
         PasswordAuthentication no
 
     Replace **2222** with the port you want to use. Ensure the new port isn't already in use by another 
-    program by using [netstat](/how-to/checking-listening-ports-with-netstat).
+    program by using [netstat](/support/how-to/checking-listening-ports-with-netstat).
 
     **Important:** As mentioned previously, you should not make this change to the
     `sshd_config` file if your server has a Managed Operations service level.
@@ -301,12 +301,12 @@ and disable password authentication by using the following steps:
         sshd -t
 
 If you receive no errors, SSH is now configured to run on a custom port and accept only non-root users that pass a valid SSH key. For these settings to apply and persist, you must restart the SSH service.
-However, do not restart the service yet. Restarting SSH now might lock you out of the server, requiring you to use [rescue mode](how-to/rescue-mode) or the [web console](/how-to/start-a-console-session) to restore the configuration. You must configure the firewall before restarting the server. We discuss the firewall in the next section.
+However, do not restart the service yet. Restarting SSH now might lock you out of the server, requiring you to use [rescue mode](how-to/rescue-mode) or the [web console](/support/how-to/start-a-console-session) to restore the configuration. You must configure the firewall before restarting the server. We discuss the firewall in the next section.
 
 #### Amend software firewall and restart SSH
 
 **Note:** **RackConnect customers:** To manage firewall rules, use the RackConnect management instead of `iptables` on the server. You shouldn't change the SSH port if you use RackConnect. For more information about firewalls and RackConnect, see
-[Managing RackConnect v2.0 network policies](/how-to/managing-rackconnect-v20-network-policies).
+[Managing RackConnect v2.0 network policies](/support/how-to/managing-rackconnect-v20-network-policies).
 
 Each Linux distribution uses a different software firewall solution. In Red Hat Enterprise Linux (RHEL) and CentOS 7, the default firewall is `firewalld`. On Debian and Ubuntu-based distributions, the default firewall solution is Uncomplicated Firewall (UFW). For RHEL and CentOS 6, the default solution is `iptables`. Refer to the following section for your server's OS.
 
@@ -391,7 +391,7 @@ To connect to SSH with the new configuration, you might need to specify the port
 
 The `-p` option specifies the port, and the `-i` option specifies the private key to use for the connection.
 
-If you're connecting from a Windows desktop, when you create the connection in [PuTTY](/how-to/connecting-to-linux-from-windows-by-using-putty), you can specify the port number and a private key.
+If you're connecting from a Windows desktop, when you create the connection in [PuTTY](/support/how-to/connecting-to-linux-from-windows-by-using-putty), you can specify the port number and a private key.
 
 ### Simple intrusion prevention
 
@@ -480,8 +480,8 @@ investigation of logs and alerts from a potentially compromised server even if
 that server is shut down.
 
 If you suspect that a system is already compromised, you can investigate with
-procedures such as [checking for backdoors and intruders](/how-to/check-for-a-security-compromise-back-doors-and-intruders)
-and [rescue mode investigation](/how-to/check-for-a-security-compromise-rescue-mode-investigation).
+procedures such as [checking for backdoors and intruders](/support/how-to/check-for-a-security-compromise-back-doors-and-intruders)
+and [rescue mode investigation](/support/how-to/check-for-a-security-compromise-rescue-mode-investigation).
 
 ### Keep your OS up to date (patching)
 
@@ -526,7 +526,7 @@ them secure. However, you also need to allow your team to take action and perfor
 necessary tasks.
 
 By using
-[Role Based Access Control (RBAC)](/how-to/overview-role-based-access-control-rbac),
+[Role Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac),
 you can create users and grant permissions to individuals or applications that
 are responsible for using various Rackspace services. By leveraging RBAC, you
 can give your team and contractors access to only the utilities that they need
@@ -543,4 +543,4 @@ Following are some usage scenarios:
 -   Configure your servers to register and use specific users for your
     monitoring and backup agents that are separate from your admin account.
 
-For more information about RBAC, see the [Role-Based Access Control (RBAC) FAQ](/how-to/faq-role-based-access-control-rbac/).
+For more information about RBAC, see the [Role-Based Access Control (RBAC) FAQ](/support/how-to/faq-role-based-access-control-rbac/).

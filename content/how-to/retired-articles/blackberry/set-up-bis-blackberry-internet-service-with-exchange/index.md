@@ -17,7 +17,7 @@ want to use Blackberry Internet Service (BIS) instead.
 A BES license allows maximum
 Exchange functionality on the BlackBerry, including contacts and
 calendar. Setting up a BES license is done by an administrator,
-as described at [Add an ActiveSync or BES license](/how-to/email-migration-services).
+as described at [Add an ActiveSync or BES license](/support/how-to/email-migration-services).
 
 **Note:** Support for email accounts and email setup may vary by service
 provider.

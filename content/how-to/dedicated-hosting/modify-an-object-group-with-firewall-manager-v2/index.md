@@ -13,7 +13,7 @@ product_url: dedicated-hosting
 
 Firewall Manager v2 is a tool within the MyRackspace Portal. This article describes how to modify object-groups, an easy to use feature that groups and sorts like items such as IP addresses, ports, or protocols.
 
-To learn more about the tool, see [Firewall Manager v2](/how-to/firewall-manager-v2).
+To learn more about the tool, see [Firewall Manager v2](/support/how-to/firewall-manager-v2).
 
 ### Why should I use an object-group?
 
@@ -21,9 +21,9 @@ Object-groups improve the organization and readability of a firewall's running c
 
 In Firewall Manager v2, object-groups are referred to as *IP groups*. You can view, create, modify, and delete any object-group on your firewall. For more information, see the following articles:
 
-- [View an object-group](/how-to/view-an-object-group-with-firewall-manager-v2)
-- [Add an object-group](/how-to/create-an-object-group-with-firewall-manager-v2)
-- [Delete an object-group](/how-to/delete-an-object-group-with-firewall-manager-v2)
+- [View an object-group](/support/how-to/view-an-object-group-with-firewall-manager-v2)
+- [Add an object-group](/support/how-to/create-an-object-group-with-firewall-manager-v2)
+- [Delete an object-group](/support/how-to/delete-an-object-group-with-firewall-manager-v2)
 
 ### Modify an object-group
 
@@ -45,7 +45,7 @@ In Firewall Manager v2, object-groups are referred to as *IP groups*. You can vi
 
 7. Click **Edit Group**.
 
-8. To add an entry, click **Add IP(s)** and add IP hosts or subnet ranges to the group. For instructions, see [Add an object-group](/how-to/create-an-object-group-with-firewall-manager-v2).
+8. To add an entry, click **Add IP(s)** and add IP hosts or subnet ranges to the group. For instructions, see [Add an object-group](/support/how-to/create-an-object-group-with-firewall-manager-v2).
 
    {{<image src="modify-object-group.png" alt="" title="">}}
 

@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Previous section:** [Provision cloud resources when migrating from Amazon Web Services](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
+**Previous section:** [Provision cloud resources when migrating from Amazon Web Services](/support/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
 
 This scenario shows you how to migrate a Backbone.js, Node.js, and
 MongoDB&reg; application from Amazon Web Services (AWS) to the
@@ -42,7 +42,7 @@ Complete the following steps before you start the scenario:
     uses, such as Simple Email Service (SES) for email or Relational Database
     Service (RDS) for databases.
 -   If you haven't already, [create a Cloud Server
-    instance](/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services) and any supporting Rackspace Cloud services.
+    instance](/support/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services) and any supporting Rackspace Cloud services.
 
 ### Install software packages
 
@@ -195,7 +195,7 @@ Use the following steps to install Apache&reg; Tomcat&reg;:
     interfere with connectivity.
 
      To learn about iptables, see [Introduction
-     to iptables](/how-to/introduction-to-iptables).
+     to iptables](/support/how-to/introduction-to-iptables).
 
 15. Test Tomcat by looking up the Internet Protocol (IP) address for the cloud
     server from the Rackspace Cloud Control Panel and opening the URL in a
@@ -292,7 +292,7 @@ The example uses an existing container named AppData.
 First, retrieve your data from EC2. You can transfer the data directly in one
 of the following ways:
 
-- Use [rsync](/how-to/migrating-a-linux-server-from-the-command-line-1)
+- Use [rsync](/support/how-to/migrating-a-linux-server-from-the-command-line-1)
   or SSH File Transfer Protocol (SFTP).
 
 - Use the OpenStack Swift client to transfer your data to Cloud Files, and
@@ -391,9 +391,9 @@ access and test your application.
 
 ### Next step
 
-[Post-migration considerations when migrating from Amazon Web Services](/how-to/post-migration-considerations-when-migrating-from-amazon-web-services)
+[Post-migration considerations when migrating from Amazon Web Services](/support/how-to/post-migration-considerations-when-migrating-from-amazon-web-services)
 
 For other migration scenarios, see the following articles:
 
--   [Migrate a .NET application from Amazon Web Services](/how-to/migrating-a-net-application-from-amazon-web-services)
--   [Migrate a Java web application from Amazon Web Services](/how-to/migrating-a-java-web-application-from-amazon-web-services)
+-   [Migrate a .NET application from Amazon Web Services](/support/how-to/migrating-a-net-application-from-amazon-web-services)
+-   [Migrate a Java web application from Amazon Web Services](/support/how-to/migrating-a-java-web-application-from-amazon-web-services)

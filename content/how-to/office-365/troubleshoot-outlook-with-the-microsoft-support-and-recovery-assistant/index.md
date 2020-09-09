@@ -18,7 +18,7 @@ product_url: office-365
 - **Time needed:** 20-30 minutes
 - **Tools required:** Licensed Microsoft 365&reg; user, Windows&reg; device with Outlook&reg;, Microsoft Support and Recovery Assistant, active network connection
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 For additional information about Microsoft 365 licensing, see our [product comparison chart](https://www.rackspace.com/sites/default/files/2020-06/Rackspace-Data-Sheet-Microsoft-365-Plans-and-Pricing-Sheet-CLO-TSK-1487.pdf).
 

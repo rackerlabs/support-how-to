@@ -29,7 +29,7 @@ The following operating systems support SNI without additional modifications:
 
 ### Configure SNI
 
-Install the certificate by using the [Install an SSL certificate](/how-to/install-an-ssl-certificate/#install-certificate-on-windows-servers) article. Then return to this article to set up the bindings by using SNI.
+Install the certificate by using the [Install an SSL certificate](/support/how-to/install-an-ssl-certificate/#install-certificate-on-windows-servers) article. Then return to this article to set up the bindings by using SNI.
 
 #### Set up the bindings
 

@@ -40,4 +40,4 @@ Insurance Portability and Accountability Act found at 45 CFR &sect;160.103.
 
 ### Related article
 
-[Load Balancers FAQ: SSL termination](/how-to/cloud-load-balancers-faq)
+[Load Balancers FAQ: SSL termination](/support/how-to/cloud-load-balancers-faq)

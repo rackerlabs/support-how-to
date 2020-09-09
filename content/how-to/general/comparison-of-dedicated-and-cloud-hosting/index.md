@@ -58,7 +58,7 @@ your business.
     <td><strong>Operating system availability</strong></td>
     <td>Red Hat Enterprise Linux<br>CentOS<br>Debian<br>Ubuntu operating systems<br>Windows Server (from 2008 R2 to 2016)</td>
     <td>Same as dedicated
-    <td>Please see the following two links for details: <a href="/how-to/cloud-servers-with-managed-operations-support-for-linux">Cloud Servers with Managed Operations support for Linux</a> and <a href="/how-to/cloud-servers-with-managed-operations-support-for-windows">Cloud Servers with Managed Operations support for Windows</a>.</td>
+    <td>Please see the following two links for details: <a href="/support/how-to/cloud-servers-with-managed-operations-support-for-linux">Cloud Servers with Managed Operations support for Linux</a> and <a href="/support/how-to/cloud-servers-with-managed-operations-support-for-windows">Cloud Servers with Managed Operations support for Windows</a>.</td>
   </tr>
   <tr>
     <td><strong>Ticketing system, control panel</strong></td>

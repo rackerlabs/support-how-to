@@ -22,9 +22,9 @@ link: <https://www.microsoft.com/en-us/download/details.aspx?id=10419>
 
 If you cannot install the Entourage 2008 Web
 Services Edition add-on, consider using
-[Outlook Web Access](/how-to/outlook-web-access-owa-for-exchange).
+[Outlook Web Access](/support/how-to/outlook-web-access-owa-for-exchange).
 Alternatively, you can set up your account using IMAP as described at
-[Help tool for hosted email and Skype for Business](/how-to/help-tool-for-hosted-email-and-skype-for-business).
+[Help tool for hosted email and Skype for Business](/support/how-to/help-tool-for-hosted-email-and-skype-for-business).
 
 1. Open Entourage and select **Tools**, **Accounts**, **New** and
    then **Exchange**.

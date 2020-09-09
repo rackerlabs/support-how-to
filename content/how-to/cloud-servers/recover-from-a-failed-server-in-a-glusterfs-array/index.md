@@ -13,7 +13,7 @@ product_url: cloud-servers
 
 ### Previous section
 
-[Add and remove GlusterFS servers](/how-to/add-and-remove-glusterfs-servers)
+[Add and remove GlusterFS servers](/support/how-to/add-and-remove-glusterfs-servers)
 
 This article shows the following ways to recover when a single server fails:
 
@@ -21,7 +21,7 @@ This article shows the following ways to recover when a single server fails:
 
 *  Add a new server but keep the IP address of the failed server (a more work-intensive fix).
 
-After completing the [previous article](/how-to/add-and-remove-glusterfs-servers) you should have a GlusterFS array with at least two nodes and know how to add and delete nodes.
+After completing the [previous article](/support/how-to/add-and-remove-glusterfs-servers) you should have a GlusterFS array with at least two nodes and know how to add and delete nodes.
 
 ### Prerequisites
 

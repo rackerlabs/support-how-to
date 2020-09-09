@@ -12,7 +12,7 @@ product_url: rackconnect
 ---
 
 **Previous section:** [Introducing RackConnect
-v2.0](/how-to/introducing-rackconnect-v20)
+v2.0](/support/how-to/introducing-rackconnect-v20)
 
 **Applies to:** RackConnect v2.0
 
@@ -67,4 +67,4 @@ circumstances.
 
 ### Next step
 
-[RackConnect key terms](/how-to/rackconnect-key-terms)
+[RackConnect key terms](/support/how-to/rackconnect-key-terms)

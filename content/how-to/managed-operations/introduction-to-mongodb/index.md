@@ -23,8 +23,8 @@ language.
 
 For an introduction to NoSQL databases, see the following articles:
 
-- [Types of databases](/how-to/types-of-databases)
-- [Examples of RDBMS and NoSQL databases](/how-to/examples-of-rdbms-and-nosql-databases)
+- [Types of databases](/support/how-to/types-of-databases)
+- [Examples of RDBMS and NoSQL databases](/support/how-to/examples-of-rdbms-and-nosql-databases)
 
 ### Terminology and concepts
 
@@ -85,4 +85,4 @@ amounts of data.
 
 ### Next step
 
-[Introduction to Cassandra](/how-to/introduction-to-cassandra/)
+[Introduction to Cassandra](/support/how-to/introduction-to-cassandra/)

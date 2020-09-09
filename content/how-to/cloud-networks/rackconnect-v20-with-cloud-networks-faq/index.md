@@ -30,7 +30,7 @@ Support team prior to making the change.
 1. You must be a RackConnect 2.0 with Automation Features enabled
  customer. For further details on RackConnect Automation Features,
  please view the [RackConnect v2.0 Automation Features
- FAQ](/how-to/rackconnect-v20-automation-features-faq).
+ FAQ](/support/how-to/rackconnect-v20-automation-features-faq).
 
 2. You must make sure to create cloud servers with the PublicNet and
  ServiceNet networks enabled, in addition to your Cloud Network.

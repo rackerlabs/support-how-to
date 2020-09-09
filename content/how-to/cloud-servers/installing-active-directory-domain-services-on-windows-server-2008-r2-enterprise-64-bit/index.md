@@ -20,7 +20,7 @@ Controller (DC) to an already existing Active Directory Forest
 infrastructure.
 
 **Note**: For information about setting up the Active Directory Role
-on a cloud server running Windows Server 2012, see [Install Active Directory on Windows Server 2012](/how-to/installing-active-directory-on-windows-server-2012).
+on a cloud server running Windows Server 2012, see [Install Active Directory on Windows Server 2012](/support/how-to/installing-active-directory-on-windows-server-2012).
 
 ### Prepare for AD DS
 

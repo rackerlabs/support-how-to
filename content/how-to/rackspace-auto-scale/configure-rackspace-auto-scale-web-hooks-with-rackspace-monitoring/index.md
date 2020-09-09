@@ -22,7 +22,7 @@ webhooks is needed for the Auto Scale service to perform correctly.
 
 ### Before you begin
 
-Before you can configure the webhooks, you must [create an Auto Scale group](/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group).
+Before you can configure the webhooks, you must [create an Auto Scale group](/support/how-to/rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group).
 
 ### Create Auto Scale policies
 
@@ -61,7 +61,7 @@ policies you created.
 1.  On the Scaling group details pages, click the cloud server at the
     bottom of the page.
 
-2.  Log in to the server and [install the Rackspace Monitoring Agent](/how-to/install-and-configure-the-rackspace-monitoring-agent).
+2.  Log in to the server and [install the Rackspace Monitoring Agent](/support/how-to/install-and-configure-the-rackspace-monitoring-agent).
 
 3.  Open Rackspace  Intelligence and click **Notify**.
 

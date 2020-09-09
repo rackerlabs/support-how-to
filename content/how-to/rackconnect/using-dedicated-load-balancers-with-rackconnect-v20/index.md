@@ -13,7 +13,7 @@ product_url: rackconnect
 
 **Applies to**: RackConnect v2.0
 
-**Previous section:** [Accessing RackConnected cloud servers](/how-to/accessing-rackconnect-cloud-servers)
+**Previous section:** [Accessing RackConnected cloud servers](/support/how-to/accessing-rackconnect-cloud-servers)
 
 Load balancers distribute workloads across two or more servers, network
 links, or other resources. This distribution maximizes throughput,
@@ -47,7 +47,7 @@ You can specify the metadata values when you use the Cloud Servers API to create
 about how to use the API to enter metadata information for a cloud server.
 
 This is the method to use if you want Auto Scale to use RackConnect with
-F5 load balancers. Read more about this on the [Auto Scale tips and how-to's](/how-to/rackspace-auto-scale-tips-and-how-tos)
+F5 load balancers. Read more about this on the [Auto Scale tips and how-to's](/support/how-to/rackspace-auto-scale-tips-and-how-tos)
 page about cloud bursting.
 
 **Note:** If you are using next generation Cloud Servers, you can now
@@ -152,4 +152,4 @@ RackConnect, contact your Support team.
 
 ### Next section
 
-[Using Cloud Load Balancers with RackConnect](/how-to/using-cloud-load-balancers-with-rackconnect)
+[Using Cloud Load Balancers with RackConnect](/support/how-to/using-cloud-load-balancers-with-rackconnect)

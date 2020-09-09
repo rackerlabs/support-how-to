@@ -29,7 +29,7 @@ This issue might have one of the following causes:
     as an Administrator on Windows) and install the agent. For
     installation instructions, see [Install and configure the Rackspace
     Monitoring
-    Agent](/how-to/install-and-configure-the-rackspace-monitoring-agent).
+    Agent](/support/how-to/install-and-configure-the-rackspace-monitoring-agent).
 -   The agent is installed but is not connected to your server. For the
     agent to work correctly, it must be associated with your server by
     using a Rackspace Monitoring entity. The entity is a representation
@@ -105,7 +105,7 @@ performing the following steps:
 You can use the Rackspace Monitoring Command Line Interface (Raxmon) to
 troubleshoot your monitoring agent. To install the Raxmon tool, read
 [Getting Started with Rackspace Monitoring
-CLI](/how-to/getting-started-with-rackspace-monitoring-cli).
+CLI](/support/how-to/getting-started-with-rackspace-monitoring-cli).
 
 To troubleshoot a monitoring agent by using Raxmon, complete the
 following steps:
@@ -236,4 +236,4 @@ file](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#agent
 ### Related information
 
 [About the Rackspace Monitoring
-Agent](/how-to/about-the-rackspace-monitoring-agent).
+Agent](/support/how-to/about-the-rackspace-monitoring-agent).

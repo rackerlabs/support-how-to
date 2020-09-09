@@ -104,8 +104,8 @@ You need to install a JSON validation tool before entering the redirect.
   ```json
   {
     "description": "Retire {article name}",
-    "from": "^\\/how-to\\/{permalink-from-article}(.*)$",
-    "to": "/how-to/article-retired/",
+    "from": "^\\/support/how-to\\/{permalink-from-article}(.*)$",
+    "to": "/support/how-to/article-retired/",
     "rewrite": false,
     "status": 301
   }

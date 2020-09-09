@@ -20,7 +20,7 @@ Rackspace Proactive Detection & Response (PDR) provides the following services:
 
 ### PDR Platforms
 
-- [Rackspace PDR on Rackspace Dedicated Servers](/how-to/rackspace-pdr-dedicated-servers/)
-- [Rackspace PDR on Managed AWS](/how-to/rackspace-pdr-aws/)
-- [Rackspace PDR on Managed Azure Cloud](/how-to/rackspace-pdr-azure/)
-- [Rackspace PDR on Managed Google Cloud Platform](/how-to/rackspace-pdr-gcp/)
+- [Rackspace PDR on Rackspace Dedicated Servers](/support/how-to/rackspace-pdr-dedicated-servers/)
+- [Rackspace PDR on Managed AWS](/support/how-to/rackspace-pdr-aws/)
+- [Rackspace PDR on Managed Azure Cloud](/support/how-to/rackspace-pdr-azure/)
+- [Rackspace PDR on Managed Google Cloud Platform](/support/how-to/rackspace-pdr-gcp/)
