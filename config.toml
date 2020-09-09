@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = ""
 theme = "support-developer-hugo-theme"
 copyright = ""
 defaultContentLanguage = "en-us"
@@ -101,12 +101,12 @@ defaultMarkdownHandler = "goldmark"
 [[menu.footer]]
     name = "API Documentation"
     parent = "Support Network"
-    url = "/docs/"
+    url = "https://docs.rackspace.com/docs/"
     weight = 3
 [[menu.footer]]
     name = "Developer Center"
     parent = "Support Network"
-    url = "/"
+    url = "https://docs.rackspace.com/"
     weight = 4
 [[menu.footer]]
     name = "About"
@@ -182,7 +182,7 @@ defaultMarkdownHandler = "goldmark"
 [[menu.footer]]
     name = "Style Guide for Technical Content"
     parent = "Site Information"
-    url = "/docs/style-guide/"
+    url = "https://docs.rackspace.com/docs/style-guide/"
     weight = 12
 
 [[menu.main]]
@@ -198,7 +198,7 @@ defaultMarkdownHandler = "goldmark"
 [[menu.main]]
     identifier = "developer_documentation"
     name = "Developer Documentation"
-    url = "/docs"
+    url = "https://docs.rackspace.com/docs/"
     weight = 3
 [[menu.main]]
     identifier = "blogs"
@@ -209,7 +209,7 @@ defaultMarkdownHandler = "goldmark"
     [[menu.main]]
         identifier = "technical-blog"
         name ="Technical Blog"
-        url ="/blog"
+        url ="https://docs.rackspace.com/blog"
         weight = 1
         parent = "blogs"
     [[menu.main]]
