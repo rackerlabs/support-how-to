@@ -8,6 +8,7 @@
 		- [Edit an article](#edit-an-article)
 		- [Make a change to a PR](#make-a-change-to-a-pr)
 		- [Request an article change](#request-an-article-change)
+		- [Retire an article](#retire-an-article)
 	- [Writing guidelines](#writing-guidelines)
 	- [Support and feedback](#support-and-feedback)
 
@@ -67,7 +68,7 @@ Follow these steps to create a new article within a product folder of the **rack
 
 3. Write your article in Markdown. Markdown guidelines are at https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet.
 
-4. When you have finished writing your article, review it in the **Preview** tab.
+4. Preview the article in your editor.
 
 5. At the bottom of the page, click **Propose new file**.
 
@@ -84,9 +85,11 @@ Follow these steps to create a new article within a product folder of the **rack
 
 **Note:** If your article includes images, add the image to your article directory and add a link to the image in your article.  For example, assuming your image is named **Picture1.png**: {{<img src="Picture1.png" title="" alt="">}}
 
-8. Request reviews of your PR from the Information Development team in the ``#how-to`` channel in Slack.
+8. After the build completes, preview it by clicking the **Details** link next to *Deploy preview ready!* in the **All Checks Passed** section of the GitHub PR.
 
-The Content Services team will review your PR. Depending on the review feedback, you might be asked to make additional changes. The How-To editorial team will merge your pull request once your contribution is reviewed.
+9. Request reviews of your PR from the Information Development team in the ``#how-to`` channel in Slack.
+
+The Content Services team will review your PR. Depending on the review feedback, you might be asked to make additional changes. The How-To editorial team will merge your pull request after we review your contribution.
 
 <!---##### Using article templates
 
@@ -119,7 +122,7 @@ Follow these steps to edit an existing article within a product folder of the **
 
     **Note:** If you are using a desktop client or the command line, and you are forking or cloning the repository, be sure to make your changes in a new branch. Doing so ensures that you are producing a pull request (PR) rather than committing changes directly to the master.
 
-5. When you have finished editing the article, review it in the **Preview** tab.
+5. When you have finished editing the article,  review it in your editor.
 
 6. At the bottom of the page, click **Propose file change**.
 
@@ -141,10 +144,11 @@ Follow these steps to edit an existing article within a product folder of the **
 
 8. Click **Create pull request**.
 
-9. Request reviews of your PR from the Information Development team in the
-    ``#how-to`` channel in Slack.
+9. After the build completes, preview it by clicking the **Details** link next to *Deploy preview ready!* in the **All Checks Passed** section of the GitHub PR.
 
-The Content Services team will review your PR. Depending on the review feedback, you might be asked to make additional changes. The How-To editorial team will merge your pull request once your contribution is reviewed.
+10. Request reviews of your PR from the Information Development team in the ``#how-to`` channel in Slack.
+
+The Content Services team will review your PR. Depending on the review feedback, you might be asked to make additional changes. The How-To editorial team will merge your pull request after we review your contribution.
 
 #### Make a change to a PR
 
@@ -164,14 +168,19 @@ You might be asked by a member of the editorial team to update your PR. Follow t
 
 7. Click the **Commit directly to the `your-branch-name` branch** option, and then click **Commit changes**.
 
-8. Request reviews of your PR from the Information Development team in the
-    ``#how-to`` channel in Slack.
+8. Request reviews of your PR from the Information Development team in the ``#how-to`` channel in Slack.
 
 The How-To team will comment on the PR if any more changes need to be made.
 
 #### Request an article change
 
 To request a change, create an issue by clicking **Issue** near the top of this page. Describe the changes that you are requesting.
+
+#### Retire an article
+
+**Important**: Before you retire an article, search the repository to identify any articles with links to the article you plan to retire. Either remove those links or change the links to to point to appropriate content.
+
+For instructions on retiring an article, see [https://github.com/rackerlabs/support-how-to/blob/master/content/how-to/retired-articles/RETIRING-CONTENT/index.md](https://github.com/rackerlabs/support-how-to/blob/master/content/how-to/retired-articles/RETIRING-CONTENT/index.md).
 
 ### Writing guidelines
 
