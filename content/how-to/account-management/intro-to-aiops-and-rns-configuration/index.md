@@ -163,7 +163,7 @@ Complete the following steps to configure notification email preferences:
 4. Perform one of the following:
 
     - To turn off email notifications globally for all devices, click the slider to the off position, and click **Update Preferences**.
-    ![email1](email-preference-1.png)
+    {{<image src="email-preference-1.png">}}
 
     - To turn off email notifications for a device, expand the **Monitoring** section, clear the checkbox for each device for which you do not want to receive notification emails, and click **Update Preferences**.
-    ![email2](email-preference-2.png)
+    {{<image src="email-preference-2.png">}}
