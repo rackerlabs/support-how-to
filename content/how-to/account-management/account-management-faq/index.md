@@ -279,7 +279,7 @@ account might have access to.
 
 Following is the initial pop-up window that appears when you enable RBAC.
 
-<img class="fig-img" src="/support/how-to/account-management-faq/RBAC.png" alt="">
+{{<image src="RBAC.png" alt="" title="Enable RBAC pop-up">}}
 
 
 For information about additional products that will be RBAC-enabled in
