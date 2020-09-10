@@ -11,19 +11,25 @@ product: Account Management
 product_url: account-management
 ---
 
-You can choose the **Remember Me** option and up to 5 remembered users will appear on the user menu. This makes account switching for Dedicated and Managed Hosting seamless and easy.
+Account switching allows you to switch between Rackspace accounts. The **Remember Me** option
+displays up to five remembered users appear on the **User** menu, making account switching for
+Dedicated and Managed Hosting seamless and easy. However, you might need to add or delete users
+to be more efficient.
+
+The following sections describe how to add and delete users from an account.
 
 ### Add user
 
-1. Login to [portal](login.rackspace.com).
-2. Select the **Remember Me** checkbox and the user profile is added to the **User** menu.
+1. Log in to the [Rackspace portal](login.rackspace.com).
+2. Select the **Remember Me** checkbox to add the user profile to the **User** menu.
 
-### Remove user
+### Delete user
 
 1. Click **Log out** on the **User** menu.
-2. Navigate to the login [portal](login.rackspace.com).
+2. Navigate to the [Rackspace portal](login.rackspace.com).
 3. Click **Edit** under the **Pick a Login** box.
-4. Click the delete icon beside the desired user.
+4. Click the delete icon beside the user you want to delete.
 5. Select **Done** to save your changes.
 
-Important. Standard security policies still apply, and you may be prompted for a password after a given period of time.
+**Important**: Standard security policies still apply, and the system
+might occasionally prompt you for a password.
