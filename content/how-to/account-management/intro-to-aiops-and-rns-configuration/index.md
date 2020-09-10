@@ -1,5 +1,5 @@
 ---
-permalink: intro-to-aiops-and-rns-configuration
+permalink: intro-to-aiops-and-rns-configuration/
 audit_date: '2020-09-10'
 title: Introduction to AIOps and Rackspace Notification System Configuration
 type: article
@@ -35,11 +35,11 @@ Before AIOps, each alert generated a ticket, and then any related alerts also cr
 
 For example, if a server goes down because it ran out of RAM, the monitoring system generated a **Memory Threshold Reached** alert and ticket. The server down scenario then generates an **Apache&reg; Service is down** alert and ticket. If the problem continues, the monitoring system also generated an **SSH alert** because the server cannot be reached. AIOps would gather these three alerts into a situation that could be worked by a single Rackspace Technology support representative.
 
-![current state](current-state.png)
+{{<image src="current-state.png">}}
 
 The AIOps integration creates a situation (a collection of one or more alerts) and creates a single corresponding ticket referencing the situation. The system notifies and engages the support teams required to work the situation, and you receive updates from the single ticket.  
 
-![future state](future-state.png)
+{{<image src="future-state.png">}}
 
 ### About situation tickets
 
@@ -64,7 +64,7 @@ This section describes how to interpret the following sections of a situation ti
 Situations tickets are dynamic and updated continuously. When the ticket is generated or AIOps adds alerts to the situation, the subject line updates to reflect the most recent information.
 The following image illustrates the subject line of a situation ticket:
 
-![ticket1](interpret-ticket-0.png)
+{{<image src="interpret-ticket-0.png">}}
 
 The following table describes each part of the subject line of a situation ticket:
 
@@ -81,7 +81,7 @@ The following table describes each part of the subject line of a situation ticke
 The situation ticket updates when AIOps adds an alert to the situation. Each update includes the new alert along with a link to the situation and the Rackspace Notification System (RNS).
 The following image illustrates an updated sample situation ticket:
 
-![ticket2](interpret-ticket-1.png)
+{{<image src="interpret-ticket-1.png">}}
 
 Refer to the following table to understand how to interpret a situation ticket.
 
@@ -97,7 +97,7 @@ When the support team clears a situation, the system updates the situation ticke
 
 **Note:** The summary includes all alerts associated with the ticket, including any alerts that were initially internal to Rackspace Technology and not visible to you.
 
-![ticket3](interpret-ticket-2.png)
+{{<image src="interpret-ticket-2.png">}}
 
 Refer to the following table to understand how to interpret a situation ticket summary:
 
@@ -112,7 +112,7 @@ The Rackspace Notification System (RNS) contains all alerts associated with a si
 
 To navigate to the **Notifications** page, click the link in the ticket.
 
-![rns1](navigate-to-rns-1.png)
+{{<image src="navigate-to-rns-1.png">}}
 
 RNS filters the list of alerts that appears on the Notifications page to include only the notifications associated with the selected situation ticket.
 On the Notifications page, you can perform the following actions:
@@ -121,7 +121,7 @@ On the Notifications page, you can perform the following actions:
 - Use the right panel to see the alert message, view its details, and see the associated device.
 - Click **Actions** to reply to the ticket or modify preferences so that you do not receive notifications emails for each alert posted to the **Notifications** page.
 
-![rns2](navigate-to-rns-2.png)
+{{<image src="navigate-to-rns-2.png">}}
 
 You can also complete the following steps to navigate to the **Notifications** page:
 
@@ -130,7 +130,7 @@ You can also complete the following steps to navigate to the **Notifications** p
 
 The unfiltered list of notifications appears in the left pane. When you click on an alert notification that has related alert notifications, all related alert notifications display highlighted.
 
-![rns3](navigate-to-rns-3.png)
+{{<image src="navigate-to-rns-3.png">}}
 
 #### Notification emails
 
@@ -138,7 +138,7 @@ By default, the notification system sends you an email for each alert associated
 
 The following image shows you an example notification email:
 
-![rns4](navigate-to-rns-4.png)
+{{<image src="navigate-to-rns-4.png">}}
 
 ### Configure notification email preferences
 
