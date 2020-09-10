@@ -15,11 +15,14 @@
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 </script>
 
-<!-- <script async src="https://cse.google.com/cse.js?cx=006650721361932583448:0tpp1tnttba"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.0.0/dist/algoliasearch-lite.umd.js" integrity="sha256-MfeKq2Aw9VAkaE9Caes2NOxQf6vUa8Av0JqcUXUGkd0=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.0.0/dist/instantsearch.production.min.js" integrity="sha256-6S7q0JJs/Kx4kb/fv0oMjS855QTz5Rc2hh9AkIUjUsk=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.0.0/dist/algoliasearch-lite.umd.js"
+    integrity="sha256-MfeKq2Aw9VAkaE9Caes2NOxQf6vUa8Av0JqcUXUGkd0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.0.0/dist/instantsearch.production.min.js"
+    integrity="sha256-6S7q0JJs/Kx4kb/fv0oMjS855QTz5Rc2hh9AkIUjUsk=" crossorigin="anonymous"></script>
+
 
 <script>
+
     function openTab(evt, tabName) {
         var i, x, tablinks;
         x = document.getElementsByClassName("product-type");
@@ -37,7 +40,8 @@
         if (document.getElementById("gs-ctrl") != undefined) {
             document.getElementById("gs-ctrl").className += " active"
         }
-        if (!window.location.href.includes("faq") && !window.location.href.includes("all-articles") && (document.getElementById("acc-man") != undefined)) {
+        if (!window.location.href.includes("faq") && !window.location.href.includes("all-articles") && (document
+                .getElementById("acc-man") != undefined)) {
             document.getElementById("acc-man").className += " active";
         }
         if (window.location.href.includes("faq") && (document.getElementById("acc-faq") != undefined)) {
@@ -46,9 +50,9 @@
         if (window.location.href.includes("all-articles") && (document.getElementById("acc-all") != undefined)) {
             document.getElementById("acc-all").className += " active";
         }
-        if(window.location.href.includes("faq")) {
+        if (window.location.href.includes("faq")) {
             var elements = document.getElementsByClassName("panel-group");
-            for(var i = 0; i < elements.length; i++ ) {
+            for (var i = 0; i < elements.length; i++) {
                 elements[i].className += " faq-list"
             }
             $('a[data-toggle="collapse"]').addClass('inactive');
@@ -56,27 +60,46 @@
         $("table").addClass(["table", "table-striped", "table-bordered"]);
 
         var arrOfPtags = document.getElementsByTagName("p");
-        for (var i = 0;i < arrOfPtags.length; i++){
-            if(arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>note</strong>") || arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>note:</strong>")) {
+        for (var i = 0; i < arrOfPtags.length; i++) {
+            if (arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>note</strong>") || arrOfPtags[i].innerHTML
+                .toLowerCase().includes("<strong>note:</strong>")) {
                 arrOfPtags[i].className += "callout-note";
             }
-            if(arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>important</strong>") || arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>important:</strong>")) {
+            if (arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>important</strong>") || arrOfPtags[i]
+                .innerHTML.toLowerCase().includes("<strong>important:</strong>")) {
                 arrOfPtags[i].className += "callout-important";
             }
-            if(arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>warning</strong>") || arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>warning:</strong>")) {
+            if (arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>warning</strong>") || arrOfPtags[i]
+                .innerHTML.toLowerCase().includes("<strong>warning:</strong>")) {
                 arrOfPtags[i].className += "callout-warning";
             }
-            if(arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>tip</strong>") || arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>tip:</strong>")) {
+            if (arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>tip</strong>") || arrOfPtags[i].innerHTML
+                .toLowerCase().includes("<strong>tip:</strong>")) {
                 arrOfPtags[i].className += "callout-tip";
             }
         }
-        // var paragraphs = document.getElementsByTagName("p");
-        // for(var i = 0; i < paragraphs.length; i++)
-        // {
-        //     console.log(paragraphs[i].innerText.includes("**Note:**"));
-        // }
-
     }
+    const search = instantsearch({
+  indexName: 'support',
+  searchClient: algoliasearch('KL3UEHFLE7', 'e6a02f4332ef885b9ef561760928ef92'),
+});
+
+search.addWidgets([
+  instantsearch.widgets.searchBox({
+    container: '#searchbox',
+  }),
+  instantsearch.widgets.hits({
+    container: '#hits',
+  }),
+  instantsearch.widgets.pagination({
+    container: '#pagination',
+  }),
+]);
+
+search.start();
+
 </script>
 
-<script src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries"></script>
+<script
+    src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries">
+</script>

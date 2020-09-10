@@ -1,5 +1,7 @@
 {{- define "main" -}}
 <main id="post-container" class="how-to-wrapper">
+    <div id="hits"></div>
+    <div id="pagination"></div>
     {{- partial "components/announcement" . -}}
     {{- if or (eq .Params.Type "product") (eq .Params.Type "article") -}}
     <div class="container">
@@ -29,3 +31,4 @@
     {{- end -}}
 </main>
 {{- end -}}
+
