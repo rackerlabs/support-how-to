@@ -27,24 +27,10 @@
   [headers.values]
     Cache-Control = "public, s-max-age=604800"
 
-# [[plugins]]
-#   package = "netlify-plugin-checklinks"
-#   [plugins.inputs]
-#   entryPoints = [
-#     "*.html",
-#   ]
-#   recursive = false
-#   pretty = true
-#   skipPatterns = ["public/blog", "public/docs", "public/docs/*"]
-#   todoPatterns = ["public/support/","public/support/*", "public/support/how-to/", "public-support/how-to"]
-#   checkExternal = false
-#   followSourceMaps = false
 [[plugins]]
   package = "netlify-plugin-algolia-export"
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
-
 	[plugins.inputs]
-	# If it should show more verbose logs (optional, default = true)
 	debug = true
