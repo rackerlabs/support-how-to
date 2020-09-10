@@ -6,6 +6,7 @@ weight: 4
 outputs:
 - HTML
 - RSS
+- Algolia
 type:
 product:
 product_url:

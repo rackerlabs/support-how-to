@@ -227,13 +227,7 @@ defaultMarkdownHandler = "goldmark"
 
 
 [outputs]
-home = ["HTML", "RSS", "Redirects", "Algolia"]
-
-[outputFormats.Redirects]
-baseName = "redirects"
-isPlainText = true
-mediatype = "application/json"
-notAlternative = true
+home = ["HTML", "RSS", "Algolia"]
 
 [outputFormats.Algolia]
 baseName = "algolia"
