@@ -22,7 +22,6 @@
 
 
 <script>
-
     function openTab(evt, tabName) {
         var i, x, tablinks;
         x = document.getElementsByClassName("product-type");
@@ -80,24 +79,34 @@
         }
     }
     const search = instantsearch({
-  indexName: 'support',
-  searchClient: algoliasearch('KL3UEHFLE7', 'e6a02f4332ef885b9ef561760928ef92'),
-});
+        indexName: 'support',
+        searchClient: algoliasearch('KL3UEHFLE7', 'e6a02f4332ef885b9ef561760928ef92'),
+        searchFunction(helper) {
+            const hitsContainer = document.querySelector('#hits');
+            const paginationContainer = document.querySelector('#pagination');
+            hitsContainer.style.display = helper.state.query === '' ? 'none' : '';
+            paginationContainer.style.display = helper.state.query === '' ? 'none' : '';
+            helper.search();
+        }
+    });
 
-search.addWidgets([
-  instantsearch.widgets.searchBox({
-    container: '#searchbox',
-  }),
-  instantsearch.widgets.hits({
-    container: '#hits',
-  }),
-  instantsearch.widgets.pagination({
-    container: '#pagination',
-  }),
-]);
+    search.addWidgets([
+        instantsearch.widgets.searchBox({
+            container: '#searchbox',
+            autocomplete: 'on',
+            autocorrect: 'on',
+            autocapitalize: 'on',
+            placeholder: 'Search How-To'
+        }),
+        instantsearch.widgets.hits({
+            container: '#hits',
+        }),
+        instantsearch.widgets.pagination({
+            container: '#pagination',
+        }),
+    ]);
 
-search.start();
-
+    search.start();
 </script>
 
 <script
