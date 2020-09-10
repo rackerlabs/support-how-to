@@ -3,8 +3,8 @@ title: Cloud Files
 type: product
 created_date: '2016-01-17'
 created_by: Rackspace Support
-last_modified_date: '2019-03-15'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2020-09-20'
+last_modified_by: Stephanie Fillmon
 permalink: /cloud-files/
 product: Cloud Files
 product_url: cloud-files
@@ -25,6 +25,10 @@ easy-to-use control panel, for a Fanatical Experience&trade; from day one.
 - [Best practices for using Cloud Files](/support/how-to/best-practices-for-using-cloud-files)
 - [Using CNAMEs with Cloud Files containers](/support/how-to/using-cnames-with-cloud-files-containers)
 - [Cloud Files delete and purge requests](/support/how-to/cloud-files-deletion-and-purge-requests)
+- [Getting started with Cloud Files streaming](/support/how-to/getting-started-with-cloud-files-streaming/)
+- [Set up a static website with Cloud Files](/support/how-to/set-up-a-static-website-with-cloud-files/)
+- [Back up data with Cloud Files](/support/how-to/back-up-data-with-cloud-files/)
+- [Secure Cloud Files and CDN](/support/how-to/secure-cloud-files-and-cdn-urls/)
 
 ###  Cloud Files API and developer guides
 
@@ -32,10 +36,3 @@ easy-to-use control panel, for a Fanatical Experience&trade; from day one.
 - [Cloud Files Developer Guide](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/#document-developer-guide)
 
 
-### Cloud Files in the Rackspace blog
-
--   [Cloud Files: CDN Video Streaming](https://www.rackspace.com/blog/cloud-files-adds-cdn-video-streaming/)
--   [Cloud Files: How To Create A Static Website](https://www.rackspace.com/blog/rackspace-cloud-files-how-to-create-a-static-website/)
--   [Storing Data In Cloud Files With Rails](https://www.rackspace.com/blog/storing-data-in-cloud-files-with-rails/)
--   [Cloud Files CDN SSL Delivery](https://blog.rackspace.com/its-here-cloud-files-now-supports-cnames-for-cdn-enabled-content/)
--   [Rackspace Cloud Files: How To Use Object Versioning](https://www.rackspace.com/blog/rackspace-cloud-files-how-to-use-object-versioning/)
