@@ -93,10 +93,10 @@
     search.addWidgets([
         instantsearch.widgets.searchBox({
             container: '#searchbox',
-            autocomplete: 'on',
-            autocorrect: 'on',
-            autocapitalize: 'on',
-            placeholder: 'Search How-To'
+            placeholder: 'Search How-To',
+            autofocus: true,
+            showLoadingIndicator: true,
+            searchAsYouType: true,
         }),
         instantsearch.widgets.hits({
             container: '#hits',

@@ -1,13 +1,5 @@
-{{- $index := slice -}}
-{{- range site.RegularPages -}}
-  {{- $page := . -}}
-  {{- $chunked := slice -}}
-  {{- $post_len := len .PlainWords -}}
-  {{- range $i := (seq 0 1000 $post_len) -}}
-    {{- $chunked = $chunked | append (delimit (first 1000 (after $i $page.PlainWords) ) " " ) -}}
+{{- $.Scratch.Add "index" slice -}}
+{{- range .Site.AllPages -}}
+    {{- $.Scratch.Add "index" (dict "objectID" .File.UniqueID "title" .Params.Title  "description" .Params.Description "keywords" .Keywords "lang" .Lang "permalink" .Params.Permalink "relpermalink" .RelPermalink "summary" .Params.Summary "type" .Params.Type    "created_by" .Params.Created_by "created_date" .Params.Created_date "last_modified_date" .Params.Last_modified_date "last_modified_by" .Params.Last_modified_by "product" .Params.Product "product_url" .Params.Product_url "audit_date" .Params.Audit_date)}}
   {{- end -}}
-  {{- range $i, $c := $chunked -}}
-    {{- $index = $index | append (dict "objectID" (print $page.File.UniqueID "_" $i) "content" $c "order" $i "title" $page.Title "date" $page.Date "href" $page.Permalink "tags" $page.Params.tags ) -}}
-  {{- end -}}
-{{- end -}}
-{{- $index | jsonify -}}
+{{- $.Scratch.Get "index" | jsonify -}}
