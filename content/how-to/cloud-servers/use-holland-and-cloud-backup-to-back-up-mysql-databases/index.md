@@ -5,8 +5,8 @@ title: Use Holland and Cloud Backup to back up MySQL databases
 type: article
 created_date: '2019-01-17'
 created_by: Rackspace Community
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-09-14'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
