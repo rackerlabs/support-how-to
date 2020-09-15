@@ -1,7 +1,7 @@
 ---
-permalink: account-switch-feature
+permalink: configure-user-switcher-to-remember-account-logins
 audit_date: '2020-09-09'
-title: Account switch feature
+title: Configure user switcher to remember account logins
 type: article
 created_date: '2020-09-09'
 created_by: Rose Morales
@@ -20,7 +20,7 @@ The following sections describe how to add and delete users from an account.
 
 ### Add user
 
-1. Log in to the [Rackspace portal](login.rackspace.com).
+1. Login to the [Rackspace portal](login.rackspace.com).
 2. Select the **Remember Me** checkbox to add the user profile to the **User** menu.
 
 ### Delete user
@@ -32,4 +32,4 @@ The following sections describe how to add and delete users from an account.
 5. Select **Done** to save your changes.
 
 **Important**: Standard security policies still apply, and the system
-might occasionally prompt you for a password.
+may occasionally prompt you for a password.
