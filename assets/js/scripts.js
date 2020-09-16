@@ -6,7 +6,8 @@ contentLoaded().then(() => {
   /**
    * Enable search
    */
-
+  console.log(ALGOLIA_APP_ID);
+  console.log(ALGOLIA_SEARCH_KEY);
   try {
     let searchIndex = "support"
     const search = instantsearch({
