@@ -17,7 +17,7 @@ Windows&reg; server. If you are using a Linux&reg; server, see
 for the parallel instructions.
 
 To update the agent, see the instructions in
-[Update the Rackspace Cloud Backup agent.](/support/how-to/update-the-rackspace-cloud-backup-agent).
+[Update the Rackspace Cloud Backup agent](/support/how-to/update-the-rackspace-cloud-backup-agent).
 
 ### Requirements
 
@@ -71,9 +71,8 @@ installation and configuration.
     [View and reset your API key](/support/how-to/view-and-reset-your-api-key).
 
     To use the API Key option, you must install the Cloud Backup agent
-    as the administrator account of your cloud server. Attempting to use
-    the API Key option as a non-administrator results in
-    installation failure.
+    as the administrator account of your cloud server. If you use
+    the API Key option as a non-administrator, the installation fails.
 
     Enter the User ID and the API Key or Password, depending on which
     option you choose. Click **Next**.
@@ -91,8 +90,8 @@ installation and configuration.
     {{<image src="select-datacenter-flavor.png" alt="" title="">}}
 
     **Note**: It is possible to install Rackspace Cloud Backup on non-Rackspace assets, as long
-    as the server has access to public Internet and the operating system is supported by the
-    Cloud Backup agent. These kinds of assets might include servers that run on other clouds,
+    as the server has access to the public Internet, and the Cloud Backup agent supports the
+    operating system. These kinds of assets might include servers that run on other clouds,
     such as AWS EC2, Azure&reg;, or Google&reg;. They might also include personal laptops, desktops,
     or servers running in your own company's data center. For any asset outside of Rackspace
     infrastructure, you **must** use the *dedicated* flavor when registering the agent.
@@ -120,7 +119,7 @@ For instructions to update the agent on Windows, see
 
 ### Test the Windows installation or update
 
-Verify that installation performed the following actions:
+Verify that the installation performed the following actions:
 
 1.  Created the `%programfiles%\driveclient` path.
 
@@ -258,7 +257,7 @@ logging helps them identify the problem. For more information about
 TRACE logging, see [Cloud Backup agent logging basics](/support/how-to/cloud-backup-agent-logging-basics).
 
 If the agent fails to start up, due to registration failure, for example, the
-most effective log setting is to directly edit the **log4cxx.xml** file .
+most effective log setting is to edit the **log4cxx.xml** file directly.
 
 A Cloud Backup connection error indicates that the agent is not running
 on your server. In this case, verify that your firewall isn't blocking
@@ -276,27 +275,29 @@ The backup statuses are defined below:
     run, but it needs to be investigated.
 -   **Failed:** A serious problem occurred, and the backup job did not run.
 
-To troubleshoot these error status, see [Cloud Backup Troubleshooting](/support/how-to/cloud-backup-troubleshooting/).
+To troubleshoot these error statuses, see
+[Cloud Backup Troubleshooting](/support/how-to/cloud-backup-troubleshooting/).
 
 ### Uninstall Cloud Backup agent on Windows
 
-To uninstall the Cloud Backup agent, the preferred method to use is the Add/Remove Programs
-in the Windows Control Panel. However, in cases where the Rackspace Cloud Backup entry
-does not exist there, you use the command line to uninstall.
+To uninstall the Cloud Backup agent, the preferred method to use is the
+**Add/Remove Programs** option in the Windows Control Panel. However, in cases
+where the Rackspace Cloud Backup entry does not exist in the program list, use
+the command line to uninstall the agent.
 
     msiexec /x driveclient-latest.msi /qb /l*v %tmp%\uninstall.log
 
 **Note**: If the agent installed on your server is not the latest agent, you can download the
-corresponding old MSI file to use it to uninstall the outdated agent. The version of the MSI
-must match the version of your currently installed agent or the uninstall fails. Your current agent
-version is displayed as **Agent Version:** on the **Backups System Details** page. You can find
+corresponding old MSI file to use it to uninstall the outdated agent. The MSI version
+must match the version of your currently installed agent, or the uninstall fails. Your current agent
+version displays as **Agent Version:** on the **Backups System Details** page. You can find
 and download the MSI for this version at <http://agentrepo.drivesrvr.com/win64/old_msi/>.
 
 The following changes should occur:
 
 -   The `%programdata%\driveclient` path contains files and folders that you can use to reinstall
-    the agent without re-registering, if desired. If you are sure that you will not reinstall
-    the agent, these files and folders may be deleted.
+    the agent without re-registering if desired. If you are sure that you will not reinstall
+    the agent, you can delete these files and folders.
 
         C:\>dir %programdata%\driveclient
         Volume in drive C is System
@@ -376,8 +377,8 @@ The following changes should occur:
 
 -   No `DriveClientSvc` service is installed.
 
--   There should be no scheduled tasks to "check for
-    driveclient update".
+-   There should be no scheduled tasks to *check for
+    driveclient update*.
 
         C:\>sc query driveclientsvc
         [SC] EnumQueryServicesStatus:OpenService FAILED 1060:

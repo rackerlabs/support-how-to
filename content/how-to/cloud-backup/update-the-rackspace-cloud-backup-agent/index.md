@@ -11,20 +11,19 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-If the Cloud Backup updater, which is described in
+If the Cloud Backup updater, described in
 [Install or update the Cloud Backup agent on Linux&reg;](/support/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
-or [Install the Cloud Backup agent on Windows&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
+or [Install the Cloud Backup agent on Windows&reg;](/how-to/rackspace-cloud-backup-install-the-agent-on-windows),
 failed, use the steps in this article to manually update the Rackspace Cloud
 Backup agent.
 
-We release updates as they are needed to the Rackspace Cloud Backup agent. When
+We release Rackspace Cloud Backup agent updates as needed. When
 a new agent is available, agent updates are pushed automatically by the
 automated updater. If the automated updater fails for some reason, follow the
 instructions in this article to take advantage of the latest security patches,
 features, and bug fixes in Cloud Backup.
 
-**Note:** These instructions assume that the agent has been previously
-installed.
+**Note:** These instructions assume that you previously installed the agent.
 
 ### Update the agent for Linux-based systems
 
@@ -60,8 +59,8 @@ before performing these steps.
 For more detailed information on these configuration settings, see
 [Update or install the Cloud Backup agent on Linux](/how-to/update-or-install-the-cloud-backup-agent-on-linux/).
 
-**Warning:** This assumes that you are manually installing the agent because
-the system you are installing it on is not yet supported by the current updater.
+**Warning:** This assumes that you are manually installing the agent because the
+current updater does not yet support the system you are installing it on.
 For that reason, we make no assumptions about the requirements to add the agent
 or the updater as a service. This means you must manually start the driveclient
 every time you restart the server.
@@ -75,7 +74,7 @@ before performing these steps.
 
 Because the Windows agent includes an automated updater, you should rarely need
 to update the Windows agent manually. This section provides different options
-to use if you need to manually update.
+to use if you need to update manually.
 
 #### Recommended method
 
