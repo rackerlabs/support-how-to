@@ -43,13 +43,12 @@ You can choose one of the following methods of installation:
 -   Update agent
 
 **Note**: For any of these modes of installation or uninstallation,
-          you can put the agent in debug or trace mode by setting the following
-          registry value to `true`: **HKLM\SOFTWARE\Rackspace\CloudBackup\Debug**.
-
-          The log file name for the installer is located in the **%TMP%**
-          folder, and the name is similar to **driveclient-2.27.009073-en-us.msi.install.log**
-          for the installer and **driveclient-2.27.009073-en-us.msi.uninstall.log**
-          for the uninstaller.
+you can put the agent in debug or trace mode by setting the following
+registry value to `true`: **HKLM\SOFTWARE\Rackspace\CloudBackup\Debug**.
+The log file name for the installer is located in the **%TMP%**
+folder, and the name is similar to **driveclient-2.27.009073-en-us.msi.install.log**
+for the installer and **driveclient-2.27.009073-en-us.msi.uninstall.log**
+for the uninstaller.
 
 #### Interactive installation
 
