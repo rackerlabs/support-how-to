@@ -1,12 +1,12 @@
 ---
 permalink: update-or-install-the-cloud-backup-agent-on-linux/
-audit_date: '2020-03-27'
+audit_date: '2020-09-15'
 title: Update or install the Cloud Backup agent on Linux
 type: article
 created_date: '2020-03-27'
 created_by: Brett Johnson
-last_modified_date: '2020-04-10'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2020-09-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -53,13 +53,30 @@ Run the following command to display other registration-time controls, which you
     ./cloudbackup-updater --help
 
 For cloud servers that reside in the LON region, you must specify the API host. For
-USA regions, SYD, and HKG, you must use the default API host `api.drivesrvr.com`. 
+USA regions, SYD, and HKG, you must use the default API host `api.drivesrvr.com`.
 For the LON region, you must use `api.drivesrvr.co.uk`.
 
 **Note:** A forced agent registration disconnects any previous registrations from
 the server in question. You must do a backup migration to reassociate the backup
 data from a disconnected registration. However, the old registration with its backup
 data remains attached to the customer account until you delete it.
+
+#### Agent file locations on Linux
+
+Assuming a default installation, following are the agent file locations
+on Linux systems:
+
+-   **Configuration files**: **/etc/driveclient**
+-   **Logs**: **/var/log** (This value might be different on your server,
+    depending on your settings in the **log4cxx.xml** file.)
+-   **Startup script**: **/etc/init.d**
+-   **Application**: **/usr/local/bin**
+-   **Process Identification (PID) file for running the agent**:
+    **/var/run/driveclient.pid**
+-   **Database**: Search for a **\*.db** file under **/var/cache/driveclient**.
+
+**Note**: If `driveclient` is installed as an individual user,
+most of these files are under **~/.driveclient**.
 
 #### Non-cloud, non-Rackspace installation
 
@@ -134,7 +151,7 @@ You can view the following agent and updater logs with your favorite file viewer
 - **/var/log/driveclient.log**
 - **/var/log/driveclient.log.1** (and so on for older versions)
 
-If the agent or updater does not behave as expected, you can `grep` these logs to look for 
+If the agent or updater does not behave as expected, you can `grep` these logs to look for
 "ERROR" or other information. For more information on reading agent logs, see
 [Cloud Backup Logging Basics](/support/how-to/cloud-backup-agent-logging-basics).
 
@@ -148,7 +165,7 @@ the agent.
 
 ### Troubleshooting installs, upgrades, and uninstalls
 
-Installation and upgrade of the cloud backup agent or updater might fail for a number of reasons. 
+Installation and upgrade of the cloud backup agent or updater might fail for a number of reasons.
 The following troubleshooting tips might help to fix the issues.
 
 We recommend that you enable TRACE logging as part of the troubleshooting process.
@@ -195,6 +212,6 @@ updater, or it eventually re-enables the agent.
 
 For more troubleshooting tips and FAQs, see the following articles:
 
-    [Cloud Backup Troubleshooting](/support/how-to/cloud-backup-troubleshooting/)
-    [Cloud Backup FAQs](/support/how-to/cloud-backup-faq/)
-    
+- [Cloud Backup Troubleshooting](/how-to/cloud-backup-troubleshooting/)
+- [Cloud Backup FAQs](/how-to/cloud-backup-faq/).
+
