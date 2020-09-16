@@ -78,53 +78,6 @@
             }
         }
     }
-    // var request = new XMLHttpRequest();
-    // request.open("GET", "../../algolia.json", false);
-    // request.send(null)
-    // var objects = JSON.parse(request.responseText);
-    // const client = algoliasearch('KL3UEHFLE7', 'e6a02f4332ef885b9ef561760928ef92');
-    // const index = client.initIndex('support');
-    // console.log(index);
-    // console.log(objects);
-    // index.saveObjects(objects).then(({
-    //     objectIDs
-    // }) => {
-    //     console.log(objectIDs);
-    // });
-    const search = instantsearch({
-        indexName: 'support',
-        searchClient: algoliasearch('KL3UEHFLE7', 'e6a02f4332ef885b9ef561760928ef92'),
-        searchFunction(helper) {
-            const hitsContainer = document.querySelector('#hits');
-            const paginationContainer = document.querySelector('#pagination');
-            hitsContainer.style.display = helper.state.query === '' ? 'none' : '';
-            paginationContainer.style.display = helper.state.query === '' ? 'none' : '';
-            helper.search();
-        },
-    });
-
-    search.addWidgets([
-        instantsearch.widgets.searchBox({
-            container: '#searchbox',
-            placeholder: 'Search How-To',
-            autofocus: true,
-            showLoadingIndicator: true,
-            searchAsYouType: true,
-        }),
-        instantsearch.widgets.hits({
-                container: '#hits',
-                templates: {
-                    item(item) {
-                        return `{{- partial "instantsearch/hits" -}}`;
-                },
-            },
-        }),
-    instantsearch.widgets.pagination({
-        container: '#pagination',
-    }),
-    ]);
-
-    search.start();
 </script>
 
 <script
