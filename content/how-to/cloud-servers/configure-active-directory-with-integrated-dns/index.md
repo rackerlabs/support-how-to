@@ -1,12 +1,12 @@
 ---
 permalink: configure-active-directory-with-integrated-dns/
-audit_date:
-title: ‘Configure Active Directory with integrated DNS’
+audit_date: '2020-09-17'
+title: Configure Active Directory with integrated DNS
 type: article
-created_date: '2020-08-12’
+created_date: '2020-08-12'
 created_by: Karoline Mills
-last_modified_date: '2020-08-12’
-last_modified_by: Karoline Mills
+last_modified_date: '2020-09-17'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
