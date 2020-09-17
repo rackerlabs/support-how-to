@@ -1,5 +1,5 @@
 ---
-permalink: /configure-active-directory-with-integrated-dns/
+permalink: configure-active-directory-with-integrated-dns/
 audit_date:
 title: ‘Configure Active Directory with integrated DNS’
 type: article
