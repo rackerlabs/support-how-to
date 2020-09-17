@@ -1,7 +1,7 @@
 ---
-permalink: /configuring-active-directory-with-integrated-dns/
+permalink: /configure-active-directory-with-integrated-dns/
 audit_date:
-title: ‘Configuring Active Directory with integrated DNS’
+title: ‘Configure Active Directory with integrated DNS’
 type: article
 created_date: '2020-08-12’
 created_by: Karoline Mills
