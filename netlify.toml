@@ -34,7 +34,3 @@
   package = "netlify-plugin-hugo-cache-resources"
 	[plugins.inputs]
 	debug = true
-[[plugins]]
-  package = "netlify-plugin-algolia-export"
-  [plugin.inputs]
-     exclude = ['/about-volume-types']

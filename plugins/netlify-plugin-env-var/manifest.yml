@@ -1,5 +1,6 @@
 name: netlify-plugin-env-var
 inputs:
-  - name: mode
-    required: false
-    default: prefix
+    - name: exclude
+    - name: textLength
+    - name: stopwords
+    - name: debugMode
