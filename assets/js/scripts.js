@@ -10,7 +10,7 @@ contentLoaded().then(() => {
     let searchIndex = "support"
     const search = instantsearch({
       indexName: searchIndex,
-      searchClient: algoliasearch($ALGOLIA_APP_ID, $ALGOLIA_SEARCH_KEY),
+      searchClient: algoliasearch(ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY),
       searchFunction(helper) {
         const hitsContainer = document.querySelector('#hits');
         const paginationContainer = document.querySelector('#pagination');
@@ -42,7 +42,7 @@ contentLoaded().then(() => {
             </a>
             </h2>
             <p>{{#helpers.highlight}}{ "attribute": "summary" }{{/helpers.highlight}}</p>
-            <p><span class="search-author">By {{#helpers.highlight}}{ "attribute": "last_modified_by" }{{/helpers.highlight}}</span><span>{{#helpers.highlight}}{ "attribute": "last_modified_date" }{{/helpers.highlight}}</span></p>
+            <p><span class="search-author">By {{#helpers.highlight}}{ "attribute": "created_by" }{{/helpers.highlight}}</span><span>{{#helpers.highlight}}{ "attribute": "last_modified_date" }{{/helpers.highlight}}</span></p>
           `,
         },
       }),

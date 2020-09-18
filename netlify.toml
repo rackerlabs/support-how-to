@@ -27,8 +27,8 @@
   [headers.values]
     Cache-Control = "public, s-max-age=604800"
 
-# [[plugins]]
-#   package = "netlify-plugin-algolia-export"
+[[plugins]]
+  package = "./plugins/netlify-plugin-env-var"
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"

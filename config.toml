@@ -5,7 +5,7 @@ defaultContentLanguage = "en-us"
 destination = "public"
 enableEmoji = true
 enableRobotsTXT = true
-languageCode = "en"
+languageCode = "en-us"
 metaDataFormat = "yaml"
 paginate = 10
 pluralizeListTitles = false
@@ -15,6 +15,7 @@ uglyURLs = false
 smartDashes = true
 title = "Rackspace Developer Center"
 canonifyURLs = true
+enableGitInfo = true
 [permalinks]
     how-to = "/how-to/:filename"
 [markup]
