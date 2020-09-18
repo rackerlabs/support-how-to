@@ -1,17 +1,65 @@
+const {
+    ALGOLIA_APPLICATION_ID: algoliaAppId,
+    ALGOLIA_ADMIN_KEY: algoliaAdminKey,
+    ALGOLIA_INDEX: algoliaIndex
+  } = process.env
 module.exports = {
-    onPreBuild: async ({ inputs }) => {
-        const { CONTEXT } = process.env;
-        const ALGOLIA_APP_ID = process.env.ALGOLIA_APP_ID;
-        console.log(CONTEXT);
-        console.log(ALGOLIA_APP_ID);
-        const context = process.env.CONTEXT.toUpperCase().replace(/-/g, '_');
-        Object.keys(process.env).forEach(key => {
-        const envVar = `${context}_${key}`
-        const val = process.env[envVar]
-        if (process.env[envVar]) {
-            console.log(`Exporting ${key}=${val}.`);
-            process.env[key] = val
-        }
-    });
+    onPostBuild: async ({ inputs }) => {
+        if (algoliaAppId === null ||
+            algoliaAdminKey === null ||
+            algoliaIndex === null) {
+            build.failPlugin(
+              'Please set your ALGOLIA_APPLICATION_ID, ALGOLIA_ADMIN_KEY, and ALGOLIA_INDEX using environment variables: https://docs.netlify.com/configure-builds/environment-variables'
+            )
+          }  else {
+            try {
+                const search = instantsearch({
+                  indexName: algoliaIndex,
+                  searchClient: algoliasearch(ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY),
+                  searchFunction(helper) {
+                    const hitsContainer = document.querySelector('#hits');
+                    const paginationContainer = document.querySelector('#pagination');
+                    hitsContainer.style.display = helper.state.query === '' ? 'none' : '';
+                    paginationContainer.style.display = helper.state.query === '' ? 'none' : '';
+                    helper.search();
+                  },
+                });
+                search.addWidgets([
+                  instantsearch.widgets.searchBox({
+                    container: '#searchbox',
+                    placeholder: '',
+                    autofocus: true,
+                    showLoadingIndicator: true,
+                    searchAsYouType: true,
+                    wrapInput: false,
+                    magnifier: false,
+                    reset: false,
+                    poweredBy: false
+                  }),
+                  instantsearch.widgets.hits({
+                    container: '#hits',
+                    templates: {
+                      item: `
+                        <p class="search-product">How-To > {{#helpers.highlight}}{ "attribute": "product" }{{/helpers.highlight}}</p>
+                        <h2>
+                        <a href="{{ relpermalink }}">
+                          {{#helpers.highlight}}{ "attribute": "title" }{{/helpers.highlight}}
+                        </a>
+                        </h2>
+                        <p>{{#helpers.highlight}}{ "attribute": "summary" }{{/helpers.highlight}}</p>
+                        <p><span class="search-author">By {{#helpers.highlight}}{ "attribute": "created_by" }{{/helpers.highlight}}</span><span>{{#helpers.highlight}}{ "attribute": "last_modified_date" }{{/helpers.highlight}}</span></p>
+                      `,
+                    },
+                  }),
+                  instantsearch.widgets.pagination({
+                    container: '#pagination',
+                  }),
+                ]);
+            
+                search.start();
+              } catch (err) {
+                console.warn(err)
+              }
+          }
     },
   };
