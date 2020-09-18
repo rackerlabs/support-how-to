@@ -40,7 +40,7 @@ Rackspace Cloud Office does not offer bulk email services. To ensure that your b
 
 #### Recipients
 
-Ensure that your recipient lists are current and accurate. Sending emails to a large number of invalid recipients is a clear indicator of spam. Also, mail providers and ISPs can use common invalid addresses as spam traps. Sending mail to these spam traps can result in your domain being blacklisted.
+Ensure that your recipient lists are current and accurate. Sending emails to a large number of invalid recipients is a clear indicator of spam. Also, mail providers and ISPs can use common invalid addresses as spam traps. Sending mail to these spam traps can result in your domain being Blocklisted.
 
 Use confirmed opt-in practices when collecting email addresses for mailing lists. Doing so reduces the chances of your messages being considered unsolicited. Unsolicited email is more likely to be marked as spam by recipients, which leads to the sender being flagged as a spammer by content filters.
 

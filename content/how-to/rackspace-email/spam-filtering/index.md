@@ -39,8 +39,8 @@ protect you from spam email:
 
 - IP block lists provided by reputable services
 - Blocking emails with attachment types known to exploit end user computers
-- Account admins can blacklist senders at both the domain and mailbox level, so
-  that any mail matching the blacklist is blocked.
+- Account admins can Blocklist senders at both the domain and mailbox level, so
+  that any mail matching the Blocklist is blocked.
 
 ### Filtered Email
 

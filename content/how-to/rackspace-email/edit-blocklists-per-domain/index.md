@@ -1,7 +1,7 @@
 ---
-permalink: edit-blacklists-per-domain/
+permalink: edit-blocklists-per-domain/
 audit_date:
-title: Edit blacklists per domain
+title: Edit blocklists per domain
 type: article
 created_date: '2011-03-18'
 created_by: Rackspace Support
@@ -11,7 +11,7 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-Learn how to manage blacklist settings for your domain. Blacklists can
+Learn how to manage Blocklist settings for your domain. Blocklists can
 be set up by email address, domain, or IP address.
 
 ### Prerequisites
@@ -23,35 +23,33 @@ be set up by email address, domain, or IP address.
 
 For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
-To modify the domains or IP addresses on your domain blacklist, [log
+To modify the domains or IP addresses on your domain Blocklist, [log
 in to the Cloud Office Control Panel](https://cp.rackspace.com) and perform the
 following steps:
 
 1.  From the **Go to section** menu, select **Domains**.
 
-    {{<image src="go_to_section.png" alt="" title="">}}
-
-2.  In the **Spam Filtering** section, click **Blacklists**.
-
-    {{<image src="spam_settings.png" alt="" title="">}}
+2.  In the **Spam Filtering** section, click **Blocklists**.
 
 3.  If you have multiple domains, you may be prompted to select a
     domain name. Or, to change domains at any time, click the **change
     domain** link.
-4.  To add a domain name or email address to the blacklist, enter it in
+
+4.  To add a domain name or email address to the Blocklist, enter it in
     the **Enter a domain or email address** box, and then click
     **Add**. If you have multiple domains or email addresses
     to block, use the bulk import option to upload a **.csv** or **.txt** file
     containing the information.
 
-    {{<image src="add_address.png" alt="" title="">}}
-
 6.  To remove a domain or email address, click the name in the list, and
     then click **Remove**. To remove all domains or email addresses listed in the window, click **Clear**.
-7.  To add an IP address to the blacklist, enter it in the **Enter an IP
+
+7.  To add an IP address to the Blocklist, enter it in the **Enter an IP
     address (or range)** box, and then click **Add**. If
     you have multiple IP addresses to block, use the bulk import option
     to upload a **.csv** or **.txt** file containing the information.
+
 8.  To remove an IP address, click the address in the list, and then
     click **Remove**. To remove all IP addresses listed in the window, click **Clear**.
+
 9.  Click **Save**.
