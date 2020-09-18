@@ -90,8 +90,8 @@ described in the following section.
 
 ### Set access-level permissions for individual users
 
-Cloud Control Panel enables you to grant or revoke user universal privileges on
-a database. You may need to set specific privileges for a user such as granting
+You can grant or revoke user universal privileges on a database in the
+[Clound Control Panel](https://login.rackspace.com). You might need to set specific privileges for a user, such as granting
 some users read-only access to a specific database. To do this you must enable
 the root user for your database instance. After the root user is enabled, you
 can log in to MySQL and manage the access privileges for individual users.
@@ -107,40 +107,38 @@ Method 2.
 
 #### Enable root user with Trove command-line tool
 
-- [Install the trove
-  client](https://developer.rackspace.com/docs/cloud-databases/v1/getting-started/send-request-ovw/#install-the-trove-client).
-
-- Enable the root user for the database instance by using the following command,
-  where &lt;instance&gt; is the ID of the instance:
+[Install the trove client](https://developer.rackspace.com/docs/cloud-databases/v1/getting-started/send-request-ovw/#install-the-trove-client)
+and then enable the root user for the database instance by using the following command,
+where &lt;instance&gt; is the ID of the instance:
 
         $ trove root-enable <instance>
 
 This command generates a password for the root user. Now you have full control
 for creating and managing user privileges.
 
-**Example**:  Database instance MySQLDBInstance01 has a database DBStaging1 and
-a user DevUser1. You would like to set up read-only permissions for DevUser1.
+In the following example, database instance MySQLDBInstance01 has a database DBStaging1 and
+a user DevUser1. You want to set up read-only permissions for DevUser1.
 
-Step 1: List database instances to get the instance ID:
+1. List database instances to get the instance ID:
 
-    $ trove list
+       $ trove list
 
-Step 2: Enable the root user on MySQLDBInstance01, with instance ID
+2. Enable the root user on MySQLDBInstance01, with instance ID
 23a6481f-f98a-4fcd-b4a9-54d06f6f6e88:
 
-    $ trove root-enable 23a6481f-f98a-4fcd-b4a9-54d06f6f6e88
+       $ trove root-enable 23a6481f-f98a-4fcd-b4a9-54d06f6f6e88
 
-A password is generated and returned for the root user.
+   A password is generated and returned for the root user.
 
-Step 3: Log in to MySQL as a root user with the password generated in the
+3. Log in to MySQL as a root user with the password generated in the
 preceding step:
 
-    $ mysql -u <root> -h <hostname> -p <password>
+       $ mysql -u <root> -h <hostname> -p <password>
 
-Step 4: In MySQL, set up read permissions for DevUser1 by using the GRANT
+4. In MySQL, set up read permissions for DevUser1 by using the GRANT
 statement:
 
-    $ GRANT SELECT on DBStaging1.* to 'DevUser1'@'hostname';
+       $ GRANT SELECT on DBStaging1.* to 'DevUser1'@'hostname';
 
 **Note:**  You can reset the root user password by making subsequent calls to
 enable the root user.
