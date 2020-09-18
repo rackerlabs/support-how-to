@@ -1,7 +1,7 @@
 const algoliasearch = require('algoliasearch');
-const instantsearch = require('instantsearch.js');
 const fs = require('fs');
 const path = require('path');
+import * as instantsearch from 'instantsearch.js';
 
 const {
     ALGOLIA_APP_ID: algoliaAppId,
