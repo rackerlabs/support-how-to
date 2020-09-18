@@ -1,0 +1,27 @@
+{
+    "name": "netlify-plugin-env-var",
+    "version": "1.0.0",
+    "description": "Netlify plugin to build a search index and export to Algolia",
+    "main": "index.js",
+    "keywords": [
+      "netlify",
+      "netlify-plugin",
+      "algolia",
+      "search",
+      "serverless"
+    ],
+    "author": "Rackerlabs",
+    "dependencies": {
+        "algoliasearch": "^4.5.1",
+        "instantsearch.js": "^4.8.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rackerlabs/support-how-to.git"
+    },
+    "bugs": {
+      "url": "https://github.com/rackerlabs/support-how-to/issues"
+    },
+    "homepage": "https://github.com/rackerlabs/support-how-to#readme"
+  }
+  

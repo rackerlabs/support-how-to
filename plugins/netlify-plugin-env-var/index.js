@@ -1,45 +1,53 @@
+const algoliasearch = require('algoliasearch');
+const instantsearch = require('instantsearch.js');
+const fs = require('fs');
+const path = require('path');
+
 const {
     ALGOLIA_APPLICATION_ID: algoliaAppId,
     ALGOLIA_ADMIN_KEY: algoliaAdminKey,
     ALGOLIA_INDEX: algoliaIndex
-  } = process.env
+} = process.env
+
 module.exports = {
-    onPostBuild: async ({ inputs }) => {
+    onPostBuild: async ({
+        inputs
+    }) => {
         if (algoliaAppId === null ||
             algoliaAdminKey === null ||
             algoliaIndex === null) {
             build.failPlugin(
-              'Please set your ALGOLIA_APPLICATION_ID, ALGOLIA_ADMIN_KEY, and ALGOLIA_INDEX using environment variables: https://docs.netlify.com/configure-builds/environment-variables'
+                'Please set your ALGOLIA_APPLICATION_ID, ALGOLIA_ADMIN_KEY, and ALGOLIA_INDEX using environment variables: https://docs.netlify.com/configure-builds/environment-variables'
             )
-          }  else {
+        } else {
             try {
                 const search = instantsearch({
-                  indexName: algoliaIndex,
-                  searchClient: algoliasearch(ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY),
-                  searchFunction(helper) {
-                    const hitsContainer = document.querySelector('#hits');
-                    const paginationContainer = document.querySelector('#pagination');
-                    hitsContainer.style.display = helper.state.query === '' ? 'none' : '';
-                    paginationContainer.style.display = helper.state.query === '' ? 'none' : '';
-                    helper.search();
-                  },
+                    indexName: algoliaIndex,
+                    searchClient: algoliasearch(ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY),
+                    searchFunction(helper) {
+                        const hitsContainer = document.querySelector('#hits');
+                        const paginationContainer = document.querySelector('#pagination');
+                        hitsContainer.style.display = helper.state.query === '' ? 'none' : '';
+                        paginationContainer.style.display = helper.state.query === '' ? 'none' : '';
+                        helper.search();
+                    },
                 });
                 search.addWidgets([
-                  instantsearch.widgets.searchBox({
-                    container: '#searchbox',
-                    placeholder: '',
-                    autofocus: true,
-                    showLoadingIndicator: true,
-                    searchAsYouType: true,
-                    wrapInput: false,
-                    magnifier: false,
-                    reset: false,
-                    poweredBy: false
-                  }),
-                  instantsearch.widgets.hits({
-                    container: '#hits',
-                    templates: {
-                      item: `
+                    instantsearch.widgets.searchBox({
+                        container: '#searchbox',
+                        placeholder: '',
+                        autofocus: true,
+                        showLoadingIndicator: true,
+                        searchAsYouType: true,
+                        wrapInput: false,
+                        magnifier: false,
+                        reset: false,
+                        poweredBy: false
+                    }),
+                    instantsearch.widgets.hits({
+                        container: '#hits',
+                        templates: {
+                            item: `
                         <p class="search-product">How-To > {{#helpers.highlight}}{ "attribute": "product" }{{/helpers.highlight}}</p>
                         <h2>
                         <a href="{{ relpermalink }}">
@@ -49,17 +57,17 @@ module.exports = {
                         <p>{{#helpers.highlight}}{ "attribute": "summary" }{{/helpers.highlight}}</p>
                         <p><span class="search-author">By {{#helpers.highlight}}{ "attribute": "created_by" }{{/helpers.highlight}}</span><span>{{#helpers.highlight}}{ "attribute": "last_modified_date" }{{/helpers.highlight}}</span></p>
                       `,
-                    },
-                  }),
-                  instantsearch.widgets.pagination({
-                    container: '#pagination',
-                  }),
+                        },
+                    }),
+                    instantsearch.widgets.pagination({
+                        container: '#pagination',
+                    }),
                 ]);
-            
+
                 search.start();
-              } catch (err) {
+            } catch (err) {
                 console.warn(err)
-              }
-          }
+            }
+        }
     },
-  };
+};
