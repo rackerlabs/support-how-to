@@ -4,9 +4,10 @@ const fs = require('fs');
 const path = require('path');
 
 const {
-    ALGOLIA_APPLICATION_ID: algoliaAppId,
+    ALGOLIA_APP_ID: algoliaAppId,
     ALGOLIA_ADMIN_KEY: algoliaAdminKey,
-    ALGOLIA_INDEX: algoliaIndex
+    ALGOLIA_INDEX: algoliaIndex,
+    ALGOLIA_SEARCH_KEY: algoliaSearchKey
 } = process.env
 
 module.exports = {
@@ -14,10 +15,11 @@ module.exports = {
         inputs
     }) => {
         if (algoliaAppId === null ||
-            algoliaAdminKey === null ||
-            algoliaIndex === null) {
+            algoliaSearchKey === null ||
+            algoliaIndex === null ||
+            algoliaAdminKey === null) {
             build.failPlugin(
-                'Please set your ALGOLIA_APPLICATION_ID, ALGOLIA_ADMIN_KEY, and ALGOLIA_INDEX using environment variables: https://docs.netlify.com/configure-builds/environment-variables'
+                'Please set your ALGOLIA_APP_ID, ALGOLIA_ADMIN_KEY, and ALGOLIA_INDEX using environment variables: https://docs.netlify.com/configure-builds/environment-variables'
             )
         } else {
             try {
