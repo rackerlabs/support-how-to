@@ -25,7 +25,7 @@ module.exports = {
             try {
                 const search = instantsearch({
                     indexName: algoliaIndex,
-                    searchClient: algoliasearch(ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY),
+                    searchClient: algoliasearch(algoliaAppId, algoliaSearchKey),
                     searchFunction(helper) {
                         const hitsContainer = document.querySelector('#hits');
                         const paginationContainer = document.querySelector('#pagination');
