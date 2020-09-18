@@ -11,9 +11,22 @@ const {
 } = process.env
 
 module.exports = {
-    onPostBuild: async ({
-        inputs
-    }) => {
+    onPostBuild: async (opts) => {
+        const {
+            inputs: {
+              // custom stopwords to remove from text body, removed before textLength limit applied
+              stopwords = [],
+              // leave space for keywords and meta - algolia has a 10k byte limit per object
+              textLength = 7000,
+              // paths to exclude from glob before parse
+              exclude = [],
+              // output filename
+              debugMode,
+            },
+            constants: { PUBLISH_DIR },
+            utils: { build }
+          } = opts
+      
         if (algoliaAppId === null ||
             algoliaSearchKey === null ||
             algoliaIndex === null ||
@@ -23,52 +36,12 @@ module.exports = {
             )
         } else {
             try {
-                const search = instantsearch({
-                    indexName: algoliaIndex,
-                    searchClient: algoliasearch(algoliaAppId, algoliaSearchKey),
-                    searchFunction(helper) {
-                        const hitsContainer = document.querySelector('#hits');
-                        const paginationContainer = document.querySelector('#pagination');
-                        hitsContainer.style.display = helper.state.query === '' ? 'none' : '';
-                        paginationContainer.style.display = helper.state.query === '' ? 'none' : '';
-                        helper.search();
-                    },
-                });
-                search.addWidgets([
-                    instantsearch.widgets.searchBox({
-                        container: '#searchbox',
-                        placeholder: '',
-                        autofocus: true,
-                        showLoadingIndicator: true,
-                        searchAsYouType: true,
-                        wrapInput: false,
-                        magnifier: false,
-                        reset: false,
-                        poweredBy: false
-                    }),
-                    instantsearch.widgets.hits({
-                        container: '#hits',
-                        templates: {
-                            item: `
-                        <p class="search-product">How-To > {{#helpers.highlight}}{ "attribute": "product" }{{/helpers.highlight}}</p>
-                        <h2>
-                        <a href="{{ relpermalink }}">
-                          {{#helpers.highlight}}{ "attribute": "title" }{{/helpers.highlight}}
-                        </a>
-                        </h2>
-                        <p>{{#helpers.highlight}}{ "attribute": "summary" }{{/helpers.highlight}}</p>
-                        <p><span class="search-author">By {{#helpers.highlight}}{ "attribute": "created_by" }{{/helpers.highlight}}</span><span>{{#helpers.highlight}}{ "attribute": "last_modified_date" }{{/helpers.highlight}}</span></p>
-                      `,
-                        },
-                    }),
-                    instantsearch.widgets.pagination({
-                        container: '#pagination',
-                    }),
-                ]);
-
-                search.start();
+                const client = algoliasearch(algoliaAppId, algoliaAdminKey)
+                const index = client.initIndex(algoliaIndex)
+                // await exporter(index, newIndex)
             } catch (err) {
-                console.warn(err)
+                      // Not exporting to search index doesn't fail the entire build
+                build.failPlugin('Export to Algolia failed', { err })
             }
         }
     },
