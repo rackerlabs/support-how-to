@@ -5,10 +5,6 @@
   command = "make build"
   publish = "public"
 
-[dev]
-  command = "make serve"
-  publish = "public"
-  autoLaunch = true
 
 [context.deploy-preview]
   command = "make build-preview"
@@ -34,3 +30,18 @@
   package = "netlify-plugin-hugo-cache-resources"
 	[plugins.inputs]
 	debug = true
+
+[[plugins]]
+  package = "netlify-plugin-cache"
+  [plugins.inputs]
+    paths = ["resources", "public"]
+
+[dev]
+  framework = "#custom"
+  # only start Hugo, `netlify dev` builds/serves functions itself
+  command = "make serve"
+  # swap ports to keep consistent w/ normal local server
+  targetPort = 1314
+  port = 1313
+  # don't launch browser automatically
+  autoLaunch = false

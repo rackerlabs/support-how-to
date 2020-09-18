@@ -9,6 +9,12 @@ const {
     ALGOLIA_INDEX: algoliaIndex,
     ALGOLIA_SEARCH_KEY: algoliaSearchKey
 } = process.env
+console.log({
+    ALGOLIA_APP_ID,
+    ALGOLIA_ADMIN_KEY,
+    ALGOLIA_INDEX,
+    ALGOLIA_SEARCH_KEY
+})
 
 module.exports = {
     onPostBuild: async (opts) => {

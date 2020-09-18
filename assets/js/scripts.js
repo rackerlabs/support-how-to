@@ -1,12 +1,12 @@
 import contentLoaded from "content-loaded"
 import SmoothScroll from "./imports/smoothScroll"
 
-
 contentLoaded().then(() => {
   /**
    * Enable search
    */
   try {
+
     const search = instantsearch({
       indexName: algoliaIndex,
       searchClient: algoliasearch(algoliaAppId, algoliaSearchKey),
