@@ -7,10 +7,9 @@ contentLoaded().then(() => {
    * Enable search
    */
   try {
-    let searchIndex = "support"
     const search = instantsearch({
-      indexName: searchIndex,
-      searchClient: algoliasearch(ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY),
+      indexName: algoliaIndex,
+      searchClient: algoliasearch(algoliaAppId, algoliaSearchKey),
       searchFunction(helper) {
         const hitsContainer = document.querySelector('#hits');
         const paginationContainer = document.querySelector('#pagination');
