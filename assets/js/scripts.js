@@ -6,13 +6,11 @@ contentLoaded().then(() => {
   /**
    * Enable search
    */
-  console.log(process.env.ALGOLIA_APP_ID);
-  console.log(process.env.ALGOLIA_SEARCH_KEY);
   try {
     let searchIndex = "support"
     const search = instantsearch({
       indexName: searchIndex,
-      searchClient: algoliasearch(process.env.ALGOLIA_APP_ID, process.env.ALGOLIA_SEARCH_KEY),
+      searchClient: algoliasearch(ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY),
       searchFunction(helper) {
         const hitsContainer = document.querySelector('#hits');
         const paginationContainer = document.querySelector('#pagination');

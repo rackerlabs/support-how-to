@@ -17,3 +17,4 @@ resources/_gen
 # Don't add files that are created in the build process
 # Local Netlify folder
 .netlify
+Gemfile.lock
