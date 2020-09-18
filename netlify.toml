@@ -1,9 +1,5 @@
 [build.environment]
   HUGO_VERSION = "0.75.1"
-  ALGOLIA_APP_ID = "ALGOLIA_APP_ID"
-  ALGOLIA_SEARCH_KEY = "ALGOLIA_SEARCH_KEY"
-
-
 
 [build]
   command = "make build"
