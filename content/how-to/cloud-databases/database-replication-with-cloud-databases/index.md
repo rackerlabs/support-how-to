@@ -98,7 +98,7 @@ some common scenario:
 
 ### Delete a replica
 
-1. Click the gear icon next to it and select **Delete Instance**. You can also
+1. Click the gear icon next to the replica and select **Delete Instance**. You can also
    click the replica in the instance list, and on the instance page, click the
    gear icon in the top right corner.
 
@@ -126,7 +126,7 @@ up alarms to be notified of the state of your replica. You can also monitor
 these variables by executing the `SHOW GLOBAL STATUS` and `SHOW SLAVE STATUS`
 commands from within MySQL.
 
-**slave_running:** This is a global status variable and its value can be `ON` or
+**slave\_running:** This is a global status variable and its value can be `ON` or
 `OFF`. If the value is `ON`, the replica is connected to the source database
 instance and both the SQL thread and IO thread are running. If the value is
 `OFF`, you look at `Last_SQL_Errno` and `Last_SQL_Error` for more error
