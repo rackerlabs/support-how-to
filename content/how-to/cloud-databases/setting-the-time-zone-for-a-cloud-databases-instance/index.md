@@ -27,7 +27,7 @@ command line tool.
 
 ### Setting the server time zone
 
-Server time zone is set in MySQL with the `default_time_zone` parameter, and the
+The server time zone is set in MySQL with the `default_time_zone` parameter, and the
 default value is `SYSTEM`. To set `default_time_zone` to a different value you
 can use the named time zone for the region (from the [IANA Time Zone
 Database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)) or the
@@ -96,8 +96,7 @@ configuration group:
 
     trove configuration-patch 26f6f753-3853-4bf5-9bfe-1765966ad2f6 '{"default_time_zone":"Asia/Calcutta"}'
 
-**Note:** For the time zone setting to take effect, the Cloud Databases instance
-must be restarted.
+**Note:** For the time zone setting to take effect, you must restart the Cloud Databases instance.
 
 ### Checking the server time zone
 
@@ -113,5 +112,5 @@ The returned value shows the instance's current time zone setting.
     +--------------------+ | @@global.time_zone | +--------------------+ | +06:00             | +--------------------+
 
 If the time zone does not reflect what you set in the configuration group
-attached to the instance, the instance may need to be restarted for the change
+attached to the instance, the instance might need to be restarted for the change
 to take effect.
