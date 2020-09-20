@@ -18,3 +18,4 @@ resources/_gen
 # Local Netlify folder
 .netlify
 Gemfile.lock
+static/assets/

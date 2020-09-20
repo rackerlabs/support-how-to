@@ -1,15 +1,16 @@
-import contentLoaded from "content-loaded"
-import SmoothScroll from "./imports/smoothScroll"
+
+import contentLoaded from "content-loaded";
+import SmoothScroll from "./imports/smoothScroll";
+
 
 contentLoaded().then(() => {
   /**
    * Enable search
    */
   try {
-
     const search = instantsearch({
-      indexName: algoliaIndex,
-      searchClient: algoliasearch(algoliaAppId, algoliaSearchKey),
+      indexName: ALGOLIA_SUPPORT_INDEX,
+      searchClient: algoliasearch(ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY),
       searchFunction(helper) {
         const hitsContainer = document.querySelector('#hits');
         const paginationContainer = document.querySelector('#pagination');
@@ -49,7 +50,6 @@ contentLoaded().then(() => {
         container: '#pagination',
       }),
     ]);
-
     search.start();
   } catch (err) {
     console.warn(err)

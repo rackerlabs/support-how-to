@@ -3,7 +3,32 @@
   "dependencies": {},
   "devDependencies": {}
  },
+ "private": true,
+ "browserslist": "> 1%",
+ "scripts": {
+  "start": "run-p start:*",
+  "start:hugo": "hugo server -D",
+  "start:webpack": "webpack --mode=development --watch",
+  "build": "make install && rm -rf public && rm -rf static/assets && run-s build:webpack build:hugo",
+  "build:hugo": "hugo",
+  "build:webpack": "webpack --mode=production"
+ },
+ "devDependencies": {
+  "@babel/core": "^7.8.7",
+  "@babel/preset-env": "^7.8.7",
+  "autoprefixer": "^9.7.4",
+  "babel-loader": "^8.0.6",
+  "core-js": "^3.6.4",
+  "css-loader": "^3.4.2",
+  "mini-css-extract-plugin": "^0.9.0",
+  "npm-run-all": "^4.1.5",
+  "postcss-loader": "^3.0.0",
+  "webpack": "^4.42.0",
+  "webpack-cli": "^3.3.11"
+ },
  "dependencies": {
+  "@babel/cli": "^7.11.6",
+  "@babel/core": "^7.11.6",
   "algoliasearch": "^4.5.1",
   "atomic-algolia": "^0.3.19",
   "bootstrap": "^4.5.2",
@@ -13,7 +38,6 @@
   "instantsearch.js": "^4.8.1",
   "smoothscroll-polyfill": "^0.4.4"
  },
- "devDependencies": {},
  "name": "support-how-to",
  "version": "0.1.0"
 }

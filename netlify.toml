@@ -1,13 +1,16 @@
 [build.environment]
   HUGO_VERSION = "0.75.1"
+  NPM_VERSION = "6.14.8"
+  NODE_VERSION = "12.16.3"
 
 [build]
-  command = "make build"
+  command = "npm run build"
   publish = "public"
+  functions = "functions"
 
 
 [context.deploy-preview]
-  command = "make build-preview"
+  command = "make build"
   publish = "public"
 
 [[headers]]
@@ -30,11 +33,6 @@
   package = "netlify-plugin-hugo-cache-resources"
 	[plugins.inputs]
 	debug = true
-
-[[plugins]]
-  package = "netlify-plugin-cache"
-  [plugins.inputs]
-    paths = ["resources", "public"]
 
 [dev]
   framework = "#custom"
