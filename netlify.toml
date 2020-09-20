@@ -26,9 +26,6 @@
     Cache-Control = "public, s-max-age=604800"
 
 [[plugins]]
-  package = "./plugins/netlify-plugin-env-var"
-
-[[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
 	[plugins.inputs]
 	debug = true
