@@ -6,11 +6,10 @@
 [build]
   command = "npm run build"
   publish = "public"
-  functions = "functions"
 
 
 [context.deploy-preview]
-  command = "make build"
+  command = "npm run build"
   publish = "public"
 
 [[headers]]
@@ -37,7 +36,7 @@
 [dev]
   framework = "#custom"
   # only start Hugo, `netlify dev` builds/serves functions itself
-  command = "make serve"
+  command = "npm start"
   # swap ports to keep consistent w/ normal local server
   targetPort = 1314
   port = 1313
