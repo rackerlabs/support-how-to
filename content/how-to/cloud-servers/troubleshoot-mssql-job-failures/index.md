@@ -17,7 +17,7 @@ investigate them.
 ### Common causes for job failures
 
 SQL jobs can fail because of multiple reasons. To troubleshoot these failures, you can review the SQL Server
-Agent job history. To view these logs,perform the following steps:
+Agent job history. To view these logs, perform the following steps:
 
 1. Open **SQL Server Management Studio** (SSMS) and connect to the corresponding database instance.
 
