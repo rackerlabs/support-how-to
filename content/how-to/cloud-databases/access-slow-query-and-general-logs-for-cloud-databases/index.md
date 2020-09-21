@@ -12,35 +12,35 @@ product_url: cloud-databases
 ---
 
 Database logs can be useful tools when analyzing database performance or
-troubleshooting issues. You can enable logging slow queries or general database
-activity for a MySQL Cloud Databases instance by attaching a configuration group
-to the instance with the appropriate parameters set.
+troubleshooting issues. You can log slow queries or general database
+activity for a MySQL&reg; Cloud Database instance by attaching a configuration group
+to the instance and setting the appropriate parameters.
 
 ### Prerequisites
 
-The steps in this article require that you have an existing MySQL configuration
+To follow the steps in this article, you should have an existing MySQL configuration
 group or create a new one. A MySQL configuration group holds the values for
 MySQL options used at startup. To learn more about MySQL configuration groups,
-see [Managing configuration groups for cloud databases with the Trove command
+see [Manage configuration groups for cloud databases with the Trove command
 line
 tool](/support/how-to/managing-configuration-groups-for-cloud-databases-with-the-trove-command-line-tool).
 
-The examples use trove to make changes to configuration groups. Instructions for
-installing and configuring trove can be found in [Managing configuration groups
-for cloud databases with the Trove command line
+The examples use trove to make changes to configuration groups. You can find instructions for
+installing and configuring trove in [Managing configuration groups
+for cloud databases with the Trove command-line
 tool](/support/how-to/managing-configuration-groups-for-cloud-databases-with-the-trove-command-line-tool).
 
-To apply configuration groups you will need to enable root access to the
-database instance. This can be done through the [Cloud Databases
+To apply configuration groups, you need to enable root access to the
+database instance. You can do this by using the [Cloud Databases
 API](https://docs.rackspace.com/docs/cloud-databases/v1/developer-guide/) or
-with a trove command:
+with a `trove` command:
 
         trove root-enable instanceID
 
 ### Enable the slow query log
 
 You can use the slow query log to find queries that take a long time to execute
-and are therefore candidates for optimization. You can access the MySQL slow
+and are, therefore, candidates for optimization. You can access the MySQL slow
 query log by writing it to a table and setting persistent values to appropriate
 parameters in your configuration group.
 
@@ -69,15 +69,16 @@ For example, to create a new configuration group with trove that enables slow qu
 | Parameter name  | Suggested value | Description |
 | --- | --- | --- |
 | long_query_time | 0 or more | The duration of a query to be logged as slow, in seconds. The default is 10 seconds. |
-| log_queries_not_using_indexes | 0 or 1 | Queries that don't use an index, or that perform a full index scan where the index doesn't limit the number of rows, will be logged to the slow query log (regardless of time taken). The slow query log needs to be enabled for this to have an effect. |
+| log_queries_not_using_indexes | 0 or 1 | Queries that don't use an index, or that perform a full index scan where the index doesn't limit the number of rows, are logged to the slow query log (regardless of the time taken). You need to enable the slow query log for this to have an effect. |
 
-For example, to add parameters to the configuration group created in the previous step that set the slow query duration to 15 seconds and cause logs to be deleted after one day, run:
+For example, run the following command to add parameters to the configuration group created in the previous
+step that set the slow query duration to 15 seconds and cause logs to be deleted after one day:
 
         trove configuration-patch configID '{"long_query_time":15}'
 
 4. If necessary, attach the configuration group with these parameters to the
     instance for which you want to enable slow query logging. To attach the
-    configuration using trove, run:
+    configuration by using `trove`, run:
 
         trove configuration-attach instanceID configID
 
@@ -90,7 +91,7 @@ For example, to add parameters to the configuration group created in the previou
 
 You can use the general query log to track all activity, including any
 connections to the database and all queries sent to the database. It can be
-useful when you want to check the queries being sent by a client for
+useful when you want to check the queries sent by a client for
 troubleshooting purposes.
 
 For more information about the MySQL general query log, see the [MySQL
@@ -108,13 +109,13 @@ log](https://dev.mysql.com/doc/refman/5.6/en/query-log.html).
 | --- | --- | --- |
 | `<code>log_output</code>` | `<code>'TABLE'</code>` | Tells MySQL to write logs to a table |
 
-For example, to create a new configuration group with trove that enables general query logging, run:
+For example, to create a new configuration group with `trove` that enables general query logging, run:
 
     trove configuration-create EnableGeneralLog '{"log_output":"'TABLE'","slow_query_log":1}' --datastore MySQL
 
 3. If necessary, attach the configuration group with these parameters to the
     instance for which you want to enable general query logging. To attach the
-    configuration using trove, run:
+    configuration by using `trove`, run:
 
         trove configuration-attach instanceID configID
 
@@ -124,15 +125,15 @@ For example, to create a new configuration group with trove that enables general
         mysql -e "set global general_log = 1"
 
     At the moment, the above variable can only be set dynamically on a running
-    instance due to the overwhelming amount of data this change may generate.
+    instance due to the overwhelming amount of data this change might generate.
 
-    You can also disable general log with this command:
+    You can also disable general log with the following command:
 
         mysql -e "set global general_log = 0"
 
-	**Note:** General logging will be disable when you restart a MySQL instance.
+	**Note:** General logging is disabled when you restart a MySQL instance.
 
 5. After the configuration is applied to the server, you can retrieve the
-    general query log from the database with a query. For example:
+    general query log from the database with a query such as the following example:
 
         mysql -e "select * from mysql.general_log order by event_time desc limit 1\G"
