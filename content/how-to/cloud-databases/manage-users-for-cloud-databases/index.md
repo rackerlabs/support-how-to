@@ -1,5 +1,5 @@
 ---
-permalink: managing-users-for-cloud-databases/
+permalink: manage-users-for-cloud-databases/
 audit_date: '2020-09-18'
 title: Managing Users for Cloud Databases
 type: article
@@ -62,8 +62,8 @@ percent sign serves as a wildcard to MySQL, and means "from anywhere". Users
 created without a host parameter automatically get this default value, which
 allows them to connect to the database from any host.
 
-- Valid host name - 111.111.111.11
-- Invalid host name - server1.test.com  
+- Valid host name: 111.111.111.11
+- Invalid host name: server1.test.com  
 
 ### Modify user accounts
 
@@ -96,11 +96,11 @@ some users read-only access to a specific database. To do this you must enable
 the root user for your database instance. After the root user is enabled, you
 can log in to MySQL and manage the access privileges for individual users.
 
-Method 1. [Trove Command Line
+- **Method 1**: [Trove Command Line
   Tool](https://developer.rackspace.com/docs/cloud-databases/v1/getting-started/send-request-ovw/#using-the-trove-client),
   generally referred to as the CLI.
 
-Method 2.
+- **Method 2**:
   [API](https://docs.rackspace.com/docs/cloud-databases/v1/api-reference/database-instances/#enable-root-user).
   Support for access-level control on Cloud Databases through our Control Panel
   will be provided in the future.
@@ -116,15 +116,15 @@ where &lt;instance&gt; is the ID of the instance:
 This command generates a password for the root user. Now you have full control
 for creating and managing user privileges.
 
-In the following example, database instance MySQLDBInstance01 has a database DBStaging1 and
-a user DevUser1. You want to set up read-only permissions for DevUser1.
+In the following example, database instance, **MySQLDBInstance01**, has a database, **DBStaging1**, and
+a user, **DevUser1**. You want to set up read-only permissions for **DevUser1**.
 
 1. List database instances to get the instance ID:
 
        $ trove list
 
-2. Enable the root user on MySQLDBInstance01, with instance ID
-23a6481f-f98a-4fcd-b4a9-54d06f6f6e88:
+2. Enable the root user on **MySQLDBInstance01**, with instance ID
+**23a6481f-f98a-4fcd-b4a9-54d06f6f6e88**:
 
        $ trove root-enable 23a6481f-f98a-4fcd-b4a9-54d06f6f6e88
 
@@ -135,7 +135,7 @@ preceding step:
 
        $ mysql -u <root> -h <hostname> -p <password>
 
-4. In MySQL, set up read permissions for DevUser1 by using the GRANT
+4. In MySQL, set up read permissions for **DevUser1** by using the following `GRANT`
 statement:
 
        $ GRANT SELECT on DBStaging1.* to 'DevUser1'@'hostname';
@@ -145,6 +145,6 @@ enable the root user.
 
 #### Enable root user with the API
 
-If you want to enable the root user via API, follow the examples located in our
+If you want to enable the root user by using the API, follow the examples located in our
 [API
 documentation](https://docs.rackspace.com/docs/cloud-databases/v1/api-reference/database-instances/#enable-root-user).
