@@ -12,8 +12,8 @@ product_url: cloud-servers
 ---
 
 Windows&reg; Server Update Services (WSUS), previously known as Software Update Services (SUS), is a computer
-program and network service developed by Microsoft Corporation that enables administrators to manage the
-distribution of updates and hotfixes released for Microsoft products to computers in an environment.
+program that enables administrators to manage the distribution of updates and hotfixes released for Microsoft&reg;
+products to computers in an environment.
 
 WSUS uses the following services:
 
