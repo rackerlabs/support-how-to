@@ -3,7 +3,7 @@ permalink: install-the-wsus-server-role/
 audit_date: '2020-09-21'
 title: 'Install the WSUS server role'
 type: article
-created_date: '2020-09-18’
+created_date: '2020-09-18'
 created_by: Travis Cook
 last_modified_date: '2020-09-21'
 last_modified_by: Cat Lookabaugh
