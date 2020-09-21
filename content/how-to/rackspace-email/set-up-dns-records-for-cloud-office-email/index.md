@@ -11,7 +11,7 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article describes how to initially configure your domain's Domain Name System (DNS) to start receiving email through Rackspace Cloud Office. If you don't require instructions, see table in step two of [Configure DNS to send and receive email](#configure-dns-to-send-and-receive-email) for the required DNS entry values.
+This article describes how to initially configure your domain's Domain Name System (DNS) to start receiving email through Rackspace Cloud Office. If you don't require instructions, see the table in step two of [Configure DNS to send and receive email](#configure-dns-to-send-and-receive-email) for the required DNS entry values.
 
 ### Prerequisites
 
@@ -26,7 +26,7 @@ For more information on prerequisite terminology, see [Cloud Office support term
 
 ### Types of DNS entries
 
-The following DNS entries are required to properly use email services at Rackspace.
+The following DNS entries are required to use email services at Rackspace properly:
 
 - **MX records** tell other email providers where to send email. Your MX records should point to Rackspace. [More about MX records](/support/how-to/dns-record-definitions#mx-record).
 
@@ -40,9 +40,9 @@ Use the following steps to ensure your domain properly routes incoming and outgo
 
 **Warning:** If you host your email through our Office 365 solution, please see [Office 365 domain setup](/support/how-to/add-a-domain-in-office-365/) for instructions.
 
-1. Log in to the control panel for your domain DNS host. If you host your DNS with Rackspace Cloud Office, please see [Edit DNS in the Cloud Office Control Panel](/support/how-to/edit-dns-in-the-cloud-office-control-panel).
+1. Log in to the control panel for your domain DNS host. If you host your DNS with Rackspace Cloud Office, see [Edit DNS in the Cloud Office Control Panel](/support/how-to/edit-dns-in-the-cloud-office-control-panel).
 
-2. Set the DNS entries to the values shown in the following table. Ensure that no other MX record entries exist or you will experience complications with your email. For more information, see [Add or edit entries for your DNS host](/support/how-to/find-dns-host#add-or-edit-entries-for-your-dns-host).
+2. Set the DNS entries to the values shown in the following table. Ensure that no other MX record entries exist, or you will experience complications with your email. For more information, see [Add or edit entries for your DNS host](/support/how-to/find-dns-host#add-or-edit-entries-for-your-dns-host).
 
 {{<table "table  table-striped table-bordered">}}
 | Type  | Hostname | Hostname | Priority | TTL |
@@ -59,10 +59,10 @@ Use the following steps to ensure your domain properly routes incoming and outgo
 
 You have successfully set up your DNS for your domain.
 
-**Warning:** If you change DNS settings for a domain that was hosting email elsewhere, user email clients and devices must be reconfigured to point to Rackspace. Send your users to <https://emailhelp.rackspace.com> to assist them with new settings.
+**Warning:** If you change DNS settings for a domain that was hosting email elsewhere, you must reconfigure user email clients and device to point to Rackspace. Send your users to <https://emailhelp.rackspace.com> to assist them with new settings.
 
 
-If you would prefer a video tutorial with more information about DNS, see [Rackspace Email - Domain Name System: Introduction & Setup](https://emailhelp.rackspace.com/l/dns-introduction-and-setup).
+If you prefer to watch a video tutorial with more information about DNS, see [Rackspace Email - Domain Name System: Introduction & Setup](https://emailhelp.rackspace.com/l/dns-introduction-and-setup).
 
 ### Related article
 
