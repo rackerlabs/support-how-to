@@ -1,7 +1,7 @@
 ---
 permalink: manage-users-for-cloud-databases/
 audit_date: '2020-09-18'
-title: Managing Users for Cloud Databases
+title: Manage users for Cloud Databases
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
