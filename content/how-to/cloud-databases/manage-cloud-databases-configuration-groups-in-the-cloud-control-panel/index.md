@@ -1,36 +1,37 @@
 ---
-permalink: managing-cloud-databases-configuration-groups-in-the-cloud-control-panel/
-audit_date:
+permalink: manage-cloud-databases-configuration-groups-in-the-cloud-control-panel/
+audit_date: '2020-09-21'
 title: Manage Cloud Databases configuration groups in the Cloud Control Panel
 type: article
 created_date: '2014-11-13'
 created_by: Rose Contreras
-last_modified_date: '2018-10-23'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-09-21'
+last_modified_by: Rose Morales
 product: Cloud Databases
 product_url: cloud-databases
 ---
 
-A configuration group is a collection of settings that you can save and apply to one or
-more Cloud Databases instances. A configuration group consists of one or more configuration
-parameters, which represent options for a database instance.
+A configuration group is a collection of settings that you can save and apply to
+one or more Cloud Database instances. It consists of one or more configuration
+parameters, which represent options.
 
 For example, you can set the `max_connections` parameter in a configuration
-group to 80, which means that the instance to which the configuration group is applied can
-have a maximum of 80 clients connected simultaneously. You can also set the default time
-zone for an instance by defining the `default_time_zone` parameter in a
-configuration group.
+group to 80, which means that the instance to which the configuration group is
+applied can have a maximum of 80 clients connected simultaneously. You can also
+set the default time zone for an instance by defining the `default_time_zone`
+parameter in a configuration group.
 
 This article describes how to manage configurations by using the Cloud Control
 Panel.
 
-For details about configuration parameters, see the MySQL documentation
-[5.1.4 Server System Variables](https://dev.mysql.com/doc/refman/5.6/en/server-system-variables.html).
+For details about configuration parameters, see the MySQL documentation [5.1.4
+Server System
+Variables](https://dev.mysql.com/doc/refman/5.6/en/server-system-variables.html).
 
 ### Create a new configuration group and apply it to an instance
 
-Use the steps in this section to create a configuration group and apply it to
-a database instance.
+Use the steps in this section to create a configuration group and apply it to a
+database instance.
 
 **Note**: You can only apply a configuration group to instances in the same
 region as the configuration group. This means you cannot apply a configuration
@@ -46,18 +47,18 @@ Use the following steps to create a new configuration group:
 
 3. Select **Databases**.
 
-4. In the **Databases** menu, select **MySQL Configurations** under **MANAGE EXTRAS**.
+4. In **Databases**, select **MANAGE EXTRAS** > **MySQL Configurations**.
 
-5. On the Configurations page, click **Create Configuration**.
+5. Click **Create Configuration**.
 
-6. In the Identity section, provide a name and description for the configuration, and
+6. Under **Identity**, provide a name and description for the configuration, and
    specify the region in which you want to use the configuration.
 
-7. In the Settings section, select the datastore of the database instance or instances to
+7. Under **Settings**, select the datastore of the database instance or instances to
    which the configuration parameters will apply. For example, if you choose MySQL 5.6, the
    configuration group can be applied only to database instances that use MySQL 5.6
 
-8. In the Configuration Parameters section, enter values for the parameters that you want
+8. In **Configuration Parameters**, enter values for the parameters that you want
    to customize for this configuration group. For details about configuration parameters,
    see documentation here. The following image shows values specified for some MySQL 5.6
    parameters.
@@ -90,10 +91,9 @@ with the default configuration.
 2. On the Configurations page, click the gear icon next to the database configuration that
 you want to apply to an instance.
 
-3. Click **Apply to Existing Instances**.
-
-	The database instances in the same region that use the datastore specified in the
-	configuration group are displayed in a popup dialog box.
+3. Click **Apply to Existing Instances**. The database instances in the same
+   region that use the datastore specified in the configuration group are
+   displayed in a popup dialog box.
 
 4. Select all the instances to which you want to apply the configuration, and then click
    **Apply Configuration**.
@@ -102,9 +102,9 @@ you want to apply to an instance.
    attached to the configuration group will require an instance restart. To restart the
    affected instances:
 
-	A. Go to the Database Instances page.
+   a. Go to the Database Instances page.
 
-	B. The instances that require restart are displayed in orange. Click the gear icon next
+   b. The instances that require restart are displayed in orange. Click the gear icon next
 	   to the instance to which you just applied the configuration group, and select **Restart Instance**.
 
 #### Apply a configuration to an instance with the default configuration from the Instance Details page
@@ -129,10 +129,9 @@ Use the following steps to create a new instance with a configuration group:
 2. On the Configurations page, click the gear icon next to the configuration that you want
    to use to create an instance. Select **Create Instance**.
 
-3. In the popup dialog box, provide a name for the instance and specify the RAM and disk
-   size for the instance.
-
-    The region and datastore type are defined by the configuration group and cannot be changed.
+3. In the popup dialog box, provide a name for the instance and specify the RAM
+   and disk size for the instance. The region and datastore type are defined by
+   the configuration group and cannot be changed.
 
 4. Click **Create Instance**.
 
@@ -252,4 +251,3 @@ the index, only then will the modified value be reflected in your database. Use
 | innodb_ft_sort_pll_degree | innodb_ft_total_cache_size | innodb_ft_sort_pll_degree |
 | innodb_ft_total_cache_size | | |
 {{< /table >}}
-
