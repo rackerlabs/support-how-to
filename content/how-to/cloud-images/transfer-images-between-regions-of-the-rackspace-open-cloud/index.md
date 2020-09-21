@@ -5,7 +5,7 @@ title: Transfer images between regions of the Rackspace open cloud
 type: article
 created_date: '2014-02-27'
 created_by: Cloud Images
-last_modified_date: '2020-04-02'
+last_modified_date: '2020-09-17'
 last_modified_by: Cat Lookabaugh
 product: Cloud Images
 product_url: cloud-images
@@ -36,7 +36,7 @@ To work in the source region, use the following steps:
 
 1.  Create an image of the source server.
 
-    This example uses a server named Slave Database 3 in the
+    This example uses a server named Replica Database 3 in the
     source region. You can use either the [Cloud Servers
     API](https://docs.rackspace.com/docs/cloud-servers/v2/getting-started/)
     or the [Cloud Control Panel](https://login.rackspace.com) to create the
@@ -54,7 +54,7 @@ To work in the source region, use the following steps:
     use the Cloud Control Panel for this step.) This example uses an image ID
     of `a6da1504-e1c0-4f40-8461-1ed9a9990e90`. For example, you can create an
     image property named `com.mycompany.image-of` and give it the value
-    `db-slave-3`.
+    `db-replica-3`.
 
     You can add the metadata by using the Images API, as shown in the following example:
 
@@ -64,7 +64,7 @@ To work in the source region, use the following steps:
         curl -X PATCH <br>
           -H "X-Auth-Token: $OS_AUTH_TOKEN" <br>
           -H "Content-type: application/openstack-images-v2.1-json-patch" <br>
-          -d '[{ "op": "add", "path": "/com.mycompany.image-of", "value": "db-slave-3"}]' <br>
+          -d '[{ "op": "add", "path": "/com.mycompany.image-of", "value": "db-replica-3"}]' <br>
           "$OS_IMAGE_URL/v2/images/$MY_IMG"
 
     The `OS_IMAGE_URL` in the preceding example could be the same URL provided by authenticating to Cloud Identity.
@@ -206,7 +206,7 @@ can import it for use with Cloud Servers.
         OS_IMAGE_URL="<cloud images baseurl in target region>"
         IMAGE_CONTAINER="imported-files"
         IMAGE_FILE="a6da1504-e1c0-4f40-8461-1ed9a9990e90.vhd"
-        IMAGE_NAME="Slave Database 3"
+        IMAGE_NAME="Replica Database 3"
         curl -i -X POST <br>
           -H "X-Auth-Token: $OS_AUTH_TOKEN" <br>
           -H "Content-Type: application/json" <br>
@@ -229,7 +229,7 @@ can import it for use with Cloud Servers.
             "id": "d8dd8c24-2534-473c-881f-9097bc784068",
             "input": {
                 "image_properties": {
-                    "name": "Slave Database 3"
+                    "name": "Replica Database 3"
                 },
                 "import_from": "exported-images/a6da1504-e1c0-4f40-8461-1ed9a9990e90.vhd",
                 "import_from_format": "vhd"
@@ -263,7 +263,7 @@ can import it for use with Cloud Servers.
 
         OS_AUTH_TOKEN="<your auth token>"
         OS_IMAGE_URL="<cloud images baseurl>"
-        curl -X GET -H "X-Auth-Token: $OS_AUTH_TOKEN" "$OS_IMAGE_URL/v2/images?com.mycompany.image-of=db-slave-3
+        curl -X GET -H "X-Auth-Token: $OS_AUTH_TOKEN" "$OS_IMAGE_URL/v2/images?com.mycompany.image-of=db-replica-3
 
     As long as you use different values for each set of related images, the
     response to this call will be a list of images that contain a single image.

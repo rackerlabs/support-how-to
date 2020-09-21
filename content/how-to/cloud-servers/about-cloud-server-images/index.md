@@ -5,15 +5,14 @@ title: About Cloud Server images
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2019-06-07'
-last_modified_by: Brian King
-
+last_modified_date: '2020-09-17'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
 Creating an image enables you to have saved images for later use as a
-template or master image. You can then use the saved images to easily
+template or primary image. You can then use the saved images to easily
 restore a server to a known configuration or rapidly deploy additional
 servers with an identical configuration. Using the
 [Cloud Control Panel](https://login.rackspace.com), you can create images on-demand.

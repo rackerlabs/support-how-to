@@ -5,9 +5,8 @@ title: Best practices for using Cloud Files
 type: article
 created_date: '2012-01-05'
 created_by: Rackspace Support
-last_modified_date: '2018-01-09'
-last_modified_by: Kate Dougherty
-product: Cloud Files
+last_modified_date: '2020-09-17'
+last_modified_by: Cat Lookabaugh
 product_url: cloud-files
 ---
 
@@ -83,7 +82,7 @@ This tip is most appropriate for customers who are using Cloud Files for an
 object storage solution because these solutions are frequently accessed
 programmatically, and also grow organically over time. This tip also applies
 to any site that allows for additional content, such as an uploads section,
-that might quickly grow beyond the webmaster's expectations.
+that might quickly grow beyond the website administrator's expectations.
 
 Consider future growth in object count and usage. Any system that has
 many millions of objects and very high object churn (such as creation and

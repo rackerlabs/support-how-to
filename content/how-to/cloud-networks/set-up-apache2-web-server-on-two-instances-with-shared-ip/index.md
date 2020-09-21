@@ -5,8 +5,8 @@ title: Set up Apache2 web server on two instances with shared ip
 type: article
 created_date: '2016-08-15'
 created_by: Rackspace Support
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-09-17'
+last_modified_by: Cat Lookabaugh
 product: Cloud Networks
 product_url: cloud-networks
 ---
@@ -19,7 +19,7 @@ the first server goes down.
 The use case in this article shows an Apache web server deployed on two
 cloud servers running the Ubuntu operating system with a shared IP address on
 PublicNet that is used to reach the web servers. A heartbeat is used as the
-protocol to determine which cloud server is currently the "owner" of the
+protocol to determine which cloud server is currently the owner of the
 shared IP address and will respond to a web request.
 
 The following sections show you how to:
@@ -41,7 +41,7 @@ You should have an authentication token and the ability to use cURL in your envi
 
 Perform the following steps from your local computer.
 
-1. Boot the master server. Save the server ID for future reference.
+1. Boot the primary server. Save the server ID for future reference.
 
    *Request:*
 
@@ -63,7 +63,7 @@ Perform the following steps from your local computer.
          }
         }
 
-2. Get the details for the master server. Save the publicIPZoneId for future
+2. Get the details for the primary server. Save the publicIPZoneId for future
    reference.
 
    *Request:*
@@ -122,7 +122,7 @@ Perform the following steps from your local computer.
          }
       }
 
-3. Boot the slave server in same publicIPZoneId as the master server by using
+3. Boot the replica server in same publicIPZoneId as the primary server by using
    a scheduler hint. Save the server ID for future reference.
 
    *Request:*
@@ -161,8 +161,8 @@ Perform the following steps from your local computer.
          }
         }
 
-4. Get the details for the slave server and confirm that slave server is in
-   the same publicIPZoneId as master server.
+4. Get the details for the replica server and confirm that the replica server is in
+   the same publicIPZoneId as the primary server.
 
    *Request:*
 
@@ -225,7 +225,7 @@ Perform the following steps from your local computer.
 Perform the following steps from your local computer.
 
 1. Get port IDs for both servers. Filter the list ports operation by the
-   PublicNet (network ID that is all zeroes). Find the sections of the response where the value of device_id matches the master server, and save the corresponding ID (which is the port ID) for future reference. Do the same thing for the slave server.
+   PublicNet (network ID that is all zeroes). Find the sections of the response where the value of device_id matches the primary server, and save the corresponding ID (which is the port ID) for future reference. Do the same thing for the replica server.
 
    *Request:*
 
@@ -289,7 +289,7 @@ Perform the following steps from your local computer.
          ]
       }
 
-2. Provision the IP address on the PublicNet ports for the master and slave
+2. Provision the IP address on the PublicNet ports for the primary and replica
    servers. For future reference, note the IP address and the IP address ID in the response.
 
    *Request:*
@@ -389,7 +389,7 @@ Perform the following steps from your local computer.
             ]
           }
 
-4. Associate the shared IP address with the master server.
+4. Associate the shared IP address with the primary server.
 
    *Request:*
 
@@ -411,7 +411,7 @@ Perform the following steps from your local computer.
            }
         }
 
-5. Associate the shared IP address with the slave server.
+5. Associate the shared IP address with the replica server.
 
    *Request:*
 
@@ -436,37 +436,37 @@ Perform the following steps from your local computer.
 
 ### Configure Apache2 and set up the heartbeat on the servers
 
-Perform the following steps on the master and slave servers. Each step
+Perform the following steps on the primary and replica servers. Each step
 indicates where to perform the step.
 
-1. (Master) Install Apache on the master server by running the following
+1. (Primary) Install Apache on the primary server by running the following
    commands:
 
         sudo apt-get update
         sudo apt-get install heartbeat
         sudo apt-get install apache2
 
-2. (Master) Create the ***/etc/heartbeat/authkeys*** file on the master server
-   and enter the following text. The contents are the same for the master server and the slave server. Substitute your own passphrase.
+2. (Primary) Create the ***/etc/heartbeat/authkeys*** file on the primary server
+   and enter the following text. The contents are the same for the primary server and the replica server. Substitute your own passphrase.
 
    *File contents:*
 
         auth 1
         1 sha1 YourSecretPassPhrase
 
-3. (Master) Set the correct permissions on the ***/etc/heartbeat/authkeys***
+3. (Primary) Set the correct permissions on the ***/etc/heartbeat/authkeys***
    file:
 
         chmod 600 /etc/heartbeat/authkeys
 
-4. (Master) Create the ***/etc/heartbeat/haresources*** file on the master
-   server and enter the following contents (with your master server public IP address). The contents are the same for the master server and the slave server.
+4. (Primary) Create the ***/etc/heartbeat/haresources*** file on the primary
+   server and enter the following contents (with your primary server public IP address). The contents are the same for the primary server and the replica server.
 
    *File contents:*
 
-        master-instance-hostname 10.23.233.113/24
+        primary-instance-hostname 10.23.233.113/24
 
-5. (Master) Create the ***/etc/heartbeat/ha.cf*** file on master server and
+5. (Primary) Create the ***/etc/heartbeat/ha.cf*** file on primary server and
    enter the following text. The lines with comments are the ones that have to be modified.
 
    *File contents:*
@@ -477,41 +477,41 @@ indicates where to perform the step.
         warntime 5
         initdead 120
         udpport 694
-        ucast eth0 10.23.233.89 # The IP address of the slave instance on public net
+        ucast eth0 10.23.233.89 # The IP address of the replica instance on public net
         auto_failback on
-        node master-instance-hostname # master-instance-hostname is the name displayed by uname -n in the master instance
-        node slave-instance-hostname # slave-instance-hostname is the name displayed by uname -n in the slave instance
+        node primary-instance-hostname # primary-instance-hostname is the name displayed by uname -n in the primary instance
+        node replica-instance-hostname # replica-instance-hostname is the name displayed by uname -n in the replica instance
         respawn hacluster /usr/lib/heartbeat/ipfail
         use_logd yes
 
-6. (Slave) Install Apache on the slave server by running the following
+6. (Replica) Install Apache on the replica server by running the following
    commands:
 
         sudo apt-get update
         sudo apt-get install heartbeat
         sudo apt-get install apache2
 
-7. (Slave) Create the ***/etc/heartbeat/authkeys*** file on the slaver server
-   and enter the following text. The contents are the same for the master server and the slave server. Substitute your own passphrase.
+7. (Replica) Create the ***/etc/heartbeat/authkeys*** file on the replica server
+   and enter the following text. The contents are the same for the primary server and the replica server. Substitute your own passphrase.
 
    *File contents:*
 
         auth 1
         1 sha1 YourSecretPassPhrase
 
-8. (Slave) Set the correct permissions on the ***/etc/heartbeat/authkeys***
+8. (Replica) Set the correct permissions on the ***/etc/heartbeat/authkeys***
    file.
 
         chmod 600 /etc/heartbeat/authkeys
 
-9. (Slave) Create the ***/etc/heartbeat/haresources*** file on the slave
-   server and populate it with the shared IP address (with you master server public IP address). The contents are the same for the master server and the slave server.
+9. (Replica) Create the ***/etc/heartbeat/haresources*** file on the replica
+   server and populate it with the shared IP address (with you primary server public IP address). The contents are the same for the primary server and the replica server.
 
    *File contents:*
 
-        master-instance-hostname 10.23.233.113/24
+        primary-instance-hostname 10.23.233.113/24
 
-10. (Slave) Create the ***/etc/heartbeat/ha.cf*** file on the slave server and
+10. (Replica) Create the ***/etc/heartbeat/ha.cf*** file on the replica server and
     enter the following text. The lines with comments are the ones that have to be modified.
 
     *File contents:*
@@ -522,44 +522,44 @@ indicates where to perform the step.
         warntime 5
         initdead 120
         udpport 694
-        ucast eth0 10.23.233.89 # The ip address of the master instance on public net
+        ucast eth0 10.23.233.89 # The ip address of the primary instance on public net
         auto_failback on
-        node master-instance-hostname# master-instance-hostname is the name displayed by uname -n in the master instance
-        node slave-instance-hostname # slave-instance-hostname is the name displayed by uname -n in the slave instance
+        node primary-instance-hostname# primary-instance-hostname is the name displayed by uname -n in the primary instance
+        node replica-instance-hostname # replica-instance-hostname is the name displayed by uname -n in the replica instance
         respawn hacluster /usr/lib/heartbeat/ipfail use_logd yes
 
-11. (Slave) Restart the heartbeat on the slave server by running the following
+11. (Replica) Restart the heartbeat on the replica server by running the following
     command:
 
         sudo service heartbeat restart
 
-12. (Master) Set up Apache to respond with the hostname on the master server
+12. (Primary) Set up Apache to respond with the hostname on the primary server
     by running the following command:
 
         echo `hostname` > /var/www/html/index.html
 
-13. (Slave) Set up Apache to respond with the hostname on the slave server by
+13. (Replica) Set up Apache to respond with the hostname on the replica server by
     running the following command:
 
         echo `hostname` > /var/www/html/index.html
 
-14. (Master) Restart Apache on the master server by running the following
+14. (Primary) Restart Apache on the primary server by running the following
     command:
 
         sudo service apache2 restart
 
-15. (Slave) Restart Apache on the slave server by running the following
+15. (Replica) Restart Apache on the replica server by running the following
     command:
 
         sudo service apache2 restart
 
 ### Test the configuration
 
-Perform the following steps on the master and slave servers and your
+Perform the following steps on the primary and replica servers and your
 local computer. Each step indicates where to perform the step.
 
-1. (Master) Validate the eth0 interface configured with the shared IP address
-   on the master server by running the following command:
+1. (Primary) Validate the eth0 interface configured with the shared IP address
+   on the primary server by running the following command:
 
         ifconfig
 
@@ -598,33 +598,33 @@ local computer. Each step indicates where to perform the step.
         RX bytes:15678190 (15.6 MB) TX bytes:15678190 (15.6 MB)
 
 2. (Local computer) Browse to the shared IP address, which connects you to the
-   master server, by using a web browser with the shared IP address in the address bar. The browser displays
-   the master server's instance name.
+   primary server, by using a web browser with the shared IP address in the address bar. The browser displays
+   the primary server's instance name.
 
-3. (Local computer) Use SSH to connect to the master server by running the
-   following command (substituting your username and your master server IP address):
+3. (Local computer) Use SSH to connect to the primary server by running the
+   following command (substituting your username and your primary server IP address):
 
-        ssh username@master_server_ip_address
+        ssh username@primary_server_ip_address
 
-4. (Master) Find the gateway address by running the following command. Save
+4. (Primary) Find the gateway address by running the following command. Save
    the gateway address for future reference.
 
     route | grep default
 
-5. (Master) Turn off the eth0 interface by running the following command:
+5. (Primary) Turn off the eth0 interface by running the following command:
 
         sudo ifconfig eth0 down
 
-6. (Local computer) Use SSH to connect to the slave server by running the
-   following command (substituting your username and your master server IP address):
+6. (Local computer) Use SSH to connect to the replica server by running the
+   following command (substituting your username and your replica server IP address):
 
-       ssh username@slave_server_ip_address
+       ssh username@replica_server_ip_address
 
 7. (Local computer) After a few moments, browse to the shared IP address,
-   which connects you to the slave server, by using a web browser with the shared IP address in the address bar. The browser displays the slave server's instance name.
+   which connects you to the replica server, by using a web browser with the shared IP address in the address bar. The browser displays the replica server's instance name.
 
-8. (Slave) Validate the eth0 interface configured with shared IP address on
-   the slave server by running the following command:
+8. (Replica) Validate the eth0 interface configured with shared IP address on
+   the replica server by running the following command:
 
         sudo ifconfig
 
@@ -662,11 +662,11 @@ local computer. Each step indicates where to perform the step.
         collisions:0 txqueuelen:0
         RX bytes:256853 (256.8 KB) TX bytes:256853 (256.8 KB)
 
-9. (Master) Turn on the eth0 interface by running the following command:
+9. (Primary) Turn on the eth0 interface by running the following command:
 
         sudo ifconfig eth0 up
 
-10. (Master) Restore the shared IP address to the master instance by running
+10. (Primary) Restore the shared IP address to the primary instance by running
    the following command (using the gateway address from step 4):
 
         route add default gw <gateway-address>

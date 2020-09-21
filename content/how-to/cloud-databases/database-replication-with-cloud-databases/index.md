@@ -5,8 +5,8 @@ title: Database replication with Cloud Databases
 type: article
 created_date: '2015-04-08'
 created_by: Rose Contreras
-last_modified_date: '2018-10-24'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-09-17'
+last_modified_by: Cat Lookabaugh
 product: Cloud Databases
 product_url: cloud-databases
 ---
@@ -15,7 +15,7 @@ This article describes how you create and manage read replicas for your Cloud Da
 
 ### Replication overview
 
-Replication enables you to create a read replica of a database instance that can be used for scaling out read-heavy workloads or for ensuring availability of your database in case of instance failure. You can send only your read requests to your replica; all write requests can be sent only to the source database instance. When you create a read replica, you must specify an existing database instance as the source of the replica.
+Replication enables you to create a read replica of a primary database instance that can be used for scaling out read-heavy workloads or for ensuring availability of your database in case of instance failure. You can send only your read requests to your replica; all write requests can be sent only to the source database instance. When you create a read replica, you must specify an existing source database instance as the source of the replica.
 
 Rackspace Cloud Databases uses asynchronous replication.
 
@@ -29,8 +29,6 @@ Following are some common scenarios for which adding a read replica for your dat
 - Many applications that use MySQL database technologies are used to perform analysis and business reporting. Run queries against your replica without affecting the performance of writes and updates on the source database instance.
 
 - Use replication to create an updated copy of your database.
-
-
 
 ### Create a read replica
 
@@ -72,7 +70,7 @@ There could be situations where you would like detach the replica. Here are some
 
 - You might want to detach the replica if case you are experiencing a performance impact due to replication.
 
-- If your primary database instance becomes unavailable, you can use the replica as the primary database instance and point your application to the replica. To accomplish this, you must detach the replica from the primary database instance and change the endpoint for your application.
+- If your source database instance becomes unavailable, you can use the replica as the source database instance and point your application to the replica. To accomplish this, you must detach the replica from the source database instance and change the endpoint for your application.
 
 ### Delete a replica
 
@@ -83,7 +81,7 @@ Use the following steps to delete a replica:
 
 2. In the popup dialog box, click **Delete Instance**.
 
-After you delete the replica instance, your data will no longer be replicated. You can delete the replica without detaching it from the primary database instance, but you cannot delete the primary database instance if it has replicas attached.
+After you delete the replica instance, your data will no longer be replicated. You can delete the replica without detaching it from the source database instance, but you cannot delete the source database instance if it has replicas attached.
 
 ### Create and manage replicas with the Cloud Databases API
 
@@ -119,7 +117,7 @@ After setting up replication, you should periodically monitor your replicas to e
     }
     return new AlarmStatus(OK, 'Replication slave_sql_running is OK');
 
-**seconds\_behind\_master:** This variable is a part of the `Show Slave` status and is an integer that measures the time difference in seconds between the slave SQL thread and the slave I/O thread. This field is an indication of how “late” the slave is; When the slave is actively processing updates, this field shows the difference between the current timestamp on the slave and the original timestamp logged on the master for the event currently being processed on the slave. When no event is currently being processed on the slave, this value is 0. In the example below, we send an alarm if the replica is > 30 minutes behind master.
+**seconds\_behind\_master:** This variable is a part of the `Show Slave` status and is an integer that measures the time difference in seconds between the replica (slave) SQL thread and the replica I/O thread. This field is an indication of how late the replica is. When the replica is actively processing updates, this field shows the difference between the current timestamp on the replica and the original timestamp logged on the source for the event currently being processed on the replica. When no event is currently being processed on the replica, this value is 0. In the following example, we send an alarm if the replica is > 30 minutes behind primary.
 
     if (metric['replication.seconds_behind_master'] > 1800) {
 
