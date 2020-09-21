@@ -7,10 +7,10 @@
  "browserslist": "> 1%",
  "scripts": {
   "start": "run-p start:*",
-  "start:hugo": "hugo server -D",
+  "start:hugo": "make serve",
   "start:webpack": "webpack --mode=development --watch",
   "build": "make install && rm -rf public && rm -rf static/assets && run-s build:webpack build:hugo",
-  "build:hugo": "hugo",
+  "build:hugo": "make build",
   "build:webpack": "webpack --mode=production"
  },
  "devDependencies": {
