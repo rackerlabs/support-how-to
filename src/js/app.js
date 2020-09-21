@@ -37,13 +37,13 @@ contentLoaded().then(() => {
           item: function (data) {
             let returnResult = '';
             if (data.product) {
-              returnResult = returnResult + `<p class="search-product">How-To &nbsp; > 	&nbsp; ` + data._highlightResult.product.value + `</p>`;
+              returnResult = returnResult + `<p class="search-product"><a class="search-product-link" href="/how-to">How-To</a> &nbsp; > 	&nbsp; <a href=/how-to/`+ data.product_url +`>` + data._highlightResult.product.value + `</a></p>`;
             } else {
               returnResult += `<span></span>`;
             }
             if (data.title) {
               returnResult = returnResult + `<h2>
-              <a href="{{ relpermalink }}" class="search-title">`
+              <a class="search-title" href=` + data.relpermalink + `>`
                 +data._highlightResult.title.value+
               `</a>
               </h2>`;
@@ -51,7 +51,7 @@ contentLoaded().then(() => {
               returnResult += `<span></span>`;
             }
             if (data.summary) {
-              returnResult = returnResult + `<p class="search-summary">` + data._highlightResult.summary.value + `</p>`;
+              returnResult = returnResult + `<a class="search-summary-link" href=` + data.relpermalink + `><p class="search-summary">` + data._highlightResult.summary.value + `</p></a>`;
             } else {
               returnResult += `<span></span>`;
             }
