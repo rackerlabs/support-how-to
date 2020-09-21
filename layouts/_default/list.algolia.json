@@ -1,5 +1,5 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- range .Site.AllPages -}}
-    {{- $.Scratch.Add "index" (dict "title" .Params.Title  "description" .Description "keywords" .Keywords "lang" .Lang "permalink" .Params.Permalink "relpermalink" .RelPermalink "summary" .Summary "type" .Params.Type    "created_by" .Params.Created_by "created_date" .Params.Created_date "last_modified_date" .Params.Last_modified_date "last_modified_by" .Params.Last_modified_by "product" .Params.Product "product_url" .Params.Product_url "audit_date" .Params.Audit_date)}}
+    {{- $.Scratch.Add "index" (dict "title" (.Params.Title | markdownify | plainify)  "description" (.Description | markdownify | plainify) "keywords" .Keywords "lang" .Lang "permalink" .Params.Permalink "relpermalink" .RelPermalink "summary" (.Summary | markdownify | plainify) "type" .Params.Type    "created_by" .Params.Created_by "created_date" .Params.Created_date "last_modified_date" .Params.Last_modified_date "last_modified_by" .Params.Last_modified_by "product" .Params.Product "product_url" .Params.Product_url "audit_date" .Params.Audit_date)}}
   {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}

@@ -34,16 +34,39 @@ contentLoaded().then(() => {
       instantsearch.widgets.hits({
         container: '#hits',
         templates: {
-          item: `
-            <p class="search-product">How-To > {{#helpers.highlight}}{ "attribute": "product" }{{/helpers.highlight}}</p>
-            <h2>
-            <a href="{{ relpermalink }}">
-              {{#helpers.highlight}}{ "attribute": "title" }{{/helpers.highlight}}
-            </a>
-            </h2>
-            <p>{{#helpers.highlight}}{ "attribute": "summary" }{{/helpers.highlight}}</p>
-            <p><span class="search-author">By {{#helpers.highlight}}{ "attribute": "created_by" }{{/helpers.highlight}}</span><span>{{#helpers.highlight}}{ "attribute": "last_modified_date" }{{/helpers.highlight}}</span></p>
-          `,
+          item: function (data) {
+            let returnResult = '';
+            if (data.product) {
+              returnResult = returnResult + `<p class="search-product">How-To &nbsp; > 	&nbsp; ` + data._highlightResult.product.value + `</p>`;
+            } else {
+              returnResult += `<span></span>`;
+            }
+            if (data.title) {
+              returnResult = returnResult + `<h2>
+              <a href="{{ relpermalink }}" class="search-title">`
+                +data._highlightResult.title.value+
+              `</a>
+              </h2>`;
+            } else {
+              returnResult += `<span></span>`;
+            }
+            if (data.summary) {
+              returnResult = returnResult + `<p class="search-summary">` + data._highlightResult.summary.value + `</p>`;
+            } else {
+              returnResult += `<span></span>`;
+            }
+            if (data.created_by) {
+              returnResult = returnResult + `<span class="search-author"> By &nbsp;`+ data._highlightResult.created_by.value + `</span>`
+            } else {
+              returnResult += `<span></span>`;
+            }
+            if (data.created_date) {
+              returnResult = returnResult + `<span class="search-date">`+data._highlightResult.created_date.value + `</span>`
+            } else {
+              returnResult += `<span></span>`;
+            }
+            return returnResult;
+          }
         },
       }),
       instantsearch.widgets.pagination({
