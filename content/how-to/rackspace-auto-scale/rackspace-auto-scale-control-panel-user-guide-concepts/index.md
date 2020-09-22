@@ -43,14 +43,14 @@ server to start operating such as a web server set to respond to HTTP
 requests. A server image does *not* include configuration details such
 as IP address, server flavor, server networks, or mounted volumes. As a
 result, a given server image can be applied to servers that have
-different configurations than the master server from which the image was
+different configurations than the primary server from which the image was
 generated, as long as the instance type has as much or more disk storage
 as the original instance.
 
 When you are configuring an image with software to use with Auto Scale,
 be sure to use dynamic elements instead of static elements. All of the
 files on cloned server images are identical, so if you are using
-hard-coded machine IDs in configuration files on the master server
+hard-coded machine IDs in configuration files on the primary server
 image, multiple systems will use the same machine ID. The server should
 be set to use DHCP to obtain an IP address and other network parameters.
 The Rackspace Cloud Monitoring agent is designed to behave correctly

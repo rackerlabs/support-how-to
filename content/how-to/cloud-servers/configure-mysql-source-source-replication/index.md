@@ -1,33 +1,33 @@
 ---
-permalink: mysql-master-master-replication/
+permalink: configure-mysql-source-source-replication/
 audit_date:
-title: Configure MySQL Master-Master Replication
+title: Configure MySQL source-source replication
 type: article
 created_date: '2011-06-07'
 created_by: Rackspace Support
-last_modified_date: '2018-10-26'
+last_modified_date: '2020-09-17'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Note**: Rackspace Support cannot assist with master-master replication setups
+**Note**: Rackspace Support cannot assist with source-source replication setups
 due to the complexity of configuration and likelihood of error.  As an
-alternative to direct MySQL master-master replication, consider either our
+alternative to direct MySQL source-source replication, consider either our
 [Cloud Databases](https://www.rackspace.com/cloud/databases/) service or a
 replication engine like [Tungsten](https://code.google.com/p/tungsten-replicator/)
 for more reliable data replication between database instances.
 
-### MySQL Master-Master Replication
+### MySQL Source-Source replication
 
 This article shows you how to set up
-[MySQL Master-Master database replication](https://dev.mysql.com/doc/refman/5.6/en/mysql-cluster-replication-multi-master.html)
-between two Cloud Servers. Master-Master data replication enables replicated
+[Cluster Replication: Bidrectional and Circular Replication](https://dev.mysql.com/doc/refman/5.6/en/mysql-cluster-replication-multi-source.html)
+between two Cloud Servers. Source-Source data replication enables replicated
 data, stored on multiple computers, to be updated by any authorized contributing
 member of the group. This enables more open collaboration than
-[Master-Slave replication](/support/how-to/set-up-mysql-master-slave-replication) where
+[source-replica replication](/support/how-to/set-up-mysql-source-replica-replication) where
 any needed changes identified by a group member must to be submitted to the
-designated "master" of the node.
+designated source of the node.
 
 This tutorial uses the Debian 5 (Lenny) operating sytem, built from the Rackspace
 Cloud base image.
@@ -96,13 +96,13 @@ brackets to apply to your specific configuration.
 
 - Now, create the replication user, which is used to synchronize the changes.
 
-        mysql> grant replication slave on \*.\* to slaveuser@'[private IP of debian502]' identified by '[some password]';
+        mysql> grant replication slave on \*.\* to replicauser@'[private IP of debian502]' identified by '[some password]';
         mysql> flush privileges;
         mysql> exit
 
 - Do the same for debian502.
 
-        mysql> grant replication slave on \*.\* to slaveuser@'[private IP of debian501]' identified by '[some password]';
+        mysql> grant replication slave on \*.\* to replicauser@'[private IP of debian501]' identified by '[some password]';
         mysql> flush privileges;
         mysql> exit
 

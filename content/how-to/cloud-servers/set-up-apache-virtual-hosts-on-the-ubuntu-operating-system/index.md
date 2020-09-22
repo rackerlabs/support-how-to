@@ -5,8 +5,8 @@ title: Set up Apache virtual hosts on the Ubuntu operating system
 type: article
 created_date: '2011-03-09'
 created_by: Rackspace Support
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-09-21'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -122,7 +122,7 @@ The contents looks as follows:
     <VirtualHost *:80>
 
       # Admin email, Server Name (domain name) and any aliases
-      ServerAdmin webmaster@domain1.com
+      ServerAdmin webadmin@domain1.com
       ServerName  domain1.com
       ServerAlias www.domain1.com
 
@@ -263,7 +263,7 @@ if you set up the server to contact you when errors occur. It is also
 shown in the ServerSignature if its value is set to Email. (See the
 section **Define Apache footers**.
 
-    ServerAdmin webmaster@domain.com
+    ServerAdmin webadmin@domain.com
 
 ### Set the domain name
 

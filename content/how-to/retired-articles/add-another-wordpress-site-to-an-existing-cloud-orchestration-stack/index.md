@@ -5,8 +5,8 @@ title: Add another WordPress site to an existing Cloud Orchestration stack
 type: article
 created_date: '2013-12-13'
 created_by: Jered Heeschen
-last_modified_date: '2016-05-12'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2020-09-21'
+last_modified_by: Cat Lookabaugh
 ---
 
 This article shows how to manually add another WordPress site to an existing WordPress Cloud Orchestration stack on Cloud Servers.
@@ -61,15 +61,15 @@ Adding a site to an existing stack requires changes to the configurations for mu
 
 ### Set up WordPress
 
-Now that the database is ready, you can install WordPress on the master node.
+Now that the database is ready, you can install WordPress on the primary node.
 
-1. From the stack's detail page, click the link for the "master" server.
+1. From the stack's detail page, click the link for the primary server.
 
-  On the master server's detail page, you will find the PublicNet IP address in the Networks section.
+  On the primary server's detail page, you will find the PublicNet IP address in the Networks section.
 
 2. Use the IP address and private key to connect to the server via `ssh`.
 
-        ssh user@<ip_address_of_master_server> -i /path/to/key
+        ssh user@<ip_address_of_primary_server> -i /path/to/key
 
 3. Use `wget` to download the latest WordPress tarball.
 
@@ -179,7 +179,7 @@ Now you should make some changes to the system to accommodate the new WordPress 
 
         sudo useradd -M -d /var/www/vhosts/blogsrock.rackspace.com -p 'mystrongpassword' -s '/bin/bash' -U -G www-data wp_user2
 
-2. Set up a new SSH key-pair for `lsyncd` connections between the master and back end nodes in the new user's `.ssh` directory.
+2. Set up a new SSH key-pair for `lsyncd` connections between the primary and back end nodes in the new user's `.ssh` directory.
 
         cd .ssh
         sudo ssh-keygen -f id_rsa.lsyncd
@@ -255,7 +255,7 @@ Just like for Apache, you need to copy the existing site's varnish configuration
 
 ### Set up lsyncd
 
-Now you need to add the new site to your lsyncd configuration so that the master server knows to push content for the new site to the slave servers.
+Now you need to add the new site to your lsyncd configuration so that the primary server knows to push content for the new site to the replica servers.
 
 1. Change to the lsyncd configuration directory.
 
@@ -267,9 +267,9 @@ Now you need to add the new site to your lsyncd configuration so that the master
 
    **Note:** Replace `nano` in that command with your text editor of choice.
 
-3. For each slave server in the WordPress stack, make a new `sync` section, changing the `source` value to match the new site, the `target` value to match the new system user, and changing the directory reference in the `excludeFrom` value.
+3. For each replica server in the WordPress stack, make a new `sync` section, changing the `source` value to match the new site, the `target` value to match the new system user, and changing the directory reference in the `excludeFrom` value.
 
-  The **lsync.conf.lua** file consists of a `settings` section followed by one or more `sync` sections, one for each slave site. Since our example stack only has one slave, we only have to add one new `sync` section.  You can copy the existing `sync` section then modify the directory references and username in the new section to match the new site.
+  The **lsync.conf.lua** file consists of a `settings` section followed by one or more `sync` sections, one for each replica site. Since our example stack only has one replica, we only have to add one new `sync` section.  You can copy the existing `sync` section then modify the directory references and username in the new section to match the new site.
 
   For our example site, the edited file looks like this:
 
@@ -282,21 +282,21 @@ Now you need to add the new site to your lsyncd configuration so that the master
           sync{
                 default.rsync,
                 source="/var/www/vhosts/iloveblog.rackspace.com/http_docs",
-                target="wp_user@<slave_node_ip_address>:/var/www/vhosts/iloveblog.rackspace.com/http_docs",
+                target="wp_user@<replica_node_ip_address>:/var/www/vhosts/iloveblog.rackspace.com/http_docs",
                 excludeFrom="/etc/lsyncd/lsyncd.exclude",
                 rsyncOps={"-rlpgoDvz", "-e", "/usr/bin/ssh -i /var/www/vhosts/iloveblog.rackspace.com/.ssh/id_rsa.lsyncd -o StrictHostKeyChecking=no"}
           }
           sync{
                 default.rsync,
                 source="/var/www/vhosts/blogsrock.rackspace.com/http_docs",
-                target="wp_user2@<slave_node_ip_address>:/var/www/vhosts/blogsrock.rackspace.com/http_docs",
+                target="wp_user2@<replica_node_ip_address>:/var/www/vhosts/blogsrock.rackspace.com/http_docs",
                 excludeFrom="/etc/lsyncd/lsyncd.exclude",
                 rsyncOps={"-rlpgoDvz", "-e", "/usr/bin/ssh -i /var/www/vhosts/blogsrock.rackspace.com/.ssh/id_rsa.lsyncd -o StrictHostKeyChecking=no"}
           }
 
-### Set up the slave node
+### Set up the replica node
 
-Next, you need to create the new user on each slave node in order to prepare for the new site. To do this, you must set up the stack's SSH key (the one you used to log in to each node) on the master server and use `pssh` to make the process faster.
+Next, you need to create the new user on each replica node in order to prepare for the new site. To do this, you must set up the stack's SSH key (the one you used to log in to each node) on the primary server and use `pssh` to make the process faster.
 
 1. If you aren't already on the root account, switch to a root shell to execute privileged commands and use root's SSH keys.
 
@@ -316,57 +316,57 @@ Next, you need to create the new user on each slave node in order to prepare for
 
         chmod 600 ~/.ssh/id_rsa
 
-5.  Install `pssh` on the master server.
+5.  Install `pssh` on the primary server.
 
         apt-get update
         apt-get install pssh
 
-6. Run `pssh` to add the new user to each slave server.
+6. Run `pssh` to add the new user to each replica server.
 
-   Note that the `-H` flag here is only used once, but you should repeat it for each additional slave node you have.
+   Note that the `-H` flag here is only used once, but you should repeat it for each additional replica node you have.
 
-        parallel-ssh -P -H <ip_address_of_slave_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" useradd -M -d /var/www/vhosts/blogsrock.rackspace.com -p 'mystrongpassword' -s '/bin/bash' -U -G www-data wp_user2
+        parallel-ssh -P -H <ip_address_of_replica_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" useradd -M -d /var/www/vhosts/blogsrock.rackspace.com -p 'mystrongpassword' -s '/bin/bash' -U -G www-data wp_user2
 
-   You should see `pssh` report `SUCCESS` for each slave node.
+   You should see `pssh` report `SUCCESS` for each replica node.
 
-7. Run an `id` command through `pssh` to verify the user creation on each slave node, again adding `-H` flags for each additional slave node.
+7. Run an `id` command through `pssh` to verify the user creation on each replica node, again adding `-H` flags for each additional replica node.
 
-        parallel-ssh -P -H <ip_address_of_slave_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" id wp_user2
+        parallel-ssh -P -H <ip_address_of_replica_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" id wp_user2
 
-  You should see something similar to the following from each slave node:
+  You should see something similar to the following from each replica node:
 
         uid=1001(wp_user2) gid=1001(wp_user2) groups=1001(wp_user2),33(www-data)
 
-8. Copy the new site's content from the master server to each slave server using `rsync`.
+8. Copy the new site's content from the primary server to each replica server using `rsync`.
 
-        rsync -avz -e ssh /var/www/vhosts/blogsrock.rackspace.com root@<slave_node_ip>:/var/www/vhosts
+        rsync -avz -e ssh /var/www/vhosts/blogsrock.rackspace.com root@<replica_node_ip>:/var/www/vhosts
 
-  Repeat the `rsync` for each slave node in your stack.
+  Repeat the `rsync` for each replica node in your stack.
 
-9.  Copy the Apache and Varnish configuration files to the slave nodes.
+9.  Copy the Apache and Varnish configuration files to the replica nodes.
 
-  To make things easier, use a loop with the `parallel-scp` command (part of the `pssh` package). Add extra `-H` flags for each additional slave node.
+  To make things easier, use a loop with the `parallel-scp` command (part of the `pssh` package). Add extra `-H` flags for each additional replica node.
 
-        for file in /etc/apache2/sites-available/blogsrock.rackspace.com.conf /etc/varnish/include/blogsrock.rackspace.com_.vcl; do parallel-scp -H <ip_address_of_slave_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" $file $file; done
+        for file in /etc/apache2/sites-available/blogsrock.rackspace.com.conf /etc/varnish/include/blogsrock.rackspace.com_.vcl; do parallel-scp -H <ip_address_of_replica_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" $file $file; done
 
 ### Final steps
 
 Now you can finally start putting everything together and run the new site.
 
-1. Restart `lsyncd` on the master node in order to start syncing content for the new site to the slaves.
+1. Restart `lsyncd` on the primary node in order to start syncing content for the new site to the replicas.
 
         service lsyncd restart
 
-2. Enable the new site's Apache configuration on the master server and slave nodes.
+2. Enable the new site's Apache configuration on the primary server and replica nodes.
 
-        parallel-ssh -i -H <ip_address_of_slave_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" /usr/sbin/a2ensite blogsrock.rackspace.com.conf; /usr/sbin/a2ensite blogsrock.rackspace.com.conf
+        parallel-ssh -i -H <ip_address_of_replica_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" /usr/sbin/a2ensite blogsrock.rackspace.com.conf; /usr/sbin/a2ensite blogsrock.rackspace.com.conf
 
-3. Reload Apache's configuration on the master server and slave nodes.
+3. Reload Apache's configuration on the primary server and replica nodes.
 
-        parallel-ssh -i -H <ip_address_of_slave_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" service apache2 reload; service apache2 reload
+        parallel-ssh -i -H <ip_address_of_replica_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" service apache2 reload; service apache2 reload
 
-4. Reload Varnish's configuration on the master server and slave nodes.
+4. Reload Varnish's configuration on the primary server and replica nodes.
 
-        parallel-ssh -i -H <ip_address_of_slave_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" service varnish reload; service varnish reload
+        parallel-ssh -i -H <ip_address_of_replica_node> -x "-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o GlobalKnownHostsFile=/dev/null" service varnish reload; service varnish reload
 
 Your new WordPress site should now be online.

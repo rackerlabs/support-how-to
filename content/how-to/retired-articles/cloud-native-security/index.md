@@ -5,8 +5,8 @@ title: Rackspace Cloud Native Security
 type: article
 created_date: '2019-08-19'
 created_by: Toby Dillman
-last_modified_date: '2019-08-28'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-09-21'
+last_modified_by: Cat Lookabaugh
 ---
 
 <!-- retired per PM instruction -->
@@ -40,9 +40,9 @@ services which emit findings.
 ### Deployment and Configuration
 
 Every customer will have a dedicated AWS account to be used as Security Hub
-master and GuardDuty master. Rackspace will enable and configure Security
-Hub and GuardDuty on the master account and all other accounts that are in
-scope, including configuration of the master-member relationship.
+primary and GuardDuty primary. Rackspace will enable and configure Security
+Hub and GuardDuty on the primary account and all other accounts that are in
+scope, including configuration of the primary-member relationship.
 
 Security Hub will be configured to ingest security findings from GuardDuty. It
 will also be configured to deliver the events to the Rackspace SIEM (Security
