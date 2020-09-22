@@ -36,26 +36,26 @@ The Managed Operations service level supports the following operating systems fo
 
 The Managed Operations service level supports the following types of web servers:
 
-|    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
-| --- | --- | --- | --- | --- | --- |
-| [**Apache**](https://httpd.apache.org/) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
-| [**lighttpd**](https://www.lighttpd.net) | **Yes** | No | No | **Yes** | **Yes** |
-| [**NGINX**](https://nginx.net) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
+|                                          | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
+| ---------------------------------------- | ---------------- | ----------------- | ------------------- | -------------- | ------------ |
+| [**Apache**](https://httpd.apache.org/)  | **Yes**          | **Yes**           | **Yes**             | **Yes**        | **Yes**      |
+| [**lighttpd**](https://www.lighttpd.net) | **Yes**          | No                | No                  | **Yes**        | **Yes**      |
+| [**NGINX**](https://nginx.net)           | **Yes**          | **Yes**           | **Yes**             | **Yes**        | **Yes**      |
 
 ### Database Servers
 
 The Managed Operations service level supports the following types of database servers:
 
-|    | **Installation** | **Configuration** | **Troubleshooting** | **Replication** | **Monitoring** | **Patching** | **Backup** |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [**MySQL/**](https://www.mysql.com) [**MariaDB**<sup>2</sup>](https://mariadb.org) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
-| [**Oracle**](https://www.oracle.com/us/products/database/index.html) | No | No | No | No | No | No | No |
-| [**PostgreSQL**](https://postgresql.com) | **Yes** | No | No | No | **Yes** | No | No |
-| [**MongoDB**](https://www.mongodb.org/) | **Yes** | No | No | No | No | No | No |
+|                                                                                    | **Installation** | **Configuration** | **Troubleshooting** | **Replication** | **Monitoring** | **Patching** | **Backup** |
+| ---------------------------------------------------------------------------------- | ---------------- | ----------------- | ------------------- | --------------- | -------------- | ------------ | ---------- |
+| [**MySQL/**](https://www.mysql.com) [**MariaDB**<sup>2</sup>](https://mariadb.org) | **Yes**          | **Yes**           | **Yes**             | **Yes**         | **Yes**        | **Yes**      | **Yes**    |
+| [**Oracle**](https://www.oracle.com/us/products/database/index.html)               | No               | No                | No                  | No              | No             | No           | No         |
+| [**PostgreSQL**](https://postgresql.com)                                           | **Yes**          | No                | No                  | No              | **Yes**        | No           | No         |
+| [**MongoDB**](https://www.mongodb.org/)                                            | **Yes**          | No                | No                  | No              | No             | No           | No         |
 
 <sup>1</sup>MariaDB is supported for Red Hat Enterprise Linux 7 and CentOS 7
 
-<sup>2</sup>Only Master/Slave replication is supported
+<sup>2</sup>Only Primary/Replica replication is supported
 
 ### Programming languages
 
@@ -64,51 +64,51 @@ The Managed Operations service level supports the following programming language
 **Note:** Support for programming languages is limited to installation and does not include assistance with code or add-on
 frameworks like Ruby on Rails.
 
-|   | **Installation** | **Configuration** | **Modules** | **Patching** |
-| --- | --- | --- | --- | --- |
-| [**Perl**](https://www.perl.org) | **Yes** | No | **Yes** | **Yes** |
-| [**PHP**](https://www.php.net) | **Yes** | **Yes** | **Yes** | **Yes** |
-| [**Python**](https://www.python.org) | **Yes** | **Yes** | **Yes** | **Yes** |
-| [**Ruby**](https://www.ruby-lang.org) | **Yes** | **Yes** | **Yes** | **Yes** |
+|                                       | **Installation** | **Configuration** | **Modules** | **Patching** |
+| ------------------------------------- | ---------------- | ----------------- | ----------- | ------------ |
+| [**Perl**](https://www.perl.org)      | **Yes**          | No                | **Yes**     | **Yes**      |
+| [**PHP**](https://www.php.net)        | **Yes**          | **Yes**           | **Yes**     | **Yes**      |
+| [**Python**](https://www.python.org)  | **Yes**          | **Yes**           | **Yes**     | **Yes**      |
+| [**Ruby**](https://www.ruby-lang.org) | **Yes**          | **Yes**           | **Yes**     | **Yes**      |
 
 
 ### Caching
 
 The Managed Operations service level supports the following caching tools:
 
-|    | **Installation** | **Configuration** | **Troubleshooting** | **Patching** |
-| --- | --- | --- | --- | --- |
-| [**Memcached**](https://memcached.org) | **Yes** | **Yes** | **Yes** | **Yes** |
-| [**Squid**](https://squid-cache.org) | **Yes** | No | No | **Yes** |
-| [**Varnish**](https://varnish-cache.org) | **Yes** | **Yes** | Yes | **Yes** |
+|                                          | **Installation** | **Configuration** | **Troubleshooting** | **Patching** |
+| ---------------------------------------- | ---------------- | ----------------- | ------------------- | ------------ |
+| [**Memcached**](https://memcached.org)   | **Yes**          | **Yes**           | **Yes**             | **Yes**      |
+| [**Squid**](https://squid-cache.org)     | **Yes**          | No                | No                  | **Yes**      |
+| [**Varnish**](https://varnish-cache.org) | **Yes**          | **Yes**           | Yes                 | **Yes**      |
 
 
 ### Software firewall
 
 The Managed Operations service level supports the following firewall software:
 
-|    | **Installation** | **Configuration** | **Troubleshooting** |
-| --- | --- | --- | --- |
-| [**iptables**](https://www.netfilter.org/projects/iptables/) | **Yes** | **Yes** | **Yes** |
-| [**UBUNTU operating system ufw**](https://wiki.ubuntu.com/UncomplicatedFirewall) | **Yes** | **Yes** | **Yes** |
+|                                                                                  | **Installation** | **Configuration** | **Troubleshooting** |
+| -------------------------------------------------------------------------------- | ---------------- | ----------------- | ------------------- |
+| [**iptables**](https://www.netfilter.org/projects/iptables/)                     | **Yes**          | **Yes**           | **Yes**             |
+| [**UBUNTU operating system ufw**](https://wiki.ubuntu.com/UncomplicatedFirewall) | **Yes**          | **Yes**           | **Yes**             |
 
 
 ### FTP
 
 The Managed Operations service level supports the following FTP tool:
 
-|    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
-| --- | --- | --- | --- | --- | --- |
-| [**vsftpd**](https://security.appspot.com/vsftpd.html) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
+|                                                        | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
+| ------------------------------------------------------ | ---------------- | ----------------- | ------------------- | -------------- | ------------ |
+| [**vsftpd**](https://security.appspot.com/vsftpd.html) | **Yes**          | **Yes**           | **Yes**             | **Yes**        | **Yes**      |
 
 
 ### SMTP
 
 The Managed Operations service supports the following SMTP tool:
 
-|    | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
-| --- | --- | --- | --- | --- | --- |
-| [**Postfix, outgoing only**](https://www.postfix.org/) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
+|                                                        | **Installation** | **Configuration** | **Troubleshooting** | **Monitoring** | **Patching** |
+| ------------------------------------------------------ | ---------------- | ----------------- | ------------------- | -------------- | ------------ |
+| [**Postfix, outgoing only**](https://www.postfix.org/) | **Yes**          | **Yes**           | **Yes**             | **Yes**        | **Yes**      |
 
 
 ### Other packages

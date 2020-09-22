@@ -5,8 +5,8 @@ title: Scheduled backups for Cloud Databases
 type: article
 created_date: '2015-11-02'
 created_by: Rackspace Support
-last_modified_date: '2018-10-23'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-09-17'
+last_modified_by: Cat Lookabaugh
 product: Cloud Databases
 product_url: cloud-databases
 ---
@@ -15,7 +15,7 @@ Scheduled backups for Cloud Databases enable you to schedule periodic
 backups of your single instances, including replica sets and high
 availability (HA) instance groups.
 
-You can schedule a backup of either the source or the replica of a replica
+You can schedule a backup of either the primary source or the replica of a replica
 set, but they act more like standalone instances. When you schedule a backup
 on an HA instance group, HA chooses the most up-to-date replica to run the
 backup.
@@ -40,7 +40,7 @@ Scheduled backups provide the following features:
 - Incremental backups are performed daily, except for the day of the full
   backup.
 - Automated backups for HA instance groups use the HA instance ID as a
-  reference, and the backup process uses the most up-to-date slave node as a
+  reference, and the backup process uses the most up-to-date replica node as a
   source.
 - You define the number of full, automated backups to retain.
 - You can run the backup process immediately through the client or the API by
@@ -155,27 +155,27 @@ Reference](https://docs.rackspace.com/docs/cloud-databases/v1/api-reference/auto
 The following table provides a brief overview of the scheduled backup API
 operations:
 
-Name | Method | URI  | Description
---- | --- | --- | ---
-Create scheduled backup | `POST` | `/{version}/{accountId}/schedules` | Creates a schedule for running a backup periodically for a single instance or an HA group.
-List scheduled backups  | `GET` | `/{version}/{accountId}/schedules` | Lists all of the scheduled backups for the specified account.
-Show scheduled backup details | `GET`  |`/{version}/{accountId}/schedules/{scheduleId}`| Shows the details for the specified scheduled backup.
-Update scheduled backup | `PUT`  |`/{version}/{accountId}/schedules/{scheduleId}`| Updates the specified scheduled backup.
-Delete scheduled backup |`DELETE`|`/{version}/{accountId}/schedules/{scheduleId}`| Deletes the specified scheduled backup.                                                        
+| Name                          | Method   | URI                                             | Description                                                                                |
+| ----------------------------- | -------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Create scheduled backup       | `POST`   | `/{version}/{accountId}/schedules`              | Creates a schedule for running a backup periodically for a single instance or an HA group. |
+| List scheduled backups        | `GET`    | `/{version}/{accountId}/schedules`              | Lists all of the scheduled backups for the specified account.                              |
+| Show scheduled backup details | `GET`    | `/{version}/{accountId}/schedules/{scheduleId}` | Shows the details for the specified scheduled backup.                                      |
+| Update scheduled backup       | `PUT`    | `/{version}/{accountId}/schedules/{scheduleId}` | Updates the specified scheduled backup.                                                    |
+| Delete scheduled backup       | `DELETE` | `/{version}/{accountId}/schedules/{scheduleId}` | Deletes the specified scheduled backup.                                                    |
 
 The following table lists the required and optional attributes for these
 operations:
 
-Attribute name | Description | Required?
-----|----|----
-`action` | The scheduled action: `backup`. | Yes
-`day_of_week` | The day of the week. Sunday is 0. | Yes
-`hour` | The hour of the day. Midnight is 0. | Yes
-`minute` | The minute of the hour. | Yes  
-`instance_id` | The ID of the database instance to back up. | Yes  
-`source_id` | The ID of the database instance or HA group to back up. | No  
-`source_type` | The type of backup for the given `source_id`. (`instance` or `ha`. Defaults to `instance`.) | No  
-`full_backup_retention` | The number of full automated backups to keep. | No
+| Attribute name          | Description                                                                                 | Required? |
+| ----------------------- | ------------------------------------------------------------------------------------------- | --------- |
+| `action`                | The scheduled action: `backup`.                                                             | Yes       |
+| `day_of_week`           | The day of the week. Sunday is 0.                                                           | Yes       |
+| `hour`                  | The hour of the day. Midnight is 0.                                                         | Yes       |
+| `minute`                | The minute of the hour.                                                                     | Yes       |
+| `instance_id`           | The ID of the database instance to back up.                                                 | Yes       |
+| `source_id`             | The ID of the database instance or HA group to back up.                                     | No        |
+| `source_type`           | The type of backup for the given `source_id`. (`instance` or `ha`. Defaults to `instance`.) | No        |
+| `full_backup_retention` | The number of full automated backups to keep.                                               | No        |
 
 **Note:** The `instance_id` field is deprecated. You can still use this field
 when you are providing a single instance ID to create a schedule. HA instance
@@ -221,10 +221,10 @@ charged for the Cloud Files storage that they use as long as they exist.
 
 For HA groups, the backup schedule applies to the entire HA group and backups
 are performed against the most up-to-date replica. If a replica set setup is
-converted to an HA group and either the master or slave nodes have scheduled
+converted to an HA group and either the primary or replica nodes have scheduled
 backups enabled, the resulting HA group also has a schedule enabled with the
-same time settings as the master or first slave node's schedule. The individual
-schedules for the master and slave nodes themselves are then deleted.
+same time settings as the primary or first replica node's schedule. The individual
+schedules for the primary and replica nodes themselves are then deleted.
 
 ### Limitations
 

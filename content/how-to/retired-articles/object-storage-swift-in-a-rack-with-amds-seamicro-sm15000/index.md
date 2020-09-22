@@ -5,8 +5,8 @@ title: "Object Storage (Swift) in a Rack with AMD's SeaMicro SM15000"
 type: article
 created_date: '2013-01-24'
 created_by: Alyssa Hurtgen
-last_modified_date: '2013-06-23'
-last_modified_by: Rose Contreras
+last_modified_date: '2020-09-21'
+last_modified_by: Cat Lookabaugh
 ---
 
 ### Overview
@@ -126,12 +126,12 @@ architecture will have:
     storage nodes with room for two failures. This ratio has proven
     effective in production environments. Each proxy should be
     configured with:
-    -   One bound interface with two slaves for outside connectivity.
-    -   One bound interface with six slaves to handle the multiplied
+    -   One bound interface with two replicas for outside connectivity.
+    -   One bound interface with six replicas to handle the multiplied
         traffic to the storage nodes.
 -   48 storage nodes with:
     -   16 4 TB volumes will provide the 3 PB of required storage.
-    -   One bound interface with eight slaves since all traffic will be
+    -   One bound interface with eight replicas since all traffic will be
         routed through the fabric.
 
 

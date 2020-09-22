@@ -5,13 +5,13 @@ title: Scale a multinode WordPress stack by using Rackspace Orchestration
 type: article
 created_date: '2013-11-12'
 created_by: Rackspace Support
-last_modified_date: '2018-10-24'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-09-17'
+last_modified_by: Cat Lookabaugh
 product: Cloud Orchestration
 product_url: cloud-orchestration
 ---
 
-This article provides instructions for adding a new server, or node, to scale a multinode WordPress environment that was created by using Rackspace Orchestration.
+This article provides instructions for adding a new server, or node, to scale a multinode WordPress environment that you created by using Rackspace Orchestration.
 
 **Note:** If you need to scale a single WordPress instance, we recommend that you create a new multinode WordPress stack and migrate your data. Many WordPress plug-ins, such as [duplicator](https://wordpress.org/plugins/duplicator/) or [WP Migrate DB](https://wordpress.org/plugins/wp-migrate-db/), can help with this process.
 
@@ -61,15 +61,15 @@ Use the following steps to prepare the new server:
 
 2. Click the **Orchestration** link at the top of the page, and return to the stack that you are scaling out.
 
-3. In the Infrastructure section of the stack's page, click the link for the master server in the list of nodes.
+3. In the Infrastructure section of the stack's page, click the link for the primary server in the list of nodes.
 
-4. From the master server's details page, find the PublicNet IP address in the Networks section, and use it to log in to the server via SSH.
+4. From the primary server's details page, find the PublicNet IP address in the Networks section, and use it to log in to the server by using SSH.
 
-   If you do not have the stack's private key, you can reset the master server's root password.
+   If you do not have the stack's private key, you can reset the primary server's root password.
 
    For help using the SSH key with your server, see the How-To articles for [Mac and Linux](/support/how-to/logging-in-with-an-ssh-private-key-on-linuxmac) or [Windows](/support/how-to/logging-in-with-an-ssh-private-key-on-windows).
 
-5. After you have logged in to the master server, change the directory to **/etc/lsyncd**, and open the **lsyncd.conf.lua** file with `nano`.
+5. After you have logged in to the primary server, change the directory to **/etc/lsyncd**, and open the **lsyncd.conf.lua** file with `nano`.
 
         cd /etc/lsyncd
         sudo nano lsyncd.conf.lua

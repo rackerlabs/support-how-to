@@ -5,7 +5,7 @@ title: Managed DNS FAQ
 type: article
 created_date: '2016-03-14'
 created_by: Nicole Hairston
-last_modified_date: '2019-03-15'
+last_modified_date: '2020-09-21'
 last_modified_by: Cat Lookabaugh
 ---
 
@@ -15,7 +15,7 @@ last_modified_by: Cat Lookabaugh
 
 The Domain Name System (DNS) is a global system by which Internet domain name-to-address and address-to-name resolutions are determined. All domains and their components, such as mail servers, use DNS to resolve to the appropriate locations. For example, DNS is used to turn **www.rackspace.com** into the computer addressable IP address **207.97.209.147**.
 
-DNS servers are usually set up in a master-slave relationship such that failure of the master invokes the slave. DNS servers might also be clustered or replicated such that changes made to one DNS server are automatically propagated to other active servers.
+DNS servers are usually set up in a primary-secondary relationship such that failure of the primary invokes the secondary. DNS servers might also be clustered or replicated such that changes made to one DNS server are automatically propagated to other active servers.
 
 #### What is Rackspace Managed DNS (Early Access)?
 
