@@ -26,12 +26,14 @@ The following example shows the basic command template for using the `systemctl`
 
 This differs from the service command use a *service (service) (command)* format, which uses commands
 such as `service httpd reload to reload the Apache service`. Using this name example under the `systemctl`
-format, the command looks like the following example for CentOS&reg;-based or Red Hat&reg; Enterprise
-Linux&reg;-based systems:
+format, the command looks like the following examples:
+
+**CentOS&reg;-based or Red Hat&reg; Enterprise Linux&reg;-based systems:**
 
     systemctl reload httpd
+    
 
-or for Ubuntu operating systems:
+**Ubuntu operating systems:**
 
     systemctl reload apache2
 
