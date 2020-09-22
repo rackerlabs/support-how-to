@@ -105,7 +105,7 @@ you want to apply to an instance.
    a. Go to the Database Instances page.
 
    b. The instances that require restart are displayed in orange. Click the gear icon next
-	   to the instance to which you just applied the configuration group, and select **Restart Instance**.
+      to the instance to which you just applied the configuration group, and select **Restart Instance**.
 
 #### Apply a configuration to an instance with the default configuration from the Instance Details page
 
@@ -236,9 +236,9 @@ Details page:
 ### Special cases - Rebuilding FULLTEXT indexes
 
 If you modify the value of any of the configuration parameters listed below, you would be
-required to rebuild indexes on all tables with FULLTEXT indexes. After you have rebuild
+required to rebuild indexes on all tables with FULLTEXT indexes. After you have rebuilt
 the index, only then will the modified value be reflected in your database. Use
-<code>REPAIR TABLE tbl_name QUICK;</code>:
+`REPAIR TABLE tbl_name QUICK`:
 
 {{< table "table  table-striped table-bordered" >}}
 |  |  |  |
