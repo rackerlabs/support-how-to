@@ -517,8 +517,8 @@
 
 /how-to/set-up-mysql-source-replica-replication  /support/how-to/set-up-mysql-source-replica-replication  301
 
-/support/how-to/set-up-mysql-primary-replica-replication  /how-to/set-up-mysql-source-replica-replication 301
-/support/how-to/set-up-mysql-master-slave-replication  /how-to/set-up-mysql-source-replica-replication 301
+/support/how-to/set-up-mysql-primary-replica-replication  /support/how-to/set-up-mysql-source-replica-replication 301
+/support/how-to/set-up-mysql-master-slave-replication  /support/how-to/set-up-mysql-source-replica-replication 301
 
 
 
