@@ -1,5 +1,5 @@
 ---
-permalink: 'troubleshoot-copy-and-paste-errors-with-remote-desktop/'
+permalink: troubleshoot-copy-and-paste-errors-with-remote-desktop/
 audit_date: '2020-06-11'
 title: 'Troubleshoot copy and paste errors with Remote Desktop'
 type: article
@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article describes how to troubleshoot copy and paste errors with Microsoft&reg; Windoes&reg; Remote Desktop. 
+This article describes how to troubleshoot copy and paste errors with Microsoft&reg; Windoes&reg; Remote Desktop.
 
 *This article applies to Windows&reg; 2008, 2012, and 2016.*
 
@@ -56,5 +56,5 @@ the **Server Manager**.
 2. Navigate to **Computer Configuration** > **Administrative Templates** > **Windows Components** > **Remote Desktop Services** > **Remote Desktop Session Host**.
 3. Ensure **Do not allow Clipboard redirection** is set to **Not Configured** or **Disabled**.
 
-After you try all these troubleshooting steps, you might need to restart the server or open the 
+After you try all these troubleshooting steps, you might need to restart the server or open the
 **Task Manager** and end the **rdpclip** process.

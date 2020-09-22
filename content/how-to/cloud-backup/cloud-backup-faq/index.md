@@ -1,11 +1,11 @@
 ---
 permalink: cloud-backup-faq/
-audit_date:
+audit_date: '2020-09-15'
 title: Cloud Backup FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2020-01-15'
+last_modified_date: '2020-09-15'
 last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
@@ -27,8 +27,8 @@ for a description.
 {{< accordion title=`Why does my backup fail with the error "Container does not exist. Invalid snapshot id and engine, and check config_backup.json id?` col="in" href="accordion2" >}}
 
 The Cloud Files container named **z_DO_NOT_DELETE_CloudBackup** is
-required for Rackspace Cloud Backup to work properly. If this container
-is deleted, you receive the error `Container does not exist.
+required for Rackspace Cloud Backup to work properly. If you delete this
+container, you receive the error `Container does not exist.
 Invalid snapshot id and engine, and check config_backup.json id` when
 you attempt to do a backup.
 
@@ -40,7 +40,7 @@ This error can have the following causes:
 
 To resolve this error, ensure that you do not delete the
 **z_DO_NOT_DELETE_CloudBackup** container in your Cloud Files account because
-it is used for backups. If you accidentally delete this container, [contact
+backups use it. If you accidentally delete this container, [contact
 Rackspace Support](https://www.rackspace.com/support).
 
 ------------------------------------------------------------------------
@@ -60,9 +60,9 @@ which is a strategy for horizontal scalability and not recommended for backup.
 
 Cloud Backup is a service that enables you to select and back up
 specific files and folders from your Cloud Server. You can schedule any
-number of backup jobs, and restore to the same system or a different
+number of backup jobs and restore to the same system or a different
 one, giving you the flexibility and power to work with your schedule and
-your data.
+data.
 
 Cloud Backup has the following key features:
 
@@ -148,11 +148,11 @@ For more information, see [Creating a Backup](/support/how-to/rackspace-cloud-ba
 {{< accordion title="What is deduplication?" col="in" href="accordion11" >}}
 
 Our block-level deduplication backs up only those portions of files
-that have changed since the previous backup. This means you don't
+that have changed since the previous backup, so you don't
 needlessly backup the same unchanged data again and again. This
-increases efficiency by reducing the amount of data that is transferred
-for each backup, and reduces your storage space by not storing duplicate
-data. An added benefit is that this capability enables you to retrieve
+increases efficiency by reducing the amount of data transferred
+for each backup and reduces your storage space by not storing duplicate
+data. As an added benefit, this capability enables you to retrieve
 previous versions of your files (up to the limits specified in your data
 retention settings).
 
@@ -162,12 +162,15 @@ in the list of Cloud Backup actions.
 
 {{< accordion title="Can I use Cloud Backup on my server?" col="in" href="accordion12" >}}
 
-You can use Cloud Backup on virtually any server in the
-Rackspace Cloud. Some exceptions are FreeBSD&reg; 9, Debian&reg; 5, and Windows&reg;
-2003.
+You can use Cloud Backup on Linux and Windows in the Rackspace Cloud. Some exceptions are
+FreeBSD&reg; 9, Debian&reg; 5, and Windows&reg; 2003.
 
-**Note**: If you have servers that are not in the Rackspace Cloud that are running operating
-systems that are supported by Rackspace, the following installer links for more details.
+You can also use Cloud Backup on Linux and Windows servers external to Rackspace Cloud,
+including most servers connected to the public internet, such as personal laptops,
+servers located on your company's premeses, and servers hosted by other cloud providers.
+
+**Note**: If you have servers that are not in the Rackspace Cloud but run operating
+systems supported by Rackspace, see the following installer links for more details.
 
 Before you can use Cloud Backup, you must have the backup agent installed and
 running on your cloud server. Cloud servers with a Managed Operations service
@@ -246,21 +249,21 @@ The following three types of files change as Cloud Backup backs them up:
 3.  Files such as databases that might have random updates to any part of
     them as we back them up.
 
-If files are modified during backup, they might be handled in the following
+If the backup modifies these files, the process might handle them in the following
 ways:
 
 1.  **Overwritten or deleted**: These files are not guaranteed to be included in
     the backup.
-2.  **Appended**: We make a best effort to back these up, but we expect
-    to be able to restore a reasonable and usable form of these files.
+2.  **Appended**: We make a best effort to back these up, and we expect
+    to restore a reasonable and usable form of these files.
 3.  **Randomly updated**: We do not guarantee that these files
-    are restorable, and even if they are restored, we do not
-    guarantee that what is restored is not corrupt.
+    are restorable, and even if we can restore them, we do not
+    guarantee that the restored content is not corrupt.
 
 These file types either change too rapidly (databases, logs, caches) or
-don't exist long enough to be backed up (session files). Session files
-should be avoided entirely. If the information is valuable to your
-business, log files should track it. Caches should also be avoided, as
+don't exist long enough to be backed up (session files). You should avoid
+session files entirely. If the information is valuable to your
+business, log files should track it. You should also avoid caches because
 their data is meant to be discarded.
 
 If you do need to back up these files, we suggest the following workarounds:
@@ -281,5 +284,29 @@ our API server on port 443.
 {{< accordion title="Can Cloud Backup restore files across data centers?" col="in" href="accordion20" >}}
 
 This functionality is not officially supported, but it is physically possible
-to do it. See the following link for more information on [cross-DC restore hacks](/support/how-to/performing-cross-dc-restores-and-backups/).
+to do it. See [cross-DC restore hacks](/support/how-to/performing-cross-dc-restores-and-backups/)
+for more information.
 {{< /accordion >}}
+
+
+{{< accordion title="Where my backup-related files?" col="in" href="accordion21" >}}
+
+For Linux, find them here:
+
+-   **Configuration files**: **/etc/driveclient**
+-   **Logs**: **/var/log** (This value might be different on your server,
+    depending on your settings in the **log4cxx.xml** file.)
+-   **Startup script**: **/etc/init.d** or **/etc/systemd/system**
+-   **Application**: **/usr/local/bin**
+-   **Process Identification (PID) file for running the agent**:
+    **/var/run/driveclient.pid**
+-   **Database**: Search for a **\*.db** file under **/var/cache/driveclient**.
+
+For Windows, typically find them here:
+
+-   **Configuration files**: **%ProgramData%\\Driveclient**
+-   **Logs**: **%ProgramData%\\Driveclient\\logs** (This value might be different
+    on your server, depending on your settings in the **log4cxx.xml** file
+    under **Configuration files**.)
+-   **Application**: **%ProgramFiles%\\Driveclient**
+-   **Database**: Search for a **\*.db** file under **%ProgramData%\\Driveclient**.
