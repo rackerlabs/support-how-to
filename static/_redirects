@@ -508,7 +508,7 @@
 
 #Individual Redirects
 
-/support/how-to/sign-up-for-rackspace-services/  /how-to/sign-up-for-rackspace-services/ 302
+/support/how-to/sign-up-for-rackspace-services/  /how-to/sign-up-for-rackspace-services/ 200
 
 /support/how-to/mysql-replication-masterslave/  /how-to/configure-mysql-source-replica-replication 302
 /support/how-to/mysql-master-master-replication  /how-to/configure-mysql-source-source-replication 302
