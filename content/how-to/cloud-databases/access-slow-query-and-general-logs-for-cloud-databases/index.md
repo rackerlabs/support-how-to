@@ -57,8 +57,8 @@ To enable the logging of slow queries:
 
 | Parameter name  | Suggested value | Description |
 | --- | --- | --- |
-| `<code>log_output</code>`    |   `<code>'TABLE'</code>`   |   Tells MySQL to write logs to a table |
-| slow_query_log    |   1   |   Enables the slow query log |
+| `log_output`    |   `'TABLE'`   |   Tells MySQL to write logs to a table |
+| `slow_query_log`    |   1   |   Enables the slow query log |
 
 For example, to create a new configuration group with trove that enables slow query logging, run:
 
@@ -68,8 +68,8 @@ For example, to create a new configuration group with trove that enables slow qu
 
 | Parameter name  | Suggested value | Description |
 | --- | --- | --- |
-| long_query_time | 0 or more | The duration of a query to be logged as slow, in seconds. The default is 10 seconds. |
-| log_queries_not_using_indexes | 0 or 1 | Queries that don't use an index, or that perform a full index scan where the index doesn't limit the number of rows, are logged to the slow query log (regardless of the time taken). You need to enable the slow query log for this to have an effect. |
+| `long_query_time` | 0 or more | The duration of a query to be logged as slow, in seconds. The default is 10 seconds. |
+| `log_queries_not_using_indexes` | 0 or 1 | Queries that don't use an index, or that perform a full index scan where the index doesn't limit the number of rows, are logged to the slow query log (regardless of the time taken). You need to enable the slow query log for this to have an effect. |
 
 For example, run the following command to add parameters to the configuration group created in the previous
 step that set the slow query duration to 15 seconds and cause logs to be deleted after one day:
@@ -107,7 +107,7 @@ log](https://dev.mysql.com/doc/refman/5.6/en/query-log.html).
 
 | Parameter name  | Suggested value | Description |
 | --- | --- | --- |
-| `<code>log_output</code>` | `<code>'TABLE'</code>` | Tells MySQL to write logs to a table |
+| `log_output` | `'TABLE'` | Tells MySQL to write logs to a table |
 
 For example, to create a new configuration group with `trove` that enables general query logging, run:
 
