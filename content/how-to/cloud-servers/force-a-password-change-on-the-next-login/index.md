@@ -1,23 +1,23 @@
 ---
-permalink: force-password-change-upon-next-login/
-audit_date:
-title: Force Password Change Upon Next Login
+permalink: force-a-password-change-on-the-next-login/
+audit_date: '2020-09-22'
+title: Force a password change on the next login
 type: article
 created_date: '2020-09-18'
 created_by: James Andrade
-last_modified_date:
-last_modified_by:
+last_modified_date: '2020-09-22'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-# How to Force Password Change Upon Next Login
+This article describes how to make users change their password on their next login.
 
-In this article, we will show how to make a user change their password upon next login.
+You can do this by using either the `chage` (change age) or `passwd` (password) command.
 
-There are two ways to do this:
+### chage
 
-Using chage.
+The following example demonstrates creating a user and using the `chage` command to force a password change:
 
 ```
 Create user:
@@ -41,7 +41,9 @@ Retype new password:
 [testuser1@localhost ~]$ 
 ```
 
-Using passwd.
+### passwd
+
+The following example demonstrates creating a user and using only the `passwd` command to force a password change:
 
 ```
 Create user:
@@ -67,4 +69,4 @@ Retype new password:
 [testuser2@localhost ~]$ 
 ```
 
-As you can see, forcing the user to change their password upon next login is pretty simple! Hope this helps!
+Either option forcing users to change their password the next time they log in.
