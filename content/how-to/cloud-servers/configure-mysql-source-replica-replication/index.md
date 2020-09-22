@@ -1,6 +1,6 @@
 ---
 permalink: configure-mysql-source-replica-replication/
-audit_date:
+audit_date: '2011-03-16'
 title: 'Configure MySQL source-replica replication'
 type: article
 created_date: '2011-03-16'
