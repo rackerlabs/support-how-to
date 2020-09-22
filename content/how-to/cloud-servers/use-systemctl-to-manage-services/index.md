@@ -33,6 +33,7 @@ format, the command looks like the following examples:
     systemctl reload httpd
     
 <br>
+
 **Ubuntu operating systems:**
 
     systemctl reload apache2
