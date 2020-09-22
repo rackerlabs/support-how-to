@@ -509,10 +509,17 @@
 #Individual Redirects
 
 /support/how-to/sign-up-for-rackspace-services/  /how-to/sign-up-for-rackspace-services/ 200
-/support/how-to/mysql-replication-masterslave/  /how-to/configure-mysql-source-replica-replication 301
-/support/how-to/mysql-master-master-replication  /how-to/configure-mysql-source-source-replication 301
-/support/how-to/set-up-mysql-primary-replica-replication  /how-to/set-up-mysql-source-replica-replication 301
-/support/how-to/set-up-mysql-master-slave-replication  /how-to/set-up-mysql-source-replica-replication 301
+
+/support/how-to/mysql-replication-masterslave/  /how-to/configure-mysql-source-replica-replication 200
+/support/how-to/mysql-master-master-replication  /how-to/configure-mysql-source-source-replication 200
+
+/how-to/configure-mysql-source-source-replication  /support/how-to/configure-mysql-source-source-replication  301
+
+/support/how-to/set-up-mysql-primary-replica-replication  /how-to/set-up-mysql-source-replica-replication 200
+/support/how-to/set-up-mysql-master-slave-replication  /how-to/set-up-mysql-source-replica-replication 200
+
+/how-to/set-up-mysql-source-replica-replication  /support/how-to/set-up-mysql-source-replica-replication  301
+
 
 # Main Redirects
 
