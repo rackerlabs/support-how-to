@@ -69,9 +69,9 @@ contentLoaded().then(() => {
           }
         },
       }),
-      instantsearch.widgets.pagination({
-        container: '#pagination',
-      }),
+      // instantsearch.widgets.pagination({
+      //   container: '#pagination',
+      // }),
     ]);
     search.start();
   } catch (err) {
