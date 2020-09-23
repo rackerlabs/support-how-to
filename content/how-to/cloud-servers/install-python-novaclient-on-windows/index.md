@@ -1,12 +1,12 @@
 ---
 permalink: install-python-novaclient-on-windows/
-audit_date:
+audit_date: '2020-90-23'
 title: Install python-novaclient on Windows
 type: article
 created_date: '2012-07-23'
 created_by: Jered Heeschen
-last_modified_date: '2018-10-26'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2020-09-23'
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -21,7 +21,7 @@ manage Cloud Servers. If you're running a script or program, you can use the
 [Cloud Servers API](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/),
 but that involves some coding effort.
 
-If you want to manage your servers from the command line without dealing directly with the
+If you want to manage your servers from the command line and not deal directly with the
 API you can use an open-source client application called [python-novaclient](https://pypi.python.org/pypi/python-novaclient/).
 
 **Note**: The nova client is not maintained by Rackspace and should be considered software
@@ -30,7 +30,7 @@ in development.
 ### Prerequisites
 
 To run python-novaclient, you'll need python 2.6 or later installed on your system.  You can
-run the client from either a desktop machine or from a remote system, like a Cloud Server.
+run the client from either a desktop computer or from a remote system, like a Cloud Server.
 
 The python installation needs to have the "setuptools" package installed as well. This
 is installed with a python distribution like
@@ -42,10 +42,10 @@ and password.
 
 ### Install ActiveState ActivePython on Windows
 
-If you don't already have a python installation on your Windows system, download
+If you don't have a python installation on your Windows system, download
 and install the community (free) version of ActiveState ActivePython.
 
-You can download the installer from [their website](https://www.activestate.com/activepython/downloads).
+You can download the installer [here](https://www.activestate.com/activepython/downloads).
 
 After downloading, run the installer.
 
@@ -155,7 +155,7 @@ Each variable set requires the following names and values.
 </table>
 
 After you've set all seven environment variables, "OK" your way back out of those
-windows.  Note that any command windows you already have open won't reflect the
+windows.  Note that any command windows you already have open will fail to reflect the
 changes to your environment variables.
 
 ### Test the client
@@ -170,7 +170,7 @@ To see if you can talk to the API server, run the following command at the comma
     nova image-list
 
 If the command is successful, the system provides a list of the images available
-to you for creating a server.
+to create a server.
 
 ### View the command list
 
