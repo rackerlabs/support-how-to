@@ -19,6 +19,7 @@
 {{- else -}}
 <meta name="robots" content="noindex, nofollow" />
 {{- end -}}
+<meta name="google-site-verification" content="NzupxPrG-13nt5r02YyMoqdVRcwCM4Ccir8VWoDqBgU" />
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/algolia-min.css" integrity="sha256-HB49n/BZjuqiCtQQf49OdZn63XuKFaxcIHWf0HNKte8=" crossorigin="anonymous">
@@ -39,32 +40,6 @@
 {{- end -}}
 {{/* TODO: canonical + multilingual meta */}}
 
-{{- if eq (getenv "HUGO_ENV") "production" | or (eq $.Site.Params.env "production") -}}
-<!-- Begin Inspectlet Asynchronous Code -->
-<script type="text/javascript">
-  (function () {
-    window.__insp = window.__insp || [];
-    __insp.push(['wid', 669564344]);
-    var ldinsp = function () {
-      if (typeof window.__inspld != "undefined") return;
-      window.__inspld = 1;
-      var insp = document.createElement('script');
-      insp.type = 'text/javascript';
-      insp.async = true;
-      insp.id = "inspsync";
-      insp.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-        '://cdn.inspectlet.com/inspectlet.js?wid=669564344&r=' + Math.floor(new Date().getTime() / 3600000);
-      var x = document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(insp, x);
-    };
-    setTimeout(ldinsp, 0);
-  })();
-</script>
-<!-- End Inspectlet Asynchronous Code -->
-{{- end -}}
-<script>
-  var featureFlagContent = {};
-</script>
 <!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
 <script type='text/javascript'>
   (function(){var g=function(e,h,f,g){

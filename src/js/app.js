@@ -8,6 +8,52 @@ contentLoaded().then(() => {
    * Enable search
    */
   try {
+    let lastRenderArgs;
+
+const infiniteHits = instantsearch.connectors.connectInfiniteHits(
+  (renderArgs, isFirstRender) => {
+    const { hits, showMore, widgetParams } = renderArgs;
+    const { container } = widgetParams;
+
+    lastRenderArgs = renderArgs;
+
+    if (isFirstRender) {
+      const sentinel = document.createElement('div');
+      container.appendChild(document.createElement('ul'));
+      container.appendChild(sentinel);
+
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && !lastRenderArgs.isLastPage) {
+            showMore();
+          }
+        });
+      });
+
+      observer.observe(sentinel);
+
+      return;
+    }
+
+    container.querySelector('ul').innerHTML = hits
+      .map(
+        hit =>
+          `<li>
+            <div class="ais-Hits-item">
+              <header class="hit-name">
+                ${instantsearch.highlight({ attribute: 'name', hit })}
+              </header>
+              <img src="${hit.image}" align="left" />
+              <p class="hit-description">
+                ${instantsearch.highlight({ attribute: 'description', hit })}
+              </p>
+              <p class="hit-price">$${hit.price}</p>
+            </div>
+          </li>`
+      )
+      .join('');
+  }
+);
     const search = instantsearch({
       indexName: ALGOLIA_SUPPORT_INDEX,
       searchClient: algoliasearch(ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY),
@@ -69,9 +115,9 @@ contentLoaded().then(() => {
           }
         },
       }),
-      // instantsearch.widgets.pagination({
-      //   container: '#pagination',
-      // }),
+      instantsearch.widgets.pagination({
+        container: '#pagination',
+      }),
     ]);
     search.start();
   } catch (err) {
