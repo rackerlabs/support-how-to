@@ -1,36 +1,38 @@
 ---
 permalink: schedule-reboots-in-ubuntu/
-audit_date:
+audit_date: '2020-09-24'
 title: Schedule Reboots in Ubuntu
 type: article
 created_date: '2020-09-21'
 created_by: James Andrade
-last_modified_date:
-last_modified_by:
+last_modified_date: '2020-09-24'
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
 # Schedule reboots in Ubuntu
 
-In this article, we will show how to schedule reboots in Ubuntu.
+This article shows how to schedule reboots in `Ubuntu`.
 
-You can schedule a nightly reboot by using crontab:
+###You can schedule a reboot using `crontab`
 
-
-```
-sudo crontab -e
-```
-Insert the following (or adjust to your specific reboot time)
+Use this command to schedule a reboot:
 
 ```
-0 2   *   *   *    /sbin/shutdown -r +5
+$ sudo crontab -e
 ```
-This will reboot the server every day at 2:05 am.
+Use ths command to set the desired daily time:
 
-You can exit crontab by pressing "ESC" and then ":wq" to save and quit.
+```
+$ 0 2   *   *   *    /sbin/shutdown -r +5
+```
 
-Crontab Example:
+This command reboots the server at 2:05 am every day, adjust the command to fit your requirements.
+
+Press 'ESC' to exit `crontab` and then type in ":wq" to save and quit.
+
+`Crontab` Example:
 
 ```
 # Example of job definition:
@@ -43,4 +45,4 @@ Crontab Example:
 # *  *  *  *  * user-name  command to be executed
 ```
 
-Note: This shouldn't be used as a fix for any issues you are having on your system. We recommend troubleshooting the actual issue instead of relying on a server re-boot, however this can be a temporary fix.
+Note: This is a temporary fix. Troubleshoot the actual issue instead of relying on a server re-boot.
