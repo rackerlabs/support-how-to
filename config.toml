@@ -21,8 +21,13 @@ offlineSearch = true
 offlineSearchSummaryLength = 70
 offlineSearchMaxResults = 10
 canonifyURLs = true
+enableGitInfo = true
 [permalinks]
     how-to = "/how-to/:filename"
+[frontmatter]
+    date = ["date", "last_modified_date", "created_date"]
+    lastmod = [":git", "lastmod", "date", "last_modified_date"]
+    publishDate = ["created_date", "date"]
 [markup]
 defaultMarkdownHandler = "goldmark"
 [markup.asciidocExt]
