@@ -1,4 +1,3 @@
-
 import contentLoaded from "content-loaded";
 import SmoothScroll from "./imports/smoothScroll";
 
@@ -10,50 +9,89 @@ contentLoaded().then(() => {
   try {
     let lastRenderArgs;
 
-const infiniteHits = instantsearch.connectors.connectInfiniteHits(
-  (renderArgs, isFirstRender) => {
-    const { hits, showMore, widgetParams } = renderArgs;
-    const { container } = widgetParams;
+    const infiniteHits = instantsearch.connectors.connectInfiniteHits(
+      (renderArgs, isFirstRender) => {
+        const {
+          hits,
+          showMore,
+          widgetParams
+        } = renderArgs;
+        const {
+          container
+        } = widgetParams;
 
-    lastRenderArgs = renderArgs;
+        lastRenderArgs = renderArgs;
 
-    if (isFirstRender) {
-      const sentinel = document.createElement('div');
-      container.appendChild(document.createElement('ul'));
-      container.appendChild(sentinel);
+        if (isFirstRender) {
+          const sentinel = document.createElement('div');
+          container.appendChild(document.createElement('ul'));
+          container.appendChild(sentinel);
+          const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting && !lastRenderArgs.isLastPage) {
+                showMore();
+              }
+            });
+          });
 
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting && !lastRenderArgs.isLastPage) {
-            showMore();
-          }
-        });
-      });
+          observer.observe(sentinel);
 
-      observer.observe(sentinel);
+          return;
+        }
 
-      return;
-    }
-
-    container.querySelector('ul').innerHTML = hits
-      .map(
-        hit =>
-          `<li>
-            <div class="ais-Hits-item">
-              <header class="hit-name">
-                ${instantsearch.highlight({ attribute: 'name', hit })}
-              </header>
-              <img src="${hit.image}" align="left" />
-              <p class="hit-description">
-                ${instantsearch.highlight({ attribute: 'description', hit })}
-              </p>
-              <p class="hit-price">$${hit.price}</p>
+        container.querySelector('ul').innerHTML = hits
+          .map(
+            hit =>
+            `<li class="hit-item-single">
+              <div class="row">
+                <div class="col-sm-12">
+                  <p class="search-product">
+                    <a class="search-product-link" href="/support/how-to/">How-To</a> &nbsp; > &nbsp; <a class="search-product-link" href=/support/how-to/${hit.product_url}>${hit.product}</a>
+                  </p> 
+                  <h2>
+                    <a class="search-title" href=/support{{ attribute: 'relpermalink', hit }}>${instantsearch.highlight({ attribute: 'title', hit })}</a>
+                  </h2>
+                  <a class="search-summary-link" href = /support{{ attribute: 'relpermalink', hit }}>
+                    <p class="search-summary">${instantsearch.highlight({ attribute: 'summary', hit })}</p>
+                  </a>
+                  <span class="search-author" > By &nbsp; ${instantsearch.highlight({ attribute: 'created_by', hit })}</span>
+                  <span class="search-date">${hit.created_date}</span> 
+              </div>
             </div>
           </li>`
-      )
-      .join('');
-  }
-);
+          )
+          .join('');
+      }
+    );
+    const renderStats = (renderOptions, isFirstRender) => {
+      const {
+        nbHits,
+        processingTimeMS,
+        query,
+        widgetParams
+      } = renderOptions;
+
+      if (isFirstRender) {
+        return;
+      }
+
+      let count = '';
+      if (nbHits > 1) {
+        count += `${nbHits} results`;
+      } else if (nbHits === 1) {
+        count += `1 result`;
+      } else {
+        count += `no result`;
+      }
+
+      widgetParams.container.innerHTML = `
+    ${count} found in ${processingTimeMS}ms
+    ${query ? `for <q>${query}</q>` : ''}
+  `;
+    };
+
+    // Create the custom widget
+    const customStats = instantsearch.connectors.connectStats(renderStats);
     const search = instantsearch({
       indexName: ALGOLIA_SUPPORT_INDEX,
       searchClient: algoliasearch(ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY),
@@ -77,47 +115,12 @@ const infiniteHits = instantsearch.connectors.connectInfiniteHits(
         reset: false,
         poweredBy: false
       }),
-      instantsearch.widgets.hits({
-        container: '#hits',
-        templates: {
-          item: function (data) {
-            let returnResult = '';
-            if (data.product) {
-              returnResult = returnResult + `<p class="search-product"><a class="search-product-link" href="/support/how-to/">How-To</a> &nbsp; > 	&nbsp; <a href=/support/how-to/`+ data.product_url +`>` + data._highlightResult.product.value + `</a></p>`;
-            } else {
-              returnResult += `<span></span>`;
-            }
-            if (data.title) {
-              returnResult = returnResult + `<h2>
-              <a class="search-title" href=/support` + data.relpermalink + `>`
-                +data._highlightResult.title.value+
-              `</a>
-              </h2>`;
-            } else {
-              returnResult += `<span></span>`;
-            }
-            if (data.summary) {
-              returnResult = returnResult + `<a class="search-summary-link" href=/support` + data.relpermalink + `><p class="search-summary">` + data._highlightResult.summary.value + `</p></a>`;
-            } else {
-              returnResult += `<span></span>`;
-            }
-            if (data.created_by) {
-              returnResult = returnResult + `<span class="search-author"> By &nbsp;`+ data._highlightResult.created_by.value + `</span>`
-            } else {
-              returnResult += `<span></span>`;
-            }
-            if (data.created_date) {
-              returnResult = returnResult + `<span class="search-date">`+data._highlightResult.created_date.value + `</span>`
-            } else {
-              returnResult += `<span></span>`;
-            }
-            return returnResult;
-          }
-        },
+      infiniteHits({
+        container: document.querySelector('#hits')
       }),
-      instantsearch.widgets.pagination({
-        container: '#pagination',
-      }),
+      customStats({
+        container: document.querySelector('#stats'),
+      })
     ]);
     search.start();
   } catch (err) {
