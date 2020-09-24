@@ -1,54 +1,72 @@
 ---
 permalink: create-files-in-linux/
-audit_date:
+audit_date: '2020-09-24'
 title: Create Files in Linux
 type: article
 created_date: '2020-09-21'
 created_by: James Andrade
-last_modified_date:
-last_modified_by:
+last_modified_date: '2020-09-24'
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-# Create Files in Linux
+This article shows you how to create files in Linux using the command line.   
 
-Creating files in Linux is simple!
+### Use the following commands:  
 
-The following are ways to create a file in Linux:
 
-Using touch.
+1. Type `$ touch` in the command line, followed by the name of the file you want to create.
 
 ```
 ~]$ touch testfile
+```
+
+To verify you created the file successfully, type `$ ls <name of your file>`.
+
+```
 ~]$ ls testfile 
 testfile
 ```
-The "touch" command simply creates the file with whatever name you specified.
 
 
-Using echo.
+2. Type `$ echo` in the command line, your information, and `>` followed by `<name of your new file>`. 
 
 ```
 ~]$ echo "some text" > testfile
+```
+To verify you created the file successfully, type `$ ls <name of your file>`.
+
+
+```
 ~]$ ls testfile 
 testfile
+```
+
+To read the information you included type `cat <name of your file>`.  
+
+```
 ~]$ cat testfile 
 some text
 ```
 
-This simultaneously creates and writes to the new file.
+This creates and writes to the new file.
 
-Using vim:
+
+3. Using `$ vim` command and text editor:
+
 
 ```sh
 ~]$ vim testfile
 (press "i" to insert then enter the text)
-~                                                                               
+~  write your text here                                                                             
 ~                                                                               
 ~                                                                               
 -- INSERT --          
-(then press "esc" and ":wq" to save and quit)
+(then press "esc" and ":wq" and "enter" to save and quit)
 ```
 
-The file is now created and saved.
+To read the information you included type `cat <name of your file>`.  
+
+
+You now have three option to create files with the Linux command line.
