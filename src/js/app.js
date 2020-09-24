@@ -46,13 +46,13 @@ contentLoaded().then(() => {
               <div class="row">
                 <div class="col-sm-12">
                   <p class="search-product">
-                    <a class="search-product-link" href="/support/how-to/">How-To</a> &nbsp; > &nbsp; <a class="search-product-link" href=/support/how-to/${hit.product_url}>${hit.product}</a>
+                    <a class="search-product-link" href="/support/how-to/">How-To</a> &nbsp; > &nbsp; <a class="search-product-link" href=/support/${hit.product_url}>${hit.product}</a>
                   </p> 
                   <h2>
-                    <a class="search-title" href=/support{{ attribute: 'relpermalink', hit }}>${instantsearch.highlight({ attribute: 'title', hit })}</a>
+                    <a class="search-title" href=/support${hit.permalink}>${instantsearch.highlight({ attribute: 'title', hit })}</a>
                   </h2>
-                  <a class="search-summary-link" href = /support{{ attribute: 'relpermalink', hit }}>
-                    <p class="search-summary">${instantsearch.highlight({ attribute: 'summary', hit })}</p>
+                  <a class="search-summary-link" href = /support${hit.permalink}>
+                    <p class="search-summary">${instantsearch.highlight({ attribute: 'content', hit })}</p>
                   </a>
                   <span class="search-author" > By &nbsp; ${instantsearch.highlight({ attribute: 'created_by', hit })}</span>
                   <span class="search-date">${hit.created_date}</span> 
@@ -114,6 +114,13 @@ contentLoaded().then(() => {
         magnifier: false,
         reset: false,
         poweredBy: false
+      }),
+      instantsearch.widgets.configure({
+        attributesToHighlight: [
+          'content:160',
+          'title',
+          'created_by'
+        ]
       }),
       infiniteHits({
         container: document.querySelector('#hits')
