@@ -134,6 +134,15 @@
 /support/how-to/managing-your-server-resizing-standard-and-general-purpose-servers/  /how-to/resize-standard-and-general-purpose-servers/  404
 /how-to/resize-standard-and-general-purpose-servers/  /support/how-to/resize-standard-and-general-purpose-servers/  301
 
+/support/how-to/spam-preferences-safelist-and-blacklist-management-for-microsoft-exchange/  /how-to/spam-preferences-safelist-and-blocklist-management-for-microsoft-exchange/  404
+/how-to/spam-preferences-safelist-and-blocklist-management-for-microsoft-exchange/  /support/how-to/spam-preferences-safelist-and-blocklist-management-for-microsoft-exchange/  301
+
+/support/how-to/blacklist-addresses-domains-and-ip-addresses-in-rackspace-email/  /how-to/blocklist-addresses-domains-and-ip-addresses-in-rackspace-email/  404
+/how-to/blocklist-addresses-domains-and-ip-addresses-in-rackspace-email/  /support/how-to/blocklist-addresses-domains-and-ip-addresses-in-rackspace-email/  301
+
+/support/how-to/edit-blacklists-per-domain/  /how-to/edit-blocklists-per-domain/  404
+/how-to/edit-blocklists-per-domain/  /support/how-to/edit-blocklists-per-domain/  301
+
 /support/how-to/centos-6-apache-and-php-install/  /how-to/centos-7-apache-and-php-install/ 404
 /how-to/centos-7-apache-and-php-install/  /support/how-to/centos-7-apache-and-php-install/  301
 
