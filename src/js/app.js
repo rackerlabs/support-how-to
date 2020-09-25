@@ -41,24 +41,32 @@ contentLoaded().then(() => {
 
         container.querySelector('ul').innerHTML = hits
           .map(
-            hit =>
-            `<li class="hit-item-single">
-              <div class="row">
-                <div class="col-sm-12">
-                  <p class="search-product">
-                    <a class="search-product-link" href="/support/how-to/">How-To</a> &nbsp; > &nbsp; <a class="search-product-link" href=/support/${hit.product_url}>${hit.product}</a>
-                  </p> 
-                  <h2>
-                    <a class="search-title" href=/support${hit.permalink}>${instantsearch.highlight({ attribute: 'title', hit })}</a>
-                  </h2>
-                  <a class="search-summary-link" href = /support${hit.permalink}>
-                    <p class="search-summary">${instantsearch.highlight({ attribute: 'content', hit })}</p>
-                  </a>
-                  <span class="search-author" > By &nbsp; ${instantsearch.highlight({ attribute: 'created_by', hit })}</span>
-                  <span class="search-date">${hit.created_date}</span> 
+            (hit) => {
+              let renderHTML = ``;
+              if (hit.product_url != null && hit.created_by != null && hit.created_by != '' && hit.created_date != null && !hit.permalink.includes('all-articles')) {
+                renderHTML += `<li class="hit-item-single">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <p class="search-product">
+                      <a class="search-product-link" href="/support/how-to/">How-To</a> &nbsp; > &nbsp; <a class="search-product-link" href=/support/${hit.product_url}>${hit.product}</a>
+                    </p> 
+                    <h2>
+                      <a class="search-title" href=/support${hit.permalink}>${instantsearch.highlight({ attribute: 'title', hit })}</a>
+                    </h2>
+                    <a class="search-summary-link" href = /support${hit.permalink}>
+                      <p class="search-summary">${instantsearch.highlight({ attribute: 'content', hit })}</p>
+                    </a>
+                    <span class="search-author" > By &nbsp; ${instantsearch.highlight({ attribute: 'created_by', hit })}</span>
+                    <span class="search-date">${hit.created_date}</span> 
+                </div>
               </div>
-            </div>
-          </li>`
+            </li>`;
+                console.log(renderHTML);
+                return renderHTML;
+              } else {
+                return `<span></span>`;
+              }
+            }
           )
           .join('');
       }
