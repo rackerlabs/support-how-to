@@ -12,7 +12,7 @@ product_url: rackspace-auto-scale
 ---
 
 Welcome to Rackspace Auto Scale, the easy way to scale your cloud resources up
-or down in response to an increase or decrease in overall workload based on your
+or down in response to an increase or decrease in overall workload or based on your
 defined thresholds.
 
 ### What you will learn
@@ -25,29 +25,34 @@ After reading this guide you will understand:
 
 ### What you can do with Rackspace Auto Scale
 
-- Create a policies to add more servers at a specific time on a recurring
-    basis or just one time; use cron to set the schedule, or use a webhook to
-    respond to an event and trigger a policy; set a policy to scale back
-    down.
+You can use Rackspace Auto Scale to perform the following tasks:
+
+- Create a policy to add more servers at a specific time on a recurring
+  basis or just one time; use cron to set the schedule, or use a webhook to
+  respond to an event and trigger a policy; and set a policy to scale back
+  down
 - Add and remove a specific number of servers or a percentage of your total
-    resources.
+  resources
 - Support your dedicated servers by adding - and removing - cloud servers based
-    on a schedule.
+  on a schedule
 
 ### Prerequisites
 
+Before you can use Rackspace Auto Scale, you must have the following
+prerequisites:
+
 - A Rackspace cloud account. To sign up go to the [Rackspace Public Cloud signup
-    page](https://cart.rackspace.com/cloud/).
+  page](https://cart.rackspace.com/cloud/).
 - A server image or images with all needed applications and settings. You can
-    create your images with the
-    [API](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/),
-    through the Cloud Control Panel or use external applications such as Chef,
-    Puppet, and Salt.
+  create your images with the
+  [API](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/),
+  through the Cloud Control Panel or use external applications such as Chef,
+  Puppet, or Salt.
 - *(Optional)* A load balancer. One is allowed per each group of 25
-    server images. To create a load balancer with the API or the
-    **Cloud Control Panel**, See the [Cloud Load Balancers Developer
-    Guide](https://docs.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/)
-    for information about using the API.
+  server images. To create a load balancer with the API or the
+  **Cloud Control Panel**, See the [Cloud Load Balancers Developer
+  Guide](https://docs.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/)
+  for information about using the API.
 
 ### What's next
 
