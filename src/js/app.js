@@ -61,7 +61,6 @@ contentLoaded().then(() => {
                 </div>
               </div>
             </li>`;
-                console.log(renderHTML);
                 return renderHTML;
               } else {
                 return `<span></span>`;
@@ -83,14 +82,14 @@ contentLoaded().then(() => {
 
       let count = '';
       if (nbHits > 1) {
-        count += `${nbHits} results`;
+        count += `<p class="results-p">${nbHits} results found</p>`;
       } else if (nbHits === 1) {
-        count += `1 result`;
+        count += `<p>1 result found</p>`;
       } else {
-        count += `no result`;
+        count += `<p class="no-results-p1">No results found</p>
+        <p class="no-results-p2">It seems we can’t find any results based on your search.</p>`;
       }
-
-      widgetParams.container.innerHTML = `${count} found`;
+      widgetParams.container.innerHTML = `${count}`;
     };
 
     // Create the custom widget
@@ -101,8 +100,10 @@ contentLoaded().then(() => {
       searchFunction(helper) {
         const hitsContainer = document.querySelector('#hits');
         const paginationContainer = document.querySelector('#pagination');
+        const statsContainer = document.querySelector('#stats');
         hitsContainer.style.display = helper.state.query === '' ? 'none' : '';
         paginationContainer.style.display = helper.state.query === '' ? 'none' : '';
+        statsContainer.style.display = helper.state.query === '' ? 'none' : '';
         helper.search();
       },
     });
