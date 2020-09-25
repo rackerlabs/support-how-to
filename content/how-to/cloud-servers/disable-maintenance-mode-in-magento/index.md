@@ -31,7 +31,7 @@ Use the following steps to disable maintenance mode:
     
    **Ubuntu/Debian:**
     
-       pache2ctl -S | grep domainname
+       apache2ctl -S | grep domainname
     
    Next, locate the document root:
     
