@@ -1,49 +1,51 @@
 ---
 permalink: disable-maintenance-mode-in-magento/
 audit_date: '2020-09-21'
-title: Disable Maintenance Mode in Magento
+title: Disable maintenance mode in Magento
 type: article
 created_date: '2020-09-21'
 created_by: James Andrade
 last_modified_date: '2020-09-21'
-last_modified_by:
+last_modified_by: William Loy
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-In this article provides instructions for disabling maintenance mode in Magento.
+You can use maintenance mode in Magento&reg; when you need to take your site offline to perform maintenance,
+updgrades, or configuration changes. This article describes how to *disable* maintenance mode after
+you finish making your offline changes.
 
-# Disable Maintenance Mode in Magento
+### Disable maintenance mode
 
-Disable Maintenance Mode in Magento by using the following steps:
+Use the following steps to disable maintenance mode:
 
 1. Log in to your server.
 
-2. Navigate to the document root containing your Magento installation. 
+2. Navigate to the document root that contains your Magento installation. 
 
-    1. Locate your domain or website by using one of the following commands:
+   Locate your domain or website by using one of the following commands:
     
-        CentOS/RHEL:
+   **CentOS/RHEL:**
     
-        `httpd -S | grep domainname`
+       httpd -S | grep domainname
     
-        Ubuntu/Debian:
+   **Ubuntu/Debian:**
     
-        `apache2ctl -S | grep domainname`
+       pache2ctl -S | grep domainname
     
-    2. Next, locate the document root:
+   Next, locate the document root:
     
-        `grep -i documentroot /path/to/vhost.conf`
+       grep -i documentroot /path/to/vhost.conf
     
 3. Now locate the file called **maintenance.flag**.
 
 4. Remove the file **maintenance.flag** by using one of the following commmands:
 
-    Magento 1:
+    **Magento 1:**
 
-    `rm maintenance.flag`
+        rm maintenance.flag
 
-    Magento 2:
+    **Magento 2:**
 
-    `rm var/.maintenance.flag`
+        rm var/.maintenance.flag
 
