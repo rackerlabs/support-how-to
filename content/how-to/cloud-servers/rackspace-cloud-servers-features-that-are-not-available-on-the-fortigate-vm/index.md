@@ -33,7 +33,7 @@ or the Cloud Servers application programmer interface (API).
 
 Instead of rescuing a server, you can troubleshoot it by using the Emergency
 Console or rebuild the server and
-[restore its configuration from a backup](https://help.fortinet.com/fos50hlp/52data/Content/FortiOS/fortigate-system-administration-52/Firmware/Restoringconfiguration.htm).
+[restore its configuration from a backup](http://docs.fortinet.com/document/fortigate/6.4.2/administration-guide/702257/configuration-backups).
 
 **Note:** Rebuilding a server destroys all the data on that server.
 
