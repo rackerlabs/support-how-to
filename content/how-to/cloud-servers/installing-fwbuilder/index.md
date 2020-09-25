@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Note:** The commands and utilities in this article have been tested on a Debian Cloud Server and are not guaranteed to function correctly on other distributions. However, the [General Package Installation Guidelines](/support/how-to/general-package-installation-guidelines) article may assist in "porting" this article to another distro.
+**Note:** The commands and utilities in this article have been tested on a Debian cloud server and are not guaranteed to function correctly on other distributions. However, the [General Package Installation Guidelines](/support/how-to/general-package-installation-guidelines) article might assist in "porting" this article to another distribution.
 
 ### Prerequisites
 
@@ -22,11 +22,11 @@ Fwbuilder is an advanced graphical firewall configuration tool. You can use it t
 ### Installation
 
 Download Fwbuilder directly from [Sourceforge](https://sourceforge.net/project/showfiles.php?group_id=5314&package_id=125359),
-or from your Cloud Server's built-in package manager by typing:
+or from your cloud server's built-in package manager by typing:
 
     aptitude install fwbuilder
 
-Connect to your Cloud Server using the instructions in the VNC or X over SSH articles above. To launch the application type:
+Connect to your cloud server by using the instructions in the VNC article in the previous section. To launch the application, type:
 
     fwbuilder
 
