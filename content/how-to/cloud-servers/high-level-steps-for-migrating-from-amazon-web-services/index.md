@@ -89,8 +89,7 @@ database.
 
 ### Test after migration
 
--   Implement monitoring and backup solutions and focus on
-    enhancing security.
+-   Implement monitoring and backup solutions and focus on enhancing security.
 -   Thoroughly test the applications deployed on your cloud server.
 
 ### Next step
