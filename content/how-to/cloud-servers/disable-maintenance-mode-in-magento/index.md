@@ -20,30 +20,30 @@ Disable Maintenance Mode in Magento by using the following steps:
 1. Log in to your server.
 
 2. Navigate to the document root containing your Magento installation. 
+
+    1. Locate your domain or website by using one of the following commands:
     
-    `cd <path_to_magento_root>/public_html/`
-
-    **Note:** If you are not sure what the document root is, you can check the vhost. To check which vhost is for your domain/webstie:
-    CentOS/RHEL:
-    httpd -S | grep domainname
+        CentOS/RHEL:
     
-    Ubuntu/Debian:
-    apache2ctl -S | grep domainname
+        `httpd -S | grep domainname`
     
-    Then you can check what the documentroot is:
-    grep -i documentroot /path/to/vhost.conf     (<- this is whatever path you get from the previous command)
+        Ubuntu/Debian:
     
-3. Look for a file called "maintenance.flag"
+        `apache2ctl -S | grep domainname`
+    
+    2. Next, locate the document root:
+    
+        `grep -i documentroot /path/to/vhost.conf`
+    
+3. Now locate the file called **maintenance.flag**.
 
-4. Remove this file
+4. Remove the file **maintenance.flag** by using one of the following commmands:
 
-Magento 1:
-```
-rm maintenance.flag
-```
+    Magento 1:
 
-Magento 2:
+    `rm maintenance.flag`
 
-```
-rm var/.maintenance.flag
-```
+    Magento 2:
+
+    `rm var/.maintenance.flag`
+
