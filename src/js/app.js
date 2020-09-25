@@ -74,8 +74,6 @@ contentLoaded().then(() => {
     const renderStats = (renderOptions, isFirstRender) => {
       const {
         nbHits,
-        processingTimeMS,
-        query,
         widgetParams
       } = renderOptions;
 
@@ -92,10 +90,7 @@ contentLoaded().then(() => {
         count += `no result`;
       }
 
-      widgetParams.container.innerHTML = `
-    ${count} found in ${processingTimeMS}ms
-    ${query ? `for <q>${query}</q>` : ''}
-  `;
+      widgetParams.container.innerHTML = `${count} found`;
     };
 
     // Create the custom widget
