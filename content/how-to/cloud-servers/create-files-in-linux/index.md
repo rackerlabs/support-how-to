@@ -1,7 +1,7 @@
 ---
 permalink: create-files-in-linux/
 audit_date: '2020-09-24'
-title: Create Files in Linux
+title: Create files by using the command line in Linux
 type: article
 created_date: '2020-09-21'
 created_by: James Andrade
@@ -11,62 +11,77 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article shows you how to create files in Linux using the command line.   
+This article shows you how to create files by using the command line in Linux&reg;. 
 
-### Use the following commands:  
+### Create a file
 
+There are three main ways that you can create a file at the command line:
 
-1. Type `$ touch` in the command line, followed by the name of the file you want to create.
+1. The `touch` command
+2. The `echo` command
+3. A text editor such as `vim` or `nano`
 
-```
-~]$ touch testfile
-```
+The following steps show you how to create a new file by using each of these methods:
 
-To verify you created the file successfully, type `$ ls <name of your file>`.
+Open the command line and navigate to the directory in which you want to create a file.
 
-```
-~]$ ls testfile 
-testfile
-```
+#### Touch
 
+The `touch` command creates a new blank file that you can then open by using a text editor to add or edit text.
 
-2. Type `$ echo` in the command line, your information, and `>` followed by `<name of your new file>`. 
+Type `$ touch` followed by the name of the file you want to create.
 
-```
-~]$ echo "some text" > testfile
-```
-To verify you created the file successfully, type `$ ls <name of your file>`.
+    ~]$ touch testfile
 
+To verify that you created the file successfully, type `$ ls <name of your file>`.
 
-```
-~]$ ls testfile 
-testfile
-```
+    ~]$ ls testfile 
+    testfile
+   
+You should see the new file in the list of files in the directory.
 
-To read the information you included type `cat <name of your file>`.  
+#### Echo
 
-```
-~]$ cat testfile 
-some text
-```
+The `echo` command enables you to add text to the file at the same time that you create it.
 
-This creates and writes to the new file.
+Use the following format to create a file by using `echo`:
 
+    echo "your text" > <name of your file>
 
-3. Using `$ vim` command and text editor:
+For example, the following command creates a file called **testfile** that contains the text "some text": 
 
+    ~]$ echo "some text" > testfile
 
-```sh
-~]$ vim testfile
-(press "i" to insert then enter the text)
-~  write your text here                                                                             
-~                                                                               
-~                                                                               
--- INSERT --          
-(then press "esc" and ":wq" and "enter" to save and quit)
-```
+To verify that you created the file successfully, type `ls <name of your file>`:
 
-To read the information you included type `cat <name of your file>`.  
+    ~]$ ls testfile 
+    testfile
 
+You should see the new file in the list of files in the directory.
 
-You now have three option to create files with the Linux command line.
+To read the information that you included in the file, type `cat <name of your file>`.  
+
+    ~]$ cat testfile 
+    some text
+
+#### Text editor
+
+If you have a large amount of text to add to a new file you can use a text editor, such
+as `vim` or `nano`, to create a file and edit it at the same time.
+
+1. Create and open the file by entering `vim <name of your file>` and then press `i` to enter Insert Mode.
+2. Enter the text that you want to add to the file.
+   
+   Creating your file by using `vim` should look similar to the following example:
+
+       ~]$ vim testfile
+       ~
+       ~  write your text here                                                                             
+       ~                                                                               
+       ~                                                                               
+       -- INSERT --          
+
+3. When you are finished editing, press "esc", ":wq" and then "enter" to save and quit.
+
+To see the new information that you added, type `cat <name of your file>`.  
+
