@@ -29,7 +29,8 @@ application and database resources.
 Depending on the size of your existing AWS instance and OS, select an
 equivalent instance type and follow the steps to provision a new
 instance on Rackspace Cloud Servers. You can find a list of equivalent
-instances in the [equivalent instance types list.](/support/how-to/mapping-of-amazon-web-services-resources-to-rackspace-resources)
+instances in the
+[equivalent instance types list.](/support/how-to/mapping-of-amazon-web-services-resources-to-rackspace-resources)
 
 ### Install software packages
 
