@@ -1,12 +1,12 @@
 ---
 permalink: high-level-steps-for-migrating-from-amazon-web-services/
-audit_date:
+audit_date: '2020-09-25'
 title: High-level steps for migrating from Amazon Web Services
 type: article
 created_date: '2013-07-01'
 created_by: Rackspace Support
-last_modified_date: '2019-11-20'
-last_modified_by: Chad Sterling
+last_modified_date: '2020-09-25'
+last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -29,7 +29,8 @@ application and database resources.
 Depending on the size of your existing AWS instance and OS, select an
 equivalent instance type and follow the steps to provision a new
 instance on Rackspace Cloud Servers. You can find a list of equivalent
-instances in the [equivalent instance types list.](/support/how-to/mapping-of-amazon-web-services-resources-to-rackspace-resources)
+instances in the
+[equivalent instance types list.](/support/how-to/mapping-of-amazon-web-services-resources-to-rackspace-resources)
 
 ### Install software packages
 
@@ -45,7 +46,7 @@ You can do this in a number of ways:
 -  **AWS CLI S3**
 
     Use AWS CLI S3 to copy https://docs.aws.amazon.com/cli/latest/userguide/install-cliv1.html.
-    
+
     `aws s3 cp s3://my-bucket/`
 
     This method is the recommended method for migrating your data to your
@@ -65,7 +66,7 @@ You can do this in a number of ways:
 
     In certain cases, you need to install a GUI tool,
     such as a File Transfer Protocol (FTP) client application,
-    to upload the data on Cloud Files. An example is if your cloud server is 
+    to upload the data on Cloud Files. An example is if your cloud server is
     Windows&reg;-based. Several open-source and free
     tools exist, and they are described in detail within each migration
     scenario in this document.
@@ -88,8 +89,7 @@ database.
 
 ### Test after migration
 
--   Implement monitoring and backup solutions and focus on
-    enhancing security.
+-   Implement monitoring and backup solutions and focus on enhancing security.
 -   Thoroughly test the applications deployed on your cloud server.
 
 ### Next step
