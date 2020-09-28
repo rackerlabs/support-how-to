@@ -15,7 +15,7 @@ product_url: cloud-servers
 
 ### Using Netcat
 
-If your network service malfunctioning but you know the service is [listening to a network port](/support/how-to/checking-listening-ports-with-netstat), you can verify the program connection to troubleshhot the problem. 
+If your network service is malfunctioning but you know the service is [listening to a network port](/support/how-to/checking-listening-ports-with-netstat), you can verify the program connection to troubleshoot the problem. 
 
 Use the Netcat command, `nc`, to access the service. If you are running a Red Hat&reg;-based distribution and you don't have `nc` installed, type the following command on the command line:
 
