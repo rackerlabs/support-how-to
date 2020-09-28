@@ -17,13 +17,12 @@ Rackspace Auto Scale.
 ### How Auto Scale works
 
 Rackspace Auto Scale is written in Python and calls the Rackspace Cloud Servers,
-Rackspace Cloud Load Balancers, and Rackspace RackConnect v3 APIs. All Rackspace
-Cloud Server **create server** configuration parameters can be used with Auto
-Scale. For more information, see the [Rackspace Cloud Servers
-documentation](https://developer.rackspace.com/docs/cloud-servers/v2/). For
-technical details, see the public [Auto Scale GitHub
-documentation](https://github.com/rackerlabs/otter/tree/master/doc) and the
-public [Auto Scale GitHub Wiki](https://github.com/rackerlabs/otter/wiki).
+Rackspace Cloud Load Balancers, and Rackspace RackConnect v3 APIs. You can use all
+Rackspace Cloud Server **create server** configuration parameters with Auto
+Scale. For more information about Cloud Servers and Auto Scale, see [Rackspace Cloud Servers
+documentation](https://developer.rackspace.com/docs/cloud-servers/v2/),
+[Auto Scale GitHub documentation](https://github.com/rackerlabs/otter/tree/master/doc), and the
+[Auto Scale GitHub Wiki](https://github.com/rackerlabs/otter/wiki).
 
 ### Invalid load balancers can prevent scaling
 
@@ -58,7 +57,7 @@ to include the Rackspace ServiceNet network as part of the launch configuration.
 You cannot have only a private network in the launch configuration.
 
 In a scale-up operation, Auto Scale tries to retrieve the ServiceNet IP address
-of the server that it builds to add it to the load balancer. If ServiceNet is
+of the server that it built to add it to the load balancer. If ServiceNet is
 not part of the configuration, this action fails. To recover from this failure,
 Auto Scale deletes the server that it built, which results in no active servers.
 
@@ -69,20 +68,22 @@ Scale group.
 
 This tip shows you how to use a webhook to trigger an Auto Scale policy. It does
 not explain how to create a check or an Auto Scale group.  For information about
-creating checks and alarms, see the *[Rackspace Monitoring Developer
-Guide](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/)* or
+creating checks and alarms, see the [Rackspace Monitoring Developer
+Guide](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/) or
 the [Rackspace Monitoring Checks and
 Alarms](/support/how-to/rackspace-monitoring-checks-and-alarms) article.
 
 Modify the example values used for the configurations to meet your needs. These
-values use the Auto Scale API to first create a webhook policy with a desired
-capacity of 5 servers and a cooldown of 3 minutes, and then create a webhook
-named Rackspace Monitoring. In steps 3, 4, and 5, you use the Rackspace
-Monitoring API to create a notification by using the webhook URL created in step
-2, a notification plan by using the webhook ID created in step 3, and an alarm
-that uses the notification plan created in step 4. All of these steps, except
-creating the webhook, can be done through the [Rackspace
-Intelligence](https://intelligence.rackspace.com/) UI.
+values use the Auto Scale API to first create a webhook policy with the desired
+capacity of five servers and a cooldown of three minutes, and then create a webhook
+named *Rackspace Monitoring*. In steps 3, 4, and 5, you use the Rackspace
+Monitoring API to do the following tasks:
+
+- Create a notification by using the webhook URL created in step 2 
+- Create a notification plan by using the webhook ID created in step 3
+- Create an alarm that uses the notification plan created in step 4. 
+
+You can do steps 3-5 through the [Rackspace Intelligence](https://intelligence.rackspace.com/) UI.
 
 1. Create a webhook policy.
 
@@ -162,7 +163,7 @@ Following is an example request:
     "secondkey": "1", }
     }
 
-You can remove a specific server from a scaling group by using the delete server
+You can remove a specific server from a scaling group by using the **delete server**
 operation. For more information, see the [Delete server from scaling
 group](https://docs.rackspace.com/docs/autoscale/v1/developer-guide/#delete-server-from-scaling-group)
 section of the *Rackspace Auto Scale API Developer Guide.*
@@ -193,21 +194,21 @@ group, and then, from the **Actions** menu, select **Edit Min / Max Servers**.
 ### Create and update the launch configuration setting
 
 All Auto Scale API update requests completely replace all of the settings of the
-item being updated. Any parameters that are not specified in the update request
-are reset to null or to the default value. All requests, except update launch
+updated item. The request sets any parameters not specified in the update request
+to null or the default value. All requests, except update launch
 configuration operation, validate that all required fields are provided. A
 failed launch configuration update returns a `400 error response` code. The
 following examples show how to create and update a launch configuration setting.
-Creating uses a POST operation, updating uses a PUT operation.
+Creates uses a `POST` operation, and updates uses a `PUT` operation.
 
-**Note**: Each user can have multiple SSH key pairs (name and key). The launch
+**Note**: Each user can have multiple Secure Shell (SSH) key pairs (name and key). The launch
 configuration uses the admin user's SSH key pair name, usually the first admin
 user found in the tenant. If there are multiple admin accounts in the tenant,
 there is no guarantee as to which one is used. So it is best for there to be one
-admin user in the tenant. This restriction cannot be changed currently. There is
+admin user in the tenant. You cannot change this restriction currently. There is
 no option to specify a user to impersonate.
 
-### Create a scaling group with the launch configuration setting
+#### Create a scaling group with the launch configuration setting
 
 This example creates a scaling group with load balancers, server metadata,
 networks, and personality.
@@ -268,13 +269,13 @@ networks, and personality.
     ]
     }
 
-### Update the launch configuration setting
+#### Update the launch configuration setting
 
 This example shows how to update only the **flavorRef** and **name** parameters
 without the remaining fields, and a successful 204 response code.
 
-**Note**. The update operation overwrites all launch configuration parameters.
-Any parameters not specified in the update are reset to null or the default
+**Note**. The update operation overwrites all launch configuration parameters and
+resets any parameters not specified in the update are to null or the default
 value.
 
     PUT /<tenant_id>/groups/<group_id>/launch
@@ -301,40 +302,38 @@ update.
     "imageRef": "0d589460-f177-4b0f-81c1-8ab8903ac7d8"
     }}}
 
-### Update the launch configuration eviction policy
+#### Update the launch configuration eviction policy
 
 When a launch configuration setting is updated, the servers that scale up after
 the update use the latest launch configuration settings.
 
 A scale-down that occurs after the launch configuration setting has been updated
-first deletes servers with the older launch configuration setting. The only
+deletes servers with the older launch configuration setting first. The only
 exception to this is when servers are building. Auto Scale attempts to first
 delete servers being built (pending) in a scale-down policy execution, then
-servers with the older launch configuration setting, and lastly any other
+servers with the older launch configuration setting, and lastly, any other
 servers required by the scale-down policy.
 
 ### Delete servers
 
 Deleting servers requires an Auto Scale Python call to the **Rackspace Cloud
-Servers Nova-based API**, and there are a few things about this process that it is
-good to understand. Additionally, functionality has been added to allow you to
-delete a specific server from a scaling group. These topics are discussed in
-this section.
+Servers Nova-based API**. This section discusses how the Cloud Servers
+API deletes servers and how to delete a specific server from a scaling group.
 
-### About the server "Active" state when deleting servers
+#### About the server "Active" state when deleting servers
 
-When a scale-down policy is being executed, servers in the **Active** state are
+When a scale-down policy executes, servers in the **Active** state are
 deleted immediately because Nova, the software behind Rackspace Cloud Servers,
-is aware of those servers. Auto Scale issues deletes for Pending servers first,
-but Nova executes deletes for Active servers first. This is why, for a time, you
+is aware of those servers. Auto Scale issues deletes for *Pending* servers first,
+but Nova executes deletes for *Active* servers first. Thus, for a time, you
 might see servers in the Control Panel that you have deleted; the
 inter-programming communication and executions cause a lag. For example, if a
 scale-up policy is executing to build five servers and, while the servers are
 still building, a scale-down policy executes to scale down by two servers, you
-might see five servers in the Control Panel until they are all done building and
-go into the Active state, immediately after which two servers will be deleted.
+might see five servers in the Control Panel until they finish building and
+go into the Active state. Then, the system deletes the two servers.
 
-### Delete a specific server from a scaling group
+#### Delete a specific server from a scaling group
 
 You can remove a specific server from a scaling group by using the delete server
 operation. For more information, see the [Delete server from scaling
@@ -345,7 +344,7 @@ section *Rackspace Auto Scale API Developer Guide.*
 
 If you create an image of a server and use that image to create a scaling group,
 you must choose a flavor in the scaling group that is equal to, or greater than,
-the capacity of the flavor of the server from which the image was created. For
+the capacity of the flavor of the server used to create the image. For
 more information about available server flavors, see
 [Flavors](https://docs.rackspace.com/docs/cloud-servers/v2/general-api-info/flavors/)
 in the Cloud Servers API documentation.
@@ -353,13 +352,13 @@ in the Cloud Servers API documentation.
 ### Cloud bursting with Auto Scale and RackConnect
 
 Auto Scale and RackConnect allow bursting into the public cloud from events in a
-dedicated environment. RackConnect is provisioned by setting a metadata flag for
+dedicated environment. Provision RackConnect by setting a metadata flag for
 a RackConnect group in the Auto Scale launch configuration `metadata` section
-(see the following example). When that section is set properly, and Auto Scale
-scales up a group, the new server will be modified by RackConnect to have its
-public interface disabled and will begin receiving Private Cloud traffic from
-the RackConnect load balancer. The following KC article describes this process
-in detail: [Cloud Bursting using Auto Scale RackConnect and F5 Load
+(see the following example). When you set that section properly and Auto Scale
+scales up a group, RackConnnect modifies the new server to disable its
+public interface, and it begins receiving Private Cloud traffic from
+the RackConnect load balancer. For more details, see
+[Cloud Bursting using Auto Scale RackConnect and F5 Load
 Balancers](/support/how-to/cloud-bursting-using-auto-scale-rackconnect-and-f5-load-balancers).
 
 Example RackConnect metadata key and value pair for Auto Scale:
@@ -374,21 +373,21 @@ General Purpose and work-optimized servers do not resize as simply as Standard
 servers. You have to go through a process to resize, detailed in [Upgrading
 resources for General Purpose or I/O optimized Cloud
 Servers](/support/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers),
-in order to resize, and your server does not keep its IP address. You can use
+to resize, and your server does not keep its IP address. You can use
 Auto Scale to accomplish server resizing, keeping your IP address, and have it
 happen dynamically in response to load. You pay for the higher-flavor servers
-(for example, General Purpose and work-optimized) only when you need them, and
-when you don't need them, you can scale back down to lower-flavor servers (for
-example, Standard) - or keep the higher-flavor servers and just scale back how
-many servers are in your group.
+(for example, General Purpose and work-optimized) only when you need them.
+When you don't need them, you can scale back down to lower-flavor servers (for
+example, Standard), or keep the higher-flavor servers and just scale back the number of
+servers in your group.
 
 When you're ready to set up your scaling system to resize servers
 dynamically, use the following guidelines.
 
-1. Create two scaling groups: one with a lower flavor for the server
-    setting in the **launchConfiguration** option, and another with
-    higher flavor server setting in the **launchConfiguration** option.
-    Configure both scaling groups with same image and load balancer.
+1. Create two scaling groups: One with a lower flavor for the server
+    setting in the **launchConfiguration** option and another with
+    a higher flavor server setting in the **launchConfiguration** option.
+    Configure both scaling groups with the same image and load balancer.
 
 2. Create two policies for each scaling group:
 
@@ -406,5 +405,5 @@ This technique works well for single-server deployments. In fact, for smaller
 deployments, the scale-up policy might just be +1 instead of 2 or 3.
 
 One disadvantage of this technique is being charged for a load balancer when you
-don't really need it. However, that cost should be offset by the scaling down,
+don't need it. However, you can offset that cost by the scaling down,
 using lower-flavor (and less expensive) servers when the load is lighter.
