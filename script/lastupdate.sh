@@ -17,7 +17,7 @@
 #       last_modified_date is between begin and end dates (from the script arguments)
 #
 # Updates:
-#
+# 2020-09-28 update content directory path
 
 
 # assign date arguments to variables
@@ -29,7 +29,7 @@ echo "date range is between " $begdate " and " $enddate
 count=0
 
 # Go to content directory and loop through all 'md' filesi in sub dirs
-cd ../content/support/how-to
+cd ../content/how-to
 
 FILES=`find .  -type f -name '*md' -print`
 
