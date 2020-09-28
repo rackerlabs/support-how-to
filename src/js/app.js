@@ -117,10 +117,17 @@ contentLoaded().then(() => {
         wrapInput: false,
         magnifier: false,
         reset: false,
-        poweredBy: false
+        poweredBy: false,
+        escapeHTML: true
       }),
       instantsearch.widgets.configure({
         attributesToHighlight: [
+          'content:160',
+          'title',
+          'created_by'
+        ],
+        attributesToRetrieve: [
+          '*',
           'content:160',
           'title',
           'created_by'
