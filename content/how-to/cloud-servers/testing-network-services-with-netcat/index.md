@@ -11,15 +11,17 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
+**Warning:** Netcat's Software creator has not updated the software since 2006. Therefore, Rackspace Technology makes no warranty that the quality of Netcat will meet your expectations.  
+
 ### Using Netcat
 
-If you have a network service malfunctioning, but you know it's [listening to a network port](/support/how-to/checking-listening-ports-with-netstat), you can verify a program connection in search for the problem. 
+If you have a network service malfunctioning, but you know the service is [listening to a network port](/support/how-to/checking-listening-ports-with-netstat), you can verify the program connection in search of the problem. 
 
-Use Netcat **Nc**, to attempt to access the service. If you are running a Red Hat-based distribution, and Nc is not installed by default, type this command in the command line:
+Use Netcat **Nc**, to access the service. If you are running a Red Hat-based distribution, and you don't have Nc installed, type this command in the command line:
 
 `sudo yum install nc`
 
-If you are running a Debian-based distribution, type this command in the command line: 
+For a Debian-based distribution, type this command in the command line: 
 
 
 `sudo apt-get install Netcat`
@@ -27,17 +29,16 @@ If you are running a Debian-based distribution, type this command in the command
 
 ### Basic test
 
-First,  run a simple test to see if the port accepts connections.
+Run a simple test to verify that the port accepts connections.
 
-Use the the `nc` command line and the `-vz` option:
+Type `nc` in the command line followed by the `-vz` option:
 
     {.pre .codeblock}
     nc -vz IP_Address Port
     
+The IP address should be the one on which the service receives connections.   
 
-The IP address receives service connections.CHECK   
-
-The following three examples show the possible output:
+The following examples show the possible output messages:
 
 ##### The connection is successfully made
 
@@ -61,9 +62,10 @@ The following three examples show the possible output:
 
 ##### Connection refused
 
-The service isn't running or a firewall is rejecting the connection. If you haven't already confirmed that the service is running you can check using the ps and service commands as explained in the [previous article in this series on checking running services](/support/how-to/checking-running-services-on-linux).
+The service isn't running, or a firewall is rejecting the connection. Verify the process status by running `ps` in the command line. Check the [previous article in this series on checking running services](/support/how-to/checking-running-services-on-linux) for more options.
 
-**Note:** If your service is running it's likely the connection is being refused because your firewall is rejecting the connection. Take a look at the _connection timed out_ section for instructions on troubleshooting your firewall.
+
+**Note:** If your service is running, your firewall may reject the connection. Read the _connection timed out_ section for instructions on firewall troubleshooting.
 
 
 ### Connection timed out
@@ -77,39 +79,35 @@ The following example inserts a rule on line 1 of the input chain that will acce
 
 IP tables instantly reflect any changes made. Repeat the test with nc to see if there is any change in the response.
 
-If you want to remove the rule you have added you can use the -D option as well as the position of the rule in the chain. In the previous example we added a rule at line 1, the top of the chain. The following
-example shows how to remove it.
+If you want to remove the rule you have added you can use the -D option as well as the position of the rule in the chain. In the previous example we added a rule at line 1, the top of the chain. The following example shows how to remove it.
 
     {.pre .codeblock}
     sudo /sbin/iptables -D INPUT 1
 
 
-You can check your current firewall configuration at any time by running
-the following:
+You can check your current firewall configuration at any time by running the following command in the command line:
 
     {.pre .codeblock}
     sudo /sbin/iptables -L -v
 
 ### Connection succeeded
 
-If the initial connection succeeds it indicates that nc can connect to the service. Now we should look at the connection in a bit more detail.
+If the initial connection succeeds, Netcat can connect to the service. Look at the connection in more detail.
 
-First use the "-vt" option to see if the service can respond to basic
-network queries:
+First use the "-vt" option to see if the service can respond to basic network queries:
 
     {.pre .codeblock}
     nc -vt IP Address Port
 
-Are you able to connect, send commands to the service-daemon and receive responses? If so, that indicates that the program is accessible and your
-issue may be due to the way the client is trying to connect or how the service is configured to respond to the connection.
+If you can send commands to the service-daemon and receive responses, that indicates that the program is accessible and your issue may be due to the client's connection configuration.
 
-Once you've connected you may also need to send some information to the service to get a response. You might send a GET request to a web server, for example, or some other appropriate data before you'll receive a response from the service.
+Once you've connected, test the service to get a response. You can test the service by sending a _GET_ request to a web server, or some other appropriate data to prompt the server for a response.
 
 ### Closing the connection
 
-To close the connection you can either press Ctrl + C or type the service specific quit command.
+You can termintate the connection by either pressing `Ctrl + C`,  or type the service specific quit command.
 
-As an example, you can close a connection to an FTP server with the `QUIT` command:
+As an example, you can close a connection to a file transfer protocol _FTP_ server with the `QUIT` command:
 
     {.pre .codeblock}
     nc -vt 203.0.113.96 21
@@ -120,46 +118,43 @@ As an example, you can close a connection to an FTP server with the `QUIT` comma
 
 #### Commands rejected
 
-If nc reports success but does not allow you to send any commands or you
-get a response from the service-daemon reporting the service is not available, you may have tcp wrappers providing access control.
+If Nc reports success, but does not allow you to send any commands, or you get a response from the service-daemon reporting the service is not available, you may have transmission control protocol _tcp wrappers_ providing access control.
 
-An FTP service being blocked by tcp wrappers could look like this:
+An ftp service being blocked by tcp wrappers could look like this:
 
     {.pre .codeblock}
     nc -vt 203.0.113.96 21
     Connection to 203.0.113.96 21 port [tcp/ftp] succeeded!
     421 Service not available.
 
-If the program is compatible with tcp wrappers it will have been compiled with libwrap. To check if a program can make use of tcp
-wrappers use the following command:
+If the program is compatible with tcp wrappers it will have been compiled with libwrap. To check if a program can utilize tcp
+wrappers, use the following command:
 
     {.pre .codeblock}
     ldd /path/to/binary | grep libwrap
 
-In the following example the vsftpd program is checked for the libwrap
-shared library file.
+In the following example the vsftpd program is checked for the libwrap shared library file.
 
     {.pre .codeblock}
     ldd /usr/sbin/vsftpd | grep libwrap
     libwrap.so.0 => /lib64/libwrap.so.0 (0x00007f62c734a000)
 
-If the program is not compatible with tcp wrappers grep will not return anything.
+If the program is not compatible with tcp wrappers, grep will not return anything.
 
 #### Checking logs
 
-Whenever a connection is blocked it should be logged. Try checking the program's logs for relevant messages.
+A blocked connection produces a log entry. Check the program's logs for relevant messages.
 
-In the logs for vsftpd, found at /var/log/vsftpd.log, a blocked
-connection due to tcp wrappers looks like this:
+In the logs for vsftpd, found at /var/log/vsftpd.log, a blocked connection due to tcp wrappers looks like this:
 
     {.pre .codeblock}
     Tue Jun  7 16:14:21 2011 [pid 28599] CONNECT: Client "203.0.113.43", "Connection refused: tcp_wrappers denial."
 
 #### hosts.deny
 
-The /etc/hosts.deny file is where rules that block connections are defined. If you have troubke seeing an entry for your service in the file try using grep to search for it.
+The /etc/hosts.deny file establishes the definition for block connections. If you have trouble seeing an entry for your service in the file, use grep to search for it.
 
-Search the file for the program name
+Search the file for the program name by typing: 
 
     {.pre .codeblock}
     sudo grep "vsftpd" /etc/hosts.deny
@@ -167,12 +162,12 @@ Search the file for the program name
 
 Try commenting out any offending lines using a hash (\#). Changes to this file take effect automatically - no services need to be restarted.
 
-Note that tcp wrappers will allow a connection by default so if it is the cause of the issue there must be an entry in /etc/hosts.deny for the
-service. You could rename the file /etc/hosts.deny to temporarily remove all your deny rules e.g. "sudo mv /etc/hosts.deny /etc/hosts.deny.old".
-Please be aware that this will affect all applications that use tcp
-wrappers.
+Note that tcp wrappers will allow a connection by default, so if it is the cause of the issue there must be an entry in /etc/hosts.deny for the
+service. You could rename the file /etc/hosts.deny to temporarily remove all your deny rules e.g. `sudo mv /etc/hosts.deny /etc/hosts.deny.old`.
+Please be aware that this will affect all applications that use tcp wrappers.
 
 ### Further investigation
 
 If you have completed all the tests described above without identifying any issues that is a good indication that the service is running
 normally. The next step is to test the connectivity to the server by using ping and traceroute utilities.
+  
