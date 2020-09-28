@@ -11,7 +11,7 @@
 #
 #               ./newfiles.sh 2016-01-29 2016-04-05
 #
-# NOTE: Script assumes you are executing from within the scripts directory of
+# NOTE: Script assumes you are executing from within the script directory of
 #       your local H2 git repo.
 #
 # Process:
@@ -25,6 +25,7 @@
 # 7/10/17: remove criteria that create date and modified date must be the same
 # 6/5/20: fixed instructions and excluded non-article files.
 # 8/13/20: updated for new how-to repo
+# 9/28/20: fixed path to content directory and link to article
 
 
 # assign date arguments to variables
@@ -35,7 +36,7 @@ enddate=$2
 count=0
 
 # Go to content directory and loop through all 'md' filesi in sub dirs
-cd ../content/support/how-to
+cd ../content/how-to
 
 FILES=`find .  -type f -name '*md' -print`
 
@@ -59,8 +60,9 @@ do
 # pull file name and directory
      thefile=$(basename $f)
      thedir=$(dirname $f)
+     thearticle=$(basename $thedir)
      theroot="https://docs.rackspace.com/support/how-to/"
-     thepath=$theroot$thefile
+     thepath=$theroot$thearticle
      theoutput=$acdate";"$acby";"$thepath
 # print out all newly created files
      echo $theoutput
