@@ -51,7 +51,9 @@
   pretty = true
   skipPatterns = [
     "public/styles.min.*",
-    "https://*"
+    "https://cdn.*",
+    "https://code.*",
+    "https://stackpath.*",
   ]
   todoPatterns = ["https://*"]
   checkExternal = false

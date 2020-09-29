@@ -512,9 +512,9 @@
 
 # Plugin Redirects
  
-public/support  public  404
-public/support/how-to  404
-public/support/how-to/*  public/how-to/*  404
+public/support  public/  301
+public/support/how-to  public/how-to  301
+public/support/how-to/*  public/how-to/*  301
 
 # Main Redirects
 
