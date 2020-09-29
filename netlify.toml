@@ -64,7 +64,8 @@
   skipPatterns = [
     "public/support/how-to/*",
     "public/support",
-    "public/support/how-to"
+    "public/support/how-to",
+    "public/styles.min.*"
   ]
 
   # You can mark some check as todo, which will execute the check, but allow failures.
