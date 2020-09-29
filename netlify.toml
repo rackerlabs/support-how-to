@@ -53,6 +53,6 @@
     "public/styles.min.*",
     "https://*"
   ]
-  todoPatterns = []
+  todoPatterns = ["https://*"]
   checkExternal = false
   followSourceMaps = false
