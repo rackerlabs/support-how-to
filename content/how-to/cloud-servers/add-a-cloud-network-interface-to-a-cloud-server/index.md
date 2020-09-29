@@ -48,7 +48,7 @@ Use the following steps to install `nova` and the Cloud Networks extension on Ma
 
        $ nova list
 
-6. Display the netowrk information. Note the ID of your cloud network.
+6. Display the network information. Note the ID of your cloud network.
        
        $ nova network-list
 
