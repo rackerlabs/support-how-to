@@ -65,7 +65,8 @@
     "public/support/how-to/*",
     "public/support",
     "public/support/how-to",
-    "public/styles.min.*"
+    "public/styles.min.*",
+    "https://*"
   ]
 
   # You can mark some check as todo, which will execute the check, but allow failures.
