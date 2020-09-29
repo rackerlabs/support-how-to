@@ -62,7 +62,7 @@
   # from ever attempting to execute them.
   # skipPatterns is an array of strings you can match against failing reports
   skipPatterns = [
-    "/public/support/how-to/*",
+    "public/support/how-to/*",
     "public/support",
     "public/support/how-to"
   ]
