@@ -150,7 +150,7 @@ contentLoaded().then(() => {
    */
   SmoothScroll();
 
-  export function openTab(evt, tabName) {
+  function openTab(evt, tabName) {
     var i, x, tablinks;
     x = document.getElementsByClassName("product-type");
     for (i = 0; i < x.length; i++) {
