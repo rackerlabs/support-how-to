@@ -50,9 +50,6 @@
   recursive = true
   pretty = true
   skipPatterns = [
-    "public/support/how-to/*",
-    "public/support",
-    "public/support/how-to",
     "public/styles.min.*",
     "https://*"
   ]
