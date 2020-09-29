@@ -510,7 +510,15 @@
 
 /support/how-to/sign-up-for-rackspace-services/  /how-to/sign-up-for-rackspace-services/ 200
 
+# Plugin Redirects
+ 
+public/support  public  404
+public/support/how-to  404
+public/support/how-to/*  public/how-to/*  404
+
 # Main Redirects
 
 /support/how-to/*       /how-to/:splat      200
 # /how-to/*       /support/how-to/:splat      301
+
+
