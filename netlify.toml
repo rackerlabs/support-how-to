@@ -54,6 +54,9 @@
     "https://cdn.*",
     "https://code.*",
     "https://stackpath.*",
+    "public/support",
+    "public/support/how-to",
+    "public/support/how-to/*",
   ]
   todoPatterns = ["https://*"]
   checkExternal = false
