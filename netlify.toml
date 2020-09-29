@@ -55,6 +55,8 @@
     "public/support",
     "public/support/how-to",
     "public/support/how-to/*",
+    "https://code.*",
+    "https://stackpath.*"
   ]
   todoPatterns = []
   checkExternal = false
