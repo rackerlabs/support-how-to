@@ -40,22 +40,22 @@
   # don't launch browser automatically
   autoLaunch = false
 
-[[plugins]]
-  package = "netlify-plugin-checklinks"
+# [[plugins]]
+#   package = "netlify-plugin-checklinks"
 
-  [plugins.inputs]
-  entryPoints = [
-    "*.html",
-  ]
-  recursive = true
-  pretty = true
-  skipPatterns = [
-    "public/styles.min.*",
-    "https://*",
-    "public/support",
-    "public/support/how-to",
-    "public/support/how-to/*",
-  ]
-  todoPatterns = []
-  checkExternal = false
-  followSourceMaps = false
+#   [plugins.inputs]
+#   entryPoints = [
+#     "*.html",
+#   ]
+#   recursive = true
+#   pretty = true
+#   skipPatterns = [
+#     "public/styles.min.*",
+#     "https://*",
+#     "public/support",
+#     "public/support/how-to",
+#     "public/support/how-to/*",
+#   ]
+#   todoPatterns = []
+#   checkExternal = false
+#   followSourceMaps = false
