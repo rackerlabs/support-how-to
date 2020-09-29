@@ -510,11 +510,6 @@
 
 /support/how-to/sign-up-for-rackspace-services/  /how-to/sign-up-for-rackspace-services/ 200
 
-# Plugin Redirects
- 
-public/support  public/  301
-public/support/how-to  public/how-to  301
-public/support/how-to/*  public/how-to/*  301
 
 # Main Redirects
 
