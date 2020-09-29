@@ -1,4 +1,7 @@
-# Instructions for using this script are available at https:// pages.github.rackspace.com/IX/writers-handbook/processes/support/how-to/scripts/list-audited-articles.html
+# Instructions for using this script are available at https://pages.github.rackspace.com/IX/writers-handbook/processes/how-to/scripts/list-audited-articles.html
+# Sample call: python audits.py 2018-05-01 2018-05-31
+# NOTE: Program assumes you are executing from within the script directory of
+#       your local H2 git repo.
 
 import os
 import sys
@@ -10,7 +13,7 @@ workbook = xlsxwriter.Workbook('../files/h2-audits.xlsx')
 worksheet = workbook.add_worksheet()
 
 # Set global variables
-dir = "../content/support/how-to/"
+dir = "../content/how-to/"
 info = ([])
 first_arg = sys.argv[1]
 second_arg = sys.argv[2]
@@ -31,10 +34,12 @@ def filter_files(start_date=first_arg, end_date=second_arg):
             # construct the path for each file
             path = root + "/" + file
             # skip files that aren't relevant
-            if ("all.md" in path or "index.md" in path or "retired-" in path
+            if ("all.md" in path or "_index.md" in path or "retired-" in path
                     or "png" in path or "jpg" in path or "svg" in path or "jpeg" in path
                     or "PNG" in path or "JPG" in path or "SVG" in path or "JPEG" in path
-                    or "DS_Store" in path or "cloud-queues" in path or len(path) < 11):
+                    or "mov" in path or "ods" in path or "MOV" in path or "ODS" in path
+                    or "DS_Store" in path or "cloud-queues" in path or len
+                    (path) < 11):
                 continue
             else:
                 # open the file and read the content
@@ -47,8 +52,7 @@ def filter_files(start_date=first_arg, end_date=second_arg):
                     # set the audit_date variable (as the 3rd list item in
                     # "lines")
                     audit_date = lines[2]
-                    # print("path: " + path)
-                    # print("audit date " + audit_date)
+                    #print("path: " + path)
                     # if the line at index 2 isn't a date, skip
                     if len(audit_date) < 13 or "-" not in audit_date:
                         continue
@@ -64,6 +68,7 @@ def filter_files(start_date=first_arg, end_date=second_arg):
                             # convert audit_date_slice to date format
                             # print("audit date slice: " + audit_date_slice)
                             audit_date_final = datetime.datetime.strptime(audit_date_slice,'%Y-%m-%d').date()
+                            #print(audit_date_final)
                         # if the index value is out of range, print the name
                         # of the offending file to get more info & correct
                         # the issue
@@ -77,15 +82,21 @@ def filter_files(start_date=first_arg, end_date=second_arg):
                             # Create the published link for the file
                             # First, convert the file name to a list and strip
                             # the .md file extension from it
-                            file = list(file)
-                            del file[-1:-4:-1]
+                            #file = list(file)
+                            #del file[-1:-4:-1]
                             # Then, join the rest of the file name back
                             # together
-                            file = "".join(file)
+                            #file = "".join(file)
 
-                            # Create the link for each file
-                            link = "https://docs.rackspace.com/support/how-to/" \
-                                   + file + "/"
+                            # Get the last directory of the root, which should be the # article folder, which is also it's name
+                            #print root
+                            if os.path.isdir(root):
+                                articlefolder = os.path.basename(root)
+
+                            # Compose the link for each file
+                            #link = "https://docs.rackspace.com/support/how-to/" + file + "/"
+                            link = "https://docs.rackspace.com/support/how-to/" + articlefolder + "/"
+
                             # Append the file name and link to "info"
                             info.append([audit_date_slice, path, link])
                             # Increment the counter

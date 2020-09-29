@@ -1,7 +1,7 @@
 ---
-permalink: spam-preferences-safelist-and-blacklist-management-for-microsoft-exchange/
+permalink: spam-preferences-safelist-and-blocklist-management-for-microsoft-exchange/
 audit_date: '2019-02-20'
-title: 'Spam preferences, safelist, and blacklist management for Microsoft Exchange'
+title: 'Spam preferences, safelist, and blocklist management for Microsoft Exchange'
 type: article
 created_date: '2012-05-22'
 created_by: Rackspace Community
@@ -12,7 +12,7 @@ product_url: exchange
 ---
 
 You have the flexibility at Rackspace to set your own Microsoft&reg; Exchange spam
-preferences. This includes editing and managing domain-wide spam settings such as safelists, blacklists, and the ability to
+preferences. This includes editing and managing domain-wide spam settings such as safelists, Blocklists, and the ability to
 override the spam filtering for the entire domain.
 
 ### Manage domain spam settings
@@ -53,8 +53,6 @@ A safelist identifies sources of trusted email and ensure emails from those sour
 4. Add a domain name or email address to the safelist by entering the
    domain in the box labeled **Enter a domain or email address**, then click the **Add** button.
 
-   {{<image src="safelist_domain.png" alt="" title="">}}
-
    - Remove a domain or email address by selecting the name in the list, then
    clicking the **Remove** button.
 
@@ -66,8 +64,6 @@ A safelist identifies sources of trusted email and ensure emails from those sour
 
 5. Add an Internet Protocol (IP) address to the domain-wide safelist by entering the IP address in the box labeled **Enter an IP address (or range)** and then click the **Add** button.
 
-    {{<image src="safelist_ip.png" alt="" title="">}}
-
    - Remove an IP address by selecting the address in the list then clicking the **Remove** button.
 
    - Use the **Clear** button to remove all IP addresses listed in the window.
@@ -77,21 +73,18 @@ A safelist identifies sources of trusted email and ensure emails from those sour
 
 6. Click **Save**.
 
-### Managing blacklists
+### Managing Blocklists
 
-A blacklist identifies sources of untrusted email. Messages from blacklisted addresses or domains are rejected before being delivered.
+A Blocklist identifies sources of untrusted email. Messages from blocklisted addresses or domains are rejected before being delivered.
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
 
-2. Click **Blacklists** within the **Domain** section.
+2. Click **Blocklists** within the **Domain** section.
 
-3. If your account has multiple domains, select the domain for which you would like to edit the blacklist settings.
+3. If your account has multiple domains, select the domain for which you would like to edit the Blocklist settings.
 
-4. Add a domain name or email address to the blacklist by entering the
+4. Add a domain name or email address to the Blocklist by entering the
    domain in the box labeled **Enter a domain or email address**, then click the **Add** button.
-
-   {{<image src="blacklist_domain.png" alt="" title="">}}
-
 
    - Remove a domain or email address by selecting the name in the list, then
    click the **Remove** button.
@@ -99,17 +92,15 @@ A blacklist identifies sources of untrusted email. Messages from blacklisted add
    - Use the **Clear** button to remove all domain
    names or email addresses listed in the window.
 
-   - Add multiple domain names or email addresses to the blacklist by using the bulk import option to upload a .CSV file or a .TXT file containing the
+   - Add multiple domain names or email addresses to the Blocklist by using the bulk import option to upload a .CSV file or a .TXT file containing the
    information.
 
-5. To add an IP address to the blacklist, enter the IP address in the box labeled **Enter an IP address (or range)**, then select the **Add** button.
-
-   {{<image src="blacklist_ip.png" alt="" title="">}}
+5. To add an IP address to the Blocklist, enter the IP address in the box labeled **Enter an IP address (or range)**, then select the **Add** button.
 
    - Remove an IP address by selecting the address in the list, then clicking the **Remove** button.
 
    - Use the **Clear** button to remove all IP addresses listed in the window.
 
-   - Add multiple IP addresses to the blacklist by using the bulk import option to upload a .CSV file or a .TXT file containing the information.
+   - Add multiple IP addresses to the Blocklist by using the bulk import option to upload a .CSV file or a .TXT file containing the information.
 
 6. Click **Save**.

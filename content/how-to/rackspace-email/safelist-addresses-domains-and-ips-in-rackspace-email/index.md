@@ -24,11 +24,9 @@ For more information on prerequisite terminology, see [Cloud Office support term
 
 ### Why use a safelist?
 
-**Safelisting** an address creates a rule that moves any message flagged as spam from the address you safelisted to the **Inbox** so that you do not miss the message. If you need to **blacklist** a sender, see [Blacklist addresses, domains and IP addresses in Rackspace Email](/support/how-to/blacklist-addresses-domains-and-ip-addresses-in-rackspace-email).
+**Safelisting** an address creates a rule that moves any message flagged as spam from the address you safelisted to the **Inbox** so that you do not miss the message. If you need to **Blocklist** a sender, see [Blocklist addresses, domains and IP addresses in Rackspace Email](/support/how-to/blocklist-addresses-domains-and-ip-addresses-in-rackspace-email).
 
 **Warning:** Safelisting does not prevent a sender from being flagged as spam or from being blocked.
-
-If you would prefer a video tutorial see [Email Help - Blacklisting / Safelisting With Rackspace Email](https://emailhelp.rackspace.com/l/safelist-webmail).
 
 ### Safelist an email address or domain
 

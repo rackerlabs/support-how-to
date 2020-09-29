@@ -60,7 +60,7 @@ The subject line (Send $$$) should alert you immediately. The recipient should c
 
 In the message header snippet shown above, the **From:** field shows the message being sent from **"Assistant"\<assistant@yourdomainexample.com\>**. However, the **REPLY-TO:** field lists **spoofer@scam.com**, which is a clear example of a spoofed message.
 
-You should blacklist any address that you find in the **REPLY-TO**, **RETURN-PATH**, and **SOURCE IP** field that is not an email address or IP address from which you normally receive mail.
+You should Blocklist any address that you find in the **REPLY-TO**, **RETURN-PATH**, and **SOURCE IP** field that is not an email address or IP address from which you normally receive mail.
 
 For more information on viewing and understanding email headers, see [View and read email headers in the Outlook Web App](/support/how-to/view-and-read-email-headers-in-owa).
 
@@ -68,7 +68,7 @@ For more information on viewing and understanding email headers, see [View and r
 
 User education is the first line of defense against these types of attacks. If a user receives a spoofed message, they should perform the following tasks:
 
- - Blacklist any email address or IP address listed in the **REPLY-TO**, **RETURN-PATH**, or **SOURCE IP** field that you have determined to be fraudulent. For instructions, see [Block senders in Outlook Web App](/support/how-to/block-senders-in-owa).
+ - Blocklist any email address or IP address listed in the **REPLY-TO**, **RETURN-PATH**, or **SOURCE IP** field that you have determined to be fraudulent. For instructions, see [Block senders in Outlook Web App](/support/how-to/block-senders-in-owa).
  - Immediately [change your email account password](/support/how-to/change-a-microsoft-exchange-mailbox-password) if you or your users provided that information at any point.
  - Alert all of your users to the situation.
 
