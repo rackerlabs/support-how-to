@@ -51,11 +51,11 @@
   pretty = true
   skipPatterns = [
     "public/styles.min.*",
-    "https://*",
     "public/support",
     "public/support/how-to",
     "public/support/how-to/*",
-    "404.html"
+    "404.html",
+    "index.html"
   ]
   todoPatterns = []
   checkExternal = false
