@@ -36,6 +36,9 @@
   "dotenv": "^8.2.0",
   "highlight.js": "^10.2.0",
   "instantsearch.js": "^4.8.1",
+  "jquery": "^3.5.1",
+  "moment": "^2.29.0",
+  "popper.js": "^1.16.1",
   "smoothscroll-polyfill": "^0.4.4"
  },
  "name": "support-how-to",
