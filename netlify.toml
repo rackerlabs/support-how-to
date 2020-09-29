@@ -51,9 +51,6 @@
   pretty = true
   skipPatterns = [
     "public/styles.min.*",
-    "https://cdn.*",
-    "https://code.*",
-    "https://stackpath.*",
     "https://*",
     "public/support",
     "public/support/how-to",
