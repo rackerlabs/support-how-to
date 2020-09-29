@@ -54,6 +54,7 @@
     "https://cdn.*",
     "https://code.*",
     "https://stackpath.*",
+    "https://*",
     "public/support",
     "public/support/how-to",
     "public/support/how-to/*",
