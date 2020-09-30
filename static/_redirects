@@ -519,6 +519,11 @@
 
 /support/how-to/sign-up-for-rackspace-services/  /how-to/sign-up-for-rackspace-services/ 200
 
+
+/support/how-to/resize-standard-and-general-purpose-servers/  /how-to/resize-standard-and-general-purpose-servers-1/  301
+
+/how-to/resize-standard-and-general-purpose-servers-1/ /support/how-to/resize-standard-and-general-purpose-servers-1/ 301
+
 # Main Redirects
 
 /support/how-to/*       /how-to/:splat      200
