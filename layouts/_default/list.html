@@ -1,18 +1,33 @@
 {{- define "main" -}}
-<main class="blog-list-wrapper">
-  <div class="row">
-    <div class="col-sm-12">
-      {{- partial "components/headline" . -}}
+<main id="post-container" class="how-to-wrapper">
+    {{- partial "components/search-modal" . -}}
+    {{- partial "components/announcement" . -}}
+    {{- if or (eq .Params.Type "product") (eq .Params.Type "article") -}}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-2 col-lg-2">
+                {{- partial "components/sidebar-account" . -}}
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-9 account-content" id="account-content">
+                <h2 class="less-margin">{{ .Params.Title }}</h2>
+                <div class="row account-meta">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <p>Last updated on: &nbsp; {{ .Params.Last_modified_date }}</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <p>Authored by: &nbsp;  {{ .Params.Created_by }}</p>
+                    </div>
+                </div>
+                {{ .Content }}
+                {{- partial "components/share-bar" . -}}
+                {{- partial "components/cta/basic" . -}}
+                {{- partial "components/legal-footer" . -}}
+            </div>
+        </div>
     </div>
-    <div class="col-sm-12">
-      {{- partial "components/announcement" . -}}
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row section-blog-list">
-      <div class="col-sm-12 col-md-10 col-lg-10">
-      </div>
-    </div>
-  </div>
+    {{- else -}}
+    {{ .Content }}
+    {{- end -}}
 </main>
 {{- end -}}
+

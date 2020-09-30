@@ -1,1 +1,519 @@
-/getLatestKialiOperator https://raw.githubusercontent.com/kiali/kiali-operator/master/deploy/deploy-kiali-operator.sh
+# Redirects
+
+# Main Redirects
+
+/support       /      200
+/support/how-to/       /how-to/     200
+
+# Retired Articles
+
+/support/how-to/cloud-storage-app-for-microsoft-sharepoint-accessing-cloud-files-containers/  /how-to/article-retired/ 404
+/support/how-to/cloud-storage-app-for-microsoft-sharepoint-browser-compatibility-matrix/  /how-to/article-retired/ 404
+/support/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-add-and-delete-files-in-a-container/  /how-to/article-retired/ 404
+/support/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-remove-your-credentials-from-the-app/  /how-to/article-retired/ 404
+/support/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-set-up-credentials-to-access-cloud-files/  /how-to/article-retired/ 404
+/support/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-share-a-file-with-another-person/  /how-to/article-retired/ 404
+/support/how-to/cloud-storage-app-for-microsoft-sharepoint-overview/  /how-to/article-retired/ 404
+/support/how-to/determine-if-your-server-is-a-first-generation-cloud-server/  /how-to/article-retired/ 404
+/support/how-to/first-generation-to-next-generation-cloud-server-migration-faq/  /how-to/article-retired/ 404
+/support/how-to/first-gen-to-next-gen-cloud-servers-migration-pre-checks/  /how-to/article-retired/ 404
+/support/how-to/first-generation-cloud-servers-sample-code/  /how-to/article-retired/ 404
+/support/how-to/add-another-wordpress-site-to-an-existing-cloud-orchestration-stack/  /how-to/article-retired/ 404
+/support/how-to/first-generation-end-of-life-migrations/  /how-to/article-retired/ 404
+/support/how-to/migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/  /how-to/article-retired/ 404
+/support/how-to/next-generation-cloud-servers-migration-considerations-and-options/  /how-to/article-retired/ 404
+/support/how-to/permissions-matrix-for-first-generation-cloud-servers/  /how-to/article-retired/ 404
+/support/how-to/use-a-custom-kernel-with-pv-grub/  /how-to/article-retired/ 404
+/support/how-to/migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services/  /how-to/article-retired/ 404
+/support/how-to/use-enum-metrics/  /how-to/article-retired/ 404
+/support/how-to/rackspace-private-cloud-software-package-update-20-march-2013/  /how-to/article-retired/ 404
+/support/how-to/rackspace-private-cloud-spheres-of-support/  /how-to/article-retired/ 404
+/support/how-to/detailed-permissions-matrix-for-cloud-big-data/ /how-to/article-retired/ 404
+/support/how-to/rackspace-private-cloud-partner-devices/  /how-to/article-retired/ 404
+/support/how-to/bare-metal-to-rackspace-private-cloud/  /how-to/article-retired/ 404
+/support/how-to/building-a-rackspace-private-cloud-with-linux-iscsi-volumes/  /how-to/article-retired/ 404
+/support/how-to/compute-cloud-nova-using-seamicro-sm15000/  /how-to/article-retired/ 404
+/support/how-to/installing-and-testing-cinder-in-your-rackspace-private-cloud-lab-environment/  /how-to/article-retired/ 404
+/support/how-to/object-storage-swift-in-a-rack-with-amds-seamicro-sm15000/  /how-to/article-retired/ 404
+/support/how-to/private-cloud-certified-devices-compute/  /how-to/article-retired/ 404
+/support/how-to/private-cloud-tech-resources/  /how-to/article-retired/ 404
+/support/how-to/rackspace-private-cloud-software-vm-block-migration/  /how-to/article-retired/ 404
+/support/how-to/using-commvault-to-backup-data-in-rackspace-private-cloud/  /how-to/article-retired/ 404
+/support/how-to/synchronizing-files-to-cloud-files-with-fileconveyor/  /how-to/article-retired/ 404
+/support/how-to/openstack-glossary-of-terms/  /how-to/article-retired/ 404
+/support/how-to/managed-cloud-service-level-pricing/  /how-to/article-retired/ 404
+/support/how-to/creating-a-centos-65-image-for-the-rackspace-open-cloud/  /how-to/article-retired/ 404
+/support/how-to/migrating-your-drupal-database-to-cloud-servers/  /how-to/article-retired/ 404
+/support/how-to/adding-a-mobile-sync-license/  /how-to/article-retired/ 404
+/support/how-to/delete-a-server/  /how-to/article-retired/ 404
+/support/how-to/close-your-rackspace-account/  /how-to/article-retired/ 404
+/support/how-to/rackconnect-power-users-guide/  /how-to/article-retired/ 404
+/support/how-to/rackconnect-release-notes/  /how-to/article-retired/ 404
+/support/how-to/manually-configure-blackberry-10-devices-for-email-hosted-on-exchange-2010/  /how-to/article-retired/ 404
+/support/how-to/configuring-a-software-raid-on-a-linux-general-purpose-cloud-server/  /how-to/article-retired/ 404
+/support/how-to/cloud-server-name-transitions/  /how-to/article-retired/ 404
+/support/how-to/cloud-big-data/  /how-to/article-retired/ 404
+/support/how-to/cloud-big-data-faq/  /how-to/article-retired/ 404
+/support/how-to/cloud-big-data-platform-provisioning-and-pricing/  /how-to/article-retired/ 404
+/support/how-to/deploying-rackspace-cloud-big-data/  /how-to/article-retired/ 404
+/support/how-to/detailed-permissions-matrix-for-cloud-big-data-v2/  /how-to/article-retired/ 404
+/support/how-to/limits-for-cloud-big-data/  /how-to/article-retired/ 404
+/support/how-to/rackspace-cloud-big-data-service-glossary/  /how-to/article-retired/ 404
+/support/how-to/getting-data-into-your-big-data-cluster/  /how-to/article-retired/ 404
+/support/how-to/use-tableau-desktop-with-hive-on-cloud-big-data/  /how-to/article-retired/ 404
+/support/how-to/configure-cloud-feeds-archiving-in-the-cloud-control-panel/  /how-to/article-retired/ 404
+/support/how-to/security-for-rackspace-private-cloud-powered-by-openstack/  /how-to/article-retired/ 404
+/support/how-to/viewing-and-creating-graphs-of-activity-in-rackspace-intelligence-for-dedicated-accounts/  /how-to/article-retired/ 404
+/support/how-to/about-volume-types/  /how-to/article-retired/ 404
+/support/how-to/managed-dns-faq/  /how-to/article-retired/ 404
+/support/how-to/migrating-a-linux-server-from-the-command-line-2/  /how-to/article-retired/ 404
+/support/how-to/administrator-management-cloud-office-control-panel/  /how-to/article-retired/ 404
+/support/how-to/test-and-send-mail-using-php/  /how-to/article-retired/ 404
+/support/how-to/email-access-options-during-an-email-migration/  /how-to/article-retired/ 404
+/support/how-to/set-an-email-catch-all-address-in-the-cloud-office-control-panel/  /how-to/article-retired/ 404
+/support/how-to/sharepoint/  /how-to/article-retired/ 404
+/support/how-to/sharepoint-faq/  /how-to/article-retired/ 404
+/support/how-to/getting-started-with-rackspace-services-for-sharepoint/  /how-to/article-retired/ 404
+/support/how-to/how-to-install-the-rackspace-cloud-storage-app-for-microsoft-sharepoint/  /how-to/article-retired/ 404
+/support/how-to/upgrade-sharepoint-site-storage-cloud-office-control-panel/  /how-to/article-retired/ 404
+/support/how-to/ach-compliance-faq/  /how-to/article-retired/ 404
+/support/how-to/cloud-servers-how-to-articles-other-resources/  /how-to/article-retired/ 404
+/support/how-to/getting-started-with-the-rackspace-mobile-application-and-managing-accounts/  /how-to/article-retired/ 404
+/support/how-to/add-authorized-users-in-the-rackconnect-management-interface/  /how-to/article-retired/ 404
+/support/how-to/upcoming-deprecation-of-resource-rackspacecloudserver-for-cloud-orchestration/  /how-to/article-retired/ 404
+/support/how-to/using-automatic-and-manual-disk-partitioning-on-cloud-servers/  /how-to/article-retired/ 404
+/support/how-to/rackconnect-10-post-upgrade-faq/  /how-to/article-retired/ 404
+/support/how-to/upgrades-cloud-office-control-panel/  /how-to/article-retired/ 404
+/support/how-to/rackspace-cloud-essentials-rescue-mode-on-linux-cloud-servers/  /how-to/article-retired/ 404
+/support/how-to/rackspace-cloud-essentials-rescue-mode-on-windows-cloud-servers-behaviors/  /how-to/article-retired/ 404
+/support/how-to/rescue-mode-on-windows-servers/  /how-to/article-retired/ 404
+/support/how-to/upgrade-email-hosting-cloud-office-control-panel/  /how-to/article-retired/ 404
+/support/how-to/email-sorting-issues-on-ios-and-android-after-an-email-migration/  /how-to/article-retired/ 404
+/support/how-to/manually-configure-mac-mail-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 404
+/support/how-to/manually-configure-windows-phone-devices-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 404
+/support/how-to/manually-configure-outlook-2007-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 404
+/support/how-to/manually-configure-outlook-2010-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 404
+/support/how-to/manually-configure-entourage-ews-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 404
+/support/how-to/manually-configure-android-devices-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 404
+/support/how-to/manually-configure-outlook-2011-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 404
+/support/how-to/working-with-public-folders-through-outlook-for-exchange-2007-and-2010/  /how-to/article-retired/ 404
+/support/how-to/manually-configure-blackberry-10-devices-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 404
+/support/how-to/manually-configure-ios-devices-for-email-hosted-on-exchange-2007/  /how-to/article-retired/ 404
+/support/how-to/setting-up-imap-or-pop-windows-mail/  /how-to/article-retired/ 404
+/support/how-to/set-up-a-two-server-glusterfs-array/  /how-to/article-retired/ 404
+/support/how-to/moving-a-software-raid-cloud-block-storage-volume-from-one-cloud-server-to-another/  /how-to/article-retired/ 404
+/support/how-to/ubuntu-mod-rails-installation/  /how-to/article-retired/ 404
+/support/how-to/sdks-for-java-ruby-python-nodejs-php-and-microsoftnet/  /how-to/article-retired/ 404
+/support/how-to/using-the-private-ip-address-on-your-cloud-server/  /how-to/article-retired/ 404
+/support/how-to/rackconnect-image-validation-scripts/  /how-to/article-retired/ 404
+/support/how-to/windows-overview/  /how-to/article-retired/ 404
+/support/how-to/rackspace-referral-program/  /how-to/article-retired/ 404
+/support/how-to/email-migration-from-google/  /how-to/article-retired/ 404
+/support/how-to/set-access-rules-for-archive-end-users/  /how-to/article-retired/ 404
+/support/how-to/basic-cloud-server-use-scenarios/  /how-to/article-retired/ 404
+/support/how-to/configure-a-renamed-email-address-on-windows-phones/  /how-to/article-retired/ 404
+/support/how-to/php-opencloud-sdk-errors-due-to-outdated-certificate-authority-list/  /how-to/article-retired/ 404
+/support/how-to/build-a-new-cloud-server-with-automatic-updates-enabled/  /how-to/article-retired/ 404
+/support/how-to/create-an-email-archive-login-message/  /how-to/article-retired/ 404
+/support/how-to/business-email-101-an-8-step-guide-to-selecting-email-for-your-business/  /how-to/article-retired/ 404
+/support/how-to/manage-company-contacts-in-the-cloud-office-control-panel/  /how-to/article-retired/ 404
+/support/how-to/manually-configure-blackberry-enterprise-service-bes-for-email-hosted-on-exchange/  /how-to/article-retired/ 404
+/support/how-to/set-up-bis-blackberry-internet-service-with-exchange/  /how-to/article-retired/ 404
+/support/how-to/deleting-and-resending-blackberry-service-books-bes/  /how-to/article-retired/ 404
+/support/how-to/converting-your-server-from-pv-to-pvhvm/  /how-to/article-retired/ 404
+/support/how-to/cloud-native-security/  /how-to/article-retired/ 404
+/support/how-to/sample-ruby-application-for-cloud-files/  /how-to/article-retired/ 404
+/support/how-to/swift-filesystem-for-hadoop/  /how-to/article-retired/ 404
+/support/how-to/hosted-microsoft-lync-at-rackspace-deployment-guide/ /how-to/article-retired/ 404
+/support/how-to/sharepoint-all-articles/ /how-to/article-retired/ 404
+
+/how-to/article-retired/  /support/how-to/article-retired/   301
+
+# Specific 404 Redirects
+
+/support/how-to/managing-your-server-resizing-standard-and-general-purpose-servers/  /how-to/resize-standard-and-general-purpose-servers/  404
+/how-to/resize-standard-and-general-purpose-servers/  /support/how-to/resize-standard-and-general-purpose-servers/  301
+
+/support/how-to/centos-6-apache-and-php-install/  /how-to/centos-7-apache-and-php-install/ 404
+/how-to/centos-7-apache-and-php-install/  /support/how-to/centos-7-apache-and-php-install/  301
+
+/support/how-to/getting-started-with-role-based-access-control-rbac-0/  /how-to/getting-started-with-role-based-access-control-rbac/ 404
+/how-to/getting-started-with-role-based-access-control-rbac/  /support/how-to/getting-started-with-role-based-access-control-rbac/  301
+
+
+/support/how-to/cloud-monitoring/  /how-to/rackspace-monitoring/ 404
+/how-to/rackspace-monitoring/  /support/how-to/rackspace-monitoring/  301
+
+/support/how-to/generating-your-encrypted-key-in-cloud-backup/  /how-to/generate-your-encrypted-key-in-cloud-backup/ 404
+/how-to/generate-your-encrypted-key-in-cloud-backup/  /support/how-to/generate-your-encrypted-key-in-cloud-backup/  301
+
+/support/how-to/rackspace-auto-scale-overview-0/  /how-to/rackspace-auto-scale-overview/ 404
+/how-to/rackspace-auto-scale-overview/  /support/how-to/rackspace-auto-scale-overview/  301
+
+/support/how-to/getting-started-with-cloud-files-and-cdn-0/  /how-to/getting-started-with-cloud-files-and-cdn/ 404
+/how-to/getting-started-with-cloud-files-and-cdn/  /support/how-to/getting-started-with-cloud-files-and-cdn/  301
+
+/support/how-to/rackspace-private-cloud-backup-and-recovery/  /how-to/rpc-openstack/ 404
+/how-to/rpc-openstack/  /support/how-to/rpc-openstack/  301
+
+/support/how-to/rackspace-cloud-backup-overview/  /how-to/best-practices-for-cloud-backup/ 404
+/how-to/best-practices-for-cloud-backup/  /support/how-to/best-practices-for-cloud-backup/  301
+
+/support/how-to/rackspace-cloud-backup-preferences-0/  /how-to/rackspace-cloud-backup-preferences/ 404
+/how-to/rackspace-cloud-backup-preferences/  /support/how-to/rackspace-cloud-backup-preferences/  301
+
+/support/how-to/limits-for-rackspace-cdn/  /how-to/rackspace-cdn-faq/ 404
+/how-to/rackspace-cdn-faq/  /support/how-to/rackspace-cdn-faq/  301
+
+/support/how-to/alarm-language-generic-thresholds-made-easy/  /how-to/alarm-language-in-rackspace-monitoring/ 404
+/how-to/alarm-language-in-rackspace-monitoring/  /support/how-to/alarm-language-in-rackspace-monitoring/  301
+
+/support/how-to/general-purpose-cloud-servers-how-to-articles-and-other-resources/  /how-to/cloud-servers-how-to-articles-other-resources/ 404
+/how-to/cloud-servers-how-to-articles-other-resources/  /support/how-to/cloud-servers-how-to-articles-other-resources/  301
+
+/support/how-to/getting-fanatical-support-6-tickets/  /how-to/create-a-support-ticket-in-the-cloud-control-panel/ 404
+/how-to/create-a-support-ticket-in-the-cloud-control-panel/  /support/how-to/create-a-support-ticket-in-the-cloud-control-panel/  301
+
+/support/how-to/rackspace-cloud-essentials-what-are-your-name-servers/  /how-to/rackspace-name-servers/ 404
+/how-to/rackspace-name-servers/  /support/how-to/rackspace-name-servers/  301
+
+/support/how-to/installing-nginx-and-php-fpm-preface/  /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ 404
+/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  301
+
+/support/how-to/installing-nginx-and-php-fpm-running-on-unix-file-sockets/  /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ 404
+/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  301
+
+/support/how-to/installing-nginx-and-php-fpm-setup-for-nginx/  /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ 404
+/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  301
+
+/support/how-to/installing-nginx-and-php-fpm-setup-for-php-fpm/  /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ 404
+/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  301
+
+
+/support/how-to/installing-nginx-and-php-fpm-the-fun-begins/  /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ 404
+/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  301
+
+/support/how-to/installing-nginx-and-php-fpm/  /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ 404
+/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  301
+
+/support/how-to/test-php-smtp-functionality/  /how-to/test-and-send-mail-using-php/ 404
+/how-to/test-and-send-mail-using-php/  /support/how-to/test-and-send-mail-using-php/  301
+
+/support/how-to/sending-html-mail-via-php-in-cloud-sites/  /how-to/test-and-send-mail-using-php/ 404
+/how-to/test-and-send-mail-using-php/  /support/how-to/test-and-send-mail-using-php/  301
+
+/support/how-to/test-php-mail-functionality/  /how-to/test-and-send-mail-using-php/ 404
+/how-to/test-and-send-mail-using-php/  /support/how-to/test-and-send-mail-using-php/  301
+
+/support/how-to/deploying-rackspace-metrics/  /how-to/integrate-statsd-with-rackspace-metrics/ 404
+/how-to/integrate-statsd-with-rackspace-metrics/  /support/how-to/integrate-statsd-with-rackspace-metrics/  301
+
+/support/how-to/migrate-your-email-by-using-the-self-service-tool/  /how-to/migrate-your-email-by-using-the-self-service-migration-tool/ 404
+/how-to/migrate-your-email-by-using-the-self-service-migration-tool/  /support/how-to/migrate-your-email-by-using-the-self-service-migration-tool/  301
+
+/support/how-to/managing-cloud-databases-ha-groups-in-the-cloud-control-panel/  /how-to/manage-cloud-databases-ha-groups-in-the-cloud-control-panel/ 404
+/how-to/manage-cloud-databases-ha-groups-in-the-cloud-control-panel/  /support/how-to/manage-cloud-databases-ha-groups-in-the-cloud-control-panel/  301
+
+/support/how-to/how-to-serve-multiple-domains-using-virtual-hosts/  /how-to/serve-multiple-domains-by-using-virtual-hosts/ 404
+/how-to/serve-multiple-domains-by-using-virtual-hosts/  /support/how-to/serve-multiple-domains-by-using-virtual-hosts/  301
+
+/support/how-to/troubleshooting-alarms/  /how-to/troubleshooting-alerts/ 404
+/how-to/troubleshooting-alerts/  /support/how-to/troubleshooting-alerts/  301
+
+/support/how-to/upgrading-to-exchange-2013/  /how-to/upgrading-to-exchange-2016/ 404
+/how-to/upgrading-to-exchange-2016/  /support/how-to/upgrading-to-exchange-2016/  301
+
+/support/how-to/configuring-ms-sql-server-for-remote-access/  /how-to/troubleshoot-remote-access-to-sql-server/ 404
+/how-to/troubleshoot-remote-access-to-sql-server/  /support/how-to/troubleshoot-remote-access-to-sql-server/  301
+
+/support/how-to/rackspace-cloud-essentials-cloud-server-image-limitations/  /how-to/cloud-server-image-limitations/ 404
+/how-to/cloud-server-image-limitations/  /support/how-to/cloud-server-image-limitations/  301
+
+/support/how-to/upgrade-to-managed-operations-service-level/  /how-to/upgrade-to-the-managed-operations-service-level/ 404
+/how-to/upgrade-to-the-managed-operations-service-level/  /support/how-to/upgrade-to-the-managed-operations-service-level/  301
+
+/support/how-to/public-folder-permissions-for-exchange/  /how-to/public-folder-permissions-for-exchange-2007-and-2010/ 404
+/how-to/public-folder-permissions-for-exchange-2007-and-2010/  /support/how-to/public-folder-permissions-for-exchange-2007-and-2010/  301
+
+/support/how-to/items-migrated-during-an-cloud-office-migration/  /how-to/items-migrated-during-a-cloud-office-migration/ 404
+/how-to/items-migrated-during-a-cloud-office-migration/  /support/how-to/items-migrated-during-a-cloud-office-migration/  301
+
+/support/how-to/migrating-from-parse-to-rackspace/  /how-to/migrate-from-parse-to-rackspace/ 404
+/how-to/migrate-from-parse-to-rackspace/  /support/how-to/migrate-from-parse-to-rackspace/  301
+
+/support/how-to/accelerating-wordpress-with-cloud-files-cdn-and-the-w3-total-cache-plugin/  /how-to/configure-w3-total-cache-for-wordpress-with-rackspace-cloud-files-cdn/ 404
+/how-to/configure-w3-total-cache-for-wordpress-with-rackspace-cloud-files-cdn/  /support/how-to/configure-w3-total-cache-for-wordpress-with-rackspace-cloud-files-cdn/  301
+
+/support/how-to/cloud-servers-with-managed-operations-support-for-linux/  /how-to/linux-spheres-of-support-for-dedicated-and-managed-ops/ 404
+/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops/  /support/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops/  301
+
+/support/how-to/set-up-mobile-sync-for-webmail-on-ios-devices/  /how-to/set-up-mobile-sync/ 404
+/how-to/set-up-mobile-sync/  /support/how-to/set-up-mobile-sync/  301
+
+/support/how-to/before-you-move-to-general-purpose-or-io-cloud-server-checklist/  /how-to/considerations-for-migrating-to-a-general-purpose-or-io-cloud-server/ 404
+/how-to/considerations-for-migrating-to-a-general-purpose-or-io-cloud-server/  /support/how-to/considerations-for-migrating-to-a-general-purpose-or-io-cloud-server/  301
+
+/support/how-to/cloud-office-control-panel/  /how-to/cloud-office-control-panel-overview/ 404
+/how-to/cloud-office-control-panel-overview/  /support/how-to/cloud-office-control-panel-overview/  301
+
+/support/how-to/set-up-dns-records-for-cloud-office-email-and-skype-for-business/  /how-to/set-up-dns-records-for-cloud-office-email/ 404
+/how-to/set-up-dns-records-for-cloud-office-email/  /support/how-to/set-up-dns-records-for-cloud-office-email/  301
+
+/support/how-to/using-the-myrackspace-firewall-manager/  /how-to/firewall-manager-v2/ 404
+/how-to/firewall-manager-v2/  /support/how-to/firewall-manager-v2/  301
+
+/support/how-to/using-rbac-with-myrackspace/  /how-to/overview-role-based-access-control-rbac/ 404
+/how-to/overview-role-based-access-control-rbac/  /support/how-to/overview-role-based-access-control-rbac/  301
+
+/support/how-to/rackspace-cloud-backup-install-the-agent-on-linux/  /how-to/update-or-install-the-cloud-backup-agent-on-linux/ 404
+/how-to/update-or-install-the-cloud-backup-agent-on-linux/  /support/how-to/update-or-install-the-cloud-backup-agent-on-linux/  301
+
+/support/how-to/adding-microsoft-exchange-mailboxes/  /how-to/add-microsoft-exchange-mailboxes/ 404
+/how-to/add-microsoft-exchange-mailboxes/  /support/how-to/add-microsoft-exchange-mailboxes/  301
+
+/support/how-to/list-cloud-servers-and-cloud-server-information/  /how-to/view-information-about-available-cloud-servers/ 404
+/how-to/view-information-about-available-cloud-servers/  /support/how-to/view-information-about-available-cloud-servers/  301
+
+/support/how-to/viewing-basic-graphs-of-activity-in-rackspace-intelligence/  /how-to/view-basic-graphs-of-activity-in-rackspace-intelligence/ 404
+/how-to/view-basic-graphs-of-activity-in-rackspace-intelligence/  /support/how-to/view-basic-graphs-of-activity-in-rackspace-intelligence/  301
+
+/support/how-to/rackspace-email-mailbox-features/  /how-to/rackspace-email-control-panel-overview/ 404
+/how-to/rackspace-email-control-panel-overview/  /support/how-to/rackspace-email-control-panel-overview/  301
+
+/support/how-to/sitecore-cloud-faq/  /how-to/sitecore-managed-cloud-premium-faq/ 404
+/how-to/sitecore-managed-cloud-premium-faq/  /support/how-to/sitecore-managed-cloud-premium-faq/  301
+
+/support/how-to/rename-a-rackspace-email-mailbox/  /how-to/rename-a-rackspace-email-address/ 404
+/how-to/rename-a-rackspace-email-address/  /support/how-to/rename-a-rackspace-email-address/  301
+
+
+/support/how-to/what-is-managed-colocation-from-rackspace/  /how-to/traditional-colocation-vs-rackspace-managed-colocation/ 404
+/how-to/traditional-colocation-vs-rackspace-managed-colocation/  /support/how-to/traditional-colocation-vs-rackspace-managed-colocation/  301
+
+/support/how-to/cloud-hosting-vs-shared-hosting-vs-vps/  /how-to/comparison-of-hosting-methods/ 404
+/how-to/comparison-of-hosting-methods/  /support/how-to/comparison-of-hosting-methods/  301
+
+/support/how-to/when-is-managed-colocation-a-good-fit/  /how-to/using-managed-colocation/ 404
+/how-to/using-managed-colocation/  /support/how-to/using-managed-colocation/  301
+
+/support/how-to/why-do-you-need-my-vat-id-number/  /how-to/billing-services-overview/ 404
+/how-to/billing-services-overview/  /support/how-to/billing-services-overview/  301
+
+/support/how-to/outgoing-email-issue-on-android-phones/  /how-to/email-issue-on-android-phones/ 404
+/how-to/email-issue-on-android-phones/  /support/how-to/email-issue-on-android-phones/  301
+
+/support/how-to/supported-operating-systems/  /how-to/supported-operating-systems-and-browsers-in-rackspace-public-cloud/ 404
+/how-to/supported-operating-systems-and-browsers-in-rackspace-public-cloud/  /support/how-to/supported-operating-systems-and-browsers-in-rackspace-public-cloud/  301
+
+/support/how-to/supported-browsers/  /how-to/supported-operating-systems-and-browsers-in-rackspace-public-cloud/ 404
+/how-to/supported-operating-systems-and-browsers-in-rackspace-public-cloud/  /support/how-to/supported-operating-systems-and-browsers-in-rackspace-public-cloud/  301
+
+/support/how-to/update-billing-information-for-cloud-hosting/  /how-to/billing-services-overview/ 404
+/how-to/billing-services-overview/  /support/how-to/billing-services-overview/  301
+
+/support/how-to/detailed-invoices-overview/  /how-to/billing-services-overview/ 404
+/how-to/billing-services-overview/  /support/how-to/billing-services-overview/  301
+
+/support/how-to/managed-vmware-services/  /how-to/vmware-server-virtualization/ 404
+/how-to/vmware-server-virtualization/  /support/how-to/vmware-server-virtualization/  301
+
+/support/how-to/managed-vmware-services-faq/  /how-to/vmware-server-virtualization-faq/ 404
+/how-to/vmware-server-virtualization-faq/  /support/how-to/vmware-server-virtualization-faq/  301
+
+
+/support/how-to/general-information-cloud-office-control-panel/  /how-to/cloud-office-control-panel-overview/ 404
+/how-to/cloud-office-control-panel-overview/  /support/how-to/cloud-office-control-panel-overview/  301
+
+/support/how-to/choosing-a-virtualization-mode-pv-versus-pvhvm/  /how-to/converting-your-server-from-pv-to-pvhvm/ 404
+/how-to/converting-your-server-from-pv-to-pvhvm/  /support/how-to/converting-your-server-from-pv-to-pvhvm/  301
+
+/support/how-to/access-contents-of-a-first-generation-cloud-server-image/  /how-to/installing-mariadb-server-on-centos/ 404
+/how-to/installing-mariadb-server-on-centos/  /support/how-to/installing-mariadb-server-on-centos/  301
+
+/support/how-to/enable-email-archiving/  /how-to/enable-email-archiving-for-rackspace-email-and-hosted-exchange/ 404
+/how-to/enable-email-archiving-for-rackspace-email-and-hosted-exchange/  /support/how-to/enable-email-archiving-for-rackspace-email-and-hosted-exchange/  301
+
+/support/how-to/enable-email-archiving-cloud-office-control-panel/  /how-to/enable-email-archiving-for-rackspace-email-and-hosted-exchange/ 404
+/how-to/enable-email-archiving-for-rackspace-email-and-hosted-exchange/  /support/how-to/enable-email-archiving-for-rackspace-email-and-hosted-exchange/  301
+
+/support/how-to/ntegrate-rackspace-email-archiving-with-outlook/  /how-to/integrate-email-archiving-with-outlook/ 404
+/how-to/integrate-email-archiving-with-outlook/  /support/how-to/integrate-email-archiving-with-outlook/  301
+
+/support/how-to/add-rackspace-office-365-archiving/  /how-to/enable-email-archiving-for-office-365/ 404
+/how-to/enable-email-archiving-for-office-365/  /support/how-to/enable-email-archiving-for-office-365/  301
+
+/support/how-to/backup-your-mysql-database-with-phpmyadmin/  /how-to/managing-backups-for-cloud-databases/ 404
+/how-to/managing-backups-for-cloud-databases/  /support/how-to/managing-backups-for-cloud-databases/  301
+
+/support/how-to/create-dns-records-for-cloud-servers-with-the-control-panel/  /how-to/creating-dns-records-with-cloud-dns/ 404
+/how-to/creating-dns-records-with-cloud-dns/  /support/how-to/creating-dns-records-with-cloud-dns/  301
+
+/support/how-to/configuring-mysql-server-on-centos/  /how-to/configure-mariadb-server-on-centos/ 404
+/how-to/configure-mariadb-server-on-centos/  /support/how-to/configure-mariadb-server-on-centos/  301
+
+/support/how-to/deleting-your-server/  /how-to/delete-a-server/ 404
+/how-to/delete-a-server/  /support/how-to/delete-a-server/  301
+
+/support/how-to/reboot-your-server/  /how-to/reboot-a-server/ 404
+/how-to/reboot-a-server/  /support/how-to/reboot-a-server/  301
+
+/support/how-to/reset-your-server-password/  /how-to/reset-a-server-password/ 404
+/how-to/reset-a-server-password/  /support/how-to/reset-a-server-password/  301
+
+/support/how-to/managing-your-server-resizing-standard-and-general-purpose-servers/  /how-to/resize-standard-and-general-purpose-servers/ 404
+/how-to/resize-standard-and-general-purpose-servers/  /support/how-to/resize-standard-and-general-purpose-servers/  301
+
+/support/how-to/managing-my-server/  /how-to/manage-a-cloud-server/ 404
+/how-to/manage-a-cloud-server/  /support/how-to/manage-a-cloud-server/  301
+
+/support/how-to/managing-your-server/  /how-to/manage-a-cloud-server/ 404
+/how-to/manage-a-cloud-server/  /support/how-to/manage-a-cloud-server/  301
+
+/support/how-to/updating-servicenet-routes-on-cloud-servers-created-before-june-3-2013/  /how-to/updating-servicenet-routes-on-cloud-servers/ 404
+/how-to/updating-servicenet-routes-on-cloud-servers/  /support/how-to/updating-servicenet-routes-on-cloud-servers/  301
+
+/support/how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-2007/  /how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/ 404
+/how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/  /support/how-to/manually-configure-outlook-2013-for-email-hosted-on-exchange-2013/  301
+
+/support/how-to/install-ssl-certificates-on-windows-server-2008r2-and-2012/  /how-to/install-an-ssl-certificate/ 404
+/how-to/install-an-ssl-certificate/  /support/how-to/install-an-ssl-certificate/  301
+
+/support/how-to/upload-an-ssl-certificate-to-a-custom-domain/  /how-to/install-an-ssl-certificate/ 404
+/how-to/install-an-ssl-certificate/  /support/how-to/install-an-ssl-certificate/  301
+
+/support/how-to/installing-an-ssl-certificate-on-apache/  /how-to/install-an-ssl-certificate/ 404
+/how-to/install-an-ssl-certificate/  /support/how-to/install-an-ssl-certificate/  301
+
+/support/how-to/myrackspace-username-updates/  /how-to/myrackspace-login-and-username-updates/ 404
+/how-to/myrackspace-login-and-username-updates/  /support/how-to/myrackspace-login-and-username-updates/  301
+
+/support/how-to/generate-a-csr-with-openssl/  /how-to/generate-a-csr/ 404
+/how-to/generate-a-csr/  /support/how-to/generate-a-csr/  301
+
+/support/how-to/create-a-csr-in-the-cloud-control-panel/  /how-to/generate-a-csr/ 404
+/how-to/generate-a-csr/  /support/how-to/generate-a-csr/  301
+
+/support/how-to/update-an-existing-ssl-certificate/  /how-to/purchase-or-renew-an-ssl-certificate/ 404
+/how-to/purchase-or-renew-an-ssl-certificate/  /support/how-to/purchase-or-renew-an-ssl-certificate/  301
+
+/support/how-to/log-in-to-rackspace-intelligence-for-dedicated-accounts/  /how-to/getting-started-with-rackspace-intelligence-for-dedicated-accounts/ 404
+/how-to/getting-started-with-rackspace-intelligence-for-dedicated-accounts/  /support/how-to/getting-started-with-rackspace-intelligence-for-dedicated-accounts/  301
+
+/support/how-to/logging-in-to-the-rackspace-intelligence-dashboard/  /how-to/getting-started-with-rackspace-intelligence-for-the-cloud/ 404
+/how-to/getting-started-with-rackspace-intelligence-for-the-cloud/  /support/how-to/getting-started-with-rackspace-intelligence-for-the-cloud/  301
+
+/support/how-to/tls-ssl-encryption-cloud-office/  /how-to/rackspace-email-faq/ 404
+/how-to/rackspace-email-faq/  /support/how-to/rackspace-email-faq/  301
+
+/support/how-to/upgrade-a-cloud-databases-instance-from-mysql-51-to-mysql-56/  /how-to/upgrade-a-cloud-databases-instance-from-mysql-56-to-mysql-57/ 404
+/how-to/upgrade-a-cloud-databases-instance-from-mysql-56-to-mysql-57/  /support/how-to/upgrade-a-cloud-databases-instance-from-mysql-56-to-mysql-57/  301
+
+/support/how-to/logging-in-with-an-ssh-private-key-on-windows/  /how-to/log-into-a-linux-server-with-an-ssh-private-key-on-windows/ 404
+/how-to/log-into-a-linux-server-with-an-ssh-private-key-on-windows/  /support/how-to/log-into-a-linux-server-with-an-ssh-private-key-on-windows/  301
+
+/support/how-to/create-an-archive-login-message/  /how-to/create-an-email-archive-login-message/ 404
+/how-to/create-an-email-archive-login-message/  /support/how-to/create-an-email-archive-login-message/  301
+
+/support/how-to/administrator-management-cloud-office-control-panel/  /how-to/manage-email-administrators-with-the-cloud-office-control-panel/ 404
+/how-to/manage-email-administrators-with-the-cloud-office-control-panel/  /support/how-to/manage-email-administrators-with-the-cloud-office-control-panel/  301
+
+/support/how-to/rackspace-billing-faq/  /how-to/account-management-faq/ 404
+/how-to/account-management-faq/  /support/how-to/account-management-faq/  301
+
+/support/how-to/when-am-i-billed-for-my-account/  /how-to/account-management-faq/ 404
+/how-to/account-management-faq/  /support/how-to/account-management-faq/  301
+
+/support/how-to/faq-role-based-access-control-rbac/  /how-to/account-management-faq/ 404
+/how-to/account-management-faq/  /support/how-to/account-management-faq/  301
+
+/support/how-to/upgrading-to-exchange-2016/  /how-to/upgrading-your-exchange-version/ 404
+/how-to/upgrading-your-exchange-version/  /support/how-to/upgrading-your-exchange-version/  301
+
+/support/how-to/creating-an-ubuntu-1310-image-for-the-rackspace-open-cloud/  /how-to/cloud-image-creation-format-and-process/ 404
+/how-to/cloud-image-creation-format-and-process/  /support/how-to/cloud-image-creation-format-and-process/  301
+
+/support/how-to/hosted-microsoft-lync-at-rackspace-deployment-guide/  /how-to/hosted-microsoft-skype-at-rackspace-deployment-guide/ 404
+/how-to/hosted-microsoft-skype-at-rackspace-deployment-guide/  /support/how-to/hosted-microsoft-skype-at-rackspace-deployment-guide/  301
+
+/support/how-to/use-holland-and-cloud-backup-to-backup-databases-with-ubuntu/  /how-to/use-holland-and-cloud-backup-to-back-up-mysql-databases/ 404
+/how-to/use-holland-and-cloud-backup-to-back-up-mysql-databases/  /support/how-to/use-holland-and-cloud-backup-to-back-up-mysql-databases/  301
+
+/support/how-to/apache-configuration-on-ubuntu/  /how-to/configure-apache-on-the-ubuntu-operating-system/ 404
+/how-to/configure-apache-on-the-ubuntu-operating-system/  /support/how-to/configure-apache-on-the-ubuntu-operating-system/  301
+
+
+/support/how-to/configuring-mysql-server-on-ubuntu/  /how-to/configure-mysql-server-on-the-ubuntu-operating-system/ 404
+/how-to/configure-mysql-server-on-the-ubuntu-operating-system/  /support/how-to/configure-mysql-server-on-the-ubuntu-operating-system/  301
+
+
+
+/support/how-to/installing-mysql-server-on-ubuntu/  /how-to/install-mysql-server-on-the-ubuntu-operating-system/ 404
+/how-to/install-mysql-server-on-the-ubuntu-operating-system/  /support/how-to/install-mysql-server-on-the-ubuntu-operating-system/  301
+
+/support/how-to/set-up-apache-virtual-hosts-on-ubuntu/  /how-to/set-up-apache-virtual-hosts-on-the-ubuntu-operating-system/ 404
+/how-to/set-up-apache-virtual-hosts-on-the-ubuntu-operating-system/  /support/how-to/set-up-apache-virtual-hosts-on-the-ubuntu-operating-system/  301
+
+/support/how-to/set-up-sftp-users-in-rhel-centos-ubuntu-and-debian/  /how-to/set-up-sftp-users-in-linux-based-systems/ 404
+/how-to/set-up-sftp-users-in-linux-based-systems/  /support/how-to/set-up-sftp-users-in-linux-based-systems/  301
+
+/support/how-to/ubuntu-mongrel-and-mongrel-cluster-installation/  /how-to/install-mongrel-and-mongrel-clusters-on-the-ubuntu-operating-system/ 404
+/how-to/install-mongrel-and-mongrel-clusters-on-the-ubuntu-operating-system/  /support/how-to/install-mongrel-and-mongrel-clusters-on-the-ubuntu-operating-system/  301
+
+/support/how-to/how-to-install-a-lamp-stack-on-centos-fedora-or-red-hat/  /how-to/how-to-install-a-lamp-stack-on-rhel-6-based-distributions/ 404
+/how-to/how-to-install-a-lamp-stack-on-rhel-6-based-distributions/  /support/how-to/how-to-install-a-lamp-stack-on-rhel-6-based-distributions/  301
+
+/support/how-to/basic-cloud-server-security/  /how-to/configuring-basic-security/ 404
+/how-to/configuring-basic-security/  /support/how-to/configuring-basic-security/  301
+
+/support/how-to/basic-security-steps-for-linux/  /how-to/configuring-basic-security/ 404
+/how-to/configuring-basic-security/  /support/how-to/configuring-basic-security/  301
+
+/support/how-to/delete-a-cloud-server/  /how-to/shut-down-a-cloud-server/ 404
+/how-to/shut-down-a-cloud-server/  /support/how-to/shut-down-a-cloud-server/  301
+
+/support/how-to/integrate-rackspace-email-archiving-with-outlook/  /how-to/integrate-email-archiving-with-outlook/  404
+/how-to/integrate-email-archiving-with-outlook/  /support/how-to/integrate-email-archiving-with-outlook/  301
+
+/support/how-to/configure-a-renamed-email-address-configuration-for-windows-mobile-phone/  /how-to/configure-a-renamed-email-address-on-android-devices/  404
+/how-to/configure-a-renamed-email-address-on-android-devices/  /support/how-to/configure-a-renamed-email-address-on-android-devices/  301
+
+/support/how-to/cloudflare-faq/  /how-to/rms-cloudflare-faq/  404
+/how-to/rms-cloudflare-faq/  /support/how-to/rms-cloudflare-faq/  301
+
+/support/how-to/supported-features/  /how-to/cloudflare-supported-features/  404
+/how-to/cloudflare-supported-features/  /support/how-to/cloudflare-supported-features/  301
+
+/support/how-to/vmware-server-virt-faq/  /how-to/vmware-server-virtualization-faq/  404
+/how-to/vmware-server-virtualization-faq/  /support/how-to/vmware-server-virtualization-faq/  301
+
+/support/how-to/c-data-center-migration-customer-faq/  /how-to/smdc-data-center-migration-customer-faq/  404
+/how-to/smdc-data-center-migration-customer-faq/  /support/how-to/smdc-data-center-migration-customer-faq/  301
+
+/support/how-to/adding-microsoft-exchange-mailboxes-0/  /how-to/add-microsoft-exchange-mailboxes/  404
+/how-to/add-microsoft-exchange-mailboxes/  /support/how-to/add-microsoft-exchange-mailboxes/  301
+
+/support/how-to/spam-preferences-safe-lists-and-black-list-in-microsoft-exchange/  /how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email/  404
+/how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email/  /support/how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email/  301
+
+/support/how-to/alert-logic-faq/  /how-to/rms-alert-logic-faq/  404
+/how-to/rms-alert-logic-faq/  /support/how-to/rms-alert-logic-faq/  301
+
+/support/how-to/checking-for-a-security-compromise-rescue-mode-investigation/  /how-to/check-for-a-security-compromise-rescue-mode-investigation/  404
+/how-to/check-for-a-security-compromise-rescue-mode-investigation/  /support/how-to/check-for-a-security-compromise-rescue-mode-investigation/  301
+
+/how-to/create-your-first-website-on-cloud-servers-quickly/download/  /support/how-to/create-your-first-website-on-cloud-servers-quickly/download/  404
+
+
+/support/how-to/all  /support/how-to/  404
+
+#Individual Redirects
+
+/support/how-to/sign-up-for-rackspace-services/  /how-to/sign-up-for-rackspace-services/ 200
+
+
+# Main Redirects
+
+/support/how-to/*       /how-to/:splat      200
+# /how-to/*       /support/how-to/:splat      301
+
+

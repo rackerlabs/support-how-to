@@ -1,0 +1,7 @@
+{
+  "name": "support-how-to",
+  "version": "0.1.0",
+  "description": "Support How-Tos Site for Rackspace",
+  "private": true,
+  "main": "index.js"
+}
