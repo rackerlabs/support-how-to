@@ -26,9 +26,9 @@ This step redirects anyone trying to reach the old article link to the retired a
 
 1. Open **support-how-to/static/\_redirects** in your local How-To repository clone.
 
-2. In the **Retired Articles** section, add a 200 line similar to the following example:
+2. In the **Retired Articles** section, add a 404 line similar to the following example:
 
-       /support/how-to/use-a-custom-kernel-with-pv-grub/  /how-to/article-retired/ 200
+       /support/how-to/use-a-custom-kernel-with-pv-grub/  /how-to/article-retired/ 404
 
 3. Commit the changes and push them up to the branch where you retired the article to update the PR.
 
