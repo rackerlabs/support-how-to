@@ -1,7 +1,7 @@
 ---
-permalink: cloud-office-mfa-app-guide/
+permalink: set-up-multifactor-authentification-applications-for-cloud-office/
 audit_date: '2020-07-27'
-title: Multifactor Authentication App Setup
+title: Set up multifactor authentication applications for Cloud Office
 type: article
 created_date: '2020-07-27'
 created_by: Nicholas Ramirez
@@ -27,11 +27,11 @@ authentication when accessing their accounts. This second form of authentication
 is an extra layer of security and minimizes the chances of account compromise.
 
 MFA for both the Cloud Office Control Panel and Rackspace Email Webmail can use
-an authenticator app. When configuring MFA for the first time, users have the
+an authenticator application. When configuring MFA for the first time, users have the
 option to receive a Short Message Service (SMS) text message or use an authenticator
 app. You can use any Time-based One Time Password (TOTP) app. This article
 provides an overview of a few options that you can use and instructions for
-configuring your account on each.
+configuring your account for each application.
 
 **Warning:** These are third-party apps, which Rackspace doesn't own or support
 Use these apps at your discretion.
