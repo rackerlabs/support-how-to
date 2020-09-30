@@ -69,11 +69,11 @@ about options are provided.
 
 - **Filter Settings** - Control your domain spam settings or
     individual mailbox settings such as spam handling.
-- **Edit Blacklists** - Control domain or individual mailbox
-    blacklists settings.
+- **Edit Blocklists** - Control domain or individual mailbox
+    Blocklists settings.
 - **Edit Safelists** - Control domain or individual mailbox
-    blacklists settings.
-- **Blacklists / Safelists** - Search for users on blacklists
+    Blocklists settings.
+- **Blocklists / Safelists** - Search for users on Blocklists
     or safelists.
 
 #### Reports
@@ -131,11 +131,11 @@ are provided.
 
 - **Set Preferences** - Control your domain spam settings or
     individual mailbox settings such as spam handling.
-- **Edit Blacklists** - Control domain or individual mailbox
-    blacklists settings.
+- **Edit Blocklists** - Control domain or individual mailbox
+    Blocklists settings.
 - **Edit Safelists** - Control domain or individual mailbox
-    blacklists settings.
-- **Blacklists / Safelists** - Search for users on blacklists
+    Blocklists settings.
+- **Blocklists / Safelists** - Search for users on Blocklists
     or safelist.
 
 #### Tools

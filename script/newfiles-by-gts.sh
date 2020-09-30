@@ -25,6 +25,7 @@
 #       and author is a GTS Racker
 #
 # Updates:
+# 2020-09-28  corrected output article link
 
 
 # assign date arguments to variables
@@ -45,7 +46,7 @@ done < GTSmembers.txt
 count=0
 
 # Go to content directory and loop through all 'md' filesi in sub dirs
-cd ../content/support/how-to
+cd ../content/how-to
 
 FILES=`find .  -type f -name '*.md' -print`
 
@@ -79,9 +80,11 @@ do
        then
 # pull file name and directory
           thefilewx=$(basename $f)
+          thedir=$(dirname $f)
           thefile=${thefilewx%.*}
-          theroot="/support/how-to/"
-          thepath=$theroot$thefile
+          thearticle=$(basename $thedir)
+          theroot="https://docs.rackspace.com/support/how-to/"
+          thepath=$theroot$thearticle
           theoutput=$acdate";"$acby";"$thepath
 
 # print out all newly created files by GTS Rackers

@@ -121,7 +121,7 @@ options.
 
 **Block or Allow**
 
--   Junk Email Settings: Automatically filter junk email or move it to the junk folder; monitor and set up safelists and blacklists for incoming email.
+-   Junk Email Settings: Automatically filter junk email or move it to the junk folder; monitor and set up safelists and Blocklists for incoming email.
 
 {{<image src="OWA5.png" alt="" title="">}}
 
@@ -168,4 +168,4 @@ or stolen.
 
 #### Junk Email
 
-You can add recipients to a safelist or blacklist and determine where to move junk email.
+You can add recipients to a safelist or blocklist and determine where to move junk email.
