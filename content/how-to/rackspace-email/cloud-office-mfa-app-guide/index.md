@@ -38,7 +38,7 @@ Use these apps at your discretion.
 
 #### Microsoft Authenticator for iOS and Android
 
-Use the following steps to configure the Microsoft&reg; Authenticator&reg;
+Use the following steps to configure the `Microsoft&reg; Authenticator&reg;`
 mobile app for use with your Cloud Office Control Panel admin login:
 
 1. **Install** the `Microsoft Authenticator` app from the iOS App Store&reg; or
@@ -79,7 +79,7 @@ and entering your phone number.
 
 ### Google Authenticator for iOS and Android
 
-Use the following steps to configure the `Google Authenticator` mobile app for
+Use the following steps to configure the `Google&reg; Authenticator` mobile app for
 use with your Cloud Office Control Panel administrator login:
 
 1. **Install** the `Google Authenticator` app from the iOS App Store or the
@@ -147,11 +147,11 @@ Cloud Office Control Panel administrator login:
 6. Next, in the **Choose Your Multi-Factor Authentication Method** prompt,
    select the **Use an Authenticator** option and press **Continue**.
 
-7. Scan the QR code that appears with the Authy app. This automatically adds
+7. Scan the QR code that appears with the `Authy` app. This automatically adds
    your account to the list of available accounts in the authenticator app.
 
 8. Tap the account you just added to the authenticator app. Next, enter the
-   six-digit code displayed by the Authy app in the Cloud Office Control Panel
+   six-digit code displayed by the `Authy` app in the Cloud Office Control Panel
    field and select **Verify Code**.
 
 9. When the code verifies, a message appears stating that the multi-factor
@@ -159,8 +159,8 @@ Cloud Office Control Panel administrator login:
    begin performing administrative tasks within the Cloud Office Control Panel.
 
 **Note:** You can have a direct link to the app on the appropriate app store
-sent to your device by going to https://authy.com/download/ and entering your
-phone number.
+sent to your device by going to [https://authy.com/download/](https://authy.com/download/)
+and entering your phone number.
 
 ### Authy for Mac and PC
 
