@@ -1,4 +1,4 @@
-{{- $title := $.Site.Title | markdownify -}}
+{{- $title := .Title | markdownify -}}
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Accept-CH" content="DPR,Width,Viewport-Width" />
@@ -9,18 +9,37 @@
 <meta name="application-name" content="{{ $title }}" />
 <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
 <meta name="theme-color" content="#ffffff" />
-<meta name="description"
-  content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Description }}{{ end }} /">
-{{- with .Keywords -}}
-<meta name="keywords" content="{{ . }}" />
-{{- end -}}
+<meta name="description" content="{{ .Title }}">
+{{ if .Params.summary }}
+<meta name="summary" content="{{ .Params.summary }}">
+{{ else if .Site.Params.summary }}
+<meta name="summary" content="{{ .Site.Params.summary }}">
+{{ else }}
+<meta name="summary" content="{{ .Summary }}">
+{{ end }}
+{{ if .Params.keywords }}
+<meta name="keywords" content="{{ .Params.keywords }}">
+{{ else if .Site.Params.keywords }}
+<meta name="keywords" content="{{ .Site.Params.keywords }}">
+{{ end }}
+<!-- og meta tags -->
+<meta property="og:url" content="{{ .Site.BaseURL }}">
+{{ if .Params.description }}
+<meta property="og:description" content="{{ .Params.description }}">
+{{ else if .Site.Params.description }}
+<meta property="og:description" content="{{ .Site.Params.description }}">
+{{ end }}
+{{ if .Params.keywords }}
+<meta property="og:keywords" content="{{ .Params.keywords }}">
+{{ else if .Site.Params.keywords }}
+<meta property="og:keywords" content="{{ .Site.Params.keywords }}">
+{{ end }}
 {{- if eq (getenv "HUGO_ENV") "production" | or (eq $.Site.Params.env "production") -}}
 <meta name="robots" content="index, follow" />
 {{- else -}}
 <meta name="robots" content="noindex, nofollow" />
 {{- end -}}
-<meta name="google-site-verification" content="NzupxPrG-13nt5r02YyMoqdVRcwCM4Ccir8VWoDqBgU" />
-
+<title>{{ $title }}</title>
 {{ $style := resources.Get "styles.scss" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" emotion="🤩">
 <!-- Additional Styles for the App -->
