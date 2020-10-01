@@ -127,10 +127,7 @@ contentLoaded().then(() => {
           'created_by'
         ],
         attributesToRetrieve: [
-          '*',
-          'content:160',
-          'title',
-          'created_by'
+          '*'
         ]
       }),
       infiniteHits({
