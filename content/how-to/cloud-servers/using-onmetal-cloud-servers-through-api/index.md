@@ -1,12 +1,12 @@
 ---
 permalink: using-onmetal-cloud-servers-through-api/
-audit_date:
+audit_date: '2020-10-01'
 title: Manage OnMetal Cloud Servers through the API
 type: article
 created_date: '2014-07-24'
 created_by: Russell Haering
-last_modified_date: '2017-06-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-10-01'
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
