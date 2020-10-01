@@ -3,7 +3,7 @@ permalink: configuring-ip-security-in-iis/
 audit_date:
 title: Configuring IP Security in IIS
 type: article
-created_date: '2020-09-23’
+created_date: '2020-09-23'
 created_by: Karoline Mills
 last_modified_date:
 last_modified_by:
@@ -58,4 +58,4 @@ o	Not Found (Response code 404)
 
 All rules are processed in the order they are listed in IIS, from top to bottom. It is best practice to list the *deny* rules first. You can change the order at any time by clicking on **View Ordered List…** in the right-hand panel. Simply click on a rule and select **Move Up** or **Move Down**.
 
->**Note**: These rules can be applied to all sites or to specific sites. To add re-strictions  to all sites, select your server in the left-hand panel in IIS and dou-ble-click **IP and Domain Restrictions**. Rules that are specified here will apply to all sites within IIS. For site-specific rules, expand the **Sites** section in the left-hand panel and click on the desired site. Select **IP and Domain Re-strictions** to add new rules. You will see all applicable rules here, site-specific and IIS-wide.
+**Note**: These rules can be applied to all sites or to specific sites. To add re-strictions  to all sites, select your server in the left-hand panel in IIS and dou-ble-click **IP and Domain Restrictions**. Rules that are specified here will apply to all sites within IIS. For site-specific rules, expand the **Sites** section in the left-hand panel and click on the desired site. Select **IP and Domain Re-strictions** to add new rules. You will see all applicable rules here, site-specific and IIS-wide.
