@@ -51,7 +51,7 @@ The chassis is solid-state. We removed cooling fans and any spinning media from 
 
 -   I/O v2 flavor also has two Seagate Nytro XP6302 1.6 TB PCIe flash cards for extreme throughput to local storage. 
 
--   Cloud Block Storage can be attached to any OnMetal server instance (see[Attach a Cloud Block Storage volume to an OnMetal server](/support/how-to/attach-a-cloud-block-storage-volume-to-an-onmetal-server)). However, you can increase configuration speed by using available flash drives as data drives. See [Configure flash drives in High I/O instances as Data drives](/support/how-to/configure-flash-drives-in-high-io-instances-as-data-drives) for more information.
+-   Cloud Block Storage can be attached to any OnMetal server instance (see [Attach a Cloud Block Storage volume to an OnMetal server](/support/how-to/attach-a-cloud-block-storage-volume-to-an-onmetal-server)). However, you can increase configuration speed by using available flash drives as data drives. See [Configure flash drives in High I/O instances as Data drives](/support/how-to/configure-flash-drives-in-high-io-instances-as-data-drives) for more information.
 
 ### What sets OnMetal Cloud Servers apart from other cloud servers?
 
