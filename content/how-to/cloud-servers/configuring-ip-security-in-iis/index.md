@@ -45,25 +45,27 @@ If you cannot find the **IP and Domain Restrictions** module, install it by usin
 
 ### How to add and edit IP restrictions
 
-1. In IIS, double-click on the module **IP and Domain Restrictions**. You now have the option to add **allow** and **deny** entries, edit feature settings and edit dynamic restriction settings.
+1. In IIS, double-click on the module named **IP and Domain Restrictions**. You now have the option to add **allow** and **deny** entries, edit feature settings, and edit dynamic restriction settings.
 
 2. Click on **Edit Feature Settings…** to specify the following general settings that apply to all rules:
 
-    **Default behavior for all unspecified clients (allow or deny)**
+    **Default behavior for all unspecified clients (allow or deny)**:
 
-     - If this is set to allow, all IP addresses have access to the server unless specifically denied by a rule
+     - Setting to **allow** means all IP addresses have access to the server unless specifically denied by a rule.
 
-     - If this is set to deny, all IP addresses will be denied access to the serv-er unless specifically allowed by a rule. You will need to add an allow rule for  the loopback address 127.0.0.1 to browse sites locally on the server.
+     - Setting to **deny** blocks server access for all IP addresses unless specifically allowed by a rule. 
+     
+        **Note:** You must add an allow rule for the loopback address `127.0.0.1 to browse sites locally on the server.
 
-   **Enable domain name restrictions**
+   **Enable domain name restrictions**:
 
-     - If enabled, access can be restricted by domain names or IP addresses. This requires a DNS lookup for every request and can greatly impact server performance.
+     - You can restrict access by domain names or IP addresses if you enable this setting. This requires a DNS lookup for every request and can greatly impact server performance.
 
    **Enable Proxy Mode**
 
-     - If enabled, IIS will examine the x-forwarded-for HTTP header in addition to the client IP address in order to determine which requests to block. This can be  helpful if client requests come through a firewall, load balander or proxy server.
+     - If enabled, IIS examines the `x-forwarded-for` HTTP header in addition to the client IP address to determine which requests to block. This is helpful if client requests come through a firewall, load balander or proxy server.
 
-   **Deny action type sent to clients**
+   **Deny action type sent to clients**:
 
      - Abort (Response code 0)
 
@@ -73,6 +75,16 @@ If you cannot find the **IP and Domain Restrictions** module, install it by usin
 
      - Not Found (Response code 404)
 
-All rules are processed in the order they are listed in IIS, from top to bottom. It is best practice to list the *deny* rules first. You can change the order at any time by clicking on **View Ordered List…** in the right-hand panel. Simply click on a rule and select **Move Up** or **Move Down**.
+IIS rules process in order from top to bottom. It is best practice to list the **deny** rules first. You can change the order at any time by clicking on **View Ordered List…** in the right-hand panel. Simply click on a rule and select **Move Up** or **Move Down**.
 
-**Note**: These rules can be applied to all sites or to specific sites. To add re-strictions  to all sites, select your server in the left-hand panel in IIS and dou-ble-click **IP and Domain Restrictions**. Rules that are specified here will apply to all sites within IIS. For site-specific rules, expand the **Sites** section in the left-hand panel and click on the desired site. Select **IP and Domain Re-strictions** to add new rules. You will see all applicable rules here, site-specific and IIS-wide.
+### Add restrictions to all site
+
+Rules can be applied to all sites or to specific sites. Add restrictions to all sites by using the following steps:
+
+1. Select your server in the left-hand panel in IIS and double-click **IP and Domain Restrictions**. 
+
+2. Select rules that you want to apply to all sites within IIS. 
+
+3. For site-specific rules, expand the **Sites** section in the left-hand panel and click on the desired site. 
+
+4. Select **IP and Domain Re-strictions** to add new rules. You will see all applicable rules here, site-specific and IIS-wide.
