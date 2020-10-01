@@ -1,31 +1,25 @@
 ---
 permalink: prepare-to-migrate-a-linux-server/
-audit_date:
+audit_date: '2020-09-30'
 title: Prepare to migrate a Linux server
 type: article
 created_date: '2012-03-13'
 created_by: Jered Heeschen
-last_modified_date: '2015-12-31'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-09-30'
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article provides recommended actions that you can perform before
-you migrate your Linux server to mitigate common issues and optimize
-your server for a faster transition. These recommendations are based on
-common issues identified by our support technicians, but these are not
-mandatory. Some of these recommendations can cause significant downtime,
-so you should schedule them accordingly.
+This article provides recommended actions that before you migrate your Linux server to mitigate common issues in search of a fast transition. Our support technicians recommend these actions after identifying common issues. 
+
+**Warning** Some of these recommendations can cause significant downtime, schedule them accordingly.
 
 For Windows migration preparation, see [Prepare to migrate a Windows server](/support/how-to/prepare-to-migrate-a-windows-server).
 
 ### Back up your data
 
-Before you perform any migration, create a file-level backup of
-important data. You can use Rackspace Cloud Backup to automate the
-storing and retrieving of backup data from Cloud Files, or you can use
-rsync to copy your data to another server.
+Before you attempt any migration, create a backup of your important data. Use Rackspace Cloud Backup to automate the storing and retrieving of backup data from Cloud Files. You can also use rsync to copy your data to another server.
 
 -   [Rackspace Cloud Backup - Install the agent on Linux](/support/how-to/rackspace-cloud-backup-install-the-agent-on-linux)
 -   [Backing up your files with rsync](/support/how-to/backing-up-your-files-with-rsync)
