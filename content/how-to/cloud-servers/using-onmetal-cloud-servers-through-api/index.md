@@ -11,19 +11,15 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-OnMetal Cloud Servers enables you to boot bare metal servers via the
-Rackspace Cloud Servers API. Use the following steps to set up an
-OnMetal server through the API:
+You can use OnMetal Cloud Servers to start bare metal servers via the Rackspace Cloud Servers API. Follow these steps to set up an OnMetal server through the API:
 
 **Note:** For the parallel steps in the Cloud Control Panel, see [Create OnMetal Cloud Servers](/support/how-to/create-onmetal-cloud-servers).
 
 ### Set up the API client
 
-If you will be creating your OnMetal server through the API and do not
-yet have an OpenStack Nova API client set up, you must do so.
+Follow these steps to create your OnMetal server through the API, if you don't already have an OpenStack Nova API client set up.
 
-1.  Install [supernova](https://supernova.readthedocs.org/en/latest/) and
-    rackspace-novaclient via [pip](https://pip.pypa.io/en/latest/):
+1.  Install [supernova](https://supernova.readthedocs.org/en/latest/) and rackspace-novaclient via [pip](https://pip.pypa.io/en/latest/):
 
             pip install supernova rackspace-novaclient
 
@@ -45,26 +41,20 @@ yet have an OpenStack Nova API client set up, you must do so.
 **Note**: Be sure to set the appropriate values for the following
 parameters:
 
--   **OS\_USERNAME** Your Rackspace Cloud user name, which is the user
-    name that you use to log in to the Cloud Control Panel.
+-   **OS\_USERNAME** Your Rackspace Cloud username, which is the user name you use to log in to the **Cloud Control Panel**.
 -   **OS\_PASSWORD** Your Rackspace Cloud API key, which you can access
-    in the Cloud Control Panel by clicking **Account: *userName* &gt;
-    Account Settings**.
--   **OS\_TENANT\_NAME** Your Rackspace Cloud tenant ID, which is
-    displayed as your **Account \#** in the ***userName*** menu
-    of the Cloud Control Panel. Do not include the \#.
+    in the Cloud Control Panel by clicking **Account: *userName* &gt; Account Settings**.
+-   **OS\_TENANT\_NAME** Your Rackspace Cloud tenant ID, which is displayed as your **Account number** in the ***username*** menu of the Cloud Control Panel.
 
-**IMPORTANT:** OnMetal servers must be created using an SSH key pair.
-Thus, you should ignore the administrator password returned by a create
-server operation because it does not allow access to the OnMetal server.
+**IMPORTANT:** Use an SSH key pair to create OnMetal servers. Ignore the administrator password returned by a `create
+server` operation because it does not allow access to the OnMetal server.
 For information about generating SSH Keys, see [Manage SSH Key Pairs for
 Cloud Servers with
 python-novaclient](/support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
 
 ### Upload an SSH key pair
 
-OnMetal servers do not support password-based login, so you must upload
-an SSH key pair.
+OnMetal servers only allow an SSH key pair based login, they do not support password-based login.
 
     supernova iad keypair-add -pub-key <path to your public key> <public key name>
 
@@ -76,20 +66,19 @@ For information on generating SSH Keys, see [Manage SSH Key Pairs for
 Cloud Servers with
 python-novaclient](/support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
 
-### Boot your server
+### Start your server
 
-To boot your OnMetal server, choose an image (operating system) and a
-flavor (server size).
+To start your OnMetal server, choose an operating system (image) and a server size (flavor).
 
 #### Supported Images
 
 -   OnMetal - CentOS 7
 -   OnMetal - CentOS 6.5
-    **Note**: Run the CentOS 6.5 image only on a Linux Kernel release of
+    **Note**: Run the CentOS 6.5 image only on a Linux&reg; Kernel release of
     3.10 or higher, to avoid performance degradation.
--   OnMetal - Debian 7 (Wheezy)
+-   OnMetal - Debian 7&reg; (Wheezy)
 
-**Note**: Other images will be available soon.
+**Note**: Other operating systems (images) will be available soon.
 
 #### Supported Flavors
 
@@ -102,7 +91,7 @@ flavor (server size).
 
 ### Run the boot command
 
-Use the following command to boot your OnMetal server.
+Use the following command to start (boot) your OnMetal server.
 
     supernova iad boot --flavor <flavor ID> --image <image ID> --key-name <key name>
         <server name>
@@ -139,11 +128,10 @@ You should see output similar to the following example:
         | metadata | {} |
         +------------------------+--------------------------------------+
 
-**Note**: Although this output displays an admin password, this password
+**Note**: Although this output displays an administrator password, this password
 is not actually used. You can safely ignore it.
 
-The server should take about five minutes to build. You can check the
-status by running the following command:
+The server takes about five minutes to build. Check the status by running the following command:
 
     supernova iad show <instance id>
 
@@ -177,27 +165,22 @@ The output should look like the following example:
         | metadata | {} |
         +------------------------+--------------------------------------------------------------------+
 
-Within a few minutes, the server is assigned a public and private IP,
-which you can see in the output of the `show` command. After the status
-becomes `ACTIVE`, the server boots for the first time. The server will
-not be reachable, however, until the network configuration is complete,
-which may take another few minutes.
+After a few minutes, the server is assigned a public and private IP address. You can see
+them in the output of the `show` command. After the status becomes `ACTIVE`, the server boots for the first time. The server isn't reachable, until after a few minutes, when the network configuration is complete.
 
 ### Log in to the server
 
-After the server has booted, use the SSH key pair that you specified to
-log in to the server:
+After the server starts, use the SSH key pair that you specified to log in to the server:
 
-**Note:** The default user on Debian and CentOS is root.
+**Note:** The default user on Debian&reg; and CentOS&reg; is root.
 
     ssh root@<publicIPaddress>
 
 ### Delete the server
 
-If needed, you can also deleteor cancel the server.
+If you need to, you can also delete or cancel the server following these commands:
 
-1.  Run the following command, replacing the example ID with your
-    server's ID:
+1.  Execute the following command, replacing the example ID with your server's ID:
 
         supernova iad delete a8ea2366-9e50-4604-b6ce-e3edb8750451
 
@@ -205,7 +188,7 @@ If needed, you can also deleteor cancel the server.
 
         supernova iad list
 
-    The output should look similar ot the following example:
+    This is an example of what the output looks like:
 
             +--------------------------------------+---------+--------+------------+-------------+---------------------------------------------+
             | ID | Name | Status | Task State | Power State | Networks |
@@ -213,13 +196,9 @@ If needed, you can also deleteor cancel the server.
             | d1d58868-2b14-4fa5-b01f-e51d658556a8 | highcpu | ACTIVE | deleting | Running | public=23.253.157.105; private=10.184.0.105 |
             +--------------------------------------+---------+--------+------------+-------------+---------------------------------------------+
 
-**Note**: Your server goes in to the task state `deleting`. OnMetal
-server deletions take longer than virtual server deletions, usually a
-few minutes.
+**Note**: Your server goes in to the task state `deleting`. OnMetal server deletions take longer than virtual server deletions, usually a few minutes.
 
 ### Using OnMetal
 
-The flash cards included with the OnMetal I/O flavor are unformatted.
-You can format them however you like. For more information, see
-[Configure flash drives in High I/O instances as Data
-drives](/support/how-to/configure-flash-drives-in-high-io-instances-as-data-drives).
+The flash cards included with the OnMetal I/O flavor are unformatted. You can format them. For more information, see [Configure flash drives in High I/O instances as Data
+drives](/support/how-to/configure-flash-drives-in-high-io-instances-s-data-drives).
