@@ -1,12 +1,12 @@
 ---
 permalink: configuring-ip-security-in-iis/
-audit_date:
+audit_date: '2020-10-02'
 title: Configuring IP Security in IIS
 type: article
-created_date: '2020-09-23'
+created_date: '2020-10-02'
 created_by: Karoline Mills
-last_modified_date:
-last_modified_by:
+last_modified_date: '2020-10-02'
+last_modified_by: William Loy
 product: Cloud Servers
 product_url: cloud-servers
 ---
