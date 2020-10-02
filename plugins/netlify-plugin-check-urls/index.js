@@ -1,7 +1,7 @@
 const glob = require('glob');
 module.exports = {
     onPostBuild: () => {
-        await run.command(`
+        run.command(`
         grep -Eoi '<a [^>]+>' public/**/*.html |
         grep -Eo 'href="[^\"]+"' | 
         grep -Eo '(http|https)://[^/"]+' > urls.txt |
