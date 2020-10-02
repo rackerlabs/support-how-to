@@ -4,7 +4,7 @@ module.exports = {
         const grep = exec(`grep -Eoi '<a [^>]+>' public/**/*.html |
         grep -Eo 'href="[^\"]+"' | 
         grep -Eo '(http|https)://[^/"]+' > urls.txt |
-        go run checkUrls / checkUrls.go urls.txt`, function (error, stdout, stderr) {
+        go run checkUrls/checkUrls.go urls.txt`, function (error, stdout, stderr) {
             if (error) {
               console.log(error.stack);
               console.log('Error code: '+error.code);
