@@ -34,6 +34,7 @@
   "bootstrap": "^4.5.2",
   "content-loaded": "^1.2.1",
   "dotenv": "^8.2.0",
+  "glob": "^7.1.6",
   "highlight.js": "^10.2.0",
   "instantsearch.js": "^4.8.1",
   "jquery": "^3.5.1",
