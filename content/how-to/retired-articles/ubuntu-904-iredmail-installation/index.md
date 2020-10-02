@@ -7,8 +7,8 @@ created_date: '2011-03-15'
 created_by: Rackspace Support
 last_modified_date: '2016-01-13'
 last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+product: 
+product_url: 
 ---
 
 This tutorial will walk you through the process of installing the
