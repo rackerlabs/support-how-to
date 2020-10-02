@@ -1,7 +1,7 @@
-const glob = require('glob');
+const { exec } = require('child_process');
 module.exports = {
     onPostBuild: () => {
-        run.command(`
+        exec(`
         grep -Eoi '<a [^>]+>' public/**/*.html |
         grep -Eo 'href="[^\"]+"' | 
         grep -Eo '(http|https)://[^/"]+' > urls.txt |
