@@ -61,5 +61,5 @@
 #   checkExternal = false
 #   followSourceMaps = false
 
-[[plugins]]
-  package = "./plugins/netlify-plugin-check-urls"
+# [[plugins]]
+#   package = "./plugins/netlify-plugin-check-urls"
