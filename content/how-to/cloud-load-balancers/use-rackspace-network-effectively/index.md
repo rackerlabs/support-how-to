@@ -43,10 +43,6 @@ You can find all of the IP addresses for a Cloud Server, Cloud Load Balancer, or
  Cloud Database in the [Cloud Control Panel](https://login.rackspace.com) by
  selecting the device and viewing its details.
 
-The following image shows an example **Server Details** page:
-
-{{<image alt="Cloud Server Details" src="ServerDetails.png" title="Cloud Server Details">}}
-
 #### Related Information
 
 - [Learn More About Cloud
