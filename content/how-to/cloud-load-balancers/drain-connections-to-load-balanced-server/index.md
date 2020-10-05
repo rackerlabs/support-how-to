@@ -13,9 +13,9 @@ product_url: cloud-load-balancers
 
 Server *draining* redirects incoming calls and new connections from
 a specified server to other servers connected to the same load balancer.
-YOu can use draining to minimize service interruption when taking a server offline
+You can use draining to minimize service interruption when taking a server offline
 for maintenance. Sessions started before you put the server into draining status
-continue until completion.  When all sessions have ended, the system considerd the server
+continue until completion.  When all sessions have ended, the system considered the server
 to be drained and you can take it offline. The following steps help ensure
 minimal service interruption when removing a cloud server from an active load
 balancer.
