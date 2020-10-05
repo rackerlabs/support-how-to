@@ -45,9 +45,8 @@ selecting it and viewing its details.
 
 The following image shows an example **Server Details** page:
 
-{{<image alt="Cloud Server Details" src="ServerDetails.png" title="Cloud Server Details">}}
+{{<image src="ServerDetails.png" alt="Cloud Server Details" title="Cloud Server Details">}}
 
 #### Related Information
 
-- [Learn More About Cloud
-  Servers](/support/how-to/learn-more-about-cloud-servers)
+- [Learn More About Cloud Servers](/support/how-to/learn-more-about-cloud-servers)
