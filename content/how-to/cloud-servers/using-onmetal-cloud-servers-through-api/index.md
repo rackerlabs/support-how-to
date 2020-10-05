@@ -11,7 +11,8 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-You can use OnMetal Cloud Servers to start bare metal servers via the Rackspace Cloud Servers API. Follow these steps to set up an OnMetal server through the API:
+You can use OnMetal Cloud Servers to start bare metal servers by using the Rackspace Cloud Servers API. Follow these
+steps to set up an OnMetal server through the API.
 
 **Note:** For the parallel steps in the Cloud Control Panel, see [Create OnMetal Cloud Servers](/support/how-to/create-onmetal-cloud-servers).
 
@@ -24,9 +25,9 @@ Follow these steps to create your OnMetal server through the API, if you don't a
             pip install supernova rackspace-novaclient
 
 
-2.  After you have been granted access to OnMetal, configure supernova
+2.  After you have access to OnMetal, configure `supernova`
     to work with the Rackspace IAD region by adding the following
-    information to `~/.supernova`:
+    information to **~/.supernova**:
 
          [iad]
          OS_AUTH_URL=https://identity.api.rackspacecloud.com/v2.0/
@@ -41,20 +42,20 @@ Follow these steps to create your OnMetal server through the API, if you don't a
 **Note**: Be sure to set the appropriate values for the following
 parameters:
 
--   **OS\_USERNAME** Your Rackspace Cloud username, which is the user name you use to log in to the **Cloud Control Panel**.
--   **OS\_PASSWORD** Your Rackspace Cloud API key, which you can access
+-   **OS\_USERNAME**: Your Rackspace Cloud username, which is the user name you use to log in to the **Cloud Control Panel**.
+-   **OS\_PASSWORD**: Your Rackspace Cloud API key, which you can access
     in the Cloud Control Panel by clicking **Account: *userName* &gt; Account Settings**.
--   **OS\_TENANT\_NAME** Your Rackspace Cloud tenant ID, which is displayed as your **Account number** in the ***username*** menu of the Cloud Control Panel.
+-   **OS\_TENANT\_NAME**: Your Rackspace Cloud tenant ID, which displays as your **Account number** in the ***username*** menu of the Cloud Control Panel.
 
-**IMPORTANT:** Use an SSH key pair to create OnMetal servers. Ignore the administrator password returned by a `create
+**IMPORTANT:** Use a Secure Shell (SSH) key pair to create OnMetal servers. Ignore the administrator password returned by the `create
 server` operation because it does not allow access to the OnMetal server.
 For information about generating SSH Keys, see [Manage SSH Key Pairs for
-Cloud Servers with
-python-novaclient](/support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
+Cloud Servers with python-novaclient](/support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
 
 ### Upload an SSH key pair
 
-OnMetal servers only allow an SSH key pair based login, they do not support password-based login.
+OnMetal servers only allow an SSH key pair based login, and they do not support password-based login. Use the
+following command syntax to upload your SSH key pair:
 
     supernova iad keypair-add -pub-key <path to your public key> <public key name>
 
@@ -62,9 +63,8 @@ For example:
 
     supernova iad keypair-add --pub-key ~/.ssh/id_rsa.pub Russell
 
-For information on generating SSH Keys, see [Manage SSH Key Pairs for
-Cloud Servers with
-python-novaclient](/support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
+For information on generating SSH key pairs, see [Manage SSH Key Pairs for
+Cloud Servers with python-novaclient](/support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient).
 
 ### Start your server
 
@@ -72,13 +72,13 @@ To start your OnMetal server, choose an operating system (image) and a server si
 
 #### Supported Images
 
--   OnMetal - CentOS 7
+-   OnMetal - CentOS&reg; 7
 -   OnMetal - CentOS 6.5
     **Note**: Run the CentOS 6.5 image only on a Linux&reg; Kernel release of
     3.10 or higher, to avoid performance degradation.
 -   OnMetal - Debian 7&reg; (Wheezy)
 
-**Note**: Other operating systems (images) will be available soon.
+**Note**: Rackspace adds other operating system images when they are ready.
 
 #### Supported Flavors
 
@@ -91,7 +91,7 @@ To start your OnMetal server, choose an operating system (image) and a server si
 
 ### Run the boot command
 
-Use the following command to start (boot) your OnMetal server.
+Use the following command to start (boot) your OnMetal server:
 
     supernova iad boot --flavor <flavor ID> --image <image ID> --key-name <key name>
         <server name>
@@ -135,7 +135,7 @@ The server takes about five minutes to build. Check the status by running the fo
 
     supernova iad show <instance id>
 
-The output should look like the following example:
+The output should look similar to the following example:
 
         +------------------------+--------------------------------------------------------------------+
 
@@ -188,7 +188,7 @@ If you need to, you can also delete or cancel the server following these command
 
         supernova iad list
 
-    This is an example of what the output looks like:
+    You should see output similar to the following example:
 
             +--------------------------------------+---------+--------+------------+-------------+---------------------------------------------+
             | ID | Name | Status | Task State | Power State | Networks |
@@ -196,9 +196,9 @@ If you need to, you can also delete or cancel the server following these command
             | d1d58868-2b14-4fa5-b01f-e51d658556a8 | highcpu | ACTIVE | deleting | Running | public=23.253.157.105; private=10.184.0.105 |
             +--------------------------------------+---------+--------+------------+-------------+---------------------------------------------+
 
-**Note**: Your server goes in to the task state `deleting`. OnMetal server deletions take longer than virtual server deletions, usually a few minutes.
+**Note**: Your server goes into the task state `deleting`. OnMetal server deletions take longer than virtual server deletions, usually a few minutes.
 
 ### Using OnMetal
 
-The flash cards included with the OnMetal I/O flavor are unformatted. You can format them. For more information, see [Configure flash drives in High I/O instances as Data
+The flashcards included with the OnMetal I/O flavor are unformatted, but you can format them. For more information, see [Configure flash drives in High I/O instances as Data
 drives](/support/how-to/configure-flash-drives-in-high-io-instances-s-data-drives).
