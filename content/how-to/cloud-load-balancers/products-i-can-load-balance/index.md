@@ -1,7 +1,7 @@
 ---
-permalink: products-i-can-load-balance/
+permalink: products-you-can-load-balance/
 audit_date: '2020-10-02'
-title: Products I can load balance
+title: Products you can load balance
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
