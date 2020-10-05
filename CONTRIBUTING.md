@@ -249,11 +249,20 @@ For instructions on retiring an article, see [https://github.com/rackerlabs/supp
 
 #### Redirect an article
 
-If you rename an article for any reason, you should add a redirect from the old
-name to the new name. If you retire an article, you should redirect the old name
-to the *retired article* page.
+If you retire an article, you should redirect the old name to the *retired article* page. See [https://github.com/rackerlabs/support-how-to/blob/master/content/how-to/retired-articles/RETIRING-CONTENT/index.md](https://github.com/rackerlabs/support-how-to/blob/master/content/how-to/retired-articles/RETIRING-CONTENT/index.md)
 
-To redirect an article, edit the [static/_redirects page](https://github.com/rackerlabs/support-how-to/blob/master/static/_redirects).
+To redirect an article to a different article (or to the same article with a new name), use the following instructions:
+
+1. Either in your local How-To repository clone or in the Github GUI, edit **support-how-to/static/\_redirects**.
+
+2. In the **Individual Redirects** section, add a `301` and a `404` line similar to the following example:
+
+       /support/how-to/supported-features/  /how-to/cloudflare-supported-features/  404
+       /how-to/cloudflare-supported-features/  /support/how-to/cloudflare-supported-features/  301
+
+3. Commit the changes and either create a new PR or push to an existing PR with related changes.
+
+After the pull request is ready, post a link in the #how-to slack channel for review and merge.
 
 ### Writing guidelines
 
