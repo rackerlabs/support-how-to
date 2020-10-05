@@ -1,7 +1,7 @@
 ---
-permalink: serving-your-domain-from-a-rackspace-cloud-server/
+permalink: serve-your-domain-from-a-rackspace-cloud-server/
 audit_date: '2020-10-05'
-title: Serving Your Domain From a Rackspace Cloud Server
+title: Serve Your Domain From a Rackspace Cloud Server
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
