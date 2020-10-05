@@ -13,7 +13,7 @@ product_url: cloud-load-balancers
 
 You can load balance incoming traffic to your domain by using Cloud Load
 Balancers. Suppose you initially have one Cloud Server with a domain pointing to
-the public Internet Protocol (IP) address of the server. Then traffic to your
+the server's public Internet Protocol (IP) address. Then traffic to your
 domain starts picking up and suddenly overloads your server. To improve traffic
 flow, you can create a clone of the server and then put both servers behind a
 new load balancer. Instead of pointing your domain directly to the old server,
@@ -32,8 +32,7 @@ Use the following steps to point an existing domain to a load balancer:
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
 2. In the top navigation bar, click **Select a Product > Rackspace Cloud**.
 3. Select **Networking** > **Load Balancers**.
-4. Click on an existing load balancer to see the **Load Balancer
-    Details**.
+4. Click on an existing load balancer to see the **Load Balancer Details**.
 
     **Note**: Take note of the load balancer's IP address. You will need it in a later
     step.
