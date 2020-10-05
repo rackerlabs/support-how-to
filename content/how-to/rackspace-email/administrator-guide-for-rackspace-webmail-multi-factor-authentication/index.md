@@ -38,8 +38,8 @@ Control Panel:
 3. **Off**: The user doesn't have the option to set up multi-factor
    authentication.
 
-The default setting is **Off** and it is applied to all new domains.
-Multi-factor authentication must be configured for each individual domain. The
+The default setting is **Off**, and it applies to all new domains. You must
+configure multi-factor authentication for each individual domain. The
 settings don't cascade from the parent domain to child domains.
 
 ### Manage multi-factor authentication settings
@@ -52,10 +52,10 @@ Use the following steps to manage multi-factor authentication for your domains:
    If you have multiple domains in your account, you must select the domain for
    which you want to manage multi-factor authentication.
 
-3. In the left-side menu click **Settings**, and then click
+3. In the left-side menu, click **Settings** and then click
    **Webmail Settings**.
-4. In the Admin-Only Settings section, select the desired multi-factor
-   authentication option, and then save the setting.  
+4. In the **Admin-Only Settings** section, select the desired multi-factor
+   authentication option and then save the setting.  
 
 {{<image src="admin-only-settings.png" alt="" title="">}}
 
