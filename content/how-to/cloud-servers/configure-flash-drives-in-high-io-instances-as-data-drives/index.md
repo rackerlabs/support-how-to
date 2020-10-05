@@ -1,6 +1,6 @@
 ---
 permalink: configure-flash-drives-in-high-io-instances-as-data-drives/
-audit_date: '2020-10-05"
+audit_date: '2020-10-05'
 title: Configure flash drives in High I/O instances as Data drives
 type: article
 created_date: '2014-07-02'
