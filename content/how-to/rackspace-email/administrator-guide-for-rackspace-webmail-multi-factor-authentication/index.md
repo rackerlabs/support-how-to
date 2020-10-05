@@ -1,11 +1,11 @@
 ---
 permalink: administrator-guide-for-rackspace-webmail-multi-factor-authentication/
-audit_date: '2020-09-29'
+audit_date: '2020-10-05'
 title: Administrator guide for Rackspace Webmail multi-factor authentication
 type: article
-created_date: '2020-09-29'
+created_date: '2020-10-05'
 created_by: Daniel Boyle
-last_modified_date: '2020-09-29'
+last_modified_date: '2020-10-05'
 last_modified_by: Stephanie Fillmon
 product: Rackspace Email
 product_url: rackspace-email
@@ -21,7 +21,6 @@ authentication for a user.
 
 - **Applies to:** Administrator
 - **Difficulty:** Easy
-- **Time needed:**
 - **Tools required:** Cloud Office Control Panel access
 
 For more information on prerequisite terminology, see
