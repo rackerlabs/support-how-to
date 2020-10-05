@@ -33,13 +33,13 @@ With text message multi-factor authentication, you can use your phone number to
 receive a one-time code that allows you to access Webmail.
 
 1. Log in to [Rackspace Webmail](https://apps.rackspace.com/).
-2. When you are prompted to "Choose Your Multi-Factor Authentication Method"
+2. When prompted to *Choose Your Multi-Factor Authentication Method*,
    select **Get A Text Message**.
 3. Enter the phone number that you want to use for multi-factor SMS messaging.
 4. Enter the code sent to your phone in the verification field and then click
    **Verify Code**.
 
-A message stating "You have sucessfully set up Multi-Factor Authentication"
+A message stating *You have successfully set up Multi-Factor Authentication*
 displays.
 
 ### Use a multi-factor authentication mobile application
@@ -49,12 +49,12 @@ authentication for multiple accounts in one place without having to provide
 your phone number.
 
 1. Log in to [Rackspace Webmail](https://apps.rackspace.com/).
-2. When you are prompted to "Choose Your Multi-Factor Authentication Method"
+2. When prompted to *Choose Your Multi-Factor Authentication Method*,
    select **Use an Authenticator**.
 3. Link your mobile device to your account by following the instructions on
-   the "Securing Your Account with an Authenticator App" screen.
-4. The last step displays a message stating "You have sucessfully set up
-   Multi-Factor Authentication."
+   the **Securing Your Account with an Authenticator App** screen.
+4. The last step displays a message stating *You have successfully set up
+   Multi-Factor Authentication*.
 
 ### Log in to Webmail with multi-factor authentication
 
@@ -65,7 +65,7 @@ when you log in to Rackspace Webmail:
    email address and password.
 2. When prompted, enter the verification code from the SMS text message or
    authentication app.
-3. Select the appropriate option for "Remember This Device".
+3. Select the appropriate option for **Remember This Device**.
 4. Click **Verify My Code**.
 
 
@@ -83,7 +83,7 @@ authentication in your account settings.
    1. When you select **On**, the system displays the multi-factor
       authentication setup screen if you don't have password recovery enabled.
    2. If you have password recovery enabled, the system uses the authentication
-      type that is configured for password recovery.
+      type configured for password recovery.
    3. If you select **Off**, multi-factor authentication is immediately
       disabled.
 
@@ -97,11 +97,11 @@ authentication method or set up a new device.
 
 1. Log in to [Rackspace Webmail](https://apps.rackspace.com/).
 2. Open the Webmail settings page and select **Security**.
-3. In the Authentication Type section, click **Reset**
+3. In the Authentication Type section, click **Reset**.
 
    {{<image src="reset-mfa.png" alt="" title="">}}
 
-4. The "Choose Your Multi-Factor Authentication Method" screen displays. See
+4. The **Choose Your Multi-Factor Authentication Method** screen displays. See
    the previous sections for instructions to set up your preferred
    authentication type.
 
@@ -114,7 +114,7 @@ the trusted list.
 
 1. Log in to [Rackspace Webmail](https://apps.rackspace.com/).
 2. Open the Webmail settings page and select **Security**.
-3. In the Trusted Devices section you can see a list of trusted devices
+3. In the **Trusted Devices** section, you can see a list of trusted devices
    associated with your email account.
 
    You can remove devices that you do not recognize or no longer use by
