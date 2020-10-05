@@ -1,74 +1,64 @@
 ---
 permalink: resize-standard-and-general-purpose-servers/
-audit_date:
+audit_date: '2020-10-02'
 title: Resize standard and general purpose servers
 type: article
 created_date: '2012-07-19'
 created_by: Rackspace Support
-last_modified_date: '2018-12-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-10-02'
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
 **Previous section:** [Create a Cloud Server](/support/how-to/create-a-cloud-server)
 
-This article shows how to resize your server in the [Cloud Control Panel](https://login.rackspace.com).
-Resizing a server changes the vCPU and RAM, and might also change disk size.
+This article describes how to resize your server in the [Cloud Control Panel](https://login.rackspace.com). The process changes the virtual processor (vCPU), random access memory (RAM), and might also change disk size.
 
-**Note:** Standard flavor Linux servers that use the deprecated paravirtual (PV) virtualization mode can resize down.
-However, be aware of the potential for data loss if you size down. OnMetal servers cannot be resized either up or down.
-All other flavors can only resize up. I/O flavors cannot resize through the Cloud Control Panel at this time. Contact
-Rackspace Support if you want to resize up an I/O flavor server.
+Servers can resize up or down with the following exceptions:
+
+- Standard flavor Linux servers that use the deprecated paravirtual (PV) virtualization mode can resize down, potentially losing data. 
+- OnMetal servers cannot be resized up or down.
+- All other flavors can only resize up. 
+- I/O flavors cannot resize through the Cloud Control Panel. Contact Rackspace Support to resize up an I/O flavor server.
+
+### Resize a server
 
 Use the following steps to resize a server:
 
+**Note:** Each server size has a distinct uptime hourly cost, and the new cost starts when the resize process finishes. You might pay different rates for the same server within a single billing cycle.
+
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
 
-2. In the top navigation bar, click **Select a Product > Rackspace Cloud**.
+2. Click **Products > Rackspace Cloud** in the top navigation bar. 
 
-3. Select **Servers > Cloud Servers** to view a list of your existing servers.
+3. Select **Servers > Cloud Servers** to view your servers.
 
-4. Click the gear icon next to the server that you want to resize, then click **Resize**.
+4. Click the **gear icon** next to the server you want to resize
 
-   A pop-up window that lists your server size options is displayed.
+5. Click **Resize**. A pop-up window with your server size options displays.
 
-5. Select a new server size and click **Resize Server**.
+6. Click **Resize Server** to select a new server size.
 
-   **Note:** Each server size has a different hourly cost for uptime, and the new cost goes into effect when the server
-   resize process is complete. This might mean that you pay different rates for the same server within a single billing
-   cycle.
+7. Verify changes made to your system resources.
 
-   A notification displays that prompts you to verify the changes you made to your system resources and that there was no
-   adverse impact to your server.
+8. Verify server resize and system integrity by remotely logging in.
 
-6. Verify that the server was resized correctly by remotely logging in to the server and verifying your system resources and
-   file system integrity.
+   **Warning**: The verification step is your last chance to revert the server resize. In this case, website availability isn't an indicator of      success because some server processes might stop during verification.
 
-   **Note:** Verification is an important step because it is the last chance you have to revert to the original size and
-   cancel any changes to your server. Do not rely on the availability of your website as an indicator of whether the resize
-   was successful, because certain server processes may be suspended while the resize is waiting to be verified.
+   With a Linux server, you can use Secure Shell (SSH) to connect to either the public or private IP address for the server and run the following    commands to verify the changes: 
 
-   With a Linux server, you can use Secure Shell (SSH) to connect to either the public or private IP address for the server
-   and run the following commands to verify the changes:
+   `nproc`: Number of processors
+   `df -h`: Hard disk usage
+   `free -m`: Available RAM
 
-   - `nproc`: Number of processors
-   - `df -h`: Hard disk usage
-   - `free -m`: Available RAM memory
+   **Note**: Servers booted from a Cloud Block Storage volume don't gain disk space after a resize.
 
-   **Note**: Servers that were booted from a Cloud Block Storage volume do not gain disk space after a resize.
+   With a Windows server, you must complete additional steps to use the additional space after a resize. For more information, see [Adding Disk Space After Resizing a Windows Server 2012 Cloud Server](/support/how-to/adding-disk-space-after-resizing-a-windows-server-2012-cloud-server).
 
-   With a Windows server, you must complete additional steps in order to use the additional space after a resize. For more
-   information, see [Adding Disk Space After Resizing a Windows Server 2012 Cloud Server](/support/how-to/adding-disk-space-after-
-   resizing-a-windows-server-2012-cloud-server).
+9. Click **Confirm** to verify the resize or **Revert** to go back to the original size.
 
-7. After you've verified the system resources and checked your file systems, select **Confirm** to confirm the resize or
-   **Revert** to revert to the original size. After 24 hours have passed, the resize is automatically confirmed and you are
-   no longer able to revert the changes.
-
-   Confirming the resize changes the server's status. The process is complete when the **Status** reads **Active**, the
-   **Current Action** is **None**, and the server has come back up from a reboot. Any web services that were running may
-   require you to log in and manually restart them.
+Confirming the resize changes the server's status. The process is complete when the **Status** shows as `Active`, the **Current Action** is `None`, and the server restarts. You might need to restart web services that were running manually. After 24 hours, the system automatically confirms the resize and the changes.
 
 ### Additional resources
 
