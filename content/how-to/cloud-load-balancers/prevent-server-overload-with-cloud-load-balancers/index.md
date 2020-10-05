@@ -30,7 +30,4 @@ instructions in the article, [Configure a load balancer](/support/how-to/configu
 4. Click on the gear icon next to the load balancer that you want to configure,
     then select **Edit Connection Throttling** from the menu.
 5. Enter a value between 1 and 100000 for **Max. Connections**.
-
-    {{<image src="827-1496.png" alt="" title="">}}
-
 6. Click **Save Connection Throttling**.
