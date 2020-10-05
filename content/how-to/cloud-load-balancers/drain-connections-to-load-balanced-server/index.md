@@ -11,24 +11,24 @@ product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-Server *draining* is the redirection of incoming calls and new connections from
-the specified server to other servers connected to the same load balancer.
-Draining is used to minimize service interruption when taking a server offline
-for maintenance. Started sessions before the server is put into draining status
-continue until completion.  When all sessions have ended, the server is
-considered drained and can be taken offline. The following steps help to ensure
+Server *draining* redirects incoming calls and new connections from
+a specified server to other servers connected to the same load balancer.
+YOu can use draining to minimize service interruption when taking a server offline
+for maintenance. Sessions started before you put the server into draining status
+continue until completion.  When all sessions have ended, the system considerd the server
+to be drained and you can take it offline. The following steps help ensure
 minimal service interruption when removing a cloud server from an active load
 balancer.
 
-1. Log in the [Cloud Control Panel](https://login.rackspace.com/).
+1. Log in to the [Cloud Control Panel](https://login.rackspace.com/).
 2. Select **Product** > **Rackspace Cloud**> **Networking** > **Load
    Balancers**.
 3. Click on the load balancer to view its nodes.
-4. Click the gear icon next to server node.
+4. Click the gear icon next to the server node.
 5. Select **Edit Node Condition**.
 6. Select **Draining Connections** for the server condition and click **Save
    Condition**.
 7. Monitor the port from within the draining node for continued activity.
-   **Note**: for Linux server check netstat for new connections.
-8. When activity has ceased, you can edit the condition of the node
-   and select **Disabled** to completely prevent new traffic being routed to it.
+   **Note**: for Linux&reg; servers, check `netstat` for new connections.
+8. When activity has ceased, you can edit the node's condition
+   and select **Disabled** to prevent the system for routing new traffic to it.
