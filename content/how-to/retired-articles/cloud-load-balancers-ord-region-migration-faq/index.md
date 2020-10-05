@@ -7,8 +7,6 @@ created_date: '2015-08-18'
 created_by: Jorge Miramontes
 last_modified_date: '2016-04-20'
 last_modified_by: Mike Asthalter
-product: Cloud Load Balancers
-product_url: cloud-load-balancers
 ---
 
 This article provides answers to frequently asked questions about the
