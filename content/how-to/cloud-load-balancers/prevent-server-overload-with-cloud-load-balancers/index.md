@@ -11,17 +11,16 @@ product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
 
-One way that you can prevent a server from becoming overloaded is to use the
-Connection Throttling feature on Cloud Load Balancers. Connection throttling
+You can prevent a server from becoming overloaded by using the
+connection-throttling feature on Cloud Load Balancers. Connection throttling
 limits the number of simultaneous connections that are allowed from each IP
 address. This feature helps prevent malicious or abusive traffic from reaching
 your server and its installed applications.
 
 ### Prerequisites
 
-- Existing load balancer. If you don't have a load balancer yet, follow the
-  instructions in the article [Configure a load
-  balancer](/support/how-to/configure-a-load-balancer/) to create one.
+You need an existing load balancer. If you don't have a load balancer yet, create one by following the
+instructions in the article, [Configure a load balancer](/support/how-to/configure-a-load-balancer/).
 
 ### Configure connection throttling
 
