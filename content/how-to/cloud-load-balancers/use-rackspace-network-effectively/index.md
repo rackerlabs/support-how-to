@@ -45,8 +45,7 @@ You can find all of the IP addresses for a loud Server, Cloud Load Balancer, or
 
 The following image shows an example **Server Details** page:
 
-{{<image alt="Cloud Server Details" src="ServerDetails.png" title="Cloud Server
-Details">}}
+{{<image alt="Cloud Server Details" src="ServerDetails.png" title="Cloud Server Details">}}
 
 #### Related Information
 
