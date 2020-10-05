@@ -11,19 +11,19 @@ product: Rackspace Autoscale
 product_url: rackspace-auto-scale
 ---
 
-Bursting, or Cloud Bursting, is a technique used to dynamically scale more
-rapidly than what a dedicated environment might be able to based on a need for
-resources. For example, if you have an eCommerce application running on a
-dedicated infrastructure, if it reaches peak capacity due to a high traffic
-event, an option would be to then *burst* and provision servers in the
-public cloud infrastructure so as to handle the additional load and ensure all
-orders can be processed on time. This is made possible thanks to the elastic and
-on-demand nature of public cloud computing. Also, in Cloud you are only paying
-for the provisioned servers while you need them during the burst.
+You can use bursting, or cloud bursting, to dynamically scale more
+rapidly than a dedicated environment might scale based on a need for
+resources. For example, suppose you have an eCommerce application running on a
+dedicated infrastructure that reaches peak capacity due to a high traffic
+event. In that case, you could *burst* and provision servers in the
+public cloud infrastructure, enabling the system to handle the additional load
+and process all orders on time. This scaling can happen thanks to the elastic and
+on-demand nature of public cloud computing. Also, in the Cloud, you pay
+for the provisioned servers only while you need them during the burst.
 
-You can use Auto Scale and RackConnect for “cloud bursting” by adding Rackspace
-Cloud Servers dynamically in response to demand and removing them after they are
-no longer needed. This article provides information about configuring Auto Scale
+To use Auto Scale and RackConnect for cloud bursting, add Rackspace
+Cloud Servers dynamically in response to demand and remove them after you
+no longer need them. This article provides information about configuring Auto Scale
 to use RackConnect to perform cloud bursting with an F5® BIG-IP® Local Traffic
 Manager (LTM) load balancer. Using these technologies together, you can
 automatically scale your dedicated infrastructure to the Rackspace cloud by
@@ -31,7 +31,7 @@ using scaling policies. In this way, RackConnect and Auto Scale enable you to
 realize the power of the Hybrid Cloud.
 
 The following diagram shows the path that inbound (and return) load balancer
-pool traffic follows to your cloud servers when you use Auto Scale with a F5
+pool traffic follows to your cloud servers when you use Auto Scale with an F5
 BIG-IP load balancer and RackConnect.
 
 The following diagram shows the path that inbound (and return) load balancer
