@@ -58,7 +58,7 @@ Use the following steps to resize a server:
 
 9. Click **Confirm** to verify the resize or **Revert** to go back to the original size.
 
-Confirming the resize changes the server's status. The process is complete when the **Status** shows as `Active`, the **Current Action** is `None`, and the server restarts. You might need to restart web services that were running manually. After 24 hours, they system automatically confirms the resize and the changes.
+Confirming the resize changes the server's status. The process is complete when the **Status** shows as `Active`, the **Current Action** is `None`, and the server restarts. You might need to restart web services that were running manually. After 24 hours, the system automatically confirms the resize and the changes.
 
 ### Additional resources
 
