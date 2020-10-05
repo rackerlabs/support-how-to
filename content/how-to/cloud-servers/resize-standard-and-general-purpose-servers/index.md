@@ -13,18 +13,20 @@ product_url: cloud-servers
 
 **Previous section:** [Create a Cloud Server](/support/how-to/create-a-cloud-server)
 
-This article shows how to resize your server in the [Cloud Control Panel](https://login.rackspace.com). The process changes the Virtual Processor (vCPU), Random Access Memory (RAM), and might also change disk size.
+This article describes how to resize your server in the [Cloud Control Panel](https://login.rackspace.com). The process changes the virtual processor (vCPU), random access memory (RAM), and might also change disk size.
 
-#### Servers can resize up, or down. 
+Servers can resize up or down with the following exceptions:
 
-- Standard flavor Linux servers that use the deprecated paravirtual (PV) virtualization mode can resize down, with a potential for data loss. 
-- OnMetal servers cannot be resized up, or down.
+- Standard flavor Linux servers that use the deprecated paravirtual (PV) virtualization mode can resize down, potentially losing data. 
+- OnMetal servers cannot be resized up or down.
 - All other flavors can only resize up. 
 - I/O flavors cannot resize through the Cloud Control Panel. Contact Rackspace Support to resize up an I/O flavor server.
 
-#### Use the following steps to resize a server:
+### Resize a server
 
-  **Note:** Each server size has a distinct uptime hourly cost, the new cost starts when the resize process finishes. You might pay different rates for the same server within a single billing cycle.
+Use the following steps to resize a server:
+
+**Note:** Each server size has a distinct uptime hourly cost, and the new cost starts when the resize process finishes. You might pay different rates for the same server within a single billing cycle.
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
 
@@ -34,7 +36,7 @@ This article shows how to resize your server in the [Cloud Control Panel](https:
 
 4. Click the **gear icon** next to the server you want to resize
 
-5. Click **Resize**. A pop-up window with your server size options is displayed.
+5. Click **Resize**. A pop-up window with your server size options displays.
 
 6. Click **Resize Server** to select a new server size.
 
@@ -42,13 +44,13 @@ This article shows how to resize your server in the [Cloud Control Panel](https:
 
 8. Verify server resize and system integrity by remotely logging in.
 
-  **Warning** The verification step is your last chance to revert server resize. In this case, website availability isn't an indicator of success because Certain server processes might stop during verification.
+   **Warning**: The verification step is your last chance to revert the server resize. In this case, website availability isn't an indicator of      success because some server processes might stop during verification.
 
-  With a Linux server, you can use Secure Shell (SSH) to connect to either the public or private IP address for the server and run the following commands to verify the changes: 
+   With a Linux server, you can use Secure Shell (SSH) to connect to either the public or private IP address for the server and run the following    commands to verify the changes: 
 
    `nproc`: Number of processors
    `df -h`: Hard disk usage
-   `free -m`: Available RAM memory
+   `free -m`: Available RAM
 
    **Note**: Servers booted from a Cloud Block Storage volume don't gain disk space after a resize.
 
@@ -56,7 +58,7 @@ This article shows how to resize your server in the [Cloud Control Panel](https:
 
 9. Click **Confirm** to verify the resize or **Revert** to go back to the original size.
 
-Confirming the resize changes the server's status. The process is complete when the **Status** reads **Active**, the **Current Action** is **None**, and the server has restarted. Any web services that were running may require you to restart them manually. After 24 hours, the resize and the changes are automatically confirmed.
+Confirming the resize changes the server's status. The process is complete when the **Status** shows as `Active`, the **Current Action** is `None`, and the server restarts. You might need to restart web services that were running manually. After 24 hours, they system automatically confirms the resize and the changes.
 
 ### Additional resources
 
