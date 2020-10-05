@@ -7,6 +7,8 @@
 
 # Retired Articles
 
+/support/how-to/serving-your-domain-from-a-rackspace-cloud-server/  /how-to/serve-your-domain-from-a-rackspace-cloud-server/  404
+/how-to/serve-your-domain-from-a-rackspace-cloud-server/  /support/how-to/serving-your-domain-from-a-rackspace-cloud-server/  301
 /support/how-to/ubuntu-904-iredmail-installation/  /how-to/article-retired/  404
 /support/how-to/cloud-storage-app-for-microsoft-sharepoint-accessing-cloud-files-containers/  /how-to/article-retired/ 404
 /support/how-to/cloud-storage-app-for-microsoft-sharepoint-browser-compatibility-matrix/  /how-to/article-retired/ 404
@@ -516,6 +518,7 @@
 
 /how-to/create-your-first-website-on-cloud-servers-quickly/download/  /support/how-to/create-your-first-website-on-cloud-servers-quickly/download/  404
 
+/support/how-to/cloud-load-balancers-ord-region-migration-faq/   /how-to/article-retired/ 404
 
 /support/how-to/all  /support/how-to/  404
 
