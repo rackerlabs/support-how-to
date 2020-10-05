@@ -7,6 +7,7 @@
 
 # Retired Articles
 
+/support/how-to/ubuntu-904-iredmail-installation/  /how-to/article-retired/  404
 /support/how-to/cloud-storage-app-for-microsoft-sharepoint-accessing-cloud-files-containers/  /how-to/article-retired/ 404
 /support/how-to/cloud-storage-app-for-microsoft-sharepoint-browser-compatibility-matrix/  /how-to/article-retired/ 404
 /support/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-add-and-delete-files-in-a-container/  /how-to/article-retired/ 404
@@ -133,6 +134,9 @@
 
 /support/how-to/managing-your-server-resizing-standard-and-general-purpose-servers/  /how-to/resize-standard-and-general-purpose-servers/  404
 /how-to/resize-standard-and-general-purpose-servers/  /support/how-to/resize-standard-and-general-purpose-servers/  301
+
+/support/how-to/managing-users-for-cloud-databases/  /how-to/manage-users-for-cloud-databases/  404
+/how-to/manage-users-for-cloud-databases/  /support/how-to/manage-users-for-cloud-databases/  301
 
 /support/how-to/spam-preferences-safelist-and-blacklist-management-for-microsoft-exchange/  /how-to/spam-preferences-safelist-and-blocklist-management-for-microsoft-exchange/  404
 /how-to/spam-preferences-safelist-and-blocklist-management-for-microsoft-exchange/  /support/how-to/spam-preferences-safelist-and-blocklist-management-for-microsoft-exchange/  301
