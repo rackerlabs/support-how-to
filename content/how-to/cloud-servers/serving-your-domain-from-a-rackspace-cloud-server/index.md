@@ -11,8 +11,10 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Rackspace Cloud is not a domain registrar similar to GoDaddy, Tucows, or NameCheap. To serve your domain from a Rackspace Cloud Server, you need to have already registered your domain with a valid registrar. To serve that domain from your Rackspace Cloud
-Server, you need to change the nameservers associated with the domain, so that traffic can be routed to your domain being served from your Cloud Server.
+Rackspace Cloud is not a domain registrar similar to GoDaddy&reg;, Tucows&reg;, or NameCheap&reg;. To
+serve your domain from a Rackspace Cloud Server, you need to have already registered your domain with
+a valid registrar. Then, you need to change the nameservers associated with the domain so that the system
+can route traffic to the domain being served from your Cloud Server.
 
 You can change the name servers for an existing domain to the Rackspace name servers by following these steps:
 
@@ -25,8 +27,7 @@ You can change the name servers for an existing domain to the Rackspace name ser
 -   **ns.rackspace.com**
 -   **ns2.rackspace.com**
 
-You can direct DNS queries for your domain to the Rackspace name servers by changing the name servers at your registrar. You will still need to manage and renew your domain subscription through the original domain registrar.
+You can direct DNS queries for your domain to the Rackspace name servers by changing the name servers at your registrar.
+You still need to manage and renew your domain subscription through the original domain registrar.
 
-**Notes**:
-
--   <span>For most domains, DNS propagation can take up to 48 hours.</span>
+**Note**: For most domains, DNS propagation can take up to 48 hours.
