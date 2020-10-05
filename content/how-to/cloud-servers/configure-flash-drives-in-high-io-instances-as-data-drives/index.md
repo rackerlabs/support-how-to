@@ -1,17 +1,17 @@
 ---
 permalink: configure-flash-drives-in-high-io-instances-as-data-drives/
-audit_date:
+audit_date: '2020-10-05"
 title: Configure flash drives in High I/O instances as Data drives
 type: article
 created_date: '2014-07-02'
 created_by: Paul Querna
-last_modified_date: '2016-08-17'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2020-10-05'
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-The two 1.6 TB PCIe flash cards included with the OnMetal I/O flavor come unformatted. Use the following steps to configure your flash cards for use as a data disk.
+The two 1.6 TB PCIe flash cards included with the OnMetal I/O flavor come unformatted. Follow these steps to configure your flash cards for use as a data disk.
 
 1. Determine what devices are the PCIe block devices.
 
@@ -26,7 +26,7 @@ The two 1.6 TB PCIe flash cards included with the OnMetal I/O flavor come unform
         echo 1 | sudo tee /sys/block/DEVICENAME/queue/nomerges
         echo 512 | sudo tee /sys/block/DEVICENAME/device/queue_depth
 
-3. (*Optional*) Partition the created raid device if you prefer, or can create
+3. (*Optional*) Partition the created RAID (Redundant Array of Independent Disks) device if you prefer, or you can create
    an FS directly.
 
 4. Create an ext4 FS on it.
