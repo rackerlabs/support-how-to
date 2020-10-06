@@ -29,7 +29,7 @@ to configure your flashcards for use as a data disk.
         echo 512 | sudo tee /sys/block/DEVICENAME/device/queue_depth
 
 3. (*Optional*) Partition the created Redundant Array of Independent Disks (RAID) device if you prefer, or you can create
-   an filesystem (FS) directly.
+   a file system (FS) directly.
 
 4. Create an ext4 FS on it.
 
