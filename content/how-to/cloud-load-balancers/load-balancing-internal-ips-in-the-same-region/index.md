@@ -1,12 +1,12 @@
 ---
 permalink: load-balancing-internal-ips-in-the-same-region/
-audit_date:
+audit_date: '2020-10-06'
 title: Load Balancing Internal IPs in the same region
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2016-10-24'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-10-06'
+last_modified_by: Rose Morales
 product: Cloud Load Balancers
 product_url: cloud-load-balancers
 ---
@@ -14,16 +14,16 @@ product_url: cloud-load-balancers
 All Cloud Servers automatically receive three IP addresses when they are
 created:
 
--   A version 4 **IP Address** that provides public access
-    to your server from anywhere on the Internet.
--   A version 6 **IP Address** that also provides public access to your
-    from anywhere on the Internet.
--   An internal **Rackspace Network** (ServiceNet) IP address that
-    enables you to access the server from other Cloud Servers or Cloud Load
-    Balancers over the internal Rackspace Network.
+- A version 4 **IP Address** that provides public access to your server from
+    anywhere on the Internet.
+- A version 6 **IP Address** that also provides public access to your from
+    anywhere on the Internet.
+- An internal **Rackspace Network** (ServiceNet) IP address that enables you to
+    access the server from other Cloud Servers or Cloud Load Balancers over the
+    internal Rackspace Network.
 
-The following screenshot shows the three IP address in the **Server Details**
-section for a server named "Zippy" in the
+The following screenshot shows the three IP addresses in the **Networks and
+Security Groups** section in the
 [Cloud Control Panel](https://login.rackspace.com):
 
 {{<image alt="Server Details" src="IPs.png" title="Server Details">}}
@@ -46,6 +46,8 @@ To take advantage of this cost savings and performance feature, you'll
 need to match the location of your Cloud Load Balancer with the node.
 The following screenshot shows you Configuration area of the Create Load
 Balancer page in the Cloud Control Panel.
+
+{{<image alt="Cloud Load Balancer creation" src="clb-create.png" title="Cloud Load Balancer creation">}}
 
 Select the region in the Identification section of the Create Load Balancer
 screen in the [Cloud Control Panel](https://login.rackspace.com).
