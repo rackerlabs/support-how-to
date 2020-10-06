@@ -19,3 +19,5 @@ resources/_gen
 .netlify
 Gemfile.lock
 static/assets/
+cmds.txt
+external_urls.txt
