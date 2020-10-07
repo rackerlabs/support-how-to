@@ -22,19 +22,22 @@ module.exports = {
     },
   }) => {
     /** @type {string} */
-    const root = canonicalRoot;
+    const root = PUBLISH_DIR;
     console.log('publish dir:: ', root);
 
     /** @type {FilterFunction} */
     const skipFilter = (report) =>
-      Object.values(report).some((value) =>
+      Object.values(report).some((value) => {
+        console.log('value:: ', value);
         skipPatterns.some((pattern) => {
           console.log("report:: ", report);
-          console.log('value:: '.value);
           console.log('pattern:: ', pattern);
           String(value).includes(pattern)
         })
+      }
       );
+    
+    console.log('skipFilter:: ', skipFilter);
 
     /** @type {FilterFunction} */
     const todoFilter = (report) =>
