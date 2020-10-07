@@ -43,7 +43,7 @@
 {{ $style := resources.Get "styles.scss" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" emotion="🤩">
 <!-- Additional Styles for the App -->
-<link rel="stylesheet" href="{{ assets/main.css | absURL}}">
+<link rel="stylesheet" href="https://support-site-search.netlify.app/assets/main.css">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://docs-support-how-to.netlify.app/favicons/favicon.ico" />
 <link rel="icon" type="image/png" href="https://docs-support-how-to.netlify.app/favicons/favicon.ico" sizes="32x32" />
