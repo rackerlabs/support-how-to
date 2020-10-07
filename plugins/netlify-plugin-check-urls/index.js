@@ -62,8 +62,7 @@ module.exports = {
         // skipFilter,
         // todoFilter,
         internalOnly: !checkExternal,
-        pretty: true,
-        recursive
+        pretty: true
       },
       t
     );
