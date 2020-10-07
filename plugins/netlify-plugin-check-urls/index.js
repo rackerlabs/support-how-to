@@ -4,8 +4,7 @@ const spot = require('tap-spot');
 const globby = require('globby');
 
 const canonicalRoot = process.env.URL;
-console.log('root:: ', process.env.URL);
-console.log('publish dir:: ', PUBLISH_DIR);
+console.log('root:: ', canonicalRoot);
 
 module.exports = {
   onPostBuild: async ({
@@ -24,6 +23,7 @@ module.exports = {
   }) => {
     /** @type {string} */
     const root = PUBLISH_DIR;
+    console.log('publish dir:: ', root);
 
     /** @type {FilterFunction} */
     const skipFilter = (report) =>
