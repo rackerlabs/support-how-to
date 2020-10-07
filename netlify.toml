@@ -49,14 +49,7 @@
   ]
   recursive = true
   pretty = true
-  skipPatterns = [
-    "public/styles.min.*",
-    "public/support",
-    "public/support/how-to",
-    "public/support/how-to/*",
-    "404.html",
-    "index.html"
-  ]
+  skipPatterns = []
   todoPatterns = []
   checkExternal = false
   followSourceMaps = false
