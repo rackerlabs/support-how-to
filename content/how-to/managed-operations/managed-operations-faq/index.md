@@ -5,7 +5,7 @@ title: Managed Operations FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2020-3-26'
+last_modified_date: '2020-10-07'
 last_modified_by: Chad Sterling
 product: Managed Operations
 product_url: managed-operations
@@ -111,11 +111,6 @@ request, or by calling 1 800 961 4454.
 
 ### General
 
-{{<accordion title="Do you have servers with a Managed Operations Service Level in the UK?" col="in" href="accordion10">}}
-
-Yes. For information, go to
-[https://www.rackspace.co.uk/cloud/managed](https://www.rackspace.co.uk/cloud/managed/).
-{{</accordion>}}
 {{<accordion title="How do I contact the Managed Operations Team?" col="in" href="accordion11">}}
 
 You can contact the Managed Operations team via direct chat, a phone
@@ -186,7 +181,7 @@ Backups](/support/how-to/rackspace-cloud-backup-vs-cloud-server-image-backups).
 {{<accordion title="Is my Rackspace Cloud Server with a Managed Operations Service Level account automatically backed up?" col="in" href="accordion17">}}
 
 No, Rackspace does back up your server until you configure and schedule
-backups. 
+backups.
 
 For a comparison of Cloud Server images and Rackspace Cloud Backup, see
 [Rackspace Cloud Backup vs. Cloud Server Image
