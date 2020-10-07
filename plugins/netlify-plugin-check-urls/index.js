@@ -55,10 +55,9 @@ module.exports = {
 
     await hyperlink(
       {
-        inputUrls: globby.sync(entryPoints, { cwd: root }),
+        inputUrls: globby.sync(entryPoints),
         ...defaultInputs,
         canonicalRoot,
-        root,
         // skipFilter,
         // todoFilter,
         internalOnly: !checkExternal,
