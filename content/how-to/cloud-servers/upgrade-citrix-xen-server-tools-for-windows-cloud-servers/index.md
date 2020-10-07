@@ -226,9 +226,9 @@ and then attach the volume to the new server where the ephemeral drive had been
 mounted before, for example, **D:**. The following articles can help you get
 started:
 
-- [Overview of Cloud Block Storage](cloud-block-storage-overview)
-- [Prepare your Cloud Block Storage Volume](prepare-your-cloud-block-storage-volume)
-- [Cloud Block Storage FAQ](cloud-block-storage-faq)
+- [Overview of Cloud Block Storage](/support/how-to/cloud-block-storage-overview)
+- [Prepare your Cloud Block Storage Volume](/support/how-to/prepare-your-cloud-block-storage-volume)
+- [Cloud Block Storage FAQ](/support/how-to/cloud-block-storage-faq)
 
 If you decide to use this option one, we recommend taking a final image of the
 server which can be used as a base image to create new servers, or to rebuild

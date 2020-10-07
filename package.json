@@ -12,10 +12,8 @@
         "build": "make install && rm -rf static/assets && run-s build:webpack build:hugo",
         "build:hugo": "make build",
         "build:webpack": "webpack --mode=production",
-        "link-check": "repo-link-check -c config/link-check/config.yml -s filesystem -u",
-        "link-check-diff": "repo-link-check -c config/link-check/config.yml",
-        "link-check-dev-server": "repo-link-check -c config/link-check/config.yml -r http://localhost:3000",
-        "link-check-exclude": "repo-link-check -c config/link-check/config.yml -s filesystem -u only"
+        "link-checker": "lct -f external_urls.txt >> link-checker.log",
+        "markdown-link-checker": "remark -u validate-links . 2>&1 | tee log-file.txt"
     },
     "devDependencies": {
         "@babel/core": "^7.8.7",
@@ -47,8 +45,12 @@
         "jquery": "^3.5.1",
         "moment": "^2.29.0",
         "popper.js": "^1.16.1",
+        "remark-cli": "^8.0.1",
+        "remark-validate-links": "^10.0.2",
         "repo-link-check": "^0.7.1",
         "smoothscroll-polyfill": "^0.4.4",
+        "to-vfile": "^6.1.0",
+        "vfile-reporter": "^6.0.1",
         "yargs": "^16.0.3"
     },
     "name": "support-how-to",

@@ -40,7 +40,7 @@ Use the following instructions to provision a new Cloud Server:
 
    **Note**: You can add more storage to your cloud server after it is created
    by adding a Cloud Block Storage volume. For instructions, see
-   [add a Cloud Block Storage volume](#add-a-cloud-block-storage-volume).
+   [add a Cloud Block Storage volume](#add-a-cloud-block-storage-volume-optional).
 
 8. When your root admin password is displayed, copy the password to a secure
    location and then click **Dismiss Password**.
