@@ -11,8 +11,8 @@ module.exports = {
     constants: { PUBLISH_DIR },
     inputs: {
       entryPoints,
-      skipPatterns,
-      todoPatterns,
+      // skipPatterns,
+      // todoPatterns,
       checkExternal,
       pretty,
       ...defaultInputs
@@ -26,24 +26,24 @@ module.exports = {
     console.log('publish dir:: ', root);
 
     /** @type {FilterFunction} */
-    const skipFilter = (report) =>
-      Object.values(report).some((value) => {
-        console.log('value:: ', value);
-        skipPatterns.some((pattern) => {
-          console.log("report:: ", report);
-          console.log('pattern:: ', pattern);
-          String(value).includes(pattern)
-        })
-      }
-      );
+    // const skipFilter = (report) =>
+    //   Object.values(report).some((value) => {
+    //     console.log('value:: ', value);
+    //     skipPatterns.some((pattern) => {
+    //       console.log("report:: ", report);
+    //       console.log('pattern:: ', pattern);
+    //       String(value).includes(pattern)
+    //     })
+    //   }
+    //   );
     
-    console.log('skipFilter:: ', skipFilter);
+    // console.log('skipFilter:: ', skipFilter);
 
-    /** @type {FilterFunction} */
-    const todoFilter = (report) =>
-      Object.values(report).some((value) =>
-        todoPatterns.some((pattern) => String(value).includes(pattern))
-      );
+    // /** @type {FilterFunction} */
+    // const todoFilter = (report) =>
+    //   Object.values(report).some((value) =>
+    //     todoPatterns.some((pattern) => String(value).includes(pattern))
+    //   );
 
     const t = new TapRender();
 
@@ -59,8 +59,8 @@ module.exports = {
         ...defaultInputs,
         canonicalRoot,
         root,
-        skipFilter,
-        todoFilter,
+        // skipFilter,
+        // todoFilter,
         internalOnly: !checkExternal,
         pretty: true,
       },
@@ -72,7 +72,7 @@ module.exports = {
     if (results.fail) {
       return failBuild('Links checking failed');
     }
-
+    console.log('results:: ', results);
     return results;
   },
 };
