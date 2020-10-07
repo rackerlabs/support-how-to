@@ -27,7 +27,8 @@ module.exports = {
     const skipFilter = (report) =>
       Object.values(report).some((value) =>
         skipPatterns.some((pattern) => {
-          console.log(String(value).includes(pattern));
+          console.log('value:: '.value);
+          console.log('pattern:: ', pattern);
           String(value).includes(pattern)
         })
       );
