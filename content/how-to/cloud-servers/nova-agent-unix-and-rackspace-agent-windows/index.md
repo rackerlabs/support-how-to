@@ -20,7 +20,7 @@ agent.
 ### What is nova-agent?
 
 Nova-agent is a required service for all virtualized servers in the Rackspace
-public cloud. Thus OnMetal is excluded. The service interacts with XenServer&reg. According
+public cloud. Thus OnMetal is excluded. The service interacts with XenServer&reg;. According
 to the [Rackspace developer docs](https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-concepts/nova-agent/),
 nova-agent is a service that:
 

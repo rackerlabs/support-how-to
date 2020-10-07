@@ -262,7 +262,7 @@ Fortunately, there's a tool for that included with the NTP server called
 
 The `ntpdate` command syncs your clock with an NTP server. It's
 similar to what the NTP server does on a regular basis. The `ntpd` program
-is a separate package on Ubuntu&reg; operating systems and Debian&erg;. The other
+is a separate package on Ubuntu&reg; operating systems and Debian&reg;. The other
 distributions install `ntpdate` at the time of ntpd installation. To
 use `ntpdate`, Ubuntu operating system and Debian users must first install it.
 
