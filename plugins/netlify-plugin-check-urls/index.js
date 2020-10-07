@@ -4,6 +4,8 @@ const spot = require('tap-spot');
 const globby = require('globby');
 
 const canonicalRoot = process.env.URL;
+console.log('root:: ', process.env.URL);
+console.log('publish dir:: ', PUBLISH_DIR);
 
 module.exports = {
   onPostBuild: async ({
