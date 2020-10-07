@@ -25,7 +25,7 @@ module.exports = {
     const root = PUBLISH_DIR;
     console.log('publish dir:: ', root);
 
-    /** @type {FilterFunction} */
+    // /** @type {FilterFunction} */
     // const skipFilter = (report) =>
     //   Object.values(report).some((value) => {
     //     console.log('value:: ', value);
@@ -63,16 +63,17 @@ module.exports = {
         // todoFilter,
         internalOnly: !checkExternal,
         pretty: true,
+        recursive
       },
       t
     );
 
     const results = t.close();
+    console.log('results:: ', results);
 
     if (results.fail) {
       return failBuild('Links checking failed');
     }
-    console.log('results:: ', results);
     return results;
   },
 };
