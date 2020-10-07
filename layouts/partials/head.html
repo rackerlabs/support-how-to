@@ -41,7 +41,7 @@
 {{- end -}}
 <title>{{ $title }}</title>
 {{ $style := resources.Get "styles.scss" | toCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" emotion="🤩">
+<link rel="stylesheet" href="{{ $style.Permalink }}" emotion="🤩">
 <!-- Additional Styles for the App -->
 <link rel="stylesheet" href="https://support-site-search.netlify.app/assets/main.css">
 
