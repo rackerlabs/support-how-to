@@ -14,8 +14,7 @@ module.exports = {
       // skipPatterns,
       // todoPatterns,
       checkExternal,
-      pretty,
-      ...defaultInputs
+      pretty
     },
     utils: {
       build: { failBuild },
@@ -55,11 +54,7 @@ module.exports = {
 
     await hyperlink(
       {
-        inputUrls: globby.sync(entryPoints),
-        ...defaultInputs,
         canonicalRoot,
-        // skipFilter,
-        // todoFilter,
         internalOnly: !checkExternal,
         pretty: true
       },
