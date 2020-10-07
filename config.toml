@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://support-site-search.netlify.app/"
 theme = "support-developer-hugo-theme"
 copyright = ""
 defaultContentLanguage = "en-us"
