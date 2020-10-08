@@ -33,10 +33,10 @@ module.exports = {
         skipPatterns.some((pattern) => {
           console.log('pattern:: ', pattern);
           console.log('Match or not match:: ', String(value).includes(pattern));
-          !String(value).includes(pattern);
+          String(value).includes(pattern);
         })
       })
-        console.log('after skip patterns:: ', skipPatterns);
+      return true;
     }
   
 
@@ -60,7 +60,7 @@ module.exports = {
         ...defaultInputs,
         canonicalRoot,
         root,
-        skipFilter,
+        skipFilter: true,
         todoFilter,
         internalOnly: !checkExternal,
         pretty: true,
