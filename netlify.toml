@@ -49,7 +49,7 @@
   ]
   recursive = true
   pretty = true
-  skipPatterns = ["/opt/build/repo/public/support", "/opt/build/repo/public/support/*"]
+  skipPatterns = ["https://support-site-search.netlify.app/support", "https://support-site-search.netlify.app/support/*"]
   todoPatterns = []
   checkExternal = false
   followSourceMaps = false
