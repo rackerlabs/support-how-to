@@ -215,9 +215,8 @@ Monitoring services are included, with the Managed Operations team
 proactively responding to any alerts. We monitor up to two
 user-defined ports as well as user-defined URL content.
 
-We provide free licensing for the Rackspace Cloud Backup file-based
-backup option ( [standard Cloud Files storage fees
-apply](https://www.rackspace.com/cloud/cloud_hosting_products/files/pricing/)).
+Review [Rackspace Cloud Backup file-based backup options](https://www.rackspace.com/openstack/public/files) for details on backup solutions.
+
 {{</accordion>}}
 {{<accordion title="What is Cloud Servers with a Managed Operations Service Level?" col="in" href="accordion22">}}
 
