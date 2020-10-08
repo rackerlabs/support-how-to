@@ -29,7 +29,7 @@ module.exports = {
     const skipFilter = (report) =>
       Object.values(report).some((value) => {
         skipPatterns.some((pattern) => {
-          String(value).includes(pattern)
+          !String(value).includes(pattern)
         })
       }
       );
@@ -48,7 +48,7 @@ module.exports = {
     } else {
       t.pipe(process.stdout);
     }
-
+    console.log('skipfilter:: ', skipFilter);
     await hyperlink(
       {
         inputUrls: globby.sync(entryPoints, { cwd: root }),
