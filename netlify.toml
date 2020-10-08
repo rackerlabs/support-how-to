@@ -49,7 +49,7 @@
   ]
   recursive = true
   pretty = true
-  skipPatterns = []
+  skipPatterns = ["public/support", "public/support/*"]
   todoPatterns = []
   checkExternal = false
   followSourceMaps = false
