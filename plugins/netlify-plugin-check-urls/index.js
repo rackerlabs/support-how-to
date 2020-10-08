@@ -32,7 +32,7 @@ module.exports = {
         skipPatterns.some((pattern) => {
           console.log('pattern:: ', pattern);
           console.log('Match or not match:: ', String(value).includes(pattern));
-          return String(value).includes(pattern);
+          return !String(value).includes(pattern);
         })
       }
       );
