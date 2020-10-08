@@ -21,7 +21,7 @@ module.exports = {
     },
   }) => {
     /** @type {string} */
-    const root = PUBLISH_DIR;
+    const root = process.env.URL;
     console.log('publish dir:: ', root);
 
     // /** @type {FilterFunction} */
@@ -54,6 +54,7 @@ module.exports = {
 
     await hyperlink(
       {
+        root,
         canonicalRoot,
         internalOnly: !checkExternal,
         pretty: true
