@@ -22,7 +22,7 @@ module.exports = {
     },
   }) => {
     /** @type {string} */
-    const root = PUBLISH_DIR/how-to;
+    const root = PUBLISH_DIR+"/how-to";
     console.log('publish dir:: ', root);
 
     /** @type {FilterFunction} */
