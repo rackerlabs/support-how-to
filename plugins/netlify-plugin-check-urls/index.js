@@ -26,16 +26,18 @@ module.exports = {
     console.log('publish dir:: ', root);
 
     /** @type {FilterFunction} */
-    const skipFilter = (report) =>
+    const skipFilter = (report) => {
+      console.log('report:: ', report);
       Object.values(report).some((value) => {
         console.log('value:: ', value);
         skipPatterns.some((pattern) => {
           console.log('pattern:: ', pattern);
           console.log('Match or not match:: ', String(value).includes(pattern));
-          return !String(value).includes(pattern);
+          !String(value).includes(pattern);
         })
-      }
-      );
+      })
+        console.log('after skip patterns:: ', skipPatterns);
+    }
   
 
     /** @type {FilterFunction} */
