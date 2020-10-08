@@ -33,10 +33,13 @@ module.exports = {
         skipPatterns.some((pattern) => {
           console.log('pattern:: ', pattern);
           console.log('Match or not match:: ', String(value).includes(pattern));
-          String(value).includes(pattern);
+          if (String(value).includes(pattern)) {
+            return false; 
+          } else {
+            return true;
+          }
         })
       })
-      return true;
     }
   
 
