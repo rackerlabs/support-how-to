@@ -54,8 +54,8 @@ module.exports = {
 
     await hyperlink(
       {
-        root,
-        canonicalRoot,
+        root: root,
+        canonicalRoot: canonicalRoot,
         internalOnly: !checkExternal,
         pretty: true
       },
