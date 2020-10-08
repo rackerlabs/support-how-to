@@ -31,8 +31,8 @@ module.exports = {
         console.log('value:: ', value);
         skipPatterns.some((pattern) => {
           console.log('pattern:: ', pattern);
-          String(value).includes(pattern)
           console.log('Match or not match:: ', String(value).includes(pattern));
+          return String(value).includes(pattern);
         })
       }
       );
@@ -41,7 +41,7 @@ module.exports = {
     /** @type {FilterFunction} */
     const todoFilter = (report) =>
       Object.values(report).some((value) =>
-        todoPatterns.some((pattern) => String(value).includes(pattern))
+        todoPatterns.some((pattern) => { return String(value).includes(pattern) })
       );
 
     const t = new TapRender();
