@@ -4,7 +4,6 @@ const spot = require('tap-spot');
 const globby = require('globby');
 
 const canonicalRoot = process.env.URL;
-console.log('root:: ', canonicalRoot);
 
 module.exports = {
   onPostBuild: async ({
@@ -23,26 +22,17 @@ module.exports = {
   }) => {
     /** @type {string} */
     const root = PUBLISH_DIR;
-    console.log('publish dir:: ', root);
 
     /** @type {FilterFunction} */
-    const skipFilter = (report) => {
-      console.log('report:: ', report);
-      Object.values(report).some((name) => {
-        console.log('name:: ', name);
-        skipPatterns.some((pattern) => {
-          console.log('pattern:: ', pattern);
-          console.log('Match or not match:: ', String(name).includes(pattern));
-          String(name).includes(pattern);
-        })
-      })
-    }
-  
+    const skipFilter = (report) =>
+      Object.values(report).some((value) =>
+        skipPatterns.some((pattern) => String(value).includes(pattern))
+      );
 
     /** @type {FilterFunction} */
     const todoFilter = (report) =>
       Object.values(report).some((value) =>
-        todoPatterns.some((pattern) => { return String(value).includes(pattern) })
+        todoPatterns.some((pattern) => String(value).includes(pattern))
       );
 
     const t = new TapRender();
@@ -52,7 +42,7 @@ module.exports = {
     } else {
       t.pipe(process.stdout);
     }
-    console.log('skipfilter:: ', skipFilter);
+
     await hyperlink(
       {
         inputUrls: globby.sync(entryPoints, { cwd: root }),
@@ -63,7 +53,6 @@ module.exports = {
         todoFilter,
         internalOnly: !checkExternal,
         pretty: true,
-        followSourceMaps: false
       },
       t
     );
