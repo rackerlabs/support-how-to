@@ -28,8 +28,11 @@ module.exports = {
     /** @type {FilterFunction} */
     const skipFilter = (report) =>
       Object.values(report).some((value) => {
+        console.log('value:: ', value);
         skipPatterns.some((pattern) => {
-          !String(value).includes(pattern)
+          console.log('pattern:: ', pattern);
+          String(value).includes(pattern)
+          console.log('Match or not match:: ', String(value).includes(pattern));
         })
       }
       );
