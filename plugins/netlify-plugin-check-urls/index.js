@@ -11,10 +11,9 @@ module.exports = {
     constants: { PUBLISH_DIR },
     inputs: {
       entryPoints,
-      // skipPatterns,
-      // todoPatterns,
       checkExternal,
-      pretty
+      pretty,
+      ...defaultInputs
     },
     utils: {
       build: { failBuild },
@@ -54,8 +53,10 @@ module.exports = {
 
     await hyperlink(
       {
-        root: root,
-        canonicalRoot: canonicalRoot,
+        inputUrls: globby.sync(entryPoints, { cwd: root }),
+        ...defaultInputs,
+        canonicalRoot,
+        root,
         internalOnly: !checkExternal,
         pretty: true
       },
