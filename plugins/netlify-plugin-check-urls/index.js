@@ -11,6 +11,8 @@ module.exports = {
     constants: { PUBLISH_DIR },
     inputs: {
       entryPoints,
+      skipPatterns,
+      todoPatterns,
       checkExternal,
       pretty,
       ...defaultInputs
@@ -20,28 +22,24 @@ module.exports = {
     },
   }) => {
     /** @type {string} */
-    const root = process.env.URL;
+    const root = PUBLISH_DIR/how-to;
     console.log('publish dir:: ', root);
 
-    // /** @type {FilterFunction} */
-    // const skipFilter = (report) =>
-    //   Object.values(report).some((value) => {
-    //     console.log('value:: ', value);
-    //     skipPatterns.some((pattern) => {
-    //       console.log("report:: ", report);
-    //       console.log('pattern:: ', pattern);
-    //       String(value).includes(pattern)
-    //     })
-    //   }
-    //   );
-    
-    // console.log('skipFilter:: ', skipFilter);
+    /** @type {FilterFunction} */
+    const skipFilter = (report) =>
+      Object.values(report).some((value) => {
+        skipPatterns.some((pattern) => {
+          String(value).includes(pattern)
+        })
+      }
+      );
+  
 
-    // /** @type {FilterFunction} */
-    // const todoFilter = (report) =>
-    //   Object.values(report).some((value) =>
-    //     todoPatterns.some((pattern) => String(value).includes(pattern))
-    //   );
+    /** @type {FilterFunction} */
+    const todoFilter = (report) =>
+      Object.values(report).some((value) =>
+        todoPatterns.some((pattern) => String(value).includes(pattern))
+      );
 
     const t = new TapRender();
 
@@ -55,19 +53,22 @@ module.exports = {
       {
         inputUrls: globby.sync(entryPoints, { cwd: root }),
         ...defaultInputs,
+        canonicalRoot,
         root,
+        skipFilter,
+        todoFilter,
         internalOnly: !checkExternal,
-        pretty: true
+        pretty: true,
       },
       t
     );
 
     const results = t.close();
-    console.log('results:: ', results);
 
     if (results.fail) {
       return failBuild('Links checking failed');
     }
+
     return results;
   },
 };

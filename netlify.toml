@@ -49,8 +49,8 @@
   ]
   recursive = true
   pretty = true
-  # skipPatterns = ["public/support", "public/support/how-to"]
-  # todoPatterns = []
+  skipPatterns = []
+  todoPatterns = []
   checkExternal = false
   followSourceMaps = false
 
