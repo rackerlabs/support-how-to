@@ -55,7 +55,6 @@ module.exports = {
       {
         inputUrls: globby.sync(entryPoints, { cwd: root }),
         ...defaultInputs,
-        canonicalRoot,
         root,
         internalOnly: !checkExternal,
         pretty: true
