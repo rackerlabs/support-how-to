@@ -17,14 +17,14 @@ inputs:
     # description: Report on all broken links to external pages. Enabling this will make your tests more brittle, since you can't control external pages.
     # validation: boolean
   - name: followSourceMaps
-    default: true
+    default: false
     # description: Enable to check references to source maps, source map sources etc. Many build tools don't emit working references, so this is disabled by default
     # validation: boolean
-#   - name: skipPatterns
-#     default: []
-#     # description: You can mark some check as skipped, which will block check urls from ever attempting to execute them. skipPatterns is an array of strings you can match against failing reports
-#     # validation: array of strings, unique items
-#   - name: todoPatterns
-#     default: []
-#     # description: You can mark some check as todo, which will execute the check, but allow failures. todoPatterns is an array of strings you can match against failing reports
-#     # validation: array of strings, unique items
+  - name: skipPatterns
+    default: []
+    # description: You can mark some check as skipped, which will block check urls from ever attempting to execute them. skipPatterns is an array of strings you can match against failing reports
+    # validation: array of strings, unique items
+  - name: todoPatterns
+    default: []
+    # description: You can mark some check as todo, which will execute the check, but allow failures. todoPatterns is an array of strings you can match against failing reports
+    # validation: array of strings, unique items

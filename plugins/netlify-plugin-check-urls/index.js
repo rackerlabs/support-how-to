@@ -59,6 +59,7 @@ module.exports = {
         todoFilter,
         internalOnly: !checkExternal,
         pretty: true,
+        followSourceMaps: false
       },
       t
     );
