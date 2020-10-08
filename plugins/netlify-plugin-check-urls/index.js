@@ -60,7 +60,7 @@ module.exports = {
         ...defaultInputs,
         canonicalRoot,
         root,
-        skipFilter: true,
+        skipFilter,
         todoFilter,
         internalOnly: !checkExternal,
         pretty: true,
