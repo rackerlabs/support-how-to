@@ -1,5 +1,6 @@
 # Redirects
-
+/support/how-to/checking-system-load-on-linux/  /how-to/check-the-system-load-on-linux/  404
+/how-to/check-the-system-load-on-linux/  /support/how-to/check-the-system-load-on-linux/  301
 # Main Redirects
 
 /support       /      200
