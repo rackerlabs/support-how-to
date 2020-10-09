@@ -22,6 +22,9 @@
 {{ else if .Site.Params.keywords }}
 <meta name="keywords" content="{{ .Site.Params.keywords }}">
 {{ end }}
+<meta property="url" content="{{ .Site.Params.permalink }}">
+<meta property="author" content="{{ .Site.Params.created_by }}">
+<meta property="date" content="{{ .Site.Params.created_on }}"> 
 <!-- og meta tags -->
 <meta property="og:url" content="{{ .Site.BaseURL }}">
 {{ if .Params.description }}

@@ -118,7 +118,7 @@ contentLoaded().then(() => {
         magnifier: false,
         reset: false,
         poweredBy: false,
-        escapeHTML: true
+        escapeHTML: false
       }),
       instantsearch.widgets.configure({
         attributesToHighlight: [
@@ -131,7 +131,13 @@ contentLoaded().then(() => {
         ]
       }),
       infiniteHits({
-        container: document.querySelector('#hits')
+        container: document.querySelector('#hits'),
+        transformItems(items) {
+          return items.map(item => ({
+            ...item,
+            name: item.content.renderHTML(),
+          }));
+        }
       }),
       customStats({
         container: document.querySelector('#stats'),
