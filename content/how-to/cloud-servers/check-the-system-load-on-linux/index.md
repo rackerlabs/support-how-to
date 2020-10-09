@@ -1,12 +1,12 @@
 ---
-permalink: checking-system-load-on-linux/
-audit_date:
+permalink: check-the-system-load-on-linux/
+audit_date: '2020-10-09'
 title: Check the System Load on Linux
 type: article
 created_date: '2012-06-21'
 created_by: Rackspace Support
-last_modified_date: '2019-10-15'
-last_modified_by: Shaun Crumpler
+last_modified_date: '2020-10-09'
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -17,7 +17,7 @@ to poor performance and system instability.
 
 ### Uptime
 
-First let's check the load on your server using the `uptime` command.
+Let's check the load on your server using the `uptime` command.
 
     $ uptime
     15:16:45 up 41 days,  2:35,  2 users,  load average: 0.01, 3.01, 2.70
@@ -27,7 +27,7 @@ The example shows the output from `uptime`. When the command was run at
 there were two users logged on and the load averages were 0.01, 3.01 and
 2.70.
 
-The load average represents the work being done by the system. The
+The load average is the work the system is doing. The
 three numbers show the load averages for the last minute, 5 minutes and
 15 minutes, respectively. A load average of 1 reflects the
 full workload of a single processor on the system. A load
@@ -36,48 +36,49 @@ those CPUs were working at maximum. On a
 system with four CPUs, that 2 reflects a workload using about half of
 the available processing power.
 
-Under normal circumstances you'll want the load average to be 70% of
+Under normal circumstances, you'll want the load average to be 70% of
 your total CPU usage or less. You can check the number of CPUs available
 to your instance by running the following command:
 
-    grep processor /proc/cpuinfo | wc -l
+    $ grep processor /proc/cpuinfo | wc -l
 
 If the load averages show that the load is increasing and is above the
-number of CPUs, you should look into the cause of the high load. A load
-above the number of CPUs means that the system is having to queue up
-processor requests, which reduces performance.
+number of CPUs, you should look into the cause. A load above the number
+of CPUs means that the system is queuing up processor requests, which 
+reduces performance.
 
 ### top
 
-The `top` command displays real time information regarding the server's
-resource usage. The first few lines will give you a summary of the
-resource utilisation on your system and you can sort the list of
+The `top` command displays real-time information regarding the server's
+resource usage. The first few lines give you a summary of the
+resource utilization on your system, you can sort the list of
 processes by CPU (P) or memory (M) use which allows you to quickly see
 where your server is receiving the biggest demands on its resources.
 
 ### free
 
-The `free` command displays information regarding the server's memory usage. The first few lines provide a 
-summary of the memory usage on your system.  The `free` column displays the amount of memory that is 
-not being used for anything, which is generally minimal because unused memory is a wasted resource.  The 
-`available` column displays how much memory is available to be allocated to new processes or existing processes.
+The `free` command displays information about the server's memory usage. 
+The first lines provide a summary of the memory usage on your system.  
+The `free` column displays the amount of free memory, which is generally minimal
+because unused memory is a wasted resource.  The  `available` column displays
+how much memory is available to allocate to existing or new processes.
 
 ### vmstat
 
-The amount of memory a system has is one of the most common restraining
-factors. The swap is an area of the hard drive where data is moved to
-free up physical memory (RAM) for a process to use (not all servers have
-swap space configured). A system using its swap area does not
-necessarily mean it is low on memory, but if most of your system's swap
-is being consumed it could indicate that your server is trying to do
-more than its available memory permits.
+ The amount of system memory is one of the most common restraining factors. 
+ The swap is an area of the hard drive where data is moved to free up 
+ physical memory (RAM) for a process to use (not all servers have swap space configured). 
+ If your system consumes most of its swap area, it might be trying to do 
+ more than its available memory permits. If most of your system swap 
+ is being consumed, this could indicate that your server is trying to do 
+ more than its available memory permits, not that it's low on memory.  
 
 If swap space is configured and you suspect your server is running out
 of standard memory, you can use `vmstat` to show how much swapping is
 occurring.
 
 The following example displays a system's virtual memory statistics 10
-times at 5 second intervals.
+times at 5-second intervals.
 
     $ vmstat 5 10
     procs -----------memory-------------  ---swap---- -----io---- --system--  -----cpu------
@@ -93,31 +94,30 @@ times at 5 second intervals.
     6  3   338044   3764    132   1568    20087 31066 20470 31070 1798 9847  46  6  33 14  0
     2  4   325904   4048    108   1172    13251 7190  13812  7190 1193 8838  38  5  24 32  0
 
-In the example the `free` column shows that the amount of free memory is
+In the example, the `free` column shows that the amount of free memory is
 only around 4MB.
 
 The `si` and `so` columns show the amount of data being transferred
 between the system's swap and its memory. In this example you can see
 there is lots of data being moved. `so` is the amount of data being
 moved to the swap to free up memory. `si` is the amount of data being
-pulled from the swap back in to memory. This happens when the data is
+pulled from the swap back into memory. This happens when the data is
 required for a process to run.
 
 When a server is constantly swapping into and out of memory it is an
 indication that the load it is being placed under is too great for the
-resources it has available. top can be used to help identify the
+resources it has available. `Top` can be used to help identify the
 processes that are consuming the most resources.
 
 ### Summary
 
-If top and vmstat indicate that the server is using all its resources
-you need to look at optimising your current set up; this can include
-running any processing jobs outside peak hours, killing any processes no
-longer required and reconfiguring processes so they require less
-resources. You may also want to consider increasing the size of your
-server to better match your requirements.
+If `top` and `vmstat` indicate that the server is using all its resources
+you need to optimize your current set up; this can include
+running any processing jobs outside peak hours, killing any unrequired
+processes and reconfiguring others so they use fewer resources. You may 
+also want to consider increasing the size of your server to better match
+your requirements.
 
-Assuming your application is running and looks healthy, let's now check
-that it is listening for network connections. We can see if the service
-is listening on the correct socket using the netstat command, which
-we'll cover in [Checking Listening Ports with netstat](/support/how-to/checking-listening-ports-with-netstat).
+If your application runs and looks healthy,  check that it is listening for
+network connections. We can see if the service is listening on the correct 
+socket using the netstat command, which we'll cover in [Checking Listening Ports with netstat](/support/how-to/checking-listening-ports-with-netstat).
