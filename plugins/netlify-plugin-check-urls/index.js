@@ -62,7 +62,6 @@ module.exports = {
     if (results.fail) {
       return failBuild('Links checking failed');
     }
-    console.log('t::', t);
     return results;
   },
 };

@@ -135,6 +135,16 @@ contentLoaded().then(() => {
       }),
       customStats({
         container: document.querySelector('#stats'),
+      }),
+      instantsearch.widgets.analytics({
+        pushFunction(formattedParameters, state, results) {
+          dataLayer.push({
+            'event': 'search',
+            'Search Query': state.query,
+            'Facet Parameters': formattedParameters,
+            'Number of Hits': results.nbHits,
+          });
+        },
       })
     ]);
     search.start();
