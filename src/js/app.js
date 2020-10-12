@@ -1,5 +1,6 @@
 import contentLoaded from "content-loaded";
 import SmoothScroll from "./imports/smoothScroll";
+const Entities = require('html-entities').AllHtmlEntities;
 
 
 contentLoaded().then(() => {
@@ -43,6 +44,7 @@ contentLoaded().then(() => {
           .map(
             (hit) => {
               let renderHTML = ``;
+              const entities = new Entities();
               if (hit.product_url != null && hit.created_by != null && hit.created_by != '' && hit.created_date != null && !hit.permalink.includes('all-articles')) {
                 renderHTML += `<li class="hit-item-single">
                 <div class="row">
@@ -61,7 +63,7 @@ contentLoaded().then(() => {
                 </div>
               </div>
             </li>`;
-                return renderHTML;
+                return entities.decode(renderHTML);
               } else {
                 return `<span></span>`;
               }
@@ -118,7 +120,7 @@ contentLoaded().then(() => {
         magnifier: false,
         reset: false,
         poweredBy: false,
-        escapeHTML: false
+        escapeHTML: true
       }),
       instantsearch.widgets.configure({
         attributesToHighlight: [
@@ -136,6 +138,7 @@ contentLoaded().then(() => {
           return items.map(item => ({
             ...item,
             content: item.content.toLowerCase(),
+            title: item.title.toUpperCase(),
           }));
         }
       }),
