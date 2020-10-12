@@ -29,7 +29,7 @@ there were two users logged on, and the load averages were `0.01`, `3.01`, and
 
 The load average is the work the system is doing. The
 three numbers show the load averages for the last minute, 5 minutes, and
-15 minutes, respectively. A load average of `1` reflects the
+15 minutes respectively. A load average of `1` reflects the
 full workload of a single processor on the system. A load
 of `2` on a system with two CPUs means that
 those CPUs were working at maximum. On a
