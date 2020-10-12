@@ -51,9 +51,9 @@ contentLoaded().then(() => {
                       <a class="search-product-link" href="/support/how-to/">How-To</a> &nbsp; > &nbsp; <a class="search-product-link" href=/support/how-to/${hit.product_url}>${hit.product}</a>
                     </p> 
                     <h2>
-                      <a class="search-title" href=/support${hit.permalink}>${instantsearch.highlight({ attribute: 'title', hit })}</a>
+                      <a class="search-title" href=/support/how-to/${hit.permalink}>${instantsearch.highlight({ attribute: 'title', hit })}</a>
                     </h2>
-                    <a class="search-summary-link" href = /support${hit.permalink}>
+                    <a class="search-summary-link" href=/support/how-to/${hit.permalink}>
                       <p class="search-summary">${instantsearch.highlight({ attribute: 'content', hit })}</p>
                     </a>
                     <span class="search-author" > By &nbsp; ${instantsearch.highlight({ attribute: 'created_by', hit })}</span>
@@ -141,16 +141,6 @@ contentLoaded().then(() => {
       }),
       customStats({
         container: document.querySelector('#stats'),
-      }),
-      instantsearch.widgets.analytics({
-        pushFunction(formattedParameters, state, results) {
-          dataLayer.push({
-            'event': 'search',
-            'Search Query': state.query,
-            'Facet Parameters': formattedParameters,
-            'Number of Hits': results.nbHits,
-          });
-        },
       })
     ]);
     search.start();
