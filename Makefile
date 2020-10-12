@@ -1,4 +1,4 @@
-HUGO_VERSION ?= 0.74.3
+HUGO_VERSION ?= 0.75.1
 HUGO_EXTENDED = "extended_"
 CONTAINER_RUNTIME ?= docker
 # Show build warnings, posts tagged as draft, and posts with a future date
@@ -7,6 +7,7 @@ PREVIEW_ARGS = --path-warnings --verbose --buildDrafts --buildFuture
 install: checkDep
 	@echo Installing AsciiDoctor
 	@gem install bundler
+	@npm install
 	@bundle install
 
 checkDep:

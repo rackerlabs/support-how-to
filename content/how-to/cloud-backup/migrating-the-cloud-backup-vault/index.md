@@ -20,7 +20,7 @@ The following article provides information about how to migrate the Cloud Backup
 ###Migrating the Cloud Backup vault
 
 1. Log in to the API tool Pitchfork as shown in the following guide:
-[Pitchfork - the Rackspace Cloud API web app](https://docs.rackspace.com/support/how-to/pitchfork-the-rackspace-cloud-api-web-application/) 
+[Pitchfork - the Rackspace Cloud API web app](/support/how-to/pitchfork-the-rackspace-cloud-api-web-application/) 
 
 2. Click the **Cloud Backup** section. From this page navigate to the **Migrate Vault** API call and click on the **Details** button. 
 

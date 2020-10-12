@@ -8,10 +8,6 @@
 
 # Retired Articles
 
-/support/how-to/introduction-to-mailgun-email-automation/ /how-to/article-retired/ 404
-/support/how-to/serving-your-domain-from-a-rackspace-cloud-server/  /how-to/serve-your-domain-from-a-rackspace-cloud-server/  404
-/how-to/serve-your-domain-from-a-rackspace-cloud-server/  /support/how-to/serving-your-domain-from-a-rackspace-cloud-server/  301
-/support/how-to/ubuntu-904-iredmail-installation/  /how-to/article-retired/  404
 /support/how-to/cloud-storage-app-for-microsoft-sharepoint-accessing-cloud-files-containers/  /how-to/article-retired/ 404
 /support/how-to/cloud-storage-app-for-microsoft-sharepoint-browser-compatibility-matrix/  /how-to/article-retired/ 404
 /support/how-to/cloud-storage-app-for-microsoft-sharepoint-how-to-add-and-delete-files-in-a-container/  /how-to/article-retired/ 404
@@ -533,3 +529,5 @@
 
 /support/how-to/*       /how-to/:splat      200
 # /how-to/*       /support/how-to/:splat      301
+
+
