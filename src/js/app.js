@@ -135,7 +135,7 @@ contentLoaded().then(() => {
         transformItems(items) {
           return items.map(item => ({
             ...item,
-            name: item.content.renderHTML(),
+            content: item.content.toLowerCase(),
           }));
         }
       }),
