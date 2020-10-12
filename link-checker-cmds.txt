@@ -1,4 +1,4 @@
-grep -Eoi '<a [^>]+>' public/*.html | grep -Eo 'href="[^\"]+"' | grep -Eo '(http|https)://[^/"]+' > external_urls.txt
+grep -Eoi '<a [^>]+>' public/**/*.html | grep -Eo 'href="[^\"]+"' | grep -Eo '(http|https)://[^/"]+' > external_urls.txt
 
 echo "$(sort  external_urls.txt | uniq -u)" > external_urls.txt
 

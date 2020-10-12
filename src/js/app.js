@@ -48,7 +48,7 @@ contentLoaded().then(() => {
                 <div class="row">
                   <div class="col-sm-12">
                     <p class="search-product">
-                      <a class="search-product-link" href="/support/how-to/">How-To</a> &nbsp; > &nbsp; <a class="search-product-link" href=/support/${hit.product_url}>${hit.product}</a>
+                      <a class="search-product-link" href="/support/how-to/">How-To</a> &nbsp; > &nbsp; <a class="search-product-link" href=/support/how-to/${hit.product_url}>${hit.product}</a>
                     </p> 
                     <h2>
                       <a class="search-title" href=/support${hit.permalink}>${instantsearch.highlight({ attribute: 'title', hit })}</a>
@@ -118,7 +118,7 @@ contentLoaded().then(() => {
         magnifier: false,
         reset: false,
         poweredBy: false,
-        escapeHTML: true
+        escapeHTML: false
       }),
       instantsearch.widgets.configure({
         attributesToHighlight: [
@@ -131,10 +131,26 @@ contentLoaded().then(() => {
         ]
       }),
       infiniteHits({
-        container: document.querySelector('#hits')
+        container: document.querySelector('#hits'),
+        transformItems(items) {
+          return items.map(item => ({
+            ...item,
+            name: item.content.renderHTML(),
+          }));
+        }
       }),
       customStats({
         container: document.querySelector('#stats'),
+      }),
+      instantsearch.widgets.analytics({
+        pushFunction(formattedParameters, state, results) {
+          dataLayer.push({
+            'event': 'search',
+            'Search Query': state.query,
+            'Facet Parameters': formattedParameters,
+            'Number of Hits': results.nbHits,
+          });
+        },
       })
     ]);
     search.start();
