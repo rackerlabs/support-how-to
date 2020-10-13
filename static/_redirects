@@ -1,18 +1,19 @@
 # Redirects
 
+
 support/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers/  /how-to/upgrade-resources-for-general-purpose-or-io-optimized-cloud-servers/  404
 /how-to/upgrade-resources-for-general-purpose-or-io-optimized-cloud-servers/  /support/how-to/upgrade-resources-for-general-purpose-or-io-optimized-cloud-servers/  301
 
-
 /support/how-to/checking-system-load-on-linux/  /how-to/check-the-system-load-on-linux/  404
 /how-to/check-the-system-load-on-linux/  /support/how-to/check-the-system-load-on-linux/  301
+
 # Main Redirects
 
 /support       /      200
 /support/how-to/       /how-to/     200
 
 # Retired Articles
-
+/support/how-to/assemble-rackspace-email-webmail-and-outlook-web-access-owa-login-widget/  /how-to/article-retired/ 404
 /support/how-to/introduction-to-mailgun-email-automation/ /how-to/article-retired/ 404
 /support/how-to/serving-your-domain-from-a-rackspace-cloud-server/  /how-to/serve-your-domain-from-a-rackspace-cloud-server/  404
 /how-to/serve-your-domain-from-a-rackspace-cloud-server/  /support/how-to/serving-your-domain-from-a-rackspace-cloud-server/  301
