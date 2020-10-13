@@ -11,66 +11,66 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Tcpdump is a powerful network debugging tool that can be used for intercepting
-and displaying packets on a network interface. An important feature of tcpdump
-is the filter that allows you to display only the packets you want to see.
+`tcpdump` is a powerful network debugging tool that you can use to intercept
+and display packets on a network interface. An important feature of `tcpdump`
+is the filter that enables you to display only the packets you want to see.
 
-### Installation
+### Install tcpdump
 
-In this example, we are using Ubuntu 8.10, but the installation steps are
-similar for other Linux distributions. Use the following command to install
-tcpdump on a server running the Ubuntu operating system:
+This example uses Ubuntu&reg; 8.10, but the installation steps are
+similar for other Linux&reg; distributions. Use the following command to install
+`tcpdump` on a server running the Ubuntu operating system:
 
     sudo apt-get install tcpdump
 
-### Usage
+### Use tcpdump
 
     sudo tcpdump [options] [filter expression]
 
-By default, tcpdump captures packets on eth0. To specify a different interface
-using the `-i` command line flag. This command captures all packets on the eth1
+By default, `tcpdump` captures packets on `eth0`. To specify a different interface,
+use the `-i` command line flag. The following command captures all packets on the `eth1`
 interface:
 
     sudo tcpdump -i eth1
 
-To listen to all UDP connections:
+Use the following command to listen to all UDP connections:
 
     sudo tcpdump udp
 
-Use this command to capture packets for a specific port:
+Use the following command to capture packets for a specific port:
 
     sudo tcpdump port 80
 
-Our command is returning all packets which have port 80 as their destination or
+The preceding command returns all packets that have port `80` as their destination or
 source port.  
 
-Now let's be more specific and capture only packets with destination port 80. If
-you have a web server on your cloud, you can use the command below to see
+Suppose you want be more specific and capture only packets with destination port 80. If
+you have a web server on your cloud, you can use the folloiwng command to see
 incoming packets.
 
     sudo tcpdump dst port 80
 
-You can also capture packets for a specific host. This command catches packets
-coming only from IP 1.2.3.4:
+You can also capture packets for a specific host. The following command catches packets
+coming only from IP address `1.2.3.4`:
 
     sudo tcpdump src host 1.2.3.4
 
-Tcpdump can take logical arguments such as `and`, as well as `or`. You can use
-logical statements in a tcpdump command. For example, this command catches all
-the SSH packets going from an SSH server to a client with IP 1.2.3.4:
+`tcpdump` can take logical arguments such as `and` or `or`. You can use
+logical statements in a `tcpdump` command. For example, the following command catches all
+the Secure Shell (SSH) packets going from an SSH server to a client with IP address `1.2.3.4`:
 
     sudo  tcpdump "src port 22" and "dst host 1.2.3.4"
 
-Raw packets can be conveniently saved to a file using the '-w' option:
+You can conveniently save raw packets to a file by using the `-w` option:
 
     tcpdump host 1.2.3.4 -w /home/users/demo/demo.dump
 
-Let's read the saved file:
+To read the saved file, use the following command:
 
     tcpdump -r /home/users/demo/demo.dump
 
 ### Summary
 
-Tcpdump is a powerful packet sniffer and a common tool used by system
-administrators to solve network problems and investigate traffic. It can be used
-with Boolean expressions to capture the packets you're interested in.
+System administrators commonly use `tcpdump`, a powerful packet sniffer tool,
+to solve network problems and investigate traffic. You can use
+with Boolean expressions to capture the packets that you want to examine.
