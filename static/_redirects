@@ -1,4 +1,8 @@
 # Redirects
+
+/support/how-to/how-to-add-linux-user-with-document-root-permissions/  /how-to/add-a-linux-user-with-document-root-permissions/  404
+/how-to/add-a-linux-user-with-document-root-permissions/  /support/how-to/add-a-linux-user-with-document-root-permissions/  301
+
 /support/how-to/checking-system-load-on-linux/  /how-to/check-the-system-load-on-linux/  404
 /how-to/check-the-system-load-on-linux/  /support/how-to/check-the-system-load-on-linux/  301
 # Main Redirects
