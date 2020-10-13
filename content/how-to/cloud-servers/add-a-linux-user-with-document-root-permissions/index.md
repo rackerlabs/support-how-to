@@ -115,4 +115,4 @@ The Ubuntu operating system and Debian versions of the commands are:
 
 Connect to your server via SFTP with the user account you created or modified.
 Try uploading a file to make sure you set the permissions correctly. If you get a *permission denied*
-error run the command, `ls -la`, in the document root, to check the directory permissions.
+error, run the command, `ls -la`, in the document root, to check the directory permissions.
