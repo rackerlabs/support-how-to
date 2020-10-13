@@ -12,13 +12,13 @@ product_url: cloud-servers
 ---
 
 HTTP (Hypertext Transfer Protocol) response status codes indicate whether a
-specific request has been completed. In this article, we will go
-over some common http error codes and what they mean.
+specific request succeeded or failed. This article describes
+some common HTTP error codes and what they mean.
 
-## Types of Errors
+## Types of errors
 
-If you are not able to view your website, you will want to pay attention to the
-errors (or lack of) that you receive. Responses are grouped in classes:
+If you can't view your website, you should pay attention to the
+errors (or lack of errors) that you receive. Responses are grouped in the following classes:
 
 | Class | Error code |
 |----|----|
@@ -28,7 +28,7 @@ errors (or lack of) that you receive. Responses are grouped in classes:
 | Client errors | 400–499|
 | Server errors | 500–599|..
 
-We will be covering the following common codes:
+The next section covers the following common codes:
 
 - 401 Unauthorized
 - 403 Forbidden
@@ -37,31 +37,30 @@ We will be covering the following common codes:
 - 502 Bad Gateway
 - 503 Service Unavailable
 
-### 401 Unauthorized & 403 Forbidden
+### 401 unauthorized and 403 forbidden
 
-The 401 error, you are usually provided with a prompt to enter credentials, if
+With the `401` error, you are usually provided with a prompt to enter credentials. If
 you refuse to enter the credentials or enter credentials that are incorrect, you
-will be provided with this error. On the other hand, 403 error, will not prompt
-for credentials and will deliver the error immediately. This usually means the
-URL is meant to be private or only accessible to selected IP addresses.
+get this error. On the other hand, the `403` error does not prompt
+for credentials and delivers the error immediately. This usually means the
+URL is private or accessible only to selected IP addresses.
 
-### 404 Not Found
+### 404 not found
 
-The error code will appear when your browser cannot find the specific URL you
-are trying to reach. The most common reason is when the content was moved or
-deleted.
+The error code appears when your browser cannot find the specific URL you
+entered. Most commonly, the content was moved or deleted.
 
-### 500 Internal Server Error
+### 500 internal server error
 
-The error means that there is a *server-side* problem, this can be a number of
-different reasons from Apache or Nginx crashing to the entire server being down.
+The error means that there is a *server-side* problem. Many reasons can cause this
+from Apache&reg; or Nginx&reg; crashing to the entire server being down.
 
-### 502 Bad Gateway
+### 502 bad gateway
 
-A 502 error is similar to a error 500, however this means that the host server
-may be running fine while another server that is being used as a proxy is not able
-to complete the request to the host, thus generating the error.
+A `502` error is similar to the `500` error. However, this error means that the host server
+might be running fine while another server that is being used as a proxy cannot
+complete the request to the host, thus generating the error.
 
-### 503 Service Unavailable
+### 503 service unavailable
 
-Common causes are a server that is down for maintenance or that is overloaded.
+Common causes are a server that is down for maintenance or overloaded.
