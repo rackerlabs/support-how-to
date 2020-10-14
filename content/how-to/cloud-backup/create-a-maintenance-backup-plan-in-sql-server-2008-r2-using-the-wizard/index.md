@@ -6,7 +6,7 @@ type: article
 created_date: '2014-04-04'
 created_by: Kyle Laffoon
 last_modified_date: '2020-10-14'
-last_modified_by: Brett Johnson
+last_modified_by: Rose Morales
 product: Cloud Backup
 product_url: cloud-backup
 ---
