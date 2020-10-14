@@ -45,7 +45,7 @@ After you [clone your Cloud Block Storage volume](https://support.rackspace.com/
 
 - To avoid writes to the system disk, you must shut down your cloud server from the operating system (OS) at least 10 minutes before the maintenance starts. This causes your server to show as "Shutoff"  in the mycloud portal. After you receive a ticket confirming that the maintenance is complete, reboot the server from the mycloud portal by selecting **Actions**> **Reboot**. Your server boots up and displays as "Active" in the mycloud portal.
 
-#### Troubleshooting after A Migration
+#### Troubleshooting after A Maintenance
 
 **Volume not appearing inside server:**
 
