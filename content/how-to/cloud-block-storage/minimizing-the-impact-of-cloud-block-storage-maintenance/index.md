@@ -5,8 +5,8 @@ title: Minimizing the impact of Cloud Block Storage maintenance
 type: article
 created_date: '2020-01-7'
 created_by: Brian King
-last_modified_date: '2020-08-25'
-last_modified_by: Mason Stevens
+last_modified_date: '2020-10-14'
+last_modified_by: Tyler Watson
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
@@ -45,14 +45,16 @@ After you [clone your Cloud Block Storage volume](https://support.rackspace.com/
 
 - To avoid writes to the system disk, you must shut down your cloud server from the operating system (OS) at least 10 minutes before the maintenance starts. This causes your server to show as "Shutoff"  in the mycloud portal. After you receive a ticket confirming that the maintenance is complete, reboot the server from the mycloud portal by selecting **Actions**> **Reboot**. Your server boots up and displays as "Active" in the mycloud portal.
 
-#### If your disk goes into read-only mode
+#### Troubleshooting after A Migration
+
+**Volume not appearing inside server:**
+
+- The first step here should be to shut the server down, [detach](https://support.rackspace.com/how-to/detach-and-delete-cloud-block-storage-volumes/) the Cloud Block Storage volume then [attach it back](https://support.rackspace.com/how-to/create-and-attach-a-cloud-block-storage-volume/) to the server. Once that is done, you can start your server back up either through a reboot in the Control Panel, or by issueing a start call via the API. 
 
 **Non-system disk Cloud Block Storage volumes:**
 
 - If your volume is in read-only mode, unmount the volume, run a filesystem check
-(Linux&reg; with 'ext3/4' or fsck, Windows&reg; with 'chkdsk'), and then remount the volume as described above.
-If the disk is still in read-only mode after a filesystem check, try a reboot to correct the problem. If that
-does not work, contact Rackspace Support.
+(Linux&reg; with 'ext3/4' or fsck, Windows&reg; with 'chkdsk'), and then remount the volume. If the disk is still in read-only mode after a that, then shut the server down and follow the detach and attach steps from the above section. If that does not work, contact Rackspace Support.
 
 **System disk Cloud Bloud Storage volumes (Boot from volume servers):**
 
