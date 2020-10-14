@@ -29,7 +29,7 @@ For more information about how to view, modify, or delete access-lists, see the 
 
 - [View an access-list rule](/support/how-to/view-an-access-list-rules-with-firewall-manager-v2)
 - [Modify an access-list's execution order](/support/how-to/modify-an-access-lists-execution-order-with-firewall-manager-v2)
-- [Delete an access-list](/support/how-to/delete-an-access-list-with-firewall-manager-v2)
+- [Delete an access-list](/support/how-to/delete-an-access-list-rule-with-firewall-manager-v2)
 
 ### Access-list best practices
 

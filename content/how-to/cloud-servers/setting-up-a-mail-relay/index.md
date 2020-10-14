@@ -19,8 +19,6 @@ not reliably get through to your intended recipients.
 
 To be able to send email reliably from your server, we recommend you
 sign up for a [Rackspace Email account](https://www.rackspace.com/email-hosting),
-use a relay service like
-[Mailgun](/support/how-to/introduction-to-mailgun-email-automation),
 or use any email account that allows you to send email via secure SMTP
 authentication. You can then configure your server to send email through
 that account. This way, you are still able to send mail and avoid these

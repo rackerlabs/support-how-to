@@ -5,7 +5,7 @@ title: LON7 (Global Switch) data center migration FAQ for managed customers
 type: article
 created_date: '2020-01-29'
 created_by: Sarah Wellburn
-last_modified_date: '2020-01-29'
+last_modified_date: '2020-10-06'
 last_modified_by: Cat Lookabaugh
 product: General
 product_url: general
@@ -38,7 +38,7 @@ infrastructure and the Stratosphere&reg; products (EStrat, VStrat, and PCIStrat)
 #### When will the relocation take place?
 
 Rackspace assigns all customers to a move group, which we will schedule for a
-date in April and May 2020. We schedule the move groups to run in a maintenance
+date in January and February 2021. We schedule the move groups to run in a maintenance
 window starting on either a Friday or Saturday night and running through to the
 following morning. We plan to keep the maintenance window shorter than 12 hours.
 We confirm the exact timings when we allocate the move groups, at least 60 days
@@ -192,7 +192,7 @@ Yes, you continue to receive the same services.
 
 #### We have a leased line that terminates in LON7. What happens to this?
 
-If Rackpsace provides the leased line, we take care of this and work
+If Rackspace provides the leased line, we take care of this and work
 with you to schedule the change. If not, you must work with your telco provider
 and Rackspace to understand the options for relocating the line. The data
 center you are moving to and your provider determine the options available to
