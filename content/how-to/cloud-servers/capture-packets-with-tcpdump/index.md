@@ -17,7 +17,7 @@ is the filter that enables you to display only the packets you want to see.
 
 ### Install tcpdump
 
-This example uses Ubuntu&reg; 8.10, but the installation steps are
+This example uses Ubuntu&reg; 18.04, but the installation steps are
 similar for other Linux&reg; distributions. Use the following command to install
 `tcpdump` on a server running the Ubuntu operating system:
 
