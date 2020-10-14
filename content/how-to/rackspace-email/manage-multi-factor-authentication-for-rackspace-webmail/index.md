@@ -16,7 +16,7 @@ Rackspace Webmail.
 
 ### Prerequisites
 
-- **Applies to:** Administrator
+- **Applies to:** User
 - **Difficulty:** Easy
 - **Tools required:** Access to your Rackspace Webmail account
 
