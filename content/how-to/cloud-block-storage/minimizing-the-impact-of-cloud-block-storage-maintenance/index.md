@@ -17,7 +17,8 @@ some tips for minimizing the impact of this maintenance on your environment.
 
 ###  How can I reduce the impact of the maintenance?
 
-You can either clone and replace your Cloud Block Storage volume or stop all writes to the device until the maintenance is complete.
+You can either clone and replace your Cloud Block Storage volume or stop all writes to the device
+until the maintenance is complete.
 
 #### Clone and replace
 
