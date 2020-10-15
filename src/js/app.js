@@ -59,7 +59,7 @@ contentLoaded().then(() => {
                       <p class="search-summary">${instantsearch.highlight({ attribute: 'content', hit })}</p>
                     </a>
                     <span class="search-author" > By &nbsp; ${instantsearch.highlight({ attribute: 'created_by', hit })}</span>
-                    <span class="search-date">${hit.created_date}</span> 
+                    <span class="search-date">${hit.last_modified_date}</span> 
                 </div>
               </div>
             </li>`;
