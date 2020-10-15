@@ -12,20 +12,20 @@ product_url: cloud-backup
 ---
 
 When you create a maintenance backup plan in SQL Server&reg; 2008 R2, you must
-identify how you want the plan to be set up. In this example, the maintenance
-plan is set up with full backups, differentials, and transaction logs.
+identify how you want the plan to be set up. This example sets up the maintenance
+plan with full backups, differentials, and transaction logs.
 
 ### Check SQL Server Agent service
 
 Verify that the SQL Server Agent service is running and set to automatic. The
 maintenance plan depends on this service to run.
 
-1. On the server, open the **Run** dialog box, type in **services.msc** and
+1. On the server, open the **Run** dialog box, type in **services.msc**, and
     press **Enter**.
 2. Find the SQL Server Agent service in the list and double-click it.
 3. Click the **Recovery** tab and set the failure value to **Restart the
     Service**.
-4. Click the **General** tab, and select **Automatic** as the startup type, and
+4. Click the **General** tab, select **Automatic** as the startup type, and
     then start the service by clicking on **Start**.
 
     {{<image src="CheckSQLServerAgent3.png" alt="" title="">}}
@@ -43,8 +43,8 @@ maintenance plan depends on this service to run.
     **Separate schedules for each task**, and then click **Next**.
 
 5. On the **Select Maintenance Tasks** page, select the **Back Up Database
-    (Full)**,  **Back Up Database (Differential)**, and **Back Up Database
-    (Transaction Log)** check boxes, and then click **Next**.
+    (Full)**, **Back Up Database (Differential)**, and **Back Up Database
+    (Transaction Log)** checkboxes, and then click **Next**.
 
     {{<image src="Creatingthemaintenanceplan4.png" alt="" title="">}}
 
@@ -59,8 +59,8 @@ according to the following instructions.
 1. Select the databases that you want to back up (typically **All user
     databases**).
 
-2. Specify when you want the backups to expire. In the following example, 14
-    days is specified.
+2. Specify when you want the backups to expire. The following example
+    specifies 14 days.
 
     **Note**: This setting overwrites the oldest backup file for rotation.
 
@@ -85,8 +85,8 @@ according to the following instructions.
 
 9. Adjust the daily frequency according to when your backup needs to run.
 
-10. Under **Duration**, adjust the **Start** and **End** dates. In the example
-    **No end date** is selected.
+10. Under **Duration**, adjust the **Start** and **End** dates. The example
+    selects **No end date**.
 
     {{<image src="fullbackupsetttings2.png" alt="" title="">}}
 
@@ -142,9 +142,9 @@ transaction log backup according to the following instructions.
 
 2. Do *not* select the **Backup set will expire** check box.
 
-    Expiration of transaction log backups is configured in the next section,
-    "Set up the transaction log cleanup task."
-
+    The following **Set up the transaction log cleanup task** section configures
+    the expiration of transaction log backups.
+    
 3. Select your backup media (typically **Disk**).
 
 4. Specify a location (either Default or as assigned by you) for your backup
@@ -168,7 +168,7 @@ transaction log backup according to the following instructions.
 9. Specify the frequency of the backup. In the following example, the
     transaction log backups are running daily.
 
-10. Adjust the daily frequency. In the following example, this is set to run
+10. Adjust the daily frequency. The following example sets it to run
     every hour.
 
 11. Under **Duration**, adjust the **Start date** and **End date** fields.
@@ -187,19 +187,19 @@ transaction log backup according to the following instructions.
 
 16. On the **Maintenance Plan Wizard Progress** page, click **Close**.
 
-17. When you are returned to the SQL Server Management Studio main window, press
+17. When you return to the SQL Server Management Studio main window, press
     **F5** to refresh the maintenance plan with the new settings.
 
-    The new maintenance plan is listed under **Maintenance Plans** in the Object
-    Explorer pane.
+    The **Maintenance Plans** section of the Object Explorer pane lists
+    the new maintennce plan.
 
 ### Set up the transaction Log Cleanup Task
 
-This section demonstrates how to set up a maintenance cleanup task. This task is
-set to clean up the transaction logs after three days. This setting keeps the
+This section demonstrates how to set up a maintenance cleanup task, such as a task
+to clean up the transaction logs after three days. This setting keeps the
 one-hour transaction logs for three days until the maintenance cleanup task
 deletes the old data. The transaction log cleanup must include a series of three
-days, which ensures that if you need to revert back to the second differential
+days, which ensures that if you need to revert to the second differential
 backup, you can apply the transaction logs from that time period. The goal is to
 have enough transaction log backups between the full and differential backups.
 
@@ -216,9 +216,9 @@ have enough transaction log backups between the full and differential backups.
 
 6. Select **Search folder and delete files based on an extension**.
 
-7. In the **Folder** text box, enter the path that you pasted into a notepad in
-    the previous task. Ensure that you include the same path that your
-    transaction logs are backing up to.
+7. In the **Folder** text box, enter the path you pasted into a notepad in
+    the previous task. Ensure that you include the same path to which your
+    transaction logs are backing up.
 
 8. Enter the file extension type, **trn**.  Do *not* precede the extension with
     a period.
@@ -241,9 +241,9 @@ have enough transaction log backups between the full and differential backups.
 
 14. In the Precedence Constraint Editor, set **Value** to Completion.
 
-    This setting allows the task to become conditional, meaning that if the
+    This setting allows the task to become conditional. Thus, if the
     differential backup did not run, then the transaction cleanup task is not
-    run, or if the backup did run, the cleanup task is run.
+    run, or if the backup did run, the cleanup task runs.
 
     {{<image src="TransactionLogCleanupTask5.png" alt="" title="">}}
 
@@ -273,7 +273,7 @@ performing the following steps.
     and test run the setup. Repeat this step for all sub plans that you created
     in the maintenance plan.
 
-If all of your steps run without error, your maintenance plan works and you are
+If all of your steps run without error, your maintenance plan works, and you are
 finished.
 
 ### Troubleshoot errors by viewing the job history
@@ -281,14 +281,14 @@ finished.
 If any of the jobs fail when testing the maintenance plan, view the job history
 to see what failed.
 
-1. In the Object Explorer pane, right-click the failed sub plan and select
+1. In the Object Explorer pane, right-click the failed sub-plan and select
     **View History**.
 
     The Log File Viewer window, which shows the job history, is displayed.
 
     {{<image src="Errors2_0.png" alt="" title="">}}
 
-    If the job failed a red X icon is displayed next to the time that you ran
+    If the job failed, a red X icon is displayed next to the time that you ran
     the job.
 
 2. Click the row for the failed job.
@@ -301,5 +301,5 @@ to see what failed.
 3. Troubleshoot the error and repeat the test job.
 
 When your maintenance plan is reliable, check it in a few days to see if it is
-running as expected. Verify that the **.bak** files are being removed after the
-expiration and that the transaction logs are being cleaned up after three days.
+running as expected. Verify that the **.bak** files are removed after the
+expiration and that the transaction logs are cleaned up after three days.
