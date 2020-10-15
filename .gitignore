@@ -13,6 +13,7 @@ hugo/public/
 dist/
 .tmp/
 resources/_gen
+static/assets/
 
 # Don't add files that are created in the build process
 # Local Netlify folder

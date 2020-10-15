@@ -1,5 +1,6 @@
 # Redirects
-
+/support/how-to/checking-system-load-on-linux/  /how-to/check-the-system-load-on-linux/  404
+/how-to/check-the-system-load-on-linux/  /support/how-to/check-the-system-load-on-linux/  301
 # Main Redirects
 
 /support       /      200
@@ -133,6 +134,18 @@
 
 /support/how-to/managing-your-server-resizing-standard-and-general-purpose-servers/  /how-to/resize-standard-and-general-purpose-servers/  404
 /how-to/resize-standard-and-general-purpose-servers/  /support/how-to/resize-standard-and-general-purpose-servers/  301
+
+/support/how-to/managing-users-for-cloud-databases/  /how-to/manage-users-for-cloud-databases/  404
+/how-to/manage-users-for-cloud-databases/  /support/how-to/manage-users-for-cloud-databases/  301
+
+/support/how-to/spam-preferences-safelist-and-blacklist-management-for-microsoft-exchange/  /how-to/spam-preferences-safelist-and-blocklist-management-for-microsoft-exchange/  404
+/how-to/spam-preferences-safelist-and-blocklist-management-for-microsoft-exchange/  /support/how-to/spam-preferences-safelist-and-blocklist-management-for-microsoft-exchange/  301
+
+/support/how-to/blacklist-addresses-domains-and-ip-addresses-in-rackspace-email/  /how-to/blocklist-addresses-domains-and-ip-addresses-in-rackspace-email/  404
+/how-to/blocklist-addresses-domains-and-ip-addresses-in-rackspace-email/  /support/how-to/blocklist-addresses-domains-and-ip-addresses-in-rackspace-email/  301
+
+/support/how-to/edit-blacklists-per-domain/  /how-to/edit-blocklists-per-domain/  404
+/how-to/edit-blocklists-per-domain/  /support/how-to/edit-blocklists-per-domain/  301
 
 /support/how-to/centos-6-apache-and-php-install/  /how-to/centos-7-apache-and-php-install/ 404
 /how-to/centos-7-apache-and-php-install/  /support/how-to/centos-7-apache-and-php-install/  301
@@ -336,7 +349,7 @@
 /support/how-to/enable-email-archiving-cloud-office-control-panel/  /how-to/enable-email-archiving-for-rackspace-email-and-hosted-exchange/ 404
 /how-to/enable-email-archiving-for-rackspace-email-and-hosted-exchange/  /support/how-to/enable-email-archiving-for-rackspace-email-and-hosted-exchange/  301
 
-/support/how-to/ntegrate-rackspace-email-archiving-with-outlook/  /how-to/integrate-email-archiving-with-outlook/ 404
+/support/how-to/integrate-rackspace-email-archiving-with-outlook/  /how-to/integrate-email-archiving-with-outlook/ 404
 /how-to/integrate-email-archiving-with-outlook/  /support/how-to/integrate-email-archiving-with-outlook/  301
 
 /support/how-to/add-rackspace-office-365-archiving/  /how-to/enable-email-archiving-for-office-365/ 404
@@ -503,6 +516,7 @@
 
 /how-to/create-your-first-website-on-cloud-servers-quickly/download/  /support/how-to/create-your-first-website-on-cloud-servers-quickly/download/  404
 
+/support/how-to/cloud-load-balancers-ord-region-migration-faq/   /how-to/article-retired/ 404
 
 /support/how-to/all  /support/how-to/  404
 

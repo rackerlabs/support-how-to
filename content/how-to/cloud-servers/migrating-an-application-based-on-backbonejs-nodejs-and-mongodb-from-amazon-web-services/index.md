@@ -212,7 +212,7 @@ Use the following steps to install Apache&reg; Tomcat&reg;:
 
 You can find instructions for installing MongoDB on the Rackspace Cloud at the
 [MongoDB Documentation
-website](https://docs.mongodb.org/ecosystem/platforms/rackspace-cloud/).
+website](https://developer.rackspace.com/databases/mongodb/#MongoDB).
 
 For a production deployment, you should use a replica set with at least
 three nodes.
@@ -292,7 +292,7 @@ The example uses an existing container named AppData.
 First, retrieve your data from EC2. You can transfer the data directly in one
 of the following ways:
 
-- Use [rsync](/support/how-to/migrating-a-linux-server-from-the-command-line-1)
+- Use [rsync](/support/how-to/migrating-a-linux-server-from-the-command-line)
   or SSH File Transfer Protocol (SFTP).
 
 - Use the OpenStack Swift client to transfer your data to Cloud Files, and

@@ -5,7 +5,7 @@ title: Launch a Windows web farm with Web Deploy
 type: article
 created_date: '2019-01-22'
 created_by: Rackspace Community
-last_modified_date: '2020-05-20'
+last_modified_date: '2020-09-17'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -22,7 +22,7 @@ Microsoft&reg; Web Farm Framework (WFF) in IIS8. Microsoft says that they
 are not abandoning the WFF technology, but they have not provided a solution.
 
 However, this article shows you how to use Web Deploy and PowerShell&reg; scripts
-to keep your web content synced while you manage it from a single master server.
+to keep your web content synced while you manage it from a single primary server.
 This process is not as quick or GUI-friendly as WFF, but it uses official
 Microsoft technology and keeps your web content synced.
 
@@ -39,9 +39,9 @@ This exercise uses the following credentials:
     Password: P@ss1234
 
 On each of your secondary cloud servers, create a Windows Firewall rule to allow
-**ALL TRAFFIC** from the primary server (master).
+**ALL TRAFFIC** from the primary server.
 
-On the master server only, perform the following actions:
+On the primary server only, perform the following actions:
 
 - Create a common directory, such as `C:\WebSync`, to store the Web Deploy templates.
 
@@ -59,7 +59,7 @@ and install it on each server in the farm.
 
 ### Scripts
 
-Use the following steps to create two scripts on the master server.
+Use the following steps to create two scripts on the primary server.
 
 #### Batch script
 
@@ -92,7 +92,7 @@ Save this file as **C:\WebSync\WebDeploySync.ps1**.
 
 Set up a scheduled task to run the scripts at a semi-constant rate to ensure
 that your web content stays synced across the nodes. This task needs to be set
-up on only the master server. The task should have the following characteristics:
+up on only the primary server. The task should have the following characteristics:
 
 - Use the SyncMan credentials that we specified earlier.
 - Run even when the user is not logged on.
@@ -144,10 +144,10 @@ it is running regularly every minute as shown in the following image:
 ### Testing
 
 After the script and scheduled task are complete, you can test this by
-making a change on the master server and ensuring that the change shows up
+making a change on the primary server and ensuring that the change shows up
 within IIS on the secondary servers. You should also be able to make a change
 on the secondary servers in IIS or in the directories controlled by IIS and see
-that your change  on the master server is overwritten in a minute or less.
+that your change  on the primary server is overwritten in a minute or less.
 
 ### Conclusion
 

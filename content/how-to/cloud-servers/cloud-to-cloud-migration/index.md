@@ -5,7 +5,7 @@ title: Cloud-to-cloud migration
 type: article
 created_date: '2019-07-12'
 created_by: Alex Darke
-last_modified_date: '2019-08-22'
+last_modified_date: '2020-09-17'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -108,7 +108,7 @@ For more information about `rsync`, see [Back up your files with rsync](/support
 
 #### Application-specific options
 
-Other applications might have their own means of facilitating data migration. For example, to migrate a database, you could make the destination server a slave of the origin database to automatically replicate your data to the destination server. You can find information on how to do MySQL&reg; master-slave replication [here](/support/how-to/set-up-mysql-master-slave-replication/).
+Other applications might have their own means of facilitating data migration. For example, to migrate a database, you could make the destination server a replica of the origin database to automatically replicate your data to the destination server. You can find information on how to do MySQL&reg; primary-replica replication [here](/support/how-to/set-up-mysql-primary-replica-replication/).
 
 ### Post-migration tasks
 

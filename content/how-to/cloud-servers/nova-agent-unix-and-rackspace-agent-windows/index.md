@@ -5,8 +5,8 @@ title: Nova-agent (Linux) and Rackspace agent (Windows)
 type: article
 created_date: '2019-09-27'
 created_by: Brian King
-last_modified_date: '2020-05-04'
-last_modified_by: Brian King
+last_modified_date: '2020-09-21'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -43,11 +43,11 @@ Nova-agent provides the following functionality:
 Nova-agent is always listening when the server is active, but it only makes
 changes in the following situations:
 
-When | Actions
----|---
-Initial server boot | - Sets root password (Administrator for Windows) <br /> <br /> - Sets network configuration <br /> <br /> - Red Hat Enterprise Linux registration and Windows activation
-Password reset request through the Cloud Control Panel or API | Sets root password (Administrator for Windows)
-Attach/detach Cloud Network | Sets/removes interface IPs and routes
+| When                                                          | Actions                                                                                                                                                                  |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Initial server boot                                           | - Sets root password (Administrator for Windows) <br /> <br /> - Sets network configuration <br /> <br /> - Red Hat Enterprise Linux registration and Windows activation |
+| Password reset request through the Cloud Control Panel or API | Sets root password (Administrator for Windows)                                                                                                                           |
+| Attach/detach Cloud Network                                   | Sets/removes interface IPs and routes                                                                                                                                    |
 
 <br />
 <br />
@@ -111,7 +111,7 @@ The following sections provide some possible solutions.
 General fixes in order of desirability:
 
 1. Fix the agent from a running server, and then take a new image to use as the
-   golden master.
+   golden image.
 
 2. If the source server was deleted but you know the root password of the source
    server, log in to the new server by using the console and manually set the IP
@@ -145,11 +145,11 @@ If you're using an imported image of a distro that supports `cloud-init`, you mi
 find it easier to use `cloud-init` instead of nova-agent. This requires setting
 the following metadata on your imported image:
 
-Metadata key and value | Description
----|---
-`img_config_drive=mandatory` | Always attach the config drive on builds from this image. <br /> The config-drive always contains **meta-data.json**, <br /> **network-data.json**, and **vendor-data.json**. <br /> Any distro with the `cloud-init` service active at boot <br /> should be able to read these files and inject <br /> a SecureShell (SSH) key, set network configuration, and so on.
-`vm_mode=hvm` | Boot in hardware virtual machine (HVM) mode as opposed to <br /> the deprecated paravirtual (PV) mode. <br /> PV mode is implicit, so you get bootloader errors <br /> unless you set this mode.
-`xenapi_use_agent=False` | Don't check for the nova-agent response before marking <br /> the server as **ACTIVE** in the Cloud Servers API.
+| Metadata key and value       | Description                                                                                                                                                                                                                                                                                                                                                             |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `img_config_drive=mandatory` | Always attach the config drive on builds from this image. <br /> The config-drive always contains **meta-data.json**, <br /> **network-data.json**, and **vendor-data.json**. <br /> Any distro with the `cloud-init` service active at boot <br /> should be able to read these files and inject <br /> a SecureShell (SSH) key, set network configuration, and so on. |
+| `vm_mode=hvm`                | Boot in hardware virtual machine (HVM) mode as opposed to <br /> the deprecated paravirtual (PV) mode. <br /> PV mode is implicit, so you get bootloader errors <br /> unless you set this mode.                                                                                                                                                                        |
+| `xenapi_use_agent=False`     | Don't check for the nova-agent response before marking <br /> the server as **ACTIVE** in the Cloud Servers API.                                                                                                                                                                                                                                                        |
 
 <br />
 
@@ -166,12 +166,12 @@ unless you are using an OS not supported by the 2.x branch (such as FreeBSD).
 We don't recommend upgrading from 1.x to 2.x because there is nothing to be
 gained, and the process is extremely complex.
 
-Topic | 2.x branch | 1.3.9 branch
----|---|---
-**Recommended** <br /> **install method** | `yum` or `apt` package managers| Download the release from github and run the script
-**Github link** | [2.x link](https://github.com/Rackspace-DOT/nova-agent) | [1.3.9 link](https://github.com/rackerlabs/openstack-guest-agents-unix)
-**OS** <br /> **compatibility** | Only OS currently supported in <br /> Rackspace Cloud (Fedora&reg;, <br />  CoreOS&reg;, Red Hat/CentOS, <br />  Debian, and Ubuntu operating system; | Supported OS plus some older <br /> unsupported OS such as <br />  OpenSuSE&reg;, Gentoo&reg;, FreeBSD, <br /> and Arch&reg;
-**Python3 support** | Yes | No
+| Topic                                     | 2.x branch                                                                                                                                            | 1.3.9 branch                                                                                                                 |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Recommended** <br /> **install method** | `yum` or `apt` package managers                                                                                                                       | Download the release from github and run the script                                                                          |
+| **Github link**                           | [2.x link](https://github.com/Rackspace-DOT/nova-agent)                                                                                               | [1.3.9 link](https://github.com/rackerlabs/openstack-guest-agents-unix)                                                      |
+| **OS** <br /> **compatibility**           | Only OS currently supported in <br /> Rackspace Cloud (Fedora&reg;, <br />  CoreOS&reg;, Red Hat/CentOS, <br />  Debian, and Ubuntu operating system; | Supported OS plus some older <br /> unsupported OS such as <br />  OpenSuSE&reg;, Gentoo&reg;, FreeBSD, <br /> and Arch&reg; |
+| **Python3 support**                       | Yes                                                                                                                                                   | No                                                                                                                           |
 
 <br />
 <br />

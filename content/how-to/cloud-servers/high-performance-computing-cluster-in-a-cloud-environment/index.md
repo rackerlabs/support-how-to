@@ -5,7 +5,7 @@ title: High Performance Computing Cluster in a cloud environment
 type: article
 created_date: '2013-03-18'
 created_by: Alyssa Hurtgen
-last_modified_date: '2019-04-12'
+last_modified_date: '2020-09-17'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -141,7 +141,7 @@ the permissions to allow SSH logins:
 
 #### Configure HPC
 
-Now configure the master HPC node by creating a host file. To do this, ensure
+Now configure the primary HPC node by creating a host file. To do this, ensure
 that you are logged in to the first node over SSH and create the following file,
 where `<Your Server IP>` is the IP address that you used to SSH into the machine:
 
@@ -239,7 +239,7 @@ ray tracing application that can run on a single node or on
 an Open MPI cluster to compare the performance.
 
 First, install the application on all nodes of the
-cluster. To do this, SSH into the master node and run the following command:
+cluster. To do this, SSH into the primary node and run the following command:
 
     for i in `cat mpi_hosts`; do ssh root@$i "curl -l https://openstack.prov12n.com/files/tachyon.sh | bash"; done
     cd ~/tachyon/compile/linux-mpi
@@ -285,7 +285,7 @@ performance improvement is almost four times greater. You should see
 significant improvements even if you don't have multiple nodes and instead
 run your application on only one node with OpenMPI using both CPUs.
 
-It is important that your server was created with at least
+It is important that you created your server with at least
 2 GB of RAM because sizes of 2 GB and higher have access to at least 2 CPUs.
 For more information on sizes,
 see [Cloud Servers](https://www.rackspace.com/cloud/servers/techdetails/).

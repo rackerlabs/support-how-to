@@ -66,6 +66,37 @@
             $('.ais-SearchBox-input').focus();
         })
     }
+    
+    $("#buy-now-button").on('click', function () {
+        if($("#buy-now-list").css("display") == "block") {
+            $("#buy-now-list").css("display", "none");
+        } else {
+            $("#buy-now-list").css("display", "block");
+        }
+    });
+    $("#buy-now-button").on('mouseleave', function () {
+        if($("#buy-now-list").css("display") == "block") {
+            $("#buy-now-list").css("display", "none");
+        }
+    });
+    $("#buy-now-button").on('mouseenter', function () {
+        $("#buy-now-list").css("display", "block");
+    });
+    $("#login-button").on('click', function () {
+        if($("#login-list").css("display") == "block") {
+            $("#login-list").css("display", "none");
+        } else {
+            $("#login-list").css("display", "block");
+        }
+    });
+    $("#login-button").on('mouseleave', function () {
+        if($("#login-list").css("display") == "block") {
+            $("#login-list").css("display", "none");
+        }
+    });
+    $("#login-button").on('mouseenter', function () {
+        $("#login-list").css("display", "block");
+    });
 </script>
 
 <script

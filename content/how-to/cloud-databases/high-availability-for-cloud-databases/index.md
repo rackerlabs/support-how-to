@@ -5,8 +5,8 @@ title: High Availability for Cloud Databases
 type: article
 created_date: '2015-06-10'
 created_by: Neha Verma
-last_modified_date: '2018-10-23'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-09-17'
+last_modified_by: Cat Lookabaugh
 product: Cloud Databases
 product_url: cloud-databases
 ---
@@ -18,7 +18,7 @@ improves the reliability of running a database in the cloud environment by
 minimizing downtime and ensuring that the application is never down for more
 than a few seconds in the event of a failure.
 
-A Cloud Databases HA instance group includes a source database instance and
+A Cloud Databases HA instance group includes a primary source database instance and
 one or two replicas. For a robust HA setup, we recommend two replicas. If the
 source database instance becomes unavailable, an automatic failover is
 initiated to one of the replicas. The automatic failover and promotion of the
@@ -153,9 +153,8 @@ HA for Cloud Databases has the following limitations:
 
     **Note**: When you add a replica for a MariaDB HA group, you cannot use an
     existing replica to generate a snapshot for the new replica. For
-    more information, see [Xtrabackup doesn't log master co-ordinates while
-    backup up MariaDB
-    10](https://bugs.launchpad.net/percona-xtrabackup/+bug/1404484).
+    more information, see [Xtrabackup doesn't log primary coordinates while
+    backup up MariaDB 10](https://bugs.launchpad.net/percona-xtrabackup/+bug/1404484).
 
 -   There is a small delay between the source and the replicas. Ensure that
     all reads that require strong data consistency are made to the source
