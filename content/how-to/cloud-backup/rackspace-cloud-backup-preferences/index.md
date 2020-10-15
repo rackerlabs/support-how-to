@@ -13,22 +13,21 @@ product_url: cloud-backup
 
 **Previous section:** [Cloud Backup System Actions](/support/how-to/rackspace-cloud-backup-system-actions)
 
-When Cloud Backups are created you choose how the system informs you about that
-single backup's activity. On the **Preferences** page, you can select email
-periodicity: **Daily**, **Weekly**, or **Both**.
+When you create Cloud Backups, you can choose how the system informs you about individual
+backup activities. Use the following steps to select email frequency on the **Preferences** page:
 
-1. Select frequency of emails:
+1. Select the frequency of emails: **Daily**, **Weekly**, or **Both**:
 
-    - **Weekly Notifications** - Check the box next to send a weekly summary by
+    - **Weekly Notifications**: Check this box to send a weekly summary
         email of all backups and restores.
-    - **Daily Notifications** - Check the box next to send a daily summary by
+    - **Daily Notifications**: Check this box to send a daily summary
         email of all backups and restores.
 
 2. Enter your email address.
 
-3. Click the **Save Preferences** button.
+3. Click **Save Preferences**.
 
-You may cancel this setting by unchecking the respective boxes and click **Save
-Preferences** button.
+To cancel this setting, uncheck the respective boxes and click **Save
+Preferences**.
 
 **Next steps:** [Cloud Backup Troubleshooting](/support/how-to/cloud-backup-troubleshooting)
