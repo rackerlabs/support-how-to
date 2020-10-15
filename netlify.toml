@@ -53,33 +53,33 @@
   autoLaunch = false
 
 
-[[plugins]]
-  package = "./plugins/netlify-plugin-check-urls"
- [plugins.inputs]
-  entryPoints = [
-    "*.html","*.md"
-  ]
-  recursive = true
-  pretty = true
-  skipPatterns = ["public/support", "public/support/how-to", "public/support/*", "public/support/how-to/*", "https://code.jquery.com/", "https://code.jquery.com/*", "https://stackpath.bootstrapcdn.com/", "https://stackpath.bootstrapcdn.com/*", "https://cdn.jsdelivr.net/", "https://cdn.jsdelivr.net/*", "https://fonts.googleapis.com/", "https://fonts.googleapis.com/*", "https://maxcdn.bootstrapcdn.com/", "https://maxcdn.bootstrapcdn.com/*", "https://stackpath.bootstrapcdn.com/", "https://stackpath.bootstrapcdn.com/*"]
-  todoPatterns = []
-  checkExternal = false
-  followSourceMaps = false
+# [[plugins]]
+#   package = "./plugins/netlify-plugin-check-urls"
+#  [plugins.inputs]
+#   entryPoints = [
+#     "*.html","*.md"
+#   ]
+#   recursive = true
+#   pretty = true
+#   skipPatterns = ["public/support", "public/support/how-to", "public/support/*", "public/support/how-to/*", "https://code.jquery.com/", "https://code.jquery.com/*", "https://stackpath.bootstrapcdn.com/", "https://stackpath.bootstrapcdn.com/*", "https://cdn.jsdelivr.net/", "https://cdn.jsdelivr.net/*", "https://fonts.googleapis.com/", "https://fonts.googleapis.com/*", "https://maxcdn.bootstrapcdn.com/", "https://maxcdn.bootstrapcdn.com/*", "https://stackpath.bootstrapcdn.com/", "https://stackpath.bootstrapcdn.com/*"]
+#   todoPatterns = []
+#   checkExternal = false
+#   followSourceMaps = false
 
-[[plugins]]
-  package = "netlify-plugin-no-more-404"
+# [[plugins]]
+#   package = "netlify-plugin-no-more-404"
 
   # all inputs are optional, we just show you the defaults below
-  [plugins.inputs]
+  # [plugins.inputs]
   
-  # either "warn" or "error"
-  on404 = "error" 
+  # # either "warn" or "error"
+  # on404 = "error" 
   
-  # change this key to a new one any time you need to restart from scratch
-  cacheKey = "MyCacheKey"
+  # # change this key to a new one any time you need to restart from scratch
+  # cacheKey = "MyCacheKey"
   
-  # (for development) turn true for extra diagnostic logging
-  debugMode = false
+  # # (for development) turn true for extra diagnostic logging
+  # debugMode = false
 
 [[plugins]]
   package = "@netlify/plugin-sitemap"

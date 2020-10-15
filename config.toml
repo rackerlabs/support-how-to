@@ -1,4 +1,4 @@
-baseurl = "https://docs-support-how-to.netlify.app/"
+baseurl = "/"
 theme = "support-developer-hugo-theme"
 copyright = ""
 defaultContentLanguage = "en-us"
