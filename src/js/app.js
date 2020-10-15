@@ -2,7 +2,6 @@ import contentLoaded from "content-loaded";
 import SmoothScroll from "./imports/smoothScroll";
 const Entities = require('html-entities').AllHtmlEntities;
 
-
 contentLoaded().then(() => {
   /**
    * Enable search
