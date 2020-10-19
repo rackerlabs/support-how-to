@@ -19,7 +19,7 @@ Are you looking for information about Cloud Servers? The following sections cont
 
 [Private and Public Access](/support/how-to/private-and-public-access-to-your-cloud-server): Provides details about public and private IP addresses assigned to cloud servers.
 
-[Connect to a cloud server](/support/how-to/connect-to-a-cloud-server): Explains how to remotely log in to your server.
+[Connect to a cloud server](/support/how-to/connect-to-a-cloud-server): Explains how to log in to your server remotely.
 
 [Manage a cloud server](/support/how-to/manage-a-cloud-server): Describes tasks that you can perform on servers by using the Cloud Control Panel.
 
