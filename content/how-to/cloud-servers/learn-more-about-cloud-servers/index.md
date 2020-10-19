@@ -1,17 +1,17 @@
 ---
 permalink: learn-more-about-cloud-servers/
-audit_date:
+audit_date: '2020-10-16'
 title: Learn more about Cloud Servers
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2018-12-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-10-16'
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Looking for information about Cloud Servers? The following sections contain links to resources on a range of topics, from pricing and region options to logging in to a new server.
+Are you looking for information about Cloud Servers? The following sections contain links to resources on a range of topics, from pricing and region options to logging in to a new server.
 
 ### The basics
 
@@ -19,7 +19,7 @@ Looking for information about Cloud Servers? The following sections contain link
 
 [Private and Public Access](/support/how-to/private-and-public-access-to-your-cloud-server): Provides details about public and private IP addresses assigned to cloud servers.
 
-[Connect to a cloud server](/support/how-to/connect-to-a-cloud-server): Explains how to remotely log in to your server.
+[Connect to a cloud server](/support/how-to/connect-to-a-cloud-server): Explains how to log in to your server remotely.
 
 [Manage a cloud server](/support/how-to/manage-a-cloud-server): Describes tasks that you can perform on servers by using the Cloud Control Panel.
 
