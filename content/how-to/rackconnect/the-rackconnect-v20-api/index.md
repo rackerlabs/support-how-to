@@ -40,7 +40,7 @@ You can use the RackConnect API to access the following information:
 
 **Note:** In addition to using the RackConnect API, you can now use the
 Cloud Servers API to query the RackConnect automation status of your
-cloud servers. The benefit of using the Cloud Servers API is that you do not need to perform the query from the cloud server for which you want the status. The limitations of this method are that only the RackConnect automation status is available, and this method is compatible only with cloud servers. If you are interested in this method, see [Programmatically determine the RackConnect v2.0 automation status of your cloud servers](/support/how-to/how-to-programmatically-determine-the-rackconnect-v20-automation-status-of-your-cloud).
+cloud servers. The benefit of using the Cloud Servers API is that you do not need to perform the query from the cloud server for which you want the status. The limitations of this method are that only the RackConnect automation status is available, and this method is compatible only with cloud servers. If you are interested in this method, see [Programmatically determine the RackConnect v2.0 automation status of your cloud servers](/support/how-to/support/how-to-programmatically-determine-the-rackconnect-v20-automation-status-of-your-cloud).
 
 ### API basics
 

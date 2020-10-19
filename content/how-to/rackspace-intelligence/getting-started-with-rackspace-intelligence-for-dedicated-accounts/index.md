@@ -48,7 +48,7 @@ following resources:
 - [Understanding the Rackspace Intelligence User Interface for dedicated
   accounts](/support/how-to/understanding-the-rackspace-intelligence-user-interface-for-dedicated-accounts)
 - [Differences between Rackspace Intelligence for cloud accounts and dedicated
-  accounts](https://docs.rackspace.com/support/how-to/differences-between-rackspace-intelligence-for-cloud-account-and-dedicated-account/)
+  accounts](/support/how-to/differences-between-rackspace-intelligence-for-cloud-account-and-dedicated-account/)
 
 ### Access Rackspace Intelligence
 

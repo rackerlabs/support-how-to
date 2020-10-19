@@ -79,7 +79,7 @@ continue to receive password prompts, use the following steps:
 1.	To verify your credentials, attempt to log in at **office.com** with your Office 365 email address and password.
 
 2.	Clear old entries from the **Keychain Access** for Mac, because Outlook might be trying to authenticate with
-    an old password. For more information, see (Clear keychain access for Mac)[/how-to/clear-keychain-access-for-mac].
+    an old password. For more information, see (Clear keychain access for Mac)[/support/how-to/clear-keychain-access-for-mac].
 
 If you are unable to connect to the server, use the following steps:
 
