@@ -7,8 +7,6 @@ created_date: '2016-08-24'
 created_by: Tom Mitchell
 last_modified_date: '2018-10-09'
 last_modified_by: Kate Dougherty
-product: Rackspace Email
-product_url: rackspace-email
 ---
 
 Select and run one of the following scripts to add a login portal on your site
@@ -39,7 +37,7 @@ Download both the script and the corresponding image to use.
 
 **Footer and navigation wide (820px × 50px) image**
 
-   {{<image src="ftrnavwide820x50.png" alt="" title="">}}  
+   {{<image src="ftrnavwide820x50.png" alt="" title="">}}
 
 **Script**
 
@@ -49,7 +47,7 @@ Download both the script and the corresponding image to use.
 
 **Footer and navigation narrow (520px × 70px) image**
 
-   {{<image src="ftrnavnarrow520x70.png" alt="" title="">}}  
+   {{<image src="ftrnavnarrow520x70.png" alt="" title="">}}
 
 **Script**
 
@@ -59,7 +57,7 @@ Download both the script and the corresponding image to use.
 
 **Vertical tall (200px x 290px) image**
 
-   {{<image src="verttall200x290.png" alt="" title="">}}  
+   {{<image src="verttall200x290.png" alt="" title="">}}
 
 **Script**
 
@@ -69,8 +67,8 @@ Download both the script and the corresponding image to use.
 
 **Vertical short (200px × 220px) image**
 
-   {{<image src="vertshort200x220.png" alt="" title="">}}  
+   {{<image src="vertshort200x220.png" alt="" title="">}}
 
-**Script**   
+**Script**
 
       <div style="background-image:url(https://admin.emailsrvr.com/clients/webmail/apps_rackspace_com/images/bg-200x220.png" alt="" title="">}};width:200px;height:220px;background-repeat:no-repeat;"> <div style="padding:10px 20px;font-family:verdana, geneva, sans-serif;font-size:11px;color:#333;"> <form name="loginForm" style="margin:0px" onSubmit="submitForm();" action="https://apps.rackspace.com/login.php" method="post"> <div>Username:</div> <input type="text" name="user_name" class="small" style="width:150px;margin:3px 0px 0px 0px;"></td> <div style="margin:5px 0px 0px 0px;">Password:</div> <input type="password" name="password" class="small" style="width:150px;margin:3px 0px 0px 0px;"> <input type=hidden name='useSSL' id='useSSL' value=''> <input type="submit" value="Login" class="small" style="width:60px;margin:5px 0px 0px 0px;"> <div style="padding:10px 0px 10px 0px"><input type="checkbox" name="remember" id="remember" style="width:12px;margin:0px 5px 0px 0px;"><font style="font-size:9px;">Remember Me</font></div> </form> <div style="text-align:center"> <font style="font-size:9px;line-height:14px"> <a href="https://www.rackspace.com/apps/email_hosting/exchange_hybrid" color="#0000FF" style="text-decoration:none;" target="_blank">Rackspace Email and Microsoft Exchange Hosting</a> </font> </div> </div> </div> <script type="text/javascript" src="https://webmail.emailsrvr.com/mail/js/login.js"></script><script type="text/javascript">preloadForm(); if (getQueryVariable("fail") == 1) {alert("Incorrect username or password.")}</script>

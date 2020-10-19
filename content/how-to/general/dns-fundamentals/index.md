@@ -479,7 +479,7 @@ it makes reading the record much more natural and the comments clearly
 define each field so you don't have to remember the ordering.
 
 - **Primary DNS master** - Gives the fully qualified domain name for
-whatever DNS server is the master for this zone.
+whatever DNS server is the primary for this zone.
 
 - **Contact e-mail address** - The e-mail address of the DNS administrator.
 
@@ -491,8 +491,8 @@ whatever DNS server is the master for this zone.
   as **firstname@lastname.rackspace.com**.
 
 - **Serial number** - A 32-bit integer that indicates what version of the
-zone-file we are using. This is used by slave servers to determine if
-they have the same version of the zone file as the master server.
+zone-file we are using. This is used by secondary servers to determine if
+they have the same version of the zone file as the primary server.
 Canonically this is written as the date in big-endian form (Year, Month, Day)
 plus two additional integers tacked onto the end (example: first change
 on July 4th, 2016 would be 2016070401) but the only strict requirement
@@ -500,25 +500,25 @@ is that it always increases in value. Many managed DNS tools start
 with a serial number of 1 and increment that number every time the
 zone is modified.
 
-- **Refresh** - The number of seconds the slave server should wait before
-checking with the master for updates. With modern DNS using slave
-notifications, this can be set relatively high since the master should
-inform the slaves when changes are made, at which point they will
+- **Refresh** - The number of seconds the secondary server should wait before
+checking with the primary for updates. With modern DNS using secondary
+notifications, this can be set relatively high since the primary should
+inform the secondaries when changes are made, at which point they will
 query for a zone transfer regardless of whether the refresh time
 has expired or not.
 
-- **Retry** - The number of seconds the slave server should wait before
+- **Retry** - The number of seconds the secondary server should wait before
 retrying a failed zone transfer. This is usually set fairly low to
-prevent slave servers from remaining out of sync with the master for too long.
+prevent secondary servers from remaining out of sync with the primary for too long.
 
-- **Expiry** - This is only ever used by slave servers and tells
+- **Expiry** - This is only ever used by secondary servers and tells
 them how long they should hold onto their zone files and continue to serve
 those potentially stale records following a failed zone transfer. In the
-event that the master server cannot be reached for zone updates, the
-slave servers will operate as normal until this time elapses. At
+event that the primary server cannot be reached for zone updates, the
+secondary servers will operate as normal until this time elapses. At
 that point, they will discard their zone file and return failures for
 any lookups. Its important that this value be large enough to allow
-you time to repair or replace a broken master. It is not uncommon to
+you time to repair or replace a broken primary. It is not uncommon to
 see this field set to two weeks or a month or more.
 
 - **Negative TTL** - The length of time to cache a negative result. In other

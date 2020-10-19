@@ -5,8 +5,8 @@ title: Use Rackspace Orchestration to build a Wordpress stack
 type: article
 created_date: '2020-03-04'
 created_by: Chris Silva
-last_modified_date: '2020-03-06'
-last_modified_by: Chris Silva
+last_modified_date: '2020-09-17'
+last_modified_by: Cat Lookabaugh
 product: Cloud Orchestration
 product_url: cloud-orchestration
 ---
@@ -81,15 +81,15 @@ to make your site live and publicly accessible.
 
 #### Log in to your server
 
-If you need to make any server-side changes, log in to the master node, which is configured
-with `lsyncd` for your web root. However, when you make changes on the master node, such as adding new
+If you need to make any server-side changes, log in to the primary node, which is configured
+with `lsyncd` for your web root. However, when you make changes on the primary node, such as adding new
 users or setting up special configurations, make sure you make the same changes on all other instances. 
 
-Perform the following steps to access the master server:
+Perform the following steps to access the primary server:
 
 1. In the [Rackspace Cloud Control Panel](https://mycloud.rackspace.com), click **Orchestration > Stacks**.
 2. Click on the server resource as listed in the **Infrastructure** section.
-3. Connect to the server via SSH or the Emergency Console.
+3. Connect to the server by using SSH or the Emergency Console.
 4. After you log in, you can make any custom changes to the server that you need.
 
 #### Set up your DNS
@@ -149,16 +149,16 @@ This section assumes that the stack deployed with only one node.
 
 #### Create an image
 
-To scale out your Wordpress stack, first create an image of your master server and build
+To scale out your Wordpress stack, first create an image of your primary server and build
 a new server from the image. To complete this task, see
 [Create an image of a server and restore a server from a saved image](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image/). 
 
-**IMPORTANT**: Make sure the server image that you create is the same size as the master
+**IMPORTANT**: Make sure the server image that you create is the same size as the primary
 server to avoid bottlenecks and unbalanced server traffic.
 
 #### Configure lsyncd
 
-1. After you created your new server, log in to your master server via SSH.
+1. After you created your new server, log in to your primary server by using SSH.
 2. Find the **Service Net IP address** for your newly created server on the **Server Details**
    page in the Control Panel. You need to substitute this for **$ServiceNet IP** in step 5.
 3. Edit **/etc/lsyncd/lsync.conf.lua**.
@@ -189,12 +189,12 @@ server to avoid bottlenecks and unbalanced server traffic.
 6. Save and exit the file. 
 7. Restart the `lsyncd` service. 
 
-At this point, the master server syncs the changes that you made at the location
+At this point, the primary server syncs the changes that you made at the location
 **/var/www/vhosts** directory to the new server. If you need to add more server nodes, copy the code from step 5 and paste it at the end of the **/etc/lsyncd/lsync.conf.lua** file and edit the new block to include the additional server's **ServiceNet IP** address.
 
 #### Add the new server to the load balancer
 
-Now that you've configured the new server to sync with the master server, you need to add the new server as a node on your load balancer. 
+Now that you've configured the new server to sync with the primary server, you need to add the new server as a node on your load balancer. 
 
 1. In the [Rackspace Cloud Control Panel](https://mycloud.rackspace.com), click **Orchestration > Stacks**.
 2. Click the **Load Balancer** device listed under **Infrastructure**. 
@@ -208,7 +208,7 @@ Your new server can now accept traffic for your domain.
 
 If you followed this guide, you have now deployed a fully functional Wordpress website that is
 ready to scale. You can deploy more websites if needed or customize your environment to fit your
-business needs. 
+business needs.
 
 Consider the following notes about your stack:
 
@@ -225,6 +225,4 @@ Consider the following notes about your stack:
 - The Wordpress stack installs php-fpm, which you can customize as needed. Be sure to make any
   changes on all nodes. 
 - This guide configured `lsyncd` to sync only the web directories, but you can customize the synced
-  content in the master node `lsyncd` configuration file.
-
-If you need any further information or assistance, reach out to us by raising a ticket or by calling Support.
+  content in the primary node `lsyncd` configuration file.

@@ -11,14 +11,14 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article demonstrates some simple configuration changes that you can implement on 
-a [Postfix](https://www.postfix.org) installation on your mail server to reduce spam.
+This article demonstrates some simple configuration changes that you can implement on
+a [Postfix](http://www.postfix.org) installation on your mail server to reduce spam.
 
 ### Enable Real-time Blackhole Lists
 
-Real-time Blackhole Lists (RBLs) are lists of Internet Protocol (IP) addresses that are associated with known spammers. These lists are generally free. 
+Real-time Blackhole Lists (RBLs) are lists of Internet Protocol (IP) addresses that are associated with known spammers. These lists are generally free.
 
-You can configure Postfix to check the IP addresses of incoming messages against one or more RBLs. If there's a match, then your server does not permit the sender to transmit the message. Enabling RBLs is a straightforward way to stop up to 50% of your spam traffic. 
+You can configure Postfix to check the IP addresses of incoming messages against one or more RBLs. If there's a match, then your server does not permit the sender to transmit the message. Enabling RBLs is a straightforward way to stop up to 50% of your spam traffic.
 
 You configure RBLs under the `smtpd_recipient_restrictions` parameter in the main Postfix configuration file, which is usually located at **/etc/postfix/main.cf**. The following Postfix configuration file example uses six different RBLs:
 
@@ -39,21 +39,21 @@ RBLs are typically used in conjunction with other spam-fighting techniques and t
 
 In addition to including RBLs, you might also want to add some of the following configuration options under the `smtpd_recipient_restrictions` parameter in the configuration file:
 
-- `reject_invalid_hostname`: Rejects the request when the HELO or EHLO hostname is malformed. This option might block 
+- `reject_invalid_hostname`: Rejects the request when the HELO or EHLO hostname is malformed. This option might block
   poorly-programmed bots from sending spam to your server.
 
-- `reject_unknown_recipient_domain`: Rejects the request when Postfix is not the final destination for the recipient's domain. 
+- `reject_unknown_recipient_domain`: Rejects the request when Postfix is not the final destination for the recipient's domain.
   This option can prevent your server from being used as an open relay.
 
-- `reject_unauth_pipelining`: Rejects the request when the client sends Simple Mail Transfer Protocol (SMTP) commands ahead of 
-  time where it is not allowed. This option stops mail from bulk mail software that improperly uses Extended SMTP (ESMTP) 
+- `reject_unauth_pipelining`: Rejects the request when the client sends Simple Mail Transfer Protocol (SMTP) commands ahead of
+  time where it is not allowed. This option stops mail from bulk mail software that improperly uses Extended SMTP (ESMTP)
   command pipelining to speed up deliveries.
 
-- `reject_unauth_destination`: This option is similar to the `reject_unknown_recipient_domain` option. However, 
-  with `reject_unauth_destination`, one of the following conditions must be met for Postfix to accept the message: 
-  
-  - Postfix is the mail forwarder for the domain (as defined in the `relay_domains parameter`). 
-  - Postfix is the final destination for the domain. 
+- `reject_unauth_destination`: This option is similar to the `reject_unknown_recipient_domain` option. However,
+  with `reject_unauth_destination`, one of the following conditions must be met for Postfix to accept the message:
+
+  - Postfix is the mail forwarder for the domain (as defined in the `relay_domains parameter`).
+  - Postfix is the final destination for the domain.
 
 If there are IPs or networks that you do not want to filter out from your mail server, you can add the `permit_mynetworks` option under `smtpd_recipient_restrictions` to whitelist these IPs. You should also ensure that you define these networks under the `my_networks` parameter in the configuration file.
 

@@ -5,8 +5,8 @@ title: Cloud Databases FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2018-10-23'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-09-17'
+last_modified_by: Cat Lookabaugh
 product: Cloud Databases
 product_url: cloud-databases
 ---
@@ -316,7 +316,7 @@ The following table provides details about maximum numbers of connections and
 access to `my.cnf` file settings per database size:
 
 | Size   | Max connections | Max user connections |
-|--------|-----------------|----------------------|
+| ------ | --------------- | -------------------- |
 | 512 MB | 50              | 40                   |
 | 1 GB   | 110             | 100                  |
 | 2 GB   | 210             | 200                  |
@@ -372,7 +372,7 @@ The following table shows bandwidth in megabits per second (Mbps),
 based on instance size.
 
 | Instance size | Bandwidth |
-|---------------|-----------|
+| ------------- | --------- |
 | 512 MB        | 20 Mbps   |
 | 1 GB          | 100 Mbps  |
 | 2 GB          | 200 Mbps  |
@@ -523,7 +523,7 @@ unavailable, an automatic failover is initiated to the replicas within
 
 HA instances carry a small premium per instance over regular Cloud Databases
 instances and are charged per instance, similar to replica sets. (An HA group
-with a master and one slave counts as two instances.) The additional cost per
+with a primary and one replica counts as two instances.) The additional cost per
 instance covers the load balancer containers that are added for HA instance
 groups. For the latest pricing information, see the [Cloud Databases
 product page](https://www.rackspace.com/cloud/databases).
@@ -618,7 +618,7 @@ support in newer versions of MySQL. We highly recommend all users to
 
 {{< accordion title="Do you support replication?" col="in" href="accordion59" >}}
 
-Yes we do support master-slave replication. You can add and manage
+Yes we do support primary-replica replication. You can add and manage
 replicas using [Cloud Control Panel](https://login.rackspace.com/) and
 Cloud Databases API. For more information about managing replication
 by using the API, see the [API documentation for

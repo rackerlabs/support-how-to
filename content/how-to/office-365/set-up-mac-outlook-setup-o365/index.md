@@ -5,7 +5,7 @@ title: Set up your Office 365 mailbox in Outlook for Mac
 type: article
 created_date: '2020-07-07'
 created_by: Kimberly Jay
-last_modified_date: '020-07-07'
+last_modified_date: '2020-07-07'
 last_modified_by: Nicholas Ramirez
 product: Office 365
 product_url: office-365

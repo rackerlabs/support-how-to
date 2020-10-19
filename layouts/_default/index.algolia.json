@@ -5,7 +5,7 @@
   {{- /* Split long posts into 2000-word chunks for less noise in results */ -}}
   {{- $chunked := slice -}}
   {{- $post_len := len .PlainWords -}}
-  {{- range $i := (seq 0 10000 $post_len) -}}
+  {{- range $i := (seq 0 50000 $post_len) -}}
     {{- $chunked = $chunked | append (delimit (first 1000 (after $i $page.PlainWords) ) " " ) -}}
   {{- end -}}
   {{- /* Add each chunk to $index with different object IDs */ -}}

@@ -1,7 +1,7 @@
 ---
 permalink: repair-a-system-image-with-dism/
-audit_date:
-title: 'Repair a System Image with DISM'
+audit_date: '2020-07-23'
+title: 'Repair a system image with DISM'
 type: article
 created_date: '2020-07-07'
 created_by: Dave Myers
@@ -15,7 +15,7 @@ Deployment Image Servicing and Management (DISM) is a Windows&reg; built-in
 command-line tool used to prepare, modify, and repair Windows system images.
 You can save images and use them to deploy and restore the Windows operating
 system. Use DISM to repair your system when it does not boot properly, when you get
-a blue screen error, or when a System File Check (SFC) does not resolve it.
+a blue screen error or when a System File Check (SFC) does not resolve it.
 
 **Note** This task requires a user with administrative privileges on the server.
 
@@ -49,7 +49,7 @@ Press **Enter** after typing each command to check and repair a Windows 10 syste
 #### AppX servicing commands
 
   | `/Set-ProvisionedAppxDataFile`   | Places custom data into the specified app package (.appx or .appxbundle). The specified application package must be in the image.|
-  | `/Remove-ProvisionedAppxPackage` | Removes app packages (.appx or .appxbundle) from the image. App packages are not installed when new user accounts are created.| 
+  | `/Remove-ProvisionedAppxPackage` | Removes app packages (.appx or .appxbundle) from the image. App packages are not installed when new user accounts are created.|
   | `/Add-ProvisionedAppxPackage`    | Adds app packages (.appx or .appxbundle) to the image and installs them for each new user.|
   | `/Get-ProvisionedAppxPackages`   | Displays information about app packages (.appx or .appxbundle) in an image that are set to install for each new user.|
 

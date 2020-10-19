@@ -5,8 +5,8 @@ title: Cloud DNS FAQ
 type: article
 created_date: '2011-10-25'
 created_by: Rackspace Support
-last_modified_date: '2018-10-24'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-09-17'
+last_modified_by: Cat Lookabaugh
 product: Cloud DNS
 product_url: cloud-dns
 ---
@@ -21,8 +21,8 @@ such as mail servers, use DNS to resolve to the appropriate locations. For
 example, DNS is used to turn 'www.rackspace.com' into the computer addressable
 IP address '207.97.209.147'.
 
-DNS servers are usually set up in a master-slave relationship such that failure
-of the master invokes the slave. DNS servers might also be clustered or replicated
+DNS servers are usually set up in a primary-replica relationship such that failure
+of the primary invokes the replica. DNS servers might also be clustered or replicated
 such that changes made to one DNS server are automatically propagated to other
 active servers.
 

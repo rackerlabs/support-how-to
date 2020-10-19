@@ -46,7 +46,7 @@ server and will sit above the Window Manager.
 familiar with. This gives you the access to use a mouse and send calls
 to the X11 server.
   -  [KDE](https://www.kde.org/)
-  -  [GNOME](https://www.gnome.org./)
+  -  [GNOME](https://www.gnome.org/)
   -  [TWM](https://xwinman.org/vtwm.php)
 
 -  Install KDE Desktop

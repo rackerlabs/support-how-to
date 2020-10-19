@@ -60,7 +60,7 @@ The **subject** line should alert you immediately. This user should contact thei
 
 In this message header snippet, we see that the **From:** field shows the message being sent from **"Assistant"\<assistant@yourdomainexample.com\>**. However, we can also see that the **REPLY-TO:** field lists *spoofer@scam.com*. That is a clear example of a spoofed message.
 
-You should blacklist any address that you find in the **REPLY-TO**, **RETURN-PATH**, and **SOURCE IP** field that is not an email address or IP address from which you normally receive mail.
+You should Blocklist any address that you find in the **REPLY-TO**, **RETURN-PATH**, and **SOURCE IP** field that is not an email address or IP address from which you normally receive mail.
 
 For more information on viewing and understanding email headers, see [View and read Rackspace email headers](/support/how-to/view-and-read-rackspace-email-headers).
 
@@ -68,7 +68,7 @@ For more information on viewing and understanding email headers, see [View and r
 
 User education is the first line of defense against these types of attacks. If a user receives a spoofed message, they should perform the following tasks:
 
- - Blacklist any email address or IP address listed in the **REPLY-TO**, **RETURN-PATH**, or **SOURCE IP** that you have determined to be fraudulent. For instructions, see [Blacklist addresses, domains, and IP addresses in Rackspace Email](/support/how-to/blacklist-addresses-domains-and-ip-addresses-in-rackspace-email).
+ - Blocklist any email address or IP address listed in the **REPLY-TO**, **RETURN-PATH**, or **SOURCE IP** that you have determined to be fraudulent. For instructions, see [Blocklist addresses, domains, and IP addresses in Rackspace Email](/support/how-to/blocklist-addresses-domains-and-ip-addresses-in-rackspace-email).
  - Immediately [change the password of your email account](/support/how-to/change-rackspace-email-mailbox-password) if you or your users provided that information at any point.
  - Alert the rest of your business to the situation.
 

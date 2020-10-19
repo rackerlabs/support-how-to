@@ -55,7 +55,7 @@ Use the following steps to secure a mailbox that has been compromised:
 1. Immediately change the password to the mailbox.
 
     - Locking out those who have compromised the mailbox is the top priority. The longer a bad actor has access to your account, the more damage that can be done. When crafting a new password, review [Password management and best practices](/support/how-to/password-management-and-best-practices/#password-best-practices).
-    
+
   **Warning:** If you do not update all connected devices with the new password, Exchange mailboxes lock themselves. If the mailbox is locked, see [Troubleshoot a locked Exchange mailbox.](/support/how-to/troubleshoot-a-locked-exchange-mailbox).
 
 2. Scan all devices for viruses and malware.
@@ -70,7 +70,7 @@ Use the following steps to secure a mailbox that has been compromised:
 
     - It is better to raise the alarm and protect everyone's information than to risk the compromise growing beyond your mailbox.
 
-4. If the return-path and the originating IP address of the message was the source that led to the compromise, blacklist them. Usually, the message contained a suspicious link or asked for your account information.
+4. If the return-path and the originating IP address of the message was the source that led to the compromise, Blocklist them. Usually, the message contained a suspicious link or asked for your account information.
 
     - The [View and read email headers in Outlook Web App](/support/how-to/view-and-read-email-headers-in-owa) article shows how to identify the return-path and originating IP address of the malicious email.
 

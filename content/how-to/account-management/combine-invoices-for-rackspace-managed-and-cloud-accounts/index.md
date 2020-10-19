@@ -5,8 +5,8 @@ title: Combine invoices for Rackspace Managed and Cloud accounts
 type: article
 created_date: '2017-08-07'
 created_by: Stephanie Fillmon
-last_modified_date: '2018-10-25'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-09-17'
+last_modified_by: Cat Lookabaugh
 product: Account Management
 product_url: account-management
 ---
@@ -53,18 +53,18 @@ After the accounts are consolidated, the **Invoiced Accounts** section of the
 
 ### Billing cycle
 
-If your combined invoice includes only Rackspace Cloud accounts, you will receive
-your next invoice on your normal billing date for your master account.
+If your combined invoice includes only Rackspace Cloud accounts, you receive
+your next invoice on your normal billing date for your primary account.
 
 If your combined invoice includes a Rackspace Managed account, your next invoice
-will be billed on the first day of the month.
+is billed on the first day of the month.
 
 The following example describes how your billing is affected when you combine
 Cloud and Managed account invoices:
 
-- The Managed account is the master account with a billing date of February 1, and the Cloud account's billing date is February 15.
+- The Managed account is the primary account with a billing date of February 1, and the Cloud account's billing date is February 15.
 - Combined invoicing is set up on February 20.
-- On March 1, an invoice is generated for only the master account.
+- On March 1, an invoice is generated for only the primary account.
 - On March 15, no invoice is generated for the Cloud account.
 - On April 1, the combined invoice is generated with all Managed and Cloud charges, including the owed Cloud account amount from February 15 to March 31.
 - From this point on, the combined invoice is billed on the first of the month.

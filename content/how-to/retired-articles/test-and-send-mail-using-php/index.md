@@ -5,8 +5,8 @@ title: Test and send mail using PHP
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2016-07-13'
-last_modified_by: Nate Archer
+last_modified_date: '2020-09-21'
+last_modified_by: Cat Lookabaugh
 ---
 
 PHP mail provides the most granular control of the data and content of the emails sent from your domain or site. However, PHP mail only works when relayed over SMTP. The following article shows you how to test and send different types of email using PHP.
@@ -20,11 +20,11 @@ undelivered email because of stringent anti-spam filters.
 
 Before you can send PHP mail, it important to test the PHP mail's functionality. You can use the following code saved into a file with a **.php** extension:
 
-    <? $headers = 'From: webmaster@example.com'; mail('nobody@example.com', 'Test email using PHP', 'This is a test email message', $headers, '-fwebmaster@example.com'); ?>
+    <? $headers = 'From: webadmin@example.com'; mail('nobody@example.com', 'Test email using PHP', 'This is a test email message', $headers, '-fwebadmin@example.com'); ?>
 
 Alternatively, you can use the following test code:
 
-    <?php $to = 'nobody@example.com'; $subject = 'Test email using PHP'; $message = 'This is a test email message'; $headers = 'From: webmaster@example.com' . "\r\n" . 'Reply-To: webmaster@example.com' . "\r\n" . 'X-Mailer: PHP/' . phpversion(); mail($to, $subject, $message, $headers, '-fwebmaster@example.com'); ?>
+    <?php $to = 'nobody@example.com'; $subject = 'Test email using PHP'; $message = 'This is a test email message'; $headers = 'From: webadmin@example.com' . "\r\n" . 'Reply-To: webadmin@example.com' . "\r\n" . 'X-Mailer: PHP/' . phpversion(); mail($to, $subject, $message, $headers, '-fwebadmin@example.com'); ?>
 
 ### Test PHP SMTP functionality
 
@@ -58,13 +58,13 @@ Following is a sample PHP script for sending email via standard SMTP:
     <?php
     require_once "Mail.php";
 
-    $from = "Web Master <webmaster@example.com>";
+    $from = "Web Admin <webadmin@example.com>";
     $to = "Nobody <nobody@example.com>";
     $subject = "Test email using PHP SMTP\r\n\r\n";
     $body = "This is a test email message";
 
     $host = "SMTPhostname";
-    $username = "webmaster@example.com";
+    $username = "webadmin@example.com";
     $password = "yourPassword";
     $headers = array ('From' => $from,
       'To' => $to,
@@ -103,14 +103,14 @@ Following is a sample PHP script for sending email via SMTP with SSL:
     <?php
     require_once "Mail.php";
 
-    $from = "Web Master <webmaster@example.com>";
+    $from = "Web Admin<webadmin@example.com>";
     $to = "Nobody <nobody@example.com>";
     $subject = "Test email using PHP SMTP with SSL\r\n\r\n";
     $body = "This is a test email message";
 
     $host = "ssl://SMTPhostname";
     $port = "465";
-    $username = "webmaster@example.com";
+    $username = "webadmin@example.com";
     $password = "yourPassword";
 
     $headers = array ('From' => $from,
@@ -157,7 +157,7 @@ You must supply a valid SMTP hostname and user credentials for authentication. I
 
     // see https://pear.php.net/manual/en/package.mail.mail-mime.php for further extended documentation on Mail_Mime
 
-    $from = "Web Master <webmaster@example.com>";
+    $from = "Web Admin <webadmin@example.com>";
     $to = "Nobody <nobody@example.com>";
     $subject = "Test HTML email using PHP Pear w/ SMTP\r\n\r\n";
     $text = "This is a text test email message";
@@ -180,7 +180,7 @@ You must supply a valid SMTP hostname and user credentials for authentication. I
 
     // specify the SMTP server credentials to be used for delivery if using a third party mail service, be sure to use their hostname
     $host = "mail.emailsrvr.com";
-    $username = "webmaster@example.com";
+    $username = "webadmin@example.com";
     $password = "yourPassword";
 
     $headers = array ('From' => $from,

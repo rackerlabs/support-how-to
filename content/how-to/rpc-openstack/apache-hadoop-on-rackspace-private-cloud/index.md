@@ -5,7 +5,7 @@ title: Using Apache Hadoop on Rackspace Private Cloud
 type: article
 created_date: '2013-01-24'
 created_by: Alyssa Hurtgen
-last_modified_date: '2018-07-27'
+last_modified_date: '2020-09-21'
 last_modified_by: Cat Lookabaugh
 product: Rackspace Private Cloud Powered by OpenStack
 product_url: rpc-openstack
@@ -179,7 +179,7 @@ configuration. You can launch a configuration with the following command:
 
 #### Run a map-reduce job
 
-Log in to your master node and launch a job by using the following instructions:
+Log in to your primary node and launch a job by using the following instructions:
 
     $ cd /usr/lib/hadoop
     $ hadoop jar hadoop-*-examples.jar pi 10 1000000

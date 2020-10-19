@@ -1,12 +1,12 @@
 ---
 permalink: update-or-install-the-cloud-backup-agent-on-linux/
-audit_date: '2020-03-27'
+audit_date: '2020-09-15'
 title: Update or install the Cloud Backup agent on Linux
 type: article
 created_date: '2020-03-27'
 created_by: Brett Johnson
-last_modified_date: '2020-04-10'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2020-09-15'
+last_modified_by: Brett Johnson
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -23,59 +23,76 @@ and `bzip2`. If these tools are missing, you might not be able to install and us
 
 #### Download the installer
 
-Download the latest updater installation file from the
-[agent repository](https://agentrepo.drivesrvr.com/updater/cloudbackup-updater-latest.tar.bz2)
-by using a tool such as `curl` or `wget`.
+1. Download the latest updater installation file from the
+   [agent repository](https://agentrepo.drivesrvr.com/updater/cloudbackup-updater-latest.tar.bz2)
+   by using a tool such as `curl` or `wget`.
 
-Extract the Linux package files (`cloudbackup-updater-latest.tar.bz2`) to a temporary
-directory.
+2. Extract the Linux package files (`cloudbackup-updater-latest.tar.bz2`) to a temporary
+   directory.
 
-    cd ~ && mkdir tmp && cd tmp && tar jxvf cloudbackup-updater-latest.tar.bz2
+        cd ~ && mkdir tmp && cd tmp && tar jxvf cloudbackup-updater-latest.tar.bz2
 
-Change to the extracted folder. Read the LICENSE file. If you do not agree to the terms
-contained in the file, do not continue with the installation.
+3. Change to the extracted folder. Read the LICENSE file. If you do not agree to the terms
+   in the file, do not continue with the installation.
 
-For security reasons, you should not enter your API key directly on
-the command line. Run the following command on the Linux command line to set an environment
-variable with the API key:
+4. For security reasons, you should not enter your API key directly on
+   the command line. Run the following command on the Linux command line to set an environment
+   variable with the API key:
 
-    echo -n 'API key: ' && read -s apikey && export apikey && echo ''
+        echo -n 'API key: ' && read -s apikey && export apikey && echo ''
 
-To both install the updater and install and register the Cloud Backup agent, run
-the following command:
+5. To both install the updater and install and register the Cloud Backup agent, run
+   the following command:
 
-    ./cloudbackup-updater --configure --user myuserid --apikey ${apikey} --flavor raxcloudserver --datacenter DFW
+        ./cloudbackup-updater --configure --user myuserid --apikey ${apikey} --flavor raxcloudserver --datacenter DFW
 
-Change `myuserid` to the primary user ID for your account and `DFW` to the cloud server's region.
+6. Change `myuserid` to the primary user ID for your account and `DFW` to the cloud server's region.
 
-Run the following command to display other registration-time controls, which you rarely use:
+7. Run the following command to display other registration-time controls, which you rarely use:
 
-    ./cloudbackup-updater --help
+        ./cloudbackup-updater --help
 
-For cloud servers that reside in the LON region, you must specify the API host. For
-USA regions, SYD, and HKG, you must use the default API host `api.drivesrvr.com`. 
-For the LON region, you must use `api.drivesrvr.co.uk`.
+8. For cloud servers that reside in the LON region, you must specify the API host. For
+   USA regions, SYD, and HKG, you must use the default API host `api.drivesrvr.com`.
+   For the LON region, you must use `api.drivesrvr.co.uk`.
 
 **Note:** A forced agent registration disconnects any previous registrations from
 the server in question. You must do a backup migration to reassociate the backup
 data from a disconnected registration. However, the old registration with its backup
 data remains attached to the customer account until you delete it.
 
+#### Agent file locations on Linux
+
+If you perform a default installation, you can find the agent files in the
+following locations on Linux systems:
+
+-   **Configuration files**: **/etc/driveclient**
+-   **Logs**: **/var/log** (This value might be different on your server,
+    depending on your settings in the **log4cxx.xml** file.)
+-   **Startup script**: **/etc/init.d**
+-   **Application**: **/usr/local/bin**
+-   **Process Identification (PID) file for running the agent**:
+    **/var/run/driveclient.pid**
+-   **Database**: Search for a **\*.db** file under **/var/cache/driveclient**.
+
+**Note**: If you install `driveclient` as an individual user,
+most of these files are under **~/.driveclient**.
+
 #### Non-cloud, non-Rackspace installation
 
 You might need to install a Cloud Backup agent on
 servers that are not in the Rackspace Public Cloud. You can use Rackspace Cloud Backup
 on most Linux computers with a public Internet connection. These include machines like
-company laptops and desktops, cloud servers from other providers, such as AWS EC2&reg;,
-Google Cloud&reg;, and Azure&reg;, or Rackspace Private Cloud and Rackspace OnMetal, and so on.
+company laptops and desktops, cloud servers from other providers (such as AWS EC2&reg;,
+Google Cloud&reg;, and Azure&reg;), Rackspace Private Cloud, Rackspace OnMetal, and so on.
 
 To install on such computers or servers, you must use a different flavor of installation.
 
 **Note:** Don't confuse the installation flavor with the Linux flavor. The Cloud
 Backup installation flavor is the type or kind of Cloud Backup installation.
 
-Normal installations on Rackspace Cloud Servers is `raxcloudserver`. For installation
-on other types of computers, you should use the `dedicated` flavor.
+The normal installation flavor on Rackspace Cloud Servers is `raxcloudserver`.
+For installation on other types of computers, you should use the `dedicated` flavor.
 
     ./cloudbackup-updater --configure --user myuserid --apikey ${apikey} --flavor dedicated --datacenter DFW
 
@@ -83,7 +100,7 @@ For dedicated installations, you can specify any region accessible by the custom
 
 #### Installations with existing agents
 
-In the rare occasion that the server already has a registered Cloud Backup agent on it,
+On the rare occasion that the server already has a registered Cloud Backup agent,
 you should run the updater without the configuration option.
 
     ./cloudbackup-updater
@@ -96,19 +113,19 @@ the command updates the agent.
 After you have installed the updater and agent, you can verify the installation by using several
 methods.
 
-To verify the version of the updater, first check the latest version number in our repository:
+To verify the version of the updater, check the latest version number in our repository:
 
     curl https://agentrepo.drivesrvr.com/updater-version.txt
 
-Compare to the version installed on the computer:
+Then, compare to the version installed on the computer:
 
     cloudbackup-updater --version
 
-To verify the version of the agent, first check the latest version number in our repository:
+To verify the version of the agent, check the latest version number in our repository:
 
     curl https://agentrepo.drivesrvr.com/version.txt
 
-Compare to the version installed on the computer:
+Then, compare to the version installed on the computer:
 
     driveclient --version
 
@@ -134,7 +151,7 @@ You can view the following agent and updater logs with your favorite file viewer
 - **/var/log/driveclient.log**
 - **/var/log/driveclient.log.1** (and so on for older versions)
 
-If the agent or updater does not behave as expected, you can `grep` these logs to look for 
+If the agent or updater does not behave as expected, you can `grep` these logs to look for
 "ERROR" or other information. For more information on reading agent logs, see
 [Cloud Backup Logging Basics](/support/how-to/cloud-backup-agent-logging-basics).
 
@@ -148,7 +165,7 @@ the agent.
 
 ### Troubleshooting installs, upgrades, and uninstalls
 
-Installation and upgrade of the cloud backup agent or updater might fail for a number of reasons. 
+Installation and upgrade of the cloud backup agent or updater might fail for a number of reasons.
 The following troubleshooting tips might help to fix the issues.
 
 We recommend that you enable TRACE logging as part of the troubleshooting process.
@@ -182,7 +199,7 @@ To troubleshoot these error statuses, see [Cloud Backup Troubleshooting](/suppor
 
 To uninstall the agent, you must also uninstall the updater. Use the service control
 tools provided by the flavor of Linux you are running. The name of the agent service
-is `driveclient`, and the name of the updater is `cloudbackup-updater`. So for instance,
+is `driveclient`, and the name of the updater is `cloudbackup-updater`. So, for instance,
 a Linux flavor that uses systemctl might require:
 
     systemctl disable cloudbackup-updater
@@ -195,6 +212,6 @@ updater, or it eventually re-enables the agent.
 
 For more troubleshooting tips and FAQs, see the following articles:
 
-    [Cloud Backup Troubleshooting](/support/how-to/cloud-backup-troubleshooting/)
-    [Cloud Backup FAQs](/support/how-to/cloud-backup-faq/)
-    
+- [Cloud Backup Troubleshooting](/how-to/cloud-backup-troubleshooting/)
+- [Cloud Backup FAQs](/how-to/cloud-backup-faq/).
+
