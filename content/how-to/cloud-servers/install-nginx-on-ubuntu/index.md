@@ -5,8 +5,8 @@ title: Install Nginx on Ubuntu
 type: article
 created_date: '2020-07-17'
 created_by: John Garcia
-last_modified_date: Rose Morales
-last_modified_by: '2020-07-23'
+last_modified_date: '2020-07-23'
+last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
 ---

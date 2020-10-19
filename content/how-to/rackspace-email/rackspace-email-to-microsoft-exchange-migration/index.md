@@ -81,7 +81,7 @@ Review the following lists to understand which items migrate and which do *not* 
 - Flags in flagged messages
 - Passwords
 - Forwarding rules
-- Safelists and blacklists
+- Safelists and Blocklists
 - Custom signatures
 - Rules and alerts
 - SharePoint&reg; permissions and user settings

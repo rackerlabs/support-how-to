@@ -56,7 +56,7 @@ This introduction covers everything you need to know as a new Rackspace customer
 - [Rebuild a cloud server](/support/how-to/rebuild-a-cloud-server)
 - [Resize standard servers](/support/how-to/resize-standard-and-general-purpose-servers)
 - [Resize up compute and memory servers](/support/how-to/resize-up-compute-and-memory-servers/)
-- [Troubleshooting low disk space for a Linux cloud server](/support/how-to/linux-cloud-server-low-disk-troubleshooting)
+- [Troubleshooting low disk space for a Linux cloud server](/support/how-to/troubleshooting-low-disk-space-for-a-linux-cloud-server/)
 - [Using server logs](/support/how-to/using-server-logs)
 - [Reset your server password](/support/how-to/reset-a-server-password)
 - [Deleting your server](/support/how-to/delete-a-server)

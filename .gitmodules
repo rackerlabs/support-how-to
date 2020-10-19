@@ -2,4 +2,4 @@
 [submodule "themes/support-developer-hugo-theme"]
 	path = themes/support-developer-hugo-theme
 	url = git@github.com:rackerlabs/support-developer-hugo-theme.git
-	branch = develop
+	branch = master

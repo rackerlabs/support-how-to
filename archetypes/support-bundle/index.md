@@ -1,13 +1,12 @@
 ---
-title: "{{ .Name }}"
-type: product
-created_date: '2019-05-16'
-created_by: 
-last_modified_date: '2019-05-16'
-last_modified_by: 
-permalink: 
-product: 
-product_url: 
-layout: post
+permalink: "{{ .Name | title | lower }}"
+audit_date:
+type: article
+title: "{{ .Name | title | humanize }}"
+created_date: '{{ now.Format "2006-01-02" }}'
+created_by:
+last_modified_date:
+last_modified_by:
+product:
+product_url:
 ---
-

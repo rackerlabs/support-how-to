@@ -5,8 +5,8 @@ title: Use Cloud Servers tags
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-09-21'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -64,7 +64,7 @@ quickly filter them by function, like *web server*, *proxy*, or
 #### Role
 
 In a more complex environment, you might have *primary* and *backup*
-systems, *master* and *slave* databases, or Domain name (DNS) servers.
+systems, *primary* and *replica* databases, or Domain name (DNS) servers.
 Tagging servers according to their role in the environment can help when
 you plan maintenance.
 

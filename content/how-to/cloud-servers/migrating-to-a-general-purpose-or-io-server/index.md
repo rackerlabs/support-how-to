@@ -5,7 +5,7 @@ title: Migrate to a General Purpose or I/O server
 type: article
 created_date: '2013-10-03'
 created_by: Jered Heeschen
-last_modified_date: '2019-01-22'
+last_modified_date: '2020-09-17'
 last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
@@ -202,7 +202,7 @@ Web Deploy tool. See [Launch a Windows Web Farm with Web Deploy](/support/how-to
 #### Application-specific options
 
 Other applications might have their own means of facilitating data migration.
-For example, to migrate a database you could make the new server a slave of the
+For example, to migrate a database you could make the new server a replica of the
 original database to automatically replicate your data to the new server.
 
 ### Post-migration tasks

@@ -16,15 +16,15 @@ This article provides an overview of the features available in the Cloud Office 
 Choose from the following options to skip to that section:
 
 - [Control Panel](#logging-in)
-  
+
 - [Hosted email](#hosted-email)
-  
+
 - [Microsoft Exchange](#microsoft-exchange)
 
 - [Domains](#domains)
 
 - [Account settings](#account-settings)
-  
+
 - [Reseller Tools](#reseller-tools)
 
 ### Logging in
@@ -53,7 +53,7 @@ Following are some of the options available in the Email Hosting section of the 
 #### Hosted email spam
 
 -  **Filter settings** - Control your domain spam settings or individual settings, such as spam filtering.
--  **Blacklists** - Control domain or individual mailbox blacklist settings.
+-  **Blocklists** - Control domain or individual mailbox Blocklist settings.
 -  **Safelists** - Control domain or individual mailbox safelist settings.
 
 ### Microsoft Exchange
@@ -75,7 +75,7 @@ The following options are available in the **Microsoft Exchange** section of the
 #### Exchange spam
 
 -  **Settings** - Control your domain spam settings or individual mailbox settings, such as spam filtering.
--  **Blacklists** - Control domain or individual mailbox blacklist settings.
+-  **Blocklists** - Control domain or individual mailbox Blocklist settings.
 -  **Safelists** - Control domain or individual mailbox safelist settings.
 
 ### Microsoft Office 365
@@ -100,9 +100,9 @@ Following are some of the options available in the Domains section of the contro
 
 #### Spam
 -  **Filter Settings** - Control your domain spam settings or individual mailbox settings for spam.
--  **Blacklists** - Control domain or individual mailbox blacklists settings.
+-  **Blocklists** - Control domain or individual mailbox Blocklists settings.
 -  **Safelists** - Control domain or individual mailbox safelists settings.
--  **Search** - Search for users on blacklists or safelists.
+-  **Search** - Search for users on Blocklists or safelists.
 
 #### Tools
 -  **Split Domain** - Set up and manage split domain routing.
@@ -111,7 +111,7 @@ Following are some of the options available in the Domains section of the contro
 -  **Catch All Address** - Add a mailbox to capture any incoming mail sent to an address that doesn’t exist on your domain.
 -  **Migrations** - Set up new migrations for migrating company data from a previous hosting provider.
 -  **Directory Sync** - Manage users, contacts, and distribution lists on our Hosted Exchange and Rackspace Email platforms from your internal Active Directory.
--  **External Blacklist Lookup** – Search third-party spam lists.
+-  **External Blocklist Lookup** – Search third-party spam lists.
 
 #### Reports
 -  **Domain Details** - View a summary of your domain services and products.

@@ -385,7 +385,7 @@ Detailed instructions for exporting an image are available in the example at
 cloud](/support/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud).
 
 {{< /accordion >}}
-{{< accordion title="Where is my exported image?" col="in" href="accordion40" hasImage="yes">}}
+{{< accordion title="Where is my exported image?" col="in" href="accordion40" >}}
 
 Your image is exported into a container that you specify in your Cloud Files
 account. It is stored as a _Dynamic Large Object_ (DLO) in Cloud Files. A DLO
@@ -395,7 +395,7 @@ object follows the format `{image_uuid}.vhd`.) Cloud Files streams all of the
 segments in the correct order. The following image shows what displays in the
 Cloud Control Panel when you download an image:
 
-{{<image src="file-listing_0.png" alt="" title="">}}
+<img class="fig-img" src="/support/how-to/cloud-images-faq/file-listing_0.png" alt="">
 
 In the image, the manifest objects are contained in red boxes.
 Note that each object is zero bytes in size and has a filename that follows

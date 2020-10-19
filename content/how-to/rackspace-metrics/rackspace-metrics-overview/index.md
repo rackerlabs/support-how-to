@@ -57,7 +57,7 @@ Rackspace Metrics consists of the following components:
      to compare the results against Rackspace Metrics.
 
      The Metrics Ingestion API is currently in the [Early Access
-     program](https://docs.rackspace.com/docs/metrics/v2/early-access-program/).
+     program](/support/how-to/rackspace-product-release-phases/).
 
 -   **Metrics query**: Rackspace Metrics enables you to retrieve
     metrics data via a public API. Through its Query API, Rackspace

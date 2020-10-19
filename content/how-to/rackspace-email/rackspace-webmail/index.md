@@ -103,7 +103,7 @@ In the **Incoming Email** section, you can manage settings for auto-reply, forwa
 
 #### Spam Settings
 
-In the Spam Settings section, you can manage settings for spam preferences, safelists, and blacklists.
+In the Spam Settings section, you can manage settings for spam preferences, safelists, and Blocklists.
 
 {{<image src="spam_settings.png" alt="" title="">}}
 
@@ -112,10 +112,10 @@ In the Spam Settings section, you can manage settings for spam preferences, safe
 - **Spam Filtering** turns your spam filtering on and off, or have it be exclusive.
 - **Spam Handling** specifies how you would like your spam email to be handled.
 
-##### Safelist and Blacklist
+##### Safelist and Blocklist
 
 - **Safelist** specifies what email should be by passed through filters through the sent user's IP address, email address, or domain.
-- **Blacklist** specifies what email should be blocked through the sent user's IP address, email address, or domain.
+- **Blocklist** specifies what email should be blocked through the sent user's IP address, email address, or domain.
 
 ##### Change Password
 

@@ -2,7 +2,6 @@ import contentLoaded from "content-loaded";
 import SmoothScroll from "./imports/smoothScroll";
 const Entities = require('html-entities').AllHtmlEntities;
 
-
 contentLoaded().then(() => {
   /**
    * Enable search
@@ -59,7 +58,7 @@ contentLoaded().then(() => {
                       <p class="search-summary">${instantsearch.highlight({ attribute: 'content', hit })}</p>
                     </a>
                     <span class="search-author" > By &nbsp; ${instantsearch.highlight({ attribute: 'created_by', hit })}</span>
-                    <span class="search-date">${hit.created_date}</span> 
+                    <span class="search-date">${hit.last_modified_date}</span> 
                 </div>
               </div>
             </li>`;
@@ -93,12 +92,27 @@ contentLoaded().then(() => {
       }
       widgetParams.container.innerHTML = `${count}`;
     };
-
+    const algoliaClient = algoliasearch(ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY);
+    const searchClient = {
+      search(requests) {
+        if (requests.every(({ params }) => !params.query)) {
+          return Promise.resolve({
+            results: requests.map(() => ({
+              hits: [],
+              nbHits: 0,
+              nbPages: 0,
+            })),
+          });
+        }
+    
+        return algoliaClient.search(requests);
+      },
+    };
     // Create the custom widget
     const customStats = instantsearch.connectors.connectStats(renderStats);
     const search = instantsearch({
       indexName: ALGOLIA_SUPPORT_INDEX,
-      searchClient: algoliasearch(ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY),
+      searchClient: searchClient,
       searchFunction(helper) {
         const hitsContainer = document.querySelector('#hits');
         const paginationContainer = document.querySelector('#pagination');
