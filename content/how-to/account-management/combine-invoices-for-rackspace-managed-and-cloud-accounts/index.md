@@ -1,7 +1,7 @@
 ---
 permalink: combine-invoices-for-rackspace-managed-and-cloud-accounts/
 audit_date: '2020-10-19'
-title: 'Combine invoices for Rackspace Public Cloud, Rackspace Private Cloud, and third-part cloud accounts'
+title: 'Combine invoices for Rackspace Public Cloud, Rackspace Private Cloud, and third-party cloud accounts'
 type: article
 created_date: '2017-08-07'
 created_by: Stephanie Fillmon
