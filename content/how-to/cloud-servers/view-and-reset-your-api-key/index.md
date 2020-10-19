@@ -7,8 +7,6 @@ created_date: '2013-02-05'
 created_by: Kyle Laffoon
 last_modified_date: '2019-03-11'
 last_modified_by: Cat Lookabaugh
-product: Cloud Servers
-product_url: cloud-servers
 ---
 
 The [Cloud Control Panel](https://login.rackspace.com/) gives you GUI access to

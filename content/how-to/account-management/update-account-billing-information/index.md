@@ -5,10 +5,6 @@ title: Update an account's billing information
 type: article
 created_date: '2018-03-13'
 created_by: Rackspace Support
-last_modified_date: '2018-10-25'
-last_modified_by: Stephanie Fillmon
-product: Account Management
-product_url: account-management
 ---
 
 **Note:** If you are a Dedicated Hosting customer, you can request the updates described in this article from your account manager.
