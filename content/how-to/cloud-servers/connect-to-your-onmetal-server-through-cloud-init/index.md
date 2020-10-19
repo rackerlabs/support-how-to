@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Cloud-init works out of the box with OnMetal servers. Therefore, you can
+`cloud-init` works out of the box with OnMetal servers. Therefore, you can
 create a **cloud-config.yml** file as follows:
 
     #cloud-config
@@ -22,7 +22,7 @@ create a **cloud-config.yml** file as follows:
     #!/bin/bash -e
     echo "hello world"
 
-Next, run the following command in the command line, using your SSH (Secure Shell) key name:
+Next, run the following command in the command line, by using your Secure Shell (SSH) key name:
 
     supernova iad boot --flavor onmetal-general2-medium --image b59fc7a5-de35-4fd3-87f8-c5f2e390f1ad --user-data cloud-config.yml --key-name pquerna
     pq-cloud-init-test
@@ -30,4 +30,4 @@ Next, run the following command in the command line, using your SSH (Secure Shel
 When the server starts, you can see a */hello-world* Bash script in your OnMetal instance.
 
 
-**Note:** For more examples of what cloud-init can do, please see <https://cloudinit.readthedocs.org/en/latest/>.
+**Note:** For more examples of what `cloud-init` can do, see <https://cloudinit.readthedocs.org/en/latest/>.
