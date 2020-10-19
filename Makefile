@@ -1,4 +1,4 @@
-HUGO_VERSION ?= 0.76.4
+HUGO_VERSION ?= 0.76.5
 HUGO_EXTENDED = "extended_"
 CONTAINER_RUNTIME ?= docker
 # Show build warnings, posts tagged as draft, and posts with a future date
