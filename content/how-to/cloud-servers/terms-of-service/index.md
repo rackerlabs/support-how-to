@@ -1,12 +1,12 @@
 ---
 permalink: terms-of-service/
-audit_date:
+audit_date: '2020-10-20'
 title: Terms of Service
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2016-01-15'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-10-20'
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
