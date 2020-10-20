@@ -48,7 +48,7 @@ address (such as 10.181.200.XXX) from any internal IP address
 (such as 192.168.1.7).
 
 FortiGate enables you to create a DDNS name. To learn how to configure a DDNS
-name in FortiGate, see [How to set up DDNS on a FortiGate device](https://video.fortinet.com/latest/how-to-setup-ddns-on-an-fortigate-device).
+name in FortiGate, see [How to set up DDNS on a FortiGate device](https://video.fortinet.com/latest/support/how-to-setup-ddns-on-an-fortigate-device).
 
 ### Step 1: Configure the IPsec VPN in the Vyatta router appliance
 

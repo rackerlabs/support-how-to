@@ -19,7 +19,7 @@ product_url: office-365
 - **Tools required:** Outlook&reg; for Android&trade; Installed on a tablet, Microsoft 365&reg; email address
   and password (Exchange Online Kiosk license or later)
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 For additional information about Microsoft 365 licensing, see our [Product Comparison Chart](https://www.rackspace.com/sites/default/files/2020-06/Rackspace-Data-Sheet-Microsoft-365-Plans-and-Pricing-Sheet-CLO-TSK-1487.pdf).
 

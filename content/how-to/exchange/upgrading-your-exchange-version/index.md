@@ -79,7 +79,7 @@ This section provides answers to questions that you might have about the Exchang
 
 #### Do I need to change my Mail Exchange records?
 
-In most cases, you do not need to change your Mail Exchange (MX) records because they should already point to our environment. You can review our MX record details in the article [Set up DNS records for Cloud Office email](https://support.rackspace.com/how-to/set-up-dns-records-for-cloud-office-email/).
+In most cases, you do not need to change your Mail Exchange (MX) records because they should already point to our environment. You can review our MX record details in the article [Set up DNS records for Cloud Office email](https://support.rackspace.com/support/how-to/set-up-dns-records-for-cloud-office-email/).
 
 #### Can we migrate only some of our mailboxes?
 
