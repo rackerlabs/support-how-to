@@ -55,7 +55,7 @@ account for some downtime or perform this task outside of your normal business h
 
 After the migration has completed, log in to your server to verify the server is up and start any processes not set
 to start on boot. See this link for some things to check:
-[Ensure servers reboot successfully](/how-to/ensure-servers-reboot-successfully/)
+# [Ensure servers reboot successfully](/how-to/ensure-servers-reboot-successfully/)
 
 You can also verify the performance on your server to see if the migration produced any improvements. In some rare instances,
 the new host environment could experience similar issues. You can migrate again as needed, but if multiple host environments
