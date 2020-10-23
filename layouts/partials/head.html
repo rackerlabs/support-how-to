@@ -1,4 +1,4 @@
-{{- $title := $.Site.Title | markdownify -}}
+{{- $title := .Title | markdownify -}}
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Accept-CH" content="DPR,Width,Viewport-Width" />
@@ -9,79 +9,55 @@
 <meta name="application-name" content="{{ $title }}" />
 <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
 <meta name="theme-color" content="#ffffff" />
-<meta name="description"
-  content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Description }}{{ end }} /">
-{{- with .Keywords -}}
-<meta name="keywords" content="{{ . }}" />
-{{- end -}}
+<meta name="description" content="{{ .Title }}">
+{{ if .Params.summary }}
+<meta name="summary" content="{{ .Params.summary }}">
+{{ else if .Site.Params.summary }}
+<meta name="summary" content="{{ .Site.Params.summary }}">
+{{ else }}
+<meta name="summary" content="{{ .Summary }}">
+{{ end }}
+{{ if .Params.keywords }}
+<meta name="keywords" content="{{ .Params.keywords }}">
+{{ else if .Site.Params.keywords }}
+<meta name="keywords" content="{{ .Site.Params.keywords }}">
+{{ end }}
+<meta property="url" content="{{ .Site.Params.permalink }}">
+<meta property="author" content="{{ .Site.Params.created_by }}">
+<meta property="date" content="{{ .Site.Params.created_on }}"> 
+<!-- og meta tags -->
+<meta property="og:url" content="{{ .Site.BaseURL }}">
+{{ if .Params.description }}
+<meta property="og:description" content="{{ .Params.description }}">
+{{ else if .Site.Params.description }}
+<meta property="og:description" content="{{ .Site.Params.description }}">
+{{ end }}
+{{ if .Params.keywords }}
+<meta property="og:keywords" content="{{ .Params.keywords }}">
+{{ else if .Site.Params.keywords }}
+<meta property="og:keywords" content="{{ .Site.Params.keywords }}">
+{{ end }}
 {{- if eq (getenv "HUGO_ENV") "production" | or (eq $.Site.Params.env "production") -}}
 <meta name="robots" content="index, follow" />
 {{- else -}}
 <meta name="robots" content="noindex, nofollow" />
 {{- end -}}
-
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<title>{{ $title }}</title>
 {{ $style := resources.Get "styles.scss" | toCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" emotion="🤩">
+<link rel="stylesheet" href="{{ $style.Permalink }}" emotion="🤩">
+<!-- Additional Styles for the App -->
+<link rel="stylesheet" href="/assets/main.css">
 
-<link rel="apple-touch-icon" sizes="180x180" href="https://docs-support-how-to.netlify.app/favicons/favicon.ico" />
-<link rel="icon" type="image/png" href="https://docs-support-how-to.netlify.app/favicons/favicon.ico" sizes="32x32" />
-<link rel="icon" type="image/png" href="https://docs-support-how-to.netlify.app/favicons/favicon.ico" sizes="16x16" />
-<link rel="mask-icon" href="https://docs-support-how-to.netlify.app/favicons/favicon.ico" color="#00c7b7" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://docs-support-how-to.netlify.app//favicons/favicon.ico" />
+<link rel="icon" type="image/png" href="https://docs-support-how-to.netlify.app//favicons/favicon.ico" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://docs-support-how-to.netlify.app//favicons/favicon.ico" sizes="16x16" />
+<link rel="mask-icon" href="https://docs-support-how-to.netlify.app//favicons/favicon.ico" color="#00c7b7" />
 {{- with .OutputFormats.Get "RSS" -}}
 <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $title }}" />
 <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $title }}" />
 {{- end -}}
 {{/* TODO: canonical + multilingual meta */}}
-{{- with $.Site.Params.gtmid -}}
-<!-- Google Tag Manager -->
-<script>
-  (function (w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({
-      'gtm.start': new Date().getTime(),
-      event: 'gtm.js'
-    });
-    var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s),
-      dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.async = true;
-    j.src =
-      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-MW68KW');
-</script>
-<!-- End Google Tag Manager -->
-{{- end -}}
 
-{{- if eq (getenv "HUGO_ENV") "production" | or (eq $.Site.Params.env "production") -}}
-<!-- Begin Inspectlet Asynchronous Code -->
-<script type="text/javascript">
-  (function () {
-    window.__insp = window.__insp || [];
-    __insp.push(['wid', 669564344]);
-    var ldinsp = function () {
-      if (typeof window.__inspld != "undefined") return;
-      window.__inspld = 1;
-      var insp = document.createElement('script');
-      insp.type = 'text/javascript';
-      insp.async = true;
-      insp.id = "inspsync";
-      insp.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-        '://cdn.inspectlet.com/inspectlet.js?wid=669564344&r=' + Math.floor(new Date().getTime() / 3600000);
-      var x = document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(insp, x);
-    };
-    setTimeout(ldinsp, 0);
-  })();
-</script>
-<!-- End Inspectlet Asynchronous Code -->
-{{- end -}}
-<script>
-  var featureFlagContent = {};
-</script>
 <!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
 <script type='text/javascript'>
   (function(){var g=function(e,h,f,g){

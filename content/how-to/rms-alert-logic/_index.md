@@ -45,5 +45,5 @@ aligned with the risk assessment for that environment.
 
 ### Learn about the product
 
-- [How to prioritize threats and reduce alert fatigue](https://blog.rackspace.com/how-to-prioritize-threats-and-reduce-alert-fatigue)
+- [How to prioritize threats and reduce alert fatigue](https://blog.rackspace.com/support/how-to-prioritize-threats-and-reduce-alert-fatigue)
 - [Alert Logic Threat Management](https://www.rackspace.com/en-us/security/tools/intrusion-detection)

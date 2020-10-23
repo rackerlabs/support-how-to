@@ -19,3 +19,4 @@ static/assets/
 # Local Netlify folder
 .netlify
 Gemfile.lock
+static/assets/

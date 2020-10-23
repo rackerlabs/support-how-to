@@ -20,29 +20,29 @@ common Rackspace operating systems.
 
 ### Table of contents
 
-* [Find the OS that your server is running](#findos)
+* [Find the OS that your server is running](#find-the-os-that-your-server-is-running)
 
 **Red Hat&reg; Enterprise Linux&reg; (RHEL) and CentOS&reg;**
 
-* [RHEL and CentOS 7](#rhel_and_centos7)
-* [RHEL and CentOS 6](#rhel_and_centos6)
-* [RHEL and CentOS 5](#rhel_and_centos5)
+* [RHEL and CentOS 7](#rhel-and-centos-7)
+* [RHEL and CentOS 6](#rhel-and-centos-6)
+* [RHEL and CentOS 5](#rhel-and-centos-5)
 
 **Ubuntu&reg; operating system**
 
-* [Ubuntu 14.04 LTS](#ubuntu_1404)
-* [Ubuntu 12.04 LTS](#ubuntu_1204)
+* [Ubuntu 14.04 LTS](#ubuntu-1404-lts)
+* [Ubuntu 12.04 LTS](#ubuntu-1204-lts)
 
 **Debian&reg;**
 
-* [Debian 8](#debian8)
-* [Debian 7](#debian7)
+* [Debian 8](#debian-8)
+* [Debian 7](#debian-7)
 
 **Windows&reg; Server&reg;**
 
-* [Windows Server 2012](#windows2012)
-* [Windows Server 2008 R2](#windows2008_r2)
-* [Windows Server 2003 and 2008](#windows2003_2008)
+* [Windows Server 2012](#windows-server-2012)
+* [Windows Server 2008 R2](#windows-server-2008-r2)
+* [Windows Server 2003 and 2008](#windows-server-2003-and-2008)
 
 ### Find the OS that your server is running
 
@@ -114,7 +114,7 @@ TLS 1.2 configured by default.
 If you are running Windows Server 2012, you do not need to take action because
 the OS comes with TLS 1.2 configured by default.
 
-### <Windows Server 2008 R2
+### Windows Server 2008 R2
 
 Windows Server 2008 R2 supports TLS 1.2, but you need to modify some settings
 on the server to ensure that you are leveraging that protocol. To make the

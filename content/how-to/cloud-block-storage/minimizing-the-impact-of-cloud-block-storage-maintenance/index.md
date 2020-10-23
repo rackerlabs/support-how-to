@@ -22,17 +22,17 @@ until the maintenance is complete.
 
 #### Clone and replace
 
-After you [clone your Cloud Block Storage volume](https://support.rackspace.com/how-to/create-a-clone-of-a-cloud-block-storage-volume/), the resulting clone should land on an unaffected host server.
+After you [clone your Cloud Block Storage volume](/support/how-to/create-a-clone-of-a-cloud-block-storage-volume/), the resulting clone should land on an unaffected host server.
 
 **Non-system disk Cloud Block Storage volumes:**
 
-- Stop all writes to your current Cloud Block Storage volume before initiating the clone. After all writes to the current Cloud Block Storage volume have been stopped, clone the volume. After the clone completes, [unmount and detach](https://support.rackspace.com/how-to/detach-and-delete-cloud-block-storage-volumes/) the current Cloud Block Storage volume. Then [attach the new volume](https://support.rackspace.com/how-to/create-and-attach-a-cloud-block-storage-volume/) (the clone).
+- Stop all writes to your current Cloud Block Storage volume before initiating the clone. After all writes to the current Cloud Block Storage volume have been stopped, clone the volume. After the clone completes, [unmount and detach](/support/how-to/detach-and-delete-cloud-block-storage-volumes/) the current Cloud Block Storage volume. Then [attach the new volume](/support/how-to/create-and-attach-a-cloud-block-storage-volume/) (the clone).
 
 **Note:** Clones are not verified. Ensure the newly-cloned volume is working before deleting your current Cloud Block Storage volume.
 
 **System disk Cloud Block Storage volumes (Boot from volume servers):**
 
-- [Replace your current system disk with a clone.](https://support.rackspace.com/how-to/increase-size-of-cloud-boot-from-volume-server-system-disk/)
+- [Replace your current system disk with a clone.](/support/how-to/increase-size-of-cloud-boot-from-volume-server-system-disk/)
 
 **Note:** Clones are not verified. Ensure the newly-cloned volume is working before deleting your current Cloud Block Storage volume.
 
@@ -40,7 +40,7 @@ After you [clone your Cloud Block Storage volume](https://support.rackspace.com/
 
 **Non-system disk Cloud Block Storage volumes:**
 
-- [Unmount and detach](https://support.rackspace.com/how-to/detach-and-delete-cloud-block-storage-volumes/) any Cloud Block Storage volume impacted by the maintenance. (The link includes instructions to delete Cloud Block Storage volumes&mdash;you should only complete the unmount and detach sections.)
+- [Unmount and detach](/support/how-to/detach-and-delete-cloud-block-storage-volumes/) any Cloud Block Storage volume impacted by the maintenance. (The link includes instructions to delete Cloud Block Storage volumes&mdash;you should only complete the unmount and detach sections.)
 
 **System disk Cloud Block Storage volumes (Boot from volume servers):**
 
@@ -50,7 +50,7 @@ After you [clone your Cloud Block Storage volume](https://support.rackspace.com/
 
 **Volume not appearing inside server:**
 
-- Shut the server down, [detach](https://support.rackspace.com/how-to/detach-and-delete-cloud-block-storage-volumes/) the Cloud Block Storage volume, and [attach it back](https://support.rackspace.com/how-to/create-and-attach-a-cloud-block-storage-volume/) to the server. Then you can start your server back up either through a reboot in the Control Panel or by issuing a start call by using the API. 
+- Shut the server down, [detach](/support/how-to/detach-and-delete-cloud-block-storage-volumes/) the Cloud Block Storage volume, and [attach it back](/support/how-to/create-and-attach-a-cloud-block-storage-volume/) to the server. Then you can start your server back up either through a reboot in the Control Panel or by issuing a start call by using the API. 
 
 **Non-system disk Cloud Block Storage volumes:**
 

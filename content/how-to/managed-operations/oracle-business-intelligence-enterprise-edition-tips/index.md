@@ -19,7 +19,7 @@ answers to frequently asked questions and provides best practices for OBIEE.
 This article includes tips to perform the following tasks:
 
 - [Upload the repository in OBIEE 11g and 12c](#upload-the-repository-in-obiee-11g-and-12c)
-- [Fix patch application issues](#fix-patch-appliation-issues)
+- [Fix patch application issues](#fix-patch-application-issues)
 - [Change the WebLogic password](#change-the-weblogic-password)
 - [Fix OBIEE report errors](#fix-obiee-report-errors)
 - [Increase the row limit](#increase-the-row-limit)

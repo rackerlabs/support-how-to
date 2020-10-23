@@ -1,0 +1,7 @@
+grep -Eoi '<a [^>]+>' public/**/*.html | grep -Eo 'href="[^\"]+"' | grep -Eo '(http|https)://[^/"]+' > external_urls.txt
+
+echo "$(sort  external_urls.txt | uniq -u)" > external_urls.txt
+
+lct -f external_urls.txt >> link-checker.log
+
+remark -u validate-links . 2>&1 | tee log-file.txt
