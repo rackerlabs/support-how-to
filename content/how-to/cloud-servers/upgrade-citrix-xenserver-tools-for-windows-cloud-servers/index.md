@@ -1,12 +1,12 @@
 ---
 permalink: upgrade-citrix-xenserver-tools-for-windows-cloud-servers/
-audit_date:
+audit_date: '2020-10-23'
 title: Upgrade Citrix (XenServer) Tools for Windows cloud servers
 type: article
 created_date: '2016-04-05'
 created_by: Luke Repko
-last_modified_date: '2019-01-17'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2020-10-23'
+last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -39,7 +39,6 @@ Before you begin, create a backup of your data from the server by using the
 Cloud Backup. Create a Cloud Image of the server to retain its configuration.
 The latest version of the Windows Agent is installed on the *production* server
 before beginning this tutorial.
-
 
 #### Create a Backup using Cloud Backup
 
@@ -74,7 +73,6 @@ to install the Rackspace Cloud Servers agent.
 2. In the command prompt, run the following code:
 
           powershell.exe -NoProfile -NoLogo -InputFormat None -ExecutionPolicy Bypass -Command "iex(New-Object Net.WebClient).DownloadString('https://b2566e7bb4c60838ad8e-2feac036ecfab0eba46621f3ae4943bc.r28.cf1.rackcdn.com/latest/Update-Xentools.ps1')"
-
 
    Your output should be similar to the following:
 
@@ -114,7 +112,6 @@ to install the Rackspace Cloud Servers agent.
                              *****************************************************************************
                              Execute:  C:\rs-pkgs\xs-tools-6.5.0-20200\install.bat
                              *****************************************************************************
-
 
 ### Upgrade to XenServer Tools 6.5 on the new non-production server
 
@@ -174,6 +171,7 @@ a RackConnect configuration to reach out to Rackspace support for help if having
 network connectivity problems after an upgrade of the Citrix Tools.
 
 #### Performing a Network Reset
+
 To reset the server's network via the API, please login to
 [Pitchfork](https://pitchfork.rax.io/servers/#reset_network-cloud_servers) with
 your Rackspace username and API key. Issue the, *Reset Network* call using the
@@ -189,7 +187,6 @@ After performing the preceding steps on the new, non-production server, decide
 whether to use the new server as your production server, or continue using the
 original production server from which you made the new image. This section
 explains your options.
-
 
 #### Option 1: Use the new server as the production server
 
