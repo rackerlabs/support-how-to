@@ -1,7 +1,7 @@
 ---
-permalink: password-change-logs-in-linux/
+permalink: view-password-change-logs-in-linux/
 audit_date: '2020-10-23'
-title: Password Change Logs in Linux
+title: View password change logs in Linux
 type: article
 created_date: '2020-10-21'
 created_by: James Andrade
@@ -11,7 +11,8 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Password changes are logged in the following files:
+Logs are a valuable asset when troubleshooting servers and check when the root
+password has been changed. Password changes are logged in the following files:
 
 For Ubuntu&reg;/Debian&reg; systems:
 
