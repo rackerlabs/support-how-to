@@ -7,8 +7,6 @@ created_date: '2015-07-21'
 created_by: Rose Contreras
 last_modified_date: '2017-12-19'
 last_modified_by: Cat Lookabaugh
-product: Account Management
-product_url: account-management
 ---
 
 Every Rackspace product is backed by an industry-leading service level
