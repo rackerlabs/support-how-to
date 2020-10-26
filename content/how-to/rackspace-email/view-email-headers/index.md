@@ -16,11 +16,11 @@ product_url: rackspace-email
 - **Applies to:** Administrator and User
 - **Difficulty:** Moderate
 - **Time needed:** Approximately 5 minutes
-- **Tools required:** Webmail access, Outlook Web App access
+- **Tools required:** Webmail access, Outlook&reg; Web App access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-The following article will explain how to view message headers within Webmail for Rackspace Email Mailboxes, as well as within the Outlook Web App for Hosted Exchange mailboxes.
+This article explains how to view message headers within Webmail for Rackspace Email mailboxes, as well as within the Outlook Web App for Hosted Exchange&reg; mailboxes.
 
 ### View headers in Webmail for Rackspace Email
 
@@ -28,11 +28,11 @@ The following article will explain how to view message headers within Webmail fo
 
 2. Select the message for which you want to view the headers.
 
-3. In the message preview pane tool bar, click **More**, and then select **View Full Header**.
+3. In the **Message Preview** pane toolbar, click **More** and select **View Full Header**.
 
     {{<image src="view_full_header_rs.png" alt="" title="">}}
 
-4. The **Full Header** box displays with the full contents of the message header.
+4. The **Full Header** box displays the full contents of the message header.
 
     {{<image src="full_header_rs.png" alt="" title="">}}
 
@@ -52,7 +52,7 @@ For additional information regarding reading and updating email headers within W
 
     {{<image src="view_message_details_hex.png" alt="" title="">}}
 
-4. The **Full header** box displays with all of the contents in the message header.
+4. The **Full header** box displays all of the contents in the message header.
 
     {{<image src="header_window_hex.png" alt="" title="">}}
 
