@@ -38,7 +38,7 @@ This article describes the procedure to set up a Secure Shell (SSH) public key a
 
         `ls .ssh`
 
-    a. If the directory does not exist, create it and sit the permissions to `0700`:
+    a. If the directory does not exist, create it and set the permissions to `0700`:
 
         `mkdir -m 700 .ssh`
 
