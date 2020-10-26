@@ -1,12 +1,12 @@
 ---
 permalink: permissions-matrix-for-role-based-access-control-rbac/
-audit_date:
+audit_date: '2020-10-23'
 title: Role-Based Access Control (RBAC) permissions matrix for Cloud Hosting
 type: article
 created_date: '2013-06-17'
 created_by: Renee Rendon
-last_modified_date: '2018-12-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-10-23'
+last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -27,7 +27,7 @@ Product | Admin | Creator | Observer
 --- | --- | --- | ---
 [Cloud Servers](/support/how-to/permissions-matrix-for-next-generation-cloud-servers) | Yes | Yes | Yes
 [Cloud Files](/support/how-to/permissions-matrix-for-cloud-files) | Yes | No | Yes
-[Rackspace CDN](/support/how-to/permission-matrix-for-rackspace-cdn) || Yes | Yes | Yes
+[Rackspace CDN](/support/how-to/permission-matrix-for-rackspace-cdn) | Yes | Yes | Yes
 [Cloud Databases](/support/how-to/permissions-matrix-for-cloud-databases) | Yes | Yes | Yes
 [Cloud Load Balancers](/support/how-to/permissions-matrix-for-cloud-load-balancers) | Yes | Yes | Yes
 [Cloud Queues](/support/how-to/permissions-matrix-for-cloud-queues) | Yes | Yes | Yes
