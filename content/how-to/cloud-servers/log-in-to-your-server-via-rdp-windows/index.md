@@ -14,23 +14,22 @@ product_url: cloud-servers
 This article addresses how to connect and log in to your Windows&reg;
 Server&reg; by using Microsoft&reg; Remote Desktop Protocol.
 
-### Windows and Mac Versions
+### Windows and Mac versions
 
-The instructions below show how to use RDP on Windows XP. Different
-versions of Windows such Windows 7 and Windows 8 vary slightly,
-however the operation of Remote Desktop remains the same across all
+The following instructions describe how to use RDP on Windows XP. Different
+versions of Windows, such as Windows 7 and Windows 8, vary slightly,
+but the operation of Remote Desktop remains the same across all
 versions of Windows.
 
-On MacOS&reg;
+On MacOS&reg;,
 [download](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
-nd install the Remote Desktop Connection Client for
+and install the Remote Desktop Connection Client for
 Mac. The steps to connect to your server are very similar.
 
-For more information on configuring and running Remote Desktop
-Connection for Mac, see
+For more information on configuring and running `Remote Desktop Connection for Mac`, see
 [Get started with the macOS client](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-mac).
 
-### Run the Remote Desktop Connection Client
+### Run the Remote Desktop Connection client
 
 1. Open the Remote Desktop Connection Client by clicking **Start** >
    **All Programs** > **Accessories** > **Communications** >
@@ -42,17 +41,17 @@ Connection for Mac, see
 3. *(Optional)* To set up file transfer or enable your clipboard for
    copy/paste, click **Options**.
 
-4. Click the Local Resources tab, select the Clipboard option, click **More**,
+4. Click the **Local Resources** tab, select the **Clipboard** option, click **More**,
    and then click **Drives**.
 
-Save your session by clicking the General tab, then clicking **Save As**.
+Save your session by clicking the **General** tab and clicking **Save As**.
 
-### Log in to Your Server
+### Log in to your server
 
-After you have connected, the Windows log in screen displays. To log
+After you have connected, the Windows login screen displays. To log
 in for the first time, enter the Computer Name\\Administrator and the
 corresponding password (this is the password that was emailed to you
-when your server build was completed).
+when your server build completed).
 
-Congratulations you have successfully connected and logged in to your
+Congratulations, you have successfully connected and logged in to your
 new server!
