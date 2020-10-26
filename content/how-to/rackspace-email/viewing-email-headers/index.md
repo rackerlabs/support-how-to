@@ -1,6 +1,6 @@
 ---
 permalink: viewing-email-headers/
-audit_date:
+audit_date: '2020-10-23'
 title: Viewing Email Headers
 type: article
 created_date: '2020-10-23'
