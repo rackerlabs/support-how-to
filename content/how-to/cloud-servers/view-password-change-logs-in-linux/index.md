@@ -11,8 +11,8 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Logs are a valuable asset when troubleshooting servers and check when the root
-password has been changed. Password changes are logged in the following files:
+Logs are a valuable asset when troubleshooting servers and checking for root
+password changes. Password changes are logged in the following files:
 
 For Ubuntu&reg;/Debian&reg; systems:
 
@@ -22,7 +22,7 @@ For CentOS&reg;/RHEL&reg; systems:
 
     /var/log/secure
 
-To check for root password changes, look for lines that mention:
+To check for root password changes, look for lines that mention either of the following messages:
 
     password changed for root
     Password for root was changed
