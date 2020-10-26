@@ -32,17 +32,17 @@ For more information about prerequisite terminology, see [Cloud Office support t
 Rackspace Webmail provides two options for password recovery: text message
 authentication and mobile application authentication.
 
-You might be prompted to set up password recovery when you log in or you can
+The system might prompt you to set up password recovery when you log in, or you can
 configure it in the Rackspace Webmail settings.
 
 #### Use text message authentication
 
-With text message authentication, you can recovery the password for your
+With text message authentication, you can recover the password for your
 Rackspace Email account by having our system send you a text message that
 verifies your identity.
 
 1. Log in to [Rackspace Webmail](https://apps.rackspace.com/).
-2. When prompted to *Choose Your Recovery Method* select
+2. When prompted to *Choose Your Recovery Method*, select
    **Get A Text Message**.
 3. Enter the phone number that you want to use for SMS messaging.
 4. In the verification field, enter the code that was sent to your phone and
@@ -58,13 +58,12 @@ for your Rackspace Email account by using the code from the application
 to verify your identity.
 
 1. Log in to [Rackspace Webmail](https://apps.rackspace.com/).
-2. When prompted to *Choose Your Recovery Method* select
+2. When prompted to *Choose Your Recovery Method*, select
    **Use An Authenticator**.
 3. Link your mobile device to your account by following the instructions on
    the **Securing Your Account with an Authenticator App** screen.
 
 A message stating *You have successfully set up password recovery** displays.
-
 
 ### Enable or disable password recovery
 
@@ -85,7 +84,7 @@ settings.
 
 ### Reset the password recovery authentication type
 
-You might need to perform these steps if you want to change your
+You might need to perform these steps to change your
 authentication method or set up a new device.
 
 1. Log in to [Rackspace Webmail](https://apps.rackspace.com/).
