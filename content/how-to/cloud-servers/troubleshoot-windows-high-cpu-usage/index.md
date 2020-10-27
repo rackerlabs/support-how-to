@@ -45,7 +45,7 @@ on your environment, start looking at these top processes when determining the c
 
 2. Click the **CPU** tab. 
 
-**Note:** You might need to maximize the window to see all the data.
+   **Note:** You might need to maximize the window to see all the data.
 
 3. Click the **Average CPU** column header to sort by overall CPU usage. Ensure the arrow that appears on the header points
    down so the data is sorted from highest to lowest.
