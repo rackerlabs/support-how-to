@@ -1,7 +1,7 @@
 ---
 permalink: view-email-headers/
 audit_date: '2020-10-23'
-title: Viewing Email Headers
+title: View Email Headers
 type: article
 created_date: '2020-10-23'
 created_by: Nicholas Ramirez
@@ -20,7 +20,8 @@ product_url: rackspace-email
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-The following article will explain how to view message headers within Webmail for Rackspace Email Mailboxes, as well as within the Outlook Web App for Hosted Exchange mailboxes.
+The following article describes how to view message headers within Webmail for Rackspace Email Mailboxes,
+as well as within the Outlook&reg; Web App for Hosted Exchange&reg; mailboxes.
 
 ### View headers in Webmail for Rackspace Email
 
@@ -28,11 +29,11 @@ The following article will explain how to view message headers within Webmail fo
 
 2. Select the message for which you want to view the headers.
 
-3. In the message preview pane tool bar, click **More**, and then select **View Full Header**.
+3. In the **message preview pane** toolbar, click **More**, and then select **View Full Header**.
 
     {{<image src="view_full_header_rs.png" alt="" title="">}}
 
-4. The **Full Header** box displays with the full contents of the message header.
+4. The **Full Header** box displays the full contents of the message header.
 
     {{<image src="full_header_rs.png" alt="" title="">}}
 
@@ -48,11 +49,12 @@ You have successfully viewed the message headers in Rackspace Email webmail.
 
     {{<image src="inbox_preview_hex.png" alt="" title="">}}
 
-3. On the right-hand side of the **Message Preview** pane, click the **down arrow** to the right of **Reply all**, and then select **View message details**.
+3. On the right-hand side of the **Message Preview** pane, click the **down arrow** to the right
+   of **Reply all**, and then select **View message details**.
 
     {{<image src="view_message_details_hex.png" alt="" title="">}}
 
-4. The **Full header** box displays with all of the contents in the message header.
+4. The **Full header** box displays all of the contents in the message header.
 
     {{<image src="header_window_hex.png" alt="" title="">}}
 
