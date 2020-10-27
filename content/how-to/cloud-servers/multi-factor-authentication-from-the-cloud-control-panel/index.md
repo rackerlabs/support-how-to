@@ -1,23 +1,22 @@
 ---
 permalink: multi-factor-authentication-from-the-cloud-control-panel/
-audit_date:
+audit_date: '2020-10-27'
 title: Multi-factor authentication from the Cloud Control Panel
 type: article
 created_date: '2014-07-17'
 created_by: Margaret Eker
-last_modified_date: '2020-09-04'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2020-10-27'
+last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
 Customers can increase security on Rackspace Cloud accounts by using the
 multi-factor authentication capabilities provided by the Rackspace Cloud
-Identity service. Multi-factor authentication adds an extra layer of
-identity verification to the log in process by requiring a user to
-submit a time-sensitive passcode that the Identity service sends to an
-SMS or OTP (one-time password) device associated with the user's
-account:
+Identity service. Multi-factor authentication adds an extra layer of identity
+verification to the log in process by requiring a user to submit a
+time-sensitive passcode that the Identity service sends to an SMS or OTP
+(one-time password) device associated with the user's account:
 
 -   an SMS device is a mobile phone, notebook, or other digital device
     with an associated phone number that is capable of receiving SMS
@@ -93,8 +92,7 @@ To configure you account to use an SMS device for multi-factor
 authentication, you need the phone number associated with your digital
 device. The device must be enabled to receive SMS text messages.
 
-**To register and verify an SMS device**
-
+To register and verify an SMS device, use the following steps:
 
 1.  Log in to the [Rackspace Cloud Control Panel](https://login.rackspace.com).
 
@@ -121,6 +119,10 @@ device. The device must be enabled to receive SMS text messages.
 
 ### Configure your account to authenticate by using an OTP device
 
+A one-time password (OTP), also known as one-time PIN or dynamic password, is a
+password that is valid for one login session or transaction, on a computer
+system or other digital device.
+
 To configure your account to use an OTP device for multi-factor
 authentication, you must have one of the following OTP client
 applications installed on your device: [Authy](https://www.authy.com/),
@@ -128,7 +130,7 @@ applications installed on your device: [Authy](https://www.authy.com/),
 [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en),
 or [SecureAuth OTP](https://www.secureauth.com/Support/Downloads/Client-Applications.aspx).
 
-**To register and verify an OTP device**
+To register and verify a mobile passcode device, use the following steps:
 
 1.  Log in to the [Rackspace Cloud Control Panel](https://login.rackspace.com).
 
@@ -158,11 +160,10 @@ or [SecureAuth OTP](https://www.secureauth.com/Support/Downloads/Client-Applicat
 
     After you submit the verification code, you are automatically logged out.
 
-    **Note:** By default, the new OTP device will be the default method
-    for authentication. If you do not want it
-    to be the default or if you do not want to be logged out of your
-    account, remove the selection from **Make this my default
-    authentication method**.
+    **Note:** By default, the new OTP device will be the default method for
+    authentication. If you do not want it to be the default or if you do not
+    want to be logged out of your account, remove the selection from **Make this
+    my default authentication method**.
 
     You can update the default authentication method on the Account
     settings page.
@@ -312,7 +313,7 @@ phone number and verify the device.
 **To remove an SMS or OTP device**
 
 To remove an SMS device, use the **Remove all devices**.
-To remove an OTP device, use the Manage option to delete the device from
+To remove an OTP device, use the **Manage** option to delete the device from
 your account.
 
 ### Troubleshooting
