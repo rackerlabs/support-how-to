@@ -40,7 +40,7 @@ You have successfully viewed the message headers in Rackspace Email webmail.
 
 For additional information regarding reading and updating email headers within Webmail, see our [In-depth Support Documentation](https://docs.rackspace.com/support/how-to/view-and-read-rackspace-email-headers/).
 
-### View headers in the Outlook Web App for Hosted Exchange
+### View headers in Outlook Web App for Hosted Exchange
 
 1. Log in to your Hosted Exchange mailbox at [apps.rackspace.com](apps.rackspace.com).
 
