@@ -1,22 +1,22 @@
 ---
 permalink: multi-factor-authentication-from-the-myrackspace-portal/
-audit_date: '2018-03-30'
+audit_date: '2020-10-27'
 title: Multi-factor authentication from the MyRackspace Portal
 type: article
 created_date: '2014-07-17'
 created_by: Margaret Eker
-last_modified_date: '2019-01-25'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2020-10-27'
+last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
 Customers can increase security on MyRackspace accounts by using the
 multi-factor authentication capabilities provided by the Rackspace Cloud
-Identity service. Multi-factor authentication adds an extra layer of
-identity verification to the log in process by requiring a user to
-submit a time-sensitive passcode that the Identity service sends to an
-SMS or mobile passcode device associated with the user's account:
+Identity service. Multi-factor authentication adds an extra layer of identity
+verification to the log in process by requiring a user to submit a
+time-sensitive passcode that the Identity service sends to an SMS or mobile
+passcode device associated with the user's account:
 
 -   An SMS device is a mobile phone, notebook, or other digital device
     with an associated phone number that is capable of receiving SMS
@@ -89,7 +89,11 @@ To register and verify an SMS device, use the following steps:
     is displayed so that you can re-authenticate by using the multi-factor
     authentication process.
 
-### Configure your account to authenticate by using a mobile passcode device
+### Configure your account to authenticate by using an OTP device
+
+A one-time password (OTP), also known as one-time PIN or dynamic password, is a
+password that is valid for one login session or transaction, on a computer
+system or other digital device.
 
 To configure your account to use a mobile passcode device for multi-factor
 authentication, you must have one of the following client applications
@@ -199,7 +203,7 @@ device, and authenticate by using the passcode sent to the device.
 If you add multi-factor authentication to your account, authentication is a
 two-step process.
 
-Multi-factor authentication has the following prerequisites:
+**Prerequisites**
 
 -   MyRackspace account with valid username and password credentials
 -   Access to the registered and verified SMS or mobile passcode device paired
@@ -275,10 +279,10 @@ To change the mobile phone number paired with your account, use the
 instructions, see the preceding task).  Then, update the authentication
 settings with the new phone number and verify the device.
 
-**To remove an SMS or mobile passcode device**
+**To remove an SMS or OTP device**
 
 To remove an SMS device, use the **Remove all devices** option.
-To remove a mobile passcode device, use the **Manage** option to delete the
+To remove a OTP device, use the **Manage** option to delete the
 device from your account.
 
 ### Troubleshooting
