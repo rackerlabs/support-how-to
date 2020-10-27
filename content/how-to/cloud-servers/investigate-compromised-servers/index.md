@@ -21,11 +21,11 @@ Using these tools helps you determine the following information:
 - The level of access that the attacker obtained
 - The audit trail of the attacker's footprints
 
-Many different types of compromises can exploit a UNIX&reg; server. Attackers
+Many different types of compromises can exploit a Unix&reg; server. Attackers
 might launch a brute force attack, guess a weak password, or attempt to use
 known software vulnerabilities in the hope that the server isn't on a regular
-patch schedule. It's important to understand how the machine was compromised so
-that you can determine the extent of the damage to your server and other hosts
+patch schedule. It's important to understand how the machine was compromised to
+determine the extent of the damage to your server and other hosts
 that are accessible to the compromised machine.
 
 For most root-level compromises, the most straightforward recovery approach is
@@ -36,17 +36,17 @@ you can properly close the security hole.
 
 ### Document the attack
 
-When you're notified that a system under your control might be compromised,
+When notified that a system under your control might be compromised,
 ensure that you obtain as much information as possible from the reporter,
 including the following items:
 
 - How the initial problem was found
 - The estimated time that the compromise occurred
-- Whether the server has been modified since the compromise was detected
+- Whether the server was modified after the compromise was detected
 - Anything else that the reporter says that is important
 
-**Important**: If you plan to involve law enforcement, it is imperative that no
-additional actions are taken on the server. The server must remain in its
+**Important**: If you plan to involve law enforcement, it is imperative that you
+take no additional actions on the server. The server must remain in its
 current state for evidence collection purposes.
 
 If you choose to proceed with the investigation, document anything that you find
@@ -57,25 +57,25 @@ its results.
 
 In some compromises, the attacker manages to delete all important log files to
 hide their tracks. However, this doesn't always occur. As a result, the log
-files leave valuable clues regarding what the attacker did to the server. The
+files contain valuable clues about what the attacker did to the server. The
 log files might also help you determine if the attack was a basic web hack or a
-root-level compromise. Use the commands in this section to try to find clues to
+root-level compromise. Use the commands in this section to find clues to
 help you unravel the extent of the compromise.
 
 #### last command
 
 The `last` command lists the sessions of users who recently logged in to the
-system. Its output includes the timestamps and hostnames, and indicates whether
+system. Its output includes the timestamps and hostnames and indicates whether
 the user is still logged in. If an odd Internet Protocol (IP) address appears in
 the output, you can cross-reference it against a brute force Secure Shell (SSH)
-attack in the `/var/log/messages` or `/var/log/secure` directory. This step
+attack in the **/var/log/messages** or **/var/log/secure** directory. This step
 might indicate how the attacker gained entry, what username they used to gain
 access, and if they were able to escalate their privileges to `root`.
 
 #### ls -lart command
 
 The `ls -lart` command outputs a time-ordered list of files and directories that
-you can correlate against the time that the compromise occurred. This output can
+you can correlate against when the compromise occurred. This output can
 help you determine what the attack added or removed from the system.
 
 #### netstat -na command
@@ -119,7 +119,7 @@ The preceding commands might not provide many clues regarding what occurred
 during the attack. If this is the case, you can use more specialized tools.
 
 **Important**: Before you use the tools in this section, you should confirm that
-the binaries that you are using to investigate are not trojanned versions.
+the binaries you are using to investigate are not trojanned versions.
 Trojanned versions can perform tasks on behalf of the attacker, such as omitting
 information that might reveal what the compromise was trying to accomplish.
 
@@ -127,8 +127,8 @@ Run the following command to verify that you have a good working set of tools:
 
     rpm -Va
 
-Verifying a package compares information about the installed files in the
-package with the metadata for the package that the RPM Package Manager (RPM)
+Verifying a package compares information about the package's installed files
+with the metadata for the package that the RPM Package Manager (RPM)
 database stores. Verification compares information about the size, MD5 sum,
 permissions, type, owner, and group that is associated with each file. The
 output displays any discrepancies.
@@ -154,7 +154,7 @@ might also be compromised.
 
 #### lsattr command
 
-If the attacker is able to gain root access and trojan certain binaries, they
+If the attacker gains root access and trojans certain binaries, they
 might make those binaries immutable so that you cannot reinstall clean versions
 of them. Check the following directories:
 
@@ -172,8 +172,8 @@ The following example shows a file that an attacker has made immutable:
 
 #### find command
 
-`find` is a UNIX tool that can be critical in finding recently modified files.
-For example, you can find files that were modified within the past five days by
+`find` is a Unix tool that can be critical in finding recently modified files.
+For example, you can find files modified within the past five days by
 running the following command:
 
     find / -mtime 5
@@ -196,29 +196,28 @@ as well.
 ### Find the point of entry
 
 If you find helpful information by using the tools in the previous sections, you
-might also have a timestamp for the time that the malicious file or files were
-installed on the server.
+might also have a timestamp for when the hacker installed the malicious file or files
+on the server.
 
 You can use that timestamp to review your website's access logs for suspicious
 entries that were added during that time period. If you find something
 suspicious, you can cross-reference it with the location of the malicious files
 to narrow down the point of entry.
 
-While the large majority of compromises come from exploitable code within your
+While most of compromises come from exploitable code within your
 website, you cannot rule out other entry points. Ensure that you review
-`/var/log/*` for anything that appears suspicious during the reported time
+**/var/log/\*** for anything that appears suspicious during the reported time
 frame.
 
 ### Example investigation
 
-The example investigation in this section demonstrates the process that you
-should use when you investigate a suspected root-level compromise.
+The example investigation in this section demonstrates the process you
+should use when investigating a suspected root-level compromise.
 
 #### Identify the type of attack
 
-Verify whether it was a basic web hack, or if root privileges were really
-gained. In most cases, the attack is a simple web hack that you can safely
-clean.
+Verify whether it was a basic web hack or if the attacker really gained root privileges.
+In most cases, the attack is a simple web hack that you can safely clean.
 
 1. Run the following commands to determine if the attacker gained root privileges:
 
@@ -241,7 +240,7 @@ clean.
 
 ### Check if the attacker cleaned their tracks
 
-In many cases, attackers are inexperienced or sloppy, and have not erased their
+In many cases, attackers are inexperienced or sloppy and have not erased their
 tracks. Use the following steps to check if the attacker has left clues:
 
 1. Verify that all of the user accounts in `/etc/passwd` have a valid shell by
@@ -258,19 +257,19 @@ tracks. Use the following steps to check if the attacker has left clues:
 In this example, the output from the `/root/.bash_history` command reveals that
 the attacker performed the following actions on the server:
 
-* Downloaded malicious tools to serve up via Apache in `/var/www/html/*`.
+* Downloaded malicious tools to serve up through Apache&reg; in **/var/www/html/\***.
 * Installed Internet Relay Chat (IRC) tools and other tools in
-`/var/tmp/.ICE-unix`.
-* Modified root's crontab to re-download the malicious tools if someone removes
+**/var/tmp/.ICE-unix**.
+* Modified the root crontab to re-download the malicious tools if someone removes
 them from the server (`* * * * * /var/tmp/.ICE-unix/update >/dev/null 2>&1`).
 
 ### Check for basic web hacks
 
-Up to this point we have determined that the attack is probably a simple web hack
+Up to this point, we have determined that the attack is probably a simple web hack
 that you can easily clean without formatting the server.
 
 However, in this example, we know that the attacker gained root privileges. They
-also might have exploited phpMyAdmin. After the backdoor PHP Shell loaded, the
+also might have exploited `phpMyAdmin`. After the backdoor PHP Shell loaded, the
 attacker was able to perform a local root exploit to escalate their privileges.
 
 1. Run the following commands to find hidden files and directories in the
@@ -286,7 +285,7 @@ world-readable directories to which Apache typically writes `tmp` files:
 
     drwx------ 3 70 70 4096 Nov 19 02:00 /var/tmp/.ICE-unix
 
-3. If items are found here, you must attempt to track down the entry point so that
+3. If you find items here, you must attempt to track down the entry point so that
 you can take down the site, upgrade site code, or otherwise fix the exploitable
 code. Step 5 presents a quick way to accomplish this task. However, if the
 output of the `ps -waux` command shows that IRC bots are running, then you can
@@ -336,7 +335,7 @@ ports
         123.123.123.123:57127 143.143.143.143:6667 ESTABLISHED 6860/sshd
 
     This output indicates that the attackers are still connected to this machine.
-    However, you aren't able to see them because they probably modified the binaries
+    However, you can't see them because they probably modified the binaries
     to hide themselves.
 
 ### Determine the point of entry for the original compromise
@@ -367,7 +366,7 @@ compromise:
 
 ### Outcome
 
-In this example, our investigation revealed that the phpMyAdmin installation in
-the `/var/www/html` directory was exploited, most likely because the version of
-phpMyAdmin installed on the server was severely outdated. Patching phpMyAdmin on
+In this example, our investigation revealed that an attacker exploited the `phpMyAdmin`
+installation in the `/var/www/html` directory, most likely because the version of
+`phpMyAdmin` installed on the server was severely outdated. Patching `phpMyAdmin` on
 a regular schedule prevents this situation from occurring.
