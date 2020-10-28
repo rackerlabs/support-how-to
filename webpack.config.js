@@ -47,6 +47,7 @@ module.exports = {
       AlGOLIA_SUPPORT_INDEX: JSON.stringify(process.env.AlGOLIA_SUPPORT_INDEX),
       ALGOLIA_NETLIFY_INDEX: JSON.stringify(process.env.ALGOLIA_NETLIFY_INDEX),
       ALGOLIA_ADMIN_KEY: JSON.stringify(process.env.ALGOLIA_ADMIN_KEY),
-      ALGOLIA_SITE_ID: JSON.stringify(process.env.ALGOLIA_SITE_ID)
+      ALGOLIA_SITE_ID: JSON.stringify(process.env.ALGOLIA_SITE_ID),
+      ALGOLIA_NETLIFY_BRANCH: JSON.stringify(process.env.ALGOLIA_NETLIFY_BRANCH)
     })],
 };

@@ -101,3 +101,8 @@
 
   # Developer only
   debugMode = true # extra logging for plugin developers
+
+[[plugins]]
+package = "@algolia/netlify-plugin-crawler"
+  [plugins.inputs]
+  branches = ['staging']
