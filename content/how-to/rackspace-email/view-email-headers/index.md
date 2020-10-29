@@ -1,7 +1,7 @@
 ---
 permalink: view-email-headers/
 audit_date: '2020-10-23'
-title: Viewing Email Headers
+title: View Email Headers
 type: article
 created_date: '2020-10-23'
 created_by: Nicholas Ramirez
@@ -48,7 +48,8 @@ For additional information regarding reading and updating email headers within W
 
     {{<image src="inbox_preview_hex.png" alt="" title="">}}
 
-3. On the right-hand side of the **Message Preview** pane, click the **down arrow** to the right of **Reply all**, and then select **View message details**.
+3. On the right-hand side of the **Message Preview** pane, click the **down arrow** to the right
+   of **Reply all**, and then select **View message details**.
 
     {{<image src="view_message_details_hex.png" alt="" title="">}}
 
