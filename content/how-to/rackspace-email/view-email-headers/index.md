@@ -16,12 +16,11 @@ product_url: rackspace-email
 - **Applies to:** Administrator and User
 - **Difficulty:** Moderate
 - **Time needed:** Approximately 5 minutes
-- **Tools required:** Webmail access, Outlook Web App access
+- **Tools required:** Webmail access, Outlook&reg; Web App access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-The following article describes how to view message headers within Webmail for Rackspace Email Mailboxes,
-as well as within the Outlook&reg; Web App for Hosted Exchange&reg; mailboxes.
+This article explains how to view message headers within Webmail for Rackspace Email mailboxes, as well as within the Outlook Web App for Hosted Exchange&reg; mailboxes.
 
 ### View headers in Webmail for Rackspace Email
 
@@ -29,7 +28,7 @@ as well as within the Outlook&reg; Web App for Hosted Exchange&reg; mailboxes.
 
 2. Select the message for which you want to view the headers.
 
-3. In the **message preview pane** toolbar, click **More**, and then select **View Full Header**.
+3. In the **Message Preview** pane toolbar, click **More** and select **View Full Header**.
 
     {{<image src="view_full_header_rs.png" alt="" title="">}}
 
@@ -39,9 +38,9 @@ as well as within the Outlook&reg; Web App for Hosted Exchange&reg; mailboxes.
 
 You have successfully viewed the message headers in Rackspace Email webmail.
 
-***For additional information regarding reading and updating email headers within Webmail, see our [In-depth Support Documentation](https://docs.rackspace.com/support/how-to/view-and-read-rackspace-email-headers/).***
+For additional information regarding reading and updating email headers within Webmail, see our [In-depth Support Documentation](https://docs.rackspace.com/support/how-to/view-and-read-rackspace-email-headers/).
 
-### View headers in the Outlook Web App for Hosted Exchange
+### View headers in Outlook Web App for Hosted Exchange
 
 1. Log in to your Hosted Exchange mailbox at [apps.rackspace.com](apps.rackspace.com).
 
