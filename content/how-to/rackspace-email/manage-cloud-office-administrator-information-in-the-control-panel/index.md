@@ -1,7 +1,7 @@
 ---
 permalink: manage-cloud-office-administrator-information-in-the-control-panel/
 audit_date: '2020-11-03'
-title: Manage Cloud Office Administrator Information in the Control Panel
+title: Manage Cloud Office Administrator information in the Control Panel
 type: article
 created_date: '2020-10-23'
 created_by: Nicholas Ramirez
@@ -28,9 +28,10 @@ the [Cloud Office Control Panel](cp.rackspace.com).
 [Adding or Editing Users](https://docs.rackspace.com/support/how-to/viewing-and-editing-user-information-for-your-account/) in the MyRackspace Portal.
 
 
-### Access **My Profile** in the Cloud Office Control Panel
+### Access *My Profile* in the Cloud Office Control Panel
 
-If a Cloud Office Administrator wants to update their own contact information, security settings, authentication methods, or notification preferences, this can be done in the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com).
+If you, as a Cloud Office Administrator, want to update your own contact information, security settings, authentication methods, or notification preferences,
+you can do this in the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com).
 
 Use the following steps to access the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
 
@@ -42,7 +43,7 @@ Use the following steps to access the **My Profile** section of the [Cloud Offic
 Use the steps in the following sections to make changes to your account and security settings.
 
 
-#### Cloud Office Control Panel Admin Information
+#### Cloud Office Control Panel admin information
 
 Use the following steps to modify your **Admin Information** in the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
 
@@ -54,13 +55,13 @@ Use the following steps to modify your **Admin Information** in the **My Profile
    - **Contact Phone Number**
    - **Job Title**
 
-2. After you have finished modifying your Admin Information, click **Update Admin Information** to save your changes.
+2. After you finish modifying your admin information, click **Update Admin Information** to save your changes.
 
 
 **Note:** We recommend using an email address that is _not_ hosted under the same account.
 
 
-#### Security Question and Answer
+#### Security question and answer
 
 Use the following steps to modify your **Security Question and Answer** from within the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
 
@@ -71,18 +72,19 @@ Use the following steps to modify your **Security Question and Answer** from wit
 3. Click **Update Security Question** to save your changes.
 
 
-**Note:** In order to receive phone or chat support, Cloud Office Administrators must have a valid security question and answer configured.
+**Note:** To receive phone or chat support, Cloud Office Administrators must have a valid security question and answer configured.
 
 
-#### Multi-Factor Authentication methods
+#### Multi-Factor authentication methods
 
 
-Cloud Office Administrators are required to set-up a **Multi-Factor Authentication Method** as a second layer of security for their account. Administrators are able to choose between SMS text delivery for verification or a mobile authenticator application for verification.
+Cloud Office Administrators must set up a **Multi-Factor Authentication Method** as a second layer of security for their account. Administrators
+can choose between SMS text delivery for verification or a mobile authenticator application for verification.
 
 Use the following steps to modify your **Multi-Factor Authentication** settings within the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
 
 
-**Edit your current Primary Phone Number for Login Verification**
+**Edit your current primary phone number for login verification:**
 
 1. Click **Edit Multi-Factor Authentication**.
 
@@ -91,7 +93,7 @@ Use the following steps to modify your **Multi-Factor Authentication** settings 
 3. Enter the six-digit verification code sent to your mobile device within the field provided, then click **Verify Phone** to save your changes.
 
 
-**Configure a Back-Up Number**
+**Configure a back-up number:**
 
 1. Click **Edit Multi-Factor Authentication**.
 
@@ -100,14 +102,14 @@ Use the following steps to modify your **Multi-Factor Authentication** settings 
 3. Enter your **Backup Number** in the field provided, then click **Update Multi-Factor Authentication** to save your changes.
 
 
-**Switch your Multi-Factor Authentication Method from SMS Text Message Delivery to Mobile App Delivery**
+**Switch your multi-factor authentication method from SMS text message delivery to mobile app delivery:**
 
 1. Click the **Arrow** next to **Edit Multi-Factor Authentication**, then click **Switch to mobile app delivery**.
 
 2. Follow the prompts within the **Securing Your Admin Account with an Authenticator App** window, then click **Verify Code** to save your changes.
 
 
-**Set up a Mobile Authenticator App on a new mobile device**
+**Set up a mobile authenticator app on a new mobile device:**
 
 1. Click the **Arrow** next to **Edit Multi-Factor Authentication**, then click **Setup on new mobile device**.
 
@@ -117,7 +119,7 @@ Use the following steps to modify your **Multi-Factor Authentication** settings 
 **Note:** For more in-depth set-up instructions regarding mobile authenticator apps, please refer to our [Multi-Factor Authentication Mobile App](https://docs.rackspace.com/support/how-to/set-up-multifactor-authentification-applications-for-cloud-office/) guide.
 
 
-**Switch your Multi-Factor Authentication Method from Mobile App Delivery to SMS Text Message Delivery**
+**Switch your multi-factor authentication method from mobile app delivery to SMS text message delivery:**
 
 1. Click the **Arrow** next to **Edit Multi-Factor Authentication**, then click **Switch to SMS Text Message Delivery**.
 
@@ -126,27 +128,27 @@ Use the following steps to modify your **Multi-Factor Authentication** settings 
 3. Enter the six-digit code within the field provided, then click **Verify Phone** to save your changes.
 
 
-#### Trusted Devices
+#### Trusted devices
 
 
-**Trusted Devices** allow a Cloud Office administrator to log in from specified devices without being prompted for multi-factor authentication upon each log-in attempt. Trusted Devices can be established when administrators log-in from a new device by opting to **Remember This Device** during the initial sign-in process.
+*Trusted devices* allow a Cloud Office administrator to log in from specified devices without being prompted for multi-factor authentication on each login attempt. Adminstrators can establish trusted devices when they log in from a new device by opting to **Remember This Device** during the initial sign-in process.
 
 Use the following steps to modify your **Trusted Devices** within the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
 
 
-**Remove Trusted Devices**
+**Remove trusted devices:**
 
 1. Click **Edit Trusted Devices**.
 
-2. Click on the **Trash** icon for the **Trsuted Device** that you wish to remove.
+2. Click on the **Trash** icon for the **Trusted Device** that you want to remove.
 
 3. Click **Update Trusted Devices** to save your changes.
 
 
-**Note:** Trusted devices are remembered for a 30 day period and each successful login from a trusted device resets the expiration period back to 30 days.
+**Note:** Trusted devices are remembered for 30 days, and each successful login from a trusted device resets the expiration period back to 30 days.
 
 
-#### Notification Settings
+#### Notification settings
 
 
 **Notification Settings** allow a Cloud Office Administrator to choose what types of alerts they want to receive regarding billing information, product updates, and system alerts.
@@ -163,7 +165,7 @@ Use the following steps to modify your **Notification Settings** within the **My
 2. Click **Update Notifications** to save your changes.
 
 
-#### Security Settings
+#### Security settings
 
 
 **Security Settings** allow a Cloud Office Administrator to set up optional password expiration periods as well as allowing the administrator to restrict log-in attempts to specific IP addresses.
@@ -171,7 +173,7 @@ Use the following steps to modify your **Notification Settings** within the **My
 Use the following steps to modify your **Security Settings** within the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
 
 
-**Create a Password Expiration Policy**
+**Create a password expiration policy:**
 
 1. Click **Edit Security Settings**.
 
@@ -180,7 +182,7 @@ Use the following steps to modify your **Security Settings** within the **My Pro
 3. Click **Update Security Settings** to save your changes.
 
 
-**Restrict Login to Specific IP Addresses**
+**Restrict login access to specific IP addresses:**
 
 1. Click **Edit Security Settings**.
 
@@ -192,21 +194,21 @@ Use the following steps to modify your **Security Settings** within the **My Pro
 #### Linked accounts
 
 
-**Linked Accounts** allow a Cloud Office Administrator to seamlessly transition between the [Cloud Office Control Panel](cp.rackspace.com) and the [Office 365 Control Panel](office365.cp.rackspace.com).
+*Linked accounts* allow a Cloud Office Administrator to seamlessly transition between the [Cloud Office Control Panel](cp.rackspace.com) and the [Office 365 Control Panel](office365.cp.rackspace.com).
 
 Use the following steps to modify your **Linked Accounts** within the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
 
 
-**Link a Microsoft 365 Admin ID**
+**Link a Microsoft 365 admin ID:**
 
 1. Navigate to the [Microsoft 365 section of the Cloud Office Control Panel](https://cp.rackspace.com/Office365/).
 
 2. Click **Sign In With Your Microsoft Admin Account**.
 
-3. **Sign In** using your **Microsoft 365 Admin Credentials** when prompted in order to successfully link your account.
+3. **Sign In** by using your **Microsoft 365 Admin Credentials** when prompted to link your account successfully.
 
 
-**Unlink Accounts**
+**Unlink accounts:**
 
 1. Click **Unlink Account** within the **Linked Accounts** section of **My Profile**.
 
@@ -216,4 +218,4 @@ Use the following steps to modify your **Linked Accounts** within the **My Profi
 **Note:** Unlinking an account requires you to be signed-in to both your Cloud Office Control Panel administrator as well as your Microsoft 365 Administrator.
 
 
-For more information regarding management of other Cloud Office Administrators within your account, reference our [Email Administrator Management Documentation](https://docs.rackspace.com/support/how-to/manage-email-administrators-with-the-cloud-office-control-panel/).
+For more information regarding the management of other Cloud Office Administrators within your account, reference our [Email Administrator Management Documentation](https://docs.rackspace.com/support/how-to/manage-email-administrators-with-the-cloud-office-control-panel/).
