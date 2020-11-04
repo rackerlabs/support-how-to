@@ -1,7 +1,7 @@
 ---
 permalink: drop-tables-in-mysql/
 audit_date: '2020-11-04'
-title: Drop tables in mysql
+title: Drop tables in MySQL
 type: article
 created_date: '2020-11-02'
 created_by: James Andrade
@@ -11,10 +11,11 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-The drop table command is used to remove a table definition and all data, indexes, triggers, constraints and permission specifications for that table.
+You can use the `drop table` command to remove a table definition and all data, indexes, triggers, constraints,
+and permission specifications for that table.
 
-**IMPORTANT**: You should be very careful while using this command because once a table
-is deleted then all information will be lost forever.
+**IMPORTANT**: You should be very careful with this command because after you delete a table,
+you can't retrieve any of that information.
 
 You can drop tables within MySQL&reg; and MariaDB&reg; by following these steps:
 
