@@ -9,8 +9,8 @@ contentLoaded().then(() => {
    */
   try {
     algoliasearchNetlify({
-      appId: 'HH4YOWWZJJ',
-      apiKey: 'a974fc48f1fa4b70735ca1cdd4066ce6',
+      appId: 'D76MH5QW46',
+      apiKey: '48c30caca45feea202dd4e0e0cd5155d',
       siteId: '72d02424-c8c6-4745-9cd5-b90dcb09b67e',
       branch: 'staging',
     });
