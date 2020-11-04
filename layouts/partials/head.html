@@ -37,6 +37,11 @@
 {{ else if .Site.Params.keywords }}
 <meta property="og:keywords" content="{{ .Site.Params.keywords }}">
 {{ end }}
+<!-- {{- if eq (getenv "HUGO_ENV") "production" | or (eq $.Site.Params.env "production") -}}
+<meta name="robots" content="index, follow" />
+{{- else -}}
+<meta name="robots" content="noindex, nofollow" />
+{{- end -}} -->
 <meta name="robots" content="index, follow" />
 <title>{{ $title }}</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.css" />
