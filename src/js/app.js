@@ -14,6 +14,10 @@ contentLoaded().then(() => {
       siteId: ALGOLIA_SITE_ID,
       branch: ALGOLIA_NETLIFY_BRANCH,
     });
+    console.log('app id :: ', ALGOLIA_APP_ID);
+    console.log('api key :: ', ALGOLIA_API_KEY);
+    console.log('site id :: ', ALGOLIA_SITE_ID);
+    console.log('netlify branch :: ', ALGOLIA_NETLIFY_BRANCH);
     let lastRenderArgs;
     let renderHTML = ``;
     const infiniteHits = instantsearch.connectors.connectInfiniteHits(
