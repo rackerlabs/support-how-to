@@ -9,10 +9,10 @@ contentLoaded().then(() => {
    */
   try {
     algoliasearchNetlify({
-      appId: '7XVXSYWL1D',
-      apiKey: '3ae5573be2afc772ffdb4f22c62b507a',
-      siteId: '72d02424-c8c6-4745-9cd5-b90dcb09b67e',
-      branch: 'staging',
+      appId: ALGOLIA_APP_ID,
+      apiKey: ALGOLIA_API_KEY,
+      siteId: ALGOLIA_SITE_ID,
+      branch: ALGOLIA_NETLIFY_BRANCH,
     });
     let lastRenderArgs;
     let renderHTML = ``;
