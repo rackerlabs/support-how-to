@@ -37,9 +37,7 @@
 {{ else if .Site.Params.keywords }}
 <meta property="og:keywords" content="{{ .Site.Params.keywords }}">
 {{ end }}
-
 <meta name="robots" content="index, follow" />
-
 <title>{{ $title }}</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.css" />
 {{ $style := resources.Get "styles.scss" | toCSS | minify | fingerprint }}
