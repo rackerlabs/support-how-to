@@ -5,10 +5,8 @@ title: Install NGINX and PHP-FPM running on UNIX file sockets
 type: article
 created_date: '2012-03-12'
 created_by: Kevin Carter
-last_modified_date: '2016-06-30'
+last_modified_date: '2020-10-05'
 last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
 ---
 
 This article explains how to install NGINX and PHP-FPM while running on UNIX file sockets for your Debian-based system.
