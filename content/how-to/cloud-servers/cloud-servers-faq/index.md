@@ -1,12 +1,12 @@
 ---
 permalink: cloud-servers-faq/
-audit_date:
+audit_date: '2020-11-05'
 title: Cloud Servers FAQ
 type: article
 created_date: '2015-12-01'
 created_by: Rackspace Support
-last_modified_date: '2020-09-04'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2020-11-05'
+last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -24,7 +24,7 @@ It depends on your service level. For Managed Infrastructure Cloud
 accounts, you are responsible for installing and maintaining all
 software on your server. If your account has a Managed Operations service
 level, Rackspace provides support for specific software and server configurations
-on Cloud Servers. For more information about supported systems and third party
+on Cloud Servers. For more information about supported systems and third-party
 packages, see [Linux Spheres of Support for Dedicated and Managed Operations](/support/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops).
 {{</accordion>}}
 {{<accordion title="What programming languages or applications are supported?" col="in" href="accordion3">}}
@@ -54,7 +54,7 @@ Because you are in control of everything on your server, there is no limit.
 The answer depends largely on your experience as a Systems Administrator
 for Linux or Windows Server. Our Linux servers are full Linux
 distributions with root-level access. Our Windows servers give you
-Administrator access, and are built with nothing but the default
+Administrator access and are built with nothing but the default
 applications on installation. Cloud Servers are designed for customers who
 want to start from scratch and tune a system for their own purposes.
 
@@ -73,7 +73,7 @@ operating system and its configuration. When you provision a cloud
 server, you are given a server with unrestricted access. The Managed
 Infrastructure support team does not assist in the installation of
 software or troubleshooting any kind of issue related to the software
-installed. We have some articles in the Rackspace How-To covering basic
+installed. We have some articles in the Rackspace How-To covering the basic
 installation of common applications.
 
 The [Managed Operations service](/support/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops)
@@ -100,7 +100,7 @@ you to save your IP address.
 You can [reboot your server](/support/how-to/reboot-your-server).
 You can [restore from a backup](/support/how-to/create-an-image-of-a-server-and-restore-a-server-from-a-saved-image).
 You can [boot into an emergency rescue mode](/support/how-to/rescue-mode)
-and attempt fix the problem. You have many options to recover from
+and attempt to fix the problem. You have many options to recover from
 mistakes, but the easiest is to keep regular backups and to [make a fresh backup](/support/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup)
 before attempting any major configuration changes or installing
 new software.
@@ -164,9 +164,9 @@ support that you need to get the most out of the cloud.
 
 The information that you enter in the **Server Name** field helps you
 identify this server in the API and Cloud Control Panel. The name that
-you enter when you create a server is used as the server's host name. If
+you enter when you create a server is used as the server's hostname. If
 you rename the server later, the name that is displayed in the API and
-Cloud Control Panel is updated. However, the host name on the computer
+Cloud Control Panel is updated. However, the hostname on the computer
 is not updated.
 {{</accordion>}}
 {{<accordion title="" col="in" href="accordion17">}}
@@ -239,9 +239,9 @@ For details, see [Create an image of a server and restore a server from a saved 
 {{</accordion>}}
 {{<accordion title="Do you offer on-demand images (snapshots) and scheduled images and what are the prices?" col="in" href="accordion24">}}
 
-You can create an image of any general purpose Cloud Server, and you can
+You can create an image of any General Purpose Cloud Server, and you can
 use this image to restore a server or clone a new one. You can create an
-unlimited number of images on-demand, or you can schedule an automatic
+unlimited number of images on-demand or you can schedule an automatic
 daily or weekly image.
 
 Images are compressed and stored on Rackspace Cloud Files at the
@@ -266,7 +266,7 @@ starting support discussions, viewing stats, and scheduling snapshots.
 To learn more about the Cloud Control Panel, see
 [Introducing the Rackspace Cloud Control Panel](/support/how-to/introducing-the-rackspace-cloud-control-panel).
 However, we do not offer a control panel like **Plesk** or **cPanel**. You're free to
-install such packages for your own Cloud Server. If you are installing cPanel, be
+install them on your Cloud Server. If you are installing cPanel, be
 sure to install on a clean (empty) server.
 The use of Plesk or cPanel is not supported and strongly discouraged for customers under
 the Managed Operations SLA because it interferes with our server administration.
@@ -381,7 +381,7 @@ What is the difference between Standard, General Purpose, and work-optimized ser
 
 There are several noteworthy differences between Standard, General Purpose, and work-optimized Cloud Servers:
 
--   General Purpose servers use faster solid state drives (SSD)
+-   General Purpose servers use faster solid-state drives (SSD)
     compared to the standard spinning disk allocation for Standard servers.
 -   Only work-optimized servers (I/O, Compute, or Memory flavors) can boot from Cloud Block Storage.
 -   For both General Purpose and Standard servers, you can choose the size of your system disk (50 GB-1 TB),
@@ -403,7 +403,7 @@ For more information about General Purpose servers, see [New features in General
 {{<accordion title="Do you offer discounts for Cloud Servers?" col="in" href="accordion38">}}
 
 Yes. We offer different types of discounts based on usage. For details, see
-the [Cloud Servers discounts page](https://www.rackspace.com/cloud/servers/discounts/) for details.
+the [Cloud Servers discounts page](https://www.rackspace.com/cloud/servers/discounts/).
 {{</accordion>}}
 
 ------------------------------------------------------------------------
@@ -478,7 +478,7 @@ Rackspace support to enable this feature.
 {{</accordion>}}
 {{<accordion title="What are the benefits of using security groups?" col="in" href="accordion52">}}
 
-Prior to this feature being available, customers had to manage traffic
+Before this feature was available, customers had to manage traffic
 to and from their instances individually via, for example, iptables rules on
 every instance (or perhaps use third-party tools), incurring significant management
 overhead. Security groups make it possible to use a self-service API to define a
@@ -529,10 +529,10 @@ The maximum limits are as follows:
 
 | Limit Name              | Description                                                                                                                            | Value  |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------|--------|
-| maxImageMeta            | The maximum number of metadata key value pairs associated with a particular image.                                                     | 40     |
+| maxImageMeta            | The maximum number of metadata key-value pairs associated with a particular image.                                                     | 40     |
 | maxPersonality          | The maximum number of file path/content pairs that can be supplied when a server is built or rebuilt.                                  | 5      |
 | maxPersonalitySize      | The maximum size, in bytes, for each personality file.                                                                                 | 1000   |
-| maxServerMeta           | The maximum number of metadata key value pairs associated with a particular server.                                                    | 40     |
+| maxServerMeta           | The maximum number of metadata key-value pairs associated with a particular server.                                                    | 40     |
 | maxTotalCores           | This limit is disabled, so no limits exist on the total number of cores.                                                               | -1     |
 | maxTotalInstances       | The maximum number of Cloud Servers that can exist in your account at any one time.                                                    | 100    |
 | maxTotalPrivateNetworks | The maximum number of isolated networks that you can create. Set to 0 when Cloud Networks is disabled, 10 when Cloud Networks enabled. | 10     |
