@@ -5,10 +5,8 @@ title: Windows Server 2012 R2 with Managed Operations support
 type: article
 created_date: '2012-10-09'
 created_by: Rae D. Cabello
-last_modified_date: '2016-09-13'
-last_modified_by: Kyle Laffoon
-product: Managed Operations
-product_url: managed-operations
+last_modified_date: '2020-10-05'
+last_modified_by: Rose Morales
 ---
 
 Managed Operations for Windows 2012 R2 Servers includes upsizes,
