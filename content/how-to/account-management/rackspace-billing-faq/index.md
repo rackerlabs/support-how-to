@@ -1,11 +1,11 @@
 ---
 permalink: rackspace-billing-faq/
-audit_date: '2020-09-08'
+audit_date: '2020-11-09'
 title: Rackspace Billing FAQ
 type: article
-created_date: '2020-09-08'
+created_date: '2020-11-09'
 created_by: Stephanie Fillmon
-last_modified_date: '2020-09-08'
+last_modified_date: '2020-11-09'
 last_modified_by: Stephanie Fillmon
 product: Account Management
 product_url: account-management
@@ -20,24 +20,10 @@ date. Details about our product pricing are located on our [Cloud Pricing Page](
 
 {{</ accordion >}}
 
-{{< accordion title="When am I billed for Rackspace services?" col="in" href="accordion2" >}}
-
-When you sign up for products under the Managed Infrastructure or Managed
-Operations SysOps service level, your credit card is charged a US $1.00
-authorization charge to confirm that it is an active card. The amount of
-the authorization charge is refunded to your card within 24 to 72 hours.
-
-Thirty days after you sign up, your first invoice is processed. Your
-charges consist of service usage accrued within the first 30 days.
-
-After the first billing cycle, you are billed every month on the same
-date that you first signed up for service.
-{{</ accordion >}}
-
 {{< accordion title="What forms of payment does Rackspace accept?" col="in" href="accordion3" >}}
 
-Payments are charged automatically to a credit card. Rackspace accepts
-Visa&reg;, Mastercard&reg;, and American Express&reg;.
+Rackspace accepts Visa&reg;, Mastercard&reg;, and American Express&reg;. Additionally, Rackspace
+accepts ACH and wire payments.
 {{</ accordion >}}
 
 {{< accordion title="How can I estimate my monthly bill?" col="in" href="accordion4" >}}
@@ -69,7 +55,7 @@ Service](https://www.rackspace.com/information/legal/cloud/tos).
 
 Follow these steps to view your invoice:
 
-1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
+1. Log in to the [Rackspace Customer Portal](https://login.rackspace.com).
 2. In the upper-right corner of the page, click **Billing**.
 
    You are redirected to the **Billing Overview** dashboard, which displays
@@ -88,7 +74,7 @@ to help you organize your billing information.
 If you have existing services and want to view your current usage, you
 can perform the following steps:
 
-1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
+1. Log in to the [Rackspace Customer Portal](https://login.rackspace.com).
 2. In the upper-right corner of the page, click **Billing**.
 
    You are redirected to the **Billing Overview** dashboard, which displays
@@ -99,18 +85,29 @@ can perform the following steps:
 
 Follow these steps to update your credit card information:
 
-1.  Log in to the [Cloud Control Panel](https://login.rackspace.com).
+1.  Log in to the [Rackspace Customer Portal](https://login.rackspace.com).
 2.  In the upper-right corner of the page, click **Billing**.
-3.  In the top navigation bar, click **Payment Methods > Manage Payment
-    Methods**.
-4.  Add a new card or designate a new default payment method, as needed.
+    
+    You are redirected to the **Billing Overview** dashboard, which displays
+    information about billing, payments, and usage.
+    
+3. In the top navigation bar, click **Payment Methods > Add Payment Method**.
+4. In the pop-up dialog box, select **Credit Card** or **ACH (eCheck)** and then click **Next**.
+
+   To add a new credit card, enter the card number, expiration date, name on card, the security
+   code, and then click **Save Credit Card**.
+   
+   To add an ACH account, enter the name on the bank account, the bank account type, the routing
+   number, the bank account number, and then check the box to agree to the terms. Then click **Add Account**.
+   
+After you add the new payment method, you can designate a default payment method as needed.
 {{</ accordion >}}
 
 {{< accordion title="How do I change my billing address?" col="in" href="accordion10" >}}
 
 Follow these steps to change your billing address:
 
-1.  Log in to the [Cloud Control Panel](https://login.rackspace.com).
+1.  Log in to the [Rackspace Customer Portal](https://login.rackspace.com).
 2.  In the upper-right corner of the page, click **Billing**.
 3.  Click the **Billing Settings** tab.
 4.  Click the pencil icon next to **Billing Address** to edit the address.
@@ -151,8 +148,8 @@ After you delete the server, load balancer, or service from your
 account, its resources are available for someone else to use, and you are no
 longer billed for them.
 
-Follow the process outlined in the [Cloud Control
-Panel](https://login.rackspace.com) to delete your cloud servers and services. To cancel Rackspace support for Azure,
+Follow the process outlined in the [Rackspace Customer Portal](https://login.rackspace.com) to delete
+your cloud servers and services. To cancel Rackspace support for Azure,
 create a ticket for our Billing team.
 {{</ accordion >}}
 
@@ -172,10 +169,38 @@ Service](https://www.rackspace.com/information/legal/cloud/tos) explains
 when customers are entitled to credits.
 {{</ accordion >}}
 
-{{< accordion title="I don't agree with my bill. How can I dispute a charge?" col="in" href="accordion15" >}}
+{{< accordion title="How do I delete or cancel my services?" col="in" href="accordion15" >}}
 
-You can create a ticket via the [Cloud Control
-Panel](https://login.rackspace.com/) with the details of your dispute. One of
+Cloud accounts can be closed by the account owner at any time, but Rackspace cannot perform this action.
+Instead, the account owner must initiate the closure through the [Rackspace Customer Portal](https://login.rackspace.com/)
+by using the following steps:
+
+1. Review all services to ensure that your data is backed up outside of the Rackspace environment.
+2. Ensure that all Cloud products are stopped and deleted (such as Cloud Servers, Images, Cloud Files,
+   Cloud Block Storage, and so on).
+3. In the upper-right corner of the page, click **Account > Account Settings**.
+4. At the bottom of the Account Settings page, click **Cancel My Account**.
+5. Choose a reason from the provided list, check the box at the bottom of the page, and then type
+   the word "cancel" into the text box.
+6. Click **Cancel Account**.
+
+Cancellations cannot be intiated over the phone. Dedicated customers can initiate account cancellation by
+opening a ticket in the [Rackspace Customer Portal](https://login.rackspace.com/). The cancellation
+submission is your authorized approval for Rackspace to delete your account and cancel
+your services in their entirety. If you do not have a copy of your data outside of our cloud
+infrastructure, Rackspace is not liable for data loss.
+
+**Note:** Your Rackspace cloud account is billed one month in arrears on your anniversary
+date. Depending on the date on which your cancellation is finalized, you might still
+receive an additional, final invoice on your next invoice date. Refer to your billing
+overview for your monthly invoice date.
+
+
+{{</ accordion >}}
+
+{{< accordion title="I don't agree with my bill. How can I dispute a charge?" col="in" href="accordion16" >}}
+
+You can create a ticket via the [Rackspace Customer Portal](https://login.rackspace.com/) with the details of your dispute. One of
 our account managers will review the ticket. A credit is granted only if there
 is an error related to our billing system or there is a service error
 according to your service level agreement (SLA).
