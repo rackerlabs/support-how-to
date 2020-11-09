@@ -470,8 +470,7 @@ non-RackConnect customers.
 {{</accordion>}}
 {{<accordion title="Is the security group feature available to all Cloud users?" col="in" href="accordion51">}}
 
-Security groups are in Limited Availability in all data centers. Contact
-Rackspace support to enable this feature.
+Security groups have Global Availability in all data centers.
 {{</accordion>}}
 {{<accordion title="What are the benefits of using security groups?" col="in" href="accordion52">}}
 
