@@ -14,6 +14,7 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 # Retired Articles
 
 /support/how-to/windows-server-2012-r2-with-managed-operations-support/ /how-to/article-retired/ 404
+/support/how-to/manually-configure-outlook-2011-for-email-hosted-on-exchange-2013/ /how-to/article-retired/ 404
 /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ /how-to/article-retired/ 404
 /support/how-to/view-and-reset-your-api-/  https://developer.rackspace.com/docs/portal-onboarding-guide/manage_portal_user_groups/api_key/#api-key 301
 /support/how-to/rackspace-account-invoice/ https://developer.rackspace.com/docs/portal-onboarding-guide/understand_billing/account_invoice/ 301
@@ -158,6 +159,24 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 /how-to/article-retired/  /support/how-to/article-retired/   301
 
 # Specific 404 Redirects
+
+/support/how-to/early-adopters-add-and-edit-archive-users-in-cloud-office/  /how-to/add-and-edit-archive-users-in-cloud-office/  404
+/how-to/add-and-edit-archive-users-in-cloud-office/  /support/how-to/add-and-edit-archive-users-in-cloud-office/  301
+
+/support/how-to/early-adopters-create-an-archive-audit-report/  /how-to/create-an-archive-audit-report/  404
+/how-to/create-an-archive-audit-report/  /support/how-to/create-an-archive-audit-report/  301
+
+/support/how-to/early-adopters-create-an-archive-search/  /how-to/create-an-archive-search/  404
+/how-to/create-an-archive-search/  /support/how-to/create-an-archive-search/  301
+
+/support/how-to/early-adopters-export-archive-search-results-in-cloud-office/  /how-to/export-archive-search-results-in-cloud-office/  404
+/how-to/export-archive-search-results-in-cloud-office/  /support/how-to/export-archive-search-results-in-cloud-office/  301
+
+/support/how-to/early-adopters-manage-archive-search-results/  /how-to/manage-archive-search-results/  404
+/how-to/manage-archive-search-results/  /support/how-to/manage-archive-search-results/  301
+
+/support/how-to/early-adopters-set-an-archiving-retention-policy/  /how-to/set-an-archiving-retention-policy/  404
+/how-to/set-an-archiving-retention-policy/  /support/how-to/set-an-archiving-retention-policy/  301
 
 /support/how-to/managing-your-server-resizing-standard-and-general-purpose-servers/  /how-to/resize-standard-and-general-purpose-servers/  404
 /how-to/resize-standard-and-general-purpose-servers/  /support/how-to/resize-standard-and-general-purpose-servers/  301
@@ -481,11 +500,8 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 /support/how-to/apache-configuration-on-ubuntu/  /how-to/configure-apache-on-the-ubuntu-operating-system/ 404
 /how-to/configure-apache-on-the-ubuntu-operating-system/  /support/how-to/configure-apache-on-the-ubuntu-operating-system/  301
 
-
 /support/how-to/configuring-mysql-server-on-ubuntu/  /how-to/configure-mysql-server-on-the-ubuntu-operating-system/ 404
 /how-to/configure-mysql-server-on-the-ubuntu-operating-system/  /support/how-to/configure-mysql-server-on-the-ubuntu-operating-system/  301
-
-
 
 /support/how-to/installing-mysql-server-on-ubuntu/  /how-to/install-mysql-server-on-the-ubuntu-operating-system/ 404
 /how-to/install-mysql-server-on-the-ubuntu-operating-system/  /support/how-to/install-mysql-server-on-the-ubuntu-operating-system/  301
@@ -556,5 +572,3 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 /support/how-to/*       /how-to/:splat      200
 # /how-to/*       /support/how-to/:splat      301
-
-
