@@ -7,8 +7,6 @@ created_date: '2011-09-06'
 created_by: Rackspace Support
 last_modified_date: '2019-10-09'
 last_modified_by: Catherine Richardson
-product: Account Management
-product_url: account-management
 ---
 
 This article provides a closer look at the services available on

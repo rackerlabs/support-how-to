@@ -7,8 +7,6 @@ created_date: '2018-03-13'
 created_by: Rackspace Support
 last_modified_date: '2018-10-25'
 last_modified_by: Stephanie Fillmon
-product: Account Management
-product_url: account-management
 ---
 
 If your company has filed for a name change with the Secretary of State
