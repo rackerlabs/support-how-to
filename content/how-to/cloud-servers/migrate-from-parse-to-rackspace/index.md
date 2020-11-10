@@ -14,7 +14,7 @@ product_url: cloud-servers
 This article provides instructions for migrating your Parse database to
 Rackspace. It assumes that you have already migrated your database from Parse
 to ObjectRocket. If you have not, you can find more information [
-on the ObjectRocket website.](https://objectrocket.com/parse)
+on the ObjectRocket website.](https://objectrocket.com/)
 
 ### Deploy the Parse stack
 
