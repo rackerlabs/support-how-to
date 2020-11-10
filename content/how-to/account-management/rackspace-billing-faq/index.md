@@ -16,7 +16,7 @@ product_url: account-management
 Many of our services follow a utility pricing model and are billed for
 hourly usage each month on the anniversary date of the account creation.
 Charges on invoices are based on service usage since the last invoice
-date. Details about our product pricing are located on our [Cloud Pricing Page](https://www.rackspace.com/cloud/public-pricing/).
+date, and you can find details about our product pricing on our [Cloud Pricing Page](https://www.rackspace.com/cloud/public-pricing/).
 
 {{</ accordion >}}
 
@@ -38,7 +38,7 @@ If you meet the minimum requirements for our Commitment Pricing Program,
 you can prepay based on a commitment pricing contract for your account. Any
 usage beyond the minimum commitment amount is invoiced at the utility rate on
 the monthly date of your account's anniversary. For example, if your account
-was created on the 25th of the month, you will be billed monthly on the 25th.
+was created on the 25th of the month, you are billed monthly on the 25th.
 You can find more information about the Commitment Pricing
 Program on the [Cloud Servers Discount
 page](https://www.rackspace.com/cloud/servers/discounts/).
@@ -46,7 +46,7 @@ page](https://www.rackspace.com/cloud/servers/discounts/).
 
 {{< accordion title="What is the duration of my contract for cloud services?" col="in" href="accordion6" >}}
 
-Cloud services are provided on a month-to-month basis. For more information,
+We provide cloud services on a month-to-month basis. For more information,
 see the Rackspace [Cloud Terms of
 Service](https://www.rackspace.com/information/legal/cloud/tos).
 {{</ accordion >}}
@@ -58,10 +58,10 @@ Follow these steps to view your invoice:
 1. Log in to the [Rackspace Customer Portal](https://login.rackspace.com).
 2. In the upper-right corner of the page, click **Billing**.
 
-   You are redirected to the **Billing Overview** dashboard, which displays
+   The **Billing Overview** dashboard displays, showing
    information about billing, payments, and usage.
 
-Invoices are available as a summarized PDF, a more detailed
+You can view invoices as a summarized PDF, a more detailed
 comma-separated-values (CSV) file, and a [detailed HTML
 view](/support/how-to/detailed-invoices-overview/).
 We also provide [pivot tables in downloadable
@@ -77,7 +77,7 @@ can perform the following steps:
 1. Log in to the [Rackspace Customer Portal](https://login.rackspace.com).
 2. In the upper-right corner of the page, click **Billing**.
 
-   You are redirected to the **Billing Overview** dashboard, which displays
+   The **Billing Overview** dashboard displays, showing
    information about billing, payments, and usage.
 {{</ accordion >}}
 
@@ -85,17 +85,17 @@ can perform the following steps:
 
 Follow these steps to update your credit card information:
 
-1.  Log in to the [Rackspace Customer Portal](https://login.rackspace.com).
-2.  In the upper-right corner of the page, click **Billing**.
+1. Log in to the [Rackspace Customer Portal](https://login.rackspace.com).
+2. In the upper-right corner of the page, click **Billing**.
     
-    You are redirected to the **Billing Overview** dashboard, which displays
-    information about billing, payments, and usage.
+   The **Billing Overview** dashboard displays, showing
+   information about billing, payments, and usage.
     
 3. In the top navigation bar, click **Payment Methods > Add Payment Method**.
-4. In the pop-up dialog box, select **Credit Card** or **ACH (eCheck)** and then click **Next**.
+4. In the pop-up dialog box, select **Credit Card** or **ACH (eCheck)** and click **Next**.
 
    To add a new credit card, enter the card number, expiration date, name on card, the security
-   code, and then click **Save Credit Card**.
+   code, and click **Save Credit Card**.
    
    To add an ACH account, enter the name on the bank account, the bank account type, the routing
    number, the bank account number, and then check the box to agree to the terms. Then click **Add Account**.
@@ -116,10 +116,10 @@ Follow these steps to change your billing address:
 {{< accordion title="What are the separate charges and minimums that are applied to Cloud Servers pricing?" col="in" href="accordion11" >}}
 
 The listed prices for Cloud Servers include both *raw
-infrastructure* and *managed service* charges. The price is split to
-show what you are paying for when you partner with us.
+infrastructure* and *managed service* charges. The price split
+shows what you are paying for when you partner with us.
 
--   The raw infrastructure price can be contrasted with what other
+-   You can contrast the raw infrastructure price with what other
     hosting companies charge for a cloud server. It covers the
     infrastructure of the hosted server.
 -   The managed service price applies to the support
@@ -127,13 +127,12 @@ show what you are paying for when you partner with us.
     Rate* varies based on the service level that you choose for your
     cloud account.
 
-The Service Level Rate *minimums* are based on the service level that you
-choose for your cloud account. The minimums represent the minimum
-monthly charge for the service. If the cost of the resources that you use in
+The Service Level Rate *minimums*, based on the service level that you
+choose for your cloud account, represent the minimum
+monthly charge for the service. If the cost of the resources you use in
 a month exceeds the minimum, the Service Level Rate minimum does
-not apply. If your costs for a month are less than the minimum, the
-difference between your usage costs and the Service Level Rate minimum
-are added to your bill.
+not apply. If your costs for a month are less than the minimum, your bill
+includes the difference between your usage costs and the Service Level Rate minimum.
 {{</ accordion >}}
 
 {{< accordion title="Why am I being billed for a service when I'm not using it?" col="in" href="accordion12" >}}
@@ -145,11 +144,11 @@ or are disabled. This is because we have allocated resources for your
 exclusive use that cannot be reserved by other customers.
 
 After you delete the server, load balancer, or service from your
-account, its resources are available for someone else to use, and you are no
-longer billed for them.
+account, those resources are available for someone else to use, and you no
+get billed for them.
 
 Follow the process outlined in the [Rackspace Customer Portal](https://login.rackspace.com) to delete
-your cloud servers and services. To cancel Rackspace support for Azure,
+your cloud servers and services. To cancel Rackspace support for Azure&reg;,
 create a ticket for our Billing team.
 {{</ accordion >}}
 
@@ -171,20 +170,20 @@ when customers are entitled to credits.
 
 {{< accordion title="How do I delete or cancel my services?" col="in" href="accordion15" >}}
 
-Cloud accounts can be closed by the account owner at any time, but Rackspace cannot perform this action.
+The account owner can close cloud accounts at any time, but Rackspace cannot perform this action.
 Instead, the account owner must initiate the closure through the [Rackspace Customer Portal](https://login.rackspace.com/)
 by using the following steps:
 
-1. Review all services to ensure that your data is backed up outside of the Rackspace environment.
+1. Review all services to ensure that you back up your data outside of the Rackspace environment.
 2. Ensure that all Cloud products are stopped and deleted (such as Cloud Servers, Images, Cloud Files,
    Cloud Block Storage, and so on).
 3. In the upper-right corner of the page, click **Account > Account Settings**.
 4. At the bottom of the Account Settings page, click **Cancel My Account**.
-5. Choose a reason from the provided list, check the box at the bottom of the page, and then type
-   the word "cancel" into the text box.
+5. Choose a reason from the provided list, check the box at the bottom of the page, and enter
+   `cancel` in the text box.
 6. Click **Cancel Account**.
 
-Cancellations cannot be intiated over the phone. Dedicated customers can initiate account cancellation by
+You cannot initiate cancellations over the phone. Dedicated customers can initiate account cancellation by
 opening a ticket in the [Rackspace Customer Portal](https://login.rackspace.com/). The cancellation
 submission is your authorized approval for Rackspace to delete your account and cancel
 your services in their entirety. If you do not have a copy of your data outside of our cloud
@@ -201,7 +200,8 @@ overview for your monthly invoice date.
 {{< accordion title="I don't agree with my bill. How can I dispute a charge?" col="in" href="accordion16" >}}
 
 You can create a ticket via the [Rackspace Customer Portal](https://login.rackspace.com/) with the details of your dispute. One of
-our account managers will review the ticket. A credit is granted only if there
-is an error related to our billing system or there is a service error
-according to your service level agreement (SLA).
+our account managers will review the ticket. A credit is granted only in the following cases:
+
+- if there is an error related to our billing system
+- if there is a service error according to your service level agreement (SLA)
 {{</ accordion >}}
