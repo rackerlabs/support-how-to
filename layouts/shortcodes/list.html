@@ -1,0 +1,14 @@
+    {{- $product_url := .Get "product_url" -}}
+    <div>
+    {{- range (where .Site.AllPages "Params.product_url"  $product_url) -}}
+    <div>
+    {{- if in .Params.Permalink "all-articles" -}}
+        <span></span>
+    {{- else -}}
+           <h4>
+               <a href="/support{{ .RelPermalink }}">{{ .Title }}</a>
+            </h4>
+    {{- end -}}
+    </div>
+    {{- end -}}
+    </div>

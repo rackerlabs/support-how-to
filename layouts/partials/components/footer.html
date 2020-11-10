@@ -1,0 +1,35 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row first-footer">
+      {{- range .Site.Menus.footer -}}
+      <div class="col">
+        {{- if or (eq .Name "NA") -}}
+          <span></span>
+        {{- else -}}
+          <span class="footer-title">{{ .Name }}</span>
+        {{- end -}}
+        {{- if .HasChildren -}}
+        <ul>
+          {{- range .Children -}}
+          <li><a href="{{ .URL }}">{{ .Pre }}{{ .Name }}{{ .Post }}</a></li>
+          {{- end -}}
+        </ul>
+        {{- end -}}
+      </div>
+      {{- end -}}
+    </div>
+  </div>
+  <div class="lower-footer">
+    <div class="container">
+      <div class="contact">
+        <ul>
+          <li><span>©2020 Rackspace US, Inc.</span></li>
+          <!-- <li class="text-link"><a href="https://www.rackspace.com/about/">About Rackspace</a></li>
+          <li class="text-link"><a href="http://www.rackspace.com/information/legal/privacystatement">Privacy Statement</a></li>
+          <li class="text-link"><a href="http://www.rackspace.com/information/legal/websiteterms">Website Terms</a></li>
+          <li class="text-link"><a href="http://www.rackspace.com/information/legal/copyrights_trademarks">Trademarks</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

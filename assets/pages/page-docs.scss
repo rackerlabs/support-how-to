@@ -1,0 +1,263 @@
+/* Config */
+$sidebar-width: 100%;
+
+.docs-container {
+  display: block;
+
+  @media screen and (min-width: 860px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.sidebar {
+  height: 0;
+  position: relative;
+  top: 6rem;
+  transform: translateX(-$sidebar-width);
+  transition: transform 0.15s linear;
+  width: auto;
+  will-change: scroll-position;
+  display: flex;
+
+  .blog-sidebar {
+    padding: 0 2rem;
+
+    .recent-posts {
+      padding: 2rem 0;
+
+      h5 {
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        font-size: 1.25rem;
+        color: #636363;
+      }
+
+      .tab-links {
+        margin-bottom: 20px;
+        background-color: #d6d6db;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        a.active {
+          border-bottom-color: #3498db;
+          text-decoration: none;
+        }
+
+        a {
+          box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          display: inline-block;
+          vertical-align: top;
+          border-bottom: solid 4px transparent;
+          color: #474747;
+          font-size: 12px;
+          line-height: 1rem;
+          text-align: center;
+          display: flex;
+          padding: 1rem 1rem;
+          width: 100%;
+        }
+      }
+
+      ol {
+        list-style-type: decimal;
+        padding: 0 20px 0 40px;
+        font-size: 13px;
+        margin: 0;
+        li {
+          list-style: decimal;
+        }
+      }
+    }
+
+    .categories {
+      border-top: solid 1px #e0e0e0;
+
+      h5 {
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-transform: uppercase;
+        color: #636363;
+      }
+
+      ul {
+        font-size: 13px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li{
+          margin-bottom: .5em;
+        }
+      }
+    }
+  }
+
+  h3 .button,
+  li a+.button {
+    margin-left: 0.5rem;
+  }
+
+  @media screen and (min-width: 860px) {
+    flex: 0 0 20%;
+    height: calc(100vh - 6rem);
+    transform: translateX(0);
+    vertical-align: top;
+    width: auto;
+  }
+}
+
+
+.docs-nav-items .table-of-contents {
+  border-left: 2px solid $color-grey;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  padding-left: 1rem;
+
+  .level-3 {
+    padding-left: 0.5rem;
+  }
+
+  .level-4 {
+    padding-left: 1rem;
+  }
+}
+
+.docs-content,
+.section-docs-list {
+  background: $color-white;
+  color: $color-dark;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 700px;
+  min-height: 100vh;
+  padding: unset;
+  padding-top: 7rem;
+  position: relative;
+  width: 100%;
+  word-spacing: 0.05em;
+
+  .container {
+    padding: 0 2rem;
+  }
+
+  @media screen and (min-width: 1100px) {
+    left: calc($sidebar-width / 4 * -1);
+    margin: 0 auto;
+  }
+}
+
+.docs-content .pagination {
+  align-items: center;
+  color: $color-brand;
+  display: flex;
+  flex-wrap: nowrap;
+  font-weight: 610;
+  justify-content: space-between;
+  line-height: 1em;
+  margin: 4rem 0 2rem;
+
+  span {
+    display: block;
+    position: relative;
+  }
+
+  span::before {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 1em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1em;
+  }
+
+  a:first-of-type {
+    margin-right: 4rem;
+  }
+
+  .prev-doc {
+    padding-left: 1.5rem;
+  }
+
+  .prev-doc::before {
+    background-image: url("/img/chevron-left.svg");
+    left: 0;
+  }
+
+  .next-doc {
+    padding-right: 1.5rem;
+  }
+
+  .next-doc::before {
+    background-image: url("/img/chevron-right.svg");
+    right: 0;
+  }
+}
+
+.section-docs-list {
+  padding-top: 8rem;
+
+  .doc {
+    margin-bottom: 6rem;
+    max-width: 700px;
+  }
+
+  .doc-title {
+    font-size: 2.5rem;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+  }
+
+  .doc-meta {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  .doc-date {
+    color: $color-medium-dark;
+    font-weight: 610;
+  }
+
+  .doc-category {
+    font-weight: 610;
+    margin-left: 0.5rem;
+  }
+}
+
+.subscribe-feed {
+  a:hover {
+    opacity: 0.6;
+  }
+}
+
+.categories {
+  border-top: solid 1px #e0e0e0;
+
+  h5 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #636363;
+  }
+
+  ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li{
+      margin-bottom: .5em;
+    }
+  }
+}
+

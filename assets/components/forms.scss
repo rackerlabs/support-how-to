@@ -1,0 +1,37 @@
+.form--submitting {
+  opacity: 0.5;
+  position: relative;
+}
+
+.form--submitting::after {
+  animation: rotateCW 0.5s linear infinite;
+  border: 5px solid $color-brand;
+  border-radius: 50%;
+  border-right-color: transparent;
+  content: "";
+  display: block;
+  height: 30px;
+  left: calc(40% - 15px);
+  position: absolute;
+  top: calc(40% - 15px);
+  width: 30px;
+}
+
+.form--submit-fail::before {
+  color: $color-error;
+  content: attr(data-error);
+  display: block;
+  margin: 5px 0;
+}
+
+.form--submit-success * {
+  display: none !important;
+}
+
+.form--submit-success::before {
+  color: $color-brand;
+  content: attr(data-message);
+  display: block !important;
+  font-size: 1.4em;
+  margin: 10px 0;
+}

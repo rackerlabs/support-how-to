@@ -1,0 +1,36 @@
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  {{- if .Params.Permalink -}}
+  "url": "{{- .Params.Permalink -}}",
+  {{- else if .Site.Params.Permalink -}}
+  "url": "{{- .Site.Params.Permalink -}}",
+  {{- end -}}
+  {{- if .Site.Params.created_by -}}
+  "author": {
+    "@type": "Person",
+    "name": "{{- .Site.Params.created_by -}}"
+  },
+  {{- else if .Params.created_by -}}
+  "author": {
+    "@type": "Person",
+    "name": "{{- .Params.created_by -}}"
+  },
+  {{- end -}}
+  {{- if .Site.Params.summary -}}
+  "description": "{{- .Site.Params.summary -}}",
+  {{- else if .Params.summary -}}
+  "description": "{{- .Params.summary -}}",
+  {{- else -}}
+  "description": "{{- .Summary -}}",
+  {{- end -}}
+  {{- if .Site.Params.last_modified_date -}}
+  "image": "{{- .Site.Params.last_modified_date -}}",
+  {{- else if .Params.last_modified_date -}}
+  "image": "{{- .Params.last_modified_date -}}",
+  {{- end -}}
+  "title": "{{- .Site.Title -}}"
+}
+</script>

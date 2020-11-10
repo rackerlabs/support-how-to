@@ -1,5 +1,4 @@
 baseurl = "/"
-theme = "support-developer-hugo-theme"
 copyright = ""
 defaultContentLanguage = "en-us"
 destination = "public"

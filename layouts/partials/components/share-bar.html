@@ -1,0 +1,27 @@
+<div id="share-bar">
+    <h4>Share this information:</h4>
+    <div class="share-buttons">
+        <a class="w-inline-block ref_facebook"
+           href="https://www.facebook.com/sharer/sharer.php?u=&t="
+           onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL), 'width=500,height=500,toolbar=1,resizable=0'); return false;" style="text-decoration: none!important"
+           title="Share on Facebook" >
+           <i class="fa fa-facebook-official share-button"></i>
+        </a>
+        <a id="ref_twitter"
+            href="" onclick="javascript:window.open('http://twitter.com/home?status='+encodeURIComponent(window.location.href)+' '+encodeURIComponent(document.title),'das','location=no,links=no,scrollbars=no,left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" style="text-decoration: none!important"
+            title="Share on Twitter" >
+            <i class="fa fa-twitter share-button"></i>
+        </a>
+        <a id="ref_linkedin"
+            href="" onclick="javascript:window.open('https://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(window.location.href)+ '&title=' + encodeURIComponent(document.title) + ' &source=' + encodeURIComponent(location.href), 'sharer', 'toolbar=no,status=no,width=626,height=436'); return false;" style="text-decoration: none!important"
+            title="Share on LinkedIn" >
+            <i class="fa fa-linkedin share-button"></i>
+        </a>
+        <a id="ref_reddit"
+            href=""
+            onclick="javascript:window.open('http://www.reddit.com/r/programming/submit?url=' + encodeURIComponent(window.location.href) +'&amp;title='+encodeURIComponent(document.title), 'toolbar=no,status=no,width=626,height=436'); return false;" style="text-decoration: none!important"
+            title="Share on Reddit" >
+            <i class="fa fa-reddit-alien share-button"></i>
+        </a>
+    </div>
+</div>
