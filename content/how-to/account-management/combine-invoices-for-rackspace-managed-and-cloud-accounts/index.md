@@ -16,13 +16,20 @@ combine your bills into a single invoice and pay only once. This article describ
 how to combine invoices, how your billing due date is affected, and how to
 separate a combined invoice.
 
-**Note:** Currently, you can combine bills from Rackspace Private Cloud,
-Rackspace Public Cloud, and third-party cloud accounts, such as Amazon Web
-Services&reg; (AWS), Microsoft&reg; Azure&trade;, and Google Cloud
-Platform&trade;. You cannot combine
-accounts that are billed in different currencies, are already combined with
-another invoice, are contracted with different
-contracting entities, or have an outstanding balance on a child account.
+Currently, you can combine bills for the following products and services:
+
+- Rackspace Private Cloud
+- Rackspace Public Cloud
+- Third-party cloud accounts, such as Amazon Web
+  Services&reg; (AWS), Microsoft&reg; Azure&trade;, and Google Cloud
+  Platform&trade;
+
+You cannot combine accounts that:
+
+- Are billed in different currencies
+- Are already combined with another invoice
+- Are contracted with different contracting entities
+- Have an outstanding balance on a child account
 
 ### Combine invoices
 
@@ -65,7 +72,7 @@ cloud account, your next invoice is billed on the first day of the month.
 The following example describes how your billing is affected when you combine
 Rackspace Public Cloud and AWS account invoices:
 
-- The AWS account is the primary account with a billing date of February 1, and the Public Cloud account's billing date is February 15.
+- The AWS account is the primary account with a billing date of February 1, and the billing date for the Public Cloud account is February 15.
 - Combined invoicing is set up on February 20.
 - On March 1, an invoice is generated for only the primary account.
 - On March 15, no invoice is generated for the Public Cloud account.
