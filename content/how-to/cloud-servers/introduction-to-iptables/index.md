@@ -113,7 +113,7 @@ be accepted.
 
 ### List of common ports
 
-Using the preceding commands, mix and match optiomns from the following list of
+Using the preceding commands, mix and match options from the following list of
 [common ports](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well_known_ports:_1_-_1023)
 to create rules for any running server you have.
 
