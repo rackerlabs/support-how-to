@@ -21,7 +21,7 @@ It also identifies some options for testing and troubleshooting logrotate.
 ### Tying it all together: virtual host logs
 
 To show how you can use logrotate for your applications, here's an
-example that will come in handy for many of people: rotating logs for your
+example that will come in handy for many people: rotating logs for your
 custom virtual hosts. The example uses **Apache**&reg;, but you can tweak it
 for other webservers like **nNinx&reg;** or **Lighttpd&reg;**, usually just by
 changing the post-rotate script.
