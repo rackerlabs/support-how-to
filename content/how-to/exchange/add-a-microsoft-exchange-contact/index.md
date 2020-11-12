@@ -12,23 +12,22 @@ product_url: exchange
 ---
 
 The following article explains how to create a contact with
-Microsoft&reg; Exchange. You can use a contact to create an alias that
-forwards to a mailbox hosted outside of your domain, such as at Gmail or Yahoo.
+Microsoft&reg; Exchange&reg;. You can use a contact to create an alias that
+forwards to a mailbox hosted outside your domain, such as Gmail or Yahoo.
 
-1. Log in the [Cloud Office Control Panel](https://cp.rackspace.com).
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
 
 2. In **Microsoft Exchange**, select **Contacts** > **Add Contact**.
 
-   **Note:** If you have multiple domains you may be prompted to select a
-   domain name.
+   **Note:** If you have multiple domains, you might need to select a domain name.
 
 3. Enter the following **User Details**:
 
    - First name
    - Last name
-   - Display name - the name that is displayed in the Global Address Book.
+   - Display name: The name displayed in the Global Address Book.
    - User name
-   - External email - the email address that the email will route to.
+   - External email: The email address to which the email should route.
 
    If you do not want this contact to be visible in the Global Address Book, check the **Hide from Global Address List** box.
 
