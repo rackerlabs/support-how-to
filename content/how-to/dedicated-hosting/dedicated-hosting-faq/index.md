@@ -13,7 +13,7 @@ product_url: dedicated-hosting
 
 ### General
 
-{{<accordion title="Where can I learn more about the service levels for Dedicated Managed Hosting?" col="in" href="accordion1">}}
+{{<accordion title="Where can I learn more about the service levels for Managed Hosting solutions?" col="in" href="accordion1">}}
 
 You can find a comparison of the service levels on the [Managed Hosting
 product page](https://www.rackspace.com/managed-hosting/service-levels).
