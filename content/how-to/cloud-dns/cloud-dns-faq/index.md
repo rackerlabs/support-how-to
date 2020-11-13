@@ -66,8 +66,7 @@ Portal](https://login.rackspace.com) to manage
 domains for their dedicated resources and can use Cloud DNS to
 manage domains for their Cloud resources.
 
-**Note:** Duplicate domains cannot exist between Managed Hosting and Cloud
-Hosting resources.
+**Note:** Duplicate domains cannot exist between Dedicated and cloud resources.
 {{< /accordion >}}
 ### Accessing Cloud DNS
 {{< accordion title="How do I authenticate with the Cloud DNS API?" col="in" href="accordion7" >}}
