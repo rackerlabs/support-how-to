@@ -1,4 +1,4 @@
-HUGO_VERSION ?= 0.76.5
+HUGO_VERSION ?= 0.78.1
 HUGO_EXTENDED = "extended_"
 CONTAINER_RUNTIME ?= docker
 # Show build warnings, posts tagged as draft, and posts with a future date
@@ -30,13 +30,6 @@ build:
 
 serve:
 	@hugo $(PREVIEW_ARGS) serve
-
-# muffet - checks for broken links - you have to have hugo running for this to work
-muffet:
-	@if ! curl -s --fail http://localhost:1313 > /dev/null ; then echo "You must start a Hugo local server!"; exit 1; fi
-	@mkdir -p $(CURDIR)/output/muffet
-	@ if [ ! -f $(CURDIR)/output/muffet/bin/muffet ] ; then GOPATH=$(CURDIR)/output/muffet go get -u github.com/raviqqe/muffet; fi
-	@$(CURDIR)/output/muffet/bin/muffet https://docs.rackspace.com/
 
 # Targets used to build and use the Hugo+Asciidoctor+Rst docker image
 

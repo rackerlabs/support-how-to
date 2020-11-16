@@ -255,7 +255,7 @@ that the **ssl_certificate_key** file matches your key file.
 
 ### Install certificate on Managed Hosting solutions
 
-If you have requested an SSL certificate for your Rackspace Managed Hosting
+If you have requested an SSL certificate for your Rackspace managed
 server by submitting a Rackspace ticket, Rackspace installs the certificate
 for you.  You should provide details including where you want the certificate
 installed and your private key file.

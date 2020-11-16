@@ -5,10 +5,6 @@ title: Detailed permissions matrix for billing and payment services
 type: article
 created_date: '2013-09-19'
 created_by: Renee Rendon
-last_modified_date: '2018-02-12'
-last_modified_by: Kate Dougherty  
-product: Account Management
-product_url: account-management
 ---
 
 The permissions matrix for billing and payment services displays the specific capabilities for the following roles:

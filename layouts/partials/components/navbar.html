@@ -1,0 +1,81 @@
+{{- $isHome := .IsHome -}}
+{{- $isDocs := (eq .Section "docs") -}}
+{{- $isBlogs := (eq .Section "blog") -}}
+
+
+<header class="header buttons-header">
+  <nav class="nav navbar navbar-light bg-light justify-content-end buttons-nav-items">
+      {{- range .Site.Menus.buttons -}}
+      {{- if eq .Identifier "buynow" -}}
+      <div class="nav-item buttons-nav-item" data-signed-out="true">
+        <a class="button small system-status" href="https://rackspace.service-now.com/system_status">
+          System Status
+        </a>
+      </div>
+      <div class="nav-item buttons-nav-item buy-now" data-signed-out="true">
+        <a class="buynow-button button small primary" href="{{ .URL | absURL }}">{{ .Pre }}{{ .Name }}{{ .Post }}</a>
+        <ul>
+          <li><a href="https://cart.rackspace.com/cloud">Rackspace Cloud</a></li>
+          <li><a href="https://cart.rackspace.com/apps">Email &amp; Apps</a></li>
+          <li><a href="https://cart.rackspace.com/aws">Fanatical Support for AWS</a></li>
+          <li><a href="https://cart.rackspace.com/gcp">Managed Google Cloud Platform</a></li>
+          <li><a href="https://cart.rackspace.com/office365">Office 365</a></li>
+        </ul>
+      </div>
+      {{- else if eq .Identifier "login" -}}
+      <div class="nav-item buttons-nav-item login" data-signed-out="true">
+        <a class="login-button button small secondary" href="{{ .URL | absURL }}">{{ .Pre }}{{ .Name }}{{ .Post }}</a>
+        <ul>
+          <li><a href="https://my.rackspace.com/portal/auth/login">MyRackspace Portal</a></li>
+          <li><a href="https://mycloud.rackspace.com">Cloud Control Panel</a></li>
+          <li><a href="https://apps.rackspace.com">Rackspace Webmail Login</a></li>
+          <li><a href="https://cp.rackspace.com">Cloud Office Control Panel</a></li>
+        </ul>
+      </div>
+      <div class="nav-item buttons-nav-item" data-signed-out="true">
+        <span data-tooltip="Click Here for Search" data-tooltip-position="top" class="mobile-search">
+          <button type="button" class="btn btn-white" data-toggle="modal" data-placement="top"
+            data-target="#searchModal">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </span>
+      </div>
+      {{- end -}}
+      {{- end -}}
+  </nav>
+</header>
+
+<header class="header {{ if $isDocs }} docs{{ end }}">
+  <nav class="nav navbar navbar-expand-lg navbar-dark bg-dark">
+    <a href="https://www.rackspace.com/" title="Go to homepage" class="logo navbar-brand"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      {{- partial "components/navbar_nav.html" .Site.Menus.main . -}}
+      <span data-tooltip="Click Here for Search" data-tooltip-position="top" class="desktop-search">
+        <button type="button" class="btn btn-white" data-toggle="modal" data-placement="top" data-target="#searchModal">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </span>
+    </div>
+  </nav>
+</header>
+
+<header class="header search-head">
+  <nav class="nav navbar navbar-expand-lg">
+    <div class="col-sm-12 col-md-8">
+      <div class="collapse navbar-collapse justify-content-between">
+        <h1 class="support-h1">Support Network</h1>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <!-- <span  data-tooltip="Click Here for Search" data-tooltip-position="top">
+        <button type="button" class="btn btn-white" data-toggle="modal" data-placement="top" data-target="#searchModal">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+        </span> -->
+    </div>
+  </nav>
+</header>

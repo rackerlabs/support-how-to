@@ -7,8 +7,6 @@ created_date: '2018-11-20'
 created_by: Cat Lookabaugh
 last_modified_date: '2018-11-20'
 last_modified_by: Cat Lookabaugh
-product: Account Management
-product_url: account-management
 ---
 
 As of October 31, 2018, Cloud customers can leverage *user groups* to make the
