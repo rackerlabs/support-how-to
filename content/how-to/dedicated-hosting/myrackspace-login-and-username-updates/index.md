@@ -40,7 +40,7 @@ The following example illustrates how Rackspace has created new usernames:
 
 ### MyRackspace login process
 
-Beginning on October 18, 2018, Managed Hosting users can access their accounts at our unified login portal [https://login.rackspace.com](https://login.rackspace.com) or at the existing portal [https://My.Rackspace.com](https://My.Rackspace.com). No matter which portal you select, Managed Hosting users will no longer need to enter their account number as part of the login process. To login into your Managed Hosting portal, users should just enter their username and password.
+Beginning on October 18, 2018, Dedicated and Managed Services users can access their accounts at our unified login portal [https://login.rackspace.com](https://login.rackspace.com) or at the existing portal [https://My.Rackspace.com](https://My.Rackspace.com). No matter which portal you select, you no longer need to enter your account number as part of the login process. To log in, just enter your username and password.
 
 ### Frequently asked questions
 
