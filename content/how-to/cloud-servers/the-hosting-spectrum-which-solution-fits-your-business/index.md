@@ -62,8 +62,7 @@ and network devices.
 
 ### Managed Hosting
 
-In a [Managed
-Hosting](https://www.rackspace.com/managed-hosting)
+In a [Managed Hosting](https://www.rackspace.com/managed-hosting)
 environment, the provider owns and is responsible for the data center,
 network, device (i.e. servers, load balancers, firewalls, etc.),
 virtualization, OS and application infrastructure (i.e. web servers,

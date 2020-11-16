@@ -5,10 +5,8 @@ title: Manually configure Windows Phone devices for email hosted on Exchange 201
 type: article
 created_date: '2014-01-31'
 created_by: Mawutor Amesawu
-last_modified_date: '2016-01-28'
-last_modified_by: Rose Coste
-product: Microsoft Exchange
-product_url: exchange
+last_modified_date: '2020-11-11'
+last_modified_by: Rose Morales
 ---
 
 The following steps are required to configure Microsoft Exchange

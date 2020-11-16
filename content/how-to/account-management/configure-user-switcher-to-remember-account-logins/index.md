@@ -13,7 +13,7 @@ product_url: account-management
 
 Account switching allows you to switch between Rackspace accounts. The **Remember Me** option
 displays up to five remembered users appear on the **User** menu, making account switching for
-Dedicated and Managed Hosting seamless and easy. However, you might need to add or delete users
+Dedicated and Managed Hosting services seamless and easy. However, you might need to add or delete users
 to be more efficient.
 
 The following sections describe how to add and delete users from an account.
