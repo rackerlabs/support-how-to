@@ -28,7 +28,7 @@ more cloud accounts that you associate with the configuration. A single
 RackConnect configuration can support up to 200 cloud servers based
 on network device.
 
-  We recommend that you create no more than 20 Windows servers or 30 Linux servers at a time. It is best to create all 20 or 30 simultaneously, rather than issuing the API call to create one, waiting for a while, and then issuing the command for the next. If you need to build more than 20 or 30 servers, wait until the first batch is complete before starting the next batch. RackConnect has an API that you can use to determine when the last server is fully deployed. More information about how to determine the RackConnect automation status for cloud servers is available at [Programmatically determine the RackConnect automation status of your cloud servers](/support/how-to/how-to-programmatically-determine-the-rackconnect-v20-automation-status-of-your-cloud).
+  We recommend that you create no more than 20 Windows servers or 30 Linux servers at a time. It is best to create all 20 or 30 simultaneously, rather than issuing the API call to create one, waiting for a while, and then issuing the command for the next. If you need to build more than 20 or 30 servers, wait until the first batch is complete before starting the next batch. RackConnect has an API that you can use to determine when the last server is fully deployed. More information about how to determine the RackConnect automation status for cloud servers is available at [Programmatically determine the RackConnect automation status of your cloud servers](/support/how-to/support/how-to-programmatically-determine-the-rackconnect-v20-automation-status-of-your-cloud).
 
 1. Test the image&mdash;After the basic cloud server build has completed,
 RackConnect logs in to the newly created server and performs some
@@ -55,7 +55,7 @@ you are not a Managed Operations service level customer, you need
 to wait only for the RackConnect automation to complete before running your
 own. To programmatically determine when Rackspace automation is complete, see [Programmatically determine the
 RackConnect automation status of your cloud
-servers](/support/how-to/how-to-programmatically-determine-the-rackconnect-v20-automation-status-of-your-cloud)
+servers](/support/how-to/support/how-to-programmatically-determine-the-rackconnect-v20-automation-status-of-your-cloud)
 
 1. Build cloud servers in the correct region&mdash;Ensure that you create
 your cloud servers in the same region as your RackConnect configuration.

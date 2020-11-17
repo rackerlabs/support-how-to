@@ -1,18 +1,24 @@
 [build.environment]
-  HUGO_VERSION = "0.74.3"
+  HUGO_VERSION = "0.78.1"
+  NPM_VERSION = "6.14.8"
+  NODE_VERSION = "12.16.3"
 
 [build]
-  command = "make build"
+  command = "npm run build"
   publish = "public"
 
-[dev]
-  command = "make serve"
+[context.production]
   publish = "public"
-  autoLaunch = true
+  HUGO_ENV = "production"
+  command = "npm run build"
 
 [context.deploy-preview]
-  command = "make build-preview"
   publish = "public"
+  command = "npm run build"
+
+[context.staging]
+  publish = "public"
+  command = "npm run build"
 
 [[headers]]
   for = "/img/*"
@@ -27,22 +33,77 @@
   [headers.values]
     Cache-Control = "public, s-max-age=604800"
 
+[[plugins]]
+  package = "netlify-plugin-hugo-cache-resources"
+	[plugins.inputs]
+	debug = true
+
+[dev]
+  framework = "#custom"
+  # only start Hugo, `netlify dev` builds/serves functions itself
+  command = "npm start"
+  # swap ports to keep consistent w/ normal local server
+  targetPort = 1314
+  port = 1313
+  # don't launch browser automatically
+  autoLaunch = false
+
+
 # [[plugins]]
-#   package = "netlify-plugin-checklinks"
-#   [plugins.inputs]
+#   package = "./plugins/netlify-plugin-check-urls"
+#  [plugins.inputs]
 #   entryPoints = [
-#     "*.html",
+#     "*.html","*.md"
 #   ]
-#   recursive = false
+#   recursive = true
 #   pretty = true
-#   skipPatterns = ["public/blog", "public/docs", "public/docs/*"]
-#   todoPatterns = ["public/support/","public/support/*", "public/support/how-to/", "public-support/how-to"]
+#   skipPatterns = ["public/support", "public/support/how-to", "public/support/*", "public/support/how-to/*", "https://code.jquery.com/", "https://code.jquery.com/*", "https://stackpath.bootstrapcdn.com/", "https://stackpath.bootstrapcdn.com/*", "https://cdn.jsdelivr.net/", "https://cdn.jsdelivr.net/*", "https://fonts.googleapis.com/", "https://fonts.googleapis.com/*", "https://maxcdn.bootstrapcdn.com/", "https://maxcdn.bootstrapcdn.com/*", "https://stackpath.bootstrapcdn.com/", "https://stackpath.bootstrapcdn.com/*"]
+#   todoPatterns = []
 #   checkExternal = false
 #   followSourceMaps = false
 
-[[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
+# [[plugins]]
+#   package = "netlify-plugin-no-more-404"
 
-	[plugins.inputs]
-	# If it should show more verbose logs (optional, default = true)
-	debug = true
+  # all inputs are optional, we just show you the defaults below
+  # [plugins.inputs]
+  
+  # # either "warn" or "error"
+  # on404 = "error" 
+  
+  # # change this key to a new one any time you need to restart from scratch
+  # cacheKey = "MyCacheKey"
+  
+  # # (for development) turn true for extra diagnostic logging
+  # debugMode = false
+
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "public"
+  prettyURLs = true
+  trailingSlash = true
+
+
+[[plugins]]
+  package = "netlify-plugin-a11y"
+
+  # all inputs are optional, we just show you the defaults below
+  [plugins.inputs]
+  
+  # required config
+  checkPaths = ['/'] # you can give an array of directories or paths to html files, that you want to run a11y checks on
+
+  # optional config
+  # ignoreDirectories = ['/admin']  # explicitly ignore these directories
+
+  resultMode = "warn" # is "error" by default
+
+  # Developer only
+  debugMode = true # extra logging for plugin developers
+
+# [[plugins]]
+# package = "@algolia/netlify-plugin-crawler"
+#   [plugins.inputs]
+#   branches = ['staging']

@@ -67,7 +67,7 @@ Panel](https://login.rackspace.com/) by following these steps:
     but you are able to log in to the Cloud Control Panel for your
     account, you can change the server's password as described at [How
     to change your server root/admin password from your
-    account](/support/how-to/how-to-change-your-server-rootadmin-password-from-your-account).
+    account](/support/how-to/support/how-to-change-your-server-rootadmin-password-from-your-account).
 
     In the terminal session where you entered the installation commands,
     you can confirm that the installation succeeded if you see the

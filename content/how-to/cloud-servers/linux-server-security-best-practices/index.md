@@ -301,7 +301,7 @@ and disable password authentication by using the following steps:
         sshd -t
 
 If you receive no errors, SSH is now configured to run on a custom port and accept only non-root users that pass a valid SSH key. For these settings to apply and persist, you must restart the SSH service.
-However, do not restart the service yet. Restarting SSH now might lock you out of the server, requiring you to use [rescue mode](how-to/rescue-mode) or the [web console](/support/how-to/start-a-console-session) to restore the configuration. You must configure the firewall before restarting the server. We discuss the firewall in the next section.
+However, do not restart the service yet. Restarting SSH now might lock you out of the server, requiring you to use [rescue mode](/support/how-to/rescue-mode) or the [web console](/support/how-to/start-a-console-session) to restore the configuration. You must configure the firewall before restarting the server. We discuss the firewall in the next section.
 
 #### Amend software firewall and restart SSH
 

@@ -1,21 +1,10 @@
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-{{/* Moment JS for dateformatting */}}
-<script src="https://cdn.jsdelivr.net/npm/moment@2.20.1/moment.min.js"></script>
-{{/* JQuery for Bootstrap */}}
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-</script>
-{{/* Popper JS for Bootstrap*/}}
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-</script>
-{{/* Bootstrap for styling */}}
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-</script>
-
-<!-- <script async src="https://cse.google.com/cse.js?cx=006650721361932583448:0tpp1tnttba"></script> -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.0.0/dist/algoliasearch-lite.umd.js" integrity="sha256-MfeKq2Aw9VAkaE9Caes2NOxQf6vUa8Av0JqcUXUGkd0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.0.0/dist/instantsearch.production.min.js" integrity="sha256-6S7q0JJs/Kx4kb/fv0oMjS855QTz5Rc2hh9AkIUjUsk=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.js"></script>
+<script src="/assets/bundle.js"></script>
 
 <script>
     function openTab(evt, tabName) {
@@ -35,7 +24,8 @@
         if (document.getElementById("gs-ctrl") != undefined) {
             document.getElementById("gs-ctrl").className += " active"
         }
-        if (!window.location.href.includes("faq") && !window.location.href.includes("all-articles") && (document.getElementById("acc-man") != undefined)) {
+        if (!window.location.href.includes("faq") && !window.location.href.includes("all-articles") && (document
+                .getElementById("acc-man") != undefined)) {
             document.getElementById("acc-man").className += " active";
         }
         if (window.location.href.includes("faq") && (document.getElementById("acc-faq") != undefined)) {
@@ -44,9 +34,9 @@
         if (window.location.href.includes("all-articles") && (document.getElementById("acc-all") != undefined)) {
             document.getElementById("acc-all").className += " active";
         }
-        if(window.location.href.includes("faq")) {
+        if (window.location.href.includes("faq")) {
             var elements = document.getElementsByClassName("panel-group");
-            for(var i = 0; i < elements.length; i++ ) {
+            for (var i = 0; i < elements.length; i++) {
                 elements[i].className += " faq-list"
             }
             $('a[data-toggle="collapse"]').addClass('inactive');
@@ -54,58 +44,30 @@
         $("table").addClass(["table", "table-striped", "table-bordered"]);
 
         var arrOfPtags = document.getElementsByTagName("p");
-        for (var i = 0;i < arrOfPtags.length; i++){
-            if(arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>note</strong>") || arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>note:</strong>")) {
+        for (var i = 0; i < arrOfPtags.length; i++) {
+            if (arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>note</strong>") || arrOfPtags[i].innerHTML
+                .toLowerCase().includes("<strong>note:</strong>")) {
                 arrOfPtags[i].className += "callout-note";
             }
-            if(arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>important</strong>") || arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>important:</strong>")) {
+            if (arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>important</strong>") || arrOfPtags[i]
+                .innerHTML.toLowerCase().includes("<strong>important:</strong>")) {
                 arrOfPtags[i].className += "callout-important";
             }
-            if(arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>warning</strong>") || arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>warning:</strong>")) {
+            if (arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>warning</strong>") || arrOfPtags[i]
+                .innerHTML.toLowerCase().includes("<strong>warning:</strong>")) {
                 arrOfPtags[i].className += "callout-warning";
             }
-            if(arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>tip</strong>") || arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>tip:</strong>")) {
+            if (arrOfPtags[i].innerHTML.toLowerCase().includes("<strong>tip</strong>") || arrOfPtags[i].innerHTML
+                .toLowerCase().includes("<strong>tip:</strong>")) {
                 arrOfPtags[i].className += "callout-tip";
             }
         }
-        // var paragraphs = document.getElementsByTagName("p");
-        // for(var i = 0; i < paragraphs.length; i++)
-        // {
-        //     console.log(paragraphs[i].innerText.includes("**Note:**"));
-        // }
+        $('#searchModal').on("shown.bs.modal", function() {
+            $('.ais-SearchBox-input').focus();
+        })
     }
-    
-    $("#buy-now-button").on('click', function () {
-        if($("#buy-now-list").css("display") == "block") {
-            $("#buy-now-list").css("display", "none");
-        } else {
-            $("#buy-now-list").css("display", "block");
-        }
-    });
-    $("#buy-now-button").on('mouseleave', function () {
-        if($("#buy-now-list").css("display") == "block") {
-            $("#buy-now-list").css("display", "none");
-        }
-    });
-    $("#buy-now-button").on('mouseenter', function () {
-        $("#buy-now-list").css("display", "block");
-    });
-    $("#login-button").on('click', function () {
-        if($("#login-list").css("display") == "block") {
-            $("#login-list").css("display", "none");
-        } else {
-            $("#login-list").css("display", "block");
-        }
-    });
-    $("#login-button").on('mouseleave', function () {
-        if($("#login-list").css("display") == "block") {
-            $("#login-list").css("display", "none");
-        }
-    });
-    $("#login-button").on('mouseenter', function () {
-        $("#login-list").css("display", "block");
-    });
 </script>
 
-
-<script src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries"></script>
+<script
+    src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries">
+</script>

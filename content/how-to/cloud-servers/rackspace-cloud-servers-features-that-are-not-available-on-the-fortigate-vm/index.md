@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-servers-features-that-are-not-available-on-the-fortigate-vm/
+permalink: rackspace-public-cloud-servers-features-that-are-not-available-on-the-fortigste-vm/
 audit_date: '2019-04-18'
 title: Rackspace Cloud Servers features that are not available on the Fortigate-VM
 type: article
@@ -11,8 +11,8 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Because it's a secure turnkey appliance, the Fortigate&ref;-VM does not support
-some features that are available on typical Microsoft&reg; Windows&ref; or Linux&reg;
+Because it's a secure turnkey appliance, the Fortigate&reg;-VM does not support
+some features that are available on typical Microsoft&reg; Windows&reg; or Linux&reg;
 Rackspace Cloud Servers. This article lists the missing features and the recommended
 workarounds.
 

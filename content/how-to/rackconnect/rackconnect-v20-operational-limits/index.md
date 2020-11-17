@@ -63,4 +63,4 @@ For more information about using the available APIs, see the following documenta
 
 -   [Cloud Servers API documentation](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/)
 -   [RackConnect v2.0 API](/support/how-to/the-rackconnect-v20-api)
--   [Programmatically determine the RackConnect v2.0 automation status of your cloud servers](/support/how-to/how-to-programmatically-determine-the-rackconnect-v20-automation-status-of-your-cloud)
+-   [Programmatically determine the RackConnect v2.0 automation status of your cloud servers](/support/how-to/support/how-to-programmatically-determine-the-rackconnect-v20-automation-status-of-your-cloud)

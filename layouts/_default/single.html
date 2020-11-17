@@ -1,7 +1,7 @@
 {{- define "main" -}}
 <main class="how-to-wrapper">
     {{- partial "components/announcement" . -}}
-    {{- partial "components/banner" . -}}
+    {{- partial "components/search-modal" . -}}
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-2 col-lg-2">
@@ -24,7 +24,6 @@
                 <hr />
                 {{- .Content -}}
                 {{- partial "components/share-bar" . -}}
-                {{- partial "components/cta/basic" . -}}
                 {{- partial "components/legal-footer" . -}}
             </div>
         </div>

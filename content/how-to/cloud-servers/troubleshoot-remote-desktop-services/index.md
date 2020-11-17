@@ -18,7 +18,7 @@ This article shows you how to troubleshoot problems with Microsoft&reg; Remote D
 To access the Emergency Console, see [Start a console session](/support/how-to/start-a-console-session/).
 
 If you can't log in by using the Emergency Console, reset your *Administrator* user password. For help, see
-[How to change your server root admin password from your account](/support/how-to/how-to-change-your-server-rootadmin-password-from-your-account/).
+[How to change your server root admin password from your account](/support/how-to/support/how-to-change-your-server-rootadmin-password-from-your-account/).
 
 ### Check to see if the Remote Desktop Service is running
 

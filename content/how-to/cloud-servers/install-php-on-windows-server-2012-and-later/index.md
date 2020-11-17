@@ -19,7 +19,7 @@ the source.
 ### Prerequisites
 
 Before installing PHP on Windows Server 2012 and later, you should install
-the [Internet Information Services (IIS) framework](https://docs.microsoft.com/en-us/dynamics-nav/how-to--install-and-configure-internet-information-services-for-microsoft-dynamics-nav-web-client).
+the [Internet Information Services (IIS) framework](https://docs.microsoft.com/en-us/dynamics-nav/support/how-to--install-and-configure-internet-information-services-for-microsoft-dynamics-nav-web-client).
 
 You should also install the
 [Microsoft Windows Cache extension for PHP](https://docs.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/use-the-windows-cache-extension-for-php).

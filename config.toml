@@ -1,5 +1,4 @@
 baseurl = "/"
-theme = "support-developer-hugo-theme"
 copyright = ""
 defaultContentLanguage = "en-us"
 destination = "public"
@@ -229,22 +228,33 @@ defaultMarkdownHandler = "goldmark"
 
 
 [outputs]
-home = ["HTML", "RSS"]
+home = ["HTML", "RSS", "Algolia"]
 
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
 
 [params]
 dateformat = "January 2, 2006"
-description = "Rackspace Developer documentation using static site generator and headless CMS"
+description = "Rackspace Developer documentation using Hugo, Netlify and Algolia"
 ghrepo = "https://github.com/rackerlabs/support-how-to"
 ghrepo_edit = "https://github.com/rackerlabs/support-how-to/edit/master/hugo/content/"
 ghrepo_new = "https://github.com/rackerlabs/support-how-to/issues/new"
 images = ["/img"]
 
+[params.algolia]
+  vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink", "description", "created_by", "created_date", "last_modified_by", "last_modified_date"]
+  params = ["categories", "tags", "description"]
 
 [related]
 includeNewer = true
 threshold = 10
 toLower = true
+[[related.indices]]
+name = "Description"
+weight = 250
 [[related.indices]]
 name = "Type"
 weight = 200
@@ -276,3 +286,4 @@ created_by = "created_by"
 category = "category"
 type = "type"
 product = "product"
+description = "description"

@@ -114,7 +114,7 @@ applications that use the credentials that you are resetting.
 
 After your stack has completed, you are provided with private keys and
 passwords for your cloud resources. To reset your server passwords, see
-[Change your server root/admin password from your account](/support/how-to/how-to-change-your-server-rootadmin-password-from-your-account).
+[Change your server root/admin password from your account](/support/how-to/support/how-to-change-your-server-rootadmin-password-from-your-account).
 {{< /accordion >}}
 
 {{< accordion title="How do I log in to my servers?" col="in" href="accordion8" >}}

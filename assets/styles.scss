@@ -1,0 +1,32 @@
+/* Base */
+@import "base/palette.scss";
+@import "base/typography.scss";
+@import "base/base.scss";
+@import "base/layout.scss";
+@import "base/print.scss";
+@import "base/fonts.scss";
+
+/* Components */
+@import "components/button.scss";
+@import "components/input.scss";
+@import "components/pagination.scss";
+@import "components/header.scss";
+@import "components/search.scss";
+@import "components/code-syntax.scss";
+@import "components/footer.scss";
+@import "components/lightbox.scss";
+@import "components/dl.scss";
+@import "components/code-tabs.scss";
+@import "components/toc.scss";
+@import "components/announcement.scss";
+@import "components/support-docs.scss";
+@import "components/how-to.scss";
+@import "components/sidebar.scss";
+@import "components/accordion.scss";
+@import "components/responsive-tabs.scss";
+
+
+/* Pages */
+@import "pages/page-docs.scss";
+@import "pages/page-post.scss";
+@import "pages/page-404.scss";

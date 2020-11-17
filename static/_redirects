@@ -4,6 +4,9 @@
 /how-to/add-a-linux-user-with-document-root-permissions/  /support/how-to/add-a-linux-user-with-document-root-permissions/  301
 /support/how-to/checking-system-load-on-linux/  /how-to/check-the-system-load-on-linux/  404
 /how-to/check-the-system-load-on-linux/  /support/how-to/check-the-system-load-on-linux/  301
+support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-password-recovery-for-rackspace-webmail/  301
+/support/how-to/sjc2-data-center-relocation-managed-customer-faq  /how-to/sjc2-data-center-relocation/  404
+/how-to/sjc2-data-center-relocation/  /support/how-to/sjc2-data-center-relocation/  301
 
 # Main Redirects
 
@@ -11,6 +14,26 @@
 /support/how-to/       /how-to/     200
 
 # Retired Articles
+
+/support/how-to/manually-configure-windows-phone-devices-for-email-hosted-on-exchange-2013/ /how-to/article-retired/ 404
+/support/how-to/windows-server-2012-r2-with-managed-operations-support/ /how-to/article-retired/ 404
+/support/how-to/manually-configure-outlook-2011-for-email-hosted-on-exchange-2013/ /how-to/article-retired/ 404
+/support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ /how-to/article-retired/ 404
+/support/how-to/view-and-reset-your-api-/  https://developer.rackspace.com/docs/portal-onboarding-guide/manage_portal_user_groups/api_key/#api-key 301
+/support/how-to/rackspace-account-invoice/ https://developer.rackspace.com/docs/portal-onboarding-guide/understand_billing/account_invoice/ 301
+/support/how-to/update-account-billing-information/ https://developer.rackspace.com/docs/portal-onboarding-guide/manage_billing/update_billing/ 301
+/support/how-to/detailed-permissions-matrix-for-billing-services/ https://developer.rackspace.com/docs/portal-onboarding-guide/understand_billing/detailed_permissions/ 301
+/support/how-to/request-an-sla-credit/ https://developer.rackspace.com/docs/portal-onboarding-guide/manage_billing/sla_credit/ 301
+/support/how-to/change-account-company-name/ https://developer.rackspace.com/docs/portal-onboarding-guide/administrative/change_account_name/ 301
+/support/how-to/change-account-owner/ https://developer.rackspace.com/docs/portal-onboarding-guide/administrative/change_owner/ 301
+/support/how-to/change-to-new-primary-contact/ https://developer.rackspace.com/docs/portal-onboarding-guide/administrative/primary_contact/ 301
+/support/how-to/account-registration-code/ https://developer.rackspace.com/docs/portal-onboarding-guide/introduction/ 301
+/support/how-to/rackspace-cloud-user-groups/ https://developer.rackspace.com/docs/portal-onboarding-guide/manage_portal_user_groups/ 301
+/support/how-to/viewing-and-editing-user-information-for-your-account/ https://developer.rackspace.com/docs/portal-onboarding-guide/manage_portal_user_groups/ 301
+/support/how-to/rackspace-account-invoice/ https://developer.rackspace.com/docs/portal-onboarding-guide/understand_billing/account_invoice/ 301
+/support/how-to/update-account-billing-information/ https://developer.rackspace.com/docs/portal-onboarding-guide/manage_billing/update_billing/ 301
+/support/how-to/billing-services-overview/ https://developer.rackspace.com/docs/portal-onboarding-guide/understand_billing/about/ 301
+/support/how-to/create-a-support-ticket-in-the-cloud-control-panel/ https://developer.rackspace.com/docs/portal-onboarding-guide/tickets/ 301
 /support/how-to/assemble-rackspace-email-webmail-and-outlook-web-access-owa-login-widget/  /how-to/article-retired/ 404
 /support/how-to/introduction-to-mailgun-email-automation/ /how-to/article-retired/ 404
 /support/how-to/serving-your-domain-from-a-rackspace-cloud-server/  /how-to/serve-your-domain-from-a-rackspace-cloud-server/  404
@@ -139,6 +162,24 @@
 /how-to/article-retired/  /support/how-to/article-retired/   301
 
 # Specific 404 Redirects
+
+/support/how-to/early-adopters-add-and-edit-archive-users-in-cloud-office/  /how-to/add-and-edit-archive-users-in-cloud-office/  404
+/how-to/add-and-edit-archive-users-in-cloud-office/  /support/how-to/add-and-edit-archive-users-in-cloud-office/  301
+
+/support/how-to/early-adopters-create-an-archive-audit-report/  /how-to/create-an-archive-audit-report/  404
+/how-to/create-an-archive-audit-report/  /support/how-to/create-an-archive-audit-report/  301
+
+/support/how-to/early-adopters-create-an-archive-search/  /how-to/create-an-archive-search/  404
+/how-to/create-an-archive-search/  /support/how-to/create-an-archive-search/  301
+
+/support/how-to/early-adopters-export-archive-search-results-in-cloud-office/  /how-to/export-archive-search-results-in-cloud-office/  404
+/how-to/export-archive-search-results-in-cloud-office/  /support/how-to/export-archive-search-results-in-cloud-office/  301
+
+/support/how-to/early-adopters-manage-archive-search-results/  /how-to/manage-archive-search-results/  404
+/how-to/manage-archive-search-results/  /support/how-to/manage-archive-search-results/  301
+
+/support/how-to/early-adopters-set-an-archiving-retention-policy/  /how-to/set-an-archiving-retention-policy/  404
+/how-to/set-an-archiving-retention-policy/  /support/how-to/set-an-archiving-retention-policy/  301
 
 /support/how-to/managing-your-server-resizing-standard-and-general-purpose-servers/  /how-to/resize-standard-and-general-purpose-servers/  404
 /how-to/resize-standard-and-general-purpose-servers/  /support/how-to/resize-standard-and-general-purpose-servers/  301
@@ -438,11 +479,9 @@
 /support/how-to/administrator-management-cloud-office-control-panel/  /how-to/manage-email-administrators-with-the-cloud-office-control-panel/ 404
 /how-to/manage-email-administrators-with-the-cloud-office-control-panel/  /support/how-to/manage-email-administrators-with-the-cloud-office-control-panel/  301
 
-/support/how-to/rackspace-billing-faq/  /how-to/account-management-faq/ 404
-/how-to/account-management-faq/  /support/how-to/account-management-faq/  301
 
-/support/how-to/when-am-i-billed-for-my-account/  /how-to/account-management-faq/ 404
-/how-to/account-management-faq/  /support/how-to/account-management-faq/  301
+/support/how-to/when-am-i-billed-for-my-account/  /how-to/rackspace-billing-faq/ 404
+/how-to/rackspace-billing-faq/  /support/how-to/rackspace-billing-faq/  301
 
 /support/how-to/faq-role-based-access-control-rbac/  /how-to/account-management-faq/ 404
 /how-to/account-management-faq/  /support/how-to/account-management-faq/  301
@@ -462,11 +501,8 @@
 /support/how-to/apache-configuration-on-ubuntu/  /how-to/configure-apache-on-the-ubuntu-operating-system/ 404
 /how-to/configure-apache-on-the-ubuntu-operating-system/  /support/how-to/configure-apache-on-the-ubuntu-operating-system/  301
 
-
 /support/how-to/configuring-mysql-server-on-ubuntu/  /how-to/configure-mysql-server-on-the-ubuntu-operating-system/ 404
 /how-to/configure-mysql-server-on-the-ubuntu-operating-system/  /support/how-to/configure-mysql-server-on-the-ubuntu-operating-system/  301
-
-
 
 /support/how-to/installing-mysql-server-on-ubuntu/  /how-to/install-mysql-server-on-the-ubuntu-operating-system/ 404
 /how-to/install-mysql-server-on-the-ubuntu-operating-system/  /support/how-to/install-mysql-server-on-the-ubuntu-operating-system/  301

@@ -24,4 +24,4 @@ Outlook 2013 for Windows&reg; lets you choose how much email to keep in the cach
 For more information, see the Microsoft support article,
 [Only a subset of your Exchange mailbox items are synchronized in Outlook 2013](https://support.microsoft.com/kb/2733062).
 
-We do not recommend using Cached Exchange Mode as a data backup solution as things can become corrupted and unusable. Rackspace offers an [Email Archiving](how-to/rackspace-email-archiving/) solution, which offsets the risk of relying on a local cache backup.
+We do not recommend using Cached Exchange Mode as a data backup solution as things can become corrupted and unusable. Rackspace offers an [Email Archiving](/support/how-to/rackspace-email-archiving/) solution, which offsets the risk of relying on a local cache backup.

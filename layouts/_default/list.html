@@ -1,7 +1,8 @@
 {{- define "main" -}}
 <main id="post-container" class="how-to-wrapper">
+    {{- partial "components/search-modal" . -}}
     {{- partial "components/announcement" . -}}
-    {{- partial "components/banner" . -}}
+    <!-- {{- partial "components/banner" . -}} -->
     {{- if or (eq .Params.Type "product") (eq .Params.Type "article") -}}
     <div class="container">
         <div class="row">
@@ -20,7 +21,7 @@
                 </div>
                 {{ .Content }}
                 {{- partial "components/share-bar" . -}}
-                {{- partial "components/cta/basic" . -}}
+
                 {{- partial "components/legal-footer" . -}}
             </div>
         </div>
@@ -30,3 +31,4 @@
     {{- end -}}
 </main>
 {{- end -}}
+

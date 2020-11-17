@@ -7,7 +7,7 @@
   {{- partial "head" . -}}
   {{- block "json-ld" . -}}
   {{/* This is where schema.org schemas get rendered for Google structured data */}}
-  {{- partial "seo/json-ld/organization" . -}}
+  {{- partial "seo/json-ld/index" . -}}
   {{- end -}}
   {{- end -}}
 </head>
@@ -38,10 +38,5 @@
   {{- partial "qualtrics-script" . -}}
   {{- end -}}
 
-  {{- block "search" . -}}
-  {{/* Use this block to override the search for any layout */}}
-  {{- partial "components/search" . -}}
-  {{- end -}}
 </body>
-
 </html>

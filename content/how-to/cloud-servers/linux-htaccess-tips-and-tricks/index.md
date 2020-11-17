@@ -295,7 +295,7 @@ following directives:
 recommend that you use PHP's include or require statements, or use an inline
 frame, as shown in the following example:
 
-    <html> <head></head> <body> <iframe src="/how-to/test.php"> </iframe> </body> </html>
+    <html> <head></head> <body> <iframe src="/support/how-to/test.php" title="test"> </iframe> </body> </html>
 
 ### Stop PHP scripts from executing in a directory
 

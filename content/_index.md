@@ -6,6 +6,7 @@ weight: 4
 outputs:
 - HTML
 - RSS
+- Algolia
 type:
 product:
 product_url:
@@ -21,5 +22,5 @@ cta:
   calls_to_action: []
 private: false
 aliases: []
-slug: '/how-to'
+slug: '/support/how-to'
 ---

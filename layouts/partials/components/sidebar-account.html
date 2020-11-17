@@ -1,0 +1,40 @@
+<div class="side-how-to sticky">
+    <div class="row">
+        <div class="col-sm-12">
+            <a class="home-link" href="/support/how-to/"><i class="fa fa-home"></i>How–To Home</a>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>{{- .Params.Product -}}</h3>
+        </div>
+    </div>
+    {{- if or (eq .Params.Product "undefined") (eq .Params.Product "General") (eq .Params.Product "Getting Started with Hosted Email") (eq .Params.Product "Getting Started with Public Cloud") -}}
+        <div></div>
+    {{- else -}}
+    <div class="row">
+        <div class="col-sm-12">
+            <ul class="area">
+                <li id="acc-man" class="link"><a href="/support/how-to/{{ .Params.Product_url }}" onclick="clickForActive(event);">Introduction</a></li>
+                <li id="acc-faq" class="link"><a href="/support/how-to/{{ .Params.Product_url }}-faq" onclick="clickForActive(event);">FAQ</a></li>
+                <li id="acc-all" class="link"><a href="/support/how-to/{{ .Params.Product_url }}-all-articles" onclick="clickForActive(event);">All Articles</a></li>
+            </ul>
+        </div>
+    </div>
+    {{- end -}}
+    <hr />
+    <div class="row">
+        <div class="col-sm-12">
+            <button class="button-wp">
+                <a href="https://github.com/rackerlabs/support-how-to/edit/master/content/{{ .Path }}"><i
+                        class="fa fa-github"></i>Edit this article</a>
+            </button>
+        </div>
+        <div class="col-sm-12">
+            <button class="button-cart">
+                <a class="active" id="side-cloud" href="https://cart.rackspace.com/cloud">Buy Now</a>
+            </button>
+        </div>
+    </div>
+</div>

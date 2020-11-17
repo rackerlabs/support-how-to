@@ -29,7 +29,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 1. 	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
 
-2.  From the left menu, select **Products**, and then select **Product Catalog**.
+2.  From the left menu, select **Products**, and then select **Business Catalog**.
 
 3.  Select a plan and click **Add Product**. You can learn more about each license by clicking on the arrow next to the details. To compare Office 365 subscriptions offered by Rackspace, see [Office 365 - Pick your plan](https://www.rackspace.com/office-365/pick-your-plan).
 

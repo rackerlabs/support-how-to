@@ -7,8 +7,6 @@ created_date: '2012-03-23'
 created_by: Rackspace Support
 last_modified_date: '2018-10-25'
 last_modified_by: Cat Lookabaugh
-product: Cloud Servers
-product_url: cloud-servers
 ---
 
 The best way to communicate with Rackspace support technicians is to create a
