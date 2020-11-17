@@ -5,7 +5,7 @@ import Hit from './Hit';
 
 const Stats = ({ nbHits }) => (
   <p className="statsLine">
-    Found {nbHits} results found
+    {nbHits} search results found
   </p>
 );
 
