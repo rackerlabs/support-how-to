@@ -1,20 +1,20 @@
 ---
-permalink: "sjc2-data-center-relocation-managed-customer-faq"
-audit_date:
+permalink: "sjc2-data-center-relocation"
+audit_date: '2020-11-16'
 type: article
-title: "SJC2 data center relocation managed customer FAQ"
-created_date: '2020-10-06'
-created_by: Tom Hallam
-last_modified_date: '2020-10-06'
+title: "SJC2 data center relocation"
+created_date: '2020-11-16'
+created_by: Sarah Wellburn
+last_modified_date: '2020-11-16'
 last_modified_by: Cat Lookabaugh
 product: General
 product_url: general
 ---
 
-### Overview
+### Overview 
 
 Rackspace Technology brought the SJC2 data center, located in downtown San Jose,
-under the Rackspace banner with the Datapipe acquisition in 2017. It is a 9 MW
+under the Rackspace banner with the Datapipe acquisition in 2017. It is a nine MW
 facility comprising 11 data halls covering 65,000 square feet of raised-floor
 space. The lease for SJC2 expires in 2022, and the landlord has advised that
 they will not renew the lease because they are planning to sell the building.
@@ -26,10 +26,11 @@ This document relates specifically to customers on managed or shared
 infrastructure. If you are a colocation customer, request a copy or see the
 [SJC2 data center relocation colocation customer FAQ](/support/how-to/sjc2-data-center-relocation-colocation-customer-faq).
 
-### When is the relocation expected to take place?
+
+### When is the relocation expected to take place? 
 
 Rackspace assigns all customers on managed infrastructure to a move group and
-allocates each group a move date between April and November 2021. The scheduled
+allocates each group a move date between June and August 2021. The scheduled
 move for a group runs in a maintenance window starting on either a Friday or
 Saturday night and finishes the following morning. We plan to keep the
 maintenance window below 12 hours. We will confirm the exact timings after we
@@ -37,10 +38,10 @@ allocate the move groups at least 60 days in advance of the move date.
 
 ### Will there be an interruption to service?
 
-Yes, we are physically migrating your environment, which means that it will be
-offline while we move it to the new location.
+Yes, we are physically migrating your environment, which means that all devices will be
+offline while we move them to the new location.
 
-### How will you carry out the migration?
+### How will the migration be carried out?
 
 We use a physical migration method. We power down the source data center
 devices, remove them from the cabinets, and physically transport them to the
@@ -54,12 +55,12 @@ stages for the move are as follows:
 - During this period, Rackspace performs non-intrusive audits on your
   environment to ensure that the information in our system is up to date and to
   get a better understanding of how it might perform when it is shut down and
-  started up again. The output from these audits might require input from you.
+  restarted. The output from these audits might require input from you.
   We also replicate data on our shared storage platforms to the destination data
   center.
 - On the night of the migration, shortly before the maintenance window is due
   to start, we run a final audit, place all devices under alert suppression,
-  and make any required changes to Rackspace management IPs. If you ask Rackspace
+  and make any required changes to Rackspace management IPs. If you asked Rackspace
   to shut down your devices in a specific order, we do this shortly before the
   maintenance window officially opens.
 - At the start of the maintenance window, Rackspace runs an automated script to
@@ -73,8 +74,8 @@ stages for the move are as follows:
   any custom testing that all parties agreed to before the maintenance. You
   should also be prepared to carry out tests after the move completes. You can
   request that we contact you after we finish our tests.
-
-### Will there be any IP address changes?
+  
+### Will there be any IP changes?
 
 In most cases, we don't need to change public IP addresses. In rare situations
 where this might be required, we will work with you to minimize the impact of
@@ -88,22 +89,31 @@ we have access. If you have devices that use managed backup that Rackspace
 cannot access, we can give you the new IP information so that you can make the
 necessary changes.
 
-### My environment is sensitive during shutdown and startup. Can you help?
+### My environment is backed up using Rackspace’s backup service. Will this continue after the migration?
+
+As part of this migration, we switch from NetBackup to Commvault-managed backup services.
+Before the migration, we notify you of our intention to install the Commvault agent on all
+backed-up servers. The installation of the agent is non-disruptive. However, in some cases,
+we will need to reboot the device. We will not reboot any servers without your permission.
+Our goal is to have your backups running on Commvault before the migration. 
+
+### My environment is sensitive to the way it is handled during a shutdown and start up. Can you help?
 
 Yes, if you tell us the order in which we should shut down and start up devices,
 we can follow that order on the night of your move. Note, however, that if you
 need us to shut down the devices in a specific order, we might need to start
-the process before the standard maintenance window begins. If you prefer to
+the process before the standard maintenance window begins. It is also likely that a complex
+start-up order could extend the downtime you experience. If you prefer to
 shut down your devices or want to start them, we can agree to this in advance
 of the move.
 
-### My data is replicated to another location. How will the migration affect the replication?
+### My data is replicated to another location. How will the migration affect the replication? 
 
 It depends on the replication method that you have set up. We recommend that
 you tell us about any replication or log shipping so we can work with you to
 ensure that it is re-established following the move.
 
-### I have devices within my managed environment to which Rackspace has no access. How will these be migrated?
+### I have devices within my managed environment that Rackspace does not have access to. How will these be migrated?
 
 Because we do not usually have access to your colocation devices, you are
 responsible for shutting these down. If you take no action, our standard
@@ -125,7 +135,7 @@ We create the following tickets in the customer portal:
 4. On the move night, we create a ticket to keep you updated during the
    maintenance window.
 
-### What if I need to make changes to my environment between now and the move date?
+### What if I need to make changes to my environment between now and the move date? 
 
 Approximately one month out from your move date, we perform a non-intrusive
 audit on your environment and then again two weeks later. After we run the
@@ -135,13 +145,13 @@ platforms. We will remind you of the change freeze and the items included in
 that freeze nearer to the time of your maintenance window. Changes to your
 applications and data are not included in the freeze.
 
-### I have more than one environment with Rackspace. Will they all be migrated at the same time?
+### I have more than one environment in this data center. Will they all be migrated at the same time?
 
 We plan to move all devices within an account in the same move group, but this
 might not be possible without some configuration changes in some cases. In these
 instances, we will work with you on the best way to move your environments.
 
-### How do I prepare for the move?
+### How do I prepare for the move?   
 
 Rackspace uses all our experience with data-center migration projects to help
 support you in the run-up to and during the migration. We have a dedicated
@@ -150,7 +160,9 @@ This team runs audits on your servers before the migration to identify and
 resolve potential migration issues in advance. Ensure that you work with the
 migration team and your account team to resolve any issues in a timely manner.
 If the identified issues are not resolved, we might have to perform a manual
-shutdown in advance of the official maintenance window start time.
+shutdown in advance of the official maintenance window start time. It could also cause 
+issues with bringing the environment back online, causing us to overrun the maintenance
+window.
 
 The team works with you and your account team to identify and agree to any
 special requirements you might have for pre-migration and post-migration
@@ -176,11 +188,15 @@ night:
   applications and services start correctly. If you need Rackspace to take care
   of this, raise a request through the customer portal.
 
-### Will I continue to receive the same services as I currently receive?
 
-Yes, you will continue to receive the same services.
+### Will I continue to receive the same services as I currently receive? 
 
-### We have a leased line that terminates in SJC2. What will happen to this?
+Yes, you will continue to receive the same services, except for managed backup services, 
+as described in the
+**My environment is backed up using Rackspace’s backup service. Will this continue after the migration?**
+section.
+
+### We have a leased line that terminates in SJC2. What happens to this? 
 
 If Rackspace provided the leased line, we take care of this and work with you
 to schedule the change. If not, you must work with your leased line provider to
@@ -189,11 +205,15 @@ can be significant, so we advise you to reach out to your provider at your
 earliest convenience. Your account team can provide the pertinent information
 relating to the new data center details that your telecoms provider will require.
 
+Some customers might decide to take this as an opportunity to review the need for a
+traditional dedicated link and consider alternative options. The Rackspace RackConnect
+Global (RCG) product is one such product that might suit your needs. If you want more
+information on the RCG product please contact your Customer Success Manager. 
+
 ### Who should I contact with questions about the relocation?
 
 Contact us in one of the following ways:
 
-- Reach out to your Rackspace account team.
-- Update one of the ticket notifications that we will publish in the customer portal.
-
+- Reach out to your Rackspace account team 
+- Update one of the ticket notifications that we will publish in the Customer Portal. 
 
