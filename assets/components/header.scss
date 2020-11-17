@@ -437,7 +437,6 @@ $header-height: 5rem;
   background-color: $color-white;
 }
 
-.buttons-nav-items,
 .main-nav-items {
   margin: 1rem;
 }
@@ -447,7 +446,7 @@ $header-height: 5rem;
 
   .buttons-nav-item {
     display: flex;
-    margin: 1rem;
+    margin: 0.5rem;
     cursor: pointer;
 
     ul {
@@ -464,11 +463,11 @@ $header-height: 5rem;
       }
     }
 
-    // &:hover {
-    //   ul {
-    //     display: block;
-    //   }
-    // }
+    &:hover {
+      ul {
+        display: block;
+      }
+    }
   }
 
   .buttons-nav-item {
