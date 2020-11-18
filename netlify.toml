@@ -9,6 +9,7 @@
 
 [context.production]
   publish = "public"
+  HUGO_ENV = "production"
   command = "npm run build"
 
 [context.deploy-preview]
