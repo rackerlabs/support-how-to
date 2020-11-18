@@ -1,22 +1,21 @@
 ---
-permalink: manage-public-folders-in-the-control-panel-for-hosted-exchange-2007-and-2010/
-audit_date:
-title: Manage public folders in the control panel for Hosted Exchange 2007 and 2010
+permalink: manage-public-folders-in-the-control-panel-for-hosted-exchange-2010/
+audit_date: '2020-11-18'
+title: Manage public folders in the control panel for Hosted Exchange 2010
 type: article
 created_date: '2014-12-12'
 created_by: Theresa Kinney
-last_modified_date: '2016-02-01'
-last_modified_by: Rose Coste
+last_modified_date: '2020-11-18'
+last_modified_by: Rose Morales
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-You can add public folders to your Hosted Microsoft Exchange 2007 or
+You can add public folders to your Hosted Microsoft Exchange
 2010 domain. Each Exchange domain is allotted 25 folders, with up to 250
 MB of storage per folder. You can manage your public folders within the
-[Cloud Office Control
-Panel](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f). You can
-create, rename, delete, and mail-enable folders directly in the control
+[Cloud Office Control Panel](https://cp.rackspace.com/). You can
+create, rename, delete, and mail-enabled folders directly in the control
 panel.
 
 To begin working with public folders, navigate to the Microsoft Exchange
@@ -32,13 +31,13 @@ public folders in the Cloud Office Control Panel:
 When you click on **Folders**, a page that lists all of your public
 folders is displayed.
 
-The Folders page displays the following information about the public
+The **Folders** page displays the following information about the public
 folders that you have created:
 
--   Folder name
--   Public folder type (Mail, Contact, Calendar, and so on)
--   Whether the folders are mail-enabled
--   The amount of storage that the folders are using
+- Folder name
+- Public folder type (Mail, Contact, Calendar, and so on)
+- Whether the folders are mail-enabled
+- The amount of storage that the folders are using
 
 {{<image src="Basic_a.png" alt="" title="">}}
 
@@ -47,35 +46,35 @@ folders that you have created:
 You click the gear icons on the Public Folders page to manage your
 folders. Clicking the gear icon displays a menu from which you can
 choose to rename folders, edit mail settings, create subfolders, or
-delete a specific folder. Additionally, on this page you can bulk delete
+delete a specific folder. Additionally, on this page, you can bulk delete
 folders, create new folders, and manage different components of the
 folder.
 
-### Create public folder
+### Create a public folder
 
 As an admin, you can create a new folder by performing the following
 steps:
 
-1.  Click **Create Folder**.
+1. Click **Create Folder**.
     A popup dialog box is displayed.
-2.  Name the folder.
+2. Name the folder.
     This is the name that will appear in the list of folders.
-3.  Select the type of folder.
-4.  To mail-enable the folder, select the **Enabled** check box.
-5.  Specify or edit the display name.
-6.  Specifiy or edit the email address for the folder.
-7.  Specify or edit the reply-to address.
-8.  Click **Save** to create the folder.
- 
+3. Select the type of folder.
+4. To mail-enabled the folder, select the **Enabled** check box.
+5. Specify or edit the display name.
+6. Specify or edit the email address for the folder.
+7. Specify or edit the reply-to address.
+8. Click **Save** to create the folder.
+
     {{<image src="Create_a.png" alt="" title="">}}
 
 ### Delete public folder
 
-1.  In the list on the **Folders** page, click the gear icon next to the
+1. In the list on the **Folders** page, click the gear icon next to the
     folder that you want to delete.
     {{<image src="delete_a.png" alt="" title="">}}
-2.  From the menu, select **Delete**.
-3.  In the confirmation pop up box, click **Delete Folder**, to
+2. From the menu, select **Delete**.
+3. In the confirmation pop up box, click **Delete Folder**, to
     permanently delete the folder.
 
 ### Bulk-delete public folders
@@ -83,24 +82,24 @@ steps:
 From the list of public folders, you can delete multiple folders at once
 (bulk delete).
 
-1.  Select the check box to the left of each folder that you want
+1. Select the check box to the left of each folder that you want
     to delete. If you want to delete all the folders in the list, select
     the check box next to the **Folder Name** label at the top of
     the list.
-2.  Click the gear icon next to the **Folder Name** label at the top of
+2. Click the gear icon next to the **Folder Name** label at the top of
     the list and select **Delete**.
     The delete dialog pops up to confirm that you are about to delete
     the selected folders.
     {{<image src="bulkdelete2.png" alt="" title="">}}
-3.  In the confirmation popup box, click **Delete Folders** to
+3. In the confirmation popup box, click **Delete Folders** to
     permanently delete the selected folders.
 
 ### Rename public folder
 
-1.  In the list of folders on the Folders page, click the gear icon next
+1. In the list of folders on the **Folders** page, click the gear icon next
     to the folder that you want to rename.
-2.  Select **Rename**, and then enter a new name for the folder.
-3.  Click **Rename**.
+2. Select **Rename**, and then enter a new name for the folder.
+3. Click **Rename**.
     {{<image src="rename_a.png" alt="" title="">}}
 
 ### View and create subfolders (child folders)
@@ -120,36 +119,36 @@ You can create a subfolder in several ways:
 
 #### Create a subfolder from the parent folder's page
 
-1.  Click the gear icon next to the folder for which you want to
+1. Click the gear icon next to the folder for which you want to
     create subfolders.
-2.  Click **Create Subfolder**.
-3.  In the **Folder Name** field, specify a name for the subfolder.
-4.  Select the type of folder.
-5.  To mail-enable the folder, select the **Enabled** check box.
-6.  Specify or edit the display name.
-7.  Specify or edit the email address for the folder.
-8.  Select or edit the reply-to address.
-9.  Click **Save** to create the folder.
+2. Click **Create Subfolder**.
+3. In the **Folder Name** field, specify a name for the subfolder.
+4. Select the type of folder.
+5. To mail-enabled the folder, select the **Enabled** check box.
+6. Specify or edit the display name.
+7. Specify or edit the email address for the folder.
+8. Select or edit the reply-to address.
+9. Click **Save** to create the folder.
 
 #### Create a subfolder from the public folder listing page
 
-1.  Click the gear icon.
-2.  Click **Create Subfolder**.
-3.  In the **Folder Name** field, specify a name for the subfolder.
-4.  Select the type of folder.
-5.  Select whether or not this will be a mail enabled folder.
-6.  Click **Save** to create the folder.
+1. Click the gear icon.
+2. Click **Create Subfolder**.
+3. In the **Folder Name** field, specify a name for the subfolder.
+4. Select the type of folder.
+5. Select whether or not this will be a mail enabled folder.
+6. Click **Save** to create the folder.
 
 #### Create a subfolder from the subfolder listing page
 
-1.  In the folder list, click the name of the folder for which you want
+1. In the folder list, click the name of the folder for which you want
     to create a subfolder.
     The subfolder view is displayed
-2.  Click **Create Subfolder**.
-3.  In the **Folder Name** field, specify a name for the subfolder.
-4.  Select the type of folder.
-5.  To mail-enable the folder, select the **Enabled** check box.
-6.  Click **Save** to create the folder.
+2. Click **Create Subfolder**.
+3. In the **Folder Name** field, specify a name for the subfolder.
+4. Select the type of folder.
+5. To mail-enabled the folder, select the **Enabled** check box.
+6. Click **Save** to create the folder.
 
 {{<image src="subfolders2_a.png" alt="" title="">}}
 
@@ -163,7 +162,7 @@ You can find a specific folder in the following ways:
   by using the **Search Folders** box. For example, if you have a
   subfolder called **Sales Force** but you can recall only that it has
   the word *sales* in it, you can search for the term *sales*. The
-  application returns all folders with the word *sales* in their name.
+  application returns all folders with the word *sales*.
 
 {{<image src="search.png" alt="" title="">}}
 
@@ -172,16 +171,11 @@ You can find a specific folder in the following ways:
 You can edit the mail settings for a folder by performing the following
 steps.
 
-1.  Click the gear icon next to the folder name.
-2.  From the menu, select **Edit Email Settings**.
-3.  If you want to mail-enable the folder, select
+1. Click the gear icon next to the folder name.
+2. From the menu, select **Edit Email Settings**.
+3. If you want to mail-enabled the folder, select
     the **Enabled** check box.
-4.  Specify or edit the display name.
-5.  Specify or edit the email address for the folder
-6.  Select or edit the reply-to address.
-7.  Click **Save**.
-
-### Where to go from here
-
-See [Working with public folders through Outlook for Exchange 2007 and
-2010](/support/how-to/working-with-public-folders-through-outlook-for-exchange-2007-and-2010).
+4. Specify or edit the display name.
+5. Specify or edit the email address for the folder
+6. Select or edit the reply-to address.
+7. Click **Save**.
