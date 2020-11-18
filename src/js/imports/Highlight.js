@@ -1,5 +1,8 @@
 import React from 'react';
 import { connectHighlight } from 'react-instantsearch-dom';
+const Entities = require('html-entities').AllHtmlEntities;
+
+const entities = new Entities();
 
 const Highlight = ({ highlight, attribute, hit }) => {
   const parsedHit = highlight({
@@ -13,9 +16,9 @@ const Highlight = ({ highlight, attribute, hit }) => {
       {parsedHit.map(
         (part, index) =>
           part.isHighlighted ? (
-            <mark key={index}>{part.value}</mark>
+            <mark key={index}>{entities.decode(part.value)}</mark>
           ) : (
-            <span key={index}>{part.value}</span>
+            <span key={index}>{entities.decode(part.value)}</span>
           )
       )}
     </span>
