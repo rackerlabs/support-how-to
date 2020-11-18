@@ -1,0 +1,100 @@
+/* Base button styling */
+
+.button {
+  background-color: $color-grey;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 510;
+  line-height: 1em;
+  padding: 1rem 2rem;
+  text-align: center;
+  transition: all 0.3s cubic-bezier(0.694, 0, 0.335, 1);
+
+  &:hover {
+    background-color: $color-light-grey;
+  }
+
+  &:active {
+    background-color: $color-light-grey;
+  }
+
+  /* Style */
+  &.primary {
+    background-color: #5aaa28;
+    color: $color-white;
+
+    &:hover {
+      background-color: color(#5aaa28 w(+25%) s(+10%));
+    }
+  }
+
+  &.secondary {
+    background-color: #666;
+    color: #ffffff;
+
+    &:hover {
+      background-color: #666;
+      color: $color-white;
+    }
+  }
+
+  &.black {
+    background-color: $color-black;
+    color: $color-white;
+
+    &:hover {
+      background-color: $color-dark;
+    }
+
+    &:active {
+      background-color: $color-medium-dark;
+    }
+  }
+
+  /* Button sizes */
+  &.extra-small {
+    font-size: 11px;
+    padding: 0.25rem;
+
+    &.rounded {
+      border-radius: 1rem;
+    }
+  }
+
+  &.small {
+    font-size: 14px;
+    padding: 0.75rem 1.25rem;
+
+    &.rounded {
+      border-radius: 1.5rem;
+    }
+  }
+
+  &.big {
+    padding: 1.25rem 2rem;
+
+    &.rounded {
+      border-radius: 1.5rem;
+    }
+  }
+}
+
+.text-cta {
+  margin-top: 30px;
+}
+
+.text-button {
+  background-color: transparent;
+  border-bottom: 1px solid currentColor;
+  font-size: 16px;
+  padding: 0 0 0.25em;
+  text-decoration: none;
+  transition: border 0.3s cubic-bezier(0.694, 0, 0.335, 1);
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
