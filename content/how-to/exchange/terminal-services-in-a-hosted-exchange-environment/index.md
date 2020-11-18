@@ -1,12 +1,12 @@
 ---
 permalink: terminal-services-in-a-hosted-exchange-environment/
-audit_date:
+audit_date: '2020-11-18'
 title: 'Terminal Services in a Hosted Exchange Environment'
 type: article
 created_date: '2013-11-12'
 created_by: Milton Prado
-last_modified_date: '2016-01-29'
-last_modified_by: Rose Coste
+last_modified_date: '2020-11-18'
+last_modified_by: Rose Morales
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -40,8 +40,7 @@ environment and therefore something Email and Apps does not support or
 encourage.
 
 If you still feel that Terminal Services may be a good fit for your setup,
-we recommend researching the topic at [Microsoft's
-TechNet](https://technet.microsoft.com/en-us/default.aspx) site for
+we recommend researching the topic at [Microsoft's TechNet](https://technet.microsoft.com/en-us/default.aspx) site for
 further information, including the
 [Plan for Outlook 2010](https://technet.microsoft.com/en-us/library/ff394406.aspx)
 article.
