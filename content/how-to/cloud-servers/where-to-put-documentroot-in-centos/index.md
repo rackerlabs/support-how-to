@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-The default location for the document root is **/var/www/html** when Apache is first installed on CentOS&reg;.
+The default location for the document root is **/var/www/html** when you first install Apache&reg; on CentOS&reg;:
 
          ~]# httpd -S 2>1
          VirtualHost configuration:
@@ -24,7 +24,7 @@ The default location for the document root is **/var/www/html** when Apache is f
          ServerRoot: "/etc/httpd"
          Main DocumentRoot: "/var/www/html" <---default location
 
-This is set in file **/etc/httpd/conf/httpd.conf**:
+Set this location in file **/etc/httpd/conf/httpd.conf**:
 
          ]# grep -i documentroot httpd.conf 
 
@@ -32,7 +32,7 @@ This is set in file **/etc/httpd/conf/httpd.conf**:
          DocumentRoot "/var/www/html"
              # access content that does not live under the DocumentRoot.
 
-   **Note**: You can choose another directory if desired (ex. `/home/example.com/public_html/`).
+   **Note**: You can choose another directory if desired, such as **/home/example.com/public_html/**.
 
 You can also set a document root for individual virtual hosts:
 
@@ -48,18 +48,17 @@ You can also set a document root for individual virtual hosts:
                </Directory>
          </VirtualHost>
 
-  **Note**: The directories set in the virtual hosts must be located under the main DocumentRoot. If your DocumentRoot is /var/www/, then the directories will be set behind it.
-  Example:
+  **Note**: The directories for the virtual hosts must be located under the main DocumentRoot. If your DocumentRoot is **/var/www/**, 
+  then the directories are set under it, as shown in the following example:
 
          /var/www/example.com/
 
-For any changes to these files, please check syntax restart Apache with the following command:
+If you change these files, restart Apache with the following commands:
 
          httpd -t
          service httpd reload
 
-If hosting multiple vhosts, it will be best to organize and separate each document root.
-Example:
+If you have multiple vhosts, organize and separate each document root, as shown in the folloiwng example:
 
          /var/www/vhosts/example.com/
          /var/www/vhosts/example2.com/
