@@ -5,10 +5,8 @@ title: 'Manually configure Entourage for email hosted on Exchange 2010'
 type: article
 created_date: '2012-02-28'
 created_by: Rackspace Support
-last_modified_date: '2016-01-28'
-last_modified_by: Rose Coste
-product: Microsoft Exchange
-product_url: exchange
+last_modified_date: '2020-11-17'
+last_modified_by: Rose Morales
 ---
 
 These instructions describe how to set up your Microsoft Exchange 2010
