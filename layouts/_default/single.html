@@ -1,5 +1,5 @@
 {{- define "main" -}}
-<main class="how-to-wrapper">
+<div class="how-to-wrapper">
     {{- partial "components/announcement" . -}}
     {{- partial "components/search-modal" . -}}
     <div class="container">
@@ -24,11 +24,10 @@
                 <hr />
                 {{- .Content -}}
                 {{- partial "components/share-bar" . -}}
-                {{- partial "components/cta/basic" . -}}
                 {{- partial "components/legal-footer" . -}}
             </div>
         </div>
     </div>
     </div>
-</main>
+</div>
 {{- end -}}

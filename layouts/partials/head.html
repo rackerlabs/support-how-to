@@ -37,21 +37,23 @@
 {{ else if .Site.Params.keywords }}
 <meta property="og:keywords" content="{{ .Site.Params.keywords }}">
 {{ end }}
-{{- if eq (getenv "HUGO_ENV") "production" | or (eq $.Site.Params.env "production") -}}
+<!-- {{- if eq (getenv "HUGO_ENV") "production" | or (eq $.Site.Params.env "production") -}}
 <meta name="robots" content="index, follow" />
 {{- else -}}
 <meta name="robots" content="noindex, nofollow" />
-{{- end -}}
+{{- end -}} -->
+<meta name="robots" content="index, follow" />
 <title>{{ $title }}</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.css" />
 {{ $style := resources.Get "styles.scss" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" emotion="🤩">
 <!-- Additional Styles for the App -->
 <link rel="stylesheet" href="/assets/main.css">
 
-<link rel="apple-touch-icon" sizes="180x180" href="https://docs-support-how-to.netlify.app//favicons/favicon.ico" />
-<link rel="icon" type="image/png" href="https://docs-support-how-to.netlify.app//favicons/favicon.ico" sizes="32x32" />
-<link rel="icon" type="image/png" href="https://docs-support-how-to.netlify.app//favicons/favicon.ico" sizes="16x16" />
-<link rel="mask-icon" href="https://docs-support-how-to.netlify.app//favicons/favicon.ico" color="#00c7b7" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon.ico" />
+<link rel="icon" type="image/png" href="/favicons/favicon.ico" sizes="32x32" />
+<link rel="icon" type="image/png" href="/favicons/favicon.ico" sizes="16x16" />
+<link rel="mask-icon" href="/favicons/favicon.ico" color="#00c7b7" />
 {{- with .OutputFormats.Get "RSS" -}}
 <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $title }}" />
 <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $title }}" />
@@ -69,3 +71,15 @@ this.start=function(){var t=this;"complete"!==document.readyState?window.addEven
 try{(new g(100,"r","QSI_S_ZN_bqI2UdYr6jaMxMh","https://znbqi2udyr6jamxmh-rackspacecx.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_bqI2UdYr6jaMxMh")).start()}catch(i){}})();
 </script><div id='ZN_bqI2UdYr6jaMxMh'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
 <!--END WEBSITE FEEDBACK SNIPPET-->
+
+<!-- Google Analytics -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+    ga('create', 'UA-35639070-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
