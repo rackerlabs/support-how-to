@@ -1,13 +1,10 @@
 import React from 'react';
 import Highlight from './Highlight';
 import PropTypes from 'prop-types';
-import moment from 'moment';
-const Entities = require('html-entities').AllHtmlEntities;
-import { Snippet } from 'react-instantsearch-dom';
+import Snippet from './Snippet';
 
 
 const Hit = ({ hit }) => {
-  const entities = new Entities();
   if (hit.product_url != null && hit.created_by != null && hit.created_by != '' && hit.created_date != null && !hit.permalink.includes('all-articles')) {
     return (
       <div className="row">
