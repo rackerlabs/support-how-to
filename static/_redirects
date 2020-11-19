@@ -577,4 +577,4 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 # Favicon Redirects
 
-/favicons/favicon.ico   https://docs-support-how-to.netlify.app/favicons/favicon.ico
+https://docs.rackspace.com/favicons/favicon.ico   https://docs-support-how-to.netlify.app/favicons/favicon.ico  200!
