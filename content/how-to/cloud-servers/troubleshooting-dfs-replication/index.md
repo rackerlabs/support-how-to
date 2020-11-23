@@ -1,93 +1,95 @@
 ---
 permalink: troubleshooting-dfs-replication/
-audit_date:
+audit_date: '2020-11-23'
 title: Troubleshooting DFS Replication
 type: article
 created_date: '2020-11-20'
 created_by: Steven Mondragon-DeVoss
-last_modified_date:
-last_modified_by:
+last_modified_date: '2020-11-23'
+last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
----
 
-*This article is applicable to the following Windows Server versions: 2008 and up*
+**Note**: This article applies to the following Windows Server 2008 version and up.
 
 Distributed File System Replication (DFSR) is used to replicate data from DFS namespaces across a group of servers which are called a replication group. This will allow data to stay synchronized on multiple servers. This document is used to aid in troubleshooting synchronization problems.
-
-# Check for Backlogs
+### Check for Backlogs
 
 A. Run a diagnostic report.
 
-1. Start DFS Management
-   For *Server 2012 and later*, Click **Server Manager**, click **Tools**, then click **DFS Management**
-   For *Server 2008 or 2008 R2*, click **Start**, **Administrator Tools**, **DFS Management**
+   1. Start DFS Management.
 
-2. Expand Replication
+      - For Server 2012 and later, Click **Server Manager** > **Tools** > **DFS Management**.
+      - For Server 2008 or 2008 R2, click **Start** > **Administrator Tools** > **DFS Management**.
 
-3. Right-click on the replication group for the namespace
+   2. Expand Replication.
 
-4. Click **Create Diagnostic Report**
+   3. Right-click on the replication group for the namespace.
 
-5. Choose **Next** for the remaining windows of the wizard
+   4. Click **Create Diagnostic Report**.
 
-6. The completed report will open in a browser. You can also find the report under C:\DFSReports.
+   5. Choose **Next** for the remaining windows of the wizard.
 
-B. From an elevated command or powershell prompt, run **DFSDiag /TestDFSIntegrity /DFSRoot:<DFS root path> /Full** and review the output of the results
+   6. The completed report will open in a browser. You can also find the report under `C:\DFSReports`.
 
-# Check for Delays
+B. From an elevated command or powershell prompt, run **DFSDiag /TestDFSIntegrity /DFSRoot:<DFS root path> /Full** and review the output of the results.
 
-A. Confirm the server's network interface card drivers are up to date
+### Check for Delays
+
+A. Confirm the server's network interface card drivers are up to date.
 
 B. Confirm the anti-virus software is aware of the replication and has exclusions set if needed. You can also disable your anti-virus software to confirm if that corrects the issue.
 
-C. Check for bandwidth throttling
+C. Check for bandwidth throttling.
 
-1. Start DFS Management
+   1. Start DFS Management.
 
-1. For *Server 2012 and later*, Click **Server Manager**, click **Tools**, then click **DFS Management**
-   For *Server 2008 or 2008 R2*, click **Start**, **Administrator Tools**, **DFS Management**
+      - For Server 2012 and later, Click **Server Manager** > **Tools** > **DFS Management**.
+      - For Server 2008 or 2008 R2, click **Start** > **Administrator Tools** > **DFS Management**.
 
-2. Expand **Replication**
+   2. Expand **Replication**.
 
-3. Click on the replication group for the namespace
+   3. Click on the replication group for the namespace.
 
-4. Click on the **Connections** tab
+   4. Click on the **Connections** tab.
 
-5. Right click the replication group member and select **Properties**
+   5. right-click the replication group member and select **Properties**.
 
-6. Make sure **"Enable replication"** and **RDC** are checked
+   6. Make sure **"Enable replication"** and **RDC** are checked.
 
-7. Click the **Schedule tab**
+   7. Click the **Schedule tab**.
 
-8. Click **View Schedule**
+   8. Click **View Schedule**.
 
-9. Make sure that the bandwidth usage says *Full*. You can also change the bandwidth throttling to see if there is a difference
+   9. Make sure that the bandwidth usage says *Full*. You can also change the bandwidth throttling to see if there is a difference.
 
 D. Check the *Staging Quota*.
 
-1. The default quota is 4GB
+   1. The default quota is 4GB
 
-2. In **Server Manager**, click **Tools**, then **DFS Management**
+   2. In **Server Manager**, click **Tools**, then **DFS Management**
 
-3. Expand **Replicatoin**
+   3. Expand **Replication**
 
-4. Click on the replication group for the namespace
+   4. Click on the replication group for the namespace
 
-5. Right click each member of the replication group in the **Memberships** tab
+   5. right-click each member of the replication group in the **Memberships** tab
 
-6. Click the **Staging** tab
+   6. Click the **Staging** tab
 
-7. If 4GB is not sufficient, you can increase it.
+   7. If 4GB is not sufficient, you can increase it.
 
-# Check Active Directory
+### Check Active Directory
 
-To verify AD connectivity, open a command or powershell prompt and run the following. This will provide you with the details Active Directory has about DFS including the replication groups and folders it belongs to.
+To verify AD connectivity, open a command or powershell prompt and run the
+following.
+
+**Note**: This will provide you with the details Active Directory has about DFS including the replication groups and folders it belongs to.
 >DFSRDIAG dumpadcfg /member:SERVERNAME
 
---- 
+---
 
-Have the servers check in with AD. This should return "*operation succeeeded*" as a result.
+Have the servers check-in with AD. This should return "*operation succeed*" as a result.
 >DFSRDIAG pollad /member:SERVERNAME
 
 ---
