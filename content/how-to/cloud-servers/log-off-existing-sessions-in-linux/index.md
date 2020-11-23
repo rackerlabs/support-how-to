@@ -1,7 +1,7 @@
 ---
 permalink: log-off-existing-sessions-in-linux/
 audit_date: '2020-11-23'
-title: Log-off-Existing-Sessions-in-Linux/
+title: Log off existing sessions in Linux
 type: article
 created_date: '2020-11-06'
 created_by: James Andrade
@@ -11,9 +11,9 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Note: You have to be root in order to end other users sessions
+**Note**: You have to be root to end other users' sessions.
 
-1. Check current user sessions:
+1. Check current user sessions by using the `w` command:
 
         ~]# w
         17:49:20 up 198 days,  5:23,  3 users,  load average: 0.00, 0.01, 0.05
@@ -22,7 +22,7 @@ Note: You have to be root in order to end other users sessions
         root     pts/0    ord.secure-acces 16:50    0.00s  0.10s  0.02s w
         james    pts/1    ord.secure-acces 17:49    5.00s  0.03s  0.03s -bash
 
-2. Log off user:
+2. Log off a user:
 
         ~]# pkill -KILL -u james
 
