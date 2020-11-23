@@ -1,7 +1,7 @@
 ---
 permalink: determine-dfsr-staging-quota/
 audit_date: '2020-11-23'
-title: Determine DFSR Staging Quota
+title: Determine DFSR staging quota
 type: article
 created_date: '2020-11-20'
 created_by: Steven Mondragon-DeVoss
@@ -11,35 +11,43 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Note**: This article applies to Windows Server 2008 and up versions.
+**Note**: This article applies to Windows Server 2008 and later versions.
 
-Distributed File System Replication (DFSR) is used to replicate data from DFS namespaces across a group of servers which are called a replication group. This will allow data to stay synchronized on multiple servers. This document is used to aid in determining the staging quota size.
+Distributed File System Replication (DFSR) is used to replicate data from DFS namespaces across a group of servers that are called
+a *replication group*. This allows data to stay synchronized on multiple servers. This artivle helps you to determine the staging
+quota size.
 
-# Rule of thumb
+### Rule of thumb
 
-Windows Server 2008 and 2008 R2
+**Windows Server 2008 and 2008 R2**: The staging area quota must be as large as the 32 largest files in the replicated folder.
 
-- The staging area quota must be as large as the 32 largest files in the replicated folder.
+### How to find the largest files
 
-# How to find the largest files
+Perform the following steps in PowerShell&reg;:
 
-Using PowerShell
+1. Run the following to get the names and sizes of the largest 32 files in bytes:
 
-1. Run the following to get the names and sizes of the largest 32 files in bytes.
-		> Get-ChildItem c:\temp -recurse | Sort-Object length -descending | select-object -first 32 | ft name,length -wrap -auto
-2. Run the following to get the total size of the 32 largest files.
-		> Get-ChildItem c:\temp -recurse | Sort-Object length -descending | select-object -first 32 | measure-object -property length –sum
-3. Running the following will be the most useful as it will provide the total size of the 32 largest files in gigabytes.
-		> $big32 = Get-ChildItem c:\temp -recurse | Sort-Object length -descending | select-object -first32 | measure-object -property length –sum<br> $big32.sum /1gb
+       $ Get-ChildItem c:\temp -recurse | Sort-Object length -descending | select-object -first 32 | ft name,length -wrap -auto
+	   
+2. Run the following to get the total size of the 32 largest files:
 
-# Calculate the minimum size required
+       $ Get-ChildItem c:\temp -recurse | Sort-Object length -descending | select-object -first 32 | measure-object -property length –sum
+       
+3. Run the following to provide the total size of the 32 largest files in gigabytes:
 
-From the output of one of the commands above, you will get the following.
-  - Name = file name
-  - Length = size in bytes
-  - One gigabyte = 1073741824 bytes
+       $ $big32 = Get-ChildItem c:\temp -recurse | Sort-Object length -descending | select-object -first32 | measure-object -property length –sum<br> $big32.sum /1gb
 
-Here is an example of the output using the 16 largest files.
+### Calculate the minimum size required
+
+From the output of one of the commands above, you get the following information:
+
+- **Name**: file name
+- **Length**: size in bytes
+- **One gigabyte**: 1073741824 bytes
+
+### Sample output
+
+Here is an example of the output using the 16 largest files:
 
 		Name         | Length
 		------------ | -------------
@@ -60,15 +68,21 @@ Here is an example of the output using the 16 largest files.
 		File15.zip | 3307488256
 		File16.zip | 3274982400
 
+### Calculations
 
-To get the minimum staging area quota using the first two powershell commands, you would take the sum of the total number of bytes and divide it by one gigabyte. In the above example, we used 16 files instead of 32. You would take the sum which is 75241684992and divide it by 1073741824.
- >75241684992 / 1073741824 = 70.07 GB
+To get the minimum staging area quota using the first two powershell commands, you would take the sum of the total number of bytes
+and divide it by one gigabyte. In the preceding example, we used 16 files instead of 32. You would take the sum, which is
+75241684992, and divide it by 1073741824.
 
-The third powershell command will be the easiest as it will do the math for you.
- >PS C:\> $big32 = Get-ChildItem c:\temp -recurse | Sort-Object length -descending | select-object -first32 | measure-object -property length -sum<br>
-PS C:\>$big32.sum /1gb<br>
-70.07427978515625
+    75241684992 / 1073741824 = 70.07 GB
 
-You would set the staging quota to 71 GB.
+The third powershell command is the easiest because it does the math for you.
 
-A reboot is not needed once the quota is set, but you will need to wait on the Active Directory (AD) and DFSR AD polling cycle for the changes to apply.
+    $ PS C:\> $big32 = Get-ChildItem c:\temp -recurse | Sort-Object length -descending | select-object -first32 | measure-object -property length -sum<br>
+    $ PS C:\>$big32.sum /1gb<br>
+    70.07427978515625
+
+In this case, you would set the staging quota to 71 GB.
+
+You don't need to reboot after you set the quota, but you do need to wait for the Active Directory (AD) and DFSR AD polling cycle
+for the changes to apply.
