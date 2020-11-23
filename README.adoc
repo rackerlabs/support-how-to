@@ -118,14 +118,14 @@ If everything is working as expected, you will see output similar to:
   Cleaned          |     0
 
 Built in 3593 ms
-Watching for changes in /Users/ravi7895/workspace/rackerlabs/support-how-to/{archetypes,assets,content,i18n,layouts,package.hugo.json,package.json,postcss.config.js,static}
-Watching for config changes in /Users/ravi7895/workspace/rackerlabs/support-how-to/config.toml
+Watching for changes in /rackerlabs/support-how-to/{archetypes,assets,content,i18n,layouts,package.hugo.json,package.json,postcss.config.js,static}
+Watching for config changes in /rackerlabs/support-how-to/config.toml
 Environment: "development"
 Serving pages from memory
 Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
 Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
-INFO 2020/11/18 11:51:49 Received System Events: ["/Users/ravi7895/workspace/rackerlabs/support-how-to/static/assets/bundle.js": CHMOD]
+INFO 2020/11/18 11:51:49 Received System Events: ["/rackerlabs/support-how-to/static/assets/bundle.js": CHMOD]
 
 ```
 
