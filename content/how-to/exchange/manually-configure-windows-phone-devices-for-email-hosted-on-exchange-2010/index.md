@@ -1,20 +1,20 @@
 ---
 permalink: manually-configure-windows-phone-devices-for-email-hosted-on-exchange-2010/
-audit_date:
+audit_date: '2020-11-24'
 title: Manually configure Windows Phone devices for email hosted on Exchange 2010
 type: article
 created_date: '2013-03-18'
 created_by: Mawutor Amesawu
-last_modified_date: '2016-01-28'
-last_modified_by: Rose Coste
+last_modified_date: '2020-11-24'
+last_modified_by: Rose Morales
 product: Microsoft Exchange
 product_url: exchange
 ---
 
 The following steps are required to configure Microsoft Exchange
-ActiveSync on a Windows Phone:
+ActiveSync on a Windows Phone device:
 
-1. Locate the **Settings** options from within your application menu.
+1. Locate the **Settings** options within your application menu.
 
    {{<image src="0000.png" alt="" title="">}}
 
@@ -39,7 +39,7 @@ ActiveSync on a Windows Phone:
 
    {{<image src="image006_2.png" alt="" title="">}}
 
-7. Ensure your email address remains correct.  
+7. Ensure your email address is correct.  
    Leave the **Domain** field blank.
    Enter the following address for **Server**: **connect.emailsrvr.com.**
 
