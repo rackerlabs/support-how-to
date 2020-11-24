@@ -1,12 +1,12 @@
 ---
 permalink: transfer-a-domains-email-services-to-another-account/
-audit_date:
-title: "Transfer a domain's email services to another account"
+audit_date: '2020-11-24'
+title: Transfer a domain's email services to another account
 type: article
 created_date: '2014-09-23'
 created_by: Cody Jobson
-last_modified_date: '2016-01-29'
-last_modified_by: Rose Coste
+last_modified_date: '2020-11-24'
+last_modified_by: Rose Morales
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -21,7 +21,7 @@ transfer does not affect existing mail data or mail delivery.
 
 ### Initiate a domain transfer
 
-1. Log in to the Rackspace Email Control Panel.
+1. Log in to the [Rackspace Email Control Panel](https://cp.rackspace.com/).
 
 2. Scroll down to the **Domains** section and click **Domains**.
 
@@ -50,5 +50,4 @@ transfer does not affect existing mail data or mail delivery.
 The administrator of the destination account performs the following step
 to finalize the domain transfer:
 
-1. Using the provided domain transfer URL, log in to the Email Control
-   Panel and click **Finish Transfer**.
+1. Using the provided domain transfer URL, log in to the [Email Control Panel](https://cp.rackspace.com/), and click **Finish Transfer**.
