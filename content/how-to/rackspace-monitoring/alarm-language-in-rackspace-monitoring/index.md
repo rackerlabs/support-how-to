@@ -47,9 +47,7 @@ benefits:
   monitoring zones. The yellow and red areas represent when an alarm is in
   WARNING and CRITICAL, respectively.
 
-   {{<image alt="sample graph that shows a check running in three monitoring
-   zones" src="alarm-language-monitoring-graph.png" title="sample graph that
-   shows a check running in three monitoring zones">}}
+   {{<image alt="sample graph that shows a check running in three monitoring zones" src="alarm-language-monitoring-graph.png" title="sample graph that shows a check running in three monitoring zones">}}
 
 - Send an alert to [different notification addresses depending on severity](https://docs.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#document-api-operations/notification-plans-operations).
 
