@@ -12,11 +12,10 @@ product_url: rackspace-monitoring
 ---
 
 Rackspace Monitoring provides a powerful [alarm language](https://docs.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#alarm-language)
-that enables you to set thresholds and create complex alarms. Using Rackspace
-Monitoring rather than a Nagios server, for example, provides the following
-benefits:
+that enables you to set thresholds and create complex alarms. By using Rackspace
+Monitoring rather than a Nagios&reg; server, for example, you can do the following:
 
-- Create expressive alarms that validate multiple criteria, using a
+- Create expressive alarms that validate multiple criteria by using a
   JavaScript-like language rather than a JSON API. Following is an example alarm
   definition:
 
@@ -45,7 +44,7 @@ benefits:
 - Use multiple data center alert policies to seamlessly evaluate alarm criteria
   from multiple data centers. The following graph shows a check running in three
   monitoring zones. The yellow and red areas represent when an alarm is in
-  WARNING and CRITICAL, respectively.
+  `WARNING` and `CRITICAL`, respectively.
 
    {{<image alt="sample graph that shows a check running in three monitoring zones" src="alarm-language-monitoring-graph.png" title="sample graph that shows a check running in three monitoring zones">}}
 
@@ -53,5 +52,5 @@ benefits:
 
 - Reduce false alerts on network issues.
 
-- Start monitoring faster and spend less system admin time on ensuring that the
+- Start monitoring faster and spend less system administration time ensuring that the
   server stays online.
