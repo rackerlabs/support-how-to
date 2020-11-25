@@ -14,9 +14,9 @@ product_url: exchange
 You can transfer a domain's email services from one account to another
 without starting a ticket or coordinating with Rackspace Support and
 Account Management. Use the following steps to accomplish this task
-through your control panel.
+through your Control Panel:
 
-**Note:** This transfer is purely administrative; performing the
+**Note:** This transfer is purely administrative. Performing the
 transfer does not affect existing mail data or mail delivery.
 
 ### Initiate a domain transfer
@@ -29,16 +29,15 @@ transfer does not affect existing mail data or mail delivery.
    another account.
 
 4. Within the **Transfer** column on the right, click **Start**. The
-   **Start Transfer** page is displayed.
+   **Start Transfer** page displays.
 
    **Note:** The **Transfer** column can be hidden or displayed for
-   limited administrators. You set its visibility via the
+   limited administrators. You set its visibility through the
    **Permissions** tab on the **Add/Edit Admins** page.
 
-5. Review the steps to transfer the domain and then click **Start
-   Transfer**.
+5. Review the steps to transfer the domain and then click **Start Transfer**.
 
-   The **Start Transfer** page is updated to show a URL (available for
+   The **Start Transfer** page updates to show a URL (available for
    24 hours) that you can email to the administrator of the destination
    account.
 
@@ -47,7 +46,7 @@ transfer does not affect existing mail data or mail delivery.
 
 ### Accept a domain transfer
 
-The administrator of the destination account performs the following step
-to finalize the domain transfer:
+To finalize the domain transfer, the administrator of the destination account performs the following steps:
 
-1. Using the provided domain transfer URL, log in to the [Email Control Panel](https://cp.rackspace.com/), and click **Finish Transfer**.
+1. Use the provided domain transfer URL to log into the [Email Control Panel](https://cp.rackspace.com/).
+2. Click **Finish Transfer**.
