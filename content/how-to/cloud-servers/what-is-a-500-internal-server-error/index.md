@@ -11,19 +11,20 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Error 500 is a generic error that basically means there is something wrong with
-the website server, however, it doesn't provide further information. It's a sign that someone will
-need to log into the server and troubleshoot and investigate the issue.
+The generic error `500` means there is something wrong with the website server, but it doesn't provide
+further information. An administrator should log into the server to troubleshoot and investigate the issue.
 
-There can be serveral issues that could cause this error, most of the time it
-means server-side problems:
+Several issues can cause this error, but most of the time, it means server-side problems such as the 
+following issues:
 
-1. Permissions on website content files or folders.
-2. Issues with `.htaccess` file.
-3. Scripting errors.
-4. Specific errors with the CMS (Wordpress&reg;, Magento&reg;).
+- Permissions on website content files or folders.
+- Issues with the **.htaccess** file.
+- Scripting errors.
+- Specific errors with the content management system (such as Wordpress&reg; or Magento&reg;).
 
-#### You may find this information helpful:
+#### Additional references
+
+The following articles offer help with related topics:
 
 [File permissions](/support/how-to/linux-file-permission-concepts/)
 
