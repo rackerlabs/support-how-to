@@ -1,12 +1,12 @@
 ---
 permalink: rackspace-directory-sync-operation-guide/
-audit_date:
+audit_date: '2020-11-24'
 title: 'Rackspace Directory Sync Operation Guide'
 type: article
 created_date: '2014-04-29'
 created_by: Aaron Medrano
-last_modified_date: '2019-01-22'
-last_modified_by: William Loy
+last_modified_date: '2020-11-24'
+last_modified_by: Rose Morales
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -78,16 +78,16 @@ Use the following steps to create a distribution list:
 
 2. Set the group email **mail attribute**.
 
-    -   For new distribution lists, provide an email address before
+    - For new distribution lists, provide an email address before
         subscribing to the Hosted Exchange security group.
 
-    -   For existing distribution lists, add an email address if it
+    - For existing distribution lists, add an email address if it
         doesn't exist, or update the email address to match the email in
         the Cloud Office Control Panel before synchronizing. If the
         email address doesn't match what is in the Cloud Office Control
         Panel, a new distribution list is created.
 
-3. Subscribe the new group created in step 1 to the Hosted Exchange
+3. Subscribe to the new group created in step 1 to the Hosted Exchange
     group specified in the Directory Sync settings. You must set the
     email address in step 2 before you subscribe the distribution group
     to the Hosted Exchange security group.
@@ -126,7 +126,7 @@ username for the contact within the Cloud Office Control Panel. Active
 Directory automatically creates this attribute and it is how Directory Sync
 references the contact through our API.
 
-Customers with multiple email domains must edit the **otherMailBox**
+Customers with multiple email domains must edit the `otherMailBox`
 attribute (of the Contact object) to specify the domain to synchronize.
 You only need to have the domain set within this attribute.
 
@@ -163,37 +163,37 @@ Use the following steps to rename a Hosted Service security group:
     2000 group name. The group name and pre-Windows 2000 group name must
     be identical.
 
-3. Back on the Settings page, select the new group name from the list
+3. Back on the Settings page, select the new group name from the list,
     and then click **Save & Start Sync**.
 
 ### Add an alternate email address (optional synchronization)
 
 Use the following steps to add an alternate email address:
 
-1.  Enable synchronization. This value is turned off by default.
+1. Enable synchronization. This value is turned off by default.
 
-      1.  In the **\\Directory Sync Service\\web** directory, open the
+      1. In the **\\Directory Sync Service\\web** directory, open the
         **appSettings.config** file.
-      2.  Find the following configuration value:
+      2. Find the following configuration value:
 
             `<add key="SyncProxyAddresses" value="False" />`
 
-      3.  Change the **value** attribute to **True** to enable synchronization
+      3. Change the **value** attribute to **True** to enable synchronization
             of the proxy addresses. This setting will be persistent.
 
-2.  Open Active Directory Users and Computers.
+2. Open Active Directory Users and Computers.
 
-3.  Open the Attribute Editor of the User Object. The **Advanced
+3. Open the Attribute Editor of the User Object. The **Advanced
     Features** tab must be enabled in the **View** settings to display
     this tab.
 
-4.  Go to the **proxyAddresses** attribute and click **Edit**.
+4. Go to the **proxyAddresses** attribute and click **Edit**.
 
-5.  Add the alternate email address.
+5. Add the alternate email address.
 
 **Note:** The alternate email addresses are formatted as
 **SMTP:userA@example.com**. For all alternate email addresses beginning
-with **SMTP:**, the full email address must be listed. Domain Aliases
+with `SMTP:`, the full email address must be listed. Domain Aliases
 cannot be placed in this attribute. because domain aliases
 are automatically created from the primary domain, only the Primary Domain and
 Accepted Domains can be listed in this attribute.
