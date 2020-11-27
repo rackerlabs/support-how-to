@@ -86,6 +86,3 @@ The agent.health check and alarm will be created automatically on all
 the connected agents when the feature is released. The notification plan
 that is configured for this alarm will vary based on your service level
 and the product that is being monitored.
-
-For more information about agent health monitoring, read the [Watching the Watchmen with Agent Health Monitoring](https://bit.ly/agent-health-monitoring)
-blog post by Shane Duan.
