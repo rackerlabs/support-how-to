@@ -11,8 +11,8 @@ product: Rackspace Monitoring
 product_url: rackspace-monitoring
 ---
 
-Rackspace offers its monitoring solution through three pillars of products:
-Rackspace Monitoring, Rackspace Metrics, and Rackspace Intelligence—the MMI
+Rackspace offers its monitoring solution through three pillars products:
+**Rackspace Monitoring, Rackspace Metrics, and Rackspace Intelligence**—the MMI
 products. Through seamless integration, the MMI products enable customers to
 improve system performance and availability through a single pane of
 glass and an enterprise-grade platform.
@@ -23,19 +23,18 @@ glass and an enterprise-grade platform.
   generation. For details, see the following concepts section.
 - Rackspace Metrics provides economical and reliable data storage at scale.
   For details, see the [Rackspace Metrics overview](/support/how-to/rackspace-metrics-overview/).
-- Rackspace Intelligence delivers an intuitive interface that gives users a transparent view into their (infrastructure health along with actionable insights. For details, see the [Rackspace Intelligence Introduction](/support/how-to/rackspace-intelligence/).
+- Rackspace Intelligence delivers an intuitive interface that gives users a transparent view into their infrastructure health along with actionable insights. For details, see the [Rackspace Intelligence Introduction](/support/how-to/rackspace-intelligence/).
 
 ### Monitoring concepts
 
-The following diagram illustrates the key concepts of the Rackspace Monitoring product.  The concepts are explained further after the following diagram.
+The following diagram illustrates the key concepts of the Rackspace Monitoring product.
 
 {{<image src="rackspace-monitoring-concepts.png" alt="" title="">}}
 
-- **Entities** represent any object or resource that you want to monitor. You
-  can create an entity through the UI, API, or CLI for any server or website
-  that you want to monitor. Entities can be servers or non-server objects, but
-  most often entities refer to individual servers. As you create new cloud
-  servers, cloud databases, or dedicated devices, entities are created
+- **Entities** represent any object or resource, often used when referring to
+  servers. You can create an entity . Entities can be servers or non-server
+  objects and can be created through the UI, API, or CLI. As you create new
+  cloud servers, cloud databases, or dedicated devices, entities are created
   automatically. For more information, see the API operations reference for the
   [entity's resource](https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#entities-operations).
 - **Checks** return a group of related metrics of an entity. Checks of different
