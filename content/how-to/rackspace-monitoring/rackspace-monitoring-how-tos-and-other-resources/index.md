@@ -11,14 +11,14 @@ product: Rackspace Monitoring
 product_url: rackspace-monitoring
 ---
 
-### Getting Started
+### Getting started
 
 - Rackspace Monitoring Getting Started Guide:
     <https://docs.rackspace.com/docs/rackspace-monitoring/v1/getting-started/>
 - Getting started with the Cloud Monitoring CLI
     (Raxmon)<https://docs.rackspace.com/support/how-to/getting-started-with-rackspace-monitoring-cli>
 
-### Client Libraries and Integrations
+### Client libraries and integrations
 
 - Python binding, based on libcloud as a
     dependency: <https://github.com/racker/rackspace-monitoring>
@@ -38,7 +38,7 @@ product_url: rackspace-monitoring
 - Release Notes:
     <https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#release-notes>
 
-### Open Source
+### Open source
 
 - Dreadnot code: <https://github.com/racker/dreadnot>
 
