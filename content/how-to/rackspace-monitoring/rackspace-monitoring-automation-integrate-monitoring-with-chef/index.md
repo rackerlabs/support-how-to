@@ -1,7 +1,7 @@
 ---
 permalink: rackspace-monitoring-automation-integrate-monitoring-with-chef/
 audit_date: '2020-11-30'
-title: Rackspace Monitoring Automation - Integrate Monitoring with Chef
+title: Rackspace Monitoring Automation&mdash;Integrate monitoring with Chef
 type: article
 created_date: '2012-08-14'
 created_by: Rae D. Cabello
@@ -19,79 +19,75 @@ power of a full-featured and hosted monitoring system with Rackspace Monitoring!
 ### How?
 
 - Leverage all the primitives built as a lightweight resource in Chef. This
-     means you have complete control
-- You're in total control - We run the monitoring system; however, it's a
+     means you have complete control.
+- You're in total control. We run the monitoring system. However, it's a
     platform, and this code bootstraps the integration. It's up to you to define
     what you want to monitor and how you want to be alerted.
-- We dogfood this internally - we'll continue to improve this as we continue
-    to find new and interesting ways to use it.
-- This is only the beginning - We'll continue to improve this cookbook as
+- We enhance this internally, continuing to improve the tool as we
+    find new and interesting ways to use it.
+- This is only the beginning. We continue to improve this cookbook as
     Rackspace Monitoring grows in functionality.
 
-**What do I need to get started?**
-
-- Chef knowledge.
-- Ruby knowledge.
-- Desire to reduce the time to monitor your infrastructure.
+To get started, you should be familiar with Chef and Ruby and want to 
+reduce the time to monitor your infrastructure.
 
 ### Prerequisites
 
-Getting started requires downloading the cookbook. Right now the Rackspace
-Monitoring git repo is hosted on GitHub, but it will be an official cookbook
-soon. Get the cookbook here:
+Getting started requires downloading the cookbook. We host the Rackspace
+Monitoring git repo on GitHub, but it is an official cookbook.
+Get the cookbook here:
 [https://github.com/racker/cookbook-cloudmonitoring](https://github.com/racker/cookbook-cloudmonitoring).
 
-Install it into a chef repo and then you're ready to get started.
+Install it into a Chef repo, and then you're ready to get started.
 
-*Note: If you are unfamiliar with chef I recommend reading the
+**Note:** If you are unfamiliar with Chef, read the
 [Opscode Getting Started Guide](https://docs.opscode.com/#getting-started). This particular
-recipe uses data bags, read more about them here, that assumes a chef version
-greater than 0.8.  Also, make sure and brush up on `knife` and how it works.*
+recipe uses data bags that assumes a chef version
+greater than 0.8.  Also, make sure and brush up on *knife* and how it works.
 
-### **Step 1: Create the initial encrypted data bag**
+### Step 1: Create the initial encrypted data bag
 
-To manage the Rackspace Monitoring API, authentication credentials need to be
-added to the node. There are various ways to handle this, this recipe uses the
-encrypted data bag approach. Create the following data bag with the following
+To manage the Rackspace Monitoring API, you need to addauthentication credentials
+to the node. There are various ways to handle this. This recipe uses the
+encrypted data bag approach. Create a data bag with the following
 initial values:
 
     $ knife data bag create --secret-file <secret-file> rackspace cloud
     { "id": "cloud", "username": "", "apikey": "", "region": "" }
 
-Once created this will make it painless to use the recipes without having to
-include API key and Rackspace Cloud account username for every call. For
+This creation makes it painless to use the recipes because yuou don't need to
+include the API key and Rackspace Cloud account username for every call. For
 information about how to find your API key, see
 [View and reset your API key](/support/how-to/view-and-reset-your-api-key).
 
-### **Step 2: Add the default recipe to the runlist**
+### Step 2: Add the default recipe to the runlist
 
-Next step is to add the cloud\_monitoring::default recipe to the run list for
-the servers that will need monitoring. This identifies the servers that will
-interact with the Rackspace Monitoring API. It will also install all the gem
+Next, add the **cloud\_monitoring::default** recipe to the run list for
+the servers that you need to monitor. This addition identifies the servers that
+interact with the Rackspace Monitoring API. It also installs all the gem
 dependencies needed to make calls with the Rackspace Monitoring Gem. Use the
 `knife` command to add the default recipe to the runlist:
 
     $ knife node run_list add <NODE> cloud_monitoring::default
 
-Chef's runlist inheritance will also serve the same purpose.  If for
-instance the cloud\_monitoring::default recipe is applied to the
-production environment, then all production nodes will inherit the
-recipe.
+Chef's runlist inheritance also serves the same purpose.  If, for
+instance, you aspply the **cloud\_monitoring::default** recipe to the
+production environment, then all production nodes inherit the recipe.
 
-### **Step 3: Configure the initial node setup**
+### Step 3: Configure the initial node setup
 
-The approach on this cookbook focuses on flexibility for the user to use it as
-they please. These particular instructions will use the recipe in an opinionated
-way. As an example, the label of the entity will be the hostname. This is a
-recommendation on how to leverage this recipe, but not the only way. Creating an
-"Entity" is the first step of actually using the API from Chef. The Entity maps
+The approach on this cookbook focuses on flexibility for users to use it as
+they please. These particular instructions use the recipe in an opinionated
+way. As an example, the label of the entity is the hostname. This is a
+recommendation on how to leverage this recipe but not the only way. Creating an
+entity is the first step of actually using the API from Chef. The entity maps
 to the target of what you're monitoring.
 
-Entity in most cases represents a server, loadbalancer or website. However,
-there is some advanced flexibility but that is only used in rare cases. This
-use-case will highlight populating your chef nodes in Rackspace Monitoring.
-Learn more about all these concepts in the docs and specifically the Concepts
-section of the developer guide:
+The entity, in most cases, represents a server, load balancer, or website. However,
+there is some advanced flexibility, which you use only in rare cases. This
+use-case highlights populating your chef nodes in Rackspace Monitoring.
+Learn more about all these concepts in the docs, specifically the **Concepts**
+section of the Developer Guide:
 
     cloud_monitoring_entity "#{node.hostname}" do
       ip_addresses        'default' => node[:ipaddress]
@@ -99,24 +95,22 @@ section of the developer guide:
       action :create
     end
 
-Woohoo, upon a chef run, an entity with that label is created, or if it
-exists it will be updated.  Another important point, if the chef server ever
-goes away, the label of the entity will be matched up with hostname (in this
-case).
+The Chef run creates an entity with that label or updates it if it already
+exists.  If the chef server ever goes away, the label of the entity is
+matched up with the hostname (in this case).
 
-### **Step 4: Create the first check**
+### Step 4: Create the first check
 
-After creating an entity, this describes one or more checks for that target
-entity. It prescribes how often to poll a website, or which piece of HTML to
+After creating an entity, this next step describes one or more checks for that target
+entity. It prescribes how often to poll a website or which piece of HTML to
 perform a regular expression match against. The documentation goes into more
-depth in the Concepts section. Ping is the first check created in this guide, it
-is simple to configure and straight forward:
+depth in the **Concepts** section. A ping, which is simple to configure, is the first
+check created in this Guide. 
 
-After performing a chef run, the Rackspace Monitoring API should begin pinging
-the specified entity. Since this snippet is using the target\_alias feature, it
-points at the IP specified node\[:ipaddress\]. If that ever changes the check
-will automatically update. This is an important feature of the Rackspace
-Monitoring API:
+After performing a Chef run, the Rackspace Monitoring API should begin pinging
+the specified entity. Because this snippet uses the **target\_alias** feature, it
+points to the IP address specified node\[:ipaddress\]. If that ever changes the check
+automatically updates. This is an important feature of the Rackspace Monitoring API:
 
     cloud_monitoring_check  "ping" do
       target_alias          'default'
@@ -127,19 +121,19 @@ Monitoring API:
       action :create
     end
 
-### **Step 5: Create an alarm**
+### Step 5: Create an alarm
 
 An alarm describes how a user gets an alert based on a check.  It matches the
 criteria to alert with a destination to send the notifications. The alarm
 leverages our Javascript-like language to create criteria based on metrics for a
-particular check. You can read in depth about the alarm language here:
+particular check. You can read in-depth about the alarm language here:
 <https://docs.rackspace.com/docs/cloud-monitoring/v1/developer-guide/#alarm-language>.
 
-We are going to create an Alarm for a ping either not returning (which would
-happen by default) or is below 80% or 95% on the number of returned pings.By
-default the remote.ping check sends out 5 pings and if 3 came back, it would be
-marked as CRITICAL, if 4 came back it would be WARNING, if 5 came back it would
-be marked as OK:
+Next, create an Alarm for a ping either not returning (which would
+happen by default) or one that is below 80% or 95% on the number of returned pings. By
+default, the *remote.ping* check sends out 5 pings. If only three came back, it would be
+marked as `CRITICAL`. If four came back, it would be a `WARNING`. If five came back. it would
+be marked as `OK`:
 
     cloud_monitoring_alarm  "ping alarm" do
       check_name            'ping'
@@ -148,7 +142,7 @@ be marked as OK:
       action :create
     end
 
-Three important events are happening in this example.
+Three important events are happening in this example:
 
 1. Since the entity recipe was placed before this stanza, it implicitly selects
    the `entityId` for this or any check in scope.
@@ -172,9 +166,9 @@ Three important events are happening in this example.
         }
     ...
 
-### Done!
+### Conclusion
 
-That's it. We now have monitoring for each server in your infrastructure with at
-least ping checking. As you add servers Rackspace Monitoring will automatically
-scale with you. As homework, work on adding more complex checks like SSH and
-HTTP. We also support CPU, Disk and other host-based metrics.
+We now have monitoring for each server in your infrastructure with at
+least ping checking. As you add servers, Rackspace Monitoring automatically
+scales with you. To build on this, consider adding more complex checks like SSH and
+HTTP. We also support CPU, Disk, and other host-based metrics.
