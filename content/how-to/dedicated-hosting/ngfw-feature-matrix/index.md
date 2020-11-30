@@ -5,7 +5,7 @@ title: NGFW Feature Matrix
 type: article
 created_date: '2020-03-12'
 created_by: Chad Sterling
-last_modified_date: '2020-07-02'
+last_modified_date: '2020-11-30'
 last_modified_by: Chad Sterling
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -112,7 +112,7 @@ product_url: dedicated-hosting
     <td align="right">Route-based VPN</td>
     <td style="background-color: green;color:white;">Supported</td>
     <td style="background-color: red;color:white;">Unsupported Feature</td>
-    <td>Policy-based VPN</td>
+    <td>Route-based VPN</td>
   </tr>
   <tr>
     <td><b>RackConnect</b></td>
