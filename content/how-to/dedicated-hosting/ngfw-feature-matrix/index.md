@@ -103,10 +103,10 @@ product_url: dedicated-hosting
      <td><b>Site-to-site VPN</b></td>
   </tr>
   <tr>
-    <td align="right">Route-based VPN</td>
+    <td align="right">Policy-based VPN</td>
     <td style="background-color: green;color:white;">Supported</td>
     <td style="background-color: green;color:white;">Supported</td>
-    <td>Route-based VPN</td>
+    <td>Policy-based VPN</td>
   </tr>
    <tr>
     <td align="right">Route-based VPN</td>
