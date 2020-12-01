@@ -210,6 +210,22 @@ traditional dedicated link and consider alternative options. The Rackspace RackC
 Global (RCG) product is one such product that might suit your needs. If you want more
 information on the RCG product please contact your Customer Success Manager. 
 
+### Will there be any changes to DNS? 
+ 
+Yes. As part of the migration, we will move from the legacy Datapipe DNS service to the
+Rackspace DNS service. We are decommissioning the legacy Datapipe DNS servers. During the
+migration event, Rackspace replaces the legacy Datapipe DNS entries with the new Rackspace
+DNS entries on any devices that we can access and directly support. You need to change servers
+that Rackspace does not support or access. We can provide the necessary information before the
+migration event in a ticket in DP1. 
+ 
+### Will there be any other configuration changes? 
+ 
+Potentially, yes. VLAN ID tags might need to change if there is an overlap between the VLAN ID
+tags used in the source data center and those in the destination data center. Rackspace makes
+these changes during the migration for the devices to which we have access. For devices that
+we can't access, Rackspace provides you with the information to make the necessary changes.
+
 ### Who should I contact with questions about the relocation?
 
 Contact us in one of the following ways:
