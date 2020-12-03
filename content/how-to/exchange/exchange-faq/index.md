@@ -1,26 +1,18 @@
 ---
 permalink: exchange-faq/
-audit_date:
+audit_date: '2020-12-03'
 title: Microsoft Exchange FAQ
 type: article
 created_date: '2015-12-03'
 created_by: Rackspace Support
-last_modified_date: '2016-05-17'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-12-03'
+last_modified_by: Rose Morales
 product: Microsoft Exchange
 product_url: exchange
 ---
 
 ### Getting Started
 
-{{<accordion title="What is the maximum mailbox storage?" col="in" href="accordion1">}}
-
-For customers on an Exchange 2010 environment, the maximum mailbox
-storage is 50GB.
-
-For customers on an Exchange 2007 environment, the maximum mailbox
-storage is 10GB.
-{{</accordion>}}
 {{<accordion title="What is the maximum size for an attachment?" col="in" href="accordion2">}}
 
 The maximum size for an attachment in the Exchange environment is 50MB.
@@ -71,16 +63,6 @@ You can then select any of your past invoices to view them.
 
 No worries! Just call our main support line at 1-800-961-4454 so we can direct you to your
 dedicated support team for help.
-{{</accordion>}}
-{{<accordion title="How do I purchase more storage, mailboxes, and licenses for my account?" col="in" href="accordion9">}}
-
-To purchase or make an upgrade to your account, log in to the Cloud Office Control
-Panel and on the right hand side, under **My Account**, select
-**General Information**. After you've selected **General Information**,
-select **Upgrade** on the red navigation bar. Select the product you
-would like to purchase and the target domain and you'll be presented
-with a list of items you may add to your account. Afterwards, select
-**Continue** and then **Complete Your Order**.
 {{</accordion>}}
 {{<accordion title="How do I add an admin to my account?" col="in" href="accordion10">}}
 
