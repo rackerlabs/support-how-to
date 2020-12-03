@@ -13,17 +13,18 @@ product_url: rackspace-monitoring
 
 Rackspace Monitoring provides support for the following compute offerings:
 
-- Cloud Servers for all service levels including Managed Operations.
+- Cloud Servers for all service levels, including Managed Operations.
 - Dedicated Hosting.
 
-Rackspace Monitoring supports the same set of operating system types that are
-supported by Managed Operations and Dedicated Hosting and any OS that is within
+Rackspace Monitoring supports the same set of operating system types
+supported by Managed Operations and Dedicated Hosting and any OS within
 the supported matrix.
 
 ### Rackspace Monitoring support for Cloud Servers
 
-For a list of the operating systems and other features that are
-officially supported by Rackspace Monitoring, refer to the [Linux Spheres of Support for Dedicated and Managed Operations](/support/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops)
+For a list of the operating systems and other features
+officially supported by Rackspace Monitoring, refer to the
+[Linux Spheres of Support for Dedicated and Managed Operations](/support/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops)
 and [Cloud Servers with Managed Operations support for Windows](/support/how-to/cloud-servers-with-managed-operations-support-for-windows)
 articles.
 
