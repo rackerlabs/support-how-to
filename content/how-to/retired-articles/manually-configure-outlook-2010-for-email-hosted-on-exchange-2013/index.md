@@ -5,10 +5,9 @@ title: Manually configure Outlook 2010 for email hosted on Exchange 2013
 type: article
 created_date: '2014-01-09'
 created_by: Mawutor Amesawu
-last_modified_date: '2016-01-28'
-last_modified_by: Rose Coste
-product: Microsoft Exchange
-product_url: exchange
+last_modified_date: '2020-12-03'
+last_modified_by: Rose Morales
+
 ---
 
 This article describes how to set up your
