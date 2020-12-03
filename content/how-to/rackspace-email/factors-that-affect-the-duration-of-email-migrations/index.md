@@ -15,7 +15,7 @@ Accurately determining how much time it takes to migrate email data to
 Rackspace is difficult because of several factors, including system
 load, bandwidth, average item size, and source or destination
 bottlenecks. Migrations of mailboxes that are between 350 MB and 1.5 GB
-in size typically take up to an hour, and you can migrate groups of mailboxes
+typically take up to an hour, and you can migrate groups of mailboxes
 overnight.
 
 The following sections provide more detail about the factors that can
@@ -28,7 +28,7 @@ speeds of over 1.5 GB per hour per mailbox when connecting to high availability
 infrastructures. Migrating more mailboxes at the same time allows
 parallel processing and reduces the duration of your migration.
 
-**MigrationWiz** can migrate hundreds of thousands of mailboxes
+MigrationWiz can migrate hundreds of thousands of mailboxes
 simultaneously at no additional cost to you. If you migrate all of your
 mailboxes at the same time, the migration duration is the time it takes
 to migrate the largest mailbox.
@@ -36,8 +36,8 @@ to migrate the largest mailbox.
 ### Network speed
 
 How fast are the source and destination servers connected to the
-Internet? **MigrationWiz** is only as fast as the slowest link.
-**MigrationWiz** can work across even the slowest links,
+Internet? MigrationWiz is only as fast as the slowest link.
+MigrationWiz can work across even the slowest links,
 connecting to networks that range from T1 speed to networks that host
 multiple gigabit connections.
 
@@ -52,10 +52,10 @@ Mailboxes with more email messages take longer to migrate. For example,
 if two mailboxes are the same size but have a different number of items,
 the mailbox with fewer items migrates faster than the mailbox with more
 items. The servers talk to each other to introduce each message, so
-several messages will have more overhead from network chatter than one
+multiple messages have more overhead from network chatter than a single
 large message.
 
-**MigrationWiz** greatly reduces network chatter. It has moved over a
+MigrationWiz greatly reduces network chatter. It has moved over a
 thousand items in less than a minute in some cases.
 
 ### Mailbox size
@@ -66,9 +66,9 @@ of a migration.
 
 ### Mailbox errors
 
-Errors can occur for a number of reasons, including corrupt items and
-network outages. **MigrationWiz** contains automated self-healing technology
-that can automatically manage errors for you in most cases.
+Errors can occur for many reasons, including corrupt items and
+network outages. MigrationWiz contains automated self-healing technology
+that can automatically manage errors in most cases.
 
 ### Throttling
 
