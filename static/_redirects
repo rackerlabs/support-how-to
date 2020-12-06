@@ -1,5 +1,5 @@
 # Redirects
-/support/how-to/cloud-servers-with-managed-operations-support-for-linux/  /how-to/cloud-servers-with-managed-operations-support-for-linux/  404
+
 /support/how-to/how-to-add-linux-user-with-document-root-permissions/  /how-to/add-a-linux-user-with-document-root-permissions/  404
 /how-to/add-a-linux-user-with-document-root-permissions/  /support/how-to/add-a-linux-user-with-document-root-permissions/  301
 /support/how-to/checking-system-load-on-linux/  /how-to/check-the-system-load-on-linux/  404
@@ -15,6 +15,7 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 # Retired Articles
 
+/support/how-to/cloud-servers-with-managed-operations-support-for-linux/  /how-to/article-retired/  404
 /support/how-to/manually-configure-outlook-2010-for-email-hosted-on-exchange-2013/ /how-to/article-retired/ 404
 /support/how-to/imappop-to-exchange/ /how-to/article-retired/ 404
 /support/how-to/manually-configure-entourage-for-email-hosted-on-exchange-2010/ /how-to/article-retired/ 404
