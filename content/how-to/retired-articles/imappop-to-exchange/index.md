@@ -5,10 +5,8 @@ title: 'Transfer data from IMAP or POP to Exchange'
 type: article
 created_date: '2012-05-24'
 created_by: Rackspace Support
-last_modified_date: '2016-01-27'
-last_modified_by: Rose Coste
-product: Microsoft Exchange
-product_url: exchange
+last_modified_date: '2020-12-03'
+last_modified_by: Rose Morales
 ---
 
 Your previous email system may have used Internet Message Access Protocol (IMAP)
