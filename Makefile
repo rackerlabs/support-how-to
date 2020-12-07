@@ -1,4 +1,4 @@
-HUGO_VERSION ?= 0.78.1
+HUGO_VERSION ?= 0.78.2
 HUGO_EXTENDED = "extended_"
 # Show build warnings, posts tagged as draft, and posts with a future date
 PREVIEW_ARGS = --path-warnings --verbose --buildDrafts --buildFuture
