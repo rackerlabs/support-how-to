@@ -12,13 +12,13 @@ product_url: exchange
 ---
 
 This article describes how to configure a Microsoft&reg; Exchange&reg; 2013 account on your
-Apple&reg; iOS 14.1 device.
+Apple&reg; iOS&reg; 14.1 device.
 
 **Note:** The images in this article show iPhone&reg; 5 running iOS 14.1. Although
 screens on other iOS devices differ, the process is similar. For more modern iOS versions, refer to the [Cloud Office Email Help Tool](https://emailhelp.rackspace.com) for instructions.
 
-The administrator of your account must verify that an
-ActiveSync&reg; license is attached in your account via the Cloud Control
+Your account administrator must verify that an
+ActiveSync&reg; license is attached to your account in the Cloud Control
 Panel. If any Internet connectivity issues prevent you from
 successfully setting up Exchange, contact your wireless provider or
 Internet Service Provider (ISP).
@@ -58,7 +58,8 @@ Internet Service Provider (ISP).
 You have successfully added your Exchange email account on your iOS
 device.
 
-If you are still having issues connecting, refer to the troubleshooting information available on the [Cloud Office Email Help Tool](https://emailhelp.rackspace.com).
+If you still have issues connecting, refer to the troubleshooting information available on
+the [Cloud Office Email Help Tool](https://emailhelp.rackspace.com).
 
-**Note:** Depending on the mailbox size, it might take some
-time before your information is displayed into your device.
+**Note:** Depending on the mailbox size, it might take some time before
+your information displays on your device.
