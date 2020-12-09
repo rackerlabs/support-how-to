@@ -16,14 +16,14 @@ requests for each object, the client IP address, and time-based usage
 patterns (such as monthly or seasonal usage).
 
 Use the Cloud Control Panel to enable the delivery of logs for your
-service by clicking **Enable Logging** on the service details page.
+service by clicking **Enable Logging** on the **Service details** page.
 
-When logging is enabled, raw logs from the CDN edge are delivered once a
-day to a Cloud Files container named `.CDN\_ACCESS\_LOGS`. If this
-container does not exist, it is created. These logs remain in Cloud
+When you enable logging, raw logs from the CDN edge are delivered once a
+day to a Cloud Files container, `.CDN\_ACCESS\_LOGS`. If this
+container does not exist, the system creates it. These logs remain in Cloud
 Files until you delete them, even if you subsequently disable logging.
 
-Log files are named according to the following pattern: service name,
+Log file naming follows this pattern: service name,
 log date, log hour, and MD5 hash. For example:
 
     https://www.mywebsite.com/2015/02/01/16/096e6c4473f235db081deb51f42a8d98.log.gz
@@ -34,17 +34,17 @@ the log file was created. There might be multiple files for a given hour
 because the system splits log files based on both time and log file
 size. All times in the logs are UTC.
 
-Within the gzip logs, the format of the entries is similar to National
-Center for Supercomputing Applications (NCSA) combined log format, but
+Within the gzip logs, the format of the entries is similar to the National
+Center for Supercomputing Applications (NCSA) combined log format but
 without cookies. The dashes (-) denote fields that the NCSA combined log
 format dictates are present but that Rackspace CDN does not capture. For
 example:
 
     client_ip - - [day/month/year:hour:minute:second timezone] "method request HTTP_version" return_code bytes_sent "referrer" "user_agent"
 
-The following example shows log entries.
+### Example
 
-**Example: Log entries**
+The following example shows sample log entries:
 
     173.203.44.122 - - [15/07/2014:20:52:25 +0000] "GET
               /5142b6e5e57f760d7ff4-c591437fc634f2a98934b7738b8b8571.r93.cf1.rackcdn.
