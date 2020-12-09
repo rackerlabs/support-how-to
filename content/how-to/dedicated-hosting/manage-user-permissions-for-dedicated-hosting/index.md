@@ -24,6 +24,8 @@ Administrator** permission grants the user unlimited access to all sections of
 the MyRackspace Portal. The **Admin** permission (on a device or service)
 grants the user the ability to access and manage the device or service.
 
+Review the FAQ section for answers to common issues. 
+
 ### Categories of permissions
 
 The following categories of permissions are available for Dedicated Hosting
@@ -36,6 +38,7 @@ accounts:
 
 **Note**: You can grant a user a combination of direct and effective
 permissions. MyRackspace uses the highest level of permission granted.
+
 
 ### Methods for assigning permissions
 
@@ -54,6 +57,28 @@ To assign permissions by user, perform the following steps:
 
 2. Click on the specific user and select the tab accordingly.
 
+The following table explains the options for assigning a user different
+roles from the **Account Permissions** tab.
+
+
+{{< table "table  table-striped table-bordered" >}}
+| Permission | Description |
+|---------|--------|
+| <b>Account administrator</b> | Grants effective permissions for all accounts, devices, and users |
+| <b>Manage Users</b> | View or edit users on the account |
+| <b>Manage My Contact Information</b> | View and edit personal information associated with your account|
+| <b>Manage SSL Certificates</b> | Manage SSL Certificates     |
+| <b>Upgrade Account</b> | Add or remove account products   |
+| <b>View Reports</b> | View reports    |
+| <b>View Account Tickets</b> | View the list of account tickets for Managed Mail, DNS, Billing or Bandwidth related to any account with direct or effective permissions |
+| <b>Edit Account Tickets</b>| Create and edit account tickets for Managed Mail, DNS, Billing or Bandwidth to any account with direct or effective permissions  |
+| <b>View Domains</b> | View DNS information for Domains  |
+| <b>Edit Domains</b>|  Edit DNS information for Domains |
+| <b>View Billing</b>| View invoices and online payments |
+| <b>Edit Billing</b>| Make a payment or setup recurring payments |
+{{< /table >}}
+
+
 #### Assign by user group
 
 Allows you to select a group of users and grant them:
@@ -62,7 +87,7 @@ Allows you to select a group of users and grant them:
 - Access to linked cloud accounts, devices, services or **Product Groups**.
 
 To assign permissions by user group, perform the following steps:
-  
+
 1. Click on **Assign by Group**.
 
 2. Click on the specific group and select the tab accordingly.
@@ -73,7 +98,7 @@ Allows you to select a linked cloud account, device, or service and do the follo
 
 - Associate it with users or **User Groups**.
 - Assign users or **User Groups** portal access permissions.
-  
+
 To assign permissions by product, perform the following steps:
 
 1. Click on **Assign by Product**.
@@ -86,13 +111,19 @@ Allows you to select a **Product Group** containing linked cloud accounts, devic
 
 - Associate it with users or **User Groups**
 - Assign users or **User Groups** portal access permissions.
- 
+
 To assign permissions by product group, perform the following steps:
 
 1. Click on **Assign by Product Group**.
 
 2. Click on the specific **Product Group** and select the tab accordingly.
-  
+
+
+**Note**: It is most efficient to create product groups and and assign permissions to these groups
+rather than assign permissions to each individual user. This makes it easier to manage
+and update permissions.
+
+
 ### Manage groups
 
 This section shows you how to manage groups.
