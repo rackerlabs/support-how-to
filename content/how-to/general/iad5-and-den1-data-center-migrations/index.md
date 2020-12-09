@@ -48,7 +48,7 @@ date.
 Yes, we perform a physical or logical migration to the new data center, which means that
 it is offline for a portion of the maintenance.
 
-### How will the migration be carried out?
+### How does Rackspace carry out the migration?
 
 We deploy infrastructure in DEN1 and IAD5 to allow us to execute customer migrations
 logically. Server, networking, and storage infrastructure are in place and configured for
