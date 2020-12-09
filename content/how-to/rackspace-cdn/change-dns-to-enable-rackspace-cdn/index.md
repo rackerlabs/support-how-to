@@ -1,18 +1,19 @@
 ---
 permalink: change-dns-to-enable-rackspace-cdn/
-audit_date:
+audit_date: '2020-12-09'
 title: Change DNS to enable Rackspace CDN
 type: article
 created_date: '2015-02-12'
 created_by: Megan Meza
-last_modified_date: '2018-10-25'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-12-09'
+last_modified_by: Rose Morales
 product: Rackspace CDN
 product_url: rackspace-cdn
 ---
 
-After you create your CDN service, you must activate it by pointing the DNS records
-for your domain to the CDN network. This article describes the steps to do this.
+After you create your Content Delivery Network (CDN) service, you must activate
+it by pointing the DNS records for your domain to the CDN network. This article
+describes the steps to do this.
 
 ### Get your CDN URL
 
@@ -33,7 +34,7 @@ After you obtain your CDN domain URL, go to your DNS provider to change your rec
 
 Most DNS records for a domain already have an A record that maps your domain to the server that holds your website content. If no A record exists, follow your DNS provider's instructions for setting one up.
 
-If the A record is already created, you must change it to a CNAME that points to the CDN Domain Access domain. Create a CNAME record that points your domain to the CDN domain URL that you retrieved from the Cloud Control Panel. You can see these URLs by hovering over each individual domain name for your CDN service.
+If the A record is already created, you must change it to a CNAME that points to the CDN Domain Access domain. Create a CNAME record that points your domain to the CDN domain URL that you retrieved from the Cloud Control Panel. You can see these URLs by hovering over each domain name for your CDN service.
 
 If you host your domain with Rackspace, you can manage your DNS records by following the instructions at [Create DNS Records for cloud servers with the Control Panel](/support/how-to/create-dns-records-for-cloud-servers-with-the-control-panel).
 
