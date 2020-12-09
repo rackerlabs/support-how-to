@@ -1,12 +1,12 @@
 ---
 permalink: enable-log-delivery-in-rackspace-cdn/
-audit_date:
-title: Logs in Rackspace CDN
+audit_date: '2020-12-19'
+title: Enable log delivery in Rackspace CDN
 type: article
 created_date: '2015-10-29'
 created_by: Catherine Richardson
-last_modified_date: '2015-10-29'
-last_modified_by: Catherine Richardson
+last_modified_date: '2020-12-19'
+last_modified_by: Rose Morales
 product: Rackspace CDN
 product_url: rackspace-cdn
 ---
@@ -19,7 +19,7 @@ Use the Cloud Control Panel to enable the delivery of logs for your
 service by clicking **Enable Logging** on the service details page.
 
 When logging is enabled, raw logs from the CDN edge are delivered once a
-day to a Cloud Files container named .CDN\_ACCESS\_LOGS. If this
+day to a Cloud Files container named `.CDN\_ACCESS\_LOGS`. If this
 container does not exist, it is created. These logs remain in Cloud
 Files until you delete them, even if you subsequently disable logging.
 
@@ -28,7 +28,7 @@ log date, log hour, and MD5 hash. For example:
 
     https://www.mywebsite.com/2015/02/01/16/096e6c4473f235db081deb51f42a8d98.log.gz
 
-In this example,` www.mywebsite.com` is the name of the service,
+In this example,`www.mywebsite.com` is the name of the service,
 `2015/02/01` is the date (February 1, 2015), and `16` is the hour that
 the log file was created. There might be multiple files for a given hour
 because the system splits log files based on both time and log file
