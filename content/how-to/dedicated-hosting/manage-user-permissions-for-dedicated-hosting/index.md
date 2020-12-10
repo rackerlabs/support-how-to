@@ -37,8 +37,6 @@ accounts:
 
 - **Effective permissions**: Are inherited as a result of their memberships in user and product groups.
 
-   {{<image src="photo_1" alt="" title="">}}
-
 **Note**: You can grant a user a combination of direct and effective
 permissions. MyRackspace uses the highest level of permission granted.
 
