@@ -24,7 +24,7 @@ steps. By default, logging is disabled when you create a service.
 
     {{<image src="EnableLogging.png" alt="" title="">}}
 
-4. To turn logging on, click the **Enable Logging** button. The **Service
+4. To turn logging on, click **Enable Logging**. The **Service
    Status** is **Pending** until the value for **Logging** changes to
    **Enabled**.
 
