@@ -22,7 +22,7 @@ assets. Assets can be anything from website content, to web application
 components, to media like videos, ads, and interactive experiences.  CDNs
 decrease the load time of these assets by caching them on edge nodes, which are
 also called edge servers or point of presence (PoP) servers.  Edge nodes are
-distributed around the globe, and they cache content and serve it directly to
+distributed around the globe and they cache content and serve it directly to
 your customers, thus reducing transit time to a customer's location.
 
 With simple provisioning via the Rackspace Cloud Control Panel or API, Rackspace
@@ -37,10 +37,10 @@ interface.
 The Rackspace CDN architecture includes the following components:
 
 - Use of the Akamai Technologies content delivery network, which is one of the
-    world's largest distributed computing platforms, with over 230 edge nodes
-    around the world
+  world's largest distributed computing platforms, with over 230 edge nodes
+  around the world
 - The ability to cache publicly accessible resources hosted on a Cloud Servers
-    instance, or in a public Cloud Files container
+  instance, or in a public Cloud Files container
 - Cloud Control Panel integration
 - A RESTful API
 - A single global endpoint to access the API
