@@ -118,25 +118,6 @@ To assign permissions by product, perform the following steps:
 
 2. Click on the specific linked cloud account, device, or service and select the tab accordingly.
 
-#### Assign by product group
-
-Allows you to select a **Product Group** containing linked cloud accounts, devices, or services and do the following tasks:
-
-- Associate it with users or **User Groups**
-- Assign users or **User Groups** portal access permissions.
-
-To assign permissions by product group, perform the following steps:
-
-1. Click on **Assign by Product Group**.
-
-2. Click on the specific **Product Group** and select the tab accordingly.
-
-
-**Note**: It is most efficient to create product groups and and assign permissions to these groups
-rather than assign permissions to each individual user. This makes it easier to manage
-and update permissions.
-
-
 ### Manage groups
 
 This section shows you how to manage groups.
