@@ -24,7 +24,8 @@ Administrator** permission grants the user unlimited access to all sections of
 the MyRackspace Portal. The **Admin** permission (on a device or service)
 grants the user the ability to access and manage the device or service.
 
-Review the FAQ section for answers to common issues. 
+If you don't find the information you need here, then review the **FAQ** section on the left
+for answers to common user permission problems.
 
 ### Categories of permissions
 
@@ -36,13 +37,22 @@ accounts:
 
 - **Effective permissions**: Are inherited as a result of their memberships in user and product groups.
 
+    {{<image src="photo_1" alt="user profile with options for direct and effective permissions" title="">}}
+
 **Note**: You can grant a user a combination of direct and effective
 permissions. MyRackspace uses the highest level of permission granted.
 
 
 ### Methods for assigning permissions
+To manage user permissions, log in to the MyRackspace
+portal and then select **Account > Permissions**.
 
-You can assign permissions in the MyRackspace Portal in the following ways:
+You can use the 4 tabs on the next page to assign permissions in the following ways:
+
+- **Assign by User**
+- **Assign by Product**
+- **Manage Groups**
+- **Global Permissions**
 
 #### Assign by user
 
@@ -57,8 +67,25 @@ To assign permissions by user, perform the following steps:
 
 2. Click on the specific user and select the tab accordingly.
 
-The following table explains the options for assigning a user different
-roles from the **Account Permissions** tab.
+#### Assign by user group
+
+Allows you to select a group of users and grant them:
+
+- Permissions at the account level.
+- Access to linked cloud accounts, devices, services or **Product Groups**.
+
+To assign permissions by user group, perform the following steps:
+
+1. Click **Assign by User**.
+
+2. Select a group from the User Groups Column.
+
+3. Select the checkbox next to the permissions you would like to assign to that group.
+
+4. Click **Save Changes**.
+
+The following table explains the different
+permission options.
 
 
 {{< table "table  table-striped table-bordered" >}}
@@ -77,20 +104,6 @@ roles from the **Account Permissions** tab.
 | <b>View Billing</b>| View invoices and online payments |
 | <b>Edit Billing</b>| Make a payment or setup recurring payments |
 {{< /table >}}
-
-
-#### Assign by user group
-
-Allows you to select a group of users and grant them:
-
-- Permissions at the account level.
-- Access to linked cloud accounts, devices, services or **Product Groups**.
-
-To assign permissions by user group, perform the following steps:
-
-1. Click on **Assign by Group**.
-
-2. Click on the specific group and select the tab accordingly.
 
 #### Assign by product
 
