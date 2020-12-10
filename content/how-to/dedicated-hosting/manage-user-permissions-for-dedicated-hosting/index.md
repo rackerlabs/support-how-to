@@ -40,6 +40,7 @@ accounts:
 **Note**: You can grant a user a combination of direct and effective
 permissions. MyRackspace uses the highest level of permission granted.
 
+{{<image src="photo_1" alt="" title="">}}
 
 ### Methods for assigning permissions
 To manage user permissions, log in to the MyRackspace
