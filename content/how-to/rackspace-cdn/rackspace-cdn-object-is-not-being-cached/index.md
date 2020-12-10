@@ -11,9 +11,9 @@ product: Rackspace CDN
 product_url: rackspace-cdn
 ---
 
-When an object is defined in the origin and is located in the appropriate
+When an object that is defined in the origin and located in the appropriate
 path is not being cached by Akamai, you should contact Rackspace Support for
-assistance. However, the following information, provides some insight into why this
+assistance. However the following information provides some insight into why this
 situation might occur.
 
 ### Most common reason why cacheable objects are not cached on Akamai
@@ -26,7 +26,7 @@ differ based on some characteristic, such as the client's specified user-agent
 or language, and is therefore not cacheable. This behavior is valid based on RFC
 HTTP/1.1.
 
-However, if the **Vary** header has a single value of **Vary: Accept-Encoding**,
+However, if the **Vary** header has a single value of **Vary: Accept-Encoding**
 and the response is accompanied by **Content-Encoding: gzip**, then Akamai
 caches the content. If the **Vary** header contains any values other than
 **Accept-Encoding**, Akamai does not cache the object.
@@ -48,24 +48,24 @@ In addition to the presence of a **Vary** header in the response, following are
 the most prevalent reasons why objects that are specified to be cached are not
 cached on an edge server:
 
-- Another configuration setting overrides the cache setting.
-- Query strings are making your objects unique.
-- The request is a **POST** request.
-- The origin server returns a 302 redirect.
+- Another configuration setting overrides the cache setting
+- Query strings are making your objects unique
+- The request is a **POST** request
+- The origin server returns a 302 redirect
 - The origin server sends no-store **Cache-Control** and **Expires** headers and
-    the configuration is setup to honor **Cache-Control** and **Expires**
-    headers.
+  the configuration is setup to honor **Cache-Control** and **Expires**
+  headers
 - The origin server is sending an **Edge-Control** header specifying no-store.
 - The **Content Length** header from the origin does not match the actual
-    content length.
+  content length
 - The **Date** header from the origin does not represent meaningful time because
-    the origin clock is not synchronized.
-- The **Age** header from the origin is inconsistent.
+  the origin clock is not synchronized
+- The **Age** header from the origin is inconsistent
 - Authentication or revalidation settings require all objects to check freshness
-    with the origin every time.
+  with the origin every time
 - The object is Edge Side Included (ESI)-processed or is a fragment from an ESI
-    include.
-- The ETag is mismatched from the origin.
-- ESSL is used, and even though a request goes to the same virtual IP (VIP)
-    address, it resolves to a different physical IP address behind the VIP. As a
-    result, it appears that the VIP doesn't have it in cache.
+  include
+- The ETag is mismatched from the origin
+- ESSL is used and even though a request goes to the same virtual IP (VIP)
+  address, it resolves to a different physical IP address behind the VIP. As a
+  result, it appears that the VIP doesn't have it in cache
