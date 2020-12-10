@@ -33,7 +33,7 @@ much quicker than with other content systems.
 
 The local servers distributed around the world. They serve your content
 directly to your audience, which reduces its transmission time. They can
-also be called "points of presence" (or PoPs), or edge servers. The edge
+also be called "points of presence" (or PoPs) or edge servers. The edge
 nodes cache your content for a time frame that you set; see Time to live
 (TTL) for more about the time frame.
 
