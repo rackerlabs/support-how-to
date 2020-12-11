@@ -1,12 +1,12 @@
 ---
 permalink: rename-a-rackspace-cdn-service/
-audit_date:
+audit_date: '2020-12-11'
 title: Rename a Rackspace CDN service
 type: article
 created_date: '2015-05-11'
 created_by: Catherine Richardson
-last_modified_date: '2015-05-18'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2020-12-11'
+last_modified_by: Rose Morales
 product: Rackspace CDN
 product_url: rackspace-cdn
 ---
