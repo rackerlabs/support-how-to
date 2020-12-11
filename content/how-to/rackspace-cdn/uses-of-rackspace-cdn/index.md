@@ -10,6 +10,7 @@ last_modified_by: Rose Morales
 product: Rackspace CDN
 product_url: rackspace-cdn
 ---
+
 A content delivery network (CDN) refers to clustered servers distributed around
 the world to ease availability and high performance. The following are some uses of Rackspace CDN:
 
@@ -18,7 +19,7 @@ the world to ease availability and high performance. The following are some uses
 Commonly built with a mix of static objects and text, formatting like
 CSS, and some media components like marketing videos, websites can be
 CDN enabled quickly and easily.  With origin-pull technology, you simply
-identify a hostname and an origin, and your entire site is cached and
+identify a hostname and an origin and your entire site is cached and
 accelerated.
 
 ### Application acceleration
@@ -34,7 +35,7 @@ speeds.
 Instead of having your web servers render content for *every* unique visit, you
 can use a CDN to deliver cached content to website visitors instead. This
 reduces the load on your local web server and database because HTML is served
-near the user's location. Apart from this CPU efficiency, users will also get
+near the user's location. Apart from this CPU efficiency, users also get
 content faster because the latency has improved.
 
 ### eCommerce stores
