@@ -11,15 +11,19 @@ product: Rackspace CDN
 product_url: rackspace-cdn
 ---
 
-To rename a service in Rackspace CDN, follow these steps:
+To rename a service in Rackspace CDN, use the following steps:
 
-1. Access Rackspace CDN as described in [Access Rackspace CDN](/support/how-to/access-rackspace-cdn).
+1. Log in to the [Cloud Control Panel](https://login.rackspace.com/).
 
-2. In the list of CDN services, click the gear icon beside the service
-that you want to rename and select **Rename Service**.
+2. In the top navigation bar, click **Select a Product > Rackspace Cloud**.
 
-3. In the popup dialog box, enter the new name for the service and then
-click **Rename Service**.
+3. Click **Storage > CDN** or **Networking > CDN**.
+
+4. In the list of CDN services, click the gear icon beside the service
+   that you want to rename and select **Rename Service**.
+
+5. In the popup dialog box, enter the new name for the service and then
+   click **Rename Service**.
 
 ### Additional resources
 
