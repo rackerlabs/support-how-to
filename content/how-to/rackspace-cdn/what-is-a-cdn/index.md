@@ -29,7 +29,7 @@ CDNs like the [Rackspace CDN](https://www.rackspace.com/cloud/cdn-content-delive
 transport network by employing various techniques to optimize content delivery.
 It is fairly easy to see how CDNs help by looking at how the Internet works. A
 traceroute to an Internet address tells us how many network jumps, or hops, a simple
-request takes. Following is one to Yahoo.com.
+request takes. The following example is a traceroute to Yahoo.com:
 
      >tracert www.yahoo.com
      Tracing route to www-real.wa1.b.yahoo.com [209.191.93.52] over a maximum of 30 hops:
@@ -51,12 +51,12 @@ on where the end-user is located, serves the user with data from the closest or
 most appropriate server. CDNs reduce the number of hops needed to handle a
 request. The difference is shown in the following figures.
 
-#### Before the Use of a CDN
+#### Before the use of a CDN
 
 - End-user requests www.rackspace.com (origin server) in a browser.
 - End-user's browser receives content through multiple servers.
 
-#### After the Use of a CDN
+#### After the use of a CDN
 
 - End-user requests www.rackspace.com (origin server) in a browser.
 - End-user's browser receives content from the optimum servers.
@@ -72,29 +72,30 @@ CDN's Edge Network deployments, the better the CDN.
 CDNs generally push the Edge Network closer to end-users. The Edge Network grows
 outward from the origin server by the addition of co-location facilities,
 bandwidth, and servers. CDNs choose the best location for serving content while
-optimizing for performance. They may choose locations that are the fewest hops
+optimizing for performance. They might choose locations that are the fewest hops
 or the fewest number of network seconds away from the requesting client. CDNs
 choose the least expensive locations while optimizing for cost. CDNs use various
 techniques such as web caching, serverload balancing, and request routing to
 achieve the optimization goals.
 
 - Because closer is better, web caches store popular content closer to the user.
-    These shared network appliances reduce bandwidth requirements, reduce server
-    load, and improve the client response times for content stored in the cache.
+  These shared network appliances reduce bandwidth requirements, reduce server
+  load, and improve the client response times for content stored in the cache.
+  
 - Server load-balancing uses a web, content, or multilayer switch to share
-    traffic among several servers or web caches. The CDN assigns a single
-    virtual IP to it. Incoming traffic is directed to one of the
-    real servers attached. This has the advantages of balancing the load,
-    increasing total capacity, improving scalability, and providing increased
-    reliability by redistributing traffic of a failed web server and providing
-    server health checks.
+  traffic among several servers or web caches. The CDN assigns a single
+  virtual IP to it. Incoming traffic is directed to one of the
+  real servers attached. This has the advantages of balancing the load,
+  increasing total capacity, improving scalability, and providing increased
+  reliability by redistributing traffic of a failed web server and providing
+  server health checks.
 
 **Global Server Load Balancing**
 
 - Request routing directs client requests to the content source best able to
-    serve the request. This may involve directing a client request to the
-    service node that is closest to the client, or to the node with the most
-    capacity. A variety of algorithms for Global Server Load Balancing (shown in
-    the preceding diagram) are used to route the request. Choosing the closest
-    service node is done using a variety of techniques including proactive
-    probing and connection monitoring.
+  serve the request. This might involve directing a client request to the
+  service node that is closest to the client, or to the node with the most
+  capacity. A variety of algorithms for Global Server Load Balancing (shown in
+  the preceding diagram) are used to route the request. Choosing the closest
+  service node is done using a variety of techniques including proactive
+  probing and connection monitoring.
