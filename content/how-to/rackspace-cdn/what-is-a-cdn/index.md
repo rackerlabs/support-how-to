@@ -1,37 +1,35 @@
 ---
 permalink: what-is-a-cdn/
-audit_date:
+audit_date: '2020-12-11'
 title: CDN Concepts
 type: article
 created_date: '2011-03-10'
 created_by: Rackspace Support
-last_modified_date: '2016-06-02'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-12-11'
+last_modified_by: Rose Morales
 product: Rackspace CDN
 product_url: rackspace-cdn
 ---
 
-The [Wikipedia
-entry](https://en.wikipedia.org/wiki/Content_delivery_network) for CDN
-states: "A content delivery network or content distribution network
-(CDN) is a large distributed system of servers deployed in multiple data
-centers across the Internet. The goal of a CDN is to serve content to
-end-users with high availability and high performance. CDNs serve a
-large fraction of the Internet content today, including web objects
-(text, graphics and scripts), downloadable objects (media files,
-software, documents), applications (e-commerce, portals), live streaming
-media, on-demand streaming media, and social networks."
+The [Wikipedia entry](https://en.wikipedia.org/wiki/Content_delivery_network)
+for CDN states: *A content delivery network or content distribution network
+(CDN) is a large distributed system of servers deployed in multiple data centers
+across the Internet. The goal of a CDN is to serve content to end-users with
+high availability and high performance. CDNs serve a large fraction of the
+Internet content today, including web objects (text, graphics, and scripts),
+downloadable objects (media files, software, documents), applications
+(e-commerce, portals), live streaming media, on-demand streaming media, and
+social networks.*
 
-The Internet is a network of networks. To get content from a server on
-the other side of the planet, IP packets have to travel through a series
-of backbone servers and public network cables.
+The Internet is a network of networks. To get content from a server on the other
+side of the planet, IP packets have to travel through a series of backbone
+servers and public network cables.
 
-CDNs like the [Rackspace CDN](https://www.rackspace.com/cloud/cdn-content-delivery-network)
-augment the transport network by employing various techniques to
-optimize content delivery. It is fairly easy to see how CDNs help by
-looking at how the Internet works. A trace route to an Internet address
-tells us how many network hops a simple request takes. Following is one
-to Yahoo.com.
+CDNs like the [Rackspace CDN](https://www.rackspace.com/cloud/cdn-content-delivery-network) augment the
+transport network by employing various techniques to optimize content delivery.
+It is fairly easy to see how CDNs help by looking at how the Internet works. A
+traceroute to an Internet address tells us how many network jumps, or hops, a simple
+request takes. The following example is a traceroute to Yahoo.com:
 
      >tracert www.yahoo.com
      Tracing route to www-real.wa1.b.yahoo.com [209.191.93.52] over a maximum of 30 hops:
@@ -46,63 +44,58 @@ to Yahoo.com.
      9    18 ms    18 ms    17 ms  f1.www.vip.mud.yahoo.com [209.191.93.52]
      Trace complete.
 
-Additional hops mean more time to render data from a request on the
-user's browser. The speed of delivery is also constrained by the slowest
-network in the chain. The solution is a CDN that places servers around
-the world and, depending on where the end user is located, serves the
-user with data from the closest or most appropriate server. CDNs reduce
-the number of hops needed to handle a request. The difference is shown
-in the following figures.
+Additional hops mean more time to render data from a request on the user's
+browser. The speed of delivery is also constrained by the slowest network in the
+chain. The solution is a CDN that places servers around the world and, depending
+on where the end-user is located, serves the user with data from the closest or
+most appropriate server. CDNs reduce the number of hops needed to handle a
+request. The difference is shown in the following figures.
 
-#### Before the Use of a CDN
+#### Before the use of a CDN
 
--   End user requests www.rackspace.com (origin server) in browser.
--   End user's browser receives content through multiple servers.
+- End-user requests www.rackspace.com (origin server) in a browser.
+- End-user's browser receives content through multiple servers.
 
-#### After the Use of a CDN
+#### After the use of a CDN
 
--   End user requests www.rackspace.com (origin server) in browser.
--   End user's browser receives content from the optimum servers.
+- End-user requests www.rackspace.com (origin server) in a browser.
+- End-user's browser receives content from the optimum servers.
 
-CDNs focus on improving performance of web page delivery. CDNs like the
-Akamai CDN support progressive downloads, which optimizes delivery of
-digital assets such as web page images. CDN nodes and servers are
-deployed in multiple locations around the globe over multiple Internet
-backbones. These nodes cooperate with each other to satisfy data
-requests by end users, transparently moving content to optimize the
-delivery process. The larger the size and scale of a CDN's Edge Network
-deployments, the better the CDN.
+CDNs focus on improving the performance of web page delivery. CDNs like the
+Akamai CDN support progressive downloads, which optimizes the delivery of
+digital assets such as web page images. CDN nodes and servers are deployed in
+multiple locations around the globe over multiple Internet backbones. These
+nodes cooperate to satisfy data requests by end-users, transparently moving
+content to optimize the delivery process. The larger the size and scale of a
+CDN's Edge Network deployments, the better the CDN.
 
-CDNs generally push the Edge Network closer to end users. The Edge
-Network grows outward from the origin server by the addition of
-co-location facilities, bandwidth, and servers. CDNs choose the best
-location for serving content while optimizing for performance. They may
-choose locations that are the fewest hops or fewest number of network
-seconds away from the requesting client. CDNs choose the least expensive
-locations while optimizing for cost. CDNs use various techniques such as
-web caching, server-load balancing, and request routing to achieve the
-optimization goals.
+CDNs generally push the Edge Network closer to end-users. The Edge Network grows
+outward from the origin server by the addition of co-location facilities,
+bandwidth, and servers. CDNs choose the best location for serving content while
+optimizing for performance. They might choose locations that are the fewest hops
+or the fewest number of network seconds away from the requesting client. CDNs
+choose the least expensive locations while optimizing for cost. CDNs use various
+techniques such as web caching, serverload balancing, and request routing to
+achieve the optimization goals.
 
--   Because closer is better, web caches store popular content closer to
-    the user. These shared network appliances reduce bandwidth
-    requirements, reduce server load, and improve the client response
-    times for content stored in the cache.
--   Server-load balancing uses a web switch, content switch, or
-    multilayer switch to share traffic among a number of servers or
-    web caches. In CDNs, the switch is assigned a single virtual
-    IP address. Traffic arriving at the switch is then directed to one
-    of the real web servers attached to the switch. This has the
-    advantages of balancing load, increasing total capacity, improving
-    scalability, and providing increased reliability by redistributing
-    the load of a failed web server and providing server health checks.
+- Because closer is better, web caches store popular content closer to the user.
+  These shared network appliances reduce bandwidth requirements, reduce server
+  load, and improve the client response times for content stored in the cache.
+  
+- Server load-balancing uses a web, content, or multilayer switch to share
+  traffic among several servers or web caches. The CDN assigns a single
+  virtual IP to it. Incoming traffic is directed to one of the
+  real servers attached. This has the advantages of balancing the load,
+  increasing total capacity, improving scalability, and providing increased
+  reliability by redistributing traffic of a failed web server and providing
+  server health checks.
 
 **Global Server Load Balancing**
 
--   Request routing directs client requests to the content source best
-    able to serve the request. This may involve directing a client
-    request to the service node that is closest to the client, or to the
-    node with the most capacity. A variety of algorithms for Global
-    Server Load Balancing (shown in preceding diagram) are used to route
-    the request. Choosing the closest service node is done using a
-    variety of techniques including proactive probing and
-    connection monitoring.
+- Request routing directs client requests to the content source best able to
+  serve the request. This might involve directing a client request to the
+  service node that is closest to the client, or to the node with the most
+  capacity. A variety of algorithms for Global Server Load Balancing (shown in
+  the preceding diagram) are used to route the request. Choosing the closest
+  service node is done using a variety of techniques including proactive
+  probing and connection monitoring.
