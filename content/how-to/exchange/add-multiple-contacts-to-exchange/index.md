@@ -11,23 +11,23 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-Exchange only allows internal addresses for email forwarding and distribution
-lists. To use an external address for either of these functions, it must be set
-up as a contact which is simply an Exchange alias that points to a real mailbox
+Microsoft&reg; Exchange&reg; allows only internal addresses for email forwarding and distribution
+lists. To use an external address for either of these functions, you must set it
+up as a contact, which is simply an Exchange alias that points to a real mailbox
 outside of your domain.
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/).
 
-2. In the Microsoft Exchange section, click the **Contacts** link.
+2. In the **Microsoft Exchange** section, click **Contacts**.
 
    {{<image alt="Contacts link highlighted." src="cp-contacts.jpg" title="Contacts link highlighted.">}}
 
 3. If you have multiple domains, select the appropriate domain name. Or, to
-   change domains, click the **Change Domain** link.
+   change domains, click **Change Domain**.
 
-4. Click the **Add Multiple Contacts** button.
+4. Click **Add Multiple Contacts**.
 
-5. Create a CSV or Excel file, containing the information detailed in the **Data
+5. Create a CSV or Excel&reg; file containing the information detailed in the **Data
    Format** section:
 
    Use the following column headers:
@@ -50,14 +50,14 @@ outside of your domain.
    - Country
    - Notes
 
-   Or, to download a template, click the **CSV template** or **Excel template**
-   link.
+   Or, to download a template, click **CSV template** or **Excel template**.
 
-6. In the **Import File** section, click the **Browse** button.
+6. In the **Import File** section, click **Browse**.
 
 7. Locate and select the CSV or Excel file created in Step 5.
 
-8. Click the **Open** button.
+8. Click **Open**.
 
-9. Click the **Import** button. Any errors that occur will be detailed in the
-    import summary, which will appear after the import is complete.
+9. Click **Import**.
+
+Any errors that occur display in the import summary, which appears after the import is complete.
