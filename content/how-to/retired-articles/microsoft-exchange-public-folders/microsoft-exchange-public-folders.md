@@ -5,10 +5,8 @@ title: Microsoft Exchange public folders
 type: article
 created_date: '2012-02-06'
 created_by: Rackspace Support
-last_modified_date: '2016-01-28'
-last_modified_by: Rose Coste
-product: Microsoft Exchange
-product_url: exchange
+last_modified_date: '2020-12-14'
+last_modified_by: Rose Morales
 ---
 
 Public folders are a feature of Microsoft Exchange that are used to
