@@ -14,22 +14,20 @@ product_url: dedicated-hosting
 This article describes user permissions for Dedicated Hosting and shows you
 how to manage these permissions.
 
-You manage permissions in the [MyRackspace
-portal](https://login.rackspace.com) under **Account > Permissions**.
+To manage permissions in the [MyRackspace
+portal](https://login.rackspace.com) select **Account > Permissions** .
 
 **Note**: To access the **Permissions** area in the MyRackspace Portal and
-modify another user’s permissions, you must have either the **Account
-Administrator** permission or the **Admin** permission. The **Account
-Administrator** permission grants the user unlimited access to all sections of
+modify another user’s permissions, you must have either the **Account Administrator** permission or the **Admin** permission. The **Account Administrator** permission grants the user unlimited access to all sections of
 the MyRackspace Portal. The **Admin** permission (on a device or service)
 grants the user the ability to access and manage the device or service.
 
-If you don't find the information you need here, then review the **FAQ** section on the left
+If you are unable find the information you need here, review the **FAQ** section on the left
 for answers to common user permission problems.
 
 ### Categories of permissions
 
-The following categories of permissions are available for Dedicated Hosting
+There are two types of permissions are available for Dedicated Hosting
 accounts:
 
 - **Direct permissions**: Grant the user direct access to
@@ -55,16 +53,18 @@ You can use the 4 tabs on the next page to assign permissions in the following w
 
 #### Assign by user
 
-Allows you to select an individual and grant them:
+Allows you to select an individual and grant them direct or effective permissions
+at the account level. You can also manage a user's access to associated cloud accounts,
+devices, services, product groups, and group membership by selecting the tabs on the
+**Assign By User** page.
 
-- Permissions at the account level.
-- Access to linked cloud accounts, devices, services or **Product Groups**.
+To assign permissions by user, complete the following steps:
 
-To assign permissions by user, perform the following steps:
+1. Select **Account > Permissions**.
 
-1. Click on **Assign by User**.
+2. Select **Assign by User**.
 
-2. Click on the specific user and select the tab accordingly.
+3. Select a user and select from one of the tabs to update the user permissions.
 
 #### Assign by user group
 
@@ -75,13 +75,19 @@ Allows you to select a group of users and grant them:
 
 To assign permissions by user group, perform the following steps:
 
-1. Click **Assign by User**.
+1. Select **Account > Permissions**.
 
-2. Select a group from the User Groups Column.
+2. Select **Assign by User**.
 
-3. Select the checkbox next to the permissions you would like to assign to that group.
+3. Select a group from the User Groups Column.
 
-4. Click **Save Changes**.
+4. Select the checkbox next to the permissions you would like to assign to that group.
+
+5. Click **Save Changes**.
+
+This updates the permissions of all users in the selected group.
+
+#### User permission types
 
 The following table explains the different
 permission options.
@@ -90,7 +96,7 @@ permission options.
 {{< table "table  table-striped table-bordered" >}}
 | Permission | Description |
 |---------|--------|
-| <b>Account administrator</b> | Grants effective permissions for all accounts, devices, and users |
+| <b>Account administrator</b> | Grants effective permissions for the entire account. i.e accounts, devices, and users |
 | <b>Manage Users</b> | View or edit users on the account |
 | <b>Manage My Contact Information</b> | View and edit personal information associated with your account|
 | <b>Manage SSL Certificates</b> | Manage SSL Certificates     |
@@ -106,87 +112,73 @@ permission options.
 
 #### Assign by product
 
-Allows you to select a linked cloud account, device, or service and do the following tasks:
+Allows you to manage user access to an individual product of product group.
 
-- Associate it with users or **User Groups**.
-- Assign users or **User Groups** portal access permissions.
+To assign permissions by product or product group, perform the following steps:
 
-To assign permissions by product, perform the following steps:
+1. Select **Account > Permissions**.
 
-1. Click on **Assign by Product**.
+2. Select **Assign by Product**.
 
-2. Click on the specific linked cloud account, device, or service and select the tab accordingly.
+3. Make a selection from the **Product** or **Product Group** column.
+
+4. Update the user, user group, or Group membership permission.
+
+5. Select **Save Changes** .
 
 ### Manage groups
 
-This section shows you how to manage groups.
+The **Manage Groups** tabs lets you create new User and Product groups and update members.
 
 #### Create a user group
 
 Use the following steps to create a user group:
 
-1. Log in to the [MyRackspace Portal](https://login.rackspace.com).
-2. In the subnavigation bar, select **Account > Permissions**.
-3. At the top of the page, click **Manage Groups**.
-4. In the **User Groups** section, enter a name for the group, then click the
-   green plus sign to create the group.
-5. On the new page that appears, select the **Group Members** that you want to
-   add to the group and click **Save Changes**.
+1. Select **Account > Permissions**.
+2. Select **Manage Groups**.
+4. At the top of the **User Groups** column, enter a name for the new group, then select the
+   green plus sign.
+5. Select the **Group Members** to
+   add, then select **Save Changes**.
 
 #### Create a product group
 
 Use the following steps to create a product group:
 
-1. Log in to the [MyRackspace Portal](https://login.rackspace.com).
-2. In the subnavigation bar, select **Account > Permissions**.
-3. At the top of the page, click **Manage Groups**.
-4. In the **Product Groups** section, enter a name for the group, then click
-   the green plus sign to create the group.
-5. On the new page that appears, select the accounts, devices, and services
-   that you want to add to the group and click **Save Changes**.
+1. Select **Account > Permissions**.
+2. Select **Product Groups**.
+4. At the top of the **Product Groups** column, enter a name for the new group, then select the
+   green plus sign.
+5. Select the **Product** to
+   add, then select **Save Changes**.
 
-#### Grant a user group access to a product group
+#### Grant access to a user group or product group
 
-Use the following steps to grant a user group access to a product group:
+Use the following steps to grant access to a user group or product group:
 
-1. Log in to the [MyRackspace Portal](https://login.rackspace.com).
-2. In the subnavigation bar, select **Account > Permissions**.
-3. In the **User Groups** section, select an existing user group.
-4. Click **Assign by User** at the top of the page (if it isn't already the
-   active tab).
-5. Click the **Product Groups** tab to display a list of products.
-6. In the row for each product for which you want to assign permissions,
-   select the radio button that corresponds to the permission level that you
-   want to set for the product.
-
-#### Grant a product group access to a user group
-
-Use the following steps to grant a product group access to a user group:
-
-1. Log in to the [MyRackspace Portal](https://login.rackspace.com).
-2. In the subnavigation bar, select **Account > Permissions**.
-3. At the top of the page, click **Assign by Product**.
-4. In the **Product Groups** section, select an existing product group.
-5. Click the **User Groups** tab to display a list of user groups.
-6. In the row for each user group for which you want to assign permissions,
-   select the radio button that corresponds to the permission level that you
-   want to set for the user group.
+1. Select **Account > Permissions**.
+2. Select **Manage Groups**.
+3. Select an existing group from the **User Groups** or **Product Groups** column.
+4. Select member to add.
+5. Select **Save Changes**.
 
 #### Delete a user or product group
 
 Use the following steps to delete a user or product group:
 
-1. Click the arrow icon to the left of the user or product group to expand the row for that group.
-2. Click **Edit Group**.
-3. Select **Actions > Delete Group**.
+1. Select **Account > Permissions**.
+2. Select **Manage Groups**.
+3. Select an existing group from the **User Groups** or **Product Groups** column
+1. Select the **Actions** dropdown in upper-right.
+3. Select Delete Group**.
 
 ### Manage global permissions
 
-The **Global Permissions** section enables you to make changes across your
+The **Global Permissions** section lets you make changes across your
 entire account.
 
 **Ticketing Settings** enables you to control the tickets that your users have
-permission to see when those tickets concern one or more devices.
+permission to see when those tickets include one or more devices.
 
 The following table shows the ticketing settings that are required for common
 actions or views:

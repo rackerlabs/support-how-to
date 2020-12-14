@@ -57,6 +57,13 @@ permission, you must have one of the following permissions:
   - **Admin**: This permission (on a device or service) grants a user the
     ability to manage the device or service, as well as which users can access the device or service.
 
+### Troubleshooting
+
+{{</accordion>}}
+{{<accordion title="What should I do if I can't see/access/manage a newly created device?" col="in" href="accordion3">}}
+
+New devices are not automatically added to product groups which means users or user groups may not have effective permissions to the device. Try adding the device to the correct product group.
+
 For details about how to manage permissions, see [Manage user permissions for
 Dedicated Hosting](/support/how-to/manage-user-permissions-for-dedicated-hosting).
 {{</accordion>}}
