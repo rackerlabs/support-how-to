@@ -1,0 +1,29 @@
+# TODO: Consider changing the Dependabot schedule to weekly after this is set up and working
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    # WARNING This may not catch package.hugo.json
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "security"
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "security"
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "security"
+  - package-ecosystem: "github-actions"
+  # NB: GH actions are coming soon to this repo for Vale
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "security"
