@@ -6,7 +6,7 @@ type: article
 created_date: '2018-11-28'
 created_by: Kate Dougherty
 last_modified_date: '2020-07-17'
-last_modified_by: Rose Morales
+last_modified_by: Chad Sterling
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
@@ -109,6 +109,9 @@ permission options.
 | <b>View Billing</b>| View invoices and online payments |
 | <b>Edit Billing</b>| Make a payment or setup recurring payments |
 {{< /table >}}
+
+**Note:** It is more efficient create product and user groups and use them as a way to manage
+user permissions than to assign permissions to individual users. 
 
 #### Assign by product
 
