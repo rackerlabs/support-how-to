@@ -7,8 +7,6 @@ created_date: '2018-10-03'
 created_by: Carrie Feiss
 last_modified_date: '2018-10-03'
 last_modified_by: Cat Lookabaugh
-product: General
-product_url: general
 noindex: true
 ---
 

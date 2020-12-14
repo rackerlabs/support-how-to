@@ -7,8 +7,6 @@ created_date: '2017-05-22'
 created_by: Ciaran Maher
 last_modified_date: '2018-05-23'
 last_modified_by: Cat Lookabaugh
-product: General
-product_url: general
 noindex: true
 ---
 
