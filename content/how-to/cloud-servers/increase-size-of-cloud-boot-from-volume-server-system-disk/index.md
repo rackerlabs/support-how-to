@@ -12,9 +12,9 @@ product_url: cloud-servers
 ---
 
 If you have a cloud boot-from-volume server that is reaching its capacity limit,
-you can increase the size of the volume without building a new virtual machine
-(VM), or adding disks that give you alternate storage points, rather than adding
-to your existing limit.
+instead of adding to your existing limit, you can increase the size of the volume
+without building a new virtual machine(VM) or adding disks that give you alternate
+storage points.
 
 This article shows you how to detach the boot volume, clone it to a larger size,
 and then swap the volumes out and boot the VM.
@@ -71,6 +71,6 @@ green.
 
 In the Cloud Control Panel, run the **Reboot** command.
 
-After the VM is in **Active** status, you are able to
+After the VM is in **Active** status, you can
 log in to the VM again by using SSH and RDP or the [Emergency
 Console](/support/how-to/start-a-console-session/).
