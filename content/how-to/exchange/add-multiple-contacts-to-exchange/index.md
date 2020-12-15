@@ -1,38 +1,39 @@
 ---
 permalink: add-multiple-contacts-to-exchange/
-audit_date:
+audit_date: '2020-12-14'
 title: Add multiple contacts to Exchange
 type: article
 created_date: '2011-03-18'
 created_by: Rackspace Support
-last_modified_date: '2017-05-31'
-last_modified_by: Cory Aldrich
+last_modified_date: '2020-12-14'
+last_modified_by: Rose Morales
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-Exchange only allows internal addresses for email forwarding and
-distribution lists. To use an external address for either of these
-functions, it must be set up as a contact. A contact is simply an
-Exchange alias that points to a real mailbox outside of your domain.
+Microsoft&reg; Exchange&reg; allows only internal addresses for email forwarding and distribution
+lists. To use an external address for either of these functions, you must set it
+up as a contact, which is simply an Exchange alias that points to a real mailbox
+outside of your domain.
 
-1. Log in to the [Cloud Office Control Panel](https://apps.rackspace.com/?cp).
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/).
 
-2. In the Microsoft Exchange section, click the **Contacts** link.
+2. In the **Microsoft Exchange** section, click **Contacts**.
 
-   {{<image alt="Contacts link highlighted." src="microsoft-exchange-contacts-link.png" title="Contacts link highlighted.">}}
+   {{<image alt="Contacts link highlighted." src="cp-contacts.jpg" title="Contacts link highlighted.">}}
 
-3. If you have multiple domains, select the appropriate domain name.
-   Or, to change domains, click the **Change Domain** link.
+3. If you have multiple domains, select the appropriate domain name. Or, to
+   change domains, click **Change Domain**.
 
-4. Click the **Add Multiple Contacts** button.
+4. Click **Add Multiple Contacts**.
 
-5. Create a CSV or Excel file, containing the information detailed in
-   the **Data Format** section:
+5. Create a CSV or Excel&reg; file containing the information detailed in the **Data
+   Format** section:
 
    Use the following column headers:
 
-   - Username (**Required**. It is used for the email address, such as **username@example.com**.)
+   - Username (**Required**. It is used for the email address, such as
+     **username@example.com**.)
    - DisplayName (**Required.**)
    - ExternalEmail (**Required.**)
    - VisibleToGAL (**Required.**. 1=Visible, 0=Hidden)
@@ -49,15 +50,14 @@ Exchange alias that points to a real mailbox outside of your domain.
    - Country
    - Notes
 
-   Or, to download a template, click the **CSV template** or **Excel
-   template** link.
+   Or, to download a template, click **CSV template** or **Excel template**.
 
-6. In the **Import File** section, click the **Browse** button.
+6. In the **Import File** section, click **Browse**.
 
-7.  Locate and select the CSV or Excel file created in Step 5.
+7. Locate and select the CSV or Excel file created in Step 5.
 
-8.  Click the **Open** button.
+8. Click **Open**.
 
-9.  Click the **Import** button. Any errors that occur will be detailed
-    in the import summary, which will appear after the import
-    is complete.
+9. Click **Import**.
+
+Any errors that occur display in the import summary, which appears after the import is complete.
