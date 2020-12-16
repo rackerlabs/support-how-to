@@ -15,14 +15,15 @@ This article describes user permissions for Dedicated Hosting and shows you
 how to manage these permissions.
 
 To manage permissions in the [MyRackspace
-portal](https://login.rackspace.com) select **Account > Permissions** .
+portal](https://login.rackspace.com) select **Account > Permissions**.
 
 **Note**: To access the **Permissions** area in the MyRackspace Portal and
-modify another user’s permissions, you must have either the **Account Administrator** permission or the **Admin** permission. The **Account Administrator** permission grants the user unlimited access to all sections of
-the MyRackspace Portal. The **Admin** permission (on a device or service)
+modify another user’s permissions, you must have either the **Account Administrator** permission or
+the **Admin** permission. The **Account Administrator** permission grants the user unlimited access
+to all sections of the MyRackspace Portal. The **Admin** permission (on a device or service)
 grants the user the ability to access and manage the device or service.
 
-If you are unable find the information you need here, review the **FAQ** section on the left
+If you can't find the information you need here, review the **FAQ** section on the left
 for answers to common user permission problems.
 
 ### Categories of permissions
@@ -44,7 +45,7 @@ permissions. MyRackspace uses the highest level of permission granted.
 To manage user permissions, log in to the MyRackspace
 portal and then select **Account > Permissions**.
 
-You can use the 4 tabs on the next page to assign permissions in the following ways:
+You can use the four tabs on the next page to assign permissions in the following ways:
 
 - **Assign by User**
 - **Assign by Product**
@@ -71,7 +72,7 @@ To assign permissions by user, complete the following steps:
 Allows you to select a group of users and grant them:
 
 - Permissions at the account level.
-- Access to linked cloud accounts, devices, services or **Product Groups**.
+- Access to linked cloud accounts, devices, services, or **Product Groups**.
 
 To assign permissions by user group, perform the following steps:
 
@@ -96,26 +97,26 @@ permission options.
 {{< table "table  table-striped table-bordered" >}}
 | Permission | Description |
 |---------|--------|
-| <b>Account administrator</b> | Grants effective permissions for the entire account. i.e accounts, devices, and users |
-| <b>Manage Users</b> | View or edit users on the account |
-| <b>Manage My Contact Information</b> | View and edit personal information associated with your account|
-| <b>Manage SSL Certificates</b> | Manage SSL Certificates     |
-| <b>Upgrade Account</b> | Add or remove account products   |
-| <b>View Reports</b> | View reports    |
-| <b>View Account Tickets</b> | View the list of account tickets for Managed Mail, DNS, Billing or Bandwidth related to any account with direct or effective permissions |
-| <b>Edit Account Tickets</b>| Create and edit account tickets for Managed Mail, DNS, Billing or Bandwidth to any account with direct or effective permissions  |
-| <b>View Domains</b> | View DNS information for Domains  |
-| <b>Edit Domains</b>|  Edit DNS information for Domains |
-| <b>View Billing</b>| View invoices and online payments |
-| <b>Edit Billing</b>| Make a payment or setup recurring payments |
+| <b>Account administrator</b> | Grants effective permissions for the entire account, such as accounts, devices, and users. |
+| <b>Manage Users</b> | View or edit users on the account. |
+| <b>Manage My Contact Information</b> | View and edit personal information associated with your account.|
+| <b>Manage SSL Certificates</b> | Manage SSL certificates.     |
+| <b>Upgrade Account</b> | Add or remove account products.   |
+| <b>View Reports</b> | View reports.    |
+| <b>View Account Tickets</b> | View the list of account tickets for Managed Mail, DNS, Billing, or Bandwidth related to any account with direct or effective permissions. |
+| <b>Edit Account Tickets</b>| Create and edit account tickets for Managed Mail, DNS, Billing, or Bandwidth to any account with direct or effective permissions.  |
+| <b>View Domains</b> | View DNS information for Domains.  |
+| <b>Edit Domains</b>|  Edit DNS information for Domains. |
+| <b>View Billing</b>| View invoices and online payments. |
+| <b>Edit Billing</b>| Make a payment or set up recurring payments. |
 {{< /table >}}
 
-**Note:** It is more efficient create product and user groups and use them as a way to manage
+**Note:** It is more efficient to create product and user groups and use them to manage
 user permissions than to assign permissions to individual users. 
 
 #### Assign by product
 
-Allows you to manage user access to an individual product of product group.
+Allows you to manage user access to an individual product or product group.
 
 To assign permissions by product or product group, perform the following steps:
 
@@ -127,11 +128,11 @@ To assign permissions by product or product group, perform the following steps:
 
 4. Update the user, user group, or Group membership permission.
 
-5. Select **Save Changes** .
+5. Select **Save Changes**.
 
 ### Manage groups
 
-The **Manage Groups** tabs lets you create new User and Product groups and update members.
+The **Manage Groups** tab lets you create new User and Product groups and update members.
 
 #### Create a user group
 
@@ -172,7 +173,7 @@ Use the following steps to delete a user or product group:
 1. Select **Account > Permissions**.
 2. Select **Manage Groups**.
 3. Select an existing group from the **User Groups** or **Product Groups** column
-1. Select the **Actions** dropdown in upper-right.
+1. Select the **Actions** dropdown in the upper-right corner.
 3. Select Delete Group**.
 
 ### Manage global permissions
@@ -183,13 +184,13 @@ entire account.
 **Ticketing Settings** enables you to control the tickets that your users have
 permission to see when those tickets include one or more devices.
 
-The following table shows the ticketing settings that are required for common
+The following table shows the ticketing settings that you need for common
 actions or views:
 {{< table "table  table-striped table-bordered" >}}
 | Ticketing setting  | Functionality |
 |---------|--------|
 | Flexible Ticket Viewing (default setting)     | Enables users to see tickets that include a device that they have permission to view. For example, if a user has access to device A, they see all of the tickets that include device A, even if another device is on the ticket. If device C is later added to the ticket and the user does not have access to device C, the user can still see the ticket.   |
-| Strict Ticket Viewing     | Requires users to have access to all of the devices on a ticket in order to see that ticket. For example, if a ticket includes device A and device B, then the user must have permissions to both devices to see the ticket. If device C is later added to the ticket and the user does not have access to device C, the user is no longer be able to see the ticket.   |
+| Strict Ticket Viewing     | Requires users to have access to all of the devices on a ticket in order to see that ticket. For example, if a ticket includes device A and device B, then the user must have permissions to both devices to see the ticket. If the ticket later includes device C, to which the user has no access, the user can no longer see the ticket.   |
 {{< /table >}}
 
 
@@ -200,8 +201,8 @@ tasks with tickets:
 {{< table "table  table-striped table-bordered" >}}
 | Permission required  | Task |
 |---------|--------|
-| <b>View Tickets</b> or <b>Edit Tickets</b> permission   | View or include another user on an account ticket (a ticket that doesn't have a device or service associated with it)   |
-| <b>View</b>, <b>Edit</b>, or <b>Admin</b> permission to that device   | View or include another user on a ticket that has a device associated with it   |
-| <b>View</b>, <b>Edit</b>, or <b>Admin</b> permission to that service   | View or include another user on a ticket that has a service associated with it (such as tickets for Managed Antivirus)   |
+| <b>View Tickets</b> or <b>Edit Tickets</b> permission   | View or include another user on an account ticket (a ticket that doesn't have a device or service associated with it).   |
+| <b>View</b>, <b>Edit</b>, or <b>Admin</b> permission to that device   | View or include another user on a ticket that has a device associated with it.   |
+| <b>View</b>, <b>Edit</b>, or <b>Admin</b> permission to that service   | View or include another user on a ticket that has a service associated with it (such as tickets for Managed Antivirus).   |
 {{< /table >}}
 
