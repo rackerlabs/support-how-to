@@ -94,7 +94,7 @@ Use the following steps to create a new article within a product folder of the
 
    For example, the command, `hugo new --kind support-bundle how-to/cloud-servers/create-a-new-cloud-server`,
    creates a new directory, **create-a-new-cloud-server**, in the **cloud-server** product directory. The new 
-   direcory contains four files:
+   directory contains four files:
    
    - index.md
    - concept-based-article-template.md
@@ -134,7 +134,7 @@ Use the following steps to create a new article within a product folder of the
     
        `git commit -m "Created new cloud server article"`
        
-    c. Push the chnage
+    c. Push the change:
     
        `git push upstream`
        
@@ -149,13 +149,13 @@ Use the following steps to create a new article within a product folder of the
     
     h. `base-repository` should default to `rackerlabs/support-how-to` and `base` should default to `master`. Click the
        down arrow on `head-repository` and select your clone of the support-how-to repo. Click the down arrow on
-       `compare` and select your branch. Click **Create new pull request**. Add any comments decsibing your change.
+       `compare` and select your branch. Click **Create new pull request**. Add any comments describing your change.
        Finally, click **Create pull request**.
 
 7. After the build completes, preview it by clicking the **Details** link next
    to *Deploy preview ready!* in the **All Checks Passed** section of the GitHub PR.
    This action takes you to the staging location. Click **How-To** and then paste the
-   permalink for your article (from the **index.md** metedata) at the end of the URL
+   permalink for your article (from the **index.md** metadata) at the end of the URL
    after `support/how-to`. For example:
    
    `https://deploy-preview-738--docs-support-how-to.netlify.app/support/how-to/create-a-new-cloud-server`
@@ -216,7 +216,7 @@ Follow these steps to edit an existing article within a product folder of the
 10. After the build completes, preview it by clicking the **Details** link next
    to *Deploy preview ready!* in the **All Checks Passed** section of the GitHub PR.
    This action takes you to the staging location. Click **How-To** and then paste the
-   permalink for your article (from the **index.md** metedata) at the end of the URL
+   permalink for your article (from the **index.md** metadata) at the end of the URL
    after `support/how-to`.
 
 11. Request reviews of your PR from the Information Development team in the
