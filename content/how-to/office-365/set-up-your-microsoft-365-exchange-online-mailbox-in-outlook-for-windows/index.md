@@ -5,7 +5,7 @@ title: Set up your Microsoft 365 Exchange Online mailbox in Outlook for Windows
 type: article
 created_date: '2020-08-18'
 created_by: Allison Battles
-last_modified_date: '2020-08-18'
+last_modified_date: '2020-12-17'
 last_modified_by: Nicholas Ramirez
 product: Office 365
 product_url: office-365
@@ -57,21 +57,33 @@ email address and password when prompted.
 **Note:** If Outlook automatically recognizes the mailbox associated with your licensed Office 365 user during initial setup,
 skip the following steps.
 
-Use the following steps to set up your Microsoft 365 Exchange Online mailbox in Outlook for the first time:
+Use the following steps to set up your Microsoft 365 Exchange Online mailbox within a new Outlook profile for the first time:
+
+1. Open the **Start** menu, then navigate to the **Control Panel**.
+
+2. Click on **View By**, then click **Small Icons**.
+
+3. Click **Mail (Microsoft Outlook 2016)**, then select **Show Profiles**.
+
+4. Click on **Add...**, then click **Ok** after entering your desired profile name.
+
+5. Enter your Microsoft 365 email address and password in the fields provided, then click **Next >**.
+
+6. When prompted to **Sign in** within the pop-out **Microsoft** dialogue window, enter your Microsoft 365 email address and click **Next** once again.
+
+7. Enter your Microsoft 365 password, then click **Sign in** - if your organization requires multi-factor authentication, you will be asked for additional verification at this point.
+
+8. After successfully signing in, select **No, sign in to this app only** if prompted, then click **Finish**.
+
+9. Once the new profile has been created, click **Always use this profile**, then select the newly created profile.
+
+10. Click **Apply**, then **OK** to complete the Outlook mail profile setup.
+
+If you do not have an existing Outlook mail profile, use the following steps to set up your Microsoft 365 Exchange Online mailbox for the first time:
 
 1. Open **Outlook**.
 
 2. Click **Get Started**.
-
-3. Enter your Microsoft 365 email address when prompted and select **Continue**.
-
-4. Enter your password when prompted to **Sign in** and click **Done** after the account has been successfully added.
-
-Use the following steps to set up your Microsoft 365 Exchange Online mailbox within a pre-existing profile:
-
-1. Open **Outlook**.
-
-2. Click on **File** and **Add Account**.
 
 3. Enter your Microsoft 365 email address when prompted and select **Continue**.
 
