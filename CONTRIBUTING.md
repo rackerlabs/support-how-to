@@ -261,7 +261,7 @@ page. Describe the changes that you are requesting.
 
 **Important**: Before you retire an article, search the repository to identify
 any articles with links to the article you plan to retire. Either remove those
-links or change the links to to point to appropriate content.
+links or change the links to point to appropriate content.
 
 For instructions on retiring an article, see [https://github.com/rackerlabs/support-how-to/blob/master/content/how-to/retired-articles/RETIRING-CONTENT/index.md](https://github.com/rackerlabs/support-how-to/blob/master/content/how-to/retired-articles/RETIRING-CONTENT/index.md).
 
@@ -271,7 +271,7 @@ If you retire an article, you should redirect the old name to the *retired artic
 
 To redirect an article to a different article (or to the same article with a new name), use the following instructions:
 
-1. Either in your local How-To repository clone or in the Github GUI, edit **support-how-to/static/\_redirects**.
+1. Either in your local How-To repository clone or in the GitHub GUI, edit **support-how-to/static/\_redirects**.
 
 2. In the **Individual Redirects** section, add a `301` and a `404` line similar to the following example:
 
