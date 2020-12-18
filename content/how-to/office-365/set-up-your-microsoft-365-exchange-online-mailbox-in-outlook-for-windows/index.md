@@ -25,7 +25,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Install Office applications, including Outlook, on a Windows device
 
-1. Navigate to [office.com](office.com) in the web browser of your choice. Click **sign in** and enter your
+1. Navigate to [office.com](office.com) in the web browser of your choice. Click **Sign In** and enter your
 email address and password when prompted.
 
 2. In the upper right-hand corner, click **Install Office** and then select **Install Premium Office 365 Apps**. 
