@@ -5,10 +5,9 @@ title: Set up your Outlook email client on Exchange 2010 via the Outlook Web App
 type: article
 created_date: "2012-09-07"
 created_by: Rae D. Cabello
-last_modified_date: "2015-09-04"
-last_modified_by: Constanze Kratel
-product: Microsoft Exchange
-product_url: exchange
+last_modified_date: "2020-12-18"
+last_modified_by: Rose Morales
+
 ---
 
 This article explains how to use the Simple Email setup tool located in
