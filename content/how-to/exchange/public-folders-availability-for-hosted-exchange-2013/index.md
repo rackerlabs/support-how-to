@@ -12,7 +12,7 @@ product_url: exchange
 ---
 
 Public folders for Hosted Exchange 2013 and Hosted Exchange 2016 improve folder
-administration in the Cloud Office Control Panel. Limited Admin control panel
+administration in the Cloud Office Control Panel. Limited Administrator control panel
 users have access to the public folders page.
 
 ### Summary of limits for Exchange 2013 and 2016 public folders
@@ -23,7 +23,7 @@ users have access to the public folders page.
 - Exchange 2013 and 2016 customers are allowed to have up to 25 folders per
   domain with 250 MB of storage for each folder.
 
-- Exchange 2010 customers will continue to have unlimited use of public folders.
+- Exchange 2010 customers continue to have unlimited use of public folders.
 
 - A new control panel interface will be released for all customers.
 
@@ -65,14 +65,14 @@ hosted servers.
   accept new items until content is removed to get below the quota.
 
 The 25-folder and 250-MB-per-folder limits ensure that each Exchange environment
-does not exceed the inherent public folder limits that Microsoft placed on
+does not exceed the inherent public folder limits that Microsoft&reg; placed on
 Exchange Server 2013 and 2016. Without these limits, Rackspace would jeopardize
-the stability of our customers' email and uptime. As Microsoft raises the limits
-(as they have stated they plan to do), we plan to raise ours as well.
+the stability of our customers' email and uptime. As Microsoft raises the
+limits, we plan to raise ours as well.
 
 ### Limits for Hosted Exchange 2010
 
-Exchange 2010 customers will have less change. Rackspace will not enforce any
+Exchange 2010 customers have less change. Rackspace will not enforce any
 limits on folder and storage amounts. Control panel users will get the new
 public folders interface, and they can continue to manage public folders through
 Outlook.
@@ -82,11 +82,11 @@ public folder limitations in that version.
 
 The following functionality is not available in the December 2014 release:
 
-- Moving folders in the control panel. This functionality will be available
+- Moving folders in the control panel. This functionality is available
   after the December 2014 release.
 
 - Creating alternate email address user names for mail-enabled folders. Existing
-  alternate email addresses will be retained on our servers and continue to
+  alternate email addresses are retained on our servers and continue to
   receive mail; however, you will not be able to add others.
 
 - Managing user permissions such as granting read, edit, or delete access.
