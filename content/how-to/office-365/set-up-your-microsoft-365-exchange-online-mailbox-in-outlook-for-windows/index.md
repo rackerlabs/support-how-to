@@ -52,7 +52,8 @@ email address and password when prompted.
 #### Configure your Microsoft 365 Exchange Online mailbox within a new Outlook profile for the first time
 
 **Note:** If Outlook recognizes the mailbox associated with your licensed Office 365 user during initial setup, skip the following steps. 
-use the following these steps: 
+
+Use the following steps to set up your Microsoft 365 Exchange Online mailbox in Outlook:
 
 1. Open the **Start** menu and then navigate to the **Control Panel**.
 
