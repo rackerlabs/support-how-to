@@ -28,13 +28,13 @@ For more information about prerequisite terminology, see [Cloud Office support t
 1. Navigate to [office.com](office.com) in the web browser of your choice. Click **sign in** and enter your
 email address and password when prompted.
 
-2. In the upper right, click **Install Office** and then select **Install premium Office 365 apps**. 
+2. In the upper right-hand corner, click **Install Office** and then select **Install Premium Office 365 Apps**. 
 
 3. When the download completes, run the installer.
 
-4. Allow the Office installer to make changes to your device, if prompted.
+4. If prompted, allow the Office installer to make changes to your device.
 
-5. Click **Close** after the installation completes. 
+5. After the installation completes, click **Close**. 
 
 6. Open the **Start** menu and navigate to **Outlook**.
 
