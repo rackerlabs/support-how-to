@@ -68,7 +68,7 @@
         "remark-cli": "^8.0.1",
         "remark-validate-links": "^10.0.2",
         "repo-link-check": "^0.7.1",
-        "sass-loader": "^10.0.4",
+        "sass-loader": "^10.1.0",
         "smoothscroll-polyfill": "^0.4.4",
         "to-vfile": "^6.1.0",
         "vfile-reporter": "^6.0.1",
