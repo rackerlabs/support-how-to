@@ -5,10 +5,8 @@ title: 'Migrate Public Folder data'
 type: article
 created_date: '2013-11-21'
 created_by: Milton Prado
-last_modified_date: '2016-01-28'
-last_modified_by: Rose Coste
-product: Microsoft Exchange
-product_url: exchange
+last_modified_date: '2020-12-21'
+last_modified_by: Rose Morales
 ---
 
 This article describes how to migrate Public
