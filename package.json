@@ -45,7 +45,7 @@
         "angular-sanitize": "^1.8.1",
         "assets-webpack-plugin": "^6.1.2",
         "atomic-algolia": "^0.3.19",
-        "axios": "^0.20.0",
+        "axios": "^0.21.0",
         "bootstrap": "^4.5.2",
         "chalk": "^4.1.0",
         "child_process": "^1.0.2",
