@@ -28,10 +28,10 @@ in the top-left corner and select **About This Mac**.
 
     {{<image src="MM102.png" alt="" title="">}}
 
-    - If your **Autodiscover CNAME** record is setup, Mac Mail
-        automatically pulls the correct server settings for you. Skip to Step 6.
-    - If the **Autodiscover CNAME** record is not setup, you can set up the
-        account manually. Continue to Step 5.
+    - If your **Autodiscover CNAME** record is set up, Mac Mail
+      automatically pulls the correct server settings for you. Skip to Step 6.
+    - If the **Autodiscover CNAME** record is not set up, you can set up the
+      account manually. Continue to Step 5.
 
 5. Enter the following information and click **Continue**:
     - **Description** - Enter a descriptive name for your mail account (for
@@ -48,7 +48,7 @@ in the top-left corner and select **About This Mac**.
 
     {{<image src="MM103.png" alt="" title="">}}
 
-7. Choose the options you wish to enable, and click **Done**.
+7. Choose the options that you want to enable and click **Done**.
 
     {{<image src="MM105_0.png" alt="" title="">}}
 
