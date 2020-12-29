@@ -1,12 +1,12 @@
 ---
 permalink: setup-mail-ipad-365/
-audit_date:
-title: Setting up your Microsoft 365 Exchange Online mailbox in the Mail app for iOS
+audit_date: '2020-12-29'
+title: Set up your Microsoft 365 Exchange Online mailbox in the Mail app for iOS
 type: article
 created_date: '2020-12-22'
 created_by: Edward Castillo
-last_modified_date: '2020-12-22'
-last_modified_by: Nicholas Ramirez
+last_modified_date: '2020-12-29'
+last_modified_by: Rose Morales
 product: Office 365
 product_url: office-365
 ---
@@ -17,7 +17,7 @@ product_url: office-365
 - **Applies to:** User
 - **Difficulty:** Easy
 - **Time needed:** 5-10 Minutes for initial installation and configuration - sync time varies based on mailbox size and network speed.
-- **Tools required:** Microsoft 365 email address and password (Exchange Online Kiosk license or greater), iPad (iPad OS 13 or newer) with an active network connection.
+- **Tools required:** Microsoft 365&reg; email address and password (Exchange Online Kiosk license or greater), iPad&reg; (iPad OS 13 or newer) with an active network connection.
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
@@ -41,7 +41,7 @@ This article describes how to set up and configure your Microsoft 365 Exchange O
 
 5. Enter your Microsoft 365 email address and desired description.
 
-6. Click **Sign In**, then enter your password.
+6. Click **Sign In** and enter your password.
 
 7. Click **Accept** when prompted, then **Save**.
 
