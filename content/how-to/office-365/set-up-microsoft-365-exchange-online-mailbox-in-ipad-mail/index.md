@@ -1,7 +1,7 @@
 ---
-permalink: set-up-microsoft-365-exchange-online-mailbox-in-ios-mail/
+permalink: set-up-microsoft-365-exchange-online-mailbox-in-ipad-mail/
 audit_date: '2020-12-29'
-title: Set up your Microsoft 365 Exchange Online mailbox in the Mail app for iOS
+title: Set up your Microsoft 365 Exchange Online mailbox in the Mail app for iPad
 type: article
 created_date: '2020-12-22'
 created_by: Edward Castillo
