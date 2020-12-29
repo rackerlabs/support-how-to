@@ -11,7 +11,7 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-When you create a distribution list in Hosted Microsoft Exchange, you are
+When you create a distribution list in Hosted Microsoft&reg; Exchange, you are
 generating a group of email addresses. When someone sends an email to that email
 address, the email is automatically sent to all the members of the distribution
 list. These members can be mailboxes within the domain, contacts outside of the
@@ -19,9 +19,10 @@ domain, or both.
 
 ### View all distribution lists
 
-1. Log in the [Cloud Office Control Panel](https://cp.rackspace.com/).
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/).
 
-2. Click the **Lists** tab.
+2. In the top navigation bar, click **Hosted Exchange > Lists**.
+
    {{<image src="list1.jpg" alt="" title="">}}
 
 3. If you have multiple domains, select the appropriate domain name.
@@ -30,11 +31,11 @@ domain, or both.
 
    {{<image src="list2.jpg" alt="" title="">}}
 
-Follow the instructions below for the available actions you can to perform.
+Use the steps in the following sections for the available actions that you can perform.
 
 ### Add or edit a distribution list
 
-1. In the distribution lists view, click the display name of the list you want
+1. In the distribution lists view, click the display name of the list that you want
    to edit. If you are creating a new list, click **Add Distribution List**.
 
 2. On the **General** page, enter or edit the following fields:
@@ -58,6 +59,7 @@ Follow the instructions below for the available actions you can to perform.
    - **Senders:** To assign who can send emails to this list, select **Anyone** or **Selected addresses on this domain**.
 
       **Note**: If you choose **Selected addresses on this domain**, specify the user or users.
+   
    - **Email Addresses:** Create alias (or alternative) email addresses for the
      list.
 
@@ -73,6 +75,7 @@ Follow the instructions below for the available actions you can to perform.
    **Note**: To select all lists, select the check box that appears next to the **Delete** button at the bottom of the page.
 
 2. Click **Delete** and a pop-up box appears to confirm that you want to delete the list.
+   
    {{<image src="list5.png" alt="" title="">}}
 
 3. Click **Delete** `n` **Distribution List**, where `n` is the number of lists
