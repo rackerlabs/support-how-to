@@ -54,8 +54,8 @@ server. That being said, it is difficult to know exactly how long a migration ta
 #### What is the ticket titled "[ACTION REQUIRED] Server Migration" about?
 
 In cases where Rackspace Technology cannot perform a live migration for any reason, 
-the system generates a ticket and sends it to your account to make you aware of an 
-upcoming reboot migration. This ticket contains information on the migration process, 
+the system generates a ticket and sends it to your account to make you aware of 
+an upcoming reboot migration. This ticket contains information on the migration process, 
 why it is happening, and most importantly, it provides you with the date and time
 of the reboot migration. At this point, you can choose to allow our automation
 to perform the reboot migration as scheduled or you can request in the ticket
