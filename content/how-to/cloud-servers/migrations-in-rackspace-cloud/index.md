@@ -22,9 +22,7 @@ patches and upgrades to portions of the infrastructure. Rackspace Technology
 periodically performs maintenance or decommissioning work on our cloud server
 infrastructure, which might require the migration of cloud servers.
 Typically, migrations use the live migration method, which is generally
-non-impacting to a server's uptime and responsiveness. When you can't perform
-live migrations or a customer doesn't allow you to do so, you can perform an
-alternative method known as a *reboot migration*.
+non-impacting to a server's uptime and responsiveness.
 
 #### What is the difference between a live and a reboot migration?
 
@@ -55,10 +53,10 @@ server. That being said, it is difficult to know exactly how long a migration ta
 
 #### What is the ticket titled "[ACTION REQUIRED] Server Migration" about?
 
-In cases where you can't perform a live migration for any reason, the system
-generates a ticket and sends it to your account to make you aware of an upcoming
-reboot migration. This ticket contains information on the migration process, why
-it is happening, and most importantly, it provides you with the date and time
+In cases where Rackspace Technology cannot perform a live migration for any reason, 
+the system generates a ticket and sends it to your account to make you aware of an 
+upcoming reboot migration. This ticket contains information on the migration process, 
+why it is happening, and most importantly, it provides you with the date and time
 of the reboot migration. At this point, you can choose to allow our automation
 to perform the reboot migration as scheduled or you can request in the ticket
 that the migration happens at another date and time that works for you. After
