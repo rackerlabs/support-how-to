@@ -72,3 +72,14 @@ To configure your Microsoft 365 Exchange Online mailbox for use through **POP**,
 - **Port:** 995
 
 - **Encryption method:** SSL
+
+
+### Configure Microsoft 365 Exchange Online mailboxes via Exchange Web Services (EWS)
+
+To configure your Microsoft 365 Exchange Online mailbox for use via **EWS**, use the following settings:
+
+- **Server Address:** https://outlook.office365.com
+
+- **EWS Server:** https://outlook.office365.com/ews/exchange.asmx
+
+- **Outlook Web Access:** https://outlook.office365.com

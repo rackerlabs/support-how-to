@@ -20,3 +20,7 @@ static/assets/
 # Local Netlify folder
 .netlify
 Gemfile.lock
+
+# Vale local styles
+.github/styles/Google
+.github/styles/Microsoft
