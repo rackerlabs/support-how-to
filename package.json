@@ -65,7 +65,7 @@
         "popper.js": "^1.16.1",
         "prop-types": "^15.7.2",
         "react-instantsearch": "^6.8.2",
-        "remark-cli": "^8.0.1",
+        "remark-cli": "^9.0.0",
         "remark-validate-links": "^10.0.2",
         "repo-link-check": "^0.7.1",
         "sass-loader": "^10.1.0",
