@@ -1,11 +1,11 @@
 ---  
 permalink: migrations-in-the-rackspace-cloud/
-audit_date: '2020-12-28'
+audit_date: '2021-01-06'
 title: Migrations in the Rackspace Cloud
 type: article
-created_date: '2020-12-18'
+created_date: '2021-01-06'
 created_by: Brian A
-last_modified_date: '2020-12-28'
+last_modified_date: '2021-01-06'
 last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
