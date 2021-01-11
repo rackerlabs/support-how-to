@@ -38,7 +38,7 @@
     },
     "dependencies": {
         "@algolia/algoliasearch-netlify-frontend": "^1.0.3",
-        "@babel/cli": "^7.11.6",
+        "@babel/cli": "^7.12.10",
         "@munter/tap-render": "^0.2.0",
         "algoliasearch": "^4.8.3",
         "angular": "^1.8.1",
