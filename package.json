@@ -31,7 +31,7 @@
         "react": "16.14.0",
         "react-dom": "16.8.6",
         "react-instantsearch-dom": "6.0.0",
-        "react-scripts": "1.1.5",
+        "react-scripts": "4.0.1",
         "tap-spot": "^1.1.1",
         "webpack": "^4.42.0",
         "webpack-cli": "^4.2.0"
@@ -64,7 +64,7 @@
         "mustache": "^4.0.1",
         "popper.js": "^1.16.1",
         "prop-types": "^15.7.2",
-        "react-instantsearch": "^6.8.2",
+        "react-instantsearch": "^5.1.0",
         "remark-cli": "^9.0.0",
         "remark-validate-links": "^10.0.2",
         "repo-link-check": "^0.7.1",
