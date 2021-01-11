@@ -44,7 +44,6 @@
 {{- end -}} -->
 <meta name="robots" content="index, follow" />
 <title>{{ $title }}</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.css" />
 {{ $style := resources.Get "styles.scss" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" emotion="🤩">
 <!-- Additional Styles for the App -->
