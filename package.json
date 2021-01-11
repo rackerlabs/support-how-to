@@ -46,7 +46,7 @@
         "assets-webpack-plugin": "^6.1.2",
         "atomic-algolia": "^0.3.19",
         "axios": "^0.21.1",
-        "bootstrap": "^4.5.2",
+        "bootstrap": "^4.5.3",
         "chalk": "^4.1.0",
         "child_process": "^1.0.2",
         "clean-webpack-plugin": "^3.0.0",
