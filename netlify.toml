@@ -14,7 +14,7 @@
 
 [context.deploy-preview]
   publish = "public"
-  command = "npm run build"
+  command = "npm run build-preview"
 
 [context.staging]
   publish = "public"
