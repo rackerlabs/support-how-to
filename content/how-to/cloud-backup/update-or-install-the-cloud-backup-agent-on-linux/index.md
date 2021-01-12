@@ -5,8 +5,8 @@ title: Update or install the Cloud Backup agent on Linux
 type: article
 created_date: '2020-03-27'
 created_by: Brett Johnson
-last_modified_date: '2020-09-15'
-last_modified_by: Brett Johnson
+last_modified_date: '2021-01-06'
+last_modified_by: Rose Morales
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -30,7 +30,7 @@ and `bzip2`. If these tools are missing, you might not be able to install and us
 2. Extract the Linux package files (`cloudbackup-updater-latest.tar.bz2`) to a temporary
    directory.
 
-        cd ~ && mkdir tmp && cd tmp && tar jxvf cloudbackup-updater-latest.tar.bz2
+        cd ~ && mkdir tmp && mv cloudbackup-updater-latest.tar.bz2 tmp && cd tmp && tar jxvf cloudbackup-updater-latest.tar.bz2
 
 3. Change to the extracted folder. Read the LICENSE file. If you do not agree to the terms
    in the file, do not continue with the installation.

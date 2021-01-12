@@ -5,8 +5,8 @@ title: Dedicated Hosting FAQ
 type: article
 created_date: '2016-11-01'
 created_by: Stephanie Fillmon
-last_modified_date: '2018-11-28'
-last_modified_by: Kate Dougherty
+last_modified_date: '2020-12-16'
+last_modified_by: Chad Sterling
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
@@ -56,6 +56,14 @@ permission, you must have one of the following permissions:
 
   - **Admin**: This permission (on a device or service) grants a user the
     ability to manage the device or service, as well as which users can access the device or service.
+
+### Troubleshooting
+
+{{</accordion>}}
+{{<accordion title="What should I do if I can't see/access/manage a newly created device?" col="in" href="accordion3">}}
+
+Because the system doesn't automoatically add new devices to product groups, users or user groups might not have
+effective permissions to the device. Try adding the device to the correct product group.
 
 For details about how to manage permissions, see [Manage user permissions for
 Dedicated Hosting](/support/how-to/manage-user-permissions-for-dedicated-hosting).
