@@ -44,11 +44,8 @@
 {{- end -}} -->
 <meta name="robots" content="index, follow" />
 <title>{{ $title }}</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@0/dist/algoliasearchNetlify.css" />
 {{ $style := resources.Get "styles.scss" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.Permalink }}" emotion="🤩">
-<!-- Additional Styles for the App -->
-<link rel="stylesheet" href="/assets/main.css">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://docs-support-how-to.netlify.app/favicons/favicon.ico" />
 <link rel="icon" type="image/png" href="https://docs-support-how-to.netlify.app/favicons/favicon.ico" sizes="32x32" />

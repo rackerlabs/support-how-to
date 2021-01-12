@@ -2,7 +2,6 @@ import React from 'react';
 import { connectHighlight } from 'react-instantsearch-dom';
 const Entities = require('html-entities').AllHtmlEntities;
 
-const entities = new Entities();
 const Snippet = ({ highlight, attribute, hit }) => {
     const parsedHit = highlight({
       highlightProperty: '_snippetResult',
