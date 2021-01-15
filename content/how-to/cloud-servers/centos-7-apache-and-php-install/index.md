@@ -1,12 +1,12 @@
 ---
 permalink: centos-7-apache-and-php-install/
-audit_date: '2020-03-05'
+audit_date: '2021-01-15'
 title: Install Apache and PHP on CentOS 7
 type: article
 created_date: '2011-03-09'
 created_by: Rackspace Support
-last_modified_date: '2020-03-05'
-last_modified_by: Chris Silva
+last_modified_date: '2021-01-15'
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -54,7 +54,7 @@ Use `yum` to install a repository that supports PHP 7.3:
 
 1. Run the following command:
 
-        sudo yum install https://$(rpm -E '%{?centos:centos}%{!?centos:rhel}%{rhel}').iuscommunity.org/ius-release.rpm
+        sudo yum install https://repo.ius.io/ius-release-el7.rpm
 
 2. Install PHP and some popular PHP modules:
 
@@ -66,4 +66,4 @@ Use `yum` to install a repository that supports PHP 7.3:
 
 You should see the following output:
 
-        PHP 7.3.14 (cli) (built: Feb  9 2020 00:01:37) ( NTS )
+        PHP 7.3.25 (cli) (built: Dec 1 2020 21:50:13) ( NTS )
