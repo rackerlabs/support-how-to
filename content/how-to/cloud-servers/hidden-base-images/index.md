@@ -5,8 +5,8 @@ title: Hidden base images
 type: article
 created_date: '2013-11-04'
 created_by: Amanda Clark
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-01-18'
+last_modified_by: Brian Metzler
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -24,6 +24,7 @@ Image | ID | Date hidden | Notes
 Arch 2014.2 | b21af3ef-1a1e-46b5-98ef-bb0c81b25292 | 2017-09-06 | Retired
 
 ### CentOS images
+
 Image | ID | Date hidden | Notes
 --- | --- | --- | ---
 CentOS 6 (PVHVM) | a77d07e9-289d-427a-a5ae-465c894c5232 | 2021-01-18 | Upstream updates ended
