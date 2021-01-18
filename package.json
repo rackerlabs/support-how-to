@@ -32,7 +32,7 @@
         "postcss-loader": "^4.1.0",
         "react": "16.14.0",
         "react-dom": "16.14.0",
-        "react-instantsearch-dom": "6.0.0",
+        "react-instantsearch-dom": "6.8.2",
         "react-scripts": "4.0.1",
         "tap-spot": "^1.1.1",
         "webpack": "^4.46.0",
