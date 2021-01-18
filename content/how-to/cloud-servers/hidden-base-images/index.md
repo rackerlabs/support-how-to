@@ -23,6 +23,11 @@ Image | ID | Date hidden | Notes
 --- | --- | --- | ---
 Arch 2014.2 | b21af3ef-1a1e-46b5-98ef-bb0c81b25292 | 2017-09-06 | Retired
 
+### CentOS images
+Image | ID | Date hidden | Notes
+--- | --- | --- | ---
+CentOS 6 (PVHVM) | a77d07e9-289d-427a-a5ae-465c894c5232 | 2021-01-18 | Upstream updates ended
+
 ### Debian images
 
 Image | ID | Date hidden | Notes
@@ -43,9 +48,11 @@ Fedora 24 (PVHVM) | 4e284168-69fd-44aa-8d4a-0844058118d9 | 2017-08-08 | No longe
 Fedora 25 (PVHVM) | 8c9f3212-8515-484e-9109-00e585be8cf4 | 2017-12-12 | No longer supported by the Fedora Project. This image was the last image of this version published.
 Fedora 26 (PVHVM) | 7cf08df8-b4ac-4383-8d16-e515b2fa92f5 | 2018-06-1 | No longer supported by the Fedora Project. This image was the last image of this version published.
 Fedora 27 (PVHVM) | 35c29141-3607-4a4d-ba28-3963d925ed4d | 2019-06-07 | No longer supported by the Fedora Project. This image was the last image of this version published.
+Fedora 31 (PVHVM) | 5afa8d856-eec2-4f23-bff5-da88eff0983b | 2021-01-18 | No longer supported by the Fedora Project. This image was the last image of this version published.
 OnMetal - Fedora 27 | 15e75b61-a75c-4ac3-ba30-368e8b14856f | 2019-06-07 | No longer supported by the Fedora Project. This image was the last image of this version published.
 Fedora 28 (PVHVM) | 7b464928-741b-44af-86ad-0352dcf88a2a | 2019-06-07 | No longer supported by the Fedora Project. This image was the last image of this version published.
 OnMetal - Fedora 28 | 5cfe8ebd-1b45-4ddc-868f-e98417d0758f | 2019-06-07 | No longer supported by the Fedora Project. This image was the last image of this version published.
+
 
 ### FreeBSD images
 
