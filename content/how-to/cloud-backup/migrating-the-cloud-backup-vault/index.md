@@ -17,6 +17,7 @@ The following article provides information about how to migrate the Cloud Backup
 
 **NOTE:** To migrate the vault, you should register the two systems to the same Cloud account user and don't encrypt the backups. Additionally, it's impossible to migrate the vault to a system which already has configured backups.
 
+
 ###Migrating the Cloud Backup vault
 
 1. Log in to the API tool Pitchfork as shown in the following guide:
