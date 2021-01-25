@@ -1,7 +1,7 @@
 ---
-permalink: Android-Gmail-Setup-Office365/
+permalink: android-gmail-setup-office365/
 audit_date: '2021-01-22'
-title: Setting up your Microsoft 365 Exchange Online mailbox using the Gmail App on and Android device
+title: Set up your Microsoft 365 Exchange Online mailbox for Gmail on an Android device
 type: article
 created_date: '2021-01-22'
 created_by: Allison Battles and Brian Wieland
@@ -49,7 +49,7 @@ Use the following steps to setup your Office 365&reg; Exchange&reg; Mailbox:
 
 ### Basic instruction
 
-Now that you have configured the exchange mailbox, here are a few basic functions within the Apple&reg; mail application on the iPhone&reg;:
+Now that you have configured the exchange mailbox, here are a few basic functions within the Apple&reg; mail application on the device:
 
 #### Composing a new message
 
@@ -57,7 +57,7 @@ Now that you have configured the exchange mailbox, here are a few basic function
 
 2. Compose the message.
 
-3. Tap the **Send icon (paper airplane)**.
+3. Tap the **paper airplane (send icon)** in the upper-right corner of the screen.
 
 #### Reply to or forward an email
 
@@ -69,4 +69,4 @@ Now that you have configured the exchange mailbox, here are a few basic function
    - **Reply All**: Sends your response to everyone the message was sent to, including the *CC* field recipients.
    - **Forward**: Sends your response to sends the message to another person or group.
 
-3. After you compose your message, tap the **Send icon (paper airplane)**.
+3. After you compose your message, tap the **paper airplane (send icon)**.
