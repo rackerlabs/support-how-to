@@ -27,7 +27,7 @@ application and perform basic functions.
 
 ### Configure your mailbox
 
-Use the following steps to setup your Office 365 Exchange:
+Use the following steps to set up your Office 365 Exchange:
 
 1. Click the **Samsung Email app**.
 
