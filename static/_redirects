@@ -1,13 +1,13 @@
 # Redirects
 
 /support/how-to/shut-down-a-cloud-server/  /how-to/shut-down-a-rackspace-cloud-server/  404
-/how-to/shut-down-a-rackspace-cloud-server/   /support/how-to/cloud-servers/shut-down-a-rackspace-cloud-server/  301 
+/how-to/shut-down-a-rackspace-cloud-server/   /support/how-to/shut-down-a-rackspace-cloud-server/  301 
 /support/how-to/shut-down-a-server/  /how-to/shut-down-a-rackspace-cloud-server/ 404
-/how-to/shut-down-a-rackspace-cloud-server/   /support/how-to/cloud-servers/shut-down-a-rackspace-cloud-server/  301 
+/how-to/shut-down-a-rackspace-cloud-server/   /support/how-to/shut-down-a-rackspace-cloud-server/  301 
 /support/how-to/shut-down-a-server-from-the-cloud-portal/  /how-to/shut-down-a-rackspace-cloud-server/  404 
-/how-to/shut-down-a-rackspace-cloud-server/   /support/how-to/cloud-servers/shut-down-a-rackspace-cloud-server/  301 
+/how-to/shut-down-a-rackspace-cloud-server/   /support/how-to/shut-down-a-rackspace-cloud-server/  301 
 /support/how-to/migrations-in-rackspace-cloud/  /how-to/migrations-in-the-rackspace-cloud/  404
-/how-to/migrations-in-the-rackspace-cloud/  /support/how-to/cloud-servers/migrations-in-the-rackspace-cloud/  301 
+/how-to/migrations-in-the-rackspace-cloud/  /support/how-to/migrations-in-the-rackspace-cloud/  301 
 /support/how-to/how-to-add-linux-user-with-document-root-permissions/  /how-to/add-a-linux-user-with-document-root-permissions/  404
 /how-to/add-a-linux-user-with-document-root-permissions/  /support/how-to/add-a-linux-user-with-document-root-permissions/  301
 /support/how-to/checking-system-load-on-linux/  /how-to/check-the-system-load-on-linux/  404
