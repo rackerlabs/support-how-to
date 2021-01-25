@@ -21,7 +21,7 @@ product_url: office-365
 
 ### Configure your mailbox
 
-Use the following steps to setup your Office 365&reg; Exchange&reg; Mailbox:
+Use the following steps to set up your Office 365&reg; Exchange&reg; Mailbox:
 
 1. Click **Gmail**.
 
