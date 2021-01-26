@@ -753,7 +753,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 ### Supported Windows 64-Bit Server OSes
 
 {{<table "table  table-striped table-bordered">}}
-   | | | |     
+   | |   
 |---------|--------|
 | Windows Server 2019 | 4.18.8104 and later |
 | Windows Server 2016 | All supported sensor versions |
