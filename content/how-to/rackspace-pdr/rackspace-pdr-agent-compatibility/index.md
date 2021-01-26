@@ -24,8 +24,30 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 ### Amazon&reg; Linux 2 supported versions
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
-| 4.14.101-91.76.amzn2.x86_64 | 4.14.104-95.84.amzn2.x86_64 | 4.14.106-97.85.amzn2.x86_64 | 4.14.109-99.92.amzn2.x86_64 | 4.14.114-103.97.amzn2.x86_64 | 4.14.114-105.126.amzn2.x86_64 | 4.14.121-109.96.amzn2.x86_64 | 4.14.123-111.109.amzn2.x86_64 | 4.14.128-112.105.amzn2.x86_64 | 4.14.133-113.105.amzn2.x86_64 | 4.14.133-113.112.amzn2.x86_64 | 4.14.138-114.102.amzn2.x86_64 | 4.14.47-64.38.amzn2.x86_64 | 4.14.51-66.38.amzn2.x86_64 | 4.14.55-68.37.amzn2.x86_64 | 4.14.59-68.43.amzn2.x86_64 | 4.14.62-70.117.amzn2.x86_64 | 4.14.67-71.56.amzn2.x86_64 | 4.14.70-72.55.amzn2.x86_64 | 4.14.72-73.55.amzn2.x86_64 | 4.14.77-80.57.amzn2.x86_64 | 4.14.77-81.59.amzn2.x86_64 | 4.14.77-86.82.amzn2.x86_64	| 4.14.88-88.73.amzn2.x86_64 | 4.14.88-88.76.amzn2.x86_64 | 4.14.94-89.73.amzn2.x86_64 | 4.14.97-90.72.amzn2.x86_64 | 4.14.101-91.76.amzn2.x86_64 | 4.14.104-95.84.amzn2.x86_64 4.14.114-103.97.amzn2.x86_64 | 4.14.114-105.126.amzn2.x86_64 | 4.14.121-109.96.amzn2.x86_64 | 4.14.123-111.109.amzn2.x86_64 | 4.14.128-112.105.amzn2.x86_64 | 4.14.133-113.105.amzn2.x86_64 | 4.14.133-113.112.amzn2.x86_64 | 4.14.138-114.102.amzn2.x86_64 | 4.14.143-118.123.amzn2.x86_64 | 4.14.146-119.123.amzn2.x86_64 | 4.14.47-64.38.amzn2.x86_64 | 4.14.51-66.38.amzn2.x86_64 | 4.14.55-68.37.amzn2.x86_64 | 4.14.59-68.43.amzn2.x86_64 | 4.14.62-70.117.amzn2.x86_64 | 4.14.67-71.56.amzn2.x86_64 | 4.14.70-72.55.amzn2.x86_64 | 4.14.72-73.55.amzn2.x86_64 | 4.14.77-80.57.amzn2.x86_64 | 4.14.77-81.59.amzn2.x86_64 | 4.14.77-86.82.amzn2.x86_64 | 4.14.88-88.73.amzn2.x86_64 | 4.14.88-88.76.amzn2.x86_64 | 4.14.94-89.73.amzn2.x86_64 | 4.14.97-90.72.amzn2.x86_64 | 4.14.146-120.181.amzn2.x86_64 | 4.14.152-124.171.amzn2.x86_64 | 4.14.152-127.182.amzn2.x86_64 | 4.14.154-128.181.amzn2 | 4.14.158-129.185.amzn2.x86_64 | 4.14.165-131.185.amzn2.x86_64 | 4.14.165-133.209.amzn2.x86_64 | 4.19.58-21.57.amzn2.x86_64 | 4.19.75-27.58.amzn2.x86_64 | 4.19.75-28.73.amzn2.x86_64 | 4.19.82-30.69.amzn2.x86_64 | 4.19.84-33.70.amzn2.x86_64 | 4.14.171-136.231.amzn2.x86_64 | 4.14.177-139.253.amzn2.x86_64 | 4.14.177-139.254.amzn2.x86_64 | 4.14.181-140.257.amzn2.x86_64 | 4.14.181-142.260.amzn2.x86_64 | 4.14.186-146.268.amzn2.x86_64 | 4.14.77-86.82.amzn2.aarch64 | 4.14.88-88.73.amzn2.aarch64 | 4.14.88-88.76.amzn2.aarch64 | 4.14.94-89.73.amzn2.aarch64 | 4.14.97-90.72.amzn2.aarch64 | 4.14.101-91.76.amzn2.aarch64 | 4.14.104-95.84.amzn2.aarch64 | 4.14.106-97.85.amzn2.aarch64 | 4.14.109-99.92.amzn2.aarch64 | 4.14.114-103.97.amzn2.aarch64 | 4.14.114-105.126.amzn2.aarch64 | 4.14.121-109.96.amzn2.aarch64 | 4.14.123-111.109.amzn2.aarch64 | 4.14.128-112.105.amzn2.aarch64 | 4.14.133-113.105.amzn2.aarch64 | 4.14.133-113.112.amzn2.aarch64 | 4.14.138-114.102.amzn2.aarch64 | 4.14.143-118.123.amzn2.aarch64 | 4.14.146-119.123.amzn2.aarch64 | 4.14.146-120.181.amzn2.aarch64 | 4.14.152-124.171.amzn2.aarch64 | 4.14.152-127.182.amzn2.aarch64 | 4.14.154-128.181.amzn2.aarch64 | 4.14.173-137.228.amzn2.aarch64 | 4.14.173-137.229.amzn2.aarch64 | 4.14.181-140.257.amzn2.aarch64 | 4.19.58-21.57.amzn2.aarch64 | 4.19.58-21.64.amzn2.aarch64 | 4.19.66-22.57.amzn2.aarch64 | 4.19.72-25.58.amzn2.aarch64 | 4.19.75-27.58.amzn2.aarch64 | 4.19.75-28.73.amzn2.aarch64 | 4.19.82-30.69.amzn2.aarch64 | 4.19.84-33.70.amzn2.aarch64 | 4.14.192-147.314.amzn2.x86_64 | 4.14.193-149.317.amzn2.x86_64 | 4.14.198-152.320.amzn2.x86_64 | 4.14.200-155.322.amzn2.x86_64 | 4.14.192-147.314.amzn2.aarch64 | 4.14.193-149.317.amzn2.aarch64 | 4.14.200-155.322.amzn2.aarch64 | 4.14.203-156.332.amzn2.x86_64
+|---------|--------|--------|--------|
+| 4.14.47-64.38.amzn2.x86_64 | 4.14.51-66.38.amzn2.x86_64 | 4.14.55-68.37.amzn2.x86_64 | 4.14.59-68.43.amzn2.x86_64	|
+| 4.14.62-70.117.amzn2.x86_64 | 4.14.67-71.56.amzn2.x86_64 | 4.14.70-72.55.amzn2.x86_64 | 4.14.72-73.55.amzn2.x86_64 |
+| 4.14.77-80.57.amzn2.x86_64 | 4.14.77-81.59.amzn2.x86_64 | 4.14.77-86.82.amzn2.x86_64 | 4.14.88-88.73.amzn2.x86_64 |
+| 4.14.88-88.76.amzn2.x86_64 | 4.14.94-89.73.amzn2.x86_64 | 4.14.97-90.72.amzn2.x86_64 | 4.14.101-91.76.amzn2.x86_64 |
+| 4.14.104-95.84.amzn2.x86_64 | 4.14.106-97.85.amzn2.x86_64 | 4.14.109-99.92.amzn2.x86_64 | 4.14.114-103.97.amzn2.x86_64 |
+| 4.14.114-105.126.amzn2.x86_64 | 4.14.121-109.96.amzn2.x86_64 | 4.14.123-111.109.amzn2.x86_64 | 4.14.128-112.105.amzn2.x86_64 |
+| 4.14.133-113.105.amzn2.x86_64 | 4.14.133-113.112.amzn2.x86_64 | 4.14.138-114.102.amzn2.x86_64 | 4.14.143-118.123.amzn2.x86_64 |
+| 4.14.146-119.123.amzn2.x86_64 | 4.14.146-120.181.amzn2.x86_64 | 4.14.152-124.171.amzn2.x86_64 | 4.14.152-127.182.amzn2.x86_64 |
+| 4.14.154-128.181.amzn2 | 4.14.158-129.185.amzn2.x86_64 | 4.14.165-131.185.amzn2.x86_64 | 4.14.165-133.209.amzn2.x86_64 |
+| 4.19.58-21.57.amzn2.x86_64 | 4.19.58-21.64.amzn2.x86_64 | 4.19.66-22.57.amzn2.x86_64 | 4.19.72-25.58.amzn2.x86_64 |
+| 4.19.75-27.58.amzn2.x86_64 | 4.19.75-28.73.amzn2.x86_64 | 4.19.82-30.69.amzn2.x86_64 | 4.19.84-33.70.amzn2.x86_64 | 
+| 4.14.171-136.231.amzn2.x86_64 | 4.14.177-139.253.amzn2.x86_64 | 4.14.177-139.254.amzn2.x86_64 | 4.14.181-140.257.amzn2.x86_64 | 
+| 4.14.181-142.260.amzn2.x86_64 | 4.14.186-146.268.amzn2.x86_64 | 4.14.77-86.82.amzn2.aarch64 | 4.14.88-88.73.amzn2.aarch64 |
+| 4.14.88-88.76.amzn2.aarch64 | 4.14.94-89.73.amzn2.aarch64 | 4.14.97-90.72.amzn2.aarch64 | 4.14.101-91.76.amzn2.aarch64 | 
+| 4.14.104-95.84.amzn2.aarch64 | 4.14.106-97.85.amzn2.aarch64 | 4.14.109-99.92.amzn2.aarch64 | 4.14.114-103.97.amzn2.aarch64 |
+| 4.14.114-105.126.amzn2.aarch64 | 4.14.121-109.96.amzn2.aarch64 | 4.14.123-111.109.amzn2.aarch64 | 4.14.128-112.105.amzn2.aarch64 |
+| 4.14.133-113.105.amzn2.aarch64 | 4.14.133-113.112.amzn2.aarch64 | 4.14.138-114.102.amzn2.aarch64 | 4.14.143-118.123.amzn2.aarch64 |
+| 4.14.146-119.123.amzn2.aarch64 | 4.14.146-120.181.amzn2.aarch64 | 4.14.152-124.171.amzn2.aarch64 | 4.14.152-127.182.amzn2.aarch64 |
+| 4.14.154-128.181.amzn2.aarch64 | 4.14.173-137.228.amzn2.aarch64 | 4.14.173-137.229.amzn2.aarch64 | 4.14.181-140.257.amzn2.aarch64 |
+| 4.19.58-21.57.amzn2.aarch64 | 4.19.58-21.64.amzn2.aarch64 | 4.19.66-22.57.amzn2.aarch64 | 4.19.72-25.58.amzn2.aarch64 | 
+| 4.19.75-27.58.amzn2.aarch64 | 4.19.75-28.73.amzn2.aarch64 | 4.19.82-30.69.amzn2.aarch64 | 4.19.84-33.70.amzn2.aarch64 | 
+| 4.14.192-147.314.amzn2.x86_64 | 4.14.193-149.317.amzn2.x86_64	| 4.14.198-152.320.amzn2.x86_64	| 4.14.200-155.322.amzn2.x86_64 | 	
+| 4.14.192-147.314.amzn2.aarch64 | 4.14.193-149.317.amzn2.aarch64 | 4.14.200-155.322.amzn2.aarch64 | 4.14.203-156.332.amzn2.x86_64 |
 {{</table>}}
 <br/>
 
@@ -33,7 +55,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 4.9.17-8.31.amzn1.x86_64 | 4.9.20-10.30.amzn1.x86_64 | 4.9.20-11.31.amzn1.x86_64 | 4.9.27-14.31.amzn1.x86_64 |
 | 4.9.27-14.33.amzn1.x86_64 | 4.9.32-15.41.amzn1.x86_64 | 4.9.38-16.33.amzn1.x86_64 | 4.9.38-16.35.amzn1.x86_64 |
 | 4.9.43-17.38.amzn1.x86_64 | 4.9.43-17.39.amzn1.x86_64 | 4.9.51-10.52.amzn1.x86_64 | 4.9.70-25.242.amzn1.x86_64 |
@@ -45,7 +67,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 4.9.116-43.59.amzn1.x86_64 | 4.9.119-44.140.amzn1.x86_64 | 4.9.58-18.51.amzn1.x86_64 | 4.9.58-18.55.amzn1.x86_64 |
 | 4.9.62-21.56.amzn1.x86_64 | 4.9.70-22.55.amzn1.x86_64 | 4.9.76-3.78.amzn1.x86_64 | 4.9.77-31.58.amzn1.x86_64 |
 | 4.9.81-35.56.amzn1.x86_64 | 4.9.85-37.55.amzn1.x86_64 | 4.9.85-38.58.amzn1.x86_64 | 4.9.93-41.60.amzn1.x86_64 |
@@ -57,7 +79,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 4.14.101-75.76.amzn1.x86_64 | 4.14.104-78.84.amzn1.x86_64 | 4.14.106-79.86.amzn1.x86_64 | 4.14.109-80.92.amzn1.x86_64 |
 | 4.14.114-82.97.amzn1.x86_64 | 4.14.114-83.126.amzn1.x86_64 | 4.14.121-85.96.amzn1.x86_64 | 4.14.123-86.109.amzn1.x86_64 |
 | 4.14.128-87.105.amzn1.x86_64 | 4.14.133-88.105.amzn1.x86_64 | 4.14.133-88.112.amzn1.x86_64 | 4.14.138-89.102.amzn1.x86_64 |
@@ -71,11 +93,20 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 {{</table>}}
 <br/>
 
+### Amazon Linux 2018.04 supported versions
+
+{{<table "table  table-striped table-bordered">}}
+   | | | |     
+|---------|--------|--------|--------|
+| 4.14.177-107.254.amzn1.x86_64 | | | |
+{{</table>}}
+<br/>
+
 ### Oracle&reg; Linux 6 supported versions
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 3.8.13-118.10.2.el6uek.x86_64 | 3.8.13-118.11.2.el6uek.x86_64 | 3.8.13-118.13.2.el6uek.x86_64 | 3.8.13-118.13.3.el6uek.x86_64 |
 | 3.8.13-118.14.1.el6uek.x86_64 | 3.8.13-118.14.2.el6uek.x86_64 | 3.8.13-118.15.1.el6uek.x86_64 | 3.8.13-118.15.2.el6uek.x86_64 |
 | 3.8.13-118.16.2.el6uek.x86_64 | 3.8.13-118.16.3.el6uek.x86_64 | 3.8.13-118.16.4.el6uek.x86_64 | 3.8.13-118.17.4.el6uek.x86_64 |
@@ -156,7 +187,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 3.8.13-118.10.2.el7uek.x86_64 | 3.8.13-118.11.2.el7uek.x86_64 | 3.8.13-118.13.2.el7uek.x86_64 | 3.8.13-118.13.3.el7uek.x86_64 |
 | 3.8.13-118.14.1.el7uek.x86_64 | 3.8.13-118.14.2.el7uek.x86_64 | 3.8.13-118.15.1.el7uek.x86_64 | 3.8.13-118.15.2.el7uek.x86_64 |
 | 3.8.13-118.15.3.el7uek.x86_64 | 3.8.13-118.16.2.el7uek.x86_64 | 3.8.13-118.16.3.el7uek.x86_64 | 3.8.13-118.16.4.el7uek.x86_64 |
@@ -247,7 +278,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 2.6.32-573.el6.x86_64	Earlier than v3.4 | 2.6.32-573.1.1.el6.x86_64 Earlier than v3.4 | 2.6.32-573.3.1.el6.x86_64	Earlier than v3.4 | 2.6.32-573.7.1.el6.x86_64 Earlier than v3.4 |
 | 2.6.32-573.8.1.el6.x86_64	Earlier than v3.4 | 2.6.32-573.12.1.el6.x86_64 Earlier than v3.4 | 2.6.32-573.18.1.el6.x86_64 Earlier than v3.4 | 2.6.32-573.22.1.el6.x86_64 Earlier than v3.4 |
 | 2.6.32-573.32.1.el6.x86_64 Earlier than v3.4 | 2.6.32-573.34.1.el6.x86_64 Earlier than v3.4 | 2.6.32-573.35.1.el6.x86_64 Earlier than v3.4 | 2.6.32-573.35.2.el6.x86_64 Earlier than v3.4 |
@@ -277,7 +308,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 3.10.0-229.el7.x86_64 Earlier than v3.4 | 3.10.0-229.1.2.el7.x86_64 Earlier than v3.4 | 3.10.0-229.4.2.el7.x86_64 Earlier than v3.4 | 3.10.0-229.7.2.el7.x86_64 Earlier than v3.4 |
 | 3.10.0-229.11.1.el7.x86_64 Earlier than v3.4 | 3.10.0-229.14.1.el7.x86_64 Earlier than v3.4 | 3.10.0-229.20.1.el7.x86_64 Earlier than v3.4 | 3.10.0-229.24.2.el7.x86_64 Earlier than v3.4 |
 | 3.10.0-229.26.2.el7.x86_64 Earlier than v3.4 | 3.10.0-229.28.1.el7.x86_64 Earlier than v3.4 | 3.10.0-229.30.1.el7.x86_64 Earlier than v3.5 | 3.10.0-229.34.1.el7.x86_64 Earlier than v3.4 |
@@ -331,7 +362,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 4.18.0-80.11.1.el8_0.x86_64 | 4.18.0-80.11.2.el8_0.x86_64 | 4.18.0-147.el8.x86_64 | 4.18.0-147.0.2.el8_1.x86_64 |
 | 4.18.0-147.0.3.el8_1.x86_64 | 4.18.0-147.3.1.el8_1.x86_64 | 4.18.0-147.5.1.el8_1.x86_64 | 4.18.0-147.8.1.el8_1.x86_64 |
 | 4.18.0-147.20.1.el8_1.x86_64 | 4.18.0-193.el8.x86_64 | 4.18.0-193.19.1.el8_2.x86_64 | 4.18.0-147.27.1.el8_1.x86_64 | 
@@ -344,7 +375,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 3.0.101-108.38-default | | | |
 {{</table>}}
 
@@ -354,7 +385,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 3.0.101-100-default | 3.0.101-104-default | 3.0.101-107-default | 3.0.101-108.10-default |
 | 3.0.101-108.101-default | 3.0.101-108.13-default | 3.0.101-108.18-default | 3.0.101-108.21-default |
 | 3.0.101-108.35-default | 3.0.101-108.41-default | 3.0.101-108.48-default | 3.0.101-108.52-default |
@@ -373,7 +404,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 3.12.49-11-default | 3.12.51-60.20-default | 3.12.51-60.25-default | 3.12.53-60.30-default |
 | 3.12.57-60.35-default | 3.12.59-60.41-default | 3.12.59-60.45-default | 3.12.62-60.62-default |
 | 3.12.62-60.64.8-default | 3.12.67-60.64.18-default | 3.12.67-60.64.21-default | 3.12.67-60.64.24-default |
@@ -391,7 +422,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 4-92.64 | 4.4.121-92.101-default | 4.4.121-92.104-default | 4.4.121-92.109-default |
 | 4.4.121-92.114-default | 4.4.121-92.117-default | 4.4.121-92.120-default | 4.4.121-92.73-default |
 | 4.4.121-92.80-default | 4.4.121-92.85-default | 4.4.121-92.92-default | 4.4.121-92.95-default |
@@ -408,7 +439,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 ### SLES 12 SP3 supported versions
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 4-94.11 | 4.4.103-6.33-default | 4.4.103-6.38-default | 4.4.103-92.53-default |
 | 4.4.103-92.56-default | 4.4.114-94.14-default | 4.4.126-94.22-default | 4.4.132-94.33-default |
 | 4.4.138-94.39-default | 4.4.140-94.42-default | 4.4.143-94.47-default | 4.4.155-94.50-default |
@@ -424,7 +455,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 4.12.14-94.41-default | 4.12.14-95.13-default | 4.12.14-95.16-default | 4.12.14-95.19-default |
 | 4.12.14-95.24-default | 4.12.14-95.29-default | 4.12.14-95.3-default | 4.12.14-95.6-default |
 | 4.12.14-95.32-default | 4.12.14-95.37-default | 4.12.14-95.40 | 4.12.14-95.45 |
@@ -438,7 +469,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 4.12.14-120 | 4.12.14-122.7 | 4.12.14-122.12 | 4.12.14-122.17 | 
 | 4.12.14-122.20-default | 4.12.14-122.23-default | 4.12.14-122.26-default | 4.12.14-122.37-default | 
 | 4.12.14-122.51-default | 4.12.14-122.54-default | 4.12.14-122.57-default | |
@@ -449,7 +480,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 4.12.14-23.1 | 4.12.14-25.3.1 | 4.12.14-25.6.1 | 4.12.14-25.13.1 |
 | 4.12.14-25.16.1 | 4.12.14-25.19.1 | 4.12.14-25.22.1 | 4.12.14-25.25.1 |
 | 4.12.14-25.28.1 | 4.12.14-150.14.2 | 4.12.14-150.17-default | 4.12.14-150.22-default |
@@ -463,7 +494,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 4.12.14-195-default | 4.12.14-197.4-default | 4.12.14-197.7-default | 4.12.14-197.10-default |
 | 4.12.14-197.18-default | 4.12.14-197.21 | 4.12.14-197.26 | 4.12.14-197.29 |
 | 4.12.14-197.34 | 4.12.14-197.37 | 4.12.14-197.40 | 4.12.14-197.48-default | 
@@ -477,7 +508,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 3.13.0-24-generic | 3.13.0-27-generic | 3.13.0-29-generic | 3.13.0-30-generic |
 | 3.13.0-32-generic | 3.13.0-33-generic | 3.13.0-34-generic | 3.13.0-35-generic |
 | 3.13.0-36-generic | 3.13.0-37-generic | 3.13.0-39-generic | 3.13.0-40-generic |
@@ -527,7 +558,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 4.4.0-21-generic | 4.4.0-22-generic | 4.4.0-24-generic | 4.4.0-28-generic |
 | 4.4.0-31-generic | 4.4.0-34-generic | 4.4.0-36-generic | 4.4.0-38-generic |
 | 4.4.0-42-generic | 4.4.0-43-generic | 4.4.0-45-generic | 4.4.0-47-generic |
@@ -599,7 +630,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 4.15.0-13-generic | 4.15.0-15-generic | 4.15.0-20-generic | 4.15.0-22-generic |
 | 4.15.0-23-generic | 4.15.0-24-generic | 4.15.0-29-generic | 4.15.0-30-generic |
 | 4.15.0-32-generic | 4.15.0-33-generic | 4.15.0-34-generic | 4.15.0-36-generic |
@@ -613,7 +644,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
 | 4.4.0-21-generic | 4.4.0-22-generic | 4.4.0-24-generic | 4.4.0-28-generic |
 | 4.4.0-31-generic | 4.4.0-34-generic | 4.4.0-36-generic | 4.4.0-38-generic |
 | 4.4.0-42-generic | 4.4.0-43-generic | 4.4.0-45-generic | 4.4.0-47-generic |
@@ -696,16 +727,38 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 {{</table>}}
 <br/>
 
-### Supported Windows 64-Bit Server OSes
+### Ubuntu 20.04 supported versions
+
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-|---------|--------|--------|--------|--------|
+|---------|--------|--------|--------|
+| 5.4.0-26-generic | 5.4.0-28-generic | 5.4.0-29-generic | 5.4.0-31-generic |
+| 5.4.0-33-generic | 5.4.0-37-generic | 5.4.0-39-generic | 5.4.0-40-generic |
+| 5.4.0-42-generic | 5.4.0-45-generic | 5.4.0-47-generic | 5.4.0-48-generic |
+| 5.4.0-51-generic | 5.4.0-52-generic | 5.4.0-1009-aws |  5.4.0-1009-gcp |
+| 5.4.0-1011-aws | 5.4.0-1011-gcp | 5.4.0-1015-aws | 5.4.0-1015-gcp |
+| 5.4.0-1017-aws | 5.4.0-1018-aws | 5.4.0-1018-gcp | 5.4.0-1019-gcp |
+| 5.4.0-1020-aws | 5.4.0-1021-aws | 5.4.0-1021-gcp | 5.4.0-1022-aws |
+| 5.4.0-1022-gcp | 5.4.0-1024-aws | 5.4.0-1024-gcp | 5.4.0-1025-aws |
+| 5.4.0-1025-gcp | 5.4.0-1028-aws | 5.4.0-1028-gcp | 5.4.0-1029-aws |
+| 5.4.0-1029-gcp | 5.4.0-1030-aws | 5.4.0-1030-gcp | 5.4.0-53-generic |
+| 5.4.0-54-generic | 5.4.0-56-generic | 5.4.0-1032-aws | 5.4.0-1032-gcp |
+| 5.4.0-58-generic | 5.4.0-1033-gcp | 5.4.0-1034-aws | 5.4.0-59-generic | 
+| 5.4.0-1034-gcp | 5.4.0-1035-aws | 5.4.0-60-generic | 5.4.0-62-generic |
+{{</table>}}
+<br/>
+
+{{<table "table  table-striped table-bordered">}}
+   | |    
+|---------|--------|
+| All supported sensor version | |
+{{</table>}}
+<br/>
+
+### Supported Windows 64-Bit Server OSes
 
 | Windows Server 2019 | 4.18.8104 and later |
 | Windows Server 2016 | All supported sensor versions |
 | Windows Server 2012 R2 | All supported sensor versions |
 | Windows Server 2012 | All supported sensor versions |
 | Windows Server 2008 R2 SP1 | All supported sensor versions |
-
-{{</table>}}
-<br/>
