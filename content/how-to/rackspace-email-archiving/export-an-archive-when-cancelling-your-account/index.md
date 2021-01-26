@@ -5,13 +5,13 @@ title: Export an archive before cancelling a Cloud Office account
 type: article
 created_date: '2017-10-17'
 created_by: William Loy
-last_modified_date: '2019-06-05'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2021-01-25'
+last_modified_by: Benjamin Reynolds
 product: Rackspace Email Archiving
 product_url: rackspace-email-archiving
 ---
 
-Before you cancel a Cloud Office account, you should plan how you will preserve your
+Before you cancel a Cloud Office account, you should plan how to preserve your
 archived email data. Archives typically export small numbers of archived items rather
 than the entire archive. Therefore, you must plan before exporting an archive and set
 aside an appropriate amount of time for completion.
@@ -25,7 +25,7 @@ For more information on prerequisite terminology, see [Cloud Office support term
 ### Export options avaliable
 
 When cancelling services with Cloud Office, the following options are available
-for preserving your archive after account cancellation.
+for preserving your archive after account cancellation:
 
 |Archive options |Time Required | Cost | Technical Difficulty |
 |---|---|---|---|
@@ -35,7 +35,7 @@ for preserving your archive after account cancellation.
 
 ### Migrate your archive using Sonian (recommended)
 
-Archiving services are provided by Rackspace’s partner, Sonian Inc. Sonian's
+Archiving services are provided by Rackspace’s partner, Sonian Inc. The Sonian
 cloud email archiving solution is compatible with all of leading email service
 providers such as Office 365, Gmail, and Exchange.
 
@@ -67,12 +67,8 @@ deciding to export an archive.
   request a bulk export from Support. If you want to export specific items, such
   as messages from a particular sender, or messages delivered within a specific
   time frame, exporting search results is a more efficient option. For
-  information about how to export search results, see [
-  Export archive search results in Cloud Office](/support/how-to/export-archive-search-results-in-cloud-office).
-
-**Warning:** If you reach your cancellation date before completing the archive
-export, the export will be cancelled and you will be unable retrieve the rest
-of your archive data.
+  information about how to export search results, see
+  [Export archive search results in Cloud Office](/support/how-to/export-archive-search-results-in-cloud-office).
 
 You can use the following methods to export your data from your Rackspace
 Archiving account:
@@ -84,7 +80,7 @@ Archiving account:
     export the results of a search, see [Export archive search results
     in Cloud Office](/support/how-to/export-archive-search-results-in-cloud-office).
 
-    **Note:** You can export searches with a maximum of 15,000 results or a total size of 3.5 GB
+    **Note:** You can export searches with a maximum of 30,000 results and a total size of 20 GB.
 
 - To export an entire archive, divide your searches into monthly intervals for
   the duration of the archive's existence.
@@ -100,7 +96,7 @@ Archiving account:
 - Bulk exports require an extended amount of time to complete. They can take
   several weeks to a few months to finish.
 
-- You must contact Support directly to request a bulk archive export be scheduled
+- You must contact Support directly to request a bulk archive export be scheduled.
 
 The pricing for a bulk export is a one-time fee and varies by amount of data as
 well as data format.

@@ -5,10 +5,8 @@ title: AIOps alert monitoring
 type: article
 created_date: '2020-03-23'
 created_by: JP Gonzalez
-last_modified_date: '2020-05-06'
-last_modified_by: Alex Juarez
-product: General
-product_url: general
+last_modified_date: '2021-01-21'
+last_modified_by: Rose Morales
 ---
 
 To improve your Fanatical Experience&trade;, Rackspace integrated artificial intelligence

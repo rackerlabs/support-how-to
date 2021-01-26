@@ -179,6 +179,10 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 # Specific 404 Redirects
 
+/support/how-to/aiops-alert-monitoring/ /how-to/intro-to-aiops-and-rns-configuration/ 404
+
+/how-to/intro-to-aiops-and-rns-configuration/ /support/how-to/intro-to-aiops-and-rns-configuration/ 301
+
 /support/how-to/early-adopters-add-and-edit-archive-users-in-cloud-office/  /how-to/add-and-edit-archive-users-in-cloud-office/  404
 /how-to/add-and-edit-archive-users-in-cloud-office/  /support/how-to/add-and-edit-archive-users-in-cloud-office/  301
 
