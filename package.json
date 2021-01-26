@@ -11,7 +11,7 @@
         "start:webpack": "webpack --mode=development --watch",
         "build": "make install && rm -rf static/assets && run-s build:webpack build:hugo && npm run algolia",
         "build:local": "rm -rf static/assets && run-s build:webpack build:hugo && npm run algolia",
-        "build-preview": "make install && rm -rf static/assets && run-s build:webpack build:hugo-preview && npm run algolia",
+        "build-preview": "make install && rm -rf static/assets && run-s build:webpack build:hugo-preview",
         "build:hugo": "make build",
         "build:hugo-preview": "make build-preview",
         "build:webpack": "webpack --mode=production",
