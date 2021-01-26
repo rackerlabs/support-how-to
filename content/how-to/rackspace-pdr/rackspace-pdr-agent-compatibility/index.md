@@ -24,7 +24,6 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 ### Amazon&reg; Linux 2 supported versions
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-
 |---------|--------|--------|--------|
 | 4.14.47-64.38.amzn2.x86_64 | 4.14.51-66.38.amzn2.x86_64 | 4.14.55-68.37.amzn2.x86_64 | 4.14.59-68.43.amzn2.x86_64	|
 | 4.14.62-70.117.amzn2.x86_64 | 4.14.67-71.56.amzn2.x86_64 | 4.14.70-72.55.amzn2.x86_64 | 4.14.72-73.55.amzn2.x86_64 |
@@ -471,9 +470,7 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 
 {{<table "table  table-striped table-bordered">}}
    | | | |     
-
 |---------|--------|--------|--------|
-
 | 4.12.14-120 | 4.12.14-122.7 | 4.12.14-122.12 | 4.12.14-122.17 | 
 | 4.12.14-122.20-default | 4.12.14-122.23-default | 4.12.14-122.26-default | 4.12.14-122.37-default | 
 | 4.12.14-122.51-default | 4.12.14-122.54-default | 4.12.14-122.57-default | |
@@ -753,15 +750,11 @@ and no longer provide adequate telemetry to our Security Operations Center (SOC)
 {{</table>}}
 <br/>
 
-{{<table "table  table-striped table-bordered">}}
-   | |    
-|---------|--------|
-| All supported sensor version | |
-{{</table>}}
-<br/>
-
 ### Supported Windows 64-Bit Server OSes
 
+{{<table "table  table-striped table-bordered">}}
+   | | | |     
+|---------|--------|
 | Windows Server 2019 | 4.18.8104 and later |
 | Windows Server 2016 | All supported sensor versions |
 | Windows Server 2012 R2 | All supported sensor versions |
