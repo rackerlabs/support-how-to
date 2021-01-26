@@ -1,73 +1,78 @@
 ---
 permalink: dfs-replication-installation/
-audit_date:
+audit_date: '2020-01-25'
 title: DFS Replication Installation
 type: article
 created_date: '2020-01-19'
 created_by: Steven Mondragon-DeVoss
-last_modified_date:
-last_modified_by:
+last_modified_date: '2020-01-25'
+last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-*This article is applicable to the following Windows Server versions: 2008 and up*
+**Note**: This article is applicable to the following Windows Server versions: 2008 and up
 
-# What is Distributed File System Replication
+### What is DFSR
 
-Distributed File System Replication (DFSR) is used to replicate data from DFS namespaces across a group of servers, which are called a replication group. This will allow data to stay synchronized on multiple servers. This document is used to assist in installing DFS.
+Distributed File System Replication (DFSR) is used to replicate data from DFS namespaces across a group of servers, which are called a replication group. This will allow data to stay synchronized on multiple servers.
 
-DFSR uses remote differential compression (RDC), which uses an algorithm to detect changes of the data in a file to compress and replicate only the changes. This allows for smaller and quicker transfers.
+DFSR uses remote differential compression (RDC), which uses an algorithm to
+detect changes of the data in a file to compress and replicate the changes
+to allow for smaller and quicker transfers.
 
-* The [staging area quota](https://docs.rackspace.com/support/how-to/determine-dfsr-staging-quota/) must be as large as the 32 largest files in the replicated folder. 
+- The [staging area quota](https://docs.rackspace.com/support/how-to/determine-dfsr-staging-quota/) must be as large as the 32 largest files in the replicated folder.
 
-# Requirements
+### Requirements
 
-1. Active Directory
+- Active Directory.
 
-2. Determine which server will be the primary server that will hold the most up-to-date files for initial replication
+- Determine the primary server that will hold the up-to-date files for initial replication.
 
-3. All servers will need to be in the same forest
+- All servers must live in the same forest.
 
-4. DFS replication will need to be installed on all servers that will be members of the replication group
+- DFS replication will need to be installed on all replication group server members.
 
-5. Verify your anti-virus software allows replication and configure any exceptions as needed
+- Verify the anti-virus software allows replication and configure exceptions as needed.
 
-6. Determine the files/folders that will need to be replicated
+- Determine the files and folders to be replicated.
 
-# Installing DFS
+### Installing DFS
 
-We will show two ways to install DFS.
+We will describe two ways to install DFS, GUI (Graphic User Interface) method
+within the Server Manager and the Powershell method.
 
-1. GUI method (Server Manager)
+#### GUI Method
 
-2. Powershell method
+1. Launch **Server Manager**.
 
-## Gui Method
+2. Go to **Manage** > **Add Roles and Features**.
 
-1. Launch **Server Manager**
+3. On **Installation Type** select the default **Role-based or feature-based installation**.
 
-2. Go to **Manage**, then **Add Roles and Features**
+4. For **Server Selection** select server name.
 
-3. Installation Type: select the default **Role-based or feature-based installation**
+5. Go to **Server Roles** > **File and Storage Services** > **File and iSCSI Services** and select **DFS Replication**.
 
-4. Server Selection: select the server
+6. Click the **Add Features** button in the pop-up window.
 
-5. Server Roles: go to "File and Storage Services"-> "File and iSCSI Services"->select **DFS Replication**
+7. Click **Next** for the remaining windows.
 
-6. Click the "Add Features" button in the pop-up window which will also install the DFS Management Console
+8. Click **Install** on the **Confirmation** page.
 
-7. Click "Next" for the remaining windows, then click "Install" when you get to the Confirmation page.
+#### Powershell Method
 
-## Powershell Method
-
-1. Open a Powershell session with elevated permissions and run one of the following that suits your requirements
+1. Open a Powershell session with elevated permissions and run one of the
+   following that suits your requirements:
 
 - To install the DFS role
-  > Install-WindowsFeature "FS-DFS-Replication"
+
+        Install-WindowsFeature "FS-DFS-Replication"
 
 - To install the DFS Management Console
-  > Install-WindowsFeature "RSAT-DFS-Mgmt-Con"
+  
+        Install-WindowsFeature "RSAT-DFS-Mgmt-Con"
 
 - To install the DFS role and the DFS Management console at the same time
-  > Install-WindowsFeature "FS-DFS-Replication","RSAT-DFS-Mgmt-Con"
+
+        Install-WindowsFeature "FS-DFS-Replication","RSAT-DFS-Mgmt-Con"
