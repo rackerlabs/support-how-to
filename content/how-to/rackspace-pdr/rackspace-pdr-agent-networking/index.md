@@ -6,7 +6,7 @@ audit_date: '2021-04-01'
 created_date: '2018-10-09'
 created_by: Nick Shobe
 last_modified_date: '2021-01-27'
-last_modified_by: Nick Shobe
+last_modified_by: Rob Lee
 product: Rackspace Proactive Detection & Response
 product_url: rackspace-pdr
 ---
