@@ -5,7 +5,7 @@ import Snippet from './Snippet';
 
 
 const Hit = ({ hit }) => {
-  if (hit.product_url != null && hit.created_by != null && hit.created_by != '' && hit.created_date != null && !hit.permalink.includes('all-articles')) {
+  if (hit.product_url != null && hit.created_by != null && hit.created_by != '' && hit.created_date != null && hit.permalink != null && hit.permalink != '' && !hit.permalink.includes('all-articles')) {
     return (
       <div className="row">
         <div className="col-sm-12">
