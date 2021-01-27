@@ -1,5 +1,7 @@
 # Redirects
 
+/support/how-to/products-i-can-load-balance/  /how-to/products-you-can-load-balance/ 404
+/how-to/products-you-can-load-balance/  /support/how-to/products-you-can-load-balance/ 301
 /support/how-to/shut-down-a-cloud-server/  /how-to/shut-down-a-rackspace-cloud-server/  404
 /how-to/shut-down-a-rackspace-cloud-server/   /support/how-to/shut-down-a-rackspace-cloud-server/  301 
 /support/how-to/shut-down-a-server/  /how-to/shut-down-a-rackspace-cloud-server/ 404
