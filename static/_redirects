@@ -1,7 +1,18 @@
 # Redirects
 
-/support/how-to/products-i-can-load-balance/  /how-to/products-you-can-load-balance/ 404
-/how-to/products-you-can-load-balance/  /support/how-to/products-you-can-load-balance/ 301
+
+/support/how-to/creating-a-monitoring-check-using-the-cloud-control-panel/  /how-to/about-the-rackspace-monitoring-agent/  404
+/how-to/about-the-rackspace-monitoring-agent/  /support/how-to/about-the-rackspace-monitoring-agent/  301
+/support/how-to/introduction-to-mailgun-email-automation/  /how-to/preparing-the-cloud-server-to-be-a-mail-server/  404
+/how-to/preparing-the-cloud-server-to-be-a-mail-server/  /support/how-to/preparing-the-cloud-server-to-be-a-mail-server/  301
+/support/how-to/upgrading-resources-for-general-purpose-or-io-optimized-cloud-servers/  /how-to/upgrade-resources-for-general-purpose-or-io-optimized-cloud-servers/  404
+/how-to/upgrade-resources-for-general-purpose-or-io-optimized-cloud-servers/  /support/how-to/upgrade-resources-for-general-purpose-or-io-optimized-cloud-servers/  301
+/support/how-to/pointing-domains-to-load-balancers/  /how-to/point-domains-to-load-balancers/  404
+/how-to/point-domains-to-load-balancers/  /support/how-to/point-domains-to-load-balancers/  301
+/support/how-to/learn-more-about-load-balancers/  /how-to/cloud-load-balancers/  404
+/how-to/cloud-load-balancers/  /support/how-to/cloud-load-balancers/  301
+/support/how-to/products-i-can-load-balance/  /how-to/products-you-can-load-balance/  404
+/how-to/products-you-can-load-balance/  /support/how-to/products-you-can-load-balance/  301
 /support/how-to/shut-down-a-cloud-server/  /how-to/shut-down-a-rackspace-cloud-server/  404
 /how-to/shut-down-a-rackspace-cloud-server/   /support/how-to/shut-down-a-rackspace-cloud-server/  301 
 /support/how-to/shut-down-a-server/  /how-to/shut-down-a-rackspace-cloud-server/ 404
