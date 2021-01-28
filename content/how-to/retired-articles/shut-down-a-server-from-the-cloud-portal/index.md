@@ -7,8 +7,7 @@ created_date: '2020-10-11'
 created_by: David Cano
 last_modified_date: '2020-10-13'
 last_modified_by: Rose Morales
-product: Cloud Servers
-product_url: cloud-servers
+
 ---
 
 This article describes how to shut down a Rackspace Cloud Server.
