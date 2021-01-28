@@ -88,4 +88,4 @@ Blocklists allow you block a sender's email address, domain, or IP address from 
 6.  Click **Save**.
 
 Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). (edited) 
+**Let's Talk** to [start the conversation](https://www.rackspace.com/).
