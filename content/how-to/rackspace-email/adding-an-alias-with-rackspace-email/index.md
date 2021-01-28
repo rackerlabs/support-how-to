@@ -62,3 +62,7 @@ Aliases are a way to create an alternate email address name for an existing emai
 5. On the Import Aliases page, click **Import**.
     
 Any errors that occur are detailed in the **Import Summary**, which is displayed after the import is complete.
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+
