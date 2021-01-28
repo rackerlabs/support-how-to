@@ -2,7 +2,7 @@
 permalink: rackspace-pdr-imaging/
 title: Rackspace PDR imaging hosts
 type: article
-audit_date: '2021-05-01'
+audit_date: '2021-01-28'
 created_date: '2018-11-12'
 created_by: Nick Shobe
 last_modified_date: '2021-01-28'
