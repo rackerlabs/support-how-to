@@ -1,12 +1,12 @@
 ---
 permalink: adding-an-alias-with-rackspace-email/
-audit_date:
+audit_date: '2021-01-29'
 title: Add an alias with Rackspace Email
 type: article
 created_date: '2012-01-18'
 created_by: Rae D. Cabello
-last_modified_date: '2019-09-03'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2021-01-29'
+last_modified_by: Carlos Arriaga
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -36,13 +36,13 @@ Aliases are a way to create an alternate email address name for an existing emai
     **Note**: If you have multiple domains, select the appropriate domain name. To change domains, select the change domain link.
 
 4. In the **Create New Alias** box, enter a name for this alias.
-5. From the **Members inside this Domain** box, select one or more mailboxes and click **Add**. They are added to the **Members of this Alias** box.
+5. From the **Members inside this Domain** box, select one or more mailboxes and drag them into the **Current Members** box. They go into the **Members of this Alias** box.
 
     {{<image src="members_of_domain.png" alt="" title="">}}
 
     {{<image src="members_of_alias.png" alt="" title="">}}
 
-    Note: The address that you want the mail to be delivered to must move to the right side under **Members of this Alias** to receive mail sent to the alias address.
+    Note: The address that you want the mail to be delivered to must move to the right side under **Current Members** to receive mail sent to the alias address.
 
 6. *(Optional)* Add up to four external addresses for domains like gmail.com, yahoo.com, or hotmail.com.
 7. Click **Save**.
