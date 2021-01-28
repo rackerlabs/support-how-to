@@ -1,34 +1,33 @@
 ---
 permalink: spam-preferences-safelists-and-blocklist-in-rackspace-email/
-audit_date:
+audit_date: '2021-01-28'
 title: 'Spam preferences, safelists, and blocklists in Rackspace Email'
 type: article
 created_date: '2012-05-25'
 created_by: Rackspace Support
-last_modified_date: '2014-07-14'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2021-01-28'
+last_modified_by: Carlos Arriaga
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
-Rackspace gives you the flexibility to set your own spam preferences. This includes editing and managing domain-wide spam settings, safelists, and Blocklists, and the ability to
-override the spam filtering for the entire domain. This article describes how to manage accomplish these tasks in the [Cloud Office Control Panel](https://cp.rackspace.com).
+Rackspace Techonology gives you the flexibility to set your own spam preferences. This includes editing and managing domain-wide spam settings, safelists, and Blocklists, and the ability to override the spam filtering for the entire domain. This article describes how to manage accomplish these tasks in the [Cloud Office Control Panel](https://cp.rackspace.com).
 
 ### Manage domain spam settings
 
-To manage your domain-level spam settings, go to the **Domains** section of the control panel and select **Filter Settings**, **Blocklists**, or **Safelists**.
+To manage your domain-level spam settings, go to the **Domains** section of the control panel and select **Spam Settings**, **Blocklists**, or **Safelists**.
 
-**Note:** If you have multiple domains, you might be prompted to select the domain you intend to make changes to.
+**Note:** If you have multiple domains, select the domain you intend to make changes to.
 
 ### Manage individual user spam settings
 
-1. To manage individual user's spam settings, go to the **Rackspace Email** section of the control panel and select **Filter Settings**, **Blocklists**, or **Safelists**.
+1. To manage individual user's spam settings, go to the **Rackspace Email** section of the control panel and select **Spam Settings**, **Blocklists**, or **Safelists**.
 
 2. Select the user for which you want to update spam settings.
 
-### Set spam filtering options
+#### Set spam filtering options
 
-1. For individual mailboxes, click **Filter Settings** in the **Rackspace Email** section. For the domain, click **Filter Settings** in the **Domains** section.
+1. For individual mailboxes, click **Spam Settings** in the **Rackspace Email** section. For the domain, click **Spam Settings** in the **Domains** section.
 
 2. In the Status section, turn the spam filtering on or off. You can also select **Exclusive** to receive email *only* from senders on your domain's safelist.
 
@@ -44,7 +43,7 @@ To manage your domain-level spam settings, go to the **Domains** section of the 
 
 4. In the **Override Options** section, indicate whether to apply these settings to users who have not already set their spam preferences, or whether these settings should override spam preferences for all users.
 
-    **Note:** The override options are not presented if you chose to set options for an individual Rackspace Email mailbox.
+**Note:** The override options are not presented if you chose to set options for an individual Rackspace Email mailbox.
 
 5. Click **Save**.
 
@@ -72,7 +71,7 @@ Safelists allow you to add a sender's email address, domains, or IP address to d
 
 Blocklists allow you block a sender's email address, domain, or IP address from delivering to your mailbox. Objects that are Blocklisted are not delivered to the mailbox.
 
-1. For individual mailboxes, click **Backlists** in the **Rackspace Email** section. For the domain, click **Blocklists** in the **Domains** section.
+1. For individual mailboxes, click **Blocklists** in the **Rackspace Email** section. For the domain, click **Blocklists** in the **Domains** section.
 
 2.  To add a domain name or email address to the Blocklist, enter the domain or email address in the box, and then click **Add**.
 
@@ -87,3 +86,6 @@ Blocklists allow you block a sender's email address, domain, or IP address from 
     **Note:** If you have multiple IP addresses to add, use the bulk import option to upload a **.csv** or **.txt** file containing the information.
 
 6.  Click **Save**.
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). (edited) 
