@@ -11,12 +11,16 @@ product: Rackspace Proactive Detection & Response
 product_url: rackspace-pdr
 ---
 
-If you need to take an image for future deployments of a host that has Rackspace Proactive Detection & Response (PDR) agents installed, the agents must be removed.
+If you need to take an image for future deployments of a host with Rackspace Proactive Detection & Response (PDR) agents
+installed, you must remove the agents.
 
 ### Remove agents
 
-According to our standard method to prepare Golden images, we remove the vendor agents. It supports our normal auto-deploy tooling and usually works similarly to building off a new base Operating System (OS) image. 
+According to our standard method for preparing *golden* images, we remove the vendor agents. This process supports our normal
+auto-deploy tooling and usually works similarly to building off a new base Operating System (OS) image. 
 
 ### Take an image for a system backup
 
-If you are just backing up a host, then it is not nessessary to prepare the image for Rackspace PDR deployment. However, if you later decide to use that backup image to deploy new hosts other then restoration, then you must prepare that image for Rackspace PDR agent deployment before deploying new hosts. For more information, see the *Remove agents* section above.
+If you are just backing up a host, it is not necessary to prepare the image for Rackspace PDR deployment. However, if you
+later decide to use a backup image to deploy new hosts rather than for restoration, you must prepare that image for Rackspace
+PDR agent deployment before deploying new hosts. For more information, see the preceding *Remove agents* section.
