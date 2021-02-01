@@ -24,7 +24,7 @@ This article explains how to create a ticket to add disk space to a server or hy
 
 4. Select the Subject field.
 
-5. From the dropdown menu, Select **Add Disk Space to Server or Hypervisor.**
+5. From the drop-down menu, Select **Add Disk Space to Server or Hypervisor.**
 
    {{<image src="adddisk1.png" alt="" title="">}}
 
