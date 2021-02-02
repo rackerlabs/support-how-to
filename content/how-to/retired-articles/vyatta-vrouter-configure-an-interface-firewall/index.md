@@ -5,10 +5,8 @@ title: 'Vyatta vRouter: Configure an interface firewall'
 type: article
 created_date: '2014-09-11'
 created_by: Sameer Satyam
-last_modified_date: '2016-01-14'
-last_modified_by: Rose Coste
-product: Cloud Networks
-product_url: cloud-networks
+last_modified_date: '2021-01-29'
+last_modified_by: Rose Morales
 ---
 
 Brocade Vyatta vRouter can be configured for two methods of firewall

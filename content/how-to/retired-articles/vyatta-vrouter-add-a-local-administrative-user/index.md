@@ -5,10 +5,8 @@ title: 'Vyatta vRouter: Add a local administrative user'
 type: article
 created_date: '2014-09-09'
 created_by: Sameer Satyam
-last_modified_date: '2017-02-22'
-last_modified_by: Nate Archer
-product: Cloud Networks
-product_url: cloud-networks
+last_modified_date: '2021-01-29'
+last_modified_by: Rose Morales
 ---
 
 This article demonstrates how to add a local user to a Brocade Vyatta vRouter, for administration purposes.

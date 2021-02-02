@@ -5,10 +5,8 @@ title: Vyatta IPsec site-to-site VPN
 type: article
 created_date: '2014-09-11'
 created_by: Rose Contreras
-last_modified_date: '2015-02-19'
-last_modified_by: Rose Contreras
-product: Cloud Networks
-product_url: cloud-networks
+last_modified_date: '2021-01-29'
+last_modified_by: Rose Morales
 ---
 
 You can use two methods to configure an Internet Protocol Security (IPsec) site-to-site VPN on a Vyatta vRouter: policy-based and route-based. Rackspace supports only the policy-based method, and this article explains how to use that method.

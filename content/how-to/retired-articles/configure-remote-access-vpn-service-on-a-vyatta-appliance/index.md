@@ -5,10 +5,8 @@ title: Configure Remote Access VPN Service on a Vyatta Appliance
 type: article
 created_date: '2013-01-17'
 created_by: Sameer Satyam
-last_modified_date: '2015-09-29'
-last_modified_by: Kyle Laffoon
-product: Cloud Networks
-product_url: cloud-networks
+last_modified_date: '2021-01-29'
+last_modified_by: Rose Morales
 ---
 
 You can configure a Vyatta Appliance to act as a remote access VPN
