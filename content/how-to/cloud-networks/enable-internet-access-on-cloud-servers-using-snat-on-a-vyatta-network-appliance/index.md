@@ -5,10 +5,8 @@ title: Enable Internet Access on Cloud Servers Using SNAT on a Vyatta Network Ap
 type: article
 created_date: '2013-01-08'
 created_by: Sameer Satyam
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
-product: Cloud Networks
-product_url: cloud-networks
+last_modified_date: '2021-01-29'
+last_modified_by: Rose Morales
 ---
 
 Using a Vyatta Appliance you can allow servers on your Private

@@ -5,10 +5,8 @@ title: Creating NAT rules for Vyatta vRouter
 type: article
 created_date: '2015-01-26'
 created_by: Rose Contreras
-last_modified_date: '2015-02-18'
-last_modified_by: Rose Contreras
-product: Cloud Networks
-product_url: cloud-networks
+last_modified_date: '2021-01-29'
+last_modified_by: Rose Morales
 ---
 
 This article provides information about Rackspace specific operations, standards, and configuration examples for the network address translation (NAT) features of the Brocade Vyatta vRouter.

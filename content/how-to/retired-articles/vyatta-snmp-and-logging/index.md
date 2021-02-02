@@ -5,10 +5,8 @@ title: Vyatta SNMP and logging
 type: article
 created_date: '2015-08-26'
 created_by: Rose Contreras
-last_modified_date: '2016-01-13'
-last_modified_by: Rose Coste
-product: Cloud Networks
-product_url: cloud-networks
+last_modified_date: '2021-01-29'
+last_modified_by: Rose Morales
 ---
 
 This article details the process for setting up Simple Network

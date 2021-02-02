@@ -5,10 +5,8 @@ title: 'Vyatta vRouter: Allow an IP address to access the vRouter via SSH'
 type: article
 created_date: '2014-09-09'
 created_by: Sameer Satyam
-last_modified_date: '2016-01-07'
-last_modified_by: Renee Rendon
-product: Cloud Networks
-product_url: cloud-networks
+last_modified_date: '2021-01-29'
+last_modified_by: Rose Morales
 ---
 
 This article demonstrates how to configure an IP address to connect to a Brocade Vyatta vRouter through SSH, for administration purposes.

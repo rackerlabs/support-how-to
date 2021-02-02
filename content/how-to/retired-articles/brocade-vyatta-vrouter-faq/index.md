@@ -5,10 +5,8 @@ title: Brocade Vyatta vRouter FAQ
 type: article
 created_date: '2013-11-18'
 created_by: Sameer Satyam
-last_modified_date: '2016-01-11'
-last_modified_by: Rose Coste
-product: Cloud Networks
-product_url: cloud-networks
+last_modified_date: '2021-01-29'
+last_modified_by: Rose Morales
 ---
 {{<accordion title="What is the network throughput on the Brocade Vyatta vRouter?" col="in" href="accordion1">}}
 

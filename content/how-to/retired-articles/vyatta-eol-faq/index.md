@@ -5,10 +5,8 @@ title: Vyatta vRouter End of Support FAQ
 type: article
 created_date: '2020-06-16'
 created_by: Brian King
-last_modified_date: '2020-06-16'
-last_modified_by: Brian King
-product: Cloud Networks
-product_url: cloud-networks
+last_modified_date: '2021-01-29'
+last_modified_by: Rose Morales
 ---
 
 The Vyatta&reg; vRouter has been discontinued by its vendor AT&T, and as a result, 
