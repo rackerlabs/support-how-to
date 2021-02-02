@@ -7,8 +7,7 @@ created_date: '2013-05-02'
 created_by: Sameer Satyam
 last_modified_date: '2014-03-06'
 last_modified_by: David Hendler
-product: Cloud Networks
-product_url: cloud-networks
+
 ---
 
 ### Introduction

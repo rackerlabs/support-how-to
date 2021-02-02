@@ -5,10 +5,8 @@ title: Quick start guide to launching the Brocade Vyatta vRouter
 type: article
 created_date: '2013-04-18'
 created_by: Sameer Satyam
-last_modified_date: '2016-01-14'
-last_modified_by: Stephanie Fillmon
-product: Cloud Networks
-product_url: cloud-networks
+last_modified_date: '2021-01-29'
+last_modified_by: Rose Morales
 ---
 
 ### Introduction
