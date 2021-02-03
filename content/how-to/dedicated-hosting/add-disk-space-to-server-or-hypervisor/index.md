@@ -36,7 +36,7 @@ This article explains how to create a ticket to add disk space to a server or hy
    {{<image src="adddisk2.png" alt="" title="">}}
 
 8. In the **Preferred Maintenance Schedule** section, you can choose to have the work done at any time by selecting
-   the **Anytime** checkbox.  Otherwise, fill out the remaining maintenance details to have the work
+   the **Anytime** checkbox. Otherwise, fill out the remaining maintenance details to have the work
    completed in a scheduled maintenance window. 
 
 9. Select **Create Ticket**.
