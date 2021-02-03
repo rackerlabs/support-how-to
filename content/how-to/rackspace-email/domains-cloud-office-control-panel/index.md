@@ -11,11 +11,12 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-You use the **Domains** section of the Cloud Office Control Panel to easily manage self-service migration, DNS settings, spam filtering rules, access rights, disclaimers, and archiving.
+Use the **Domains** section of the Cloud Office Control Panel to easily manage self-service migration, DNS settings,
+spam filtering rules, access rights, disclaimers, and archiving.
 
 ### Manage domains
 
-From the **Manage Domains** section of the control panel, you can perform the following domain-related tasks:
+From the **Manage Domains** section of the Control Panel, you can perform the following domain-related tasks:
 
 - [Add a domain](/support/how-to/add-domains-with-the-cloud-office-control-panel)
 - [Manage domain aliases](/support/how-to/manage-domain-aliases-with-the-cloud-office-control-panel)
@@ -25,11 +26,12 @@ From the **Manage Domains** section of the control panel, you can perform the fo
 
 ### Spam filtering
 
-From the Spam Filtering section of the control panel, you can manage the spam settings for domains and users. For instructions, see [Spam Preferences, Safe Lists, and Black List In Rackspace Email](/support/how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email).
+From the **Spam Filtering** section of the Control Panel, you can manage the spam settings for domains and users. For
+instructions, see [Spam Preferences, Safe Lists, and Black List In Rackspace Email](/support/how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email).
 
 ### Tools
 
-You can use the **Tools** section of the control panel to configure various domain-wide settings and tools:
+You can use the **Tools** section of the Control Panel to configure various domain-wide settings and tools:
 
 - [Set up split-domain routing](/support/how-to/split-domain-routing)
 - [Email everyone on your domain](/support/how-to/email-everyone-cloud-office-control-panel)
