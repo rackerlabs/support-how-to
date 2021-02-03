@@ -1,12 +1,12 @@
 ---
 permalink: domains-cloud-office-control-panel/
-audit_date:
+audit_date: '2021-02-03'
 title: Domains in the Cloud Office Control Panel
 type: article
 created_date: '2014-04-10'
 created_by: Mawutor Amesawu
-last_modified_date: '2016-01-18'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2021-02-03'
+last_modified_by: Carlos Arriaga
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -35,3 +35,6 @@ You can use the **Tools** section of the control panel to configure various doma
 - [Email everyone on your domain](/support/how-to/email-everyone-cloud-office-control-panel)
 - [Activate a catch-all address](/support/how-to/set-an-email-catch-all-address-in-the-cloud-office-control-panel)
 - [Migrating email](/support/how-to/email-migration-services)
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
