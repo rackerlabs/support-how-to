@@ -1,16 +1,15 @@
 ---
-permalink: adding-a-signature-to-rackspace-email/
-audit_date:
+permalink: add-a-signature-to-rackspace-email/
+audit_date: '2021-02-03'
 title: Add a signature to Rackspace Email
 type: article
 created_date: '2012-01-18'
 created_by: Cory Aldrich
-last_modified_date: '2017-09-20'
-last_modified_by: William Loy
+last_modified_date: '2021-02-03'
+last_modified_by: Carlos Arriaga 
 product: Rackspace Email
 product_url: rackspace-email
 ---
-
 
 This article describes how to set up your email signature, which can include your title, phone number, or any other content you want to display.
 
@@ -65,3 +64,6 @@ When creating your signature you should be cautious about what is included. Sign
 10. To change your default identity selection, click the identity as it appears in the **Current Identities** box, click the **Set as Default** button, and then click the **Save** button.
 
 **Note:** When composing an email, you can change identities by clicking the **From** drop-down menu in Webmail, which appears at the top of the Compose Email window.
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
