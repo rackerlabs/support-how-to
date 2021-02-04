@@ -23,10 +23,10 @@ completed these steps, your volume is usable like a drive on your server.
 
 #### Use SSH to connect to your server
 
-When a server is generated, a password is created. You will need that password for this step.
+The server generatation process creates a password that you need for this step.
 
 **Note**: If you do not have the password, click the gear icon next to the
-server name, and select **Change Password**.
+server name and select **Change Password**.
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com/).
 2. In the top navigation bar, click **Select a Product** > **Rackspace Cloud**.
@@ -34,7 +34,7 @@ server name, and select **Change Password**.
 4. Using SSH, log in to the server as root by using its IP address and
     root password.
 
-    The output should be similar to the following output:
+    The output should be similar to the following example:
 
         $ ssh root@198.61.222.58
         root@198.61.222.58's password:
@@ -45,13 +45,13 @@ server name, and select **Change Password**.
         Welcome to the Ubuntu Server!
         * Documentation:  https://www.ubuntu.com/server/doc
         Last login: Thu Oct 18 02:26:38 2012 from 70.114.215.201
-5. After you are logged in, list the disks on your server. Your volume is
-    typically listed as the last drive in this list. In the following example,
-    the 100 GB volume that was created in the [Create and Attach a Cloud Block Storage Volume](/support/how-to/create-and-attach-a-cloud-block-storage-volume)
+        
+5. After you log in, list the disks on your server. Your volume typically
+    displays as the last drive in this list. In the following example,
+    the 100 GB volume created in the [Create and Attach a Cloud Block Storage Volume](/support/how-to/create-and-attach-a-cloud-block-storage-volume)
     article is attached to **/dev/xvdb**.
 
-    **Note**: It is shown as 107.4 GB because of the
-    way that megabytes are counted.
+    **Note**: It displays as 107.4 GB because of the way that the system counts megabytes.
 
         root@nosnetdfw:~# fdisk -l
 
@@ -80,7 +80,7 @@ Partitioning the disk tells the server how much space on the drive you
 want to use. To use all of it, tell the server to start at the first
 cylinder of the disk and go to the last.
 
-1. Run the fdisk utility and specify the disk.
+1. Run the `fdisk` utility and specify the disk:
 
         root@nosnetdfw:~# fdisk /dev/xvdb
 
@@ -94,21 +94,25 @@ cylinder of the disk and go to the last.
         WARNING: DOS-compatible mode is deprecated. It's strongly recommended to
              switch off the mode (command 'c') and change display units to
              sectors (command 'u').
+             
 2. Enter **n** to create a new partition.
 3. Enter **p** to indicate a primary partition.
 4. To create only one partition on this disk, enter **1**.
 
         Partition number (1-4):
         First cylinder (1-13054, default 1):
+        
 5. To accept the default start cylinder, which is 1, press **Enter**.
 
         Using default value 1
         Last cylinder, +cylinders or +size{K,M,G} (1-13054, default 13054):
+        
 6. Press **Enter** to use the default, which is 1. Because you are
     using the entire volume for your partition, start the partition at
     the beginning.
 
         Using default value 13054
+        
 7. Enter **w** to write the partition.
 
         w
@@ -117,6 +121,7 @@ cylinder of the disk and go to the last.
 
         Calling ioctl() to re-read partition table.
         Syncing disks.
+        
 8. List the disks on your server again. Your Cloud Block Storage volume is ready
     as a disk. It was attached at **/dev/xvdb** and you created one partition on it,
     so now your available disk appears at **/dev/xvdb1**.
@@ -145,8 +150,8 @@ cylinder of the disk and go to the last.
 
 #### Format the volume
 
-Formatting the volume enables the server to store information on it. In the
-following example, **ext3** is used. However, you can use other file systems
+Formatting the volume enables the server to store information on it. The
+following example uses **ext3**. However, you can use other file systems
 supported by your kernel, such as **ext4**, in place of **ext3**.
 
     root@nosnetdfw:~# mkfs -t ext3 /dev/xvdb1
@@ -207,7 +212,7 @@ performing the following step to ensure that your volume remains persistent
 after a server reboot.
 
 **Note:** If you ever decide to move the volume to a different server, begin by
-un-mounting the volume. Use the **unmount** command to unmount the volume, and
+un-mounting the volume. Use the `unmount` command to unmount the volume, and
 then repeat this **Mount the volume** process for the new endpoint.
 
 #### Make the volume permanent
@@ -215,9 +220,9 @@ then repeat this **Mount the volume** process for the new endpoint.
 This step is optional, but it keeps your volume attached to your server after
 restarts.
 
-Add your volume to the static file system information in the fstab file.
+Add your volume to the static file system information in the **fstab** file.
 
-**Note**: In your fstab options, add the \_netdev option. This option prevents
+**Note**: In your **fstab** options, add the `_netdev` option. This option prevents
 attempts to mount the volume until all networking is running.
 
     root@nosnetdfw:~# nano /etc/fstab
@@ -231,7 +236,7 @@ attempts to mount the volume until all networking is running.
     #
     /dev/xvda1          /               ext3    defaults,noatime,barrier=0 1 1
 
-For this example, add the following line beneath /dev/xvda1... to add the volume
+For this example, add the following line beneath **/dev/xvda1...** to add the volume
 to the static file system:
 
     /dev/xvdb1 /mnt/cbsvolume1 ext3 defaults,noatime,_netdev,nofail 0 2
@@ -240,35 +245,34 @@ Now the volume persists on the server after the server restarts.
 
 ### Prepare your volume for use with a Windows server
 
-**Note**: In the examples in the procedure, a 100 GB volume is added to a
+**Note**: The procedure examples add a 100 GB volume to a
 Windows Server 2012 server. The steps are similar for all Windows cloud servers.
 
 #### Remotely connect to your server
 
-When you created your server, you were given a password. You need that password
-for this step. If you do not have the password, go to the Cloud Servers page of
+Your server creation process generated a password, which you need
+for this step. If you do not have the password, go to the **Cloud Servers** page of
 the Cloud Control Panel, click the gear icon next to the server name, and select
 **Change Password**.
 
 1. On the Server Details page of the Cloud Control Panel, find the IP address
     for your server.
 
-2. Using the server's IP address and password, use Remote Desktop to connect to
+2. With the server's IP address and password, use Remote Desktop to connect to
     the server as an administrator.
 
-    When you first log in and view the Computer window, you will not see the
-    Cloud Block Storage Volume that is attached to the server. In the following
-    example, only the server's C drive is displayed.
+    When you first log in and view the Computer window, you do not see the
+    Cloud Block Storage Volume attached to the server. In the following
+    example, only the server's C drive displays.
 
 3. Open the Server Manager window by right-clicking on the Computer icon and
     selecting **Manage**.
 
-4. In the left pane of the Server Manager window, click **File and Storage
-    Services**.
+4. In the left pane of the Server Manager window, click **File and Storage Services**.
 
 5. In the left pane, click **Disks**.  In the following example, a 100 GB volume
-    is attached to the server. It is listed as Offline, it has 100 GB of
-    unallocated space, and its partition size is Unknown.
+    is attached to the server. It is listed as *Offline*, it has 100 GB of
+    unallocated space, and its partition size is *Unknown*.
 
 #### Partition and format the drive
 
@@ -288,22 +292,21 @@ terminology, is required before running this wizard.
     pop-up menu. In Windows Server 2008&reg;, you right-click the unallocated drive
     and select **New Simple Volume**.
 
-3. Click **Next**. In the Server and Disk page, the unformatted Cloud Block
-    Storage volume is displayed.
+3. Click **Next**. In the **Server and Disk** page, the unformatted Cloud Block
+    Storage volume displays.
 
-4. Select the disk and click **Next**.  If the Offline or Uninitialized Disk
+4. Select the disk and click **Next**.  If the *Offline or Uninitialized Disk*
     message appears, click **OK**.
 
 5. In the next three wizard pages, specify the drive size, the drive letter, and
-    the format and name for the volume. Confirm your settings in the
-    Confirmation page. In this example, the disk's full 100 GB is used, it is
-    assigned the drive letter D, it is formatted as NTFS, and it is named **My New
-    CBS Volume**.
+    the format and name for the volume. Confirm your settings on the
+    **Confirmation** page. In this example, the disk's full 100 GB is used, it is
+    assigned the drive letter D, it is formatted as NTFS, and it is named **My New CBS Volume**.
 
 6. To complete the process, click **Create**.
 
-   When you open the Computer window now, the new Cloud Block Storage volume is
-   displayed like a regular hard drive.
+   When you open the Computer window now, the new Cloud Block Storage volume
+   displays similar to a regular hard drive.
 
    Your volume is now ready for use.
 
