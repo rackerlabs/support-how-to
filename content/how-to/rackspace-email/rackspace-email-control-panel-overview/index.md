@@ -28,11 +28,15 @@ and tools. The main landing page includes the **Rackspace Email** section,
 as well as the **Domains** and **News & Alerts** sections. As you sign up 
 for additional products, each product has its own section so that you can 
 manage it directly from the landing page.
+
+{{<image src="picture1.jpg" alt="" title="">}}
 ### Rackspace Email section
 
 The **Rackspace Email** section provides you with various options and
 tools like spam filtering, creating aliases, as well as creating and
 managing Group Lists.
+
+{{<image src="picture2.jpg" alt="" title="">}}
 
 - To view the available range of options for Rackspace Email, you can click on Rackspace Email in the **Go to section** menu.
 
