@@ -11,7 +11,8 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-DomainKeys identified mail (DKIM) adds a secure signature to your domain to authenticate email sent from users in your company. DKIM is an industry best practice that increases the security of your email domains.
+DomainKeys identified mail (DKIM) adds a secure signature to your domain to authenticate emails sent from users in your company. DKIM
+is an industry best practice that increases the security of your email domains.
 
 ### Prerequisites
 
@@ -22,7 +23,7 @@ DomainKeys identified mail (DKIM) adds a secure signature to your domain to auth
 
 For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
-Before enabling DKIM, we recommend you create a robust email verification policy by completing the steps in the following articles: 
+Before enabling DKIM, we recommend you create a robust email verification policy by completing the following steps: 
 
 1. [Create an **SPF** record policy](/support/how-to/create-an-spf-policy). 
 2. Create a **DKIM** record. 
@@ -38,19 +39,23 @@ For a video tutorial of the following steps, see [Rackspace Email - DMARC / DKIM
 
 3. On the **Sender Authentication (DKIM)** page, click the domain for which you want to enable DKIM.  
 
-4. Click the **Enable DKIM for** button.  
+4. Click **Enable DKIM for**.  
 
-    - If your domain's DNS is managed through your Cloud Office Control Panel, then DKIM enabling is automatic.
+    - If you manage your domain's DNS through your Cloud Office Control Panel, DKIM enabling is automatic.
 
-    - If your domain's DNS is managed through another service, then you are given the DNS key and value information to add a new TXT record. See the documentation of your DNS hosting provider for instructions on adding a new TXT record for your domain. If you do not know where your DNS is hosted, see [Find your DNS host](/support/how-to/find-dns-host).
+    - If you manage your domain's DNS through another service, that service provides the DNS key and value information to add a new
+      TXT record. See the documentation of your DNS hosting provider for instructions on adding a new TXT record for your domain.
+      If you do not know where your DNS is hosted, see [Find your DNS host](/support/how-to/find-dns-host).
 
-5. After adding the DKIM TXT record, click the **Verify TXT Record** button to ensure that the new DKIM record is publicly available in DNS and is correct.  
+5. After adding the DKIM TXT record, click **Verify TXT Record** to ensure that the new DKIM record is publicly available
+   in DNS and is correct.  
 
-   If validation fails, then an appropriate error message is displayed to help you correct the problem.  
+   If validation fails, then an appropriate error message displays to help you correct the problem.  
 
    {{<image src="domain-verify-fail.png" alt="" title="">}}
 
-   After DKIM is enabled, all new outgoing email messages are signed using your new DKIM key. You can repeat the DKIM enabling process on other supported domains.  
+   After DKIM is enabled, all new outgoing email messages are signed using your new DKIM key. You can repeat the DKIM-enabling
+   process on other supported domains.  
 
 Use the Feedback tab to make any comments or ask questions. You can also click **Let's Talk** to [start the conversation](https://www.rackspace.com/). 
 
