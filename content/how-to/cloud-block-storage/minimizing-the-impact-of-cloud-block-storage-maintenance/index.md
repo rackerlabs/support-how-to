@@ -15,7 +15,7 @@ Rackspace occasionally performs maintenance to increase the stability and
 performance of the Cloud Block Storage platform. This article provides some tips
 for minimizing the impact of this maintenance on your environment.
 
-### How can I reduce the impact of the maintenance?
+### How can you reduce the impact of the maintenance?
 
 You can either clone and replace your Cloud Block Storage volume or stop all
 writes to the device until the maintenance is complete.
@@ -28,8 +28,8 @@ the resulting clone should land on an unaffected host server.
 **Non-system disk Cloud Block Storage volumes:**
 
 - Stop all writes to your current Cloud Block Storage volume before initiating
-  the clone. After all writes to the current Cloud Block Storage volume have
-  been stopped, clone the volume. After the clone completes, [unmount and detach](/support/how-to/detach-and-delete-cloud-block-storage-volumes/) the
+  the clone. After all writes to the current Cloud Block Storage volume stop,
+  clone the volume. After the clone completes, [unmount and detach](/support/how-to/detach-and-delete-cloud-block-storage-volumes/) the
   current Cloud Block Storage volume. Then [attach the new volume](/support/how-to/create-and-attach-a-cloud-block-storage-volume/) (the clone).
 
 **Note:** Clones are not verified. Ensure the newly-cloned volume is working
@@ -46,7 +46,9 @@ before deleting your current Cloud Block Storage volume.
 
 **Non-system disk Cloud Block Storage volumes:**
 
-- [Unmount and detach](/support/how-to/detach-and-delete-cloud-block-storage-volumes/) any Cloud Block Storage volume impacted by the maintenance. (The link includes instructions to delete Cloud Block Storage volumes&mdash;you should only complete the unmount and detach sections.)
+- [Unmount and detach](/support/how-to/detach-and-delete-cloud-block-storage-volumes/) any Cloud Block Storage volume
+impacted by the maintenance. (The link includes instructions to delete Cloud Block Storage volumes&mdash;you should
+complete only the unmount and detach sections.)
 
 **System disk Cloud Block Storage volumes (Boot from volume servers):**
 
@@ -61,7 +63,10 @@ before deleting your current Cloud Block Storage volume.
 
 **Volume not appearing inside server:**
 
-- Shut the server down, [detach](/support/how-to/detach-and-delete-cloud-block-storage-volumes/) the Cloud Block Storage volume, and [attach it back](/support/how-to/create-and-attach-a-cloud-block-storage-volume/) to the server. Then you can start your server back up either through a reboot in the Control Panel or by issuing a start call by using the API. 
+- Shut the server down, [detach](/support/how-to/detach-and-delete-cloud-block-storage-volumes/) the Cloud Block
+  Storage volume, and [attach it back](/support/how-to/create-and-attach-a-cloud-block-storage-volume/) to the
+  server. Then you can start your server back up either through a reboot through the Control Panel or by issuing a
+  start call by using the API. 
 
 **Non-system disk Cloud Block Storage volumes:**
 
