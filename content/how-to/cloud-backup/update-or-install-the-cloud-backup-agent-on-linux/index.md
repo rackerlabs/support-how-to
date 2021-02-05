@@ -46,7 +46,8 @@ and `bzip2`. If these tools are missing, you might not be able to install and us
 
         ./cloudbackup-updater --configure --user myuserid --apikey ${apikey} --flavor raxcloudserver --datacenter DFW
 
-6. Change `myuserid` to the primary user ID for your account and `DFW` to the cloud server's region.
+6. Change `myuserid` to the primary user ID for your account and `DFW` to the cloud server's region. (See warning in
+   FAQ about changing the primary user ID after registering a backup agent.)
 
 7. Run the following command to display other registration-time controls, which you rarely use:
 
@@ -134,13 +135,13 @@ Verify the process ID (PID) of the agent and updater:
     pgrep -f cloudbackup-updater
     pgrep -f driveclient
 
-The various flavors of Linux have different service control utilities. On CentOS&reg, for
+The various flavors of Linux have different service control utilities. On CentOS&reg;, for
 instance, use the following commands to display the service status:
 
     service driveclient status
     service cloudbackup-updater status
 
-However, on other flavors, such as Debian&reg, Fedora&reg, or Ubuntu&reg, use the following commands:
+However, on other flavors, such as Debian&reg;, Fedora&reg;, or Ubuntu&reg;, use the following commands:
 
     systemctl status driveclient
     systemctl status cloudbackup-updater
