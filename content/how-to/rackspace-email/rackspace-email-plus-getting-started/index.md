@@ -1,7 +1,7 @@
 ---
 permalink: rackspace-email-plus-getting-started/
 audit_date: '2021-02-05'
-title: Getting started with Rackspace Email Plus
+title: Get started with Rackspace Email Plus
 type: article
 created_date: '2017-01-30'
 created_by: Brian Hazzard
@@ -29,9 +29,9 @@ drive, calendar, and contacts. No setup or configuration is required.
 
 ### Cloud Drive for Desktop
 
-To get the most out of Rackspace Email Plus, install Cloud Drive for Desktop
+To get the most out of Rackspace Email Plus, install **Cloud Drive for Desktop**
 directly from the Cloud Drive web application. Access the web application by
-logging in to Rackspace Webmail and clicking the **Install Now** button.
+logging in to Rackspace Webmail and clicking **Install Now**.
 
 {{<image alt="Cloud Drive for Desktop download link in webmail" src="screenshot_02.png" title="Cloud Drive for Desktop download link in webmail">}}
 
