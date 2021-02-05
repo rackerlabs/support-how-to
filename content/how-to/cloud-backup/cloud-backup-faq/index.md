@@ -18,15 +18,15 @@ Backups are stored in Cloud Files. The user ID associated with a
 Cloud Backup agent must have permissions to write bundles to
 Cloud Files in order to store the backup data for a snapshot.
 
-When a user ID is demoted from primary, it typically loses the
+When you demote a user ID from primary, it typically loses the
 permissions required to write to a Cloud Files bucket and delete
 from it.
 
-Two methods can be used to fix this problem. If it is not feasible
+You can use two methods to fix this problem. If it is not feasible
 to change permissions on a demoted user ID, there is no choice but
 to re-register the agent on the affected machine and migrate the old
-snapshots. If the permissions can change on the demoted user ID, a request
-must be made to support to add the needed permissions to store bundles
+snapshots. If the permissions can change on the demoted user ID, you must
+make a request to support to add the needed permissions to store bundles
 in Cloud Files.
 
 {{< /accordion >}}
