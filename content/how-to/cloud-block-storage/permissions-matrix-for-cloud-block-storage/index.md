@@ -1,23 +1,25 @@
 ---
 permalink: permissions-matrix-for-cloud-block-storage/
-audit_date:
+audit_date: '2021-01-04'
 title: Permissions matrix for Cloud Block Storage
 type: article
 created_date: '2013-04-10'
 created_by: Renee Rendon
-last_modified_date: '2017-01-09'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-01-04'
+last_modified_by: Rose Morales
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
 
-The Cloud Block Storage permissions matrix displays specific permissions for the following role-based access control (RBAC) roles:
+The Cloud Block Storage permissions matrix displays specific permissions for the
+following role-based access control (RBAC) roles:
 
- - **Admin** provides full access to create, read, update, and delete.
- - **Creator** provides access to create, read, and update.
- - **Observer** provides read-only access.
+- **Admin** provides full access to create, read, update, and delete.
+- **Creator** provides access to create, read, and update.
+- **Observer** provides read-only access.
 
-The matrix displays the Cloud Block Storage methods, their corresponding RESTful API commands, and the RBAC roles that are supported.
+The matrix displays the Cloud Block Storage methods, their corresponding RESTful
+API commands, and the RBAC roles that are supported.
 
 ### Volumes
 
