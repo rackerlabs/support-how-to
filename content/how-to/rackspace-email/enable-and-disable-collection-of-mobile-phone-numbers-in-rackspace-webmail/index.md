@@ -14,13 +14,13 @@ product_url: rackspace-email
 You can enable or disable mobile phone collection in Webmail for a private label
 site.
 
-Mobile phone numbers collected are used on account security
+The system uses collected mobile phone numbers on account security
 features such as forgotten password recovery and two-factor authentication.
-These numbers cannot be disclosed to third parties, including reseller
+Rasckspace does not disclose these numbers to third parties, including reseller
 administrators.
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
 2. Click **Rackspace Email**.
 3. Expand **Webmail**.
 4. Click **Show/Hide**.
-5. Enable/Disable **Password Reset**
+5. Enable or disable **Password Reset**.
