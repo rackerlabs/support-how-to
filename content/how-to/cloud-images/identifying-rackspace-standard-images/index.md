@@ -6,7 +6,7 @@ type: article
 created_date: '2014-01-14'
 created_by: Cloud Images
 last_modified_date: '2018-10-24'
-last_modified_by: Kate Dougherty
+last_modified_by: Cat Lookabaugh
 product: Cloud Images
 product_url: cloud-images
 ---
