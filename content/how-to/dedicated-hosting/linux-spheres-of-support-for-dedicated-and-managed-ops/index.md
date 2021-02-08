@@ -5,7 +5,7 @@ title: Linux Spheres of Support for Dedicated and Managed Operations
 type: article
 created_date: '2017-03-03'
 created_by: Alex Juarez
-last_modified_date: '2019-12-20'
+last_modified_date: '2021-02-05'
 last_modified_by: Stephanie Fillmon
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -18,9 +18,7 @@ This article outlines our support of software and server configurations for mach
 The following operating systems are supported for both Dedicated and Managed Operations:
 
 - CentOS&reg; 7
-- CentOS 6
 - Red Hat&reg; Enterprise Linux&reg; 7
-- Red Hat Enterprise Linux 6
 - Ubuntu&reg; 18.04 LTS (Bionic Beaver)
 - Ubuntu 16.04 LTS (Xenial Xerus)
 
