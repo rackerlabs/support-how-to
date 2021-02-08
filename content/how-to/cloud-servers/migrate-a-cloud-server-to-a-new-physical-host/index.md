@@ -59,3 +59,8 @@ to start on boot. See [Ensure servers reboot successfully](/how-to/ensure-server
 You can also verify the performance on your server to see if the migration produced any improvements. In some rare instances,
 the new host environment could experience similar issues. You can migrate again as needed, but if multiple host environments
 produce the same results, the issue is likely occurring at the server-OS level.
+
+Once you have verified the applications and services on your server are running as expected, click the **Confirm Resize** button 
+on the **Server Details** page. The option to confirm will last for 24 hours at which time the process will be completed automatically. 
+You also have the option to  revert the change until the **Confirm Resize** button has been clicked or the confirmation period has expired. 
+
