@@ -117,7 +117,7 @@ product_url: dedicated-hosting
   <tr>
     <td><b>RackConnect</b></td>
     <td style="background-color: green;color:white;"><b>Version 3 Only</b></td>
-    <td style="background-color: green;color:white;"><b>Limited with no automation for Cisco FTD</b></td>
+    <td style="background-color: green;color:white;"><b>Limited with no automation</b></td>
     <td><b>RackConnect</b></td>
   </tr>
 </table>
