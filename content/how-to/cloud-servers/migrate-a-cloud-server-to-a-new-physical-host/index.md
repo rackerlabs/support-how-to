@@ -46,16 +46,27 @@ The following steps describe how to migrate a cloud server to a new hypervisor i
 
 3. On the **Server Details** page, select **Actions** and click **Migrate Server**.
 
-This action initiates the reboot migration process. The portal displays the status as **Resizing**, but the server size
-does not change with this process. Your server remains active for most of the process but requires a reboot near
-the end of the migration. This process can take a while depending on the amount of data on your server. Make sure you
-account for some downtime or perform this task outside of your normal business hours.
+This action initiates the reboot migration process. The portal displays the
+status as **Resizing**, but the server size does not change with this process.
+Your server remains active for most of the process but requires a reboot near
+the end of the migration. This process can take a while depending on the amount
+of data on your server. Make sure you account for some downtime or perform this
+task outside of your normal business hours.
 
 ### Next steps
 
-After the migration has completed, log in to your server to verify the server is up and start any processes not set
-to start on boot. See [Ensure servers reboot successfully](/how-to/ensure-servers-reboot-successfully/) for some things to check.
+After the migration has completed, log in to your server to verify the server is
+up and start any processes not set to start on boot. See [Ensure servers reboot successfully](/how-to/ensure-servers-reboot-successfully/) for some things to
+check.
 
-You can also verify the performance on your server to see if the migration produced any improvements. In some rare instances,
-the new host environment could experience similar issues. You can migrate again as needed, but if multiple host environments
-produce the same results, the issue is likely occurring at the server-OS level.
+You can also verify the performance on your server to see if the migration
+produced any improvements. Once you have verified the performance, applications,
+and services on your server are running as expected, click the **Confirm
+Resize** button on the **Server Details** page. The option to confirm will last
+for 24 hours at which time the process will be completed automatically. You also
+have the option to  revert the change until the **Confirm Resize** button has
+been clicked or the confirmation period has expired.
+
+In some rare instances,the new host environment could experience similar issues.
+You can migrate again as needed, but if multiple host environments produce the
+same results, the issue is likely occurring at the server-OS level.
