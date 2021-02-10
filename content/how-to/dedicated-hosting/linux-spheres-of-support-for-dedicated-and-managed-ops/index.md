@@ -18,6 +18,7 @@ This article outlines our support of software and server configurations for mach
 The following operating systems are supported for both Dedicated and Managed Operations:
 
 - CentOS&reg; 7
+- Red Hat&reg; Enterprise Linux&reg; 8
 - Red Hat&reg; Enterprise Linux&reg; 7
 - Ubuntu&reg; 18.04 LTS (Bionic Beaver)
 - Ubuntu 16.04 LTS (Xenial Xerus)
