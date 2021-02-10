@@ -19,7 +19,7 @@ The following operating systems are supported for both Dedicated and Managed Ope
 
 - CentOS&reg; 7
 - Red Hat&reg; Enterprise Linux&reg; 8
-- Red Hat&reg; Enterprise Linux&reg; 7
+- Red Hat Enterprise Linux 7
 - Ubuntu&reg; 18.04 LTS (Bionic Beaver)
 - Ubuntu 16.04 LTS (Xenial Xerus)
 
@@ -139,7 +139,7 @@ The following control panel is supported in the indicated area:
 | Plesk | Yes | Yes | Yes | Yes |
 | PHPMyAdmin| Yes | Yes | Yes | Yes |
 
-**Note**: Plesk is supported only on dedicated Red Hat&reg; Enterprise Linux&reg; and CentOS&reg; platforms.
+**Note**: Plesk is supported only on dedicated Red Hat Enterprise Linux and CentOS platforms.
 
 ### Antivirus
 
