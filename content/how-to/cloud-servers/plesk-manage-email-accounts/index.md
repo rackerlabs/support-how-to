@@ -11,22 +11,23 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Plesk includes an email service that can be set up per domain name basis.
+Plesk includes an email service that you can set up on a per-domain-name basis.
 This allows customers to create email accounts for their domain names through
-the Plesk web interface. It also includes a webmail feature. IMAP and
-POP3 is provided via Courier or Dovecot.
+the Plesk web interface. The email service also includes a webmail feature, and
+Courier or Dovecot provide IMAP and POP3.
 
 ### Prerequisites
 
-- Dedicated server or Virtual Machine running RHEL&reg; or CentOS&reg;
+- A dedicated server or virtual machine running Red Hat&reg; Enterprise Linux&reg; or CentOS&reg;
 - Plesk Obsidian or later
 
 ### Procedure
 
-1. Log into Plesk. (Please review Plesk: Introduction for these steps)
-2. Navigate to **Domains** listed on the left side of the page panel
+Perform the following steps to modify your email service:
+
+1. Log in to Plesk. See [Plesk: Introduction](/support/how-to/plesk-introduction) for these steps.
+2. Navigate to **Domains** listed on the left-hand panel.
 3. Select a domain.
 4. Click **Mail Accounts**.
 5. Select an account to modify.
-6. This section will allow you to adjust the user name, password and mailbox
-   size.
+6. This section allows you to adjust the user name, password, and mailbox size.
