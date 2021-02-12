@@ -27,9 +27,9 @@ Storage and Cloud Backup options on General Purpose servers, see
 There are two types of volumes that you can attach to your server:
 
 - A standard speed option for customers who just need additional storage on
-    their Cloud server
+    their Cloud server.
 - A high performance option for databases and high performance applications,
-    leveraging solid state drives for speed
+    leveraging solid state drives for speed.
 
 Both types are priced per gigabyte (GB) of storage and not by input/output
 operations per second (IOPS), which can be difficult to predict or control.
