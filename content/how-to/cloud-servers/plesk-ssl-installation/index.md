@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-The following instructions detail installing a SecureShell (SSL) certificate to a domain or an IP 
+The following instructions detail installing a Secure Sockets Layer (SSL) certificate to a domain or an IP 
 address by using the Plesk panel.
 
 
