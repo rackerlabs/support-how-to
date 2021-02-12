@@ -16,14 +16,6 @@ This allows customers to create email accounts for their domain names through
 the Plesk web interface. It also includes a webmail feature. IMAP and
 POP3 is provided via Courier or Dovecot.
 
-SSL/TLS connections for IMAP, POP3 and SMTP, use a generated self-signed
-certificate by default. This may cause a conflict for certain email clients and
-in the event a customer is using Gmail&reg; the **Send Mail as** function it
-will reject the self-signed certificate. To prevent this conflict, Plesk has the
-ability to secure services with a **Let's Encrypt** certificate based on the
-server's hostname. The customer will need to allow the creation of an **A
-record** for the server's hostname.
-
 ### Prerequisites
 
 - Dedicated server or Virtual Machine running RHEL&reg; or CentOS&reg;
