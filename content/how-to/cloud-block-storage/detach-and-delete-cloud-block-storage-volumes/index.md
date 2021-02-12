@@ -16,14 +16,14 @@ product_url: cloud-block-storage
 Detaching a Cloud Block Storage volume is useful and necessary when you want to
 perform the following tasks:
 
-- Prevents writes to the volume when you want to take a snapshot.
+- Prevent writes to the volume while you take a snapshot.
 - Take the volume offline for archival purposes.
 - Move the volume to another server.
-- Resize the server to which the volume is mounted
+- Resize the server to which the volume is mounted.
 - Delete the volume.
 
 In all cases, you must unmount the volume before you detach it. This article
-provides instructions for unmounting, detaching, and deleting a volume.
+provides Linux&reg; and Windows&reg; instructions for unmounting, detaching, and deleting a volume.
 
 ### Unmount a volume
 
@@ -32,8 +32,8 @@ Before you detach a volume from a server, unmount it to prevent errors.
 #### Unmount a volume from a Linux server
 
 **Note:** You cannot unmount and detach the operating system disk. For more
-information, see the "Detach an operating system disk that uses the
-boot-from-volume functionality" section at the end of this article.
+information, see the *Detach an operating system disk that uses the
+boot-from-volume functionality* section at the end of this article.
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com/).
 
@@ -44,12 +44,12 @@ boot-from-volume functionality" section at the end of this article.
 
    {{<image src="mount_point.png" alt="" title="">}}
 
-4. Use the value under `Mounted on` in the `unmount` command.
+4. Use the value under **Mounted on** in the `unmount` command.
 
    {{<image src="fstab2_0.png" alt="" title="">}}
 
 5. Comment out the second line (highlighted in the screenshot) in the
-    `/etc/fstab` file to prevent the volume from trying to mount on the next
+    **/etc/fstab** file to prevent the volume from trying to mount on the next
     boot.
 
         # umount /dev/xvdb1/
@@ -57,8 +57,8 @@ boot-from-volume functionality" section at the end of this article.
 #### Unmount a volume from a Windows server
 
 **Note:** You cannot unmount and detach the operating system disk (C:). For more
-information, see the "Detach an operating system disk that uses the
-boot-from-volume functionality" section at the end of this article.
+information, see the *Detach an operating system disk that uses the
+boot-from-volume functionality* section at the end of this article.
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com/).
 
@@ -96,8 +96,8 @@ Use the following steps to detach a volume:
 ### Delete a volume
 
 Before you can delete an attached volume, you must detach it from the server.
-If a snapshot of the volume exists, you must delete the snapshot before you can
-delete the volume.
+If a snapshot of the volume exists, you must delete the snapshot before
+deleting the volume.
 
 1. In the top navigation bar of the Cloud Control Panel, click **Storage > Block Storage Volumes**.
 
@@ -106,7 +106,7 @@ delete the volume.
 
 ### Detach an operating system disk that uses the boot-from-volume functionality
 
-If your server boots from a Block Storage Volume, and you need to detach the
-boot volume, you must first shut the server down completely. Once the status of
-the server displays as **Shutoff** in the Control Panel, you can then detach the
+If your server boots from a Block Storage Volume and you need to detach the
+boot volume, you must first shut the server down completely. After the server's status
+displays as **Shutoff** in the Control Panel, you can then detach the
 volume as you would any other.
