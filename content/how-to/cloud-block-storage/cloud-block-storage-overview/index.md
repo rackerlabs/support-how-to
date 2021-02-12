@@ -12,17 +12,16 @@ product_url: cloud-block-storage
 ---
 
 Rackspace Cloud Block Storage is a block-level storage solution that allows you
-to expand the storage capacity of your Rackspace Next Generation Cloud Servers.
-This means that you can increase your storage without increasing the size or
-capacity of your server or by provisioning new ones. Once you mount and format
-your drive, you can use it just like a regular hard drive attached to your
-server. Or you can detach your block storage volume from one server and attach
-it to another. Or you can delete your server, keeping your data intact and ready
-for the next time you need it. And since you're leveraging the power of the
-Cloud, you only pay for what you use. Cloud Block Storage offers you power and
-ease with the kind of storage that works for you. For information on Cloud Block
-Storage and Cloud Backup options on General Purpose servers, see
-[Best Practices for Backing Up Your Data: Cloud Block Storage versus Cloud Backup](/support/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup).
+to add additional storage capacity to your Rackspace Next Generation Cloud
+Servers. This means that you can add additional storage drives to your server
+without increasing the overall size or capacity of your server or by
+provisioning new ones. Once you mount and format your drive, you can use it just
+like a regular hard drive attached to your server. Or you can detach your block
+storage volume from one server and attach it to another. Or you can delete your
+server, keeping your data intact and ready for the next time you need it. And
+since you're leveraging the power of the Cloud, you only pay for what you use.
+Cloud Block Storage offers you power and ease with the kind of storage that
+works for you. For information on Cloud Block [Best Practices for Backing Up Your Data: Cloud Block Storage versus Cloud Backup](/support/how-to/best-practices-for-backing-up-your-data-cloud-block-storage-versus-cloud-backup).
 
 There are two types of volumes that you can attach to your server:
 
@@ -96,6 +95,6 @@ In this product overview, you learn how to perform the following tasks:
 - [Prepare your volume for use with a server (Linux or Windows)](/support/how-to/create-and-attach-a-cloud-block-storage-volume).
 - [Take snapshots of your volume](/support/how-to/create-and-use-cloud-block-storage-snapshots).
 - [Detach and delete a volume](/support/how-to/detach-and-delete-cloud-block-storage-volumes).
-- [Attach a Cloud Block Storage volume to an OnMetal server](/support/how-to/attach-a-cloud-block-storage-volume-to-an-onmetal-server).
+- [Attach a Cloud Block Storage volume to an OnMetal server](/support/how-to/attach-a-cloud-block-storage-volume-to-an-onmetal-server-through-the-cloud-control-panel/).
 
 Let's get started and [create your first volume](/support/how-to/create-and-attach-a-cloud-block-storage-volume).
