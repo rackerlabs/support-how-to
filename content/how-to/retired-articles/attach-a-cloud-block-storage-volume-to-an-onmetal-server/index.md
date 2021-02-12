@@ -5,10 +5,8 @@ title: Attach a Cloud Block Storage volume to an OnMetal server
 type: article
 created_date: '2015-07-22'
 created_by: Catherine Richardson
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
-product: Cloud Block Storage
-product_url: cloud-block-storage
+last_modified_date: '2021-02-12'
+last_modified_by: Rose Morales
 ---
 
 Your OnMetal server can connect to a Cloud Block Storage volume.
