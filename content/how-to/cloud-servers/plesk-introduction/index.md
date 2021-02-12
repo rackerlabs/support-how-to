@@ -29,7 +29,7 @@ you can add or remove websites, add or remove SSL certificates, and modify hosti
 
 ### Accessing the Plesk interface
 
-You can use a connection sring or a single-use link to access the interface.
+You can use a connection string or a single-use link to access the interface.
 
 #### Connection-string method
 
