@@ -1,26 +1,26 @@
 ---
 permalink: detach-and-delete-cloud-block-storage-volumes/
-audit_date:
+audit_date: '2021-02-12'
 title: Detach and delete Cloud Block Storage volumes
 type: article
 created_date: '2012-10-22'
 created_by: David Hendler
-last_modified_date: '2018-12-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-02-12'
+last_modified_by: Rose Morales
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
 
 **Previous section:** [Create and use Cloud Block Storage snapshots](/support/how-to/create-and-use-cloud-block-storage-snapshots)
 
-Detaching a Cloud Block Storage volume is useful or necessary when you want to
+Detaching a Cloud Block Storage volume is useful and necessary when you want to
 perform the following tasks:
 
--   Prevents writes to the volume when you want to take a snapshot.
--   Take the volume offline for archival purposes.
--   Move the volume to another server.
--   Resize the server to which the volume is mounted
--   Delete the volume.
+- Prevents writes to the volume when you want to take a snapshot.
+- Take the volume offline for archival purposes.
+- Move the volume to another server.
+- Resize the server to which the volume is mounted
+- Delete the volume.
 
 In all cases, you must unmount the volume before you detach it. This article
 provides instructions for unmounting, detaching, and deleting a volume.
@@ -106,21 +106,7 @@ delete the volume.
 
 ### Detach an operating system disk that uses the boot-from-volume functionality
 
-A bootable Cloud Block Storage volume enables cloud servers to boot the
-operating system (Windows or Linux) from a volume instead of local storage. As a
-result, detaching a volume that runs the operating system works differently than
-detaching a volume that is used as additional storage.
-
-1. Ensure that the `delete-on-termination` flag is set to `False` to preserve the
-volume when you delete the cloud server.
-
-    **Note**: The Cloud Control Panel sets this flag to `False` by
-    default. If you are unsure whether your volume is properly flagged, contact
-    Support. For more detailed information, see the `delete-on-termination`
-    flag in the examples in [this section of the API documentation](https://docs.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations/#create-bootable-volume-and-server).
-
-2. [Delete the server](/support/how-to/delete-a-server).
-
-After the server is deleted, the volume is in a detached state and is ready to
-be attached to another cloud server as an additional volume or to be used with a
-new cloud server.
+If your server boots from a Block Storage Volume, and you need to detach the
+boot volume, you must first shut the server down completely. Once the status of
+the server displays as **Shutoff** in the Control Panel, you can then detach the
+volume as you would any other.
