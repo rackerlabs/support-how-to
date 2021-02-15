@@ -1,12 +1,12 @@
 ---
 permalink: cloud-block-storage-faq/
-audit_date:
+audit_date: '2021-02-15'
 title: Cloud Block Storage FAQ
 type: article
 created_date: '2015-12-10'
 created_by: Rackspace Support
-last_modified_date: '2020-08-10'
-last_modified_by: Tyler Watson
+last_modified_date: '2021-02-15'
+last_modified_by: Rose Morales
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---
@@ -87,11 +87,12 @@ reliability and performance.
 
 {{< accordion title="If the system employs RAID level 10 on the back end storage nodes, can I assume my volumes are fully protected from a failure scenario?" col="in" href="accordion10" >}}
 
-The hardware RAID level 10 employed by Cloud Block Storage nodes
-provides protection against disk failures on the storage nodes
-themselves. However customers are strongly encouraged to implement a
-RAID level 1 (mirror) configuration across multiple volumes to protect
-against data loss in the event of a storage node failure.
+The hardware RAID level 10 employed by Cloud Block Storage nodes provides
+protection against disk failures on the storage nodes themselves. However,
+customers are strongly encouraged utilize a backup option like Rackspace Cloud
+Backup to protect against data loss in the event of a storage node failure.
+Customers who are familiar with RAID can also implement a RAID level 1 (mirror)
+configuration across multiple volumes to provide redundancy.
 {{< /accordion >}}
 
 {{< accordion title="Can I attach a single volume to multiple Cloud Servers?" col="in" href="accordion11" >}}
@@ -152,16 +153,8 @@ Cloud Block Storage is charged by gigabytes of storage used per month,
 not the IOPs, which can be difficult to predict. The price differs for
 standard volumes, SSD volumes, and snapshots.
 
-Prices vary by region and are detailed on the following pages:
-
--   [USA Pricing for Cloud Block Storage (DFW, ORD, and
-    IAD regions)](https://www.rackspace.com/cloud/block-storage/pricing/)
--   [UK Pricing for Cloud Block Storage
-    (LON region)](https://www.rackspace.co.uk/cloud/block-storage/pricing)
--   [Australia Pricing for Cloud Block Storage
-    (SYD region)](https://www.rackspace.com.au/cloud/block-storage/pricing)
--   [Hong Kong Pricing for Cloud Block Storage
-    (HKG region)](https://www.rackspace.com.hk/cloud/block-storage/pricing)
+Prices vary by region and are detailed on the following page:
+https://www.rackspace.com/calculator
 {{< /accordion >}}
 
 {{< accordion title="How is volume cloning different from volume snapshots?" col="in" href="accordion17" >}}
@@ -218,16 +211,17 @@ in Cloud Files, we recommend this method.
 
 {{< accordion title="Can I rename my volumes after they are created?" col="in" href="accordion20" >}}
 
-Yes. Using the API, you can rename an existing volume using the cinder
-rename command to update the display-name of the volume.
+Yes. Using the Cloud Control Panel you can rename an existing volume. You may
+also change the name of a volume with the API by using the cinder rename command
+to update the display-name of the volume.
 {{< /accordion >}}
 
 {{< accordion title="My snapshot seems to be taking a long time. Is it possible to check the status of a snapshot?" col="in" href="accordion26" >}}
 
-Yes. Using the API, you can query the progress of a snapshot creation
-using the snapshot-show command.
-The percentage complete value shows up under the
-``os-extended-snapshot-attributes:progress`` property.
+Yes. The Cloud Control Panel will provide a percentage the the snapshot's
+status. Additionally, using the API, you can query the progress of a snapshot
+creation using the ``snapshot-show`` command. The percentage complete value shows up
+under the os-extended-snapshot-attributes:progress property. 
 {{< /accordion >}}
 
 {{< accordion title="Can I use Cloud Backup to backup my Cloud Block Storage volumes?" col="in" href="accordion21" >}}
@@ -258,7 +252,10 @@ volumes before deleting the server.
 
 {{< accordion title="What types of volumes are available?" col="in" href="accordion24" >}}
 
-Cloud Block Storage offers both a low cost per gigabyte option with standard performance for customers who only require more storage and a high performance option that provides increased storage with higher performance.
+Cloud Block Storage offers a lower cost per gigabyte option with standard
+performance based on SATA (Serial Advanced Technology Attachment) disks and a
+high-performance option based on SSD (Solid State Drives) that provides storage
+with higher performance for quicker read/writes.
 
 ------------------------------------------------------------------------
 {{< /accordion >}}
