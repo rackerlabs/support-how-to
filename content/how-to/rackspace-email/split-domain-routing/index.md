@@ -1,12 +1,12 @@
 ---
 permalink: split-domain-routing/
-audit_date:
+audit_date: '2021-02-15'
 title: Set up split domain routing
 type: article
 created_date: '2011-12-30'
 created_by: Rackspace Support
-last_modified_date: '2016-01-18'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2021-02-15'
+last_modified_by: Rose Morales
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -58,16 +58,11 @@ our system can connect to it.
 #### To enable SDR
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
-2. From the **Go to section** menu, select **Domains**.
+2. Select **Domains**.
 
     {{<image src="a.png" alt="" title="">}}
 
-3. In the **Tools** section, click the **Split Domain** link.
-4. If prompted, select the domain for which you want to set up SDR.
-5. Select the **Enable Split Domain Routing** check box.
-6. In the **External Mail Server** box, enter the name of your external mail server.
-7. In the **Verification Address** box, enter in a valid email address that is hosted on your external mail server.
-8. Click **Save**.
+3. Click the **Split Domain** link.
 
 ### Configuring SDR from your own external server to Rackspace
 

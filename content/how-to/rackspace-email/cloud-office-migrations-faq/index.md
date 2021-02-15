@@ -1,12 +1,12 @@
 ---
 permalink: cloud-office-migrations-faq/
-audit_date:
+audit_date: '2021-02-15'
 title: Cloud Office migrations FAQ
 type: article
 created_date: '2013-11-13'
 created_by: Milton Prado
-last_modified_date: '2018-12-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-02-15'
+last_modified_by: Rose Morales
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -60,10 +60,6 @@ Yes, this process is referred to as a *platform change*, which our Internal Migr
 #### Does the Migration Tool create mailboxes on my account or will I need to create the mailboxes first?
 
 The tool will not create the mailboxes. They will need to be created in the control panel prior to the migration. It will only migrate data to existing mailboxes on your account.
-
-#### We have slow bandwidth and a slow in-house server. Will your migration tool work?
-
-Yes. We have highly experienced Rackers who have helped customers migrate from a variety of environments. If the migration speed does not meet your expectations, we can also migrate via **.pst** files using FTP for Exchange mailboxes.
 
 #### What if my question was not answered in this FAQ?
 
