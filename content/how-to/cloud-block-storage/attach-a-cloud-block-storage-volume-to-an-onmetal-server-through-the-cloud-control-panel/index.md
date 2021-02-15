@@ -47,7 +47,7 @@ Use the following steps to attach a volume:
 
 2. In the top navigation bar, click **Select a Product > Rackspace Cloud**.
 
-3. Under the Storage tab, choose Block Storage Volumes.
+3. Under the Storage tab, choose **Block Storage Volumes**.
 
 4. Click the cog beside the volume that you want to attach and select **Attach Volume**.
 
@@ -124,7 +124,7 @@ volume is [fully
 unmounted](/support/how-to/detach-and-delete-cloud-block-storage-volumes)
 from within the OnMetal server before completing the following steps.
 
-1. Under the Storage tab, choose Block Storage Volumes.
+1. Under the Storage tab, choose **Block Storage Volumes**.
 
 2. Click the cog beside the volume that you want to attach and
    select **Detach Volume**.
@@ -132,8 +132,7 @@ from within the OnMetal server before completing the following steps.
 3. Click **Detach Volume**.
 
 **Note**: When volumes are attached to an instance, you cannot delete a volume from 
-that instance. The instance succeeds if you detach the volume, 
-then delete the volume again.
+that instance. The instance succeeds if you detach the volume, then delete the volume again.
 
 Use the Feedback tab to make any comments or ask questions. You can also 
 click **Sales Chat** to [chat now](https://www.rackspace.com/) and start the conversation.
