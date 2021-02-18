@@ -23,8 +23,8 @@ You can sort the list of open alerts based on the names of entities or
 alarms, the status of alarms, and the time each alarm was triggered.
 
 Sorting by status groups the most serious alarms together, which can
-help you to prioritize responses. Sorting by time reports the history of alarms in chronological or
-reverse-chronological order, which can help you to investigate causes
+help you prioritize responses. Sorting by time reports the history of alarms in chronological or
+reverse-chronological order, which can help you investigate causes
 and effects.
 
 You can also export the list of open alerts in CSV format suitable for
