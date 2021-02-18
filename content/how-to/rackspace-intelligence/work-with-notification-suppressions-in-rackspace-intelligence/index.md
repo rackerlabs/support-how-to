@@ -41,7 +41,7 @@ To see which entity's notifications are being suppressed (**Suppression
 Targets**), click the suppression's name.
 
 To view a list of alarms that have been suppressed, click
-the **Suppressed Alerts** link. The Suppressed Alerts log page lists all
+the **Suppressed Alerts** link. The **Suppressed Alerts** log page lists all
 the alerts that have been suppressed during the past 30 days, with their
 corresponding metrics, such as status, entities, and suppression time.
 
@@ -73,11 +73,11 @@ suppression details page.
 
 #### Create a suppression from within an entity
 
-1. To create a suppression from within an entity, open the entity
-   details page by clicking **Monitor > Entities** and then clicking
+1. To create a suppression from within an entity, open the **Entity
+   Details** page by clicking **Monitor > Entities** and then clicking
    the name of the entity.
 
-2. Scroll to the **Suppressions** section of the entity details page,
+2. Scroll to the **Suppressions** section of the **Entity Details** page,
    and then click **Create Suppression.**
 
    Rackspace Intelligence has automatically selected all the alarms
@@ -89,19 +89,19 @@ suppression details page.
 4. Click **Create Suppression**.
 
 After you have confirmed that you want to create the suppression,
-Rackspace Intelligence creates the suppression and it goes into effect
+Rackspace Intelligence creates the suppression, and it goes into effect
 immediately.
 
 ### Edit a suppression
 
 You can edit an existing suppression by using the **Actions** menu on
-the suppression details page.
+the **Suppression Details** page.
 
 You can perform the following editing actions for suppressions:
 
 #### Edit the time frame of a suppression
 
-1. From the **Actions** menu on the suppression details page,
+1. From the **Actions** menu on the **Suppression Details** page,
    select **Edit Timeframe**.
 
 2. Update the start date, end date, or both, and then click **Update
@@ -120,7 +120,7 @@ You can perform the following editing actions for suppressions:
 
 #### Delete a suppression
 
-1. From the **Actions** menu on the suppression details page,
+1. From the **Actions** menu on the **Suppression Details** page,
    select **Delete Suppression**.
 
 2. Click **Delete** to permanently delete the suppression.
