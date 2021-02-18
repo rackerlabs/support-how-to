@@ -152,7 +152,7 @@ status change, perform the following actions:
 #### Suppress reporting of infrastructure status
 
 Rackspace Intelligence enables you to [suppress
-notifications](/support/how-to/working-with-notification-suppressions-in-rackspace-intelligence) when notifications are temporarily inappropriate, such as during
+notifications](/support/how-to/work-with-notification-suppressions-in-rackspace-intelligence) when notifications are temporarily inappropriate, such as during
 scheduled maintenance activity.
 
 #### Examine the suppression log

@@ -140,7 +140,7 @@ To create a suppression:
 5. When asked to confirm that you want to create a suppression, click **Create Suppression Now**.
 
 For more information about suppressions, see [Working with notification
-suppressions](/support/how-to/working-with-notification-suppressions-in-rackspace-intelligence).
+suppressions](/support/how-to/work-with-notification-suppressions-in-rackspace-intelligence).
 
 ### Visualize an entity
 

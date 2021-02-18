@@ -13,7 +13,7 @@ product_url: rackspace-intelligence
 
 Rackspace Intelligence monitors the performance and availability of
 infrastructure and, when limits are exceeded, can respond by [notifying someone](/support/how-to/working-with-rackspace-intelligence-notification-plans) or
-by [suppressing notification](/support/how-to/working-with-notification-suppressions-in-rackspace-intelligence).
+by [suppressing notification](/support/how-to/work-with-notification-suppressions-in-rackspace-intelligence).
 
 When you [log in to Rackspace Intelligence](/support/how-to/logging-in-to-the-rackspace-intelligence-dashboard),
 you can view all your relevant information on the dashboard:

@@ -1,12 +1,12 @@
 ---
-permalink: working-with-notification-suppressions-in-rackspace-intelligence/
-audit_date:
+permalink: work-with-notification-suppressions-in-rackspace-intelligence/
+audit_date: '2021-02-18'
 title: Work with notification suppressions in Rackspace Intelligence
 type: article
 created_date: '2015-07-16'
 created_by: Rose Coste
-last_modified_date: '2016-06-09'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-02-18'
+last_modified_by: Rose Morales
 product: Rackspace Intelligence
 product_url: rackspace-intelligence
 ---
@@ -15,7 +15,8 @@ Rackspace Intelligence enables you to temporarily suspend
 [Rackspace Intelligence notifications](/support/how-to/working-with-notifications-in-rackspace-intelligence)
 during scheduled outages or maintenance periods.
 
-You access the **Suppressions** page by clicking **Suppress** at the top of the Rackspace Intelligence Control Panel.
+You access the **Suppressions** page by clicking **Suppress** at the top of the
+Rackspace Intelligence Control Panel.
 
 To create a new suppression, edit an existing
 suppression, or view a list of active, scheduled, or
@@ -106,7 +107,8 @@ You can perform the following editing actions for suppressions:
 2. Update the start date, end date, or both, and then click **Update
    Timeframe**.
 
-   **Note:** If your suppression has already started, you cannot update the start date.
+   **Note:** If your suppression has already started, you cannot update the
+   start date.
 
 3. Alternatively, you can end the suppression immediately by
    clicking **End Suppression Now**.
