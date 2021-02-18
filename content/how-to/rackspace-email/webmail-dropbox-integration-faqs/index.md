@@ -14,10 +14,10 @@ product_url: rackspace-email
 Rackspace Email has added the ability to add links to files stored in
 your Dropbox&reg; account in an email. Just click a button in the **Compose**
 window to launch an external window to the Dropbox file selector. If you
-have not authenticated to Dropbox, you will be asked to supply your
-Dropbox credentials. Then you will see your Dropbox files in the file
+have not authenticated to Dropbox, the system prompts to supply your
+Dropbox credentials. Then you see your Dropbox files in the file
 selector dialogue. You can select files to attach to the email and click
-**Choose**. Links will appear in the **Compose** window and then you can
+**Choose**. Links appear in the **Compose** window, and you can
 send your email with links to your Dropbox files.
 
 ### How can you hide the Dropbox feature?
@@ -51,5 +51,5 @@ re-authenticate and provide your credentials when prompted.
 ### Does Rackspace store my Dropbox credentials?
 
 No. In fact, we never see or store your credentials. When you log in to
-Dropbox, you are sending your credentials directly to Dropbox via a
+Dropbox, you send your credentials directly to Dropbox via a
 secure connection.
