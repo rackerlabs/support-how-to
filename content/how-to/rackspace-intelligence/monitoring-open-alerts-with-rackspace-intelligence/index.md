@@ -13,7 +13,7 @@ product_url: rackspace-intelligence
 
 Open alerts report statuses that you have asked Rackspace Intelligence
 to monitor but not
-[suppress](/support/how-to/working-with-notification-suppressions-in-rackspace-intelligence).
+[suppress](/support/how-to/work-with-notification-suppressions-in-rackspace-intelligence).
 
 You can view a list of all open alerts by clicking **Monitor** at the
 top of the Rackspace Intelligence interface and then clicking **Open
@@ -23,8 +23,8 @@ You can sort the list of open alerts based on the names of entities or
 alarms, the status of alarms, and the time each alarm was triggered.
 
 Sorting by status groups the most serious alarms together, which can
-help you to prioritize responses. Sorting by time reports the history of alarms in chronological or
-reverse-chronological order, which can help you to investigate causes
+help you prioritize responses. Sorting by time reports the history of alarms in chronological or
+reverse-chronological order, which can help you investigate causes
 and effects.
 
 You can also export the list of open alerts in CSV format suitable for
