@@ -5,10 +5,8 @@ title: Setting Up Vyatta VPN with Policy NAT
 type: article
 created_date: '2013-09-03'
 created_by: Sameer Satyam
-last_modified_date: '2013-09-17'
-last_modified_by: Jered Heeschen
-product: Cloud Servers
-product_url: cloud-servers
+last_modified_date: '2021-01-29'
+last_modified_by: Rose Morales
 ---
 
 The following information will direct you in setting up your traffic
