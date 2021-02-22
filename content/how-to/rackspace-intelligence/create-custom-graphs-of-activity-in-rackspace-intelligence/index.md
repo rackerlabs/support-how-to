@@ -39,7 +39,7 @@ view, click **Generate Graphs**.
 
 Rackspace Intelligence generates the graphs for the selected entities and
 metrics. You can choose a preset time frame or create a customized time frame
-for which you want the metrics to be generated.
+for which you want to generate metrics.
 
 - To change the values for your preset time frame, simply click on one of the
     preset time ranges.
