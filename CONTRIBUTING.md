@@ -12,6 +12,7 @@
 		- [Redirect an article](#redirect-an-article)
 	- [Writing guidelines](#writing-guidelines)
 	- [Support and feedback](#support-and-feedback)
+	- [How-tp products](#how-to-products)
 
 **Important:** You need to log in to public GitHub, not the enterprise GitHub,
 to contribute. If you have questions, contact us at [how-to@rackspace.com](mailto:how-to@rackspace.com).
@@ -329,3 +330,39 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists.
 If you find a problem, open a GitHub issue.
 
 If you need additional assistance, contact us at [how-to@rackspace.com](mailto:how-to@rackspace.com).
+
+### How-to products
+
+account-management
+cloud-backup
+cloud-block-storage
+cloud-databases
+cloud-dns
+cloud-files
+cloud-images
+clou-load-balancers
+cloud-networks
+cloud-orchestration
+cloud-queues
+cloud-servers
+dedicated-hosting
+exchange
+general
+managed-operations
+microsoft-azure
+office-365
+rackconnect
+rackspace-auto-scale
+rackspace-cdn
+rackspace-email-archiving
+rackspace-email
+rackspace-intelligance
+rackspace-metrics
+rackspace-monitoring
+rackspace-pdr
+rms-alert-logic
+rms-cloudflare
+rpc-openstack
+rpc-vmware
+skype-for-business
+vmware-server-virtualization
