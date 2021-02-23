@@ -13,6 +13,7 @@
 	- [Writing guidelines](#writing-guidelines)
 	- [Support and feedback](#support-and-feedback)
 	- [How-to products](#how-to-products)
+	- [Metadata-sample](#metadata-sample)
 
 **Important:** You need to log in to public GitHub, not the enterprise GitHub,
 to contribute. If you have questions, contact us at [how-to@rackspace.com](mailto:how-to@rackspace.com).
@@ -367,3 +368,20 @@ If you need additional assistance, contact us at [how-to@rackspace.com](mailto:h
 | Rackspace Private Cloud Powered by VMware | rpc-vmware |
 | Microsoft Skype for Business | skype-for-business |
 | VMware Server Virtualization | vmware-server-virtualization |
+
+### Metadata sample
+
+Following is a default example of article metadata:
+
+---
+permalink: cloud-database-instance-parameters
+audit_date: '2021-01-31'
+type: article
+title: Cloud Database instance parameters
+created_date: '2021-01-31'
+created_by: John Q. Racker
+last_modified_date:
+last_modified_by:
+product: Cloud Databases
+product_url: cloud-database
+---
