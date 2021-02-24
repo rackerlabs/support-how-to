@@ -1,12 +1,12 @@
 ---
 permalink: adding-a-rackspace-email-group-list/
-audit_date:
+audit_date: '2021-02-24'
 title: Add a Rackspace Email group list
 type: article
 created_date: '2012-05-23'
 created_by: Rackspace Support
-last_modified_date: '2019-01-16'
-last_modified_by: William Loy
+last_modified_date: '2021-02-24'
+last_modified_by: Carlos Arriaga
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -24,18 +24,19 @@ For more information on prerequisite terminology, see [Cloud Office support term
 
 A group list is a great way to manage users in a select team or group on your domain. There is no limit to the number of internal address recipients (addresses within your domain) and a limit of 250 additional recipients outside of the internal domain. For example, suppose that you have a billing team you want to group together - bob@domain.com, amy@domain.com, and scott@domain.com. You can create a group list for the team so that they can communicate new upcoming billing updates within the team, at billingupdates@domain.com.
 
-**Note:** Grouplists are restricted to a maximum message size of 5 MB.
+**Note:** The maximum message size for Grouplists is 5 MB.
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
 2. In the Rackspace Email section, click **Group Lists**.
 
-    {{<image src="group_lists_CP1.png" alt="" title="">}}
+    {{<image src="picture1.png" alt="" title="">}}
 
 3. On the Group Lists page, click **Add Group List**.
 
-    {{<image src="add_group_list.png" alt="" title="">}}
+    {{<image src="picture2.png" alt="" title="">}}
 
-4. Enter in an email address for your group list, enter a subject tag, and select a list type. You can choose to send replies to the sender only or send replies to the entire group list.
+4. Enter in an email address for your group list, enter a subject tag, and select a list type.
+   You can choose to send replies to the sender only or send replies to the entire group list.
 
     {{<image src="example_list.png" alt="" title="">}}
 
@@ -48,3 +49,6 @@ A group list is a great way to manage users in a select team or group on your do
     {{<image src="authsenders.png" alt="" title="">}}
 
 7. Click **Save**.
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
