@@ -12,7 +12,8 @@
 		- [Redirect an article](#redirect-an-article)
 	- [Writing guidelines](#writing-guidelines)
 	- [Support and feedback](#support-and-feedback)
-	- [How-tp products](#how-to-products)
+	- [How-to products](#how-to-products)
+	- [Metadata-sample](#metadata-sample)
 
 **Important:** You need to log in to public GitHub, not the enterprise GitHub,
 to contribute. If you have questions, contact us at [how-to@rackspace.com](mailto:how-to@rackspace.com).
@@ -333,36 +334,54 @@ If you need additional assistance, contact us at [how-to@rackspace.com](mailto:h
 
 ### How-to products
 
-account-management
-cloud-backup
-cloud-block-storage
-cloud-databases
-cloud-dns
-cloud-files
-cloud-images
-clou-load-balancers
-cloud-networks
-cloud-orchestration
-cloud-queues
-cloud-servers
-dedicated-hosting
-exchange
-general
-managed-operations
-microsoft-azure
-office-365
-rackconnect
-rackspace-auto-scale
-rackspace-cdn
-rackspace-email-archiving
-rackspace-email
-rackspace-intelligance
-rackspace-metrics
-rackspace-monitoring
-rackspace-pdr
-rms-alert-logic
-rms-cloudflare
-rpc-openstack
-rpc-vmware
-skype-for-business
-vmware-server-virtualization
+{{< table "table  table-striped table-bordered" >}}
+| Product | Product URL |
+| Account Management | account-management |
+| Cloud Backup | cloud-backup |
+| Cloud Block Storage | cloud-block-storage |
+| Cloud Databases | cloud-databases |
+| Cloud DNS | cloud-dns |
+| Cloud Files | cloud-files |
+| Cloud Images | cloud-images |
+| Cloud Load Balancers | cloud-load-balancers |
+| Cloud Networks | cloud-networks |
+| Cloud Orchestration | cloud-orchestration |
+| Cloud Queues | cloud-queues |
+| |Cloud Servers | cloud-servers |
+| Dedicated Hosting | dedicated-hosting |
+| Microsoft Exchange | exchange |
+| General | general |
+| Managed Operations | managed-operations |
+| Office 365 | office-365 |
+| RackConnect | rackconnect |
+| Rackspace Autoscale | rackspace-auto-scale |
+| Rackspace CDN | rackspace-cdn |
+| Rackspace Email Archiving | rackspace-email-archiving |
+| Rackspace Email | rackspace-email |
+| Rackspace Intelligence | rackspace-intelligance |
+| Rackspace Metrics | rackspace-metrics |
+| Rackspace Monitoring | rackspace-monitoring |
+| Rackspace Proactive Detection & Response | rackspace-pdr |
+| Alert Logic Security Solutions | rms-alert-logic |
+| Cloudflare with Rackspace Managed Services | rms-cloudflare |
+| Rackspace Private Cloud Powered by OpenStack | rpc-openstack |
+| Rackspace Private Cloud Powered by VMware | rpc-vmware |
+| Microsoft Skype for Business | skype-for-business |
+| VMware Server Virtualization | vmware-server-virtualization |
+
+### Metadata sample
+
+Following is a default example of article metadata:
+
+---
+permalink: cloud-database-instance-parameters
+audit_date: '2021-01-31'
+type: article
+title: Cloud Database instance parameters
+created_date: '2021-01-31'
+created_by: John Q. Racker
+last_modified_date:
+last_modified_by:
+product: Cloud Databases
+product_url: cloud-database
+---
