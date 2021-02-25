@@ -13,8 +13,7 @@ product_url: rackspace-intelligence
 
 Before you can build [notification plans for Rackspace Intelligence](/support/how-to/working-with-rackspace-intelligence-notification-plans),
 you must define notification methods. For example, you can define a
-method of contacting a support engineer by SMS and a method of
-contacting a manager by email.
+method of contacting a support engineer by SMS and contacting a manager by email.
 
 You can create the following types of notifications:
 
@@ -38,7 +37,7 @@ information such as an email ID or a telephone number.
 
 1. To define a new notification method, click **Create Notification**.
 2. Enter a name for the notification, and choose a notification type.
-3. Depending on the type that you chose, provide notification details, such as
+3. Depending on the type you choose, provide notification details, such as
    an email address or a phone number.
 4. Click **Save Notification**.
 
@@ -47,20 +46,19 @@ The notification appears on the **Notifications** page.
 ### Edit a notification
 
 To edit a notification, click the settings icon to the left of the notification
-name on the Notifications page.
+name on the **Notifications** page.
 
 You can perform the following modifications to notifications:
 
 #### Update the settings for a notification
 
-1. Click the settings icon to the left of the notification, and select **Edit
-   Notification**.
-2. In the popup dialog box, make the necessary updates for the notification, and
+1. Click the settings icon to the left of the notification, and select **Edit Notification**.
+2. In the pop-up dialog box, make the necessary updates for the notification, and
    then click **Save Notification**.
 
 #### Delete a notification
 
 1. Click the settings icon to the left of the notification, and select
    **Delete**.
-2. Click **Delete** to confirm the deletion of your notification. The
-   notification is permanently deleted.
+2. Click **Delete** to confirm the deletion of your notification and
+   permanently delete the notification.
