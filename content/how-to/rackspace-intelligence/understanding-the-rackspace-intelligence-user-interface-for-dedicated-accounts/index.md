@@ -14,15 +14,15 @@ product_url: rackspace-intelligence
 Rackspace Intelligence monitors the availability of your IT infrastructure and,
 when limits are exceeded, can respond by notifying someone.
 
-When you log in to [Rackspace Intelligence](/support/how-to/log-in-to-rackspace-intelligence-for-dedicated-accounts)
+When you log in to [Rackspace Intelligence](/support/how-to/log-in-to-rackspace-intelligence-for-dedicated-accounts),
 you can view all your relevant information on the dashboard:
 
 {{<image alt="screenshot of rackspace intelligence dashboard landing page" src="Dashboard.png" title="screenshot of rackspace intelligence dashboard landing page">}}
 
-The dashboard provides a main overview of all of your monitoring activities.
+The dashboard provides an overview of all of your monitoring activities.
 
-You can also examine different aspects of how Rackspace Intelligence is
-configured to monitor your system by accessing the following sections from the
+You can also examine different aspects of the Rackspace Intelligence
+system monitoring configuration by accessing the following sections from the
 header:
 
 - **Monitor**
