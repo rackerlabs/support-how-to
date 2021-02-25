@@ -1,6 +1,6 @@
 ---
 permalink: rackspace-intelligence-faq/
-audit_date: '2018-10-25'
+audit_date: '2021-02-25'
 title: Rackspace Intelligence FAQ
 type: article
 created_date: '2015-05-15'
