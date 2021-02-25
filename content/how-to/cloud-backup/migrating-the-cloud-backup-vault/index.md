@@ -11,7 +11,7 @@ product: Cloud Backup
 product_url: cloud-backup
 ---
 
-The Cloud Backup Vault is a directory on your server that allows the Cloud Backup Agent to manage your backups in your Customer Portal. This directory contains the data necessary to allow functionality of Cloud Backup. If the Cloud Backup registration command is re-run on the server it can cause a duplicate system creation.
+The Cloud Backup Vault is a directory on your server that allows the Cloud Backup Agent to manage your backups in the Customer Portal. This directory contains the data necessary to allow functionality of Cloud Backup. If the Cloud Backup registration command is re-run on the server it can cause a duplicate system creation.
 
 The following article provides information about how to migrate the Cloud Backup vault from one system to another.
 
