@@ -24,8 +24,8 @@ For more information on prerequisite terminology, see [Cloud Office support term
 
 ### View past invoices
 
-To view past invoices for your Cloud Office account, [log in to the
-Cloud Office Control Panel](https://cp.rackspace.com/) and perform the following
+To view past invoices for your Cloud Office account, log in to the
+[Cloud Office Control Panel](https://cp.rackspace.com/) and perform the following
 steps:
 
 1. In the top right-hand corner of the page, click your admin ID name or account number and select **Billing** from the drop-down menu.
@@ -34,14 +34,14 @@ steps:
 
 2. On the **Billing** tab, click **Invoices**.
 
-   A list of invoices displays with the amount of each invoice and a brief description.
+   A list of invoices displays the amount of each invoice and a brief description.
 
    {{<image src="picture2.png" alt="" title="">}}
 
 3. Click an invoice number to view a detailed invoice.
 
    - To print the invoice, click **Print Invoice** in the top right-hand corner of the invoice window.
-   - To export the invoice as a comma-separated-values (CSV) file, click **Export CSV**, and then save the file to your computer.
+   - To export the invoice as a comma-separated-values (CSV) file, click **Export CSV** and then save the file to your computer.
 
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/). 
