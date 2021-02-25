@@ -1,12 +1,12 @@
 ---
-permalink: monitoring-open-alerts-with-rackspace-intelligence/
-audit_date:
+permalink: monitor-open-alerts-with-rackspace-intelligence/
+audit_date: '2021-02-25'
 title: Monitor open alerts with Rackspace Intelligence
 type: article
 created_date: '2015-07-17'
 created_by: Rose Coste
-last_modified_date: '2016-06-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-02-25'
+last_modified_by: Rose Morales
 product: Rackspace Intelligence
 product_url: rackspace-intelligence
 ---
