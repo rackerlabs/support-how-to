@@ -127,16 +127,3 @@ case of a system failure.
 A *notification plan* specifies a set of actions that the system performs when
 the check returns a certain status.
 {{</accordion>}}
-
-{{<accordion title="What features will be available in the future?" col="in" href="accordion17">}}
-
-We plan to provide the following features in future releases:
-
-- **Available in GA** - Access to Rackspace Intelligence for Rackspace Dedicated
-    customers: Provides the ability for Dedicated customers to also access
-    Rackspace Intelligence for their devices.
-
-- **Available in future** - Customizable dashboards: Provides the ability to
-    customize your dashboard in Rackspace Intelligence by adding widgets for
-    graphs, drag-and-drop widgets, and more.
-{{</accordion>}}
