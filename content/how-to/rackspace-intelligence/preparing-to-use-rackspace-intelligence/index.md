@@ -27,14 +27,13 @@ as an entity, Rackspace Intelligence can also monitor its status.
 
 ### Begin monitoring a cloud server
 
-To be able to view all relevant data, you should [install the Cloud Monitoring agent](/support/how-to/install-and-configure-the-rackspace-monitoring-agent) on
-any cloud server that you want to monitor with Rackspace Intelligence. [Setting up a server to work with Rackspace Intelligence](/support/how-to/set-up-a-server-to-work-with-rackspace-intelligence)
-shows the process of installing the agent on a cloud server and shows how that
-server appears to Rackspace Intelligence before and after the agent is
-installed.
+To view all relevant data, you should [install the Cloud Monitoring agent](/support/how-to/install-and-configure-the-rackspace-monitoring-agent) on
+any cloud server that you want to monitor with Rackspace Intelligence.
+[Setting up a server to work with Rackspace Intelligence](/support/how-to/set-up-a-server-to-work-with-rackspace-intelligence)
+shows how to install the agent on a cloud server and how that
+server appears to Rackspace Intelligence before and after you install the agent.
 
 ### Begin monitoring a cloud database
 
 [Setting up a database to work with Rackspace Intelligence](/support/how-to/setting-up-a-database-to-work-with-rackspace-intelligence)
-shows how to define the characteristics of a database for Rackspace
-Intelligence's monitoring.
+shows how to define the characteristics of a database for Rackspace Intelligence monitoring.
