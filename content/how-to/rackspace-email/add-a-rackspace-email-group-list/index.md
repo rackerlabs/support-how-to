@@ -22,20 +22,25 @@ This article shows how to create a group list.
 
 For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
-A group list is a great way to manage users in a select team or group on your domain. There is no limit to the number of internal address recipients (addresses within your domain) and a limit of 250 additional recipients outside of the internal domain. For example, suppose that you have a billing team you want to group together - bob@domain.com, amy@domain.com, and scott@domain.com. You can create a group list for the team so that they can communicate new upcoming billing updates within the team, at billingupdates@domain.com.
+A group list is a great way to manage users in a select team or group on your domain. There is no limit to the number
+of internal address recipients (addresses within your domain) and a limit of 250 additional recipients outside of the
+internal domain. For example, suppose that you have a billing team you want to group together&mdash;bob@domain.com,
+amy@domain.com, and scott@domain.com. You can create a group list for the team so that they can communicate new
+upcoming billing updates within the team at **billingupdates@domain.com**.
 
-**Note:** The maximum message size for Grouplists is 5 MB.
+**Note:** The maximum message size for group lists is 5 MB.
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com).
-2. In the Rackspace Email section, click **Group Lists**.
+
+2. In the **Rackspace Email** section, click **Group Lists**.
 
     {{<image src="picture1.png" alt="" title="">}}
 
-3. On the Group Lists page, click **Add Group List**.
+3. On the **Group Lists** page, click **Add Group List**.
 
     {{<image src="picture2.png" alt="" title="">}}
 
-4. Enter in an email address for your group list, enter a subject tag, and select a list type.
+4. Enter an email address for your group list, enter a subject tag, and select a list type.
    You can choose to send replies to the sender only or send replies to the entire group list.
 
     {{<image src="example_list.png" alt="" title="">}}
@@ -44,7 +49,7 @@ A group list is a great way to manage users in a select team or group on your do
 
     {{<image src="recipients.png" alt="" title="">}}
 
-6. Select who will be authorized to send email to this group list.
+6. Select who is authorized to send an email to this group list.
 
     {{<image src="authsenders.png" alt="" title="">}}
 
