@@ -15,15 +15,15 @@ You can use the **Suppressed Alerts** log to review alerts that were muted but
 ordinarily would have prompted notifications.
 
 It is good practice to check the **Suppressed Alerts** list after a suppression
-period ends to confirm that everything that was suppressed relates to the
-purpose of the suppression. For example, if all device alerts were suppressed during a
-scheduled maintenance period, alerts related to servers that were not expected
-to be disrupted should be investigated.
+period ends to confirm that all suppressed alerts relate to the
+purpose of the suppression. For example, if the system suppressed device alerts during a
+scheduled maintenance period, you should investigate alerts related to servers that you did
+not expect the maintenance to disrupt.
 
 {{<image src="intelligence-suppression-log.png" alt="" title="">}}
 
 To learn more about an entity, notification plan, or suppression in the log,
-click its name. If it has not been deleted, you can then see its detailed
+click its name. If it has not been deleted, you can see the detailed
 description.
 
 {{<image src="intelligence-suppression-inactive.png" alt="" title="">}}
