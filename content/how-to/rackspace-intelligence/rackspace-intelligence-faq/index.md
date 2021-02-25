@@ -67,9 +67,9 @@ with a Cloud services account.
 {{</accordion>}}
 
 {{<accordion title="Is there an API for Rackspace Intelligence?" col="in" href="accordion8">}}
-Rackspace Intelligence currently does not expose an API. However, many
-monitoring-related features, such as the creation and editing of checks
-and alarms, are built using the
+Rackspace Intelligence currently does not expose an API. However, you can build many
+monitoring-related features, such as creating and editing checks
+and alarms, by using the
 [Rackspace Monitoring API](https://docs.rackspace.com/docs/rackspace-monitoring/v1/).
 {{</accordion>}}
 
@@ -119,13 +119,13 @@ requires that data collection be separate from thresholds.
 {{</accordion>}}
 
 {{<accordion title="What is a notification?" col="in" href="accordion16">}}
-A *notification* defines how the customer wants to be contacted in the
+A *notification* defines how the system should contact the customer in
 case of a system failure.
 {{</accordion>}}
 
 {{<accordion title="What is a notification plan?" col="in" href="accordion1">}}
-A *notification plan* specifies a set of actions that are performed when
-a certain status is returned by the check.
+A *notification plan* specifies a set of actions that the system performs when
+the check returns a certain status.
 {{</accordion>}}
 
 {{<accordion title="What features will be available in the future?" col="in" href="accordion17">}}
