@@ -7,8 +7,7 @@ created_date: '2013-11-18'
 created_by: Milton Prado
 last_modified_date: '2016-01-12'
 last_modified_by: Stephanie Fillmon
-product: Rackspace Email
-product_url: rackspace-email
+git status
 ---
 
 POP email is typically stored locally on a computer and removed from the
