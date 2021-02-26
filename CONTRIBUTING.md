@@ -334,8 +334,8 @@ If you need additional assistance, contact us at [how-to@rackspace.com](mailto:h
 
 ### How-to products
 
-{{< table "table  table-striped table-bordered" >}}
 | Product | Product URL |
+| --- | --- |
 | Account Management | account-management |
 | Cloud Backup | cloud-backup |
 | Cloud Block Storage | cloud-block-storage |
