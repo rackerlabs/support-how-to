@@ -17,20 +17,20 @@ information about the following items:
 ### Entities
 
 To view the configuration information for a specific item, you typically start
-off with a list of all the entities that have been set up and configured for
+with a list of all the entities that you have set up and configured for
 your system.
 
-To obtain a list of entities, on the Rackspace Intelligence interface, perform
+To obtain a list of entities on the Rackspace Intelligence interface, perform
 the following steps:
 
 1. Click **Monitor** and then click the **Entities** tab.
 2. To view details about a specific entity, click the link for the entity. The
-    top of the details page shows information about the  entity.
+    top of the **Details** page shows information about the  entity.
 
 ### Checks
 
-Rackspace Intelligence lets you view the configuration of checks that were
-created for an entity. Customers with dedicated accounts can use remote checks.
+Rackspace Intelligence lets you view configuration of an entity's checks.
+Customers with dedicated accounts can use remote checks.
 Remote checks monitor an entity's Internet connectivity. Remote checks are
 performed by attempting to contact the entity from outside the entity. For more
 information, see 
@@ -40,27 +40,27 @@ Rackspace Intelligence for dedicated accounts supports the following remote
 checks:
 
 - [ping](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#remote-ping)
-- [tcp](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#remote-tcp)
-- [http](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#remote-http)
+- [TCP](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#remote-tcp)
+- [HTTP](https://docs.rackspace.com/docs/rackspace-monitoring/v1/tech-ref-info/check-type-reference/#remote-http)
 
 To view a check on the Intelligence interface, perform the following steps:
 
 1. Click **Monitor** > **Entities**.
 2. Click the desired entity.
-3. On the entity details page, scroll to the **Monitoring Checks** section and
+3. On the **Entity Details** page, scroll to the **Monitoring Checks** section and
     click the link for the check that you want to view.
 
 ### Alarms
 
-Rackspace Intelligence supports alarms that analyze the data that is collected
-by a check.
+Rackspace Intelligence supports alarms that analyze the data that a check
+collects.
 
 The alarm criteria contain the logic to process this data and convert the alarm
-into one of the following states: OK, WARNING, CRITICAL.
+into one of the following states: `OK`, `WARNING`, `CRITICAL`.
 
 To view an alarm, perform the following steps:
 
-1. Click on the details page for an entity
+1. Click on the **Details** page for an entity
 2. Click the check for which you want
     to view the alarm
 3. Scroll to the **Monitoring Alarms** section.
@@ -78,9 +78,9 @@ Rackspace Intelligence interface and then clicking **Open Alerts**.
 ### Notifications
 
 Rackspace Intelligence lets you view notifications created for your entities.
-Notifications must be defined before you can set up a notification plan for an
-entity. For example, you can define a method of contacting a support engineer by
-SMS and a method of contacting a manager by email.
+You need to define notifications before you can set up a notification plan for an
+entity. For example, you can define a method for contacting a support engineer by
+SMS and a manager by email.
 
 To view the notifications configured for you:
 
