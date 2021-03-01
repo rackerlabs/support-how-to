@@ -1,18 +1,18 @@
 ---
 permalink: learning-the-rackspace-intelligence-vocabulary/
-audit_date:
+audit_date: '2021-03-01'
 title: Learning the Rackspace Intelligence vocabulary
 type: article
 created_date: '2015-07-28'
 created_by: Constanze Kratel
-last_modified_date: '2015-08-18'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2021-03-01'
+last_modified_by: Rose Morales
 product: Rackspace Intelligence
 product_url: rackspace-intelligence
 ---
 
-To tell Rackspace Intelligence which aspects of your configuration to
-monitor for you, you define your objectives in the following terms:
+To tell Rackspace Intelligence which aspects of your configuration to monitor
+for you, you define your objectives in the following terms:
 
 -   *Entities* to be monitored
 
@@ -45,12 +45,10 @@ monitor for you, you define your objectives in the following terms:
     sent as text messages to a specific telephone number.
 
 -   *Visualizations* that present data meaningfully
- 
+
     For example, a RAM usage graph shows growth leading up to the
     triggered alarm.
 
-["Single Pane of Glass" for Your IT
-Ops](https://www.rackspace.com/blog/cloud-monitoring/) discusses these
-concepts in the context of Cloud Monitoring. Rackspace Intelligence acts
-as a dashboard to help you interact with data collected by Cloud
-Monitoring.
+["Single Pane of Glass" for Your IT Ops](https://www.rackspace.com/blog/cloud-monitoring/) discusses these concepts
+in the context of Cloud Monitoring. Rackspace Intelligence acts as a dashboard
+to help you interact with data collected by Cloud Monitoring.
