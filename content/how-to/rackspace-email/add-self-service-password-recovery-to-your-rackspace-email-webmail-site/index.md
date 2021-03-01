@@ -1,14 +1,12 @@
 ---
 permalink: add-self-service-password-recovery-to-your-rackspace-email-webmail-site/
-audit_date:
+audit_date: '2021-03-01'
 title: Add self-service password recovery to your Rackspace Email Webmail site
 type: article
 created_date: '2014-11-26'
 created_by: Brian Hazzard
-last_modified_date: '2015-09-14'
-last_modified_by: Kelly Holcomb
-product: Rackspace Email
-product_url: rackspace-email
+last_modified_date: '2021-03-01'
+last_modified_by: Rose Morales
 ---
 
 You can enable Rackspace Email users to change their passwords without
