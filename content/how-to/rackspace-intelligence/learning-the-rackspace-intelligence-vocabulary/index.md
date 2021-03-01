@@ -12,7 +12,7 @@ product_url: rackspace-intelligence
 ---
 
 To tell Rackspace Intelligence which aspects of your configuration to monitor
-for you, you define your objectives in the following terms:
+for you, define your objectives in the following terms:
 
 -   *Entities* to be monitored
 
@@ -25,7 +25,7 @@ for you, you define your objectives in the following terms:
 -   *Alarms* that define the limits of the entity's behavior
 
     For example, alarm criteria identify whether RAM usage is in one of
-    the following states: OK, WARNING, or CRITICAL.
+    the following states: `OK`, `WARNING`, or `CRITICAL`.
 
 -   *Alerts* that announce when a monitored entity has triggered an
     alarm
@@ -41,14 +41,10 @@ for you, you define your objectives in the following terms:
 -   *Notifications* that define the contact information used in
     notification plans
 
-    For example, notifications to the on-call system administrator are
-    sent as text messages to a specific telephone number.
+    For example, the system sends notifications to the on-call system
+    administrator as text messages to a specific telephone number.
 
 -   *Visualizations* that present data meaningfully
 
     For example, a RAM usage graph shows growth leading up to the
     triggered alarm.
-
-["Single Pane of Glass" for Your IT Ops](https://www.rackspace.com/blog/cloud-monitoring/) discusses these concepts
-in the context of Cloud Monitoring. Rackspace Intelligence acts as a dashboard
-to help you interact with data collected by Cloud Monitoring.
