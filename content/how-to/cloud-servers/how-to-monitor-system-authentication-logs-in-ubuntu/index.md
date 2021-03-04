@@ -11,9 +11,10 @@ product: Cloud servers
 product_url: cloud-servers
 ---
 
-A significant line of protection against data breaches and other vulnerabilities within your system is monitoring. Authentication management monitors the system after the users have been configured.
+A significant line of protection against data breaches and other vulnerabilities within your system is
+monitoring. Authentication management monitors the system after you configure the users.
 
-All authentication attempts are located in a discrete file in `/var/log/auth.log`
+You can find all authentication attempts in a discrete file in **/var/log/auth.log**.
 
 For example:
 
@@ -26,11 +27,11 @@ Results would look like the following:
     Feb 18 12:21:32 myserver su[3484]: pam_unix(su:session): session open
     Feb 18 09:19:12 myserver sshd[4792]: Failed password for x from 20.20.20.20 port 2158 ssh2
 
-### *last* command
+### `last` command
 
-When it comes to reviewing login attempts, you'd normally review the most recent and this is where we can use the `last` command.
+When it comes to reviewing login attempts, you can review the most recent by using the `last` command.
 
-The `last` command provides how they logged in, when they logged in and when they logged out.
+The `last` command provides how and when they logged in and out.
 
       last
 
@@ -43,21 +44,27 @@ The results would look like the following:
       root     pts/0        192.168.1.0 Thu Feb  18 20:10 - 20:10  (00:00)    
       var      pts/0        192.168.1.0 Thu Feb  18 20:20 - 20:25  (00:05)
 
-Different services and applications are logged into a log file under the directory `/var/log`. In this directory we have some files such as `utmp`, `wtmp` and `btmp`. .
+Different services and applications are logged into a log file in the **/var/log** directory, which includes the following files:
 
-- `utmp`: shows which terminal, logout time, system events and current status of the system and system boot time
-- `wtmp`: gives historical data of `utmp`
-- `btmp`: records only failed login attempts
+- **utmp**: Shows the terminal, logout time, system events, current status of the system, and system boot time.
+- **wtmp**: Gives historical data of **utmp**.
+- **btmp**: Records only failed login attempts.
 
-The `last` command can be used to read the content of each file.
+You can use the `last` command to read the content of each file.
 
       last -f /var/log/utmp
       last -f /var/log/wtmp
       last -f /var/log/btmp
 
-### *lastlog* command
+### `lastlog` command
 
-The `lastlog` command formats and prints the content of the last login in `var/log/lastlog` file. It displays the following: username, port and last login time. It is sorted by their order in `/etc/passwd`.
+The `lastlog` command formats and prints the content of the last login in **var/log/lastlog** file. It displays the following:
+
+- username
+- port
+- last login time. 
+ 
+The command sorts the output by the user order in **/etc/passwd**.
 
 The results would look like the following:
 
