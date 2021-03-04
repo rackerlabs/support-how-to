@@ -1,9 +1,10 @@
 ---
 permalink: pitchfork-create-servers/
-title: Pitchfork: Create Servers
+audit_date: '2021-03-02'
+title: Pitchfork: Create servers
 type: article
 created_by: Rocio Rodriguez
-created_date: 2021-03-02
+created_date: '2021-03-02'
 last_modified_date: 
 last_modified_by: 
 product: Cloud Servers
