@@ -1,0 +1,70 @@
+---
+permalink: remote-desktop-services-sessions-are-not-kept-alive/
+audit_date:
+title: Remote Desktop Services Sessions Are Not Kept Alive
+type: article
+created_date: '2020-03-04'
+created_by: Maru Gonzalez
+last_modified_date:
+last_modified_by:
+product: Cloud Servers
+product_url: cloud-servers
+---
+
+
+This article describes how to troubleshoot Remote Desktop Services sessions that are not kept alive as expected when Remote Desktop Session Host role service was installed. In some situations, the Remote Desktop Services service does not correctly apply the keep-alive setting. This can be caused by a Group Policy refresh on the Remote Desktop Services session host.
+
+
+### Prerequisites 
+
+Please consider having these items before proceeding:
+
+   - Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Standard, Windows Server 2008 R2 Foundation
+   - Rackspace account
+
+### Limitations 
+
+This article applies only to Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Standard, and  Windows Server 2008 R2 Foundation.
+
+### Procedure 
+
+How to troubleshoot Remote Desktop Services sessions that are not kept alive as expected:
+
+1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
+
+2. In the top navigation bar, click **Select a Product > Rackspace Cloud**.
+
+3. At the top of the panel, select **Servers > Cloud Servers**.
+
+4. In the **Cloud Servers** section, you will be able to see all the Cloud Servers created under your account. Click on your Windows Server 2008 R2 and log in to it. If you don't know how to log in, please review [this](https://docs.rackspace.com/support/how-to/log-in-to-your-server-via-rdp-windows) article.
+
+5. Microsoft has a supported hotfix available, however this only applies to systems that are experiencing the problem described in this article.
+
+The global version of this hotfix installs files that have the attributes that are listed in the following tables. The dates and the times for these files are listed in Coordinated Universal Time (UTC). The dates and the times for these files on your local computer are displayed in your local time together with your current daylight saving time (DST). Additionally, the dates and the times may change when you perform certain operations on the files.
+
+**For all supported x64-based versions of Windows Server 2008 R2**
+
+| File Name     | File Version  | File Size  |   Date  |
+| ------------- |:-------------:| -----:| :-------------: |
+| Agp440.sys    | 6.1.7600.16385| 61,008 | 14-Jul-2009 | 
+| Isapnp.sys    | 6.1.7600.16385| 20,544 | 14-Jul-2009  | 
+| Msisadrv.sys  | 6.1.7600.16385| 15,424| 14-Jul-2009| 
+| Mssmbios.sys  | 6.1.7600.16385| 32,320 | 14-Jul-2009 | 
+| Nv_agp.sys    | 6.1.7600.16385| 122,960 | 14-Jul-2009  |
+| Pci.sys       | 6.1.7601.21866| 185,200 | 24-Nov-2011 |     
+| Streamci.dll  | 6.1.7600.16385| 24,144 | 14-Jul-2009  | 
+| Swenum.sys    | 6.1.7600.16385| 12,496 | 14-Jul-2009  |    
+| Termdd.sys    | 6.1.7601.21866| 63,344| 24-Nov-2011 |   
+| Uliagpkx.sys  | 6.1.7600.16385| 64,592 | 14-Jul-2009   | 
+| Vdrvroot.sys  | 6.1.7600.16385| 36,432 | 14-Jul-2009  | 
+| Volmgr.sys    | 6.1.7601.21866| 70,512| 24-Nov-2011 |  
+| Termsrv.dll   | 6.1.7601.21866| 680,960 | 24-Nov-2011  | 
+
+
+
+In order to obtain this hotfix, it is necessary to contact [Microsoft Customer Service and Support](https://support.microsoft.com/contactus/?ws=support).
+
+
+### Related articles 
+
+- [How to Log in to your Server Via RDP Windows](https://docs.rackspace.com/support/how-to/log-in-to-your-server-via-rdp-windows)
