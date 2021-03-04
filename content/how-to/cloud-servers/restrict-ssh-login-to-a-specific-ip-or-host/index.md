@@ -13,60 +13,65 @@ product_url: cloud-servers
 
 This article describes how to configure a restricted Secure Shell (SSH) login to a server from a particular IP address or hostname.
 
-To achieve this we will use TCP Wrappers since they provide basic traffic filtering of incoming network traffic. Although more complex on the surface, TCP Wrappers essentially use of two files: **/etc/hosts.allow** and **/etc/hosts.deny**.
+To achieve this, use TCP Wrappers because they provide basic traffic filtering of incoming network traffic. Although more complex
+on the surface, TCP Wrappers essentially use of two files: **/etc/hosts.allow** and **/etc/hosts.deny**.
 
-If the files do not yet exist, they can be created using the following command:
+If the files do not yet exist, you can created. them by using the following command:
 
     sudo touch /etc/hosts.{allow,deny}
 
 ### Deny all hosts
 
-It is considered best practice to deny all incoming SSH connections. To do that we need to:
+It is considered best practice to deny all incoming SSH connections. To do that, perform teh following steps:
 
-1. Open file **/etc/hosts.deny** using a text editor.
+1. Open file **/etc/hosts.deny** by using a text editor:
 
         vi /etc/hosts.deny
 
-2. Add the following line to deny all incoming SSH connections to the server.
+2. Add the following line to deny all incoming SSH connections to the server:
 
         sshd: ALL
 
 3. Save and close the file.
 
-That’s it. This will block all ssh access to the host
+That’s it. This blocks all SSH access to the host
 
-### Allow IP's
+### Allow IP addresses
 
-Now, we will configure the IP's with authorization to login using SSH. For that we need to: 
+Now, perform the following steps to configure the IP addresses with authorization to log in by using SSH: 
 
-1. Open the file **/etc/hosts.allow** file using a text editor.
+1. Open the file **/etc/hosts.allow** file by using a text editor:
 
         vi /etc/hosts.allow
 
-2. Add the following line to allow the IP of your choice to connect using public SSH. For example to allow network ``172.168.0.21``:
+2. Add an `sshd` line to allow the IP address of your choice to connect by using public SSH. For example,
+   the following line allows network ``172.168.0.21``:
 
         sshd: 172.168.0.21
 
 3. Save and close the file.
 
-The TCP Wrapper files accept comma-separated list of entries, so you can append addresses to the first entry above.
+The TCP Wrapper files accept a comma-separated list of entries, so you can append addresses to the first entry
+in this section.
 
     sshd: 172.168.0.21, 10.83.33.77, 10.63.152.9, 10.12.100.11, 10.82.192.28
 
-They also accept partial IP addresses as subnets, so you could allow the entire ``172.168.0.0/24`` as:
+They also accept partial IP addresses as subnets, so you can allow the entire ``172.168.0.0/24`` as:
 
     sshd: 172.168.0.
 
-Or like so:
+Or as shown in the following example:
 
     sshd : localhost
     sshd : 192.168.0.
     sshd : 99.151.250.7
 
 You can allow or deny based on IP address, subnet, or hostname. List rules in order of most to least specific.
+Keep in mind that servers based on Linux&reg; operating systems look first at the **hosts.allow** file starting
+from top to bottom, followed by the **hosts.deny** file. For example, an SSH connection attempt from an IP address
+in **hosts.allow** is allowed, even though **hosts.deny** blocks all connections.
 
-One thing to keep in mind is that servers based on Linux&reg; Operating Systems will first look at the **hosts.allow** file starting from top to bottom, followed by the **hosts.deny** file. For example, an SSH connection attempt from an IP address in **hosts.allow** will be allowed, even though **hosts.deny** blocks all connections.
+With this configuration, any client listed in the **hosts.allow** file are allowed through SSH and any client not
+listed is blocked.
 
-With this configuration, any client listed in the **hosts.allow** file will be allowed via SSH and any client not listed will be blocked.
-
-**Note**: SSH daemon does not need to be restarted for changes to take effect.
+**Note**: The SSH daemon does not need to be restarted for changes to take effect.
