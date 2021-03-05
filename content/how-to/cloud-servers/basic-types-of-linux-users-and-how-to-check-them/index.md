@@ -65,21 +65,18 @@ Check what ports are open:
 
     # nmap -F \<IP\>
     
-<br>
 </br>
 
 Try to log in:
 
     # ssh \<user\>@\<IP\>
     
-<br>
 </br>
 
 Try to log in and get more information:
 
     # ssh -v \<user\>@\<IP\>
-    
-<br>
+
 </br>
 
 ### Log in troubleshooting tips
@@ -114,8 +111,7 @@ Run the following command to list all system, SFTP-only, and SSH users:
     php-fpm:*:995:992:php-fpm:/var/lib/php/fpm:/sbin/nologin
     mysql:*:27:27:MariaDB Server:/var/lib/mysql:/sbin/nologin
     sher:*:1002:1002:example:/home/sher:/bin/bash
-    
-<br>
+
 </br>
 
 Each line is split into different sections with:
@@ -123,7 +119,7 @@ Each line is split into different sections with:
 {{< table "table  table-striped table-bordered" >}}
 | sher | 1002:1002 | example | /home/sher | /bin/bash |
 |---------|--------|--------|--------|--------|
-| Username | User ID. If it's below 1000, it's *probably* a default system user | A comment if one was added | Home Directory. Like 'My Computer' in Windows/ Jail/Chroot = /home/chroot | SFTP-only=/sbin/nologin SSH=/bin/bash |
+| Username | User ID. If it's below 1000, it's *probably* a default system user | A comment if one was added | Home Directory. Jail/Chroot=/home/chroot | SFTP-only=/sbin/nologin SSH=/bin/bash |
 
 #### Find a user
 
@@ -131,7 +127,6 @@ Run the following command to search for a specific user:
 
     # grep <user> /etc/passwd
     
-<br>
 </br>
 
 #### Check permissions
@@ -139,8 +134,7 @@ Run the following command to search for a specific user:
 Run the following command to check if a user has `sudo` permissions:
 
     # grep <user> /etc/sudoers
-    
-<br>
+
 </br>
 
 #### Check password status
@@ -156,50 +150,43 @@ You see either `Password set` or `locked`.
 Check current logged-in users:
 
     # w
-    
-<br>
+
 </br>
 
 Check who logged in last:
 
     # last
-    
-<br>
+
 </br>
 
 Check the last ten users to log in:
 
     # last | head -10
-    
-<br>
+
 </br>
 
 Check if a user tried to log in:
 
     # grep <USER> /var/log/secure
-    
-<br>
+
 </br>
 
 Show a live feed of users trying to log in (Use `Ctrl+C` to cancel):
 
     # tail -f /var/log/secure
-    
-<br>
+
 </br>
 
 Check when a password is due to expire (default is never):
 
     # chage -l <USER>
-    
-<br>
+
 </br>
 
 Check what groups a user is a part of:
 
     # groups <USER>
-    
-<br>
+
 </br>
 
 Use the following script to check a user to see if their password is locked if they have sudo permissions:
