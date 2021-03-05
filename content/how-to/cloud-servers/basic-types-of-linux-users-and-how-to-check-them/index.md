@@ -51,7 +51,7 @@ There are also persistent users that you can often find in Linux. These are syst
 To make things simpler, here is a graph showing the basic Linux users you can have, scaled from least permissions
 to all permissions:
 
-{{<img src="Picture1.png" title="" alt="">}}
+<insert image>
 
 ### Checks you can make without logging in
 
