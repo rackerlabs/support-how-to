@@ -1,166 +1,167 @@
 ---
 permalink: basic-types-of-linux-users-and-how-to-check-them/
-title: Basic types of Linux Users, and How to Check Them
+audit_date: '2021-03-04'
+title: Basic types of Linux users and how to check them
 type: article
 created_by: Coral Moore
-created_date: 2021-03-04
-last_modified_date: 
-last_modified_by: 
-audit_date:
+created_date: '2021-03-04'
+last_modified_date: '2021-03-04'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-# Basic types of Linux Users, and how to check them
+This article describes the basic types of users and how to check them.
 
-*For understanding what basic types of users there are, and how to check them*
+### Types of users
 
-## Checks you can make without even logging in:
+There are two basic types of users to choose from: **SFTP** and **SSH**.
 
-When logging into your computer/server, you will *usually* do so through port 22.
-If unfamiliar, please think of port 22 as the doorway, through which you log in.
-Ports 80 and 443, are the doorways for web site traffic.
-If these ports are closed, think of the doors as barred shut and not allowing that traffic in.
+#### SFTP users
 
-So if you can't log in, the first things to check are if port 22 is open, and accepting SSH connections:
+Secure File Transfer Protocol (SFTP) users can easily use the command line or a program, such as Filezilla&reg;, to upload files
+securely. This tool is useful for developers who just need somewhere to upload their website files. An SFTP-only user can connect
+through SFTP but not through SSH.
+
+#### SSH users
+
+SecureShell (SSH) users can securely connect to the Linux&reg; command line. You usually do this in a black-screen, command-line
+terminal such as PuTTY&reg; or MobaXterm&reg;. It's an extremely useful method but only recommended for those comfortable with the
+Linux command line. An SSH user can connect through both SFTP and SSH.
+
+### Modify user access
+
+There are several ways to add or remove access for SSH and SFTP users.
+
+#### Jailed or chrooted SFTP users
+
+These users can only access a specific set of directories and nothing else.
+Setting this up is a lengthy process, so ask one of our support techs to help you if you need to implement it.
+
+#### sudo SSH users
+
+`sudo` users can run admin-level commands by prefacing them with `sudo`. The system then logs who made the request and
+carries it out.
+
+#### Other users
+
+There are also persistent users that you can often find in Linux. These are system users like `bin`, `mail`, `games`,
+`nobody`, and so on, which you can usually ignore. The `root` user allows you to do anything you like on the system.
+
+To make things simpler, here is a graph showing the basic Linux users you can have, scaled from least permissions
+to all permissions:
+
+{{<img src="Picture1.png" title="" alt="">}}
+
+### Checks you can make without logging in
+
+You usually log in to your computer or server through port 22. Think of port 22 as the doorway through which
+you log in. Continuing the analogy, ports 80 and 443 are the doorways for website traffic.
+If these ports are closed, think of the doors as barred shut and not allowing that traffic to pass.
+
+If you can't log in, run the following commands to check that port 22 is open and accepting SSH connections:
 
 Check what ports are open:
-```sh
-# nmap -F <IP>
-```
+
+    # nmap -F \<IP\>
+
 Try to log in:
-```sh
-# ssh <user>@<IP>
-```
-Try to log in and give me more information:
-```sh
-# ssh -v <user>@<IP>
-```
 
+    # ssh \<user\>@\<IP\>
 
-## Top Tips!
+Try to log in and get more information:
+
+    # ssh -v \<user\>@\<IP\>
+
+### Log in troubleshooting tips
+
+If you can't log in, consider the following possibilities:
 
 #### It's usually the password
 
-Extremely often, the problem is the simplest one, the password!
-If port 22 is open, and your computer/server is asking for a password when you SSH; please double check that you have and are correctly typing/pasting in the correct password.
-Please remember that Linux is case sensitive.
+Most often, the problem is the simplest one: the password. If port 22 is open and your computer or server asks
+for a password when you SSH, confirm that you are entering the correct password. Remember that Linux is case sensitive.
 
 #### If you don't know your password
 
-Linux will not have it saved in a format which we can retrieve.
-Please either log in with another user, or ask one of our techs to reset it for you.
+Linux does not save your password in a format that we can retrieve. Either log in with another user or ask our support
+team to reset it for you.
 
 #### If you are trying to log in as root
 
-Please bear in mind that by default Linux disables direct root log ins.
-This is for security, to stop hackers only needing to crack one password.
-So unless this has been specifically changed, the usual protocol is to log in as another user, and then escalate to root if you need.
+By default, Linux disables direct root logins for security (to stop hackers from needing to crack only one password).
+So, unless you specifically enabled root, the usual protocol is to log in as another user and then escalate to root as needed.
 
+### Helpful user commands
 
-# Types of Users:
+#### Show the types of users:
 
-There are 2 basic types of users to choose from, **SFTP**, and **SSH**.
+Run the following command to list all system, SFTP-only, and SSH users:
 
-#### SFTP Users
+    # cat /etc/passwd
 
-Can easily use the command line or a program like Filezilla to securely upload files.
-This is useful for developers who just need somewhere to upload their web site files.
-An SFTP only user, can only SFTP. Not SSH.
+    root:x:0:0:root:/root:/bin/bash
+    apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
+    php-fpm:x:995:992:php-fpm:/var/lib/php/fpm:/sbin/nologin
+    mysql:x:27:27:MariaDB Server:/var/lib/mysql:/sbin/nologin
+    sher:x:1002:1002:example:/home/sher:/bin/bash
 
-#### SSH Users
+Each line is split into different sections with:
 
-Can securely connect to the command line of Linux.
-This is usually done in a black screen, command line terminal like PuTTY or MobaXterm.
-It's extremely useful, but only recommended for those comfortable with the Linux command line.
-An SSH user can SFTP and SSH.
+    sher | 1002:1002 | example | /home/sher | /bin/bash
+    -|-|-|-|-
+    Username | User ID. If it's below 1000, it's *probably* a default system user | A comment if one was added | Home Directory. Like 'My Computer' in Windows/ Jail/Chroot = /home/chroot | SFTP only = /sbin/nologin SSH = /bin/bash
 
-There are also ways of adding, or removing access for these users:
+#### Find a user
 
-#### Jailed/chrooted SFTP Users
+Run the following command to search for a specific user:
 
-Can only access a single/specific set of directories and nothing else.
-Setting this up is a bit of a lenghty process, so please ask one of our techs to assist you if you need it implemented.
+    # grep <user> /etc/passwd
 
-#### sudo SSH Users
+#### Check permissions
 
-Can run admin level commands by prefacing them with 'sudo'.
-The system will then log who made the request, and carry it out.
+Run the following command to check if a user has `sudo` permissions:
 
+    # grep <user> /etc/sudoers
 
-There are also persistent users which you should always find in Linux.
-These are system users like bin, mail, games, nobody etc. which you can usually ignore.
-And root which allows you to do anything you like on the system.
+#### Check password status
 
+Run the following command to check if a user is locked:
 
-To make things simpler, here is a graph showing the basic Linux users you can have, scaled from least permissions, to all permissions:
-![](https://one.rackspace.com/download/attachments/745606998/Users.png)
+    # passwd -S <user>
 
+You see either `Password set` or `locked`.
 
-# Show Types of Users:
+#### More advanced user checks
 
-List all system, SFTP only, and SSH users:
-```sh
+Check current logged-in users:
 
-# cat /etc/passwd
+    # w
 
-root:x:0:0:root:/root:/bin/bash
-apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
-php-fpm:x:995:992:php-fpm:/var/lib/php/fpm:/sbin/nologin
-mysql:x:27:27:MariaDB Server:/var/lib/mysql:/sbin/nologin
-sher:x:1002:1002:example:/home/sher:/bin/bash
-```
-Each line is split into different sections with :
-sher | 1002:1002 | example | /home/sher | /bin/bash
--|-|-|-|-
-Username | User ID. If it's below 1000, it's *probably* a default system user | A comment if one was added | Home Directory. Like 'My Computer' in Windows/ Jail/Chroot = /home/chroot | SFTP only = /sbin/nologin SSH = /bin/bash
-
-
-
-Search for a specific user:
-```sh
-# grep <user> /etc/passwd
-```
-Check if a user has sudo permissions:
-```sh
-# grep <user> /etc/sudoers
-```
-Check if a user is locked:
-```sh
-# passwd -S <user>
-```
-You'll see either Password set or locked
-
-
-# More Advanced User Checks:
-Check who is logged in right now:
-```sh
-# w
-```
 Check who logged in last:
-```sh
-# last
-```
-Check who were the last 10 users to log in:
-```sh
-# last | head -10
-```
+
+    # last
+
+Check the last ten users to log in:
+
+    # last | head -10
+
 Check if a user tried to log in:
-```sh
-# grep <USER> /var/log/secure
-```
-Show a live feed of users trying to log in (Ctrl+C to cancel):
-```sh
-# tail -f /var/log/secure
-```
-Check when a passwd will expire (default is never):
-```sh
-# chage -l <USER>
-```
+
+    # grep <USER> /var/log/secure
+
+Show a live feed of users trying to log in (Use `Ctrl+C` to cancel):
+
+    # tail -f /var/log/secure
+
+Check when a password is due to expire (default is never):
+
+    # chage -l <USER>
+
 Check what groups a user is a part of:
-```sh
-# groups <USER>
-```
-A script to check a user, if their password is locked, and if they have sudo permissions:
-```sh
-# UU='<USER>'; getent passwd | grep ${UU}; passwd -S ${UU}; grep ${UU} /etc/sudoers; groups ${UU}
+
+    # groups <USER>
+
+Use the following script to check a user to see if their password is locked if they have sudo permissions:
+
+    # UU='<USER>'; getent passwd | grep ${UU}; passwd -S ${UU}; grep ${UU} /etc/sudoers; groups ${UU}
