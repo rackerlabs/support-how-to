@@ -109,11 +109,11 @@ Run the following command to list all system, SFTP-only, and SSH users:
 
     # cat /etc/passwd
 
-    root:x:0:0:root:/root:/bin/bash
-    apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
-    php-fpm:x:995:992:php-fpm:/var/lib/php/fpm:/sbin/nologin
-    mysql:x:27:27:MariaDB Server:/var/lib/mysql:/sbin/nologin
-    sher:x:1002:1002:example:/home/sher:/bin/bash
+    root:*:0:0:root:/root:/bin/bash
+    apache:*:48:48:Apache:/usr/share/httpd:/sbin/nologin
+    php-fpm:*:995:992:php-fpm:/var/lib/php/fpm:/sbin/nologin
+    mysql:*:27:27:MariaDB Server:/var/lib/mysql:/sbin/nologin
+    sher:*:1002:1002:example:/home/sher:/bin/bash
     
 <br>
 </br>
