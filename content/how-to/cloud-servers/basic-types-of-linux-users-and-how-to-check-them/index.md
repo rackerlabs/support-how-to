@@ -26,9 +26,9 @@ through SFTP but not through SSH.
 
 #### SSH users
 
-SecureShell (SSH) users can securely connect to the Linux&reg; command line. You usually
-do this in a black-screen, command-line terminal such as PuTTY&reg; or MobaXterm&reg;. It's
-an handy method but only recommended for those comfortable with the Linux command line. An
+SecureShell (SSH) users can securely connect to the Linux&reg; command line, usually
+in a black-screen, command-line terminal such as PuTTY&reg; or MobaXterm&reg;. It's
+a handy method but only recommended for those comfortable with the Linux command line. An
 SSH user can connect through both SFTP and SSH.
 
 ### Modify user access
