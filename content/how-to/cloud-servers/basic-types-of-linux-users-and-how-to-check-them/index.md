@@ -123,7 +123,7 @@ Each line is split into different sections with:
 {{< table "table  table-striped table-bordered" >}}
 | sher | 1002:1002 | example | /home/sher | /bin/bash |
 |---------|--------|--------|--------|--------|
-| Username | User ID. If it's below 1000, it's *probably* a default system user | A comment if one was added | Home Directory. Like 'My Computer' in Windows/ Jail/Chroot = /home/chroot | SFTP only = /sbin/nologin SSH = /bin/bash |
+| Username | User ID. If it's below 1000, it's *probably* a default system user | A comment if one was added | Home Directory. Like 'My Computer' in Windows/ Jail/Chroot = /home/chroot | SFTP-only=/sbin/nologin SSH=/bin/bash |
 
 #### Find a user
 
