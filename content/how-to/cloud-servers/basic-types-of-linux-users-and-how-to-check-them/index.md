@@ -57,6 +57,8 @@ from least permissions to all permissions:
 
 {{<image src="Picture1.png" alt="" title="">}}
 
+</br>
+
 ### Checks you can make without logging in
 
 You usually log in to your computer or server through port 22. Think of port 22 as the
