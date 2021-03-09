@@ -11,28 +11,31 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-There are two basic type of memory, the **Random Access Memory** (RAM) which is used
-to store data while working on the computer and is required to run programs and
-services. This data will not remain stored once you turn off the computer, its
-only in charge of a temporary allocation to run such programs.
+There are two basic types of memory: Random Access Memory (RAM) and swap files.
 
-Whenever we use a hard drive to store data permanently in a computer, which is
-classified as electro-mechanical data storage device, this allows us to locate
-data in our system even when the device is off. Afterwards, we require data to be
-transfered to the RAM for the CPU to be able to run programs and services as
-requested.
+Computers use RAM to store data and to run programs and services. Because this data is not
+stored when you turn the computer off, the allocation is only temporary allocation.
 
-Swap files are created in order to use disk space whenever the RAM runs out of
- space and is used to allocate data under our kernel memory management.
+When you use a hard drive, classified as an electro-mechanical data storage device, to
+store data permanently in a computer, you can save data in your system in a swap file even
+when the device is off. When the computer reboots, it transfers data to RAM so the CPU can
+run programs and services as needed.
 
-Usually sawp files are used in Low RAM systems (1GB ~) and it is important to
-mention that we don’t necessarily require swap file to run our Linux enviroment,
-however, its recommended to avoid our system presenting a degraded performance
-whenever we run high demanding programs and processes.
+The system also creates swap files to use disk space when it needs to allocate data for
+kernel memory management but is out of RAM.
 
-### Recommended Swap File Size based on RAM memory
+Usually, you use swap files in low-RAM systems (around 1 GB). You don’t necessarily
+need swap files to run in a Ubuntu&reg; operating system or Linux&reg; environment. However,
+without swap files, your system might experience degraded performance when running
+high-demand programs and processes.
 
-|RAM Size | Swap Size (Without Hibernation) | Swap size (With Hibernation) |
+### Recommended swap file size based on RAM
+
+The following table shows the recommended swap sized based on how much RAM you have and
+whether you choose *hibernation*. Hibernation requires more space because it saves the system state
+when you shut down and restores the system state when you restart.
+
+|RAM Size | Swap size (without hibernation) | Swap size (with hibernation) |
 |---------|---------------------------------|------------------------------|
 | 256MB | 256MB | 512MB |
 | 512MB | 512MB | 1GB |
@@ -45,7 +48,7 @@ whenever we run high demanding programs and processes.
 
 ### Create a swap file
 
-1. Verify the current swap file size. You can use either of the following 3
+1. Verify the current swap file size. You can use any of the following
    commands to determine the size of the existing swap file:
 
         free -m
@@ -55,31 +58,31 @@ whenever we run high demanding programs and processes.
         swapon -show
 
     **Note**: If there’s no output or the output is `000`, the swap file might
-    not be
-    configured.
+    not be configured.
 
-2. To create the swap file use:
+2. To create the swap file, run the following command:
 
         dd if =/dev/zero of=/swapfile bs=1024 count=1048576
 
     Where:
 
-    - `if` = input file (will always be the same)
-    - `of` = output file (you can name this file as you want)
-    - `bs` = block size (keep value at 1024)
-    - `count` = amount of blocks to read and write (will be determined for how
-      much space is required to create swap file for)
+    - **if**: input file (will always be the same)
+    - **of**: output file (you can name this file as you want)
+    - **bs**: block size (keep value at 1024)
+    - **count**: amount of blocks to read and write, which helps you determine how
+      much space you need for the swap file.
 
-    **Note**: Remember that if you require an specific size the `count` value
-   can be modified by mutiplying the block size value for the new size (in MB).
-   For example, 1024x4096=4194304, the new value for count will be 4194304.
-
-3. Provide the `root` user with **read/write** permissions to the swap file
-   using:
+    **Note**: Remember that if you require a specific size, you can modify the
+    `count` value by multiplying it by the block size value for the new size (in MB).
+    For example, multiplying the old block size, `1024`, by the new size, `4096`,
+    results in `4194304` for the **count**.
+    
+3. Provide the `root` user with read and write permissions for the swap file
+   by running the following command:
 
         chmod 600 /swapfile
 
-4. Setup swap area:
+4. Set up the swap area:
 
         mkswap /swapfile
 
@@ -87,23 +90,23 @@ whenever we run high demanding programs and processes.
 
         swapon /swapfile 
 
-6. Using a text editor add the line `/swapfile swap swap defaults 0 0` to the
+6. Use a text editor to add the line `/swapfile swap swap defaults 0 0` to the
    **/etc/fstab** file.
 
-7. Verify that the new swap file is configured using either of the commands in
+7. Verify that the new swap file configuration using any of the commands in
    step 1.
 
-For more information on `fstab` please visit:
-https://wiki.archlinux.org/index.php/Fstab
+For more information on `fstab`, visit:
+[https://wiki.archlinux.org/index.php/Fstab](https://wiki.archlinux.org/index.php/Fstab)
 
 ### Remove a swap file
 
-1. Deactivate swap file:
+1. Run the following command to reactivate the swap file:
 
         swapoff -v /swapfile
 
-2. Using a text editor remove the `/etc/fstab` entry.
+2. Use a text editor to remove the **/etc/fstab** entry.
 
-3. Remove the swapfile:
+3. Run the following command to remove the swapfile:
 
         rm -f /
