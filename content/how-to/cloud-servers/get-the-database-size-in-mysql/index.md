@@ -11,18 +11,20 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-#### Determine MySQL size
+This article describes how to find the size of a MySQL&reg; database and the amount of available free space.
 
-Run the following query in MySQL to display **Data Base Name** and **Data Base Size in MB**:
+### Determine the database size
+
+Run the following query in MySQL to display the MySQL data base name and size in megabytes:
 
     SELECT table_schema "Data Base Name", 
     sum( data_length + index_length ) / 1024 / 1024 "Data Base Size in MB" 
     FROM information_schema.TABLES 
     GROUP BY table_schema ;
 
-#### Determine MySQL available space
+### Determine the amount of available space
 
-Run the next query to view the **Free Space in MB** available for a database in MySQL.
+Run the following query to view the available free space in megabytes for a MySQL database:
 
     SELECT table_schema "Data Base Name", 
     sum( data_length + index_length ) / 1024 / 1024 "Data Base Size in MB",
