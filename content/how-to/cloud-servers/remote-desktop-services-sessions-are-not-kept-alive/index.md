@@ -1,7 +1,7 @@
 ---
 permalink: remote-desktop-services-sessions-are-not-kept-alive/
 audit_date: '2021-03-10'
-title: Remote Desktop Services Sessions Are Not Kept Alive
+title: Remote Desktop services sessions are not kept alive
 type: article
 created_date: '2020-03-04'
 created_by: Maru Gonzalez
@@ -12,23 +12,27 @@ product_url: cloud-servers
 ---
 
 
-This article describes how to troubleshoot Remote Desktop Services sessions that are not kept alive as expected after you install Remote Desktop Session Host role service. In some situations, the Remote Desktop Services service doesn't apply the keep-alive setting correctly. A Group Policy refresh on the Remote Desktop Services session host might be the cause for this malfunction.
-
+This article describes how to troubleshoot Remote Desktop Services sessions that are not kept alive as
+expected after you install the `Remote Desktop Session Host` role service. In some situations, the Remote
+Desktop Services service doesn't apply the keep-alive setting correctly. A Group Policy refresh on the
+Remote Desktop Services session host might have caused this malfunction.
 
 ### Prerequisites 
 
 Have these items before proceeding:
 
-   - Windows Server 2008 R2 Datacenter&reg;, Windows Server 2008 R2 Enterprise&reg;, Windows Server 2008 R2 Standard&reg;, Windows Server 2008 R2 Foundation&reg;
+   - Windows Server&reg; 2008 R2 Datacenter&reg;, Windows Server 2008 R2 Enterprise&reg;,
+     Windows Server 2008 R2 Standard&reg;, or Windows Server 2008 R2 Foundation&reg;
    - Rackspace account
 
 ### Limitations 
 
-This article applies only to Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Standard, and  Windows Server 2008 R2 Foundation.
+This article applies only to Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise,
+Windows Server 2008 R2 Standard, and  Windows Server 2008 R2 Foundation.
 
 ### Procedure 
 
-How to troubleshoot Remote Desktop Services sessions that are not kept alive as expected:
+Perform the following steps to troubleshoot Remote Desktop Services sessions that are not kept alive as expected:
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
 
@@ -36,11 +40,17 @@ How to troubleshoot Remote Desktop Services sessions that are not kept alive as 
 
 3. Select **Servers > Cloud Servers** at the top of the panel.
 
-4. In the **Cloud Servers** section, you can see all the Cloud Servers your account has created. Click on your **Windows Server 2008 R2** and log in to it. If you need more information on how to log in, please review [this article](https://docs.rackspace.com/support/how-to/log-in-to-your-server-via-rdp-windows).
+4. In the **Cloud Servers** section, you can see all the Cloud Servers in your account. Click **Windows Server 2008 R2**
+   and log in to the server. If you need more information on how to log in, review this article:
+   [Log in to your server via RDP (Windows)](https://docs.rackspace.com/support/how-to/log-in-to-your-server-via-rdp-windows).
 
-5. Microsoft has a supported hotfix available, however, this only applies to systems that are experiencing the problem described in this article.
+5. Microsoft has a supported hotfix available, but it applies only to systems that are experiencing the problem
+   described in this article.
 
-The global version of this hotfix installs files that have the attributes that are listed in the following tables. The dates and the times for these files are listed in Coordinated Universal Time (UTC). The dates and the times for these files on your local computer are displayed in your local time together with your current daylight saving time (DST). Additionally, the dates and the times might change when you perform certain operations on the files.
+The global version of this hotfix installs files that have the attributes listed in the following tables. The dates and
+times for these files are listed in Coordinated Universal Time (UTC). On your local computer, the dates and times display
+in your local time together with your current daylight saving time (DST). Additionally, the dates and the times might change
+when you perform certain operations on the files.
 
 **For all supported x64-based versions of Windows Server 2008 R2**
 
@@ -61,8 +71,7 @@ The global version of this hotfix installs files that have the attributes that a
 | Termsrv.dll   | 6.1.7601.21866| 680,960 | 24-Nov-2011  | 
 
 
-
-To obtain this hotfix, it is necessary to contact [Microsoft Customer Service and Support](https://support.microsoft.com/contactus/?ws=support).
+To obtain this hotfix, contact [Microsoft Customer Service and Support](https://support.microsoft.com/contactus/?ws=support).
 
 
 ### Related articles 
