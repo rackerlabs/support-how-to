@@ -1,35 +1,37 @@
 ---
-permalink: manually-granting-rdp-access-to-an-active-directory-user/
-audit_date:
-title: Manually granting RDP access to an Active Directory user
+permalink: manually-grant-rdp-access-to-an-active-directory-user/
+audit_date: '2021-03-10'
+title: Manually grant RDP access to an Active Directory user
 type: article
 created_date: '2021-03-02'
 created_by: Travis Cook
-last_modified_date:
-last_modified_by:
+last_modified_date: '2021-03-10'
+last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### Manually granting RDP access to an Active Directory user
+This article explains how to give Remote Desktop Protocol (RDP) access to an Active Directory (AD) user on a domain server.
 
-This article explains how to give RDP access to an Active Directory (AD) user on a specific server. The server has to be domain-joined for this to work.
+If a AD domain user is unable to login to a server, you can follow the same steps to verify RDP permissions. Administrator rights are necessary to make any changes.
 
-If the AD domain user is unable to login to a server they are supposed to have access to, you can follow the below steps to verify and modify their RDP permissions. You will need administrator rights to make any changes.
+1. Log in to the server.
 
-1) Log in to the server in question; right-click the Windows Icon and select ‘System’
+2. Right-click the Windows icon and select **System**. 
 
-2) The next options will be slightly different depending on your version of Windows:
-- 2012 R2: Click on ‘Remote Settings’
-- 2016: Click ‘Remote Desktop’, then ‘Select users that can remotely access this PC’
+3. Select the remote settings depending on your Windows version:
 
-3) Click ‘Select Users’ in the new window that pops up
+   - 2012 R2: Click on **Remote Settings**. 
+   - 2016: Click **Remote Desktop** > **Select users that can remotely access this PC**. 
 
-4) Click ‘Add’
+4. Click on **Select Users**.
 
-5) Type the username in the field
+5. Click **Add**.
 
-6) Click ‘Check Names’
-- If the domain user was entered correctly, the ‘Check Names’ option will find the user and the name will be underlined 
+6. Type the username you wish to add.
 
-7) Once added, click ‘Apply’ and ‘OK’
+7. Click **Check Names**.
+
+   **Note**: If the domain user was entered correctly, the name will be underlined.
+
+8. Once added, click **Apply** and **OK**.
