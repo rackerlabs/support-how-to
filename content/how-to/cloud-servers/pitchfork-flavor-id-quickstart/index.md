@@ -1,7 +1,7 @@
 ---
 permalink: pitchfork-flavor-id-quickstart/
 audit_date: '2021-03-10'
-title: Pitchfork Flavor_id Quickstart
+title: Pitchfork flavor_id quickstart
 type: article
 created_date: '2021-03-02'
 created_by: Robert Kane
@@ -11,15 +11,16 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Pitchfork allows customers to interact with the Rackspace API via a GUI rather than directly through the CLI. This article details potential `flavor_id` parameters when interacting with server tasks.
+Pitchfork allows customers to interact with the Rackspace API through a GUI rather than directly through the
+CLI. This article details potential `flavor_id` parameters when interacting with server tasks.
 
 ### Prerequisites
 
    - Rackspace Cloud Account
-   - API Key, found within the portal under **My Profile & Settings**
+   - API Key, which you can find in the portal under **My Profile & Settings**
    - [The Pitchfork tool](https://pitchfork.rax.io) 
 
-### Common Flavors
+### Common flavors
 
 | flavor_id | Description |
 | ----------- | ----------- |
@@ -47,4 +48,5 @@ Pitchfork allows customers to interact with the Rackspace API via a GUI rather t
 
 ### Conclusion
 
-These are the most common server flavors. For a full list you can use the **List Flavors** API call listed under **Flavors** within Pitchfork.
+These are the most common server flavors. For a full list, you can use the **List Flavors** API call
+listed under **Flavors** within Pitchfork.
