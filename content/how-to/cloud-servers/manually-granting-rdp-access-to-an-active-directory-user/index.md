@@ -11,13 +11,15 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article explains how to give Remote Desktop Protocol (RDP) access to an Active Directory (AD) user on a domain server.
+This article explains how to give Remote Desktop Protocol (RDP) access to an Active Directory (AD)
+user on a domain server.
 
-If a AD domain user is unable to login to a server, you can follow the same steps to verify RDP permissions. Administrator rights are necessary to make any changes.
+If a AD-domain user cannot log in to a server, you can follow the same steps to verify RDP permissions.
+You need administrator rights to make any changes.
 
 1. Log in to the server.
 
-2. Right-click the Windows icon and select **System**. 
+2. Right-click the Windows&reg; icon and select **System**. 
 
 3. Select the remote settings depending on your Windows version:
 
@@ -32,6 +34,6 @@ If a AD domain user is unable to login to a server, you can follow the same step
 
 7. Click **Check Names**.
 
-   **Note**: If the domain user was entered correctly, the name will be underlined.
+   **Note**: If you enter the domain user correctly, the name is underlined.
 
-8. Once added, click **Apply** and **OK**.
+8. After you add the user, click **Apply** and **OK**.
