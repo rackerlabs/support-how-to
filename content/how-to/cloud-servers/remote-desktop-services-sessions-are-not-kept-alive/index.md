@@ -1,25 +1,25 @@
 ---
 permalink: remote-desktop-services-sessions-are-not-kept-alive/
-audit_date:
+audit_date: '2021-03-10'
 title: Remote Desktop Services Sessions Are Not Kept Alive
 type: article
 created_date: '2020-03-04'
 created_by: Maru Gonzalez
-last_modified_date:
-last_modified_by:
+last_modified_date: '2021-03-10'
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
 
-This article describes how to troubleshoot Remote Desktop Services sessions that are not kept alive as expected when Remote Desktop Session Host role service was installed. In some situations, the Remote Desktop Services service does not correctly apply the keep-alive setting. This can be caused by a Group Policy refresh on the Remote Desktop Services session host.
+This article describes how to troubleshoot Remote Desktop Services sessions that are not kept alive as expected after you install Remote Desktop Session Host role service. In some situations, the Remote Desktop Services service doesn't apply the keep-alive setting correctly. A Group Policy refresh on the Remote Desktop Services session host might be the cause for this malfunction.
 
 
 ### Prerequisites 
 
-Please consider having these items before proceeding:
+Have these items before proceeding:
 
-   - Windows Server 2008 R2 Datacenter, Windows Server 2008 R2 Enterprise, Windows Server 2008 R2 Standard, Windows Server 2008 R2 Foundation
+   - Windows Server 2008 R2 Datacenter&reg;, Windows Server 2008 R2 Enterprise&reg;, Windows Server 2008 R2 Standard&reg;, Windows Server 2008 R2 Foundation&reg;
    - Rackspace account
 
 ### Limitations 
@@ -32,15 +32,15 @@ How to troubleshoot Remote Desktop Services sessions that are not kept alive as 
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
 
-2. In the top navigation bar, click **Select a Product > Rackspace Cloud**.
+2. Click **Select a Product > Rackspace Cloud** in the top navigation bar.
 
-3. At the top of the panel, select **Servers > Cloud Servers**.
+3. Select **Servers > Cloud Servers** at the top of the panel.
 
-4. In the **Cloud Servers** section, you will be able to see all the Cloud Servers created under your account. Click on your Windows Server 2008 R2 and log in to it. If you don't know how to log in, please review [this](https://docs.rackspace.com/support/how-to/log-in-to-your-server-via-rdp-windows) article.
+4. In the **Cloud Servers** section, you can see all the Cloud Servers your account has created. Click on your **Windows Server 2008 R2** and log in to it. If you need more information on how to log in, please review [this article](https://docs.rackspace.com/support/how-to/log-in-to-your-server-via-rdp-windows).
 
-5. Microsoft has a supported hotfix available, however this only applies to systems that are experiencing the problem described in this article.
+5. Microsoft has a supported hotfix available, however, this only applies to systems that are experiencing the problem described in this article.
 
-The global version of this hotfix installs files that have the attributes that are listed in the following tables. The dates and the times for these files are listed in Coordinated Universal Time (UTC). The dates and the times for these files on your local computer are displayed in your local time together with your current daylight saving time (DST). Additionally, the dates and the times may change when you perform certain operations on the files.
+The global version of this hotfix installs files that have the attributes that are listed in the following tables. The dates and the times for these files are listed in Coordinated Universal Time (UTC). The dates and the times for these files on your local computer are displayed in your local time together with your current daylight saving time (DST). Additionally, the dates and the times might change when you perform certain operations on the files.
 
 **For all supported x64-based versions of Windows Server 2008 R2**
 
@@ -62,9 +62,12 @@ The global version of this hotfix installs files that have the attributes that a
 
 
 
-In order to obtain this hotfix, it is necessary to contact [Microsoft Customer Service and Support](https://support.microsoft.com/contactus/?ws=support).
+To obtain this hotfix, it is necessary to contact [Microsoft Customer Service and Support](https://support.microsoft.com/contactus/?ws=support).
 
 
 ### Related articles 
 
 - [How to Log in to your Server Via RDP Windows](https://docs.rackspace.com/support/how-to/log-in-to-your-server-via-rdp-windows)
+
+Use the Feedback tab to make any comments or ask questions. You can also click **Sales Chat** to [chat now](https://www.rackspace.com/) and start the conversation.
+
