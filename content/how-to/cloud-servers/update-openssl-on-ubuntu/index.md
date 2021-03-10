@@ -12,37 +12,37 @@ product_url: cloud-servers
 ---
 
 OpenSSL is an open-source toolkit for Transport Layer Security (TLS) and
-Secure Sockets Layer (SSL) protocols, as well as cryptography library. The
-purpose of this article is to show how to update OpenSSL on the Ubuntu operating
+Secure Sockets Layer (SSL) protocols, as well as a cryptography library. The
+purpose of this article is to show how to update OpenSSL on the Ubuntu&reg; operating
 system.
 
 ### Check the current OpenSSL version
 
-To verify the OpenSSL installation and version you can execute the following
+To verify the OpenSSL installation and version, you can execute the following
 command:
 
     openssl version -a
 
 ### Update or install OpenSSL
 
-In case OpenSSL is not installed on your system, this step can be used to
-install or update to the newest version of the OpenSSL package.
+In case OpenSSL is not installed on your system, use this step to
+install or update it to the newest version of the OpenSSL package.
 
 1. Run the following instruction:
 
         sudo apt-get install openssl
 
-    **Note**: If the result line is `0 packages updated` it means there are no
+    **Note**: If the result line is `0 packages updated`, there are no
    available updates for the OpenSSL package.
 
 ### Update all system packages
 
-To update all system packages not only OpenSSL, you need to update the list of
+To update all system packages, not only OpenSSL, you need to update the list of
 available upgrades:
 
     sudo apt-get update
 
-To install all new available versions run the command:
+To install all available new versions, run the command:
 
     sudo apt-get upgrade
 
