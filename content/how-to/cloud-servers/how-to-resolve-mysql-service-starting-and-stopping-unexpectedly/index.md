@@ -1,7 +1,7 @@
 ---
 permalink: how-to-resolve-mysql-service-starting-and-stopping-unexpectedly/
 audit_date: '2021-03-11'
-title: How to Resolve MySQL Service Starting and Stopping Unexpectedly
+title: How to resolve MySQL service starting and stopping unexpectedly
 type: article
 created_date: '2021-03-11'
 created_by: Uriel Amar
@@ -11,66 +11,70 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article describes the process of resolving the following MySQL for Windows error:
+This article describes the process of resolving the following MySQL&reg; for Windows&reg; error:
 
-  `MySQL service on local computer started and then stopped. Some services stop automatically if they are not in use by other services or programs`
+    MySQL service on local computer started and then stopped. Some services stop automatically if they are not in use by other services or programs.
 
-The solution could vary depending on your version of MySQL. Solutions are listed in the order of priority by which they should be attempted
+The solution varies depending on your version of MySQL. Attempt the solutions in the order of the following sections.
 
 ### Restart the service
 
 Restart the MySQL service by running the following command: 
 
-  `mysqld --initialize' to start the service.  You will need to be logged in as root or use 'sudo -i' to run this command`
+    mysqld --initialize
+  
+You need to log in as `root` or use `sudo -i` to run this command.
     
 ### Reinstall the service
 
-Log in as the root user then reinstall the MySQL service by running the following sequence of commands: 
+Log in as `root` and reinstall the MySQL service by running the following commands: 
 
-  1. `mysqld --install`
-
-  2. `mysqld --initialize' as per the steps above` 
+    mysqld --install
+    mysqld --initialize 
 
 ### Verify the my.ini config file
 
-Certain versions of MySQL add invalid hex values at the beginning of the `my.ini` configuration file.  Deleting the first three hex values using a hex editor should resolve this issue.  This is due to an issue with a script line which specifies that each file must have a unique ID which then appends the byte order to mark the text file.  
+Certain versions of MySQL add invalid hex values at the beginning of the **my.ini** configuration file.
+Deleting the first three hex values using a hex editor should resolve this issue. This occurs because of an
+issue with a script line. The line specifies that each file must have a unique ID, which then appends the
+byte order to mark the text file.  
 
-If you have a backup of the original `my.ini` file, you can copy the contents of this file and manually paste them onto the current `my.ini` to resolve this issue.
+If you have a backup of the original **my.ini** file, you can copy the contents of this file and manually
+paste them onto the current **my.ini** to resolve this issue.
 
+### Verify the Network Service permissions
 
-### Verify Network Service permissions
+You might need to verify that the Network Service has the proper permissions. Use the steps in this section
+to verify these permissions are correct:
 
-You might need to verify the Network Service has the proper permissions. Use the steps in this section to verify these permissions are correct.
+1. Right-click the **Data** folder.
 
-1. Right-click the Data folder
+2. Select **Properties**.
 
-2. Select Properties
+3. Select the **Security** tab.
 
-3. Select the Security tab
+4. Click **Advanced**.
 
-4. Click Advanced
+5. Click **Change Permissions...**.
 
-5. Click Change Permissions...
+6. Click **Add...**.
 
-6. Click Add...
+7. Enter `NETWORK SERVICE`.
 
-7. Type `NETWORK SERVICE`
+8. Click **Check Names**.
 
-8. Click Check Names
+9. Click **OK**.
 
-9. Click OK
-
-10. Select Full Control
-
+10. Select **Full Control**.
 
 ### Check for missing default files
 
-It's possible that there are missing default files. Use the steps in this section to verify these whether a default file is missing.
+It's possible that default files are missing. Use the steps in this section to check for this missing default files:
 
-1. Open the command prompt
+1. Open the command prompt.
 
-2. Go to the MySQL `bin\` and run the following command: 
+2. Go to the MySQL **bin\** and run the following command:
 
-  `mysqld --defaults-file="C:\Program Files\MySQL\MySQL Server 5.0\my.ini" --standalone --console`
+       mysqld --defaults-file="C:\Program Files\MySQL\MySQL Server 5.0\my.ini" --standalone --console
 
 3. If it specifies a missing default folder, you should create a new default file.
