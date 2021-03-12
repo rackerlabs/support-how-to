@@ -1,34 +1,36 @@
 ---
 permalink: configure-always-on-mssql-server-failover-clusters/
-audit_date:
+audit_date: '2021-03-12'
 title: Configure Always-on MSSQL Server Failover Clusters
 type: article
 created_date: '2021-03-02'
 created_by: Ken Azuma
-last_modified_date: 
-last_modified_by: 
+last_modified_date: '2021-03-12'
+last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-# Configure Always-on MSSQL Server Failover Clusters
+This article provides guidance on the following always-on MSSQL&reg; server
+failover cluster configurations:
 
-This article provides guidance on the following Always-on MSSQL Server Failover Cluster configurations:
 - Rename a Failover Cluster
-- Add Dependencies to a SQL Server Resource
+- Add Dependencies to a SQL server resource
 - Configure Quorum NodeWeight Settings
 - Change the IP Address of a Failover Cluster Instance
 - Configure HealthCheckTimeout
 - Configure FailureConditionLevel
 
-## Rename a SQL Server Failover Cluster Instance
+### Rename a SQL Server Failover Cluster Instance
 
-### Limitations
-- SQL server supports renaming servers involved in replication only if Log Shipping with
-replication is in use. The secondary server can be renamed if the primary is permanently lost.
-- Replication must be turned off, if renaming a virtual server involved with it, before renaming the virtual
-server. Then, mirroring has to be re-established with the new virtual server name. Metadata for database
-mirroring must be updated manually to reflect the new virtual server name.
+#### Limitations
+- SQL server supports renaming servers involved in replication only if Log
+  Shipping with replication is in use. The secondary server can be renamed if
+  the primary is permanently lost.
+- Replication must be turned off, if renaming a virtual server involved with it,
+  before renaming the virtual server. Then, mirroring has to be re-established
+  with the new virtual server name. Metadata for database mirroring must be
+  updated manually to reflect the new virtual server name.
 
 ### Rename a virtual server
 
@@ -88,6 +90,7 @@ the cluster.
 ### Configure Quorum NodeWeight Settings
 
 From PowerShell, running as Administrator, use the following commands:
+
 ```sh
 Import-Module FailoverClusters
 $node = "<Node's Name>"
@@ -98,8 +101,6 @@ $cluster = (Get-ClusterNode $node).Cluster
 $nodes = Get-ClusterNode -Cluster $cluster
 $nodes | Format-Table -property NodeName, State, NodeWeight
 ```
-
-## Change the IP Address of a Failover Cluster Instance
 
 ### Prerequisites
 To maintain or update a Failover Cluster Instance, you must be a local administrator with permission to
@@ -128,13 +129,16 @@ Properties.
 ## Configure HealthCheckTimeout Property Settings
 
 ### Prerequisites
+
 Requires ALTER SETTINGS and VIEW SERVER STATE permissions.
 
 ### Limitations
+
 The values for this property are in milliseconds, the default value is 30,000 (30 seconds), and the minimum
 value is 15,000 (15 seconds).
 
 ### Configure HealthCheckTimeout Property Settings
+
 From PowerShell, running as Administrator, use the following commands:
 ```sh
 Import-Module FailoverClusters
@@ -146,9 +150,11 @@ milliseconds)>
 ## Configure FailureConditionLevel property settings
 
 ### Prerequisites
+
 Requires ALTER SETTINGS and VIEW SERVER STATE permissions.
 
 ### Using PowerShell
+
 From PowerShell run the following commands:
 ```sh
 Import-Module FailoverClusters
@@ -158,44 +164,28 @@ Get-ClusterResource $instance | Set-ClusterParameter FailureConditionLevel 3
 
 ### Using the Failover Cluster Manager Snap-in
 
-1. Open the Failover Cluster Manager snap-in.
+1. Open the **Failover Cluster Manager** snap-in.
 
-2. Click on the '+' next to Services and Applications and select the Failover Cluster Instance.
+2. Click on the plus sign next to **Services and Applications** and select the **Failover Cluster Instance**.
 
-3. Right-click the SQL Server resource under Other Resources, and then select Properties from the menu.
-The SQL Server resource Properties dialog box opens.
+3. Right-click the SQL server resource under **Other Resources** > **Properties** from the menu.
 
-4. Select the Properties tab, enter the desired value for the FaliureConditionLevel property, and then
+4. Select the **Properties** tab, enter the desired value for the `FaliureConditionLevel` property, and then
 click OK to apply the change.
 
 ### Using Transact-SQL
-`ALTER SERVER CONFIGURATION SET FAILOVER CLUSTER PROPERTY FailureConditionLevel = <desired
-level (0-5)>;`
 
-### Failure Conditions Reference:
-|Level|Condition|Description|
-|-|-|-|
-|0|No automatic failover or restart|Indicates that no failover or restart will be triggered automatically
-on any failure conditions. This level is for system maintenance purposes only.|
-|1|Failover or restart on server down|Indicates that a server restart or failover will be triggered if the
-following condition is raised: SQL Server service is down.|
-|2|Failover or restart on server unresponsive|Indicates that a server restart or failover will be triggered
-if any of the following conditions are raised: SQL Server service is down, SQL Server instance is not
-responsive (Resource DLL cannot receive data from sp_server_diagnostics within the
-HealthCheckTimeout settings).|
-|3*|Failover or restart on critical server errors|Indicates that a server restart or failover will be triggered
-if any of the following conditions are raised: SQL Server service is down, SQL Server instance is not
-responsive (Resource DLL cannot receive data from sp_server_diagnostics within the
-HealthCheckTimeout settings), System stored procedure sp_server_diagnostics returns 'system error'.|
-|4|Failover or restart on moderate server errors|Indicates that a server restart or failover will be
-triggered if any of the following conditions are raised: SQL Server service is down, SQL Server instance is
-not responsive (Resource DLL cannot receive data from sp_server_diagnostics within the
-HealthCheckTimeout settings), System stored procedure sp_server_diagnostics returns 'system error',
-System stored procedure sp_server_diagnostics returns 'resource error'.|
-|5|Failover or restart on any qualified failure conditions|Indicates that a server restart or failover will be
-triggered if any of the following conditions are raised: SQL Server service is down, SQL Server instance is
-not responsive (Resource DLL cannot receive data from sp_server_diagnostics within the
-HealthCheckTimeout settings), System stored procedure sp_server_diagnostics returns 'system error',
-System stored procedure sp_server_diagnostics returns 'resource error', System stored procedure
-sp_server_diagnostics returns 'query_processing error'.|
+    ALTER SERVER CONFIGURATION SET FAILOVER CLUSTER PROPERTY FailureConditionLevel = <desired level (0-5)>;
+
+### Failure Conditions Reference
+
+| Level | Condition | Description |
+|-------|-----------|-------------|
+|0|No automatic failover or restart|Indicates that no failover or restart will be triggered automatically | On any failure conditions. This level is for system maintenance purposes only. |
+|1|Failover or restart on server down|Indicates that a server restart or failover will be triggered if the following condition is raised: SQL Server service is down. |
+|2|Failover or restart on server unresponsive|Indicates that a server restart or failover will be triggered if any of the following conditions are raised: SQL Server service is down, SQL Server instance is not responsive (Resource DLL cannot receive data from sp_server_diagnostics within the HealthCheckTimeout settings).|
+|3*|Failover or restart on critical server errors|Indicates that a server restart or failover will be triggered if any of the following conditions are raised: SQL Server service is down, SQL Server instance is not responsive (Resource DLL cannot receive data from sp_server_diagnostics within the HealthCheckTimeout settings), System stored procedure sp_server_diagnostics returns 'system error'.|
+|4|Failover or restart on moderate server errors|Indicates that a server restart or failover will be triggered if any of the following conditions are raised: SQL Server service is down, SQL Server instance is not responsive (Resource DLL cannot receive data from sp_server_diagnostics within the HealthCheckTimeout settings), System stored procedure sp_server_diagnostics returns 'system error', System stored procedure sp_server_diagnostics returns 'resource error'.|
+|5|Failover or restart on any qualified failure conditions|Indicates that a server restart or failover will be triggered if any of the following conditions are raised: SQL Server service is down, SQL Server instance is not responsive (Resource DLL cannot receive data from sp_server_diagnostics within the HealthCheckTimeout settings), System stored procedure sp_server_diagnostics returns 'system error', System stored procedure sp_server_diagnostics returns 'resource error', System stored procedure sp_server_diagnostics returns 'query_processing error'.|
+
 *Default Value
