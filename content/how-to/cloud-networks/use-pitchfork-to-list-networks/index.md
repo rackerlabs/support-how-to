@@ -27,9 +27,10 @@ To learn how to log in to and use Pitchfork, refer to
 
 1. Click the **Networks** section.
 2. Navigate to the **Networks** > **List Networks**.
-3. Click on **Details**.
-4. Click **Send API Call**. The **Response Body** output of the API call
-   displays the Networks and status, as shown in the following example:
+3. Click **Details**.
+4. Click **Send API Call**.
+
+The **Response Body** output of the API call displays the Networks and status, as shown in the following example:
 
 ```json
 {
