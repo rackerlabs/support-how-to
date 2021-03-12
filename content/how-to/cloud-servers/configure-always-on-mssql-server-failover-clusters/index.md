@@ -1,7 +1,7 @@
 ---
 permalink: configure-always-on-mssql-server-failover-clusters/
 audit_date: '2021-03-12'
-title: Configure Always-on MSSQL Server Failover Clusters
+title: Configure Always-on MSSQL server failover clusters
 type: article
 created_date: '2021-03-02'
 created_by: Ken Azuma
@@ -21,13 +21,13 @@ failover cluster configurations:
 - Configure HealthCheckTimeout
 - Configure FailureConditionLevel
 
-### Rename a SQL Server Failover Cluster Instance
+### Rename a SQL server failover cluster instance
 
-#### Limitations
-- SQL server supports renaming servers involved in replication only if Log
+SQL server supports renaming servers involved in replication only if Log
   Shipping with replication is in use. The secondary server can be renamed if
   the primary is permanently lost.
-- Replication must be turned off, if renaming a virtual server involved with it,
+
+Replication must be turned off, if renaming a virtual server involved with it,
   before renaming the virtual server. Then, mirroring has to be re-established
   with the new virtual server name. Metadata for database mirroring must be
   updated manually to reflect the new virtual server name.
@@ -52,21 +52,16 @@ ipconfig /registerdns
 nbtstat -RR
 ```
 
-## Add Dependencies to a SQL Server Resource
+### Add Dependencies to a SQL server resource
 
-### Limitations
-
-- If you add any other resources to the SQL Server group, they must always have their own unique SQL
+If you add any other resources to the SQL Server group, they must always have their own unique SQL
 network name resources and their own SQL IP address resources.
-- The existing SQL network name resources and SQL IP address resources should never be used for
+The existing SQL network name resources and SQL IP address resources should never be used for
 anything other than SQL Server.
 
-### Prerequisites
-If you install MSSQL into a resource group with multiple disk drives and choose to place your data on
+Installing MSSQL into a resource group with multiple disk drives and choosing to place your data on
 one of them, the SQL Server resource will be set to be dependent only on that drive. Before putting data
 or logs on another disk, you must add a dependency to the SQL Server resource for the additional disk.
-
-### Add Dependencies to a SQL Server Resource
 
 1. Open the Failover Cluster Manager snap-in.
 
@@ -80,35 +75,30 @@ move the group containing the resource for the disk to the node that owns the SQ
 4. Select the SQL Server resource, open the Properties dialog box, and use the Dependencies tab to add
 the disk to the set of SQL Server dependencies.
 
-## Configure Quorum NodeWeight Settings
-
-### Prerequisites
+### Configure Quorum NodeWeight Settings
 
 The user must be a domain user and a member of the local Administrators group on each node of
 the cluster.
 
-### Configure Quorum NodeWeight Settings
-
-From PowerShell, running as Administrator, use the following commands:
+1. From PowerShell, running as Administrator, use the following commands:
 
 ```sh
 Import-Module FailoverClusters
 $node = "<Node's Name>"
 (Get-ClusterNode $node).NodeWeight = <Desired integer value (use 0 to remove the node's quorum
 vote)>
-# You can use the commands below to review the NodeWeight settings for all nodes in the cluster:
+You can use the commands below to review the NodeWeight settings for all nodes in the cluster:
 $cluster = (Get-ClusterNode $node).Cluster
 $nodes = Get-ClusterNode -Cluster $cluster
 $nodes | Format-Table -property NodeName, State, NodeWeight
 ```
 
-### Prerequisites
 To maintain or update a Failover Cluster Instance, you must be a local administrator with permission to
 logon as a service on all of its nodes.
 
 ### Change the IP Address of a Failover Cluster Instance
 
-1. Open the Failover Cluster Manager snap-in.
+1. Open the **Failover Cluster Manager** snap-in.
 
 2. Click on the '+' next to Services and applications, in the left pane and click on the Failover Cluster
 Instance.
@@ -126,20 +116,14 @@ Properties.
 
 8. Close the Failover Cluster Manager snap-in.
 
-## Configure HealthCheckTimeout Property Settings
+### Configure HealthCheckTimeout Property Settings
 
-### Prerequisites
-
-Requires ALTER SETTINGS and VIEW SERVER STATE permissions.
-
-### Limitations
+Requires `ALTER SETTINGS` and `VIEW SERVER STATE` permissions.
 
 The values for this property are in milliseconds, the default value is 30,000 (30 seconds), and the minimum
 value is 15,000 (15 seconds).
 
-### Configure HealthCheckTimeout Property Settings
-
-From PowerShell, running as Administrator, use the following commands:
+1. From PowerShell, running as Administrator, use the following commands:
 ```sh
 Import-Module FailoverClusters
 $instance = "SQL Server (INST1)"
@@ -147,13 +131,11 @@ Get-ClusterResource $instance | Set-ClusterParameter HealthCheckTimeout <Desired
 milliseconds)>
 ```
 
-## Configure FailureConditionLevel property settings
-
-### Prerequisites
+### Configure *FailureConditionLevel* property settings
 
 Requires ALTER SETTINGS and VIEW SERVER STATE permissions.
 
-### Using PowerShell
+#### Using PowerShell
 
 From PowerShell run the following commands:
 ```sh
