@@ -1,28 +1,35 @@
 ---
-permalink: using-pitchfork-to-list-networks/
-title: Using Pitchfork to List Networks
+permalink: use-pitchfork-to-list-networks/
+audit_date: '2021-03-12'
+title: Use Pitchfork to list networks
 type: article
+created_date: '2021-02-06'
 created_by: Rocio Rodriguez
-created_date: 2021-02-06
-last_modified_date: 
-last_modified_by: 
+last_modified_date: '2021-03-12'
+last_modified_by: Rose Morales
 product: Cloud Networks
 product_url: cloud-networks
 ---
 
-Cloud Networks lets you create and manage secure, isolated networks in the cloud. Use the following steps to list via API call [Cloud Networks](https://docs.rackspace.com/support/how-to/cloud-networks) all Cloud Networks that tenant has access to: 
+Cloud Networks lets you create and manage secure, isolated networks in the
+cloud. Use the following steps to list via API call
+[Cloud Networks](https://docs.rackspace.com/support/how-to/cloud-networks) all Cloud
+Networks that tenant has access to:
 
 ### Log in to Pitchfork
 
-Log in to the API tool Pitchfork [https://pitchfork.rax.io/](https://pitchfork.rax.io/)
+Log in to the API tool [Pitchfork](https://pitchfork.rax.io/).
 
-To learn how to log in to and use Pitchfork, refer to [Pitchfork—the Rackspace Cloud API web application](https://docs.rackspace.com/support/how-to/pitchfork-the-rackspace-cloud-api-web-application)
+To learn how to log in to and use Pitchfork, refer to 
+[Pitchfork—the Rackspace Cloud API web application](/support/how-to/pitchfork-the-rackspace-cloud-api-web-application).
 
-### Pitchfork: List networks
+### List networks
 
-1. After you log in to Pitchfork, click on the **Networks** section to pull up the Networks API calls.
-2. Navigate to the **Networks** section to find the **List Networks** API call. Then, click **Details** to expand the call.
-3. Click **Send API Call**. The **Response Body** output of the API call displays the Networks and status, as shown in the following example:
+1. Click the **Networks** section.
+2. Navigate to the **Networks** > **List Networks**.
+3. Click on **Details**.
+4. Click **Send API Call**. The **Response Body** output of the API call
+   displays the Networks and status, as shown in the following example:
 
 ```json
 {
