@@ -1,7 +1,7 @@
 ---
 permalink: basic-linux-directory-permissions-and-how-to-check-them/
 audit_date: '2021-03-12'
-title: Basic Linux Directory Permissions and How to Check Them
+title: Basic Linux directory permissions and how to check them
 type: article
 created_date: '2021-03-04'
 created_by: Coral Moore
@@ -11,106 +11,114 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### Basic Linux Directory Permissions and how to check them
 
-*For understanding what basic types of directory permissions there are, how they work, and how to check them*
+THis article explains the basic types of directory permissions, how they work, and how to check them.
 
-##### What are directory permissions and how do they apply?
+### What are directory permissions, and how do they apply?
 
-In Linux&reg;, a folder in which you store files is called a directory.
-When you log in to a Linux computer/server, what files and directories you can access are specified on each file/directory itself, not the user.
-Imagine if the folder **My Documents** and your Word document each get to decide who is allowed to open/view them.
-
-In this article, we will go over how these permissions are set up, keep in mind that they can be overridden.
+In Linux&reg;, a folder in which you store files is called a directory. Each file or directory specifies
+which users can access them. This article explains how you set these permissions and possibly override them.
 
 Override examples:
 
-* If you have a **chrooted/jailed** user, they can only access the files/directories they are jailed to.
-* If you have **sudo/root** level permissions, you can still bypass the file/directory permissions in place.
+* If you are a **chrooted/jailed** user, you can access only the files or directories to which you are jailed.
+* If you have **sudo/root**-level permissions, you can bypass the file or directory permissions.
 
 
-#### List files+directories:
+### List files and directories
+
+This section contains examples on Linux list operations.
 
 - List only the names of files and directories:
+
 ```sh
 # ls
 ```
+
 - List the files and directories with a lot more information:
+
 ```sh
 # ls -l
 # ll
 ```
 
 - List the files and directories and show all hidden files:
+
 ```sh
 # ls -a
 ```
-**Note:** The hidden files are often configuration files which are hidden to be kept safe.
 
-- List the files+directories with a lot more information and with the sizes in KB/GB instead of bits:
+**Note:** The hidden files are often configuration files that the system hides to keep them safe.
+
+- List the files and directories with a lot more information and with the sizes in KB or GB instead of bits:
+
 ```sh
 # ls -lh
 ```
 
+### Understand the results
 
-#### Understanding the results
-
-When you use -l, each file/directory should give you the following information:
+When you use `-l`, each file or directory should give you the following information:
 
 drwxr-xr-x. | jdoe | apache | 3864 | May  8  2021 | MyStuff
 -|-|-|-|-|-
 
-**Permissions.** If there is a *d* at the beginning, it's a directory, not a file
+Permissions | User Owner | Group Owner | Size in bits. Use -h to convert to KB/GB | When it was last edited	| Name
 
-| User Owner | Group Owner | Size in bits. Use -h to convert to KB/GB | When it was last edited	| Name
+**Permissions note**: If there is a *d* at the beginning, it's a directory, not a file
 
-Here is a [more in depth guide for how to use ls](https://docs.rackspace.com/support/how-to/checking-linux-file-permissions-with-ls)
+Here is a [more in depth guide for how to use ls](/how-to/checking-linux-file-permissions-with-ls/)
 
 #### User, group, other
 
-Each file/directory has 3 types of user authorities which it will recognise:
-* The user who is set as the **User Owner**
-* Any users in the group which is set as the **Group Owner**
-* Anyone else who is not in those first two categories is known as **Other**
+Each file and directory has three types of user authorities which it recognizes:
 
-A common group on Linux servers is apache, so that anyone working on the websites can be added to the apache group.
-They then have the access they need to all web site related files+directories.
+* The user who is set as the **User Owner**.
+* Any users in the group who is set as the **Group Owner**.
+* Anyone who is not in those first two categories is known as **Other**.
 
-Change the user owner of a file/directory:
+A common group on Linux servers is `apache`, so you can add anyone working on the websites to the `apache` group.
+They then have the access they need to all website-related files and directories.
+
+- Change the user owner of a file or directory:
+
 ```sh
 # chown <user>: /MyStuff
 ```
-Change the group owner of a file/directory:
+
+- Change the group owner of a file or directory:
+
 ```sh
 # chown :<group> /MyStuff
 ```
-Change the user owner + group owner of a file/directory:
+
+Change the user owner + group owner of a file or directory:
+
 ```sh
 # chown <user>:<group> /MyStuff
 ```
-Change the user owner and group owner of a file/directory and everything inside of it:
 
-**Note:** Be careful with this command, as you are changing multiple files with no 'undo' option.
+Change the user owner and group owner of a file or directory and everything inside of it:
+
+**Note:** Be careful with this command, as you are changing multiple files with no undo option.
 
 ```sh
 # chown -R <user>:<group> /MyStuff
 ```
 
-
 #### Read, write, execute
 
-Once a file/directory recognises you as a user owner, group owner or other, it has 3 permissions assigned:
+After a file or directory recognizes you as a user owner, group owner, or other, it assigns a combination of the following permissions:
 
-* r &emsp; read &emsp; To read/view
-* w &emsp; write &emsp; To write to/modify
-* x &emsp; execute &emsp; To execute an executable file, or search for a directory
+- **r**: The read permission lets you view or read the file or directory.
+* **w**: The write permission lets you write or modify the file or directory.
+* **x**: The execute permission lets you execute an executable file or search a directory.
 
-Each user authority is assigned these, in order, where a - represents that permission being absent.
-For example if you see **rwxr-xr--**:
+Each user authority is assigned these, in order, where a `-` represents that permission being absent.
+For example, the following table explains the permissions **rwxr-xr--**: 
 
 rwx | r-x | r--
 -|-|-
-
 The first part, User Owner permissions | The second part, Group Owner permissions | The third part, Other permissions
 read, write, execute | read, execute | read
 
@@ -119,40 +127,43 @@ This user can do anything | This user can look at and execute the file. But not 
 An easy way to visualize this is with:
 ![](https://one.rackspace.com/download/attachments/745610859/image2021-3-3_12-33-44.png?version=1&modificationDate=1614774824701&api=v2)
 
+### How to change permissions with letters
 
-#### How to change permissions with letters
+- Change file or directory permissions:
 
-Change file/directory permissions:
 ```sh
 # chmod ugo+-=rwx /MyStuff
 ```
-* Use any combination of **ugo** to represent user, group, other
-* Use any combination of **+\-=** to represent adding, removing, or exacting
-* Use any combination of **rwx** to represent read, write, execute
 
-For example if you want to **give other read** permissions:
+* Use any combination of **ugo** to represent user, group, other.
+* Use any combination of **+\-=** to represent adding, removing, or changing the current permissions to the specified permissions.
+* Use any combination of **rwx** to represent read, write, execute.
+
+- Give **read** permissions to **other**:
+
 ```sh
 # chmod o+r /MyStuff
 ```
-If you want to **remove modify and execute** permissions for **group and other**:
+
+Remove **modify and execute** permissions for **group and other**:
+
 ```sh
 # chmod go-wx /MyStuff
 ```
 
-A chart which might help to visualise this:
+The following chart helps illustrate this concept:
 
 u user | + | r read
 -|-|-
 g group | - | w write
 o other | = | x execute
 
-**Note:** Chmod can also use -R to recursively change all files/directories within that directory.
-As before, proceed with caution as there is no `undo`.
-
+**Note:** `chmod` can also use `-R` to recursively change all files and directories within that directory.
+As before, proceed with caution as there is no undo option.
 
 #### How to change permissions with numbers
 
-Change file/directory permissions:
+- Change file or directory permissions:
 
 ```sh
 # chmod 777 /MyStuff
@@ -166,7 +177,7 @@ r read = 4 | | |
 write = 2 | | |
 x execute = 1 | | |
 
-For example if you want to give **rwxr-xr--** permissions:
+- Give **rwxr-xr--** permissions:
 
 &nbsp; | u user | g group | o other
 -|-|-|-
@@ -175,80 +186,76 @@ write = 2 | ✓ | |
 x execute = 1 | ✓ | ✓ |
 &nbsp; | 4+2+1 = **7** | 4+1 = **5** | **4**
 
-And you would use:
+Use the following command:
 
 ```sh
 # chmod 754 /MyStuff
 ```
 
-Chmod can also use `-R` to recursively change all files/directories within that directory.
-**Note:** Proceed with caution as there is no `undo`.
+**Note:** `chmod` can also use `-R` to recursively change all files and directories within that directory.
+As before, proceed with caution as there is no undo option.
 
-Here is a [more in depth guide for how to use chmod](https://docs.rackspace.com/support/how-to/changing-linux-permissions)
+Here is a [more in depth guide for how to use chmod](/how-to/changing-linux-permissions/)
 
-**WARNING:***
+**WARNING:** Do not use `chmod 777` unless you are positive it's okay.
 
-**DO NOT chmod 777 unless you KNOW it's okay**
+Linux, by default, has many security measures in place. However, some configuration files are not intended to be executed
+or modified by anyone. These are founding files that enable basic functions for the computer or server. For example, they
+determine how to turn on and allow users to log in. If they are set to 777, the computer or server assumes that it was
+hacked and *shuts everything down*.
 
-Linux, by default has many security measures in place, and not all configuration files are intended to be executed/modified by anyone.
-They are founding files which enable basic functions for the computer/server eg. How to turn on, allow users to log in.
-If they are set to 777, the computer/server assumes that it has been hacked, and `shuts everything down`.
+In that case, you cannot log in, you cannot turn the device on, and it is irretrievable.
 
-You will not be able to log in, you will not be able to turn it on, it will be irretrievable.
+This is a very easy way to break your server entirely, so use `chmod` with care.
 
-This is a **very easy way to entirely break your server**, so please use chmod with care.
-
-
-#### How to practice:
+### How to practice:
 
 Create a directory:
+
 ```sh
 # mkdir /MyStuff
 ```
-You are then free to `ls -l`, `chown`, and `chmod this empty directory as much as you like.
-When you are done, you can...
 
-Delete a directory:
+You are then free to `ls -l`, `chown`, and `chmod` this empty directory as much as you like.
+When you are done, clean up after yourself.
+
+Delete the directory:
+
 ```sh
 # rmdir /MyStuff
 ```
 
-#### More Advanced Scenarios:
+### More advanced scenarios
 
-##### Scenario 1:
+Here some scenarios to explore:
 
-The user `jdoe` needs access to a specific directory
-But you want to keep the user owner and group owners as they are
+#### Scenario 1
+
+The user `jdoe` needs access to a specific directory. However, you want to keep the user owner and group owners as they are.
 
 Options:
 
-* **Add jdoe to the group** which owns the directory
- Though this would give them access to all other files/directories owned by that group
-* **Give more permissions to 'Other'** on that directory
- Though this would give that access to all other users on your computer/server
-* **Give jdoe sudo** permissions
- sudo can be used to override individual file/directory permissions
-        Though this user would then have the admin permissions to access anything on your computer/server
+* **Add jdoe to the group** that owns the directory. This gives `jdoe` access to all other files or directories owned by that group.
+* **Give more permissions to 'Other'** on that directory. This gives that access to all other users on your computer or server.
+* **Give jdoe `sudo`** permissions. `jdoe` can use `sudo` to override individual file or directory permissions. However, 'jdoe'
+  would then have the admin permissions to access anything on your computer or server.
 
-##### Scenario 2:
+#### Scenario 2
 
-Your developer wants `/etc` and everything in it to be changed to 777 permissions.
+Your developers want to change **/etc** and everything in it to `777` permissions.
 
-Answer:
-
-**TELL THEM NO**
+Answer: **TELL THEM NO**.
 
 There are many system files which will break and potentially bring down your *entire server*.
-Instead, ask them specifically which files/directories they need access to, and what type of access they need.
+Instead, ask them specifically which files or directories they need access to and what type of access they need.
 
 Here is a [more in depth guide for understanding Linux file permissions](https://docs.rackspace.com/support/how-to/linux-file-permission-concepts)
 
+#### Scenario 3
 
-##### Scenario 3:
+**t s S +:** If you run `ls -l` and see permissions which include a **t s S or +**, do not proceed.
 
-**t s S +:** If when running ls -l you see permissions which include a **t s S or +**, DO NOT PROCEED.
-
-These are more advanced file/directory permissions like SUIDs, Sticky Bits, and ACLs.
-They are more complex, but can be completely overriden with a regular chmod command.
+These are more advanced file and directory permissions like SUIDs, Sticky Bits, and ACLs.
+They are more complex, but can be completely overriden with a regular `chmod` command.
 
 Use the Feedback tab to make any comments or ask questions. You can also click **Let's Talk** to [start the conversation](https://www.rackspace.com/). 
