@@ -334,8 +334,8 @@ If you need additional assistance, contact us at [how-to@rackspace.com](mailto:h
 
 ### How-to products
 
-{{< table "table  table-striped table-bordered" >}}
 | Product | Product URL |
+| --- | --- |
 | Account Management | account-management |
 | Cloud Backup | cloud-backup |
 | Cloud Block Storage | cloud-block-storage |
@@ -347,7 +347,7 @@ If you need additional assistance, contact us at [how-to@rackspace.com](mailto:h
 | Cloud Networks | cloud-networks |
 | Cloud Orchestration | cloud-orchestration |
 | Cloud Queues | cloud-queues |
-| |Cloud Servers | cloud-servers |
+| Cloud Servers | cloud-servers |
 | Dedicated Hosting | dedicated-hosting |
 | Microsoft Exchange | exchange |
 | General | general |
@@ -373,6 +373,7 @@ If you need additional assistance, contact us at [how-to@rackspace.com](mailto:h
 
 Following is a default example of article metadata:
 
+```
 ---
 permalink: cloud-database-instance-parameters
 audit_date: '2021-01-31'
@@ -385,3 +386,4 @@ last_modified_by:
 product: Cloud Databases
 product_url: cloud-database
 ---
+```
