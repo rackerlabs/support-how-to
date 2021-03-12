@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-wordPress-refusing-an-ftp-connection/
+permalink: troubleshoot-wordpress-refusing-an-ftp-connection/
 audit_date: '2021-03-12'
 title: "Troubleshoot WordPress refusing an FTP connection"
 type: article
@@ -22,7 +22,9 @@ in this article if you get the following error:
     **wp-content/debug.log**. It also hides the errors so that they do not interrupt page generation.
     
     a. Open **wp-config.php** in an editor.
+    
     b. Insert a new line above the line: **That's all, stop editing! Happy blogging.**
+    
     c. Insert the following lines where you added the new line and save the file:
 
         // Enable WP_DEBUG mode
@@ -44,7 +46,9 @@ in this article if you get the following error:
 5. Add your FTP details in **wp-config.php**.
 
     a. Open **wp-config.php** in an editor.
+    
     b. Insert a new line above the line: **That's all, stop editing! Happy blogging.**
+    
     c. Insert the following lines where you added the new line and save the file:
 
         define( 'FS_METHOD', 'ftpext' );
@@ -64,4 +68,4 @@ If you continue to experience this error, install this plugin:
 http://wordpress.org/plugins/ssh-sftp-updater-support/.
 
 Installing the plugin adds the option for SFTP. After you install it, you can select **SSH2** when prompted for
-your FTP login information by choosing **SSH2*** at the bottom of the page. Leave the **private key** box empty.
+your FTP login information by choosing **SSH2** at the bottom of the page. Leave the **private key** box empty.
