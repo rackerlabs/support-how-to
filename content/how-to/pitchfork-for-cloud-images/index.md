@@ -11,41 +11,39 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Use the following steps to create, share, delete, list or update 
-[Cloud Images](https://docs.rackspace.com/support/how-to/cloud-images-faq/) via API
-using Pitchfork:
+Use the following steps to create, share, delete, list, or update 
+[Cloud Images](https://docs.rackspace.com/support/how-to/cloud-images-faq/) throught the API
+by using Pitchfork:
 
 ### Log in to Pitchfork
 
-Log in the API tool [Pitchfork]](https://pitchfork.rax.io/).
+Log in to the API tool [Pitchfork]](https://pitchfork.rax.io/).
 
-To learn how to log in to and use Pitchfork, refer to [Pitchfork—the Rackspace Cloud API web application](https://docs.rackspace.com/support/how-to/pitchfork-the-rackspace-cloud-api-web-application)
+To learn how to log in to and use Pitchfork, see [Pitchfork—the Rackspace Cloud API web application](https://docs.rackspace.com/support/how-to/pitchfork-the-rackspace-cloud-api-web-application).
 
 ### Using cloud images
 
-1. After you log in to Pitchfork, click on the **Images**.
+1. After you log in to Pitchfork, click **Images**.
 
 2. Navigate to **Images** API calls and click **Details** to expand the call.
 
-    **Operations:** With these type of calls you can perform actions like listing,
-    adding, replacing or removing images.
+    **Operations:** List, add, replace, or remove images.
 
-    **Sharing:** With these type of calls you can manage (list, delete or update)
-    Image Members.
+    **Sharing:** List, delete, or update image members.
 
-    **Tasks:** You can request to export an image, get details, import or list a
+    **Tasks:** Request to export an image, get details, import, or list a
     specified task.
 
     **Tags:** Add or delete a specified tag of a specified image.
 
-    **Schema:** Get a schema document or json schema that represents members or
+    **Schema:** Get a schema document or JSON schema that represents members or
     single image entities.
 
-3. Fill the **Parameters** and click **Send API Call**.
+3. Fill in the **Parameters** and click **Send API Call**.
 
-4. You will get a JSON response with the information you requested.
+When the operation complets, you get a JSON response with the information you requested.
 
-### Example of List Image Response Body
+### Example of the response bodyfor a *List Image* request
 
  ```"images": [
         {
