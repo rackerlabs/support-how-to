@@ -1,54 +1,51 @@
 ---
 permalink: mysql-user-and-database-basics/
+audit_date: '2021-03-12'
 title: MySQL User and Database Basics
 type: article
 created_by: Coral Moore
-created_date: 2021-03-02
-last_modified_date: 
-last_modified_by: 
+created_date: '2021-03-02'
+last_modified_date: '2021-03-12'
+last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
 What is MySQL?
 
-Databases are an organised collection of data.
-Here you would store pure data like credit card information, product IDs, prices, lists of things etc.
-You would not store more complex things like images, files, or documents.
-If it helps, it's a little like Microsoft Excel where you only copy in the raw data to be stored/processed/retrieved later.
-And MySQL is a very commonly used type of Linux database.
+Databases are an organised collection of pure data like credit card information, product IDs, prices, lists of things etc.
+Their purpose does not extend to more complex things like images, files, or documents.
+It resembles Microsoft Excel that allows you to copy raw data to be stored, processed or retrieved later.
+MySQL is commonly used by Linux&reg; operating systems.
 
-
-
-MySQL vs MariaDB:
+### MySQL vs MariaDB:
 
 You might have MySQL installed, but it looks like it's called MariaDB.
 When MySQL was acquired by Oracle in 2010, the original founders then created MariaDB as a like-for-like replacement in case MySQL was ever discontinued.
 So MySQL and MariaDB are are largely the same and thought to be interchageable.
 At the time of writing this article, all of the following information applies to both.
 
-
 Check which version you have:
 
-# mysql -v
+    mysql -v
 
 How to log in:
 Method 1. SSH in as root, then log in to MySQL
 This may already be set up by default. If so, please be careful and leave it alone!
 If not, please create this file with your chosen text editor:
 
-# vim /root/.my.cnf
-[client]
-user=root
-password=<password>
+    vim /root/.my.cnf
+    [client]
+    user=root
+    password=<password>
 
 Or if you prefer, you can instead create this with:
 
-# echo -e "\n[client]\nuser=root\npassword=<PASSWORD>" >> /root/.my.cnf
+    echo -e "\n[client]\nuser=root\npassword=<PASSWORD>" >> /root/.my.cnf
 
 After which, if you are SSH'd in to your server as root, you can log in to MySQL very easily:
 
-# mysql
+    mysql
 
 Method 2. SSH to the server, then log in to MySQL
 If you SSH in to your server first, your user is connecting to MySQL from the 'localhost'
@@ -56,94 +53,45 @@ As you are already on the machine where MySQL is installed.
 
 Log in from localhost:
 
-# mysql -u <USER> -p
+    mysql -u <USER> -p
 
 Method 3. Connect directly to MySQL
 If you wish to connect directly to MySQL, you will need the hostname or IP of the server you wish to connect to:
 
 Log in from your computer:
 
-# mysql -h <HOSTNAME_OR_IP> -u <USER> -p
+    mysql -h <HOSTNAME_OR_IP> -u <USER> -p
+ 
+### Basic MySQL commands
 
-Click here for more information about how to connect remotely
+**Note**: MySQL commands with a semi colon (;).
 
+| Command | Description |
+|---------|-------------|
+| List databases | show databases; |
+| Create a database | create database <DATABASE>; |
+| Delete a database | drop database <DATABASE>; |
+| Show db users | select user, host from mysql.user; |
+| Show db users and encrypted passwords | select user, host, password from mysql.user; |
+| Create a user with full permissions | grant all on *.* to sher@localhost identified by "sdF5"; |
+| Rename user or change host | rename user user@ip1 to user@ip2; |
+| Refresh | flush priviledges; |
+| Show user permissions | show grants for 'sher'@localhost; |
+| Add user permissions | GRANT SELECT,INSERT,UPDATE on dbase.* to sher@localhost; |
+| Remove user permissions | revoke ALL on *.* from sher@localhost; | 
 
-Basic MySQL commands:
-End all MySQL commands with a semi colon ;
+### DB's Privileges
 
-List databases:
-
-> show databases;
-
-Create a database:
-
-> create database <DATABASE>;
-
-Delete a database:
-
-> drop database <DATABASE>;
-
-
-
-Users:
-show db users:
-
-> select user, host from mysql.user;
-
-show db users+encrypted passwds:
-
-> select user, host, password from mysql.user;
-
-User hosts:
-All users connect from somewhere.
-Localhost means they SSH in to the server first, THEN connect to MySQL
-Or they can connect DIRECTLY to MySQL from their IP
-
-
-
-create user with full permissions:
-
-> grant all on *.* to sher@localhost identified by "sdF5";
-
-This can be for localhost, IP, or % everywhere (which we don't recommend):
-
-> grant all on *.* to sher@134.213.179.10 identified by "sdF5";
-
-rename user/change host:
-
-> rename user user@ip1 to user@ip2;
-
-refresh:
-
-> flush privileges;
-
-Privileges / grants / permissions:
-If a customer asks for read/write/execute, they don’t know what they are talking about
-
-show user permissions:
-
-> show grants for 'sher'@localhost;
-
-add user permissions:
-
-> GRANT SELECT,INSERT,UPDATE on dbase.* to sher@localhost;
-
-remove user permissions:
-
-> revoke ALL on *.* from sher@localhost;
-
-ALL PRIVILEGES   All access (to specific DB / everything)
-CREATE           Create new tables / DBs
-DROP             Delete tables / DBs
+ALL PRIVILEGES   All access (to specific DB)
+CREATE           Create new tables or DB's
+DROP             Delete tables or DB's
 DELETE           Delete rows from tables
 INSERT           Insert rows into tables
-SELECT           Use the Select command to read through DBs   (read only)
+SELECT           Use the Select command to read through DB's (read only)
 UPDATE           Update table rows
 USAGE            No privileges, default
-GRANT OPTION     Grant / remove other users' privileges
-CRUD is Create, Read, Update, Delete (create,select,update,delete)
-
- 
+GRANT OPTION     Grant or remove other users' privileges
+CRUD             Create, Read, Update, Delete (create,select,update,delete)
 
 Most common:
 create a database:
