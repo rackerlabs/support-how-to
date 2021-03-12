@@ -65,9 +65,9 @@ drwxr-xr-x. | jdoe | apache | 3864 | May  8  2021 | MyStuff
 
 Permissions | User Owner | Group Owner | Size in bits. Use -h to convert to KB/GB | When it was last edited	| Name
 
-**Permissions note**: If there is a *d* at the beginning, it's a directory, not a file
+**Permissions note**: If there is a *d* at the beginning, it's a directory, not a file.
 
-Here is a [more in depth guide for how to use ls](/how-to/checking-linux-file-permissions-with-ls/)
+Here is a [more in depth guide for how to use the `ls` command](/how-to/checking-linux-file-permissions-with-ls/).
 
 #### User, group, other
 
@@ -110,21 +110,22 @@ Change the user owner and group owner of a file or directory and everything insi
 
 After a file or directory recognizes you as a user owner, group owner, or other, it assigns a combination of the following permissions:
 
-- **r**: The read permission lets you view or read the file or directory.
+* **r**: The read permission lets you view or read the file or directory.
 * **w**: The write permission lets you write or modify the file or directory.
 * **x**: The execute permission lets you execute an executable file or search a directory.
 
 Each user authority is assigned these, in order, where a `-` represents that permission being absent.
 For example, the following table explains the permissions **rwxr-xr--**: 
 
-rwx | r-x | r--
+rwx | r-x | r\-\-
 -|-|-
 The first part, User Owner permissions | The second part, Group Owner permissions | The third part, Other permissions
 read, write, execute | read, execute | read
 
 This user can do anything | This user can look at and execute the file. But not modify it | This user can only look at it
 
-An easy way to visualize this is with:
+The following image provides an easy way to visualize this:
+
 ![](https://one.rackspace.com/download/attachments/745610859/image2021-3-3_12-33-44.png?version=1&modificationDate=1614774824701&api=v2)
 
 ### How to change permissions with letters
