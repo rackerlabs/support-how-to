@@ -1,44 +1,51 @@
 ---
-permalink: using-pitchfork-for-cloud-images/
-title: Using Pitchfork for Cloud Images
+permalink: pitchfork-for-cloud-images/
+audit_date: '2021-03-12'
+title: Pitchfork for Cloud Images
 type: article
+created_date: '2021-02-06'
 created_by: Rocio Rodriguez
-created_date: 2021-02-06
-last_modified_date: 
-last_modified_by: 
+last_modified_date: '2021-03-12'
+last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Use the following steps to create, share, delete, list or update [Cloud Images](https://docs.rackspace.com/support/how-to/cloud-images-faq/) via API using Pitchfork:
+Use the following steps to create, share, delete, list or update 
+[Cloud Images](https://docs.rackspace.com/support/how-to/cloud-images-faq/) via API
+using Pitchfork:
 
 ### Log in to Pitchfork
 
-Log in to the API tool Pitchfork [https://pitchfork.rax.io/](https://pitchfork.rax.io/)
+Log in the API tool [Pitchfork]](https://pitchfork.rax.io/).
 
 To learn how to log in to and use Pitchfork, refer to [Pitchfork—the Rackspace Cloud API web application](https://docs.rackspace.com/support/how-to/pitchfork-the-rackspace-cloud-api-web-application)
 
-### Using pitchfork: Images
+### Using cloud images
 
-1. After you log in to Pitchfork, click on the **Images** section to pull up the Images API calls.
+1. After you log in to Pitchfork, click on the **Images**.
 
-2. Navigate to the section you prefer to find the Images API calls. Then, click **Details** to expand the call.
+2. Navigate to **Images** API calls and click **Details** to expand the call.
 
-**Operations:** With these type of calls you can perform actions like listing, adding, replacing or removing images.
+    **Operations:** With these type of calls you can perform actions like listing,
+    adding, replacing or removing images.
 
-**Sharing:** With these type of calls you can manage (list, delete or update) Image Members.
+    **Sharing:** With these type of calls you can manage (list, delete or update)
+    Image Members.
 
-**Tasks:** You can request to export an image, get details, import or list a specified task.
+    **Tasks:** You can request to export an image, get details, import or list a
+    specified task.
 
-**Tags:** Add or delete a specified tag of a specified image.
+    **Tags:** Add or delete a specified tag of a specified image.
 
-**Schema:** Get a schema document or json schema that represents members or single image entities.
+    **Schema:** Get a schema document or json schema that represents members or
+    single image entities.
 
-3. Fill the **Parameters** if needed and click **Send API Call**.
+3. Fill the **Parameters** and click **Send API Call**.
 
 4. You will get a JSON response with the information you requested.
 
-### Example of List Image Response Body:
+### Example of List Image Response Body
 
  ```"images": [
         {
@@ -88,4 +95,3 @@ To learn how to log in to and use Pitchfork, refer to [Pitchfork—the Rackspace
             "com.rackspace__1__source": "kickstart"
         }
  ```
-You can now perform **Images** API calls.
