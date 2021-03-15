@@ -25,7 +25,7 @@ This article describes how to manage individual user spam settings and how to sa
     - **Deliver to Spam folder**: Send spam messages to the user's Spam folder. If you want to automatically delete
       messages from this folder, select the **Delete after *n* days or *n* total email** check box and enter a
       specified number of days or total emails.
-    - **Delete the email immediately**: Automatically delete spam messages and does not deliver them to the user's
+    - **Delete the email immediately**: Automatically delete spam messages and do not deliver them to the user's
       mailbox. Email is permanently deleted and unretrievable.
     - **Include "\[SPAM\]" at the beginning of the subject line**: Deliver spam messages to the user's Inbox but
       includes the text "\[SPAM\]" in the subject line.
