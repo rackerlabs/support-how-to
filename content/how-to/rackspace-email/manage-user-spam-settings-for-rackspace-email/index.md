@@ -18,34 +18,40 @@ This article describes how to manage individual user spam settings and how to sa
 3. In the **Spam Settings** section, click the **Spam Settings**.
 4. If you have multiple domains, select a domain name. Or, to change domains at any time, click the **dropdown arrow**.
 5. In the **Status** section, turn spam filtering on or off. Or, select **Exclusive** to receive email only from senders on the safelist.
-6. If you turned spam filtering on, indicate how messages should be handled for Rackspace Email:
+6. If you turned spam filtering on, indicate how Rackspace Email should handle messages:
 
-    - **Deliver to Spam folder** - Spam messages are sent to the user's Spam folder. If you want to automatically delete messages from this folder, select the **Delete after *n* days or *n* total email** check box and enter a specified number of days or total emails.
-    - **Delete the email immediately** - Spam email will be deleted automatically and not delivered to the user's mailbox. Email will be permanently deleted and will not be retrievable.
-    -   **Include "\[SPAM\]" at the beginning of the subject line** - Spam email
-    will be delivered to the user's Inbox, but will include the text "\[SPAM\]" in the Subject line.
-    - **Deliver to the email address** - Spam messages are sent to an address in your domain that you specify.
+    - **Deliver to the Spam folder**: Send spam messages to the user's Spam folder. If you want to automatically delete
+      messages from this folder, select the **Delete after *n* days or *n* total email** check box and enter a specified
+      number of days or total emails.
+    - **Delete the email immediately**: Delete spam email automatically and do not deliver it to the user's mailbox. Email
+      is permanently deleted, and you cannot  retrieve it.
+    - **Include "\[SPAM\]" at the beginning of the subject line**: Deliver spam email to the user's Inbox and include the text
+      "\[SPAM\]" in the Subject line.
+    - **Deliver to the email address**: Send spam messages to an address in your domain that you specify.
 
-7. If you turned spam filtering on, indicate how messages should be handled for Microsoft Exchange:
+7. If you turned spam filtering on, indicate how Microsoft Exchange should handle messsges:
 
-    - **Send spam to recipient junk folder (and non-user spam to recipient quarantine)** - Spam emails
-    will be directed to the recipient's junk email folder unless sent to a non-user object such as an
-    Exchange contact, reaource, etc. 
-    - **Send spam to domain quarantine** - Spam will be directed to the
-    domain-level quarantine, rather than to the individual Quarantine Manager for the mailbox.
+    - **Send spam to recipient junk folder (and non-user spam to recipient quarantine)**: Direct spam emails
+    to the recipient's junk email folder unless they were addresssed to a non-user object such as an
+    Exchange contact, resource, and so on. 
+    - **Send spam to domain quarantine**: Direct spam to the domain-level quarantine rather than to the individual
+      Quarantine Manager for the mailbox.
 
-      **Note:** To log in to the domain-level Quarantine Manager, click the **Log into the Quarantine Manager** link. Email that is filtered as spam will be directed to the domain-level Quarantine Manager, where the administrator can then view and delete quarantined emails, or mark them as **Not Spam**.
+      **Note:** To log in to the domain-level Quarantine Manager, click the **Log into the Quarantine Manager** link. The system directs
+      email that is filtered as spam to the domain-level Quarantine Manager, where the administrator can then view and delete quarantined
+      emails or mark them as **Not Spam**.
 
-    - **Send quarantine notifications to** - If you choose to send spam to the
-    user's quarantine, they will receive quarantine updates by default.
-    To receive email updates at an additional address, enter an email
-    address in the **Send quarantine notifications to** box.
+    - **Send quarantine notifications to**: If you choose to send spam to the user's quarantine, they receive quarantine updates
+      by default. To receive email updates at an additional address, enter an email address in the **Send quarantine notifications to** box.
 
 8. Set override options by choosing one of the following options:
 
-   - **Set preferences only for users who have not set their own** - This default selection manually toggles the settings on this page and does not affect any current ongoing spam filter settings for other mailboxes.
-   - **Override preferences for all users regardless of their own preferences** - This option manually toggles the settings on this page when you select the radio button and click **Save**. It does not stay enabled, and it only serves as a one-time update for the preferences.
+   - **Set preferences only for users who have not set their own**: This default selection manually toggles the settings on this
+     page and does not affect any current ongoing spam filter settings for other mailboxes.
+   - **Override preferences for all users regardless of their own preferences**: This option manually toggles the settings on
+     this page when you select the radio button and click **Save**. It does not stay enabled, and it serves only as a one-time
+     update for the preferences.
 
-9. Click the **Save** button.
+9. Click **Save**.
 
-Use the Feedback tab to make any comments or ask questions. You can also click **Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also click **Let's Talk** to [start the conversation](https://www.rackspace.com/).
