@@ -11,24 +11,24 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article shows you how to set up your Rackspace Email account using
+This article shows you how to set up your Rackspace Email account by using
 your Thunderbird&reg; email client.
 
 1. Open Thunderbird.
-2. From the welcome screen, click **Email**
+2. From the welcome screen, click **Email**.
 
    {{<image src="Picture1.png" alt="" title="">}}
 
-3. In the Mail Account Setup dialog box, enter the following information in the fields provided:
+3. In the **Mail Account Setup** dialog box, enter the following information in the fields provided:
 
-    -   **Your name**: Enter the name that you want to appear in the
-        **From** field of messages that you send.
+    -   **Your name**: Enter the name you want to appear in the
+        **From** field of messages you send.
     -   **Email address**: Enter your entire email address (for example,
         **yourName@example.com**).
-    -   **Password**: Enter the password for the email account that you
+    -   **Password**: Enter the password for the email account you
         are setting up.
-
-4. If Thunderbird is unable to automatically set up your account, the dialog box will expand to show new fields.
+        
+4. If Thunderbird can't set up your account automatically, the dialog box expands to show new fields.
 
 5. Enter the following values in the Incoming column:   
 
@@ -52,11 +52,12 @@ your Thunderbird&reg; email client.
 
 The **Authentication** fields should change to **Normal Password**, and the following message should appear in the middle of the screen:
 
-    `The following settings were found by probing the given server`.
+    `The following settings were found by probing the given server.`
 
 8.  Click **Done**.
 
-    The setup process is done. Your mailbox should be added in Thunderbird, and mail should start populating the Inbox.
+    
+When the setup process completes, your mailbox should display in Thunderbird, and mail should start populating the Inbox.
 
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/). 
