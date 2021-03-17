@@ -16,8 +16,8 @@ Rackspace Email.
 
 #### How do you enable and disable Rackspace Webmail Chat on your private label site?
 
-You can display the chat link or prevent the chat link from being
-displayed in your private label Webmail site by performing the following
+You can display the chat link or prevent the chat link from
+displaying in your private label Webmail site by performing the following
 steps in the Cloud Office Control Panel.
 
 **For direct customers:**
@@ -51,6 +51,7 @@ the following steps in the Cloud Office Control Panel.
 4.  Select a domain.
 5.  Under **Admin-only Settings**, set Chat to **Enabled** or **Disabled**.
 6.  Click **Save**.
+
 #### How do you enable or disable HTML5 notifications after the initial permissions request?
 
 You can do this in Chrome&reg; by following these steps:
@@ -58,7 +59,7 @@ You can do this in Chrome&reg; by following these steps:
 1.  Click the three **ellipses** in the upper right corner.
 2.  Under **Privacy and Security**, click **Site Settings**.
 3.  Under **Permissions**, click **Notifications**.
-4.  If under **Block**. click the three **ellipses**, and click **Allow**.
+4.  If under **Block**, click the three **ellipses**, and click **Allow**.
 
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Sales Chat** to [chat now](https://www.rackspace.com/) and start the conversation.
