@@ -1,12 +1,12 @@
 ---
 permalink: rackspace-webmail-chat-faq/
-audit_date:
+audit_date: '2021-03-17'
 title: Rackspace Webmail Chat FAQ
 type: article
 created_date: '2014-07-02'
 created_by: Aaron Medrano
-last_modified_date: '2016-08-11'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2021-03-17'
+last_modified_by: Carlos Arriaga    
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -14,7 +14,7 @@ product_url: rackspace-email
 Get quick answers to common questions about the Webmail Chat feature in
 Rackspace Email.
 
-#### How do I enable and disable Rackspace Webmail Chat on my private label site?
+#### How do you enable and disable Rackspace Webmail Chat on your private label site?
 
 You can display the chat link or prevent the chat link from being
 displayed in your private label Webmail site by performing the following
@@ -24,9 +24,9 @@ steps in the Cloud Office Control Panel.
 
 1.  Log in to <https://cp.rackspace.com>.
 2.  Click **Rackspace Email**.
-3.  Click **Webmail Sites**.
-4.  Click **Show/Hide Links**.
-5.  Select **Show Webmail Chat** or **Hide** **Webmail** **Chat**.
+3.  Click **Webmail**.
+4.  Click **Show/Hide**.
+5.  Toggle **Webmail Chat** on or off.
 6.  Click **Save**.
 
 **For resellers:**
@@ -34,12 +34,12 @@ steps in the Cloud Office Control Panel.
 1.  Log in to <https://cp.rackspace.com>.
 2.  Click **Reseller Tools**.
 3.  Click **Webmail Sites**.
-4.  Select a Webmail site and click **Customize**.
-5.  Click **Show/Hide Links**.
-6.  Select **Show Webmail Chat** or **Hide** **Webmail** **Chat**.
+4.  Select a Webmail site and click **Customize** in the actions dropdown.
+5.  Click **Show/Hide**.
+6.  Toggle **Webmail Chat** on or off.
 7.  Click **Save**.
 
-#### How do I enable and disable Rackspace Webmail Chat for users in an email domain?
+#### How do you enable and disable Rackspace Webmail Chat for users in an email domain?
 
 You can display the chat link or prevent the chat link from being
 displayed in Webmail for users of specific email domains by completing
@@ -47,56 +47,18 @@ the following steps in the Cloud Office Control Panel.
 
 1.  Log in to <https://cp.rackspace.com>.
 2.  Click **Rackspace Email**.
-3.  Under **Email Accounts**, click **Settings**.
+3.  Under **Settings**, click **Webmail Settings**.
 4.  Select a domain.
-5.  Click **Webmail Settings**.
-6.  Under **Admin-only Settings**, set Chat to **Enabled** or
-    **Disabled**.
-7.  Click **Save**.
+5.  Under **Admin-only Settings**, set Chat to **Enabled** or **Disabled**.
+6.  Click **Save**.
+#### How do you enable or disable HTML5 notifications after the initial permissions request?
 
-#### What browsers are supported for Rackspace Webmail Chat?
+You can do this in Chrome&reg; by following these steps:
 
-The latest versions of Chrome, Firefox, Internet Explorer, and Safari
-are all supported for Rackspace Webmail Chat. We have no plans to
-support earlier versions of Internet Explorer.
+1.  Click the three **ellipses** in the upper right corner.
+2.  Under **Privacy and Security**, click **Site Settings**.
+3.  Under **Permissions**, click **Notifications**.
+4.  If under **Block**. click the three **ellipses**, and click **Allow**.
 
-#### How long are chat logs retained?
-
-We don't store chat logs on our system, but users are able to see any
-messages sent or received during their current Webmail session.
-
-#### Is it possible to chat with a group or team?
-
-Currently it is not possible to chat with a group or team.
-
-#### Can I chat with Skype for Business users?
-
-Currently it is not possible to chat with Skype for Business users.
-
-#### Can I use Rackspace Webmail Chat with third-party IM clients?
-
-Currently it is not possible to use third-party IM clients. 
-
-#### How do I enable or disable HTML5 notifications after the initial permissions request?
-
-You can do this in Chrome by following these steps:
-
-1.  Right-click anywhere on the page.
-2.  Click **View Page Info**.
-3.  Click the **Permissions** tab.
-4.  Change the **Notifications** setting to **Always allow on this
-    site**.
-5.  Refresh the page.
-
-You can do this in Firefox by following these steps:
-
-1.  Right-click anywhere on the page.
-2.  Click **View Page Info**.
-3.  Click the **Permissions** tab.
-4.  Change the **Notifications** setting to **Allow**.
-5.  Refresh the page.
-
-#### Does Rackspace Webmail Chat require a certain port on the firewall to be open?
-
-Yes. Webmail Chat uses port 5291. This port must be open on your network
-for Webmail Chat to function properly.
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Sales Chat** to [chat now](https://www.rackspace.com/) and start the conversation.
