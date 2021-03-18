@@ -1,7 +1,7 @@
 ---
 permalink: mysql-user-and-database-basics/
 audit_date: '2021-03-15'
-title: MySQL User and Database Basics
+title: MySQL user and database basics
 type: article
 created_date: '2021-03-02'
 created_by: Coral Moore
@@ -11,34 +11,33 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### What is MySQL&reg;?
+### What is MySQL?
 
-Databases are an organized collection of data.
-Here you would store pure data like credit card information, product IDs, prices, lists of things etc.
-You would not store more complex things like images, files, or documents.
-If it helps, it's a little like Microsoft Excel&reg; where you only copy in the raw data to be stored/processed/retrieved later.
-And MySQL is a very commonly used type of Linux&reg; database.
+Databases are an organized collections of data. You can use them to store pure data like credit card information,
+product IDs, prices, lists of things, and so on. However, you wouldn't store more complex things such as images,
+files, or documents. If it helps, it's a little like Microsoft&reg;, Excel&reg; where you only copy in the raw data
+to be stored, processed, or retrieved later. And MySQL&reg; is a very commonly used type of Linux&reg; database.
 
+#### MySQL versus MariaDB
 
+You might have MySQL installed, but it looks like it's called MariaDB&reg;. When Oracle&reg; acquired MySQL in 2010,
+the original founders then created MariaDB as a like-for-like replacement in case Oracle discontinued MySQL.
+So MySQL and MariaDB are are largely the same and basically interchageable. The information in this article applies to both.
 
-#### MySQL vs MariaDB&reg;
+### Check the version
 
-You might have MySQL installed, but it looks like it's called MariaDB.
-When MySQL was acquired by Oracle&reg; in 2010, the original founders then created MariaDB as a like-for-like replacement in case MySQL was ever discontinued.
-So MySQL and MariaDB are are largely the same and thought to be interchageable.
-At the time of writing this article, all of the following information applies to both.
-
-
-#### Check which version you have:
+Run the following command to check your database version:
 
 `mysql -v`
 
-#### How to log in:
+### Log in
 
-- **Method 1. SSH in as root, then log in to MySQL**
+Log into your database by using one of the following methods:
 
-This might already be set up by default. If so, be careful and leave it alone.
-If not, create this file with your chosen text editor:
+#### Method 1: SSH in as root, then log in to MySQL
+
+If this is already the default option,  consider leaving it alone.
+If not, create the folllowing file with your chosen text editor:
 
 ````
 # vim /root/.my.cnf
@@ -47,35 +46,49 @@ user=root
 password=<password>
 ````
 
-Or if you prefer, you can instead create this with:
+Or if you prefer, you can instead create it this with:
 
 ````
 # echo -e "\n[client]\nuser=root\npassword=<PASSWORD>" >> /root/.my.cnf
 ````
-
-After which, if you are SSH'd in to your server as root, you can log in to MySQL very easily by typing this command in the command line:
+The SecureShell (SSH) into your server as `root`, and log in to MySQL by running the following command:
 
 `# mysql`
 
-- **Method 2. SSH to the server, then log in to MySQL**
+#### Method 2: SSH to the server, then log in to MySQL
 
-If you SSH in to your server first, your user is connecting to MySQL from the `localhost`
-As you are already on the machine where MySQL is installed.
+If you SSH into your server first, your user connects to MySQL from the `localhost` because
+you are already on the machine with MySQL.
 
-Log in from localhost, by typing this command in the command line:
+Log in from localhost, by running the following command:
 
 `# mysql -u <USER> -p`
 
-- **Method 3. Connect directly to MySQL**
+#### Method 3: Connect directly to MySQL
 
-- If you wish to connect directly to MySQL, from your computer, you will need the hostname or IP of the server you wish to connect to.
-Type the following command in the command line:
+If you want to connect directly to MySQL from your computer, you need the hostname or IP address of the MySQL server.
+Then, run the following command:
 
 `# mysql -h <HOSTNAME_OR_IP> -u <USER> -p`
 
-### These are some of the most basic and common MySQL commands:
+### Wildcards in MySQL
 
-**Note:** End all MySQL commands with a semi colon **;**
+In software, a wildcard is a kind of placeholder represented with an asterisk (\*).
+This `*` can mean any combination of letters/numbers/symbols, so '12345' could be
+represented as  `1*  or  *3*  or  *5`. For example, if you want to find a name
+beginning with the letter M, you could search `M*`.
+
+In MySQL, the wildcard character is a percentage (%) symbol.
+
+For example, run teh following command to search for all databases ending in the word *schema*:
+
+`> show databases like "%schema";`
+
+### Common MySQL commands 
+
+These are some common MySQL commands:
+
+**Note:** End all MySQL commands with a semi colon **;**.
 
 **List databases:**
 
@@ -89,9 +102,12 @@ Type the following command in the command line:
 
 `> drop database <DATABASE>;`
 
-### These are some of the most common Users-related commands:
+### Common users-related commands
 
-**Users:**
+All users connect from somewhere. If the hosts shows as **Localhost**, they connected to the server first and then to MySQL.
+If it shows as an IP address, they connected directly to MySQL.
+
+**List users:**
 
 `show db users:`
 
@@ -101,12 +117,6 @@ Type the following command in the command line:
 
 `> select user, host, password from mysql.user;`
 
-**User hosts:**
-
-All users connect from somewhere.
-**Localhost** means they SSH in to the server first, THEN connect to MySQL
-Or they can connect DIRECTLY to MySQL from their IP
-
 **Create user with full permissions:**
 
 `> grant all on *.* to sher@localhost identified by "sdF5";`
@@ -115,7 +125,7 @@ Or they can connect DIRECTLY to MySQL from their IP
 
 `> grant all on *.* to sher@134.213.179.10 identified by "sdF5";`
 
-**Rename user/change host:**
+**Rename user or change host:**
 
 `> rename user user@ip1 to user@ip2;`
 
@@ -123,9 +133,9 @@ Or they can connect DIRECTLY to MySQL from their IP
 
 `> flush privileges;`
 
-**Privileges / grants / permissions:**
+### Privileges, grants, and permissions commands
 
-The following commands will allow you to access privileges-related information on MySQL:
+The following commands enable you to access privileges-related information on MySQL:
 
 **Show user permissions:**
 
@@ -139,64 +149,25 @@ The following commands will allow you to access privileges-related information o
 
 `> revoke ALL on *.* from sher@localhost;`
 
-#### This is a list of some of the most commmon MySQL terms and commands, and their functions:
-
-- **ALL PRIVILEGES** All access (to specific DB / everything)
-- **CREATE** Create new tables / DBs
-- **DROP** Delete tables / DBs
-- **DELETE** Delete rows from tables
-- **INSERT** Insert rows into tables
-- **SELECT** Use the Select command to read through DBs   (read only)
-- **UPDATE** Update table rows
-- **USAGE** No privileges, default
-- **GRANT OPTION** Grant / remove other users' privileges
-- **CRUD** Create, Read, Update, Delete (create,select,update,delete)
-
-
-- **Create a database:** 
+- **Create a database and add the user for it (read/write means all):**** 
 
 `> create database dbase;`
-
-- **Add the user for it (read/write means all):**
-
 `> grant all on dbase.* to sher@localhost identified by 'passwd';`
 
-### Understanding the command
+### Terms and functions
 
-`Permissions/grants`, `database.table`, `user@where`, and `set the password`
+This is a list of some of the most commmon MySQL terms and commands, and their functions:
 
-`*.*` means everything
-
-`> grant all           on dbase.*              to sher@localhost    identified by 'passwd';`
-
-- **Cp DB / mysqldump:**
-
-`Back up / restore your databases to a file in SSH`
-
-- **List:**
-
-`# mysqldump dbase > /home/rack/dbase.sql`
-
-- **List:**
-
-`# mysql dbase < /home/rack/dbase.sql`
-
-#### Wildcards in MySQL
-
-In software, a wildcard is a kind of placeholder represented with an asterisk *
-This `*` can mean any combination of letters/numbers/symbols
-So '12345' could be represented as  `1*  or  *3*  or  *5``
-
-If you were looking for anyone's name beginning with the letter M, you could search M*
-
-In MySQL, an asterisk means something else. So to use a wildcard you need a percentage symbol %
-
-Search for all databases ending in the word 'schema':
-
-`> show databases like "%schema";`
+- **ALL PRIVILEGES**: All access (to specific DB / everything)
+- **CREATE**: Create new tables / DBs
+- **DROP**: Delete tables / DBs
+- **DELETE**: Delete rows from tables
+- **INSERT**: Insert rows into tables
+- **SELECT**: Use the Select command to read through DBs   (read only)
+- **UPDATE**: Update table rows
+- **USAGE**: No privileges, default
+- **GRANT OPTION**: Grant or remove other users' privileges
+- **CRUD**: Create, Read, Update, Delete
 
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/). 
-
-
-
