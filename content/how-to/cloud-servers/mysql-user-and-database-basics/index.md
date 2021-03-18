@@ -149,7 +149,7 @@ The following commands enable you to access privileges-related information on My
 
 `> revoke ALL on *.* from sher@localhost;`
 
-- **Create a database and add the user for it (read/write means all):**** 
+**Create a database and add the user for it (read/write means all):**
 
 `> create database dbase;`
 `> grant all on dbase.* to sher@localhost identified by 'passwd';`
