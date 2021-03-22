@@ -52,7 +52,7 @@
         "dotenv": "^8.2.0",
         "glob": "^7.1.6",
         "globby": "^11.0.1",
-        "highlight.js": "^10.5.0",
+        "highlight.js": "^10.7.1",
         "html-entities": "^2.0.2",
         "html-webpack-plugin": "^4.5.1",
         "hyperlink": "^4.6.0",
