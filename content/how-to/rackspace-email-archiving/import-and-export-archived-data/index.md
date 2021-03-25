@@ -15,9 +15,9 @@ You can import data into and export data from your archive in Cloud Office.
 
 ### Importing data
 
-If you want to import data, create a request ticket in your control panel and
-include your domain name in the request. Rackspace will gather the necessary
-information and provide you with the best import method.
+If you want to import data, create a request ticket in your Control Panel and
+include your domain name in the request. Rackspace gathers the necessary
+information and provides you with the best import method.
 
 Cost and turnaround time both depend on how much data you want to recover.
 
@@ -30,21 +30,21 @@ Cost and turnaround time both depend on how much data you want to recover.
 You can use the following methods to export your data from your Rackspace
 Archiving account:
 
-- Export your data from the Archive Manager by creating searches and exporting
-    the results of the searches. For information about how to export the results
-    of a search, see [Export archive search results in Cloud Office](/support/how-to/export-archive-search-results-in-cloud-office).
+- Export your data from the **Archive Manager** by creating searches and exporting
+    the results of the searches. For information about how to export the search results,
+    see [Export archive search results in Cloud Office](/support/how-to/export-archive-search-results-in-cloud-office).
 
     **Important:** You can export searches with a maximum of 30,000 results or a total size of 20 gigabytes, whichever limit comes first.
 
 - If you want to get a bulk export of your archived data, we can perform the
     export and provide you with links from which you can download your data
-    directly. If you have access to an FTP site, provide your credentials and we
+    directly. If you have access to an FTP site, provide your credentials, and we
     can export your data to the FTP site.
 
-The pricing for a bulk export is a one-time fee of \$6 per GB for EML format and
-\$9 per GB for PST format.
+The pricing for a bulk export is a one-time fee of \$6 per GB for **EML** format and
+\$9 per GB for **PST** format.
 
-When determining which export method to use, consider the following questions.
+When determining which export method to use, consider the following questions:
 
 #### Is an external third party requesting these exports?
 
@@ -53,11 +53,11 @@ faster than requesting a bulk export.
 
 #### To which format do you need to export?
 
-We offer bulk exports in either PST or EML format. Although PST is a more
-well-known format, exporting in EML tends to be easier to search, faster for us
+We offer bulk exports in either **PST** or **EML** formats. Although **PST** is a more
+well-known format, exporting in **EML** tends to be easier to search, faster for us
 to produce, and much cheaper. We recommend that you first determine whether
-there is a preferred format. If there is no preferred format, then we recommend
-using EML.
+there is a preferred format. If there is no preferred format, then we recommend you use
+**EML**.
 
 #### Do you need to export all data or only data that meets certain criteria?
 
@@ -84,4 +84,4 @@ exporting data:
 - 100 GB to 1 TB in 6 weeks.
 - If you have over 1 TB of data, contact Rackspace for an estimate.
 
-**Note:** The preceding information gives rough estimates and should not be considered a commitment or a service level agreement (SLA).
+**Note:** The preceding information provides rough estimates and is not a commitment or a service level agreement (SLA).
