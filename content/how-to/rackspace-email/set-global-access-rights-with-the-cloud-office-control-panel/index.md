@@ -18,8 +18,8 @@ To adjust access rights for an entire domain, perform the following steps:
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/).
 2. Select **Rackspace Email**.
-3. Under **Settings** click **Global Access Rights**.
+3. Under **Settings**, click **Global Access Rights**.
 4. If you have multiple domains, select the appropriate domain name. To change domains, click **Change domain**.
-5. Select the check box for each service that you want to grant access to, or clear the check box for each service that you want to restrict or disable access to.
+5. Select the check box for each service you want to grant access to or clear the check box for each service you want to restrict or disable access to.
 
-Each service is a different way of accessing email that is stored on the email server.
+Each service is a different way of accessing email stored on the email server.
