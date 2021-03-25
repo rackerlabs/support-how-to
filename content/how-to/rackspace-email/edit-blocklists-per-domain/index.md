@@ -11,8 +11,8 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-Learn how to manage Blocklist settings for your domain. Blocklists can
-be set up by email address, domain, or IP address.
+Learn how to manage Blocklist settings for your domain. You can set up Blocklists
+by email address, domain, or IP address.
 
 ### Prerequisites
 
@@ -29,16 +29,16 @@ following steps:
 
 1. Select **Domains**.
 2. In the **Spam Settings** section, click **Blocklists**.
-3. If you have multiple domains, you may be prompted to select a domain name.
-    Or, to change domains at any time, click the dropdown arrow next to the
+3. If you have multiple domains, you can select a domain name.
+    Or, to change domains at any time, click the drop-down arrow next to the
     domain name.
 4. To add a domain name or email address to the Blocklist, fill the
-    **Enter a domain or email address** box, and click **Add**.
+    **Enter a domain or email address** box and click **Add**.
 
     **Note**: If you have multiple domains or email addresses to block, use the
     bulk import option to upload a **.csv** or **.txt** file containing the
     information.
-5. To remove a domain or email address, click the name in the list, and then
+5. To remove a domain or email address, click the name in the list and
     click **Remove**. To remove all domains or email addresses listed in the
     window, click **Clear All**.
 6. To add an IP address to the Blocklist, fill the **Enter an IP address (or
