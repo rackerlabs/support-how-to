@@ -11,14 +11,14 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-Emails can contain links that are hosted on a separate server from the sender,
-to display these images the email client makes a request to the image server.
-This request can include your IP address, browser version, and any cookies that
-the image server has set. Taken together, the server can use this information to
+Emails can contain links hosted on a separate server from the sender,
+to display these images the email client sends a request to the image server
+that includes your IP address, browser version, and any cookies that
+the image server has set. The server can use this information to
 track your online behavior.
 
-To provide protection against this common practice, you can control external
-image tracking using Webmail. Images are not displayed by default when you read
+To protect yourself from this common practice, you can control external
+image tracking by using Webmail. Images are not displayed by default when you read
 an email that links to images hosted on a separate server from your email.
 Instead, a caution bar is displayed at the top of the email (as shown in the
 following screenshot), and you can click that bar to display the images.
@@ -28,8 +28,8 @@ following screenshot), and you can click that bar to display the images.
 If you understand the risks and prefer to have images always loaded by default,
 you can disable image blocking within the Webmail settings.
 
-1. In the **Settings** dialog box.
-2. click **General Settings**.
+1. Open the **Settings** dialog box.
+2. Click **General Settings**.
 3. Select the **Email Options** tab.
 4. Clear the **Block external images** check box.
 5. Click **Save**.
