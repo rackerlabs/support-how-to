@@ -1,7 +1,7 @@
 ---
-permalink: how-to-monitor-system-authentication-logs-on-ubuntu/
+permalink: how-to-monitor-system-authentication-logs-in-ubuntu/
 audit_date: '2021-03-03'
-title: 'How to monitor system authentication logs on Ubuntu'
+title: 'How to monitor system authentication logs in Ubuntu'
 type: article
 created_date: '2021-02-17'
 created_by: Annie Ponce

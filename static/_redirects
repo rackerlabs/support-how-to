@@ -27,6 +27,8 @@
 support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-password-recovery-for-rackspace-webmail/  301
 /support/how-to/sjc2-data-center-relocation-managed-customer-faq  /how-to/sjc2-data-center-relocation/  404
 /how-to/sjc2-data-center-relocation/  /support/how-to/sjc2-data-center-relocation/  301
+/support/how-to/how-to-monitor-system-authentication-logs-on-ubuntu/  /how-to/how-to-monitor-system-authentication-logs-in-ubuntu// 404
+/how-to-monitor-system-authentication-logs-on-ubuntu/  how-to-monitor-system-authentication-logs-in-ubuntu/ 301
 
 # Main Redirects
 
