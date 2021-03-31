@@ -46,4 +46,4 @@ following evergreen browsers:
 - Chrome (latest)
 - Firefox (latest)
 - Safari (latest)
-- Internet Explorer 11+
+- Microsoft Edge (latest)
