@@ -38,7 +38,7 @@ ways:
     main **Cloud Files** page in the Cloud Control Panel, locate your Cloud Files
     data center in the **Region** column.
 -   **Through the API**: You can find your Cloud Files data center in
-    the storage URL that is part of the reposnse when you authenticate to
+    the storage URL that is part of the response when you authenticate to
     Cloud Files. For more information, see
     [Retrieving the Authentication Token](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/#document-getting-started/authenticate).
 
