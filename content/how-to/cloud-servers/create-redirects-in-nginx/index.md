@@ -14,14 +14,14 @@ product_url: cloud-servers
 ### Why use a redirect
 
 You use a redirect whenever a website owner wants an address to reroute to
-another address, typically either redirecting HTTP to HTTPS
+another address, typically redirecting HTTP to HTTPS
 or redirecting one domain to another domain.
 
 **HTTP to HTTPS scenario:**
 
 You want your customers to reach your secure (SSL) site even if they type
 in `http://yourwebsite.com` or `yourwebsite.com` into their browser. This type of
-redirect accomplishes just that. If your customer types in `http://yourwebsite.com`,
+redirect accomplishes just that. For example, if your customer types in `http://yourwebsite.com`,
 the redirect in Nginx&reg; redirects the request to **https://yourwebsite.com**.
 
 **One domain to another scenario:**
@@ -37,14 +37,14 @@ domain to another domain.
 
 #### HTTP to HTTPS
 
-Whenever you install an SSL certificate on your server, you have two
-server blocks for your website: one for HTTP, and one for HTTPS. The problem is
+When you install an SSL certificate on your server, you have two
+server blocks for your website: one each for HTTP and HTTPS. The problem is
 you need a way to force traffic to your SSL-secured site (the HTTPS version).
 You can accomplish this by adding a redirect to the Nginx server block for your
 website.
 
-Open the configuration file for your domain. You can usually find the file by searching
-for something similar to: **/etc/nginx/vhost.d/yourwebsite.com.conf**. The **.conf** indicates
+Open the configuration file for your domain. The file should be named similar to
+**/etc/nginx/vhost.d/yourwebsite.com.conf**. The **.conf** indicates
 the configuration file for your domain. Open the file with your favorite text editor.
 The following example uses the `vim` editor:
 
@@ -105,8 +105,8 @@ preceding simplified examples.
 
 #### One domain to another
 
-When you have a domain with multiple top-level domains (such as, **.com**,
-**.net**, **.org**, amnd so on) and you want all of those sites to reach the
+When you have a domain with multiple top-level domains (such as **.com**,
+**.net**, **.org**, and so on) and want all of those sites to reach the
 same website, use a redirect. For this example, we assume that you own
 **yourwebsite.com**, **yourwebsite.org**, and **yourwebsite.net**, and you want
 to redirect all of those to **yourwebsite.com**.
