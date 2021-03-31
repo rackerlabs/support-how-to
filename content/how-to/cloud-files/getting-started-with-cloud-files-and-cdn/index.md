@@ -11,8 +11,8 @@ product: Cloud Files
 product_url: cloud-files
 ---
 
-This article provides an overview of Rackspace Technology's Cloud Files and its
-features to help you get started quickly and serve content over Akamai's
+This article provides an overview of Rackspace Technology Cloud Files and its
+features to help you get started quickly and serve content over the Akamai
 content delivery network (CDN) service.
 
 ### What is Cloud Files?
