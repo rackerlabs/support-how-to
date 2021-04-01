@@ -11,18 +11,17 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### Inodes in Linux
+This article provides an overview of the concept of *inode* and some helpful commands.
 
-This article provides an overview on the concept of *inode* and helpful commands
-that will allow you to check its usage.
+### What is an inode?
 
-#### What is an inode?
+Linux&reg; must allocate an index node (inode) for every file and directory in the
+filesystem. Inodes do not store actual data. Instead, they store
+the metadata where you can find the storage blocks of each file's data.
 
-Within linux every file and directory requires an index node (inode) to be
-allocated in the filesystem. Inodes do not store actual data, instead they store
-the metadata where the storage blocks of each file's data can be found.
+#### Metadata in an inode
 
-#### What metadata can be found in an inode?
+The following metadata exists in an inode:
 
 - File type
 - Permissions
@@ -34,16 +33,16 @@ the metadata where the storage blocks of each file's data can be found.
 - Soft/Hard Links
 - Access Control List (ACLs)
 
-#### How to check the inode number in a specific file?
+### Check the inode number in a specific file
 
-There are different ways to check the inode number. In the following example we
-have created the files named *test*, with the command `stat` we can see the
-file statistics, in this case we will focus in the inode number:
+There are different ways to check the inode number. The following example shows
+the creation of a file named **mytestfile**. The command `stat` displays the
+file statistics, including the unique inode number:
 
 ```
-[root@Rackspace-Server /]# touch test
-[root@Rackspace-Server /]# stat test
-File: test
+[root@Rackspace-Server /]# touch mytestfile
+[root@Rackspace-Server /]# stat mytestfile
+File: mytestfile
 Size: 0               Blocks: 0          IO Block: 4096   regular empty file
 Device: ca01h/51713d    Inode: 13          Links: 1
 Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
@@ -54,30 +53,24 @@ Change: 2021-03-26 15:51:27.036124392 -0500
 Birth: -
 ```
 
-Another way to check the inode number of the ***test*** file, you can list it by
-the contents of the directory. We can run a combination of commands in the
-directory, it is located by using `ls` and `grep`.
+You can also check the inode number of **mytestfile** by listing
+the contents of the directory. You can run a combination of commands in the
+directory, by using `ls` or `grep`, as shown in the following examples:
 
 ```
-[root@Rackspace-Server /]# ls -lhi | grep test
-    13 -rw-r--r--.   1 root root    0 Mar 26 15:51 test
+[root@Rackspace-Server /]# ls -lhi | grep mytestfile
+    13 -rw-r--r--.   1 root root    0 Mar 26 15:51 mytestfile
 ```
 
-Or also with the command `ls -i` specifying the file or directory:
-
 ```
-[root@Rackspace-Server /]# ls -i test
-13 test
+[root@Rackspace-Server /]# ls -i mytestfile
+13 mytestfile
 ```
 
-**Note**: Take in count that *test* is the name of the file we are using to show
-the inode number, it can be under any other name or directory and it will bring
-a different inode number.
+### Check the inode usage on filesystems
 
-#### How to check the inode usage on the Filesystems?
-
-We are going to check the inodes in all the mounted filesystems, focusing on
-**/dev/xvda1** where we have a maximum inodes number of 1,310,720.
+The following example checks the inodes on all the mounted filesystems, focusing on
+**/dev/xvda1**, which has a maximum inode allocation of 1,310,720:
 
 ```
 [root@Rackspace-Server ~]# df -i
@@ -89,8 +82,8 @@ tmpfs           103934    17  103917    1% /sys/fs/cgroup
 /dev/xvda1     1310720 47034 1263686    4% /
 ```
 
-Adding the flag `-h` to the command `df -h` will not give you an exact number
-but it gives you a more readable output.
+Adding the flag `-h` to the preceding `df` command does not give you an exact number,
+but it provides a more readable output:
 
 ```
 [root@Rackspace-Server ~]# df -ih
@@ -102,17 +95,17 @@ tmpfs            102K    17  102K    1% /sys/fs/cgroup
 /dev/xvda1       1.3M   46K  1.3M    4% /
 ```
 
-#### How to count inodes under a certain directory?
+### Count inodes under a certain directory
 
-To check the number of inodes in a specific directory you need to run
+To check the number of inodes in a specific directory, run
 the following command:
 
 ```
 find <DIRECTORY> | wc -l
 ```
 
-In the following example we are going to check the file count in the `/root`
-directory. We are getting 11 files created under **/root**.
+The following example checks the file count in the **/root**
+directory.
 
 ```
 [root@Rackspace-Server ~]# pwd
@@ -121,11 +114,12 @@ directory. We are getting 11 files created under **/root**.
 11
 ```
 
-**Note**: Since this was done in a new server, your output will be different.
+In this case, it shows 11 files created under **/root**.
 
-#### What happens to the inode assigned when moving or copying a file?
+### What happens to the inode assigned when moving or copying a file?
 
-When a file is copied, a different inode is assigned to the second file.
+When you copy a file, Linux assigns a different inode to the new file,
+as shown in the following example:
 
 ```
 [root@Rackspace-Server inodes]# touch file1
@@ -141,8 +135,8 @@ total 0
 262440 -rw-r--r--. 1 root root 0 Mar 26 19:31 file2
 ```
 
-Things are different when moving a file, the inode is still the same as long as
-it does not move from filesystems.
+Things are different when moving a file. As long as the file does not change
+filesystems, the inode remains the same:
 
 ```
 [root@Rackspace-Server inodes]# ls -lhi directory1/file1
@@ -154,8 +148,8 @@ it does not move from filesystems.
 262440 -rw-r--r--. 1 root root 0 Mar 26 19:34 directory2/file1
 ```
 
-In the following example we moved the file `file1` from `/dev/xvda1` to the
-`/dev/xvdb1` filesystem.
+The following example moves **file1** from **/dev/xvda1** to the
+**/dev/xvdb1** filesystem:
 
 ```
 [root@Rackspace-Server inodes]# df -hP {/,/backups}
@@ -172,26 +166,26 @@ Filesystem      Size  Used Avail Use% Mounted on
 117329 -rw-r--r--. 1 root root 0 Mar 26 19:34 /backups/test
 ```
 
-When the file was moved to another filesystem, it got a different inode assigned.
+When the file was moved to another filesystem, the system assigned a different inode.
 
-#### Best practices to keep low the inode usage
+#### Best practices to keep the inode usage low
 
-It is always recomended to check on the inode usage since it can lead to issues
-when creating newer files.
+You should check your inode usage because excessive usage can lead to issues
+when creating newer files. Perform the following steps to keep your usage low:
 
-1. Delete unnecessary files and directories
-2. Delete cache files
-3. Delete old email files
-4. Delete temporary files
+1. Delete unnecessary files and directories.
+2. Delete cache files.
+3. Delete old email files.
+4. Delete temporary files.
 
-#### What could happen if inodes are never attended to?
+#### What could happen if you never attend to inodes?
 
-Even though the server has free disk space, the server can run out of inodes.
-These are the consequences that can occur when the server does not have enough
-inodes when creating more files.
+Even though the server has free disk space, the server can run out of inodes,
+which can result in the following consequences when the server does not have enough
+inodes when creating more files:
 
-1. Data loss
-2. The applications may crash
-3. The server may restart
-4. Processes may not restart
-5. Scheduled tasks may not run
+- Yiu might lose data.
+- The applications might crash.
+- The server might restart.
+- Processes might not restart.
+- Scheduled tasks might not run.
