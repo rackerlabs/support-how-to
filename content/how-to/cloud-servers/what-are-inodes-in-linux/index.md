@@ -55,7 +55,7 @@ Birth: -
 
 You can also check the inode number of **mytestfile** by listing
 the contents of the directory. You can run a combination of commands in the
-directory, by using `ls` or `grep`, as shown in the following examples:
+directory by using `ls` or `grep`, as shown in the following examples:
 
 ```
 [root@Rackspace-Server /]# ls -lhi | grep mytestfile
@@ -166,7 +166,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 117329 -rw-r--r--. 1 root root 0 Mar 26 19:34 /backups/test
 ```
 
-When the file was moved to another filesystem, the system assigned a different inode.
+When the system moved the file to another filesystem, it assigned a different inode.
 
 #### Best practices to keep the inode usage low
 
@@ -184,7 +184,7 @@ Even though the server has free disk space, the server can run out of inodes,
 which can result in the following consequences when the server does not have enough
 inodes when creating more files:
 
-- Yiu might lose data.
+- You might lose data.
 - The applications might crash.
 - The server might restart.
 - Processes might not restart.
