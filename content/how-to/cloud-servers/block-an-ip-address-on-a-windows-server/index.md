@@ -19,31 +19,31 @@ the Windows Firewall.
 Windows Firewall needs to be running on the server. To ensure the Windows
 Firewall is running, perform the following steps:
 
-1. Click **Start**, type '*control panel*', and press **Enter**.
-2. Click **Windows Defender Firewall** > **Turn Windows Defender Firewall on or
-   off**.
+1. Click **Start**, type `control panel`, and click **Enter**.
+2. Click **Windows Defender Firewall** > **Turn Windows Defender Firewall on or off**.
 
 **Note:** You must have administrative privileges for the server to modify the
 Windows Firewall.
 
 ### Create a Windows Firewall Rule to Block the IP
 
-1. Log into the server on which you need to block the IP address.
-2. Press the **Start** button, type **Windows Firewall with advanced security**,
+1. Log in to the server on which you need to block the IP address.
+2. Click **Start**, type `Windows Firewall with advanced security`,
    and press **Enter**.
-3. In the left-hand pane, click on **Inbound Rules** to show the currently
+3. In the left-hand pane, click **Inbound Rules** to show the currently
    configured rules in the middle pane.
 
-4. In the right-hand click **Actions** >**New Rule...**.
+4. In the right-hand pane, click **Actions** >**New Rule...**.
 
     - For **Rule Type**, select **Custom** and click **Next**.
     - For **Program**, select **All programs** and click **Next**.
-    - For **Protocol and Ports**, select **Any** from the dropdown for *Protocol
-   type* and click **Next**.
-    - For **Scope**, under **Which remote IP addresses does this rule apply to?**,
-   select the radial option: **These IP addresses:**.
-        - Still on the **Scope** page, click **Add...**.
-        - Enter the IP address that you want to block from the server and click
+    - For **Protocol and Ports**, select **Any** from the **Protocol Type** dropdown
+      and click **Next**.
+    - For **Scope**:
+       - under **Which remote IP addresses does this rule apply to?**,
+         select the radial option: **These IP addresses:**.
+       - Click **Add...**.
+       - Enter the IP address that you want to block from the server and click
           **OK**. You can also choose to block a range of IP addresses by
           selecting the **This IP address range:** radial option.
 
@@ -56,7 +56,7 @@ Windows Firewall.
 
 The newly created rule with the given name now displays in the middle **Inbound
 Rules** pane. To order the rules alphabetically by name, you can click on the
-'*Name*' column header.
+**Name** column header.
 
 If you need to disable the rule, right-click on the rule in the list and click
 **Disable Rule**.
