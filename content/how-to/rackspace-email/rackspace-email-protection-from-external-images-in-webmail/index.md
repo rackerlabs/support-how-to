@@ -11,8 +11,8 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-Emails can contain links hosted on a separate server from the sender,
-to display these images the email client sends a request to the image server
+Emails can contain links hosted on a separate server from the sender.
+To display these images the email client sends a request to the image server
 that includes your IP address, browser version, and any cookies that
 the image server has set. The server can use this information to
 track your online behavior.
