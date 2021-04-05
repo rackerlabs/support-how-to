@@ -1,25 +1,25 @@
 ---
 permalink: using-cnames-with-cloud-files-containers/
-audit_date:
+audit_date: '2021-04-05'
 title: Using CNAMEs with Cloud Files containers
 type: article
 created_date: '2011-04-27'
 created_by: Rackspace Support
-last_modified_date: '2018-10-23'
-last_modified_by: Kate Dougherty
+last_modified_date: '2021-04-05'
+last_modified_by: Carlos Arriaga
 product: Cloud Files
 product_url: cloud-files
 ---
 
 A CNAME record is way to link your Cloud Files container to a branded
-URL that you display instead of a CDN URL. For example, you might want
+URL that you display instead of a CDN URL. For example, you might want to
 create a CNAME record that links your CDN URL (for example,
 `https://c186397.r00.cf1.rackcdn.com`) to a shorter or branded URL (for
 example, `https://images.mycompany.com`).
 
 ### Find your CDN URL
 
-Before you can create the CNAME record, you need to know the CDN URL of
+Before you create the CNAME record, you need to know the CDN URL of
 the container. You can find this information in the Cloud Files section of the
 [Cloud Control Panel](https://login.rackspace.com/) by clicking the
 gear icon next to the container name and selecting **View All Links**. A
@@ -38,7 +38,7 @@ your container's CDN URL and not your object's CDN URL.
 
 If you're using [Rackspace Cloud DNS](https://www.rackspace.com/cloud/dns),
 creating a CNAME record that uses the example values introduced at the
-beginning of this article look like the following image:
+beginning of this article, which are similar to the following image:
 
 {{<image src="cnameadd.png" alt="" title="">}}
 
@@ -49,3 +49,6 @@ managing your DNS in your existing tool.
 
 -   You are not charged extra for using CNAMEs.
 -   At this time, CNAMEs do not work with SSL (or HTTPS) delivery.
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
