@@ -13,21 +13,21 @@ product_url: cloud-files
 
 Rackspace Technology Cloud Files is not a *file system* in the traditional sense. You cannot *map*
 or *mount* virtual disk drives like you can with other forms of storage such as a SAN or NAS. Because
-Cloud Files is a different way of thinking when it comes to storage, this article provides review of
+Cloud Files is a different way of thinking regarding storage, this article provides a review of
 key concepts.
 
 ### Accounts
 
 We designed the Cloud Files system to be used by many different customers. Your user account is your
 slice of the Cloud Files system. A user must identify themselves with a valid Rackspace Cloud account
-username and API Key. After they authenticate, users have full read and write access to the *objects*,
-or files stored under that user account.
+username and API Key. After they authenticate, users have full read and write access to the objects,
+which are files stored under that user account.
 
 ### Containers
 
 A container is a *storage compartment* for your data and provides a way for you to organize that data.
 You can think of a container as a folder in Windows&reg; or a directory in UNIX&reg;. The primary
-difference between containers and these other file system concepts is that yon can't nest containers.
+difference between containers and these other file system concepts is that you can't nest containers.
 You can, however, create up to 500,000 containers under your account.
 
 ### Objects
@@ -45,7 +45,7 @@ objects within a container.
 Operations are the actions you perform against your account in Cloud Files. Creating or deleting
 containers, uploading or downloading objects, and so on. You can find the full list of operations
 under the ReST API section of the [Developer Guide](https://docs.rackspace.com/docs/cloud-files/v1/getting-started).
-You can perform operationsby using the ReST web service API or a language-specific API, or software
+You can perform operations by using the ReST web service API or a language-specific API, such as a software
 development kit (SDK).
 
 ### Permissions
