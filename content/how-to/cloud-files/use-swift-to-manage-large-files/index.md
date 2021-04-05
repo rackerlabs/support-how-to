@@ -1,17 +1,17 @@
 ---
 permalink: use-swift-to-manage-large-files/
-audit_date:
+audit_date: '2021-04-05'
 title: Use Swift to manage large files
 type: article
 created_date: '2016-02-10'
 created_by: Stephanie Fillmon
-last_modified_date: '2016-04-19'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-04-05'
+last_modified_by: Carlos Arriaga
 product: Cloud Files
 product_url: cloud-files
 ---
 
-If you want to upload large files but do not want to incorporate our
+If you want to upload large files but don't want to incorporate our
 code into an application, you might find it easier to use the [Swift tool](https://swiftstack.com/docs/integration/python-swiftclient.html) for
 your uploads and management.
 
@@ -32,7 +32,7 @@ The following code downloads the large file as a single object:
 
     swift download test_container large_file
 
-In the above example, Swift will upload all the segments into a second
+In the above example, Swift&reg; uploads all the segments into a second
 container named **test_container_segments**. These segments will have
 names using the format of
 **<name>/<timestamp>/<size>/<segment>**. For
@@ -42,9 +42,12 @@ example:
     large_file/1290206778.25/21474836480/00000001
 
 The main benefit for using a separate container is so the main container
-will not be polluted with all the segment names. The naming format is so
+isn't polluted with all the segment names. The naming format is so
 that an upload of a new file with the same name won't overwrite the
 contents of the first until the last moment when the manifest file is
 updated.
 
 For more information on using the swift tool, see the [OpenStack Swift documentation](https://docs.openstack.org/developer/swift/).
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
