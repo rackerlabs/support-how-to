@@ -1,18 +1,18 @@
 ---
 permalink: set-up-a-static-website-with-cloud-files/
-audit_date:
+audit_date: '2021-04-05'
 title: Set up a static website with Cloud Files
 type: article
 created_date: '2016-01-07'
 created_by: Nate Archer
-last_modified_date: '2018-10-24'
-last_modified_by: Kate Dougherty
+last_modified_date: '2021-04-05'
+last_modified_by: Carlos Arriaga
 product: Cloud Files
 product_url: cloud-files
 ---
 
-If you want to host a static website, a site where the content does not
-change, you do not have to use a server. Instead, you can use the
+If you want to host a static website, a site where the content doesn't
+change, you don't have to use a server. Instead, you can use the
 Rackspace Cloud Files service.
 
 ### Create a Cloud File container to house your site
@@ -44,7 +44,7 @@ Use the following steps to create a Cloud File container to house your site:
 
 8.  Select the files that contain your website and click **Open**.
 
-    **Note:** Ensure that all of your static website files are included
+    **Note:** Ensure that you include all of your static website files
     in the upload and in their correct folders.
 
 ### Access your static website
@@ -88,3 +88,6 @@ website container. To find your target, perform the following steps:
 
 You can also create your own CNAME using the Rackspace DNS service. For
 instructions, see [Create DNS Records for cloud servers with the Control Panel](/support/how-to/create-dns-records-for-cloud-servers-with-the-control-panel).
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
