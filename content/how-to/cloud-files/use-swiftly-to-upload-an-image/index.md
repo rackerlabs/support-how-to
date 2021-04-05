@@ -1,12 +1,12 @@
 ---
 permalink: use-swiftly-to-upload-an-image/
-audit_date:
+audit_date: '2021-04-05'
 title: Use Swiftly to upload an image
 type: article
 created_date: '2014-04-21'
 created_by: Cloud Images
-last_modified_date: '2016-04-19'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-04-05'
+last_modified_by: Carlos Arriaga
 product: Cloud Files
 product_url: cloud-files
 ---
@@ -14,20 +14,20 @@ product_url: cloud-files
 For Cloud Files to provide high availability and data resiliency, the size of
 any file is limited to 5 GB, which is smaller than most
 VM images and many other files that people might want to store. To get
-around this limit, a *Large Object* (any file larger than 5 GB) can be
-split into segments that are bound together by a manifest.
+around this limit, you can split any *Large Object* &mdash;any file larger than 5 GB,
+into segments that are bound together by a manifest.
 
 There are two types of manifest objects in Cloud Files: *Dynamic Large Objects* and *Static Large Objects*. For image uploads, we recommend that you use a
 Static Large Object, so that is the focus of this article.
 
 With a Static Large Object, the manifest is an explicit listing of the
 size, MD5 checksum, and location of each segment that makes up the Large
-Object. The Swiftly tool divides your local file into segments, uploads
+Object. The Swiftly&reg; tool divides your local file into segments, uploads
 the segments in parallel, and creates a manifest for you automatically.
 This article describes how to use Swiftly to upload a file larger than 5
 GB to Cloud Files as a Static Large Object.
 
-For more information about Cloud Files Large Objects, see the [Cloud Files documentation](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/).
+For more information about Cloud Files Large Objects, see the [Cloud Files documentation](https://docs.rackspace.com/docs/cloud-files/v1/).
 
 **Note:** If you prefer to use the API to manage large files, see [Use the API to manage large files](/support/how-to/use-the-api-to-manage-large-files), and if you prefer Swift, see [Use Swift to manage large files](/support/how-to/use-swift-to-manage-large-files).
 
@@ -126,7 +126,7 @@ The `s` after the equals sign tells Swiftly to create a Static Large
 Object. As mentioned earlier, we highly recommend that you upload your
 image as a Static Large Object.
 
-### Checking your upload
+### Check your upload
 
 Suppose that you used the following the environment variable settings
 you used for your upload:
@@ -190,8 +190,7 @@ was created in Cloud Files.
         }
     ]
 
-Alternatively, you can look at your Cloud Files account in the Cloud
-Control Panel. The following example shows the Containers page in the
+Alternatively, you can look at your Cloud Files account in the [Cloud Control Panel](https://login.rackspace.com/). The following example shows the Containers page in the
 Control Panel, which displays the containers in the DFW region.
 
 {{<image src="swiftly-containers-list.png" alt="" title="">}}
@@ -200,7 +199,7 @@ The `uploaded-images` container existed before the upload, and was
 indicated in the invocation to Swiftly as the container to hold the
 manifest. The size of this container is small because it contains only
 the Static Large Object manifest file, which is a text file in JSON
-format. (The content of this file is shown in the preceding example.)
+format. &mdash;The content of this file is shown in the preceding example.
 The `uploaded-images_segments` container, which Swiftly created,
 contains the actual image data divided into segment files. The size of
 this container is 2.41 GB, which is the size of the image that was
@@ -209,8 +208,8 @@ uploaded.
 The `uploaded-images` container holds the manifest file, and the
 `uploaded-images_segments` container holds the parts that would be
 merged to make the image file. Each segment file ends with a number
-sequence identifying the segment (like `00000000`, `00000001`,
-`00000002`, etc.).
+sequence identifying the segment &mdash;like `00000000`, `00000001`,
+`00000002`, etc.
 
 Note that while the manifest in `uploaded-images` depends on the image
 segments in `uploaded-images_segments`, Cloud Files won't prevent you
@@ -243,3 +242,6 @@ data is being stored in the `uploaded-images_segments` container.
     requested automatically. But it's important to know what it's doing
     and how your data is stored so that you don't corrupt your image
     by mistake.
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
