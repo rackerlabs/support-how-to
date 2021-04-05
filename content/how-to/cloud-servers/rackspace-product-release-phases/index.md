@@ -1,39 +1,37 @@
 ---
 permalink: rackspace-product-release-phases/
-audit_date:
+audit_date: '2021-03-31'
 title: Rackspace Product Release Phases
 type: article
 created_date: '2012-11-09'
 created_by: Tarun Bhatti
-last_modified_date: '2016-01-15'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-03-31'
+last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-At Rackspace we have four release phases: Preview, Early Access Program,
-Limited Availability and Unlimited Availability. Here's quick overview
-of the release phases:
+At Rackspace Technology, we have four release phases: Preview, Early Access Program, Limited
+Availability, and Unlimited Availability. Here's a quick overview of the release
+phases:
 
 ### Preview
 
-Access granted to a very small number of customers and partners. Varied
-support levels, no SLA, no pricing, often API only and is not production
-ready.
+We grant access to a small number of customers and partners and offer varied support
+levels, no SLA, no pricing, often API only. The product is not production-ready.
 
 ### Early Access Program
 
-Access expanded to a larger number of customers. Varied support levels,
-no SLA, may or may not have pricing, often API only and is not production ready.
+We expand access to a larger number of customers. We offer varied support levels with no SLA
+and might not have pricing finalized, often providing only API access. The product is not
+production-ready.
 
 ### Limited Availability
 
-A production workload ready product. Ramp is being limited and tested
-for cloud scale. Includes 24x7x365 support, a full SLA, and billing and
-is production ready.
+This level is a production workload-ready product, although we limit the ramp and test it for cloud
+scalability. This level includes 24x7x365 support, a full SLA, billing, and is production-ready.
 
 ### Unlimited Availability
 
-Wait list is removed and product is available to all. Includes 24x7x365
-support, a full SLA, and billing and is production ready.
-
+We remove the waitlist and make the product available to all. This level includes 24x7x365 support,
+a full SLA, billing, and it is production-ready.
