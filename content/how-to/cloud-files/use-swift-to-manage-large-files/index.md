@@ -21,7 +21,7 @@ and if you prefer Swiftly, see [Use Swiftly to upload an image](/support/how-to/
 This article describes the upload process if you are using the tool.
 
 The following command uploads **large_file** to **test_container** in 10
-MB segments and then creates the manifest file so the systen can download
+MB segments and then creates the manifest file so the system can download
 the segments as one:
 
     swift upload test_container -S 10485760 large_file
