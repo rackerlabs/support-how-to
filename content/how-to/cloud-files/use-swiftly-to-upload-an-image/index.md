@@ -17,7 +17,7 @@ VM images and many other files that people might want to store. To get
 around this limit, you can split any *Large Object*&mdash;any file larger than 5 GB&mdash;
 into segments bound together by a manifest.
 
-There are two types of manifest objects in Cloud Files: *Dynamic Large Objects*,
+There are two types of manifest objects in Cloud Files: *Dynamic Large Objects*
 and *Static Large Objects*. For image uploads, we recommend that you use a Static Large Object.
 
 With a Static Large Object, the manifest is an explicit listing of the
@@ -52,7 +52,7 @@ In a Bash shell, set the following environment variables:
     CF_REGION=         # Three character region code for your upload location (for example, `ORD`)
     SOURCEFILE=        # the local file you are uploading
     CONTAINER=         # the container in Cloud Files where the image should go
-    IMAGEFILENAME=     # the name you want the image to be called in Cloud Files
+    IMAGEFILENAME=     # the name you want to call the image in Cloud Files
     SWFLY_SEG_BYTES=134217728
     SWFLY_CONCURRENCY=20
 
