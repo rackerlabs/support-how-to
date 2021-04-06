@@ -1,36 +1,39 @@
 ---
 permalink: using-cdn-edge-purge/
-audit_date:
+audit_date: '2021-04-06'
 title: Using CDN Edge Purge
 type: article
 created_date: '2011-11-10'
 created_by: Rackspace Support
-last_modified_date: '2016-01-21'
-last_modified_by: Catherine Richardson
+last_modified_date: '2021-04-06'
+last_modified_by: Carlos Arriaga
 product: Cloud Files
 product_url: cloud-files
 ---
 
-### What is edge purge?
+### What is Edge Purge&reg;?
 
 When using the Content Delivery Network (CDN) with Cloud Files, your
-files are distributed across a global network of *edge
-servers* increasing the speed at which your audience can download files
-from your site. This is accomplished by the CDN automatically caching
-your files to an edge server after the first time it is requested from a
+files allocate across a global network of *edge servers*
+increasing the speed at which your audience can download files
+from your site.
+
+This is accomplished by the CDN automatically caching
+your files to an edge server after first-time requests from a
 given geographic region. Those files will remain cached on the edge
-server until such a time as the Time To Live (TTL) setting for an
+server until such a time as the *Time To Live (TTL)* setting for an
 individual file expires, or until an edge purge request is sent to the
 node.
 
 This can cause problems if your content is frequently updated or
-modified, and your audience may be downloading older files that are
+modified, and your audience might be downloading older files that are
 cached on the edge server. The edge purge function will clear the cache
 of a given edge server, and allow it to cache a newer version of a file
 after the first time it is requested from a given geographic area.
+
 Customers are allowed up to 25 object purges a day, per account. If a
 customer needs to purge an entire container, they can simply contact our
-Support team for assistance.
+support team for assistance.
 
 Purging content from edge servers is a great feature to have for CDN,
 especially when you're really in a pickle. However, edge purge isn't
@@ -38,10 +41,10 @@ your only option for controlling your content on the edge. Let's review
 some best practices for when and when not to use edge purge to control
 your content.
 
-### Work flow
+### Workflow
 
 In general, if you have purge as a part of your basic workflow, you
-probably have better options (see below). Purge should be used as a
+probably have better options &mdash;see below. Purge should be used as a
 one-off method for controlling content, rather than a final step to
 uploading new content.
 
@@ -69,9 +72,9 @@ purge is the right tool for you.
 
 Sometimes developers want to wipe out their edge content so they can
 start fresh with updated content once a new release comes out.
-Something to keep in mind is that, in that type of situation, you are
-probably required to issue a ton of purge requests to refresh all data.
-All purge requests are put into one centralized queue, meaning you
+Something to keep in mind is that, in that type of situation, you might
+have to issue a ton of purge requests to refresh all data.
+All purge requests are put into one centralized queue, meaning, you
 might be creating an unnecessarily high queue and slowing down the
 purging process. You should think about versioning your files instead
 of using identical file names for all your releases. This means you can
@@ -86,3 +89,6 @@ As a rule of thumb, try other plans first. If you can solve your needs
 by using a low TTL or versioning your objects, these are great first
 options. Of course, edge purge is always available as a last resort.
 Still not sure?  Please contact Rackspace Support with any questions.
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
