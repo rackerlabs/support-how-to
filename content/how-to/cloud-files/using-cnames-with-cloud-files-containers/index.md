@@ -13,7 +13,7 @@ product_url: cloud-files
 
 A CNAME record links your Cloud Files container to a branded
 URL that you display instead of a CDN URL. For example, you might want to
-create a CNAME record that links your CDN URL, auch as
+create a CNAME record that links your CDN URL, such as
 **https://c186397.r00.cf1.rackcdn.com**, to a shorter or branded URL, such as
 **https://images.mycompany.com**.
 
