@@ -33,20 +33,24 @@ The following command downloads the large file as a single object:
 
     swift download test_container large_file
 
-In the preceding example, Swift uploads all the segments into a second
-container named **test_container_segments**. These segments have
-names using the format of **<name>/<timestamp>/<size>/<segment>**. For
-example:
+In the above example, Swift&reg; uploads all the segments into a second
+container named **test_container_segments**. These segments will have
+names using the format of
+**<name>/<timestamp>/<size>/<segment>**. For example:
 
     large_file/1290206778.25/21474836480/00000000
     large_file/1290206778.25/21474836480/00000001
 
-The main benefit of using a separate container is so the main container
-isn't polluted with all the segment names. The naming format ensures
+
+The main benefit for using a separate container is so the main container
+isn't polluted with all the segment names. The naming format is so
+
 that an upload of a new file with the same name won't overwrite the
 contents of the first until the end when the process updates the manifest file.
+
 
 For more information on using the Swift tool, see the [OpenStack Swift documentation](https://docs.openstack.org/developer/swift/).
 
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+
