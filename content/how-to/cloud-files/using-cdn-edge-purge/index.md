@@ -25,10 +25,10 @@ server until such a time as the *Time To Live (TTL)* setting for an
 individual file expires or until the node receives an edge purge request.
 
 Caching content can cause problems. If your content is frequently updated
-or modified, your audience might download older files that are cached on
+or modified, your audience might download older files cached on
 the edge server. The edge purge function clears the cache of a given edge
-server and allows it to cache a newer version of a file after the first
-time it is requested from a given geographic area.
+server and caches a newer version of a file after the first
+time a request comes in from a given geographic area.
 
 Customers are allowed up to 25 object purges a day per account.
 If you need to purge an entire container, contact our support team for
@@ -62,8 +62,8 @@ Possibly you have files hosted on the CDN with a long TTL
 because you did not expect the content to be updated frequently. If
 you need to remove those files from the edge node cache immediately,
 this is a great time to use the edge purge feature. Also, if the TTL of your
-file is nowhere near expiration but you need to immediately remove some
-outdated or sensitive content, then purge is the right tool.
+file is nowhere near expiration but has some outdated or sensitive content
+you should immediately, then purge is the right tool.
 
 ### Releasing a new version of your product
 
