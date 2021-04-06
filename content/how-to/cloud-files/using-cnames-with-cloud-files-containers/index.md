@@ -11,11 +11,11 @@ product: Cloud Files
 product_url: cloud-files
 ---
 
-A CNAME record is way to link your Cloud Files container to a branded
+A CNAME record links your Cloud Files container to a branded
 URL that you display instead of a CDN URL. For example, you might want to
-create a CNAME record that links your CDN URL (for example,
-`https://c186397.r00.cf1.rackcdn.com`) to a shorter or branded URL (for
-example, `https://images.mycompany.com`).
+create a CNAME record that links your CDN URL, auch as
+**https://c186397.r00.cf1.rackcdn.com**, to a shorter or branded URL, such as
+**https://images.mycompany.com**.
 
 ### Find your CDN URL
 
@@ -37,12 +37,12 @@ settings, request a new record. Ensure that your CNAME record points to
 your container's CDN URL and not your object's CDN URL.
 
 If you're using [Rackspace Cloud DNS](https://www.rackspace.com/cloud/dns),
-creating a CNAME record that uses the example values introduced at the
-beginning of this article, which are similar to the following image:
+you can create a CNAME record that uses the example values introduced at the
+beginning of this article, which is similar to the following image:
 
 {{<image src="cnameadd.png" alt="" title="">}}
 
-If you want to edit or delete your CNAME record, you can also do that by
+If you want to edit or delete your CNAME record, you can do that by
 managing your DNS in your existing tool.
 
 **Notes:**
