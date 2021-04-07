@@ -11,7 +11,7 @@ product: Cloud Files
 product_url: cloud-files
 ---
 
-If you are interested in developing against the Rackspace Large File
+If you are interested in developing by using the Rackspace Large File
 Support code to incorporate into your application, you should work
 directly with the Cloud Files API.
 
