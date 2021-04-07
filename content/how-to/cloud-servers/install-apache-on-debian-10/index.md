@@ -1,37 +1,47 @@
 ---
-permalink: /install-apache-on-debian-10/
-audit_date:
+permalink: install-apache-on-debian-10/
+audit_date: '2021-04-07'
 title: 'Install Apache on Debian 10'
 type: article
 created_date: '2021-03-11'
 created_by: David Fonseca
-last_modified_date:
-last_modified_by:
-product:
-product_url: 
+last_modified_date: '2021-04-07'
+last_modified_by: Rose Morales
+product: Cloud Servers
+product_url: cloud-servers
 ---
 
-# Install Apache on Debian 10
-In this article, we will explain how to install the Apache server on Debian 10.
+In this article explains how to install Apache on a Debian 10 server.
 
 ## What is Apache?
-Apache is an open-source, cross-platform web server and it is actively maintained by the Apache Software Foundation.
+
+Apache is an open-source, cross-platform web server and it is actively
+maintained by the Apache Software Foundation.
 
 ## Prerequisites
+
 - User with sudo privileges
 - Server running Debian 10
 - ufw firewall
 
-## Step 1
+## Step 1. Update and install apache
+
 We need to open the terminal and update the repository:
+
     `# sudo apt update`
+
 Then, install the apache package:
+
     `# sudo apt install apache2`
 
-## Step 2
-After the installation Apache must be running on our server, to verify it, run the following command:
+## Step 2 Verify installation
+
+Run the following command:
+
     `# sudo systemctl status apache2`
-We can see _active (running)_.
+
+We can see **active (running)**.
+
 ```
     ● apache2.service - The Apache HTTP Server
        Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
@@ -49,32 +59,44 @@ We can see _active (running)_.
     Warning: Journal has been rotated since unit was started. Log output is incomplete or unavailable.
 ```
 
-### Accessing to the Apache server
-Right now, we need to access the server via web browser, for this, you must know your IP address. If you do not know, type the following command to see your IP address:
-    `# hostname -I`
-You need to type the IP address on your browser, you will get an error loading the page. This error occurs because we did not add the HTTP rule to the Firewall.
+### Step 3. Accessing Apache
 
-## Step 3
-We need to add the rule WWW to the Firewall to permit the inbound and outbound traffic. Run the following commands:
+To access the server you must know the IP address. To find the IP address type the following command:
+
+    `# hostname -I`
+
+Type the IP address on your browser and an error loading the page appears. This error occurs because we did not add the HTTP rule to the Firewall.
+
+## Step 4. Firewall rules
+
+To add the rule WWW to the Firewall to permit the inbound and outbound traffic. Run the following commands:
+
     `sudo ufw allow 'WWW'`
     `sudo ufw status  | grep 80/tcp`
-As we can see, the HTTP port was added to the rules for our firewall on the server.
+
+Example of firewall rules on the server.
+
 ```
     80/tcp                     ALLOW       Anywhere\n
     80/tcp (v6)                ALLOW       Anywhere (v6)
 ```
 
-
 ## Step 4
-We access again to the IP obtained from step 2, now, we are able to see the page of apache.
 
-## Extra step
-The following commands could help you managing the apache server:
-    - Stop: `sudo systemctl stop apache2`
-    - Start: `sudo systemctl start apache2`
-    - Restart: `sudo systemctl restart apache2`
-    - Start Apache automatically when the server boots. `sudo systemctl enable apache2`
-    - Deactivate the automatically start: `sudo systemctl disable apache2` 
+Type the IP address on your browser obtained on step 3 and the landing page of apache will appear.
+
+## Additional actions
+
+The following commands may help you manage apache:
+
+| Command                          | Action                             |
+|----------------------------------|------------------------------------|
+| `sudo systemctl stop apache2`    | Stop                               |
+| `sudo systemctl start apache2`   | Start                              |
+| `sudo systemctl restart apache2` | Restart                            |
+| `sudo systemctl enable apache2`  | Start automatically on server boot |
+| `sudo systemctl disable apache2` | Deactivate the automatically start |
 
 ## Conclusion
-Now, we have the Apache server running in our server and ready to deploy an application.
+
+Apache is running in our server and ready to deploy an application.
