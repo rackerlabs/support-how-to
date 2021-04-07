@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article explains how to configure WordPress multi-site, which enables
+This article explains how to configure WordPress multi-site, enabling
 you to build a network of websites in your WordPress installation.
 
 ### Prerequisites
@@ -88,7 +88,7 @@ you should see a tab called **My Sites**, which includes a **Network Admin** men
 - **Dashboard:** Add new users and sites to the network.
 - **Sites:** Manage all the sites on your network.
   - **Add new:** Add new sites and define the site
-    address (URL), title, language, and the administrator email.
+    address (URL), title, language, and administrator email.
 - **Users:** Manage all the users of your network.
 - **Themes:** Install, uninstall, and activate themes for the network.
 - **Plugins:** Only the super admin can use the plugins administrator to install
@@ -99,4 +99,4 @@ you should see a tab called **My Sites**, which includes a **Network Admin** men
 ### Conclusion
 
 With WordPress multi-site, you can manage different sites under the same domain. If you choose to use
-subdomains, consider using a wildcard certificate cover all the sites.
+subdomains, consider using a wildcard certificate to cover all the sites.
