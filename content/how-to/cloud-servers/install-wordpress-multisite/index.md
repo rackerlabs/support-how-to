@@ -14,6 +14,11 @@ product_url: cloud-servers
 This article explains how to configure WordPress multi-site, enabling
 you to build a network of websites in your WordPress installation.
 
+**Important**: Rackspace Support does not support WordPress configuration. 
+This article provides steps as a best-effort solution, but your developers
+should review them thoroughly before implementing them to prevent unexpected
+downtime.
+
 ### Prerequisites
 
 - A WordPress installation
