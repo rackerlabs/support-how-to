@@ -11,6 +11,8 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
+This article explains MySQL and how to manage users and databases in the tool.
+
 ### What is MySQL?
 
 Databases are an organized collections of data. You can use them to store pure data like credit card information,
@@ -80,7 +82,7 @@ beginning with the letter M, you could search `M*`.
 
 In MySQL, the wildcard character is a percentage (%) symbol.
 
-For example, run teh following command to search for all databases ending in the word *schema*:
+For example, run the following command to search for all databases ending in the word *schema*:
 
 `> show databases like "%schema";`
 
@@ -88,7 +90,7 @@ For example, run teh following command to search for all databases ending in the
 
 These are some common MySQL commands:
 
-**Note:** End all MySQL commands with a semi colon **;**.
+**Note:** End all MySQL commands with a semi colon (**;**).
 
 **List databases:**
 
@@ -107,9 +109,7 @@ These are some common MySQL commands:
 All users connect from somewhere. If the hosts shows as **Localhost**, they connected to the server first and then to MySQL.
 If it shows as an IP address, they connected directly to MySQL.
 
-**List users:**
-
-`show db users:`
+**Show db users:**
 
 `> select user, host from mysql.user;`
 
@@ -156,7 +156,7 @@ The following commands enable you to access privileges-related information on My
 
 ### Terms and functions
 
-This is a list of some of the most commmon MySQL terms and commands, and their functions:
+The following list shows some of the most commmon MySQL terms and commands mentioned perviously and their functions:
 
 - **ALL PRIVILEGES**: All access (to specific DB / everything)
 - **CREATE**: Create new tables / DBs
