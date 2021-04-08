@@ -30,7 +30,7 @@ So MySQL and MariaDB are largely the same and interchangeable. The information i
 
 Run the following command to check your database version:
 
-`mysql -v`
+`# mysql -v`
 
 ### Log in
 
