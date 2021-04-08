@@ -11,7 +11,7 @@ product: Cloud Networks
 product_url: cloud-networks
 ---
 
-With Cloud Networks you can create a virtual layer 2 network that you
+With Cloud Networks, you can create a virtual Layer 2 network that you
 can attach to a new cloud server. This feature lets you keep your Cloud
 Server separate from the Rackspace network, the Internet, or both.
 
@@ -50,7 +50,7 @@ Server separate from the Rackspace network, the Internet, or both.
     **Warning:** Before you remove ServiceNet or PublicNet from your
     Cloud Server, read [Removing Networks from a Cloud
     Server](/support/how-to/removing-networks-from-a-cloud-server "Disabling Networks from a Cloud Server")
-    for a complete description of the limitations that will be placed on
+    for a complete description of the limitations that the system places on
     your new server.
 
 9.  Click **Select Networks**.
@@ -59,11 +59,11 @@ Server separate from the Rackspace network, the Internet, or both.
 
 Your new cloud server is created and attached to the new isolated
 network. When the server build is complete, you can scroll down to see
-the Networks table. The table displays each network the server is
+the **Networks** table. The table displays each network the server is
 attached to with the corresponding IP address. Following is an example
-Networks table for a server that is attached to PublicNet (Internet),
+**Networks** table for a server that is attached to PublicNet (Internet),
 ServiceNet (the Rackspace data center network), and an isolated Cloud
-Network named My Private Network:
+Network named **My Private Network**:
 
 {{<image alt="Cloud Networks List" src="CloudNetworksList.png" title="Cloud Networks List">}}
 
