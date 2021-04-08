@@ -1,12 +1,12 @@
 ---
 permalink: create-an-isolated-cloud-network-and-attach-it-to-a-server/
-audit_date:
+audit_date: '2021-04-08'
 title: Create an isolated Cloud Network and attach it to a server
 type: article
 created_date: '2012-09-17'
 created_by: Susan Million
-last_modified_date: '2016-01-10'
-last_modified_by: Renee Rendon
+last_modified_date: '2021-04-08'
+last_modified_by: Carlos Arriaga 
 product: Cloud Networks
 product_url: cloud-networks
 ---
@@ -22,12 +22,12 @@ Server separate from the Rackspace network, the Internet, or both.
 -   You can create up to 10 isolated networks with up to 250 servers
     attached to each network.
 
--   A network cannot be renamed after it is created.
+-   You can't rename a network after you create it.
 
 ### Attach an isolated network to a cloud server
 
 1.  In the [Cloud Control Panel](https://mycloud.rackspace.com).
-    The Cloud Servers page is displayed by default.
+    The Cloud Servers page displays by default.
 
 2.  Click **Create Server**.
 
@@ -40,7 +40,7 @@ Server separate from the Rackspace network, the Internet, or both.
 6.  In the Create Network popup menu, enter a name for the network and
     click **Create Network**.
 
-    **Note:** You cannot rename the network after it is created.
+    **Note:** You can't rename a network after you create it.
 
 7.  Select the network for your server and click **Select Network**.
 
@@ -75,4 +75,7 @@ Network named My Private Network:
 
 [CIDR Notation](/support/how-to/using-cidr-notation-in-cloud-networks "CIDR Notation")
 
-[Cloud Networks Developer Guide](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/)
+[Cloud Networks](https://docs.rackspace.com/docs/cloud-networks/v2/)
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
