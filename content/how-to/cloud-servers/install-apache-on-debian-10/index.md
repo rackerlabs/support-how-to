@@ -11,22 +11,22 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-In this article explains how to install Apache on a Debian 10 server.
+This article explains how to install Apache&reg; on a Debian&reg; 10 server.
 
-## What is Apache?
+### What is Apache?
 
-Apache is an open-source, cross-platform web server and it is actively
-maintained by the Apache Software Foundation.
+Apache is an open-source, cross-platform web server that the Apache Software
+Foundation actively maintains.
 
-## Prerequisites
+### Prerequisites
 
-- User with sudo privileges
+- User with `sudo` privileges
 - Server running Debian 10
-- ufw firewall
+- Uncomplicated Firewall (UFW) firewall
 
-## Step 1. Update and install apache
+### Step 1: Update and install Apache
 
-We need to open the terminal and update the repository:
+Run the following command to open the terminal and update the repository:
 
     `# sudo apt update`
 
@@ -34,13 +34,13 @@ Then, install the apache package:
 
     `# sudo apt install apache2`
 
-## Step 2 Verify installation
+### Step 2: Verify the installation
 
 Run the following command:
 
     `# sudo systemctl status apache2`
 
-We can see **active (running)**.
+Notice the **active (running)** message in the following response:
 
 ```
     ● apache2.service - The Apache HTTP Server
@@ -59,35 +59,36 @@ We can see **active (running)**.
     Warning: Journal has been rotated since unit was started. Log output is incomplete or unavailable.
 ```
 
-### Step 3. Accessing Apache
+### Step 3: Access Apache
 
-To access the server you must know the IP address. To find the IP address type the following command:
+To access the server, you must know the IP address, so run the following command to find the IP address:
 
     `# hostname -I`
 
-Type the IP address on your browser and an error loading the page appears. This error occurs because we did not add the HTTP rule to the Firewall.
+If you type the IP address in your browser, an error loading the page appears. This error occurs because
+you have not yet added the HTTP rule to the firewall.
 
-## Step 4. Firewall rules
+### Step 4. Add firewall rules
 
-To add the rule WWW to the Firewall to permit the inbound and outbound traffic. Run the following commands:
+Run the following commands to add the rule **WWW** to the firewall and permit the inbound and outbound traffic:
 
     `sudo ufw allow 'WWW'`
     `sudo ufw status  | grep 80/tcp`
 
-Example of firewall rules on the server.
+The following example shows firewall rules on the server:
 
 ```
     80/tcp                     ALLOW       Anywhere\n
     80/tcp (v6)                ALLOW       Anywhere (v6)
 ```
 
-## Step 4
+### Step 5: Verification
 
-Type the IP address on your browser obtained on step 3 and the landing page of apache will appear.
+Type the IP address from Step 3 in your browser, and the Apache landing page appears.
 
-## Additional actions
+### Additional actions
 
-The following commands may help you manage apache:
+The following commands can help you manage Apache:
 
 | Command                          | Action                             |
 |----------------------------------|------------------------------------|
@@ -97,6 +98,6 @@ The following commands may help you manage apache:
 | `sudo systemctl enable apache2`  | Start automatically on server boot |
 | `sudo systemctl disable apache2` | Deactivate the automatically start |
 
-## Conclusion
+### Conclusion
 
-Apache is running in our server and ready to deploy an application.
+After you complete these steps, Apache is running on your server and is ready to deploy an application.
