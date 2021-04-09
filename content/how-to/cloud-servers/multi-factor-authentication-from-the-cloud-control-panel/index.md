@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Customers can increase security on Rackspace Cloud accounts by using the
+Customers have increased security on Rackspace Cloud accounts by using the
 Rackspace Cloud Identity Service's multi-factor authentication capabilities.
 Multi-factor authentication adds an extra layer of identity
 verification to the login process by requiring a user to submit a
@@ -25,7 +25,7 @@ time-sensitive passcode that the Identity service sends to an SMS or OTP
 -   an OTP device is created in an OTP client application installed on
     your phone, notebook, or other digital device.
 
-You can add multi-factor authentication by updating your account
+You can modify multi-factor authentication by updating your account
 settings in the [Rackspace Cloud Control Panel](https://login.rackspace.com).
 After you pair a device with your account, authentication becomes a two-step
 process:
@@ -40,22 +40,22 @@ process:
     **Note:** Standard text message rates and data fees apply based on
     your contract with your mobile device provider.
 
-Additionally, Rackspace Cloud account administrators can configure
-account-wide settings to specify a multi-factor authentication policy
-for all account users. By default, account users have the option to set
-up and use multi-factor authentication. Administrators can update the
-account-wide settings to require multi-factor authentication for all
-users. When this setting is enabled, users cannot access their account
-until they configure multi-factor authentication. Current users are
-logged out as soon as the account-wide requirement is applied. At the
-next login, users are notified of the increased security and prompted to
-complete the setup process.
+Additionally, Rackspace Cloud account administrators can configure account-wide
+settings to specify a multi-factor authentication policy for all account users.
+Administrators can update the account-wide settings to require multi-factor
+authentication for all users. When this setting is enabled, users cannot access
+their account until they configure multi-factor authentication. Current users
+are logged out as soon as the account-wide requirement is applied. At the next
+login, users are notified of the increased security and prompted to complete the
+setup process.
+
+**Important**: By default MFA is enabled account wide, if you wish to disable
+this setting a Support ticket needs to be generated.
 
 **Notes**
 
--   MyRackspace also implements multi-factor authentication, but it is
-    not implemented through the Identity 2.0 API. For
-    information, see [Multi-factor authentication from the MyRackspace portal](/support/how-to/multi-factor-authentication-from-the-myrackspace-portal).
+-   MyRackspace also implements multi-factor authentication. For information,
+    see [Multi-factor authentication from the MyRackspace portal](/support/how-to/multi-factor-authentication-from-the-myrackspace-portal).
 
 -   When you enable multi-factor authentication for an account, it is
     enabled only for authentication via username and password
@@ -189,6 +189,9 @@ can select the default multi-factor authentication method from the
 5.  In the **Security Settings** section, select **Enable** or **Disable** for **Multi-factor authentication**.
 
 ### Configure account-wide multi-factor authentication settings from an Administrator account
+
+**Important**: By default MFA is enabled account wide, if you wish to disable
+this setting a Support ticket needs to be generated.
 
 Account administrators can update Rackspace Cloud account-wide settings
 to require all users to authenticate by using multi-factor
