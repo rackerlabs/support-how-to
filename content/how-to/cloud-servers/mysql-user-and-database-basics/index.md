@@ -136,7 +136,7 @@ If it shows as an IP address, they are connected directly to MySQL.
 ### Privileges, grants, and permissions commands
 
 In MySQL, the usual Linux-based read, write, and execute rules don't apply. Instead, you assign
-permissions to users as *privileges* or *grants*, which re much more granular and specific.
+permissions to users as *privileges* or *grants*, which is much more granular and specific.
 The following sections show some examples:
 
 **Show user grants:**
