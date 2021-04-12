@@ -19,7 +19,7 @@ jobs:
         echo "Vale will run on the following files:"
         cat ${HOME}/files.json
     - name: Run Vale
-      uses: errata-ai/vale-action@v1.3.0
+      uses: errata-ai/vale-action@v1.4.0
       with:
         debug: true
         styles: |
