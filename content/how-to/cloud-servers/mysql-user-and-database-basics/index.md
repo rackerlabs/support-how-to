@@ -135,24 +135,26 @@ If it shows as an IP address, they are connected directly to MySQL.
 
 ### Privileges, grants, and permissions commands
 
-The following commands enable you to access privileges-related information on MySQL:
+In MySQL, the usual Linux-based read, write, and execute rules don't apply. Instead, you assign
+permissions to users as *privileges* or *grants*, which re much more granular and specific.
+The following sections show some examples:
 
-**Show user permissions:**
+**Show user grants:**
 
-`> show grants for 'sher'@localhost;`
+`> show grants for '<user>'@<localhost/IP>;`
 
-**Add user permissions:**
+**Add user grants:**
 
-`> GRANT SELECT,INSERT,UPDATE on dbase.* to sher@localhost;`
+`> GRANT SELECT,INSERT,UPDATE on <database>.* to <user>@<localhost/IP>;`
 
-**Remove user permissions:**
+**Remove all user grants:**
 
-`> revoke ALL on *.* from sher@localhost;`
+`> revoke ALL on *.* from <user>@<localhost/IP>;`
 
 **Create a database and add the user for it (read/write means all):**
 
 `> create database dbase;`
-`> grant all on dbase.* to sher@localhost identified by 'passwd';`
+`> grant all on dbase.* to <user>@<localhost/IP> identified by 'passwd';`
 
 ### Terms and functions
 
