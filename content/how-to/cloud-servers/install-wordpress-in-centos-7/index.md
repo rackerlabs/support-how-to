@@ -13,8 +13,8 @@ product_url: cloud-servers
 
 This article explains how to install WordPress&reg; on a CentOS&eg; 7 webserver with Apache&reg;.
 
-WordPress, a popular open-source blogging tool, uses PHP and MySQL&reg; to manage the contents
-and interface of the site.
+WordPress, a popular open-source blogging tool, uses PHP and MySQL&reg; to manage the site contents
+and interface.
 
 **Important**: Rackspace Support does not support WordPress configuration. This article provides steps
 as a best-effort solution, but your developers should review them thoroughly before implementing them
@@ -24,7 +24,7 @@ to prevent unexpected downtime.
 
 Execute all commands as a non-root user with `sudo` privileges.
 
-For this installation, instsall a LAMP stack on the server. LAMP includes Linux&reg;, Apache, MySQL,
+For this installation, install a LAMP stack on the server. LAMP includes Linux&reg;, Apache, MySQL,
 and PHP). If you already have these installed, proceed to the next section. Otherwise, refer to our
 article on how to [Install a LAMP stack on RHEL 7 based distributions](https://docs.rackspace.com/support/how-to/how-to-install-a-lamp-stack-on-rhel-7-based-distributions/).
 
@@ -41,8 +41,6 @@ following steps to create a database and WordPress user:
 2. Create the database named **wpdatabase**. Remember, all MySQL instructions must end with a semi-colon (**;**):
 
        CREATE DATABASE wpdatabase;
-
-   This creates the database.
    
 3. Create a user, which WordPress uses for working on this database. Set the user as `wpuser` with password `password`:
 
@@ -50,15 +48,15 @@ following steps to create a database and WordPress user:
 
 4. Grant the user the permissions to manage the whole database:
 
-       GRANT ALL PRIVILEGES ON wordpress.* TO wordpressuser@localhost IDENTIFIED BY 'password';
+       GRANT ALL PRIVILEGES ON wordpress.* TO wpuser@localhost IDENTIFIED BY 'password';
        FLUSH PRIVILEGES;
        
 5. Exit the MySQL interface:
 
         exit
 
-This completes the WordPress MySQL requirements. You don't have to create a specific database and user for
-WordPress, but we highly recommended it for security.
+This procedure completes the WordPress MySQL requirements. You don't have to create a specific database
+and user for WordPress, but we highly recommended it for security.
 
 ### Install WordPress
 
@@ -79,7 +77,7 @@ Perform the following steps to install WordPress:
 
        # tar xzvf latest.tar.gz
 
-   This creates a directory called **wordpress** in your home directory that contains all files
+   This command creates a directory called **wordpress** in your home directory that contains all files
    WordPress needs to work properly. 
    
 4. Run the following command to copy the **wordpress** directory to **/var/www/html**, which
@@ -91,7 +89,7 @@ Perform the following steps to install WordPress:
 
        # mkdir /var/www/html/wp-content/uploads
 
-6. The preceding steps create a WordPress example page on your web server, but for it to work without problems,
+6. The preceding steps create a WordPress example page on your web server. However, for it to work without problems,
    you should change the ownership of the files to the Apache user and group so that WordPress can
    access all the files with the appropriate permissions. Run the following command:
 
@@ -130,11 +128,12 @@ the server:
        /** MySQL database password */
        define('DB_PASSWORD', 'password');
 
-### Use the GUI to complete the configuration
+### Complete the configuration in the GUI
 
-You can now access your WordPress page through **http://\<SERVER-PUBLIC-IP\>**. Enter the installation
-language, the site information, and the user to access the administrator's portal when prompted.
-After you finish this configuration, the system redirects you to the main WordPress dashboard.
+You can now access your WordPress page by browsing to **http://\<SERVER-PUBLIC-IP\>**. Enter the
+installation language, the site information, and the user to access the administrator's portal
+when prompted. After you finish this configuration, the system redirects you to the main WordPress
+dashboard.
 
 To access this dashboard any time, go to **http://\<SERVER-PUBLIC-IP\>/wp-login.php**.
 
