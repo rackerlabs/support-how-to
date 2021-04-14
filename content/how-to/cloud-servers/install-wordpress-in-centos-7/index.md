@@ -5,8 +5,8 @@ title: 'Install WordPress on CentOS 7'
 type: article
 created_date: '2021-03-10'
 created_by: Alfonso Murillo
-last_modified_date: '2021-03-10'
-last_modified_by: Alfonso Murillo
+last_modified_date: '2021-04-14'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
