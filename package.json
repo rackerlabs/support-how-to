@@ -35,7 +35,7 @@
         "react-instantsearch-dom": "6.10.3",
         "react-scripts": "4.0.1",
         "tap-spot": "^1.1.1",
-        "webpack": "^4.46.0",
+        "webpack": "^5.31.2",
         "webpack-cli": "^4.2.0"
     },
     "dependencies": {
