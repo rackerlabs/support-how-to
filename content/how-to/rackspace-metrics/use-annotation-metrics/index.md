@@ -1,23 +1,23 @@
 ---
 permalink: use-annotation-metrics/
-audit_date:
-title: Using annotation metrics
+audit_date: '2021-04-15'
+title: Use annotation metrics
 type: article
 created_date: '2016-02-23'
 created_by: Kyle Laffoon
-last_modified_date: '2017-01-04'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-04-15'
+last_modified_by: Carlos Arriaga
 product: Rackspace Metrics
 product_url: rackspace-metrics
 ---
 
-Grafana is a popular dashboard tool for IT Ops. Rackspace Metrics is designed to meet the functional and performance requirements of enterprise-scale metrics. By integrating with Grafana, Rackspace Metrics changes the cost-structure of metrics collection by replacing the storage component without changing the users' workflow.
+Grafana&reg; is a popular dashboard tool for IT Ops. We designed Rackspace Metrics to meet the functional and performance requirements of enterprise-scale metrics. By integrating with Grafana, Rackspace Metrics changes the cost-structure of metrics collection by replacing the storage component without changing the users' workflow.
 
 When annotations that are sent to Rackspace Metrics appear in a Grafana dashboard, customers can get insight into the events that might have caused the changes in the performance graph.
 
 ### Annotations
 
-The concept of *annotations* can be traced back to a blog post by the Etsy team. In the post, they explain how they used annotations to make events like releases appear in the performance graph, which provided valuable information  about the changes on the graph.
+The concept of *annotations* traces back to a blog post by the Etsy team. In the post, they explain how they used annotations to make events like releases appear in the performance graph, which provided valuable information about the changes on the graph.
 
 Through Grafana, Rackspace Metrics users can create a dashboard that can help identify the performance changes in a system. Although detection is the first step toward managing the application, the next step is to determine what has changed.
 
@@ -39,7 +39,7 @@ You submit annotations for events through the `/events` API endpoint. Following 
         }
     ' -H 'X-Auth-Token: e0247392bdd04ef0afa4f0b868fe99a4' -H 'Content-Type: application/json' -H 'Accept: application/json'
 
-**Note**: The value for the `when` field is the epoch time in milliseconds. To convert the date strings to and from epoch time, you can use the date method in Mac OS X or use [https://www.epochconverter.com/](https://www.epochconverter.com/).
+**Note**: The value for the `when` field is the epoch time in milliseconds. To convert the date strings to and from epoch time, you can use the dating method in Mac OS X&reg; or use [https://www.epochconverter.com/](https://www.epochconverter.com/).
 
     > date +%s
     1452101351
@@ -77,7 +77,7 @@ The new annotation appears in Grafana.
 
 {{<image src="Annotationsupport-annotation-appears.png" alt="" title="">}}
 
-### Retrieve annotations from the API (optional)
+### Retrieve annotations from the API &mdash;optional.
 
 If you want to use the API command to retrieve data about your annotations, use the following command:
 
@@ -108,3 +108,5 @@ Also, verify that the dates of the events are within the time window specified b
 ### More information
 
 To learn more about the Rackspace Metrics product, see the [Rackspace Metrics Overview](/support/how-to/rackspace-metrics-overview/).
+
+Use the Feedback tab to make any comments or ask questions. You can also click **Let's Talk** to [start the conversation](https://www.rackspace.com/). 
