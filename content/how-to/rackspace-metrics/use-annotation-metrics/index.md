@@ -11,25 +11,34 @@ product: Rackspace Metrics
 product_url: rackspace-metrics
 ---
 
-Grafana&reg; is a popular dashboard tool for IT Ops. We designed Rackspace Metrics to meet the functional and performance requirements of enterprise-scale metrics. By integrating with Grafana, Rackspace Metrics changes the cost-structure of metrics collection by replacing the storage component without changing the users' workflow.
+Grafana&reg; is a popular dashboard tool for IT Ops. We designed Rackspace Metrics to meet
+the functional and performance requirements of enterprise-scale metrics. By integrating with
+Grafana, Rackspace Metrics changes the cost-structure of metrics collection by replacing the
+storage component without changing the users' workflow.
 
-When annotations that are sent to Rackspace Metrics appear in a Grafana dashboard, customers can get insight into the events that might have caused the changes in the performance graph.
+When annotations sent to Rackspace Metrics appear in a Grafana dashboard, customers can get
+insight into the events that might have caused the changes in the performance graph.
 
 ### Annotations
 
-The concept of *annotations* traces back to a blog post by the Etsy team. In the post, they explain how they used annotations to make events like releases appear in the performance graph, which provided valuable information about the changes on the graph.
+The concept of *annotations* traces back to a blog post by the Etsy team. The post explains how
+they used annotations to make events like releases appear in the performance graph, which provided
+valuable information about the changes on the graph.
 
-Through Grafana, Rackspace Metrics users can create a dashboard that can help identify the performance changes in a system. Although detection is the first step toward managing the application, the next step is to determine what has changed.
+Through Grafana, Rackspace Metrics users can create a dashboard to help identify the performance
+changes in a system. Although detection is the first step toward managing the application, the next
+step is to determine what has changed.
 
 {{<image src="Anotationsupport-what-changed.png" alt="" title="">}}
 
-With annotation support, users can submit information about change events that appears with the graph. These annotations add information for the graph on the dashboard.
+With annotation support, users can submit information about change events that appears with the
+graph. These annotations add information for the graph on the dashboard.
 
 {{<image src="Anotattionsupport-change-event.png" alt="" title="">}}
 
 #### Submit annotations through the API
 
-You submit annotations for events through the `/events` API endpoint. Following is an example:
+You submit annotations for events through the `/events` API endpoint, as shown in the following example:
 
     curl https://global.metrics-ingest.api.rackspacecloud.com/v2.0/737305/events -X POST -d '{
           "what": "app03 deployment",
@@ -39,7 +48,9 @@ You submit annotations for events through the `/events` API endpoint. Following 
         }
     ' -H 'X-Auth-Token: e0247392bdd04ef0afa4f0b868fe99a4' -H 'Content-Type: application/json' -H 'Accept: application/json'
 
-**Note**: The value for the `when` field is the epoch time in milliseconds. To convert the date strings to and from epoch time, you can use the dating method in Mac OS X&reg; or use [https://www.epochconverter.com/](https://www.epochconverter.com/).
+**Note**: The value for the `when` field is the epoch time in milliseconds. To convert the date
+strings to and from epoch time, you can use the dating method in Mac OS X&reg; or use
+[https://www.epochconverter.com/](https://www.epochconverter.com/).
 
     > date +%s
     1452101351
@@ -53,7 +64,8 @@ You submit annotations for events through the `/events` API endpoint. Following 
     > date -r 1451940237
     Mon Jan 4 12:43:57 PST 2016
 
-For more information about this operation, see [Send an annotation](https://docs.rackspace.com/docs/metrics/v2/ingestion-api-reference/ingestion-events/#send-an-annotation).
+For more information about this operation, see
+[Send an annotation](https://docs.rackspace.com/docs/metrics/v2/ingestion-api-reference/ingestion-events/#send-an-annotation).
 
 ### Add annotations to a Grafana dashboard
 
@@ -79,7 +91,7 @@ The new annotation appears in Grafana.
 
 ### Retrieve annotations from the API &mdash;optional.
 
-If you want to use the API command to retrieve data about your annotations, use the following command:
+If you want to use the API to retrieve data about your annotations, use the following command:
 
     curl -i -X GET 'https://global.metrics.api.rackspacecloud.com/v2.0/737305/events/getEvents?from=1452105863000&until=1452105883000' \
     > -H "Content-Type: application/json" \
@@ -95,13 +107,17 @@ If you want to use the API command to retrieve data about your annotations, use 
 
     [{"tags":"deployment","tenantId":"737305","what":"app03 deployment","when":1452105873000,"data":"deploying prod"}]
 
-For more information about this operation, see [Retrieve an annotation](https://docs.rackspace.com/docs/metrics/v2/query-api-reference/query-views/#retrieve-an-annotation).
+For more information about this operation, see
+[Retrieve an annotation](https://docs.rackspace.com/docs/metrics/v2/query-api-reference/query-views/#retrieve-an-annotation).
 
 ### Troubleshooting
 
-If you don't see an event for which you created an annotation, ensure that all your API calls return a `200 OK` response code.
+If you don't see an event for which you created an annotation, ensure that all your API calls return
+a `200 OK` response code.
 
-If the response code is `403 Forbidden` and your API calls to other endpoints (like Rackspace Monitoring) with the same tenant and authentication token works, check with the Metrics team to ensure that the account is in the EAP program.
+If the response code is `403 Forbidden` and your API calls to other endpoints (like Rackspace
+Monitoring) with the same tenant and authentication token works, check with the Metrics team
+to ensure that the account is in the EAP program.
 
 Also, verify that the dates of the events are within the time window specified by the query.
 
