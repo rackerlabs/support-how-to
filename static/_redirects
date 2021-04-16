@@ -27,11 +27,14 @@
 support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-password-recovery-for-rackspace-webmail/  301
 /support/how-to/sjc2-data-center-relocation-managed-customer-faq  /how-to/sjc2-data-center-relocation/  404
 /how-to/sjc2-data-center-relocation/  /support/how-to/sjc2-data-center-relocation/  301
+/support/how-to/how-to-monitor-system-authentication-logs-on-ubuntu/  /how-to/how-to-monitor-system-authentication-logs-in-ubuntu/ 404
+/how-to/how-to-monitor-system-authentication-logs-in-ubuntu/  /support/how-to/how-to-monitor-system-authentication-logs-in-ubuntu/ 301
 
-# Main Redirects
+# Homepage Redirect
 
 /support       /      200
 /support/how-to/       /how-to/     200
+
 
 # Retired Articles
 
@@ -214,7 +217,6 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 /support/how-to/swift-filesystem-for-hadoop/  /how-to/article-retired/ 404
 /support/how-to/hosted-microsoft-lync-at-rackspace-deployment-guide/ /how-to/article-retired/ 404
 /support/how-to/sharepoint-all-articles/ /how-to/article-retired/ 404
-
 /how-to/article-retired/  /support/how-to/article-retired/   301
 
 # Specific 404 Redirects
@@ -261,7 +263,6 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 /support/how-to/getting-started-with-role-based-access-control-rbac-0/  /how-to/getting-started-with-role-based-access-control-rbac/ 404
 /how-to/getting-started-with-role-based-access-control-rbac/  /support/how-to/getting-started-with-role-based-access-control-rbac/  301
-
 
 /support/how-to/cloud-monitoring/  /how-to/rackspace-monitoring/ 404
 /how-to/rackspace-monitoring/  /support/how-to/rackspace-monitoring/  301
@@ -310,7 +311,6 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 /support/how-to/installing-nginx-and-php-fpm-setup-for-php-fpm/  /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ 404
 /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  301
-
 
 /support/how-to/installing-nginx-and-php-fpm-the-fun-begins/  /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ 404
 /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  301
@@ -408,7 +408,6 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 /support/how-to/rename-a-rackspace-email-mailbox/  /how-to/rename-a-rackspace-email-address/ 404
 /how-to/rename-a-rackspace-email-address/  /support/how-to/rename-a-rackspace-email-address/  301
 
-
 /support/how-to/what-is-managed-colocation-from-rackspace/  /how-to/traditional-colocation-vs-rackspace-managed-colocation/ 404
 /how-to/traditional-colocation-vs-rackspace-managed-colocation/  /support/how-to/traditional-colocation-vs-rackspace-managed-colocation/  301
 
@@ -441,7 +440,6 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 /support/how-to/managed-vmware-services-faq/  /how-to/vmware-server-virtualization-faq/ 404
 /how-to/vmware-server-virtualization-faq/  /support/how-to/vmware-server-virtualization-faq/  301
-
 
 /support/how-to/general-information-cloud-office-control-panel/  /how-to/cloud-office-control-panel-overview/ 404
 /how-to/cloud-office-control-panel-overview/  /support/how-to/cloud-office-control-panel-overview/  301
@@ -539,7 +537,6 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 /support/how-to/administrator-management-cloud-office-control-panel/  /how-to/manage-email-administrators-with-the-cloud-office-control-panel/ 404
 /how-to/manage-email-administrators-with-the-cloud-office-control-panel/  /support/how-to/manage-email-administrators-with-the-cloud-office-control-panel/  301
 
-
 /support/how-to/when-am-i-billed-for-my-account/  /how-to/rackspace-billing-faq/ 404
 /how-to/rackspace-billing-faq/  /support/how-to/rackspace-billing-faq/  301
 
@@ -624,12 +621,11 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 /support/how-to/all  /support/how-to/  404
 
-#Individual Redirects
+# Individual Redirects
 
 /support/how-to/sign-up-for-rackspace-services/  /how-to/sign-up-for-rackspace-services/ 200
 
-
-# Main Redirects
+# Remaining page redirects
 
 /support/how-to/*       /how-to/:splat      200
 # /how-to/*       /support/how-to/:splat      301
