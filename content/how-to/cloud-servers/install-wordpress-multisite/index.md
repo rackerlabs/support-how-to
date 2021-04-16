@@ -1,5 +1,5 @@
 ---
-permalink: install-wordpress-multi-site/
+permalink: install-wordpress-multisite/
 audit_date: '2021-04-06'
 title: 'Install WordPress multi-site'
 type: article
