@@ -156,9 +156,9 @@ The following sections show some examples:
 `> create database dbase;`
 `> grant all on dbase.* to <user>@<localhost/IP> identified by 'passwd';`
 
-### Terms and functions
+### Grants
 
-The following list shows some of the most common MySQL terms and commands mentioned previously and their functions:
+The following list shows some of the common MySQL grants:
 
 - **ALL PRIVILEGES**: All access (to specific DB / everything)
 - **CREATE**: Create new tables / DBs
