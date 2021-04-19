@@ -9,43 +9,30 @@
 <meta name="application-name" content="{{ $title }}" />
 <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
 <meta name="theme-color" content="#ffffff" />
-<meta name="description" content="{{ .Title }}">
-{{ if .Params.summary }}
-<meta name="summary" content="{{ .Params.summary }}">
-{{ else if .Site.Params.summary }}
-<meta name="summary" content="{{ .Site.Params.summary }}">
-{{ else }}
-<meta name="summary" content="{{ .Summary }}">
-{{ end }}
-{{ if .Params.keywords }}
-<meta name="keywords" content="{{ .Params.keywords }}">
-{{ else if .Site.Params.keywords }}
-<meta name="keywords" content="{{ .Site.Params.keywords }}">
-{{ end }}
-<meta property="url" content="{{ .Site.Params.permalink }}">
-<meta property="author" content="{{ .Site.Params.created_by }}">
-<meta property="date" content="{{ .Site.Params.created_on }}">
-<!-- og meta tags -->
-<meta property="og:url" content="{{ .Site.BaseURL }}">
+
 {{ if .Params.description }}
-<meta property="og:description" content="{{ .Params.description }}">
+<meta name="description" property="og:description" content="{{ .Params.description }}">
 {{ else if .Site.Params.description }}
-<meta property="og:description" content="{{ .Site.Params.description }}">
+<meta name="description" property="og:description" content="{{ .Site.Params.description }}">
 {{ end }}
 {{ if .Params.keywords }}
-<meta property="og:keywords" content="{{ .Params.keywords }}">
+<meta name="keywords" property="article:tag" content="{{ .Params.keywords }}">
 {{ else if .Site.Params.keywords }}
-<meta property="og:keywords" content="{{ .Site.Params.keywords }}">
+<meta name="keywords" property="article:tag" content="{{ .Site.Params.keywords }}">
 {{ end }}
+<meta name="authors" property="article:author" content="{{ .Site.Params.created_by }}">
+<meta name="date" property="article:published_time" content="{{ .Site.Params.created_on }}">
+<meta name="category" property="article:section" content="{{ .Site.Params.product }}"/>
+<!-- og meta tags -->
+
 <!-- {{- if eq (getenv "HUGO_ENV") "production" | or (eq $.Site.Params.env "production") -}}
 <meta name="robots" content="index, follow" />
 {{- else -}}
 <meta name="robots" content="noindex, nofollow" />
 {{- end -}} -->
-<meta name="robots" content="index, follow" />
 <title>{{ $title }}</title>
-{{ $style := resources.Get "styles.scss" | toCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}" emotion="🤩">
+
+<link rel="stylesheet" href="https://staging-docs-landing-page.netlify.app/style.css" emotion="🤩">
 
 <link rel="apple-touch-icon" sizes="180x180" href="https://docs-support-how-to.netlify.app/favicons/favicon.ico" />
 <link rel="icon" type="image/png" href="https://docs-support-how-to.netlify.app/favicons/favicon.ico" sizes="32x32" />
