@@ -41,7 +41,7 @@
     "dependencies": {
         "@babel/cli": "^7.12.10",
         "algoliasearch": "^4.8.3",
-        "assets-webpack-plugin": "^6.1.2",
+        "assets-webpack-plugin": "^7.0.0",
         "atomic-algolia": "^0.3.19",
         "axios": "^0.21.1",
         "bootstrap": "^4.5.3",
