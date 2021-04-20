@@ -20,9 +20,21 @@
 {{ else if .Site.Params.keywords }}
 <meta name="keywords" property="article:tag" content="{{ .Site.Params.keywords }}">
 {{ end }}
+{{ if .Params.created_by }}
+<meta name="authors" property="article:author" content="{{ .Params.created_by }}">
+{{ else if .Site.Params.created_by }}
 <meta name="authors" property="article:author" content="{{ .Site.Params.created_by }}">
-<meta name="date" property="article:published_time" content="{{ .Site.Params.created_on }}">
+{{ end }}
+{{ if .Params.created_on }}
+<meta name="datePublished" property="article:published_time" content="{{ .Params.created_on }}">
+{{ else if .Site.Params.created_on }}
+<meta name="datePublished" property="article:published_time" content="{{ .Site.Params.created_on }}">
+{{ end }}
+{{ if .Params.product }}
+<meta name="category" property="product:category" content="{{ .Params.product }}"/>
+{{ else if .Site.Params.product }}
 <meta name="category" property="product:category" content="{{ .Site.Params.product }}"/>
+{{ end }}
 <!-- og meta tags -->
 
 <!-- {{- if eq (getenv "HUGO_ENV") "production" | or (eq $.Site.Params.env "production") -}}
