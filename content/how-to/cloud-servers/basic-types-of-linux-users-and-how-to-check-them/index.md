@@ -19,17 +19,17 @@ There are two basic types of users to choose from: **SFTP** and **SSH**.
 
 #### SFTP users
 
-Secure File Transfer Protocol (SFTP) users can easily use the command line or a program,
-such as Filezilla&reg;, to upload files securely. This tool is useful for developers who
-just need somewhere to upload their website files. An SFTP-only user can connect
-through SFTP but not through SSH.
+Secure File Transfer Protocol (SFTP) users can easily use the command line or a
+program, such as Filezilla&reg;, to upload files securely. This tool is useful
+for developers who just need somewhere to upload their website files. An
+SFTP-only user can connect through SFTP but not through SSH.
 
 #### SSH users
 
-SecureShell (SSH) users can securely connect to the Linux&reg; command line, usually
-in a black-screen, command-line terminal such as PuTTY&reg; or MobaXterm&reg;. It's
-a handy method but only recommended for those comfortable with the Linux command line. An
-SSH user can connect through both SFTP and SSH.
+SecureShell (SSH) users can securely connect to the Linux&reg; command line,
+usually in a black-screen, command-line terminal such as PuTTY&reg; or
+MobaXterm&reg;. It's a handy method but only recommended for those comfortable
+with the Linux command line. An SSH user can connect through both SFTP and SSH.
 
 ### Modify user access
 
@@ -37,23 +37,24 @@ There are several ways to add or remove access for SSH and SFTP users.
 
 #### Jailed or chrooted SFTP users
 
-These users can only access a specific set of directories and nothing else. Setting this up
-is a lengthy process, so ask one of our support techs to help you if you need to implement
-it.
+These users can only access a specific set of directories and nothing else.
+Setting this up is a lengthy process, so ask one of our support techs to help
+you if you need to implement it.
 
 #### sudo SSH users
 
-`sudo` users can run admin-level commands by prefacing them with `sudo`. The system then
-logs who made the request and carries it out.
+`sudo` users can run admin-level commands by prefacing them with `sudo`. The
+system then logs who made the request and carries it out.
 
 #### Other users
 
-There are also persistent users that you can often find in Linux. These are system users
-like `bin`, `mail`, `games`, `nobody`, and so on, which you can usually ignore. The `root`
-user allows you to do anything you like on the system.
+There are also persistent users that you can often find in Linux. These are
+system users like `bin`, `mail`, `games`, `nobody`, and so on, which you can
+usually ignore. The `root` user allows you to do anything you like on the
+system.
 
-To make things simpler, here is a graph showing the basic Linux users you can have, scaled
-from least permissions to all permissions:
+To make things simpler, here is a graph showing the basic Linux users you can
+have, scaled from least permissions to all permissions:
 
 {{<image src="Picture1.png" alt="" title="">}}
 
@@ -61,29 +62,29 @@ from least permissions to all permissions:
 
 ### Checks you can make without logging in
 
-You usually log in to your computer or server through port 22. Think of port 22 as the
-doorway through which you log in. Continuing the analogy, ports 80 and 443 are the doorways
-for website traffic. If these ports are closed, think of the doors as barred shut and not
-allowing that traffic to pass.
+You usually log in to your computer or server through port 22. Think of port 22
+as the doorway through which you log in. Continuing the analogy, ports 80 and
+443 are the doorways for website traffic. If these ports are closed, think of
+the doors as barred shut and not allowing that traffic to pass.
 
-If you can't log in, run the following commands to check that port 22 is open and accepting
-SSH connections:
+If you can't log in, run the following commands to check that port 22 is open
+and accepting SSH connections:
 
 Check what ports are open:
 
-    # nmap -F \<IP\>
-    
+    # nmap -F <IP>
+
 </br>
 
 Try to log in:
 
-    # ssh \<user\>@\<IP\>
-    
+    # ssh <user>@<IP>
+
 </br>
 
 Try to log in and get more information:
 
-    # ssh -v \<user\>@\<IP\>
+    # ssh -v <user>@<IP>
 
 </br>
 
@@ -93,20 +94,21 @@ If you can't log in, consider the following possibilities:
 
 #### It's usually the password
 
-Most often, the problem is the simplest one: the password. If port 22 is open and your
-computer or server asks for a password when you SSH, confirm that you are entering the
-correct password. Remember that Linux is case sensitive.
+Most often, the problem is the simplest one: the password. If port 22 is open
+and your computer or server asks for a password when you SSH, confirm that you
+are entering the correct password. Remember that Linux is case sensitive.
 
 #### If you don't know your password
 
-Linux does not save your password in a format that we can retrieve. Either log in with
-another user or ask our support team to reset it for you.
+Linux does not save your password in a format that we can retrieve. Either log
+in with another user or ask our support team to reset it for you.
 
 #### If you are trying to log in as root
 
-By default, Linux disables direct root logins for security (to stop hackers from needing
-to crack only one password). So, unless you specifically enabled root, the usual protocol
-is to log in as another user and then escalate to root as needed.
+By default, Linux disables direct root logins for security (to stop hackers from
+needing to crack only one password). So, unless you specifically enabled root,
+the usual protocol is to log in as another user and then escalate to root as
+needed.
 
 ### Helpful user commands
 
@@ -136,7 +138,7 @@ Each line is split into different sections with:
 Run the following command to search for a specific user:
 
     # grep <user> /etc/passwd
-    
+
 </br>
 
 #### Check permissions
@@ -199,7 +201,7 @@ Check what groups a user is a part of:
 
 </br>
 
-Use the following script to check a user to see if their password is locked if they have
-sudo permissions:
+Use the following script to check a user to see if their password is locked if
+they have sudo permissions:
 
     # UU='<USER>'; getent passwd | grep ${UU}; passwd -S ${UU}; grep ${UU} /etc/sudoers; groups ${UU}
