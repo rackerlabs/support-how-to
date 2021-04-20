@@ -1,12 +1,12 @@
 ---
 permalink: cloud-files-curl-cookbook/
-audit_date:
+audit_date: '2021-04-20'
 title: Cloud Files cURL Cookbook
 type: article
 created_date: '2012-06-25'
 created_by: Rackspace Support
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-04-20'
+last_modified_by: Ana Corpus
 product: Cloud Files
 product_url: cloud-files
 ---
