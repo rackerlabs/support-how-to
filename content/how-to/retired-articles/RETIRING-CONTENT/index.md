@@ -6,7 +6,7 @@
 
 ### Retire content from the Rackspace How-To content repository on your local computer
 
-1. On your PC in the How-To respository clone, move the folder with the original article **index.md** file (and any associated images or assets) to the retired articles folder, **support-how-to/content/how-to/retired-articles**.
+1. On your PC in the How-To repository clone, move the folder with the original article **index.md** file (and any associated images or assets) to the retired articles folder, **support-how-to/content/how-to/retired-articles**.
 
 2. Remove both the `product:` and `product_url:` metadata fields from the retired article's **index.md** file.
 
