@@ -81,8 +81,9 @@ Each file and directory has three types of user authorities which it recognizes:
 * Any users in the group who is set as the **Group Owner**.
 * Anyone who is not in those first two categories is known as **Other**.
 
-A common group on Linux servers is `apache`, so you can add anyone working on the websites to the `apache` group.
-They then have the access they need to all website-related files and directories.
+A common group on Linux servers is `apache`, so you can add anyone working on
+the websites to the `apache` group. They then have the access they need to all
+website-related files and directories.
 
 * Change the user owner of a file or directory:
 
@@ -102,9 +103,11 @@ They then have the access they need to all website-related files and directories
   # chown <user>:<group> /MyStuff
   ```
 
-* Change the user owner and group owner of a file or directory and everything inside of it:
+* Change the user owner and group owner of a file or directory and everything
+  inside of it:
 
-  **Important:** Be careful with this command, as you are changing multiple files with no undo option.
+  **Important:** Be careful with this command, as you are changing multiple
+  files with no undo option.
 
   ```sh
   # chown -R <user>:<group> /MyStuff
@@ -112,25 +115,29 @@ They then have the access they need to all website-related files and directories
 
 #### Read, write, execute
 
-After a file or directory recognizes you as a user owner, group owner, or other, it assigns a combination of the following permissions:
+After a file or directory recognizes you as a user owner, group owner, or other,
+it assigns a combination of the following permissions:
 
 * **r**: The read permission lets you view or read the file or directory.
 * **w**: The write permission lets you write or modify the file or directory.
-* **x**: The execute permission lets you execute an executable file or search a directory.
+* **x**: The execute permission lets you execute an executable file or search a
+  directory.
 
-Each user authority is assigned these, in order, where a `-` represents that permission being absent.
-For example, the following table explains the permissions **rwxr-xr--**: 
+Each user authority is assigned these, in order, where a `-` represents that
+permission being absent. For example, the following table explains the
+permissions **rwxr-xr--**:
 
 rwx | r-x | r\-\-
 -|-|-
 The first part, User Owner permissions | The second part, Group Owner permissions | The third part, Other permissions
 read, write, execute | read, execute | read
 
-This user can do anything | This user can look at and execute the file. But not modify it | This user can only look at it
+This user can do anything | This user can look at and execute the file. But not
+modify it | This user can only look at it
 
 The following image provides an easy way to visualize this:
 
-![](https://one.rackspace.com/download/attachments/745610859/image2021-3-3_12-33-44.png?version=1&modificationDate=1614774824701&api=v2)
+![Directory Permissions](image_1.png)
 
 ### How to change permissions with letters
 
