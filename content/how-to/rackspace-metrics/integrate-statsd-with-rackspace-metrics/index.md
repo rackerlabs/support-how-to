@@ -1,12 +1,12 @@
 ---
 permalink: integrate-statsd-with-rackspace-metrics/
-audit_date:
+audit_date: '2021-04-21' 
 title: Integrate StatsD with Rackspace Metrics
 type: article
 created_date: '2015-02-05'
 created_by: Constanze Kratel
-last_modified_date: '2016-12-13'
-last_modified_by: Shane Duane
+last_modified_date: '2021-04-21'
+last_modified_by: Ana Corpus
 product: Rackspace Metrics
 product_url: rackspace-metrics
 ---
@@ -118,3 +118,6 @@ StatsD sends all these items to Rackspace Metrics:
 
     echo "sample.gauge:10|g" | nc -u -w0 127.0.0.1 8125
     echo "glork:320|ms" | nc -u -w0 127.0.0.1 8125
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/).
