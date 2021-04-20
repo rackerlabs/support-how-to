@@ -56,9 +56,8 @@ this setting, you need to generate a support ticket.
 -   MyRackspace also implements multi-factor authentication. For information,
     see [Multi-factor authentication from the MyRackspace portal](/support/how-to/multi-factor-authentication-from-the-myrackspace-portal).
 
--   When you enable multi-factor authentication for an account, it is
-    enabled only for authentication through username and password
-    credentials.
+-   When you enable multi-factor authentication for an account, you can
+    only authenticate through username and password credentials.
 
     If the user supplies the client with a valid username and API key
     credentials, the client receives the authentication
