@@ -137,7 +137,7 @@ modify it | This user can only look at it
 
 The following image provides an easy way to visualize this:
 
-![Directory Permissions](image_1.png)
+{{<image src="image_1.png" alt="" title="">}}
 
 ### How to change permissions with letters
 
