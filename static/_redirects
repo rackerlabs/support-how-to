@@ -1,5 +1,6 @@
 # Redirects
 
+/support/how-to/setup-automatic-mysql-server-backups-to-cloud-files-from-windows/  /how-to/article-retired/ 404
 /support/how-to/creating-a-monitoring-check-using-the-cloud-control-panel/  /how-to/about-the-rackspace-monitoring-agent/  404
 /how-to/about-the-rackspace-monitoring-agent/  /support/how-to/about-the-rackspace-monitoring-agent/  301
 /support/how-to/introduction-to-mailgun-email-automation/  /how-to/preparing-the-cloud-server-to-be-a-mail-server/  404
