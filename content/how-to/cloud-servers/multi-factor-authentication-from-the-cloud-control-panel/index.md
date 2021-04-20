@@ -32,7 +32,7 @@ process:
 1. Each time you log in, the Rackspace authentication service generates
     a passcode and sends it to the associated device.
 
-2. After the passcode is sent, the system prompts you to type the
+2. After the service sends the passcode, the system prompts you to type the
     passcode and submit it to the Identity service to complete the
     authentication process.
 
@@ -43,13 +43,13 @@ Additionally, Rackspace Cloud account administrators can configure account-wide
 settings to specify a multi-factor authentication policy for all account users.
 Administrators can update the account-wide settings to require multi-factor
 authentication for all users. When this setting is enabled, users cannot access
-their account until they configure multi-factor authentication. Current users
-are logged out as soon as the account-wide requirement is applied. At the next
-login, users are notified of the increased security and prompted to complete the
-setup process.
+their account until they configure multi-factor authentication. The system logs
+current users out as soon as it applies the account-wide requirement. The next time
+they log in, users get a notification of the increased security and a prompt to
+complete the setup process.
 
-**Important**: By default MFA is enabled account wide, if you wish to disable
-this setting a Support ticket needs to be generated.
+**Important**: By default, we enable MFA account-wide. If you want to disable
+this setting, you need to generate a support ticket.
 
 **Notes**
 
@@ -57,7 +57,7 @@ this setting a Support ticket needs to be generated.
     see [Multi-factor authentication from the MyRackspace portal](/support/how-to/multi-factor-authentication-from-the-myrackspace-portal).
 
 -   When you enable multi-factor authentication for an account, it is
-    enabled only for authentication via username and password
+    enabled only for authentication through username and password
     credentials.
 
     If the user supplies the client with a valid username and API key
@@ -89,21 +89,21 @@ this setting a Support ticket needs to be generated.
 
 To configure your account to use an SMS device for multi-factor
 authentication, you need the phone number associated with your digital
-device. The device must be enabled to receive SMS text messages.
+device. You must have a device capable of receiving SMS text messages.
 
 To register and verify an SMS device, use the following steps:
 
 1. Log in to the [Rackspace Cloud Control Panel](https://login.rackspace.com).
 
 2. In the upper-right corner of the Cloud Control Panel, click the
-    user menu and select **My Profile & Settings**.
+    **user** menu and select **My Profile & Settings**.
 
 3. In the **Security Settings** section, select **Enable** for
     **Multi-factor authentication**.
 
 4. Select **User SMS** and click **Next**.
 
-5. Select the country code for the device, type the device phone number and
+5. Select the country code for the device, type the device phone number, and
    click **Next**
 
     **Note**: The Identity service sends an SMS text message with a four-digit
@@ -117,7 +117,7 @@ To register and verify an SMS device, use the following steps:
 
 ### Configure your account to authenticate by using an OTP device
 
-A one-time password (OTP), also known as one-time PIN or dynamic password, is a
+A one-time password (OTP), also known as a one-time PIN or dynamic password, is a
 password that is valid for one login session or transaction on a computer
 system or other digital device.
 
@@ -144,7 +144,7 @@ To register and verify a mobile passcode device, use the following steps:
 
 5. Type a **Device nickname** for the OTP device. Then, click **Next**.
 
-6. The Identity service generates a QR code, use the OTP client application on
+6. The Identity service generates a QR code. Use the OTP client application on
     your device to scan the barcode and click **Verify**.
 
     After you scan the code, the OTP application on your device creates
@@ -154,7 +154,7 @@ To register and verify a mobile passcode device, use the following steps:
 7. To verify the new device, enter the passcode on the **Verify Code**
     form. Then, click **Verify Mobile Passcode**.
 
-    After you submit the verification code, you are automatically logged out.
+    After you submit the verification code, the system automatically logs you out.
 
     **Note:** By default, the new OTP device is the default method for
     authentication. If you do not want it to be the default or if you do not
@@ -170,7 +170,7 @@ To register and verify a mobile passcode device, use the following steps:
 
 ### Change default multi-factor authentication method
 
-If your account has been configured with both SMS and OTP devices, you
+If you configured your account with both SMS and OTP devices, you
 can select the default multi-factor authentication method from the
 **My Profile & Settings** page.
 
@@ -179,18 +179,19 @@ can select the default multi-factor authentication method from the
 2. In the upper-right corner of the Cloud Control Panel, click the
     user menu and select **My Profile & Settings**.
 
-3. In the **Security Settings** section, under **Multi-Factor Authentication**
+3. In the **Security Settings** section, under **Multi-Factor Authentication**,
    select **Manage**.
 
 4. In the **Security Settings** section, select **Enable** for
     **Multi-factor authentication**.
 
-5. Under **Method** select **Switch to SMS** if you setup a Mobile App or Switch to Mobile App** if you setup SMS.
+5. Under **Method**, select **Switch to SMS** (if you set up a Mobile App)
+   or **Switch to Mobile App** (if you set up SMS).
 
 ### Configure account-wide multi-factor authentication settings from an Administrator account
 
-**Important**: By default MFA is enabled account wide, if you wish to disable
-this setting a Support ticket needs to be generated.
+**Important**: By default, we enable MFA account-wide. If you want to disable
+this setting, you need to generate a support ticket.
 
 Account administrators can update Rackspace Cloud account-wide settings
 to require all users to authenticate by using multi-factor
@@ -214,20 +215,20 @@ accounts until they add and verify a device on their account.
 
     If you update the setting to `required`, users who do not have
     multi-factor authentication configured must add it the next time
-    they log in. Current users who have not set up multi-factor
-    authentication are logged out after seeing an error message similar to the
+    they log in. The system logs out current users who have not set up multi-factor
+    authentication after displaying an error message similar to the
     following example:
 
     {{<image alt="Force user to log out when multi-factor authentication requirement is not met" src="mfa-force-logout.png" title="Force user to log out when multi-factor authentication requirement is not met">}}
 
-    When these users log back in, they are guided through the
-    multi-factor authentication set up.
+    When these users log back in, the system guides them through the
+    multi-factor authentication setup.
 
 ### Configure multi-factor authentication during account log in
 
-If your account is not configured for multi-factor authentication when
-required, you are notified about the increase in security
-requirements and prompted to set up authentication.
+If you did not configure your account for multi-factor authentication when
+required, the system notifies you about the increase in security
+requirements and prompts you to set up authentication.
 
 To access your account, click **Set Up Multi-Factor Authentication.**
 Then, follow the steps to register and verify a
@@ -250,12 +251,12 @@ To log in to the Rackspace Cloud with multi-factor authentication
 1.  Log in to the [Rackspace Cloud Control Panel](https://login.rackspace.com)
     with your user name and password.
 
-    If your account is configured to use multi-factor authentication with
+    If you configured your account to use multi-factor authentication with
     an SMS device, the Identity service sends an SMS
     text message with a seven-digit passcode to the device registered to
     your account.
 
-    If your device is configured to use multi-factor authentication by
+    If you configured your device to use multi-factor authentication by
     OTP device, open the OTP client application and get the passcode
     from the OTP device associated with your Rackspace Cloud account.
 
@@ -285,10 +286,10 @@ Control Panel.
 
 You can verify your SMS or OTP device from the Account Settings page.
 
--   If you have an SMS device on your account that has not been verified, use the **Verify**
+-   If you have an unverified SMS device on your account, use the **Verify**
     option to complete the verification process.
 
--   If you have an OTP device that has not been verified, use the **Manage**
+-   If you have an unverified OTP device, use the **Manage**
     option to complete the verification process.
 
 **To remove multi-factor authentication**
@@ -305,13 +306,14 @@ associated with your account.
 **To change the mobile phone number**
 
 To change the mobile phone number paired with your account, use the
-**Remove** option to remove the existing phone number. For instructions, see
-the preceding task. Then, update the account settings with the new
+**Remove** option to remove the existing phone number by following the instructions
+in the preceding task. Then, update the account settings with the new
 phone number and verify the device.
 
 **To remove an SMS or OTP device**
 
 To remove an SMS device, use the **Remove all devices**.
+
 To remove an OTP device, use the **Manage** option to delete the device from
 your account.
 
@@ -336,7 +338,7 @@ when configuring and using multi-factor authentication.**
 </tr>
 <tr class="odd">
 <td align="left"><h4 id="invalid-pin-when-verifying-device"><strong><strong><strong>Invalid PIN when verifying device</strong></strong></strong></h4></td>
-<td align="left"><p>When you try to verify a mobile device, you might receive an error caused by an invalid PIN. Confirm that you are entering the correct four-digit PIN that you received via SMS text message.  Ensure that you are using the mobile device that is paired with the Rackspace Cloud account.</p></td>
+<td align="left"><p>When you try to verify a mobile device, you might receive an error caused by an invalid PIN. Confirm that you are entering the correct four-digit PIN that you received via SMS text message.  Ensure that you are using the mobile device paired with the Rackspace Cloud account.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><h4 id="locked-account"><strong><strong><strong>Locked account</strong></strong></strong></h4></td>
@@ -344,11 +346,11 @@ when configuring and using multi-factor authentication.**
 </tr>
 <tr class="odd">
 <td align="left"><h4 id="cannot-link-cloud-account-in-myrackspace-with-multi-factor-enabled"><strong><strong><strong>Cannot link cloud account in MyRackspace with multi-factor enabled</strong></strong></strong></h4></td>
-<td align="left"><p>If you are using MyRackspace, you cannot link to an existing Rackspace Cloud account that has been enabled for multi-factor authentication.</p></td>
+<td align="left"><p>If you are using MyRackspace, you cannot link to an existing Rackspace Cloud account enabled for multi-factor authentication.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><h4 id="account-recovery"><strong><strong><strong>Account recovery</strong></strong></strong></h4></td>
-<td align="left"><p>If your account is configured for multi-factor authentication, and you do not have access to your device or your generated account recovery codes,  contact Rackspace Support.</p></td>
+<td align="left"><p>If you configured your account for multi-factor authentication and do not have access to your device or your generated account-recovery codes,  contact Rackspace Support.</p></td>
 </tr>
 </tbody>
 </table>
