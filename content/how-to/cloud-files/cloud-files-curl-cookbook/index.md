@@ -612,3 +612,7 @@ the Cloud Files API documentation. The cURL techniques discussed in this
 article can also be used with other Rackspace Cloud based APIs and more
 generally for debugging HTTP and HTTPS based applications and web
 servers.
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+
+**Let's Talk** to [start the conversation](https://www.rackspace.com/).
