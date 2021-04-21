@@ -54,4 +54,4 @@ General**.
 
 It is important to manage carefully the roles given to new users. Keep the website's
 integrity and security by allowing people to do only what they are supposed to and
-avoid mistakes that can generate content errors or with the website itself.
+avoid mistakes that can generate errors with the content or the website itself.
