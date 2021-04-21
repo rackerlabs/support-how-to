@@ -38,7 +38,7 @@ ready to use:
     Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtsp smtp smtps telnet tftp
     Features: GSS-Negotiate IDN IPv6 Largefile NTLM SSL libz
 
-You can also install cURL on Microsoft&reg; Windows&reg. To do so, visit
+You can also install cURL on Microsoft&reg; Windows&reg;. To do so, visit
 the [cURL homepage](https://www.curl.com/) and download the executable
 from the [Downloads page](https://www.curl.com/download/). The Windows
 binary requires you to install some Microsoft Visual C++&reg; libraries
@@ -107,7 +107,7 @@ file uploads in a standard fashion. Use the following syntax:
 #### View the HTTP headers
 
 Many operations do not return a response body, just response headers.
-These headers contain useful information such as the HTTP response code. To view the
+These headers contain useful information, such as the HTTP response code. To view the
 HTTP response headers, use the `-I` option, as shown in the following
 example. This option is the equivalent of an **HTTP HEAD** request (X HEAD):
 
@@ -346,7 +346,7 @@ cURL `-o` option to save the HTTP response body to a file:
 ##### Upload an object
 
 To upload a new object to a container, perform a **PUT** request. Include
-the file to be uploaded along with any additional options that you want
+the file you want to upload along with any additional options you want,
 such as file content-type headers. The following example uploads a file
 called **style.css** to a container called **static** with a content-type of
 **text/css**.
@@ -428,7 +428,7 @@ name of **rackspace.jpeg** as named in the Destination header:
 ##### Update object headers
 
 You can update certain HTTP headers that correspond to an object by
-performing an **POST** operation to the object path with the updated
+performing a **POST** operation to the object path with the updated
 header. This function is most useful for correcting an incorrectly set
 `Content-Type` header. Other headers that you can set include the `CORS` and
 `Content-Disposition` headers.
@@ -454,7 +454,7 @@ Following is an example of how to update the `Content-Type` of an image to
 
 Cloud Files maintains a separate CDN API web service endpoint
 specifically for CDN-related operations. The authentication process returns
-this URL. The following recipes use this endploint URL:
+this URL. The following recipes use this endpoint URL:
 
     https://cdn2.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b.
 
@@ -503,10 +503,12 @@ The following request enables and publishes the images container:
 ##### View a container's CDN details
 
 To view a container's CDN properties requires you to send a **HEAD**
-request to the API CDN URL. Viewable information includes whether the
-container is CDN-enabled, if CDN logging is turned on, the currently
-set TTL, and the various CDN domain names that you can use to
-reference content within the container.
+request to the API CDN URL. Viewable information includes the following details:
+
+- Whether the container is CDN-enabled
+- If CDN logging is turned on
+- The currently TTL setting
+- The various CDN domain names that you can use to reference content within the container.
 
 The following request lists the CDN details of the images container:
 
@@ -528,7 +530,7 @@ The following request lists the CDN details of the images container:
 You can update the CDN attributes of a CDN-enabled container by sending
 a **POST** request to the API CDN URL naming the container to be
 updated and passing along one or more of the attribute headers. Trying
-to perform an update of a container that has never been CDN-enabled
+to update a container that has never been CDN-enabled
 results in an `HTTP 404` error. Because the response does not return a
 response body, use the verbose option to determine the operation status.
 
@@ -583,8 +585,9 @@ to use in the ticket.
 previous purge is still running results in an `HTTP 400` error.
 
 The following operation performs a CDN purge of the **rackspace.png** file
-from the **images** container with a notification email set to
-**user@example.com**. (Use the verbose (`-v`) option because no response body is returned.)
+from the **images** container with a notification email sent to
+**user@example.com**. (Use the verbose (`-v`) option because the operation
+does not return a response body.)
 
     $ curl -v -X DELETE -H "X-Purge-Email: user@example.com" -H "X-Auth-Token: 3c5c8187-2569-47e0-8a11-edadd384e12" https://cdn2.clouddrive.com/v1/MossoCloudFS_c4f83243-7537-4600-a94d-ab7065f0a27b/images/rackspace.png
     ...
