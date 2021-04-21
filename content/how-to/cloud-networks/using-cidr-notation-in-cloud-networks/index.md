@@ -13,8 +13,8 @@ product_url: cloud-networks
 
 ### What is CIDR?
 
-Classless Inter-Domain Routing (CIDR), is a range of IP addresses a network
-uses. A CIDR address looks like a normal IP address except that
+Classless Inter-Domain Routing (CIDR) is a range of IP addresses a network
+uses. A CIDR address looks like a normal IP address, except that
 it ends with a slash followed by a number. The number after the slash
 represents the number of addresses in the range.
 
@@ -22,41 +22,41 @@ Here's an example CIDR IP address in IPv4:
 
     192.0.2.0/24
 
-Since IPv4 has a 32-bit address space the 24-bit prefix above means that
-the address range is the 8 bits (256 addresses) after 192.0.2.0.
+Because IPv4 has a 32-bit address space, the 24-bit prefix in the preceding example
+means that the address range is the 8 bits (256 addresses) after 192.0.2.0.
 
 And here's an example in IPv6:
 
     2001:db8::/32
 
-IPv6 has a 128-bit address range so the 32-bit network prefix means it
-refers to 96 bits' worth of addresses following 2001:db8::, about 76
+IPv6 has a 128-bit address range, so the 32-bit network prefix
+refers to 96 bits worth of addresses following 2001:db8::, about 76
 octillion addresses.
 
-### CIDR Notation in the Cloud Control Panel
+### CIDR notation in the Cloud Control Panel
 
 If you're using the [Cloud Control Panel](https://mycloud.rackspace.com)
-to create a Cloud Network you won't need to worry about calculating the
-IP address. The CIDR field is automatically populated with an IP block
-on the Rackspace Network. You only need to supply a name for the network
+to create a Cloud Network, you don't need to worry about calculating the
+IP address. The system automatically populates the CIDR field with an IP block
+on the Rackspace Network. You need only to supply a name for the network
 and click **Create Network**.
 
-For complete instructions on how to create a Cloud Network using the
-Cloud Control Panel see [Create an Isolated Cloud Network and attach it
+For complete instructions on creating a Cloud Network by using the
+Cloud Control Panel, see [Create an Isolated Cloud Network and attach it
 to a server](/support/how-to/create-an-isolated-cloud-network-and-attach-it-to-a-server "Create an Isolated Cloud Network and attach it to a server").
 
-### CIDR Notation in the Cloud Networks API
+### CIDR notation in the Cloud Networks API
 
-If you're using the Cloud Networks API to create a network you must
+If you're using the Cloud Networks API to create a network, you must
 specify the CIDR and a name for the new network.
 
-The nova client command looks like this:
+The nova client command looks like the following example:
 
     nova network-create <network_label> <cidr>
 
-Where network\_label is the name of the network, such as
-my\_new\_network, and cidr is the IP block to allocate from, such as
-172.16.0.0/24 or 2001:DB8::/64.
+In this case, **network\_label** is the name of the network, such as
+`my_new_network`, and **cidr** is the IP block from which to allocate, such as
+`172.16.0.0/24` or `2001:DB8::/64`.
 
 The following example shows a cURL command that creates the network:
 
@@ -80,8 +80,8 @@ The JSON-format response would look similar to this:
 
 <https://www.subnet-calculator.com/cidr.php>
 
-For more information on using the Cloud Networks API see the Rackspace
-Cloud Networks API Developers Guide.
+For more information on using the Cloud Networks API see the
+[Rackspace Cloud Networks Developers Guide](https://docs.rackspace.com/docs/cloud-networks/v2/).
 
 ### More Information on Cloud Networks
 
