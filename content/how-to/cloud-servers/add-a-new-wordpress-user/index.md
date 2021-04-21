@@ -11,51 +11,47 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article explains how to add a new user to your WordPress site, as well as
-the different user roles available.
+This article explains how to add a new user to your WordPress&reg; site and
+describes the different user roles available.
 
 **Important**: Rackspace Support does not support WordPress configuration. This
 article provides steps as a best-effort solution, but your developers should
 review them thoroughly before implementing them to prevent unexpected downtime.
 
-### Adding a new user
+### Add a new user
 
-1. Log into your WordPress administrator page.
+1. Log in to your WordPress administrator page.
 2. In the left sidebar, click on the **Users** option.
-3. Look for the **Add new** button at the left top part of the page and click on
-   it.
+3. Click the **Add new** button in the page's upper-left corner.
 4. Write down the username, email, and password for your new user. You can also
    add their first name, last name, and website.
 5. If you check the **Send the new user an email about their account** checkbox,
-   the new user will receive its login information through email.
-6. On the **Role** section you can select the permissions the new user will have.
-   Below we explain the different roles.
+   the new user receives an email with login information.
+6. In the **Role** section, you can select the permissions for the new user.
+   See the following section for the different role explanations.
 7. Click the **Add New User** button.
 
 ### User Roles
 
-When you create a new user, the given role will define the permissions the user
-will have on the website. The default role is *Administrator*. Here are the
-characteristics of the different roles:
+When you create a new user, the role you assign defines the website permissions the user
+has. The default role is *Administrator*. Here are the characteristics of the different roles:
 
-- **Super Admin:** this role grants access to the site network administration
+- **Super Admin:** Grants access to the site network administration
   and all other features.
-- **Administrator:** grants access to all the administration features within a
+- **Administrator:** Grants access to all the administration features within a
   single site.
-- **Editor:** allows the user to publish and manage posts, even if the posts
+- **Editor:** Allows users to publish and manage posts, even if the posts
   belong to other users.
-- **Author:** this role allows the user to publish and manage its own posts.
-- **Contributor:** allows the user to manage their own posts, without the
-  capability of publishing them.
-- **Subscriber:** this role allows the user only to manage their profile.
+- **Author:** Allows users to publish and manage their own posts.
+- **Contributor:** Allows users to manage their own posts but not to publish them.
+- **Subscriber:** Allows users to manage only their profile.
 
-As mentioned before, the *Administrator* role is the default for new users. If
-you want to change this, go through *Administration Screens -> Settings ->
-General*.
+Remember, the *Administrator* role is the default for new users. If
+you want to change this, navigate to **Administration Screens -> Settings ->
+General**.
 
 ### Conclusion
 
-It is important to manage carefully the roles given to new users to keep the
-integrity and security of the website, by allowing people to do only what they
-are supposed to and avoid mistakes that can generate errors on the contents or
-the website itself.
+It is important to manage carefully the roles given to new users. Keep the website's
+integrity and security by allowing people to do only what they are supposed to and
+avoid mistakes that can generate content errors or with the website itself.
