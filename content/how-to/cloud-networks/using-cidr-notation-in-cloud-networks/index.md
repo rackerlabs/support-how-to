@@ -1,20 +1,20 @@
 ---
 permalink: using-cidr-notation-in-cloud-networks/
-audit_date:
+audit_date: '2021-04-21'
 title: Using CIDR notation in Cloud Networks
 type: article
 created_date: '2012-09-17'
 created_by: David Hendler
-last_modified_date: '2016-06-06'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2021-04-21'
+last_modified_by: Carlos Arriaga
 product: Cloud Networks
 product_url: cloud-networks
 ---
 
 ### What is CIDR?
 
-Classless Inter-Domain Routing (CIDR), is a range of IP addresses used
-by a network. A CIDR address looks like a normal IP address except that
+Classless Inter-Domain Routing (CIDR), is a range of IP addresses a network
+uses. A CIDR address looks like a normal IP address except that
 it ends with a slash followed by a number. The number after the slash
 represents the number of addresses in the range.
 
@@ -94,4 +94,7 @@ Server](/support/how-to/attach-a-cloud-network-to-an-existing-cloud-server "Atta
 [Removing Networks from a Cloud
 Server](/support/how-to/removing-networks-from-a-cloud-server "Removing Networks from a Cloud Server")
 
-[Cloud Networks Developer Guide](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/)
+[Cloud Networks Developer Guide](https://docs.rackspace.com/docs/cloud-networks/v2/)
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
