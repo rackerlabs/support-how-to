@@ -1,12 +1,12 @@
 ---
 permalink: removing-networks-from-a-cloud-server/
-audit_date:
+audit_date: '2021-04-21'
 title: Removing Networks from a Cloud Server
 type: article
 created_date: '2012-09-25'
 created_by: David Hendler
-last_modified_date: '2016-08-03'
-last_modified_by: Colin Barker
+last_modified_date: '2021-04-21'
+last_modified_by: Carlos Arriaga
 product: Cloud Networks
 product_url: cloud-networks
 ---
@@ -45,4 +45,7 @@ not available when these networks are removed from a Cloud Server:
 -  [Create an isolated network and attach it to a server](/support/how-to/create-an-isolated-cloud-network-and-attach-it-to-a-server)
 -  [Attach a Cloud Network to an Existing Cloud Server](/support/how-to/attach-a-cloud-network-to-an-existing-cloud-server)
 -  [Using CIDR notation in Cloud Networks](/support/how-to/using-cidr-notation-in-cloud-networks)
--  [Cloud Networks Developer Guide](https://docs.rackspace.com/docs/)
+-  [Cloud Networks Developer Guide]( https://docs.rackspace.com/docs/cloud-networks/v2/)
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
