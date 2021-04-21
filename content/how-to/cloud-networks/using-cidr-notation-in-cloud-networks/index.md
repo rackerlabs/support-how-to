@@ -76,9 +76,7 @@ The JSON-format response would look similar to this:
      }
     }
 
-**Note**: To help calculate a subnet, you might use a tool like this:
-
-<https://www.subnet-calculator.com/cidr.php>
+**Note**: To help calculate a subnet, you might use a tool like this: <https://www.subnet-calculator.com/cidr.php>
 
 For more information on using the Cloud Networks API see the
 [Rackspace Cloud Networks Developers Guide](https://docs.rackspace.com/docs/cloud-networks/v2/).
