@@ -11,7 +11,7 @@ product: Cloud Files
 product_url: cloud-files
 ---
 
-Rackspace offers Cloud Files service is with a RESTful API interface that you can use to integrate
+Rackspace offers Cloud Files service with a RESTful API interface that you can use to integrate
 with existing applications. You can use the interface to directly interact with the API to
 perform ad hoc tasks or troubleshoot Cloud Files. Alternatively, you can use cURL to perform
 these actions from the command line. cURL is a generic client that supports several protocols,
