@@ -5,8 +5,8 @@ title: Basic types of Linux users and how to check them
 type: article
 created_by: Coral Moore
 created_date: '2021-03-04'
-last_modified_date: '2021-03-04'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2021-04-21'
+last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -19,17 +19,17 @@ There are two basic types of users to choose from: **SFTP** and **SSH**.
 
 #### SFTP users
 
-Secure File Transfer Protocol (SFTP) users can easily use the command line or a
+Secure File Transfer Protocol (SFTP) users can use the command line or a
 program, such as Filezilla&reg;, to upload files securely. This tool is useful
-for developers who just need somewhere to upload their website files. An
+for developers who need somewhere to upload their website files. An
 SFTP-only user can connect through SFTP but not through SSH.
 
 #### SSH users
 
-SecureShell (SSH) users can securely connect to the Linux&reg; command line,
-usually in a black-screen, command-line terminal such as PuTTY&reg; or
-MobaXterm&reg;. It's a handy method but only recommended for those comfortable
-with the Linux command line. An SSH user can connect through both SFTP and SSH.
+SecureShell (SSH) users can securely connect to the Linux&reg; command line, in
+ a black-screen, command-line terminal such as PuTTY&reg; or MobaXterm&reg;.
+ It's a handy method but recommended for those comfortable with the Linux
+ command line. An SSH user can connect through both SFTP and SSH.
 
 ### Modify user access
 
@@ -48,12 +48,11 @@ system then logs who made the request and carries it out.
 
 #### Other users
 
-There are also persistent users that you can often find in Linux. These are
-system users like `bin`, `mail`, `games`, `nobody`, and so on, which you can
-usually ignore. The `root` user allows you to do anything you like on the
-system.
+Persistent users are system users like `bin`, `mail`, `games`, `nobody`, and so
+on, which you can usually ignore. The `root` user allows you to do anything you
+like on the system.
 
-To make things simpler, here is a graph showing the basic Linux users you can
+To make matters simpler, here is a graph showing the basic Linux users you can
 have, scaled from least permissions to all permissions:
 
 {{<image src="Picture1.png" alt="" title="">}}
@@ -133,6 +132,8 @@ Each line is split into different sections with:
 |---------|--------|--------|--------|--------|
 | Username | User ID. If it's below 1000, it's *probably* a default system user | A comment if one was added | Home Directory. Jail/Chroot=/home/chroot | SFTP-only=/sbin/nologin SSH=/bin/bash |
 
+</br>
+
 #### Find a user
 
 Run the following command to search for a specific user:
@@ -143,9 +144,10 @@ Run the following command to search for a specific user:
 
 #### Check permissions
 
-Run the following command to check if a user has `sudo` permissions:
+Run the following command to check if a user has `sudo` permissions either by
+the use of privilege `ALL=(ALL)` or `wheel` group:
 
-    # grep <user> /etc/sudoers
+    # (getent group; cat /etc/sudoers) | grep <user>
 
 </br>
 
@@ -179,7 +181,7 @@ Check the last ten users to log in:
 
 Check if a user tried to log in:
 
-    # grep <USER> /var/log/secure
+    # grep <user> /var/log/secure
 
 </br>
 
@@ -191,17 +193,17 @@ Show a live feed of users trying to log in (Use `Ctrl+C` to cancel):
 
 Check when a password is due to expire (default is never):
 
-    # chage -l <USER>
+    # chage -l <user>
 
 </br>
 
 Check what groups a user is a part of:
 
-    # groups <USER>
+    # groups <user>
 
 </br>
 
 Use the following script to check a user to see if their password is locked if
 they have sudo permissions:
 
-    # UU='<USER>'; getent passwd | grep ${UU}; passwd -S ${UU}; grep ${UU} /etc/sudoers; groups ${UU}
+    # UU='<user>'; getent passwd | grep ${UU}; passwd -S ${UU}; grep ${UU} /etc/sudoers; groups ${UU}
