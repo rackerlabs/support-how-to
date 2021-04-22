@@ -45,7 +45,6 @@ There are a few variables in the code that you must customize:
 | **{seal}** | Vendor Seal:<br/>Thawte orders use code **17**<br/>Secure Site orders use code **18** |
 | **{size}** | The size of your seal: **s**, **m**, or **l**|
 
----
 
 If you purchased your SSL certificate through Rackspace Technology and you need further
 assistance with the site seal code, reply on your order ticket or call Support.
