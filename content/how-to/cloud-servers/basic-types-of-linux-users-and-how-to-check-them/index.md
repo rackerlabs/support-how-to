@@ -149,6 +149,8 @@ the use of privilege `ALL=(ALL)` or `wheel` group:
 
     # (getent group; cat /etc/sudoers) | grep <user>
 
+**Note**: No output means sudo permissions were not found.
+
 </br>
 
 #### Check password status
