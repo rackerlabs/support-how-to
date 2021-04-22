@@ -1,6 +1,7 @@
 # Redirects
 
-
+/support/how-to/cloud-servers/what-happens-if-i-do-not-supply-a-vat-id-number/ /how-to/account-management/account-management-faq/ 404
+/how-to/account-management/account-management-faq/ /support/how-to/account-management/account-management-faq/ 301
 /support/how-to/creating-a-monitoring-check-using-the-cloud-control-panel/  /how-to/about-the-rackspace-monitoring-agent/  404
 /how-to/about-the-rackspace-monitoring-agent/  /support/how-to/about-the-rackspace-monitoring-agent/  301
 /support/how-to/introduction-to-mailgun-email-automation/  /how-to/preparing-the-cloud-server-to-be-a-mail-server/  404
