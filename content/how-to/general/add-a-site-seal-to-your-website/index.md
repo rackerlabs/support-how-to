@@ -35,7 +35,7 @@ var _dcid = __dcid || [];_dcid.push(["DigiCertClickID_{hash}", "{seal}", "{size}
 </script>
 ```
 
-There are a few variables in the code that you must customize: 
+You need to customize the following variables in the code: 
 
 {{<image src="site-seal-code.jpg" alt="" title="Site Seal Code">}}
 
