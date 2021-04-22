@@ -109,7 +109,6 @@ Following is the initial pop-up window that appears when you enable RBAC.
 
 <img class="fig-img" src="/support/how-to/account-management-faq/RBAC.png" alt="">
 
-
 For information about additional products that will be RBAC-enabled in
 the future, see [Learn about Role Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac).
 
@@ -118,3 +117,12 @@ For information about changing your admin credentials, see [Use Role-Based Acces
 For access to the Cloud Control Panel, log in at [https://login.rackspace.com/](https://login.rackspace.com/).
 
 {{</ accordion >}}
+
+{{< accordion title="What happens if I do not supply a VAT ID number?" col="in" href="accordion31" >}}
+
+If you do not have a VAT ID number, or choose not to supply one,
+Rackspace will apply the appropriate tax handling to your invoice. It is
+in your best interest to supply your VAT ID number because the tax
+handling for a registered entity is beneficial in most circumstances.
+
+{{< /accordion >}}
