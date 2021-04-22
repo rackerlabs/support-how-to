@@ -1,7 +1,5 @@
 # Redirects
 
-/support/how-to/rackconnect-regionlink-faq/  /how-to/rackconnect-regionlink-faq/  404
-/how-to/rackconnect-regionlink-faq/  /support/rackconnect-regionlink-faq/  301
 /support/how-to/creating-a-monitoring-check-using-the-cloud-control-panel/  /how-to/about-the-rackspace-monitoring-agent/  404
 /how-to/about-the-rackspace-monitoring-agent/  /support/how-to/about-the-rackspace-monitoring-agent/  301
 /support/how-to/introduction-to-mailgun-email-automation/  /how-to/preparing-the-cloud-server-to-be-a-mail-server/  404
@@ -40,6 +38,7 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 # Retired Articles
 
+/support/how-to/rackconnect-regionlink-faq/  /how-to/article-retired/  404
 /support/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/ /how-to/article-retired/ 404
 /support/how-to/add-self-service-password-recovery-to-your-rackspace-email-webmail-site/ /how-to/article-retired/ 404
 /support/how-to/migrating-from-a-pop-server-to-rackspace-email-pop-using-outlook-2010/ /how-to/article-retired/ 404
