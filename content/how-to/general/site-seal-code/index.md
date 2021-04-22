@@ -1,7 +1,7 @@
 ---
 permalink: site-seal-code/
 audit_date: '2021-04-22'
-title: 'Site Seal Code'
+title: Add a site seal to your website
 type: article
 created_date: '2021-04-21'
 created_by: Z McCrocklin
@@ -11,12 +11,14 @@ product: General
 product_url: general
 ---
 
-You've purchased a new Certificate with Rackspace and now you want to display a
-seal to show your site is secure.
+After you purchase an SSL certificate, you might want to add a site seal to your website. A site seal
+is a visual indicator to your visitors that your website is secured with an SSL certificate and
+can help establish trust in your organization.
 
-### The Code
+### Site seal code
 
----
+You can use the following code example to add a site seal to your website:
+
 
 ```javascript
 <!-- DigiCert Seal HTML -->
@@ -33,18 +35,14 @@ var _dcid = __dcid || [];_dcid.push(["DigiCertClickID_{hash}", "{seal}", "{size}
 </script>
 ```
 
----
-
-### The Variables
+There are a few variables in the code that you must customize: 
 
 {{<image src="site-seal-code.jpg" alt="" title="Site Seal Code">}}
 
 | Variable | Description |
 | --- | --- |
 | **{hash}** | (3 locations in the code above) - Site Seal Hash unique to your order (Provided on your order ticket) |
-| **{seal}** | Vendor Seal:
-| | Thawte orders use code **17** |
-| |  Secure Site orders use code **18** |
+| **{seal}** | Vendor Seal:<br/>Thawte orders use code **17**<br/>Secure Site orders use code **18** |
 | **{size}** | The size of your seal: **s**, **m**, or **l**|
 
 ---
