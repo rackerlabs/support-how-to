@@ -22,7 +22,7 @@ You need a Linux&reg; server running Fedora&reg;.
 
 ### Install Nginx on Fedora
 
-Nginx is available in the default repositories for most popular Linux
+Nginx is available in the default repositories for most popular Linux&reg;
 distributions, including Fedora. To install Nginx, run the following `dnf`
 package-manager command:
 
@@ -30,7 +30,7 @@ package-manager command:
 
 Enter **y** at the prompt to confirm that you want to install the package.
 
-After the installation completes, run the following command to enable and start
+After the installation completes, run the following commands to enable and start
 the service. These commands start Nginx and configure it to start up when the
 server does.
 
@@ -40,7 +40,7 @@ server does.
 ### Open the firewall for Nginx
 
 By default, Nginx listens on the default ports for HTTP and HTTPS traffic (Ports
-`80` and `443`). However, this does not mean that it will receive traffic,
+`80` and `443`). However, this does not mean that it receives traffic
 because the firewall on the system also needs to allow traffic on these ports.
 Use the following commands to add the ports necessary for your site by adding
 the HTTP and HTTPS services:
@@ -55,7 +55,7 @@ Then reload `firewalld` to apply the new settings:
 ### Test Nginx
 
 After you install the package and open the firewall port or ports, Nginx should
-display its default webpage. You can see this by typing your IP address in your
+display its default web page. You can see this by typing your IP address in your
 web browser. You should see a splash page with the Nginx logo and a "Welcome to
 Nginx" message. If you do not see this, double-check that the IP address is
 correct, Nginx is running, and the firewall settings are correct.
@@ -65,5 +65,5 @@ correct, Nginx is running, and the firewall settings are correct.
 You can now use Nginx to start serving your application or website. Use the
 default configuration to serve a site by putting its content in the
 **/var/www/html** directory in your filesystem. If you want to serve more than
-one site, we recommend that you set up Nginx server blocks to accommodate this
+one site, we recommend that setting Nginx server blocks to accommodate this
 need.
