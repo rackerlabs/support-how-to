@@ -1,5 +1,5 @@
 ---
-permalink: site-seal-code/
+permalink: add-a-site-seal-code-to-your-website/
 audit_date: '2021-04-22'
 title: Add a site seal to your website
 type: article
@@ -11,9 +11,10 @@ product: General
 product_url: general
 ---
 
-After you purchase an SSL certificate, you might want to add a *site seal* to your website. A site seal
-is a visual indicator to your visitors that your website is secured with an SSL certificate and
-can help establish trust in your organization.
+After you purchase an SSL certificate, you might want to add a *site seal* to
+your website. A site seal is a visual indicator to your visitors that your
+website is secured with an SSL certificate and can help establish trust in your
+organization.
 
 ### Site seal code
 
