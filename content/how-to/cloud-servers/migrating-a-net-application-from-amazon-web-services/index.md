@@ -13,9 +13,9 @@ product_url: cloud-servers
 
 **Previous section:** [Provision cloud resources when migrating from Amazon Web Services](/support/how-to/provisioning-cloud-resources-when-migrating-from-amazon-web-services)
 
-This article describes the migration of a .NET web application from
-Amazon Web Services (AWS) to Rackspace Cloud. It takes an estimated 30 minutes
-to complete, if you follow the instructions step by step.
+This article describes how to migrate a .NET web application from
+Amazon Web Services&reg; (AWS&reg;) to the Rackspace Cloud. It takes approximately 30 minutes
+to complete if you follow the instructions step by step.
 
 The following figure shows the topology of the application in this scenario:
 
@@ -23,10 +23,9 @@ The following figure shows the topology of the application in this scenario:
 
 ### Prerequisites
 
-- Microsoft Windows Server on AWS running a .NET web application on Internet
-    Information Services (IIS) (Windows Server 2012 with IIS 8 is used in this
-    use case.)
-- Valid and enabled account on Rackspace Cloud
+- Microsoft&reg; Windows&reg; Server on AWS running a .NET&reg; web application on Internet
+    Information Services (IIS&reg;) This article's examples used a Windows Server 2012 with IIS 8.
+- Valid and enabled account on the Rackspace Cloud.
 
 ### Preparation
 
@@ -43,7 +42,7 @@ The following figure shows the topology of the application in this scenario:
 
         {{<image src="4-2-6.png" alt="" title="">}}
 
-    2. Install an FTP client application that you will use to back up data to
+    2. Install an FTP client application for backing up data to
        Rackspace Cloud Files. You can use any browser to download the client.
 
     3. Create a connection to Rackspace Cloud Files by using your Rackspace
@@ -70,11 +69,11 @@ the article [Provision cloud resources when migrating from Amazon Web Services](
         C:\inetpub\wwwroot
 
 3. Open IIS Manager, click **Add Website**, and enter details: site name,
-   physical path, and host name.
+   physical path, and hostname.
 
     {{<image src="4-2-8.png" alt="" title="">}}
 
-4. After creating the website, stop the Default Web Site pre-installed
+4. After creating the website, stop the **Default Web Site** pre-installed
    application and start your web application.
 
 ### Test your application
