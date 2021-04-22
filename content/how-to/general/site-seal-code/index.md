@@ -47,5 +47,5 @@ There are a few variables in the code that you must customize:
 
 ---
 
-If you need further assistance with the site seal code, please feel free to
-reply on your Order Ticket or give us a call.
+If you purchased your SSL certificate through Rackspace Technology and you need further
+assistance with the site seal code, reply on your order ticket or call Support.
