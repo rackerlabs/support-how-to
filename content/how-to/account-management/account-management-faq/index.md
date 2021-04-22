@@ -15,8 +15,7 @@ product_url: account-management
 
 {{< accordion title="What is the cost to opt in to RBAC?" col="in" href="accordion16" >}}
 
-RBAC is a no-cost feature that is available to selected public cloud services
-with an API.
+RBAC, a no-cost feature, is available to selected public cloud services with an API.
 {{</ accordion >}}
 
 {{< accordion title="Can a customer opt out of RBAC?" col="in" href="accordion17" >}}
@@ -90,9 +89,8 @@ see [Learn about Role-Based Access Control (RBAC)](/support/how-to/overview-role
 
 {{< accordion title="Can I link dedicated, hybrid, and cloud permissions?" col="in" href="accordion28" >}}
 
-You cannot link these permissions at this time. Having a common
-permission scheme among dedicated, hybrid, and cloud customers will be
-addressed in the future.
+You cannot link these permissions at this time. We plan to address having a common
+permission scheme among dedicated, hybrid, and cloud customers in the future.
 {{</ accordion >}}
 
 {{< accordion title="Are servers, containers, files, databases, and load balancers shared, or do users each have their own set of resources?" col="in" href="accordion29" >}}
@@ -120,8 +118,8 @@ For access to the Cloud Control Panel, log in at [https://login.rackspace.com/](
 
 {{< accordion title="What happens if I do not supply a VAT ID number?" col="in" href="accordion31" >}}
 
-If you do not have a VAT ID number, or choose not to supply one,
-Rackspace will apply the appropriate tax handling to your invoice. It is
+If you do not have a VAT ID number or choose not to supply one,
+Rackspace applies the appropriate tax handling to your invoice. It is
 in your best interest to supply your VAT ID number because the tax
 handling for a registered entity is beneficial in most circumstances.
 
