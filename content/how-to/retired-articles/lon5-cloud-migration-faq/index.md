@@ -5,10 +5,8 @@ title: LON5 Cloud Migration FAQ
 type: article
 created_date: '2015-08-11'
 created_by: Stephanie Fillmon
-last_modified_date: '2016-01-11'
-last_modified_by: Rose Contreras
-product: Cloud Servers
-product_url: cloud-servers
+last_modified_date: '2021-04-22'
+last_modified_by: Rose Morales
 ---
 
 In May 2015, Rackspace opened a new data centre, LON5, to support our

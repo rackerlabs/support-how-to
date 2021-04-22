@@ -5,10 +5,8 @@ title: Install pyrax
 type: article
 created_date: '2014-06-02'
 created_by: Chris Mendoza
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+last_modified_date: '2021-04-22'
+last_modified_by: Rose Morales
 ---
 
 Complete the following steps on a new server running CentOS or the Ubuntu

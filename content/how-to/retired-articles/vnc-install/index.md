@@ -5,10 +5,8 @@ title: Install VNC on a Cloud Server
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2016-01-13'
-last_modified_by: Nate Archer
-product: Cloud Servers
-product_url: cloud-servers
+last_modified_date: '2021-04-22'
+last_modified_by: Rose Morales
 ---
 
 This page explains how to install VNC on your Cloud Server. This article

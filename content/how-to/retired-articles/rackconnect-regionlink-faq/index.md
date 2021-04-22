@@ -7,8 +7,7 @@ created_date: '2014-12-04'
 created_by: Sameer Satyam
 last_modified_date: '2016-01-21'
 last_modified_by: Kelly Holcomb
-product: RackConnect
-product_url: rackconnect
+
 ---
 
 Get quick answers to common questions about RackConnect RegionLink.

@@ -3,7 +3,7 @@
 {{- $isBlogs := (eq .Section "blog") -}}
 
 
-<header class="header buttons-header">
+<header class="header buttons-header" data-nosnippet>
   <nav class="nav navbar navbar-light bg-light justify-content-end buttons-nav-items">
       {{- range .Site.Menus.buttons -}}
       {{- if eq .Identifier "buynow" -}}
@@ -45,7 +45,7 @@
   </nav>
 </header>
 
-<header class="header {{ if $isDocs }} docs{{ end }}">
+<header class="header {{ if $isDocs }} docs{{ end }}" data-nosnippet>
   <nav class="nav navbar navbar-expand-lg navbar-dark bg-dark">
     <a href="https://www.rackspace.com/" title="Go to homepage" class="logo navbar-brand"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -63,7 +63,7 @@
   </nav>
 </header>
 
-<header class="header search-head">
+<header class="header search-head" data-nosnippet>
   <nav class="nav navbar navbar-expand-lg">
     <div class="col-sm-12 col-md-8">
       <div class="collapse navbar-collapse justify-content-between">
