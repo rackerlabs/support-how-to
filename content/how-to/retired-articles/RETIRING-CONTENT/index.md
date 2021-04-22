@@ -6,7 +6,7 @@
 
 ### Retire content from the Rackspace How-To content repository on your local computer
 
-1. On your PC in the How-To respository clone, move the folder with the original article **index.md** file (and any associated images or assets) to the retired articles folder, **support-how-to/content/how-to/retired-articles**.
+1. On your PC, in the How-To repository clone, move the folder with the original article **index.md** file (and any associated images or assets) to the retired articles folder, **support-how-to/content/how-to/retired-articles**.
 
 2. Remove both the `product:` and `product_url:` metadata fields from the retired article's **index.md** file.
 
@@ -14,7 +14,7 @@
 
 4. Redirect the article to the retired notification page.  See the **Redirect the article to retired notification** section.
 
-5. (Optional) If the retired article is listed on the product's index page, see the **Remove the article from the product\_index.md page** section.
+5. (Optional) If the product's index page lists the retired article, see the **Remove the article from the product\_index.md page** section.
 
 After the pull request is ready, post a link in the #how-to slack channel for review and merge.
 
@@ -35,7 +35,7 @@ This step redirects anyone trying to reach the old article link to the retired a
 
 ### Remove the article from the product index page
 
-This step is optional and should only be completed if the article is on the product's **\_index.md** page (the intro page or the landing page) for the topic.
+This step is optional, and you should complete it only if the article is on the product's **\_index.md** page (the intro page or the landing page) for the topic.
 
 **Important:** Complete this step in the same PR as the one in which you retired the article.
 
