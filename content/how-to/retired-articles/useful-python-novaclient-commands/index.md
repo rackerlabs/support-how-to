@@ -5,10 +5,8 @@ title: Useful python-novaclient commands
 type: article
 created_date: '2012-07-23'
 created_by: Jered Heeschen
-last_modified_date: '2016-01-04'
-last_modified_by: Cat Lookabaugh
-product: Cloud Servers
-product_url: cloud-servers
+last_modified_date: '2021-04-22'
+last_modified_by: Rose Morales
 ---
 
 This article discusses several of the commands that can be run against

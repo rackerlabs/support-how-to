@@ -5,10 +5,8 @@ title: Create an Outbound Port Deny Rule for Windows Firewall (Windows 2008)
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2016-06-21'
-last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+last_modified_date: '2021-04-22'
+last_modified_by: Rose Morales
 ---
 
 This article shows how to create an outbound port deny rule for Windows Firewall (Windows 2008).
