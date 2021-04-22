@@ -11,7 +11,7 @@ product: General
 product_url: general
 ---
 
-After you purchase an SSL certificate, you might want to add a site seal to your website. A site seal
+After you purchase an SSL certificate, you might want to add a *site seal* to your website. A site seal
 is a visual indicator to your visitors that your website is secured with an SSL certificate and
 can help establish trust in your organization.
 
@@ -41,10 +41,10 @@ There are a few variables in the code that you must customize:
 
 | Variable | Description |
 | --- | --- |
-| **{hash}** | (3 locations in the code above) - Site Seal Hash unique to your order (Provided on your order ticket) |
-| **{seal}** | Vendor Seal:<br/>Thawte orders use code **17**<br/>Secure Site orders use code **18** |
-| **{size}** | The size of your seal: **s**, **m**, or **l**|
+| **{hash}** | Site Seal.<br/>Hash unique to your order and provided on your order ticket. <br/>Occurs in three locations in the preceding code. |
+| **{seal}** | Vendor Seal.<br/>Thawte orders use code `17`.<br/>Secure Site orders use code `18`. |
+| **{size}** | The size of your seal.<br/>Values can be `s`, `m`, or `l`.|
 
 
-If you purchased your SSL certificate through Rackspace Technology and you need further
+If you purchased your SSL certificate through Rackspace Technology and need further
 assistance with the site seal code, reply on your order ticket or call Support.
