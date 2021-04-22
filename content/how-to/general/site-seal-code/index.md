@@ -1,5 +1,5 @@
 ---
-permalink: add-a-site-seal-to-your-website/
+permalink: site-seal-code/
 audit_date: '2021-04-22'
 title: Add a site seal to your website
 type: article
