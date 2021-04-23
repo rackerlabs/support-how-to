@@ -275,7 +275,7 @@ To redirect an article to a different article (or to the same article with a new
 
 1. Either in your local How-To repository clone or in the GitHub GUI, edit **support-how-to/static/\_redirects**.
 
-2. In the **Individual Redirects** section, add a `301` and a `404` line similar to the following example:
+2. In the **Individual Redirects** section, add a `404` and a `301` line similar to the following example:
 
        /support/how-to/supported-features/  /how-to/cloudflare-supported-features/  404
        /how-to/cloudflare-supported-features/  /support/how-to/cloudflare-supported-features/  301
