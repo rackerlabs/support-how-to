@@ -15,7 +15,7 @@ product_url: rackspace-email-archiving
 
 You export your data from the archive by creating searches and exporting
 the results of the searches. You can export searches with a maximum of
-15,000 results and a total size of 3.5 GB, whichever happens first. To
+30,000 results and a total size of 20 GB, whichever limit comes first. To
 avoid reaching either limit, you can narrow the search parameters to
 split up the items being exported into smaller chunks. You can also
 request an archive export from the Cloud Office team through the
