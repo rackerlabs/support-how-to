@@ -150,7 +150,7 @@ and cannot be killed?
 #### Option 3: Exempt a process
 
 This option comes with a cautionary note. Exempting processes can, in
-some circumstances, cause unintended behavior changes, which lagely
+some circumstances, cause unintended behavior changes, which largely
 depend on the system and resource configurations. If the kernel cannot
 kill a process using a large amount of memory, it will start killing other
 available processes. This can include processes that also might be important
