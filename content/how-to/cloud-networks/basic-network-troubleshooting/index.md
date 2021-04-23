@@ -1,27 +1,21 @@
 ---
 permalink: basic-network-troubleshooting/
-audit_date:
+audit_date: '2021-04-28'
 title: Basic Network Troubleshooting
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2016-01-13'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-04-28'
+last_modified_by: Ana Corpus
 product: Cloud Networks
 product_url: cloud-networks
 ---
 
-Networking issues can be problematic when working on a remote server. If
-you accidentally break your Cloud Server's networking capabilities, you
-may find yourself locked out of any remote connection. However, many
-networking problems can be solved by logging into the web console
-(through your The Rackspace Cloud Control Panel) and running a few
-simple commands.
+This how-to provides Linux commands for basic network troubleshooting of the Cloud Server by using the web console in the Rackspace Cloud Control Panel.
 
-### ip addr show
+### _ip addr show_ command
 
-ip addr show is a basic network information and configuration tool. On a
-working Cloud Server, its output may look something like this:
+The **ip addr show** command shows the ip configuration of the Cloud Server. In the following example, the _eth0_ and _eth1_ interfaces are configured and _up_:
 
     # ip addr show
     eth0      Link encap:Ethernet  HWaddr 40:40:d9:xx:xx:xx
@@ -51,31 +45,37 @@ working Cloud Server, its output may look something like this:
               collisions:0 txqueuelen:0
               RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
 
-#### Common Problems
+#### Common resolutions
 
-If, upon running ifconfig, you do not see an IP address under eth0, try
+Follow these steps to fix common problems on the interfaces.
 
-    ip addr show eth0 1.2.3.4 netmask 255.255.255.0 up
+1.    Enter the **ifconfig** command.
 
-where "1.2.3.4" is the static IP for your Cloud Server as given to you
-when the server was created. If you do not see an eth0 interface *at
-all*, run
+2.    If _eth0_ does not show an IP address, use the following command:
+
+    ip addr show eth0 10.10.10.4 netmask 255.255.255.0 up
+
+where **10.10.10.4** is the _eth0_  initial configuration IP address of the Cloud Server.
+
+3.    If _eth0_ is not present, then enter:
 
     ifup eth0
 
-This will bring up the interface under its default configuration.
-Similar steps may be followed to fix the internal connection by using
-'eth1' and your assigned private (10.xx.xx.xx) IP.
+to set the interface _up_  and to the default configuration.
 
-### iptables
+Perform the same steps on _eth1_ if needed.
 
-iptables is a commonly-used firewall in Linux. By default, your Cloud
-Server should have iptables already installed, but it will not be
-configured. To list the firewall rules, run
+### iptables command
+
+iptables is an administration tool to configure a firewall in Linux. 
+By default, the Cloud Server has iptables already
+installed but not configured. 
+
+Enter the following command to list the firewall rules:
 
     iptables -L
 
-A newly-built server will show the following:
+A server with its default configuration shows the following output:
 
     # iptables -L
     Chain INPUT (policy ACCEPT)
@@ -87,19 +87,12 @@ A newly-built server will show the following:
     Chain OUTPUT (policy ACCEPT)
     target     prot opt source               destination
 
-#### Common Problems
+A different output from the one above indicates a problem with the firewall.
+### route command
 
-If your iptables output differs from the above, the firewall may be
-causing your issue.
+The **route** command is used to view and edit the routing table.
+The output of the route command varies among Linux&reg; distributions. The output below is from a Debian&reg; distribution:
 
-### route
-
-route is used to view and edit the routing table. The output of route
-may display several lines, but the most important (or the most commonly
-broken) is one called the default gateway.
-
-**Note:** Various Linux distros may configure their routes slightly differently. The output
-shown below is from a Debian server.
 
     # route
     Kernel IP routing table
@@ -110,15 +103,19 @@ shown below is from a Debian server.
     10.176.0.0      10.176.32.1     255.248.0.0     UG    0      0        0 eth1
     default         67.23.13.1      0.0.0.0         UG    0      0        0 eth0
 
-In this example, the first line is a "catch-all" for the 67.23.13.xx
-network, while the next three lines are specific to the internal
-network. The last line is the default gateway, and should point to
-xx.xx.xx.1 (where the first three octets match those of the top line).
+In this example:
 
-#### Common Problems
+* The first line is the **67.23.13.0** network.
+* The next three lines correspond to the internal network.
+* The last line is the default gateway **67.23.13.1** of the **67.23.13.0** network.
+#### Common resolutions
 
-To change the default route, run
+Enter the following command to change the default gateway:
 
     route add default gw xx.xx.xx.1
 
-replacing "xx.xx.xx" as described above.
+where **xx.xx.xx.1** is the default gateway, as
+described above.
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/).
