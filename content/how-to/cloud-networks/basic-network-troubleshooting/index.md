@@ -11,11 +11,13 @@ product: Cloud Networks
 product_url: cloud-networks
 ---
 
-This how-to provides Linux commands for basic network troubleshooting of the Cloud Server by using the web console in the Rackspace Cloud Control Panel.
+This article provides Linux commands for basic Cloud Server network troubleshooting by using
+the web console in the Rackspace Cloud Control Panel.
 
-### _ip addr show_ command
+### `ip addr show` command
 
-The **ip addr show** command shows the ip configuration of the Cloud Server. In the following example, the _eth0_ and _eth1_ interfaces are configured and _up_:
+The `ip addr show` command shows Cloud Server IP address configuration. In the following example,
+the **eth0** and **eth1** interfaces are configured and running:
 
     # ip addr show
     eth0      Link encap:Ethernet  HWaddr 40:40:d9:xx:xx:xx
@@ -47,29 +49,28 @@ The **ip addr show** command shows the ip configuration of the Cloud Server. In 
 
 #### Common resolutions
 
-Follow these steps to fix common problems on the interfaces.
+Follow these steps to fix common problems on the interfaces:
 
-1.    Enter the **ifconfig** command.
+1. Enter the following command:
 
-2.    If _eth0_ does not show an IP address, use the following command:
+       ifconfig
 
-    ip addr show eth0 10.10.10.4 netmask 255.255.255.0 up
+2. If **eth0** does not show an IP address, use the following command:
 
-where **10.10.10.4** is the _eth0_  initial configuration IP address of the Cloud Server.
+       ip addr show eth0 10.10.10.4 netmask 255.255.255.0 up
 
-3.    If _eth0_ is not present, then enter:
+   In this case, **10.10.10.4** is the Cloud Server's initial configuration IP address for **eth0**.
 
-    ifup eth0
+3. If **eth0** is not present, run the following command to set the interface and to the default configuration:
 
-to set the interface _up_  and to the default configuration.
+       ifup eth0
 
-Perform the same steps on _eth1_ if needed.
+Perform the same steps on **eth1** if needed.
 
 ### iptables command
 
-iptables is an administration tool to configure a firewall in Linux. 
-By default, the Cloud Server has iptables already
-installed but not configured. 
+`iptables` is an administration tool for configuring a firewall in Linux. 
+By default, Cloud Servers have `iptables` installed but not configured. 
 
 Enter the following command to list the firewall rules:
 
@@ -87,11 +88,12 @@ A server with its default configuration shows the following output:
     Chain OUTPUT (policy ACCEPT)
     target     prot opt source               destination
 
-A different output from the one above indicates a problem with the firewall.
-### route command
+Different output might indicate a problem with the firewall.
 
-The **route** command is used to view and edit the routing table.
-The output of the route command varies among Linux&reg; distributions. The output below is from a Debian&reg; distribution:
+### `route` command
+
+Use the `route` command to view and edit the routing table. The output for `route` varies
+among Linux&reg; distributions. The following output is from a Debian&reg; distribution:
 
 
     # route
@@ -108,14 +110,12 @@ In this example:
 * The first line is the **67.23.13.0** network.
 * The next three lines correspond to the internal network.
 * The last line is the default gateway **67.23.13.1** of the **67.23.13.0** network.
+
 #### Common resolutions
 
-Enter the following command to change the default gateway:
+Enter the following command to change the default gateway where **xx.xx.xx.1** is the default gateway:
 
     route add default gw xx.xx.xx.1
-
-where **xx.xx.xx.1** is the default gateway, as
-described above.
 
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/).
