@@ -1,7 +1,7 @@
 ---
-permalink: what-are-inodes-in-linux
+permalink: what-are-inodes-in-linux/
 audit_date: '2021-03-31'
-title: 'What are inodes in Linux'
+title: 'What are inodes in Linux?'
 type: article
 created_date: '2021-03-19'
 created_by: Miguel Salgado
