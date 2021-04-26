@@ -15,11 +15,11 @@ product_url: rackspace-email-archiving
 
 You export your data from the archive by creating searches and exporting
 the results of the searches. You can export searches with a maximum of
-15,000 results and a total size of 3.5 GB, whichever happens first. To
+30,000 results and a total size of 20 GB, whichever limit comes first. To
 avoid reaching either limit, you can narrow the search parameters to
-split up the items being exported into smaller chunks. You can also
+split up the exported items into smaller chunks. You can also
 request an archive export from the Cloud Office team through the
-ticketing process at a cost of \$6 per GB for EML format and \$9 per GB
+ticketing process at a \$6 per GB cost for EML format and \$9 per GB
 for PST format.
 {{</accordion>}}
 {{<accordion title="What filetypes can I export as an output?" col="in" href="accordion2">}}
@@ -42,18 +42,18 @@ method used:
 {{<accordion title="I've turned on archiving. When will I see messages in the archive?" col="in" href="accordion4">}}
 
 You will see messages in the archive within 24 hours after enabling
-archiving. The archiving tool starts as soon as your site is created,
+archiving. The archiving tool starts as soon as you create your site,
 but the tool needs time to build the index and make the data searchable.
 {{</accordion>}}
 {{<accordion title="The control panel shows that archiving is off, but I never turned it off. What do I do?" col="in" href="accordion5">}}
 
 You can contact support by creating a support ticket through the Cloud
-Office Control Panel, or calling 1 800 961 4454.
+Office Control Panel or by calling 1-800-961-4454.
 {{</accordion>}}
 {{<accordion title="Can my users access the archive? Do they need to be Control Panel admins?" col="in" href="accordion6">}}
 
-Users can access the archive but they do not need be Control Panel
-admins to do so. However, they must be added as archive users.
+Users can access the archive, but they do not need to be Control Panel
+admins. However, an admin must add them as archive users.
 
 To add a user to the archive, follow the instructions in [Add and edit
 archive users in Cloud

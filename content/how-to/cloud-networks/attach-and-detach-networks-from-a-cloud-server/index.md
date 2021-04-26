@@ -1,5 +1,5 @@
 ---
-permalink: cloud-servers-attaching-and-detaching-networks/
+permalink: attach-and-detach-networks-from-a-cloud-server/
 audit_date: '2021-04-21'
 title: Attach and detach networks from a Cloud Server
 type: article

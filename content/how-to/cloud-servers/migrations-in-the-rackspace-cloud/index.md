@@ -1,4 +1,4 @@
----  
+---
 permalink: migrations-in-the-rackspace-cloud/
 audit_date: '2021-01-06'
 title: Migrations in the Rackspace Cloud
@@ -53,9 +53,9 @@ server. That being said, it is difficult to know exactly how long a migration ta
 
 #### What is the ticket titled "[ACTION REQUIRED] Server Migration" about?
 
-In cases where Rackspace Technology cannot perform a live migration for any reason, 
-the system generates a ticket and sends it to your account to make you aware of 
-an upcoming reboot migration. This ticket contains information on the migration process, 
+In cases where Rackspace Technology cannot perform a live migration for any reason,
+the system generates a ticket and sends it to your account to make you aware of
+an upcoming reboot migration. This ticket contains information on the migration process,
 why it is happening, and most importantly, it provides you with the date and time
 of the reboot migration. At this point, you can choose to allow our automation
 to perform the reboot migration as scheduled, or you can request in the ticket
@@ -77,7 +77,7 @@ Because live migrations are non-impactful for the vast majority of
 servers, you don't get notifications before every live migration.
 Additionally, some live migrations are part of an unplanned, emergency
 maintenance to move cloud servers away from unstable hypervisors. For
-these reasons, you don't always receive notifications ahead of live migrations. 
+these reasons, you don't always receive notifications ahead of live migrations.
 
 #### What causes a live migration to fail?
 
@@ -86,9 +86,9 @@ because the cloud server operates outdated kernels that don't
 cooperate with the hypervisor's effort to migrate the server. In
 such cases, the cloud server can become unresponsive and ultimately
 fail to migrate to the new hypervisor. In these cases, the system or technicians
-generate tickets and schedule reboot migrations. 
+generate tickets and schedule reboot migrations.
 
-#### How can I improve the success rate of live migrations on my server? 
+#### How can I improve the success rate of live migrations on my server?
 
 The more up-to-date your cloud server's operating system and kernel
 is, the higher the success rate you see with live migrations. Also,

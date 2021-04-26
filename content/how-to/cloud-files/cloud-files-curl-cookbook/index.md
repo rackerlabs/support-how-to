@@ -185,7 +185,7 @@ depends on whether you have a US-based or UK-based Cloud account:
 -   US customers: https://auth.api.rackspacecloud.com/v1.1/auth
 -   UK customers: https://lon.auth.api.rackspacecloud.com/v1.1/auth
 
-User `johndoe`, who is a US-based customer, might use the folloiwng request:
+User `johndoe`, who is a US-based customer, might use the following request:
 
     $ curl -X POST -d @auth.xml -H "Content-Type: application/xml" -H "Accept: application/xml"     https://auth.api.rackspacecloud.com/v1.1/auth
 
