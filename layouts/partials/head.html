@@ -39,12 +39,14 @@
 <meta name="datePublished" property="article:published_time">
 {{ end }}
 {{ if .Params.product }}
-<meta name="category" property="product:category" content="{{ .Params.product }}">
+<meta name="keywords" property="article:tag" content="{{ .Params.product }}">
 {{ else if .Site.Params.product }}
-<meta name="category" property="product:category" content="{{ .Site.Params.product }}">
+<meta name="keywords" property="article:tag" content="{{ .Site.Params.product }}">
 {{ else }}
-<meta name="category" property="product:category">
+<meta name="keywords" property="article:tag">
 {{ end }}
+<meta name="category" property="article:section" content="How-To"
+
 <!-- og meta tags -->
 
 <!-- {{- if eq (getenv "HUGO_ENV") "production" | or (eq $.Site.Params.env "production") -}}
