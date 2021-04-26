@@ -11,12 +11,12 @@ product: Cloud Networks
 product_url: cloud-networks
 ---
 
-This article provides Linux commands for basic Cloud Server network troubleshooting by using
-the web console in the Rackspace Cloud Control Panel.
+This article provides Linux&reg; commands for basic Cloud Server network troubleshooting. Access your
+server in the Rackspace Cloud Control Panel and use the web console to run the commands.
 
 ### `ip addr show` command
 
-The `ip addr show` command shows Cloud Server IP address configuration. In the following example,
+The `ip addr show` command shows the Cloud Server's IP address configuration. In the following example,
 the **eth0** and **eth1** interfaces are configured and running:
 
     # ip addr show
@@ -65,7 +65,7 @@ Follow these steps to fix common problems on the interfaces:
 
        ifup eth0
 
-Perform the same steps on **eth1** if needed.
+Perform the same steps for **eth1** if needed.
 
 ### iptables command
 
@@ -93,7 +93,7 @@ Different output might indicate a problem with the firewall.
 ### `route` command
 
 Use the `route` command to view and edit the routing table. The output for `route` varies
-among Linux&reg; distributions. The following output is from a Debian&reg; distribution:
+among Linux distributions. The following output is from a Debian&reg; distribution:
 
 
     # route
