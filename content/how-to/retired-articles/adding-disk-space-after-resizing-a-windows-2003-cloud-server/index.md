@@ -5,10 +5,8 @@ title: Add Disk Space After Resizing a Windows 2003 Cloud Server
 type: article
 created_date: '2012-03-01'
 created_by: Rackspace Support
-last_modified_date: '2016-05-19'
-last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+last_modified_date: '2021-04-22'
+last_modified_by: Rose Morales
 ---
 
 **Note**:  Rackspace no longer offers Cloud Servers with Windows 2003, but these instructions are here for legacy support purposes.

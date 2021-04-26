@@ -7,8 +7,7 @@ created_date: '2011-06-07'
 created_by: Rackspace Support
 last_modified_date: '2016-04-18'
 last_modified_by: Stephanie Fillmon
-product: Cloud Files
-product_url: cloud-files
+
 ---
 
 This article shows how to set up automatic MySQL server backups from your Windows Cloud Server to your Rackspace Cloud Files container. Follow these three steps to perform this task.

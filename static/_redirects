@@ -1,5 +1,7 @@
 # Redirects
 
+/support/how-to/cloud-servers/what-happens-if-i-do-not-supply-a-vat-id-number/ /how-to/account-management/account-management-faq/ 404
+/how-to/account-management/account-management-faq/ /support/how-to/account-management/account-management-faq/ 301
 /support/how-to/creating-a-monitoring-check-using-the-cloud-control-panel/  /how-to/about-the-rackspace-monitoring-agent/  404
 /how-to/about-the-rackspace-monitoring-agent/  /support/how-to/about-the-rackspace-monitoring-agent/  301
 /support/how-to/introduction-to-mailgun-email-automation/  /how-to/preparing-the-cloud-server-to-be-a-mail-server/  404
@@ -38,6 +40,14 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 # Retired Articles
 
+/support/how-to/install-pyrax/ /how-to/article-retired/ 404
+/support/how-to/vnc-install/ /how-to/article-retired/ 404
+/support/how-to/creating-an-outbound-port-deny-rule-for-windows-firewall-windows-2008/ /how-to/article-retired/ 404
+/support/how-to/lon5-cloud-migration-faq/ /how-to/article-retired/ 404
+/support/how-to/useful-python-novaclient-commands/ /how-to/article-retired/ 404
+/support/how-to/adding-disk-space-after-resizing-a-windows-2003-cloud-server/ /how-to/article-retired/ 404
+/support/how-to/rackconnect-regionlink-faq/  /how-to/article-retired/  404
+/support/how-to/setup-automatic-mysql-server-backups-to-cloud-files-from-windows/  /how-to/article-retired/ 404
 /support/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/ /how-to/article-retired/ 404
 /support/how-to/add-self-service-password-recovery-to-your-rackspace-email-webmail-site/ /how-to/article-retired/ 404
 /support/how-to/migrating-from-a-pop-server-to-rackspace-email-pop-using-outlook-2010/ /how-to/article-retired/ 404
@@ -622,6 +632,9 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 /support/how-to/all  /support/how-to/  404
 
 # Individual Redirects
+
+/support/how-to/cloud-servers-attaching-and-detaching-networks/  /how-to/attach-and-detach-networks-from-a-cloud-server/  404
+/how-to/attach-and-detach-networks-from-a-cloud-server/  /support/how-to/attach-and-detach-networks-from-a-cloud-server/  301  
 
 /support/how-to/sign-up-for-rackspace-services/  /how-to/sign-up-for-rackspace-services/ 200
 
