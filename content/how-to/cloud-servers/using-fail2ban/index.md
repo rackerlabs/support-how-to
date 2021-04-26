@@ -1,5 +1,5 @@
 ---
-permalink: /using-fail2ban/
+permalink: using-fail2ban/
 audit_date: '2021-04-20'
 title: 'Using Fail2ban'
 type: article
@@ -7,8 +7,8 @@ created_date: '2021-03-17'
 created_by: John Abercrombie
 last_modified_date: '2021-04-20'
 last_modified_by: Carlos Arriaga
-product: 
-product_url: 
+product:
+product_url:
 ---
 
 ### What is Fail2ban?
@@ -24,7 +24,7 @@ from accessing your server.
 
 The central file of fail2ban is **jail.conf**, which contains the configuration settings
 for your jail. These settings determine whether or not to ban the IP address from
-logging into your server. 
+logging into your server.
 
 ### Install Fail2ban
 
@@ -58,10 +58,10 @@ cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 - **bantime**: Sets how long an IP address is banned in seconds. The default is 600 seconds (10 minutes).
 - **maxretry**: Defines the number of login failures permitted before banning the offending IP address.
 - **findtime**: Defines the time span in which the **maxretry** entries occur. IP addresses that exceeds the
-  **maxretry** value within this set time period are banned for the amount of time determined by the 
+  **maxretry** value within this set time period are banned for the amount of time determined by the
   **bantime** setting.
 
-5. Save and close the file. 
+5. Save and close the file.
 6. After you configure Fail2ban, you can enable or disable jails for the specific protocols and services
    you want to protect, such as SSH login attempts.
 8. Restart the `fail2ban` service for changes to take effect.
