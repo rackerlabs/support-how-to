@@ -23,8 +23,8 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 This article outlines the **Fanatical Experience&trade;** we offer and the **Rackspace&reg; Application Services** support for **Microsoft 365&reg;**.
 
-### Support type definitions
-
+| Support type | Definition |
+| --- | --- |
 | **Fanatical Support** | 24/7 break/fix support for various parts of the Microsoft 365 platform. Our Microsoft-certified customer success professionals work with your administrative staff to troubleshoot problems and resolve issues. |
 | **Troubleshoot** | Rackspace assists customer administrative staff with the diagnosis of complex issues or problems with new configurations. Rackspace advises the customer administrative staff on the recommended diagnosis and remediation steps. Troubleshooting might include calls with customer staff, response to email questions, or problem assessment by using scripts or manual investigation when requested by the customer. |
 | **Consult** | Our Microsoft-certified engineers and Technical Account management teams meet with customer administrative staff to provide advice, product knowledge, implementation and architecture guidance, and project plans to implement the Microsoft 365 platform features in the most effective way possible. Consulting might include documentation of suggestions as well as a roadmap for implementation. |
