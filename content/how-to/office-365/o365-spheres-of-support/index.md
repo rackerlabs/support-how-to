@@ -23,17 +23,17 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 This article outlines the **Fanatical Experience&trade;** we offer and the **Rackspace&reg; Application Services** support for **Microsoft 365&reg;**.
 
-**Definitions:**      
-
+| Support Type | Definition |
+| --- | --- |
 | **Fanatical Support** | 24/7 break/fix support for various parts of the Microsoft 365 platform. Our Microsoft-certified customer success professionals work with your administrative staff to troubleshoot problems and resolve issues. |
-| **Troubleshoot** | Rackspace assists customer administrative staff with the diagnosis of complex issues or problems with new configurations. Rackspace advises the customer administrative staff on the recommended diagnosis and remediation steps. Troubleshooting might include calls with customer staff, response to email questions, or problem assessment by using scripts or manual investigation when requested by the customer. |
-| **Consult** | Our Microsoft-certified engineers and Technical Account management teams meet with customer administrative staff to provide advice, product knowledge, implementation and architecture guidance, and project plans to implement the Microsoft 365 platform features in the most effective way possible. Consulting might include documentation of suggestions as well as a roadmap for implementation. |
-| **Enable** | Rackspace engineers work side-by-side with customer administrative staff to implement desired features or configurations for the customer. Rackspace provides documentation of the implementation steps as well as any architectural or operational decisions made by the customer. Our team helps implement pilot and test configurations and support production deployments in close collaboration with the customer's administrative staff. |
+| **Troubleshoot (T)** | Rackspace assists customer administrative staff with the diagnosis of complex issues or problems with new configurations. Rackspace advises the customer administrative staff on the recommended diagnosis and remediation steps. Troubleshooting might include calls with customer staff, response to email questions, or problem assessment by using scripts or manual investigation when requested by the customer. |
+| **Consult (C)** | Our Microsoft-certified engineers and Technical Account management teams meet with customer administrative staff to provide advice, product knowledge, implementation and architecture guidance, and project plans to implement the Microsoft 365 platform features in the most effective way possible. Consulting might include documentation of suggestions as well as a roadmap for implementation. |
+| **Enable (E)** | Rackspace engineers work side-by-side with customer administrative staff to implement desired features or configurations for the customer. Rackspace provides documentation of the implementation steps as well as any architectural or operational decisions made by the customer. Our team helps implement pilot and test configurations and support production deployments in close collaboration with the customer's administrative staff. |
 
 
 ### Exchange Online
 
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **T** | **C** | **E** |
 | --- | --- | --- | --- | --- | --- |
 | [DKIM](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?view=o365-worldwide) | Basic troubleshooting | Tailored solutions and guidance. | &check; | &check; | &check; |
 | [DMARC](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/use-dmarc-to-validate-email?view=o365-worldwide) | Basic troubleshooting | Tailored solutions and guidance. | &check; | &check; | &check; |
@@ -76,11 +76,11 @@ This article outlines the **Fanatical Experience&trade;** we offer and the **Rac
 ### Sharepoint Online
 
 
-| **Feature**                                 | **Fanatical Support**     |   | **Rackspace Application Services**                                                                                                     | **Troubleshoot** | **Consult** | **Enable** |
-|-----------------------------------------|-----------------------|---|------------------------------------------------------------------------------------------------------------------------------------|--------------|---------|--------|
-| [Site Customization](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-overview)                      | No support            |   | Guidance and advice on industry proven customizations, project management of partner-run, full-on customizations. | T            | C       |        |
-| [Site enablement](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-rollout)                         | No support            |   | Guidance and advice on industry-proven customizations, project management of partner-run, full-on enablements.    | T            | C       |        |
-| [Data loss prevention](https://social.technet.microsoft.com/wiki/contents/articles/36527.implement-data-loss-prevention-dlp-in-sharepoint-online.aspx)                    | Basic troubleshooting |   | Tailored DLP policies, guidance, and tailored solutions, including enablement and business integration.                             | T            | C       | E      |
+| **Feature**  | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| --- | --- | --- | --- | --- | --- |
+| [Site Customization](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-overview) | No support  | Guidance and advice on industry proven customizations, project management of partner-run, full-on customizations. | &check; | &check; |  |
+| [Site enablement](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-rollout) | No support | Guidance and advice on industry-proven customizations, project management of partner-run, full-on enablements. | &check; | &check; |  |
+| [Data loss prevention](https://social.technet.microsoft.com/wiki/contents/articles/36527.implement-data-loss-prevention-dlp-in-sharepoint-online.aspx) | Basic troubleshooting | Tailored DLP policies, guidance, and tailored solutions, including enablement and business integration.                             | T            | C       | E      |
 | [Encryption in transit](https://docs.microsoft.com/en-us/microsoft-365/compliance/data-encryption-in-odb-and-spo?view=o365-worldwide)                   | Basic troubleshooting |   | Guidance on implementation of Azure Information Protection Services                                                                | T            | C       | E      |
 | [Sharepoint admin center (Office 365)](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/introducing-the-new-sharepoint-admin-center/ba-p/70294)  | Basic troubleshooting |   | Tutorials, customized training, and available administrator workshops.                                                                    | T            | C       | E      |
 | [Auditing and Reporting](https://support.microsoft.com/en-us/office/view-audit-log-reports-b37c5869-1b47-4a82-a30d-ea20070fe527?ui=en-us&rs=en-us&ad=us)                    | Basic troubleshooting |   | Tailored solutions, enablement, best practices, and training.                                                                         | T            | C       | E      |
