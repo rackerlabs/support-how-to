@@ -15,7 +15,7 @@
 {{ else if .Site.Params.description }}
 <meta name="description" property="og:description" content="{{ .Site.Params.description }}" />
 {{ else }}
-<meta name="Algolia crawler" content="noindex">
+<meta name="description" property="og:description" />
 {{ end }}
 {{ if .Params.created_by }}
 <meta name="authors" property="article:author" content="{{ .Params.created_by }}" />
@@ -39,9 +39,6 @@
 <meta name="Algolia crawler" content="noindex">
 {{ end }}
 <meta name="category" property="article:section" content="How-To" />
-{{ if .Data.Singular }}
-    <meta name="Algolia crawler" content="noindex">
-{{ end }}
 <!-- og meta tags -->
 
 <!-- {{- if eq (getenv "HUGO_ENV") "production" | or (eq $.Site.Params.env "production") -}}
