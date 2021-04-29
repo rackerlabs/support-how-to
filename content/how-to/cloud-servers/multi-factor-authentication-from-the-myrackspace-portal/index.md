@@ -11,82 +11,81 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Customers can increase security on MyRackspace accounts by using the
-Rackspace Cloud Identity Service's multi-factor authentication capabilities.
-Multi-factor authentication adds an extra layer of identity
-verification to the log in process by requiring a user to submit a
-time-sensitive passcode that the Identity service sends to an SMS or mobile
-passcode device associated with the user's account:
+Customers can increase security on MyRackspace accounts by using the Rackspace
+Cloud Identity Service's multi-factor authentication capabilities. Multi-factor
+authentication adds an extra layer of identity verification to the log in
+process by requiring a user to submit a time-sensitive code that the
+Identity service sends to an SMS or mobile code device associated with the
+user's account:
 
--   An SMS device is a mobile phone, notebook, or other digital device
-    with an associated phone number capable of receiving SMS
-    text messages.
+- An SMS device is a mobile phone, notebook, or other digital device with an
+    associated phone number capable of receiving SMS text messages.
 
--   A mobile passcode device is created in a client application installed
-    on your phone, notebook, or other digital device.
+- A mobile code device is created in a client application installed on your
+    phone, notebook, or other digital device.
 
-You can add multi-factor authentication by updating your account
-settings in the [MyRackspace Portal](https://login.rackspace.com). After you pair
-a device with your account, authentication becomes a two-step process:
+You can add multi-factor authentication by updating your account settings in the
+[MyRackspace Portal](https://login.rackspace.com). After you pair a device with
+your account, authentication becomes a two-step process:
 
-1.  Each time you log in, the Identity service generates
-    a passcode and sends it to the paired device.
+1. Each time you log in, the Identity service generates a code and sends it
+    to the paired device.
 
-2.  After the passcode is sent, the system prompts you to type the
-    passcode and submit it to the Identity service to complete the
-    authentication process.
+2. After the code is sent, the system prompts you to type the code and
+    submit it to the Identity service to complete the authentication process.
 
-    **Note:** Standard text message rates and data fees apply based on
-    your contract with your mobile device provider.
+    **Note:** Standard text message rates and data fees apply based on your
+    contract with your mobile device provider.
 
 Additionally, account administrators can configure account-wide settings to
-specify a multi-factor authentication policy for all account users. By
-default, account users have the option to set up and use multi-factor
-authentication. Administrators can update the account-wide settings to require
-multi-factor authentication for all users. When this setting is enabled, users
-can’t access their account until they configure multi-factor authentication.
-Current users are logged out as soon as the account-wide requirement is
-applied. At the next login, users are notified of the increased security and
-are prompted to complete the setup process.
+specify a multi-factor authentication policy for all account users. By default,
+account users have the option to set up and use multi-factor authentication.
+Administrators can update the account-wide settings to require multi-factor
+authentication for all users. When this setting is enabled, users can’t access
+their account until they configure multi-factor authentication. Current users
+are logged out as soon as the account-wide requirement is applied. At the next
+login, users are notified of the increased security and are prompted to complete
+the setup process.
 
-**Notes**
+### Considerations
 
--   You can't configure multi-factor authentication for the Cloud
-    Control Panel inside of the MyRackspace Portal. You must log in to
-    the [Cloud Office Control Panel](https://login.rackspace.com) and use these
+- Multi-factor authentication cannot be configured from the Cloud Control Panel
+    inside of the MyRackspace Portal. You must log in to the
+    [Cloud Office Control Panel](https://login.rackspace.com) and use these
     [instructions](/support/how-to/multi-factor-authentication-from-the-cloud-control-panel/)
     to set up your users for the Cloud Control Panel.
 
--   Administrators cannot set up devices for their users. Users must
-    configure their own devices. To modify their multi-factor authentication
-    settings, users must log in to the MyRackspace Portal with the user
-    credentials that they want to modify.
+- Administrators cannot set up devices for their users. Users must configure
+    their own devices. To modify their multi-factor authentication settings,
+    users must log in to the MyRackspace Portal with the user credentials that
+    they want to modify.
 
 ### Configure your account to authenticate by using an SMS device
 
-To configure your account to use an SMS device for multi-factor
-authentication, you need the phone number associated with your digital
-device. The device must be enabled to receive SMS text messages.
+To configure your account to use an SMS device for multi-factor authentication,
+you need the phone number associated with your digital device. The device must
+be enabled to receive SMS text messages.
 
 To register and verify an SMS device, use the following steps:
 
-1.  Log in to the [MyRackspace Portal](https://login.rackspace.com/).
+1. Log in to the [MyRackspace Portal](https://login.rackspace.com/).
 
-2.  Click **Account** and then click **My Multi-Factor Devices**.
+2. Click **Account** and then click **My Multi-Factor Devices**.
 
-3.  Click **Add** next to the **SMS** option.
+3. Click **Add** next to the **SMS** option.
 
-4.  Enter the phone number of your SMS-capable device and click **Add SMS Device**.
+4. Enter the phone number of your SMS-capable device and click **Add SMS
+   Device**.
 
-    After you click **Add SMS Device**, the Identity service sends an SMS
-    text message with a four-digit PIN to the specified phone.
+    After you click **Add SMS Device**, the Identity service sends an SMS text
+    message with a four-digit PIN to the specified phone.
 
-5.  On the **Verify Code** form in the MyRackspace Portal, type the PIN code sent
+5. On the **Verify Code** form in the MyRackspace Portal, type the PIN code sent
     to your mobile device in the **Verification Code** field. Then, click
     **Verify SMS Device**.
 
-    After you submit the verification code, the MyRackspace Portal login page
-    is displayed so that you can re-authenticate by using the multi-factor
+    After you submit the verification code, the MyRackspace Portal login page is
+    displayed so that you can re-authenticate by using the multi-factor
     authentication process.
 
 ### Configure your account to authenticate by using an OTP device
@@ -95,135 +94,135 @@ A one-time password (OTP), also known as one-time PIN or dynamic password, is a
 password that is valid for one login session or transaction on a computer
 system or other digital device.
 
-To configure your account to use a mobile passcode device for multi-factor
+To configure your account to use a mobile code device for multi-factor
 authentication, you must have one of the following client applications
 installed on your device: [Authy](https://www.authy.com/),
 [Duo](https://www.duosecurity.com/),
 [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en),
 or [SecureAuth OTP](https://www.secureauth.com/Support/Downloads/Client-Applications.aspx).
 
-To register and verify a mobile passcode device, use the following steps:
+To register and verify a mobile code device, use the following steps:
 
-1.  Log in to the [MyRackspace Portal](https://login.rackspace.com/).
+1. Log in to the [MyRackspace Portal](https://login.rackspace.com/).
 
-2.  Click **Account** and then click **My Multi-Factor Devices**.
+2. Click **Account** and then click **My Multi-Factor Devices**.
 
-3.  Click **Add** next to the **Mobile Passcode** option.
+3. Click **Add** next to the **Mobile Passcode** option.
 
-4.  Enter a nickname for your device and click **Add Device.**
+4. Enter a nickname for your device and click **Add Device.**
 
     The Identity service generates a QR code that you can use to pair your
     MyRackspace account with your device.
 
-5.  To pair your account with your device, use the client application on
-    your device to scan the QR code.
+5. To pair your account with your device, use the client application on your
+    device to scan the QR code.
 
     The application on your device adds the device name that you specified and
-    generates a passcode.
+    generates a code.
 
-6.  To verify the new device in the MyRackspace Portal, enter the passcode in
-    the portal's **Verification** pop-up dialog box.
+6. To verify the new device in the MyRackspace Portal, enter the code in the
+    portal's **Verification** pop-up dialog box.
 
     **Note:** When you add a mobile password device, mobile password is the
     default method for an authentication. If you do not want this to be the
     default method or if you do not want to be logged out of your account when
-    you verify the passcode, clear the **Make this my default authentication method** check box.
+    you verify the code, clear the **Make this my default authentication
+    method** check box.
 
-    You can update the default authentication method on the **Account Settings** page.
+    You can update the default authentication method on the **Account Settings**
+    page.
 
-7.  Click **Verify Mobile Device**.
+7. Click **Verify Mobile Device**.
 
     After you submit the verification code, you are automatically logged out.
 
-8.  On the MyRackspace login page, enter your username and password. Then,
-    enter the verification code from the mobile passcode device that you paired
-    with your account.
+8. On the MyRackspace login page, enter your username and password. Then, enter
+    the verification code from the mobile code device that you paired with
+    your account.
 
 ### Change the default multi-factor authentication method
 
-If your account has been configured with both SMS and mobile passcode devices,
-you can select the default multi-factor authentication method from the
-**My Multi-Factor Devices** page by using the following steps.
+If your account has been configured with both SMS and mobile code devices,
+you can select the default multi-factor authentication method from the **My
+Multi-Factor Devices** page by using the following steps.
 
-1.  Log in to the [MyRackspace Portal](https://login.rackspace.com/).
+1. Log in to the [MyRackspace Portal](https://login.rackspace.com/).
 
-2.  Click **Account:** and then select **User Management** from the menu.
+2. Click **Account:** and then select **User Management** from the menu.
 
-3.  Click **My Multi-Factor Devices**.
+3. Click **My Multi-Factor Devices**.
 
-4.  In the **Multi-Factor Authentication** section, review the default
+4. In the **Multi-Factor Authentication** section, review the default
     authentication method setting and click **Edit** to change it.
 
-5.  In the pop-up dialog box, select the default method that you want and then
+5. In the pop-up dialog box, select the default method that you want and then
     click **Save**.
 
 ### Configure account-wide multi-factor authentication settings from an administrator account
 
 Account administrators can update MyRackspace account-wide settings to require
 all users to authenticate by using multi-factor authentication. When this
-setting is enabled, users can't access their accounts until they add and
-verify a device on their account.
+setting is enabled, users can't access their accounts until they add and verify
+a device on their account.
 
 To configure account-wide settings for multi-factor authentication, use the
 following steps:
 
-1.  Log in to the [MyRackspace Portal](https://login.rackspace.com).
+1. Log in to the [MyRackspace Portal](https://login.rackspace.com).
 
-2.  Click **Account**, and then select **User Management** from the menu.
+2. Click **Account**, and then select **User Management** from the menu.
 
-3.  Click **My Multi-Factor Devices**.
+3. Click **My Multi-Factor Devices**.
 
-4.  Click the pencil icon to edit the **Require Multi-Factor** setting.
+4. Click the pencil icon to edit the **Require Multi-Factor** setting.
 
-5.  In the account-wide **multi-factor authentication** pop-up dialog box, select
+5. In the account-wide **multi-factor authentication** pop-up dialog box, select
     an option to set the policy for account users. Then, click **Save Setting**
     to apply the change.
 
-    If you update the setting to be required, users who do not have
-    multi-factor authentication configured must add it the next time
-    they log in.
+    If you update the setting to be required, users who do not have multi-factor
+    authentication configured must add it the next time they log in.
 
-    When these users log back in, they are guided through the
-    multi-factor authentication setup.
+    When these users log back in, they are guided through the multi-factor
+    authentication setup.
 
 ### Configure multi-factor authentication during account log in
 
-If your account is not configured for multi-factor authentication when
-required, you are notified about the increase in security
-requirements and prompted to set up authentication.
+If your account is not configured for multi-factor authentication when required,
+you are notified about the increase in security requirements and prompted to set
+up authentication.
 
-To access your account, click **Set Up Multi-Factor Authentication.**
-Then, follow the steps to register and verify a
-device and authenticate by using the passcode sent to the device.
+To access your account, click **Set Up Multi-Factor Authentication.** Then,
+follow the steps to register and verify a device and authenticate by using the
+code sent to the device.
 
 ### Log in to MyRackspace by using multi-factor authentication
 
 If you add multi-factor authentication to your account, authentication is a
 two-step process.
 
-**Prerequisites**
+#### Prerequisites
 
--   MyRackspace account with a valid username and password credentials
--   Access to the registered and verified SMS or mobile passcode device paired
+- MyRackspace account with a valid username and password credentials
+- Access to the registered and verified SMS or mobile code device paired
     with your MyRackspace account
 
 To log in to the MyRackspace Portal with multi-factor authentication, use the
 following steps:
 
-1.  Log in to the [MyRackspace Portal](https://login.rackspace.com/) with
-    your username and password.
+1. Log in to the [MyRackspace Portal](https://login.rackspace.com/) with your
+    username and password.
 
-    If your account is configured to use multi-factor authentication with
-    an SMS device, the Identity service sends an SMS
-    text message with a 7-digit passcode to the device registered to
-    your account.
+    If your account is configured to use multi-factor authentication with an SMS
+    device, the Identity service sends an SMS text message with a 7-digit
+    code to the device registered to your account.
 
     If your device is configured to use multi-factor authentication with a
-    mobile passcode device, open the client application and get the passcode
-    from the mobile passcode device associated with your MyRackspace account.
+    mobile code device, open the client application and get the code
+    from the mobile code device associated with your MyRackspace account.
 
-2.  When prompted, type the passcode in the **Passcode** field on the
-    login page. Then, click **Verify Code** to log in to your
+2. When prompted, type the code in the **Passcode** field on the login page.
+    Then, click **Verify Code** to log in to your
     account.
 
 ### Manage multi-factor authentication
@@ -237,10 +236,10 @@ menu in the MyRackspace Portal.
 You can verify your SMS or OTP device from the **My Multi-Factor Devices**
 page.
 
--   If you have an SMS device on your account that has not been verified,
+- If you have an SMS device on your account that has not been verified,
     use the **Verify** option to complete the verification process.
 
--   If you have a mobile passcode device that has not been verified, use the
+- If you have a mobile code device that has not been verified, use the
     **Manage** option to complete the verification process.
 
 **To recover an account**
@@ -253,14 +252,14 @@ the generated codes to a file on your computer for future use.
 the bypass codes as soon as you enable multi-factor authentication by using the
 following steps:
 
-1.  On the **My Multi-Factor Devices** page, click **Generate Recovery Codes**.
+1. On the **My Multi-Factor Devices** page, click **Generate Recovery Codes**.
 
-2.  In the **Quantity** field, select the number of codes to generate or
+2. In the **Quantity** field, select the number of codes to generate or
     accept the default value.
 
-3.  Click **Generate Codes**.
+3. Click **Generate Codes**.
 
-4.  Manually copy the recovery codes to a file or click **Save Your Codes**
+4. Manually copy the recovery codes to a file or click **Save Your Codes**
     to generate a text file with the codes.
 
 **To remove multi-factor authentication**
@@ -274,7 +273,7 @@ On the **My Multi-Factor Devices** page, click **Remove all devices**.
 
 To change the mobile phone number paired with your account, use the
 **Remove all devices** option to remove the existing phone number (for
-instructions, see the preceding task).  Then, update the authentication
+instructions, see the preceding task). Then, update the authentication
 settings with the new phone number and verify the device.
 
 **To remove an SMS or OTP device**
@@ -304,11 +303,11 @@ when configuring and using multi-factor authentication.
 </tr>
 <tr class="odd">
 <td align="left"><h4 id="invalid-pin-when-verifying-device"><strong><strong><strong>Invalid PIN when verifying device</strong></strong></strong></h4></td>
-<td align="left"><p>When you try to verify a mobile device, you might receive an error caused by an invalid PIN. Confirm that you are entering the correct four-digit PIN that you received via SMS text message.  Ensure that you are using the mobile device that is paired with the MyRackspace account.</p></td>
+<td align="left"><p>When you try to verify a mobile device, you might receive an error caused by an invalid PIN. Confirm that you are entering the correct four-digit PIN that you received via SMS text message. Ensure that you are using the mobile device that is paired with the MyRackspace account.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><h4 id="locked-account"><strong><strong><strong>Locked account</strong></strong></strong></h4></td>
-<td align="left">If you enter an incorrect passcode more than six times during the multi-factor authentication process, your account will be locked. Contact Rackspace Support to restore access to a locked account. </td>
+<td align="left">If you enter an incorrect code more than six times during the multi-factor authentication process, your account will be locked. Contact Rackspace Support to restore access to a locked account. </td>
 </tr>
 <tr class="odd">
 <td align="left"><h4 id="cannot-link-cloud-account-in-myrackspace-with-multi-factor-enabled"><strong><strong><strong>Cannot link cloud account in MyRackspace with multi-factor enabled</strong></strong></strong></h4></td>
