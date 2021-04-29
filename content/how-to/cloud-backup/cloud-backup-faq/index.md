@@ -196,7 +196,7 @@ running on your cloud server. Cloud servers with a Managed Operations service
 level should have this additional piece of software installed by default. If it
 is not installed, contact your Account Representative to get started. If you
 have an infrastructure-only account, you must manually install the agent by
-following these instructions for [Linux&reg;](/support/how-to/install-or-update-the-cloud-backup-agent-on-linux/)
+following these instructions for [Linux&reg;](/support/how-to/update-or-install-the-cloud-backup-agent-on-linux/)
 or [Windows](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation/).
 
 For more information, see the [Rackspace Cloud Backup introduction](/support/how-to/cloud-backup).

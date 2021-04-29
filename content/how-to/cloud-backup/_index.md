@@ -14,7 +14,7 @@ This introduction gets you up and running with Cloud Backup, including tips for 
 
 ###  Install the agent
 
-- [Install the agent on Linux&reg; systems](/support/how-to/install-or-update-the-cloud-backup-agent-on-linux)
+- [Install the agent on Linux&reg; systems](/support/how-to/update-or-install-the-cloud-backup-agent-on-linux)
 - [Install the agent on Windows&reg; systems](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
 - [Install the agent on Windows systems by using silent installation](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation)
 
