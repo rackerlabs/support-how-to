@@ -46,7 +46,7 @@ To disable the compression by using Red Hat&reg; or CentOS&reg;, use the followi
 
        $ sudo nano /etc/httpd/conf/httpd.conf
 
-2. Comment the following line so the system can't execute it:
+2. Comment the following line so the system can execute it:
 
        LoadModule deflate_module modules/mod_deflate.so
 
