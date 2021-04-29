@@ -11,7 +11,8 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article explains how to check if HTTP is being compressed on your Apache&reg; server. It also explains how to disable this compression.
+This article explains how to check if your Apache&reg; server has compressed HTTP.
+It also explains how to disable this compression.
 
 ### Testing your server for HTTP compression
 
@@ -21,7 +22,7 @@ This article explains how to check if HTTP is being compressed on your Apache&re
 
        Accept-Encoding:compress,gzip
 
-If compression is enabled, the server responds by compressing the page. If the server does not support compression, it  displays the page in plain text.
+If you have enabled compression, the server responds by compressing the page. If the server does not support compression, it  displays the page in plain text.
 
 ### Disabling HTTP compression by using Ubuntu or Debian operating systems
 
@@ -50,3 +51,6 @@ To disable the compression by using Red Hat&reg; or CentOS&reg;, use the followi
 3. Restart the server:
 
        $ sudo /etc/init.d/httpd restart
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
