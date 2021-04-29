@@ -1,12 +1,12 @@
 ---
 permalink: disable-http-compression-on-apache-servers/
-audit_date: '2019-10-30'
+audit_date: '2021-04-29'
 title: Disable HTTP compression on Apache servers
 type: article
 created_date: '2019-10-30'
 created_by: Chadwick Sterling
-last_modified_date: '2019-10-30'
-last_modified_by: Chadwick Sterling
+last_modified_date: '2021-04-29'
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
