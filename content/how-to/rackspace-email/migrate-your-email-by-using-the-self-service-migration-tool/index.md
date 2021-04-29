@@ -117,7 +117,7 @@ For more information about the migration preparation required for POP, IMAP, and
 
     Several factors influence how long your email takes to migrate. For a list of possible factors, see [Factors that affect the duration of email migrations](/support/how-to/factors-that-affect-the-duration-of-email-migrations).
 
-12. After your migration has completed, you can run the migration tool again by clicking **Migrate new items.** For more information about running additional migrations, see [Run additional passes with MigrationWiz](/support/how-to/running-additional-passes-with-migrationwiz). Otherwise, click **Finish**.
+12. After your migration has completed, you can run the migration tool again by clicking **Migrate new items.** For more information about running additional migrations, see [Run additional passes with MigrationWiz](/support/how-to/run-additional-passes-with-migrationwiz). Otherwise, click **Finish**.
 
     {{<image src="14-2_0.png" alt="" title="">}}
 

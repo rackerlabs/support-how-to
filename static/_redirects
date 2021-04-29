@@ -1,5 +1,7 @@
 # Redirects
 
+/support/how-to/cloud-servers/what-happens-if-i-do-not-supply-a-vat-id-number/ /how-to/account-management/account-management-faq/ 404
+/how-to/account-management/account-management-faq/ /support/how-to/account-management/account-management-faq/ 301
 /support/how-to/creating-a-monitoring-check-using-the-cloud-control-panel/  /how-to/about-the-rackspace-monitoring-agent/  404
 /how-to/about-the-rackspace-monitoring-agent/  /support/how-to/about-the-rackspace-monitoring-agent/  301
 /support/how-to/introduction-to-mailgun-email-automation/  /how-to/preparing-the-cloud-server-to-be-a-mail-server/  404
@@ -27,14 +29,30 @@
 support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-password-recovery-for-rackspace-webmail/  301
 /support/how-to/sjc2-data-center-relocation-managed-customer-faq  /how-to/sjc2-data-center-relocation/  404
 /how-to/sjc2-data-center-relocation/  /support/how-to/sjc2-data-center-relocation/  301
+/support/how-to/how-to-monitor-system-authentication-logs-on-ubuntu/  /how-to/how-to-monitor-system-authentication-logs-in-ubuntu/ 404
+/how-to/how-to-monitor-system-authentication-logs-in-ubuntu/  /support/how-to/how-to-monitor-system-authentication-logs-in-ubuntu/ 301
 
-# Main Redirects
+# Homepage Redirect
 
 /support       /      200
 /support/how-to/       /how-to/     200
 
+
 # Retired Articles
 
+/support/how-to/install-pyrax/ /how-to/article-retired/ 404
+/support/how-to/vnc-install/ /how-to/article-retired/ 404
+/support/how-to/creating-an-outbound-port-deny-rule-for-windows-firewall-windows-2008/ /how-to/article-retired/ 404
+/support/how-to/lon5-cloud-migration-faq/ /how-to/article-retired/ 404
+/support/how-to/useful-python-novaclient-commands/ /how-to/article-retired/ 404
+/support/how-to/adding-disk-space-after-resizing-a-windows-2003-cloud-server/ /how-to/article-retired/ 404
+/support/how-to/rackconnect-regionlink-faq/  /how-to/article-retired/  404
+/support/how-to/setup-automatic-mysql-server-backups-to-cloud-files-from-windows/  /how-to/article-retired/ 404
+/support/how-to/migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/ /how-to/article-retired/ 404
+/support/how-to/add-self-service-password-recovery-to-your-rackspace-email-webmail-site/ /how-to/article-retired/ 404
+/support/how-to/migrating-from-a-pop-server-to-rackspace-email-pop-using-outlook-2010/ /how-to/article-retired/ 404
+/support/how-to/locking-down-ip-addresses-in-migrationwiz/ /how-to/article-retired/ 404
+/support/how-to/attach-a-cloud-block-storage-volume-to-an-onmetal-server/ /how-to/article-retired/ 404
 /support/how-to/fix-outlook-synchronization-errors/  /how-to/article-retired/ 404
 /support/how-to/vyatta-eol-faq/ /how-to/article-retired/ 404
 /support/how-to/brocade-vyatta-vrouter-configuration-guide/ /how-to/article-retired/ 404
@@ -209,7 +227,6 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 /support/how-to/swift-filesystem-for-hadoop/  /how-to/article-retired/ 404
 /support/how-to/hosted-microsoft-lync-at-rackspace-deployment-guide/ /how-to/article-retired/ 404
 /support/how-to/sharepoint-all-articles/ /how-to/article-retired/ 404
-
 /how-to/article-retired/  /support/how-to/article-retired/   301
 
 # Specific 404 Redirects
@@ -256,7 +273,6 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 /support/how-to/getting-started-with-role-based-access-control-rbac-0/  /how-to/getting-started-with-role-based-access-control-rbac/ 404
 /how-to/getting-started-with-role-based-access-control-rbac/  /support/how-to/getting-started-with-role-based-access-control-rbac/  301
-
 
 /support/how-to/cloud-monitoring/  /how-to/rackspace-monitoring/ 404
 /how-to/rackspace-monitoring/  /support/how-to/rackspace-monitoring/  301
@@ -305,7 +321,6 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 /support/how-to/installing-nginx-and-php-fpm-setup-for-php-fpm/  /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ 404
 /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  301
-
 
 /support/how-to/installing-nginx-and-php-fpm-the-fun-begins/  /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/ 404
 /how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  /support/how-to/install-nginx-and-php-fpm-running-on-unix-file-sockets/  301
@@ -403,7 +418,6 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 /support/how-to/rename-a-rackspace-email-mailbox/  /how-to/rename-a-rackspace-email-address/ 404
 /how-to/rename-a-rackspace-email-address/  /support/how-to/rename-a-rackspace-email-address/  301
 
-
 /support/how-to/what-is-managed-colocation-from-rackspace/  /how-to/traditional-colocation-vs-rackspace-managed-colocation/ 404
 /how-to/traditional-colocation-vs-rackspace-managed-colocation/  /support/how-to/traditional-colocation-vs-rackspace-managed-colocation/  301
 
@@ -436,7 +450,6 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 /support/how-to/managed-vmware-services-faq/  /how-to/vmware-server-virtualization-faq/ 404
 /how-to/vmware-server-virtualization-faq/  /support/how-to/vmware-server-virtualization-faq/  301
-
 
 /support/how-to/general-information-cloud-office-control-panel/  /how-to/cloud-office-control-panel-overview/ 404
 /how-to/cloud-office-control-panel-overview/  /support/how-to/cloud-office-control-panel-overview/  301
@@ -534,7 +547,6 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 /support/how-to/administrator-management-cloud-office-control-panel/  /how-to/manage-email-administrators-with-the-cloud-office-control-panel/ 404
 /how-to/manage-email-administrators-with-the-cloud-office-control-panel/  /support/how-to/manage-email-administrators-with-the-cloud-office-control-panel/  301
 
-
 /support/how-to/when-am-i-billed-for-my-account/  /how-to/rackspace-billing-faq/ 404
 /how-to/rackspace-billing-faq/  /support/how-to/rackspace-billing-faq/  301
 
@@ -619,12 +631,14 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 /support/how-to/all  /support/how-to/  404
 
-#Individual Redirects
+# Individual Redirects
+
+/support/how-to/cloud-servers-attaching-and-detaching-networks/  /how-to/attach-and-detach-networks-from-a-cloud-server/  404
+/how-to/attach-and-detach-networks-from-a-cloud-server/  /support/how-to/attach-and-detach-networks-from-a-cloud-server/  301  
 
 /support/how-to/sign-up-for-rackspace-services/  /how-to/sign-up-for-rackspace-services/ 200
 
-
-# Main Redirects
+# Remaining page redirects
 
 /support/how-to/*       /how-to/:splat      200
 # /how-to/*       /support/how-to/:splat      301

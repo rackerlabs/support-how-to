@@ -12,7 +12,7 @@ product_url: cloud-servers
 ---
 
 **Problem**: The Key Management Server (KMS) rejects periodic activation requests,
-and the Windows&reg; operating system shows as unlicensed.
+and the Microsoft&reg; Windows&reg; operating system shows as unlicensed.
 
 **Cause**: The two leading causes of this issue are:
 
@@ -99,7 +99,7 @@ Locate the appropriate KMS server in the following list:
      {{<image src="mak.png" alt="" title="">}}
 
 6. If your device uses **MAK activation**, then you should set the device back to **KMS activation**.
-    First, find and take note of the appropriate KMS client setup key from Microsoft&reg;: [KMS Client Setup Keys](https://technet.microsoft.com/library/jj612867.aspx)
+    First, find and take note of the appropriate KMS client setup key from Microsoft: [KMS Client Setup Keys](https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys)
 
     To find which server edition you are running, run the following command and look for the section labeled **OS name**:
 
@@ -108,7 +108,7 @@ Locate the appropriate KMS server in the following list:
     Example:
 
         PS C:\Users\Administrator> systeminfo | findstr OS
-        OS Name:                   Microsoft Windows Server 2012 R2 Datacenter
+        OS Name:    Microsoft Windows Server 2012 R2 Datacenter
 
 7. Set the device to **KMS activation** by using the key found in the  previously referenced article and entering the following command:
 
@@ -122,7 +122,7 @@ Locate the appropriate KMS server in the following list:
 
 ### Ensure that the server clock synchronizes with the KMS clock
 
-If step 1 above returned the error `0xC004F074 The Key Management Server (KMS) is unavailable`, the time on the cloud server is drastically different than what is on the KMS.
+If the preceding step 1 returned the error `0xC004F074 The Key Management Server (KMS) is unavailable`, the time on the cloud server is drastically different than what is on the KMS.
 
 1. At this point, you should configure the server to use a Network Time Protocol (NTP) time source by executing the appropriate command.
 

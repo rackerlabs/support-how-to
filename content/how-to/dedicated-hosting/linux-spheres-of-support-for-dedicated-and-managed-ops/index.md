@@ -5,22 +5,21 @@ title: Linux Spheres of Support for Dedicated and Managed Operations
 type: article
 created_date: '2017-03-03'
 created_by: Alex Juarez
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-02-10'
+last_modified_by: Sean Crumpler
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-This article outlines our support of software and server configurations for machines (virtual and physical) running a supported Linux operating system.
+This article outlines our support of software and server configurations for machines (virtual and physical) running a supported Linux&reg; operating system.
 
 ### Operating systems
 
 The following operating systems are supported for both Dedicated and Managed Operations:
 
 - CentOS&reg; 7
-- CentOS 6
-- Red Hat&reg; Enterprise Linux&reg; 7
-- Red Hat Enterprise Linux 6
+- Red Hat&reg; Enterprise Linux&reg; 8
+- Red Hat Enterprise Linux 7
 - Ubuntu&reg; 18.04 LTS (Bionic Beaver)
 - Ubuntu 16.04 LTS (Xenial Xerus)
 
@@ -29,7 +28,10 @@ The following operating systems are supported only for Managed Operations:
 - Debian&reg; 9 (Stretch)
 - Debian 8 (Jessie)
 
-**Note**: Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end support sooner than originally anticipated. For full details on support life, see the [Rackspace EOL Terms](https://www.rackspace.com/information/legal/eolterms).
+**Note**: Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support
+dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end
+support sooner than originally anticipated. For full details on support life, see the
+[Rackspace EOL Terms](https://www.rackspace.com/information/legal/eolterms).
 
 ### Web servers
 
@@ -51,9 +53,12 @@ The following types of database servers are supported in the indicated areas:
 | MySQL and MariaDB | Yes | Yes | Yes | Yes |
 | Percona | Yes | Yes | Yes | Yes |
 
-**Note**: Linux OS administrators handle basic database support topics. Advanced topics might require DBA support assistance. PostgreSQL, MongoDB, and Oracle are not supported by Linux OS administrators. The Rackspace DBA team supports Oracle and MySQL. PostgreSQL requests can be considered on a case-by-case basis. The Rackspace DBA team is available for support consultation on database issues; fees might apply. For more information visit our [DBA Services page](https://www.rackspace.com/en-us/dba-services).
+**Note**: Linux OS administrators handle basic database support topics. Advanced topics might require DBA support assistance.
+PostgreSQL, MongoDB&reg;, and Oracle&reg; are not supported by Linux OS administrators. The Rackspace DBA team supports Oracle
+and MySQL&reg;. PostgreSQL requests can be considered on a case-by-case basis. The Rackspace DBA team is available for support
+consultation on database issues. Fees might apply. For more information visit our [DBA Services page](https://www.rackspace.com/en-us/dba-services).
 
-**Note**: Rackspace will install and support the official Oracle MySQL, MariaDB and Percona MySQL software from the vendor's repositories.
+**Note**: Rackspace will install and support the official Oracle MySQL, MariaDB&reg; and Percona&reg; MySQL software from the vendor's repositories.
 
 ### File servers
 
@@ -66,7 +71,8 @@ The following file servers are supported in the indicated areas:
 | CIFS (client) | Yes | Yes | Yes | Yes |
 | lsyncd | Yes | Yes | Yes | Yes |
 
-**Note**: Although lsyncd is not strictly a file server technology, we commonly use it at Rackspace in place of NFS services on cloud servers. Bidirectional data transfer with lsyncd is not supported.
+**Note**: Although `lsyncd` is not strictly a file server technology, we commonly use it at Rackspace in place of NFS services
+on cloud servers. Bidirectional data transfer with `lsyncd` is not supported.
 
 ### Mail servers
 
@@ -77,7 +83,9 @@ The following mail servers are supported in the indicated areas:
 | Postfix | Yes | Yes | Yes | Yes |
 | Dovecot | Yes | Yes | Yes | Yes |
 
-**Note**: By their nature, cloud servers have ephemeral IP addresses, which most email providers blacklist. Emails sent from a cloud server must go through a third-party application such as [Mailgun](https://www.mailgun.com/). Rackspace recommends [Rackspace Email Hosting](https://www.rackspace.com/en-us/email-hosting) for cloud environments.
+**Note**: By their nature, cloud servers have ephemeral IP addresses, which most email providers blacklist. Emails sent
+from a cloud server must go through a third-party application such as [Mailgun&reg;](https://www.mailgun.com/). Rackspace
+recommends [Rackspace Email Hosting](https://www.rackspace.com/en-us/email-hosting) for cloud environments.
 
 ### Application servers
 
@@ -109,7 +117,8 @@ The following services are supported on Red Hat Cluster Suite&reg; (RHCS) in the
 | NFS | Yes | Yes | Yes | Yes |
 | Redis | Yes | Yes | Yes | Yes |
 
-**Note**: RHCS is supported only on physical hardware platforms (not including OnMetal offerings). Oracle on RHCS is supported in tandem by the DBA team and Linux OS administrators.
+**Note**: RHCS is supported only on physical hardware platforms (not including OnMetal offerings). 
+The DBA team and Linux OS administrators support Oracle on RHCS in tandem.
 
 ### Containerization technologies
 
@@ -144,19 +153,22 @@ The following antivirus software is supported in the indicated areas:
 
 ### Other services and technologies
 
-Although we don't support all technologies, we do offer *reasonable endeavor* support, which extends our support into offering alternative solutions. Reasonable endeavor support can include help from Rackspace partners and other third-party services.
+Although we don't support all technologies, we do offer *reasonable endeavor* support, which extends our support into
+offering alternative solutions. Reasonable endeavor support can include help from Rackspace partners and other third-party services.
 
 - **API support**: All the support functions listed in the [API guides](https://docs.rackspace.com/docs) are supported.
-- **Backups**: Rackspace provides solutions for file system and database backups including leveraging the use of open-source projects such as [Holland](https://docs.hollandbackup.org/). For more information, contact Support.
--  **Cloud Files**: Integration with Cloud Files is supported via the API; however, no development
-   support is offered to help use Cloud Files via the API.
--  **DNS**: Rackspace supports the use of the public Rackspace name servers for DNS. Bind/named are *not* supported at this time.
--  **Firewall**: Support is provided for iptables, Ubuntu operating system ufw, and fail2ban.
--  **Load Balancing**: Cloud Load Balancers are supported.
+- **Backups**: Rackspace provides solutions for file system and database backups including leveraging the use of open-source projects
+  such as [Holland](https://docs.hollandbackup.org/). For more information, contact Support.
+- **Cloud Files**: Integration with Cloud Files is supported via the API; however, no development
+  support is offered to help use Cloud Files via the API.
+- **DNS**: Rackspace supports the use of the public Rackspace name servers for DNS. Bind/named are *not* supported at this time.
+- **Firewall**: Support is provided for iptables, Ubuntu operating system ufw, and fail2ban.
+- **Load Balancing**: Cloud Load Balancers are supported.
 
 ### Third-party repositories
 
-The Support team for Linux will, under reasonable endeavors and without warranty, configure repository access and install any packages from the following list of supported repositories. Some of the following repositories are also mirrored locally to our data centers.
+The Support team for Linux will, under reasonable endeavors and without warranty, configure repository access and install any packages
+from the following list of supported repositories. Some of the following repositories are also mirrored locally to our data centers.
 
 - [EPEL](https://fedoraproject.org/wiki/EPEL)
 - [IUS](https://ius.io/)
