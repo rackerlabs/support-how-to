@@ -1,17 +1,17 @@
 ---
 permalink: enable-file-downloads-in-internet-explorer/
-audit_date:
+audit_date: "2021-04-30"
 title: Enable file downloads in Internet Explorer
 type: article
-created_date: '2011-04-19'
+created_date: "2011-04-19"
 created_by: Rackspace Support
-last_modified_date: '2015-06-04'
-last_modified_by: Kelly Holcomb
+last_modified_date: "2021-04-30"
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-If you have just created a cloud server on Microsoft Windows but are
+If you have created a cloud server on Microsoft Windows but are
 having problems downloading files from your server, you might need to
 enable file downloads in Internet Explorer.
 
@@ -30,3 +30,6 @@ downloads in Internet Explorer, follow these steps.
 8.  Click **OK > Apply > OK**.
 
 Now you will be prompted for file downloads.
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/).
