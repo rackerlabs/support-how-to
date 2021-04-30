@@ -5,10 +5,8 @@ title: MyRackspace two-factor authentication
 type: article
 created_date: '2014-07-14'
 created_by: Rackspace Support
-last_modified_date: '2018-10-26'
-last_modified_by: Cat Lookabaugh
-product: Cloud Servers
-product_url: cloud-servers
+last_modified_date: '2021-04-29'
+last_modified_by: Rose Morales
 ---
 
 Multi-factor authentication uses an extra device, like a mobile phone, to
