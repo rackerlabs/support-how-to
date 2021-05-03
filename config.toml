@@ -12,7 +12,7 @@ relativeURLs = false
 disablePathToLower = true
 uglyURLs = false
 smartDashes = true
-title = "Rackspace Developer Center"
+title = ""
 canonifyURLs = true
 enableGitInfo = true
 ignoreFiles = "content/how-to/retired-articles/"
@@ -238,7 +238,7 @@ notAlternative = true
 
 [params]
 dateformat = "January 2, 2006"
-description = "Rackspace Developer documentation using Hugo, Netlify and Algolia"
+description = ""
 ghrepo = "https://github.com/rackerlabs/support-how-to"
 ghrepo_edit = "https://github.com/rackerlabs/support-how-to/edit/master/hugo/content/"
 ghrepo_new = "https://github.com/rackerlabs/support-how-to/issues/new"
