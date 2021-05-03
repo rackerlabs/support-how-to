@@ -35,7 +35,7 @@ which is the maximum number of scheduled snapshot images of that
 particular server you want to retain in your account. After the
 number of snapshots exceeds the retention value, the scheduled images
 service deletes the oldest scheduled snapshot image of that server to
-keep the number of scheduled images doesn't below the retention setting.
+keep the number of scheduled images below the retention setting.
 You can change the retention value at any time. You won't see the effects
 of a change until the next time the system takes a scheduled image on
 your account.
@@ -45,7 +45,7 @@ start accumulating them in your account. The retention setting allows
 you to keep the number of daily images down to a reasonable level, but
 there might be circumstances where you want more control over snapshot
 retention. Suppose you want a retention value of `7` but also want to
-to save the first scheduled image taken this month. For that, you
+save the first scheduled image taken this month. For that, you
 need to use either the API or the python-novaclient command-line
 interface for the API.
 
@@ -132,11 +132,11 @@ use to delete images.
 
 ### Change the day of the week for weekly scheduled images
 
-To change the day of the week the system creates your weekly scheduled
+To change the day of the week on which the system creates your weekly scheduled
 images, enable scheduled images on that server again, specifying
 the new day of the week and the retention value you want to use.  For
 example, the following command enables weekly scheduled images on 
-**myserver** where the system creates the image on Sunday and the
+**myserver** where the system creates the image on Sunday and
 retains four images:
 
     nova scheduled-images-enable  --day-of-week sunday  myserver  4
@@ -150,7 +150,7 @@ the command. If you don't do this, novaclient thinks you want to switch
 to a daily schedule.
 
 For example, the following command sets a retention value of `8` on the
-example server, and the system comtiues to take scheduled images weekly on
+example server, and the system continues to take scheduled images weekly on
 Saturday:
 
     nova scheduled-images-enable  --day-of-week saturday  myserver  8
@@ -166,7 +166,7 @@ images daily because you did not specify a day of the week.
 #### Checking the image schedule on a server
 
 If you set different retention values on several servers based on their
-im portance, you might lose track of theretention values. If you want to
+importance, you might lose track of the retention values. If you want to
 see what the current retention value is on a server, use this command:
 
     nova scheduled-images-show  {server}
@@ -178,7 +178,7 @@ the server. The output for this command tells you whether you have
 weekly or daily images scheduled for this server and what your retention
 value is.
 
-For example, if you have weekly images, the reponse looks similar to the
+For example, if you have weekly images, the response looks similar to the
 following example:
 
     Schedule type: Weekly on: SATURDAY
