@@ -1,38 +1,38 @@
 ---
 permalink: copy-files-with-scp-and-rsync/
-audit_date:
+audit_date: '2021-05-04'
 title: 'Copy files with scp and rsync'
 type: article
 created_date: '2020-06-18'
 created_by: Jose Quezada
-last_modified_date:
-last_modified_by:
+last_modified_date: '2021-05-04'
+last_modified_by: Ana Corpus
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
 This article describes how to transfer a file from and to a remote server.
 
-### Copying files and directories in a remote way to and from your server
+### Copying files and directories with scp or rsync
 
-You can use either SSH or rsync to transfer files to a remote server. Secure Copy (scp) uses SSH to copy only the files or directories that you select. On first use, rsync copies all files and directories and then only copies files and directories that you have changed. rsync does not copy all the files and directories again.
+You can use **SSH** or **rsync** to transfer files to a remote server. Secure Copy (scp) uses SSH to copy only the files or directories that you select. On first use, **rsync** copies all files and directories and then it only copies the files and directories that you have changed. **rsync** does not copy all the files and directories again.
 
 ##### SSH and scp examples:
 
-Copy a file **from** a remote server:
+* Copy a file **from** a remote server:
 ```sh
 ~$ scp user@IP.address:/path/file_name /local/destination/path/
 ```
-Copy a directory **from** a remote server:
+* Copy a directory **from** a remote server:
 ```sh
 ~$ scp -r user@IP.address:/path/directory[/] /local/destination/path/
 ```
 
-Copy a file **to** a remote server:
+* Copy a file **to** a remote server:
 ```sh
 ~$ scp /local/path/file_name user@IP.address:/destination/path/
 ```
-Copy a directory **to** a remote server:
+* Copy a directory **to** a remote server:
 ```sh
 ~$ scp  -r /local/path/directory[/]  user@IP.address:/destination/path/
 ```
@@ -48,20 +48,20 @@ Because rsync transfers files recursively, you do not need to add the `-r` flag.
 	-z, --compress
 	       With this option, RSYNC compresses the file data sent to the destination machine.
 
-Copy a file **from** a remote server:
+* Copy a file **from** a remote server:
 ```sh
 	~$ rsync [-avz] user@IP.address:/path/file_name /local/destination/path/
 ```
-Copy a directory **from** a remote server:
+* Copy a directory **from** a remote server:
 ```sh
 	~$ rsync [-avz] user@IP.address:/path/directory[/] /local/destination/path/
 ```
 
-Copy a file **to** a remote server:
+* Copy a file **to** a remote server:
 ```sh
 	~$ rsync [-avz] /local/path/file_name user@IP.address:/destination/path/
 ```
-Copy a directory **to** a remote server:
+* Copy a directory **to** a remote server:
 ```sh
 	~$ rsync [-avz] /local/path/directory[/]  user@IP.address:/destination/path/
 ```
@@ -76,3 +76,5 @@ A  trailing  slash ( / ) on the source changes the transfer behavior to avoid cr
             `
             ~$ rsync [-avz] /local/path/directory/  user@IP.address:/destination/path/
             `
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/).
