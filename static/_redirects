@@ -635,6 +635,9 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 # Individual Redirects
 
+/support/how-to/manage-scheduled-images-with-the-python-novaclient/  /how-to/using-python-novaclient-to-manage-scheduled-images/  404
+/how-to/using-python-novaclient-to-manage-scheduled-images/  /support/how-to/using-python-novaclient-to-manage-scheduled-images/  301  
+
 /support/how-to/cloud-servers-attaching-and-detaching-networks/  /how-to/attach-and-detach-networks-from-a-cloud-server/  404
 /how-to/attach-and-detach-networks-from-a-cloud-server/  /support/how-to/attach-and-detach-networks-from-a-cloud-server/  301  
 
