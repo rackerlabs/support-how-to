@@ -68,7 +68,7 @@
         "smoothscroll-polyfill": "^0.4.4",
         "to-vfile": "^6.1.0",
         "vfile-reporter": "^6.0.2",
-        "yargs": "^16.2.0"
+        "yargs": "^17.0.0"
     },
     "name": "support-how-to",
     "version": "1.0.0",
