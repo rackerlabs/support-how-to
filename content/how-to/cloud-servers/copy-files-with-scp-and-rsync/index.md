@@ -13,7 +13,7 @@ product_url: cloud-servers
 
 This article describes how to transfer a file from and to a remote server.
 
-### Copying files and directories with scp or rsync
+### Copying files and directories with SCP or Rsync
 
 You can use SecureShell (SSH) or Remote Sync (Rsync) to transfer files to a remote server.
 Secure Copy (SCP) uses SSH to copy only the files or directories that you select. On first
@@ -91,6 +91,7 @@ and without the slash:
 `
 ~$ rsync [-avz] /local/path/directory/  user@IP.address:/destination/path/
 `
+
 `
 ~$ rsync [-avz] /local/path/directory  user@IP.address:/destination/path/
 `
