@@ -1,5 +1,5 @@
 ---
-permalink: dfs-replication-installation/
+permalink: dfs-replication-installation
 audit_date: '2021-01-25'
 title: DFS replication installation
 type: article

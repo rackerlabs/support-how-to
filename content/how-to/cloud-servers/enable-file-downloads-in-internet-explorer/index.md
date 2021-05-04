@@ -1,5 +1,5 @@
 ---
-permalink: enable-file-downloads-in-internet-explorer/
+permalink: enable-file-downloads-in-internet-explorer
 audit_date: "2021-04-30"
 title: Enable file downloads in Internet Explorer
 type: article

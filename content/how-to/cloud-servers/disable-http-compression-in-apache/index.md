@@ -1,5 +1,5 @@
 ---
-permalink: disable-http-compression-in-apache/ 
+permalink: disable-http-compression-in-apache
 audit_date:
 title: Disable HTTP compression on Apache servers 
 type: article
