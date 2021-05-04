@@ -10,13 +10,6 @@
 <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
 <meta name="theme-color" content="#ffffff" />
 
-{{ if .Params.description }}
-<meta name="description" property="og:description" content="{{ .Params.description }}" />
-{{ else if .Site.Params.description }}
-<meta name="description" property="og:description" content="{{ .Site.Params.description }}" />
-{{ else }}
-<meta name="description" property="og:description" />
-{{ end }}
 {{ if .Params.created_by }}
 <meta name="authors" property="article:author" content="{{ .Params.created_by }}" />
 {{ else if .Site.Params.created_by }}
@@ -42,14 +35,7 @@
 {{ if .Data.Singular }}
     <meta name="Algolia crawler" content="noindex">
 {{ end }}
-<!-- og meta tags -->
 
-<!-- {{- if eq (getenv "HUGO_ENV") "production" | or (eq $.Site.Params.env "production") -}}
-<meta name="robots" content="index, follow" />
-{{- else -}}
-<meta name="robots" content="noindex, nofollow" />
-{{- end -}} -->
-<title>{{ $title }}</title>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
