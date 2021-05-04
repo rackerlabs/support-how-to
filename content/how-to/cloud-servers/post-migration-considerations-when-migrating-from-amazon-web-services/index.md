@@ -1,5 +1,5 @@
 ---
-permalink: post-migration-considerations-when-migrating-from-amazon-web-services/
+permalink: post-migration-considerations-when-migrating-from-amazon-web-services
 audit_date: '2018-10-05'
 title: Post-migration considerations when migrating from Amazon Web Services
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: connecting-to-linux-from-windows-by-using-putty/
+permalink: connecting-to-linux-from-windows-by-using-putty
 audit_date: '2016-06-27'
 title: Connect to Linux from Windows by using PuTTY
 type: article

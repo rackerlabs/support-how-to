@@ -1,5 +1,5 @@
 ---
-permalink: change-dns-to-enable-rackspace-cdn/
+permalink: change-dns-to-enable-rackspace-cdn
 audit_date: '2020-12-09'
 title: Change DNS to enable Rackspace CDN
 type: article

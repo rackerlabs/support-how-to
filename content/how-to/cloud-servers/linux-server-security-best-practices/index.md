@@ -1,5 +1,5 @@
 ---
-permalink: linux-server-security-best-practices/
+permalink: linux-server-security-best-practices
 audit_date: '2020-03-26'
 title: Linux server security best practices
 type: article

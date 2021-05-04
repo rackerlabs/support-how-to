@@ -1,5 +1,5 @@
 ---
-permalink: understanding-the-rackspace-intelligence-dashboard-user-interface/
+permalink: understanding-the-rackspace-intelligence-dashboard-user-interface
 audit_date: '2021-02-23'
 title: Understanding the Rackspace Intelligence dashboard user interface
 type: article

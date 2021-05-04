@@ -1,5 +1,5 @@
 ---
-permalink: create-onmetal-cloud-servers/
+permalink: create-onmetal-cloud-servers
 audit_date: '2018-11-29'
 title: Create OnMetal Cloud Servers
 type: article

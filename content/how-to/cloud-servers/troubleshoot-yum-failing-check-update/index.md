@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-yum-failing-check-update/
+permalink: troubleshoot-yum-failing-check-update
 audit_date: '2021-04-12'
 title: 'Troubleshoot yum failing check update'
 type: article

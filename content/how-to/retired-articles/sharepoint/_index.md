@@ -5,7 +5,7 @@ created_date: '2016-01-17'
 created_by: Rackspace Support
 last_modified_date: '2018-04-26'
 last_modified_by: Stephanie Fillmon
-permalink: /sharepoint/
+permalink: sharepoint
 ---
 
 Our hosted SharePoint service offers all of the benefits of an online SharePoint site plus access to Rackspace support for a Fanatical Experience&trade;.

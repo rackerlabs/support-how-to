@@ -1,5 +1,5 @@
 ---
-permalink: check-for-a-security-compromise-rescue-mode-investigation/
+permalink: check-for-a-security-compromise-rescue-mode-investigation
 audit_date: '2018-10-26'
 title: 'Check for a security compromise: Rescue mode investigation'
 type: article

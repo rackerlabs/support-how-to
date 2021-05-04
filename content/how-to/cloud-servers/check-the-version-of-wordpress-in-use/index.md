@@ -1,5 +1,5 @@
 ---
-permalink: check-the-version-of-wordpress-in-use/
+permalink: check-the-version-of-wordpress-in-use
 audit_date: '2021-03-11'
 title: Check the version of Wordpress in use
 type: article

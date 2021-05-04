@@ -1,5 +1,5 @@
 ---
-permalink: what-is-a-500-internal-server-error/
+permalink: what-is-a-500-internal-server-error
 audit_date: '2020-11-24'
 title: What is a 500 Internal Server Error
 type: article

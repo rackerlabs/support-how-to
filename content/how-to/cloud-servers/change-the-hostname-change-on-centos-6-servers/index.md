@@ -1,5 +1,5 @@
 ---
-permalink: change-the-hostname-change-on-centos-6-servers/
+permalink: change-the-hostname-change-on-centos-6-servers
 audit_date: '2020-06-26'
 title: 'Change the hostname on CentOS 6 servers'
 type: article

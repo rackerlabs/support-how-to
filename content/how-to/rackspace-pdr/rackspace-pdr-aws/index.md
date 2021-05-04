@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-pdr-aws/
+permalink: rackspace-pdr-aws
 title: Rackspace PDR on AWS
 type: article
 audit_date: '2018-11-12'

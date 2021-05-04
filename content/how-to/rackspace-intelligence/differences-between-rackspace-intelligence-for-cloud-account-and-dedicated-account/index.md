@@ -1,5 +1,5 @@
 ---
-permalink: differences-between-rackspace-intelligence-for-cloud-account-and-dedicated-account/
+permalink: differences-between-rackspace-intelligence-for-cloud-account-and-dedicated-account
 audit_date: '2021-02-19'
 title: Differences between Rackspace Intelligence for cloud and dedicated accounts
 type: article

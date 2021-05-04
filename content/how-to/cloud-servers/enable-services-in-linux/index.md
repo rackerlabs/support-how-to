@@ -1,5 +1,5 @@
 ---
-permalink: enable-services-in-linux/
+permalink: enable-services-in-linux
 audit_date: '2020-03-23'
 title: Enable services in Linux
 type: article

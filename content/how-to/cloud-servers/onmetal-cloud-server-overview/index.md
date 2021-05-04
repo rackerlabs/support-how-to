@@ -1,5 +1,5 @@
 ---
-permalink: OnMetal-cloud-server-overview/
+permalink: OnMetal-cloud-server-overview
 audit_date: '2020-09-29'
 title: OnMetal Cloud Server Overview
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-backup-install-the-agent-on-windows/
+permalink: rackspace-cloud-backup-install-the-agent-on-windows
 audit_date: '2020-09-15'
 title: Install the Cloud Backup agent on Windows
 type: article

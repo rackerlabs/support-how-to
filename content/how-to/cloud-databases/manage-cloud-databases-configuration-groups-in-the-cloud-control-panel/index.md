@@ -1,5 +1,5 @@
 ---
-permalink: manage-cloud-databases-configuration-groups-in-the-cloud-control-panel/
+permalink: manage-cloud-databases-configuration-groups-in-the-cloud-control-panel
 audit_date: '2020-09-21'
 title: Manage Cloud Databases configuration groups in the Cloud Control Panel
 type: article

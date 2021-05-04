@@ -1,5 +1,5 @@
 ---
-permalink: connect-to-your-onmetal-server-through-cloud-init/
+permalink: connect-to-your-onmetal-server-through-cloud-init
 audit_date: '2020-10-15'
 title: Connect to your OnMetal Server through cloud-init
 type: article

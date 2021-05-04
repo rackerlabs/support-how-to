@@ -1,5 +1,5 @@
 ---
-permalink: install-wordpress-in-centos-7/
+permalink: install-wordpress-in-centos-7
 audit_date:
 title: 'Install WordPress on CentOS 7'
 type: article

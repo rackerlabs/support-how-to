@@ -1,5 +1,5 @@
 ---
-permalink: importing-data-into-cloud-databases/
+permalink: importing-data-into-cloud-databases
 audit_date: '2017-02-13'
 title: Import data into Cloud Databases
 type: article

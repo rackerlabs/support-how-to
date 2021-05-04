@@ -1,5 +1,5 @@
 ---
-permalink: add-and-edit-archive-users-in-cloud-office/
+permalink: add-and-edit-archive-users-in-cloud-office
 audit_date: '2019-11-11'
 title: Add and edit archive users
 type: article

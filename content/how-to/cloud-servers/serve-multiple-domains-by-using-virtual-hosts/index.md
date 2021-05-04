@@ -1,5 +1,5 @@
 ---
-permalink: serve-multiple-domains-by-using-virtual-hosts/
+permalink: serve-multiple-domains-by-using-virtual-hosts
 audit_date: '2016-09-21'
 title: Serve multiple domains by using virtual hosts
 type: article

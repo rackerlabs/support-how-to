@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-pdr-nids-networking/
+permalink: rackspace-pdr-nids-networking
 title: Rackspace PDR NIDS networking requirements
 type: article
 audit_date: '2018-11-12'

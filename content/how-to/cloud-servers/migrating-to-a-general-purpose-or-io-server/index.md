@@ -1,5 +1,5 @@
 ---
-permalink: migrating-to-a-general-purpose-or-io-server/
+permalink: migrating-to-a-general-purpose-or-io-server
 audit_date: '2019-01-22'
 title: Migrate to a General Purpose or I/O server
 type: article

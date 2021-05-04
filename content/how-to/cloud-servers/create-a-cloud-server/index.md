@@ -1,5 +1,5 @@
 ---
-permalink: create-a-cloud-server/
+permalink: create-a-cloud-server
 audit_date: '2018-10-26'
 title: Create a cloud server
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: install-pyrax/
+permalink: install-pyrax
 audit_date:
 title: Install pyrax
 type: article

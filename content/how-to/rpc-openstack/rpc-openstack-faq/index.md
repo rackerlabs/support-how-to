@@ -1,5 +1,5 @@
 ---
-permalink: rpc-openstack-faq/
+permalink: rpc-openstack-faq
 audit_date: '2017-04-26'
 title: Rackspace Private Cloud powered by OpenStack FAQ
 type: article

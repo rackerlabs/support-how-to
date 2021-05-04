@@ -1,5 +1,5 @@
 ---
-permalink: setting-up-a-pub-sub-model-in-cloud-queues/
+permalink: setting-up-a-pub-sub-model-in-cloud-queues
 audit_date:
 title: Set up a publisher-subscriber model in Cloud Queues
 type: article

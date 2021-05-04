@@ -1,5 +1,5 @@
 ---
-permalink: check-linux-configuration-files-for-syntax-errors/
+permalink: check-linux-configuration-files-for-syntax-errors
 audit_date: '2020-05-08'
 title: 'Check Linux configuration files for syntax errors'
 type: article

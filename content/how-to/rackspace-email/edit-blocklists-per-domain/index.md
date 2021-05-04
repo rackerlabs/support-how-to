@@ -1,5 +1,5 @@
 ---
-permalink: edit-blocklists-per-domain/
+permalink: edit-blocklists-per-domain
 audit_date: '2021-03-24'
 title: Edit blocklists per domain
 type: article

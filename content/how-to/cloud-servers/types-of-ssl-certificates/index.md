@@ -1,5 +1,5 @@
 ---
-permalink: types-of-ssl-certificates/
+permalink: types-of-ssl-certificates
 audit_date: '2020-05-04'
 title: ‘Types of SSL certificates’
 type: article

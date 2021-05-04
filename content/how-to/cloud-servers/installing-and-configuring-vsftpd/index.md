@@ -1,5 +1,5 @@
 ---
-permalink: installing-and-configuring-vsftpd/
+permalink: installing-and-configuring-vsftpd
 audit_date: '2019-03-05'
 title: Installing and configuring vsFTPD
 created_date: '2019-01-17'

@@ -1,5 +1,5 @@
 ---
-permalink: about-regions/
+permalink: about-regions
 audit_date: '2017-03-22'
 title: About regions
 type: article

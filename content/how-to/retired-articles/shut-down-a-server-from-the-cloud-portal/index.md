@@ -1,5 +1,5 @@
 ---
-permalink: shut-down-a-server-from-the-cloud-portal/
+permalink: shut-down-a-server-from-the-cloud-portal
 audit_date: '2020-10-11'
 title: Shut down a server from the Cloud Portal
 type: article

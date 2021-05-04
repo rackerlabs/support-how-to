@@ -1,5 +1,5 @@
 ---
-permalink: add-a-user-to-the-local-administrators-group-in-windows-server-2012/
+permalink: add-a-user-to-the-local-administrators-group-in-windows-server-2012
 audit_date: '2020-04-17'
 title: 'Add a user to the local administrators group in Windows Server 2012'
 type: article

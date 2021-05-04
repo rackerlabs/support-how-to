@@ -1,5 +1,5 @@
 ---
-permalink: imap-and-pop-mail-protocol-comparison/
+permalink: imap-and-pop-mail-protocol-comparison
 audit_date: '2019-01-15'
 title: IMAP and POP mail protocol comparison
 type: article

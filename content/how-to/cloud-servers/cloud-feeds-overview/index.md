@@ -1,5 +1,5 @@
 ---
-permalink: cloud-feeds-overview/
+permalink: cloud-feeds-overview
 audit_date: '2020-07-14'
 title: Cloud Feeds overview
 type: article

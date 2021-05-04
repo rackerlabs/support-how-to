@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-essentials-rescue-mode-on-windows-cloud-servers-behaviors/
+permalink: rackspace-cloud-essentials-rescue-mode-on-windows-cloud-servers-behaviors
 audit_date:
 title: Rackspace Cloud Essentials - Rescue Mode on Windows Cloud Servers behaviors
 type: article

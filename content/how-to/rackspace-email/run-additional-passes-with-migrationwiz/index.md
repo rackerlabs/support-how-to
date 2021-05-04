@@ -1,5 +1,5 @@
 ---
-permalink: run-additional-passes-with-migrationwiz/
+permalink: run-additional-passes-with-migrationwiz
 audit_date: '2021-02-18'
 title: Run additional passes with MigrationWiz
 type: article

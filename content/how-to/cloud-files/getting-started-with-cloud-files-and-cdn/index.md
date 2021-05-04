@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-cloud-files-and-cdn/
+permalink: getting-started-with-cloud-files-and-cdn
 audit_date: '2021-03-30'
 title: Getting started with Cloud Files and CDN
 type: article

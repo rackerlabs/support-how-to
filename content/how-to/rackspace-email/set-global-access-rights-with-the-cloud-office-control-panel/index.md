@@ -1,5 +1,5 @@
 ---
-permalink: set-global-access-rights-with-the-cloud-office-control-panel/
+permalink: set-global-access-rights-with-the-cloud-office-control-panel
 audit_date: '2021-03-24'
 title: Set global access rights in the Cloud Office Control Panel
 type: article

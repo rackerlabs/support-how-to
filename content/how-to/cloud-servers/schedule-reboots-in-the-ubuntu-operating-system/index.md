@@ -1,5 +1,5 @@
 ---
-permalink: schedule-reboots-in-the-ubuntu-operating-system/
+permalink: schedule-reboots-in-the-ubuntu-operating-system
 audit_date: '2020-09-24'
 title: Schedule reboots in the Ubuntu operating system
 type: article

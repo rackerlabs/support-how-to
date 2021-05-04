@@ -1,5 +1,5 @@
 ---
-permalink: cloud-queues-overview/
+permalink: cloud-queues-overview
 audit_date:
 title: Cloud Queues Overview
 type: article

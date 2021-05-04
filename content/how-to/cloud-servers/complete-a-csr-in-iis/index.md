@@ -1,5 +1,5 @@
 ---
-permalink: completing-a-csr-in-iis/
+permalink: completing-a-csr-in-iis
 audit_date: ‘2021-03-12’
 title: Complete a CSR in IIS
 type: article

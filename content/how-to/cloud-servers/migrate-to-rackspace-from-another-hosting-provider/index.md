@@ -1,5 +1,5 @@
 ---
-permalink: migrate-to-rackspace-from-another-hosting-provider/
+permalink: migrate-to-rackspace-from-another-hosting-provider
 audit_date: '2019-11-22'
 title: Migrate to Rackspace from another hosting provider
 type: article

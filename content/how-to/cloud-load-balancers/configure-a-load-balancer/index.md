@@ -1,5 +1,5 @@
 ---
-permalink: configure-a-load-balancer/
+permalink: configure-a-load-balancer
 audit_date: '2018-10-08'
 title: Configure a load balancer
 type: article

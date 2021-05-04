@@ -1,5 +1,5 @@
 ---
-permalink: moving-a-software-raid-cloud-block-storage-volume-from-one-cloud-server-to-another/
+permalink: moving-a-software-raid-cloud-block-storage-volume-from-one-cloud-server-to-another
 audit_date:
 title: Move a Cloud Block Storage volume between servers
 type: article

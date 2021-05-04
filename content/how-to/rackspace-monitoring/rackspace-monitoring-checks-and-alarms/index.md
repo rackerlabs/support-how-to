@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-monitoring-checks-and-alarms/
+permalink: rackspace-monitoring-checks-and-alarms
 audit_date: '2017-03-30'
 title: Rackspace Monitoring checks and alarms
 type: article

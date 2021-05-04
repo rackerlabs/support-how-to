@@ -1,5 +1,5 @@
 ---
-permalink: upcoming-deprecation-of-resource-rackspacecloudserver-for-cloud-orchestration/
+permalink: upcoming-deprecation-of-resource-rackspacecloudserver-for-cloud-orchestration
 audit_date:
 title: 'Deprecated resource Rackspace::Cloud::Server for Cloud Orchestration'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: cloud-files-curl-cookbook/
+permalink: cloud-files-curl-cookbook
 audit_date: '2021-04-20'
 title: Cloud Files cURL cookbook
 type: article

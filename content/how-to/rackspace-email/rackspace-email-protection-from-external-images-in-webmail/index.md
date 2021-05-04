@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-email-protection-from-external-images-in-webmail/
+permalink: rackspace-email-protection-from-external-images-in-webmail
 audit_date: '2021-03-26'
 title: Protection from external images in Webmail
 type: article

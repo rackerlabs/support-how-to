@@ -1,5 +1,5 @@
 ---
-permalink: set-windows-defender-folder-exclusions/
+permalink: set-windows-defender-folder-exclusions
 audit_date: '2021-04-22'
 title: 'Set Windows Defender folder exclusions'
 type: article

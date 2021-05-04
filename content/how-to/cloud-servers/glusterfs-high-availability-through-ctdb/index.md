@@ -1,5 +1,5 @@
 ---
-permalink: glusterfs-high-availability-through-ctdb/
+permalink: glusterfs-high-availability-through-ctdb
 audit_date:
 title: Explore high availability of GlusterFS through CTDB
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: import-and-export-archived-data/
+permalink: import-and-export-archived-data
 audit_date: '2021-03-24'
 title: Import and export archived data
 type: article

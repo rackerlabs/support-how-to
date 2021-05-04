@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-ssl-certificates/
+permalink: rackspace-ssl-certificates
 audit_date: '2018-08-20'
 title: 'Rackspace SSL certificates'
 type: article

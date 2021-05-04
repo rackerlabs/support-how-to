@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-email-archiving-faq/
+permalink: rackspace-email-archiving-faq
 title: Rackspace Email Archiving FAQ
 type: article
 created_date: '2016-01-17'

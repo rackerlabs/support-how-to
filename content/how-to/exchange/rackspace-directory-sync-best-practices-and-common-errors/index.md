@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-directory-sync-best-practices-and-common-errors/
+permalink: rackspace-directory-sync-best-practices-and-common-errors
 audit_date: '2020-11-18'
 title: 'Rackspace Directory Sync best practices and common errors'
 type: article

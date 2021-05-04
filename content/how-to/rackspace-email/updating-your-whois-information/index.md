@@ -1,5 +1,5 @@
 ---
-permalink: updating-your-whois-information/
+permalink: updating-your-whois-information
 audit_date: '2018-03-07'
 title: Update your WHOIS information
 type: article

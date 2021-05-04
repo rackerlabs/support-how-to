@@ -1,5 +1,5 @@
 ---
-permalink: create-scheduled-tasks-on-a-windows-server/
+permalink: create-scheduled-tasks-on-a-windows-server
 audit_date: '2020-06-30'
 title: 'Create scheduled tasks on a Windows server'
 type: article

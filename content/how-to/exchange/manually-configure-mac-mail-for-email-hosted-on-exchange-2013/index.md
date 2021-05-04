@@ -1,5 +1,5 @@
 ---
-permalink: manually-configure-mac-mail-for-email-hosted-on-exchange-2013/
+permalink: manually-configure-mac-mail-for-email-hosted-on-exchange-2013
 audit_date: '2019-03-28'
 title: Manually configure Mac Mail for email hosted on Exchange 2013
 type: article

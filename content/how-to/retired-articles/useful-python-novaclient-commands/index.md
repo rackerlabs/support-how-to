@@ -1,5 +1,5 @@
 ---
-permalink: useful-python-novaclient-commands/
+permalink: useful-python-novaclient-commands
 audit_date:
 title: Useful python-novaclient commands
 type: article

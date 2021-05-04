@@ -1,5 +1,5 @@
 ---
-permalink: download-a-skype-for-business-client/
+permalink: download-a-skype-for-business-client
 audit_date: '2017-05-25'
 title: Download a Skype for Business client
 type: article

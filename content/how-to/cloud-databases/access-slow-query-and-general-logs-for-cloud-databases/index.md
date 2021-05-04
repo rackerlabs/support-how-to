@@ -1,5 +1,5 @@
 ---
-permalink: access-slow-query-and-general-logs-for-cloud-databases/
+permalink: access-slow-query-and-general-logs-for-cloud-databases
 audit_date: '2020-09-21'
 title: Access slow query and general logs for Cloud Databases
 type: article

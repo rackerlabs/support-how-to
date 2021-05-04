@@ -1,5 +1,5 @@
 ---
-permalink: basic-linux-user-management/
+permalink: basic-linux-user-management
 audit_date: '2020-04-20'
 title: 'Basic Linux User Management'
 type: article

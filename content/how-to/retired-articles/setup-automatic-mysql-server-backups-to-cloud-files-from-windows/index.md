@@ -1,5 +1,5 @@
 ---
-permalink: setup-automatic-mysql-server-backups-to-cloud-files-from-windows/
+permalink: setup-automatic-mysql-server-backups-to-cloud-files-from-windows
 audit_date:
 title: Set up automatic MySQL server backups to Cloud Files from Windows
 type: article

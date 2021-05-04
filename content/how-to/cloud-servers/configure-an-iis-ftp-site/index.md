@@ -1,5 +1,5 @@
 ---
-permalink: configure-an-iis-ftp-site/
+permalink: configure-an-iis-ftp-site
 audit_date: '2020-05-20'
 title: 'Configure an IIS FTP site'
 type: article

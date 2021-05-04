@@ -1,5 +1,5 @@
 ---
-permalink: about-cloud-server-images/
+permalink: about-cloud-server-images
 audit_date:
 title: About Cloud Server images
 type: article

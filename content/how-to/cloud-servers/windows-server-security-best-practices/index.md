@@ -1,5 +1,5 @@
 ---
-permalink: windows-server-security-best-practices/
+permalink: windows-server-security-best-practices
 audit_date: '2020-03-26'
 title: Windows server security best practices
 type: article

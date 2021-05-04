@@ -1,5 +1,5 @@
 ---
-permalink: uses-of-rackspace-cdn/
+permalink: uses-of-rackspace-cdn
 audit_date: '2020-12-11'
 title: Uses of Rackspace CDN
 type: article

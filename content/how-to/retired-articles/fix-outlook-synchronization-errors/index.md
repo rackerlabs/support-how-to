@@ -1,5 +1,5 @@
 ---
-permalink: fix-outlook-synchronization-errors/
+permalink: fix-outlook-synchronization-errors
 audit_date: '2021-02-03'
 title: Fix Outlook synchronization errors
 type: article

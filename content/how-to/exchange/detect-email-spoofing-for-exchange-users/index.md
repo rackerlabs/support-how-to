@@ -1,5 +1,5 @@
 ---
-permalink: detect-email-spoofing-for-exchange-users/
+permalink: detect-email-spoofing-for-exchange-users
 audit_date: '2019-04-01'
 title: Detect email spoofing for Exchange users
 type: article

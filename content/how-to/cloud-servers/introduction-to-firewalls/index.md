@@ -1,5 +1,5 @@
 ---
-permalink: introduction-to-firewalls/
+permalink: introduction-to-firewalls
 audit_date: '2019-01-23'
 title: Introduction to firewalls
 type: article

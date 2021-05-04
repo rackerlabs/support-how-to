@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-name-servers/
+permalink: rackspace-name-servers
 audit_date: '2018-08-15'
 title: Rackspace Name Servers
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: allow-web-traffic-in-iptables/
+permalink: allow-web-traffic-in-iptables
 audit_date: '2020-03-27'
 title: 'Allow web traffic in iptables software firewall'
 type: article

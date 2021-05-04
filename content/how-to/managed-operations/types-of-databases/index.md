@@ -1,5 +1,5 @@
 ---
-permalink: types-of-databases/
+permalink: types-of-databases
 audit_date: '2018-03-20'
 title: 'Types of databases'
 type: article

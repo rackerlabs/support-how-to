@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-referral-program/
+permalink: rackspace-referral-program
 audit_date: '2018-01-30'
 title: Rackspace Referral Program
 type: article

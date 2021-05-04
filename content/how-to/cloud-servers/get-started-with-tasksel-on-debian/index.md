@@ -1,5 +1,5 @@
 ---
-permalink: get-started-with-tasksel-on-debian/
+permalink: get-started-with-tasksel-on-debian
 audit_date: '2020-07-28'
 title: 'Get Started with Tasksel on Debian'
 type: article

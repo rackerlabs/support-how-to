@@ -1,5 +1,5 @@
 ---
-permalink: combine-invoices-for-rackspace-managed-and-cloud-accounts/
+permalink: combine-invoices-for-rackspace-managed-and-cloud-accounts
 audit_date: '2020-10-19'
 title: 'Combine invoices for Rackspace Public Cloud, Rackspace Private Cloud, and third-party cloud accounts'
 type: article

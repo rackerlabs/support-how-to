@@ -1,5 +1,5 @@
 ---
-permalink: administrator-management-cloud-office-control-panel/
+permalink: administrator-management-cloud-office-control-panel
 audit_date:
 title: 'Administrator management: Cloud Office Control Panel'
 type: article

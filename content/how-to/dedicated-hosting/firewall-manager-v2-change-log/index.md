@@ -1,5 +1,5 @@
 ---
-permalink: firewall-manager-v2-change-log/
+permalink: firewall-manager-v2-change-log
 audit_date: '2017-03-24'
 title: Firewall Manager v2 change log
 type: article

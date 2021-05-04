@@ -1,5 +1,5 @@
 ---
-permalink: public-folder-permissions-for-exchange-2007-and-2010/
+permalink: public-folder-permissions-for-exchange-2007-and-2010
 audit_date: '2017-01-10'
 title: Public folder permissions for Exchange 2007 and 2010
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: install-a-lamp-stack-on-debian-or-ubuntu-based-distributions/
+permalink: install-a-lamp-stack-on-debian-or-ubuntu-based-distributions
 audit_date: '2020-03-11'
 title: 'Install a LAMP stack on Debian or Ubuntu-based distributions'
 type: article

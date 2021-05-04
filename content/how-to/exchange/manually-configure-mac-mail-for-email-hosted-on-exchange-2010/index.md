@@ -1,5 +1,5 @@
 ---
-permalink: manually-configure-mac-mail-for-email-hosted-on-exchange-2010/
+permalink: manually-configure-mac-mail-for-email-hosted-on-exchange-2010
 audit_date: '2020-12-28'
 title: Manually configure Mac Mail for email hosted on Exchange 2010
 type: article

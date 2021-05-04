@@ -1,5 +1,5 @@
 ---
-permalink: extend-a-volume-in-windows-server-with-diskpart/
+permalink: extend-a-volume-in-windows-server-with-diskpart
 audit_date: '2020-05-12'
 title: 'Extend a volume in Windows Server with diskpart'
 type: article

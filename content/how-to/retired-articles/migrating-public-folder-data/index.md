@@ -1,5 +1,5 @@
 ---
-permalink: migrating-public-folder-data/
+permalink: migrating-public-folder-data
 audit_date:
 title: 'Migrate Public Folder data'
 type: article

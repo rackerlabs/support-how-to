@@ -1,5 +1,5 @@
 ---
-permalink: secure-a-compromised-rackspace-email-mailbox/
+permalink: secure-a-compromised-rackspace-email-mailbox
 audit_date: '2018-01-16'
 title: Secure a compromised Rackspace Email mailbox
 type: article

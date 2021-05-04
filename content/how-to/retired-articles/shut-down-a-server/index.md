@@ -1,5 +1,5 @@
 ---
-permalink: shut-down-a-server/
+permalink: shut-down-a-server
 audit_date: '2018-10-25'
 title: Shut down a server
 type: article

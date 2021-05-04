@@ -1,5 +1,5 @@
 ---
-permalink: ensure-servers-reboot-successfully/
+permalink: ensure-servers-reboot-successfully
 audit_date: '2020-10-15'
 title: Ensure servers reboot successfully
 type: article

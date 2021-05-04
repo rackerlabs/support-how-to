@@ -1,5 +1,5 @@
 ---
-permalink: private-cloud-certified-devices-compute/
+permalink: private-cloud-certified-devices-compute
 audit_date:
 title: Private Cloud Certified Devices - Compute
 type: article

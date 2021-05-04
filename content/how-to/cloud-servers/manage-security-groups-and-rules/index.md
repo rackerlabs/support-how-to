@@ -1,5 +1,5 @@
 ---
-permalink: manage-security-groups-and-rules/
+permalink: manage-security-groups-and-rules
 audit_date: '2019-02-07'
 title: Manage security groups and rules
 type: article

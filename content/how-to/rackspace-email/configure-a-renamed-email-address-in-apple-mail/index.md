@@ -1,5 +1,5 @@
 ---
-permalink: configure-a-renamed-email-address-in-apple-mail/
+permalink: configure-a-renamed-email-address-in-apple-mail
 audit_date: '2017-09-12'
 title: Configure a renamed email address in Apple Mail
 type: article

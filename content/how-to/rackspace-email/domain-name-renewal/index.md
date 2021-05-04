@@ -1,5 +1,5 @@
 ---
-permalink: domain-name-renewal/
+permalink: domain-name-renewal
 audit_date: '2021-02-02'
 title: Renew your domain name
 type: article

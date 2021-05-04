@@ -1,5 +1,5 @@
 ---
-permalink: system-disk-and-data-disk-faq/
+permalink: system-disk-and-data-disk-faq
 audit_date:
 title: System Disk and Data Disk FAQ
 type: article

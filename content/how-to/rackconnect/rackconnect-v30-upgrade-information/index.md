@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-v30-upgrade-information/
+permalink: rackconnect-v30-upgrade-information
 audit_date: '2019-12-16'
 title: RackConnect v3.0 upgrade information
 type: article

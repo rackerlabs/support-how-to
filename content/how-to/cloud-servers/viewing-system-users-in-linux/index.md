@@ -1,5 +1,5 @@
 ---
-permalink: viewing-system-users-in-linux/
+permalink: viewing-system-users-in-linux
 audit_date: '2020-06-09'
 title: 'Viewing system users in Linux'
 type: article

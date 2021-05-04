@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-ssh/
+permalink: troubleshoot-ssh
 audit_date: '2020-04-14'
 title: 'Troubleshoot SSH'
 type: article

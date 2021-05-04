@@ -1,5 +1,5 @@
 ---
-permalink: cloud-servers-faq/
+permalink: cloud-servers-faq
 audit_date: '2020-11-05'
 title: Cloud Servers FAQ
 type: article

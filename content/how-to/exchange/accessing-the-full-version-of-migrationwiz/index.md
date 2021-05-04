@@ -1,5 +1,5 @@
 ---
-permalink: accessing-the-full-version-of-migrationwiz/
+permalink: accessing-the-full-version-of-migrationwiz
 audit_date: '2019-08-13'
 title: Access the full version of MigrationWiz
 type: article

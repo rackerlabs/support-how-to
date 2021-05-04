@@ -1,5 +1,5 @@
 ---
-permalink: block-an-ip-address-on-a-Linux-server/
+permalink: block-an-ip-address-on-a-Linux-server
 audit_date:
 title: 'Block an IP address on a Linux server'
 type: article

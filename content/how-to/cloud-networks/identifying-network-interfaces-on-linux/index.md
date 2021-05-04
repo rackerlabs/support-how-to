@@ -1,5 +1,5 @@
 ---
-permalink: identifying-network-interfaces-on-linux/
+permalink: identifying-network-interfaces-on-linux
 audit_date: '2019-03-12'
 title: Identify Network Interfaces on Linux
 type: article

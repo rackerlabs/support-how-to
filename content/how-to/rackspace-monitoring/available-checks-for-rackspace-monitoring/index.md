@@ -1,5 +1,5 @@
 ---
-permalink: available-checks-for-rackspace-monitoring/
+permalink: available-checks-for-rackspace-monitoring
 audit_date: '2016-01-22'
 title: Available checks for Rackspace Monitoring
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: resize-standard-and-general-purpose-servers/
+permalink: resize-standard-and-general-purpose-servers
 audit_date: '2020-10-02'
 title: Resize standard and general purpose servers
 type: article

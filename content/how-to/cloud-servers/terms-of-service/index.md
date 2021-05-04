@@ -1,5 +1,5 @@
 ---
-permalink: terms-of-service/
+permalink: terms-of-service
 audit_date: '2020-10-22'
 title: Terms of Service
 type: article

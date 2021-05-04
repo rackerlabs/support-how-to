@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-essentials-rescue-mode-on-linux-cloud-servers/
+permalink: rackspace-cloud-essentials-rescue-mode-on-linux-cloud-servers
 audit_date: '2018-10-25'
 title: Rackspace Cloud Essentials - Rescue Mode on Linux Cloud Servers
 type: article

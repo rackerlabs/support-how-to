@@ -1,5 +1,5 @@
 ---
-permalink: mysql-java-database-connectivity-communications-exception/
+permalink: mysql-java-database-connectivity-communications-exception
 audit_date: '2021-03-03'
 title: 'MySQL Java Database connectivity communications exception'
 type: article

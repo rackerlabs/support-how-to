@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-auto-scale-overview/
+permalink: rackspace-auto-scale-overview
 audit_date: '2020-09-28'
 title: Rackspace Auto Scale overview
 type: article

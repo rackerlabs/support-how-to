@@ -1,5 +1,5 @@
 ---
-permalink: create-and-manage-caching-rules-in-rackspace-cdn/
+permalink: create-and-manage-caching-rules-in-rackspace-cdn
 audit_date: '2016-06-02'
 title: Create and manage caching rules in Rackspace CDN
 type: article

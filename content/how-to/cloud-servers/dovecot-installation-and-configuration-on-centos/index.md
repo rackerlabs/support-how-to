@@ -1,5 +1,5 @@
 ---
-permalink: dovecot-installation-and-configuration-on-centos/
+permalink: dovecot-installation-and-configuration-on-centos
 audit_date: '2018-10-17'
 title: Install and configure Dovecot on CentOS
 type: article

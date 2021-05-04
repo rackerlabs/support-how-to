@@ -1,5 +1,5 @@
 ---
-permalink: upgrade-a-cloud-databases-instance-from-mysql-56-to-newer-mariadb-or-percona/
+permalink: upgrade-a-cloud-databases-instance-from-mysql-56-to-newer-mariadb-or-percona
 audit_date: '2019-01-07'
 title: Upgrade a Cloud Databases instance from MySQL 5.6 to a newer version of MariaDB or Percona database
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: cloud-files-overview/
+permalink: cloud-files-overview
 audit_date: '2018-12-13'
 title: Cloud Files overview
 type: article

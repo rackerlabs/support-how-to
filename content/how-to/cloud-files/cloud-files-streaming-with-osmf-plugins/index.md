@@ -1,5 +1,5 @@
 ---
-permalink: cloud-files-streaming-with-osmf-plugins/
+permalink: cloud-files-streaming-with-osmf-plugins
 audit_date:
 title: Cloud Files Streaming with OSMF Plugins
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: identifying-suspicious-email/
+permalink: identifying-suspicious-email
 audit_date: '2018-09-24'
 title: Identifying suspicious email
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: create-a-private-label-webmail-site/
+permalink: create-a-private-label-webmail-site
 audit_date: '2018-03-05'
 title: Create a private label Webmail site
 type: article

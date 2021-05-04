@@ -1,5 +1,5 @@
 ---
-permalink: reset-the-root-password-from-rescue-mode/
+permalink: reset-the-root-password-from-rescue-mode
 audit_date: '2020-02-19'
 title: Reset the root user password from rescue mode
 type: article

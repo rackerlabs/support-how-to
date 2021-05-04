@@ -1,5 +1,5 @@
 ---
-permalink: rpc-vmware-faq/
+permalink: rpc-vmware-faq
 audit_date:
 title: Rackspace Private Cloud Powered by VMware FAQ
 type: article

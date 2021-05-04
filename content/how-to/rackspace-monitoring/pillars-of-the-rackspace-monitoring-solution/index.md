@@ -1,5 +1,5 @@
 ---
-permalink: pillars-of-the-rackspace-monitoring-solution/
+permalink: pillars-of-the-rackspace-monitoring-solution
 audit_date: '2020-11-27'
 title: Pillars of the Rackspace monitoring solution
 type: article

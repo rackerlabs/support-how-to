@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-dns-overview/
+permalink: rackspace-cloud-dns-overview
 audit_date: '2018-05-15'
 title: Rackspace Cloud DNS overview
 type: article

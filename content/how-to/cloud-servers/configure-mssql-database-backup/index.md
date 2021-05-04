@@ -1,5 +1,5 @@
 ---
-permalink: configure-mssql-database-backup/
+permalink: configure-mssql-database-backup
 audit_date: '2020-08-19'
 title: 'Configure MSSQL database backups'
 type: article

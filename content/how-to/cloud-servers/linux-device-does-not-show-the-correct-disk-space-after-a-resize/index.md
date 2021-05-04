@@ -1,5 +1,5 @@
 ---
-permalink: linux-device-does-not-show-the-correct-disk-space-after-a-resize/
+permalink: linux-device-does-not-show-the-correct-disk-space-after-a-resize
 audit_date: '2020-03-24'
 title: Linux device does not show the correct disk space after a resize
 type: article

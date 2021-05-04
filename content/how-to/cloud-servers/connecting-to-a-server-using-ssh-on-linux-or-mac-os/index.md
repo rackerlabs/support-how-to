@@ -1,5 +1,5 @@
 ---
-permalink: connecting-to-a-server-using-ssh-on-linux-or-mac-os/
+permalink: connecting-to-a-server-using-ssh-on-linux-or-mac-os
 audit_date: '2018-11-13'
 title: Connect to a server by using SSH on Linux or Mac OS X
 type: article

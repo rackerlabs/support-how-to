@@ -1,5 +1,5 @@
 ---
-permalink: new-user-workflow/
+permalink: new-user-workflow
 audit_date: '2019-07-25'
 title: New user workflow
 type: article

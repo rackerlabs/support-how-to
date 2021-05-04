@@ -1,5 +1,5 @@
 ---
-permalink: adding-disk-space-after-resizing-a-windows-server-2012-cloud-server/
+permalink: adding-disk-space-after-resizing-a-windows-server-2012-cloud-server
 audit_date: '2019-01-24'
 title: Add disk space after resizing a Windows Server 2012 Cloud Server
 type: article

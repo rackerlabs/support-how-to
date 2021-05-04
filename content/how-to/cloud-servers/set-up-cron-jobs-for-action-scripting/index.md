@@ -1,5 +1,5 @@
 ---
-permalink: set-up-cron-jobs-for-action-scripting/
+permalink: set-up-cron-jobs-for-action-scripting
 audit_date: '2019-02-05'
 title: Set up cron jobs for action scripting
 type: article

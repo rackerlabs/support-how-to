@@ -1,5 +1,5 @@
 ---
-permalink: manage-distribution-lists-in-exchange/
+permalink: manage-distribution-lists-in-exchange
 audit_date: '2020-12-29'
 title: Manage distribution lists in Exchange
 type: article

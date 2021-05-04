@@ -1,5 +1,5 @@
 ---
-permalink: migrate-your-email-by-using-the-self-service-migration-tool/
+permalink: migrate-your-email-by-using-the-self-service-migration-tool
 audit_date: '2016-09-01'
 title: Migrate your email by using the Self-Service Migration Tool
 type: article

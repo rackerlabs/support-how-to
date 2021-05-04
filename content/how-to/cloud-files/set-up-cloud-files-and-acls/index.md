@@ -1,5 +1,5 @@
 ---
-permalink: set-up-cloud-files-and-acls/
+permalink: set-up-cloud-files-and-acls
 audit_date: '2019-01-22'
 title: Set up Cloud Files and ACLs
 type: article

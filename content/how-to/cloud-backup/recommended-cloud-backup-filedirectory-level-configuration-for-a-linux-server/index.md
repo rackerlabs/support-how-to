@@ -1,5 +1,5 @@
 ---
-permalink: recommended-cloud-backup-filedirectory-level-configuration-for-a-linux-server/
+permalink: recommended-cloud-backup-filedirectory-level-configuration-for-a-linux-server
 audit_date: '2019-01-04'
 title: Recommended Cloud Backup file or directory level configuration for a Linux server
 type: article

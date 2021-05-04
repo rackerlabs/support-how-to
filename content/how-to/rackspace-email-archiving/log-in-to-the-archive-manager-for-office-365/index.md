@@ -1,5 +1,5 @@
 ---
-permalink: log-in-to-the-archive-manager-for-office-365/
+permalink: log-in-to-the-archive-manager-for-office-365
 audit_date: '2019-07-30'
 title: Log in to the Archive Manager for Office 365
 type: article

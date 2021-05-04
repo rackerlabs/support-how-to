@@ -1,5 +1,5 @@
 ---
-permalink: use-the-api-to-manage-large-files/
+permalink: use-the-api-to-manage-large-files
 audit_date: '2021-04-08'
 title: Use the API to manage large files
 type: article

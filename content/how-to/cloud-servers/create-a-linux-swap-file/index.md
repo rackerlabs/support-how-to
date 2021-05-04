@@ -1,5 +1,5 @@
 ---
-permalink: create-a-linux-swap-file/
+permalink: create-a-linux-swap-file
 audit_date: '2018-11-27'
 title: Create a Linux swap file
 type: article

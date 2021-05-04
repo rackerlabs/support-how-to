@@ -1,5 +1,5 @@
 ---
-permalink: iis-sni-overview/
+permalink: iis-sni-overview
 audit_date: '2020-03-23'
 title: 'IIS SNI overview'
 type: article

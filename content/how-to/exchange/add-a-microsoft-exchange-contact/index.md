@@ -1,5 +1,5 @@
 ---
-permalink: add-a-microsoft-exchange-contact/
+permalink: add-a-microsoft-exchange-contact
 audit_date: '2020-11-12'
 title: Add a Microsoft Exchange contact
 type: article

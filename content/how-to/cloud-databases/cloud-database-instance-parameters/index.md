@@ -1,5 +1,5 @@
 ---
-permalink: cloud-database-instance-parameters/
+permalink: cloud-database-instance-parameters
 audit_date: '2018-12-21'
 title: Cloud Databases instance parameters
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: install-python-novaclient-on-windows/
+permalink: install-python-novaclient-on-windows
 audit_date: '2020-90-23'
 title: Install python-novaclient on Windows
 type: article

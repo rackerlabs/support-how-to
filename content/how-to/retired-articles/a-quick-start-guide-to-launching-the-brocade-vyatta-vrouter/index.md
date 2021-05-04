@@ -1,5 +1,5 @@
 ---
-permalink: a-quick-start-guide-to-launching-the-brocade-vyatta-vrouter/
+permalink: a-quick-start-guide-to-launching-the-brocade-vyatta-vrouter
 audit_date:
 title: Quick start guide to launching the Brocade Vyatta vRouter
 type: article

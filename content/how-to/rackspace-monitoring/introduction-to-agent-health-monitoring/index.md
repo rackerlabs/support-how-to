@@ -1,5 +1,5 @@
 ---
-permalink: introduction-to-agent-health-monitoring/
+permalink: introduction-to-agent-health-monitoring
 audit_date: '2020-11-27'
 title: Introduction to Agent Health Monitoring
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: change-account-owner/
+permalink: change-account-owner
 audit_date: '2019-03-26'
 title: Change the account owner
 type: article

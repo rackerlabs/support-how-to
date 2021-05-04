@@ -1,5 +1,5 @@
 ---
-permalink: manage-packages-in-rhel-based-distributions/
+permalink: manage-packages-in-rhel-based-distributions
 audit_date: '2020-06-11'
 title: 'Manage packages in RHEL-based distributions'
 type: article

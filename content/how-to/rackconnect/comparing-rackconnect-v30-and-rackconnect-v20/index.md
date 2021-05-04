@@ -1,5 +1,5 @@
 ---
-permalink: comparing-rackconnect-v30-and-rackconnect-v20/
+permalink: comparing-rackconnect-v30-and-rackconnect-v20
 audit_date: '2019-12-16'
 title: Comparing RackConnect v3.0 and RackConnect v2.0
 type: article

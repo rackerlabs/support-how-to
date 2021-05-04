@@ -1,5 +1,5 @@
 ---
-permalink: export-an-archive-when-cancelling-your-account/
+permalink: export-an-archive-when-cancelling-your-account
 audit_date: '2017-10-19'
 title: Export an archive before cancelling a Cloud Office account
 type: article

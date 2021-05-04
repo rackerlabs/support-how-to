@@ -1,5 +1,5 @@
 ---
-permalink: learning-the-rackspace-intelligence-vocabulary/
+permalink: learning-the-rackspace-intelligence-vocabulary
 audit_date: '2021-03-01'
 title: Learning the Rackspace Intelligence vocabulary
 type: article

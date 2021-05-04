@@ -1,5 +1,5 @@
 ---
-permalink: introduction-to-iptables/
+permalink: introduction-to-iptables
 audit_date: '2020-10-06'
 title: Introduction to iptables
 type: article

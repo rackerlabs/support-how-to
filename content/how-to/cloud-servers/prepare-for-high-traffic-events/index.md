@@ -1,5 +1,5 @@
 ---
-permalink: prepare-for-high-traffic-events/
+permalink: prepare-for-high-traffic-events
 audit_date: '2019-01-22'
 title: Prepare for high-traffic events
 type: article

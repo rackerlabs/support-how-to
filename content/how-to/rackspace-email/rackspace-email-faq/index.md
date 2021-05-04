@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-email-faq/
+permalink: rackspace-email-faq
 audit_date: '2021-02-26'
 title: Rackspace Email FAQ
 type: article

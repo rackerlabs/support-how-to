@@ -1,5 +1,5 @@
 ---
-permalink: configure-a-renamed-email-address-on-android-devices/
+permalink: configure-a-renamed-email-address-on-android-devices
 audit_date: '2017-09-11'
 title: Configure a renamed email address on Android devices
 type: article

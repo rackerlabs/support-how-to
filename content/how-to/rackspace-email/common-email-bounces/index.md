@@ -1,5 +1,5 @@
 ---
-permalink: common-email-bounces/
+permalink: common-email-bounces
 audit_date: '2018-02-07'
 title: Common email bounce messages
 type: article

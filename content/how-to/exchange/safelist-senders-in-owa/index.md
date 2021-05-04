@@ -1,5 +1,5 @@
 ---
-permalink: safelist-senders-in-owa/
+permalink: safelist-senders-in-owa
 audit_date: '2018-01-15'
 title: Safelist Senders in Outlook Web App
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: set-up-your-microsoft-365-exchange-online-mailbox-in-apple-mail-for-macos/
+permalink: set-up-your-microsoft-365-exchange-online-mailbox-in-apple-mail-for-macos
 audit_date: '2020-08-24'
 title: Set up your Microsoft 365 Exchange Online mailbox in Apple Mail for macOS
 type: article

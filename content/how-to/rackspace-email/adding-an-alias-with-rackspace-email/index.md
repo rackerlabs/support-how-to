@@ -1,5 +1,5 @@
 ---
-permalink: adding-an-alias-with-rackspace-email/
+permalink: adding-an-alias-with-rackspace-email
 audit_date: '2021-01-29'
 title: Add an alias with Rackspace Email
 type: article

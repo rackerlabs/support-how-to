@@ -1,5 +1,5 @@
 ---
-permalink: view-and-reset-your-api-key/
+permalink: view-and-reset-your-api-key
 audit_date: '2019-03-11'
 title: View and reset your API key
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: dns-record-definitions/
+permalink: dns-record-definitions
 audit_date: '2017-05-30'
 title: DNS record definitions
 type: article

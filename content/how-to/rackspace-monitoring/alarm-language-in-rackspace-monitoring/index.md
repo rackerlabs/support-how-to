@@ -1,5 +1,5 @@
 ---
-permalink: alarm-language-in-rackspace-monitoring/
+permalink: alarm-language-in-rackspace-monitoring
 audit_date: '2020-11-25'
 title: Alarm language in Rackspace Monitoring
 type: article

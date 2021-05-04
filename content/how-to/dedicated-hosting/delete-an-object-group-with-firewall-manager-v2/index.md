@@ -1,5 +1,5 @@
 ---
-permalink: delete-an-object-group-with-firewall-manager-v2/
+permalink: delete-an-object-group-with-firewall-manager-v2
 audit_date: '2018-07-11'
 title: Delete an object-group with Firewall Manager v2
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: set-up-mobile-sync/
+permalink: set-up-mobile-sync
 audit_date:
 title: 'Set up Mobile Sync'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: when-am-i-billed-for-my-account/
+permalink: when-am-i-billed-for-my-account
 audit_date: '2018-02-21'
 title: Timing of account billing
 type: article

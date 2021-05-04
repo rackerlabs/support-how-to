@@ -1,5 +1,5 @@
 ---
-permalink: basic-types-of-linux-users-and-how-to-check-them/
+permalink: basic-types-of-linux-users-and-how-to-check-them
 audit_date: '2021-03-04'
 title: Basic types of Linux users and how to check them
 type: article

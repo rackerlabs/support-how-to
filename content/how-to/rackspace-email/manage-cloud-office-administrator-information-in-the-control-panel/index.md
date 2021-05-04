@@ -1,5 +1,5 @@
 ---
-permalink: manage-cloud-office-administrator-information-in-the-control-panel/
+permalink: manage-cloud-office-administrator-information-in-the-control-panel
 audit_date: '2020-11-03'
 title: Manage Cloud Office Administrator information in the Control Panel
 type: article

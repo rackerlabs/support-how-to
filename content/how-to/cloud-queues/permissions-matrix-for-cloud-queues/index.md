@@ -1,5 +1,5 @@
 ---
-permalink: permissions-matrix-for-cloud-queues/
+permalink: permissions-matrix-for-cloud-queues
 audit_date: '2017-02-20'
 title: Permissions matrix for Cloud Queues
 type: article

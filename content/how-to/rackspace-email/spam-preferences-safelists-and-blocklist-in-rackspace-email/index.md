@@ -1,5 +1,5 @@
 ---
-permalink: spam-preferences-safelists-and-blocklist-in-rackspace-email/
+permalink: spam-preferences-safelists-and-blocklist-in-rackspace-email
 audit_date: '2021-01-28'
 title: 'Spam preferences, safelists, and blocklists in Rackspace Email'
 type: article

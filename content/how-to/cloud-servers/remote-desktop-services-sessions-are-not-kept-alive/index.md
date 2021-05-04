@@ -1,5 +1,5 @@
 ---
-permalink: remote-desktop-services-sessions-are-not-kept-alive/
+permalink: remote-desktop-services-sessions-are-not-kept-alive
 audit_date: '2021-03-10'
 title: Remote Desktop services sessions are not kept alive
 type: article

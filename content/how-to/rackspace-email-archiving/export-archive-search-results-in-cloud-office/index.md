@@ -1,5 +1,5 @@
 ---
-permalink: export-archive-search-results-in-cloud-office/
+permalink: export-archive-search-results-in-cloud-office
 audit_date: '2019-11-11'
 title: 'Export archive search results in Cloud Office'
 type: article

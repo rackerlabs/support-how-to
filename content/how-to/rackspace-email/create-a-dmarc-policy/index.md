@@ -1,5 +1,5 @@
 ---
-permalink: create-a-dmarc-policy/
+permalink: create-a-dmarc-policy
 audit_date: '2017-08-02'
 title: Create a DMARC policy
 type: article

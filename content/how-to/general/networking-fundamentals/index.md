@@ -1,5 +1,5 @@
 ---
-permalink: networking-fundamentals/
+permalink: networking-fundamentals
 audit_date: '2017-11-13'
 title: Networking Fundamentals
 type: article

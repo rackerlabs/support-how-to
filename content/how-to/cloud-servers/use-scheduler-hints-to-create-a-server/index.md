@@ -1,5 +1,5 @@
 ---
-permalink: use-scheduler-hints-to-create-a-server/
+permalink: use-scheduler-hints-to-create-a-server
 audit_date: '2019-02-18'
 title: Use scheduler hints to create a server
 type: article

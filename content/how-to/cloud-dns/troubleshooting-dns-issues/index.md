@@ -1,5 +1,5 @@
 ---
-permalink: troubleshooting-dns-issues/
+permalink: troubleshooting-dns-issues
 audit_date: '2018-11-02'
 title: Troubleshoot DNS issues
 type: article

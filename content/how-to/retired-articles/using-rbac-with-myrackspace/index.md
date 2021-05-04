@@ -1,5 +1,5 @@
 ---
-permalink: using-rbac-with-myrackspace/
+permalink: using-rbac-with-myrackspace
 audit_date:
 title: Using RBAC with MyRackspace
 type: article

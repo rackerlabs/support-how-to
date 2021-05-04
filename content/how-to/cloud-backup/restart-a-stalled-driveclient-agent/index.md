@@ -1,5 +1,5 @@
 ---
-permalink: restart-a-stalled-driveclient-agent/
+permalink: restart-a-stalled-driveclient-agent
 audit_date: '2019-03-07'
 title: Restart a stalled DriveClient agent
 type: article

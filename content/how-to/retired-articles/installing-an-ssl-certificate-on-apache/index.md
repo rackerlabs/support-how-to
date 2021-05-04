@@ -1,5 +1,5 @@
 ---
-permalink: installing-an-ssl-certificate-on-apache/
+permalink: installing-an-ssl-certificate-on-apache
 audit_date: '2018-07-31'
 title: Install an SSL certificate on Apache
 type: article

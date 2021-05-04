@@ -1,5 +1,5 @@
 ---
-permalink: investigate-compromised-servers/
+permalink: investigate-compromised-servers
 audit_date: '2020-10-26'
 title: Investigate compromised servers
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: create-a-rackspace-cdn-service/
+permalink: create-a-rackspace-cdn-service
 audit_date: '2016-06-01'
 title: Create a Rackspace CDN service
 type: article

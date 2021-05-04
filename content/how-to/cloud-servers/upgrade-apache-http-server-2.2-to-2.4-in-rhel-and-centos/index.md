@@ -1,5 +1,5 @@
 ---
-permalink: upgrade-apache-http-server-2.2-to-2.4-in-rhel-and-centos/
+permalink: upgrade-apache-http-server-2.2-to-2.4-in-rhel-and-centos
 audit_date:
 title: Upgrade Apache HTTP Server 2.2 to 2.4 in RHEL 6 or 7 and CentOS 6 or 7
 type: article

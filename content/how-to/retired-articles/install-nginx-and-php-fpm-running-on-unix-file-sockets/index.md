@@ -1,5 +1,5 @@
 ---
-permalink: install-nginx-and-php-fpm-running-on-unix-file-sockets/
+permalink: install-nginx-and-php-fpm-running-on-unix-file-sockets
 audit_date:
 title: Install NGINX and PHP-FPM running on UNIX file sockets
 type: article

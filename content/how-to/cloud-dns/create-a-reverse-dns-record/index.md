@@ -1,5 +1,5 @@
 ---
-permalink: create-a-reverse-dns-record/
+permalink: create-a-reverse-dns-record
 audit_date: '2020-06-01'
 title: Create a reverse DNS record
 type: article

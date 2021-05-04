@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-mssql-job-failures/
+permalink: troubleshoot-mssql-job-failures
 audit_date: '2020-09-21'
 title: Troubleshoot MSSQL job failures
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: connecting-to-linux-from-mac-os-x-by-using-terminal/
+permalink: connecting-to-linux-from-mac-os-x-by-using-terminal
 audit_date: '2018-10-26'
 title: Connect to Linux from Mac OS X by using Terminal
 type: article

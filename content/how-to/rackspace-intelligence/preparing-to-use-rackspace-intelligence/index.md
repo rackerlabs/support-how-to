@@ -1,5 +1,5 @@
 ---
-permalink: preparing-to-use-rackspace-intelligence/
+permalink: preparing-to-use-rackspace-intelligence
 audit_date: '2021-02-25'
 title: Preparing to use Rackspace Intelligence
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: common-network-troubleshooting-tools/
+permalink: common-network-troubleshooting-tools
 audit_date: '2018-04-13'
 title: Common network troubleshooting tools
 type: article

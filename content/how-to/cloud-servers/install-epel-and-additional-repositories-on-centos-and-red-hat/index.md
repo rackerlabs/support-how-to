@@ -1,5 +1,5 @@
 ---
-permalink: install-epel-and-additional-repositories-on-centos-and-red-hat/
+permalink: install-epel-and-additional-repositories-on-centos-and-red-hat
 audit_date: '2017-10-24'
 title: Install EPEL and IUS repositories on CentOS and Red Hat
 type: article

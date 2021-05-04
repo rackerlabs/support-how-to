@@ -1,5 +1,5 @@
 ---
-permalink: connecting-to-cloudfiles/
+permalink: connecting-to-cloudfiles
 audit_date: '2021-03-30'
 title: Connecting to Cloud Files
 type: article

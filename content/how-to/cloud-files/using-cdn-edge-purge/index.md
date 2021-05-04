@@ -1,5 +1,5 @@
 ---
-permalink: using-cdn-edge-purge/
+permalink: using-cdn-edge-purge
 audit_date: '2021-04-06'
 title: Using CDN Edge Purge
 type: article

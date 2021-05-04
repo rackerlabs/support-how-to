@@ -5,7 +5,7 @@ created_date: '2016-01-17'
 created_by: Rackspace Support
 last_modified_date: '2020-09-20'
 last_modified_by: Stephanie Fillmon
-permalink: /cloud-files/
+permalink: cloud-files
 product: Cloud Files
 product_url: cloud-files
 ---

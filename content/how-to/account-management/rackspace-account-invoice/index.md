@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-account-invoice/
+permalink: rackspace-account-invoice
 audit_date: '2018-03-16'
 title: Rackspace account invoice
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: transfer-files-to-or-from-a-linux-server-without-ftp/
+permalink: transfer-files-to-or-from-a-linux-server-without-ftp
 audit_date: '2019-01-24'
 title: Transfer files to or from a Linux server without FTP
 type: article

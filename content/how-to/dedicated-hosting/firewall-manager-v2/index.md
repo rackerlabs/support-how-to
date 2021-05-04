@@ -1,5 +1,5 @@
 ---
-permalink: firewall-manager-v2/
+permalink: firewall-manager-v2
 audit_date: '2017-03-13'
 title: Firewall Manager v2
 type: article

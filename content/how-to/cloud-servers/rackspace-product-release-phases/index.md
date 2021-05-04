@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-product-release-phases/
+permalink: rackspace-product-release-phases
 audit_date: '2021-03-31'
 title: Rackspace Product Release Phases
 type: article

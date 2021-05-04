@@ -1,5 +1,5 @@
 ---
-permalink: work-with-notification-suppressions-in-rackspace-intelligence/
+permalink: work-with-notification-suppressions-in-rackspace-intelligence
 audit_date: '2021-02-18'
 title: Work with notification suppressions in Rackspace Intelligence
 type: article

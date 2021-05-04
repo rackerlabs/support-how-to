@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-backup-create-a-backup/
+permalink: rackspace-cloud-backup-create-a-backup
 audit_date: '2018-07-12'
 title: Create a backup
 type: article

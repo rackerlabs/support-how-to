@@ -1,5 +1,5 @@
 ---
-permalink: rms-alert-logic/
+permalink: rms-alert-logic
 title: 'Alert Logic Security Solutions'
 type: product
 audit_date: '2020-02-03'

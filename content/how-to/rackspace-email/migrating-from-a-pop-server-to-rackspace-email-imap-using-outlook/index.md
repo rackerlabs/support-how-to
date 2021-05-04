@@ -1,5 +1,5 @@
 ---
-permalink: migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook/
+permalink: migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook
 audit_date: '2021-02-05'
 title: Migrate from a POP server to Rackspace Email IMAP using Outlook 
 type: article

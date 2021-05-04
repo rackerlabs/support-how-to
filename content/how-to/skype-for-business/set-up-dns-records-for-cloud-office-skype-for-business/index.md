@@ -1,5 +1,5 @@
 ---
-permalink: set-up-dns-records-for-cloud-office-skype-for-business/
+permalink: set-up-dns-records-for-cloud-office-skype-for-business
 audit_date: '2019-01-16'
 title: Set up DNS records for Cloud Office Skype for Business
 type: article

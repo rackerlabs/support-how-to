@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-v20-operational-limits/
+permalink: rackconnect-v20-operational-limits
 audit_date: '2019-12-16'
 title: RackConnect v2.0 operational limits
 type: article
