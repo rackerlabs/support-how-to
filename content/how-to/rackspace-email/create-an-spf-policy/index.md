@@ -1,5 +1,5 @@
 ---
-permalink: create-an-spf-policy/
+permalink: create-an-spf-policy
 audit_date: '2017-10-06'
 title: Create an SPF policy
 type: article

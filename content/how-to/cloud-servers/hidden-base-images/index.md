@@ -1,5 +1,5 @@
 ---
-permalink: hidden-base-images/
+permalink: hidden-base-images
 audit_date: '2019-06-07'
 title: Hidden base images
 type: article

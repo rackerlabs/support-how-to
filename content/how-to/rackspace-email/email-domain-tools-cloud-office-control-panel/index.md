@@ -1,5 +1,5 @@
 ---
-permalink: email-domain-tools-cloud-office-control-panel/
+permalink: email-domain-tools-cloud-office-control-panel
 audit_date: '2021-02-15'
 title: Email domain tools in the Cloud Office Control Panel
 type: article

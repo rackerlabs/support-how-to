@@ -1,5 +1,5 @@
 ---
-permalink: upgrade-email-hosting-cloud-office-control-panel/
+permalink: upgrade-email-hosting-cloud-office-control-panel
 audit_date:
 title: Upgrade email hosting in the Cloud Office Control Panel
 type: article

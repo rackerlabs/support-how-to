@@ -1,5 +1,5 @@
 ---
-permalink: limit-ssh-access-by-ip-address/
+permalink: limit-ssh-access-by-ip-address
 audit_date: '2020-09-21'
 title: Limit SSH access by IP address
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: set-an-email-catch-all-address/
+permalink: set-an-email-catch-all-address
 audit_date: '2021-02-15'
 type: article
 title: Set an email catch all address

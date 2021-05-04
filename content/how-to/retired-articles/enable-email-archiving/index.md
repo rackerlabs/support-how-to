@@ -1,5 +1,5 @@
 ---
-permalink: enable-email-archiving/
+permalink: enable-email-archiving
 audit_date:
 title: 'Enable email archiving'
 type: article

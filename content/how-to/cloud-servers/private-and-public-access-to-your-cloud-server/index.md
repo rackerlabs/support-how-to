@@ -1,5 +1,5 @@
 ---
-permalink: private-and-public-access-to-your-cloud-server/
+permalink: private-and-public-access-to-your-cloud-server
 audit_date: '2018-10-26'
 title: Private and Public Access to Your Cloud Server
 type: article

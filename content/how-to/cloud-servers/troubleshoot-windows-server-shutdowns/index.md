@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-windows-server-shutdowns/
+permalink: troubleshoot-windows-server-shutdowns
 audit_date: '2020-05-04'
 title: 'Troubleshoot Windows server shutdowns'
 type: article

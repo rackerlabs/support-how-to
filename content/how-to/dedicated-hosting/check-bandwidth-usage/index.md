@@ -1,5 +1,5 @@
 ---
-permalink: check-bandwidth-usage/
+permalink: check-bandwidth-usage
 audit_date: '2020-06-30'
 title: 'Check bandwidth usage'
 type: article

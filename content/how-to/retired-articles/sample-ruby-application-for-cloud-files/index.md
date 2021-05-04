@@ -1,5 +1,5 @@
 ---
-permalink: sample-ruby-application-for-cloud-files/
+permalink: sample-ruby-application-for-cloud-files
 audit_date:
 title: Sample Ruby Application for Cloud Files
 type: article

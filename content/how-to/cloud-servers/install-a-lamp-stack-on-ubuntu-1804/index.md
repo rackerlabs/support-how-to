@@ -1,5 +1,5 @@
 ---
-permalink: install-a-lamp-stack-on-ubuntu-1804/
+permalink: install-a-lamp-stack-on-ubuntu-1804
 audit_date: '2020-07-24'
 title: 'Installing a LAMP stack on Ubuntu 18.04'
 type: article

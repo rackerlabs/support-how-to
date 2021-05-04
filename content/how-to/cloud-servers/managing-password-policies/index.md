@@ -1,5 +1,5 @@
 ---
-permalink: managing-password-policies/
+permalink: managing-password-policies
 audit_date: '2020-04-08'
 title: Managing password policies
 type: article

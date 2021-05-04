@@ -1,5 +1,5 @@
 ---
-permalink: migrating-a-linux-server-from-the-command-line-2/
+permalink: migrating-a-linux-server-from-the-command-line-2
 audit_date:
 title: Migrate a Linux server per-package from the command line
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: private-cloud-is-rad-how-to-leverage-private-cloud-for-rapid-application-development/
+permalink: private-cloud-is-rad-how-to-leverage-private-cloud-for-rapid-application-development
 audit_date: '2021-01-29'
 title: 'Private Cloud is RAD: How to leverage Private Cloud for Rapid Application Development'
 type: article

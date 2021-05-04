@@ -1,5 +1,5 @@
 ---
-permalink: attach-a-cloud-block-storage-volume-to-an-onmetal-server/
+permalink: attach-a-cloud-block-storage-volume-to-an-onmetal-server
 audit_date:
 title: Attach a Cloud Block Storage volume to an OnMetal server
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: about-the-rackspace-monitoring-agent/
+permalink: about-the-rackspace-monitoring-agent
 audit_date: '2020-11-24'
 title: About the Rackspace Monitoring Agent
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: log-off-existing-sessions-in-linux/
+permalink: log-off-existing-sessions-in-linux
 audit_date: '2020-11-23'
 title: Log off existing sessions in Linux
 type: article

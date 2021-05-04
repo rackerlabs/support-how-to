@@ -1,5 +1,5 @@
 ---
-permalink: basic-network-troubleshooting/
+permalink: basic-network-troubleshooting
 audit_date: '2021-04-28'
 title: Basic Network Troubleshooting
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-v20-with-cloud-networks-faq/
+permalink: rackconnect-v20-with-cloud-networks-faq
 audit_date: '2021-03-26'
 title: RackConnect v2.0 with Cloud Networks FAQ
 type: article

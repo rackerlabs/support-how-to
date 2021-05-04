@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-private-cloud-software-vm-block-migration/
+permalink: rackspace-private-cloud-software-vm-block-migration
 audit_date:
 title: Rackspace Private Cloud Software - VM Block Migration
 type: article

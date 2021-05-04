@@ -1,5 +1,5 @@
 ---
-permalink: bare-metal-to-rackspace-private-cloud/
+permalink: bare-metal-to-rackspace-private-cloud
 audit_date:
 title: Deploy Rackspace Private Cloud to bare metal using Razor and Chef
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-private-cloud-software-and-sosreport/
+permalink: rackspace-private-cloud-software-and-sosreport
 audit_date: '2018-09-12'
 title: Rackspace Private Cloud Software and sosreport
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-rackspace-services-for-sharepoint/
+permalink: getting-started-with-rackspace-services-for-sharepoint
 audit_date:
 title: Get started with Rackspace services for SharePoint
 type: article

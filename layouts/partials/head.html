@@ -29,7 +29,7 @@
 {{ else if .Site.Params.product }}
 <meta name="keywords" property="article:tag" content="{{ .Site.Params.product }}" />
 {{ else }}
-<meta name="Algolia crawler" content="noindex">
+<meta name="keywords" property="article:tag">
 {{ end }}
 <meta name="category" property="article:section" content="How-Tos" />
 {{ if .Data.Singular }}

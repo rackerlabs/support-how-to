@@ -1,5 +1,5 @@
 ---
-permalink: migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac/
+permalink: migrating-from-a-pop-server-to-rackspace-email-imap-using-outlook-2011-mac
 audit_date: '2021-03-24'
 title: Migrate from a POP server to Rackspace Email IMAP using Outlook 2011 - Mac
 type: article

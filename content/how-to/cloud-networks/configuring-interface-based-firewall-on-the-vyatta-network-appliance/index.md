@@ -1,5 +1,5 @@
 ---
-permalink: configuring-interface-based-firewall-on-the-vyatta-network-appliance/
+permalink: configuring-interface-based-firewall-on-the-vyatta-network-appliance
 audit_date: '2018-04-04'
 title: Configuring an interface-based firewall on the Vyatta network appliance
 type: article

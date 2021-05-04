@@ -1,5 +1,5 @@
 ---
-permalink: email-issue-on-android-phones/
+permalink: email-issue-on-android-phones
 audit_date: '2018-01-16'
 title: Email issue on Android phones
 type: article

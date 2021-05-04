@@ -1,5 +1,5 @@
 ---
-permalink: cloud-block-storage-quotas/
+permalink: cloud-block-storage-quotas
 audit_date: '2017-08-29'
 title: Cloud Block Storage quotas
 type: article

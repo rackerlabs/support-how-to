@@ -1,5 +1,5 @@
 ---
-permalink: cloud-networks-faq/
+permalink: cloud-networks-faq
 audit_date:
 title: Cloud Networks FAQ
 type: article

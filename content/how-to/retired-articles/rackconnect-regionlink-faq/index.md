@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-regionlink-faq/
+permalink: rackconnect-regionlink-faq
 audit_date:
 title: RackConnect RegionLink FAQ
 type: article

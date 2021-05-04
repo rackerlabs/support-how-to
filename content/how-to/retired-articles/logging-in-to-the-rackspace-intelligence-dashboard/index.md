@@ -1,5 +1,5 @@
 ---
-permalink: logging-in-to-the-rackspace-intelligence-dashboard/
+permalink: logging-in-to-the-rackspace-intelligence-dashboard
 audit_date:
 title: Log in to the Rackspace Intelligence dashboard
 type: article

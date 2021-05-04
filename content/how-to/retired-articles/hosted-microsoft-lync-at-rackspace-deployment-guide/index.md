@@ -1,5 +1,5 @@
 ---
-permalink: hosted-microsoft-lync-at-rackspace-deployment-guide/
+permalink: hosted-microsoft-lync-at-rackspace-deployment-guide
 audit_date:
 title: Hosted Microsoft Lync at Rackspace Deployment Guide
 type: article

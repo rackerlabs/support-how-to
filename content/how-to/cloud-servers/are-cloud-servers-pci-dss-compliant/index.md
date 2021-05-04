@@ -1,5 +1,5 @@
 ---
-permalink: are-cloud-servers-pci-dss-compliant/
+permalink: are-cloud-servers-pci-dss-compliant
 audit_date: '2019-08-29'
 title: Cloud Servers PCI-DSS compliance
 type: article

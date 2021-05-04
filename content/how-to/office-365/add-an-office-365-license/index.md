@@ -1,5 +1,5 @@
 ---
-permalink: add-an-office-365-license/
+permalink: add-an-office-365-license
 audit_date: 
 title: Add an Office 365 license
 type: article

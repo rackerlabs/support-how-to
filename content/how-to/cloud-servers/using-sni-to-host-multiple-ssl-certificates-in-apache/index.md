@@ -1,5 +1,5 @@
 ---
-permalink: using-sni-to-host-multiple-ssl-certificates-in-apache/
+permalink: using-sni-to-host-multiple-ssl-certificates-in-apache
 audit_date: '2019-01-28'
 title: Using SNI to host multiple SSL certificates in Apache
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: transfer-server-images-between-cloud-regions-with-pitchfork/
+permalink: transfer-server-images-between-cloud-regions-with-pitchfork
 audit_date: '2019-09-03'
 title: Transfer server images between cloud regions with Pitchfork
 type: article

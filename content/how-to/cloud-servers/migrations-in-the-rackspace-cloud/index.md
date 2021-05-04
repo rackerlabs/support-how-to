@@ -1,5 +1,5 @@
 ---
-permalink: migrations-in-the-rackspace-cloud/
+permalink: migrations-in-the-rackspace-cloud
 audit_date: '2021-01-06'
 title: Migrations in the Rackspace Cloud
 type: article

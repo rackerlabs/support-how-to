@@ -1,5 +1,5 @@
 ---
-permalink: windows-spheres-of-support-for-dedicated-and-managed-ops/
+permalink: windows-spheres-of-support-for-dedicated-and-managed-ops
 audit_date: '2018-08-03'
 title: Windows Spheres of Support for Dedicated and Managed Operations
 type: article

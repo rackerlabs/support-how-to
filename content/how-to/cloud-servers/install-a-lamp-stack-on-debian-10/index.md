@@ -1,5 +1,5 @@
 ---
-permalink: install-a-lamp-stack-on-debian-10/
+permalink: install-a-lamp-stack-on-debian-10
 audit_date: '2020-07-24'
 title: 'Install a LAMP stack on Debian 10'
 type: article

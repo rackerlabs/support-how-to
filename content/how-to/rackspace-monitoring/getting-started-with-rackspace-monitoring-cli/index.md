@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-rackspace-monitoring-cli/
+permalink: getting-started-with-rackspace-monitoring-cli
 audit_date: '2020-11-25'
 title: Get Started with Rackspace Monitoring CLI
 type: article

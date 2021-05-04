@@ -1,5 +1,5 @@
 ---
-permalink: account-management-faq/
+permalink: account-management-faq
 audit_date:
 title: Account Management FAQ
 type: article

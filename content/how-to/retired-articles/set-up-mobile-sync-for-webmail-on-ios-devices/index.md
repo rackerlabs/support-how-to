@@ -1,5 +1,5 @@
 ---
-permalink: set-up-mobile-sync-for-webmail-on-ios-devices/
+permalink: set-up-mobile-sync-for-webmail-on-ios-devices
 audit_date:
 title: Set up Mobile Sync for Webmail on iOS devices
 type: article

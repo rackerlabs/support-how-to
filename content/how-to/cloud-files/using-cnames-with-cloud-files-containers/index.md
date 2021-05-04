@@ -1,5 +1,5 @@
 ---
-permalink: using-cnames-with-cloud-files-containers/
+permalink: using-cnames-with-cloud-files-containers
 audit_date: '2021-04-05'
 title: Using CNAMEs with Cloud Files containers
 type: article

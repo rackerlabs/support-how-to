@@ -1,5 +1,5 @@
 ---
-permalink: launch-a-windows-web-farm-with-web-deploy/
+permalink: launch-a-windows-web-farm-with-web-deploy
 audit_date: '2019-01-22'
 title: Launch a Windows web farm with Web Deploy
 type: article

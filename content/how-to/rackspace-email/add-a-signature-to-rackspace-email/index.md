@@ -1,5 +1,5 @@
 ---
-permalink: add-a-signature-to-rackspace-email/
+permalink: add-a-signature-to-rackspace-email
 audit_date: '2021-02-03'
 title: Add a signature to Rackspace Email
 type: article

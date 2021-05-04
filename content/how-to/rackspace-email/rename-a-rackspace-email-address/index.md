@@ -1,5 +1,5 @@
 ---
-permalink: rename-a-rackspace-email-address/
+permalink: rename-a-rackspace-email-address
 audit_date: '2017-10-11'
 title: Rename a Rackspace Email address
 type: article

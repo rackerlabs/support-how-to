@@ -1,5 +1,5 @@
 ---
-permalink: set-up-autodiscover-for-outlook/
+permalink: set-up-autodiscover-for-outlook
 audit_date: '2019-04-02'
 title: Set up Autodiscover for Outlook
 type: article

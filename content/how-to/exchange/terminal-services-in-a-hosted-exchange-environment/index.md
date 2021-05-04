@@ -1,5 +1,5 @@
 ---
-permalink: terminal-services-in-a-hosted-exchange-environment/
+permalink: terminal-services-in-a-hosted-exchange-environment
 audit_date: '2020-11-18'
 title: 'Terminal Services in a Hosted Exchange Environment'
 type: article

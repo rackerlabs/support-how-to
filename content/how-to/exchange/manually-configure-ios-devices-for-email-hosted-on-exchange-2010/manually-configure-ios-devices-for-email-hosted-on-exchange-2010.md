@@ -1,5 +1,5 @@
 ---
-permalink: manually-configure-ios-devices-for-email-hosted-on-exchange-2010/
+permalink: manually-configure-ios-devices-for-email-hosted-on-exchange-2010
 audit_date: '2019-03-28'
 title: Manually configure iOS devices for email hosted on Exchange 2010
 type: article

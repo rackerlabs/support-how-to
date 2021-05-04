@@ -1,5 +1,5 @@
 ---
-permalink: ord1-data-center-consolidation-faq/
+permalink: ord1-data-center-consolidation-faq
 audit_date: '2019-04-17'
 title: ORD1 data center migration - customer FAQ
 type: article

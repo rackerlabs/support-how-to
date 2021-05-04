@@ -1,5 +1,5 @@
 ---
-permalink: prepare-mac-users-for-rackspace-email-to-microsoft-exchange-migration/
+permalink: prepare-mac-users-for-rackspace-email-to-microsoft-exchange-migration
 audit_date: '2017-07-24'
 title: Prepare Mac users for migration from Rackspace Email to Microsoft Exchange
 type: article

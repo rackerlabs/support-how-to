@@ -1,5 +1,5 @@
 ---
-permalink: working-with-alarms/
+permalink: working-with-alarms
 audit_date: '2017-08-30'
 title: Working with alarms
 type: article

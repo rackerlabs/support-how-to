@@ -1,5 +1,5 @@
 ---
-permalink: create-a-dns-server/
+permalink: create-a-dns-server
 audit_date: '2021-03-03'
 title: Create a DNS Server
 type: article

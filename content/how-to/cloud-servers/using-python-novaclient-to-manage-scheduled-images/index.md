@@ -1,5 +1,5 @@
 ---
-permalink: using-python-novaclient-to-manage-scheduled-images/
+permalink: using-python-novaclient-to-manage-scheduled-images
 audit_date:
 title: Manage scheduled images with the python-novaclient
 type: article

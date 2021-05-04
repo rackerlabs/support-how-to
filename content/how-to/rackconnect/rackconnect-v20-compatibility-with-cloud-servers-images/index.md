@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-v20-compatibility-with-cloud-servers-images/
+permalink: rackconnect-v20-compatibility-with-cloud-servers-images
 audit_date: '2019-12-16'
 title: RackConnect v2.0 compatibility with Cloud Servers images
 type: article

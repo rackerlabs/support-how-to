@@ -1,5 +1,5 @@
 ---
-permalink: manage-user-spam-settings-for-rackspace-email/
+permalink: manage-user-spam-settings-for-rackspace-email
 audit_date: '2021-03-15'
 title: Manage user spam settings for Rackspace Email
 type: article

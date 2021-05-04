@@ -1,5 +1,5 @@
 ---
-permalink: set-up-office-365/
+permalink: set-up-office-365
 audit_date: '2020-03-19'
 title: Set up Office 365
 type: article

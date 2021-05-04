@@ -1,5 +1,5 @@
 ---
-permalink: building-a-rackspace-private-cloud-with-linux-iscsi-volumes/
+permalink: building-a-rackspace-private-cloud-with-linux-iscsi-volumes
 audit_date:
 title: Building a Rackspace Private Cloud with Linux iSCSI Volumes
 type: article

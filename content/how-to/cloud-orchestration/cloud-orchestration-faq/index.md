@@ -1,5 +1,5 @@
 ---
-permalink: cloud-orchestration-faq/
+permalink: cloud-orchestration-faq
 audit_date: '2018-04-05'
 title: Cloud Orchestration FAQ
 type: article

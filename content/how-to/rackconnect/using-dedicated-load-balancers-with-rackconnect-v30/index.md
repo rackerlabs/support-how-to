@@ -1,5 +1,5 @@
 ---
-permalink: using-dedicated-load-balancers-with-rackconnect-v30/
+permalink: using-dedicated-load-balancers-with-rackconnect-v30
 audit_date: '2019-12-16'
 title: Using dedicated load balancers with RackConnect v3.0
 type: article

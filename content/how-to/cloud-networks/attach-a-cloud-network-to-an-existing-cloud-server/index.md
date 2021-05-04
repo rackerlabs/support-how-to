@@ -1,5 +1,5 @@
 ---
-permalink: attach-a-cloud-network-to-an-existing-cloud-server/
+permalink: attach-a-cloud-network-to-an-existing-cloud-server
 audit_date:
 title: Attach a Cloud Network to an Existing Cloud Server
 type: article

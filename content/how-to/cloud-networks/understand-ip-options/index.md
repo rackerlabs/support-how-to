@@ -1,5 +1,5 @@
 ---
-permalink: understand-ip-options/
+permalink: understand-ip-options
 audit_date: '2016-07-25'
 title: IP options
 type: article

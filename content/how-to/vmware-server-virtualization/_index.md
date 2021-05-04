@@ -1,5 +1,5 @@
 ---
-permalink: /vmware-server-virtualization/
+permalink: vmware-server-virtualization
 title: VMware Server Virtualization
 audit_date: '2018-01-29'
 type: product

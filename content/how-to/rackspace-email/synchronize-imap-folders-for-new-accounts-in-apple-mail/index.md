@@ -1,5 +1,5 @@
 ---
-permalink: synchronize-imap-folders-for-new-accounts-in-apple-mail/
+permalink: synchronize-imap-folders-for-new-accounts-in-apple-mail
 audit_date: '2017-08-23'
 title: Synchronize IMAP folders for new accounts in Apple Mail
 type: article

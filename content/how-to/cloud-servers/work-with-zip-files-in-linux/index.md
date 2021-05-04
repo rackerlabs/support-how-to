@@ -1,5 +1,5 @@
 ---
-permalink: work-with-zip-files-in-linux/
+permalink: work-with-zip-files-in-linux
 audit_date: '2020-06-26'
 title: 'Work with ZIP files in Linux'
 type: article

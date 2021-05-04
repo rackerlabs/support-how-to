@@ -1,5 +1,5 @@
 ---
-permalink: detailed-invoices-overview/
+permalink: detailed-invoices-overview
 audit_date: '2018-02-16'
 title: Detailed invoices overview
 type: article

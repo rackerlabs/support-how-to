@@ -1,5 +1,5 @@
 ---
-permalink: what-is-an-soa-record/
+permalink: what-is-an-soa-record
 audit_date: '2018-12-18'
 title: DNS SOA records
 type: article

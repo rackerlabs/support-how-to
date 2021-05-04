@@ -1,5 +1,5 @@
 ---
-permalink: monitoring-entities-with-rackspace-intelligence/
+permalink: monitoring-entities-with-rackspace-intelligence
 audit_date: '2019-03-11'
 title: Monitor entities with Rackspace Intelligence
 type: article

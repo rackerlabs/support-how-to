@@ -1,5 +1,5 @@
 ---
-permalink: firewall-manager-v2-access-list-theory-and-best-practices/
+permalink: firewall-manager-v2-access-list-theory-and-best-practices
 audit_date: '2018-03-20'
 title: Firewall Manager v2 access list theory and best practices
 type: article

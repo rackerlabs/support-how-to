@@ -1,5 +1,5 @@
 ---
-permalink: managing-virtual-machines/
+permalink: managing-virtual-machines
 audit_date: '2020-06-10'
 title: 'Managing Virtual Machines'
 type: article

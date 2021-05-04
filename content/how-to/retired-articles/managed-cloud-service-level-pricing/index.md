@@ -1,5 +1,5 @@
 ---
-permalink: managed-cloud-service-level-pricing/
+permalink: managed-cloud-service-level-pricing
 audit_date:
 title: Managed Cloud Service Level pricing
 type: article

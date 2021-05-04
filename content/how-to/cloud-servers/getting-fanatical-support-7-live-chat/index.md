@@ -1,5 +1,5 @@
 ---
-permalink: getting-fanatical-support-7-live-chat/
+permalink: getting-fanatical-support-7-live-chat
 audit_date: '2018-08-30'
 title: Get support by using Live Chat
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: nested-imap-folders-in-apple-mail/
+permalink: nested-imap-folders-in-apple-mail
 audit_date:
 title: Nested IMAP folders in Apple Mail
 type: article

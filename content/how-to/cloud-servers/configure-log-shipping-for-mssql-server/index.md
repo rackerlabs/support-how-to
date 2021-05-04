@@ -1,5 +1,5 @@
 ---
-permalink: configure-log-shipping-for-mssql-server/
+permalink: configure-log-shipping-for-mssql-server
 audit_date: '2020-10-14'
 title: Configure Log Shipping for MSSQL Server
 type: article

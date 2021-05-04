@@ -1,5 +1,5 @@
 ---
-permalink: set-up-onedrive-for-android-mobile-devices/
+permalink: set-up-onedrive-for-android-mobile-devices
 audit_date: '2020-08-24'
 title: Set up OneDrive for Android mobile devices
 type: article

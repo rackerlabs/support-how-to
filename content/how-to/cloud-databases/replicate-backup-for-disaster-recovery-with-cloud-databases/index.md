@@ -1,5 +1,5 @@
 ---
-permalink: replicate-backup-for-disaster-recovery-with-cloud-databases/
+permalink: replicate-backup-for-disaster-recovery-with-cloud-databases
 title: Replicate backups for disaster recovery with Cloud Databases
 type: article
 created_date: '2016-04-28'

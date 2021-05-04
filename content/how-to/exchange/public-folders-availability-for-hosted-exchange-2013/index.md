@@ -1,5 +1,5 @@
 ---
-permalink: public-folders-availability-for-hosted-exchange-2013/
+permalink: public-folders-availability-for-hosted-exchange-2013
 audit_date: '2020-12-18'
 title: Public folders availability for Hosted Exchange 2013 and 2016
 type: article

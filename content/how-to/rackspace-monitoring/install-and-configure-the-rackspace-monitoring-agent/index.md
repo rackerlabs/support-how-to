@@ -1,5 +1,5 @@
 ---
-permalink: install-and-configure-the-rackspace-monitoring-agent/
+permalink: install-and-configure-the-rackspace-monitoring-agent
 audit_date: '2020-11-25'
 title: Install and configure the Rackspace Monitoring Agent
 type: article

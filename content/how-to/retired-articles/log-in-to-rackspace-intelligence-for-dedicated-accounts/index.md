@@ -1,5 +1,5 @@
 ---
-permalink: log-in-to-rackspace-intelligence-for-dedicated-accounts/
+permalink: log-in-to-rackspace-intelligence-for-dedicated-accounts
 audit_date:
 title: Log in to Rackspace Intelligence for dedicated accounts
 type: article

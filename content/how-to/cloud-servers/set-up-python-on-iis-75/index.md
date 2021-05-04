@@ -1,5 +1,5 @@
 ---
-permalink: set-up-python-on-iis-75/
+permalink: set-up-python-on-iis-75
 audit_date: '2020-10-26'
 title: Set up Python on IIS 7.5
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: cloud-files-uploading-large-files/
+permalink: cloud-files-uploading-large-files
 audit_date: '2021-04-16'
 title: "Cloud Files: Uploading large files"
 type: article

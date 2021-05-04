@@ -1,5 +1,5 @@
 ---
-permalink: manage-email-administrators-with-the-cloud-office-control-panel/
+permalink: manage-email-administrators-with-the-cloud-office-control-panel
 audit_date: '2019-08-19'
 title: Manage email administrators with the Cloud Office Control Panel
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: release-notes/
+permalink: release-notes
 audit_date: '2019-10-22'
 title: Release Notes for the New Archiving Experience
 type: article

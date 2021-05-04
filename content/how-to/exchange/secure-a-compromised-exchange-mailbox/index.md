@@ -1,5 +1,5 @@
 ---
-permalink: secure-a-compromised-exchange-mailbox/
+permalink: secure-a-compromised-exchange-mailbox
 audit_date: '2018-01-16'
 title: Secure a compromised Exchange mailbox
 type: article

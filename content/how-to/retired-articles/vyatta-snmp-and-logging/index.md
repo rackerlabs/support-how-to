@@ -1,5 +1,5 @@
 ---
-permalink: vyatta-snmp-and-logging/
+permalink: vyatta-snmp-and-logging
 audit_date:
 title: Vyatta SNMP and logging
 type: article

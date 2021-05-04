@@ -1,5 +1,5 @@
 ---
-permalink: upgrading-your-exchange-version/
+permalink: upgrading-your-exchange-version
 audit_date: '2019-07-22'
 title: Upgrading your Exchange version
 type: article

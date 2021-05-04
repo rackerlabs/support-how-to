@@ -1,5 +1,5 @@
 ---
-permalink: requesting-additional-ipv4-addresses-for-cloud-servers/
+permalink: requesting-additional-ipv4-addresses-for-cloud-servers
 audit_date:
 title: Requesting additional IPv4 addresses for Cloud Servers
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: export-email-address-data-from-outlook-2016-for-windows/
+permalink: export-email-address-data-from-outlook-2016-for-windows
 audit_date: '2017-10-19'
 title: Export email address data from Outlook 2016 for Windows
 type: article

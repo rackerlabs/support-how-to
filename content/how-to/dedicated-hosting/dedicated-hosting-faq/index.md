@@ -1,5 +1,5 @@
 ---
-permalink: dedicated-hosting-faq/
+permalink: dedicated-hosting-faq
 audit_date: '2016-11-09'
 title: Dedicated Hosting FAQ
 type: article

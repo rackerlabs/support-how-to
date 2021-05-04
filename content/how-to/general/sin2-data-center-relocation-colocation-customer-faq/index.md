@@ -1,5 +1,5 @@
 ---
-permalink: sin2-data-center-relocation-colocation-customer-faq/
+permalink: sin2-data-center-relocation-colocation-customer-faq
 audit_date: '2021-03-11'
 type: article
 title: "SIN2 data center relocation colocation customer FAQ"

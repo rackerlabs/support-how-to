@@ -1,5 +1,5 @@
 ---
-permalink: o365-spheres-of-support/
+permalink: o365-spheres-of-support
 audit_date: '2020-07-31'
 title: Microsoft 365 Spheres of Support
 type: article

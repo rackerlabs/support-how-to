@@ -1,5 +1,5 @@
 ---
-permalink: mount-a-partition-and-chroot-into-your-primary-file-system-from-rescue-mode/
+permalink: mount-a-partition-and-chroot-into-your-primary-file-system-from-rescue-mode
 audit_date:
 title: Mount a partition and chroot into your primary file-system from rescue mode
 type: article

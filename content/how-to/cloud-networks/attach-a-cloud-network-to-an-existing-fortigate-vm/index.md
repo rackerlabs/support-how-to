@@ -1,5 +1,5 @@
 ---
-permalink: attach-a-cloud-network-to-an-existing-fortigate-vm/
+permalink: attach-a-cloud-network-to-an-existing-fortigate-vm
 audit_date: '2019-04-18'
 title: Attach a Cloud Network to an existing Fortigate-VM
 type: article

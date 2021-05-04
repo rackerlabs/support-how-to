@@ -1,5 +1,5 @@
 ---
-permalink: permissions-matrix-for-cloud-block-storage/
+permalink: permissions-matrix-for-cloud-block-storage
 audit_date: '2021-01-04'
 title: Permissions matrix for Cloud Block Storage
 type: article

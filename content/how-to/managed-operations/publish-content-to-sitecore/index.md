@@ -1,5 +1,5 @@
 ---
-permalink: publish-content-to-sitecore/
+permalink: publish-content-to-sitecore
 audit_date: '2015-05-16'
 title: Publish content to Sitecore
 type: article

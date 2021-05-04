@@ -1,5 +1,5 @@
 ---
-permalink: managing-the-windows-server-2012-firewall/
+permalink: managing-the-windows-server-2012-firewall
 audit_date: '2018-04-19'
 title: Manage the Windows Server 2012 firewall
 type: article

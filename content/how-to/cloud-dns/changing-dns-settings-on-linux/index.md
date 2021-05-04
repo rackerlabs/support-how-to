@@ -1,5 +1,5 @@
 ---
-permalink: changing-dns-settings-on-linux/
+permalink: changing-dns-settings-on-linux
 audit_date: '2018-11-15'
 title: Change DNS settings on Linux
 type: article

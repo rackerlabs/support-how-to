@@ -1,5 +1,5 @@
 ---
-permalink: add-and-remove-roles-and-features-on-windows-server/
+permalink: add-and-remove-roles-and-features-on-windows-server
 audit_date: '2020-03-10'
 title: 'Add and remove roles and features on Windows Server'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: choosing-dns-record-types/
+permalink: choosing-dns-record-types
 audit_date:
 title: Choosing DNS record types
 type: article

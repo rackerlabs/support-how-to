@@ -1,5 +1,5 @@
 ---
-permalink: permissions-matrix-for-auto-scale/
+permalink: permissions-matrix-for-auto-scale
 audit_date: '2016-12-01'
 title: Permissions matrix for Rackspace Auto Scale
 type: article

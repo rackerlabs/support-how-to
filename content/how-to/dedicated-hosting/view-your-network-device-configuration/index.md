@@ -1,5 +1,5 @@
 ---
-permalink: view-your-network-device-configuration/
+permalink: view-your-network-device-configuration
 audit_date: '2017-01-08'
 title: View your network device's configuration
 type: article

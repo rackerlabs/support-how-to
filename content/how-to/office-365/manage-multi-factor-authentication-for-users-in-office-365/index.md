@@ -1,5 +1,5 @@
 ---
-permalink: manage-multi-factor-authentication-for-users-in-office-365/
+permalink: manage-multi-factor-authentication-for-users-in-office-365
 audit_date: '2019-11-27'
 title: Manage multi-factor authentication for users in Office 365
 type: article

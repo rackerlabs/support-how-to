@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-directory-sync-operation-guide/
+permalink: rackspace-directory-sync-operation-guide
 audit_date: '2020-11-24'
 title: 'Rackspace Directory Sync Operation Guide'
 type: article

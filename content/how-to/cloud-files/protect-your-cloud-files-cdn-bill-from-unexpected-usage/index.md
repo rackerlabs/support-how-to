@@ -1,5 +1,5 @@
 ---
-permalink: protect-your-cloud-files-cdn-bill-from-unexpected-usage/
+permalink: protect-your-cloud-files-cdn-bill-from-unexpected-usage
 audit_date:
 title: Protect Your Cloud Files CDN Bill from Unexpected Usage
 type: article

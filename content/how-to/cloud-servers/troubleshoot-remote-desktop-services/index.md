@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-remote-desktop-services/
+permalink: troubleshoot-remote-desktop-services
 audit_date: '2020-06-30'
 title: 'Troubleshoot Remote Desktop services'
 type: article

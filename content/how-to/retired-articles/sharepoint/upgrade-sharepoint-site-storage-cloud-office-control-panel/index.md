@@ -1,5 +1,5 @@
 ---
-permalink: upgrade-sharepoint-site-storage-cloud-office-control-panel/
+permalink: upgrade-sharepoint-site-storage-cloud-office-control-panel
 audit_date: '2018-01-30'
 title: Upgrade SharePoint site storage in the Cloud Office Control Panel
 type: article

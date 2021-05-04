@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-glusterfs-considerations-and-installation/
+permalink: getting-started-with-glusterfs-considerations-and-installation
 audit_date: '2020-01-06'
 title: Get started with GlusterFS - considerations and installation
 type: article

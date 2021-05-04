@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-a-downed-linux-cloud-server/
+permalink: troubleshoot-a-downed-linux-cloud-server
 audit_date: '2018-08-16'
 title: Troubleshoot a downed Linux cloud server
 type: article

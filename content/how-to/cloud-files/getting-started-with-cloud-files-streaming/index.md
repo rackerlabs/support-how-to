@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-cloud-files-streaming/
+permalink: getting-started-with-cloud-files-streaming
 audit_date: '2018-12-12'
 title: Getting started with Cloud Files streaming
 type: article

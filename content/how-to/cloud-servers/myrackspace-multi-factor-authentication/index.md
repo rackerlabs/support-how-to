@@ -1,5 +1,5 @@
 ---
-permalink: myrackspace-multi-factor-authentication/
+permalink: myrackspace-multi-factor-authentication
 audit_date: '2018-03-30'
 title: MyRackspace two-factor authentication
 type: article

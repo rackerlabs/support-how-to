@@ -1,5 +1,5 @@
 ---
-permalink: copy-files-with-scp-and-rsync/
+permalink: copy-files-with-scp-and-rsync
 audit_date:
 title: 'Copy files with scp and rsync'
 type: article

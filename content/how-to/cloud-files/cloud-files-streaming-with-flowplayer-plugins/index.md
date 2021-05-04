@@ -1,5 +1,5 @@
 ---
-permalink: cloud-files-streaming-with-flowplayer-plugins/
+permalink: cloud-files-streaming-with-flowplayer-plugins
 audit_date:
 title: Cloud Files Streaming with FlowPlayer Plugins
 type: article

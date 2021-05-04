@@ -1,5 +1,5 @@
 ---
-permalink: creating-and-deleting-local-users-on-windows-server/
+permalink: creating-and-deleting-local-users-on-windows-server
 audit_date: '2021-01-29'
 title: 'Create and delete local users on Windows Server'
 type: article

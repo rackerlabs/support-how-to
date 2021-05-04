@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group/
+permalink: rackspace-auto-scale-control-panel-user-guide-create-a-scaling-group
 audit_date: '2020-09-24'
 title: Create a scaling group using the Auto Scale Control Panel
 type: article

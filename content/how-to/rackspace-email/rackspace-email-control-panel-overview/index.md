@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-email-control-panel-overview/
+permalink: rackspace-email-control-panel-overview
 audit_date: '2021-02-04'
 title: Rackspace Email Control Panel overview
 type: article

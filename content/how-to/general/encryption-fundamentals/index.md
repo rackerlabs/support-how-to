@@ -1,5 +1,5 @@
 ---
-permalink: encryption-fundamentals/
+permalink: encryption-fundamentals
 audit_date: '2017-11-13'
 title: Encryption Fundamentals
 type: article

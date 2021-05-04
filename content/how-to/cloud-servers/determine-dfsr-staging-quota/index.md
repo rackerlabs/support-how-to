@@ -1,5 +1,5 @@
 ---
-permalink: determine-dfsr-staging-quota/
+permalink: determine-dfsr-staging-quota
 audit_date: '2020-11-23'
 title: Determine DFSR staging quota
 type: article

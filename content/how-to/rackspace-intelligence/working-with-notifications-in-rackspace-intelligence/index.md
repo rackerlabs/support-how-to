@@ -1,5 +1,5 @@
 ---
-permalink: working-with-notifications-in-rackspace-intelligence/
+permalink: working-with-notifications-in-rackspace-intelligence
 audit_date: '2021-02-25'
 title: Work with notifications in Rackspace Intelligence
 type: article

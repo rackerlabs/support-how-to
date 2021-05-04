@@ -1,5 +1,5 @@
 ---
-permalink: create-dns-records-for-cloud-servers-with-the-control-panel/
+permalink: create-dns-records-for-cloud-servers-with-the-control-panel
 audit_date: '2018-05-16'
 title: Create DNS Records for cloud servers with the Control Panel
 type: article

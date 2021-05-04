@@ -1,5 +1,5 @@
 ---
-permalink: configure-multiple-SSL-certificates-on-cloud-load-balancers/
+permalink: configure-multiple-SSL-certificates-on-cloud-load-balancers
 audit_date: '2020-03-25'
 title: Configure multiple SSL certificates on Cloud Load Balancers
 type: article

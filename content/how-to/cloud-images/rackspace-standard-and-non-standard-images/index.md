@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-standard-and-non-standard-images/
+permalink: rackspace-standard-and-non-standard-images
 audit_date: '2018-04-09'
 title: Rackspace standard and non-standard images
 type: article

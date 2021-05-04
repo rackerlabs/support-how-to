@@ -1,5 +1,5 @@
 ---
-permalink: mobile-alerts-from-rackspace-monitoring/
+permalink: mobile-alerts-from-rackspace-monitoring
 audit_date: '2020-11-27'
 title: Mobile alerts from Rackspace Monitoring
 type: article

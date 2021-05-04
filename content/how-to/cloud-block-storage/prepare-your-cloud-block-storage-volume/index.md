@@ -1,5 +1,5 @@
 ---
-permalink: prepare-your-cloud-block-storage-volume/
+permalink: prepare-your-cloud-block-storage-volume
 audit_date: '2021-01-04'
 title: Prepare your Cloud Block Storage volume
 type: article

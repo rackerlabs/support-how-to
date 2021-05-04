@@ -1,5 +1,5 @@
 ---
-permalink: reset-a-local-user-password-on-windows-server/
+permalink: reset-a-local-user-password-on-windows-server
 audit_date: '2020-04-14'
 title: 'Reset a local user password on Windows Server'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: configure-a-renamed-email-address-on-iphone-ios/
+permalink: configure-a-renamed-email-address-on-iphone-ios
 audit_date: '2017-09-11'
 title: Configure a renamed email address on iPhone iOS
 type: article

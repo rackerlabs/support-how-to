@@ -1,5 +1,5 @@
 ---
-permalink: streaming-cloud-files-with-jw-player/
+permalink: streaming-cloud-files-with-jw-player
 audit_date:
 title: Stream Cloud Files with JW Player
 type: article

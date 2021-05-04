@@ -1,5 +1,5 @@
 ---
-permalink: sharepoint-faq/
+permalink: sharepoint-faq
 audit_date:
 title: Microsoft Sharepoint FAQ
 type: article

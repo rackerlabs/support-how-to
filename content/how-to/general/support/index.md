@@ -1,5 +1,5 @@
 ---
-permalink: support/
+permalink: support
 audit_date: '2018-12-13'
 title: How to contact Rackspace Support
 type: article

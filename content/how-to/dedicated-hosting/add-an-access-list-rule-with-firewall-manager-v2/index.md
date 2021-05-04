@@ -1,5 +1,5 @@
 ---
-permalink: add-an-access-list-rule-with-firewall-manager-v2/
+permalink: add-an-access-list-rule-with-firewall-manager-v2
 audit_date: '2018-07-18'
 title: Add an access-list rule with Firewall Manager v2
 type: article

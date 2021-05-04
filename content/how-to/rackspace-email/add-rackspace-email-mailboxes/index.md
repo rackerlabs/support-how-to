@@ -1,5 +1,5 @@
 ---
-permalink: add-rackspace-email-mailboxes/
+permalink: add-rackspace-email-mailboxes
 audit_date: '2017-06-12'
 title: Add Rackspace Email mailboxes
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: email-fundamentals/
+permalink: email-fundamentals
 audit_date: '2017-11-07'
 title: Email Fundamentals
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: using-configure-as-a-gateway-for-virtual-net-devices/
+permalink: using-configure-as-a-gateway-for-virtual-net-devices
 audit_date: '2019-05-16'
 title: Using Configure as a Gateway for virtual net devices
 type: article

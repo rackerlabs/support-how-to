@@ -1,5 +1,5 @@
 ---
-permalink: how-to-choose-your-cloud-server-flavor/
+permalink: how-to-choose-your-cloud-server-flavor
 audit_date:
 title: Choosing your cloud server flavor
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: brocade-vyatta-vrouter-faq/
+permalink: brocade-vyatta-vrouter-faq
 audit_date:
 title: Brocade Vyatta vRouter FAQ
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: using-task-states-with-server-imaging/
+permalink: using-task-states-with-server-imaging
 audit_date: '2020-09-04'
 title: Use task states with server imaging
 type: article

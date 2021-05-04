@@ -1,5 +1,5 @@
 ---
-permalink: permissions-matrix-for-cloud-load-balancers/
+permalink: permissions-matrix-for-cloud-load-balancers
 audit_date: '2017-02-15'
 title: Permissions matrix for Cloud Load Balancers
 type: article

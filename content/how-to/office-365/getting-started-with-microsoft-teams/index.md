@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-microsoft-teams/
+permalink: getting-started-with-microsoft-teams
 audit_date: '2020-06-25'
 title: Getting started with Microsoft Teams
 type: article

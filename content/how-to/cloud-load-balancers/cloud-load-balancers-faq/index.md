@@ -1,5 +1,5 @@
 ---
-permalink: cloud-load-balancers-faq/
+permalink: cloud-load-balancers-faq
 audit_date: '2019-01-14'
 title: Cloud Load Balancers FAQ
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: administrator-guide-for-rackspace-webmail-multi-factor-authentication/
+permalink: administrator-guide-for-rackspace-webmail-multi-factor-authentication
 audit_date: '2020-10-05'
 title: Administrator guide for Rackspace Webmail multi-factor authentication
 type: article

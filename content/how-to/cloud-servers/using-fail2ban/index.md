@@ -1,5 +1,5 @@
 ---
-permalink: /using-fail2ban/
+permalink: using-fail2ban
 audit_date: '2021-04-20'
 title: 'Using Fail2ban'
 type: article

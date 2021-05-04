@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-wordpress-refusing-an-ftp-connection/
+permalink: troubleshoot-wordpress-refusing-an-ftp-connection
 audit_date: '2021-03-12'
 title: "Troubleshoot WordPress refusing an FTP connection"
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: install-php-on-windows-server-2012-and-later/
+permalink: install-php-on-windows-server-2012-and-later
 audit_date: '2019-04-11'
 title: Install PHP on Windows Server 2012 and later
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: create-and-access-shared-mailboxes-office-365/
+permalink: create-and-access-shared-mailboxes-office-365
 audit_date: '2020-06-05'
 title: How to create and access shared mailboxes in Office 365
 type: article

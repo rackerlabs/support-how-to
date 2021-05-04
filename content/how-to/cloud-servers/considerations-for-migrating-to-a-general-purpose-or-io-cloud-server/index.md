@@ -1,5 +1,5 @@
 ---
-permalink: considerations-for-migrating-to-a-general-purpose-or-io-cloud-server/
+permalink: considerations-for-migrating-to-a-general-purpose-or-io-cloud-server
 audit_date: '2017-04-21'
 title: Considerations for migrating to a General Purpose or I/O cloud server
 type: article

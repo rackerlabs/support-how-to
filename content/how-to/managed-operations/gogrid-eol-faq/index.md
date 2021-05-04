@@ -1,5 +1,5 @@
 ---
-permalink: gogrid-eol-faq/
+permalink: gogrid-eol-faq
 audit_date: '2018-08-15'
 title: GoGrid end of life FAQ
 type: article

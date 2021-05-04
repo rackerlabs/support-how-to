@@ -1,5 +1,5 @@
 ---
-permalink: cloud-feeds-faq/
+permalink: cloud-feeds-faq
 audit_date:
 title: Cloud Feeds FAQ
 type: article

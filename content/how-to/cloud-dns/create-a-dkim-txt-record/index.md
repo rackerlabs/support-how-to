@@ -1,5 +1,5 @@
 ---
-permalink: create-a-dkim-txt-record/
+permalink: create-a-dkim-txt-record
 audit_date: '2019-10-18'
 title: Create a DKIM TXT record
 type: article

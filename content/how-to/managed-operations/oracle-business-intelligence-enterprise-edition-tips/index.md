@@ -1,5 +1,5 @@
 ---
-permalink: oracle-business-intelligence-enterprise-edition-tips/
+permalink: oracle-business-intelligence-enterprise-edition-tips
 audit_date: '2017-10-06'
 title: Oracle Business Intelligence Enterprise Edition tips
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: migrate-a-cloud-server-to-a-new-physical-host/
+permalink: migrate-a-cloud-server-to-a-new-physical-host
 audit_date: '2020-08-17'
 title: 'Migrate a cloud server to a new physical host'
 type: article

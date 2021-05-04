@@ -1,5 +1,5 @@
 ---
-permalink: monitoring-differences-between-rackspace-server-users-and-non-rackspace-server-users/
+permalink: monitoring-differences-between-rackspace-server-users-and-non-rackspace-server-users
 audit_date: '2020-11-27'
 title: 'Differences between monitoring Rackspace Server users and non-Rackspace Server users'
 type: article

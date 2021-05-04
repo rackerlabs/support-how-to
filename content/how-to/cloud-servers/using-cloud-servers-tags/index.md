@@ -1,5 +1,5 @@
 ---
-permalink: using-cloud-servers-tags/
+permalink: using-cloud-servers-tags
 audit_date: '2018-10-25'
 title: Use Cloud Servers tags
 type: article

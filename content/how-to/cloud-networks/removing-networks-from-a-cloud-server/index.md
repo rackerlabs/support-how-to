@@ -1,5 +1,5 @@
 ---
-permalink: removing-networks-from-a-cloud-server/
+permalink: removing-networks-from-a-cloud-server
 audit_date: '2021-04-21'
 title: Removing Networks from a Cloud Server
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: migrate-a-cloud-databases-instance-from-mariadb-or-percona-to-mysql/
+permalink: migrate-a-cloud-databases-instance-from-mariadb-or-percona-to-mysql
 audit_date: '2019-01-09'
 title: Migrate a Cloud Databases instance from MariaDB or Percona to MySQL
 type: article

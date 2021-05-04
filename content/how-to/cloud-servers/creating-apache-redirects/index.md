@@ -1,5 +1,5 @@
 ---
-permalink: creating-apache-redirects/
+permalink: creating-apache-redirects
 audit_date: '2020-06-17'
 title: 'Creating Apache redirects'
 type: article

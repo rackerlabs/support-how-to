@@ -1,5 +1,5 @@
 ---
-permalink: setting-up-a-database-to-work-with-rackspace-intelligence/
+permalink: setting-up-a-database-to-work-with-rackspace-intelligence
 audit_date: '2021-02-24'
 title: Set up a database to work with Rackspace Intelligence
 type: article

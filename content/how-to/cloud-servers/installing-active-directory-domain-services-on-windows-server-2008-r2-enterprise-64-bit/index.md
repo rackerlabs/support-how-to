@@ -1,5 +1,5 @@
 ---
-permalink: installing-active-directory-domain-services-on-windows-server-2008-r2-enterprise-64-bit/
+permalink: installing-active-directory-domain-services-on-windows-server-2008-r2-enterprise-64-bit
 audit_date: '2016-09-20'
 title: Install Active Directory Domain Services on Windows Server 2008 R2 Enterprise 64-bit
 type: article

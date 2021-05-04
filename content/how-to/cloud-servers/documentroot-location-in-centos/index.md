@@ -1,5 +1,5 @@
 ---
-permalink: documentroot-location-in-centos/
+permalink: documentroot-location-in-centos
 audit_date: '2020-11-17'
 title: DocumentRoot location in CentOS
 type: article

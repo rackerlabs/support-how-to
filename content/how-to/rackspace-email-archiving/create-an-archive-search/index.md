@@ -1,5 +1,5 @@
 ---
-permalink: create-an-archive-search/
+permalink: create-an-archive-search
 audit_date: '2019-11-11'
 title: 'Create an archive search'
 type: article

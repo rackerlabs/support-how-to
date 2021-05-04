@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-sql-server-backup-failures/
+permalink: troubleshoot-sql-server-backup-failures
 audit_date: '2020-03-24'
 title: Troubleshoot SQL Server backup failures by using Windows Event Viewer
 type: article

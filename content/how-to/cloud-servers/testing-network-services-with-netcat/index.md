@@ -1,5 +1,5 @@
 ---
-permalink: testing-network-services-with-Netcat/
+permalink: testing-network-services-with-Netcat
 audit_date: '2020-09-25'
 title: Testing network services with Netcat
 type: article

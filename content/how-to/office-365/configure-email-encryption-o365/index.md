@@ -1,5 +1,5 @@
 ---
-permalink: configure-email-encryption-o365/
+permalink: configure-email-encryption-o365
 audit_date: '2020-04-13'
 title: How to enable email encryption in Office 365
 type: article

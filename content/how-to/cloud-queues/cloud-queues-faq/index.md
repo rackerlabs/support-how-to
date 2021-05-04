@@ -1,5 +1,5 @@
 ---
-permalink: cloud-queues-faq/
+permalink: cloud-queues-faq
 audit_date:
 title: Cloud Queues FAQ
 type: article

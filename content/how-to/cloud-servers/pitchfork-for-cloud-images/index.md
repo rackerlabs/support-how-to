@@ -1,5 +1,5 @@
 ---
-permalink: pitchfork-for-cloud-images/
+permalink: pitchfork-for-cloud-images
 audit_date: '2021-03-12'
 title: Pitchfork for Cloud Images
 type: article

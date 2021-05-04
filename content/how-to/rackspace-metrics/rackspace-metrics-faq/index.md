@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-metrics-faq/
+permalink: rackspace-metrics-faq
 audit_date: '2017-07-19'
 title: Rackspace Metrics FAQ
 type: article

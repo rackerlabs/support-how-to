@@ -1,5 +1,5 @@
 ---
-permalink: backing-up-your-files-with-rsync/
+permalink: backing-up-your-files-with-rsync
 audit_date: '2018-11-01'
 title: Back up your files with rsync
 type: article

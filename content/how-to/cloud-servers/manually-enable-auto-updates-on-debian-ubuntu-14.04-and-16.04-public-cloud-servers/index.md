@@ -1,5 +1,5 @@
 ---
-permalink: manually-enable-auto-updates-on-debian-ubuntu-14.04-and-16.04-public-cloud-servers/
+permalink: manually-enable-auto-updates-on-debian-ubuntu-14.04-and-16.04-public-cloud-servers
 audit_date: '2018-10-04'
 title: Manually enable automatic updates on Debian and Ubuntu 14.04 and 16.04  public Cloud Servers
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: cloud-office-quick-start-for-uk-customers/
+permalink: cloud-office-quick-start-for-uk-customers
 audit_date: '2018-01-30'
 title: Cloud Office quick start for UK customers
 type: article

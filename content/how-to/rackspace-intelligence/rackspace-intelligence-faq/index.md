@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-intelligence-faq/
+permalink: rackspace-intelligence-faq
 audit_date: '2021-02-25'
 title: Rackspace Intelligence FAQ
 type: article

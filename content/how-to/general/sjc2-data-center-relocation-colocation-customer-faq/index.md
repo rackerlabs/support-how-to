@@ -1,5 +1,5 @@
 ---
-permalink: sjc2-data-center-relocation-colocation-customer-faq/
+permalink: sjc2-data-center-relocation-colocation-customer-faq
 audit_date: '2020-11-17'
 title: SJC2 data center relocation colocation customer FAQ
 type: article

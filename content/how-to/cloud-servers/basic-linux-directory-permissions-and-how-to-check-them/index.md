@@ -1,5 +1,5 @@
 ---
-permalink: basic-linux-directory-permissions-and-how-to-check-them/
+permalink: basic-linux-directory-permissions-and-how-to-check-them
 audit_date: '2021-03-12'
 title: Basic Linux directory permissions and how to check them
 type: article

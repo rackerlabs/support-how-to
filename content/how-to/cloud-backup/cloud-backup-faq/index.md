@@ -1,5 +1,5 @@
 ---
-permalink: cloud-backup-faq/
+permalink: cloud-backup-faq
 audit_date: '2020-09-15'
 title: Cloud Backup FAQ
 type: article

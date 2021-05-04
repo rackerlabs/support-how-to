@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-bandwidth-charges/
+permalink: rackspace-cloud-bandwidth-charges
 audit_date: '2019-01-15'
 title: Rackspace Cloud Bandwidth Charges
 type: article

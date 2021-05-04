@@ -1,5 +1,5 @@
 ---
-permalink: multi-factor-authentication-from-the-cloud-control-panel/
+permalink: multi-factor-authentication-from-the-cloud-control-panel
 audit_date: '2020-10-27'
 title: Multi-factor authentication from the Cloud Control Panel
 type: article

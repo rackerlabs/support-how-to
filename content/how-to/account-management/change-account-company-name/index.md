@@ -1,5 +1,5 @@
 ---
-permalink: change-account-company-name/
+permalink: change-account-company-name
 audit_date: '2018-03-13'
 title: Change an account's company name
 type: article

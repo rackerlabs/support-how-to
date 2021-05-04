@@ -1,5 +1,5 @@
 ---
-permalink: introduction-to-encrypted-authenticated-tokens/
+permalink: introduction-to-encrypted-authenticated-tokens
 audit_date:
 title: Introduction to encrypted authenticated tokens
 type: article

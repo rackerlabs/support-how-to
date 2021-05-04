@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-backup-view-backup-information/
+permalink: rackspace-cloud-backup-view-backup-information
 audit_date: '2020-10-14'
 title: View backup information with Cloud Backup
 type: article

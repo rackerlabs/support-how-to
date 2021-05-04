@@ -1,5 +1,5 @@
 ---
-permalink: create-sudo-user-in-centos/
+permalink: create-sudo-user-in-centos
 audit_date: '2020-05-20'
 title: 'Create a sudo user in CentOS'
 type: article

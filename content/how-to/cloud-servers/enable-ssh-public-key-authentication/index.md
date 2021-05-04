@@ -1,5 +1,5 @@
 ---
-permalink: enable-ssh-public-key-authentication/
+permalink: enable-ssh-public-key-authentication
 audit_date: '2020-10-22'
 title: Enable SSH public key authentication
 type: article

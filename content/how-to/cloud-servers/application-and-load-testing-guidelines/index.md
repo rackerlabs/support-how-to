@@ -1,5 +1,5 @@
 ---
-permalink: application-and-load-testing-guidelines/
+permalink: application-and-load-testing-guidelines
 audit_date: '2017-02-22'
 title: Application and load testing guidelines
 type: article

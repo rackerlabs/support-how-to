@@ -1,5 +1,5 @@
 ---
-permalink: set-up-onedrive-for-business-for-ipad/
+permalink: set-up-onedrive-for-business-for-ipad
 audit_date: '2020-08-24'
 title: Set up OneDrive for Business for iPad
 type: article

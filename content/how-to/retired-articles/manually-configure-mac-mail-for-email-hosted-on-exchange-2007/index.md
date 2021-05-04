@@ -1,5 +1,5 @@
 ---
-permalink: manually-configure-mac-mail-for-email-hosted-on-exchange-2007/
+permalink: manually-configure-mac-mail-for-email-hosted-on-exchange-2007
 audit_date:
 title: Manually configure Mac Mail for email hosted on Exchange 2007
 type: article

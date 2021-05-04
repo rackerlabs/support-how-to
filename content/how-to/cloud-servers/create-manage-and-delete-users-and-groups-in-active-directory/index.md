@@ -1,5 +1,5 @@
 ---
-permalink: create-manage-and-delete-users-and-groups-in-active-directory/
+permalink: create-manage-and-delete-users-and-groups-in-active-directory
 audit_date: '2020-06-12'
 title: 'Create, manage, and delete users and groups in Active Directory'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-hosted-email-system-daily-sending-limit/
+permalink: rackspace-hosted-email-system-daily-sending-limit
 audit_date: '2019-07-20'
 title: Daily sending limit for Rackspace hosted email systems
 type: article

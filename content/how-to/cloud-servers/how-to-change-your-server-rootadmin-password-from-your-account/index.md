@@ -1,5 +1,5 @@
 ---
-permalink: how-to-change-your-server-rootadmin-password-from-your-account/
+permalink: how-to-change-your-server-rootadmin-password-from-your-account
 audit_date: '2018-10-25'
 title: Change your server root/admin password from your account
 type: article

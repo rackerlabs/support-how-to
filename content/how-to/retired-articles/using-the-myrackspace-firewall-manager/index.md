@@ -1,5 +1,5 @@
 ---
-permalink: using-the-myrackspace-firewall-manager/
+permalink: using-the-myrackspace-firewall-manager
 audit_date:
 title: MyRackspace Firewall Manager
 type: article

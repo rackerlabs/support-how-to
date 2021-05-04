@@ -1,5 +1,5 @@
 ---
-permalink: transfer-images-between-regions-of-the-rackspace-open-cloud/
+permalink: transfer-images-between-regions-of-the-rackspace-open-cloud
 audit_date: '2018-04-08'
 title: Transfer images between regions of the Rackspace open cloud
 type: article

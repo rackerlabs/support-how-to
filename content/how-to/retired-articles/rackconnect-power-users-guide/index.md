@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-power-users-guide/
+permalink: rackconnect-power-users-guide
 audit_date: '2019-12-16'
 title: RackConnect Power Users Guide
 type: article
