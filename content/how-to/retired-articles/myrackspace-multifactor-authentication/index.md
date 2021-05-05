@@ -1,7 +1,7 @@
 ---
-permalink: myrackspace-multi-factor-authentication/
+permalink: myrackspace-multifactor-authentication/
 audit_date: '2018-03-30'
-title: MyRackspace multiactor authentication
+title: MyRackspace multifactor authentication
 type: article
 created_date: '2014-07-14'
 created_by: Rackspace Support
