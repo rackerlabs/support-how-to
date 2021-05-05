@@ -46,7 +46,7 @@ permissions via the MyRackspace Portal. For more information, see [adding or edi
 
 6. Enter in the following information for **Security Settings**:
 
-    -   Specify whether an administrator is required to use [Multi-factor authentication](/support/how-to/enable-or-disable-two-factor-authentication-for-administrators/).
+    -   Specify whether an administrator is required to use [Multifactor authentication](/support/how-to/enable-or-disable-two-factor-authentication-for-administrators/).
     -   Specify whether the password never expires or expires in a specified number of days.
     -   Select **Login restricted to IP address(es)** to allow access only from certain IP addresses, such as the office or home network.
 

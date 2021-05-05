@@ -67,7 +67,7 @@ Use the following steps to set up your Microsoft 365 Exchange Online mailbox in 
 
 6. In the popup dialog window, click **Sign In** and enter your Microsoft 365 email address. Then click **Next**.
 
-7. Enter your Microsoft 365 password and click **Sign In**&mdash;if your organization requires multi-factor authentication, provide additional verification at this point.
+7. Enter your Microsoft 365 password and click **Sign In**&mdash;if your organization requires multifactor authentication, provide additional verification at this point.
 
 8. Select **No, sign in to this app only** after successfully signing in and then click **finish**.
 

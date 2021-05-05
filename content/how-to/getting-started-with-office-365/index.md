@@ -29,13 +29,13 @@ Before addressing tasks such as securing your account, creating mailboxes, and m
 
 Now that you have created an account, there are a few things that you should do to prevent surprises.
 
-1. Protect your account by enabling [multi-factor authentication](/support/how-to/multi-factor-authentication-from-the-cloud-control-panel/) for yourself and your administrators.
+1. Protect your account by enabling [multifactor authentication](/support/how-to/multifactor-authentication-from-the-cloud-control-panel/) for yourself and your administrators.
 
 2. [Add administrators](/support/how-to/manage-email-administrators-with-the-cloud-office-control-panel/#add-an-administrator) to help manage your account. You should consider who needs access to technical or billing portions of the account and assign them the appropriate permissions.
 
 3. Learn how to monitor your account's [billing activity](/support/how-to/view-invoice-history-cloud-office-control-panel/) to ensure that resources are allocated efficiently.
 
-4. Secure your Office 365 administrator account by [enabling multi-factor authentication](/support/how-to/manage-multi-factor-authentication-for-users-in-office-365/).
+4. Secure your Office 365 administrator account by [enabling multifactor authentication](/support/how-to/manage-multifactor-authentication-for-users-in-office-365/).
 
 ### Add and verify your domain
 
@@ -53,7 +53,7 @@ If you do not have a roadmap to follow from start to finish, migrating email dat
 
 ### Manage and secure user accounts
 
-To protect your organization's data, we recommend that you configure all user accounts to use multi-factor authentication. See  [Manage multi-factor authentication for users in Office 365](/support/how-to/manage-multi-factor-authentication-for-users-in-office-365/).
+To protect your organization's data, we recommend that you configure all user accounts to use multifactor authentication. See  [Manage multifactor authentication for users in Office 365](/support/how-to/manage-multifactor-authentication-for-users-in-office-365/).
 
 ### Configure your domain to receive email
 

@@ -105,4 +105,4 @@ Often when a user is compromised, the compromised account is used to send spam, 
 
 ### Additional information
 
-Having a compromised user can negatively impact your business. To reduce the risk of an account compromise, consider enforcing strong password policies and enabling [multi-factor authentication for users in Office 365](/support/how-to/manage-multi-factor-authentication-for-users-in-office-365/).
+Having a compromised user can negatively impact your business. To reduce the risk of an account compromise, consider enforcing strong password policies and enabling [multifactor authentication for users in Office 365](/support/how-to/manage-multifactor-authentication-for-users-in-office-365/).

@@ -93,7 +93,7 @@ Take the following security measure at the account level:
   for your team. Use strong passwords, security questions, and answers for
   each team member.
 - Configure [two-factor
-  authentication](/support/how-to/myrackspace-multi-factor-authentication/).
+  authentication](/support/how-to/myrackspace-multifactor-authentication/).
 
 #### Infrastructure level
 

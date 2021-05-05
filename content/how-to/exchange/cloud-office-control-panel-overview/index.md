@@ -145,7 +145,7 @@ Following are the options available for the account section:
 -  **Generate API Key** - Generate your API access key for your domain.
 -  **Admin Information** - Manage your administrator profile and contact information.
 -  **Security Question** - Manage your own Security Question and Answer.
--  **Multi-Factor Authentication** - Manage your multi-factor authentication (MFA) setings, including disabling MFA and setting up MFA with a new device.
+-  **Multi-Factor Authentication** - Manage your multifactor authentication (MFA) setings, including disabling MFA and setting up MFA with a new device.
 -  **Trusted Devices** - List the current devices you have selected to trust when accessing the Control Panel.
 -  **Notifications** - Manage which account related notifications you wish to receive.
 -  **Security Settings** - Manage additional security options, including Password Expiration and Login IP Restriction.

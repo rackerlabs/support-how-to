@@ -74,7 +74,7 @@ the Outlook for Android mobile application:
 1. If you are unsure whether you have the correct password or not, you can test your credentials by attempting to sign
    in at [portal.office.com](https://portal.office.com).
 
-2. When you try to configure an Office 365 user that has multi-factor authentication (MFA) enabled, the Outlook mobile
+2. When you try to configure an Office 365 user that has multifactor authentication (MFA) enabled, the Outlook mobile
    application asks you for the default MFA verification method to proceed when signing in. You don't need to generate
    an app password for use with the Outlook mobile application.
 

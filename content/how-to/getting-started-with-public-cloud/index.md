@@ -33,7 +33,7 @@ Whether you are designing, testing, or are ready to launch your application into
 
 Now that you have created an account, there are a few things you should do to prevent surprises.
 
-1. Protect your account by enabling [Multi-factor authentication](/support/how-to/multi-factor-authentication-from-the-cloud-control-panel/). Multi-factor authentication is a free tool that can greatly decrease the chances of your account being compromised.
+1. Protect your account by enabling [Multifactor authentication](/support/how-to/multifactor-authentication-from-the-cloud-control-panel/). Multifactor authentication is a free tool that can greatly decrease the chances of your account being compromised.
 
 2. Public Cloud is billed on an hourly basis, and resources such as file storage and traffic can have varying costs. For this reason, you should [create a billing threshold notification](/support/how-to/billing-services-overview/#set-a-billing-threshold/) that alerts you to unexpected billing changes.
 

@@ -48,7 +48,7 @@ Use the following steps to assign the Global Administrator role to a user:
 
 ### Securing your Global Administrator account
 
-As an administrator of your company’s email solution, you have a great deal of control over your account. If your administrator access is compromised, the results can be devastating to your business. A strong security policy is not complete without enabling multi-factor authentication. See [Manage multi-factor authentication for users in Office 365](/support/how-to/manage-multi-factor-authentication-for-users-in-office-365) for instructions.
+As an administrator of your company’s email solution, you have a great deal of control over your account. If your administrator access is compromised, the results can be devastating to your business. A strong security policy is not complete without enabling multifactor authentication. See [Manage multifactor authentication for users in Office 365](/support/how-to/manage-multifactor-authentication-for-users-in-office-365) for instructions.
 
 ### Additional information
 

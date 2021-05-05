@@ -27,7 +27,7 @@ account. Rackspace Intelligence has no separate login process.
 2.  At the Cloud Control Panel login page, log in as usual. If your
     account is configured to require it, you might need to perform
     additional steps to
-    [log in with multi-factor authentication](/support/how-to/multi-factor-authentication-from-the-cloud-control-panel).
+    [log in with multifactor authentication](/support/how-to/multifactor-authentication-from-the-cloud-control-panel).
 
 ### See different aspects of the same entities in Cloud Control Panel and Rackspace Intelligence
 

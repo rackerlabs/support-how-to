@@ -51,4 +51,4 @@ This article lists the steps to enable Azure Active Directory&reg; security defa
 
 To learn more about security defaults, see ["What are security defaults?"](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
 
-To learn more about setting up MFA with a mobile device, see [Set up two-factor sign-in on your phone](https://support.office.com/en-us/article/set-up-multi-factor-authentication-in-microsoft-365-business-a32541df-079c-420d-9395-9d59354f7225).
+To learn more about setting up MFA with a mobile device, see [Set up two-factor sign-in on your phone](https://support.office.com/en-us/article/set-up-multifactor-authentication-in-microsoft-365-business-a32541df-079c-420d-9395-9d59354f7225).

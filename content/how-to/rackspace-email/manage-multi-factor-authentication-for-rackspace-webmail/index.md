@@ -1,7 +1,7 @@
 ---
-permalink: manage-multi-factor-authentication-for-rackspace-webmail/
+permalink: manage-multifactor-authentication-for-rackspace-webmail/
 audit_date: '2020-10-05'
-title: Manage multi-factor authentication for Rackspace Webmail
+title: Manage multifactor authentication for Rackspace Webmail
 type: article
 created_date: '2020-10-05'
 created_by: Daniel Boyle
@@ -11,7 +11,7 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article describes how to manage multi-factor authentication for
+This article describes how to manage multifactor authentication for
 Rackspace Webmail.
 
 ### Prerequisites
@@ -23,28 +23,28 @@ Rackspace Webmail.
 For more information on prerequisite terminology, see
 [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
-Rackspace Webmail provides two options for enabling multi-factor
+Rackspace Webmail provides two options for enabling multifactor
 authentication when you first log in: text message authentication and mobile
 application authentication.
 
 ### Use text message authentication
 
-With text message multi-factor authentication, you can use your phone number to
+With text message multifactor authentication, you can use your phone number to
 receive a one-time code that allows you to access Webmail.
 
 1. Log in to [Rackspace Webmail](https://apps.rackspace.com/).
 2. When prompted to *Choose Your Multi-Factor Authentication Method*,
    select **Get A Text Message**.
-3. Enter the phone number that you want to use for multi-factor SMS messaging.
+3. Enter the phone number that you want to use for multifactor SMS messaging.
 4. Enter the code sent to your phone in the verification field and then click
    **Verify Code**.
 
 A message stating *You have successfully set up Multi-Factor Authentication*
 displays.
 
-### Use a multi-factor authentication mobile application
+### Use a multifactor authentication mobile application
 
-Mobile applications for authentication enable you to manage multi-factor
+Mobile applications for authentication enable you to manage multifactor
 authentication for multiple accounts in one place without having to provide
 your phone number.
 
@@ -56,9 +56,9 @@ your phone number.
 4. The last step displays a message stating *You have successfully set up
    Multi-Factor Authentication*.
 
-### Log in to Webmail with multi-factor authentication
+### Log in to Webmail with multifactor authentication
 
-After you have enabled multi-factor authentication, use the following steps
+After you have enabled multifactor authentication, use the following steps
 when you log in to Rackspace Webmail:
 
 1. Log in to [Rackspace Webmail](https://apps.rackspace.com/) by using your
@@ -69,10 +69,10 @@ when you log in to Rackspace Webmail:
 4. Click **Verify My Code**.
 
 
-### Enable or disable multi-factor authentication
+### Enable or disable multifactor authentication
 
-If your account administrator has multi-factor authentication configured as
-optional for your account, you can enable or disable multi-factor
+If your account administrator has multifactor authentication configured as
+optional for your account, you can enable or disable multifactor
 authentication in your account settings.
 
 1. Log in to [Rackspace Webmail](https://apps.rackspace.com/).
@@ -80,17 +80,17 @@ authentication in your account settings.
 3. Slide the Multi-Factor Authentication setting to either the **On** or
    **Off** position.
 
-   1. When you select **On**, the system displays the multi-factor
+   1. When you select **On**, the system displays the multifactor
       authentication setup screen if you don't have password recovery enabled.
    2. If you have password recovery enabled, the system uses the authentication
       type configured for password recovery.
-   3. If you select **Off**, multi-factor authentication is immediately
+   3. If you select **Off**, multifactor authentication is immediately
       disabled.
 
 {{<image src="mfa-settings.png" alt="" title="">}}
 
 
-### Reset multi-factor authentication
+### Reset multifactor authentication
 
 You might need to perform these steps if you want to change your
 authentication method or set up a new device.
@@ -105,11 +105,11 @@ authentication method or set up a new device.
    the previous sections for instructions to set up your preferred
    authentication type.
 
-### Manage multi-factor authentication on linked devices
+### Manage multifactor authentication on linked devices
 
 If you access your Rackspace Webmail account on multiple devices, you can
 manage which devices are trusted and no longer receive a prompt for
-multi-factor authentication when you log in. You can also remove devices from
+multifactor authentication when you log in. You can also remove devices from
 the trusted list.
 
 1. Log in to [Rackspace Webmail](https://apps.rackspace.com/).
@@ -123,5 +123,5 @@ the trusted list.
    {{<image src="mfa-trusted-devices.png" alt="" title="">}}
 
 If you remove a device from the **Trusted Devices** list, you must use
-multi-factor authentication when you next log in to your account on that
+multifactor authentication when you next log in to your account on that
 device.

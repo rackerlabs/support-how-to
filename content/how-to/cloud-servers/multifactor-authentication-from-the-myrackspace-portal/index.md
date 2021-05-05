@@ -52,7 +52,7 @@ to complete the setup process.
 - You cannot configure multifactor authentication from the Cloud Control Panel
     inside of the MyRackspace Portal. You must log in to the
     [Cloud Office Control Panel](https://login.rackspace.com) and use these
-    [instructions](/support/how-to/multi-factor-authentication-from-the-cloud-control-panel/)
+    [instructions](/support/how-to/multifactor-authentication-from-the-cloud-control-panel/)
     to set up your users for the Cloud Control Panel.
 
 - Administrators cannot set up devices for users. Users must configure their own
@@ -72,7 +72,7 @@ To register and verify an SMS device, use the following steps:
 2. In the upper-right corner of the Cloud Control Panel, click the **user** menu
     and select **My Profile & Settings**.
 
-3. In the **Security Settings** section, select **Enable** for **Multi-factor
+3. In the **Security Settings** section, select **Enable** for **Multifactor
     authentication**.
 
 4. Select **User SMS** and click **Next**.
@@ -109,7 +109,7 @@ To register and verify a mobile code device, use the following steps:
 2. In the upper-right corner of the Cloud Control Panel, click the user menu and
     select **My Profile & Settings**.
 
-3. In the **Security Settings** section, select **Enable** for **Multi-factor
+3. In the **Security Settings** section, select **Enable** for **Multifactor
     authentication**.
 
 4. Select **User a Mobile App** and click **Next**.
@@ -135,7 +135,7 @@ To register and verify a mobile code device, use the following steps:
 8. In the Panel, enter your username and password. Then, enter the verification
     code from the OTP device that you paired with your account.
 
-### Change the default multi-factor authentication method
+### Change the default multifactor authentication method
 
 If your account has been configured with both SMS and OTP devices, you can
 select the default multifactor authentication method from the **My Profile &
@@ -149,7 +149,7 @@ Settings** page.
 3. In the **Security Settings** section, under **Multi-Factor Authentication**,
    select **Manage**.
 
-4. In the **Security Settings** section, select **Enable** for **Multi-factor
+4. In the **Security Settings** section, select **Enable** for **Multifactor
     authentication**.
 
 5. Under **Method**, select **Switch to SMS** if you set up a Mobile App or **Switch
@@ -173,7 +173,7 @@ following steps:
 
 4. Click the pencil icon to edit the **Require Multi-Factor** setting.
 
-5. In the account-wide **multi-factor authentication** pop-up dialog box, select
+5. In the account-wide **multifactor authentication** pop-up dialog box, select
     an option to set the policy for account users. Then, click **Save Setting**
     to apply the change.
 
@@ -304,7 +304,7 @@ configuring and using multifactor authentication.
 <td align="left">If you enter an incorrect code more than six times during the multifactor authentication process, your account will be locked. Contact Rackspace Support to restore access to a locked account. </td>
 </tr>
 <tr class="odd">
-<td align="left"><h4 id="cannot-link-cloud-account-in-myrackspace-with-multi-factor-enabled"><strong><strong><strong>Cannot link cloud account in MyRackspace with multi-factor enabled</strong></strong></strong></h4></td>
+<td align="left"><h4 id="cannot-link-cloud-account-in-myrackspace-with-multifactor-enabled"><strong><strong><strong>Cannot link cloud account in MyRackspace with multifactor enabled</strong></strong></strong></h4></td>
 <td align="left"><p>If you are using MyRackspace, you can't link to an existing Rackspace Cloud account enabled for multifactor authentication.</p></td>
 </tr>
 <tr class="even">

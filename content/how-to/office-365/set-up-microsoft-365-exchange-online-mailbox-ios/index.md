@@ -49,6 +49,6 @@ For additional information about Microsoft 365 licensing, see our [Product Compa
 
 7. Click **Accept** > **Save**.
 
-**Note**: If your organization requires multi-factor authentication or
+**Note**: If your organization requires multifactor authentication or
 self-service password reset registration, you might be prompted for additional
 verification methods during the setup process.

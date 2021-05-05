@@ -22,7 +22,7 @@ product_url: rackspace-email
 For more information about prerequisite terminology, see
 [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
-Multi-factor authentication (MFA) requires users to give a second form of
+Multifactor authentication (MFA) requires users to give a second form of
 authentication when accessing their accounts. This second form of authentication
 is an extra layer of security and minimizes the chances of account compromise.
 
@@ -68,7 +68,7 @@ mobile app for use with your Cloud Office Control Panel admin login:
    six-digit code displayed by the `Microsoft Authenticator` app into the Cloud
    Office Control Panel field, and select **Verify Code**.
 
-7. When the code verifies, a message appears stating that the multi-factor
+7. When the code verifies, a message appears stating that the multifactor
    authentication setup completed successfully. You can now select **Got It** to
    begin performing administrative tasks within the Cloud Office Control Panel.
 
@@ -111,7 +111,7 @@ use with your Cloud Office Control Panel administrator login:
    six-digit code displayed by the `Google Authenticator` app into the Cloud Office
    Control Panel field, and select **Verify Code**.
 
-8. When the code verifies, a message appears stating that the multi-factor
+8. When the code verifies, a message appears stating that the multifactor
    authenticator setup completed successfully. You can now select **Got It** to
    begin performing administrative tasks within the Cloud Office Control Panel.
 
@@ -154,7 +154,7 @@ Cloud Office Control Panel administrator login:
    six-digit code displayed by the `Authy` app in the Cloud Office Control Panel
    field and select **Verify Code**.
 
-9. When the code verifies, a message appears stating that the multi-factor
+9. When the code verifies, a message appears stating that the multifactor
    authenticator setup completed successfully. You can now select **Got It** to
    begin performing administrative tasks within the Cloud Office Control Panel.
 
@@ -201,7 +201,7 @@ version of `Authy` as an alternative by following the steps listed below:
    six-digit `Authy` code into the appropriate field within the Cloud Office
    Control Panel.
 
-10. When the code verifies, a message appears stating that the multi-factor
+10. When the code verifies, a message appears stating that the multifactor
     authenticator setup completed successfully. You can now select **Got It** to
     begin performing administrative tasks within the Cloud Office Control Panel.
 
@@ -212,12 +212,12 @@ version of `Authy` as an alternative by following the steps listed below:
   for assistance with resetting any existing authentication methods via the
   Cloud Office Control Panel.
 
-- After successfully configuring multi-factor authentication for your Cloud
+- After successfully configuring multifactor authentication for your Cloud
   Office Control Panel administrator login, you can opt to add a
   **Backup Number** within the Cloud Office Control Panel as an alternate
   verification method. If you cannot use your primary authentication method,
   having a **Backup Number** can prevent you from having to reset your
-  multi-factor authentication method.
+  multifactor authentication method.
 
 - You can configure more than one  device to use the same authentication method
   for your Cloud Office Control Panel. Having access to a backup authentication

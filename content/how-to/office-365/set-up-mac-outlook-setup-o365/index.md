@@ -87,7 +87,7 @@ If you are unable to connect to the server, use the following steps:
 
 2.  Verify that autodiscover has been configured correctly for your domain. For more information, see (Create DNS records using Windows-based DNS)[https://docs.microsoft.com/en-us/microsoft-365/admin/dns/create-dns-records-using-windows-based-dns?view=o365-worldwide].
 
-3.  Contact your administrator to see if multi-factor authentication has been enabled for your organization.
+3.  Contact your administrator to see if multifactor authentication has been enabled for your organization.
 
 ### Basic functions in Outlook
 

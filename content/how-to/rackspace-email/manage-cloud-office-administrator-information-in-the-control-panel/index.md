@@ -102,7 +102,7 @@ Use the following steps to modify your **Multi-Factor Authentication** settings 
 3. Enter your **Backup Number** in the field provided, then click **Update Multi-Factor Authentication** to save your changes.
 
 
-**Switch your multi-factor authentication method from SMS text message delivery to mobile app delivery:**
+**Switch your multifactor authentication method from SMS text message delivery to mobile app delivery:**
 
 1. Click the **Arrow** next to **Edit Multi-Factor Authentication**, then click **Switch to mobile app delivery**.
 
@@ -119,7 +119,7 @@ Use the following steps to modify your **Multi-Factor Authentication** settings 
 **Note:** For more in-depth set-up instructions regarding mobile authenticator apps, please refer to our [Multi-Factor Authentication Mobile App](https://docs.rackspace.com/support/how-to/set-up-multifactor-authentification-applications-for-cloud-office/) guide.
 
 
-**Switch your multi-factor authentication method from mobile app delivery to SMS text message delivery:**
+**Switch your multifactor authentication method from mobile app delivery to SMS text message delivery:**
 
 1. Click the **Arrow** next to **Edit Multi-Factor Authentication**, then click **Switch to SMS Text Message Delivery**.
 
@@ -131,7 +131,7 @@ Use the following steps to modify your **Multi-Factor Authentication** settings 
 #### Trusted devices
 
 
-*Trusted devices* allow a Cloud Office administrator to log in from specified devices without being prompted for multi-factor authentication on each login attempt. Adminstrators can establish trusted devices when they log in from a new device by opting to **Remember This Device** during the initial sign-in process.
+*Trusted devices* allow a Cloud Office administrator to log in from specified devices without being prompted for multifactor authentication on each login attempt. Adminstrators can establish trusted devices when they log in from a new device by opting to **Remember This Device** during the initial sign-in process.
 
 Use the following steps to modify your **Trusted Devices** within the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
 

@@ -24,15 +24,15 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 As an administrator of your company's email solution, you have a great deal of control over your account. If your administrator access is compromised, the results can be devastating to your business. A strong security policy is not complete without enabling two-factor authentication.
 
-### Multi-factor authentication options
+### Multifactor authentication options
 
 The Cloud Office Control Panel provides two options for enabling multifactor authentication when you first log in. Upon login you are required to set up multifactor authentication.
 
-#### Use text message multi-factor authentication
+#### Use text message multifactor authentication
 
-With text message multi-factor authentication, you can use your phone number to receive a one-time code that allows you access to the control panel.
+With text message multifactor authentication, you can use your phone number to receive a one-time code that allows you access to the control panel.
 
-Use the following steps to enable text message multi-factor authentication:
+Use the following steps to enable text message multifactor authentication:
 
 1. Log in to your [Cloud Office Control Panel](https://cp.rackspace.com).
 
@@ -45,9 +45,9 @@ Use the following steps to enable text message multi-factor authentication:
 5. The last step displays the following message: **You have successfully set up Multi-Factor Authentication!**
 
 
-#### Use a multi-factor authentication mobile application
+#### Use a multifactor authentication mobile application
 
-Use the following steps to enable a mobile multi-factor authentication application:
+Use the following steps to enable a mobile multifactor authentication application:
 
 1. Log in to your [Cloud Office Control Panel](https://cp.rackspace.com).
 
@@ -88,9 +88,9 @@ You might need to perform these steps if an administrator gets a new device with
 You have successfully reset MFA for this administrator. They will be prompted to set it up again on their next login attempt.
 
 
-### Manage multi-factor authentication linked devices
+### Manage multifactor authentication linked devices
 
-You have the option to trust devices when using multi-factor authentication. This option is to trust a device is presented to you the first time you set up multi-factor authentication on that device.
+You have the option to trust devices when using multifactor authentication. This option is to trust a device is presented to you the first time you set up multifactor authentication on that device.
 
 Use the following instructions to edit your trusted devices:
 
