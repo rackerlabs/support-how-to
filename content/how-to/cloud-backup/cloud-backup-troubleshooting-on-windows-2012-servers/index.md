@@ -1,5 +1,5 @@
 ---
-permalink: cloud-backup-troubleshooting-on-windows-2012-servers/
+permalink: cloud-backup-troubleshooting-on-windows-2012-servers
 audit_date:
 title: Cloud Backup - Basic troubleshooting on Windows Server 2012
 type: article

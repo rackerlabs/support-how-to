@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-backup-preferences/
+permalink: rackspace-cloud-backup-preferences
 audit_date: '2020-10-14'
 title: Cloud Backup Preferences
 type: article

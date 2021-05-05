@@ -1,5 +1,5 @@
 ---
-permalink: view-an-access-list-rules-with-firewall-manager-v2/
+permalink: view-an-access-list-rules-with-firewall-manager-v2
 audit_date: '2018-07-18'
 title: View access list rules with Firewall Manager v2
 type: article

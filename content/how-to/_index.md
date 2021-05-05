@@ -14,9 +14,9 @@ permalink: /support/how-to/
       <ul class="nav nav-tabs responsive-tabs filter-product-type row" id= "nav-tab" role="tablist">
         <li class="tablink" id="gs-ctrl" ><a href="#getting-started" onclick="openTab(event, 'gs-display');">Getting Started</a></li>
         <li class="tablink" id="cloud-ctrl"><a href="#cloud-hosting" onclick="openTab(event, 'cloud-display');">Cloud Services</a></li>
-        <div class="tablink" id="office-ctrl"><a href="#cloud-office"  onclick="openTab(event, 'office-display');">Cloud Office</a></div>
-        <div class="tablink" id="rpc-ctrl"><a href="#private-cloud"  onclick="openTab(event, 'rpc-display');">Private Cloud</a></div>
-        <div class="tablink"><a href="/support/how-to/account-management">Account Management</a></div>
+        <li class="tablink" id="office-ctrl"><a href="#cloud-office"  onclick="openTab(event, 'office-display');">Cloud Office</a></li>
+        <li class="tablink" id="rpc-ctrl"><a href="#private-cloud"  onclick="openTab(event, 'rpc-display');">Private Cloud</a></li>
+        <li class="tablink"><a href="/support/how-to/account-management">Account Management</a></li>
       </ul>
     </div>
   </div>

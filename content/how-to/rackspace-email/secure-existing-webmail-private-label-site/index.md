@@ -1,5 +1,5 @@
 ---
-permalink: secure-existing-webmail-private-label-site/
+permalink: secure-existing-webmail-private-label-site
 audit_date: '2018-03-07'
 title: Secure existing Webmail private label site
 type: article

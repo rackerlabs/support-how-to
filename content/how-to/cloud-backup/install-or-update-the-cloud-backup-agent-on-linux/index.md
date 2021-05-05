@@ -1,5 +1,5 @@
 ---
-permalink: install-or-update-the-cloud-backup-agent-on-linux/
+permalink: install-or-update-the-cloud-backup-agent-on-linux
 audit_date: '2018-02-20'
 title: 'Install or update the Cloud Backup agent on Linux (Deprecated)'
 type: article

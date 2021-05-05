@@ -1,54 +1,65 @@
 ---
-permalink: export-archive-search-results-in-cloud-office/
-audit_date:
-title: Export archive search results in Cloud Office
+permalink: export-archive-search-results-in-cloud-office
+audit_date: '2019-11-11'
+title: 'Export archive search results in Cloud Office'
 type: article
-created_date: '2015-05-18'
-created_by: Beau Bailey
-last_modified_date: '2016-01-26'
-last_modified_by: Catherine Richardson
+created_date: '2019-11-11'
+created_by: Joe Brooks
+last_modified_date: '2020-11-09'
+last_modified_by: Stephanie Fillmon
 product: Rackspace Email Archiving
 product_url: rackspace-email-archiving
 ---
 
-Archive search results can be exported to share with outside parties.
-This can be helpful for auditing or legal requests, as well as historic
-activity review by a team.
+You can export archive search results to share with outside parties,
+which is helpful for auditing or legal requests, as well as reviewing
+historic team activity.
 
-Complete the following steps to export the results of a search in
-the Archive Manager.
+### Prerequisites
 
-1.  Log in to the [Archive
-    Manager](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f).
-    For more information, see [Log in to the Archive
-    Manager](/support/how-to/log-in-to-the-archive-manager).
+- **Applies to:** Administrator, Compliance Officer, and Search Administrator
+- **Difficulty:** Easy
+- **Time needed:** Approximately 10 minutes
+- **Tools required:** Archive Portal access
 
-2.  In the upper-right corner of the window, click **Search** to access
-    the Search dashboard.
+### Export search results
 
-    **Note:** There are three dashboards for top level administrators: **Search**,  **Admin**, and **Admin User**.
+Complete the following steps to export the results of a search in the Archive Manager.
 
-3.  Click the **Search** tab.
+1.  Log in to the [Archive Manager](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f).
 
-4.  Locate the search name that you want to export, and click the
-    **View** option.
+    For more information, see [Log in to the Archive Manager](/support/how-to/log-in-to-the-archive-manager).
 
-5.  Select the type of export: PST, File (.eml format), Text, PDF, or
-    HTML.
+2.  On the left side of the dashboard, click **Searches**.
 
-6.  (*Optional*) Add a note that will be displayed next to the export
-    file in the search list*.*
+3. 	Locate the search name to be exported and click **Run**.
 
-7.  (*Optional*) Select to be notified by email when the file is ready
-    for download.
+    {{<image src="Export-archive-search-results-1.png" alt="" title="">}}
 
-8.  Click **Export**.
+    **Note**: This option is available to users with **Administrator**, **Compliance Officer**, or
+    **Search Administrator** permissions.
 
-9.  To begin the download process, click the **Search** tab.
+4. 	Check the box for the messages to be exported and click the **Export** icon above the message list.
 
-10. Locate the search that you exported, and click the number in the
-    **Exp** column.
+    {{<image src="Export-archive-search-results-2.png" alt="" title="">}}
 
-    All export files for this search are displayed.
+5.  Click **Next** to confirm the number of messages to exported.
 
-11. Click the file name to save the file.
+    {{<image src="Export-archive-search-results-3.png" alt="" title="">}}
+
+    **Note**: You can export searches with a maximum of 30,000 results or a total size of 20 gigabytes,
+    whichever limit comes first.
+
+6.  Select a format, **EML**, .**PST**, or .**PDF** and click **Next**.
+
+7.  Enter an **Export Name** and check the box to receive an email notification when the export is ready.
+
+8.  Click **Request Export**.
+
+9.  To begin the download process, click the **Exports** tab.
+
+10. Locate the search that was exported and click **Download**.
+
+    {{<image src="Export-archive-search-results-4.png" alt="" title="">}}
+
+    **Note**: The export remains available for approximately 30 days.

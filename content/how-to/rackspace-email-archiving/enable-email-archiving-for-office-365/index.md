@@ -1,5 +1,5 @@
 ---
-permalink: enable-email-archiving-for-office-365/
+permalink: enable-email-archiving-for-office-365
 audit_date: '2018-02-08'
 title: Enable email archiving for Office 365
 type: article

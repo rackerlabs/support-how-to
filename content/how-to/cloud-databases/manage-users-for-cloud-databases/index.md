@@ -1,5 +1,5 @@
 ---
-permalink: manage-users-for-cloud-databases/
+permalink: manage-users-for-cloud-databases
 audit_date: '2020-09-18'
 title: Manage users for Cloud Databases
 type: article

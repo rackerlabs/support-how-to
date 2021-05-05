@@ -1,5 +1,5 @@
 ---
-permalink: creating-a-centos-65-image-for-the-rackspace-open-cloud/
+permalink: creating-a-centos-65-image-for-the-rackspace-open-cloud
 audit_date:
 title: Create a CentOS 6.5 image for the Rackspace open cloud
 type: article

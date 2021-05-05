@@ -1,5 +1,5 @@
 ---
-permalink: add-disk-space-to-server-or-hypervisor/
+permalink: add-disk-space-to-server-or-hypervisor
 audit_date: '2019-12-12'
 title: Add disk space to a server or hypervisor
 type: article

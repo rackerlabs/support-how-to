@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-the-rackconnect-v30-api/
+permalink: getting-started-with-the-rackconnect-v30-api
 audit_date: '2019-10-09'
 title: Get started with the RackConnect v3.0 API
 type: article
@@ -57,7 +57,7 @@ You can use either one of the following combinations of credentials to
 obtain your authentication token ID:
 
 -   Your Rackspace cloud account username and API key. (For information
-    about how to find your API key, see [View and reset your API key](/support/how-to/view-and-reset-your-api-key).)
+    about how to find your API key, see [your API key](/support/how-to/view-and-reset-your-api-key).)
 -   Your Rackspace cloud account username and password.
 
 Insert your cloud account's values in the following requests where

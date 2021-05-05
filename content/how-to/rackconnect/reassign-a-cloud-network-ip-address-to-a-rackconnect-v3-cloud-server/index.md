@@ -1,5 +1,5 @@
 ---
-permalink: reassign-a-cloud-network-ip-address-to-a-rackconnect-v3-cloud-server/
+permalink: reassign-a-cloud-network-ip-address-to-a-rackconnect-v3-cloud-server
 audit_date: '2019-12-16'
 title: Reassign a Cloud Network IP address to a RackConnect v3 Cloud Server
 type: article

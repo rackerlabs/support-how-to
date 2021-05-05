@@ -1,5 +1,5 @@
 ---
-permalink: properties-of-rdbmss-and-nosql-databases/
+permalink: properties-of-rdbmss-and-nosql-databases
 audit_date: '2019-11-14'
 title: 'Properties of RDBMSs and NoSQL databases'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: private-cloud-tech-resources/
+permalink: private-cloud-tech-resources
 audit_date:
 title: Private Cloud Tech Resources
 type: article

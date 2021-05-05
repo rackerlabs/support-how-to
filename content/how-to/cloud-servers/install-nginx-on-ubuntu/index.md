@@ -1,5 +1,5 @@
 ---
-permalink: install-nginx-on-ubuntu/
+permalink: install-nginx-on-ubuntu
 audit_date: '2020-07-23'
 title: Install Nginx on Ubuntu
 type: article

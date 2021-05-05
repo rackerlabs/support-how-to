@@ -1,5 +1,5 @@
 ---
-permalink: support-pin-faq/
+permalink: support-pin-faq
 audit_date: '2019-07-09'
 title: Support PIN FAQ
 type: article

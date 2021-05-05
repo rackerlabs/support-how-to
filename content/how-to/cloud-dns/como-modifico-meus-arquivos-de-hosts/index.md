@@ -1,5 +1,5 @@
 ---
-permalink: como-modifico-meus-arquivos-de-hosts/
+permalink: como-modifico-meus-arquivos-de-hosts
 audit_date: '2018-09-11'
 title: Como modifico meus arquivos de hosts?
 type: article

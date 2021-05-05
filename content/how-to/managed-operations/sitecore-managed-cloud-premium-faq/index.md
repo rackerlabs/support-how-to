@@ -1,5 +1,5 @@
 ---
-permalink: sitecore-managed-cloud-premium-faq/
+permalink: sitecore-managed-cloud-premium-faq
 audit_date:
 title: Sitecore Managed Cloud Premium FAQ
 type: article

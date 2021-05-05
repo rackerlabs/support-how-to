@@ -1,5 +1,5 @@
 ---
-permalink: cloud-databases-faq/
+permalink: cloud-databases-faq
 audit_date: '2018-03-29'
 title: Cloud Databases FAQ
 type: article

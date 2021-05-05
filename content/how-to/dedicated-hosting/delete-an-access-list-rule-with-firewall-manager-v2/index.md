@@ -1,5 +1,5 @@
 ---
-permalink: delete-an-access-list-rule-with-firewall-manager-v2/
+permalink: delete-an-access-list-rule-with-firewall-manager-v2
 audit_date: '2018-07-18'
 title: Delete an access-list with Firewall Manager v2
 type: article

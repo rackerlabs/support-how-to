@@ -1,5 +1,5 @@
 ---
-permalink: prepare-to-migrate-a-windows-server/
+permalink: prepare-to-migrate-a-windows-server
 audit_date: '2016-11-18'
 title: Prepare to migrate a Windows server
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: import-email-address-data-into-outlook-2016-for-mac/
+permalink: import-email-address-data-into-outlook-2016-for-mac
 audit_date: '2017-10-19'
 title: Import email address data into Outlook 2016 for Mac OS
 type: article

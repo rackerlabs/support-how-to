@@ -1,5 +1,5 @@
 ---
-permalink: set-up-rackspace-email-forwarding/
+permalink: set-up-rackspace-email-forwarding
 audit_date: '2019-01-09'
 title: Set up Rackspace Email forwarding
 type: article

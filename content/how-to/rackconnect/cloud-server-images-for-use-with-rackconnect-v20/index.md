@@ -1,5 +1,5 @@
 ---
-permalink: cloud-server-images-for-use-with-rackconnect-v20/
+permalink: cloud-server-images-for-use-with-rackconnect-v20
 audit_date: '2019-12-16'
 title: Cloud Servers images for use with RackConnect v2.0
 type: article

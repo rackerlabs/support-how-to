@@ -1,11 +1,11 @@
 ---
-permalink: install-an-ssl-certificate/
+permalink: install-an-ssl-certificate
 audit_date: '2018-10-23'
 title: Install an SSL certificate
 type: article
 created_date: '2018-10-23'
 created_by: Cat Lookabaugh
-last_modified_date: '2019-12-20'
+last_modified_date: '2021-04-28'
 last_modified_by: Stephanie Fillmon
 product: Cloud Servers
 product_url: cloud-servers
@@ -14,8 +14,12 @@ product_url: cloud-servers
 After you [generate a certificate signing request (CSR)](/support/how-to/generate-a-csr)
 and [purchase or renew a Secure Socket Layer (SSL) certificate](/support/how-to/purchase-or-renew-an-ssl-certificate/),
 you'll need to install it. This article shows you how to install an SSL
-certificate on various servers and operating systems. The following sections
-provide instructions for the installation process:
+certificate on various servers and operating systems.
+
+If you want to install an SSL certificate on a load balancer, see
+[Configure SSL certificates on Cloud Load Balancers](/support/how-to/configure-SSL-certificates-on-cloud-load-balancers).
+
+The following sections provide instructions for the installation process:
 
 - [Prerequisites](#prerequisites)
 
@@ -255,7 +259,7 @@ that the **ssl_certificate_key** file matches your key file.
 
 ### Install certificate on Managed Hosting solutions
 
-If you have requested an SSL certificate for your Rackspace Managed Hosting
+If you have requested an SSL certificate for your Rackspace managed
 server by submitting a Rackspace ticket, Rackspace installs the certificate
 for you.  You should provide details including where you want the certificate
 installed and your private key file.

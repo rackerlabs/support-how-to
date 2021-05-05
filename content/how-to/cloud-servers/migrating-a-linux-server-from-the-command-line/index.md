@@ -1,5 +1,5 @@
 ---
-permalink: migrating-a-linux-server-from-the-command-line/
+permalink: migrating-a-linux-server-from-the-command-line
 audit_date: '2016-08-03'
 title: Migrating a Linux server from the command line
 type: article

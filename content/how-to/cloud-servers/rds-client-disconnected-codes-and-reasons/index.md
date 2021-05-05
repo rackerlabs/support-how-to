@@ -1,5 +1,5 @@
 ---
-permalink: rds-client-disconnected-codes-and-reasons/
+permalink: rds-client-disconnected-codes-and-reasons
 audit_date: '2020-06-30'
 title: 'RDS client disconnected codes and reasons'
 type: article

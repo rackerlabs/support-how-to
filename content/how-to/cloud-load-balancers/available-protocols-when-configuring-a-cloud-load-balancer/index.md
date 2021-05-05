@@ -1,5 +1,5 @@
 ---
-permalink: available-protocols-to-configure-a-cloud-load-balancer/
+permalink: available-protocols-to-configure-a-cloud-load-balancer
 audit_date: '2020-10-01'
 title: Available protocols to configure a Cloud Load Balancer
 type: article

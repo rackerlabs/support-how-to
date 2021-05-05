@@ -1,5 +1,5 @@
 ---
-permalink: configure-and-troubleshoot-ntfs-permissions/
+permalink: configure-and-troubleshoot-ntfs-permissions
 audit_date: '2020-06-12'
 title: Configure and troubleshoot NTFS permissions
 type: article

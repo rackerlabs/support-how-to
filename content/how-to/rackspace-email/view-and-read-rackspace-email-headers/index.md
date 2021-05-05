@@ -1,5 +1,5 @@
 ---
-permalink: view-and-read-rackspace-email-headers/
+permalink: view-and-read-rackspace-email-headers
 audit_date: '2018-06-01'
 title: View and read Rackspace Email headers
 type: article

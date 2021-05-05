@@ -1,5 +1,5 @@
 ---
-permalink: alert-logic-and-diffie-hellman/
+permalink: alert-logic-and-diffie-hellman
 audit_date: '2020-02-03'
 title: 'Alert Logic and Diffie-Hellman'
 type: article

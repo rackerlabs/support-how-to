@@ -1,5 +1,5 @@
 ---
-permalink: scheduled-images-faq/
+permalink: scheduled-images-faq
 audit_date:
 title: Scheduled Images FAQ
 type: article

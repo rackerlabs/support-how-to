@@ -1,5 +1,5 @@
 ---
-permalink: multi-region-support-in-cloud-files/
+permalink: multi-region-support-in-cloud-files
 audit_date: '2018-10-22'
 title: Multi-region support in Cloud Files
 type: article

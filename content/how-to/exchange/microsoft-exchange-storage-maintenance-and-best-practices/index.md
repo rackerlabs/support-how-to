@@ -1,5 +1,5 @@
 ---
-permalink: microsoft-exchange-storage-maintenance-and-best-practices/
+permalink: microsoft-exchange-storage-maintenance-and-best-practices
 audit_date: '2017-07-06'
 title: Microsoft Exchange storage maintenance and best practices
 type: article

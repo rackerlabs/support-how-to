@@ -1,5 +1,5 @@
 ---
-permalink: troubleshooting-cdn-not-refreshing-issues/
+permalink: troubleshooting-cdn-not-refreshing-issues
 audit_date: '2018-09-25'
 title: Troubleshooting the Cloud Files CDN when files are not refreshing
 type: article

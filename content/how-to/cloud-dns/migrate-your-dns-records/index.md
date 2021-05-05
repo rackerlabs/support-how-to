@@ -1,5 +1,5 @@
 ---
-permalink: migrate-your-dns-records/
+permalink: migrate-your-dns-records
 audit_date: '2020-03-24'
 title: 'Migrate your DNS records'
 type: article

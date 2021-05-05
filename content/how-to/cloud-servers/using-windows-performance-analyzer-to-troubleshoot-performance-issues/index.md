@@ -1,5 +1,5 @@
 ---
-permalink: using-windows-performance-analyzer-to-troubleshoot-performance-issues/
+permalink: using-windows-performance-analyzer-to-troubleshoot-performance-issues
 audit_date: '2020-07-16'
 title: 'Using Windows Performance Analyzer to troubleshoot performance issues'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-a-downed-windows-cloud-server/
+permalink: troubleshoot-a-downed-windows-cloud-server
 audit_date: '2018-09-24'
 title: Troubleshoot a downed Windows cloud server
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-monitoring-faq/
+permalink: rackspace-monitoring-faq
 audit_date: '2017-01-24'
 title: Rackspace Monitoring FAQ
 type: article

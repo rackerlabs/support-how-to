@@ -1,5 +1,5 @@
 ---
-permalink: lon7-global-switch-data-center-migration-faq-for-colocation-customers/
+permalink: lon7-global-switch-data-center-migration-faq-for-colocation-customers
 audit_date: '2020-01-29'
 title: LON7 (Global Switch) data center migration FAQ for colocation customers
 type: article

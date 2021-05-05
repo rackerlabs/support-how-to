@@ -1,5 +1,5 @@
 ---
-permalink: change-to-new-primary-contact/
+permalink: change-to-new-primary-contact
 audit_date: '2018-03-13'
 title: Change an account's primary contact
 type: article
@@ -7,8 +7,6 @@ created_date: '2018-03-13'
 created_by: Rackspace Support
 last_modified_date: '2018-10-25'
 last_modified_by: Stephanie Fillmon
-product: Account Management
-product_url: account-management
 ---
 
 The primary contact for an account must be an active user. You can update the primary contact by using one of the following methods:

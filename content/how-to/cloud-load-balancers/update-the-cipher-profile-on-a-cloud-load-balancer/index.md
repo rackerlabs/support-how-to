@@ -1,5 +1,5 @@
 ---
-permalink: update-the-cipher-profile-on-a-cloud-load-balancer/
+permalink: update-the-cipher-profile-on-a-cloud-load-balancer
 audit_date: '2019-12-12'
 title: Update the cipher profile on a cloud load balancer
 type: article

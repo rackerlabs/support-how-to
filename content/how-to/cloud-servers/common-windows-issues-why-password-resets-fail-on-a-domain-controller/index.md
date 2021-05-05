@@ -1,5 +1,5 @@
 ---
-permalink: common-windows-issues-why-password-resets-fail-on-a-domain-controller/
+permalink: common-windows-issues-why-password-resets-fail-on-a-domain-controller
 audit_date:
 title: 'Common Windows Issues:  Why Password Resets Fail on a Domain Controller'
 type: article

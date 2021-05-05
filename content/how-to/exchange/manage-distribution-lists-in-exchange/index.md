@@ -1,87 +1,82 @@
 ---
-permalink: manage-distribution-lists-in-exchange/
-audit_date:
+permalink: manage-distribution-lists-in-exchange
+audit_date: '2020-12-29'
 title: Manage distribution lists in Exchange
 type: article
 created_date: '2014-11-18'
 created_by: Joanna Salazar
-last_modified_date: '2016-01-27'
-last_modified_by: Rose Coste
+last_modified_date: '2020-12-29'
+last_modified_by: Rose Morales
 product: Microsoft Exchange
 product_url: exchange
 ---
 
-When you create a distribution list in Hosted Microsoft Exchange,
-you are creating a group email address.
-When someone sends an email to that email address,
-the email is automatically sent to all the members of the distribution list.
-These members can be mailboxes within the domain,
-contacts outside of the domain, or both.
+When you create a distribution list in Hosted Microsoft&reg; Exchange, you are
+generating a group of email addresses. When someone sends an email to that email
+address, the email is automatically sent to all the members of the distribution
+list. These members can be mailboxes within the domain, contacts outside of the
+domain, or both.
 
 ### View all distribution lists
 
-To view all distribution lists, log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) and perform the following steps:
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/).
 
-1. Click the **Go to section** menu and select **Microsoft Exchange**.
-   {{<image src="dl1.png" alt="" title="">}}
+2. In the top navigation bar, click **Hosted Exchange > Lists**.
 
-2. Click the **Lists** tab.
-   {{<image src="DL6.png" alt="" title="">}}
+   {{<image src="list1.jpg" alt="" title="">}}
 
 3. If you have multiple domains, select the appropriate domain name.
-   To change domains at any time, click the arrow next to the currently selected domain.
-   {{<image src="DL7.png" alt="" title="">}}
 
-Starting from the list of distribution lists available in your domain,
-you can add, edit, or delete a distribution list.
-Follow the instructions below for the action you want to perform.
+   **Note**: To change domains at any time, click the arrow next to the domain.
+
+   {{<image src="list2.jpg" alt="" title="">}}
+
+Use the steps in the following sections for the available actions that you can perform.
 
 ### Add or edit a distribution list
 
-1. While viewing your distribution lists on the **Lists** tab,
-   click on the display name of the list you want to edit.
-	 If you are creating a new list, click **Add Distribution List**.
-   {{<image src="DL11.png" alt="" title="">}}
+1. In the distribution lists view, click the display name of the list that you want
+   to edit. If you are creating a new list, click **Add Distribution List**.
 
 2. On the **General** page, enter or edit the following fields:
 
     - **Display Name:** Enter a descriptive id for the list.
+    - **Email Address:** Enter a unique address ID such as *sales* or *staff* for the list.
+    - **Hide from Global Address List:** To hide the distribution list so that
+      it cannot by viewed by others from the Global Address List, select this
+      check box.
 
-    - **Email Address:** Enter a unique address ID such as *sales* or *staff*) for the list.
+3. To add a mailbox as a member of a list, select the check box next to
+   the mailbox `userID` in the **Members** section.
 
-    - **Hide from Global Address List:** To hide the distribution list
-		  so that it cannot by viewed by others from the Global Address List,
-			select this check box.
+   **Note**: The search tool is available to locate specific email addresses.
 
-3. To add a mailbox as a member of the list, select the check box next to
-   the mailbox userid in the **Members** section.
-	 Use the search tool to locate specific email addresses.
-   {{<image src="DL8.png" alt="" title="">}}
+   {{<image src="list3.png" alt="" title="">}}
 
 4. To configure the following optional sections, click **Advanced**:
 
-   - **Members:** Search tool to filter specific users.
+   - **Members:** Use the search tool to filter specific users.
+   - **Senders:** To assign who can send emails to this list, select **Anyone** or **Selected addresses on this domain**.
 
-   - **Senders:** To designate who can send email to this list,
-		 select **Anyone** or **Selected addresses on this domain**.
-		 If you select **Selected addresses on this domain**, specify the users.
+      **Note**: If you choose **Selected addresses on this domain**, specify the user or users.
+   
+   - **Email Addresses:** Create alias (or alternative) email addresses for the
+     list.
 
-   - **Email Addresses:** Create alias (or alternative) email addresses for the list.
-   {{<image src="DL9_0.png" alt="" title="">}}
+   {{<image src="list4.png" alt="" title="">}}
 
 5. Click **Create Distribution List** or **Save Distribution List**.
 
 ### Delete a distribution list
 
-1. While viewing your distribution lists on the **Lists** tab,
-   select the check box next to each list that you want to delete.
-	 To select all lists, select the check box that appears next to the
-	 **Delete** button at the bottom of the page.
+1. In the distribution lists view, select the check box next to each list that
+   you want to delete.
 
-2. Click **Delete**.
-   {{<image src="DL10.png" alt="" title="">}}
+   **Note**: To select all lists, select the check box that appears next to the **Delete** button at the bottom of the page.
 
-   A pop-up box appears to confirm that you want to delete the list.
+2. Click **Delete** and a pop-up box appears to confirm that you want to delete the list.
+   
+   {{<image src="list5.png" alt="" title="">}}
 
-3. Click **Delete** n **Distribution List**, where "n" is the number of lists
+3. Click **Delete** `n` **Distribution List**, where `n` is the number of lists
    that you selected.

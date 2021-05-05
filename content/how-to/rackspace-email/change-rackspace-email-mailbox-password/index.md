@@ -1,5 +1,5 @@
 ---
-permalink: change-rackspace-email-mailbox-password/
+permalink: change-rackspace-email-mailbox-password
 audit_date: '2020-06-11'
 title: Change a Rackspace Email mailbox password
 type: article

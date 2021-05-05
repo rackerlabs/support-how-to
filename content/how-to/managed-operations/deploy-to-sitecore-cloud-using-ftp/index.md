@@ -1,5 +1,5 @@
 ---
-permalink: deploy-to-sitecore-cloud-using-ftp/
+permalink: deploy-to-sitecore-cloud-using-ftp
 audit_date: '2017-05-02'
 title: Deploy to Sitecore Cloud using FTP
 type: article

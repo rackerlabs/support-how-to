@@ -1,5 +1,5 @@
 ---
-permalink: using-ntp-to-sync-time/
+permalink: using-ntp-to-sync-time
 audit_date: '2020-09-01'
 title: Use NTP to Sync Time
 type: article

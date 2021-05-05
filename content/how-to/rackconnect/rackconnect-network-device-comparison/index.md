@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-network-device-comparison/
+permalink: rackconnect-network-device-comparison
 audit_date: '2019-12-16'
 title: RackConnect network device comparison
 type: article

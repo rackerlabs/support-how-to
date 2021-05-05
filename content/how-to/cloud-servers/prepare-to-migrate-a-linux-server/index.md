@@ -1,5 +1,5 @@
 ---
-permalink: prepare-to-migrate-a-linux-server/
+permalink: prepare-to-migrate-a-linux-server
 audit_date: '2020-10-01'
 title: Prepare to migrate a Linux server
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: managing-role-based-access-control-rbac/
+permalink: managing-role-based-access-control-rbac
 audit_date: '2018-06-19'
 title: Use Role Based Access Control (RBAC)
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-apache-hadoop-on-rackspace-cloud/
+permalink: getting-started-with-apache-hadoop-on-rackspace-cloud
 audit_date:
 title: Get Started with Apache Hadoop on Rackspace Cloud
 type: article

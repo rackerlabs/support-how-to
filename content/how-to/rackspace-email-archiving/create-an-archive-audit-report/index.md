@@ -1,95 +1,58 @@
 ---
-permalink: create-an-archive-audit-report/
-audit_date:
+permalink: create-an-archive-audit-report
+audit_date: '2019-11-11'
 title: Create an archive audit report
 type: article
-created_date: '2015-05-18'
-created_by: Beau Bailey
-last_modified_date: '2015-01-26'
-last_modified_by: Kyle Laffoon
+created_date: '2019-11-11'
+created_by: Joe Brooks
+last_modified_date: '2020-11-09'
+last_modified_by: Stephanie Fillmon
 product: Rackspace Email Archiving
 product_url: rackspace-email-archiving
 ---
 
-**Note:** The information contained in this article is for Cloud Office
-account administrators only.
+This article describes how to create an archive audit report by using the Archive Manager.
 
-The Archive Manager records all user interactions. To view a report of
-activity, Account Administrators can create an audit report. Reports can
-include information about the following items:
+### Prerequisites
 
--   Collections (when email is indexed and made searchable)
+- **Applies to:** Administrator and Compliance Officers
+- **Difficulty:** Easy
+- **Time needed:** Approximately 5 minutes
+- **Tools required:** Archive Portal access
+
+The Archive Manager records all user interactions. To view a report of activity, users with Administrator or Compliance Officer permissions can create an audit report. Reports can include information about the following items:
+
 -   User management
--   Account settings
--   Creation of searches
--   Changes in scope to existing searches
--   Viewing of searches by users
--   Comments and ads placed on messages
--   Exporting of emails from a search
+-   Logins
+-   Exports/Downloads
+-   Search activity
+-   Tags activity
+-   Holds activity
+-   Purges
+-   Settings and policies
 
-**Note:** Reports are sent to the email address associated with your
-archiving account admin user name.
+**Note:** You can download reports directly from the Archive Manager.
+
+### Create an archive audit report
 
 To create an archive audit report, perform the following steps:
 
-1.  Log in to the [Archive
-    Manager](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f).
-    For more information, see [Log in to the Archive
-    Manager](/support/how-to/log-in-to-the-archive-manager).
+1.  Log in to the [Archive Manager](https://cp.rackspace.com/Login.aspx?ReturnUrl=%2f).
 
-2.  In the upper-right corner of the window, click **Admin** to access
-    the Admin dashboard.
-    **Note**<span>: There are three dashboards for top-level
-    administrators:  **Search**, **Admin**, and **Admin User**. If you
-    do not see the </span>**Admin**<span> link in the upper-right, you
-    are already on the Admin dashboard.</span>
+    For more information, see [Log in to the Archive Manager](/support/how-to/log-in-to-the-archive-manager).
 
-3.  Click the **Reports** tab.
+2.  In the upper-right corner of the window, click the gear icon.
 
-4. From the **Choose report** dropdown menu, select one of the
-    following report types:
+3.  On the **Reports** line, click **Manage**.
 
-    - **Activity by User** - This report lists all users, their actions,
-      the date of the actions, and the number of times that the
-      actions were performed.
+    {{<image src="Create-an-archive-audit-report-1.png" alt="" title="">}}
 
-    - **Activity by UI Action** - This report lists all actions in
-      alphabetical order, the users that performed the actions, the
-      date, and the number of times that the actions were performed.
+4.  Under the **Audits** section, click **+New**.
 
-    - **Activity by Date** - This report lists by date the users who
-      performed actions, the action performed, and the number of times
-      that the actions were performed.
+    {{<image src="Create-an-archive-audit-report-2.png" alt="" title="">}}
 
-    - **Collection by Mailbox** - A collection indexes gathered email
-      data and makes it searchable. This occurs automatically nightly.
-      This report lists mailboxes, the number of email messages
-      collected, the data size, and the date collected. These
-      mailboxes are not your user mailboxes; they are collection
-      points, and there is usually just one per account.
+5.  After entering the guidelines for the audit report, click **Create**.
 
-    - **Collection by Date** - A collection indexes gathered email data
-      and makes it searchable. This occurs automatically nightly. This
-      report lists the dates of collections, the number of email
-      messages collected, the data size, and the mailbox collection
-      point.
+    {{<image src="Create-an-archive-audit-report-3.png" alt="" title="">}}
 
-
-5. For **Format option**, select whether you want the report in **PDF**
-   or **CSV** format. The PDF format is ideal for read-only reports.
-   The CSV format is ideal if you want to sort or repurpose the report
-   data.
-
-6.  For **Date Range**, specify a date range for the report. To select a
-    specific date range, click the calendar icons.
-
-7.  In the **Sort options** section, indicate how you want the data to
-    be sorted in the **Order by** dropdown menu. You can sort data by
-    user name (*User*), date created (*Date*), or by user actions
-    (*Activity*).
-
-8. For **Sort order**, choose you want your report in ascending or
-   descending order.
-
-9.  Click **Create Report**. The report is sent to the email address
-    associated with your account admin user name.
+6.  After the audit report is created, you can download it as a **.CSV** file.

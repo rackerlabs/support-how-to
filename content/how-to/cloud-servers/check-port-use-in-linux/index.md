@@ -1,5 +1,5 @@
 ---
-permalink: check-port-use-in-linux/
+permalink: check-port-use-in-linux
 audit_date: '2020-06-30'
 title: Check port use in Linux
 type: article

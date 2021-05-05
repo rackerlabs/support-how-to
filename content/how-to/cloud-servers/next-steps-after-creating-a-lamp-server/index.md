@@ -1,5 +1,5 @@
 ---
-permalink: next-steps-after-creating-a-lamp-server/
+permalink: next-steps-after-creating-a-lamp-server
 audit_date: '2019-01-18'
 title: Next steps after creating a LAMP server
 type: article

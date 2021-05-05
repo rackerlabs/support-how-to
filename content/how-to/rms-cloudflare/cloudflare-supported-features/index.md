@@ -1,5 +1,5 @@
 ---
-permalink: cloudflare-supported-features/
+permalink: cloudflare-supported-features
 title: 'Cloudflare supported features'
 type: article
 audit_date: '2020-06-11'

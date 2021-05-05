@@ -1,5 +1,5 @@
 ---
-permalink: create-a-custom-cloud-monitoring-alert/
+permalink: create-a-custom-cloud-monitoring-alert
 audit_date: '2019-01-22'
 title: Create a custom Cloud Monitoring alert
 type: article

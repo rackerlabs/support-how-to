@@ -1,5 +1,5 @@
 ---
-permalink: email-migration-from-google/
+permalink: email-migration-from-google
 audit_date:
 title: Email migration from Google
 type: article

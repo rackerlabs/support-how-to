@@ -1,5 +1,5 @@
 ---
-permalink: access-rackspace-cdn/
+permalink: access-rackspace-cdn
 audit_date: '2016-06-01'
 title: Access Rackspace CDN
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-webmail/
+permalink: rackspace-webmail
 audit_date: '2017-12-11'
 title: Rackspace Webmail overview
 type: article

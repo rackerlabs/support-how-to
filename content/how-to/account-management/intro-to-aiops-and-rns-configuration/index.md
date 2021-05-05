@@ -1,5 +1,5 @@
 ---
-permalink: intro-to-aiops-and-rns-configuration/
+permalink: intro-to-aiops-and-rns-configuration
 audit_date: '2020-09-10'
 title: Introduction to AIOps and Rackspace Notification System Configuration
 type: article

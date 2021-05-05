@@ -1,5 +1,5 @@
 ---
-permalink: set-up-microsoft-exchange-email-forwarding/
+permalink: set-up-microsoft-exchange-email-forwarding
 audit_date: '2017-06-28'
 title: Set up Microsoft Exchange email forwarding
 type: article

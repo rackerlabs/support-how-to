@@ -1,5 +1,5 @@
 ---
-permalink: public-and-private-access-for-cloud-databases/
+permalink: public-and-private-access-for-cloud-databases
 audit_date: '2020-09-21'
 title: Public and private access for Cloud Databases
 type: article

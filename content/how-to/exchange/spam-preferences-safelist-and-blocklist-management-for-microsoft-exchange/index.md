@@ -1,5 +1,5 @@
 ---
-permalink: spam-preferences-safelist-and-blocklist-management-for-microsoft-exchange/
+permalink: spam-preferences-safelist-and-blocklist-management-for-microsoft-exchange
 audit_date: '2019-02-20'
 title: 'Spam preferences, safelist, and blocklist management for Microsoft Exchange'
 type: article

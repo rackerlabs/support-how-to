@@ -1,5 +1,5 @@
 ---
-permalink: view-the-firewall-version-in-the-rackspace-customer-portal/
+permalink: view-the-firewall-version-in-the-rackspace-customer-portal
 audit_date: '2020-06-12'
 title: 'View the firewall version in the Rackspace Customer Portal'
 type: article

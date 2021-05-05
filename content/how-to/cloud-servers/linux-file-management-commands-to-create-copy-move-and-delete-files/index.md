@@ -1,5 +1,5 @@
 ---
-permalink: linux-file-management-commands-to-create-copy-move-and-delete-files/
+permalink: linux-file-management-commands-to-create-copy-move-and-delete-files
 audit_date: '2020-04-17'
 title: Linux file management commands to create, copy, move, and delete files
 type: article

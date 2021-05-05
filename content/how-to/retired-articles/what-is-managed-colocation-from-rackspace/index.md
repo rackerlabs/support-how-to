@@ -1,5 +1,5 @@
 ---
-permalink: what-is-managed-colocation-from-rackspace/
+permalink: what-is-managed-colocation-from-rackspace
 audit_date:
 title: Rackspace Managed Colocation
 type: article

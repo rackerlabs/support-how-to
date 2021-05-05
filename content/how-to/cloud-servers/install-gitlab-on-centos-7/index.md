@@ -1,5 +1,5 @@
 ---
-permalink: install-gitlab-on-centos-7/
+permalink: install-gitlab-on-centos-7
 audit_date: '2020-07-30'
 title: 'Install GitLab on CentOS 7'
 type: article

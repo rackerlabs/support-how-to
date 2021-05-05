@@ -1,5 +1,5 @@
 ---
-permalink: wordpress-security-best-practices-linux/
+permalink: wordpress-security-best-practices-linux
 audit_date: '2020-03-24'
 title: Wordpress security best practices on Linux
 type: article

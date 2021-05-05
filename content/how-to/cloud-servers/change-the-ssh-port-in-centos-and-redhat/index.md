@@ -1,5 +1,5 @@
 ---
-permalink: change-the-ssh-port-in-centos-and-redhat/
+permalink: change-the-ssh-port-in-centos-and-redhat
 audit_date: '2020-06-25'
 title: Change the SSH Port in CentOS and Red Hat
 type: article

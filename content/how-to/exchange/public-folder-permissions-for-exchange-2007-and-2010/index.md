@@ -1,12 +1,12 @@
 ---
-permalink: public-folder-permissions-for-exchange-2007-and-2010/
+permalink: public-folder-permissions-for-exchange-2007-and-2010
 audit_date: '2017-01-10'
 title: Public folder permissions for Exchange 2007 and 2010
 type: article
 created_date: '2016-02-23'
 created_by: Stephanie Fillmon
-last_modified_date: '2019-05-31'
-last_modified_by: William Loy
+last_modified_date: '2020-11-18'
+last_modified_by: Rose Morales
 product: Microsoft Exchange
 product_url: exchange
 ---
@@ -32,6 +32,4 @@ When you create a public folder in Exchange 2007 and 2010, you can specify how m
 
 ### Related articles
 
-- [Manage public folders in the control panel for Hosted Exchange 2007 and 2010](/support/how-to/manage-public-folders-in-the-control-panel-for-hosted-exchange-2007-and-2010/)
-
-- [Work with public folders through Outlook for Exchange 2007 and 2010](/support/how-to/working-with-public-folders-through-outlook-for-exchange-2007-and-2010/)
+- [Manage public folders in the control panel for Hosted Exchange 2007 and 2010](/support/how-to/manage-public-folders-in-the-control-panel-for-hosted-exchange-2010/)

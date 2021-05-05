@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-key-terms/
+permalink: rackconnect-key-terms
 audit_date: '2019-12-16'
 title: RackConnect key terms
 type: article

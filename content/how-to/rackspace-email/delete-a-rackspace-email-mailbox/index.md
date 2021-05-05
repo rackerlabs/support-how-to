@@ -1,5 +1,5 @@
 ---
-permalink: delete-a-rackspace-email-mailbox/
+permalink: delete-a-rackspace-email-mailbox
 audit_date: '2017-07-14'
 title: Delete a Rackspace Email mailbox
 type: article

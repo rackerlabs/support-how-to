@@ -1,5 +1,5 @@
 ---
-permalink: manage-company-contacts-in-the-cloud-office-control-panel/
+permalink: manage-company-contacts-in-the-cloud-office-control-panel
 audit_date:
 title: Manage company contacts in the Cloud Office Control Panel
 type: article

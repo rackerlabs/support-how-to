@@ -1,5 +1,5 @@
 ---
-permalink: elliptic-curve-operations/
+permalink: elliptic-curve-operations
 audit_date:
 title: Command-line Elliptic Curve operations
 type: article

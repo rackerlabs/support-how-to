@@ -1,5 +1,5 @@
 ---
-permalink: manage-multi-factor-authentication-for-administrators/
+permalink: manage-multi-factor-authentication-for-administrators
 audit_date: '2020-04-28'
 title: Manage multi-factor authentication for administrators
 type: article

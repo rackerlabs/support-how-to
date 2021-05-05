@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-email-archiving/
+permalink: rackspace-email-archiving
 audit_date: '2018-03-28'
 title: Rackspace Email Archiving
 type: product

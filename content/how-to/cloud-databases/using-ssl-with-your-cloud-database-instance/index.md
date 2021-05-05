@@ -1,5 +1,5 @@
 ---
-permalink: using-ssl-with-your-cloud-database-instance/
+permalink: using-ssl-with-your-cloud-database-instance
 audit_date: '2018-11-06'
 title: Use SSL with your Cloud Databases instance
 type: article

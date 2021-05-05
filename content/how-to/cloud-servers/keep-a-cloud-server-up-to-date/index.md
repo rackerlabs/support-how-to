@@ -1,5 +1,5 @@
 ---
-permalink: keep-a-cloud-server-up-to-date/
+permalink: keep-a-cloud-server-up-to-date
 audit_date: '2017-08-26'
 title: Keep a cloud server up-to-date
 type: article

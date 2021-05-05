@@ -1,5 +1,5 @@
 ---
-permalink: overview-of-ftp-and-sftp/
+permalink: overview-of-ftp-and-sftp
 audit_date: '2019-01-18'
 title: Overview of FTP and SFTP
 type: article

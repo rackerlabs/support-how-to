@@ -1,5 +1,5 @@
 ---
-permalink: configure-dns-for-office-365-services/
+permalink: configure-dns-for-office-365-services
 audit_date:
 title: Configure DNS for Office 365 services
 type: article

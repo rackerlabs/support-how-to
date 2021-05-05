@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-pdr/
+permalink: rackspace-pdr
 title: 'Rackspace Proactive Detection & Response'
 type: product
 audit_date: '2018-11-12'

@@ -1,5 +1,5 @@
 ---
-permalink: multiple-ssl-certificates-on-a-single-rackconnected-cloud-server-pat/
+permalink: multiple-ssl-certificates-on-a-single-rackconnected-cloud-server-pat
 audit_date: '2019-10-09'
 title: Multiple SSL certificates on a single RackConnect cloud server (PAT)
 type: article

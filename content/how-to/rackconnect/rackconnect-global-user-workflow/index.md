@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-global-user-workflow/
+permalink: rackconnect-global-user-workflow
 audit_date:
 title: RackConnect Global user workflow
 type: article

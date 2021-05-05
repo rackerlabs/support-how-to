@@ -1,5 +1,5 @@
 ---
-permalink: create-your-first-website-on-cloud-servers-quickly/
+permalink: create-your-first-website-on-cloud-servers-quickly
 audit_date: '2020-09-02'
 title: Create your first website on Cloud Servers quickly
 type: article

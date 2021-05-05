@@ -1,5 +1,5 @@
 ---
-permalink: troubleshooting-alerts/
+permalink: troubleshooting-alerts
 audit_date: '2016-11-01'
 title: Troubleshooting alerts
 type: article

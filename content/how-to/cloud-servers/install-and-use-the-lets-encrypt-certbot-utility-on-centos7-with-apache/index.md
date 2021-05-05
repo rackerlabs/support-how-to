@@ -1,5 +1,5 @@
 ---
-permalink: install-and-use-the-lets-encrypt-certbot-utility-on-centos7-with-apache/
+permalink: install-and-use-the-lets-encrypt-certbot-utility-on-centos7-with-apache
 audit_date: '2020-08-12'
 title: 'Install and use the Lets Encrypt Certbot utility on CentOS 7 with Apache'
 type: article

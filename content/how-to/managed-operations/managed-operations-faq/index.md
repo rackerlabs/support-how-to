@@ -1,5 +1,5 @@
 ---
-permalink: managed-operations-faq/
+permalink: managed-operations-faq
 audit_date:
 title: Managed Operations FAQ
 type: article
@@ -117,9 +117,9 @@ You can contact the Managed Operations team via direct chat, a phone
 call to 1-800-961-4454, or by submitting a ticket online. There are
 links to all these options on the Control Panel.
 {{</accordion>}}
-{{<accordion title="As a Rackspace customer, can I link my Managed Hosting configuration and account to a Cloud Server with Managed Operations Service Level configuration and account?" col="in" href="accordion12">}}
+{{<accordion title="As a Rackspace customer, can I link my Managed Services configuration and account to a Cloud Server with Managed Operations Service Level configuration and account?" col="in" href="accordion12">}}
 
-Yes, the same way you are currently able to link your Managed Hosting
+Yes, the same way you are currently able to link your Managed Services
 accounts and your cloud accounts.
 {{</accordion>}}
 {{<accordion title="Is there a cost associated with data migration services?" col="in" href="accordion13">}}
@@ -221,7 +221,7 @@ Review [Rackspace Cloud Backup file-based backup options](https://www.rackspace.
 {{<accordion title="What is Cloud Servers with a Managed Operations Service Level?" col="in" href="accordion22">}}
 
 Cloud Servers with a Managed Operations Service Level extends the
-enhanced managed support level from our Managed Hosting offering into
+enhanced managed support level from our Managed Services offering into
 our Cloud offering. The Managed Operations Service Level provides an
 additional level of support that includes monitoring, OS, and application
 infrastructure layer support, and technical guidance for your Cloud

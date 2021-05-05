@@ -1,5 +1,5 @@
 ---
-permalink: using-cloud-load-balancers-with-rackconnect/
+permalink: using-cloud-load-balancers-with-rackconnect
 audit_date: '2019-12-16'
 title: Use Cloud Load Balancers with RackConnect
 type: article

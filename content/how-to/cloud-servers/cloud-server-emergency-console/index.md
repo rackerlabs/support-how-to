@@ -1,5 +1,5 @@
 ---
-permalink: cloud-server-emergency-console/
+permalink: cloud-server-emergency-console
 audit_date: '2019-03-27'
 title: Cloud server emergency console
 type: article

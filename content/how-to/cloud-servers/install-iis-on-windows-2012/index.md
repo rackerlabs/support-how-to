@@ -1,5 +1,5 @@
 ---
-permalink: install-iis-on-windows-2012/
+permalink: install-iis-on-windows-2012
 audit_date: '2020-07-20'
 title: 'Install IIS on Windows 2012'
 type: article

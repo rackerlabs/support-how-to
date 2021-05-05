@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-pdr-faq/
+permalink: rackspace-pdr-faq
 title: Rackspace PDR FAQ
 type: faq
 audit_date: '2018-11-12'

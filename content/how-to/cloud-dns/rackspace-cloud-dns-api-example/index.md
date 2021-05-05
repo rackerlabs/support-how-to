@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-dns-api-example/
+permalink: rackspace-cloud-dns-api-example
 audit_date:
 title: Rackspace Cloud DNS - API example
 type: article

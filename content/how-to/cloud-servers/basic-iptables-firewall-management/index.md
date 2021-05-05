@@ -1,5 +1,5 @@
 ---
-permalink: basic-iptables-firewall-management/
+permalink: basic-iptables-firewall-management
 audit_date: '2020-06-09'
 title: 'Basic iptables firewall management'
 type: article

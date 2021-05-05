@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-auto-scale-control-panel-user-guide-introduction/
+permalink: rackspace-auto-scale-control-panel-user-guide-introduction
 audit_date: '2020-09-25'
 title: Rackspace Auto Scale Control Panel User Guide - Introduction
 type: article

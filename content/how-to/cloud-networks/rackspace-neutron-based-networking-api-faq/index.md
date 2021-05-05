@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-neutron-based-networking-api-faq/
+permalink: rackspace-neutron-based-networking-api-faq
 audit_date:
 title: Rackspace Neutron-based Networking API FAQ
 type: article

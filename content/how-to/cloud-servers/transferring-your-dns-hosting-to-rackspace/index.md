@@ -1,5 +1,5 @@
 ---
-permalink: transferring-your-dns-hosting-to-rackspace/
+permalink: transferring-your-dns-hosting-to-rackspace
 audit_date: '2017-07-26'
 title: Transfer your DNS hosting to Rackspace
 type: article
@@ -51,8 +51,8 @@ DNS host they query. Complete the following steps for each record:
 
 7. Log in to your domain registrar’s control panel, and change the name servers
 for your domain to:
-    - dns1.stabletransit.com
-    - dns2.stabletransit.com
+    - ns.rackspace.com
+    - ns2.rackspace.com
 
 Following these steps initiates the process to switch DNS hosting to
 Rackspace, but the changes can take up to 48 hours to propagate.  If you want

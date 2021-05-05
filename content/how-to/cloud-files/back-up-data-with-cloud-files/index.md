@@ -1,5 +1,5 @@
 ---
-permalink: back-up-data-with-cloud-files/
+permalink: back-up-data-with-cloud-files
 audit_date: '2019-01-08'
 title: Back up data with Cloud Files
 type: article

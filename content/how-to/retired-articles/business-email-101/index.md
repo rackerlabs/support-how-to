@@ -1,5 +1,5 @@
 ---
-permalink: business-email-101-an-8-step-guide-to-selecting-email-for-your-business/
+permalink: business-email-101-an-8-step-guide-to-selecting-email-for-your-business
 audit_date:
 title: 'Business Email 101: An 8-Step Guide To Selecting Email For Your Business'
 type: article

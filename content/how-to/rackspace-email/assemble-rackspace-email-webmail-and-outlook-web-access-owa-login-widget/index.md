@@ -1,5 +1,5 @@
 ---
-permalink: assemble-rackspace-email-webmail-and-outlook-web-access-owa-login-widget/
+permalink: assemble-rackspace-email-webmail-and-outlook-web-access-owa-login-widget
 audit_date:
 title: Add an email login portal for Rackspace Email webmail and Outlook Web Access
 type: article

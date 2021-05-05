@@ -1,0 +1,379 @@
+.blog-list-wrapper {
+  background: $color-white;
+  min-height: 100vh;
+  padding-bottom: 4rem;
+
+  .post--feature-image {
+    margin-top: 0;
+    text-align: center;
+
+    img {
+      max-width: 100%;
+      width: 760px;
+    }
+
+    .photo-credit {
+      display: block;
+      font-size: 0.8rem;
+      font-style: italic;
+      margin: 0 auto;
+      margin-top: -0.5rem;
+      max-width: 760px;
+      text-align: right;
+    }
+  }
+
+  >.container:first-child .post--title {
+    margin-top: 3rem;
+  }
+
+  .post--feature-image+.container>.post--title {
+    margin-top: 2rem;
+  }
+
+  @media screen and (min-width: 760px) {
+    >.post--feature-image:first-child {
+      margin-top: 4rem;
+    }
+  }
+
+  .post--title {
+    @media screen and (min-width: 60em) {
+      font-size: 2.5rem;
+    }
+  }
+
+  .post--meta {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+  }
+
+  .post-line {
+    border-bottom: solid 1px #e6e6e6;
+  }
+
+  .post--meta-label {
+    display: block;
+    font-size: 0.6rem;
+    font-weight: 510;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+
+  .post--info {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    line-height: normal;
+  }
+
+  .post--date {
+    font-size: 1rem;
+    font-weight: 610;
+    line-height: normal;
+  }
+
+  .post--category {
+    letter-spacing: 0.02em;
+
+    a {
+      font-weight: 610;
+    }
+  }
+
+  /* Content styling */
+
+  h1 {
+    font-size: 2rem;
+    font-family: "titillium-regular", arial, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-weight: 610;
+    font-style: normal;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+
+  strong {
+    font-weight: 610;
+  }
+
+  p {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  a {
+    cursor: pointer;
+    font-weight: 510;
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  span {
+    font-weight: 610;
+  }
+
+  #single-post {
+    flex: 0 0 70%;
+    border-right: 1px solid #ebebeb;
+
+    ul {
+      list-style-type: disc;
+      list-style: disc;
+
+      li {
+        list-style: disc;
+      }
+    }
+
+    h3 {
+      font-style: normal;
+      font-weight: 610;
+      font-size: 1.5rem;
+      font-family: 'titillium-bold', arial, sans-serif;
+    }
+
+    h4 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      font-family: 'titillium-bold', arial, sans-serif;
+    }
+
+    @media screen and (min-width: 800px) {
+      padding: 4rem 0 0 4rem;
+    }
+  }
+
+  a.cta.blue {
+    background: #005ac8;
+  }
+
+  a.cta.red {
+    background: #eb0000;
+  }
+
+  a.cta.teal {
+    background: #00bebc;
+  }
+
+  a.cta {
+    border-radius: 1px;
+    display: inline-block;
+    padding: 1em 3em;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: background .1s ease-in-out;
+    transition: background .1s ease-in-out;
+  }
+
+  .author-bio {
+    border-top: 1px solid #e6e6e6;
+    border-width: 1px 0;
+    margin: 40px 0;
+    padding: 40px 0;
+
+    &::after,
+    &::before {
+      content: " ";
+      display: table;
+    }
+
+    .avatar {
+      float: left;
+      height: 128px;
+      margin-right: 20px;
+      overflow: hidden;
+      width: 128px;
+      position: relative;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      &::after {
+        content: "RACKER";
+        font-size: 12px;
+        width: 100%;
+      }
+
+      &::before,
+      &::after {
+        background: rgba(235, 0, 0, .8);
+        color: #fff;
+        left: 0;
+        line-height: 1.5;
+        position: absolute;
+        text-align: center;
+        bottom: 0;
+      }
+    }
+
+    .bio {
+      font-size: 1.2rem;
+    }
+
+    .name {
+      display: block;
+      font-size: 128.57142857%;
+      margin-bottom: .5em;
+    }
+  }
+}
+
+.author {
+  display: block;
+  margin-right: 1rem;
+}
+
+.author--wrapper {
+  align-items: center;
+  display: flex;
+}
+
+.author--avatar {
+  $avatar-size: 2.25rem;
+
+  border-radius: calc($avatar-size / 2);
+  height: $avatar-size;
+  overflow: hidden;
+  width: $avatar-size;
+}
+
+.author--info {
+  margin-left: 1rem;
+}
+
+.author--info span {
+  display: block;
+}
+
+.author--name {
+  font-size: 1rem;
+  font-weight: 610;
+  line-height: normal;
+}
+
+.author--title {
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+
+  a {
+    font-weight: 610;
+  }
+}
+
+.blog-post {
+  margin-bottom: 2rem;
+  max-width: 600px;
+  border-bottom: solid 1px #e6e6e6;
+
+  .post-title {
+    color: #3498db;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    font-family: 'titillium-regular', arial, sans-serif;
+    font-style: normal;
+    font-weight: 610;
+    font-size: 2rem;
+  }
+
+  .post-meta {
+    font: inherit;
+    margin-bottom: 0.5rem;
+  }
+
+
+  .post-read-more {
+    margin: 2rem 0 2rem 0;
+
+    .read-more {
+      font-family: "open-sans-bold", arial, sans-serif;
+      font-style: normal;
+      font-weight: 610;
+      font-size: 100%;
+      text-transform: uppercase;
+    }
+  }
+
+  img {
+    margin: 0 0 1em 1em;
+    float: right;
+    height: auto;
+    display: block;
+  }
+}
+
+.post-avatar {
+  float: left;
+  height: 64px;
+  margin-right: 10px;
+  width: 64px;
+  display: block;
+  position: relative;
+
+  img {
+    display: block;
+    height: 64px;
+    width: 64px;
+  }
+}
+
+.post-avatar::after {
+  content: 'RACKER';
+  font-size: 10px;
+  width: 100%;
+  background: rgba(235, 0, 0, .8);
+  color: #fff;
+  left: 0;
+  line-height: 1.5;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+}
+
+.highlight {
+  background: $color-black;
+  padding: 1em;
+  margin-bottom: 3em;
+  line-height: 1.1em;
+  font-size: 1em;
+  border: none;
+  border-radius: 3px;
+  font-family: 'source-code-regular', 'Monaco', 'Courier New', monospace;
+  font-style: normal;
+  font-weight: 610;
+
+  pre {
+    background-color: transparent !important;
+    border: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: .5em;
+  }
+}

@@ -1,5 +1,5 @@
 ---
-permalink: how-auto-scale-cooldowns-work/
+permalink: how-auto-scale-cooldowns-work
 audit_date: '2020-09-28'
 title: Auto Scale Cooldowns
 type: article

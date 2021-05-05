@@ -1,5 +1,5 @@
 ---
-permalink: sql-server-database-recovery-models/
+permalink: sql-server-database-recovery-models
 audit_date: '2020-04-28'
 title: 'SQL Server database recovery models'
 type: article

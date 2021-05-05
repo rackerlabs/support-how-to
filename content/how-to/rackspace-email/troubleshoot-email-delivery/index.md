@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-email-delivery/
+permalink: troubleshoot-email-delivery
 audit_date: '2017-06-05'
 title: Troubleshoot email delivery
 type: article

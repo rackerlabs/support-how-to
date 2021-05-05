@@ -1,5 +1,5 @@
 ---
-permalink: examples-of-rdbms-and-nosql-databases/
+permalink: examples-of-rdbms-and-nosql-databases
 audit_date: '2018-03-21'
 title: 'Examples of RDBMS and NoSQL databases'
 type: article

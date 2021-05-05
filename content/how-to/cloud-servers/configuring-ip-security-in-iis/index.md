@@ -1,5 +1,5 @@
 ---
-permalink: configuring-ip-security-in-iis/
+permalink: configuring-ip-security-in-iis
 audit_date: '2020-10-02'
 title: Configuring IP Security in IIS
 type: article

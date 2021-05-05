@@ -1,5 +1,5 @@
 ---
-permalink: quick-set-up-with-rackspace-cloud-orchestration/
+permalink: quick-set-up-with-rackspace-cloud-orchestration
 audit_date: '2016-11-10'
 title: Get started quickly with Rackspace Cloud Orchestration
 type: article

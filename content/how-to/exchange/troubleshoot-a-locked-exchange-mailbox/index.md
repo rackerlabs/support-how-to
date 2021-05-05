@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-a-locked-exchange-mailbox/
+permalink: troubleshoot-a-locked-exchange-mailbox
 audit_date: '2017-12-18'
 title: Troubleshoot a Locked Exchange mailbox
 type: article

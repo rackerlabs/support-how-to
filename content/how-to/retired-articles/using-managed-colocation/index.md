@@ -1,5 +1,5 @@
 ---
-permalink: using-managed-colocation/
+permalink: using-managed-colocation
 audit_date: '2017-12-15'
 title: Using Managed Colocation
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: scheduled-backups-for-cloud-databases/
+permalink: scheduled-backups-for-cloud-databases
 audit_date: '2018-07-05'
 title: Scheduled backups for Cloud Databases
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-role-based-access-control-rbac/
+permalink: getting-started-with-role-based-access-control-rbac
 audit_date:
 title: Getting started with Role-Based Access Control (RBAC)
 type: article

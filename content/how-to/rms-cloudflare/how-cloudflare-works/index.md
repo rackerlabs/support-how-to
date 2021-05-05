@@ -1,5 +1,5 @@
 ---
-permalink: how-cloudflare-works/
+permalink: how-cloudflare-works
 title: 'How Cloudflare works'
 type: article
 audit_date: '2020-06-11'

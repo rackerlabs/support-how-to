@@ -1,5 +1,5 @@
 ---
-permalink: rescue-mode-on-windows-servers/
+permalink: rescue-mode-on-windows-servers
 audit_date:
 title: Rescue mode on Windows cloud servers
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: create-an-email-archive-login-message/
+permalink: create-an-email-archive-login-message
 audit_date: '2019-08-21'
 title: Create an email archive login message
 type: article

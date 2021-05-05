@@ -1,5 +1,5 @@
 ---
-permalink: set-up-onedrive-for-business-for-ios/
+permalink: set-up-onedrive-for-business-for-ios
 audit_date: '2020-08-24'
 title: Set up OneDrive for Business for iOS
 type: article

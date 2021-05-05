@@ -1,5 +1,5 @@
 ---
-permalink: comparison-of-dedicated-and-cloud-hosting/
+permalink: comparison-of-dedicated-and-cloud-hosting
 audit_date: '2017-12-06'
 title: Comparison of dedicated and cloud hosting
 type: article

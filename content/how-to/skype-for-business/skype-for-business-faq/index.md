@@ -1,5 +1,5 @@
 ---
-permalink: skype-for-business-faq/
+permalink: skype-for-business-faq
 audit_date: '2019-03-19'
 title: Microsoft Skype for Business FAQ
 type: article

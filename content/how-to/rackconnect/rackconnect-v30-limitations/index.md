@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-v30-limitations/
+permalink: rackconnect-v30-limitations
 audit_date: '2019-12-16'
 title: RackConnect v3.0 limitations
 type: article

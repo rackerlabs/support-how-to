@@ -1,5 +1,5 @@
 ---
-permalink: windows-patches-for-cloud-servers-with-a-managed-operations-service-level/
+permalink: windows-patches-for-cloud-servers-with-a-managed-operations-service-level
 audit_date: '2019-02-07'
 title: Windows patches for cloud servers with a Managed Operations service level
 type: article

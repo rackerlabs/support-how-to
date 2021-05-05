@@ -1,11 +1,11 @@
 ---
-permalink: linux-server-security-best-practices/
+permalink: linux-server-security-best-practices
 audit_date: '2020-03-26'
 title: Linux server security best practices
 type: article
 created_date: '2014-07-16'
 created_by: Christoph Champ and Reese McJunkin
-last_modified_date: '2020-03-26'
+last_modified_date: '2021-04-16'
 last_modified_by: Chris Silva
 product: Cloud Servers
 product_url: cloud-servers
@@ -362,7 +362,7 @@ If you followed these steps, you should see something similar to the following o
 
 1.  Open the new SSH port by running the following command:
 
-        sudo iptables iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 2222 -j ACCEPT
+        sudo iptables -I INPUT -m state --state NEW -m tcp -p tcp --dport 2222 -j ACCEPT
         sudo service iptables-save
 
     Replace `2222` with the port that you used for the SSH daemon.

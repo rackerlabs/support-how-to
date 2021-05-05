@@ -1,5 +1,5 @@
 ---
-permalink: general-package-installation-guidelines/
+permalink: general-package-installation-guidelines
 audit_date: '2018-12-26'
 title: General package installation guidelines
 type: article

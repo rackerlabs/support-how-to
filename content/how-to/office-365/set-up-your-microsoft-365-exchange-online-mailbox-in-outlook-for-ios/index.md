@@ -1,5 +1,5 @@
 ---
-permalink: set-up-your-microsoft-365-exchange-online-mailbox-in-outlook-for-ios/
+permalink: set-up-your-microsoft-365-exchange-online-mailbox-in-outlook-for-ios
 audit_date: '2020-08-25'
 title: Set up your Microsoft 365 Exchange Online mailbox in Outlook for iOS
 type: article

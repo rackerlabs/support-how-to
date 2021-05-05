@@ -1,5 +1,5 @@
 ---
-permalink: manage-linux-user-groups/
+permalink: manage-linux-user-groups
 audit_date: '2020-06-11'
 title: 'Manage Linux user groups'
 type: article

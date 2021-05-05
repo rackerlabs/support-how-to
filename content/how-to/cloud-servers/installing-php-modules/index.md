@@ -1,5 +1,5 @@
 ---
-permalink: installing-php-modules/
+permalink: installing-php-modules
 audit_date: '2020-05-22'
 title: 'Install PHP modules'
 type: article

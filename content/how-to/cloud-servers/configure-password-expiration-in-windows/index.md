@@ -1,5 +1,5 @@
 ---
-permalink: configure-password-expiration-in-windows/
+permalink: configure-password-expiration-in-windows
 audit_date: '2020-03-31'
 title: 'Configure password expiration in Windows'
 type: article

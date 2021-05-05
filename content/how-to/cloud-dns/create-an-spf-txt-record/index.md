@@ -1,5 +1,5 @@
 ---
-permalink: create-an-spf-txt-record/
+permalink: create-an-spf-txt-record
 audit_date: '2018-10-12'
 title: Create an SPF TXT record
 type: article

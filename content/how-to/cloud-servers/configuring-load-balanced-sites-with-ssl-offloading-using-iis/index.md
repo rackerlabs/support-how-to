@@ -1,5 +1,5 @@
 ---
-permalink: configuring-load-balanced-sites-with-ssl-offloading-using-iis/
+permalink: configuring-load-balanced-sites-with-ssl-offloading-using-iis
 audit_date: '2018-07-30'
 title: Configure load balanced sites with SSL offloading by using IIS
 type: article

@@ -1,12 +1,12 @@
 ---
-permalink: how-to-choose-your-cloud-server-flavor/
-audit_date:
+permalink: how-to-choose-your-cloud-server-flavor
+audit_date: '2021-04-28'
 title: Choosing your cloud server flavor
 type: article
 created_date: '2014-10-24'
 created_by: Thomas Duesing
-last_modified_date: '2014-11-04'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2021-04-28'
+last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -17,3 +17,4 @@ current needs.
 
 {{<image src="FlavorClassesTable.jpg" alt="" title="">}}
 
+To find further information check our [servers](https://www.rackspace.com/openstack/public/servers) website.

@@ -1,5 +1,5 @@
 ---
-permalink: upgrade-resources-for-general-purpose-or-io-optimized-cloud-servers/
+permalink: upgrade-resources-for-general-purpose-or-io-optimized-cloud-servers
 audit_date: '2020-10-12'
 title: Upgrade resources for General Purpose or I/O optimized Cloud Servers
 type: article

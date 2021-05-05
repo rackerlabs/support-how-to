@@ -1,5 +1,5 @@
 ---
-permalink: vmware-server-virtualization-faq/
+permalink: vmware-server-virtualization-faq
 audit_date: '2020-07-29'
 title: VMware Server Virtualization FAQ
 type: article

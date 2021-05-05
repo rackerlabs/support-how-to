@@ -1,5 +1,5 @@
 ---
-permalink: reissue-or-revoke-and-replace-rackspace-ssl-certificates/
+permalink: reissue-or-revoke-and-replace-rackspace-ssl-certificates
 audit_date: '2019-02-11'
 title: Reissue or revoke and replace Rackspace SSL certificates
 type: article

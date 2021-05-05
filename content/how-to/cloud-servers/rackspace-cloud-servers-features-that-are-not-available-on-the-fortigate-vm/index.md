@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-public-cloud-servers-features-that-are-not-available-on-the-fortigste-vm/
+permalink: rackspace-public-cloud-servers-features-that-are-not-available-on-the-fortigste-vm
 audit_date: '2019-04-18'
 title: Rackspace Cloud Servers features that are not available on the Fortigate-VM
 type: article

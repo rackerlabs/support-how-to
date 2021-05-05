@@ -1,5 +1,5 @@
 ---
-permalink: setting-up-a-producer-consumer-model-with-cloud-queues/
+permalink: setting-up-a-producer-consumer-model-with-cloud-queues
 audit_date:
 title: Set up a producer-consumer model with Cloud Queues
 type: article

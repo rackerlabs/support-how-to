@@ -1,5 +1,5 @@
 ---
-permalink: add-domains-with-the-cloud-office-control-panel/
+permalink: add-domains-with-the-cloud-office-control-panel
 audit_date: '2020-06-01'
 title: Add domains with the Cloud Office Control Panel
 type: article

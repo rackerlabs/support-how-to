@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-email-mailbox-features/
+permalink: rackspace-email-mailbox-features
 audit_date:
 title: Rackspace Email mailbox features
 type: article

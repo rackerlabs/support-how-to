@@ -1,5 +1,5 @@
 ---
-permalink: how-to-install-a-lamp-stack-on-rhel-7-based-distributions/
+permalink: how-to-install-a-lamp-stack-on-rhel-7-based-distributions
 audit_date: '2020-03-10'
 title: 'Install a LAMP stack on RHEL 7 based distributions'
 type: article
@@ -31,7 +31,7 @@ found in the official CentOS and Red Hat repositories. The package names in the 
 repository are different from the package names used in the official repositories, which
 helps to avoid unintentional conflicts or software version updates. Additionally, in RHEL 7
 distributions, the default version of PHP is PHP 5.6, which is no longer supported.
-The IUS repositories contain versions of PHP up to 7.3, which is the latest 
+The IUS repositories contain versions of PHP up to 7.4, which is the latest 
 version available for RHEL 7 distributions.
 
 For more information the IUS Repository, see [Install EPEL and IUS repositories on CentOS and Red Hat](/support/how-to/install-epel-and-additional-repositories-on-centos-and-red-hat).
@@ -49,11 +49,12 @@ your preferred set up method.
 
 1. Use the following one-line command for an expedient set up of your LAMP stack on your server:
 
-        sudo sh -c "yum install httpd mariadb mariadb-server mod_php73 -y; systemctl start mariadb && mysql_secure_installation && systemctl restart mariadb && systemctl start httpd && systemctl enable httpd && systemctl enable mariadb && firewall-cmd --permanent --zone=public --add-service=http && firewall-cmd --permanent --zone=public --add-service=https && firewall-cmd --reload"
+        sudo sh -c "yum install httpd mariadb104 mariadb104-server mod_php74 -y; systemctl start mariadb && mysql_secure_installation && systemctl restart mariadb && systemctl start httpd && systemctl enable httpd && systemctl enable mariadb && firewall-cmd --permanent --zone=public --add-service=http && firewall-cmd --permanent --zone=public --add-service=https && firewall-cmd --reload"
         
 2.  Provide answers to the following system prompts:
 
     - **Enter current password for root (enter for none)**: Leave blank.
+    - **Switch to unix_socket authentication [Y/n]**: Select **No**.
     - **Set root password? [Y/n]**: Select **Yes**.
     - **New password**: You decide, but make it secure.
     - **Remove anonymous users? [Y/n]**: Select **Yes**.
@@ -69,7 +70,7 @@ steps:
 
 1.  Install the necessary packages:
 
-        sudo yum install httpd mariadb mariadb-server mod_php73 -y
+        sudo yum install httpd mariadb104 mariadb104-server mod_php74 -y
         
 2.  Run the following command to start and secure the MySQL server:
 
@@ -79,6 +80,7 @@ steps:
 
     - **Enter current password for root (enter for none)**: Leave blank.
     - **Set root password? [Y/n]**: Select **Yes**.
+    - **Switch to unix_socket authentication [Y/n]**: Select **No**.    
     - **New password**: You decide, but make it secure.
     - **Remove anonymous users? [Y/n]**: Select **Yes**.
     - **Disallow root login remotely? [Y/n]**: Select **Yes**.

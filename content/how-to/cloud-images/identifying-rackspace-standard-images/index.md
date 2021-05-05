@@ -1,5 +1,5 @@
 ---
-permalink: identifying-rackspace-standard-images/
+permalink: identifying-rackspace-standard-images
 audit_date: '2018-04-09'
 title: Identifying Rackspace standard images
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-reseller-program/
+permalink: rackspace-reseller-program
 audit_date: '2018-01-16'
 title: Rackspace Reseller Program
 type: article

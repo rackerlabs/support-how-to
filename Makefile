@@ -1,6 +1,5 @@
-HUGO_VERSION ?= 0.76.5
+HUGO_VERSION ?= 0.78.2
 HUGO_EXTENDED = "extended_"
-CONTAINER_RUNTIME ?= docker
 # Show build warnings, posts tagged as draft, and posts with a future date
 PREVIEW_ARGS = --path-warnings --verbose --buildDrafts --buildFuture
 
@@ -30,24 +29,3 @@ build:
 
 serve:
 	@hugo $(PREVIEW_ARGS) serve
-
-# muffet - checks for broken links - you have to have hugo running for this to work
-muffet:
-	@if ! curl -s --fail http://localhost:1313 > /dev/null ; then echo "You must start a Hugo local server!"; exit 1; fi
-	@mkdir -p $(CURDIR)/output/muffet
-	@ if [ ! -f $(CURDIR)/output/muffet/bin/muffet ] ; then GOPATH=$(CURDIR)/output/muffet go get -u github.com/raviqqe/muffet; fi
-	@$(CURDIR)/output/muffet/bin/muffet https://docs.rackspace.com/
-
-# Targets used to build and use the Hugo+Asciidoctor+Rst docker image
-
-.PHONY: hugo-docker
-hugo-docker:
-	${CONTAINER_RUNTIME} build --build-arg HUGO_VERSION=${HUGO_VERSION} -t support-how-to/hugo:${HUGO_VERSION} hugo
-
-.PHONY: hugo-serve
-hugo-serve: hugo-docker
-	@mkdir -p ./resources/_gen/images && mkdir -p ./resources/_gen/assets
-	@${CONTAINER_RUNTIME} run -t -i --sig-proxy=true --rm --mount type=bind,src=$(shell pwd),dst=/site \
-		-w /site -p 1313:1313 support-how-to/hugo:${HUGO_VERSION} /hugo serve $(PREVIEW_ARGS) \
-		--baseURL "http://localhost:1313/" --bind 0.0.0.0 --disableFastRender
-	@rm -rf ./resources

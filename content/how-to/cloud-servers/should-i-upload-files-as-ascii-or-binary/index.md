@@ -1,5 +1,5 @@
 ---
-permalink: should-i-upload-files-as-ascii-or-binary/
+permalink: should-i-upload-files-as-ascii-or-binary
 audit_date:
 title: Upload files as ASCII or binary
 type: article

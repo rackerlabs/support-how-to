@@ -1,5 +1,5 @@
 ---
-permalink: features-introduced-in-rackconnect-v20/
+permalink: features-introduced-in-rackconnect-v20
 audit_date: '2019-10-08'
 title: Features introduced in RackConnect v2.0
 type: article

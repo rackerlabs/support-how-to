@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-v20-compatibility/
+permalink: rackconnect-v20-compatibility
 audit_date: '2019-12-16'
 title: RackConnect v2.0 compatibility
 type: article
@@ -29,7 +29,7 @@ Cloud Files | Yes | Cloud Files is an affordable, redundant, scalable, and dynam
 Cloud Load Balancers | Yes, with caveats; see linked article | Mission-critical web-based applications and workloads require high availability. Load balancing distributes workloads across two or more servers, network links, and other resources to maximize throughput, minimize response time and avoid overload. Cloud Load Balancers allows you to quickly load balance multiple servers for optimal resource utilization.<br /> <br /> <a href="/support/how-to/using-cloud-load-balancers-with-rackconnect">Using Cloud Load Balancers with RackConnect</a> | <a href="/support/how-to/cloud-load-balancers">Cloud Load Balancers support</a>
 Cloud Monitoring | Yes | Using Rackspace Cloud Monitoring you can quickly create multiple monitors using predefined checks, such as PING, HTTPS, SMTP (and many more), to keep track of your cloud resources and receive instant notification when a resource needs your attention. | <a href="/support/how-to/creating-a-monitoring-check-using-the-cloud-control-panel">Creating a Monitoring Check Using the Cloud Control Panel</a>
 Cloud Networks | Yes, with caveats; see linked article | Cloud Networks lets you create a virtual Layer 2 network, which gives you greater control and security when you deploy web applications. <br /> <br /> <a href="/support/how-to/rackconnect-v20-with-cloud-networks-faq">RackConnect with Cloud Networks FAQ</a> | <a href="/support/how-to/cloud-networks">Getting Started with Cloud Networks</a>
-Managed Operations  | Yes | Rackspace Cloud Servers with Managed Operations extends our world-class managed services from our Managed Hosting offering to the Rackspace Cloud. This offering provides an additional level of support on cloud servers, which includes monitoring, operating system, and application infrastructure layer support. | <a href="/support/how-to/cloud-servers">Cloud Servers support</a>
+Managed Operations  | Yes | Rackspace Cloud Servers with Managed Operations extends our world-class managed services from our Managed Services offering to the Rackspace Cloud. This offering provides an additional level of support on cloud servers, which includes monitoring, operating system, and application infrastructure layer support. | <a href="/support/how-to/cloud-servers">Cloud Servers support</a>
 OnMetal Cloud Servers | Yes | OnMetal Cloud Servers combine the consistent performance and economy of colocation with the elasticity of the cloud. | <a href="/support/how-to/using-onmetal-cloud-servers-with-rackconnect-v20">Using OnMetal Cloud Servers with RackConnect
 
 ### RackConnect compatibility with dedicated network devices

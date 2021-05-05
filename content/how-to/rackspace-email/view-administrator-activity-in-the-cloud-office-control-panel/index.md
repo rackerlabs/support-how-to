@@ -1,5 +1,5 @@
 ---
-permalink: view-administrator-activity-in-the-cloud-office-control-panel/
+permalink: view-administrator-activity-in-the-cloud-office-control-panel
 audit_date: '2019-11-20'
 title: View administrator activity in the Cloud Office Control Panel
 type: article

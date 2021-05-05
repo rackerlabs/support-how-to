@@ -1,5 +1,5 @@
 ---
-permalink: export-email-address-data-from-outlook-2010-for-windows/
+permalink: export-email-address-data-from-outlook-2010-for-windows
 audit_date: '2017-10-11'
 title: Export email address data from Outlook 2010 for Windows
 type: article

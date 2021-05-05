@@ -1,79 +1,113 @@
 ---
-permalink: manage-archive-search-results/
-audit_date:
-title: Manage Archive Search Results
+permalink: manage-archive-search-results
+audit_date: '2019-11-12'
+title: 'Manage Archive Search Results'
 type: article
-created_date: '2015-05-19'
-created_by: Beau Bailey
-last_modified_date: '2016-01-26'
-last_modified_by: Catherine Richardson
+created_date: '2019-11-12'
+created_by: Joe Brooks
+last_modified_date: '2020-11-09'
+last_modified_by: Stephanie Fillmon
 product: Rackspace Email Archiving
 product_url: rackspace-email-archiving
 ---
 
 
-Once a search has been created, the results of the search can be
-reviewed, filtered, tagged, and exported.
+When a search has been created, the results of the search can be reviewed, filtered, tagged, and exported. This article explains how to perform various tasks using the archive search features.
 
-### Access a saved search ###
+### Prerequisites
 
-To access and manage search results, perform the following steps after
-[Logging into the Archive Manager](/support/how-to/log-in-to-the-archive-manager):
+- **Applies to:** Administrator, Compliance Officer, and Search Administrator
+- **Difficulty:** Easy
+- **Time needed:** Approximately 10 minutes
+- **Tools required:** Archive Portal access
 
-1.  There are two dashboards for top level administrators: **Search**
-    and **Admin**. Click **Admin**, located in the upper right corner of
-    the screen, to access the Admin dashboard.
+### Access a saved search
 
-2.  Click the **Search** tab.
+To access and manage search results, perform the following steps:
 
-3.  Click the **Name** of a saved search.
+1. Log in to the [Archive Manager](/support/how-to/log-in-to-the-archive-manager).
 
-There are many options available when reviewing the results of a search.
-These options include:
+2. On the left side of the page, click the **Searches** tab, and then click **Run**.
 
-### Find in results ###
+   {{<image src="manage-archive-search-results-1.png" alt="" title="">}}
 
-To narrow search results, click **Filter My Results** at the top of the
-window.
+#### Filter results
 
-{{<image src="ManageArchiveSearchResults1.png" alt="" title="">}}
+To narrow search results, click **Filter** at the top of the message list.
 
-#### Multiple views ####
+{{<image src="manage-archive-search-results-2.png" alt="" title="">}}
 
--   Expand all - Shows the subject, sender, recipients, date, and full
-    message contents. In the **Expand All** view, you can also click the
-    **Text view** or **Original view** in the message to see full text
-    including headers or the original appearance of the email.
--   Collapse all - Shows the subject, sender, recipients, and date.
--   Mini view - Shows the subject, sender, and date.
+#### Sorting
 
-#### Sorting ####
+Sort results by choosing one of the following options:
 
-Click the appropriate option by which to sort: **Date**, **Relevance**,
-**Sender**, **Subject**, or **\# of Attachments**.
+- **Date**
+- **Sender** (A-Z or Z-A)
+- **Subject**
+- **Attachments**
 
-{{<image src="ManageArchiveSearchResults2.png" alt="" title="">}}
+{{<image src="manage-archive-search-results-3.png" alt="" title="">}}
 
-#### Tags ####
+#### Tags
 
-Predefined system tags can be added to messages by clicking the
-**Save**, **Reviewed**, **Starred**, or **Attention** buttons. To add
-your own predefined tag (created under the **Settings** tab), click
-**TAGS**. You can also enter a new tag name in the blank under **TAGS,**
-and then click the **Save** button.
+Use the following steps to tag a specific message for review:
 
-#### Comments ####
+1. Click the message that you want the tag.
 
-Comments can be added to any message. To add a comment, click **Add
-comment**.
+2. On the right, click **Tag this email**.
 
-#### Message Actions ####
+   {{<image src="manage-archive-search-results-4.png" alt="" title="">}}
 
-Messages can be exported from the search results. Options include the
-following:
+3. After you have reviewed the message, click **Needs Review** to remove the tag.    
 
--   PDF - Create and download a PDF of the message.
--   Download - Download the message in EML format. This file can be opened
-    by Microsoft Outlook and other email clients.
--   Send - Forward the message as an attachment.
--   Recover - Send the message back to your mailbox.
+   {{<image src="manage-archive-search-results-5.png" alt="" title="">}}
+
+
+#### Single message holds
+
+Holds can be enabled for individual or multiple messages. To place a hold on an individual message, use the following steps:
+
+1. Select the message then click **Hold** on the right.
+
+2. Select a Hold type, then click **Save**.
+
+   {{<image src="manage-archive-search-results-6.png" alt="" title="">}}
+
+3. To remove hold on an individual message, simply click **Hold** (**#**), uncheck the previous selection(s) then click **Save** when finished.
+
+#### Multiple message holds
+
+Use the following steps to place a hold on multiple messages:
+
+1. Check the box on left of each message to be included in the hold.
+
+   {{<image src="manage-archive-search-results-7.png" alt="" title="">}}
+
+2. Then click the **Gear** icon, select the hold type, and then click **Add**.
+
+   {{<image src="manage-archive-search-results-8.png" alt="" title="">}}  
+   **Note**: Messages placed on hold are identifiable by a **red lock icon**.
+
+3. To remove holds, check the boxes for the messages that have been identified.
+
+   {{<image src="manage-archive-search-results-9.png" alt="" title="">}}
+
+4. Click the **black lock icon**, check the boxes for the holds that are no longer needed, then click **Remove**.    
+
+   {{<image src="manage-archive-search-results-10.png" alt="" title="">}}
+
+#### Send a message as an attachment
+
+You can send a copy of a message as an attachment by selecting the message and clicking **Send**. Next, enter the recipient’s email address and click **Send** again.
+
+**Note**: The attachment is sent in .EML format.
+
+{{<image src="manage-archive-search-results-11.png" alt="" title="">}}
+
+#### Download the message
+
+You can download messages directly from the results page.
+
+**Note**: The message must be viewed in a mail client and can be forwarded as an individual email or sent as an attachment.
+
+{{<image src="manage-archive-search-results-12.png" alt="" title="">}}

@@ -1,5 +1,5 @@
 ---
-permalink: introducing-rackconnect-v30/
+permalink: introducing-rackconnect-v30
 audit_date: '2019-10-09'
 title: Introducing RackConnect v3.0
 type: article

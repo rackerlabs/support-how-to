@@ -1,5 +1,5 @@
 ---
-permalink: permission-matrix-for-rackspace-cdn/
+permalink: permission-matrix-for-rackspace-cdn
 audit_date: '2016-06-02'
 title: Permissions matrix for Rackspace CDN
 type: article

@@ -1,7 +1,7 @@
 [build.environment]
-  HUGO_VERSION = "0.76.5"
-  NPM_VERSION = "6.14.8"
-  NODE_VERSION = "12.16.3"
+  NPM_VERSION = "7.9.0"
+  NODE_VERSION = "15.0.1"
+  HUGO_VERSION = "0.82.0"
 
 [build]
   command = "npm run build"
@@ -9,11 +9,12 @@
 
 [context.production]
   publish = "public"
+  HUGO_ENV = "production"
   command = "npm run build"
 
 [context.deploy-preview]
   publish = "public"
-  command = "npm run build"
+  command = "npm run build-preview"
 
 [context.staging]
   publish = "public"
@@ -101,3 +102,8 @@
 
   # Developer only
   debugMode = true # extra logging for plugin developers
+
+# [[plugins]]
+# package = "@algolia/netlify-plugin-crawler"
+#   [plugins.inputs]
+#   branches = ['staging']

@@ -1,5 +1,5 @@
 ---
-permalink: reset-the-fortigate-vm-administrator-password/
+permalink: reset-the-fortigate-vm-administrator-password
 audit_date: '2020-05-26'
 title: Reset the Fortigate VM administrator password
 type: article

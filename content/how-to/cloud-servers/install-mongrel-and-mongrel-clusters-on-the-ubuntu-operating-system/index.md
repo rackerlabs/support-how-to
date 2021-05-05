@@ -1,5 +1,5 @@
 ---
-permalink: install-mongrel-and-mongrel-clusters-on-the-ubuntu-operating-system/
+permalink: install-mongrel-and-mongrel-clusters-on-the-ubuntu-operating-system
 audit_date:
 title: Install Mongrel and mongrel clusters on the Ubuntu operating system
 type: article
@@ -7,8 +7,7 @@ created_date: '2011-03-16'
 created_by: Rackspace Support
 last_modified_date: '2020-01-08'
 last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+
 ---
 
 There are variety of options open to the sysadmin when serving Ruby

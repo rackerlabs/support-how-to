@@ -1,5 +1,5 @@
 ---
-permalink: install-froxlor-on-fedora-31/
+permalink: install-froxlor-on-fedora-31
 audit_date: '2020-07-22'
 title: 'Install Froxlor on Fedora 31'
 type: article

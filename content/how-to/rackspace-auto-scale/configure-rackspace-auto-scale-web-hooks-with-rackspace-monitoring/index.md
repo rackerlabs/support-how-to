@@ -1,5 +1,5 @@
 ---
-permalink: configure-rackspace-auto-scale-web-hooks-with-rackspace-monitoring/
+permalink: configure-rackspace-auto-scale-web-hooks-with-rackspace-monitoring
 audit_date: '2020-09-28'
 title: Configure Rackspace Auto Scale web hooks with Rackspace Monitoring
 type: article

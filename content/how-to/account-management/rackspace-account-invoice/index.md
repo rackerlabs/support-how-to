@@ -1,14 +1,10 @@
 ---
-permalink: rackspace-account-invoice/
+permalink: rackspace-account-invoice
 audit_date: '2018-03-16'
 title: Rackspace account invoice
 type: article
 created_date: '2014-09-01'
 created_by: Kenny Johnston
-last_modified_date: '2018-03-20'
-last_modified_by: Kate Dougherty
-product: Account Management
-product_url: account-management
 ---
 
 Your monthly Rackspace account invoice includes account and billing
@@ -84,7 +80,7 @@ billing period.
 - **Total Charges**: The sum of the **Net Charge** and the **Taxes** for a
   product.
 - **Total Current Invoice Charges**: The total for all of the accumulative
-  charges applied to the invoice.  
+  charges applied to the invoice.
 
 ### Promotion and discount summary
 

@@ -1,5 +1,5 @@
 ---
-permalink: set-up-your-microsft-365-exchange-online-mailbox-in-outlook-for-android-tablets/
+permalink: set-up-your-microsft-365-exchange-online-mailbox-in-outlook-for-android-tablets
 audit_date: '2020-08-25'
 title: Set up your Microsoft 365 Exchange Online mailbox in Outlook for Android tablets
 type: article

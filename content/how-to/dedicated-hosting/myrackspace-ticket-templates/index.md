@@ -1,5 +1,5 @@
 ---
-permalink: myrackspace-ticket-templates/
+permalink: myrackspace-ticket-templates
 audit_date: '2019-12-13'
 title: MyRackspace ticket templates 
 type: article

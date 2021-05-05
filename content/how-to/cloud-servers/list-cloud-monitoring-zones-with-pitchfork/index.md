@@ -1,12 +1,12 @@
 ---
-permalink: list-cloud-monitoring-zones-with-pitchfork/
-audit_date: '2020-04-28'
+permalink: list-cloud-monitoring-zones-with-pitchfork
+audit_date: '2020-05-19'
 title: 'List Cloud Monitoring zones with Pitchfork'
 type: article
 created_date: '2020-05-18'
 created_by: Evan Benavides
-last_modified_date: 
-last_modified_by:
+last_modified_date: '2020-09-11'
+last_modified_by: Rose Morales
 product: Cloud Monitoring
 product_url: cloud-monitoring
 ---

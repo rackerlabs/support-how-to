@@ -1,5 +1,5 @@
 ---
-permalink: detailed-permissions-matrix-for-cloud-big-data/
+permalink: detailed-permissions-matrix-for-cloud-big-data
 audit_date:
 title: Detailed Permissions Matrix for Cloud Big Data
 type: article

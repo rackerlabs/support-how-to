@@ -1,11 +1,11 @@
 ---
-permalink: ngfw-feature-matrix/
+permalink: ngfw-feature-matrix
 audit_date: '2020-03-12'
 title: NGFW Feature Matrix
 type: article
 created_date: '2020-03-12'
 created_by: Chad Sterling
-last_modified_date: '2020-07-02'
+last_modified_date: '2020-11-30'
 last_modified_by: Chad Sterling
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -112,12 +112,12 @@ product_url: dedicated-hosting
     <td align="right">Route-based VPN</td>
     <td style="background-color: green;color:white;">Supported</td>
     <td style="background-color: red;color:white;">Unsupported Feature</td>
-    <td>Policy-based VPN</td>
+    <td>Route-based VPN</td>
   </tr>
   <tr>
     <td><b>RackConnect</b></td>
     <td style="background-color: green;color:white;"><b>Version 3 Only</b></td>
-    <td style="background-color: green;color:white;"><b>Version 3 Only</b></td>
+    <td style="background-color: yellow;color:black;"><b>Limited with no automation</b></td>
     <td><b>RackConnect</b></td>
   </tr>
 </table>

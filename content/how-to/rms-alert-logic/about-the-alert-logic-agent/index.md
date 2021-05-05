@@ -1,5 +1,5 @@
 ---
-permalink: about-the-alert-logic-agent/
+permalink: about-the-alert-logic-agent
 title: About the Alert Logic agent
 type: article
 audit_date: '2020-02-03'

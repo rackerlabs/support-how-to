@@ -1,5 +1,5 @@
 ---
-permalink: disable-a-vhost-in-the-ubuntu-operating-system-and-centos-for-apache-and-nginx/
+permalink: disable-a-vhost-in-the-ubuntu-operating-system-and-centos-for-apache-and-nginx
 audit_date: '2020-05-11'
 title: 'Disable a virtual host in the Ubuntu operating system and CentOS for Apache and Nginx'
 type: article

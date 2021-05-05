@@ -1,5 +1,5 @@
 ---
-permalink: create-an-inbound-port-allow-rule-for-windows-firewall-2008/
+permalink: create-an-inbound-port-allow-rule-for-windows-firewall-2008
 audit_date: '2018-04-04'
 title: Create an Inbound port allow rule for Windows Firewall 2008
 type: article

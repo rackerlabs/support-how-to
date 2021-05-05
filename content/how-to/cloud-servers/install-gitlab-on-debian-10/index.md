@@ -1,5 +1,5 @@
 ---
-permalink: install-gitlab-on-debian-10/
+permalink: install-gitlab-on-debian-10
 audit_date: '2020-07-27'
 title: 'Install GitLab on Debian 10'
 type: article

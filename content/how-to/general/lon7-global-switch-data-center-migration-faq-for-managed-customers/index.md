@@ -1,11 +1,11 @@
 ---
-permalink: lon7-global-switch-data-center-migration-faq-for-managed-customers/
+permalink: lon7-global-switch-data-center-migration-faq-for-managed-customers
 audit_date: '2020-01-29'
 title: LON7 (Global Switch) data center migration FAQ for managed customers
 type: article
 created_date: '2020-01-29'
 created_by: Sarah Wellburn
-last_modified_date: '2020-10-06'
+last_modified_date: '2021-01-25'
 last_modified_by: Cat Lookabaugh
 product: General
 product_url: general
@@ -38,7 +38,7 @@ infrastructure and the Stratosphere&reg; products (EStrat, VStrat, and PCIStrat)
 #### When will the relocation take place?
 
 Rackspace assigns all customers to a move group, which we will schedule for a
-date in January and February 2021. We schedule the move groups to run in a maintenance
+date in Q2 of 2021. We schedule the move groups to run in a maintenance
 window starting on either a Friday or Saturday night and running through to the
 following morning. We plan to keep the maintenance window shorter than 12 hours.
 We confirm the exact timings when we allocate the move groups, at least 60 days

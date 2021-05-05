@@ -5,7 +5,7 @@ created_date: '2016-01-17'
 created_by: Rackspace Support
 last_modified_date: '2020-09-20'
 last_modified_by: Stephanie Fillmon
-permalink: /cloud-files/
+permalink: cloud-files
 product: Cloud Files
 product_url: cloud-files
 ---
@@ -32,5 +32,5 @@ easy-to-use control panel, for a Fanatical Experience&trade; from day one.
 
 ###  Cloud Files API and developer guides
 
-- [Cloud Files API Getting Started Guide](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/#getting-started)
-- [Cloud Files Developer Guide](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/#document-developer-guide)
+- [Cloud Files API Getting Started Guide](https://docs.rackspace.com/docs/cloud-files/v1/getting-started/)
+- [Cloud Files Developer Guide](https://docs.rackspace.com/docs/cloud-files/v1/)

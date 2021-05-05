@@ -1,5 +1,5 @@
 ---
-permalink: mysql-connect-to-your-database-remotely/
+permalink: mysql-connect-to-your-database-remotely
 audit_date: '2018-10-03'
 title: Connect to a MySQL database remotely
 type: article

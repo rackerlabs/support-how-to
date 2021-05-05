@@ -1,5 +1,5 @@
 ---
-permalink: close-your-rackspace-account/
+permalink: close-your-rackspace-account
 audit_date: '2019-02-15'
 title: Close your Rackspace account
 type: article

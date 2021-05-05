@@ -1,5 +1,5 @@
 ---
-permalink: add-a-linux-user-with-document-root-permissions/
+permalink: add-a-linux-user-with-document-root-permissions
 audit_date: '2020-10-13'
 title: Add a Linux user with document root permissions
 type: article

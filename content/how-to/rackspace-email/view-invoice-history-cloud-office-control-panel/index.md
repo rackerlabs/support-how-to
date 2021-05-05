@@ -1,12 +1,12 @@
 ---
-permalink: view-invoice-history-cloud-office-control-panel/
-audit_date: '2018-01-29'
+permalink: view-invoice-history-cloud-office-control-panel
+audit_date: '2021-02-24'
 title: View invoice history in the Cloud Office Control Panel
 type: article
 created_date: '2014-03-31'
 created_by: William Loy
-last_modified_date: '2018-02-20'
-last_modified_by: William Loy
+last_modified_date: '2021-02-24'
+last_modified_by: Carlos Arriaga
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -24,21 +24,24 @@ For more information on prerequisite terminology, see [Cloud Office support term
 
 ### View past invoices
 
-To view past invoices for your Cloud Office account, [log in to the
-Cloud Office Control Panel](https://cp.rackspace.com/) and perform the following
+To view past invoices for your Cloud Office account, log in to the
+[Cloud Office Control Panel](https://cp.rackspace.com/) and perform the following
 steps:
 
-1. In the top right-hand corner of the page, click your admin ID name or account number and select **Billing & Payments** from the drop-down menu.
+1. In the top right-hand corner of the page, click your admin ID name or account number and select **Billing** from the drop-down menu.
 
-    {{<image src="admindropmenu.png" alt="" title="">}}
+    {{<image src="picture1.png" alt="" title="">}}
 
-2. On the **Billing & Payments** tab, click **Invoices**.
+2. On the **Billing** tab, click **Invoices**.
 
-   A list of invoices displays with the amount of each invoice and a brief description.
+   A list of invoices displays the amount of each invoice and a brief description.
 
-   {{<image src="invoices.png" alt="" title="">}}
+   {{<image src="picture2.png" alt="" title="">}}
 
 3. Click an invoice number to view a detailed invoice.
 
    - To print the invoice, click **Print Invoice** in the top right-hand corner of the invoice window.
-   - To export the invoice as a comma-separated-values (CSV) file, click **Export CSV**, and then save the file to your computer.
+   - To export the invoice as a comma-separated-values (CSV) file, click **Export CSV** and then save the file to your computer.
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
