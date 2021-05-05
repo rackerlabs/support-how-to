@@ -21,7 +21,7 @@ to an SMS or OTP (one-time password) device associated with the user's account:
   associated phone number capable of receiving SMS text messages.
 
 - An OTP client application installed on your phone, notebook, or other digital
-  device uses the OTP code.
+  device creates and uses the OTP code.
 
 You can modify MFA by updating your account settings in the
 [Rackspace Cloud Control Panel](https://login.rackspace.com). After you pair
@@ -113,8 +113,8 @@ A one-time password (OTP), also known as a one-time PIN or dynamic password, is
 a password that is valid for one login session or transaction on a computer
 system or other digital device.
 
-To configure your account to use an OTP device for MFA, you must have one of the
-following OTP client applications installed on your device:
+To configure your account to use an OTP device for MFA, you must install one of the
+following OTP client applications on your device:
 
 - [Authy](https://www.authy.com/)
 - [Duo](https://www.duosecurity.com/)
