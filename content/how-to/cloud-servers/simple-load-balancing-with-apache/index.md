@@ -1,21 +1,21 @@
 ---
 permalink: simple-load-balancing-with-apache
-audit_date:
+audit_date: '2021-05-06'
 title: Simple load balancing with Apache
 type: article
 created_date: '2011-03-09'
 created_by: Rackspace Support
-last_modified_date: '2016-01-14'
-last_modified_by: Kelly Holcomb
+last_modified_date: '2021-05-06'
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-**Note:** This article was written before the introduction of [Cloud
+**Note:** This article dates from before the introduction of [Cloud
 Load
 Balancers](/support/how-to/cloud-load-balancers),
 which is our recommended solution for load balancing. Because customers
-might still want to try this procedure, it is available for legacy
+might still want to try this procedure, it's available for legacy
 support purposes.
 
 This article describes how to create a simple software [load
@@ -40,15 +40,15 @@ begin.
 You are going to use a total of three servers to start, but you can use
 this as a model to scale horizontally.
 
--   One cloud server to be used as the load balancer
--   Two cloud servers to be used as dumb webheads
+-   One cloud server that works as the load balancer
+-   Two cloud servers that works as dumb webheads
 
 
 
 #### Software
 
 The software for all three servers will be the same; they will be
-running the same packages. You need to add only two software groups.
+running the same packages. You need to add two software groups.
 Perform the following steps.
 
 1.  Update your system.
@@ -60,7 +60,7 @@ Perform the following steps.
         # yum groupinstall "Web Server"
 
 3.  Optionally, install a text-based web browser in case you ever need
-    to check that a particular webhead is displaying the page it is
+    to check that a particular webhead is displaying the page it's
     supposed to behind the load balancer.
 
         # yum groupinstall "Text-based Internet"
@@ -73,8 +73,8 @@ Configure the servers as two webheads and one load balancer.
 
 #### Web servers
 
-Because the webheads are really just drones, they don't need any special
-configurations. Just create a file called **index.html** in
+Because the webheads are drones, they don't need any special
+configurations. Create a file called **index.html** in
 **/var/www/html/index.html**. In this file, you can put any
 distinguishing characteristics you want. For example, you could put "It
 works you looking at WebHead \#" where \# is the numerical identifier of
@@ -83,7 +83,7 @@ that particular webhead.
 #### Load balancer
 
 This sections walks through each step and then brings it together at the
-end, so you know what the end product should be. Place all of the
+end, so you know what the end product should be. Place the
 configurations that you define at the bottom of the
 **/etc/httpd/conf/httpd.conf** file in a standard virtual host.
 
@@ -97,14 +97,14 @@ Turn off ProxyRequests to avoid any unwanted traffic.
 
 In this part of the virtual host, name the webheads and declare how you
 will be balancing. The `BalanceMember` directive is how you declare the
-webheads. You can add as many as you like, using these as templates. The
+webheads. You can add the number you like, using these as templates. The
 `ProxySet` directive declares how you want to balance. This example uses
 a "byrequest" balancing algorithm, which is the same as a round robin,
-so for each new request you get a new webhead. The order is sequential.
+for each new request you get a new webhead. The order is sequential.
 (Although better and smarter algorithms exist, this one is easy to
-configure and you don't need to know networking theory.) All of this is
+configure and you don't need to know networking theory.) This is
 wrapped in `<Proxy>` tags, which is how Apache knows to send it to
-`mod_proxy`. The `balancer://mycluster` identifier is only an
+`mod_proxy`. The `balancer://mycluster` identifier is an
 identifier; you could call it what you want as long as you use the
 `balancer://` prefix.
 
@@ -141,7 +141,7 @@ this tool end after you restart Apache.
 #### ProxyPass
 
 This is the last part of the configuration, and adds the situations that
-will need to be proxied. You don't want to proxy the `balancer-manager`,
+will be proxied. You don't want to proxy the `balancer-manager`,
 but you do want to proxy everything else.
 
        ProxyPass /balancer-manager !
@@ -156,11 +156,11 @@ you refresh, it should hop between your two webheads, saying "It works
 you looking at WebHead 1" or "It works you looking at WebHead 2". You
 are now balancing.
 
-The following code combines all the things that you've learned into a
-helpful packaged VirtualHost. Just substitute all the necessary values
+The following code combines all you've learned into a
+helpful packaged VirtualHost. Substitute all the necessary values
 that are specific to your configuration, like the domain name and the IP
 addresses to your webheads. Also, some security additions are explained
-in the comments. Everything is commented so you don't have to refer back
+in the comments. Everything has comments so you don't have to refer
 to this article to make changes later.
 
 **Note:** The preceding example is formatted for Apache 2.4. If you are
@@ -218,3 +218,6 @@ using 2.2, replace `Require all granted` with
             ProxyPass / balancer://mycluster/
 
     </VirtualHost>
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
