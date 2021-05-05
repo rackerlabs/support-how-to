@@ -29,7 +29,7 @@ Before addressing tasks such as securing your account, creating mailboxes, and m
 
 Now that you have created an account, there are a few things that you should do to prevent surprises.
 
-1. Protect your account by enabling [multi-factor authentication](/support/how-to/multi-factor-authentication-from-the-cloud-control-panel/) for yourself and your administrators.
+1. Protect your account by enabling [multi-factor authentication](/support/how-to/multifactor-authentication-from-the-cloud-control-panel//) for yourself and your administrators.
 
 2. [Add administrators](/support/how-to/manage-email-administrators-with-the-cloud-office-control-panel/#add-an-administrator) to help manage your account. You should consider who needs access to technical or billing portions of the account and assign them the appropriate permissions.
 

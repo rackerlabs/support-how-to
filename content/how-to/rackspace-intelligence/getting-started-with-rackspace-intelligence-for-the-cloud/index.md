@@ -40,7 +40,7 @@ Use the following steps to access Rackspace Intelligence:
 
    If your account requires it, you might need to perform
    additional steps to set up [Multi-factor authentication from the Cloud Control
-   Panel](/support/how-to/multi-factor-authentication-from-the-cloud-control-panel).
+   Panel](/support/how-to/multifactor-authentication-from-the-cloud-control-panel/).
 
 2. In the top navigation bar, click **Select a Product > Rackspace
    Intelligence**.

@@ -1,7 +1,7 @@
 ---
-permalink: multi-factor-authentication-from-the-cloud-control-panel
+permalink: multifactor-authentication-from-the-cloud-control-panel/
 audit_date: '2020-10-27'
-title: Multi-factor authentication from the Cloud Control Panel
+title: Multifactor authentication from the Cloud Control Panel
 type: article
 created_date: '2014-07-17'
 created_by: Margaret Eker
@@ -52,7 +52,7 @@ this setting, you need to generate a support ticket.
 **Notes**
 
 - MyRackspace also implements multi-factor authentication. For information,
-    see [Multi-factor authentication from the MyRackspace portal](/support/how-to/multi-factor-authentication-from-the-myrackspace-portal).
+    see [Multi-factor authentication from the MyRackspace portal](/support/how-to/multifactor-authentication-from-the-myrackspace-portal).
 
 - When you enable multi-factor authentication for an account, you can only
     authenticate through username and password credentials.
