@@ -77,5 +77,5 @@ their desktop and mobile email clients, they can find detailed instructions for 
 the most popular devices by using our [Email Help tool](https://emailhelp.rackspace.com).
 This tool walks the user through an interactive portal that asks a series of questions
 that lead to device-specific email configuration instructions. To use the tool, navigate
-to **emailhelp.rackspace.com** and log in with your Rackspace Hosted Email email address
-and password. 
+to [emailhelp.rackspace.com](https://emailhelp.rackspace.com) and log in with your
+Rackspace Hosted Email email address and password. 
