@@ -1,5 +1,5 @@
 ---
-permalink: install-nextcloud-on-debian-10/
+permalink: install-nextcloud-on-debian-10
 audit_date: '2020-07-24'
 title: 'Install Nextcloud on Debian 10'
 type: article

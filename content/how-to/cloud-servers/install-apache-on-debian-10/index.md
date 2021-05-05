@@ -1,5 +1,5 @@
 ---
-permalink: install-apache-on-debian-10/
+permalink: install-apache-on-debian-10
 audit_date: '2021-04-07'
 title: 'Install Apache on Debian 10'
 type: article

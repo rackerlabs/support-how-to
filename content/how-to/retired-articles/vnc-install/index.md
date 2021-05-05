@@ -1,5 +1,5 @@
 ---
-permalink: vnc-install/
+permalink: vnc-install
 audit_date:
 title: Install VNC on a Cloud Server
 type: article

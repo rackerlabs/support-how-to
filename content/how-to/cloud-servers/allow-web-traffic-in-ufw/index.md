@@ -1,5 +1,5 @@
 ---
-permalink: allow-web-traffic-in-ufw/
+permalink: allow-web-traffic-in-ufw
 audit_date: '2020-03-11'
 title: 'Allow web traffic in ufw software firewall'
 type: article

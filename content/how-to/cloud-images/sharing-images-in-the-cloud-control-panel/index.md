@@ -1,5 +1,5 @@
 ---
-permalink: sharing-images-in-the-cloud-control-panel/
+permalink: sharing-images-in-the-cloud-control-panel
 audit_date: '2018-02-06'
 title: Sharing images in the Cloud Control Panel
 type: article

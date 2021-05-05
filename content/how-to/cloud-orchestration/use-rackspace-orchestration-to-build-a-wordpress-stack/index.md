@@ -1,5 +1,5 @@
 ---
-permalink: use-rackspace-orchestration-to-build-a-wordpress-stack/
+permalink: use-rackspace-orchestration-to-build-a-wordpress-stack
 audit_date: '2020-03-04'
 title: Use Rackspace Orchestration to build a Wordpress stack
 type: article

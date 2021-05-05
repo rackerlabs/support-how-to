@@ -1,5 +1,5 @@
 ---
-permalink: create-a-clone-of-a-cloud-block-storage-volume/
+permalink: create-a-clone-of-a-cloud-block-storage-volume
 audit_date: '2021-02-08'
 title: Create a clone of a Cloud Block Storage volume
 type: article

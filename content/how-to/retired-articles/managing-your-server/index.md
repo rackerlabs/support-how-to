@@ -1,5 +1,5 @@
 ---
-permalink: managing-your-server/
+permalink: managing-your-server
 audit_date:
 title: Managing Your Server
 type: article

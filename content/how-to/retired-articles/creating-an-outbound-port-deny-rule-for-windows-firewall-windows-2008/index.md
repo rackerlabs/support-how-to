@@ -1,5 +1,5 @@
 ---
-permalink: creating-an-outbound-port-deny-rule-for-windows-firewall-windows-2008/
+permalink: creating-an-outbound-port-deny-rule-for-windows-firewall-windows-2008
 audit_date:
 title: Create an Outbound Port Deny Rule for Windows Firewall (Windows 2008)
 type: article

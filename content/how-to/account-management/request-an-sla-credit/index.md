@@ -1,5 +1,5 @@
 ---
-permalink: request-an-sla-credit/
+permalink: request-an-sla-credit
 audit_date: '2017-12-19'
 title: Request an SLA credit
 type: article

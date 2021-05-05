@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-image-validation-scripts/
+permalink: rackconnect-image-validation-scripts
 audit_date:
 title: RackConnect image validation scripts
 type: article

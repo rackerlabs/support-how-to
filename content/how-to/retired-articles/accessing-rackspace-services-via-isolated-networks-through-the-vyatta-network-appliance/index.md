@@ -1,5 +1,5 @@
 ---
-permalink: accessing-rackspace-services-via-isolated-networks-through-the-vyatta-network-appliance/
+permalink: accessing-rackspace-services-via-isolated-networks-through-the-vyatta-network-appliance
 audit_date:
 title: Accessing Rackspace Services Via Isolated Networks through the Vyatta Network Appliance
 type: article

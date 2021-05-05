@@ -1,5 +1,5 @@
 ---
-permalink: transfer-account-ownership-or-tax-id/
+permalink: transfer-account-ownership-or-tax-id
 audit_date: '2018-03-13'
 title: Transfer an account's ownership or tax id
 type: article

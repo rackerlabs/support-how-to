@@ -1,5 +1,5 @@
 ---
-permalink: supported-browsers/
+permalink: supported-browsers
 title: 'Supported browsers for Cloud Control Panel'
 type: article
 created_date: '2016-01-29'

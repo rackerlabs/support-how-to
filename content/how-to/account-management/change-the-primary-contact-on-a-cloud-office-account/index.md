@@ -1,5 +1,5 @@
 ---
-permalink: change-the-primary-contact-on-a-cloud-office-account/
+permalink: change-the-primary-contact-on-a-cloud-office-account
 audit_date: '2019-08-29'
 title: Change the Primary Contact on a Cloud Office account
 type: article

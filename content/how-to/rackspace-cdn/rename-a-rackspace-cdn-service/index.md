@@ -1,5 +1,5 @@
 ---
-permalink: rename-a-rackspace-cdn-service/
+permalink: rename-a-rackspace-cdn-service
 audit_date: '2020-12-11'
 title: Rename a Rackspace CDN service
 type: article

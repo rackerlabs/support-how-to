@@ -1,5 +1,5 @@
 ---
-permalink: cloud-databases-developer-resources-and-how-to-articles/
+permalink: cloud-databases-developer-resources-and-how-to-articles
 audit_date: '2018-12-26'
 title: 'Cloud Databases: Developer resources and how-to articles'
 type: article

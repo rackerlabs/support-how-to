@@ -1,5 +1,5 @@
 ---
-permalink: block-an-ip-address-on-a-windows-server/
+permalink: block-an-ip-address-on-a-windows-server
 audit_date: '2021-03-31'
 title: 'Block an IP address on a Windows Server'
 type: article

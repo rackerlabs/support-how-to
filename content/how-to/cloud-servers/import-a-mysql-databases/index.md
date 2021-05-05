@@ -1,5 +1,5 @@
 ---
-permalink: import-a-mysql-databases/
+permalink: import-a-mysql-databases
 audit_date: '2020-04-02'
 title: 'Import a MySQL Database'
 type: article

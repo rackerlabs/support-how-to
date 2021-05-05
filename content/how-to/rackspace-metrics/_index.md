@@ -5,7 +5,7 @@ created_date: '2016-02-19'
 created_by: Nate Archer
 last_modified_date: '2016-02-19'
 last_modified_by: Nate Archer
-permalink: /rackspace-metrics/
+permalink: rackspace-metrics
 product: Rackspace Metrics
 product_url: rackspace-metrics
 ---

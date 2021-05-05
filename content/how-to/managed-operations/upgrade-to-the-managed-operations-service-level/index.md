@@ -1,5 +1,5 @@
 ---
-permalink: upgrade-to-the-managed-operations-service-level/
+permalink: upgrade-to-the-managed-operations-service-level
 audit_date: '2018-01-23'
 title: Upgrade to the Managed Operations service level
 type: article

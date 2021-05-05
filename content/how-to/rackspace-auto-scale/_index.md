@@ -5,7 +5,7 @@ created_date: '2016-01-17'
 created_by: Rackspace Support
 last_modified_date: '2016-01-17'
 last_modified_by: Constanze Kratel
-permalink: /rackspace-auto-scale/
+permalink: rackspace-auto-scale
 product: Rackspace Autoscale
 product_url: rackspace-auto-scale
 ---

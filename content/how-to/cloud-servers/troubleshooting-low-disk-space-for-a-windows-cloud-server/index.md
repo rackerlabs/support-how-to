@@ -1,5 +1,5 @@
 ---
-permalink: troubleshooting-low-disk-space-for-a-windows-cloud-server/
+permalink: troubleshooting-low-disk-space-for-a-windows-cloud-server
 audit_date: '2018-08-16'
 title: Troubleshooting low disk space for a Windows cloud server
 type: article

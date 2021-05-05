@@ -1,5 +1,5 @@
 ---
-permalink: setting-up-an-imap-account-on-a-windows-phone/
+permalink: setting-up-an-imap-account-on-a-windows-phone
 audit_date:
 title: Set up an IMAP account on a Windows phone
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: add-an-additional-rdp-license-to-windows-server-2012-r2/
+permalink: add-an-additional-rdp-license-to-windows-server-2012-r2
 audit_date: '2020-06-30'
 title: 'Add an additional RDP license to Windows Server 2012 R2'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: media-server-comparison/
+permalink: media-server-comparison
 audit_date: '2020-07-29'
 title: 'Media Server Comparison'
 type: article

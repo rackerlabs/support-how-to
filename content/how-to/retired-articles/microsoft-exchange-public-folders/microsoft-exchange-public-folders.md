@@ -1,5 +1,5 @@
 ---
-permalink: microsoft-exchange-public-folders/
+permalink: microsoft-exchange-public-folders
 audit_date:
 title: Microsoft Exchange public folders
 type: article

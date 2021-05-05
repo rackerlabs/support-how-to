@@ -1,5 +1,5 @@
 ---
-permalink: set-up-onedrive-for-business-for-android-tablets/
+permalink: set-up-onedrive-for-business-for-android-tablets
 audit_date: '2020-08-24'
 title: Set up OneDrive for Business for Android tablets
 type: article

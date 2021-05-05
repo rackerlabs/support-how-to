@@ -1,5 +1,5 @@
 ---
-permalink: set-up-two-factor-authentication-by-using-google-authenticator/
+permalink: set-up-two-factor-authentication-by-using-google-authenticator
 audit_date: '2020-10-22'
 title: Set up two-factor authentication by using Google Authenticator
 type: article

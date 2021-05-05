@@ -1,5 +1,5 @@
 ---
-permalink: upgrade-a-cloud-databases-instance-from-mysql-56-to-mysql-57/
+permalink: upgrade-a-cloud-databases-instance-from-mysql-56-to-mysql-57
 audit_date: '2019-01-07'
 title: Upgrade a Cloud Databases instance from MySQL 5.6 to MySQL 5.7
 type: article

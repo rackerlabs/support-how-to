@@ -1,5 +1,5 @@
 ---
-permalink: live-migration-overview/
+permalink: live-migration-overview
 audit_date:
 title: Live migration overview
 type: article

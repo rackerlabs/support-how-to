@@ -1,5 +1,5 @@
 ---
-permalink: set-up-dns-records-for-cloud-office-email/
+permalink: set-up-dns-records-for-cloud-office-email
 audit_date: '2020-09-21'
 title: Set up DNS records for Cloud Office email
 type: article

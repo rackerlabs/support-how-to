@@ -1,5 +1,5 @@
 ---
-permalink: managed-cloud-service-levels-faq/
+permalink: managed-cloud-service-levels-faq
 audit_date:
 title: Managed OpenStack Public Cloud service levels FAQ
 type: article

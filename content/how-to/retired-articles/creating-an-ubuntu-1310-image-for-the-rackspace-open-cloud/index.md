@@ -1,5 +1,5 @@
 ---
-permalink: creating-an-ubuntu-1310-image-for-the-rackspace-open-cloud/
+permalink: creating-an-ubuntu-1310-image-for-the-rackspace-open-cloud
 audit_date: '2017-02-27'
 title: Create a server image for the Rackspace open cloud
 type: article

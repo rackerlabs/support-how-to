@@ -1,5 +1,5 @@
 ---
-permalink: lon5-cloud-migration-faq/
+permalink: lon5-cloud-migration-faq
 audit_date:
 title: LON5 Cloud Migration FAQ
 type: article

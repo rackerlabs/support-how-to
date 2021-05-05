@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-pdr-dedicated-servers/
+permalink: rackspace-pdr-dedicated-servers
 title: Rackspace PDR on Rackspace Dedicated Servers
 type: article
 audit_date: '2018-11-12'

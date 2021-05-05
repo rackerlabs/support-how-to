@@ -1,5 +1,5 @@
 ---
-permalink: edit-dns-in-the-cloud-office-control-panel/
+permalink: edit-dns-in-the-cloud-office-control-panel
 audit_date: '2021-02-03'
 title: Edit DNS in the Cloud Office Control Panel
 type: article

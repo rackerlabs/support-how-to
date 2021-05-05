@@ -1,5 +1,5 @@
 ---
-permalink: create-custom-intelligence-dashboards/
+permalink: create-custom-intelligence-dashboards
 audit_date: '2017-07-28'
 title: Create custom intelligence dashboards
 type: article

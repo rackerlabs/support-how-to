@@ -1,5 +1,5 @@
 ---
-permalink: basic-application-pool-troubleshooting/
+permalink: basic-application-pool-troubleshooting
 audit_date: '2020-06-11'
 title: 'Basic application pool troubleshooting'
 type: article

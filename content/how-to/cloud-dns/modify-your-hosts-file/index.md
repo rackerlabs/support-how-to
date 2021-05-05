@@ -1,5 +1,5 @@
 ---
-permalink: modify-your-hosts-file/
+permalink: modify-your-hosts-file
 audit_date: '2018-08-24'
 title: Modify your hosts file
 type: article

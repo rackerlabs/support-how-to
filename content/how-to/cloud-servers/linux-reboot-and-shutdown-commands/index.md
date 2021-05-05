@@ -1,5 +1,5 @@
 ---
-permalink: linux-reboot-and-shutdown-commands/
+permalink: linux-reboot-and-shutdown-commands
 audit_date: '2020-06-30'
 title: Linux reboot and shutdown commands
 type: article

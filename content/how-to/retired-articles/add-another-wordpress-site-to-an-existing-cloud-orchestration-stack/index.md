@@ -1,5 +1,5 @@
 ---
-permalink: add-another-wordpress-site-to-an-existing-cloud-orchestration-stack/
+permalink: add-another-wordpress-site-to-an-existing-cloud-orchestration-stack
 audit_date:
 title: Add another WordPress site to an existing Cloud Orchestration stack
 type: article

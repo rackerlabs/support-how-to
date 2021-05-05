@@ -1,5 +1,5 @@
 ---
-permalink: view-basic-graphs-of-activity-in-rackspace-intelligence/
+permalink: view-basic-graphs-of-activity-in-rackspace-intelligence
 audit_date: '2017-08-03'
 title: View basic graphs of activity in Rackspace Intelligence
 type: article

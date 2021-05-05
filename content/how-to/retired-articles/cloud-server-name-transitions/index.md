@@ -1,5 +1,5 @@
 ---
-permalink: cloud-server-name-transitions/
+permalink: cloud-server-name-transitions
 audit_date:
 title: Cloud server name transitions
 type: article

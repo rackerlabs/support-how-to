@@ -1,5 +1,5 @@
 ---
-permalink: create-redirects-in-nginx/
+permalink: create-redirects-in-nginx
 audit_date: '2021-03-31'
 title: 'Create redirects in Nginx'
 type: article

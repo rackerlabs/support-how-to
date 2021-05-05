@@ -1,5 +1,5 @@
 ---
-permalink: update-the-rackspace-cloud-backup-agent/
+permalink: update-the-rackspace-cloud-backup-agent
 audit_date: '2020-09-15'
 title: Manually update the Rackspace Cloud Backup agent
 type: article

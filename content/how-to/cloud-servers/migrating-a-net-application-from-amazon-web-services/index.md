@@ -1,5 +1,5 @@
 ---
-permalink: migrating-a-net-application-from-amazon-web-services/
+permalink: migrating-a-net-application-from-amazon-web-services
 audit_date: '2021-04-22'
 title: Migrate a .NET application from Amazon Web Services
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: create-a-custom-control-panel-site/
+permalink: create-a-custom-control-panel-site
 audit_date: '2018-03-28'
 title: Create a custom control panel site
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: blocklist-addresses-domains-and-ip-addresses-in-rackspace-email/
+permalink: blocklist-addresses-domains-and-ip-addresses-in-rackspace-email
 audit_date: '2017-11-13'
 title: Blocklist addresses, domains, and IP addresses in Rackspace email
 type: article

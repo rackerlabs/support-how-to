@@ -1,5 +1,5 @@
 ---
-permalink: why-do-you-need-my-vat-id-number/
+permalink: why-do-you-need-my-vat-id-number
 audit_date:
 title: Reclaim VAT
 type: article

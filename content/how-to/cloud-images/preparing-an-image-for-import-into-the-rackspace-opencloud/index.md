@@ -1,5 +1,5 @@
 ---
-permalink: preparing-an-image-for-import-into-the-rackspace-opencloud/
+permalink: preparing-an-image-for-import-into-the-rackspace-opencloud
 audit_date: '2019-12-18'
 title: Prepare an image for import into the Rackspace Open Cloud
 type: article

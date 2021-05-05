@@ -1,5 +1,5 @@
 ---
-permalink: migrating-between-server-flavors/
+permalink: migrating-between-server-flavors
 audit_date: '2020-07-30'
 title: 'Migrate between server flavors'
 type: article

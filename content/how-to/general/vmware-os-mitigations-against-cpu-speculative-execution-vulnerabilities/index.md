@@ -1,5 +1,5 @@
 ---
-permalink: vmware-os-mitigations-against-cpu-speculative-execution-vulnerabilities/
+permalink: vmware-os-mitigations-against-cpu-speculative-execution-vulnerabilities
 audit_date: '2018-02-18'
 title: 'VMware OS mitigations against CPU speculative execution vulnerabilities'
 type: article

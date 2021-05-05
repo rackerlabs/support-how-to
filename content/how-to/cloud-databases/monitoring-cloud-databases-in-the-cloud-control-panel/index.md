@@ -1,5 +1,5 @@
 ---
-permalink: monitoring-cloud-databases-in-the-cloud-control-panel/
+permalink: monitoring-cloud-databases-in-the-cloud-control-panel
 audit_date: '2018-07-05'
 title: Monitoring Cloud Databases in the Cloud Control Panel
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: disable-or-enable-exchange-email-access/
+permalink: disable-or-enable-exchange-email-access
 audit_date: '2018-01-15'
 title: Disable or enable Exchange email access
 type: article

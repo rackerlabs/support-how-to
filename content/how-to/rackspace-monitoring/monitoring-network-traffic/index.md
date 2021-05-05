@@ -1,5 +1,5 @@
 ---
-permalink: monitoring-network-traffic/
+permalink: monitoring-network-traffic
 audit_date: '2019-03-11'
 title: Monitor Network Traffic
 type: article

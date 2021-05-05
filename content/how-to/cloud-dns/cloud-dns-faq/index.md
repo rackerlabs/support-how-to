@@ -1,5 +1,5 @@
 ---
-permalink: cloud-dns-faq/
+permalink: cloud-dns-faq
 audit_date: '2018-03-13'
 title: Cloud DNS FAQ
 type: article

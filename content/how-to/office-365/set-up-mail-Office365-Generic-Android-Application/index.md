@@ -1,5 +1,5 @@
 ---
-permalink: set-up-mail-Office365-Generic-Android-Application/
+permalink: set-up-mail-Office365-Generic-Android-Application
 audit_date: '2021-01-22'
 title: Set up your Microsoft 365 Exchange Online mailbox in the generic Mail app for Android
 type: article

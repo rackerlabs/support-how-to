@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-private-cloud-spheres-of-support/
+permalink: rackspace-private-cloud-spheres-of-support
 audit_date:
 title: Rackspace Private Cloud Spheres of Support
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: install-and-configure-ftp-and-sftp-by-using-filezilla/
+permalink: install-and-configure-ftp-and-sftp-by-using-filezilla
 audit_date: '2021-02-08'
 title: Install and configure FTP and SFTP by using Filezilla
 type: article

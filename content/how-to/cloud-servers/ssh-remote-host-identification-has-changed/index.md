@@ -1,5 +1,5 @@
 ---
-permalink: ssh-remote-host-identification-has-changed/
+permalink: ssh-remote-host-identification-has-changed
 audit_date: '2018-06-15'
 title: 'SSH - "REMOTE HOST IDENTIFICATION HAS CHANGED"'
 type: article

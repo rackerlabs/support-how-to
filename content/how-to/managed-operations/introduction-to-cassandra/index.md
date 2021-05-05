@@ -1,5 +1,5 @@
 ---
-permalink: introduction-to-cassandra/
+permalink: introduction-to-cassandra
 audit_date: '2018-03-21'
 title: 'Introduction to Cassandra'
 type: article

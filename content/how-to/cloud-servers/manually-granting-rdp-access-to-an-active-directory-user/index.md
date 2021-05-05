@@ -1,5 +1,5 @@
 ---
-permalink: manually-grant-rdp-access-to-an-active-directory-user/
+permalink: manually-grant-rdp-access-to-an-active-directory-user
 audit_date: '2021-03-10'
 title: Manually grant RDP access to an Active Directory user
 type: article

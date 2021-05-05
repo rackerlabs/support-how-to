@@ -1,5 +1,5 @@
 ---
-permalink: email-everyone-cloud-office-control-panel/
+permalink: email-everyone-cloud-office-control-panel
 audit_date: '2021-02-03'
 title: 'Email everyone in a domain: Cloud Office Control Panel'
 type: article

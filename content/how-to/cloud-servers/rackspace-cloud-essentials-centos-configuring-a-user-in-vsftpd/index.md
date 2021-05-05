@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-essentials-centos-configuring-a-user-in-vsftpd/
+permalink: rackspace-cloud-essentials-centos-configuring-a-user-in-vsftpd
 audit_date: '2016-06-27'
 title: Rackspace Cloud Essentials - Configure a user in vsftpd for CentOS
 type: article

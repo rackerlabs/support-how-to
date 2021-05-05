@@ -1,5 +1,5 @@
 ---
-permalink: understanding-the-cloud-computing-stack-saas-paas-iaas/
+permalink: understanding-the-cloud-computing-stack-saas-paas-iaas
 audit_date: '2020-03-31'
 title: 'Understanding the cloud computing stack: SaaS, PaaS, and IaaS'
 type: article

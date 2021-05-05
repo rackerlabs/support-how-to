@@ -1,5 +1,5 @@
 ---
-permalink: best-practices-for-sending-person-to-person-email/
+permalink: best-practices-for-sending-person-to-person-email
 audit_date: '2017-05-30'
 title: Best practices for sending person-to-person email
 type: article

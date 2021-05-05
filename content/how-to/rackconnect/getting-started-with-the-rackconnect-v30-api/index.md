@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-the-rackconnect-v30-api/
+permalink: getting-started-with-the-rackconnect-v30-api
 audit_date: '2019-10-09'
 title: Get started with the RackConnect v3.0 API
 type: article

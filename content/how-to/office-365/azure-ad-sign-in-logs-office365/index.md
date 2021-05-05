@@ -1,5 +1,5 @@
 ---
-permalink: azure-ad-sign-in-logs-office365/
+permalink: azure-ad-sign-in-logs-office365
 audit_date: '2020-04-13'
 title: How to access and view sign-in logs for your Office 365 users
 type: article

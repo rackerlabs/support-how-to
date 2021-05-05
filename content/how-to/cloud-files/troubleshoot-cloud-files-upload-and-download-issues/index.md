@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-cloud-files-upload-and-download-issues/
+permalink: troubleshoot-cloud-files-upload-and-download-issues
 audit_date: '2018-08-10'
 title: Troubleshoot Cloud Files upload and download issues
 type: article

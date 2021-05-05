@@ -1,5 +1,5 @@
 ---
-permalink: network-configuration-for-eth0-changed-to-dhcp-after-upgrading-rhel-centos/
+permalink: network-configuration-for-eth0-changed-to-dhcp-after-upgrading-rhel-centos
 audit_date: '2019-02-18'
 title: Network configuration for eth0 changed to DHCP after upgrading RHEL/CentOS
 type: article

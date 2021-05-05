@@ -1,5 +1,5 @@
 ---
-permalink: detailed-permissions-matrix-for-cloud-images/
+permalink: detailed-permissions-matrix-for-cloud-images
 audit_date: '2016-12-05'
 title: Permissions matrix for Cloud Images
 type: article

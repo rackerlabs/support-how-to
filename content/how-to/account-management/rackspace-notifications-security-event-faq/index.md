@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-notifications-security-event-faq/
+permalink: rackspace-notifications-security-event-faq
 audit_date: '2020-05-14'
 title: Rackspace notifications security event FAQ
 type: article

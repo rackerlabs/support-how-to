@@ -1,5 +1,5 @@
 ---
-permalink: vyatta-eol-faq/
+permalink: vyatta-eol-faq
 audit_date: '2020-06-16'
 title: Vyatta vRouter End of Support FAQ
 type: article

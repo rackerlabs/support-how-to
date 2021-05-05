@@ -1,5 +1,5 @@
 ---
-permalink: how-rackspace-bills-for-bandwidth/
+permalink: how-rackspace-bills-for-bandwidth
 audit_date: '2018-02-26'
 title: How Rackspace bills for bandwidth
 type: article

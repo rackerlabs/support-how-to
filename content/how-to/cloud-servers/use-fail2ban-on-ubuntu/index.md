@@ -1,5 +1,5 @@
 ---
-permalink: use-fail2ban-on-ubuntu/
+permalink: use-fail2ban-on-ubuntu
 audit_date: '2020-08-19'
 title: Use fail2ban on Ubuntu
 type: article

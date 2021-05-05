@@ -1,5 +1,5 @@
 ---
-permalink: vyatta-vrouter-allow-an-ip-address-to-access-the-vrouter-via-ssh/
+permalink: vyatta-vrouter-allow-an-ip-address-to-access-the-vrouter-via-ssh
 audit_date:
 title: 'Vyatta vRouter: Allow an IP address to access the vRouter via SSH'
 type: article

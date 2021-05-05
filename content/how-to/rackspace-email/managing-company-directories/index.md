@@ -1,5 +1,5 @@
 ---
-permalink: managing-company-directories/
+permalink: managing-company-directories
 audit_date: '2018-04-06'
 title: Manage company directories
 type: article

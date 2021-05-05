@@ -1,5 +1,5 @@
 ---
-permalink: swift-filesystem-for-hadoop/
+permalink: swift-filesystem-for-hadoop
 audit_date:
 title: Swift Filesystem for Hadoop
 type: article

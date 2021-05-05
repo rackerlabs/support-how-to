@@ -1,5 +1,5 @@
 ---
-permalink: log-in-to-your-server-via-rdp-windows/
+permalink: log-in-to-your-server-via-rdp-windows
 audit_date: '2020-10-16'
 title: Log in to your server via RDP (Windows)
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: high-performance-computing-cluster-in-a-cloud-environment/
+permalink: high-performance-computing-cluster-in-a-cloud-environment
 audit_date: '2019-04-12'
 title: High Performance Computing Cluster in a cloud environment
 type: article

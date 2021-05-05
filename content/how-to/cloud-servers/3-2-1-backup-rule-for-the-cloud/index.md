@@ -1,5 +1,5 @@
 ---
-permalink: 3-2-1-backup-rule-for-the-cloud/
+permalink: 3-2-1-backup-rule-for-the-cloud
 audit_date: '2019-01-22'
 title: 3-2-1 backup rule for the cloud
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-private-cloud-software-package-update-20-march-2013/
+permalink: rackspace-private-cloud-software-package-update-20-march-2013
 audit_date:
 title: Rackspace Private Cloud Software Package Update - 20 March 2013
 type: article

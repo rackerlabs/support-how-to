@@ -1,5 +1,5 @@
 ---
-permalink: install-auter-on-centos6/
+permalink: install-auter-on-centos6
 audit_date: '2017-08-24'
 title: 'Install Auter on CentOS 6'
 type: article

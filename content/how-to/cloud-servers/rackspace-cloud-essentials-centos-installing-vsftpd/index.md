@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-essentials-centos-installing-vsftpd/
+permalink: rackspace-cloud-essentials-centos-installing-vsftpd
 audit_date: '2017-11-16'
 title: Rackspace Cloud Essentials - Install vsftpd for CentOS
 type: article

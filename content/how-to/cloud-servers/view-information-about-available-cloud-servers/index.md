@@ -1,5 +1,5 @@
 ---
-permalink: view-information-about-available-cloud-servers/
+permalink: view-information-about-available-cloud-servers
 audit_date: '2017-08-01'
 title: View information about available cloud servers
 type: article

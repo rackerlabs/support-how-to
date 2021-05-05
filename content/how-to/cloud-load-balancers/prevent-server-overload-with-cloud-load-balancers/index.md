@@ -1,5 +1,5 @@
 ---
-permalink: prevent-server-overload-with-cloud-load-balancers/
+permalink: prevent-server-overload-with-cloud-load-balancers
 audit_date: '2020-10-01'
 title: Prevent server overload with Cloud Load Balancers
 type: article

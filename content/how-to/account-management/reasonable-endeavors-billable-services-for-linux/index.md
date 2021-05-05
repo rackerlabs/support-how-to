@@ -1,5 +1,5 @@
 ---
-permalink: reasonable-endeavors-billable-services-for-linux/
+permalink: reasonable-endeavors-billable-services-for-linux
 audit_date: '2021-03-11'
 title: Reasonable Endeavors OS Billable Services for Linux
 type: article

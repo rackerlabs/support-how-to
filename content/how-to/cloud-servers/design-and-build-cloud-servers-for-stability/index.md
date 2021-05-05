@@ -1,5 +1,5 @@
 ---
-permalink: design-and-build-cloud-servers-for-stability/
+permalink: design-and-build-cloud-servers-for-stability
 audit_date:
 title: Design and build Cloud Servers for stability
 type: article

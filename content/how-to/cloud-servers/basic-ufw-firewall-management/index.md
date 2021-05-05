@@ -1,5 +1,5 @@
 ---
-permalink: basic-ufw-firewall-management/
+permalink: basic-ufw-firewall-management
 audit_date: '2020-06-09'
 title: 'Basic ufw firewall management'
 type: article

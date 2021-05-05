@@ -1,5 +1,5 @@
 ---
-permalink: upload-a-file-to-rackspace-email-plus-cloud-drive/
+permalink: upload-a-file-to-rackspace-email-plus-cloud-drive
 audit_date: '2018-01-31'
 title: Upload a file to Rackspace Email Plus Cloud Drive
 type: article

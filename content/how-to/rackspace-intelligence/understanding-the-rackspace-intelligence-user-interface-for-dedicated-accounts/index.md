@@ -1,5 +1,5 @@
 ---
-permalink: understanding-the-rackspace-intelligence-user-interface-for-dedicated-accounts/
+permalink: understanding-the-rackspace-intelligence-user-interface-for-dedicated-accounts
 audit_date: '2021-02-24'
 title: Understanding the Rackspace Intelligence User Interface for dedicated accounts
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: rpc-mitigations-against-cpu-speculative-execution-vulnerabilities/
+permalink: rpc-mitigations-against-cpu-speculative-execution-vulnerabilities
 audit_date: '2018-02-18'
 title: 'RPC mitigations against CPU speculative execution vulnerabilities'
 type: article

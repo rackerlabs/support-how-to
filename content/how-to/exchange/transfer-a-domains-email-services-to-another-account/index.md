@@ -1,5 +1,5 @@
 ---
-permalink: transfer-a-domains-email-services-to-another-account/
+permalink: transfer-a-domains-email-services-to-another-account
 audit_date: '2020-11-24'
 title: Transfer a domain's email services to another account
 type: article

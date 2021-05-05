@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-nova-agent-or-rackspace-cloud-server-agent/
+permalink: troubleshoot-nova-agent-or-rackspace-cloud-server-agent
 audit_date: '2020-07-06'
 title: 'Troubleshoot nova-agent or Rackspace Cloud Server Agent'
 type: article

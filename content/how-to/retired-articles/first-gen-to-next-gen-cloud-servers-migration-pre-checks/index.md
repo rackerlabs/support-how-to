@@ -1,5 +1,5 @@
 ---
-permalink: first-gen-to-next-gen-cloud-servers-migration-pre-checks/
+permalink: first-gen-to-next-gen-cloud-servers-migration-pre-checks
 audit_date:
 title: First Gen to Next Gen Cloud Servers migration pre-checks
 type: article

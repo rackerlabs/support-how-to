@@ -1,5 +1,5 @@
 ---
-permalink: create-remove-swap-file-in-ubuntu/
+permalink: create-remove-swap-file-in-ubuntu
 audit_date: '2021-03-08'
 title: Create and remove swap files in Ubuntu
 type: article

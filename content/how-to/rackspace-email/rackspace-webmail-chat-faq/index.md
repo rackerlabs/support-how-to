@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-webmail-chat-faq/
+permalink: rackspace-webmail-chat-faq
 audit_date: '2021-03-17'
 title: Rackspace Webmail Chat FAQ
 type: article

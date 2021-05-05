@@ -1,5 +1,5 @@
 ---
-permalink: viewing-and-creating-graphs-of-activity-in-rackspace-intelligence-for-dedicated-accounts/
+permalink: viewing-and-creating-graphs-of-activity-in-rackspace-intelligence-for-dedicated-accounts
 audit_date:
 title: View and create graphs of activity in Rackspace Intelligence for dedicated accounts
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: use-systemctl-to-manage-services/
+permalink: use-systemctl-to-manage-services
 audit_date: '2020-09-22'
 title: Use Systemctl to manage services
 type: article

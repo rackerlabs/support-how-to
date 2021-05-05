@@ -1,5 +1,5 @@
 ---
-permalink: using-onmetal-cloud-servers-with-rackconnect-v20/
+permalink: using-onmetal-cloud-servers-with-rackconnect-v20
 audit_date: '2019-12-16'
 title: Using OnMetal Cloud Servers with RackConnect v2.0
 type: article

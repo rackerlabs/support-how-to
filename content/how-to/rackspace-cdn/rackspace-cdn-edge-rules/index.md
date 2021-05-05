@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cdn-edge-rules/
+permalink: rackspace-cdn-edge-rules
 audit_date: '2016-06-03'
 title: Rackspace CDN edge rules
 type: article

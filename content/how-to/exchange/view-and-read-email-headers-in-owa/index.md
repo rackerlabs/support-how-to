@@ -1,5 +1,5 @@
 ---
-permalink: view-and-read-email-headers-in-owa/
+permalink: view-and-read-email-headers-in-owa
 audit_date: '2018-07-19'
 title: View and read email headers in the Outlook Web App
 type: article

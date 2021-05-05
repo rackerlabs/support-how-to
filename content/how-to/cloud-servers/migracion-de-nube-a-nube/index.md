@@ -1,5 +1,5 @@
 ---
-permalink: migracion-de-nube-a-nube/
+permalink: migracion-de-nube-a-nube
 audit_date: '2019-08-29'
 title: 'Migración de nube a nube'
 type: article

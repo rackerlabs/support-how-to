@@ -6,7 +6,7 @@ created_date: '2015-06-09'
 created_by: Constanze Kratel
 last_modified_date: '2016-01-26'
 last_modified_by: Rose Coste
-permalink: /rackspace-intelligence/
+permalink: rackspace-intelligence
 product: Rackspace Intelligence
 product_url: rackspace-intelligence
 ---

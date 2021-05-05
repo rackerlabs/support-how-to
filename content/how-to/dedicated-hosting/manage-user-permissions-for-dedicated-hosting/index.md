@@ -1,5 +1,5 @@
 ---
-permalink: manage-user-permissions-for-dedicated-hosting/
+permalink: manage-user-permissions-for-dedicated-hosting
 audit_date: '2020-07-17'
 title: 'Manage user permissions for Dedicated Hosting'
 type: article

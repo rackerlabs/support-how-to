@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-copy-and-paste-errors-with-remote-desktop/
+permalink: troubleshoot-copy-and-paste-errors-with-remote-desktop
 audit_date: '2020-06-11'
 title: 'Troubleshoot copy and paste errors with Remote Desktop'
 type: article

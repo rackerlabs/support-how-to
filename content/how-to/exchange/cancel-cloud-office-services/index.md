@@ -1,5 +1,5 @@
 ---
-permalink: cancel-cloud-office-services/
+permalink: cancel-cloud-office-services
 audit_date: '2019-11-20'
 title: Cancel Cloud Office services
 type: article

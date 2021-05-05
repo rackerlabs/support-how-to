@@ -1,5 +1,5 @@
 ---
-permalink: configure-flash-drives-in-high-io-instances-as-data-drives/
+permalink: configure-flash-drives-in-high-io-instances-as-data-drives
 audit_date: '2020-10-05'
 title: Configure flash drives in High I/O instances as data drives
 type: article

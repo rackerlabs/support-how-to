@@ -1,5 +1,5 @@
 ---
-permalink: cloud-office-migrations-faq/
+permalink: cloud-office-migrations-faq
 audit_date: '2021-02-15'
 title: Cloud Office migrations FAQ
 type: article

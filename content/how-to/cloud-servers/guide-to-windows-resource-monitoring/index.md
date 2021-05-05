@@ -1,5 +1,5 @@
 ---
-permalink: guide-to-windows-resource-monitoring/
+permalink: guide-to-windows-resource-monitoring
 audit_date: '2020-05-11'
 title: 'Guide to Windows resource monitoring'
 type: article

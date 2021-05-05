@@ -1,5 +1,5 @@
 ---
-permalink: first-generation-cloud-servers-sample-code/
+permalink: first-generation-cloud-servers-sample-code
 audit_date:
 title: 'First Generation Cloud Servers: Sample Code'
 type: article

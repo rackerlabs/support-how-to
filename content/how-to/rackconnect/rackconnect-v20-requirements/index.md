@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-v20-requirements/
+permalink: rackconnect-v20-requirements
 audit_date: '2019-12-16'
 title: RackConnect v2.0 requirements
 type: article

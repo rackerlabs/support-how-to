@@ -1,5 +1,5 @@
 ---
-permalink: set-up-cors-on-cloud-files/
+permalink: set-up-cors-on-cloud-files
 audit_date: '2019-01-18'
 title: Set up CORS on Cloud Files
 type: article

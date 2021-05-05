@@ -1,5 +1,5 @@
 ---
-permalink: cloud-files-key-concepts/
+permalink: cloud-files-key-concepts
 audit_date: '2021-04-05'
 title: Cloud Files Key Concepts
 type: article

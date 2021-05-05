@@ -1,5 +1,5 @@
 ---
-permalink: nginx-and-apache-default-paths/
+permalink: nginx-and-apache-default-paths
 audit_date: '2020-04-29'
 title: 'Nginx and Apache default paths'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: delete-a-microsoft-exchange-mailbox/
+permalink: delete-a-microsoft-exchange-mailbox
 audit_date: '2017-07-14'
 title: Delete a Microsoft Exchange mailbox
 type: article

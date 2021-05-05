@@ -1,5 +1,5 @@
 ---
-permalink: migrating-the-cloud-backup-vault/
+permalink: migrating-the-cloud-backup-vault
 audit_date: '2020-04-15'
 title: Migrating the Cloud Backup Vault
 type: article

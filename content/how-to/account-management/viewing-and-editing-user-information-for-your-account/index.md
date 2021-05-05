@@ -1,5 +1,5 @@
 ---
-permalink: viewing-and-editing-user-information-for-your-account/
+permalink: viewing-and-editing-user-information-for-your-account
 audit_date: '2019-07-25'
 title: Viewing and editing user information for your account
 type: article

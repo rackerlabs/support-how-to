@@ -1,5 +1,5 @@
 ---
-permalink: manually-configure-outlook-2010-for-email-hosted-on-exchange-2010/
+permalink: manually-configure-outlook-2010-for-email-hosted-on-exchange-2010
 audit_date: '2019-06-19'
 title: Manually configure Outlook 2010 for email hosted on Exchange 2010
 type: article

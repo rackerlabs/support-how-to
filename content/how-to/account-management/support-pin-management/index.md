@@ -1,5 +1,5 @@
 ---
-permalink: support-pin-management/
+permalink: support-pin-management
 audit_date: '2019-07-09'
 title: Support PIN management
 type: article

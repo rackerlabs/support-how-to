@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-pdr-agent-networking/
+permalink: rackspace-pdr-agent-networking
 title: Rackspace PDR Agent networking requirements
 type: article
 audit_date: '2021-04-01'

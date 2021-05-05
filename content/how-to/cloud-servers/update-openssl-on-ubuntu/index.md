@@ -1,5 +1,5 @@
 ---
-permalink: update-openssl-on-ubuntu/
+permalink: update-openssl-on-ubuntu
 audit_date: '2021-03-09'
 title: 'Update OpenSSL on Ubuntu'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: use-rackspace-network-effectively/
+permalink: use-rackspace-network-effectively
 audit_date: '2020-10-02'
 title: Use Rackspace network effectively
 type: article

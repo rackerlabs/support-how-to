@@ -1,5 +1,5 @@
 ---
-permalink: force-a-password-change-on-the-next-login/
+permalink: force-a-password-change-on-the-next-login
 audit_date: '2020-09-22'
 title: Force a password change on the next login
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: ubuntu-mod-rails-installation/
+permalink: ubuntu-mod-rails-installation
 audit_date:
 title: Install mod rails on Ubuntu 9.04
 type: article

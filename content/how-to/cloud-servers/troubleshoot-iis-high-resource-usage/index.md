@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-iis-high-resource-usage/
+permalink: troubleshoot-iis-high-resource-usage
 audit_date: '2020-06-26'
 title: 'Troubleshoot IIS high resource usage'
 type: article

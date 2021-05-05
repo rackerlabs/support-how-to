@@ -1,5 +1,5 @@
 ---
-permalink: manage-archive-search-results/
+permalink: manage-archive-search-results
 audit_date: '2019-11-12'
 title: 'Manage Archive Search Results'
 type: article

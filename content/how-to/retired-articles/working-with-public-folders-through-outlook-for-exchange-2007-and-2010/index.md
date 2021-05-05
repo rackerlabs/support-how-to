@@ -1,6 +1,6 @@
 ---
-permalink: working-with-public-folders-through-outlook-for-exchange-2007-and-2010/
-alias: article-retired/
+permalink: working-with-public-folders-through-outlook-for-exchange-2007-and-2010
+alias: article-retired
 audit_date:
 title: Work with public folders through Outlook for Exchange 2007 and 2010
 type: article

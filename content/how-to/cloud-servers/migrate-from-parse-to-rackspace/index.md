@@ -1,5 +1,5 @@
 ---
-permalink: migrate-from-parse-to-rackspace/
+permalink: migrate-from-parse-to-rackspace
 audit_date: '2017-01-26'
 title: Migrate From Parse To Rackspace
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: managing-backups-for-cloud-databases/
+permalink: managing-backups-for-cloud-databases
 audit_date: '2018-09-18'
 title: Manage Backups for Cloud Databases
 type: article

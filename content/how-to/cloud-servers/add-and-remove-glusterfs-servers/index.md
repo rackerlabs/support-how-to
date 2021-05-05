@@ -1,5 +1,5 @@
 ---
-permalink: add-and-remove-glusterfs-servers/
+permalink: add-and-remove-glusterfs-servers
 audit_date: '2018-05-09'
 title: Add and remove GlusterFS servers
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: assign-global-admin-role-office-365/
+permalink: assign-global-admin-role-office-365
 audit_date: '2019-11-27'
 title: Assign the Global Administrator role to a user account in Office 365
 type: article

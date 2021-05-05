@@ -1,5 +1,5 @@
 ---
-permalink: pitchfork-flavor-id-quickstart/
+permalink: pitchfork-flavor-id-quickstart
 audit_date: '2021-03-10'
 title: Pitchfork flavor_id quickstart
 type: article

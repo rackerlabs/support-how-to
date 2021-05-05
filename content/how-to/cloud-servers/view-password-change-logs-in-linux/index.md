@@ -1,5 +1,5 @@
 ---
-permalink: view-password-change-logs-in-linux/
+permalink: view-password-change-logs-in-linux
 audit_date: '2020-10-23'
 title: View password change logs in Linux
 type: article

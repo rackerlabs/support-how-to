@@ -1,5 +1,5 @@
 ---
-permalink: content-caching-for-cloud-load-balancers/
+permalink: content-caching-for-cloud-load-balancers
 audit_date: '2020-09-30'
 title: Content caching for Cloud Load Balancers
 type: article

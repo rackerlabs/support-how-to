@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-pdr-ssl-decryption/
+permalink: rackspace-pdr-ssl-decryption
 title: Rackspace PDR SSL decryption
 type: article
 audit_date: '2018-11-12'

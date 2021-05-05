@@ -1,5 +1,5 @@
 ---
-permalink: openstack-glossary-of-terms/
+permalink: openstack-glossary-of-terms
 audit_date:
 title: OpenStack Glossary of Terms
 type: article

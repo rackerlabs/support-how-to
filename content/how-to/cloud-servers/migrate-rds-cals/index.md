@@ -1,5 +1,5 @@
 ---
-permalink: migrate-rds-cals/
+permalink: migrate-rds-cals
 audit_date: '2021-01-13'
 title: 'Migrate Remote Desktop Services CALs'
 type: article

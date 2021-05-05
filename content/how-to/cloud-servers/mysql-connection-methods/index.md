@@ -1,5 +1,5 @@
 ---
-permalink: mysql-connection-methods/
+permalink: mysql-connection-methods
 audit_date: '2021-02-11'
 title: 'MySQL connection methods'
 type: article

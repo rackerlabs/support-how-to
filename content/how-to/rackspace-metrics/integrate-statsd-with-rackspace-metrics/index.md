@@ -1,5 +1,5 @@
 ---
-permalink: integrate-statsd-with-rackspace-metrics/
+permalink: integrate-statsd-with-rackspace-metrics
 audit_date: '2021-04-21' 
 title: Integrate StatsD with Rackspace Metrics
 type: article

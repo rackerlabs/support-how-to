@@ -1,5 +1,5 @@
 ---
-permalink: set-up-an-api-key-cloud-office-control-panel/
+permalink: set-up-an-api-key-cloud-office-control-panel
 audit_date: '2019-02-27'
 title: Set up an API key in the Cloud Office Control Panel
 type: article

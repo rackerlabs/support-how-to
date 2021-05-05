@@ -1,5 +1,5 @@
 ---
-permalink: check-network-connectivity-on-a-linux-server/
+permalink: check-network-connectivity-on-a-linux-server
 audit_date: '2020-06-11'
 title: 'Check network connectivity on a Linux server'
 type: article

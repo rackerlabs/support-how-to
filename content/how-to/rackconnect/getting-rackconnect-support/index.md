@@ -1,5 +1,5 @@
 ---
-permalink: getting-rackconnect-support/
+permalink: getting-rackconnect-support
 audit_date: '2019-10-09'
 title: Getting RackConnect support
 type: article

@@ -5,7 +5,7 @@ created_date: '2017-07-05'
 created_by: Nate Archer
 last_modified_date: '2018-01-03'
 last_modified_by: William Loy
-permalink: /office-365/
+permalink: office-365
 product: Office 365
 product_url: office-365
 ---

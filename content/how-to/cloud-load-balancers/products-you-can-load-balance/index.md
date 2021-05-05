@@ -1,5 +1,5 @@
 ---
-permalink: products-you-can-load-balance/
+permalink: products-you-can-load-balance
 audit_date: '2020-10-02'
 title: Products you can load balance
 type: article

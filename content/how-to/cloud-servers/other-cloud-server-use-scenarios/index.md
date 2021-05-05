@@ -1,5 +1,5 @@
 ---
-permalink: other-cloud-server-use-scenarios/
+permalink: other-cloud-server-use-scenarios
 audit_date: '2018-10-26'
 title: Other Cloud Server use Scenarios
 type: article

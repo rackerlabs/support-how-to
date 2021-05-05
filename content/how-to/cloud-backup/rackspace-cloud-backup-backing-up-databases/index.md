@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-backup-backing-up-databases/
+permalink: rackspace-cloud-backup-backing-up-databases
 audit_date: '2020-10-19'
 title: Back up databases with Cloud Backup
 type: article

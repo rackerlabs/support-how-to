@@ -1,5 +1,5 @@
 ---
-permalink: set-up-spf-and-dkim-records/
+permalink: set-up-spf-and-dkim-records
 audit_date: '2021-02-03'
 title: Set up SPF and DKIM records
 type: article

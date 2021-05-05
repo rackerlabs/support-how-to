@@ -1,5 +1,5 @@
 ---
-permalink: change-a-microsoft-exchange-mailbox-password/
+permalink: change-a-microsoft-exchange-mailbox-password
 audit_date: '2020-04-15'
 title: Change a Microsoft Exchange mailbox password
 type: article

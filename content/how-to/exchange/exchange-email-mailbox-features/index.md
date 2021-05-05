@@ -1,5 +1,5 @@
 ---
-permalink: exchange-email-mailbox-features/
+permalink: exchange-email-mailbox-features
 audit_date: '2019-10-31'
 title: Exchange email mailbox features
 type: article

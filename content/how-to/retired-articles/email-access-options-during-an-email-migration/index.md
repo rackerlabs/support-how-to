@@ -1,5 +1,5 @@
 ---
-permalink: email-access-options-during-an-email-migration/
+permalink: email-access-options-during-an-email-migration
 audit_date: '2016-12-02'
 title: Email access options when migrating to Rackspace
 type: article

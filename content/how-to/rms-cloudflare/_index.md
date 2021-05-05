@@ -1,5 +1,5 @@
 ---
-permalink: rms-cloudflare/
+permalink: rms-cloudflare
 title: 'Cloudflare with Rackspace Managed Services'
 type: product
 audit_date: '2020-06-11'

@@ -1,5 +1,5 @@
 ---
-permalink: clear-credential-manager/
+permalink: clear-credential-manager
 audit_date: '2020-11-24'
 title: Clear Credential Manager
 type: article

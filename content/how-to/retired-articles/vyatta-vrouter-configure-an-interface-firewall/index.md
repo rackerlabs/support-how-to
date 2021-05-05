@@ -1,5 +1,5 @@
 ---
-permalink: vyatta-vrouter-configure-an-interface-firewall/
+permalink: vyatta-vrouter-configure-an-interface-firewall
 audit_date:
 title: 'Vyatta vRouter: Configure an interface firewall'
 type: article

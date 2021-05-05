@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-public-cloud-os-mitigations-against-cpu-speculative-execution-vulnerabilities/
+permalink: rackspace-public-cloud-os-mitigations-against-cpu-speculative-execution-vulnerabilities
 audit_date: '2018-02-18'
 title: 'Rackspace Public Cloud OS mitigations against CPU speculative execution vulnerabilities'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: create-custom-graphs-of-activity-in-rackspace-intelligence/
+permalink: create-custom-graphs-of-activity-in-rackspace-intelligence
 audit_date: '2021-02-19'
 title: Create custom graphs of activity in Rackspace Intelligence
 type: article

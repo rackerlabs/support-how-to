@@ -1,5 +1,5 @@
 ---
-permalink: set-up-a-server-to-work-with-rackspace-intelligence/
+permalink: set-up-a-server-to-work-with-rackspace-intelligence
 audit_date: '2021-02-23'
 title: Set up a server to work with Rackspace Intelligence
 type: article

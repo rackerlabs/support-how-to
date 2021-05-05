@@ -1,5 +1,5 @@
 ---
-permalink: cloud-block-storage-overview/
+permalink: cloud-block-storage-overview
 audit_date: '2021-02-12'
 title: Overview of Cloud Block Storage
 type: article

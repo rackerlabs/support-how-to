@@ -1,5 +1,5 @@
 ---
-permalink: faq-for-seamless-sign-on-between-myrackspace-and-the-cloud-control-panel/
+permalink: faq-for-seamless-sign-on-between-myrackspace-and-the-cloud-control-panel
 audit_date: '2018-10-26'
 title: FAQ for Seamless sign-on between MyRackspace and the Cloud Control Panel
 type: article

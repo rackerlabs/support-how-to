@@ -1,5 +1,5 @@
 ---
-permalink: find-dns-host/
+permalink: find-dns-host
 audit_date: '2017-05-30'
 title: Find your DNS host
 type: article

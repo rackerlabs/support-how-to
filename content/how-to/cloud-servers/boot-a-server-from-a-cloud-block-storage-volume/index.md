@@ -1,5 +1,5 @@
 ---
-permalink: boot-a-server-from-a-cloud-block-storage-volume/
+permalink: boot-a-server-from-a-cloud-block-storage-volume
 audit_date: '2017-02-14'
 title: Boot a server from a Cloud Block Storage volume
 type: article

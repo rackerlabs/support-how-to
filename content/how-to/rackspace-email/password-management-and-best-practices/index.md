@@ -1,5 +1,5 @@
 ---
-permalink: password-management-and-best-practices/
+permalink: password-management-and-best-practices
 audit_date: '2020-03-24'
 title: Password management and best practices
 type: article

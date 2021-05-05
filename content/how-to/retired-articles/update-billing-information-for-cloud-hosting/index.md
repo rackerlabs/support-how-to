@@ -1,5 +1,5 @@
 ---
-permalink: update-billing-information-for-cloud-hosting/
+permalink: update-billing-information-for-cloud-hosting
 audit_date:
 title: Update billing information for Cloud Hosting
 type: article

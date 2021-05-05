@@ -1,5 +1,5 @@
 ---
-permalink: mysql-user-and-database-basics/
+permalink: mysql-user-and-database-basics
 audit_date: '2021-03-15'
 title: MySQL user and database basics
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: faq-role-based-access-control-rbac/
+permalink: faq-role-based-access-control-rbac
 audit_date: '2018-02-12'
 title: 'Role-Based Access Control (RBAC) FAQ'
 type: article

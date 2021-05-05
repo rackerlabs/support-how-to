@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-windows-server-2008-boot-failure-after-exiting-rescue-mode/
+permalink: troubleshoot-windows-server-2008-boot-failure-after-exiting-rescue-mode
 audit_date: '2020-06-10'
 title: Troubleshoot Windows Server 2008 boot failure after exiting rescue mode
 type: article

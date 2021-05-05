@@ -1,5 +1,5 @@
 ---
-permalink: enable-and-disable-collection-of-mobile-phone-numbers-in-rackspace-webmail/
+permalink: enable-and-disable-collection-of-mobile-phone-numbers-in-rackspace-webmail
 audit_date: '2021-02-05'
 title: Enable and disable collection of mobile phone numbers in Rackspace Webmail
 type: article

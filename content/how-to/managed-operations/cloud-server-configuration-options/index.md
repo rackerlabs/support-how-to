@@ -1,5 +1,5 @@
 ---
-permalink: cloud-server-configuration-options/
+permalink: cloud-server-configuration-options
 audit_date: '2019-04-15'
 title: Cloud server configuration options
 type: article

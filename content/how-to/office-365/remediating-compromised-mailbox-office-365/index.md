@@ -1,5 +1,5 @@
 ---
-permalink: remediating-compromised-mailbox-office-365/
+permalink: remediating-compromised-mailbox-office-365
 audit_date: '2020-06-25'
 title: How to remediate a compromised user account and mailbox in Office 365
 type: article

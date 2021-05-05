@@ -1,7 +1,7 @@
 ---
 title: Cloud Queues – All Articles
 category: Cloud Hosting
-permalink: cloud-queues-all-articles/
+permalink: cloud-queues-all-articles
 product: Cloud Queues
 product_url: cloud-queues
 ---

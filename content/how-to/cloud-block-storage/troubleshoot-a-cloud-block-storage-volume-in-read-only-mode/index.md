@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-a-cloud-block-storage-volume-in-read-only-mode/
+permalink: troubleshoot-a-cloud-block-storage-volume-in-read-only-mode
 audit_date: '2020-01-3'
 title: Troubleshoot a Cloud Block Storage volume in read-only mode
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: install-gitlab-on-ubuntu-18-04/
+permalink: install-gitlab-on-ubuntu-18-04
 audit_date: '2020-07-28'
 title: 'Install GitLab on Ubuntu 18.04'
 type: article

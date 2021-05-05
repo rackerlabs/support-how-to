@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-10-post-upgrade-faq/
+permalink: rackconnect-10-post-upgrade-faq
 audit_date:
 title: RackConnect 1.0 post-upgrade FAQ
 type: article

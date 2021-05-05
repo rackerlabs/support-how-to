@@ -1,5 +1,5 @@
 ---
-permalink: adding-a-rackspace-email-group-list/
+permalink: adding-a-rackspace-email-group-list
 audit_date: '2021-02-24'
 title: Add a Rackspace Email group list
 type: article

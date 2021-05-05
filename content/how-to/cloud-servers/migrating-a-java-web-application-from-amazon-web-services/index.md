@@ -1,5 +1,5 @@
 ---
-permalink: migrating-a-java-web-application-from-amazon-web-services/
+permalink: migrating-a-java-web-application-from-amazon-web-services
 audit_date: '2018-10-04'
 title: Migrate a Java web application from Amazon Web Services
 type: article

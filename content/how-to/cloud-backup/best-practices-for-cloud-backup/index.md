@@ -1,5 +1,5 @@
 ---
-permalink: best-practices-for-cloud-backup/
+permalink: best-practices-for-cloud-backup
 audit_date: '2018-12-18'
 title: Best practices for Cloud Backup
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: install-nginx-on-fedora/
+permalink: install-nginx-on-fedora
 audit_date: '2021-04-22'
 title: Install Nginx on Fedora
 type: article

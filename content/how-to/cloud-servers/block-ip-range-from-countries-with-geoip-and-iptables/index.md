@@ -1,5 +1,5 @@
 ---
-permalink: block-ip-range-from-countries-with-geoip-and-iptables/
+permalink: block-ip-range-from-countries-with-geoip-and-iptables
 audit_date: '2021-03-09'
 title: 'Block IP range from countries with GeoIP and iptables'
 type: article

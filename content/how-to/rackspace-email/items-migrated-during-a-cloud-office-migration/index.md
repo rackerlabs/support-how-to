@@ -1,5 +1,5 @@
 ---
-permalink: items-migrated-during-a-cloud-office-migration/
+permalink: items-migrated-during-a-cloud-office-migration
 audit_date: '2017-01-23'
 title: Items migrated during a Cloud Office migration
 type: article

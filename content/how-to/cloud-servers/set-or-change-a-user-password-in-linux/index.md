@@ -1,5 +1,5 @@
 ---
-permalink: set-or-change-a-user-password-in-linux/
+permalink: set-or-change-a-user-password-in-linux
 audit_date: '2020-05-28'
 title: 'Set or change a user password in Linux'
 type: article

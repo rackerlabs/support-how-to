@@ -1,5 +1,5 @@
 ---
-permalink: grant-sudo-access-in-debian-and-the-ubuntu-operating-system/
+permalink: grant-sudo-access-in-debian-and-the-ubuntu-operating-system
 audit_date: '2020-04-20'
 title: 'Grant sudo access in Debian and the Ubuntu operating system'
 type: article

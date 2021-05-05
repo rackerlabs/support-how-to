@@ -1,5 +1,5 @@
 ---
-permalink: reset-user-password-on-active-directory-domain/
+permalink: reset-user-password-on-active-directory-domain
 audit_date: '2019-12-12'
 title: Reset user password on Active Directory domain
 type: article

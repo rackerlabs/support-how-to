@@ -1,5 +1,5 @@
 ---
-permalink: transferring-your-dns-hosting-to-rackspace/
+permalink: transferring-your-dns-hosting-to-rackspace
 audit_date: '2017-07-26'
 title: Transfer your DNS hosting to Rackspace
 type: article

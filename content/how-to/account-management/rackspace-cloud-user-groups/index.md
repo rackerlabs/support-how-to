@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-user-groups/
+permalink: rackspace-cloud-user-groups
 audit_date: '2018-11-20'
 title: Rackspace Cloud user groups
 type: article

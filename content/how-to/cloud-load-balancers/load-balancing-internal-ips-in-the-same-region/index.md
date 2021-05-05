@@ -1,5 +1,5 @@
 ---
-permalink: load-balancing-internal-ips-in-the-same-region/
+permalink: load-balancing-internal-ips-in-the-same-region
 audit_date: '2020-10-06'
 title: Load Balancing Internal IPs in the same region
 type: article
