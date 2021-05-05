@@ -7,8 +7,7 @@ created_date: '2014-08-14'
 created_by: Marcin Stangel
 last_modified_date: '2016-11-29'
 last_modified_by: Stephanie Fillmon
-product: Cloud Servers
-product_url: cloud-servers
+
 ---
 
 **Previous section** - [GlusterFS troubleshooting](/support/how-to/glusterfs-troubleshooting)
