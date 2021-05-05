@@ -1,5 +1,5 @@
 ---
-permalink: best-practices-for-firewall-rules-configuration/
+permalink: best-practices-for-firewall-rules-configuration
 audit_date: '2020-04-16'
 title: Best practices for firewall rules configuration
 type: article

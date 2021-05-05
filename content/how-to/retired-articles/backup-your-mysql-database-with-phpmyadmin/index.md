@@ -1,5 +1,5 @@
 ---
-permalink: backup-your-mysql-database-with-phpmyadmin/
+permalink: backup-your-mysql-database-with-phpmyadmin
 audit_date:
 title: Backup your MySQL database with phpMyAdmin
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: configure-active-directory-performance-monitoring/
+permalink: configure-active-directory-performance-monitoring
 audit_date: '2020-11-23'
 title: Configure Active Directory performance monitoring
 type: article

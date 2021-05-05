@@ -1,5 +1,5 @@
 ---
-permalink: plesk-manage-email-accounts/
+permalink: plesk-manage-email-accounts
 audit_date: '2021-02-12'
 title: 'Plesk: Manage email accounts'
 type: article

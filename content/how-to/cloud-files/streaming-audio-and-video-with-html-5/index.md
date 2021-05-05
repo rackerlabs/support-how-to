@@ -1,5 +1,5 @@
 ---
-permalink: streaming-audio-and-video-with-html-5/
+permalink: streaming-audio-and-video-with-html-5
 audit_date: '2018-12-13'
 title: Stream audio and video with HTML 5
 type: article

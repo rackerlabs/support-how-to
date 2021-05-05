@@ -1,5 +1,5 @@
 ---
-permalink: monitor-network-bandwidth-on-a-cloud-server/
+permalink: monitor-network-bandwidth-on-a-cloud-server
 audit_date: '2019-03-08'
 title: Monitor network bandwidth on a cloud server
 type: article

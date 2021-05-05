@@ -1,5 +1,5 @@
 ---
-permalink: id-federation-map-policies-permissions-dedicated/
+permalink: id-federation-map-policies-permissions-dedicated
 audit_date: '2018-11-12'
 title: 'Identity federation for Dedicated Hosting: Map policies and permissions'
 type: article

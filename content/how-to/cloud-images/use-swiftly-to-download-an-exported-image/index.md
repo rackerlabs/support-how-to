@@ -1,5 +1,5 @@
 ---
-permalink: use-swiftly-to-download-an-exported-image/
+permalink: use-swiftly-to-download-an-exported-image
 audit_date: '2018-04-09'
 title: Use Swiftly to download an exported image
 type: article

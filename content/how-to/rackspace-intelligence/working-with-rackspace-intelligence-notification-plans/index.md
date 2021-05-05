@@ -1,5 +1,5 @@
 ---
-permalink: working-with-rackspace-intelligence-notification-plans/
+permalink: working-with-rackspace-intelligence-notification-plans
 audit_date: '2021-03-01'
 title: Work with Rackspace Intelligence notification plans
 type: article

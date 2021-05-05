@@ -1,5 +1,5 @@
 ---
-permalink: bind-mount-an-sftp-user-after-using-chroot/
+permalink: bind-mount-an-sftp-user-after-using-chroot
 audit_date: '2019-07-18'
 title: Bind mount an SFTP user after using chroot
 type: article

@@ -6,7 +6,7 @@ created_date: '2018-10-09'
 created_by: Nick Shobe
 last_modified_date: '2021-01-27'
 last_modified_by: Rob Lee
-permalink: rackspace-pdr-agent-compatibility/
+permalink: rackspace-pdr-agent-compatibility
 product: Rackspace Proactive Detection & Response
 product_url: rackspace-pdr
 ---

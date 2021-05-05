@@ -1,5 +1,5 @@
 ---
-permalink: import-email-address-data-into-outlook-2016-for-windows/
+permalink: import-email-address-data-into-outlook-2016-for-windows
 audit_date: '2017-10-04'
 title: Import email address data into Outlook 2016 for Windows
 type: article

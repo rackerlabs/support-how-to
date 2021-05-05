@@ -1,5 +1,5 @@
 ---
-permalink: manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/
+permalink: manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient
 audit_date:
 title: Manage SSH Key Pairs for cloud servers with python-novaclient
 type: article

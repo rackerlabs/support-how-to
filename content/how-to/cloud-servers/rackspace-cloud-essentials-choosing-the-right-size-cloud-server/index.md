@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-essentials-choosing-the-right-size-cloud-server/
+permalink: rackspace-cloud-essentials-choosing-the-right-size-cloud-server
 audit_date: '2018-10-24'
 title: Rackspace Cloud Essentials - Choose the right-size cloud server
 type: article

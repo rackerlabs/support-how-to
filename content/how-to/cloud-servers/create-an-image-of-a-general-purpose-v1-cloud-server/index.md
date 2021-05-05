@@ -1,5 +1,5 @@
 ---
-permalink: create-an-image-of-a-general-purpose-v1-cloud-server/
+permalink: create-an-image-of-a-general-purpose-v1-cloud-server
 audit_date: '2018-10-26'
 title: Create an image of a General Purpose v1 Cloud Server
 type: article

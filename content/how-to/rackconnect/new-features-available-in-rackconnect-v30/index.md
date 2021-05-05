@@ -1,5 +1,5 @@
 ---
-permalink: new-features-available-in-rackconnect-v30/
+permalink: new-features-available-in-rackconnect-v30
 audit_date: '2019-10-09'
 title: New features available in RackConnect v3.0
 type: article

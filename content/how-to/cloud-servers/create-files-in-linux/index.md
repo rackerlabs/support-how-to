@@ -1,5 +1,5 @@
 ---
-permalink: create-files-in-linux/
+permalink: create-files-in-linux
 audit_date: '2020-09-24'
 title: Create files by using the command line in Linux
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: managing-rackconnect-v20-network-policies/
+permalink: managing-rackconnect-v20-network-policies
 audit_date: '2019-10-09'
 title: Managing RackConnect v2.0 network policies
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: generating-rsa-keys-with-ssh-puttygen/
+permalink: generating-rsa-keys-with-ssh-puttygen
 audit_date: '2016-06-20'
 title: Generate RSA keys with SSH by using PuTTYgen
 type: article

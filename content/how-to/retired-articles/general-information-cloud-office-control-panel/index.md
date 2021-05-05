@@ -1,5 +1,5 @@
 ---
-permalink: general-information-cloud-office-control-panel/
+permalink: general-information-cloud-office-control-panel
 audit_date: '2018-03-01'
 title: General information in the Cloud Office Control Panel
 type: article

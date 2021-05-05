@@ -1,5 +1,5 @@
 ---
-permalink: adding-an-ip-to-a-windows-server/
+permalink: adding-an-ip-to-a-windows-server
 audit_date: '2020-05-05'
 title: 'Adding an IP to a Windows Server'
 type: article

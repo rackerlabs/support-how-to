@@ -1,5 +1,5 @@
 ---
-permalink: recover-from-a-failed-server-in-a-glusterfs-array/
+permalink: recover-from-a-failed-server-in-a-glusterfs-array
 audit_date:
 title: Recover from a failed server in a GlusterFS array
 type: article

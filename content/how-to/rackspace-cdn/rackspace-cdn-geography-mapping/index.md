@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cdn-geography-mapping/
+permalink: rackspace-cdn-geography-mapping
 audit_date: 
 title: Rackspace CDN geography mapping
 type: article

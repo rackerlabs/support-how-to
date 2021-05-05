@@ -1,5 +1,5 @@
 ---
-permalink: get-the-database-size-in-mysql/
+permalink: get-the-database-size-in-mysql
 audit_date: '2021-03-08'
 title: Get the database size in MySQL
 type: article

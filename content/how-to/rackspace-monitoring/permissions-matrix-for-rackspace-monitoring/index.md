@@ -1,5 +1,5 @@
 ---
-permalink: permissions-matrix-for-rackspace-monitoring/
+permalink: permissions-matrix-for-rackspace-monitoring
 audit_date: '2017-02-07'
 title: Permissions matrix for Rackspace Monitoring
 type: article

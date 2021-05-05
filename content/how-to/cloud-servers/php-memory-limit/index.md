@@ -1,5 +1,5 @@
 ---
-permalink: php-memory-limit/
+permalink: php-memory-limit
 audit_date: '2020-10-18'
 title: PHP memory limit
 type: article

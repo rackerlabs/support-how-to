@@ -1,5 +1,5 @@
 ---
-permalink: shut-down-a-rackspace-cloud-server/
+permalink: shut-down-a-rackspace-cloud-server
 audit_date: '2020-01-25'
 title: Shut down a Rackspace Cloud Server
 type: article

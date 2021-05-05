@@ -1,5 +1,5 @@
 ---
-permalink: reset-a-mysql-root-password/
+permalink: reset-a-mysql-root-password
 audit_date: '2016-06-13'
 title: Reset a MySQL root password
 type: article

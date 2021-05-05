@@ -1,5 +1,5 @@
 ---
-permalink: create-and-edit-users-in-mysql/
+permalink: create-and-edit-users-in-mysql
 audit_date: '2019-01-23'
 title: Create and edit users in MySQL
 type: article

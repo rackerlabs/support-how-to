@@ -1,5 +1,5 @@
 ---
-permalink: view-and-pay-unpaid-invoices-cloud-office-control-panel/
+permalink: view-and-pay-unpaid-invoices-cloud-office-control-panel
 audit_date: '2018-03-06'
 title: View and pay unpaid invoices in the Cloud Office Control Panel
 type: article

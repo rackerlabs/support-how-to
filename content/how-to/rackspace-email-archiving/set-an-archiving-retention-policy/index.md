@@ -1,5 +1,5 @@
 ---
-permalink: set-an-archiving-retention-policy/
+permalink: set-an-archiving-retention-policy
 audit_date: '2020-07-14'
 title: Set an Archiving Retention Policy
 type: article

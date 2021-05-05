@@ -1,5 +1,5 @@
 ---
-permalink: connect-to-a-cloud-database-with-a-fqdn-address-via-mysql-workbench/
+permalink: connect-to-a-cloud-database-with-a-fqdn-address-via-mysql-workbench
 audit_date: '2020-09-14'
 title: Connect to a cloud database with a FQDN address via MySQL Workbench
 type: article

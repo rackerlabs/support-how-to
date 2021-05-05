@@ -1,5 +1,5 @@
 ---
-permalink: microsoft-account-association-issues/
+permalink: microsoft-account-association-issues
 audit_date: '2018-10-19'
 title: Microsoft account association issues
 type: article

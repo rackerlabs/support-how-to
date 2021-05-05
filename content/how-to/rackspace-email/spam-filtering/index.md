@@ -1,5 +1,5 @@
 ---
-permalink: spam-filtering/
+permalink: spam-filtering
 audit_date: '2017-11-29'
 title: Spam filtering
 type: article

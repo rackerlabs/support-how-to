@@ -1,5 +1,5 @@
 ---
-permalink: mounting-cloud-files-with-cloudfuse/
+permalink: mounting-cloud-files-with-cloudfuse
 audit_date: '2021-02-11'
 title: 'Mounting Cloud Files with Cloudfuse'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: help-tool-for-hosted-email-and-skype-for-business/
+permalink: help-tool-for-hosted-email-and-skype-for-business
 audit_date:
 title: Help tool for hosted email and Skype for Business
 type: article

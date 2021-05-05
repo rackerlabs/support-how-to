@@ -1,5 +1,5 @@
 ---
-permalink: set-the-date-and-time-timezone-on-a-linux-server/
+permalink: set-the-date-and-time-timezone-on-a-linux-server
 audit_date: '2020-04-23'
 title: 'Set the date, time, and timezone on a Linux server'
 type: article

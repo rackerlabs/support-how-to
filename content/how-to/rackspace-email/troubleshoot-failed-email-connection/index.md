@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-failed-email-connection/
+permalink: troubleshoot-failed-email-connection
 audit_date: '2017-06-05'
 title: Troubleshoot a failed email connection
 type: article

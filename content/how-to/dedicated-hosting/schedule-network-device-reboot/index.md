@@ -1,5 +1,5 @@
 ---
-permalink: schedule-network-device-reboot/
+permalink: schedule-network-device-reboot
 audit_date: '2018-05-15'
 title: Schedule a network device reboot
 type: article

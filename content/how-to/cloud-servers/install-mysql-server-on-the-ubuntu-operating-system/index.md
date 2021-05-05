@@ -1,5 +1,5 @@
 ---
-permalink: install-mysql-server-on-the-ubuntu-operating-system/
+permalink: install-mysql-server-on-the-ubuntu-operating-system
 audit_date: '2018-03-13'
 title: Install MySQL Server on the Ubuntu operating system
 type: article

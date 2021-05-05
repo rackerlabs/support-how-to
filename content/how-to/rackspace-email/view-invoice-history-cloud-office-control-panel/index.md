@@ -1,5 +1,5 @@
 ---
-permalink: view-invoice-history-cloud-office-control-panel/
+permalink: view-invoice-history-cloud-office-control-panel
 audit_date: '2021-02-24'
 title: View invoice history in the Cloud Office Control Panel
 type: article

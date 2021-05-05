@@ -1,5 +1,5 @@
 ---
-permalink: add-a-domain-in-office-365/
+permalink: add-a-domain-in-office-365
 audit_date: '2017-07-09'
 title: Add a domain in Office 365
 type: article

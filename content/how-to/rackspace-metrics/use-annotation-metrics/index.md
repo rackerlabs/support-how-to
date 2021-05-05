@@ -1,5 +1,5 @@
 ---
-permalink: use-annotation-metrics/
+permalink: use-annotation-metrics
 audit_date: '2021-04-15'
 title: Use annotation metrics
 type: article

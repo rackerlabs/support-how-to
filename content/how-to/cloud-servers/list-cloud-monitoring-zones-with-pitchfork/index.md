@@ -1,5 +1,5 @@
 ---
-permalink: list-cloud-monitoring-zones-with-pitchfork/
+permalink: list-cloud-monitoring-zones-with-pitchfork
 audit_date: '2020-05-19'
 title: 'List Cloud Monitoring zones with Pitchfork'
 type: article

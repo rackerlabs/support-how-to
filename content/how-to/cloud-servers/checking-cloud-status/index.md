@@ -1,5 +1,5 @@
 ---
-permalink: checking-cloud-status/
+permalink: checking-cloud-status
 audit_date: '2018-12-17'
 title: Check Rackspace Cloud status
 type: article

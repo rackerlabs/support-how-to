@@ -1,5 +1,5 @@
 ---
-permalink: lon7-global-switch-data-center-migration-faq-for-managed-customers/
+permalink: lon7-global-switch-data-center-migration-faq-for-managed-customers
 audit_date: '2020-01-29'
 title: LON7 (Global Switch) data center migration FAQ for managed customers
 type: article

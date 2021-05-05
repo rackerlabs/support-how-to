@@ -1,5 +1,5 @@
 ---
-permalink: check-windows-server-uptime/
+permalink: check-windows-server-uptime
 audit_date: '2019-01-15'
 title: Check Windows Server uptime
 type: article

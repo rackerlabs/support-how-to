@@ -1,5 +1,5 @@
 ---
-permalink: restrict-ssh-login-to-a-specific-ip-or-host/
+permalink: restrict-ssh-login-to-a-specific-ip-or-host
 audit_date: '2021-03-03'
 title: 'Restrict SSH login to a specific IP or host'
 type: article

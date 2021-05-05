@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-pdr-azure/
+permalink: rackspace-pdr-azure
 title: Rackspace PDR on Azure
 type: article
 audit_date: '2018-11-12'

@@ -1,5 +1,5 @@
 ---
-permalink: reset-an-active-directory-user-password/
+permalink: reset-an-active-directory-user-password
 audit_date: '2020-06-09'
 title: 'Reset an Active Directory user password'
 type: article

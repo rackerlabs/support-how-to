@@ -1,5 +1,5 @@
 ---
-permalink: exchange-faq/
+permalink: exchange-faq
 audit_date: '2020-12-03'
 title: Microsoft Exchange FAQ
 type: article

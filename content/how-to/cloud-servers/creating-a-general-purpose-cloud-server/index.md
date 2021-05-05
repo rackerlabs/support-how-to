@@ -1,5 +1,5 @@
 ---
-permalink: creating-a-general-purpose-cloud-server/
+permalink: creating-a-general-purpose-cloud-server
 audit_date: '2018-10-26'
 title: Create a general purpose Cloud Server
 type: article

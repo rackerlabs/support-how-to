@@ -1,5 +1,5 @@
 ---
-permalink: enable-internet-access-on-cloud-servers-using-snat-on-a-vyatta-network-appliance/
+permalink: enable-internet-access-on-cloud-servers-using-snat-on-a-vyatta-network-appliance
 audit_date:
 title: Enable Internet Access on Cloud Servers Using SNAT on a Vyatta Network Appliance
 type: article

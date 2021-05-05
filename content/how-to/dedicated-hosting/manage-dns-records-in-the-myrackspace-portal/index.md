@@ -1,5 +1,5 @@
 ---
-permalink: manage-dns-records-in-the-myrackspace-portal/
+permalink: manage-dns-records-in-the-myrackspace-portal
 audit_date:
 title: Manage DNS records in the MyRackspace Portal
 type: article

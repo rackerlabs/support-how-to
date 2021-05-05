@@ -1,5 +1,5 @@
 ---
-permalink: the-hosting-spectrum-which-solution-fits-your-business/
+permalink: the-hosting-spectrum-which-solution-fits-your-business
 audit_date: '2021-03-31'
 title: 'The Hosting Spectrum: Which solution fits your business?'
 type: article

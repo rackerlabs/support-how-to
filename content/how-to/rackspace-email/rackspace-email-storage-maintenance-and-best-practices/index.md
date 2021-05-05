@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-email-storage-maintenance-and-best-practices/
+permalink: rackspace-email-storage-maintenance-and-best-practices
 audit_date: '2017-06-29'
 title: Rackspace Email storage maintenance and best practices
 type: article

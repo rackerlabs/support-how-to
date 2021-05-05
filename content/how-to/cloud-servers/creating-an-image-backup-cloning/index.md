@@ -1,5 +1,5 @@
 ---
-permalink: creating-an-image-backup-cloning/
+permalink: creating-an-image-backup-cloning
 audit_date: '2018-10-25'
 title: Create an image backup (cloning)
 type: article

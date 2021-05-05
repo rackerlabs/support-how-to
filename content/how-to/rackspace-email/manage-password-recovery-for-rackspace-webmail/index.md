@@ -1,5 +1,5 @@
 ---
-permalink: manage-password-recovery-for-rackspace-webmail/
+permalink: manage-password-recovery-for-rackspace-webmail
 audit_date: '2020-10-14'
 title: Manage password recovery for Rackspace Webmail
 type: article

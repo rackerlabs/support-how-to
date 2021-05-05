@@ -1,5 +1,5 @@
 ---
-permalink: managed-dns-faq/
+permalink: managed-dns-faq
 node_id:
 title: Managed DNS FAQ
 type: article

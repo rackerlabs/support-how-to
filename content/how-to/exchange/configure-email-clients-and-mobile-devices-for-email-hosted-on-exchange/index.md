@@ -1,5 +1,5 @@
 ---
-permalink: configure-email-clients-and-mobile-devices-for-email-hosted-on-exchange/
+permalink: configure-email-clients-and-mobile-devices-for-email-hosted-on-exchange
 audit_date: '2020-11-12'
 title: Configure email clients and mobile devices for email hosted on Exchange
 type: article

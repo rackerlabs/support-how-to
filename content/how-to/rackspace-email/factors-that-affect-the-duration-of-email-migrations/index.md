@@ -1,5 +1,5 @@
 ---
-permalink: factors-that-affect-the-duration-of-email-migrations/
+permalink: factors-that-affect-the-duration-of-email-migrations
 audit_date: '2020-12-01'
 title: Factors that affect the duration of email migrations
 type: article

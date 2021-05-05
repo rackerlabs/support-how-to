@@ -1,5 +1,5 @@
 ---
-permalink: windows-local-group-policy/
+permalink: windows-local-group-policy
 audit_date: '2020-06-12'
 title: 'Windows Local Group Policy'
 type: article

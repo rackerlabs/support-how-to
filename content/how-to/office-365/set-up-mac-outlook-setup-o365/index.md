@@ -1,5 +1,5 @@
 ---
-permalink: set-up-mac-outlook-setup-o365/
+permalink: set-up-mac-outlook-setup-o365
 audit_date: '2020-07-21'
 title: Set up your Office 365 mailbox in Outlook for Mac
 type: article

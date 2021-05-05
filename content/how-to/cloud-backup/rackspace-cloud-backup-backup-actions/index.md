@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-backup-backup-actions/
+permalink: rackspace-cloud-backup-backup-actions
 audit_date: '2017-07-05'
 title: Cloud Backup backup actions
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: plesk-introduction/
+permalink: plesk-introduction
 audit_date: '2021-02-11'
 title: 'Plesk: Introduction'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: create-an-archive-audit-report/
+permalink: create-an-archive-audit-report
 audit_date: '2019-11-11'
 title: Create an archive audit report
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-private-cloud-partner-devices/
+permalink: rackspace-private-cloud-partner-devices
 audit_date:
 title: Rackspace Private Cloud - Partner Devices
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-essentials-guide-building-your-cloud-inventory/
+permalink: rackspace-cloud-essentials-guide-building-your-cloud-inventory
 audit_date: '2018-10-03'
 title: Rackspace Cloud Essentials Guide - Building Your Cloud Inventory
 type: article

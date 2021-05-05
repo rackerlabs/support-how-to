@@ -1,5 +1,5 @@
 ---
-permalink: cloud-servers-how-to-articles-other-resources/
+permalink: cloud-servers-how-to-articles-other-resources
 audit_date:
 title: 'Cloud Servers: How to articles & other resources'
 type: article

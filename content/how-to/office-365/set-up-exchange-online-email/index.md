@@ -1,5 +1,5 @@
 ---
-permalink: set-up-exchange-online-email/
+permalink: set-up-exchange-online-email
 audit_date: '2020-08-24'
 title: Set up Exchange online email
 type: article

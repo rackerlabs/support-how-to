@@ -1,5 +1,5 @@
 ---
-permalink: configure-a-renamed-email-address-on-outlook-2011-for-mac/
+permalink: configure-a-renamed-email-address-on-outlook-2011-for-mac
 audit_date: '2017-09-14'
 title: Configure a renamed email address on Outlook 2011 for Mac
 type: article

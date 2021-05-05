@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-billing-faq/
+permalink: rackspace-billing-faq
 audit_date: '2018-02-13'
 title: Rackspace billing FAQ
 type: article

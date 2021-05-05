@@ -1,5 +1,5 @@
 ---
-permalink: best-practices-for-using-cloud-files/
+permalink: best-practices-for-using-cloud-files
 audit_date: '2018-01-09'
 title: Best practices for using Cloud Files
 type: article

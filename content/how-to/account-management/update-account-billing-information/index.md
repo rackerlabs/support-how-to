@@ -1,5 +1,5 @@
 ---
-permalink: update-account-billing-information/
+permalink: update-account-billing-information
 audit_date: '2018-03-13'
 title: Update an account's billing information
 type: article

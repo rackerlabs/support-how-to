@@ -1,5 +1,5 @@
 ---
-permalink: update-or-install-the-cloud-backup-agent-on-linux/
+permalink: update-or-install-the-cloud-backup-agent-on-linux
 audit_date: '2020-09-15'
 title: Update or install the Cloud Backup agent on Linux
 type: article

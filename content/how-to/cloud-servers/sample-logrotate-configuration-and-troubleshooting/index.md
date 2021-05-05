@@ -1,5 +1,5 @@
 ---
-permalink: sample-logrotate-configuration-and-troubleshooting/
+permalink: sample-logrotate-configuration-and-troubleshooting
 audit_date: '2020-10-05'
 title: Sample logrotate configuration and troubleshooting
 type: article

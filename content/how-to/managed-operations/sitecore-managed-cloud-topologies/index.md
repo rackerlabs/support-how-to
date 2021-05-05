@@ -1,5 +1,5 @@
 ---
-permalink: sitecore-managed-cloud-topologies/
+permalink: sitecore-managed-cloud-topologies
 audit_date: 
 title: Sitecore Managed Cloud topologies
 type: article

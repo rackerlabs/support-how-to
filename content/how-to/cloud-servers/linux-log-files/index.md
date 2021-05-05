@@ -1,5 +1,5 @@
 ---
-permalink: linux-log-files/
+permalink: linux-log-files
 audit_date: '2019-01-24'
 title: Linux log files
 type: article

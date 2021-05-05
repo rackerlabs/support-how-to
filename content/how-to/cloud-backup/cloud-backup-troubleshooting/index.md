@@ -1,5 +1,5 @@
 ---
-permalink: cloud-backup-troubleshooting/
+permalink: cloud-backup-troubleshooting
 audit_date: '2020-10-14'
 title: Cloud Backup troubleshooting
 type: article

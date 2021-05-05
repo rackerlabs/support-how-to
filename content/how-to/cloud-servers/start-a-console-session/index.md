@@ -1,5 +1,5 @@
 ---
-permalink: start-a-console-session/
+permalink: start-a-console-session
 audit_date: '2020-06-08'
 title: Start an Emergency Console session
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: create-a-monitoring-check-using-the-cloud-control-panel/
+permalink: create-a-monitoring-check-using-the-cloud-control-panel
 audit_date: '2020-11-18'
 title: Create a monitoring check using the Cloud Control Panel
 type: article

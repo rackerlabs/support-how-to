@@ -1,5 +1,5 @@
 ---
-permalink: sitecore-cloud-portals-and-account-management/
+permalink: sitecore-cloud-portals-and-account-management
 audit_date: '2017-04-25'
 title: Sitecore Cloud portals and account management
 type: article

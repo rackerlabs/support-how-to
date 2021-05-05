@@ -1,5 +1,5 @@
 ---
-permalink: install-a-lamp-stack-on-centos-8/
+permalink: install-a-lamp-stack-on-centos-8
 audit_date: '2020-07-24'
 title: 'Install a LAMP stack on CentOS 8'
 type: article

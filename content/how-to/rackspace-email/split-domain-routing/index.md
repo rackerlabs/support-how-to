@@ -1,5 +1,5 @@
 ---
-permalink: split-domain-routing/
+permalink: split-domain-routing
 audit_date: '2021-02-15'
 title: Set up split domain routing
 type: article

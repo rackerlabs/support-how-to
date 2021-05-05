@@ -1,5 +1,5 @@
 ---
-permalink: available-templates-for-cloud-orchestration/
+permalink: available-templates-for-cloud-orchestration
 audit_date: '2018-03-16'
 title: Available templates for Cloud Orchestration
 type: article

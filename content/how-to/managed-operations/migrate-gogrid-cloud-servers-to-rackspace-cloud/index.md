@@ -1,5 +1,5 @@
 ---
-permalink: migrate-gogrid-cloud-servers-to-rackspace-cloud/
+permalink: migrate-gogrid-cloud-servers-to-rackspace-cloud
 audit_date: '2018-08-15'
 title: Migrate GoGrid Cloud Servers to the Rackspace Cloud
 type: article

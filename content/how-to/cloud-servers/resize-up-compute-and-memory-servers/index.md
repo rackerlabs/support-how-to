@@ -1,5 +1,5 @@
 ---
-permalink: resize-up-compute-and-memory-servers/
+permalink: resize-up-compute-and-memory-servers
 audit_date: '2019-02-06'
 title: Resize up compute and memory servers
 type: article

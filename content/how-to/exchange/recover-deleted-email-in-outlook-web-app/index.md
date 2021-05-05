@@ -1,5 +1,5 @@
 ---
-permalink: recover-deleted-email-in-outlook-web-app/
+permalink: recover-deleted-email-in-outlook-web-app
 audit_date: '2018-02-12'
 title: Recover deleted email in Outlook Web App
 type: article

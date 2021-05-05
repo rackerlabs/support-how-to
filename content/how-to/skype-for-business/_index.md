@@ -5,7 +5,7 @@ created_date: '2016-01-17'
 created_by: Rackspace Support
 last_modified_date: '2016-01-26'
 last_modified_by: Catherine Richardson
-permalink: /skype-for-business/
+permalink: skype-for-business
 product: Microsoft Skype for Business
 product_url: skype-for-business
 ---

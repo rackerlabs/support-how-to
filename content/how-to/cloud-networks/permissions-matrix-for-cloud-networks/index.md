@@ -1,5 +1,5 @@
 ---
-permalink: permissions-matrix-for-cloud-networks/
+permalink: permissions-matrix-for-cloud-networks
 audit_date: '2017-01-18'
 title: Permissions Matrix for Cloud Networks
 type: article

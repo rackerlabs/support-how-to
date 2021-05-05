@@ -1,5 +1,5 @@
 ---
-permalink: mapping-of-amazon-web-services-resources-to-rackspace-resources/
+permalink: mapping-of-amazon-web-services-resources-to-rackspace-resources
 audit_date: '2018-10-05'
 title: Mapping of Amazon Web Services resources to Rackspace resources
 type: article

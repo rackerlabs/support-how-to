@@ -1,5 +1,5 @@
 ---
-permalink: iad5-and-den1-data-center-migrations/
+permalink: iad5-and-den1-data-center-migrations
 audit_date: '2020-12-09'
 type: article
 title: IAD5 and DEN1 data center migrations

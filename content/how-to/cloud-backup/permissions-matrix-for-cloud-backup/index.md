@@ -1,5 +1,5 @@
 ---
-permalink: permissions-matrix-for-cloud-backup/
+permalink: permissions-matrix-for-cloud-backup
 audit_date: '2017-01-20'
 title: Permissions matrix for Cloud Backup
 type: article

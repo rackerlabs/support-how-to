@@ -1,5 +1,5 @@
 ---
-permalink: preparing-data-disks-on-windows-cloud-servers/
+permalink: preparing-data-disks-on-windows-cloud-servers
 audit_date:
 title: Prepare data disks on Windows Cloud Servers
 type: article

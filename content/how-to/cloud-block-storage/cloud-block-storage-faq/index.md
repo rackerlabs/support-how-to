@@ -1,5 +1,5 @@
 ---
-permalink: cloud-block-storage-faq/
+permalink: cloud-block-storage-faq
 audit_date: '2021-02-15'
 title: Cloud Block Storage FAQ
 type: article

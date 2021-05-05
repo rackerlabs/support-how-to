@@ -1,5 +1,5 @@
 ---
-permalink: using-automatic-and-manual-disk-partitioning-on-cloud-servers/
+permalink: using-automatic-and-manual-disk-partitioning-on-cloud-servers
 audit_date:
 title: Automatic and manual disk partitioning on Cloud Servers
 type: article

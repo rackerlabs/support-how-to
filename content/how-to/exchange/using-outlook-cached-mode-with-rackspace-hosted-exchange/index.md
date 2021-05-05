@@ -1,5 +1,5 @@
 ---
-permalink: using-outlook-cached-mode-with-rackspace-hosted-exchange/
+permalink: using-outlook-cached-mode-with-rackspace-hosted-exchange
 audit_date: '2019-11-04'
 title: Use Outlook Cached Mode with Rackspace Hosted Exchange
 type: article

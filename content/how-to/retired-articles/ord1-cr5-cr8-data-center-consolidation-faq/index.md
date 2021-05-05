@@ -1,5 +1,5 @@
 ---
-permalink: ord1-cr5-cr8-data-center-consolidation-faq/
+permalink: ord1-cr5-cr8-data-center-consolidation-faq
 audit_date: '2019-07-19'
 title: ORD1 CR5/CR8 data center consolidation FAQ
 type: article

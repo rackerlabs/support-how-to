@@ -1,5 +1,5 @@
 ---
-permalink: check-the-system-load-on-linux/
+permalink: check-the-system-load-on-linux
 audit_date: '2020-10-09'
 title: Check the System Load on Linux
 type: article

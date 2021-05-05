@@ -1,5 +1,5 @@
 ---
-permalink: live-chat-support-for-cloud-office/
+permalink: live-chat-support-for-cloud-office
 audit_date: '2019-10-25'
 title: Live chat support for Cloud Office
 type: article

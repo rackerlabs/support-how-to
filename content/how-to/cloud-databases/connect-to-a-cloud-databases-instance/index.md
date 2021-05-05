@@ -1,5 +1,5 @@
 ---
-permalink: connect-to-a-cloud-databases-instance/
+permalink: connect-to-a-cloud-databases-instance
 audit_date: '2018-12-26'
 title: Connect to a Cloud Databases instance
 type: article

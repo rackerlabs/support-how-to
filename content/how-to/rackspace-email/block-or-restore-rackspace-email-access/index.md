@@ -1,5 +1,5 @@
 ---
-permalink: block-or-restore-rackspace-email-access/
+permalink: block-or-restore-rackspace-email-access
 audit_date: '2018-01-10'
 title: Block or restore Rackspace Email access
 type: article

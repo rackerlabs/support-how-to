@@ -1,5 +1,5 @@
 ---
-permalink: compute-cloud-nova-using-seamicro-sm15000/
+permalink: compute-cloud-nova-using-seamicro-sm15000
 audit_date:
 title: Compute Cloud (Nova) using SeaMicro SM15000
 type: article

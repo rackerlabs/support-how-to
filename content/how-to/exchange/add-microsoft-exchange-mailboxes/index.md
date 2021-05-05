@@ -1,5 +1,5 @@
 ---
-permalink: add-microsoft-exchange-mailboxes/
+permalink: add-microsoft-exchange-mailboxes
 audit_date: '2017-06-12'
 title: Add Microsoft Exchange mailboxes
 type: article

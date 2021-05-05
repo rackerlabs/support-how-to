@@ -1,5 +1,5 @@
 ---
-permalink: change-a-server-hostname-in-the-ubuntu-operating-system/
+permalink: change-a-server-hostname-in-the-ubuntu-operating-system
 audit_date: '2020-05-28'
 title: 'Change a server hostname in the Ubuntu operating system'
 type: article

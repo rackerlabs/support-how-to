@@ -1,5 +1,5 @@
 ---
-permalink: install-mongrel-and-mongrel-clusters-on-the-ubuntu-operating-system/
+permalink: install-mongrel-and-mongrel-clusters-on-the-ubuntu-operating-system
 audit_date:
 title: Install Mongrel and mongrel clusters on the Ubuntu operating system
 type: article

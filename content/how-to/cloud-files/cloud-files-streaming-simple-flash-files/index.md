@@ -1,5 +1,5 @@
 ---
-permalink: cloud-files-streaming-simple-flash-files/
+permalink: cloud-files-streaming-simple-flash-files
 audit_date:
 title: Stream simple Flash files from Cloud Files
 type: article

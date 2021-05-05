@@ -1,5 +1,5 @@
 ---
-permalink: create-a-sudo-user-in-ubuntu/
+permalink: create-a-sudo-user-in-ubuntu
 audit_date:
 title: 'Create a sudo user in Ubuntu'
 type: article 

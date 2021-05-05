@@ -1,5 +1,5 @@
 ---
-permalink: configuring-basic-security/
+permalink: configuring-basic-security
 audit_date: '2019-06-04'
 title: Configure basic security
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-rackspace-intelligence-for-the-cloud/
+permalink: getting-started-with-rackspace-intelligence-for-the-cloud
 audit_date: '2018-10-24'
 title: Getting started with Rackspace Intelligence for the cloud
 type: article

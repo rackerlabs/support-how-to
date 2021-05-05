@@ -1,5 +1,5 @@
 ---
-permalink: install-ansible-playbook-for-cloud-monitoring/
+permalink: install-ansible-playbook-for-cloud-monitoring
 audit_date: '2019-01-22'
 title: Install Ansible playbook for Cloud Monitoring
 type: article

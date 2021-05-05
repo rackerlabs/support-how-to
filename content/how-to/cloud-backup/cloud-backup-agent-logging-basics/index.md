@@ -1,5 +1,5 @@
 ---
-permalink: cloud-backup-agent-logging-basics/
+permalink: cloud-backup-agent-logging-basics
 audit_date: '2020-09-15'
 title: Cloud Backup agent logging basics
 type: article

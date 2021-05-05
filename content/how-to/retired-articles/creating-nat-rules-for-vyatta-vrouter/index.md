@@ -1,5 +1,5 @@
 ---
-permalink: creating-nat-rules-for-vyatta-vrouter/
+permalink: creating-nat-rules-for-vyatta-vrouter
 audit_date:
 title: Creating NAT rules for Vyatta vRouter
 type: article

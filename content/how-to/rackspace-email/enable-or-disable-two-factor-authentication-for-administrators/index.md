@@ -1,5 +1,5 @@
 ---
-permalink: enable-or-disable-two-factor-authentication-for-administrators/
+permalink: enable-or-disable-two-factor-authentication-for-administrators
 audit_date: '2020-03-30'
 title: Enable or disable two-factor authentication for administrators
 type: article

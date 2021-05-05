@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-email-plus-getting-started/
+permalink: rackspace-email-plus-getting-started
 audit_date: '2021-02-05'
 title: Get started with Rackspace Email Plus
 type: article

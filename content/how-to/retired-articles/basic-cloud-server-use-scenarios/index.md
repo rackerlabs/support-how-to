@@ -1,5 +1,5 @@
 ---
-permalink: basic-cloud-server-use-scenarios/
+permalink: basic-cloud-server-use-scenarios
 audit_date: '2019-09-10'
 title: Basic Cloud Server use Scenarios
 type: article

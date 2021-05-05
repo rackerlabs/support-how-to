@@ -1,5 +1,5 @@
 ---
-permalink: introduction-to-mailgun-email-automation/
+permalink: introduction-to-mailgun-email-automation
 audit_date: "2020-10-12"
 title: Introduction to Mailgun email automation
 type: article

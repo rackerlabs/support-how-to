@@ -1,5 +1,5 @@
 ---
-permalink: group-policy-fundamentals-in-active-directory/
+permalink: group-policy-fundamentals-in-active-directory
 audit_date: '2020-05-13'
 title: 'Group Policy fundamentals in Active Directory'
 type: article

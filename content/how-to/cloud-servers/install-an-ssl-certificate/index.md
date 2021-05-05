@@ -1,5 +1,5 @@
 ---
-permalink: install-an-ssl-certificate/
+permalink: install-an-ssl-certificate
 audit_date: '2018-10-23'
 title: Install an SSL certificate
 type: article

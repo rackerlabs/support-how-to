@@ -1,5 +1,5 @@
 ---
-permalink: troubleshooting-an-offline-website/
+permalink: troubleshooting-an-offline-website
 audit_date: '2016-09-26'
 title: Troubleshooting an offline website
 type: article

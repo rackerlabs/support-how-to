@@ -1,5 +1,5 @@
 ---
-permalink: manage-public-folders-in-the-control-panel-for-hosted-exchange-2010/
+permalink: manage-public-folders-in-the-control-panel-for-hosted-exchange-2010
 audit_date: '2020-11-18'
 title: Manage public folders in the control panel for Hosted Exchange 2010
 type: article

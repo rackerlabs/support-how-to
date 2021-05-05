@@ -1,5 +1,5 @@
 ---
-permalink: install-python-openstackclient-on-linux-and-mac-os/
+permalink: install-python-openstackclient-on-linux-and-mac-os
 audit_date:
 title: Install python-openstackclient on Linux and Mac OS
 type: article

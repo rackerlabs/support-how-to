@@ -1,5 +1,5 @@
 ---
-permalink: email-spoofing-best-practices/
+permalink: email-spoofing-best-practices
 audit_date: '2017-11-14'
 title: Email spoofing best practices
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: managed-operations-faq/
+permalink: managed-operations-faq
 audit_date:
 title: Managed Operations FAQ
 type: article

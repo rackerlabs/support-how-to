@@ -1,5 +1,5 @@
 ---
-permalink: server-side-monitoring-configuration/
+permalink: server-side-monitoring-configuration
 audit_date: '2017-01-16'
 title: Server-side monitoring configuration
 type: article

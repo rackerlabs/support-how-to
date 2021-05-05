@@ -1,5 +1,5 @@
 ---
-permalink: installing-and-testing-cinder-in-your-rackspace-private-cloud-lab-environment/
+permalink: installing-and-testing-cinder-in-your-rackspace-private-cloud-lab-environment
 audit_date:
 title: Install and test Cinder in your Rackspace Private Cloud lab environment
 type: article

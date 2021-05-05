@@ -1,5 +1,5 @@
 ---
-permalink: permissions-matrix-for-role-based-access-control-rbac/
+permalink: permissions-matrix-for-role-based-access-control-rbac
 audit_date: '2020-10-23'
 title: Role-Based Access Control (RBAC) permissions matrix for Cloud Hosting
 type: article

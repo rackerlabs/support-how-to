@@ -1,5 +1,5 @@
 ---
-permalink: manage-multi-factor-authentication-for-rackspace-webmail/
+permalink: manage-multi-factor-authentication-for-rackspace-webmail
 audit_date: '2020-10-05'
 title: Manage multi-factor authentication for Rackspace Webmail
 type: article

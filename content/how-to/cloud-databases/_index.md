@@ -5,7 +5,7 @@ created_date: '2016-01-17'
 created_by: Rackspace Support
 last_modified_date: '2016-08-11'
 last_modified_by: Steve Croce
-permalink: /cloud-databases/
+permalink: cloud-databases
 product: Cloud Databases
 product_url: cloud-databases
 ---

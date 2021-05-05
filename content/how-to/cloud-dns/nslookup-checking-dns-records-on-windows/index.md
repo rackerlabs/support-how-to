@@ -1,5 +1,5 @@
 ---
-permalink: nslookup-checking-dns-records-on-windows/
+permalink: nslookup-checking-dns-records-on-windows
 audit_date: '2018-10-08'
 title: Check DNS records on Windows with nslookup
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-mysql-configuration-with-a-mysqltuner-script/
+permalink: troubleshoot-mysql-configuration-with-a-mysqltuner-script
 audit_date: '2019-01-18'
 title: Troubleshoot MySQL configuration with a MySQLTuner script
 type: article

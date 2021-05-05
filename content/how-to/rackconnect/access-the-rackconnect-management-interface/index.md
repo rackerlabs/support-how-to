@@ -1,5 +1,5 @@
 ---
-permalink: access-the-rackconnect-management-interface/
+permalink: access-the-rackconnect-management-interface
 audit_date: '2019-10-04'
 title: Access the RackConnect Management Interface
 type: article

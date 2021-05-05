@@ -1,5 +1,5 @@
 ---
-permalink: network-device-reboot-faq/
+permalink: network-device-reboot-faq
 audit_date: '2017-01-16'
 title: Network device reboot FAQ
 type: article

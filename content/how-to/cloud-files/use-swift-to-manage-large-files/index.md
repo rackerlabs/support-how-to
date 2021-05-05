@@ -1,5 +1,5 @@
 ---
-permalink: use-swift-to-manage-large-files/
+permalink: use-swift-to-manage-large-files
 audit_date: '2021-04-05'
 title: Use Swift to manage large files
 type: article

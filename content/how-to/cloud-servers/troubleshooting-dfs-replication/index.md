@@ -1,5 +1,5 @@
 ---
-permalink: troubleshooting-dfs-replication/
+permalink: troubleshooting-dfs-replication
 audit_date: '2020-11-23'
 title: Troubleshooting DFS Replication
 type: article

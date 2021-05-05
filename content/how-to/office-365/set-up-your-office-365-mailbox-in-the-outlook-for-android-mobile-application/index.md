@@ -1,5 +1,5 @@
 ---
-permalink: set-up-your-office-365-mailbox-in-the-outlook-for-android-mobile-application/
+permalink: set-up-your-office-365-mailbox-in-the-outlook-for-android-mobile-application
 audit_date: '2020-07-09'
 title: Set up your Office 365 mailbox in the Outlook for Android mobile application
 type: article

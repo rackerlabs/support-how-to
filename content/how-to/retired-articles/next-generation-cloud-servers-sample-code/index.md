@@ -1,5 +1,5 @@
 ---
-permalink: next-generation-cloud-servers-sample-code/
+permalink: next-generation-cloud-servers-sample-code
 audit_date:
 title: 'Cloud Servers: Sample Code'
 type: article

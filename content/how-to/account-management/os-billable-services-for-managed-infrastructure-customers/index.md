@@ -1,5 +1,5 @@
 ---
-permalink: os-billable-services-for-managed-infrastructure-customers/
+permalink: os-billable-services-for-managed-infrastructure-customers
 audit_date: '2020-03-11'
 title: OS Billable Services for Managed Infrastructure customers
 type: article

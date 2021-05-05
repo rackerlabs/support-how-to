@@ -1,5 +1,5 @@
 ---
-permalink: adding-a-mobile-sync-license/
+permalink: adding-a-mobile-sync-license
 audit_date:
 title: Add a Mobile Sync license
 type: article

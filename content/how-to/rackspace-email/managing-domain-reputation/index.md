@@ -1,5 +1,5 @@
 ---
-permalink: managing-domain-reputation/
+permalink: managing-domain-reputation
 audit_date: '2018-09-24'
 title: Managing domain reputation
 type: article

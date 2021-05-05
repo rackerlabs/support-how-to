@@ -1,5 +1,5 @@
 ---
-permalink: smdc-data-center-migration-customer-faq/
+permalink: smdc-data-center-migration-customer-faq
 audit_date: '2020-02-15'
 title: SMDC data center migration customer FAQ
 type: article

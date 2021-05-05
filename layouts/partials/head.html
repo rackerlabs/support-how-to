@@ -29,7 +29,7 @@
 {{ else if .Site.Params.product }}
 <meta name="keywords" property="article:tag" content="{{ .Site.Params.product }}" />
 {{ else }}
-<meta name="Algolia crawler" content="noindex">
+<meta name="keywords" property="article:tag">
 {{ end }}
 <meta name="category" property="article:section" content="How-Tos" />
 {{ if .Data.Singular }}
@@ -44,12 +44,12 @@
     href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/algolia-min.css" />
-<link rel="stylesheet" href="https://staging-docs-landing-page.netlify.app/style.css" emotion="🤩">
+<link rel="stylesheet" href="https://docs.rackspace.com/style.css" emotion="🤩">
 
-<link rel="apple-touch-icon" sizes="180x180" href="https://docs-support-how-to.netlify.app/favicons/favicon.ico" />
-<link rel="icon" type="image/png" href="https://docs-support-how-to.netlify.app/favicons/favicon.ico" sizes="32x32" />
-<link rel="icon" type="image/png" href="https://docs-support-how-to.netlify.app/favicons/favicon.ico" sizes="16x16" />
-<link rel="mask-icon" href="https://docs-support-how-to.netlify.app/favicons/favicon.ico" color="#00c7b7" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://docs.rackspace.com/favicons/favicon.ico" />
+<link rel="icon" type="image/png" href="https://docs.rackspace.com/favicons/favicon.ico" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://docs.rackspace.com/favicons/favicon.ico" sizes="16x16" />
+<link rel="mask-icon" href="https://docs.rackspace.com/favicons/favicon.ico" color="#00c7b7" />
 {{- with .OutputFormats.Get "RSS" -}}
 <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $title }}" />
 <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $title }}" />

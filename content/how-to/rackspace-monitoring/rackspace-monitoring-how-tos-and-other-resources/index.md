@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-monitoring-how-tos-and-other-resources/
+permalink: rackspace-monitoring-how-tos-and-other-resources
 audit_date: '2020-11-30'
 title: Rackspace Monitoring How-tos and other resources
 type: article

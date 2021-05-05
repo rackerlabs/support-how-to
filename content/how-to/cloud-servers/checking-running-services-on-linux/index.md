@@ -1,5 +1,5 @@
 ---
-permalink: checking-running-services-on-linux/
+permalink: checking-running-services-on-linux
 audit_date: '2019-01-24'
 title: Check running services on Linux
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: cloud-office-control-panel-overview/
+permalink: cloud-office-control-panel-overview
 audit_date: '2019-12-17'
 title: Cloud Office Control Panel overview
 type: article

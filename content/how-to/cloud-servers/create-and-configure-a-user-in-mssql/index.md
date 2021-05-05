@@ -1,5 +1,5 @@
 ---
-permalink: create-and-configure-a-user-in-mssql/
+permalink: create-and-configure-a-user-in-mssql
 audit_date: '2020-07-27'
 title: Create and configure a user in MSSQL
 type: article

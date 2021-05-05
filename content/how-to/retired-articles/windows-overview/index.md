@@ -1,5 +1,5 @@
 ---
-permalink: windows-overview/
+permalink: windows-overview
 audit_date:
 title: Windows overview
 type: article

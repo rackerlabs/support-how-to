@@ -1,5 +1,5 @@
 ---
-permalink: article-retired/
+permalink: article-retired
 audit_date:
 title: Article no longer available
 type: article

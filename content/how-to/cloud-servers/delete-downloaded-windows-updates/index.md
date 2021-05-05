@@ -1,5 +1,5 @@
 ---
-permalink: delete-downloaded-windows-updates/
+permalink: delete-downloaded-windows-updates
 audit_date: '2020-06-04'
 title: 'Delete downloaded Windows updates'
 type: article

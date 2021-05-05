@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-auto-nat-feature/
+permalink: rackconnect-auto-nat-feature
 audit_date: '2019-10-09'
 title: RackConnect Auto NAT feature
 type: article

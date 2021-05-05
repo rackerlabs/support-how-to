@@ -1,5 +1,5 @@
 ---
-permalink: set-up-virtual-hosts-on-centos/
+permalink: set-up-virtual-hosts-on-centos
 audit_date: '2019-02-14'
 title: Set up virtual hosts on CentOS
 type: article

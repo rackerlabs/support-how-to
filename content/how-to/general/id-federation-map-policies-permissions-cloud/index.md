@@ -1,5 +1,5 @@
 ---
-permalink: id-federation-map-policies-permissions-cloud/
+permalink: id-federation-map-policies-permissions-cloud
 audit_date: '2018-11-12'
 title: 'Identity federation for Rackspace Cloud: Map policies and permissions'
 type: article

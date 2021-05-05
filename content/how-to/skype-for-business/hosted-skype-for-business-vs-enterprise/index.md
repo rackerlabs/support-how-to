@@ -1,5 +1,5 @@
 ---
-permalink: hosted-skype-for-business-vs-enterprise/
+permalink: hosted-skype-for-business-vs-enterprise
 audit_date: '2017-10-19'
 title: Hosted Skype for Business vs Enterprise Skype for Business
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-provided-host-name-not-valid/
+permalink: troubleshoot-provided-host-name-not-valid
 audit_date: '2019-11-01'
 title: Troubleshoot provided host name not valid error
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: safelist-addresses-domains-and-ips-in-rackspace-email/
+permalink: safelist-addresses-domains-and-ips-in-rackspace-email
 audit_date: '2017-11-13'
 title: Safelist addresses, domains, and IPs in Rackspace Email
 type: article

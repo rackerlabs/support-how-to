@@ -1,5 +1,5 @@
 ---
-permalink: create-a-grafana-dashboard-for-rackspace-metrics/
+permalink: create-a-grafana-dashboard-for-rackspace-metrics
 audit_date: '2018-10-12'
 title: Create a Grafana dashboard for Rackspace Metrics
 type: article

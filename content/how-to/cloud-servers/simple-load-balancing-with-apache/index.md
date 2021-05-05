@@ -1,5 +1,5 @@
 ---
-permalink: simple-load-balancing-with-apache/
+permalink: simple-load-balancing-with-apache
 audit_date:
 title: Simple load balancing with Apache
 type: article

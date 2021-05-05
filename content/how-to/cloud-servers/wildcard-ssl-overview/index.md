@@ -1,5 +1,5 @@
 ---
-permalink: wildcard-ssl-overview/
+permalink: wildcard-ssl-overview
 audit_date: '2020-03-27'
 title: Wildcard SSL overview
 type: article

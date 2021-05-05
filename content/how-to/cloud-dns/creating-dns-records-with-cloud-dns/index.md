@@ -1,5 +1,5 @@
 ---
-permalink: creating-dns-records-with-cloud-dns/
+permalink: creating-dns-records-with-cloud-dns
 audit_date: '2018-05-16'
 title: Create DNS records with Cloud DNS
 type: article

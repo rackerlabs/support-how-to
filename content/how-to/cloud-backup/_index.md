@@ -5,7 +5,7 @@ created_date: '2016-01-17'
 created_by: Rackspace Support
 last_modified_date: '2020-01-15'
 last_modified_by: Brett Johnson
-permalink: /cloud-backup/
+permalink: cloud-backup
 product: Cloud Backup
 product_url: cloud-backup
 ---

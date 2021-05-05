@@ -1,5 +1,5 @@
 ---
-permalink: add-and-manage-domains-in-rackspace-cdn/
+permalink: add-and-manage-domains-in-rackspace-cdn
 audit_date: '2016-06-01'
 title: Add and manage domains in Rackspace CDN
 type: article

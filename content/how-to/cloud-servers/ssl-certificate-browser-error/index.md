@@ -1,5 +1,5 @@
 ---
-permalink: ssl-certificate-browser-error/
+permalink: ssl-certificate-browser-error
 audit_date: '2020-05-15'
 title: 'SSL certificate browser error'
 type: article

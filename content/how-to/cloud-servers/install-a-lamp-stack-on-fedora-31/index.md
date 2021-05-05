@@ -1,5 +1,5 @@
 ---
-permalink: install-a-lamp-stack-on-fedora-31/
+permalink: install-a-lamp-stack-on-fedora-31
 audit_date: '2020-07-24'
 title: 'Install a LAMP stack on Fedora 31'
 type: article

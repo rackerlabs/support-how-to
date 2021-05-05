@@ -1,5 +1,5 @@
 ---
-permalink: resolve-errors-after-building-a-server-from-a-saved-image/
+permalink: resolve-errors-after-building-a-server-from-a-saved-image
 audit_date: '2019-01-18'
 title: Resolve errors after building a server from a saved image
 type: article

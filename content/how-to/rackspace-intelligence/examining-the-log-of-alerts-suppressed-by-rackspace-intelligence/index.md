@@ -1,5 +1,5 @@
 ---
-permalink: examining-the-log-of-alerts-suppressed-by-rackspace-intelligence/
+permalink: examining-the-log-of-alerts-suppressed-by-rackspace-intelligence
 audit_date: '2021-02-25'
 title: Examining the log of alerts suppressed by Rackspace Intelligence
 type: article

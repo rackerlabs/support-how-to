@@ -1,5 +1,5 @@
 ---
-permalink: hosted-microsoft-skype-for-business-at-rackspace-deployment-guide/
+permalink: hosted-microsoft-skype-for-business-at-rackspace-deployment-guide
 audit_date:
 title: Hosted Microsoft Skype for Business at Rackspace deployment guide
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: modify-an-access-lists-execution-order-with-firewall-manager-v2/
+permalink: modify-an-access-lists-execution-order-with-firewall-manager-v2
 audit_date: '2018-07-18'
 title: Modify an access-list's execution order with Firewall Manager v2
 type: article

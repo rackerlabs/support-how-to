@@ -1,5 +1,5 @@
 ---
-permalink: windows-server-2012-r2-with-managed-operations-support/
+permalink: windows-server-2012-r2-with-managed-operations-support
 audit_date:
 title: Windows Server 2012 R2 with Managed Operations support
 type: article

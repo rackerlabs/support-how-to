@@ -1,5 +1,5 @@
 ---
-permalink: setting-up-vyatta-vpn-with-policy-nat/
+permalink: setting-up-vyatta-vpn-with-policy-nat
 audit_date:
 title: Setting Up Vyatta VPN with Policy NAT
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: linux-out-of-memory-killer/
+permalink: linux-out-of-memory-killer
 audit_date: '2021-04-23'
 title: Linux Out-of-Memory Killer
 type: article

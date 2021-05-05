@@ -1,5 +1,5 @@
 ---
-permalink: choosing-between-rdbms-and-nosql/
+permalink: choosing-between-rdbms-and-nosql
 audit_date: '2018-03-21'
 title: 'Choosing between a relational database and a NoSQL database'
 type: article

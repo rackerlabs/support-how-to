@@ -1,7 +1,7 @@
 ---
 title: General – All Articles
 category: General
-permalink: general-all-articles/
+permalink: general-all-articles
 product: General
 product_url: general
 type: article

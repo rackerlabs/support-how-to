@@ -1,5 +1,5 @@
 ---
-permalink: features-of-rackspace-cdn/
+permalink: features-of-rackspace-cdn
 audit_date: '2016-06-02'
 title: Features of Rackspace CDN
 type: article

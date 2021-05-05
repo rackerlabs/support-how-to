@@ -1,5 +1,5 @@
 ---
-permalink: cloud-orchestration-support-for-rackconnect-v30/
+permalink: cloud-orchestration-support-for-rackconnect-v30
 audit_date: '2019-10-04'
 title: Cloud Orchestration support for RackConnect v3.0
 type: article

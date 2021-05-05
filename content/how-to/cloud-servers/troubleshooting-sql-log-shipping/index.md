@@ -1,5 +1,5 @@
 ---
-permalink: troubleshooting-sql-log-shipping/
+permalink: troubleshooting-sql-log-shipping
 audit_date: '2021-04-23'
 title: 'Basic Troubleshooting of SQL Log Shipping'
 type: article

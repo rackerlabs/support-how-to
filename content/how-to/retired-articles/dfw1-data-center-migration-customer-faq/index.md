@@ -1,5 +1,5 @@
 ---
-permalink: dfw1-data-center-migration-customer-faq/
+permalink: dfw1-data-center-migration-customer-faq
 audit_date: '2018-05-23'
 title: DFW1 Data-center migration customer FAQ
 type: article

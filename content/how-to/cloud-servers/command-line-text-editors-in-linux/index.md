@@ -1,5 +1,5 @@
 ---
-permalink: command-line-text-editors-in-linux/
+permalink: command-line-text-editors-in-linux
 audit_date: '2020-03-31'
 title: 'Command-line text editors in Linux'
 type: article

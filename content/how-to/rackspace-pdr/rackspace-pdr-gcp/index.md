@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-pdr-gcp/
+permalink: rackspace-pdr-gcp
 title: Rackspace PDR on Google Cloud Platform
 type: article
 audit_date: '2018-11-12'

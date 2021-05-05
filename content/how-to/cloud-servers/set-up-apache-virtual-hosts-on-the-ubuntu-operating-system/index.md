@@ -1,5 +1,5 @@
 ---
-permalink: set-up-apache-virtual-hosts-on-the-ubuntu-operating-system/
+permalink: set-up-apache-virtual-hosts-on-the-ubuntu-operating-system
 audit_date:
 title: Set up Apache virtual hosts on the Ubuntu operating system
 type: article

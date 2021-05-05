@@ -1,5 +1,5 @@
 ---
-permalink: performing-cross-data-center-restores-and-backups/
+permalink: performing-cross-data-center-restores-and-backups
 audit_date: '2019-12-16'
 title: 'Performing cross-data-center restores and backups'
 type: article

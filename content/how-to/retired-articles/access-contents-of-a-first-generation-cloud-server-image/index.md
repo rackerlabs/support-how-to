@@ -1,5 +1,5 @@
 ---
-permalink: access-contents-of-a-first-generation-cloud-server-image/
+permalink: access-contents-of-a-first-generation-cloud-server-image
 audit_date:
 title: Access Contents of a First Generation Cloud Server Image
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: why-choose-cloud-files/
+permalink: why-choose-cloud-files
 audit_date: '2021-03-26'
 title: Why choose Cloud Files? 
 type: article

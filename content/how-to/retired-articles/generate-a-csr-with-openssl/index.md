@@ -1,5 +1,5 @@
 ---
-permalink: generate-a-csr-with-openssl/
+permalink: generate-a-csr-with-openssl
 audit_date: '2016-06-24'
 title: Generate a CSR with OpenSSL
 type: article

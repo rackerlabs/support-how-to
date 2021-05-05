@@ -1,5 +1,5 @@
 ---
-permalink: checking-linux-file-permissions-with-ls/
+permalink: checking-linux-file-permissions-with-ls
 audit_date: '2016-06-22'
 title: Check Linux file permissions with ls
 type: article

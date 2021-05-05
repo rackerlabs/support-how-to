@@ -1,5 +1,5 @@
 ---
-permalink: detach-and-delete-cloud-block-storage-volumes/
+permalink: detach-and-delete-cloud-block-storage-volumes
 audit_date: '2021-02-12'
 title: Detach and delete Cloud Block Storage volumes
 type: article

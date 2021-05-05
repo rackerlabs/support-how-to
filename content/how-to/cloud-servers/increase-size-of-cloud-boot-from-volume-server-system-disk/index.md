@@ -1,5 +1,5 @@
 ---
-permalink: increase-size-of-cloud-boot-from-volume-server-system-disk/
+permalink: increase-size-of-cloud-boot-from-volume-server-system-disk
 audit_date: '2020-12-11'
 title: Increase the size of a cloud boot-from-volume server system disk
 type: article
