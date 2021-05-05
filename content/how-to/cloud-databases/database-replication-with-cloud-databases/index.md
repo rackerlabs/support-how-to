@@ -1,5 +1,5 @@
 ---
-permalink: database-replication-with-cloud-databases/
+permalink: database-replication-with-cloud-databases
 audit_date: '2020-09-17'
 title: Database replication with Cloud Databases
 type: article

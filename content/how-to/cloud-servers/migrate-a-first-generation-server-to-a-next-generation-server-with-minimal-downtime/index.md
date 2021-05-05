@@ -1,5 +1,5 @@
 ---
-permalink: migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime/
+permalink: migrate-a-first-generation-server-to-a-next-generation-server-with-minimal-downtime
 audit_date:
 title: Migrate a First Gen server to a Next Gen server with minimal downtime
 type: article

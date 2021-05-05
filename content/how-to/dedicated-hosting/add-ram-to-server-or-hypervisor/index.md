@@ -1,5 +1,5 @@
 ---
-permalink: add-ram-to-server-or-hypervisor/
+permalink: add-ram-to-server-or-hypervisor
 audit_date: '2019-12-12'
 title: Add RAM to a server or hypervisor
 type: article

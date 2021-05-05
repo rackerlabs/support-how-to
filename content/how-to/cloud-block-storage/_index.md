@@ -5,7 +5,7 @@ created_date: '2016-01-17'
 created_by: Rackspace Support
 last_modified_date: '2016-09-13'
 last_modified_by: Kyle Laffoon
-permalink: /cloud-block-storage/
+permalink: cloud-block-storage
 product: Cloud Block Storage
 product_url: cloud-block-storage
 ---

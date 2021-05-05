@@ -1,5 +1,5 @@
 ---
-permalink: cloud-load-balancer-scheduling-algorithms/
+permalink: cloud-load-balancer-scheduling-algorithms
 audit_date: '2020-10-02'
 title: Cloud Load Balancer scheduling algorithms
 type: article

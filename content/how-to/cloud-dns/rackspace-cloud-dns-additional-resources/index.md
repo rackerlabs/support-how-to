@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-dns-additional-resources/
+permalink: rackspace-cloud-dns-additional-resources
 audit_date:
 title: Rackspace Cloud DNS - Additional Resources
 type: article

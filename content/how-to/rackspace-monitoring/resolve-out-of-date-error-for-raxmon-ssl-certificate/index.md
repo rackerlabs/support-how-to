@@ -1,5 +1,5 @@
 ---
-permalink: resolve-out-of-date-error-for-raxmon-ssl-certificate/
+permalink: resolve-out-of-date-error-for-raxmon-ssl-certificate
 audit_date: '2019-02-19'
 title: Resolve out-of-date error for Raxmon SSL certificate
 type: article

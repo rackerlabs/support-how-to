@@ -1,5 +1,5 @@
 ---
-permalink: linux-file-permission-concepts/
+permalink: linux-file-permission-concepts
 audit_date: '2019-03-07'
 title: Linux file permission concepts
 type: article

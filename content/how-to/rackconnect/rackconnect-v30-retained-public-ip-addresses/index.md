@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-v30-retained-public-ip-addresses/
+permalink: rackconnect-v30-retained-public-ip-addresses
 audit_date: '2019-12-16'
 title: RackConnect v3.0 retained public IP addresses
 type: article

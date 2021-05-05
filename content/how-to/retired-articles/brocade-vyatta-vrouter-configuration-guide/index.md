@@ -1,5 +1,5 @@
 ---
-permalink: brocade-vyatta-vrouter-configuration-guide/
+permalink: brocade-vyatta-vrouter-configuration-guide
 audit_date:
 title: Brocade Vyatta vRouter configuration guide
 type: article

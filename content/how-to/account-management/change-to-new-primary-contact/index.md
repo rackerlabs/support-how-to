@@ -1,5 +1,5 @@
 ---
-permalink: change-to-new-primary-contact/
+permalink: change-to-new-primary-contact
 audit_date: '2018-03-13'
 title: Change an account's primary contact
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: pitchfork-create-servers/
+permalink: pitchfork-create-servers
 audit_date: '2021-03-10'
 title: Pitchfork&colon; Create server
 type: article

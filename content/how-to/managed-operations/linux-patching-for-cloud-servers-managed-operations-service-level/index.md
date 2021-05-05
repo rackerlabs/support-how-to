@@ -1,5 +1,5 @@
 ---
-permalink: linux-patching-for-cloud-servers-managed-operations-service-level/
+permalink: linux-patching-for-cloud-servers-managed-operations-service-level
 audit_date: '2017-01-13'
 title: Linux patching for Cloud Servers with the Managed Operations service level
 type: article

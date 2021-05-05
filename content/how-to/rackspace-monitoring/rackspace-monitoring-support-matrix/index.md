@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-monitoring-support-matrix/
+permalink: rackspace-monitoring-support-matrix
 audit_date: '2020-12-02'
 title: Rackspace Monitoring support matrix
 type: article

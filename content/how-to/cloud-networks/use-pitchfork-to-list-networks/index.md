@@ -1,5 +1,5 @@
 ---
-permalink: use-pitchfork-to-list-networks/
+permalink: use-pitchfork-to-list-networks
 audit_date: '2021-03-12'
 title: Use Pitchfork to list networks
 type: article

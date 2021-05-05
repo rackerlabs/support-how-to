@@ -1,5 +1,5 @@
 ---
-permalink: generate-a-csr/
+permalink: generate-a-csr
 audit_date: '2018-10-23'
 title: Generate a certificate signing request
 type: article

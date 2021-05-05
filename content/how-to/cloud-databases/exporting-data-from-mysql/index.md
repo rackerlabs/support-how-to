@@ -1,5 +1,5 @@
 ---
-permalink: exporting-data-from-mysql/
+permalink: exporting-data-from-mysql
 audit_date: '2018-04-04'
 title: Export Data from MySQL
 type: article

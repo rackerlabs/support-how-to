@@ -1,5 +1,5 @@
 ---
-permalink: transfer-files-by-using-winscp/
+permalink: transfer-files-by-using-winscp
 audit_date: '2019-03-12'
 title: Transfer files by using WinSCP
 type: article

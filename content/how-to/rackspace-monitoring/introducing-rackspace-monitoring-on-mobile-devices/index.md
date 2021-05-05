@@ -1,5 +1,5 @@
 ---
-permalink: introducing-rackspace-monitoring-on-mobile-devices/
+permalink: introducing-rackspace-monitoring-on-mobile-devices
 audit_date: '2020-11-27'
 title: Use Rackspace Monitoring on Mobile Devices
 type: article

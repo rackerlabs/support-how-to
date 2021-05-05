@@ -1,5 +1,5 @@
 ---
-permalink: autodiscover-connection-issues/
+permalink: autodiscover-connection-issues
 audit_date: '2019-03-25'
 title: Autodiscover connection issues
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: tips-for-monitoring-your-queues-in-cloud-queues/
+permalink: tips-for-monitoring-your-queues-in-cloud-queues
 audit_date:
 title: Tips for monitoring your queues
 type: article

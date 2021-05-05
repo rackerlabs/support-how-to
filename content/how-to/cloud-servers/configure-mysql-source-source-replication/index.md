@@ -1,5 +1,5 @@
 ---
-permalink: configure-mysql-source-source-replication/
+permalink: configure-mysql-source-source-replication
 audit_date:
 title: Configure MySQL source-source replication
 type: article

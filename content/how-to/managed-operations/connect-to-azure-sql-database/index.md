@@ -1,5 +1,5 @@
 ---
-permalink: connect-to-azure-sql-database/
+permalink: connect-to-azure-sql-database
 audit_date: '2017-06-06'
 title: Connect to Azure SQL Database
 type: article

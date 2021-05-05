@@ -1,5 +1,5 @@
 ---
-permalink: setting-up-imap-or-pop-windows-mail/
+permalink: setting-up-imap-or-pop-windows-mail
 audit_date:
 title: Set up IMAP or POP for Windows Mail
 type: article

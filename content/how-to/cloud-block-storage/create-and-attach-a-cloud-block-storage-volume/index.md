@@ -1,5 +1,5 @@
 ---
-permalink: create-and-attach-a-cloud-block-storage-volume/
+permalink: create-and-attach-a-cloud-block-storage-volume
 audit_date: '2021-02-08'
 title: Create and attach a Cloud Block Storage volume
 type: article

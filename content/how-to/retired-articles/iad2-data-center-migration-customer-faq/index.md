@@ -1,5 +1,5 @@
 ---
-permalink: iad2-data-center-migration-customer-faq/
+permalink: iad2-data-center-migration-customer-faq
 audit_date: '2018-10-03'
 title: IAD2 data-center migration customer FAQ
 type: article

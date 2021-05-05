@@ -1,5 +1,5 @@
 ---
-permalink: grant-sudo-access-in-rhel-and-centos/
+permalink: grant-sudo-access-in-rhel-and-centos
 audit_date: '2020-04-20'
 title: 'Grant sudo access in RHEL and CentOS'
 type: article

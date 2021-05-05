@@ -1,5 +1,5 @@
 ---
-permalink: paypal-requires-tls-12/
+permalink: paypal-requires-tls-12
 audit_date: '2019-01-18'
 title: PayPal requires TLS 1.2
 type: article

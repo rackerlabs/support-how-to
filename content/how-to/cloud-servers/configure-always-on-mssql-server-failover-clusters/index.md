@@ -1,5 +1,5 @@
 ---
-permalink: configure-always-on-mssql-server-failover-clusters/
+permalink: configure-always-on-mssql-server-failover-clusters
 audit_date: '2021-03-12'
 title: Configure always-on MSSQL server failover clusters
 type: article

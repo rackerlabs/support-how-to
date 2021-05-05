@@ -1,5 +1,5 @@
 ---
-permalink: cloud-to-cloud-migration/
+permalink: cloud-to-cloud-migration
 audit_date: '2019-08-19'
 title: Cloud-to-cloud migration
 type: article

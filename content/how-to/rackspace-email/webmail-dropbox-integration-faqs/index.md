@@ -1,5 +1,5 @@
 ---
-permalink: webmail-dropbox-integration-faqs/
+permalink: webmail-dropbox-integration-faqs
 audit_date: '2021-02-17'
 title: Webmail Dropbox integration FAQ
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: change-the-ssh-port-in-the-linux-ubuntu-operating-system/
+permalink: change-the-ssh-port-in-the-linux-ubuntu-operating-system
 audit_date: '2020-06-26'
 title: Change the SSH Port in the Linux Ubuntu operating system
 type: article

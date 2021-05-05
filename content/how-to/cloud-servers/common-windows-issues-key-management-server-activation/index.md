@@ -1,5 +1,5 @@
 ---
-permalink: common-windows-issues-key-management-server-activation/
+permalink: common-windows-issues-key-management-server-activation
 audit_date: '2019-12-04'
 title: 'Common Windows issues: Key Management Server activation'
 type: article

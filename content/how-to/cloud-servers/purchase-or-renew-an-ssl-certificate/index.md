@@ -1,5 +1,5 @@
 ---
-permalink: purchase-or-renew-an-ssl-certificate/
+permalink: purchase-or-renew-an-ssl-certificate
 audit_date: '2018-10-23'
 title: Purchase or renew an SSL certificate
 type: article

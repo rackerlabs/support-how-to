@@ -1,5 +1,5 @@
 ---
-permalink: account-registration-code/
+permalink: account-registration-code
 audit_date: '2019-01-22'
 title: Account registration code
 type: article

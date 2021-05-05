@@ -1,5 +1,5 @@
 ---
-permalink: create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard/
+permalink: create-a-maintenance-backup-plan-in-sql-server-2008-r2-using-the-wizard
 audit_date: '2020-10-14'
 title: Create a maintenance backup plan in SQL Server 2008 R2 using the wizard
 type: article

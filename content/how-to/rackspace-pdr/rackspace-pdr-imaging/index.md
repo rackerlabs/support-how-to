@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-pdr-imaging/
+permalink: rackspace-pdr-imaging
 title: Rackspace PDR imaging hosts
 type: article
 audit_date: '2021-01-28'

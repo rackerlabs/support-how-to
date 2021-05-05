@@ -1,5 +1,5 @@
 ---
-permalink: use-a-custom-kernel-with-pv-grub/
+permalink: use-a-custom-kernel-with-pv-grub
 audit_date:
 title: Use a custom kernel with pv-grub
 type: article

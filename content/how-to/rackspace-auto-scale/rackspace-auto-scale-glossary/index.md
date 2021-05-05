@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-auto-scale-glossary/
+permalink: rackspace-auto-scale-glossary
 audit_date: '2020-09-28'
 title: Rackspace Auto Scale glossary
 type: article

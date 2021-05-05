@@ -1,5 +1,5 @@
 ---
-permalink: install-apache-on-centos-8/
+permalink: install-apache-on-centos-8
 audit_date: '2020-07-28'
 title: 'Install Apache on CentOS 8'
 type: article

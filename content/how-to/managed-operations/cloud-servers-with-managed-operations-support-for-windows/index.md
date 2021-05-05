@@ -1,5 +1,5 @@
 ---
-permalink: cloud-servers-with-managed-operations-support-for-windows/
+permalink: cloud-servers-with-managed-operations-support-for-windows
 audit_date: '2018-09-04'
 title: Cloud Servers with Managed Operations support for Windows
 type: article

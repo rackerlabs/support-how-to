@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-backup-vs-cloud-server-image-backups/
+permalink: rackspace-cloud-backup-vs-cloud-server-image-backups
 audit_date: '2017-05-15'
 title: Rackspace Cloud Backup vs. Cloud Server Image Backups
 type: article

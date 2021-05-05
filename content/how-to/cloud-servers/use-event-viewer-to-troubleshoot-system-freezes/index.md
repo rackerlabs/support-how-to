@@ -1,5 +1,5 @@
 ---
-permalink: use-event-viewer-to-troubleshoot-system-freezes/
+permalink: use-event-viewer-to-troubleshoot-system-freezes
 title: 'Use Event Viewer to troubleshoot system freezes'
 type: article
 audit_date: '2020-06-30'

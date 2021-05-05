@@ -1,5 +1,5 @@
 ---
-permalink: add-multiple-contacts-to-exchange/
+permalink: add-multiple-contacts-to-exchange
 audit_date: '2020-12-14'
 title: Add multiple contacts to Exchange
 type: article

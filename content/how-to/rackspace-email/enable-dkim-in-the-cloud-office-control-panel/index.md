@@ -1,5 +1,5 @@
 ---
-permalink: enable-dkim-in-the-cloud-office-control-panel/
+permalink: enable-dkim-in-the-cloud-office-control-panel
 audit_date: '2021-02-04'
 title: Enable DKIM in the Cloud Office Control Panel
 type: article

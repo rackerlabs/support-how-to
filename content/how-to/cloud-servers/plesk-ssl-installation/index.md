@@ -1,5 +1,5 @@
 ---
-permalink: plesk-ssl-installation/
+permalink: plesk-ssl-installation
 audit_date: '2021-02-11'
 title: 'Plesk: SSL Installation'
 type: article

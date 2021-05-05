@@ -1,5 +1,5 @@
 ---
-permalink: imappop-to-exchange/
+permalink: imappop-to-exchange
 audit_date:
 title: 'Transfer data from IMAP or POP to Exchange'
 type: article

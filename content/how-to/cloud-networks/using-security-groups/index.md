@@ -1,5 +1,5 @@
 ---
-permalink: using-security-groups/
+permalink: using-security-groups
 audit_date: '2019-06-27'
 title: Using security groups
 type: article

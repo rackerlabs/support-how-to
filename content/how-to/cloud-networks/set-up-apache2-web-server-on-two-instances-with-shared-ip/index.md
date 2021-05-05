@@ -1,5 +1,5 @@
 ---
-permalink: set-up-apache2-web-server-on-two-instances-with-shared-ip/
+permalink: set-up-apache2-web-server-on-two-instances-with-shared-ip
 audit_date: '2016-08-15'
 title: Set up Apache2 web server on two instances with shared ip
 type: article

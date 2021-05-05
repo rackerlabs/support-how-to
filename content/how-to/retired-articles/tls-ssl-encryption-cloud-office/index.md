@@ -1,5 +1,5 @@
 ---
-permalink: tls-ssl-encryption-cloud-office/
+permalink: tls-ssl-encryption-cloud-office
 audit_date:
 title: TLS and SSL encryption in Cloud Office
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: cloud-block-storage-attaching-vs-mounting/
+permalink: cloud-block-storage-attaching-vs-mounting
 audit_date: '2021-02-15'
 title: Attaching versus mounting in Cloud Block Storage
 type: article

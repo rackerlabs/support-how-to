@@ -1,5 +1,5 @@
 ---
-permalink: share-a-microsoft-exchange-2010-calendar-using-outlook-2010/
+permalink: share-a-microsoft-exchange-2010-calendar-using-outlook-2010
 audit_date: '2020-11-23'
 title: Share a Microsoft Exchange 2010 calendar using Outlook 2010
 type: article

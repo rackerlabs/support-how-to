@@ -1,5 +1,5 @@
 ---
-permalink: hkg2-data-center-migration-customer-faq/
+permalink: hkg2-data-center-migration-customer-faq
 audit_date: '2019-12-13'
 title: HKG2 data center migration customer FAQ
 type: article

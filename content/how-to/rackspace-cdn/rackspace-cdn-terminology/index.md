@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cdn-terminology/
+permalink: rackspace-cdn-terminology
 audit_date: '2020-12-10'
 title: Rackspace CDN terminology
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: locking-down-ip-addresses-in-migrationwiz/
+permalink: locking-down-ip-addresses-in-migrationwiz
 audit_date:
 title: Lock down IP addresses in MigrationWiz
 type: article

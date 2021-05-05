@@ -5,7 +5,7 @@ created_date: '2016-01-17'
 created_by: Rackspace Support
 last_modified_date: '2020-01-15'
 last_modified_by: Brett Johnson
-permalink: /cloud-backup/
+permalink: cloud-backup
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -14,7 +14,7 @@ This introduction gets you up and running with Cloud Backup, including tips for 
 
 ###  Install the agent
 
-- [Install the agent on Linux&reg; systems](/support/how-to/install-or-update-the-cloud-backup-agent-on-linux)
+- [Install the agent on Linux&reg; systems](/support/how-to/update-or-install-the-cloud-backup-agent-on-linux)
 - [Install the agent on Windows&reg; systems](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows)
 - [Install the agent on Windows systems by using silent installation](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation)
 

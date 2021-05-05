@@ -1,5 +1,5 @@
 ---
-permalink: creating-cloud-queues/
+permalink: creating-cloud-queues
 audit_date:
 title: Create a Cloud Queue
 type: article

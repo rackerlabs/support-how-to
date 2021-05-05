@@ -1,5 +1,5 @@
 ---
-permalink: test-and-send-mail-using-php/
+permalink: test-and-send-mail-using-php
 audit_date:
 title: Test and send mail using PHP
 type: article

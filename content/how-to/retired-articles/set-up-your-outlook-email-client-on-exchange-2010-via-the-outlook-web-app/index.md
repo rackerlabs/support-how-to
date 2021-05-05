@@ -1,5 +1,5 @@
 ---
-permalink: set-up-your-outlook-email-client-on-exchange-2010-via-the-outlook-web-app/
+permalink: set-up-your-outlook-email-client-on-exchange-2010-via-the-outlook-web-app
 audit_date:
 title: Set up your Outlook email client on Exchange 2010 via the Outlook Web App
 type: article

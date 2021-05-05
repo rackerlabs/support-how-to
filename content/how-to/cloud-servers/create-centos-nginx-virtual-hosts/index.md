@@ -1,5 +1,5 @@
 ---
-permalink: create-centos-nginx-virtual-hosts/
+permalink: create-centos-nginx-virtual-hosts
 audit_date: '2019-01-23'
 title: Create CentOS NGINX virtual hosts
 type: article

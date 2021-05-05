@@ -1,5 +1,5 @@
 ---
-permalink: how-to-scale-multinode-wordpress-by-using-rackspace-orchestration/
+permalink: how-to-scale-multinode-wordpress-by-using-rackspace-orchestration
 audit_date: '2017-01-19'
 title: Scale a multinode WordPress stack by using Rackspace Orchestration
 type: article

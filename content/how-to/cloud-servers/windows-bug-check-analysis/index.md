@@ -1,5 +1,5 @@
 ---
-permalink: windows-bug-check-analysis/
+permalink: windows-bug-check-analysis
 audit_date: '2020-06-26'
 title: 'Windows bug check analysis'
 type: article

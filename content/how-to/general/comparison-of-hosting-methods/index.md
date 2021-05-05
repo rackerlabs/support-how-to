@@ -1,5 +1,5 @@
 ---
-permalink: comparison-of-hosting-methods/
+permalink: comparison-of-hosting-methods
 audit_date: '2017-12-06'
 title: Comparison of hosting methods
 type: article

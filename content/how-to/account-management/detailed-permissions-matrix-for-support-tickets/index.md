@@ -1,5 +1,5 @@
 ---
-permalink: detailed-permissions-matrix-for-support-tickets/
+permalink: detailed-permissions-matrix-for-support-tickets
 audit_date: '2017-05-04'
 title: Detailed permissions matrix for support tickets
 type: article

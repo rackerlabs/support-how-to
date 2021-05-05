@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-the-rackspace-mobile-application-and-managing-accounts/
+permalink: getting-started-with-the-rackspace-mobile-application-and-managing-accounts
 audit_date:
 title: Get Started with the Rackspace Mobile Application and Managing Accounts
 type: article

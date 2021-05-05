@@ -1,5 +1,5 @@
 ---
-permalink: set-up-mysql-source-replica-replication/
+permalink: set-up-mysql-source-replica-replication
 audit_date: '2019-09-06'
 title: Set up MySQL source-replica replication
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: cms-comparison-drupal-joomla-and-wordpress/
+permalink: cms-comparison-drupal-joomla-and-wordpress
 audit_date: '2018-04-23'
 title: 'CMS comparison: Drupal, Joomla, and WordPress'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cdn-object-is-not-being-cached/
+permalink: rackspace-cdn-object-is-not-being-cached
 audit_date: '2020-12-10'
 title: CDN object is not being cached
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: install-and-configure-phpmyadmin/
+permalink: install-and-configure-phpmyadmin
 audit_date: '2019-01-30'
 title: Install and configure phpMyAdmin
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: the-rackconnect-v20-api/
+permalink: the-rackconnect-v20-api
 audit_date: '2019-12-16'
 title: RackConnect v2.0 API
 type: article

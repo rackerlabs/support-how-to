@@ -1,5 +1,5 @@
 ---
-permalink: windows-os-mitigations-against-cpu-speculative-execution-vulnerabilities/
+permalink: windows-os-mitigations-against-cpu-speculative-execution-vulnerabilities
 audit_date: '2018-07-02'
 title: 'Windows OS mitigations against CPU speculative execution vulnerabilities'
 type: article

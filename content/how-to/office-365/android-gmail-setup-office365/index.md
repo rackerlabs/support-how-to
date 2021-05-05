@@ -1,5 +1,5 @@
 ---
-permalink: android-gmail-setup-office365/
+permalink: android-gmail-setup-office365
 audit_date: '2021-01-22'
 title: Set up your Microsoft 365 Exchange Online mailbox for Gmail on an Android device
 type: article

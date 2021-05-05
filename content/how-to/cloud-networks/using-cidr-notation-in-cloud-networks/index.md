@@ -1,5 +1,5 @@
 ---
-permalink: using-cidr-notation-in-cloud-networks/
+permalink: using-cidr-notation-in-cloud-networks
 audit_date: '2021-04-21'
 title: Using CIDR notation in Cloud Networks
 type: article

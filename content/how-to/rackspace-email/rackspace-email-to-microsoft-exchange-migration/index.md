@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-email-to-microsoft-exchange-migration/
+permalink: rackspace-email-to-microsoft-exchange-migration
 audit_date: '2019-10-18'
 title: Rackspace Email to Microsoft Exchange migration
 type: article

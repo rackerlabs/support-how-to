@@ -1,5 +1,5 @@
 ---
-permalink: ubuntu-904-iredmail-installation/
+permalink: ubuntu-904-iredmail-installation
 audit_date:
 title: Install iRedMail on Ubuntu 9.04
 type: article

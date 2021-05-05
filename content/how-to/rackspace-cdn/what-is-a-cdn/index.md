@@ -1,5 +1,5 @@
 ---
-permalink: what-is-a-cdn/
+permalink: what-is-a-cdn
 audit_date: '2020-12-11'
 title: CDN Concepts
 type: article

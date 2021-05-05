@@ -1,5 +1,5 @@
 ---
-permalink: set-up-and-use-sql-server-management-studio/
+permalink: set-up-and-use-sql-server-management-studio
 audit_date: '2020-09-22'
 title: Set up and use SQL Server Management Studio (SSMS)
 type: article

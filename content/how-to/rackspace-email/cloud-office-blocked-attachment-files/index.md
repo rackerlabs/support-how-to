@@ -1,5 +1,5 @@
 ---
-permalink: cloud-office-blocked-attachment-files/
+permalink: cloud-office-blocked-attachment-files
 audit_date: '2017-05-30'
 title: Cloud Office Blocked Attachment Types
 type: article

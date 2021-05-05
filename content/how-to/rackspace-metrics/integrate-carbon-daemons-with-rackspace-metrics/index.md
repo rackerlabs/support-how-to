@@ -1,5 +1,5 @@
 ---
-permalink: integrate-carbon-daemons-with-rackspace-metrics/
+permalink: integrate-carbon-daemons-with-rackspace-metrics
 title: Integrate carbon daemons with Rackspace Metrics
 type: article
 created_date: '2016-03-03'

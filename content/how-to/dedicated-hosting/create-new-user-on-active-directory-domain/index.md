@@ -1,5 +1,5 @@
 ---
-permalink: create-new-user-on-active-directory-domain/
+permalink: create-new-user-on-active-directory-domain
 audit_date: '2019-12-12'
 title: Create new user on Active Directory domain
 type: article

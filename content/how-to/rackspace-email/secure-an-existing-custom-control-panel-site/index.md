@@ -1,5 +1,5 @@
 ---
-permalink: secure-an-existing-custom-control-panel-site/
+permalink: secure-an-existing-custom-control-panel-site
 audit_date: '2018-11-13'
 title: Secure an existing custom control panel site
 type: article

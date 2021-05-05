@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-v20-compatibility/
+permalink: rackconnect-v20-compatibility
 audit_date: '2019-12-16'
 title: RackConnect v2.0 compatibility
 type: article

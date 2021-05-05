@@ -1,5 +1,5 @@
 ---
-permalink: introduction-to-mongodb/
+permalink: introduction-to-mongodb
 audit_date: '2018-03-21'
 title: 'Introduction to MongoDB'
 type: article

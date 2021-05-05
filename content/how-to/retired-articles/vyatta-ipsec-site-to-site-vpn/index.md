@@ -1,5 +1,5 @@
 ---
-permalink: vyatta-ipsec-site-to-site-vpn/
+permalink: vyatta-ipsec-site-to-site-vpn
 audit_date:
 title: Vyatta IPsec site-to-site VPN
 type: article

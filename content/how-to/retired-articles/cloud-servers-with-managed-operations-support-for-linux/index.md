@@ -1,5 +1,5 @@
 ---
-permalink: cloud-servers-with-managed-operations-support-for-linux/
+permalink: cloud-servers-with-managed-operations-support-for-linux
 audit_date: '2020-12-03'
 title: Cloud Servers with Managed Operations support for Linux
 type: article

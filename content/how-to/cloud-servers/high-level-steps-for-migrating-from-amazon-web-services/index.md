@@ -1,5 +1,5 @@
 ---
-permalink: high-level-steps-for-migrating-from-amazon-web-services/
+permalink: high-level-steps-for-migrating-from-amazon-web-services
 audit_date: '2020-09-25'
 title: High-level steps for migrating from Amazon Web Services
 type: article

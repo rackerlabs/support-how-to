@@ -1,5 +1,5 @@
 ---
-permalink: clear-keychain-access-for-mac/
+permalink: clear-keychain-access-for-mac
 audit_date: '2018-03-28'
 title: Clear Keychain Access for Mac
 type: article

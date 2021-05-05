@@ -1,5 +1,5 @@
 ---
-permalink: cloud-images-faq/
+permalink: cloud-images-faq
 audit_date: '2018-04-09'
 title: Cloud Images FAQ
 type: article

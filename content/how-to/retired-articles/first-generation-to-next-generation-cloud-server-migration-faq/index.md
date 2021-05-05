@@ -1,5 +1,5 @@
 ---
-permalink: first-generation-to-next-generation-cloud-server-migration-faq/
+permalink: first-generation-to-next-generation-cloud-server-migration-faq
 audit_date:
 title: First Generation to Next Generation cloud server migration FAQ
 type: article

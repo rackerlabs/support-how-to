@@ -1,5 +1,5 @@
 ---
-permalink: delete-vpn-user-myrackspace-portal/
+permalink: delete-vpn-user-myrackspace-portal
 audit_date: '2019-10-22'
 title: Delete a VPN user in the MyRackspace Portal
 type: article

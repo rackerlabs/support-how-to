@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-directory-sync-install-and-configure/
+permalink: rackspace-directory-sync-install-and-configure
 audit_date: '2018-11-20'
 title: 'Rackspace Directory Sync: Install and configure'
 type: article

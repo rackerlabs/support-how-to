@@ -1,5 +1,5 @@
 ---
-permalink: brocade-vyatta-vrouter-supported-actions-through-the-cloud-control-panel/
+permalink: brocade-vyatta-vrouter-supported-actions-through-the-cloud-control-panel
 audit_date:
 title: 'Brocade Vyatta vRouter: Supported actions through the Cloud Control Panel'
 type: article

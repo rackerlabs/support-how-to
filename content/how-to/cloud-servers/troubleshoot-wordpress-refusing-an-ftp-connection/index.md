@@ -1,7 +1,7 @@
 ---
-permalink: troubleshoot-wordpress-refusing-an-ftp-connection/
+permalink: troubleshoot-wordpress-refusing-an-ftp-connection
 audit_date: '2021-03-12'
-title: "Troubleshoot WordPress refusing an FTP connection"
+title: Troubleshoot WordPress refusing an FTP connection
 type: article
 created_date: '2021-02-24'
 created_by: Daniel Lopez
@@ -20,11 +20,11 @@ in this article if you get the following error:
 1. Enable `WP_DEBUG` in the **wp-config.php** file. When you insert the following code in
     **wp-config.php**, the system logs all errors, notices, and warnings to
     **wp-content/debug.log**. It also hides the errors so that they do not interrupt page generation.
-    
+
     a. Open **wp-config.php** in an editor.
-    
+
     b. Insert a new line above the line: **That's all, stop editing! Happy blogging.**
-    
+
     c. Insert the following lines where you added the new line and save the file:
 
         // Enable WP_DEBUG mode
@@ -36,7 +36,7 @@ in this article if you get the following error:
         // Disable display of errors and warnings
         define( 'WP_DEBUG_DISPLAY', false );
         @ini_set( 'display_errors', 0 );
-    
+
         // Use dev versions of core JS and CSS files (only needed if you are modifying these core files)
         define( 'SCRIPT_DEBUG', true );
 
@@ -46,9 +46,9 @@ in this article if you get the following error:
 5. Add your FTP details in **wp-config.php**.
 
     a. Open **wp-config.php** in an editor.
-    
+
     b. Insert a new line above the line: **That's all, stop editing! Happy blogging.**
-    
+
     c. Insert the following lines where you added the new line and save the file:
 
         define( 'FS_METHOD', 'ftpext' );

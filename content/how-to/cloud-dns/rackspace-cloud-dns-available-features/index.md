@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-dns-available-features/
+permalink: rackspace-cloud-dns-available-features
 audit_date: '2018-05-15'
 title: Rackspace Cloud DNS available features
 type: article

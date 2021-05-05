@@ -1,5 +1,5 @@
 ---
-permalink: updating-servicenet-routes-on-cloud-servers/
+permalink: updating-servicenet-routes-on-cloud-servers
 audit_date: '2018-07-11'
 title: 'Update ServiceNet routes on cloud servers'
 type: article

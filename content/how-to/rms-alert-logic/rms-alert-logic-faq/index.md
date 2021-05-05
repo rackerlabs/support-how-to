@@ -1,5 +1,5 @@
 ---
-permalink: rms-alert-logic-faq/
+permalink: rms-alert-logic-faq
 title: Alert Logic Security Solutions FAQ
 type: faq
 audit_date: '2020-02-03'

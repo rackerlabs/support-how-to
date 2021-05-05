@@ -1,5 +1,5 @@
 ---
-permalink: how-to-run-chkdsk-in-windows/
+permalink: how-to-run-chkdsk-in-windows
 audit_date: '2020-04-17'
 title: 'How to run chkdsk in Windows'
 type: article

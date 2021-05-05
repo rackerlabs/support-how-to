@@ -1,5 +1,5 @@
 ---
-permalink: domains-cloud-office-control-panel/
+permalink: domains-cloud-office-control-panel
 audit_date: '2021-02-03'
 title: Domains in the Cloud Office Control Panel
 type: article

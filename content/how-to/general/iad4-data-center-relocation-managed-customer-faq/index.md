@@ -1,5 +1,5 @@
 ---
-permalink: iad4-data-center-relocation-managed-customer-faq/
+permalink: iad4-data-center-relocation-managed-customer-faq
 audit_date: '2020-06-24'
 title: IAD4 data center relocation managed customer FAQ
 type: article

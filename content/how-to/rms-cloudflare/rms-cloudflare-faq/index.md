@@ -1,5 +1,5 @@
 ---
-permalink: rms-cloudflare-faq/
+permalink: rms-cloudflare-faq
 title: Cloudflare with Rackspace Managed Services FAQ
 type: faq
 audit_date: '2020-06-11'

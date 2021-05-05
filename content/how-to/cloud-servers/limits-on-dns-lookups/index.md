@@ -1,5 +1,5 @@
 ---
-permalink: limits-on-dns-lookups/
+permalink: limits-on-dns-lookups
 audit_date:
 title: Limits on DNS lookups
 type: article

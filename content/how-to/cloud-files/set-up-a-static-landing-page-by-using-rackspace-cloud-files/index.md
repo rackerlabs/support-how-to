@@ -1,5 +1,5 @@
 ---
-permalink: set-up-a-static-landing-page-by-using-rackspace-cloud-files/
+permalink: set-up-a-static-landing-page-by-using-rackspace-cloud-files
 audit_date: '2019-01-18'
 title: Set up a static landing page by using Rackspace Cloud Files
 type: article

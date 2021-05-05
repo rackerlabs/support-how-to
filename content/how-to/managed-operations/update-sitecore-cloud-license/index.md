@@ -1,5 +1,5 @@
 ---
-permalink: update-sitecore-cloud-license/
+permalink: update-sitecore-cloud-license
 audit_date: '2017-08-17'
 title: Update a Sitecore Cloud license
 type: article

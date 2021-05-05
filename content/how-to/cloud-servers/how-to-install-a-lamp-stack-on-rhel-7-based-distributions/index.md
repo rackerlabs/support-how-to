@@ -1,5 +1,5 @@
 ---
-permalink: how-to-install-a-lamp-stack-on-rhel-7-based-distributions/
+permalink: how-to-install-a-lamp-stack-on-rhel-7-based-distributions
 audit_date: '2020-03-10'
 title: 'Install a LAMP stack on RHEL 7 based distributions'
 type: article

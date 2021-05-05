@@ -1,5 +1,5 @@
 ---
-permalink: configure-cloud-feeds-archiving-in-the-cloud-control-panel/
+permalink: configure-cloud-feeds-archiving-in-the-cloud-control-panel
 audit_date:
 title: Configure Cloud Feeds archiving in the Cloud Control Panel
 type: article

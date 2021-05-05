@@ -1,5 +1,5 @@
 ---
-permalink: export-email-address-data-from-outlook-2011-for-mac/
+permalink: export-email-address-data-from-outlook-2011-for-mac
 audit_date: '2017-10-11'
 title: Export email address data from Outlook 2011 for Mac
 type: article

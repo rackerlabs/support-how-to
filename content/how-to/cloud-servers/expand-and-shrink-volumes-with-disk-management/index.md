@@ -1,5 +1,5 @@
 ---
-permalink: expand-and-shrink-volumes-with-disk-management/
+permalink: expand-and-shrink-volumes-with-disk-management
 audit_date: '2020-04-14'
 title: 'Expand and shrink volumes with Disk Management'
 type: article

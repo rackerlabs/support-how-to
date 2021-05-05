@@ -1,5 +1,5 @@
 ---
-permalink: understanding-logrotate-utility/
+permalink: understanding-logrotate-utility
 audit_date: '2016-06-29'
 title: Understanding logrotate utility
 type: article

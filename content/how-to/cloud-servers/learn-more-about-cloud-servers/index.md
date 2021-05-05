@@ -1,5 +1,5 @@
 ---
-permalink: learn-more-about-cloud-servers/
+permalink: learn-more-about-cloud-servers
 audit_date: '2020-10-16'
 title: Learn more about Cloud Servers
 type: article

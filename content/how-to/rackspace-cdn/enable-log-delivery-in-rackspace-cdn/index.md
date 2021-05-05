@@ -1,5 +1,5 @@
 ---
-permalink: enable-log-delivery-in-rackspace-cdn/
+permalink: enable-log-delivery-in-rackspace-cdn
 audit_date: '2020-12-19'
 title: Enable log delivery in Rackspace CDN
 type: article

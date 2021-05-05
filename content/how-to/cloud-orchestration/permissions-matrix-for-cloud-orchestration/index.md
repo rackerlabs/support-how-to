@@ -1,5 +1,5 @@
 ---
-permalink: permissions-matrix-for-cloud-orchestration/
+permalink: permissions-matrix-for-cloud-orchestration
 audit_date: '2017-01-20'
 title: Permissions matrix for Cloud Orchestration
 type: article

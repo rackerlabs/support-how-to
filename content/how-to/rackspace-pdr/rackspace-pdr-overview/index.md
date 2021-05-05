@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-pdr-overview/
+permalink: rackspace-pdr-overview
 title: Rackspace PDR overview
 type: article
 audit_date: '2020-03-24'

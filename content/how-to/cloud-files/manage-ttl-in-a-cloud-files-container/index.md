@@ -1,5 +1,5 @@
 ---
-permalink: manage-ttl-in-a-cloud-files-container/
+permalink: manage-ttl-in-a-cloud-files-container
 audit_date: '2019-03-06'
 title: Manage Time to Live (TTL) in a Cloud Files container
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: use-iptables-with-centos-7/
+permalink: use-iptables-with-centos-7
 audit_date: '2019-01-16'
 title: Use iptables with CentOS 7
 type: article

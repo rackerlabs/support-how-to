@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-windows-high-cpu-usage/
+permalink: troubleshoot-windows-high-cpu-usage
 audit_date: '2020-10-23'
 title: Troubleshoot high CPU usage on Windows Server
 type: article

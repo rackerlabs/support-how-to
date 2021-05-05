@@ -1,5 +1,5 @@
 ---
-permalink: set-access-rules-for-archive-end-users/
+permalink: set-access-rules-for-archive-end-users
 audit_date: '2018-04-06'
 title: Set access rules for archive users
 type: article

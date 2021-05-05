@@ -1,5 +1,5 @@
 ---
-permalink: using-python-novaclient-with-the-rackspace-cloud/
+permalink: using-python-novaclient-with-the-rackspace-cloud
 audit_date: '2018-10-25'
 title: Using the python-novaclient with Rackspace Cloud Servers
 type: article

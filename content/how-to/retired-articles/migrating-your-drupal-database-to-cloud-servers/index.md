@@ -1,5 +1,5 @@
 ---
-permalink: migrating-your-drupal-database-to-cloud-servers/
+permalink: migrating-your-drupal-database-to-cloud-servers
 audit_date:
 title: Migrate your Drupal database to Cloud Servers
 type: article

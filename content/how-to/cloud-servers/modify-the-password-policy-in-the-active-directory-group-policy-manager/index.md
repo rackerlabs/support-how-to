@@ -1,5 +1,5 @@
 ---
-permalink: modify-the-password-policy-in-the-active-directory-group-policy-manager/
+permalink: modify-the-password-policy-in-the-active-directory-group-policy-manager
 audit_date: '2020-06-15'
 title: 'Modify the password policy in the Windows Active Directory Group Policy Manager'
 type: article

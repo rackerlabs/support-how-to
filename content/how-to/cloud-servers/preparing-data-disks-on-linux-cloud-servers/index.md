@@ -1,5 +1,5 @@
 ---
-permalink: preparing-data-disks-on-linux-cloud-servers/
+permalink: preparing-data-disks-on-linux-cloud-servers
 audit_date: '2019-03-01'
 title: Prepare data disks on Linux Cloud Servers
 type: article

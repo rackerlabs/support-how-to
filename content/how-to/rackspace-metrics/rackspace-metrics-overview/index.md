@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-metrics-overview/
+permalink: rackspace-metrics-overview
 audit_date: '2018-10-12'
 title: Rackspace Metrics overview
 type: article

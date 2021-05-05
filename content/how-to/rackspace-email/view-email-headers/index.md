@@ -1,5 +1,5 @@
 ---
-permalink: view-email-headers/
+permalink: view-email-headers
 audit_date: '2020-10-23'
 title: View Email Headers
 type: article

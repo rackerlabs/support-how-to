@@ -1,5 +1,5 @@
 ---
-permalink: use-cdn-access-control-to-set-up-your-origin/
+permalink: use-cdn-access-control-to-set-up-your-origin
 audit_date: '2019-01-22'
 title: Use CDN access control to set up your origin
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: determine-if-your-server-is-a-first-generation-cloud-server/
+permalink: determine-if-your-server-is-a-first-generation-cloud-server
 audit_date:
 title: Determine if your server is a First Generation cloud server
 type: article

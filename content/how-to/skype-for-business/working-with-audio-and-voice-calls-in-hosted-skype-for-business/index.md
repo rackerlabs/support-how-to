@@ -1,5 +1,5 @@
 ---
-permalink: working-with-audio-and-voice-calls-in-hosted-skype-for-business/
+permalink: working-with-audio-and-voice-calls-in-hosted-skype-for-business
 audit_date: '2019-03-15'
 title: Work with audio and voice calls in Hosted Skype for Business
 type: article

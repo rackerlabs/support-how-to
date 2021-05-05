@@ -1,5 +1,5 @@
 ---
-permalink: use-cloud-backup-to-recover-from-a-bad-actor-attack/
+permalink: use-cloud-backup-to-recover-from-a-bad-actor-attack
 audit_date: '2019-09-09'
 title: 'Use Cloud Backup to recover from a Bad Actor attack'
 type: article

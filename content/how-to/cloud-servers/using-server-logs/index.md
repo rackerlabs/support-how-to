@@ -1,5 +1,5 @@
 ---
-permalink: using-server-logs/
+permalink: using-server-logs
 audit_date: '2018-08-28'
 title: Using server logs
 type: article

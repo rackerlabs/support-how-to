@@ -1,5 +1,5 @@
 ---
-permalink: clear-your-sitecore-caches/
+permalink: clear-your-sitecore-caches
 audit_date: '2017-06-06'
 title: Clear your Sitecore caches
 type: article

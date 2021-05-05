@@ -1,11 +1,11 @@
 ---
-permalink: dfs-replication-installation/
-audit_date: '2020-01-25'
+permalink: dfs-replication-installation
+audit_date: '2021-01-25'
 title: DFS replication installation
 type: article
-created_date: '2020-01-19'
+created_date: '2021-01-19'
 created_by: Steven Mondragon-DeVoss
-last_modified_date: '2020-01-25'
+last_modified_date: '2021-01-25'
 last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
@@ -71,7 +71,7 @@ within the Server Manager and the PowerShell&reg; method.
         Install-WindowsFeature "FS-DFS-Replication"
 
 - Install the DFS Management console:
-  
+
         Install-WindowsFeature "RSAT-DFS-Mgmt-Con"
 
 - Install the DFS role and the DFS Management console at the same time:

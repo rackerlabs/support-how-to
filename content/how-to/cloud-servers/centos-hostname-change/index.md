@@ -1,5 +1,5 @@
 ---
-permalink: centos-hostname-change/
+permalink: centos-hostname-change
 audit_date: '2019-01-07'
 title: Change a server's hostname in CentOS
 type: article

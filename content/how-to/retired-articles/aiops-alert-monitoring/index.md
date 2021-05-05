@@ -1,5 +1,5 @@
 ---
-permalink: aiops-alert-monitoring/
+permalink: aiops-alert-monitoring
 audit_date: '2020-04-10'
 title: AIOps alert monitoring
 type: article

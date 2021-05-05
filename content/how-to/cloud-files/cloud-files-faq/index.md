@@ -1,5 +1,5 @@
 ---
-permalink: cloud-files-faq/
+permalink: cloud-files-faq
 audit_date:
 title: Cloud Files - FAQs
 type: article

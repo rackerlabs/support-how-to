@@ -1,5 +1,5 @@
 ---
-permalink: create-an-image-of-a-server-and-restore-a-server-from-a-saved-image/
+permalink: create-an-image-of-a-server-and-restore-a-server-from-a-saved-image
 audit_date: '2018-10-25'
 title: Create an image of a server and restore a server from a saved image
 type: article

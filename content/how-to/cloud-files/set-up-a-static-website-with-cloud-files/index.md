@@ -1,5 +1,5 @@
 ---
-permalink: set-up-a-static-website-with-cloud-files/
+permalink: set-up-a-static-website-with-cloud-files
 audit_date: '2021-04-05'
 title: Set up a static website with Cloud Files
 type: article

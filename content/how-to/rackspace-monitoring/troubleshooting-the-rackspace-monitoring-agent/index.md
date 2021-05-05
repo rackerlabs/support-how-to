@@ -1,5 +1,5 @@
 ---
-permalink: troubleshooting-the-rackspace-monitoring-agent/
+permalink: troubleshooting-the-rackspace-monitoring-agent
 audit_date: '2020-12-02'
 title: Troubleshoot the Rackspace Monitoring Agent
 type: article

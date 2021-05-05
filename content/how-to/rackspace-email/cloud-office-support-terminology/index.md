@@ -1,5 +1,5 @@
 ---
-permalink: cloud-office-support-terminology/
+permalink: cloud-office-support-terminology
 audit_date: '2017-05-31'
 title: Cloud Office support terminology
 type: article

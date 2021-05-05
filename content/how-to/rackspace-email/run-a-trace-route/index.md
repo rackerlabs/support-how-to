@@ -1,5 +1,5 @@
 ---
-permalink: run-a-trace-route/
+permalink: run-a-trace-route
 audit_date: '2018-02-07'
 title: Run a trace route
 type: article

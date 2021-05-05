@@ -1,5 +1,5 @@
 ---
-permalink: basic-settings-in-the-postfix-maincf-file/
+permalink: basic-settings-in-the-postfix-maincf-file
 audit_date: '2018-01-16'
 title: Basic settings in the Postfix main.cf file
 type: article

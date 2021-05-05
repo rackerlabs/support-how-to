@@ -1,5 +1,5 @@
 ---
-permalink: integrate-email-archiving-with-outlook/
+permalink: integrate-email-archiving-with-outlook
 audit_date: '2018-04-02'
 title: Integrate Email Archiving with Outlook
 type: article

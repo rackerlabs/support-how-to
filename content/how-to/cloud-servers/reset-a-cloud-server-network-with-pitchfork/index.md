@@ -1,5 +1,5 @@
 ---
-permalink: reset-a-cloud-server-network-with-pitchfork/
+permalink: reset-a-cloud-server-network-with-pitchfork
 audit_date: '2020-04-30'
 title: 'Reset a Cloud Server network with Pitchfork'
 type: article

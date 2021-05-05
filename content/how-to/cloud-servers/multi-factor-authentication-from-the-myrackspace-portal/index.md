@@ -1,5 +1,5 @@
 ---
-permalink: multi-factor-authentication-from-the-myrackspace-portal/
+permalink: multi-factor-authentication-from-the-myrackspace-portal
 audit_date: '2020-10-27'
 title: Multi-factor authentication from the MyRackspace Portal
 type: article

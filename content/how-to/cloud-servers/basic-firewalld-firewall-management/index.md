@@ -1,5 +1,5 @@
 ---
-permalink: basic-firewalld-firewall-management/
+permalink: basic-firewalld-firewall-management
 audit_date: '2020-06-10'
 title: 'Basic firewalld firewall management'
 type: article

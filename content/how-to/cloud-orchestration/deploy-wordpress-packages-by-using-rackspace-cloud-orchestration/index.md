@@ -1,5 +1,5 @@
 ---
-permalink: deploy-wordpress-packages-by-using-rackspace-cloud-orchestration/
+permalink: deploy-wordpress-packages-by-using-rackspace-cloud-orchestration
 audit_date: '2017-11-20'
 title: Deploy WordPress by using Rackspace Cloud Orchestration
 type: article

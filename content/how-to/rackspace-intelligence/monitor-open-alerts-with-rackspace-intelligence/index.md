@@ -1,5 +1,5 @@
 ---
-permalink: monitor-open-alerts-with-rackspace-intelligence/
+permalink: monitor-open-alerts-with-rackspace-intelligence
 audit_date: '2021-02-25'
 title: Monitor open alerts with Rackspace Intelligence
 type: article

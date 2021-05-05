@@ -1,5 +1,5 @@
 ---
-permalink: use-simple-email-setup-to-configure-ios-devices-for-email-hosted-on-exchange-2010/
+permalink: use-simple-email-setup-to-configure-ios-devices-for-email-hosted-on-exchange-2010
 audit_date: '2020-11-09'
 title: 'Use simple email setup to configure iOS devices for email hosted on Exchange 2010'
 type: article

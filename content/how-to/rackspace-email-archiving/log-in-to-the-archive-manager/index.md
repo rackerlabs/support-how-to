@@ -1,5 +1,5 @@
 ---
-permalink: log-in-to-the-archive-manager/
+permalink: log-in-to-the-archive-manager
 audit_date: '2018-03-28'
 title: Log in to the Archive Manager
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: create-a-chroot-jail/
+permalink: create-a-chroot-jail
 audit_date: '2019-01-31'
 title: Create a chroot jail
 type: article

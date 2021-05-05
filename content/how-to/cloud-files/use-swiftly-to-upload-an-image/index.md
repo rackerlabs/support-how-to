@@ -1,5 +1,5 @@
 ---
-permalink: use-swiftly-to-upload-an-image/
+permalink: use-swiftly-to-upload-an-image
 audit_date: '2021-04-05'
 title: Use Swiftly to upload an image
 type: article

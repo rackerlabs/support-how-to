@@ -1,5 +1,5 @@
 ---
-permalink: adding-a-managed-operations-service-level-to-your-cloud-account/
+permalink: adding-a-managed-operations-service-level-to-your-cloud-account
 audit_date: '2018-09-10'
 title: Add a managed operations service level to your cloud account
 type: article

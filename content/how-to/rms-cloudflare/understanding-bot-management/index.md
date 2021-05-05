@@ -1,5 +1,5 @@
 ---
-permalink: understanding-bot-management/
+permalink: understanding-bot-management
 title: 'Understanding bot management'
 type: article
 audit_date: '2020-06-11'

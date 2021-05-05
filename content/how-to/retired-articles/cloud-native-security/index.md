@@ -1,5 +1,5 @@
 ---
-permalink: cloud-native-security/
+permalink: cloud-native-security
 audit_date: '2019-08-28'
 title: Rackspace Cloud Native Security
 type: article

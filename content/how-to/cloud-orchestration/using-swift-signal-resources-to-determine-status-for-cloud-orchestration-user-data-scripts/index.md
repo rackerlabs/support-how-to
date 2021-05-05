@@ -1,5 +1,5 @@
 ---
-permalink: using-swift-signal-resources-to-determine-status-for-cloud-orchestration-user-data-scripts/
+permalink: using-swift-signal-resources-to-determine-status-for-cloud-orchestration-user-data-scripts
 audit_date: '2018-04-27'
 title: Use Swift signal resources with Cloud Orchestration user data scripts
 type: article

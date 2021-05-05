@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-rackspace-intelligence-for-dedicated-accounts/
+permalink: getting-started-with-rackspace-intelligence-for-dedicated-accounts
 audit_date: '2018-10-24'
 title: Getting started with Rackspace Intelligence for dedicated accounts
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: transfer-domain-registration/
+permalink: transfer-domain-registration
 audit_date: '2019-04-15'
 title: Transfer domain registration
 type: article

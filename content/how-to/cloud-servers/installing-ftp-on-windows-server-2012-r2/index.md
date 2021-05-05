@@ -1,5 +1,5 @@
 ---
-permalink: installing-ftp-on-windows-server-2012-r2/
+permalink: installing-ftp-on-windows-server-2012-r2
 audit_date: '2020-10-16'
 title: Install FTP on Windows Server 2012 (R2)
 type: article

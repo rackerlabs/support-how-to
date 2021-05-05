@@ -1,5 +1,5 @@
 ---
-permalink: create-a-support-ticket-in-the-cloud-control-panel/
+permalink: create-a-support-ticket-in-the-cloud-control-panel
 audit_date: '2018-10-24'
 title: Create a support ticket in the Cloud Control Panel
 type: article

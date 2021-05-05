@@ -1,5 +1,5 @@
 ---
-permalink: migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services/
+permalink: migrating-an-application-built-on-a-lamp-stack-from-amazon-web-services
 audit_date:
 title: Migrate an application built on a LAMP stack from Amazon Web Services
 type: article

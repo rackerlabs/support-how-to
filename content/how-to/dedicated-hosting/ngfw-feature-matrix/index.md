@@ -1,5 +1,5 @@
 ---
-permalink: ngfw-feature-matrix/
+permalink: ngfw-feature-matrix
 audit_date: '2020-03-12'
 title: NGFW Feature Matrix
 type: article

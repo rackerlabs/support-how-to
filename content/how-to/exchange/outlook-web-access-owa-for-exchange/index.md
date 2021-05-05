@@ -1,5 +1,5 @@
 ---
-permalink: outlook-web-access-owa-for-exchange/
+permalink: outlook-web-access-owa-for-exchange
 audit_date: '2016-07-18'
 title: 'Outlook Web Access for Exchange'
 type: article

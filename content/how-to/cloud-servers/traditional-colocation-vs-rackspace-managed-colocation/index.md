@@ -1,5 +1,5 @@
 ---
-permalink: traditional-colocation-vs-rackspace-managed-colocation/
+permalink: traditional-colocation-vs-rackspace-managed-colocation
 audit_date: '2017-11-04'
 title: Traditional colocation vs. Rackspace Managed Colocation
 type: article

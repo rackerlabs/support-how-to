@@ -1,5 +1,5 @@
 ---
-permalink: check-for-a-security-compromise-back-doors-and-intruders/
+permalink: check-for-a-security-compromise-back-doors-and-intruders
 audit_date: '2018-11-06'
 title: 'Check for a security compromise: back doors and intruders'
 type: article

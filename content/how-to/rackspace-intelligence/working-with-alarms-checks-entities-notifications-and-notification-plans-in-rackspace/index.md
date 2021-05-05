@@ -1,5 +1,5 @@
 ---
-permalink: working-with-alarms-checks-entities-notifications-and-notification-plans-in-rackspace/
+permalink: working-with-alarms-checks-entities-notifications-and-notification-plans-in-rackspace
 audit_date: '2021-03-01'
 title: 'Work with alarms, checks, entities, notifications, and notification plans in Rackspace Intelligence for dedicated accounts'
 type: article

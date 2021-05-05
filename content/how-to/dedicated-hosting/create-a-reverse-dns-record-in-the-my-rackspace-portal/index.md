@@ -1,5 +1,5 @@
 ---
-permalink: create-a-reverse-dns-record-in-the-my-rackspace-portal/
+permalink: create-a-reverse-dns-record-in-the-my-rackspace-portal
 audit_date: '2020-07-27'
 title: 'Create a reverse DNS record in the My Rackspace Portal'
 type: article

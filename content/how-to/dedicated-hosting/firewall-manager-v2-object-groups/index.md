@@ -1,5 +1,5 @@
 ---
-permalink: firewall-manager-v2-object-groups/
+permalink: firewall-manager-v2-object-groups
 audit_date: '2018-07-12'
 title: Firewall Manager v2 object-groups
 type: article

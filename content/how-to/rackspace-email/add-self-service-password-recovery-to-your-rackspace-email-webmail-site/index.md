@@ -1,5 +1,5 @@
 ---
-permalink: add-self-service-password-recovery-to-your-rackspace-email-webmail-site/
+permalink: add-self-service-password-recovery-to-your-rackspace-email-webmail-site
 audit_date: '2021-03-01'
 title: Add self-service password recovery to your Rackspace Email Webmail site
 type: article

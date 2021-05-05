@@ -1,5 +1,5 @@
 ---
-permalink: updating-password-authentication-method-on-your-ios-device/
+permalink: updating-password-authentication-method-on-your-ios-device
 audit_date:
 title: Update the password authentication method for your iOS device
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: deleting-and-resending-blackberry-service-books-bes/
+permalink: deleting-and-resending-blackberry-service-books-bes
 audit_date:
 title: Delete and resend BlackBerry&reg; Service Books - (BES)
 type: article

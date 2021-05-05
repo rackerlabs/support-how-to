@@ -1,5 +1,5 @@
 ---
-permalink: detailed-permissions-matrix-for-billing-services/
+permalink: detailed-permissions-matrix-for-billing-services
 audit_date: '2018-02-12'
 title: Detailed permissions matrix for billing and payment services
 type: article

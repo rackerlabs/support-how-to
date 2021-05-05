@@ -1,5 +1,5 @@
 ---
-permalink: disable-maintenance-mode-in-magento/
+permalink: disable-maintenance-mode-in-magento
 audit_date: '2020-09-21'
 title: Disable maintenance mode in Magento
 type: article

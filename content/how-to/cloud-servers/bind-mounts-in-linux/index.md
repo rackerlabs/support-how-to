@@ -1,5 +1,5 @@
 ---
-permalink: bind-mounts-in-linux/
+permalink: bind-mounts-in-linux
 audit_date: '2019-02-05'
 title: Bind mounts in Linux
 type: article

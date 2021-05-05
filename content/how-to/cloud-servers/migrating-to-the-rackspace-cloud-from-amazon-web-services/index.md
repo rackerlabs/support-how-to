@@ -1,5 +1,5 @@
 ---
-permalink: migrating-to-the-rackspace-cloud-from-amazon-web-services/
+permalink: migrating-to-the-rackspace-cloud-from-amazon-web-services
 audit_date: '2018-10-05'
 title: Migrate to the Rackspace Cloud from Amazon Web Services
 type: article

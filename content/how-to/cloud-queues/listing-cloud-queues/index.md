@@ -1,5 +1,5 @@
 ---
-permalink: listing-cloud-queues/
+permalink: listing-cloud-queues
 audit_date:
 title: List Cloud Queues
 type: article

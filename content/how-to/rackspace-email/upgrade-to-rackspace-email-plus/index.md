@@ -1,5 +1,5 @@
 ---
-permalink: upgrade-to-rackspace-email-plus/
+permalink: upgrade-to-rackspace-email-plus
 audit_date: '2017-07-21'
 title: Upgrade to Rackspace Email Plus
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: myrackspace-login-and-username-updates/
+permalink: myrackspace-login-and-username-updates
 audit_date: '2018-10-19'
 title: MyRackspace login and username updates
 type: article

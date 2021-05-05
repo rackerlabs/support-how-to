@@ -1,5 +1,5 @@
 ---
-permalink: mysql-event-scheduler/
+permalink: mysql-event-scheduler
 audit_date: '2021-03-09'
 title: MySQL Event Scheduler
 type: article

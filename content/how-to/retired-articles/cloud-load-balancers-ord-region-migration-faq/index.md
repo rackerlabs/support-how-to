@@ -1,5 +1,5 @@
 ---
-permalink: cloud-load-balancers-ord-region-migration-faq/
+permalink: cloud-load-balancers-ord-region-migration-faq
 audit_date:
 title: Cloud Load Balancers ORD region migration FAQ
 type: article

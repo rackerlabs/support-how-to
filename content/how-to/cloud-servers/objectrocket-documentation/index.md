@@ -1,5 +1,5 @@
 ---
-permalink: objectrocket-documentation/
+permalink: objectrocket-documentation
 audit_date: '2016-11-01'
 title: ObjectRocket documentation
 type: article

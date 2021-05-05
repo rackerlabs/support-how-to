@@ -1,5 +1,5 @@
 ---
-permalink: permissions-matrix-for-next-generation-cloud-servers/
+permalink: permissions-matrix-for-next-generation-cloud-servers
 audit_date: '2016-12-06'
 title: Permissions matrix for Cloud Servers
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-cloud-backup-on-linux-servers/
+permalink: troubleshoot-cloud-backup-on-linux-servers
 audit_date: '2018-10-25'
 type: article
 title: Troubleshoot Cloud Backup on Linux servers

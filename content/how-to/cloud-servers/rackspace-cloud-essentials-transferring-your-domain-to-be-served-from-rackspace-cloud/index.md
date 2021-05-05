@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-essentials-transferring-your-domain-to-be-served-from-rackspace-cloud/
+permalink: rackspace-cloud-essentials-transferring-your-domain-to-be-served-from-rackspace-cloud
 audit_date: '2018-09-18'
 title: Rackspace Cloud Essentials - Enable your domain to be served from Rackspace Cloud
 type: article

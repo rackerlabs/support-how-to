@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-v30-cloud-server-image-compatibility/
+permalink: rackconnect-v30-cloud-server-image-compatibility
 audit_date: '2019-12-16'
 title: RackConnect v3.0 Cloud Servers image compatibility
 type: article

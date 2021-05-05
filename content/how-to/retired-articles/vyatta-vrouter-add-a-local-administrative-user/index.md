@@ -1,5 +1,5 @@
 ---
-permalink: vyatta-vrouter-add-a-local-administrative-user/
+permalink: vyatta-vrouter-add-a-local-administrative-user
 audit_date:
 title: 'Vyatta vRouter: Add a local administrative user'
 type: article

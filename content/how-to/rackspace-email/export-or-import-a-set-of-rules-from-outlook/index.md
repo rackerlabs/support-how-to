@@ -1,5 +1,5 @@
 ---
-permalink: export-or-import-a-set-of-rules-from-outlook/
+permalink: export-or-import-a-set-of-rules-from-outlook
 audit_date: '2019-05-13'
 title: Export or import a set of rules from Outlook
 type: article

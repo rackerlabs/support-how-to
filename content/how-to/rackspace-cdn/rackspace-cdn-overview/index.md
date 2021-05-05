@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cdn-overview/
+permalink: rackspace-cdn-overview
 audit_date: '2020-12-10'
 title: Rackspace CDN overview
 type: article

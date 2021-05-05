@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-faq/
+permalink: rackconnect-faq
 audit_date: '2019-12-16'
 title: RackConnect FAQ
 type: article

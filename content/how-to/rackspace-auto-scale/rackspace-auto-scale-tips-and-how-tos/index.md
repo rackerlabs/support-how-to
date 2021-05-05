@@ -1,7 +1,7 @@
 ---
-permalink: rackspace-auto-scale-tips-and-how-tos/
+permalink: rackspace-auto-scale-tips-and-how-tos
 audit_date: '2020-09-28'
-title: "Rackspace Auto Scale tips and how-to's"
+title: Rackspace Auto Scale tips and how-tos
 type: article
 created_date: '2014-01-14'
 created_by: Maria Abrahms
@@ -79,9 +79,9 @@ capacity of five servers and a cooldown of three minutes, and then create a webh
 named *Rackspace Monitoring*. In steps 3, 4, and 5, you use the Rackspace
 Monitoring API to do the following tasks:
 
-- Create a notification by using the webhook URL created in step 2 
+- Create a notification by using the webhook URL created in step 2
 - Create a notification plan by using the webhook ID created in step 3
-- Create an alarm that uses the notification plan created in step 4. 
+- Create an alarm that uses the notification plan created in step 4.
 
 You can do steps 3-5 through the [Rackspace Intelligence](https://intelligence.rackspace.com/) UI.
 

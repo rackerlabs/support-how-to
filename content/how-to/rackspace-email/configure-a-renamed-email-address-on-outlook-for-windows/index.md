@@ -1,5 +1,5 @@
 ---
-permalink: configure-a-renamed-email-address-on-outlook-for-windows/
+permalink: configure-a-renamed-email-address-on-outlook-for-windows
 audit_date: '2017-09-18'
 title: Configure a renamed email address on Outlook for Windows
 type: article

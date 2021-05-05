@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation/
+permalink: rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation
 audit_date: '2020-10-19'
 title: Install the Cloud Backup agent on Windows by using silent installation
 type: article

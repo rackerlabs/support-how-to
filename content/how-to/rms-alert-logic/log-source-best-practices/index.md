@@ -1,5 +1,5 @@
 ---
-permalink: log-source-best-practices/
+permalink: log-source-best-practices
 title: Log source best practices
 type: article
 audit_date: '2020-02-03'

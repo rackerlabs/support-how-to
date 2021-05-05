@@ -1,5 +1,5 @@
 ---
-permalink: rescue-mode/
+permalink: rescue-mode
 audit_date: '2018-10-12'
 title: Rescue mode
 type: article

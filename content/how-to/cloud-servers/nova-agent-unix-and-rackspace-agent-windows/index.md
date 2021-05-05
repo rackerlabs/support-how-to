@@ -1,5 +1,5 @@
 ---
-permalink: nova-agent-unix-and-rackspace-agent-windows/
+permalink: nova-agent-unix-and-rackspace-agent-windows
 audit_date: '2020-05-05'
 title: Nova-agent (Linux) and Rackspace agent (Windows)
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: enable-or-disable-logging-in-rackspace-cdn/
+permalink: enable-or-disable-logging-in-rackspace-cdn
 audit_date: '2020-12-10'
 title: Enable or disable logging in Rackspace CDN
 type: article

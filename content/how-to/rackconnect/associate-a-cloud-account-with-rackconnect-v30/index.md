@@ -1,5 +1,5 @@
 ---
-permalink: associate-a-cloud-account-with-rackconnect-v30/
+permalink: associate-a-cloud-account-with-rackconnect-v30
 audit_date: '2019-10-04'
 title: Associate a cloud account with RackConnect v3.0
 type: article

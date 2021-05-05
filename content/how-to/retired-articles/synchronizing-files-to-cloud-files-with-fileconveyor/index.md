@@ -1,6 +1,6 @@
 <!---
 ---
-permalink: synchronizing-files-to-cloud-files-with-fileconveyor/
+permalink: synchronizing-files-to-cloud-files-with-fileconveyor
 audit_date:
 title: Synchronize files to Cloud Files with File Conveyor
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: create-an-isolated-cloud-network-and-attach-it-to-a-server/
+permalink: create-an-isolated-cloud-network-and-attach-it-to-a-server
 audit_date: '2021-04-08'
 title: Create an isolated Cloud Network and attach it to a server
 type: article

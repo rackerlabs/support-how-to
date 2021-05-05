@@ -1,5 +1,5 @@
 ---
-permalink: sql-server-tips-and-tricks/
+permalink: sql-server-tips-and-tricks
 audit_date: '2018-03-31'
 title: SQL Server tips and tricks
 type: article

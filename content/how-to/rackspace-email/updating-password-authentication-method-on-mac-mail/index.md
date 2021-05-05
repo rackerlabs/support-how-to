@@ -1,5 +1,5 @@
 ---
-permalink: updating-password-authentication-method-on-mac-mail/
+permalink: updating-password-authentication-method-on-mac-mail
 audit_date:
 title: Update the password authentication method for Mac Mail
 type: article

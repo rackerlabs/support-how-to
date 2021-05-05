@@ -1,5 +1,5 @@
 ---
-permalink: how-to-resolve-mysql-service-starting-and-stopping-unexpectedly/
+permalink: how-to-resolve-mysql-service-starting-and-stopping-unexpectedly
 audit_date: '2021-03-11'
 title: How to resolve MySQL service starting and stopping unexpectedly
 type: article

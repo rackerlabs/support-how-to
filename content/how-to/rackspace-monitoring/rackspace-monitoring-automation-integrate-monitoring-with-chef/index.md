@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-monitoring-automation-integrate-monitoring-with-chef/
+permalink: rackspace-monitoring-automation-integrate-monitoring-with-chef
 audit_date: '2020-11-30'
 title: Rackspace Monitoring Automation&mdash;Integrate monitoring with Chef
 type: article
