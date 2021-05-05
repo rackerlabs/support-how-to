@@ -1,18 +1,18 @@
 ---
 permalink: getting-started-with-role-based-access-control-rbac
-audit_date:
+audit_date: '2021-05-05'
 title: Getting started with Role-Based Access Control (RBAC)
 type: article
 created_date: '2013-07-15'
 created_by: Renee Rendon
-last_modified_date: '2018-12-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-05-05'
+last_modified_by: Carlos Arriaga
 product: Account Management
 product_url: account-management
 ---
 
-This guide is designed to get administrators started with
-Role-Based Access Control (RBAC) and to answer questions about the
+This guide will help administrators get started with
+Role-Based Access Control (RBAC) and will answer questions about the
 service.
 
 ### Overview
@@ -56,3 +56,6 @@ service.
 ### Next section
 
 [Learning about Role Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac)
+
+Use the Feedback tab to make any comments or ask questions. You can also click **Let's Talk**
+to [start the conversation](https://www.rackspace.com/). 
