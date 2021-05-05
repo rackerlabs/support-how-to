@@ -23,7 +23,8 @@ system.
 - Basic understanding of Secure Shell (SSH).
 - Administrative access to your server by using the `sudo` command.
 
-**NOTE**: These steps are for servers that are not RackConnect&reg; cloud servers. For RackConnect, make changes in the dedicated firewall. 
+**NOTE**: These steps are for servers that are not RackConnect&reg; cloud servers.
+          For RackConnect, make changes in the dedicated firewall. 
 
 Log on to the server by using SSH and then complete the steps in the following sections.
 
@@ -56,18 +57,18 @@ Log on to the server by using SSH and then complete the steps in the following s
 
 ### Uncomplicated Firewall (UFW)
 
-The UFW tool is available on the Ubuntu operating system 8.04 LTS and later.
+The UFW tool is available on the Ubuntu&reg; operating system 8.04 LTS and later.
 
 1. To ensure that `UFW` is running on your server, run the following command. If `UFW` is not running,
-   go to the `iptables` section below.
+   go to the `iptables` section.
 
        sudo systemctl status ufw
 
-2. Run the following command to block the IP address.
+2. Run the following command to block the IP address:
 
        sudo ufw deny from xxx.xxx.xxx.xxx to any
 
-3. Run the following command to list and verify the new rule.
+3. Run the following command to list and verify the new rule:
 
        sudo ufw status
 
@@ -75,16 +76,18 @@ The UFW tool is available on the Ubuntu operating system 8.04 LTS and later.
 
 `iptables` is commonly pre-installed on all Linux operating systems.
 
-1. Run the following command to block the IP address.
+1. Run the following command to block the IP address:
 
        sudo iptables -I INPUT -s xxx.xxx.xxx.xxx -j DROP
 
-2. Run the following command to save the settings. The settings will persist after performing a reboot.
+2. Run the following command to save the settings. The settings persist after
+   the server reboots.
 
        sudo service iptables save
 
 3. Run the following command to list and verify the new rule:
 
        sudo iptables -L
+       
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/).
