@@ -25,7 +25,9 @@ Hosted Email account. We recommend completing tasks in the following order:
 
 Before addressing tasks such as securing your account, creating mailboxes, and even
 migrating users, you must create an account to house the email solution that your business
-relies on. We created an article to make [creating your Rackspace Hosted Email account](/support/how-to/sign-up-for-rackspace-services/#rackspace-email-or-microsoft-exchange) as easy as possible.
+relies on. We created an article to make
+[creating your Rackspace Hosted Email account](/support/how-to/sign-up-for-rackspace-services/#rackspace-email-or-microsoft-exchange)
+as easy as possible.
 
 #### Manage and secure an account
 
