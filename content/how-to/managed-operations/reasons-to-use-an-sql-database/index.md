@@ -1,5 +1,5 @@
 ---
-permalink: reasons-to-use-an-sql-database/
+permalink: reasons-to-use-an-sql-database
 audit_date: '2018-03-20'
 title: 'Reasons to use an SQL database'
 type: article

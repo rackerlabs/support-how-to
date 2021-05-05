@@ -1,5 +1,5 @@
 ---
-permalink: security-defaults-office365/
+permalink: security-defaults-office365
 audit_date: '2020-04-13'
 title: How to enable Azure Active Directory security defaults in Office 365
 type: article

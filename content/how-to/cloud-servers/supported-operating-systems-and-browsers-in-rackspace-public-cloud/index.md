@@ -1,5 +1,5 @@
 ---
-permalink: supported-operating-systems-and-browsers-in-rackspace-public-cloud/
+permalink: supported-operating-systems-and-browsers-in-rackspace-public-cloud
 audit_date: '2018-03-22'
 title: Supported Operating Systems and Browsers in Rackspace Public Cloud
 type: article
@@ -46,4 +46,4 @@ following evergreen browsers:
 - Chrome (latest)
 - Firefox (latest)
 - Safari (latest)
-- Internet Explorer 11+
+- Microsoft Edge (latest)

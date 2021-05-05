@@ -1,5 +1,5 @@
 ---
-permalink: pitchfork-the-rackspace-cloud-api-web-application/
+permalink: pitchfork-the-rackspace-cloud-api-web-application
 audit_date: '2019-01-22'
 title: Pitchfork - the Rackspace Cloud API web application
 type: article

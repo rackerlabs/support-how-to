@@ -1,5 +1,5 @@
 ---
-permalink: high-availability-for-cloud-databases/
+permalink: high-availability-for-cloud-databases
 audit_date: '2018-07-05'
 title: High Availability for Cloud Databases
 type: article

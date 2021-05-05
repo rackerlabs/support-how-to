@@ -1,5 +1,5 @@
 ---
-permalink: add-a-disk-to-a-cluster-shared-volume-on-a-windows-failover-cluster/
+permalink: add-a-disk-to-a-cluster-shared-volume-on-a-windows-failover-cluster
 audit_date: '2020-07-24'
 title: 'Add a disk to a cluster shared volume on a Windows failover cluster'
 type: article

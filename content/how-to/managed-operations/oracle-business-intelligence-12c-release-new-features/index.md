@@ -1,5 +1,5 @@
 ---
-permalink: oracle-business-intelligence-12c-release-new-features/
+permalink: oracle-business-intelligence-12c-release-new-features
 audit_date: '2017-10-04'
 title: Oracle Business Intelligence 12c new release features
 type: article

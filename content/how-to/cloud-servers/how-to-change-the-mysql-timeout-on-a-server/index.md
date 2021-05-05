@@ -1,5 +1,5 @@
 ---
-permalink: how-to-change-the-mysql-timeout-on-a-server/
+permalink: how-to-change-the-mysql-timeout-on-a-server
 audit_date: '2020-07-13'
 title: Change the MySQL timeout on a server
 type: article

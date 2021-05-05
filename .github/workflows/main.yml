@@ -1,0 +1,29 @@
+name: vale-linting
+on: [push]
+
+# Run Vale on changed files only
+jobs:
+  vale-setup:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Get Changed Files
+      id: get_changed_files
+      uses: lots0logs/gh-action-get-changed-files@2.1.4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    - name: List Commit Files
+      id: list_commit_files
+      run: |
+        echo "Vale will run on the following files:"
+        cat ${HOME}/files.json
+    - name: Run Vale
+      uses: errata-ai/vale-action@v1.4.0
+      with:
+        debug: true
+        styles: |
+          https://github.com/errata-ai/Microsoft/releases/latest/download/Microsoft.zip
+        files: '${{ steps.get_changed_files.outputs.all }}'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

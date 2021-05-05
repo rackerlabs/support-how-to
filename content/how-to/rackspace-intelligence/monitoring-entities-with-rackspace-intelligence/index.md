@@ -1,5 +1,5 @@
 ---
-permalink: monitoring-entities-with-rackspace-intelligence/
+permalink: monitoring-entities-with-rackspace-intelligence
 audit_date: '2019-03-11'
 title: Monitor entities with Rackspace Intelligence
 type: article
@@ -14,14 +14,14 @@ product_url: rackspace-intelligence
 Rackspace Intelligence lets you create, edit, and view entities.
 
 Like Rackspace Monitoring, Rackspace Intelligence uses *entities* to
-represent any object or resource that you want to monitor. An entity can
-be a set of servers or non-server objects, but most often, an entity
+represent any object or resource you want to monitor. An entity can
+be a set of servers or non-server objects, but an entity often
 refers to an individual server.
 
 You can define an entity in Rackspace Intelligence that is something
 other than a Rackspace cloud server, a Rackspace cloud database, or a Rackspace dedicated device. You
 can create an entity to represent any server or website that you want to
-monitor, even if it is not hosted at Rackspace.
+monitor, even if Rackspace does not host it.
 
 As you create new Rackspace cloud servers or cloud databases, Rackspace
 Intelligence automatically creates entities representing them.
@@ -42,7 +42,7 @@ entity.
 
 ### View the details of an entity
 
-All the entity labels in Rackspace Intelligence are linked to an entity
+Rackspace Intelligence links all the entity labels to an entity
 details page. To view the details page for an entity, click on the
 entity's name. The following information about the entity is displayed:
 
@@ -103,10 +103,10 @@ The IP addresses that you added appear on the entity details page.
 To delete an entity:
 
 1. Select **Delete Entity** from the **Actions** menu.
-2. To confirm that you want to permanently delete the entity, click **Delete**.
+2. To confirm that you want to delete the entity permanently, click **Delete**.
 
-The entity is permanently deleted from the database and is no longer
-monitored by Rackspace.
+The entity is permanently deleted from the database and Rackspace no longer
+monitors it.
 
 #### Create a check for an entity
 
@@ -121,9 +121,8 @@ To create a check for an entity:
 3. Click **Create Check**.
 
 Rackspace Intelligence creates the check and displays the details on the
-check details page. If your check requires a monitoring agent to be
-installed to collect metrics, a message is displayed in the **Check
-Details** section.
+check details page. If your check requires you to install a monitoring agent
+to collect metrics, a message displays in the **Check Details** section.
 
 #### Create a suppression
 
@@ -140,7 +139,7 @@ To create a suppression:
 5. When asked to confirm that you want to create a suppression, click **Create Suppression Now**.
 
 For more information about suppressions, see [Working with notification
-suppressions](/support/how-to/working-with-notification-suppressions-in-rackspace-intelligence).
+suppressions](/support/how-to/work-with-notification-suppressions-in-rackspace-intelligence).
 
 ### Visualize an entity
 
@@ -151,5 +150,5 @@ configured for the entity, such as the one shown in the following image:
 
 {{<image src="intelligence-visualize-defaultgraphs-1on1off.png" alt="" title="">}}
 
-For checks that are defined but not configured, click the link to begin the
-process of configuring the check.
+For checks that are defined but not configured, click the link to begin
+configuring the check.

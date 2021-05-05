@@ -1,5 +1,5 @@
 ---
-permalink: create-a-support-ticket-in-the-cloud-control-panel/
+permalink: create-a-support-ticket-in-the-cloud-control-panel
 audit_date: '2018-10-24'
 title: Create a support ticket in the Cloud Control Panel
 type: article
@@ -7,8 +7,6 @@ created_date: '2012-03-23'
 created_by: Rackspace Support
 last_modified_date: '2018-10-25'
 last_modified_by: Cat Lookabaugh
-product: Cloud Servers
-product_url: cloud-servers
 ---
 
 The best way to communicate with Rackspace support technicians is to create a

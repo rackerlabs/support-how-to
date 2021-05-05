@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-open-cloud-reference-architecture/
+permalink: rackspace-open-cloud-reference-architecture
 audit_date: '2016-06-02'
 title: Rackspace Open Cloud reference architecture
 type: article

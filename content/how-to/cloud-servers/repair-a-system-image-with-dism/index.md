@@ -1,5 +1,5 @@
 ---
-permalink: repair-a-system-image-with-dism/
+permalink: repair-a-system-image-with-dism
 audit_date: '2020-07-23'
 title: 'Repair a system image with DISM'
 type: article

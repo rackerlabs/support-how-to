@@ -1,5 +1,5 @@
 ---
-permalink: cloud-queues-message-patterns/
+permalink: cloud-queues-message-patterns
 audit_date:
 title: Cloud Queues message patterns
 type: article

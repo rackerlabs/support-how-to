@@ -1,5 +1,5 @@
 ---
-permalink: linux-os-mitigations-against-cpu-speculative-execution-vulnerabilities/
+permalink: linux-os-mitigations-against-cpu-speculative-execution-vulnerabilities
 audit_date: '2018-07-02'
 title: 'Linux OS mitigations against CPU speculative execution vulnerabilities'
 type: article

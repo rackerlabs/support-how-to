@@ -1,5 +1,5 @@
 ---
-permalink: configure-w3-total-cache-for-wordpress-with-rackspace-cdn/
+permalink: configure-w3-total-cache-for-wordpress-with-rackspace-cdn
 audit_date: '2017-02-23'
 title: Configure W3 Total Cache for WordPress with Rackspace CDN
 type: article

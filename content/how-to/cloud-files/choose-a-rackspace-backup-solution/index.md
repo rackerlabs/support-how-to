@@ -1,5 +1,5 @@
 ---
-permalink: choose-a-rackspace-backup-solution/
+permalink: choose-a-rackspace-backup-solution
 audit_date: '2019-01-22'
 title: Choose a Rackspace backup solution
 type: article

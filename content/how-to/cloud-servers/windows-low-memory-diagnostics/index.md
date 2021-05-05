@@ -1,5 +1,5 @@
 ---
-permalink: windows-low-memory-diagnostics/
+permalink: windows-low-memory-diagnostics
 audit_date: '2020-05-08'
 title: 'Windows low-memory diagnostics'
 type: article

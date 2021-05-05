@@ -1,5 +1,5 @@
 ---
-permalink: detailed-permissions-matrix-for-dns/
+permalink: detailed-permissions-matrix-for-dns
 audit_date: '2016-12-02'
 title: Detailed permissions matrix for Cloud DNS
 type: article

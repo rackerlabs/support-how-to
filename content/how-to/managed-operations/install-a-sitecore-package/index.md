@@ -1,5 +1,5 @@
 ---
-permalink: install-a-sitecore-package/
+permalink: install-a-sitecore-package
 audit_date: '2017-06-06'
 title: Install a Sitecore package
 type: article

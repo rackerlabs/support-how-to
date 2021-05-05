@@ -1,5 +1,5 @@
 ---
-permalink: my-account-cloud-office-control-panel/
+permalink: my-account-cloud-office-control-panel
 audit_date: '2019-07-30'
 title: Account information in the Cloud Office Control Panel
 type: article

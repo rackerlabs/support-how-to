@@ -1,5 +1,5 @@
 ---
-permalink: drain-connections-to-load-balanced-server/
+permalink: drain-connections-to-load-balanced-server
 audit_date: '2020-10-01'
 title: Drain connections to load balanced server
 type: article

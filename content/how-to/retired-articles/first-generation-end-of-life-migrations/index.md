@@ -1,5 +1,5 @@
 ---
-permalink: first-generation-end-of-life-migrations/
+permalink: first-generation-end-of-life-migrations
 audit_date:
 title: First Generation end-of-life migrations
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: add-new-vpn-user-myrackspace-portal/
+permalink: add-new-vpn-user-myrackspace-portal
 audit_date: '2019-10-22'
 title: Add a new VPN user in the MyRackspace Portal
 type: article

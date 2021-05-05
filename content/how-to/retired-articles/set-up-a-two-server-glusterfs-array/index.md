@@ -1,5 +1,5 @@
 ---
-permalink: set-up-a-two-server-glusterfs-array/
+permalink: set-up-a-two-server-glusterfs-array
 audit_date:
 title: Set up a two-server GlusterFS array
 type: article

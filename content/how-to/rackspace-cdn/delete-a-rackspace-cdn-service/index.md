@@ -1,5 +1,5 @@
 ---
-permalink: delete-a-rackspace-cdn-service/
+permalink: delete-a-rackspace-cdn-service
 audit_date: '2016-06-02'
 title: Delete a Rackspace CDN service
 type: article

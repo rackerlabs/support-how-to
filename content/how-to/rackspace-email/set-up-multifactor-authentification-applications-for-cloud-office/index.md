@@ -1,5 +1,5 @@
 ---
-permalink: set-up-multifactor-authentification-applications-for-cloud-office/
+permalink: set-up-multifactor-authentification-applications-for-cloud-office
 audit_date: '2020-07-27'
 title: Set up multifactor authentication applications for Cloud Office
 type: article

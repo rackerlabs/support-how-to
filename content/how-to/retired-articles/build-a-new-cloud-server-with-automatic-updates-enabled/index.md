@@ -1,5 +1,5 @@
 ---
-permalink: build-a-new-cloud-server-with-automatic-updates-enabled/
+permalink: build-a-new-cloud-server-with-automatic-updates-enabled
 audit_date: '2018-10-25'
 title: Build a new Cloud Server with automatic updates enabled
 type: article

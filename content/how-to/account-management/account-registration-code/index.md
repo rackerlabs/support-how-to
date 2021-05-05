@@ -1,5 +1,5 @@
 ---
-permalink: account-registration-code/
+permalink: account-registration-code
 audit_date: '2019-01-22'
 title: Account registration code
 type: article
@@ -7,8 +7,6 @@ created_date: '2019-02-08'
 created_by: Rackspace Community
 last_modified_date: '2019-02-08'
 last_modified_by: Kate Dougherty
-product: Account Management
-product_url: account-management
 ---
 
 Rackspace uses an _account registration code_ to verify new users on an

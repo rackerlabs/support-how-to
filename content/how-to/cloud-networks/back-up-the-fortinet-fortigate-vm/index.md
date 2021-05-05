@@ -1,5 +1,5 @@
 ---
-permalink: back-up-the-fortinet-fortigate-vm/
+permalink: back-up-the-fortinet-fortigate-vm
 audit_date: '2019-03-11'
 title: Back up the Fortinet Fortigate VM
 type: article

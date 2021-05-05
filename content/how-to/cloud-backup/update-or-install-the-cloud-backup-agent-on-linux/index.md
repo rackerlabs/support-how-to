@@ -1,12 +1,12 @@
 ---
-permalink: update-or-install-the-cloud-backup-agent-on-linux/
+permalink: update-or-install-the-cloud-backup-agent-on-linux
 audit_date: '2020-09-15'
 title: Update or install the Cloud Backup agent on Linux
 type: article
 created_date: '2020-03-27'
 created_by: Brett Johnson
-last_modified_date: '2020-09-15'
-last_modified_by: Brett Johnson
+last_modified_date: '2021-01-06'
+last_modified_by: Rose Morales
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -30,7 +30,7 @@ and `bzip2`. If these tools are missing, you might not be able to install and us
 2. Extract the Linux package files (`cloudbackup-updater-latest.tar.bz2`) to a temporary
    directory.
 
-        cd ~ && mkdir tmp && cd tmp && tar jxvf cloudbackup-updater-latest.tar.bz2
+        cd ~ && mkdir tmp && mv cloudbackup-updater-latest.tar.bz2 tmp && cd tmp && tar jxvf cloudbackup-updater-latest.tar.bz2
 
 3. Change to the extracted folder. Read the LICENSE file. If you do not agree to the terms
    in the file, do not continue with the installation.
@@ -46,7 +46,8 @@ and `bzip2`. If these tools are missing, you might not be able to install and us
 
         ./cloudbackup-updater --configure --user myuserid --apikey ${apikey} --flavor raxcloudserver --datacenter DFW
 
-6. Change `myuserid` to the primary user ID for your account and `DFW` to the cloud server's region.
+6. Change `myuserid` to the primary user ID for your account and `DFW` to the cloud server's region. (See warning in
+   FAQ about changing the primary user ID after registering a backup agent.)
 
 7. Run the following command to display other registration-time controls, which you rarely use:
 
@@ -134,13 +135,13 @@ Verify the process ID (PID) of the agent and updater:
     pgrep -f cloudbackup-updater
     pgrep -f driveclient
 
-The various flavors of Linux have different service control utilities. On CentOS&reg, for
+The various flavors of Linux have different service control utilities. On CentOS&reg;, for
 instance, use the following commands to display the service status:
 
     service driveclient status
     service cloudbackup-updater status
 
-However, on other flavors, such as Debian&reg, Fedora&reg, or Ubuntu&reg, use the following commands:
+However, on other flavors, such as Debian&reg;, Fedora&reg;, or Ubuntu&reg;, use the following commands:
 
     systemctl status driveclient
     systemctl status cloudbackup-updater

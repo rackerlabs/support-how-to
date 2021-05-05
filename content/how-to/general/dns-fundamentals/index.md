@@ -1,5 +1,5 @@
 ---
-permalink: dns-fundamentals/
+permalink: dns-fundamentals
 audit_date: '2017-11-13'
 title: DNS Fundamentals
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-v20-best-practices/
+permalink: rackconnect-v20-best-practices
 audit_date: '2019-12-16'
 title: RackConnect v2.0 best practices
 type: article

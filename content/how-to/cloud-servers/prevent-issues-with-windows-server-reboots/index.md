@@ -1,5 +1,5 @@
 ---
-permalink: prevent-issues-with-windows-server-reboots/
+permalink: prevent-issues-with-windows-server-reboots
 audit_date:
 title: Prevent issues with Windows Server reboots
 type: article

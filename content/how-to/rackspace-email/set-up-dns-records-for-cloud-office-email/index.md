@@ -1,5 +1,5 @@
 ---
-permalink: set-up-dns-records-for-cloud-office-email/
+permalink: set-up-dns-records-for-cloud-office-email
 audit_date: '2020-09-21'
 title: Set up DNS records for Cloud Office email
 type: article
@@ -45,7 +45,7 @@ Use the following steps to ensure your domain properly routes incoming and outgo
 2. Set the DNS entries to the values shown in the following table. Ensure that no other MX record entries exist, or you will experience complications with your email. For more information, see [Add or edit entries for your DNS host](/support/how-to/find-dns-host#add-or-edit-entries-for-your-dns-host).
 
 {{<table "table  table-striped table-bordered">}}
-| Type  | Hostname | Hostname | Priority | TTL |
+| Type  | Hostname | Destination| Priority | TTL |
 |---------|--------|--------|--------|--------|
 | MX    |   @ or left blank   |   **mx1.emailsrvr.com**   | 10 | 3600 seconds or lowest allowed |
 | MX | @ or left blank | **mx2.emailsrvr.com** | 20 | 3600 seconds or lowest allowed |
@@ -53,7 +53,7 @@ Use the following steps to ensure your domain properly routes incoming and outgo
 | CNAME | autodiscover | **autodiscover.emailsrvr.com** | NA | 3600 seconds or lowest allowed |
 {{</table>}}
 
-    **Note:** Your new settings take 24 to 48 hours to propagate to the world. For more information on **propagation**, see [DNS propagation](/support/how-to/dns-record-definitions#dns-propagation).
+    **Note:** Your new settings take 24 to 48 hours to propagate to the world. For more information on propagation, see [DNS propagation](/support/how-to/dns-record-definitions#dns-propagation).
 
 3. Save your changes.
 

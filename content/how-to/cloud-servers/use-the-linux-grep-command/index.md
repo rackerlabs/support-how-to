@@ -1,5 +1,5 @@
 ---
-permalink: use-the-linux-grep-command/
+permalink: use-the-linux-grep-command
 audit_date: '2020-04-02'
 title: Use the Linux grep command 
 type: article

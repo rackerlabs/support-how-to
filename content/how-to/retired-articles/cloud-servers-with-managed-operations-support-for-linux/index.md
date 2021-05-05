@@ -1,12 +1,12 @@
 ---
-permalink: cloud-servers-with-managed-operations-support-for-linux/
-audit_date: '2016-11-28'
+permalink: cloud-servers-with-managed-operations-support-for-linux
+audit_date: '2020-12-03'
 title: Cloud Servers with Managed Operations support for Linux
 type: article
 created_date: '2011-05-26'
 created_by: David Hendler
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2020-12-03'
+last_modified_by: Carlos Arriaga
 ---
 
 The Managed Operations service level provides support beyond the Managed Infrastructure service level, including direct

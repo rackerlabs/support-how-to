@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-cloud-servers/
+permalink: getting-started-with-cloud-servers
 audit_date: '2018-05-16'
 title: Get started with Cloud Servers
 type: article

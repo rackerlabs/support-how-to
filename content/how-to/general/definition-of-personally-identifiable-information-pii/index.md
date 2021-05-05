@@ -1,5 +1,5 @@
 ---
-permalink: definition-of-personally-identifiable-information-pii/
+permalink: definition-of-personally-identifiable-information-pii
 audit_date:
 title: Definition of Personally Identifiable Information (PII)
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: configure-apache-on-the-ubuntu-operating-system/
+permalink: configure-apache-on-the-ubuntu-operating-system
 audit_date: '2016-06-21'
 title: Configure Apache on the Ubuntu operating system
 type: article

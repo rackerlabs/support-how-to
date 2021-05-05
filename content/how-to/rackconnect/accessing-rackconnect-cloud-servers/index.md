@@ -1,5 +1,5 @@
 ---
-permalink: accessing-rackconnect-cloud-servers/
+permalink: accessing-rackconnect-cloud-servers
 audit_date: '2019-10-04'
 title: Accessing RackConnect cloud servers
 type: article

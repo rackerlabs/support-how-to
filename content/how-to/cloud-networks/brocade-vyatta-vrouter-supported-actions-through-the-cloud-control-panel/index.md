@@ -1,14 +1,12 @@
 ---
-permalink: brocade-vyatta-vrouter-supported-actions-through-the-cloud-control-panel/
+permalink: brocade-vyatta-vrouter-supported-actions-through-the-cloud-control-panel
 audit_date:
 title: 'Brocade Vyatta vRouter: Supported actions through the Cloud Control Panel'
 type: article
 created_date: '2013-05-24'
 created_by: Sameer Satyam
-last_modified_date: '2016-01-20'
-last_modified_by: Kelly Holcomb
-product: Cloud Networks
-product_url: cloud-networks
+last_modified_date: '2021-01-29'
+last_modified_by: Rose Morales
 ---
 
 You can use the Cloud Control Panel to provision an instance of Brocade Vyatta vRouter appliance. After you provision the appliance, you can perform a limited set of actions on it from the control panel. Some of the actions available for Brocade Vyatta vRouter can lead to unexpected results and should be avoided. This article describes which actions are functional and which actions to avoid.

@@ -1,5 +1,5 @@
 ---
-permalink: http-response-status-codes/
+permalink: http-response-status-codes
 audit_date: '2020-10-03'
 title: HTTP response status codes
 type: article

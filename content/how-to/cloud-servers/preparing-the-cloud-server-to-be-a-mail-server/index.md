@@ -1,5 +1,5 @@
 ---
-permalink: preparing-the-cloud-server-to-be-a-mail-server/
+permalink: preparing-the-cloud-server-to-be-a-mail-server
 audit_date: '2020-01-15'
 title: Prepare a Cloud Server to be a mail server
 type: article

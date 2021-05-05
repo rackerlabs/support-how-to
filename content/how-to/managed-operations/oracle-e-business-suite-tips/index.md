@@ -1,5 +1,5 @@
 ---
-permalink: oracle-e-business-suite-tips/
+permalink: oracle-e-business-suite-tips
 audit_date: '2017-10-12'
 title: Oracle E-Business Suite tips
 type: article

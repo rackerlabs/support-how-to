@@ -1,5 +1,5 @@
 ---
-permalink: speed-up-rsync-when-migrating-a-linux-server-from-the-command-line/
+permalink: speed-up-rsync-when-migrating-a-linux-server-from-the-command-line
 audit_date:
 title: Speed up rsync when migrating a Linux server from the command line
 type: article

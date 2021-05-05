@@ -1,5 +1,5 @@
 ---
-permalink: glusterfs-troubleshooting/
+permalink: glusterfs-troubleshooting
 audit_date: '2020-05-04'
 title: Troubleshoot GlusterFS
 type: article

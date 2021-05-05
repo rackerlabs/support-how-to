@@ -1,5 +1,5 @@
 ---
-permalink: base-service-commands-in-Centos-7/
+permalink: base-service-commands-in-Centos-7
 audit_date: '2020-05-28'
 title: 'Base service commands'
 type: article

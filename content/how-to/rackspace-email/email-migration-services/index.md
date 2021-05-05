@@ -1,5 +1,5 @@
 ---
-permalink: email-migration-services/
+permalink: email-migration-services
 audit_date: '2020-07-08'
 title: Email migration services
 type: article

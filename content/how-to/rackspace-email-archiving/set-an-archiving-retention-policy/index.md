@@ -1,25 +1,29 @@
 ---
-permalink: set-an-archiving-retention-policy/
-audit_date: '2018-03-28'
+permalink: set-an-archiving-retention-policy
+audit_date: '2020-07-14'
 title: Set an Archiving Retention Policy
 type: article
-created_date: '2018-03-01'
-created_by: William Loy
-last_modified_date: '2018-03-28'
-last_modified_by: William Loy
+created_date: '2019-11-11'
+created_by: Joe Brooks
+last_modified_date: '2020-11-09'
+last_modified_by: Stephanie Fillmon
 product: Rackspace Email Archiving
 product_url: rackspace-email-archiving
 ---
 
-This article describes how to set a retention policy in your email archive. This feature can be useful for companies that enact polices that only allow the retention of email records for a certain duration of time.
+This article describes how to set a retention policy in your email archive. You can use this feature to enact policies
+that allow the system to retain email records for a certain duration.
+
+**Note**: New archives created after June 24, 2020, have a default retention policy of 7 years. You can modify
+this policy through the **Archive Portal**.
 
 
 ### Prerequisites
 
 - **Applies to:** Administrator
 - **Difficulty:** Easy
-- **Time needed:** Approximately 10 minutes
-- **Tools required:** Cloud Office Control Panel access
+- **Time needed:** Approximately 5 minutes
+- **Tools required:** Archive Portal access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
@@ -27,32 +31,29 @@ For more information about prerequisite terminology, see [Cloud Office support t
 ### Set an archive retention policy
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using your Rackspace Cloud Office admin ID and password.
-2. Scroll down to the **Domains** section. In the far right column of this section, click **Email Archiving**.
+
+2. Scroll down to the **Domains** section. In the far-right column of this section, click **Email Archiving**.
 
    {{<image src="domains_archive.png" alt="" title="">}}
 
-3. Select the domain for which you want to enable a retention policy, and then click **Manage My Archive**. 
+3. Select the domain for which you want to enable a retention policy, and then click **Manage My Archive**.
 
    The dashboard for the domain's archive displays.
 
    {{<image src="manage_archive.png" alt="" title="">}}
 
-4. In the top right corner, click **Admin**.
+4. In the top-right corner, click the **Gear** icon.
 
-   {{<image src="admin_tab.png" alt="" title="">}}
 
 5. In the top navigation bar, click **Policies**.
 
-   {{<image src="policies.png" alt="" title="">}}
+   {{<image src="Set-an-Archiving-Retention-Policy-1.png" alt="" title="">}}
 
-6. Check the box to the right of **Enable Retention Policy**. Set the duration that you want items to be retained in the email archive.
+6. After you set the policy, click **Update**.
 
-    **Warning:** Any items older than the set retention duration will be immediately purged from the archive and be unrecoverable. Items that later exceed the retention duration will also be permanently deleted.
+    **Warning:** Items older than the set retention duration are immediately purged from the archive and are unrecoverable.
+    Items that later exceed the retention duration are also permanently deleted.
 
-    {{<image src="enable_retention.png" alt="" title="">}}
+    {{<image src="Set-an-Archiving-Retention-Policy-2.png" alt="" title="">}}
 
-7. Click **OK** to confirm that you want to implement the retention policy.
-
-    {{<image src="warning.png" alt="" title="">}}
-
-Archive retention polices should be created only for specific reasons. There is no need to keep your archive under a certain data limit should you choose to not have a retention policy.
+    **Note:** To remove a retention policy, uncheck the **Enable retention policy** box and then click **Update**.

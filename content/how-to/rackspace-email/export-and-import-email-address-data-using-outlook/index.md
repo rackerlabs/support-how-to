@@ -1,5 +1,5 @@
 ---
-permalink: export-and-import-email-address-data-using-outlook/
+permalink: export-and-import-email-address-data-using-outlook
 audit_date: '2017-10-19'
 title: Export and import email address data by using Outlook
 type: article

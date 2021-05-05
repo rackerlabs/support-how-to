@@ -1,5 +1,5 @@
 ---
-permalink: manage-disks-with-diskpart/
+permalink: manage-disks-with-diskpart
 audit_date: '2020-03-31'
 title: 'Manage disks with DiskPart'
 type: article

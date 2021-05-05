@@ -1,10 +1,9 @@
 baseurl = "/"
-theme = "support-developer-hugo-theme"
 copyright = ""
 defaultContentLanguage = "en-us"
 destination = "public"
 enableEmoji = true
-enableRobotsTXT = true
+enableRobotsTXT = false
 languageCode = "en-us"
 metaDataFormat = "yaml"
 paginate = 10
@@ -13,7 +12,7 @@ relativeURLs = false
 disablePathToLower = true
 uglyURLs = false
 smartDashes = true
-title = "Rackspace Developer Center"
+title = ""
 canonifyURLs = true
 enableGitInfo = true
 ignoreFiles = "content/how-to/retired-articles/"
@@ -147,7 +146,7 @@ defaultMarkdownHandler = "goldmark"
     url = "https://www.rackspace.com/blog"
     weight = 13
 [[menu.footer]]
-    name = "Technical Blog"
+    name = "Expert Insights Tech Blog"
     parent = "Blogs"
     url = "https://docs.rackspace.com/blog/"
     weight = 14
@@ -200,7 +199,7 @@ defaultMarkdownHandler = "goldmark"
     weight = 4
     [[menu.main]]
         identifier = "technical-blog"
-        name ="Technical Blog"
+        name ="Expert Insights Tech Blog"
         url ="https://docs.rackspace.com/blog/"
         weight = 1
         parent = "blogs"
@@ -239,7 +238,7 @@ notAlternative = true
 
 [params]
 dateformat = "January 2, 2006"
-description = "Rackspace Developer documentation using Hugo, Netlify and Algolia"
+description = ""
 ghrepo = "https://github.com/rackerlabs/support-how-to"
 ghrepo_edit = "https://github.com/rackerlabs/support-how-to/edit/master/hugo/content/"
 ghrepo_new = "https://github.com/rackerlabs/support-how-to/issues/new"

@@ -1,5 +1,5 @@
 ---
-permalink: tools-to-use-with-cloud-files/
+permalink: tools-to-use-with-cloud-files
 audit_date:
 title: Tools to use with Cloud Files
 type: article

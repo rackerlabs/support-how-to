@@ -1,5 +1,5 @@
 ---
-permalink: add-a-cloud-network-interface-to-a-cloud-server/
+permalink: add-a-cloud-network-interface-to-a-cloud-server
 audit_date: '2020-09-28'
 title: Add a Cloud Network interface to a Cloud Server
 type: article

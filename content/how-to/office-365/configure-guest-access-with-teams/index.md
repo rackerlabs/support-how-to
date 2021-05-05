@@ -1,5 +1,5 @@
 ---
-permalink: configure-guest-access-with-teams/
+permalink: configure-guest-access-with-teams
 audit_date: '2020-03-18'
 title: Configure Guest access in Microsoft Teams
 type: article

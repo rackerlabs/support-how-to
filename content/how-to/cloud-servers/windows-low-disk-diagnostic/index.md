@@ -1,5 +1,5 @@
 ---
-permalink: windows-low-disk-diagnostic/
+permalink: windows-low-disk-diagnostic
 audit_date: '2020-05-12'
 title: 'Windows low-disk diagnostics'
 type: article

@@ -1,14 +1,12 @@
 ---
-permalink: configure-a-site-to-site-vpn-using-the-vyatta-network-appliance/
+permalink: configure-a-site-to-site-vpn-using-the-vyatta-network-appliance
 audit_date:
 title: Configure a Site-to-site VPN using the Vyatta Network Appliance
 type: article
 created_date: '2013-01-18'
 created_by: Sameer Satyam
-last_modified_date: '2018-08-07'
-last_modified_by: Catherine Richardson
-product: Cloud Networks
-product_url: cloud-networks
+last_modified_date: '2021-01-29'
+last_modified_by: Rose Morales
 ---
 
 ### Introduction

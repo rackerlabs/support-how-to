@@ -1,5 +1,5 @@
 ---
-permalink: using-the-private-ip-address-on-your-cloud-server/
+permalink: using-the-private-ip-address-on-your-cloud-server
 audit_date: '2019-04-03'
 title: Using Private IP Address on Cloud Servers
 type: article

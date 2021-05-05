@@ -1,5 +1,5 @@
 ---
-permalink: known-issues-and-suggested-workarounds-role-based-access-control-rbac/
+permalink: known-issues-and-suggested-workarounds-role-based-access-control-rbac
 audit_date: '2018-12-10'
 title: Known issues and suggested workarounds for RBAC
 type: article

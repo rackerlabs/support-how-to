@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cdn-secure-delivery-options/
+permalink: rackspace-cdn-secure-delivery-options
 audit_date: '2016-09-21'
 title: Rackspace CDN secure delivery options
 type: article

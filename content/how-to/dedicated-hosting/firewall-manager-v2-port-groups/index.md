@@ -1,5 +1,5 @@
 ---
-permalink: firewall-manager-v2-port-groups/
+permalink: firewall-manager-v2-port-groups
 audit_date: '2018-03-20'
 title: Firewall Manager v2 port-groups
 type: article

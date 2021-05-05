@@ -1,5 +1,5 @@
 ---
-permalink: set-up-sftp-users-in-linux-based-systems/
+permalink: set-up-sftp-users-in-linux-based-systems
 audit_date: '2019-01-18'
 title: Set up SFTP users in Linux-based systems
 type: article

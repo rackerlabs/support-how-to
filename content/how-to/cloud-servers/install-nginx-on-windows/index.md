@@ -1,5 +1,5 @@
 ---
-permalink: install-nginx-on-windows/
+permalink: install-nginx-on-windows
 audit_date: '2020-07-27'
 title: Install Nginx on Windows
 type: article

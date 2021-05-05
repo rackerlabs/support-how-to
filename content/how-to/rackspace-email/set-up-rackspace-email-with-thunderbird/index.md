@@ -1,5 +1,5 @@
 ---
-permalink: set-up-rackspace-email-with-thunderbird/
+permalink: set-up-rackspace-email-with-thunderbird
 audit_date:
 title: Set up Rackspace Email with Thunderbird
 type: article

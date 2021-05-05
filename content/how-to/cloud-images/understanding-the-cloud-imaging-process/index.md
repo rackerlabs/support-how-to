@@ -1,5 +1,5 @@
 ---
-permalink: understanding-the-cloud-imaging-process/
+permalink: understanding-the-cloud-imaging-process
 audit_date: '2019-01-21'
 title: Understanding the Cloud Imaging process
 type: article

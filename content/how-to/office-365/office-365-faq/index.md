@@ -1,5 +1,5 @@
 ---
-permalink: office-365-faq/
+permalink: office-365-faq
 audit_date: '2020-03-20'
 title: Microsoft Office 365 FAQ
 type: article

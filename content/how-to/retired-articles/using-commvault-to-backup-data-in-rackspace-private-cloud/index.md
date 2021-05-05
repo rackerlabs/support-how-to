@@ -1,5 +1,5 @@
 ---
-permalink: using-commvault-to-backup-data-in-rackspace-private-cloud/
+permalink: using-commvault-to-backup-data-in-rackspace-private-cloud
 audit_date:
 title: Using CommVault to Backup Data in Rackspace Private Cloud
 type: article

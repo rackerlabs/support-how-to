@@ -1,5 +1,5 @@
 ---
-permalink: troubleshoot-outlook-with-the-microsoft-support-and-recovery-assistant/
+permalink: troubleshoot-outlook-with-the-microsoft-support-and-recovery-assistant
 audit_date: '2020-08-25'
 title: Troubleshoot Outlook with the Microsoft Support and Recovery Assistant
 type: article

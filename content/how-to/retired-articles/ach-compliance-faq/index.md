@@ -1,5 +1,5 @@
 ---
-permalink: ach-compliance-faq/
+permalink: ach-compliance-faq
 audit_date:
 title: ACH compliance FAQ
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: point-domains-to-load-balancers/
+permalink: point-domains-to-load-balancers
 audit_date: '2020-10-02'
 title: Point domains to load balancers
 type: article

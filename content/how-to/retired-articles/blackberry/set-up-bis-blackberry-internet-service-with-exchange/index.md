@@ -1,5 +1,5 @@
 ---
-permalink: set-up-bis-blackberry-internet-service-with-exchange/
+permalink: set-up-bis-blackberry-internet-service-with-exchange
 audit_date:
 title: 'Set up BIS (Blackberry Internet Service) with Exchange'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: capture-packets-with-tcpdump/
+permalink: capture-packets-with-tcpdump
 audit_date: '2020-10-12'
 title: Capture packets with tcpdump
 type: article

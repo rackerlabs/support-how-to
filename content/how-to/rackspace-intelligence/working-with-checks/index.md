@@ -1,5 +1,5 @@
 ---
-permalink: working-with-checks/
+permalink: working-with-checks
 audit_date: '2017-08-15'
 title: Working with checks
 type: article

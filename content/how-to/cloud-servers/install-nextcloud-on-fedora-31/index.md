@@ -1,5 +1,5 @@
 ---
-permalink: install-nextcloud-on-fedora-31/
+permalink: install-nextcloud-on-fedora-31
 audit_date: '2020-07-27'
 title: 'Install Nextcloud on Fedora 31'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: update-your-anyconnect-version-in-the-rackspace-portal/
+permalink: update-your-anyconnect-version-in-the-rackspace-portal
 audit_date: '2020-10-13'
 title: Update your AnyConnect version in the Rackspace Portal
 type: article

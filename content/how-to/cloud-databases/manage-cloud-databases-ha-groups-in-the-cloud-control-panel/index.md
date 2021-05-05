@@ -1,5 +1,5 @@
 ---
-permalink: manage-cloud-databases-ha-groups-in-the-cloud-control-panel/
+permalink: manage-cloud-databases-ha-groups-in-the-cloud-control-panel
 audit_date: '2016-09-16'
 title: Manage Cloud Databases HA instance groups in the Cloud Control Panel
 type: article

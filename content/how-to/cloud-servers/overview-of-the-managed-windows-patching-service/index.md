@@ -1,5 +1,5 @@
 ---
-permalink: overview-of-the-managed-windows-patching-service/
+permalink: overview-of-the-managed-windows-patching-service
 audit_date: '2019-01-22'
 title:  Overview of the Managed Windows Patching service
 type: article

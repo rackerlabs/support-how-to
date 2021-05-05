@@ -1,5 +1,5 @@
 ---
-permalink: restart-apache/
+permalink: restart-apache
 audit_date: '2019-01-22'
 title: Restart Apache
 type: article

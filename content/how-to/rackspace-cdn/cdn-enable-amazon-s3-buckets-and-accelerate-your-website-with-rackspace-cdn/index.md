@@ -1,5 +1,5 @@
 ---
-permalink: cdn-enable-amazon-s3-buckets-and-accelerate-your-website-with-rackspace-cdn/
+permalink: cdn-enable-amazon-s3-buckets-and-accelerate-your-website-with-rackspace-cdn
 audit_date: '2016-06-01'
 title: CDN-enable Amazon S3 buckets and accelerate your website with Rackspace CDN
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: logging-in-with-an-ssh-private-key-on-linuxmac/
+permalink: logging-in-with-an-ssh-private-key-on-linuxmac
 audit_date: '2019-09-19'
 title: Log in with an SSH private key on Linux and macOS
 type: article

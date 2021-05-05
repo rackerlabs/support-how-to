@@ -1,14 +1,11 @@
 ---
-permalink: migrating-from-a-pop-server-to-rackspace-email-pop-using-outlook-2010/
+permalink: migrating-from-a-pop-server-to-rackspace-email-pop-using-outlook-2010
 audit_date:
 title: Migrate from a POP server to Rackspace Email POP using Outlook 2010
 type: article
 created_date: '2013-11-18'
 created_by: Milton Prado
 last_modified_date: '2016-01-12'
-last_modified_by: Stephanie Fillmon
-product: Rackspace Email
-product_url: rackspace-email
 ---
 
 POP email is typically stored locally on a computer and removed from the

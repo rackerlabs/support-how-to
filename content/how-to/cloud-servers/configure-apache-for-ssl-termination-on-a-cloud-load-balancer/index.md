@@ -1,5 +1,5 @@
 ---
-permalink: configure-apache-for-ssl-termination-on-a-cloud-load-balancer/
+permalink: configure-apache-for-ssl-termination-on-a-cloud-load-balancer
 audit_date:
 title: Configure Apache for SSL termination on a Cloud Load Balancer
 type: article

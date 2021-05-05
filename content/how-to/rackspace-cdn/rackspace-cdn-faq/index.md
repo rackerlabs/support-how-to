@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-cdn-faq/
+permalink: rackspace-cdn-faq
 audit_date: '2016-06-02'
 title: Rackspace CDN FAQ
 type: article

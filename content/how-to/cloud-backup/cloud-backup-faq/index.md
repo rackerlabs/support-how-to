@@ -1,5 +1,5 @@
 ---
-permalink: cloud-backup-faq/
+permalink: cloud-backup-faq
 audit_date: '2020-09-15'
 title: Cloud Backup FAQ
 type: article
@@ -12,6 +12,25 @@ product_url: cloud-backup
 ---
 
 ### Account services
+{{< accordion title="I just changed the primary user on my account. Why are my backups all failing?" col="in" href="accordion23" >}}
+
+Backups are stored in Cloud Files. The user ID associated with a
+Cloud Backup agent must have permissions to write bundles to
+Cloud Files in order to store the backup data for a snapshot.
+
+When you demote a user ID from primary, it typically loses the
+permissions required to write to a Cloud Files bucket and delete
+from it.
+
+You can use two methods to fix this problem. If it is not feasible
+to change permissions on a demoted user ID, there is no choice but
+to re-register the agent on the affected machine and migrate the old
+snapshots. If the permissions can change on the demoted user ID, you must
+make a request to support to add the needed permissions to store bundles
+in Cloud Files.
+
+{{< /accordion >}}
+
 {{< accordion title="Why do I get a 403 error when trying to migrate a vault?" col="in" href="accordion1" >}}
 
 When you use the API endpoint to migrate an existing vault to a new
@@ -177,7 +196,7 @@ running on your cloud server. Cloud servers with a Managed Operations service
 level should have this additional piece of software installed by default. If it
 is not installed, contact your Account Representative to get started. If you
 have an infrastructure-only account, you must manually install the agent by
-following these instructions for [Linux&reg;](/support/how-to/install-or-update-the-cloud-backup-agent-on-linux/)
+following these instructions for [Linux&reg;](/support/how-to/update-or-install-the-cloud-backup-agent-on-linux/)
 or [Windows](/support/how-to/rackspace-cloud-backup-install-the-agent-on-windows-by-using-silent-installation/).
 
 For more information, see the [Rackspace Cloud Backup introduction](/support/how-to/cloud-backup).
@@ -289,7 +308,7 @@ for more information.
 {{< /accordion >}}
 
 
-{{< accordion title="Where my backup-related files?" col="in" href="accordion21" >}}
+{{< accordion title="Where are my backup-related files?" col="in" href="accordion22" >}}
 
 For Linux, find them here:
 

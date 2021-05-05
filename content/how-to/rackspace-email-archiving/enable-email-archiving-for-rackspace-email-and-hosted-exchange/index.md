@@ -1,5 +1,5 @@
 ---
-permalink: enable-email-archiving-for-rackspace-email-and-hosted-exchange/
+permalink: enable-email-archiving-for-rackspace-email-and-hosted-exchange
 audit_date: '2018-04-05'
 title: 'Enable email archiving for Rackspace Email and Hosted Exchange'
 type: article

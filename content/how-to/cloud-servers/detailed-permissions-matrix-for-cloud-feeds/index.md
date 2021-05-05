@@ -1,5 +1,5 @@
 ---
-permalink: detailed-permissions-matrix-for-cloud-feeds/
+permalink: detailed-permissions-matrix-for-cloud-feeds
 audit_date: '2020-06-30'
 title: Detailed Permissions Matrix for Cloud Feeds
 type: article

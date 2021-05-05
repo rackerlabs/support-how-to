@@ -1,5 +1,5 @@
 ---
-permalink: disable-the-administrator-user-in-windows/
+permalink: disable-the-administrator-user-in-windows
 audit_date: '2020-05-14'
 title: 'Disable the administrator user in Windows'
 type: article

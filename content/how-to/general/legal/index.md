@@ -1,5 +1,5 @@
 ---
-permalink: legal/
+permalink: legal
 audit_date:
 title: RACKSPACE HOW-TO LICENSE
 type: article

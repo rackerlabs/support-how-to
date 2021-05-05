@@ -1,5 +1,5 @@
 ---
-permalink: using-the-apache-2-buddy-script-for-performance-and-stability/
+permalink: using-the-apache-2-buddy-script-for-performance-and-stability
 audit_date: '2020-03-05'
 title: Using the Apache2Buddy script for performance and stability
 type: article

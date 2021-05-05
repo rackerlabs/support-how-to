@@ -1,5 +1,5 @@
 ---
-permalink: allow-web-traffic-in-a-firewalld-software-firewall/
+permalink: allow-web-traffic-in-a-firewalld-software-firewall
 audit_date: '2020-03-17'
 title: 'Allow web traffic in a firewalld software firewall'
 type: article

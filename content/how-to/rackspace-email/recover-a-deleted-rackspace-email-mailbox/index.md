@@ -1,5 +1,5 @@
 ---
-permalink: recover-a-deleted-rackspace-email-mailbox/
+permalink: recover-a-deleted-rackspace-email-mailbox
 audit_date: '2019-07-17'
 title: Recover a deleted Rackspace Email mailbox
 type: article

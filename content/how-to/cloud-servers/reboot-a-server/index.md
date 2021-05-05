@@ -1,5 +1,5 @@
 ---
-permalink: reboot-a-server/
+permalink: reboot-a-server
 audit_date: '2020-04-06'
 title: Reboot a server
 type: article

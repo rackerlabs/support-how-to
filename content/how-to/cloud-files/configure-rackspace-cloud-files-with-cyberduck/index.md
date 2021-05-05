@@ -1,5 +1,5 @@
 ---
-permalink: configure-rackspace-cloud-files-with-cyberduck/
+permalink: configure-rackspace-cloud-files-with-cyberduck
 audit_date: '2019-02-18'
 title: Configure Rackspace Cloud Files with Cyberduck
 type: article

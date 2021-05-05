@@ -1,5 +1,5 @@
 ---
-permalink: installing-fwbuilder/
+permalink: installing-fwbuilder
 audit_date: '2020-09-25'
 title: Install fwbuilder
 type: article

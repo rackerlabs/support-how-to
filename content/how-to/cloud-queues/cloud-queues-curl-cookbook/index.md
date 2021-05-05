@@ -1,5 +1,5 @@
 ---
-permalink: cloud-queues-curl-cookbook/
+permalink: cloud-queues-curl-cookbook
 audit_date:
 title: Cloud Queues cURL Cookbook
 type: article

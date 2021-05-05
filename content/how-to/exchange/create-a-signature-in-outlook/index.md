@@ -1,5 +1,5 @@
 ---
-permalink: create-a-signature-in-outlook/
+permalink: create-a-signature-in-outlook
 audit_date: '2019-05-14'
 title: Create a signature in Outlook
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: recover-deleted-email-in-webmail/
+permalink: recover-deleted-email-in-webmail
 audit_date: '2018-02-26'
 title: Recover deleted email in Webmail
 type: article

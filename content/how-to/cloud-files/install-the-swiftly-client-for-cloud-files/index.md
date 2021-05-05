@@ -1,5 +1,5 @@
 ---
-permalink: install-the-swiftly-client-for-cloud-files/
+permalink: install-the-swiftly-client-for-cloud-files
 audit_date: '2019-02-28'
 title: Install the Swiftly client for Cloud Files
 type: article

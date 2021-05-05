@@ -1,5 +1,5 @@
 ---
-permalink: review-mssql-server-agent-logs/
+permalink: review-mssql-server-agent-logs
 audit_date: '2020-09-21'
 title: Review MSSQL Server Agent logs
 type: article

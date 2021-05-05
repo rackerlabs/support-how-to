@@ -1,5 +1,5 @@
 ---
-permalink: use-pivot-tables-with-your-cloud-billing-invoice/
+permalink: use-pivot-tables-with-your-cloud-billing-invoice
 audit_date: '2018-02-13'
 title: Use pivot tables with your Cloud billing invoice
 type: article

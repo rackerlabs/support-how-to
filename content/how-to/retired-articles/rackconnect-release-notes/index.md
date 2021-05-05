@@ -1,5 +1,5 @@
 ---
-permalink: /rackconnect-release-notes/
+permalink: rackconnect-release-notes
 audit_date:
 title: RackConnect release notes
 type: article

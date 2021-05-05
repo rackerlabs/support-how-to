@@ -1,5 +1,5 @@
 ---
-permalink: cloud-image-creation-format-and-process/
+permalink: cloud-image-creation-format-and-process
 audit_date: '2017-05-04'
 title: Cloud image creation format and process
 type: article

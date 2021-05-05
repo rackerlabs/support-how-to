@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-v20-automation-features-faq/
+permalink: rackconnect-v20-automation-features-faq
 audit_date: '2019-12-16'
 title: RackConnect v2.0 Automation features FAQ
 type: article

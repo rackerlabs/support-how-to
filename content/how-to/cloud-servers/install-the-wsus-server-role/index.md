@@ -1,5 +1,5 @@
 ---
-permalink: install-the-wsus-server-role/
+permalink: install-the-wsus-server-role
 audit_date: '2020-09-21'
 title: 'Install the WSUS server role'
 type: article

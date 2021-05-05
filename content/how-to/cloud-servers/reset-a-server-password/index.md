@@ -1,5 +1,5 @@
 ---
-permalink: reset-a-server-password/
+permalink: reset-a-server-password
 audit_date: '2020-07-09'
 title: Reset a server password
 type: article

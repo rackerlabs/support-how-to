@@ -1,5 +1,5 @@
 ---
-permalink: adding-a-managed-operations-service-level-to-your-cloud-account/
+permalink: adding-a-managed-operations-service-level-to-your-cloud-account
 audit_date: '2018-09-10'
 title: Add a managed operations service level to your cloud account
 type: article
@@ -14,7 +14,7 @@ product_url: managed-operations
 ### What does it mean to have a Rackspace Managed Operations account?
 
 A Rackspace Managed Operations account extends the managed support level
-from our Managed Hosting offering into our Cloud offering. This offer
+from our Managed Services offering into our Cloud offering. This offer
 provides an additional level of support and management that includes
 monitoring, operating system layer support, and technical guidance for
 your Rackspace Cloud portfolio.
@@ -184,7 +184,7 @@ AM:
 When this occurs, the process includes a hand-off from your current AM to your
 new AM.
 
-### As a Rackspace customer, can I link my Managed Hosting configuration and account to a Cloud Server that has a Managed Operations configuration and account?
+### As a Rackspace customer, can I link my Managed Services configuration and account to a Cloud Server that has a Managed Operations configuration and account?
 
 Yes, the process is similar to the process that you use to link your Managed
 Hosting accounts and your cloud accounts.

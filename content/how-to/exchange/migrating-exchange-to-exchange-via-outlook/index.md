@@ -1,5 +1,5 @@
 ---
-permalink: migrating-exchange-to-exchange-via-outlook/
+permalink: migrating-exchange-to-exchange-via-outlook
 audit_date: '2018-10-17'
 title: 'Migrate Exchange to Exchange with Outlook'
 type: article

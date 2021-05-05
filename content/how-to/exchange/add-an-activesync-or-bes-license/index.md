@@ -1,5 +1,5 @@
 ---
-permalink: add-an-activesync-or-bes-license/
+permalink: add-an-activesync-or-bes-license
 audit_date: '2018-05-07'
 title: 'Add an ActiveSync or BES license'
 type: article

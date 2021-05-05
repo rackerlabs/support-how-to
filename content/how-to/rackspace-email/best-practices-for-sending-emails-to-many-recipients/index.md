@@ -1,5 +1,5 @@
 ---
-permalink: best-practices-for-sending-emails-to-many-recipients/
+permalink: best-practices-for-sending-emails-to-many-recipients
 audit_date: '2017-05-30'
 title: Best practices for sending emails to many recipients
 type: article

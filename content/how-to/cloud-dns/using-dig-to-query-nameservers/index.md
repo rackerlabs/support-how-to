@@ -1,5 +1,5 @@
 ---
-permalink: using-dig-to-query-nameservers/
+permalink: using-dig-to-query-nameservers
 audit_date: '2020-05-29'
 title: Use dig to query nameservers
 type: article

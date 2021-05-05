@@ -1,5 +1,5 @@
 ---
-permalink: add-authorized-users-in-the-rackconnect-management-interface/
+permalink: add-authorized-users-in-the-rackconnect-management-interface
 audit_date:
 title: Add authorized users in the RackConnect Management Interface
 type: article

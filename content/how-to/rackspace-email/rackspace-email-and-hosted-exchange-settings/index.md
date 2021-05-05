@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-email-and-hosted-exchange-settings/
+permalink: rackspace-email-and-hosted-exchange-settings
 audit_date: '2019-01-08'
 title: Rackspace Email and Hosted Exchange settings
 type: article

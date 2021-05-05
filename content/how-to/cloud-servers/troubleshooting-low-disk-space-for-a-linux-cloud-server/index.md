@@ -1,5 +1,5 @@
 ---
-permalink: troubleshooting-low-disk-space-for-a-linux-cloud-server/
+permalink: troubleshooting-low-disk-space-for-a-linux-cloud-server
 audit_date: '2018-08-21'
 title: Troubleshooting low disk space for a Linux cloud server
 type: article

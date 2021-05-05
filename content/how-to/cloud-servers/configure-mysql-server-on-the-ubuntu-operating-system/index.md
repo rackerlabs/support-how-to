@@ -1,5 +1,5 @@
 ---
-permalink: configure-mysql-server-on-the-ubuntu-operating-system/
+permalink: configure-mysql-server-on-the-ubuntu-operating-system
 audit_date: '2020-10-09'
 title: Configure MySQL server on the Ubuntu operating system
 type: article

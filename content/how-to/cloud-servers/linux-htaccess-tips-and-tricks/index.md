@@ -1,5 +1,5 @@
 ---
-permalink: linux-htaccess-tips-and-tricks/
+permalink: linux-htaccess-tips-and-tricks
 audit_date: '2020-09-04'
 title: Linux .htaccess tips and tricks
 type: article

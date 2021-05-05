@@ -1,5 +1,5 @@
 ---
-permalink: configure-an-internet-connection-firewall-for-iis/
+permalink: configure-an-internet-connection-firewall-for-iis
 audit_date: '2020-06-15'
 title: 'Configure an Internet Connection Firewall for IIS'
 type: article

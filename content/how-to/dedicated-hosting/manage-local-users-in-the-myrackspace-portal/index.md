@@ -1,5 +1,5 @@
 ---
-permalink: manage-local-users-in-the-myrackspace-portal/
+permalink: manage-local-users-in-the-myrackspace-portal
 audit_date: '2019-12-12'
 title: Manage local users in the MyRackspace portal
 type: article

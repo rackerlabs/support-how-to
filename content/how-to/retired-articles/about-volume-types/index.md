@@ -1,5 +1,5 @@
 ---
-permalink: about-volume-types/
+permalink: about-volume-types
 audit_date:
 title: About volume types
 type: article

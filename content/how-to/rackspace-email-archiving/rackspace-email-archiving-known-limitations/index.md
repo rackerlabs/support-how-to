@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-email-archiving-known-limitations/
+permalink: rackspace-email-archiving-known-limitations
 audit_date: '2018-01-23'
 title: Rackspace Email Archiving known limitations
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: use-cloudflare-with-rackspace/
+permalink: use-cloudflare-with-rackspace
 audit_date: '2019-01-18'
 title: Use CloudFlare with Rackspace
 type: article

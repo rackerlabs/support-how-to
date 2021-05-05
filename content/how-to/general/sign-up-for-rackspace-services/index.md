@@ -1,5 +1,5 @@
 ---
-permalink: sign-up-for-rackspace-services/
+permalink: sign-up-for-rackspace-services
 audit_date: '2017-06-29'
 title: Sign up for Rackspace services
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: configure-a-health-monitor-in-cloud-load-balancers/
+permalink: configure-a-health-monitor-in-cloud-load-balancers
 audit_date: '2020-10-01'
 title: Configure a health monitor in Cloud Load Balancers
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: configuring-a-software-raid-on-a-linux-general-purpose-cloud-server/
+permalink: configuring-a-software-raid-on-a-linux-general-purpose-cloud-server
 audit_date:
 title: Configure a Software RAID on a Linux General Purpose Cloud Server
 type: article

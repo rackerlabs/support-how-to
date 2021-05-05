@@ -1,5 +1,5 @@
 ---
-permalink: change-account-company-name/
+permalink: change-account-company-name
 audit_date: '2018-03-13'
 title: Change an account's company name
 type: article
@@ -7,8 +7,6 @@ created_date: '2018-03-13'
 created_by: Rackspace Support
 last_modified_date: '2018-10-25'
 last_modified_by: Stephanie Fillmon
-product: Account Management
-product_url: account-management
 ---
 
 If your company has filed for a name change with the Secretary of State

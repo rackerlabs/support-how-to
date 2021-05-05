@@ -1,5 +1,5 @@
 ---
-permalink: support-ticket-statuses/
+permalink: support-ticket-statuses
 audit_date: '2019-09-30'
 title: Support ticket statuses
 type: article

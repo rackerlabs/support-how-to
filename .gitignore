@@ -3,6 +3,7 @@
 node_modules/
 .env
 output
+resources
 
 # Don't add personal VS Code settings
 .vscode/
@@ -19,4 +20,7 @@ static/assets/
 # Local Netlify folder
 .netlify
 Gemfile.lock
-static/assets/
+
+# Vale local styles
+.github/styles/Google
+.github/styles/Microsoft

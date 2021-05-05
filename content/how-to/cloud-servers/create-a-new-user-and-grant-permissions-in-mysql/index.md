@@ -1,5 +1,5 @@
 ---
-permalink: create-a-new-user-and-grant-permissions-in-mysql/
+permalink: create-a-new-user-and-grant-permissions-in-mysql
 audit_date: '2020-06-03'
 title: Create a new user and grant permissions in MySQL
 type: article

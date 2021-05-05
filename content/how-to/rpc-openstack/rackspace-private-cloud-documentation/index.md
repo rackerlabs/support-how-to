@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-private-cloud-documentation/
+permalink: rackspace-private-cloud-documentation
 audit_date: '2018-08-30'
 title: Rackspace Private Cloud documentation
 type: article

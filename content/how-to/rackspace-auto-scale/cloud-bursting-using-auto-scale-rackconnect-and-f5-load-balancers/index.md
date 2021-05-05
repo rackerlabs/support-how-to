@@ -1,5 +1,5 @@
 ---
-permalink: cloud-bursting-using-auto-scale-rackconnect-and-f5-load-balancers/
+permalink: cloud-bursting-using-auto-scale-rackconnect-and-f5-load-balancers
 audit_date: '2020-09-28'
 title: Cloud Bursting using Auto Scale, RackConnect, and F5 Load Balancers
 type: article

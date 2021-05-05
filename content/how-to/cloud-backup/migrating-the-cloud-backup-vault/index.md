@@ -1,23 +1,24 @@
 ---
-permalink: migrating-the-cloud-backup-vault/
+permalink: migrating-the-cloud-backup-vault
 audit_date: '2020-04-15'
 title: Migrating the Cloud Backup Vault
 type: article
 created_date: '2020-03-26'
 created_by: Evan Benavides
-last_modified_date: '2020-04-15'
-last_modified_by: William Loy
+last_modified_date: '2021-02-25'
+last_modified_by: Chris Silva
 product: Cloud Backup
 product_url: cloud-backup
 ---
 
-The Cloud Backup vault is the database that resides on the server regarding the configured Cloud Backups for that agent. If the Cloud Backup registration command is re-run on the server it can cause a duplicate system creation.
+The Cloud Backup Vault is a directory on your server that allows the Cloud Backup Agent to manage your backups in the Customer Portal. This directory contains the data necessary to allow functionality of Cloud Backup. If the Cloud Backup registration command is re-run on the server it can cause a duplicate system creation.
 
 The following article provides information about how to migrate the Cloud Backup vault from one system to another.
 
 **NOTE:** To migrate the vault, you should register the two systems to the same Cloud account user and don't encrypt the backups. Additionally, it's impossible to migrate the vault to a system which already has configured backups.
 
-###Migrating the Cloud Backup vault
+
+### Migrating the Cloud Backup vault
 
 1. Log in to the API tool Pitchfork as shown in the following guide:
 [Pitchfork - the Rackspace Cloud API web app](/support/how-to/pitchfork-the-rackspace-cloud-api-web-application/) 

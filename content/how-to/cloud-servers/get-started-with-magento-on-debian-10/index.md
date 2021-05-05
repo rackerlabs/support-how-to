@@ -1,5 +1,5 @@
 ---
-permalink: get-started-with-magento-on-debian-10/
+permalink: get-started-with-magento-on-debian-10
 audit_date: '2020-07-30'
 title: 'Get started with Magento on Debian 10'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: block-senders-in-owa/
+permalink: block-senders-in-owa
 audit_date: '2018-01-15'
 title: Block Senders in Outlook Web App
 type: article

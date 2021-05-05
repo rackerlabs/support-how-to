@@ -1,5 +1,5 @@
 ---
-permalink: setting-the-time-zone-for-a-cloud-databases-instance/
+permalink: setting-the-time-zone-for-a-cloud-databases-instance
 audit_date: '2020-09-17'
 title: Set the time zone for a Cloud Databases instance
 type: article

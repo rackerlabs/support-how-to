@@ -1,5 +1,5 @@
 ---
-permalink: address-cloud-computing-security-concerns-with-private-cloud/
+permalink: address-cloud-computing-security-concerns-with-private-cloud
 audit_date: '2020-10-12'
 title: 'Address Cloud Computing Security Concerns with Private Cloud'
 type: article

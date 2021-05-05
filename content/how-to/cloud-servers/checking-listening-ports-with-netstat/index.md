@@ -1,5 +1,5 @@
 ---
-permalink: checking-listening-ports-with-netstat/
+permalink: checking-listening-ports-with-netstat
 audit_date: '2018-09-19'
 title: Check listening ports with netstat
 type: article

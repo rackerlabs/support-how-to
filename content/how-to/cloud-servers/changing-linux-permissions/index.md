@@ -1,5 +1,5 @@
 ---
-permalink: changing-linux-permissions/
+permalink: changing-linux-permissions
 audit_date: '2020-03-26'
 title: Changing Linux permissions
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: use-an-api-call-to-stop-a-cloud-server/
+permalink: use-an-api-call-to-stop-a-cloud-server
 audit_date: '2020-07-17'
 title: Use an API call to stop a cloud server
 type: article

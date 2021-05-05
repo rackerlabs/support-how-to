@@ -1,5 +1,5 @@
 ---
-permalink: manually-enable-auto-updates-on-rhel-and-centos-public-cloud-servers/
+permalink: manually-enable-auto-updates-on-rhel-and-centos-public-cloud-servers
 audit_date: '2018-11-06'
 title: Manually enable automatic updates on Red Hat Enterprise Linux and CentOS public cloud servers
 type: article

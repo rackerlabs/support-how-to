@@ -1,5 +1,5 @@
 ---
-permalink: install-iis-and-configure-a-website/
+permalink: install-iis-and-configure-a-website
 audit_date: '2020-05-15'
 title: 'Install IIS and configure a website'
 type: article

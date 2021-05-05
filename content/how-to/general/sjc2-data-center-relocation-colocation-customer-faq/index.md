@@ -1,11 +1,11 @@
 ---
-permalink: sjc2-data-center-relocation-colocation-customer-faq/
-audit_date: '2019-12-13'
+permalink: sjc2-data-center-relocation-colocation-customer-faq
+audit_date: '2020-11-17'
 title: SJC2 data center relocation colocation customer FAQ
 type: article
 created_date: '2020-06-09'
 created_by: Tom Hallam
-last_modified_date: '2020-06-09'
+last_modified_date: '2020-11-17'
 last_modified_by: Cat Lookabaugh
 product: General
 product_url: general
@@ -57,37 +57,39 @@ consolidation and closure exercises for both Rackspace and legacy Datapipe data
 centers. The migration team can provide guidance and advice on all aspects of
 the move. We have created a *Colocation Migration Guide* based on the experience
 of the migration team for those customers who do not have any experience with
-cabinet migration. Reach out to your service delivery manager or account manager
+cabinet migration. Reach out to your Customer Success Manager
 to request a copy of the guide.
 
 ### What support does Rackspace provide for the move?
 
 Rackspace will allocate space and power in the new location with all other
 contracted services through Rackspace. Where Rackspace provides the cabinets,
-we will stand up new cabinets in advance of your move date if required.
+we will stand up new cabinets in advance of your move date if required
+and agree a timeframe to ensure there is no double billing of the cabinets. 
 Additionally, if requested, we can carry out a physical audit of your environment
-and take responsibility for the physical move. We can decant the cabinet in SJC2
-and transport the devices to SJC3, where we deploy the devices into new cabinets.
-We can also investigate the possibility of moving the populated cabinet by using
-our logistics partner, who specializes in IT relocation exercises. We understand
-that this move will be a distraction from your business focus, so we will use our
-experience in data center migrations to minimize disruption.
+and assist with the physical move.
 
 ### We have a leased line that terminates in SJC2. What will happen to this?
 
 If Rackspace provided the leased line, we will take care of this and work with
 you to schedule the change. If Rackspace does not provide the line, you should
 work with your telco provider and Rackspace to understand the options for
-relocating the line. The data center you are moving to and your provider will
-determine the options available to you. Lead times for new leased lines can be
+relocating the line. Lead times for new leased lines can be
 significant, so we advise you to reach out to your provider at your earliest
 convenience to understand the options.
+
+We will issue a leased line questionnaire through the ticketing system to all customers
+to assist in this process and offer possible alternatives to the traditional leased lines
+connections.
 
 ### Where is SJC3 located?
 
 The SJC3 data center is located in Santa Clara, just north of Norman Y. Mineta
-San Jose International Airport, approximately 5 miles from SJC2. We will issue
-an update with the address after we finalize the lease.
+San Jose International Airport, approximately 6 miles from SJC2. The address is:
+ 
+2805 Lafayette Street
+Santa Clara,
+CA 95050
 
 ### Whom should I contact with questions about the relocation?
 

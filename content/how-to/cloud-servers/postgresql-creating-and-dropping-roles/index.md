@@ -1,5 +1,5 @@
 ---
-permalink: postgresql-creating-and-dropping-roles/
+permalink: postgresql-creating-and-dropping-roles
 audit_date: '2019-05-01'
 title: Create and drop roles in PostgreSQL
 type: article

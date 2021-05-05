@@ -1,5 +1,5 @@
 ---
-permalink: about-ttl-best-practices/
+permalink: about-ttl-best-practices
 audit_date: '2018-06-19'
 title: Best practices for using TTL
 type: article

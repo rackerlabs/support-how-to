@@ -1,0 +1,22 @@
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" data-target="#{{.Get "href" }}" href="javascript:void(0);" aria-expanded="false" aria-controls="{{.Get "id" }}">{{ .Get "title" }}</a>
+        </h4>
+      </div>
+      {{- if and (.Get "col") (.Get "hasImage") }}
+      <div id="{{.Get "href" }}" class="panel-collapse collapse {{.Get "col" }}" aria-labelledby="panel-heading" role="tabpanel">
+        <div class="panel-body"><p>{{ .Inner | markdownify }}</p></div>
+      </div>
+      {{- else if (.Get "col") -}}
+      <div id="{{.Get "href" }}" class="panel-collapse collapse {{.Get "col" }}" aria-labelledby="panel-heading" role="tabpanel">
+        <div class="panel-body"><p>{{ .Inner | markdownify }}</p></div>
+      </div>
+      {{- else -}}
+      <div id="{{.Get "href" }}" class="panel-collapse collapse" aria-labelledby="panel-heading" role="tabpanel">
+        <div class="panel-body"><p>{{ .Inner | markdownify }}</p></div>
+      </div>
+      {{- end -}}
+    </div>
+  </div>

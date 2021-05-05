@@ -1,5 +1,5 @@
 ---
-permalink: installing-active-directory-on-windows-server-2012/
+permalink: installing-active-directory-on-windows-server-2012
 audit_date: '2018-09-27'
 title: Install Active Directory on Windows Server 2012
 type: article

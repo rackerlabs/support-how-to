@@ -1,5 +1,5 @@
 ---
-permalink: managing-configuration-groups-for-cloud-databases-with-the-trove-command-line-tool/
+permalink: managing-configuration-groups-for-cloud-databases-with-the-trove-command-line-tool
 audit_date: '2018-04-19'
 title: Manage configuration groups for Cloud Databases with the trove command-line tool
 type: article

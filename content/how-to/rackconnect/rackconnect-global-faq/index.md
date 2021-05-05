@@ -1,5 +1,5 @@
 ---
-permalink: rackconnect-global-faq/
+permalink: rackconnect-global-faq
 audit_date: '2020-05-27'
 title: RackConnect Global FAQ
 type: article

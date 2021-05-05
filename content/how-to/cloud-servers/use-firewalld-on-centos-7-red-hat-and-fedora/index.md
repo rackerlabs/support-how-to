@@ -1,5 +1,5 @@
 ---
-permalink: use-firewalld-on-centos-7-red-hat-and-fedora/
+permalink: use-firewalld-on-centos-7-red-hat-and-fedora
 audit_date: '2019-01-22'
 title: Use firewalld on CentOS 7, Red Hat, and Fedora
 created_date: '2019-02-26'

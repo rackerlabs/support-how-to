@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-rackspace-intelligence-for-the-cloud/
+permalink: getting-started-with-rackspace-intelligence-for-the-cloud
 audit_date: '2018-10-24'
 title: Getting started with Rackspace Intelligence for the cloud
 type: article
@@ -25,13 +25,12 @@ kinds of entities:
 
 -   Rackspace cloud servers
 -   Rackspace cloud databases
--   Other entities that might be hosted by Rackspace or an another service
+-   Rackspace or an another service might host other entities
 
 Rackspace Intelligence can gather and act on only the information that is
-available to it. For example, if you define a website that is hosted outside of
+available to it. For example, if you define a website hosted outside of
 Rackspace as an entity, then you might be able to place a check on its ping
-time, but you probably won't be able to check the space available
-in its file system.
+time, but you probably can't check the space available in its file system.
 
 ### Access Rackspace Intelligence
 
@@ -39,8 +38,8 @@ Use the following steps to access Rackspace Intelligence:
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
 
-   If your account is configured to require it, you might need to perform
-   additional steps to [lMulti-factor authentication from the Cloud Control
+   If your account requires it, you might need to perform
+   additional steps to set up [Multi-factor authentication from the Cloud Control
    Panel](/support/how-to/multi-factor-authentication-from-the-cloud-control-panel).
 
 2. In the top navigation bar, click **Select a Product > Rackspace
@@ -76,7 +75,7 @@ Intelligence](/support/how-to/preparing-to-use-rackspace-intelligence).
 ### Manage how Rackspace Intelligence monitors your infrastructure
 
 You can use the **Monitor**, **Alert**, **Suppress**, and **Visualize**
-sections of the interface to identify infrastructure that you want to monitor
+sections of the interface to identify the infrastructure that you want to monitor
 and examine events in your configuration.
 
 #### Use the Rackspace Intelligence dashboard
@@ -111,22 +110,21 @@ The **Monitor** section of the interface also displays information about
 
 The [list of open
 alerts](/support/how-to/monitoring-open-alerts-with-rackspace-intelligence) identifies
-all entities that are currently in a status for which you have asked
+all entities currently in a status for which you have asked
 Rackspace Intelligence to trigger alarms.
 
 Depending on the [notification
-plans](/support/how-to/working-with-rackspace-intelligence-notification-plans) that
+plans](/support/how-to/working-with-rackspace-intelligence-notification-plans)
 you have defined, appropriate communications and actions might have
 already occurred in response to these alerts. Examine the list directly to
-investigate infrastructure status in context whether
-or not you were automatically
+investigate infrastructure status in context whether or not the system automatically
 [notified](/support/how-to/working-with-notifications-in-rackspace-intelligence)
-about status changes.
+you about status changes.
 
 ### Change how Rackspace Intelligence communicates its findings
 
-You can manage how you are notified of status changes, as well as which
-notifications are suppressed.
+You can manage your status change notification process, as well as which
+notifications the system suppresses.
 
 You can also examine a log to investigate the changes that occurred while
 notifications were suppressed.
@@ -134,25 +132,24 @@ notifications were suppressed.
 #### Report infrastructure status
 
 When Rackspace Intelligence detects a status change, it can report its
-findings by sending email or a text message. Rackspace Intelligence can
-also respond to a status change by executing a policy that is defined
-by a
+findings by sending an email or a text message. Rackspace Intelligence can
+also respond to a status change by executing a policy defined by a
 [webhook](https://docs.rackspace.com/docs/autoscale/v1/developer-guide/#webhooks-and-capability-urls).
 
 To customize how Rackspace Intelligence responds when it detects a
 status change, perform the following actions:
 
-- Define [notifications](/support/how-to/working-with-notifications-in-rackspace-intelligence)
-  . Ensure that you also provide contact details as part of this process.
+- Define [notifications](/support/how-to/working-with-notifications-in-rackspace-intelligence).
+  Ensure that you also provide contact details as part of this process.
 - Define [notification
   plans](/support/how-to/working-with-rackspace-intelligence-notification-plans).
-  Ensure that you also define the notifications that you want to perform,
+  Ensure that you also define the notifications that you want to perform
   and under which circumstances.
 
 #### Suppress reporting of infrastructure status
 
 Rackspace Intelligence enables you to [suppress
-notifications](/support/how-to/working-with-notification-suppressions-in-rackspace-intelligence) when notifications are temporarily inappropriate, such as during
+notifications](/support/how-to/work-with-notification-suppressions-in-rackspace-intelligence) when notifications are temporarily inappropriate, such as during
 scheduled maintenance activity.
 
 #### Examine the suppression log

@@ -1,5 +1,5 @@
 ---
-permalink: rebuild-a-cloud-server/
+permalink: rebuild-a-cloud-server
 audit_date: '2019-08-07'
 title: Rebuild a cloud server
 type: article

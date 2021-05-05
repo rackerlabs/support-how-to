@@ -1,5 +1,5 @@
 ---
-permalink: set-up-an-apache-vhost-on-ubuntu-20-04-and-debian-10/
+permalink: set-up-an-apache-vhost-on-ubuntu-20-04-and-debian-10
 audit_date: '2020-08-24'
 title: 'Set up an Apache vhost on Ubuntu 20.04 and Debian 10'
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: view-an-object-group-with-firewall-manager-v2/
+permalink: view-an-object-group-with-firewall-manager-v2
 audit_date: '2018-07-12'
 title: View an object-group with Firewall Manager v2
 type: article

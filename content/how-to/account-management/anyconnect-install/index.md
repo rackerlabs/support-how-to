@@ -1,5 +1,5 @@
 ---
-permalink: anyconnect-install/
+permalink: anyconnect-install
 audit_date: '2020-03-27'
 title: Install AnyConnect
 type: article

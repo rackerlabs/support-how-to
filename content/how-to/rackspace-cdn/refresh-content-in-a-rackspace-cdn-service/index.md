@@ -1,5 +1,5 @@
 ---
-permalink: refresh-content-in-a-rackspace-cdn-service/
+permalink: refresh-content-in-a-rackspace-cdn-service
 audit_date: 
 title: Refresh Content in a Rackspace CDN service
 type: article

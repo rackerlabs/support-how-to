@@ -1,5 +1,5 @@
 ---
-permalink: getting-started-with-powershell-office-365/
+permalink: getting-started-with-powershell-office-365
 audit_date: '2019-12-24'
 title: How to access and manage your Office 365 tenant with PowerShell
 type: article

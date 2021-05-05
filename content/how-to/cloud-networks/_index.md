@@ -5,7 +5,7 @@ created_date: '2016-01-17'
 created_by: Rackspace Support
 last_modified_date: '2019-06-07'
 last_modified_by: Brian King
-permalink: /cloud-networks/
+permalink: cloud-networks
 product: Cloud Networks
 product_url: cloud-networks
 ---

@@ -1,5 +1,5 @@
 ---
-permalink: installing-mariadb-server-on-centos/
+permalink: installing-mariadb-server-on-centos
 audit_date: '2018-03-22'
 title: Install a MariaDB server on CentOS
 type: article

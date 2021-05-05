@@ -1,5 +1,5 @@
 ---
-permalink: install-nginx-on-centos-6/
+permalink: install-nginx-on-centos-6
 audit_date: '2020-06-30'
 title: Install Nginx on CentOS 6
 type: article

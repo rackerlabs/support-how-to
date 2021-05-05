@@ -1,5 +1,5 @@
 ---
-permalink: introducing-the-rackspace-cloud-control-panel/
+permalink: introducing-the-rackspace-cloud-control-panel
 audit_date: '2016-07-19'
 title: Introducing the Rackspace Cloud Control Panel
 type: article

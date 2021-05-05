@@ -1,5 +1,5 @@
 ---
-permalink: provisioning-cloud-resources-when-migrating-from-amazon-web-services/
+permalink: provisioning-cloud-resources-when-migrating-from-amazon-web-services
 audit_date: '2017-10-24'
 title: Provision cloud resources when migrating from Amazon Web Services
 type: article

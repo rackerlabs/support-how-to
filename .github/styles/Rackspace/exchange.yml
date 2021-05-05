@@ -1,0 +1,34 @@
+extends: substitution
+message: Consider using '%s' instead of '%s'
+level: warning
+ignorecase: false
+# swap maps tokens in form of bad: good
+swap:
+  allow: enable or you can
+  as: because
+  below : following
+  box: computer
+  checkbox: check box
+  click on : click
+  config: configuration
+  deselect: clear
+  desire: want
+  desired: wanted,correct, appropriate
+  double click: double-click
+  e.g: for example
+  enter in: enter
+  etc. : and so on
+  i.e.: that is
+  info: information
+  information on: information about
+  internet: Internet
+  log into: log in to
+  may: might or can
+  machine: computer
+  once: after
+  make sure: ensure
+  refer to: see
+  right click: right-click
+  since: because
+  using: by using
+

@@ -1,5 +1,5 @@
 ---
-permalink: connect-to-cloud-servers-with-filezilla-by-using-sftp/
+permalink: connect-to-cloud-servers-with-filezilla-by-using-sftp
 audit_date: '2019-01-28'
 title: Connect to a cloud server with Filezilla by using SFTP
 type: article

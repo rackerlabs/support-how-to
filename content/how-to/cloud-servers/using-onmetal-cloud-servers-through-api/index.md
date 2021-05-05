@@ -1,5 +1,5 @@
 ---
-permalink: using-onmetal-cloud-servers-through-api/
+permalink: using-onmetal-cloud-servers-through-api
 audit_date: '2020-10-01'
 title: Manage OnMetal Cloud Servers through the API
 type: article
