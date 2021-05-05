@@ -45,7 +45,7 @@ Before you create a new article or make edits to an existing one, create a
 
 2. In the pop-up box, select your personal GitHub account.
 
-A personal copy of the How-To repository is created in your GitHub account. You
+Github creates a personal copy of the How-To repository in your GitHub account. You
 can access your fork by going to the [GitHub home page](https://github.com) and
 selecting **support-how-to** under **Your repositories**.
 
@@ -75,8 +75,8 @@ one, or suggest edits via an issue.
 
 #### Create an article
 
-**Important**: Before creating an article, make sure that the product or service
-you describe is supported by a Rackspace Technology Team. We cannot publish or
+**Important**: Before creating an article, make sure that a Rackspace Technology
+team supports the product or service you describe. We cannot publish or
 maintain articles without available subject matter experts to validate the content.
 
 Use the following steps to create a new article within a product folder of the
@@ -116,7 +116,7 @@ Use the following steps to create a new article within a product folder of the
 
 4. Write your article in Markdown in the **index.md** file. Find Markdown guidelines at
    [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-   Add your name in the *created\_by* line in the meta data. Also, update the *product* and *product_url* entries.
+   Add your name in the *created\_by* line in the metadata. Also, update the *product* and *product_url* entries.
    This content is the same for all articles within a product, so you can copy the lines from any article for your product.
    
    **Note:** If your article includes images, add the image to your article
@@ -169,8 +169,8 @@ Use the following steps to create a new article within a product folder of the
    ``#how-to`` channel in Slack.
 
 The Content Services team will review your PR. Depending on the review feedback,
-you might be asked to make additional changes. The How-To editorial team will
-merge your pull request after we review your contribution.
+you might need to make additional changes. The How-To editorial team merges
+your pull request after we review your contribution.
 
 #### Edit an article
 
@@ -187,18 +187,18 @@ Follow these steps to edit an existing article within a product folder of the
 
 4. Make any edits to the article directly through the GitHub website.
 
-    **Note:** If you are using a desktop client or the command line, and you
+    **Note:** If you are using a desktop client or the command line and
     are forking or cloning the repository, be sure to make your changes in a new
     branch. Doing so ensures that you are producing a pull request (PR) rather
     than committing changes directly to the master.
 
-5. At the bottom of the page, in the **Commit changes**section, add a title for your change.
+5. At the bottom of the page, in the **Commit changes** section, add a title for your change.
    
 6. Accept the default branch name or make a new one and click **Commit changes**.
 
 7. `base` should default to `master` and `compare` should default to `{your-branch}`.
 
-   If the settings are not correct, use the drop down menus to select the correct
+   If the settings are not correct, use the drop-down menus to select the appropriate
    settings. The fork menus might not be present.
 
 8. Describe the changes that you made in a PR message.
@@ -209,9 +209,9 @@ Follow these steps to edit an existing article within a product folder of the
     For example, "Add a paragraph about... ."
     - If you make a complex edit, explain why you are making the edit in the
     larger box under **Commit changes**. For example, if you are changing the
-    formatting of an article because a list should be ordered instead of unordered,
+    formatting of an article because you want an ordered list instead of an unordered one,
     say, "Switch list in middle of article to ordered to show clear progression
-    of steps".
+    of steps."
 
 9. Click **Create pull request**.
 
@@ -225,12 +225,12 @@ Follow these steps to edit an existing article within a product folder of the
     ``#how-to`` channel in Slack.
 
 The Content Services team will review your PR. Depending on the review feedback,
-you might be asked to make additional changes. The How-To editorial team will
-merge your pull request after we review your contribution.
+you might need to make additional changes. The How-To editorial team
+merges your pull request after we review your contribution.
 
 #### Make a change to a PR
 
-You might be asked by a member of the editorial team to update your PR. Use the following
+A member of the editorial team might ask you to update your PR. Use the following
 steps to make an update to your PR from the GitHub GUI, not your local copy:
 
 1. Go to the [Rackspace How-To content folder](https://github.com/rackerlabs/support-how-to/tree/master/content/how-to)
@@ -252,7 +252,7 @@ then click **Commit changes**.
 8. Request reviews of your PR from the Information Development team in the
 ``#how-to`` channel in Slack.
 
-The How-To team will comment on the PR if any more changes need to be made.
+The How-To team will comment on the PR if you need to make any more changes.
 
 #### Request an article change
 
@@ -275,7 +275,7 @@ To redirect an article to a different article (or to the same article with a new
 
 1. Either in your local How-To repository clone or in the GitHub GUI, edit **support-how-to/static/\_redirects**.
 
-2. In the **Individual Redirects** section, add a `301` and a `404` line similar to the following example:
+2. In the **Individual Redirects** section, add a `404` and a `301` line similar to the following example:
 
        /support/how-to/supported-features/  /how-to/cloudflare-supported-features/  404
        /how-to/cloudflare-supported-features/  /support/how-to/cloudflare-supported-features/  301
@@ -286,19 +286,19 @@ After the pull request is ready, post a link in the #how-to slack channel for re
 
 ### Writing guidelines
 
-Use the following general writing guidelines, which are described in detail in
-[style-guidelines.md](style-guidelines.md):
+Use the following general writing guidelines, which the
+[style-guidelines.md](style-guidelines.md) document describes in detail:
 
-- Use sentence-style capitalization for titles and headings
-- Use active voice
-- Use present tense
-- Write to the user by using second person and imperative mood
-- Write clear and consistent step text
-- Use consistent text formatting
-- Clarify pronouns such as *it*, *this*, *there*, and *that*
-- Clarify gerunds and participles
-- Write clear and consistent code examples
-- Use consistent terminology
+- Use sentence-style capitalization for titles and headings.
+- Use active voice.
+- Use present tense.
+- Write to the user by using second person and imperative mood.
+- Write clear and consistent step text.
+- Use consistent text formatting.
+- Clarify pronouns such as *it*, *this*, *there*, and *that*.
+- Clarify gerunds and participles.
+- Write clear and consistent code examples.
+- Use consistent terminology.
 
 Following are some specific guidelines for How-To content:
 

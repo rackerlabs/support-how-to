@@ -32,5 +32,5 @@ easy-to-use control panel, for a Fanatical Experience&trade; from day one.
 
 ###  Cloud Files API and developer guides
 
-- [Cloud Files API Getting Started Guide](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/#getting-started)
-- [Cloud Files Developer Guide](https://docs.rackspace.com/docs/cloud-files/v1/developer-guide/#document-developer-guide)
+- [Cloud Files API Getting Started Guide](https://docs.rackspace.com/docs/cloud-files/v1/getting-started/)
+- [Cloud Files Developer Guide](https://docs.rackspace.com/docs/cloud-files/v1/)

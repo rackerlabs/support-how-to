@@ -1,7 +1,7 @@
 ---
 permalink: cloud-files-uploading-large-files
 audit_date: '2021-04-16'
-title: "Cloud Files: Uploading large files"
+title: 'Cloud Files: Uploading large files'
 type: article
 created_date: '2012-03-06'
 created_by: Rackspace Support

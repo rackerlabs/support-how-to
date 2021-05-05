@@ -1,8 +1,8 @@
 ---
-permalink: "sjc2-data-center-relocation"
+permalink: sjc2-data-center-relocation/
 audit_date: '2020-11-16'
 type: article
-title: "SJC2 data center relocation"
+title: SJC2 data center relocation
 created_date: '2020-11-16'
 created_by: Sarah Wellburn
 last_modified_date: '2020-11-16'
@@ -11,7 +11,7 @@ product: General
 product_url: general
 ---
 
-### Overview 
+### Overview
 
 Rackspace Technology brought the SJC2 data center, located in downtown San Jose,
 under the Rackspace banner with the Datapipe acquisition in 2017. It is a nine MW
@@ -27,7 +27,7 @@ infrastructure. If you are a colocation customer, request a copy or see the
 [SJC2 data center relocation colocation customer FAQ](/support/how-to/sjc2-data-center-relocation-colocation-customer-faq).
 
 
-### When is the relocation expected to take place? 
+### When is the relocation expected to take place?
 
 Rackspace assigns all customers on managed infrastructure to a move group and
 allocates each group a move date between June and August 2021. The scheduled
@@ -74,7 +74,7 @@ stages for the move are as follows:
   any custom testing that all parties agreed to before the maintenance. You
   should also be prepared to carry out tests after the move completes. You can
   request that we contact you after we finish our tests.
-  
+
 ### Will there be any IP changes?
 
 In most cases, we don't need to change public IP addresses. In rare situations
@@ -95,7 +95,7 @@ As part of this migration, we switch from NetBackup to Commvault-managed backup 
 Before the migration, we notify you of our intention to install the Commvault agent on all
 backed-up servers. The installation of the agent is non-disruptive. However, in some cases,
 we will need to reboot the device. We will not reboot any servers without your permission.
-Our goal is to have your backups running on Commvault before the migration. 
+Our goal is to have your backups running on Commvault before the migration.
 
 ### My environment is sensitive to the way it is handled during a shutdown and start up. Can you help?
 
@@ -107,7 +107,7 @@ start-up order could extend the downtime you experience. If you prefer to
 shut down your devices or want to start them, we can agree to this in advance
 of the move.
 
-### My data is replicated to another location. How will the migration affect the replication? 
+### My data is replicated to another location. How will the migration affect the replication?
 
 It depends on the replication method that you have set up. We recommend that
 you tell us about any replication or log shipping so we can work with you to
@@ -135,7 +135,7 @@ We create the following tickets in the customer portal:
 4. On the move night, we create a ticket to keep you updated during the
    maintenance window.
 
-### What if I need to make changes to my environment between now and the move date? 
+### What if I need to make changes to my environment between now and the move date?
 
 Approximately one month out from your move date, we perform a non-intrusive
 audit on your environment and then again two weeks later. After we run the
@@ -160,7 +160,7 @@ This team runs audits on your servers before the migration to identify and
 resolve potential migration issues in advance. Ensure that you work with the
 migration team and your account team to resolve any issues in a timely manner.
 If the identified issues are not resolved, we might have to perform a manual
-shutdown in advance of the official maintenance window start time. It could also cause 
+shutdown in advance of the official maintenance window start time. It could also cause
 issues with bringing the environment back online, causing us to overrun the maintenance
 window.
 
@@ -189,14 +189,14 @@ night:
   of this, raise a request through the customer portal.
 
 
-### Will I continue to receive the same services as I currently receive? 
+### Will I continue to receive the same services as I currently receive?
 
-Yes, you will continue to receive the same services, except for managed backup services, 
+Yes, you will continue to receive the same services, except for managed backup services,
 as described in the
 **My environment is backed up using Rackspace’s backup service. Will this continue after the migration?**
 section.
 
-### We have a leased line that terminates in SJC2. What happens to this? 
+### We have a leased line that terminates in SJC2. What happens to this?
 
 If Rackspace provided the leased line, we take care of this and work with you
 to schedule the change. If not, you must work with your leased line provider to
@@ -208,19 +208,19 @@ relating to the new data center details that your telecoms provider will require
 Some customers might decide to take this as an opportunity to review the need for a
 traditional dedicated link and consider alternative options. The Rackspace RackConnect
 Global (RCG) product is one such product that might suit your needs. If you want more
-information on the RCG product please contact your Customer Success Manager. 
+information on the RCG product please contact your Customer Success Manager.
 
-### Will there be any changes to DNS? 
- 
+### Will there be any changes to DNS?
+
 Yes. As part of the migration, we will move from the legacy Datapipe DNS service to the
 Rackspace DNS service. We are decommissioning the legacy Datapipe DNS servers. During the
 migration event, Rackspace replaces the legacy Datapipe DNS entries with the new Rackspace
 DNS entries on any devices that we can access and directly support. You need to change servers
 that Rackspace does not support or access. We can provide the necessary information before the
-migration event in a ticket in DP1. 
- 
-### Will there be any other configuration changes? 
- 
+migration event in a ticket in DP1.
+
+### Will there be any other configuration changes?
+
 Potentially, yes. VLAN ID tags might need to change if there is an overlap between the VLAN ID
 tags used in the source data center and those in the destination data center. Rackspace makes
 these changes during the migration for the devices to which we have access. For devices that
@@ -230,6 +230,5 @@ we can't access, Rackspace provides you with the information to make the necessa
 
 Contact us in one of the following ways:
 
-- Reach out to your Rackspace account team 
-- Update one of the ticket notifications that we will publish in the Customer Portal. 
-
+- Reach out to your Rackspace account team
+- Update one of the ticket notifications that we will publish in the Customer Portal.

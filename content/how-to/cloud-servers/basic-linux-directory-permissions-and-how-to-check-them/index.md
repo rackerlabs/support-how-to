@@ -133,9 +133,7 @@ rwx | r-x | r\-\-
 -|-|-
 The first part, User Owner permissions | The second part, Group Owner permissions | The third part, Other permissions
 read, write, execute | read, execute | read
-
-This user can do anything | This user can look at and execute the file. But not
-modify it | This user can only look at it
+This user can do anything | This user can look at and execute the file. But not modify it | This user can only look at it
 
 The following image provides an easy way to visualize this:
 
