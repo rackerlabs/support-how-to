@@ -11,13 +11,12 @@ product: Account Management
 product_url: account-management
 ---
 
-Uaing this guide administrators can get started with
-Role-Based Access Control (RBAC) and to answer questions about the
-service.
+Administrators can use this collection of articles to get started with
+Role-Based Access Control (RBAC) and learn about the service.
 
 ### Overview
 
-[Learning about Role Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac)
+[Learning about Role-Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac)
 
 ### Managing RBAC
 
@@ -53,4 +52,4 @@ service.
 
 ### Next section
 
-[Learning about Role Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac)
+[Learning about Role-Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac)
