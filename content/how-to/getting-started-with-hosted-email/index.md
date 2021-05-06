@@ -5,8 +5,8 @@ title: Getting started with Rackspace Hosted Email
 type: article
 created_date: '2019-09-23'
 created_by: Rackspace Support
-last_modified_date: '2020-02-27'
-last_modified_by: James Gentry
+last_modified_date: '2021-05-05'
+last_modified_by: Rose Morales
 product: Getting Started with Hosted Email
 product_url: getting-started-with-rackspace-hosted-email
 ---

@@ -5,8 +5,8 @@ title: Getting started with Rackspace Public Cloud
 type: article
 created_date: '2019-08-15'
 created_by: Rackspace Support
-last_modified_date: '2019-08-30'
-last_modified_by: William Loy
+last_modified_date: '2021-05-05'
+last_modified_by: Rose Morales
 product: Getting Started with Public Cloud
 product_url: getting-started-with-public-cloud
 ---

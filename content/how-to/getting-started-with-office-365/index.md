@@ -5,8 +5,8 @@ title: Getting started with Office 365
 type: article
 created_date: '2019-11-27'
 created_by: Walter Stubbs
-last_modified_date: '2020-06-05'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-05-05'
+last_modified_by: Rose Morales
 product: Getting Started with Office 365
 product_url: office-365
 ---
