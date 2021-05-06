@@ -5,8 +5,8 @@ title: Getting started with Rackspace Intelligence for the cloud
 type: article
 created_date: '2015-10-20'
 created_by: Constanze Kratel
-last_modified_date: '2018-11-01'
-last_modified_by: Kate Dougherty
+last_modified_date: '2021-05-05'
+last_modified_by: Rose Morales
 product: Rackspace Intelligence
 product_url: rackspace-intelligence
 ---
@@ -16,7 +16,7 @@ account. If you have a dedicated account, see
 [Getting started with Rackspace Intelligence for dedicated
 accounts](/support/how-to/getting-started-with-rackspace-intelligence-for-dedicated-accounts).
 
-Rackspace Intelligence provides a *dashboard* that shows actionable insights
+Rackspace Intelligence provides a dashboard that shows actionable insights
 into the health of your infrastructure. You can use these insights to improve
 your system's performance and availability.
 
@@ -25,7 +25,7 @@ kinds of entities:
 
 -   Rackspace cloud servers
 -   Rackspace cloud databases
--   Rackspace or an another service might host other entities
+-   Rackspace or another service's hosted entities
 
 Rackspace Intelligence can gather and act on only the information that is
 available to it. For example, if you define a website hosted outside of
@@ -39,8 +39,8 @@ Use the following steps to access Rackspace Intelligence:
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
 
    If your account requires it, you might need to perform
-   additional steps to set up [Multi-factor authentication from the Cloud Control
-   Panel](/support/how-to/multi-factor-authentication-from-the-cloud-control-panel).
+   additional steps to set up [Multifactor authentication from the Cloud Control
+   Panel](/support/how-to/multifactor-authentication-from-the-cloud-control-panel/).
 
 2. In the top navigation bar, click **Select a Product > Rackspace
    Intelligence**.
@@ -55,7 +55,7 @@ vocabulary](/support/how-to/learning-the-rackspace-intelligence-vocabulary).
 
 ### Explore the Rackspace Intelligence dashboard
 
-Actions that you can perform in the user interface are grouped into four
+The dashboard groups actions you can perform in the user interface into four
 sections: **Monitor**, **Alert**, **Suppress**, and **Visualize**. Within
 each section, you can view details about the action. For more information, see
 [Understanding the Rackspace Intelligence user
@@ -69,8 +69,7 @@ Intelligence can give you deeper insights about an entity if you
 configure that entity to provide more information. For
 suggestions on steps that you can take to maximize the information
 available to Rackspace Intelligence, see [Preparing to use
-Rackspace
-Intelligence](/support/how-to/preparing-to-use-rackspace-intelligence).
+Rackspace Intelligence](/support/how-to/preparing-to-use-rackspace-intelligence).
 
 ### Manage how Rackspace Intelligence monitors your infrastructure
 
@@ -115,19 +114,19 @@ Rackspace Intelligence to trigger alarms.
 
 Depending on the [notification
 plans](/support/how-to/working-with-rackspace-intelligence-notification-plans)
-you have defined, appropriate communications and actions might have
-already occurred in response to these alerts. Examine the list directly to
+you have defined, the system might already have sent appropriate communications
+and taken actions in response to these alerts. Examine the list directly to
 investigate infrastructure status in context whether or not the system automatically
 [notified](/support/how-to/working-with-notifications-in-rackspace-intelligence)
 you about status changes.
 
 ### Change how Rackspace Intelligence communicates its findings
 
-You can manage your status change notification process, as well as which
+You can manage your status change notification process and select which
 notifications the system suppresses.
 
 You can also examine a log to investigate the changes that occurred while
-notifications were suppressed.
+the system suppressed notifications.
 
 #### Report infrastructure status
 
@@ -149,7 +148,8 @@ status change, perform the following actions:
 #### Suppress reporting of infrastructure status
 
 Rackspace Intelligence enables you to [suppress
-notifications](/support/how-to/work-with-notification-suppressions-in-rackspace-intelligence) when notifications are temporarily inappropriate, such as during
+notifications](/support/how-to/work-with-notification-suppressions-in-rackspace-intelligence)
+when notifications are temporarily inappropriate, such as during
 scheduled maintenance activity.
 
 #### Examine the suppression log
