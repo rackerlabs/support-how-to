@@ -1,18 +1,17 @@
 ---
 permalink: elliptic-curve-operations
-audit_date:
+audit_date: '2021-05-07'
 title: Command-line Elliptic Curve operations
 type: article
 created_date: '2019-11-01'
 created_by: Shaun Crumpler
-last_modified_date: '2019-11-01'
-last_modified_by: Catherine Richardson
+last_modified_date: '2021-05-07'
+last_modified_by: Ana Corpus
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-OpenSSL&reg; provides the following command-line tools for working with keys
-suitable for Elliptic Curve (EC) Cryptography algorithms:
+OpenSSL&reg; provides the following command-line tools to work with keys suitable for Elliptic Curve (EC) Cryptography algorithms:
 
 -  `openssl ecparam`
 -  `openssl ec`
@@ -20,19 +19,16 @@ suitable for Elliptic Curve (EC) Cryptography algorithms:
 Currently, OpenSSL supports the following EC algorithms:
 
  -  Elliptic Curve Diffie Hellman (ECDH) for key agreement
- -  Elliptic Curve Digital Signature Algorithm (ECDSA) for signing/verifying
+ -  Elliptic Curve Digital Signature Algorithm (ECDSA) for signing and verifying
 
-`x25519`, `ed25519`, and `ed448` aren't standard EC curves, so you can't use
-`ecparams` or `ec` subcommands to work with them. If you need to generate
-`x25519` or `ed25519` keys, see the `genpkey` subcommand.
-
+`ecparams` and `ec` do not support the `x25519`, `ed25519`, and `ed448` curves. See
+the `genpkey` subcommand for information about those curves.
 
 ### EC private key file formats
 
-By default, OpenSSL works with Privacy Enhanced Mail (PEM) files for storing
-EC private keys. These text files contain base-64 encoded data. A traditional
-format private key file in PEM format looks similar to the
-following example in a file with a `.pem` extension:
+OpenSSL uses Privacy Enhanced Mail (PEM) files to  store EC private keys by 
+default. These files contain base-64 encoded data and use the **.pem**
+extension. The following example shows a private key file in PEM format.
 
     -----BEGIN EC PRIVATE KEY-----
     MIIBIAIBAQQYd8yhaE899FaH3sw8aD4F/vtpMVBLfVqmoIHKMIHHAgEBMCQGByqG
@@ -45,7 +41,7 @@ following example in a file with a `.pem` extension:
     -----END EC PRIVATE KEY-----
 
 
-In an encrypted form, the example is similar to this:
+The following example shows an encrypted private key file in PEM format.
 
 
     -----BEGIN EC PRIVATE KEY-----<br/>
@@ -61,8 +57,8 @@ In an encrypted form, the example is similar to this:
     kDny2v3D8sU=
     -----END EC PRIVATE KEY-----
 
-You might also encounter Public Key Crytography Standard 8 (PKCS8) format
-private keys in PEM files, which looks similar to the following example:
+The following example shows a private key file that uses the Public 
+Key Cryptography Standard 8 (PKCS8) in PEM format.
 
     -----BEGIN PRIVATE KEY-----
     MIIBMAIBADCB0wYHKoZIzj0CATCBxwIBATAkBgcqhkjOPQEBAhkA////////////
@@ -75,7 +71,7 @@ private keys in PEM files, which looks similar to the following example:
     -----END PRIVATE KEY-----
 
 
-In an encrypted form, the example is similar to this:
+The following example shows an encrypted PKCS8 private key file in PEM format:
 
 
     -----BEGIN ENCRYPTED PRIVATE KEY-----
@@ -90,66 +86,61 @@ In an encrypted form, the example is similar to this:
     -----END ENCRYPTED PRIVATE KEY-----
 
 
-PKCS8 private key files are capable of holding many different types of private
-keys&mdash;not just EC keys.
+PKCS8 private key files support different private keys types, apart from the EC keys.
+You can convert the files to use different private key types and set them as *encrypted*
+or *unencrypted*. 
 
-You can convert between these formats if you like. All of the conversion
-commands can read either the encrypted or unencrypted forms of the files.
-However, you must specify whether you want the output to be encrypted or not.
-To convert a PKCS8 file to a traditional encrypted EC format, use the following
-command:
+Use the following command to convert a PKCS8 file to a traditional encrypted EC key file:
 
 `openssl ec -aes-128-cbc -in p8file.pem -out tradfile.pem`
 
-You can replace the first argument `aes-128-cbc` with any other valid
-OpenSSL cipher name. (See the [OpenSSL documentation](https://wiki.openssl.org/index.php/Main_Page#Reference) for a list of valid cipher names.)
+Replace argument `-aes-128-cbc` with any other valid OpenSSL cipher name. (See the
+[OpenSSL documentation](https://wiki.openssl.org/index.php/Main_Page#Reference)
+for a list of valid cipher names.)
 
-To convert a PKCS8 file to a traditional unencrypted EC format,  drop the
-first argument:
+Use the following command to convert a PKCS8 file to a traditional unencrypted EC key file:
 
 `openssl ec -in p8file.pem -out tradfile.pem`
 
-To convert from a traditional EC format to an encrypted PKCS8 format, use the
-following command:
+Use the following command to convert an EC key file to encrypted PKCS8 format:
 
 `openssl pkcs8 -topk8 -in tradfile.pem -out p8file.pem`
 
-To convert to a non-encrypted PKCS8 format, use the following command:
+Use the following command to convert an EC key file to unencrypted PKCS8 format:
 
 `openssl pkcs8 -topk8 -nocrypt -in tradfile.pem -out p8file.pem`
 
-**Note**: By default,  the traditional format EC private key files are not
-encrypted. You have to explicitly state that the file should be encrypted and
-specify the cipher to use. The opposite is true for PKCS8 files. The default
-is to encrypt. You have to explicitly state that you do not want encryption
-applied by using the `-nocrypt` option.
+**Note**: The EC private key files are not encrypted by default. You must
+explicitly set the file to encrypted and specify the cipher algorithm. The
+PKCS8 files are encrypted by default. Use the `-nocrypt` option to set the 
+file to unencrypted.
 
-In addition to PEM format, all of the types of key files shown above can also
-be stored in DER format. DER format is a binary format and is not directly
-human-readable&mdash;unlike a PEM file. A PEM file is essentially DER data
-encoded by using base 64 encoding rules, with a header and footer added.
-PEM files are often more convenient to work with for this reason.
+A PEM file is DER data encoded by using base 64 encoding rules, with a header 
+and footer. PEM files are human-readable, so they are more convenient to use.
+However, you can store all the files shown above in DER format. DER format 
+is a binary format, and unlike a PEM file, it is not human-readable. 
 
-The openssl commands typically have options `-inform DER` or
-`-outform DER` to specify that the input or output file is DER. For example,
-the command to convert a PKCS8 file to a traditional encrypted EC format in
-DER is the same as above, but with the addition of `-outform DER`, as shown
-in the following example:
+Most `openssl` commands have options `-inform DER` and `-outform DER`.
+`-inform DER` specifies that the input file is DER, and `-outform DER`
+specifies that the output file is DER.
+
+Use the following command to convert the PKCS8 format to a traditional
+encrypted EC key in DER format.
 
 `openssl ec -in p8file.pem -outform DER -out tradfile.der`
 
-**Note**: You cannot encrypt a traditional format EC private key in DER
-format. If you attempt to do so, the argument is silently ignored. The
-same is not true for PKCS8 files. These files can still be encrypted even in
-DER format. For example, the following example converts a traditional format
-key file to an encrypted PKCS8 format DER-encoded key:
+You cannot encrypt a traditional EC private key file in DER format. If
+you attempt to do so, the command silently ignores the argument. However,
+you can encrypt PKS8 files in DER format. 
+
+Use the following command to convert a traditional EC key file to encrypted PKCS8 in DER format:
 
 `openssl pkcs8 -topk8 -in tradfile.pem -outform DER -out p8file.der`
 
 ### EC public key file formats
 
-EC public keys are also stored in PEM files. A typical EC public key looks
-like the following example:
+PEM format supports several types of public keys in OpenSSL. The following
+file shows EC public keys in PEM format. 
 
 
     -----BEGIN PUBLIC KEY-----
@@ -158,70 +149,62 @@ like the following example:
     -----END PUBLIC KEY-----
 
 
-This format is used to store all types of public keys in OpenSSL, not just EC
-keys.
-
-It is possible to create a public key file from a private key file, although  
-not the other way around, as shown in the following example:
+Use the following command to create a public key file from a private key file
+in PEM format. Note that it is not possible to create a private key file from
+a public key file.
 
 `openssl ec -in ecprivkey.pem -pubout -out ecpubkey.pem`
 
-As above, a DER-encoded version can be created using "-outform DER" by using
-the following command:
+Use the following command to create a public key file from a private key file in DER format:
 
 `openssl ec -in ecprivkey.pem -pubout -outform DER -out ecpubkey.der`
 
 ### Generating EC keys and parameters
 
-An EC parameters file contains all of the information necessary to define an
-elliptic curve that you can then use for cryptographic operations (for OpenSSL,
-this means ECDH and ECDSA). OpenSSL contains a large set of predefined curves
-that you can use. You can obtain the full list of built-in curves by using the
-following command:
+The EC parameters file contains all the information necessary to define an
+elliptic curve for cryptographic operations. OpenSSL uses ECDH and ECDSA
+algorithms. Use the following command to obtain a list of built-in curves:
 
 `openssl ecparam -list_curves`
 
-You can generate an EC parameters file for any of the built-in named curves
-by using the following command:
+Use the following command to generate an EC parameters file of curve `secp256k1`:
 
 `openssl ecparam -name secp256k1 -out secp256k1.pem`
 
-Replace `secp256k1` with whichever curve you are interested in.
+Replace `secp256k1` with any other name obtained from the `openssl ecparam -list_curves` command.
 
-You can generate keys by using the `ecparam` command, either through a
-pre-existing parameters file or directly by selecting the name of the curve.
-To generate a private/public key pair from a pre-existing parameters file, use
-the following command:
+You can generate keys by using the `ecparam` command, either by using a
+pre-existing parameters file or by using the name of the curve. Use the
+following command to generate a private/public key pair from a parameters file:
 
 `openssl ecparam -in secp256k1.pem -genkey -noout -out secp256k1-key.pem`
 
-To do the equivalent operation without a parameters file, use the following:
+Use the following command to generate a private/public key pair from the name of the curve:
 
 `openssl ecparam -name secp256k1 -genkey -noout -out secp256k1-key.pem`
 
-Information on the parameters used to generate the key are embedded in the key
-file itself.
-
-By default, when creating a parameters file or generating a key, OpenSSL only
-stores the name of the curve in the generated parameters file or key file, not
-the full set of explicit parameters associated with that name. For example:
+The key file has the information of the parameters used to generate the key
+embedded. OpenSSL stores the name of the curve in the parameters file or the
+key file. It does not explicitly store the full set of parameters associated
+with the name by default. Use the following command to confirm the name of
+the curve in the parameters file:
 
 `openssl ecparam -in secp256k1.pem -text -noout`
 
-This command simply confirms the name of the curve in the parameters file by
-printing the following:
+Example output:
 
 `ASN1 OID: secp256k1`
 
-If you want to examine the specific details of the parameters associated with
-a particular-named curve, you can achieve this by using the following command:
+Use the following command to list parameter details from a parameters file:
 
 `openssl ecparam -in secp256k1.pem -text -param_enc explicit -noout`
 
-The command shows the details for a built-in named curve from a file, but you
-can also do directly by using the `-name` argument instead of `-in`. The
-output looks similar to the following:
+Use the following command to list parameter details from the name of a curve,
+substituting the name of the curve accordingly:
 
+`openssl ecparam -name secp256k1 -text -param_enc explicit -noout`
+
+Example output:
 
     Field Type: prime-field
     Prime:
@@ -243,13 +226,12 @@ output looks similar to the following:
     Cofactor:  1 (0x1)
 
 
-You can generate parameters and key files to include the full explicit
-parameters instead of just the name of the curve if desired. This might be
-important if, for example, not all the target systems know the details of the
-named curve. OpenSSL version 1.0.2 added new named curves such
-as **brainpool512t1**. Attempting to use a parameters file or key file in versions
-of OpenSSL earlier than 1.0.2 with this curve results in the following error:
-
+You can generate parameter files and key files that explicitly include the
+full set of parameters instead of just the name of the curve. This is important
+when some target systems don't *know* the details of the curve. OpenSSL version
+1.0.2 added new curves, such as `brainpool512t1`. Earlier versions of OpenSSL
+that use a parameter file or key file configured with `brainpool512t1` result
+in the following error:
 
     bash$ openssl ecparam -in brainpoolP512t1.pem -text -noout
     unable to load elliptic curve parameters
@@ -257,13 +239,12 @@ of OpenSSL earlier than 1.0.2 with this curve results in the following error:
     140138321110720:error:1009107F:elliptic curve routines:d2i_ECPKParameters:pkparameters2group failure:ec_asn1.c:1080:
     140138321110720:error:0906700D:PEM routines:PEM_ASN1_read_bio:ASN1 lib:pem_oth.c:83:
 
-
-To avoid this problem, use explicit parameters instead. When you
-use OpenSSL 1.0.2, you can create a parameters file like this:
+Use explicit parameters to avoid this problem, as shown in the following
+command with OpenSSL 1.0.2:
 
 `openssl ecparam -name brainpoolP512t1 -out brainpoolP512t1.pem -param_enc explicit`
 
-If you look at the parameters file, you notice that it is much longer:
+The command yields a longer parameters file with all the parameters.
 
     -----BEGIN EC PARAMETERS-----
     MIIBogIBATBMBgcqhkjOPQEBAkEAqt2duNvpxIs/1OauM8n8B8swjbOzydIO1mOc
@@ -277,31 +258,29 @@ If you look at the parameters file, you notice that it is much longer:
     MwhwVT5cQUypJhlBhmEZf6wQRx2x04EIXdrdtYeWgpypAGkCAQE=
     -----END EC PARAMETERS-----
 
-
-The full parameters are included rather than just the name. This can now be
-processed by versions of OpenSSL earlier than 1.0.2. Using 1.0.1, use this
-command:
+Earlier versions of OpenSSL can process the parameters file. Use the
+following command in OpenSSL version 1.0.1:
 
 `openssl ecparam -in brainpoolP512t1.pem -text -noout`
 
-This correctly displays the parameters, even though this version of OpenSSL
-does not know about this curve.
+OpenSSL version 1.0.1. displays the parameters even if it doesn't know
+the curve.
 
-The same is true of key files. To generate a key with explicit parameters, use
-the following:
+Use the following command to generate a key file with explicit parameters:
 
 `openssl ecparam -name brainpoolP512t1 -genkey -noout -out brainpoolP512t1-key.pem -param_enc explicit`
 
-This key file can now be processed by versions of OpenSSL that do not know
-about the brainpool curve.
+Earlier versions of OpenSSL can process the key file you obtain.
 
-**Note**: After the parameters have been converted from the curve name format
-into explicit parameters, you cannot change them back again. There
-is no utility to take a set of explicit parameters and work out which named
-curve they are associated with.
+**Note**: After the parameters change to explicit parameters, don't
+revert the changes. There is no utility to find which explicit parameters
+correspond to a curve.
 
-### See also
+### References
 
 -  [Elliptic Curve Cryptography](https://wiki.openssl.org/index.php/Elliptic_Curve_Cryptography)
 -  [Elliptic Curve Diffie Hellman](https://wiki.openssl.org/index.php/Elliptic_Curve_Diffie_Hellman)
 -  [Command Line Utilities](https://wiki.openssl.org/index.php/Command_Line_Utilities)
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/).
