@@ -12,7 +12,7 @@ product_url: cloud-servers
 ---
 
 Implementing SSL termination on a load balancer enables multiple servers to receive both encrypted and unencrypted traffic.
-For Apache&reg; web server nodes to distinguish between the two, you need to filter the `X-Forwarded-Proto` HTTP header 
+If you want Apache&reg; web server nodes to distinguish between the two, you need to filter the `X-Forwarded-Proto` HTTP header 
 by using the `RequestHeader` directive in the protocol’s respective `VirtualHost` block, as shown in the following example:
 
     <VirtualHost *:80>
