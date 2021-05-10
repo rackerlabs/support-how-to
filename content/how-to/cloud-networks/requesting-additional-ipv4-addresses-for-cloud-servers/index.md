@@ -1,44 +1,42 @@
 ---
 permalink: requesting-additional-ipv4-addresses-for-cloud-servers
-audit_date:
+audit_date: '2021-05-10'
 title: Requesting additional IPv4 addresses for Cloud Servers
 type: article
 created_date: '2011-08-08'
 created_by: Rackspace Support
-last_modified_date: '2020-12-15'
+last_modified_date: '2021-05-10'
 last_modified_by: Rose Morales
 product: Cloud Networks
 product_url: cloud-networks
 ---
 
 Rackspace offers the ability to add IPv4 addresses to cloud servers for a fee.
-If you want to obtain an additional IPv4 address for your server, you must open
+If you want to obtain and extra IPv4 address for your server, you must open
 a ticket through the Support section of the Cloud Control Panel to get policy
 information and approval. Before opening a ticket, read this article for
 necessary information and alternatives.
 
 ### Conditions
 
-Because of the global shortage of IPv4 address space, Rackspace currently offers
-additional IPv4 addresses for only the following purposes:
+Because of the global shortage of IPv4 address space, Rackspace offers IPv4
+addresses for the following purposes:
 
-- SSL on cloud servers
-- NAT (Network Address Translation) on a Brocade Vyatta vRouter or a Fortinet Firewall
+- Cloud server SSL's
+- NAT (Network Address Translation) on a Fortinet Fortigate Firewall
 
-**Note:** You can allocate no more than five additional IPv4 addresses to a
-single cloud server or Brocade Vyatta vRouter. Thus each cloud server or Brocade
-Vyatta vRouter has a maximum capacity of six IPv4 addresses, including the
-originally assigned public IPv4 address.
+**Note:** Each cloud server or Fortinet Fortigate has a maximum capacity of 5
+IPv4 addresses, including the originally assigned public IPv4 address.
 
 ### Pricing
 
-The rates for additional IPv4 addresses vary by region. Discuss rates for your
+Rates for additional IPv4 addresses vary by region. Discuss rates for your
 region with the Support team during your setup.
 
-### Information needed for additional IPv4 addresses
+### Information needed
 
-After approval for an additional IPv4 address, you should
-provide the following information.
+After approval for an IPv4 address, you should provide the following
+information.
 
 #### Cloud servers
 
@@ -49,10 +47,9 @@ information:
 - The SSL certificate. A valid Certificate Authority must have signed
   the certificate; self-signed certificates are not accepted.
 
-#### Brocade Vyatta vRouters or Fortinet Firewalls
+#### Fortinet Fortigate Firewalls
 
-For an additional IPv4 address on a Brocade Vyatta vRouter or Fortinet Firewall,
-you must confirm that you intend to use the additional IPv4 address for the
+You must confirm that you intend to use the additional IPv4 address for the
 purpose of NAT.
 
 ### Alternatives to obtaining additional IPv4 addresses
