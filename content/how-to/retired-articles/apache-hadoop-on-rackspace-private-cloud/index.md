@@ -5,10 +5,8 @@ title: Using Apache Hadoop on Rackspace Private Cloud
 type: article
 created_date: '2013-01-24'
 created_by: Alyssa Hurtgen
-last_modified_date: '2020-09-21'
-last_modified_by: Cat Lookabaugh
-product: Rackspace Private Cloud Powered by OpenStack
-product_url: rpc-openstack
+last_modified_date: '2021-05-10'
+last_modified_by: Rose Morales
 ---
 
 ### Overview

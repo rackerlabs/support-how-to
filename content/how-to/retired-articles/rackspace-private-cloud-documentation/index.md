@@ -5,10 +5,8 @@ title: Rackspace Private Cloud documentation
 type: article
 created_date: '2014-06-16'
 created_by: Karin Levenstein
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
-product: Rackspace Private Cloud Powered by OpenStack
-product_url: rpc-openstack
+last_modified_date: '2021-05-10'
+last_modified_by: Rose Morales
 ---
 
 [Rackspace Private Cloud Powered by
