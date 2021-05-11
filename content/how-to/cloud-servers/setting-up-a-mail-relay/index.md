@@ -1,23 +1,23 @@
 ---
-permalink: setting-up-a-mail-relay
-audit_date:
+permalink: set-up-a-mail-relay
+audit_date:'2021-05-12'
 title: Set up a Mail Relay
 type: article
 created_date: '2011-03-16'
 created_by: Rackspace Support
-last_modified_date: '2019-12-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-05-12'
+last_modified_by: Ana Corpus
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Since IP addresses are dynamically assigned in cloud servers, the IP
+Since IP addresses are dynamically assigned in Cloud Servers, the IP
 space has been declared unfit for email use. This means that major
 blacklist providers have stated that email coming from cloud servers
-should not be accepted. For this reason, email from Cloud Servers may
+should not be accepted. For this reason, email from cloud servers may
 not reliably get through to your intended recipients.
 
-To be able to send email reliably from your server, we recommend you
+To send email reliably from your server, we recommend you
 sign up for a [Rackspace Email account](https://www.rackspace.com/email-hosting),
 or use any email account that allows you to send email via secure SMTP
 authentication. You can then configure your server to send email through
@@ -36,12 +36,12 @@ Mailgun, Mailchimp, or SendGrid.
 For Managed Support customers, you can request support to do this for
 you. All we will need are the email server, the username and the
 password for the account you are going to send the mail to. For our
-other Cloud Servers customer, this article is intended to help you with
+other Cloud Servers customers, this article is intended to help you with
 the basic setup.
 
-### Step by Step
+### Step by step
 
-1. Install postfix and SASL tools
+1. Install postfix and SASL tools.
 
    For RHEL or CentOS:
 
@@ -52,9 +52,9 @@ the basic setup.
         aptitude update
         apt-get install postfix libsasl2-modules
 
-2. Configure Postfix
+2. Configure Postfix.
 
-   Add the following to /etc/postfix/main.cf:
+   Add the following lines to /etc/postfix/main.cf:
 
         relayhost = secure.emailsrvr.com
         smtp_sasl_auth_enable=yes
@@ -63,7 +63,7 @@ the basic setup.
         smtp_sasl_security_options =
 
    Add the Rackspace Email username and password to
-   /etc/postfix/sasl\_passwd by running these commands:
+   **/etc/postfix/sasl\_passwd** by running these commands:
 
         echo 'secure.emailsrvr.com username@domain.com:secretpassword' > /etc/postfix/sasl_passwd
         chmod 600 /etc/postfix/sasl_passwd
@@ -77,3 +77,8 @@ the basic setup.
         Nov 23 10:46:05 web2 postfix/smtp\[1343\]:497F3708AA:to=<customer@someisp.com>,
         relay=secure.emailsrvr.com\[98.129.185.2\]:25, delay=0.31, delays=0.02/0.01/0.19/0.1,
         dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as B5E3D2D0476)
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/).
+
+
