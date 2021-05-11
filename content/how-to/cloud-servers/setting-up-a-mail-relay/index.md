@@ -1,6 +1,6 @@
 ---
 permalink: setting-up-a-mail-relay
-audit_date:'2021-05-12'
+audit_date: '2021-05-12'
 title: 'Set up a Mail Relay'
 type: article
 created_date: '2011-03-16'
