@@ -12,25 +12,25 @@ product_url: cloud-servers
 ---
 
 The Desktop Activity Moderator uses its own driver and service to help increase
-battery efficiency when a laptop screen is on and is designed to ensure
+battery efficiency when a laptop screen is on, ensuring
 consistent, long battery life for devices that support connected standby.
-Connected standby occurs when the device is powered on, but the screen is turned
+Connected standby occurs when you have your device powered on with the screen turned
 off.
 
-**Note**: This feature is not relevant to servers or virtual machines.
+**Note**: This feature does not apply to servers or virtual machines.
 
 ### Procedure
 
 You can change the Service Control Manager configuration to keep this service
-from starting at all.
+from starting.
 
-1. Open a command prompt with administrative privileges on the respective
-   server.
-2. Then, enter the following command:
+1. Open a command prompt with administrative privileges on the device.
+2. Enter the following command:
 
        SC CONFIG "dam" START= DISABLED
 
-The message for a successful outcome is the following output: `[SC]
-ChangeServiceConfig SUCCESS`
+The message for a successful outcome is the following output: 
 
-The Desktop Activity Moderator service and driver are now disabled.
+`[SC] ChangeServiceConfig SUCCESS`
+
+By running the command, you disabled the Desktop Activity Moderator service and driver.
