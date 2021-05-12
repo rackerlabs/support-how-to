@@ -34,7 +34,7 @@ After Office 365 verifies your domain and you are ready to use your services, yo
 
 Use the following steps to configure the DNS records for your Office 365 services:
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 

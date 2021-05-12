@@ -26,7 +26,7 @@ This article lists steps for creating users, assigning users, and accessing shar
 
 Use the following steps to create a shared mailbox:
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 
@@ -40,7 +40,7 @@ Use the following steps to create a shared mailbox:
 
 Use the following steps to assign access to a shared mailbox:
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 

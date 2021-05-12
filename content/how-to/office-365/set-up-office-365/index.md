@@ -42,7 +42,7 @@ Your SharePoint (**{tenantName}.sharepoint.com**) and OneDrive (**{tenantName}-m
 
 ### Log in to the Office 365 portal
 
-1. Log in to the [Manage Office 365 at Rackspace Control Panel](https://office365.cp.rackspace.com) with the Global Administrator of your tenant.
+1. Log in to the [Manage Office 365 at Rackspace Control Panel](https://manage365.rackspace.com) with the Global Administrator of your tenant.
 
 2. In this portal, you can manage users (add or edit users, reset passwords, and edit assigned licenses) and licenses (add, edit, and remove licenses). If you need to manage any other settings, such as the Exchange Admin Center or the Security and Compliance center, click on **Office 365 Admin Center** on the left sidebar to be logged in to the Office 365 Admin Center automatically.
 
@@ -52,7 +52,7 @@ When you first log in, the Office 365 portal requires you to enter and confirm a
 
 After you create an Office 365 tenant, choose an Office 365 subscription. To compare Office 365 subscriptions offered by Rackspace, see [Office 365 - Pick your plan](https://www.rackspace.com/office-365/pick-your-plan).
 
-1. In the [Manage Office 365 at Rackspace Control Panel](https://office365.cp.rackspace.com), click on **Products** -> **Product Catalog** on the left sidebar.
+1. In the [Manage Office 365 at Rackspace Control Panel](https://manage365.rackspace.com), click on **Products** -> **Product Catalog** on the left sidebar.
 2. Select a plan and click **Add Product**. You can learn more about each license by clicking on the arrow next to the details. To compare Office 365 subscriptions offered by Rackspace, see [Office 365 - Pick your plan](https://www.rackspace.com/office-365/pick-your-plan).
 3. Enter the number of licenses that you need and review the charges.
 4. Click **Add Product**.

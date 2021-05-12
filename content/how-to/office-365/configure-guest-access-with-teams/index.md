@@ -27,7 +27,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Turn on Guest Access in the Teams Admin Center
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 
@@ -43,7 +43,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Configure Azure Active Directory for Guest Access
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 
@@ -59,7 +59,7 @@ To learn more about the external collaboration settings in Azure Active Director
 
 ### Configure Office 365 Group sharing settings to allow sharing outside of the organization
 
-1. Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1. Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2. From the left menu, select **Office 365 Admin Center**.
 
@@ -75,7 +75,7 @@ To learn more about the external collaboration settings in Azure Active Director
 
 ### Verify Sharing in SharePoint Online
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 
@@ -87,7 +87,7 @@ To learn more about the external collaboration settings in Azure Active Director
 
 ### View Guest Users in Teams
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 

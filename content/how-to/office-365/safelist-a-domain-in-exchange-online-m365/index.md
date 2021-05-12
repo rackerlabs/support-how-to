@@ -24,7 +24,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 #### Safelist a domain by using the allowed senders list
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left-hand menu, select **Office 365 Admin Center**.
 
@@ -48,7 +48,7 @@ Any emails sent from the domains in your **Domain allow list** are now delivered
 
 When you use mail flow rules to bypass spam filtering, Exchange Online can perform some authentication checks for the domain you want to bypass. This more complicated method reduces but does not eliminate the risk of allowing unauthenticated senders to deliver spoofed mail.
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left-hand menu, select **Office 365 Admin Center**.
 

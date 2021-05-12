@@ -27,7 +27,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Add an Office 365 license
 
-1. 	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1. 	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.  From the left menu, select **Products**, and then select **Business Catalog**.
 
@@ -41,7 +41,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Assign a license to a user
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Users**.
 
