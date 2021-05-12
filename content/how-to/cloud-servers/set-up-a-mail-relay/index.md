@@ -1,5 +1,5 @@
 ---
-permalink: setting-up-a-mail-relay
+permalink: set-up-a-mail-relay
 audit_date: '2021-05-12'
 title: 'Set up a Mail Relay'
 type: article
