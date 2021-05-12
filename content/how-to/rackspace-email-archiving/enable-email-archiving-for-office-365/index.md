@@ -27,7 +27,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Add Rackspace Office 365 archiving
 
-1. Log in to the [Office 365 at Rackspace Control Panel](https://office365.cp.rackspace.com/).
+1. Log in to the [Office 365 at Rackspace Control Panel](https://manage365.rackspace.com/).
 2. Go to **Products** -> **Product Catalog**
 3. Find the **Rackspace Office 365 Archiving** SKU on the list and click **Add Product**.
 4. Review the pricing and click **Buy Licenses**.<br>

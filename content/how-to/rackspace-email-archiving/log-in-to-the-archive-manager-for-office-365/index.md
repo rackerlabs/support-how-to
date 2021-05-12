@@ -26,6 +26,6 @@ You can log in to the Email Archive Manager directly from your domain-specific U
 
 Alternatively, you can log in through the Office 365 at Rackspace Control Panel by using the following steps:
 
-1.  Log in to the [Office 365 at Rackspace Control Panel](https://office365.cp.rackspace.com).
+1.  Log in to the [Office 365 at Rackspace Control Panel](https://manage365.rackspace.com).
 2.  Go to **Products** -> **Purchased Products**.
 3.  Find the **Rackspace Office 365 Archiving** tile and click **Manage Archive**.

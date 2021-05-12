@@ -28,7 +28,7 @@ Requiring multi-factor authentication for all users safeguards access to your or
 
 Use the following steps to enable multi-factor authentication for a user:
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 
@@ -48,7 +48,7 @@ To require a user to use multi-factor authentication, you must enforce multi-fac
 
 Use the following steps to enforce multi-factor authentication for a user:
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 
@@ -68,7 +68,7 @@ Your user may lose access to the device that they used to register with multi-fa
 
 Use the following steps to reset the existing multi-factor authentication configuration for a user:
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 
@@ -88,7 +88,7 @@ Use the following steps to reset the existing multi-factor authentication config
 
 Use the following steps to disable multi-factor authentication for a user:
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 

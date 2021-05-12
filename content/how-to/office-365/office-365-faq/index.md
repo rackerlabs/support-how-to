@@ -15,7 +15,7 @@ product_url: office-365
 
 {{<accordion title="Where do I access my Office 365 account?" col="in" href="accordion1">}}
 
-Log in to the [Office 365 Control Panel](https://office365.cp.rackspace.com)
+Log in to the [Office 365 Control Panel](https://manage365.rackspace.com)
 with your Global Administrator credentials to manage users and licenses, open
 chat support, and create support tickets.
 

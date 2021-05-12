@@ -194,7 +194,7 @@ Use the following steps to modify your **Security Settings** within the **My Pro
 #### Linked accounts
 
 
-*Linked accounts* allow a Cloud Office Administrator to seamlessly transition between the [Cloud Office Control Panel](cp.rackspace.com) and the [Office 365 Control Panel](office365.cp.rackspace.com).
+*Linked accounts* allow a Cloud Office Administrator to seamlessly transition between the [Cloud Office Control Panel](cp.rackspace.com) and the [Office 365 Control Panel](manage365.rackspace.com).
 
 Use the following steps to modify your **Linked Accounts** within the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
 

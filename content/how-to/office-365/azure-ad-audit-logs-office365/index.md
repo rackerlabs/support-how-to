@@ -26,7 +26,7 @@ This article lists the steps to access and view the audit logs for your Office 3
 
 Use the following steps to view the combined audit logs for all users in your organization:
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 
@@ -40,7 +40,7 @@ Use the following steps to view the combined audit logs for all users in your or
 
 ### View audit logs for a specific user
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 

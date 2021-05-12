@@ -22,7 +22,7 @@ This article describes how to assign the Global Administrator role to an Office 
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
-Organizations with multiple administrators might need to have more than one Global Administrator in Office 365. A Global Administrator account is required to access the [Office 365 Control Panel](https://office365.cp.rackspace.com). Global Administrators have almost unlimited access to your organization's settings and most of the data.
+Organizations with multiple administrators might need to have more than one Global Administrator in Office 365. A Global Administrator account is required to access the [Office 365 Control Panel](https://manage365.rackspace.com). Global Administrators have almost unlimited access to your organization's settings and most of the data.
 
 **Note:** Each Office 365 account is created with a default administrator account with the Global Administrator role. Credentials for the default administrator account are sent to the email address provided during the sign-up for Office 365 services.
 
@@ -30,7 +30,7 @@ Organizations with multiple administrators might need to have more than one Glob
 
 Use the following steps to assign the Global Administrator role to a user:
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Users**.
 
