@@ -28,7 +28,7 @@ testing each for functions, and encourages you to document your process.
 - **Question users (if any)**: Identify if other colleagues have the same issue.
 
 - **Identify the symptoms**: Is it a complete loss of network connection? Is your
-   network slow? Is this a network-wide issue or are you the only one
+   network slow? Is this a network-wide issue, or are you the only one
    experiencing this issue?
 
 ### Login issues
