@@ -5,10 +5,8 @@ audit_date: '2018-02-19'
 type: product
 created_date: '2018-02-19'
 created_by: Alexandra Settle
-last_modified_date: '2018-02-19'
-last_modified_by: Alexandra Settle
-product: Rackspace Private Cloud Powered by VMware
-product_url: rpc-vmware
+last_modified_date: '2021-05-13'
+last_modified_by: Rose Morales
 ---
 
 **Rackspace Private Cloud Powered by VMware**(RPC-VMware) provides a single-tenant
