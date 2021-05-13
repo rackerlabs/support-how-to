@@ -11,13 +11,13 @@ product: Rackspace Cloud
 product_url: cloud-servers
 ---
 
-The Desktop Activity Moderator uses its own driver and service to help increase
+The Windows&reg; Desktop Activity Moderator uses its own driver and service to help increase
 battery efficiency when a laptop screen is on, ensuring
 consistent, long battery life for devices that support connected standby.
 Connected standby occurs when you have your device powered on with the screen turned
 off.
 
-**Note**: This feature does not apply to servers or virtual machines.
+**Note**: This feature does not apply to Windows&reg; servers or virtual machines.
 
 ### Procedure
 
