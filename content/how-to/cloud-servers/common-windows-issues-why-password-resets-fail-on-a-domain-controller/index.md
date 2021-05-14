@@ -1,8 +1,13 @@
 ---
 permalink: common-windows-issues-why-password-resets-fail-on-a-domain-controller
 audit_date: '2021-05-14'
+<<<<<<< HEAD
 title: 'Common Windows issues:  Why resetting a password fails on a domain controller'
 type: article
+=======
+title: 'Common Windows issues: Why password resets fail on a domain controller
+type: article'
+>>>>>>> AnaMCD-lab-common-windows-issues-why-password-resets-fail-on-a-domain-controller
 created_date: '2011-08-16'
 created_by: Richard Goodwin
 last_modified_date: '2021-05-14'
@@ -45,8 +50,13 @@ to clean all the metadata.
 
 ### Conclusion
 
+<<<<<<< HEAD
 Do not clone a Rackspace Cloud Server configured as a DC. Demote the current DC
 before you save the server image to create new servers.
+=======
+Don't clone a Rackspace Cloud Server configured as a Domain Controller.
+Demote the current DC before you save the server image to create new servers.
+>>>>>>> AnaMCD-lab-common-windows-issues-why-password-resets-fail-on-a-domain-controller
 
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/).
