@@ -1,13 +1,8 @@
 ---
 permalink: common-windows-issues-why-password-resets-fail-on-a-domain-controller
 audit_date: '2021-05-14'
-<<<<<<< HEAD
 title: 'Common Windows issues:  Why resetting a password fails on a domain controller'
 type: article
-=======
-title: 'Common Windows issues: Why password resets fail on a domain controller
-type: article'
->>>>>>> AnaMCD-lab-common-windows-issues-why-password-resets-fail-on-a-domain-controller
 created_date: '2011-08-16'
 created_by: Richard Goodwin
 last_modified_date: '2021-05-14'
