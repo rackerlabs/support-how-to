@@ -11,31 +11,37 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article provides instructions to configure Mobile Sync for Rackspace Webmail on a variety of mobile devices. Mobile Sync synchronizes your email, contacts, and calendar events in real time.
+This article provides instructions to configure Mobile Sync for Rackspace Webmail
+on a variety of mobile devices. Mobile Sync synchronizes your email, contacts, and
+calendar events in real-time.
 
 ### Prerequisites
 
-The Mobile Sync service is available only to Rackspace Email Plus users. See our [Help Tool](https://emailhelp.rackspace.com/) for instructions to configure email on a mobile device for a standard Rackspace Email account.
+The Mobile Sync service is available only to Rackspace Email Plus users. See our
+[Help Tool](https://emailhelp.rackspace.com/) for instructions on configuring email
+on a mobile device for a standard Rackspace Email account.
 
 ### Configure Mobile Sync
 
-You can find instructions to configure Mobile Sync in our Help Tool.
+You can configuring Mobile Sync in our Help Tool by perfomring the following steps:
 
-1. Log in to the [Help Tool](https://emailhelp.rackspace.com/) with your Rackspace Webmail address and password.
+1. Log in to the [Help Tool](https://emailhelp.rackspace.com/) with your Rackspace Webmail
+   address and password.
 
-2. Under Support Tools, click on **Set Up My Email**.
+2. Under **Support Tools**, click **Set Up My Email**.
 
    {{<image src="mobile-sync-setup-1.png" alt="" title="">}}
 
-3. Depending on the device you are configuring, click on **Phone** or **Tablet**.
+3. Depending on the device you are configuring, click **Phone** or **Tablet**.
 
    {{<image src="mobile-sync-setup-2.png" alt="" title="">}}
 
-4. Select the operating system of your mobile device. If applicable, select the version or manufacturer on the subsequent screen.
+4. Select the operating system of your mobile device. If applicable, select the version
+   or manufacturer on the next screen.
 
-5. When asked "How would you like to connect to the mail server?", click on **Mobile Sync**.
+5. At the **How would you like to connect to the mail server?** prompt, click **Mobile Sync**.
 
-6. Follow the instructions which are customized to your specific device type.
+6. Follow the instructions customized to your specific device type.
 
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/).
