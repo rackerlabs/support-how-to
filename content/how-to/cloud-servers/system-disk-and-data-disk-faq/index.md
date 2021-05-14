@@ -1,12 +1,12 @@
 ---
 permalink: system-disk-and-data-disk-faq
-audit_date:
+audit_date: '2021-05-17'
 title: System Disk and Data Disk FAQ
 type: article
 created_date: '2013-10-02'
 created_by: Ross Diaz
-last_modified_date: '2016-09-12'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2021-05-17'
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -15,7 +15,7 @@ product_url: cloud-servers
 
 Some Cloud Servers use an architecture that pairs a *system disk* with a
 separate *data disk(s)*. The benefits of implementing this architecture
-include improved provisioning times, as well as more flexibility for
+include improved provisioning times, and more flexibility for
 local data storage and disaster recovery.  Server images don't include
 data disks, but they will include local system disks<span>. This means
 that you will need to use a separate method for saving information
@@ -28,7 +28,7 @@ your system disk by using our Cloud Servers imaging feature, but it will
 not save any information from the data disk(s). To save your data
 disk(s) you have the option of using [Rackspace Cloud
 Backup](/support/how-to/cloud-backup), which is a
-granular file level backup system that you can configure to save only
+granular file level backup system that you can configure to save
 the files and folders you wish to keep.
 {{</accordion>}}
 {{<accordion title="How Do I Back up a Data Disk?" col="in" href="accordion3">}}
@@ -39,7 +39,7 @@ retain information from the data disk(s)..
 {{</accordion>}}
 {{<accordion title="What About Scaling and Resizing?" col="in" href="accordion4">}}
 
-Servers can be scaled by either hosting your application
+Servers can scale hosting your application
 on a load-balanced cluster (horizontal scaling) or by recreating the
 server with a different server flavor.
 
@@ -61,3 +61,6 @@ approaches.  If you require a persistent IP address, consider a load
 balancer or other proxying solution so the IP address is maintained
 separately from your application servers.
 {{</accordion>}}
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
