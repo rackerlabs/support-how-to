@@ -45,8 +45,8 @@ to clean all the metadata.
 
 ### Conclusion
 
-Do not clone a Rackspace Cloud Server configured as a DC. Demote the current DC
-before you save the server image to create new servers.
+Don't clone a Rackspace Cloud Server configured as a Domain Controller.
+Demote the current DC before you save the server image to create new servers.
 
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/).
