@@ -1,7 +1,7 @@
 ---
 permalink: common-windows-issues-why-password-resets-fail-on-a-domain-controller
 audit_date: '2021-05-14'
-title: 'Common Windows issues:  Why resetting a password fails on a domain controller'
+title: Common Windows issues \:Why password resets fail on a domain controller
 type: article
 created_date: '2011-08-16'
 created_by: Richard Goodwin
@@ -18,7 +18,7 @@ Controller (DC), the password does not reset.
 
 The Rackspace Cloud Server Agent service attempts to alter the local Security
 Accounts Manager (SAM) account for the administrator and reports a failure, but
-the password reset appears to complete successfully.
+the password reset appears to complete.
 
 ### Explanation
 
@@ -45,8 +45,9 @@ to clean all the metadata.
 
 ### Conclusion
 
-Do not clone a Rackspace Cloud Server configured as a DC. Demote the current DC
-before you save the server image to create new servers.
+Don't clone a Rackspace Cloud Server configured as a Domain Controller.
+Demote the current DC before you save the server image to create new servers.
 
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/).
+
