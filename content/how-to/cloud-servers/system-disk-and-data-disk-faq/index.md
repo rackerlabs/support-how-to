@@ -1,7 +1,7 @@
 ---
 permalink: system-disk-and-data-disk-faq
 audit_date: '2021-05-17'
-title: System Disk and Data Disk FAQ
+title: System disk and data disk FAQ
 type: article
 created_date: '2013-10-02'
 created_by: Ross Diaz
