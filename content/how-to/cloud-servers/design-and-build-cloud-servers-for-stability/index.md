@@ -11,14 +11,14 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-When mission critical availability is necessary for your business, developing
+When mission-critical availability is necessary for your business, developing
 a powerful application or a beautifully designed web interface is only part of
-the job. Following are some best practices that the Support team at Rackspace
-has developed to keep your site highly available.
+the job. The Support team at Rackspace developed the following best practices 
+to keep your site highly available.
 
 ### Rackspace Monitoring and Cloud Backups
 
-Even when using cutting edge cloud technology, you have to
+Even when using cutting-edge cloud technology, you have to
 remember the basics. Learn how to use these two key features of
 the Rackspace Cloud to help you monitor, report, and restore your data
 in the cloud.
@@ -29,8 +29,8 @@ in the cloud.
     and read the [Cloud Backup FAQ](/support/how-to/cloud-backup-faq).
 
 In addition to the Rackspace Monitoring, consider exploring some of our
-partners that specialize in monitoring and reporting in the cloud. For
-example, [New Relic&reg;](https://newrelic.com/) offers a performance management
+partners who specialize in cloud monitoring and reporting. For example,
+[New Relic&reg;](https://newrelic.com/) offers a performance-management
 solution that enables developers to diagnose and fix application performance
 problems in real time.
 
@@ -38,21 +38,17 @@ problems in real time.
 
 Cloud Block Storage allows you a maximum of 14 volumes per cloud server
 and 50 volumes per region. Although these volumes already
-offer a tremendous amount of stability, you can configure them in a RAID
-for extra redundancy.
-
-<!-- Learn more about Cloud Block Storage best practices from this
-[blog post](https://www.rackspace.com/blog/best-practices-for-cloud-block-storage/). -->
+offer a tremendous amount of stability, you can configure them in a
+Redundant Array of Independent Disks (RAID) for extra redundancy.
 
 ### Dynamic DNS and multiple configurations
 
-Customers that are serious about uptime choose to duplicate their production
-configuration in multiple locations for use in case of major failures. A
+Customers who are serious about uptime choose to duplicate their production
+configuration in multiple locations for use in major failures. A
 fast failover is possible when you use a Dynamic Domain Name Server (DDNS)
 service that starts sending your traffic to a different Internet Protocol (IP)
 address when it detects a failure in your primary configuration. This second IP
-address can even be to a configuration in a different region for geographic
-redundancy.
+address can even be in a different region for geographic redundancy.
 
 [Cedexis](https://www.cedexis.com/) offers multiple solutions to improve
 performance and availability by load balancing between multiple cloud regions.
@@ -60,18 +56,18 @@ performance and availability by load balancing between multiple cloud regions.
 Through an application-aware global content delivery network (CDN) platform,
 [Incapsula](https://www.incapsula.com/) provides any website and web
 application with best-of-breed security, distributed denial of service (DDoS)
-protection, and load balancing and failover solutions. Incapsula
-is available as a stand-alone service or as an integrated solution.
+protection, and load balancing and failover solutions. You can use Incapsula
+as a stand-alone service or as an integrated solution.
 
 ### Load Testing
 
-Enough cannot be said about the value of testing (and then retesting)
+We cannot say enough about the value of testing (and then retesting)
 your application's infrastructure before putting it into production.
 Load testing reveals potential failure points in the design of your
 infrastructure and opportunities to optimize your code, which helps overall
 stability.
 
-Rackspace has partners who provide this service, and
+Rackspace has the following partners who provide this service, and
 Rackspace Support can help you analyze the results and make the
 right recommendations.
 
