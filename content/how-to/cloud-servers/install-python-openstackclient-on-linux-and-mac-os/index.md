@@ -27,36 +27,32 @@ guaranteed to operate with Rackspace Cloud.
 
 ### Prerequisites
 
-To run `python-openstackclient`, you need python 2.7 or later installed on
+To run `python-openstackclient`, you need to install Python&reg; 2.7 or later on
 your system. You can run the client from either a desktop machine or
-from a remote system, like a Cloud Server. You also need `pip`, which is a python package manager.
+a remote system, like a Cloud Server. You also need `pip`, which is a
+Python package manager.
 
-### Installing the package
+### Install the package
 
-To install the client, use `pip`:
+To install the client, run the following command:
 
     pip install python-openstackclient
 
+### Set the environment variables
 
-### Environment variables
-
-Now that you've installed the `openstackclient`, set up the environment variables that
-allow it to connect to your Rackspace Cloud account.
-
-#### Setting the environment variables
+Now that you've installed `openstackclient`, set up the environment variables that
+enable it to connect to your Rackspace Cloud account.
 
 To set some environment variables, run the following command to open your
 **.bash_profile** file for editing:
 
     nano ~/.bash_profile
 
-Then add the lines in the following data center sections, changing values to
+Then add the following lines in the data center section, changing values to
 match your requirements. Pay particular attention to the username, password,
 and tenant name or account number. You can find your account number
-in the upper right of the [Cloud Control Panel](https://login.rackspace.com)
+in the upper-right corner of the [Cloud Control Panel](https://login.rackspace.com)
 after you log in.
-
-##### Example
 
 Use the following format:
 
@@ -72,8 +68,8 @@ Use the following format:
 
 ### Permissions
 
-After you've set all the environment variables, save the file. Because
-there's a password included, run the following command to set permissions on
+After you've set the environment variables, save the file. Because
+it includes a password, run the following command to set permissions on
 the file so other people can't read it:
 
     chmod 600 ~/.bash_profile
@@ -83,24 +79,24 @@ the file so other people can't read it:
 The following table lists explanations for each environment variable and
 offers suggested values:
 
-| Variable name    | Value type          | Description                                                                                                                                                                                                                                                                                                                                                                                     |
-|------------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| OS\_USERNAME     | username            | Set this value to your Rackspace Cloud account username.                                                                                                                                                                                                                                                                                                                                        |
-| OS\_TENANT\_NAME | account number      | Set this value to your Rackspace Cloud account number, visible in the upper right of the Cloud Contol Panel when logged in.                                                                                                                                                                                                                                                                     |
-| OS\_AUTH\_SYSTEM | rackspace           | Set this value to `rackspace` to connect to the Rackspace Cloud.                                                                                                                                                                                                                                                                                                                                |
-| OS\_PASSWORD     | password | Set this value to your Rackspace Cloud account password.         |
-| OS\_AUTH\_URL    | identity endpoint   | Set this value to the endpoint for the identity service the client uses to authenticate for API operations, which is `https://identity.api.rackspacecloud.com/v2.0`.                                                                             |
-| OS\_REGION\_NAME | datacenter region   | The code for the data center region containing the servers you want to manipulate. You can check your server's datacenter by checking its details screen in the Cloud Control Panel. The datacenter code is just the first three letters of the datacenter's identifier; e.g. `DFW, IAD, ORD, HKG, SYD, or LON.` You can override the region setting with the `--os-region-name` command-line option. |
-| OS\_NO\_CACHE    | 0 or 1              | On newer versions of the Ubuntu operating system the `openstackclient` tries to use a system keyring that's not set up on servers. Setting this value to "1" works around the issue. It shouldn't be necessary on other systems, but it shouldn't interfere with the client's operations either. You can override the no\_cache setting with the `--no-cache` command-line option.                             |
+| Variable name | Value type | Description |
+| --- | ---  |--- |
+| OS\_USERNAME | username | Set this value to your Rackspace Cloud account username. |
+| OS\_TENANT\_NAME | account number | Set this value to your Rackspace Cloud account number, visible in the upper-right corner of the Cloud Contol Panel when logged in. |
+| OS\_AUTH\_SYSTEM | rackspace | Set this value to `rackspace` to connect to the Rackspace Cloud. |
+| OS\_PASSWORD     | password | Set this value to your Rackspace Cloud account password. |
+| OS\_AUTH\_URL    | identity endpoint   | Set this value to the endpoint for the Identity service the client uses to authenticate for API operations,  `https://identity.api.rackspacecloud.com/v2.0`. |
+| OS\_REGION\_NAME | data center region  | The code for the data center region containing the servers you want to manipulate. You can check your server's data center by checking its **details** screen in the Cloud Control Panel. The data center code is just the first three letters of the datacenter's identifier, such as `DFW, IAD, ORD, HKG, SYD, or LON.` You can override the region setting with the `--os-region-name` command-line option. |
+| OS\_NO\_CACHE | 0 or 1 | On newer versions of the Ubuntu&reg; operating system the `openstackclient` tries to use a system keyring that's not set up on servers. Setting this value to `1` addresses the issue. It shouldn't be necessary on other systems, and it shouldn't interfere with the client's operations either. You can override the **os\_no\_cache** setting with the `--no-cache` command-line option. |
 
-#### Loading the environment variables
+#### Load the environment variables
 
 To apply these environment variables to your current shell, run the following
 command:
 
     source ~/.bash_profile
 
-### Testing the client
+### Test the client
 
 Next, run a quick query to make sure the `openstackclient` is ready to go.
 To see if you can talk to the API server, run the following command:
@@ -112,25 +108,24 @@ to you when creating a server.
 
 #### Keychain password message
 
-If you're running the client on the Ubuntu&reg; operating system and it asks for a
+If you run the client on the Ubuntu&reg; operating system and it asks for a
 keychain password, run the client with the  `--no-cache` option, as shown in
 the following example:
 
     openstack --no-cache image-list
 
-To save some typing, set the environment variable `OS_NO_CACHE=1` as shown in
+Or you can set the environment variable `OS_NO_CACHE=1` as shown in
 the preceding configuration sample.
 
-### Viewing the command list
+### View the command list
 
 You can get a full list of commands by using the following command:
 
     openstack help
 
-**Note**: You won't be able to use every command listed. The
-`openstackclient` uses recent development versions of
-OpenStack&reg;, so it includes support for some features that have not yet
-been implemented in the Rackspace Cloud.
+**Note**: You can't to use every command listed. The `openstackclient` uses
+recent development versions of OpenStack&reg;, so it includes support for
+some features that Rackspace has not implemented in the Rackspace Cloud.
 
 You can get more help for a subcommand by running the following command:
 
@@ -138,13 +133,15 @@ You can get more help for a subcommand by running the following command:
 
 ### Troubleshooting
 
-Use the `--debug` flag to output both the full request from `openstackclient` and any responses from the Rackspace Cloud APIs. This information can be helpful when you file a bug report or opening a support ticket.
+Use the `--debug` flag to output both the full request from `openstackclient`
+and any responses from the Rackspace Cloud APIs. This information can help
+when you file a bug report or open a support ticket.
 
 A common problem is entering the username, tenant name, or password
 incorrectly, so be sure to double-check those settings.
 
-Remember that, if you change any environment variables, you need to
-either log out and log back in, or tell your shell to read the
+Remember that if you change any environment variables, you need to
+either log out and log back in or tell your shell to reapply the
 **.bash_profile** again by using the following command:
 
     source ~/.bash_profile
@@ -156,9 +153,11 @@ the region, for example, you can substitute it with the
 
     openstack --os-region-name ORD image list
 
-### Advantages over Cloud Control Panel
+### Advantages over the Cloud Control Panel
 
-The `openstackclient` supports features that are available in the Cloud Servers API, but not exposed in the Cloud Control Panel. For example, the following command creates a server with the OpenStack Config Drive and user data for cloud-init:
+The `openstackclient` supports features in the Cloud Servers API but that the
+Cloud Control Panel does not expose. For example, the following command creates
+a server with the OpenStack Config Drive and user data for cloud-init:
 
     openstack server create --image "Ubuntu 16.04 LTS (Xenial Xerus) (PVHVM)" --flavor general1-1 --config-drive=True --user-data=rack-ubuntu.yml openstack-server
 
