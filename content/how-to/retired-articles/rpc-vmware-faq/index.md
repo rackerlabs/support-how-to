@@ -5,10 +5,8 @@ title: Rackspace Private Cloud Powered by VMware FAQ
 type: article
 created_date: '2015-01-29'
 created_by: Karin Levenstein
-last_modified_date: '2016-01-21'
-last_modified_by: Rose Coste
-product: Rackspace Private Cloud Powered by VMware
-product_url: rpc-vmware
+last_modified_date: '2021-05-13'
+last_modified_by: Rose Morales
 ---
 
 Rackspace Private Cloud Powered by VMware vCloud&reg; (hereafter refered to as RPC-V) is a private cloud offering based on VMware software defined datacenter (SDDC) services hosted on a dedicated management cluster. This list of frequently asked questions provides details about RPC-V features and management options.
