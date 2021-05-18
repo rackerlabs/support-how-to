@@ -231,10 +231,10 @@ permalink: /support/how-to/
           <h4><a href="/support/how-to/dedicated-hosting/"><span>Rackspace</span> Dedicated Hosting</a></h4>
         </div>
         <div class="col-sm-12 col-md-4 icon private">
-          <h4><a href="/support/how-to/rpc-openstack/"><span>Rackspace Private Cloud</span> Powered by OpenStack</a></h4>
+          <h4><a href="https://docs.rackspace.com/docs/private-cloud/rpc/v17/"><span>Rackspace Private Cloud</span> Powered by OpenStack</a></h4>
         </div>
         <div class="col-sm-12 col-md-4 icon private">
-          <h4><a href="/support/how-to/rpc-vmware/"><span>Rackspace Private Cloud</span> Powered by VMware</a></h4>
+          <h4><a href="https://docs.rackspace.com/docs/rpc-vmware/rpc-vmware-customer-handbook/"><span>Rackspace Private Cloud</span> Powered by VMware</a></h4>
         </div>
       </div>
     </div>

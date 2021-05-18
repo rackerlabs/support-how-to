@@ -364,8 +364,6 @@ If you need additional assistance, contact us at [how-to@rackspace.com](mailto:h
 | Rackspace Proactive Detection & Response | rackspace-pdr |
 | Alert Logic Security Solutions | rms-alert-logic |
 | Cloudflare with Rackspace Managed Services | rms-cloudflare |
-| Rackspace Private Cloud Powered by OpenStack | rpc-openstack |
-| Rackspace Private Cloud Powered by VMware | rpc-vmware |
 | Microsoft Skype for Business | skype-for-business |
 | VMware Server Virtualization | vmware-server-virtualization |
 

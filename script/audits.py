@@ -1,4 +1,5 @@
-# Instructions for using this script are available at https://pages.github.rackspace.com/IX/writers-handbook/processes/how-to/scripts/list-audited-articles.html
+# Instructions for using this script are available at 
+# https://reimagined-spork-ebad5969.pages.github.io/processes/how-to/scripts/list-audited-articles.html
 # Sample call: python audits.py 2018-05-01 2018-05-31
 # NOTE: Program assumes you are executing from within the script directory of
 #       your local H2 git repo.
