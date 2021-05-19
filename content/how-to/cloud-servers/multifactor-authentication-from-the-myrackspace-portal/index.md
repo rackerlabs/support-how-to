@@ -20,7 +20,7 @@ or mobile code device associated with the user's account:
 - An SMS device is a mobile phone, notebook, or other digital device with an
   associated phone number capable of receiving SMS text messages.
 
-- A client application installed on your phone, notebook, or other digital 
+- A client application installed on your phone, notebook, or other digital
   device creates and uses the mobile device code.
 
 You can add MFA by updating your account settings in the
@@ -36,7 +36,7 @@ your account, authentication becomes a two-step process:
    **Note:** Standard text message rates and data fees apply based on your
    contract with your mobile device provider.
 
-Additionally, Rackspace Cloud account administrators can configure account-wide
+Additionally, MyRackspace account administrators can configure account-wide
 settings to specify an MFA policy for all account users. Administrators can
 update the account-wide settings to require MFA for all users. When this setting
 is enabled, users cannot access their account until they configure MFA. The system logs
@@ -44,11 +44,14 @@ current users out as soon as it applies the account-wide requirement. The next t
 they log in, users get a notification of the increased security and a prompt to
 complete the setup process.
 
+**Important**: By default, we enable MFA account-wide. If you want to disable
+this setting, you need to generate a support ticket.
+
 ### Considerations
 
 - You cannot configure MFA from the Cloud Control Panel inside of the MyRackspace
   Portal. You must log in to the
-  [Cloud Office Control Panel](https://login.rackspace.com) and use these
+  [Cloud Control Panel](https://login.rackspace.com) and use these
   [instructions](/support/how-to/multifactor-authentication-from-the-cloud-control-panel/)
   to set up your users for the Cloud Control Panel.
 
@@ -93,7 +96,7 @@ password that is valid for one login session or transaction on a computer system
 or other digital device.
 
 To configure your account to use a mobile code device for MFA, you must install
-one of the following client applications on your device: 
+one of the following client applications on your device:
 
 - [Authy](https://www.authy.com/)
 - [Duo](https://www.duosecurity.com/)
@@ -110,7 +113,7 @@ To register and verify a mobile code device, use the following steps:
 3. In the **Security Settings** section, select **Enable** for **Multi-factor
     authentication**.
 
-4. Select **User a Mobile App** and click **Next**.
+4. Select **Use a Mobile App** and click **Next**.
 
 5. Type a **Device nickname** for the OTP device. Then, click **Next**.
 
@@ -120,15 +123,19 @@ To register and verify a mobile code device, use the following steps:
     After you scan the code, the OTP application on your device creates the OTP
     device using your specified device name. It also generates a code.
 
-7. To verify the new device, enter the passcode on the **Verify Code** form.
-    Then, click **Verify Mobile Passcode**.
+7. To verify the new device, enter the code on the **Verification Code** form.
+    Then, click **Verify**.
 
-    After you submit the verification code, the system automatically logs you out.
+    After you submit the verification code, the system automatically logs you
+    out.
+
     **Note:** By default, the new OTP device is the default method for
     authentication. If you do not want it to be the default or if you do not
     want to be logged out of your account, remove the selection from **Make this
-    my default authentication method**. You can update the default
-    authentication method on the **Account settings** page.
+    my default authentication method**.
+
+    You can update the default authentication method on the **Account settings**
+    page.
 
 8. In the Panel, enter your username and password. Then, enter the verification
     code from the OTP device that you paired with your account.
@@ -140,8 +147,8 @@ select the default MFA method from the **My Profile & Settings** page.
 
 1. Log in to the [MyRackspace Portal](https://login.rackspace.com/).
 
-2. In the upper-right corner of the Cloud Control Panel, click the **user** menu and
-    select **My Profile & Settings**.
+2. In the upper-right corner of the Cloud Control Panel, click the **user** menu
+    and select **My Profile & Settings**.
 
 3. In the **Security Settings** section, under **Multi-Factor Authentication**,
    select **Manage**.
@@ -211,8 +218,8 @@ following steps:
    client application and get the code from the mobile code device associated
    with your MyRackspace account.
 
-2. When prompted, type the code in the **Passcode** field on the login page.
-   Then, click **Verify Code** to log in to your account.
+2. When prompted, type the code in the **MFA Code** field on the login page.
+   Then, click **Verify** to log in to your account.
 
 ### Manage MFA
 

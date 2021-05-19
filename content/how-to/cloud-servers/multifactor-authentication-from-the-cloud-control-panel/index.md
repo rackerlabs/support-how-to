@@ -47,7 +47,7 @@ complete the setup process.
 **Important**: By default, we enable MFA account-wide. If you want to disable
 this setting, you need to generate a support ticket.
 
-**Notes**
+### Considerations
 
 - MyRackspace also implements MFA. For information, see
   [Multifactor authentication from the MyRackspace portal](/support/how-to/multifactor-authentication-from-the-myrackspace-portal).
@@ -131,7 +131,7 @@ To register and verify a mobile code device, use the following steps:
 3. In the **Security Settings** section, select **Enable** for **Multi-factor
    authentication**.
 
-4. Select **User a Mobile App** and click **Next**.
+4. Select **Use a Mobile App** and click **Next**.
 
     **Note**: Supported applications: Authy, Duo, Google Authenticator.
 
@@ -144,15 +144,15 @@ To register and verify a mobile code device, use the following steps:
    device using your specified device name. It also generates a code.
 
 7. To verify the new device, enter the code on the **Verify Code** form. Then,
-   click **Verify Mobile Code**.
+   click **Verify**.
 
    After you submit the verification code, the system automatically logs you
    out.
 
    **Note:** By default, the new OTP device is the default method for
-   authentication. If you do not want it to be the default or if you do not
-   want to be logged out of your account, remove the selection from **Make this
-   my default authentication method**.
+   authentication. If you do not want it to be the default or if you do not want
+   to be logged out of your account, remove the selection from **Make this my
+   default authentication method**.
 
    You can update the default authentication method on the **Account settings**
    page.
@@ -204,7 +204,7 @@ account.
    to set the policy for account users. Then, click **Save Setting** to apply
    the change.
 
-   If you update the setting to `required`, users who do not have MFA
+   If you update the setting to **required**, users who do not have MFA
    configured must add it the next time they log in. The system
    logs out current users who have not set up MFA after
    displaying an error message similar to the following example:
@@ -247,8 +247,8 @@ Perform the following steps to log in to the Rackspace Cloud with MFA:
    device, open the OTP client application and get the code from the OTP device
    associated with your Rackspace Cloud account.
 
-2. When prompted, type the code in the **Passcode** field on the Control Panel.
-   Then, click **Verify Code** to log in to your account:
+2. When prompted, type the code in the **MFA Code** field on the Control Panel.
+   Then, click **Verify** to log in to your account:
 
    If the code is expired or invalid, refresh the page to return to the
    Rackspace Cloud Control Panel login page. Then, log in again and click the
