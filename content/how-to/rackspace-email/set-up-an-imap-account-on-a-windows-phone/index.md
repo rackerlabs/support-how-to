@@ -1,12 +1,12 @@
 ---
-permalink: setting-up-an-imap-account-on-a-windows-phone
-audit_date:
+permalink: set-up-an-imap-account-on-a-windows-phone
+audit_date: '2021-05-19'
 title: Set up an IMAP account on a Windows phone
 type: article
 created_date: '2013-03-18'
 created_by: Mawutor Amesawu
-last_modified_date: '2013-03-20'
-last_modified_by: Rae D. Cabello
+last_modified_date: '2021-05-19'
+last_modified_by: Ana Corpus
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -61,3 +61,8 @@ Mobile phone.
 8. Tap **sign in**.
 
 Your setup is complete. You will see a new icon within your settings menu with the name of your new email account.
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/).
+
+
