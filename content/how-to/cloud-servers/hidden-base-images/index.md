@@ -5,38 +5,47 @@ title: Hidden base images
 type: article
 created_date: '2013-11-04'
 created_by: Amanda Clark
-last_modified_date: '2021-01-18'
+last_modified_date: '2021-05-18'
 last_modified_by: Brian Metzler
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-To provide the best experience possible for our customers, we carefully maintain the list of images that can be used to build a new cloud server. Older versions of an operating system are occasionally removed from the default list, usually shortly after a newer version is released. In general, the list displays the most current version and at least one previous version of each operating system that we support.
+To provide the best experience possible for our customers, we carefully maintain the list
+of images you can use to build a new cloud server. We occasionally remove older versions of
+an operating system from the default list, usually shortly after the vendor releases
+a newer version. In general, the list displays the most current version and at least one
+previous version of each operating system that we support.
 
-Images that have been publicly released are never actually deleted, just hidden. You can access these older images by referencing the image ID directly through the Cloud Servers API.  If you're looking for an older version of a Linux distro or Windows Server, use this article to find the image ID for that version..
+We never delete publicly released images but hide them. You can access these older images
+by referencing the image ID directly through the Cloud Servers API.  If you're looking for
+an older version of a Linux&reg; distro or Windows&reg; Server, use this article to find the
+image ID for that hidden version.
 
-**Warning:** These older images are no longer maintained and might not contain the most up-to-date patches and package updates.
+**Warning:** We don't maintain these older images, so they might not contain the most
+up-to-date patches and package updates.
 
-### Arch images
+### Arch&reg; images
 
 Image | ID | Date hidden | Notes
 --- | --- | --- | ---
 Arch 2014.2 | b21af3ef-1a1e-46b5-98ef-bb0c81b25292 | 2017-09-06 | Retired
 
-### CentOS images
+### CentOS&reg; images
 
 Image | ID | Date hidden | Notes
 --- | --- | --- | ---
 CentOS 6 (PVHVM) | a77d07e9-289d-427a-a5ae-465c894c5232 | 2021-01-18 | Upstream updates ended
 
-### Debian images
+### Debian&reg; images
 
 Image | ID | Date hidden | Notes
 --- | --- | --- | ---
 Debian 7 (Wheezy) | 8dbe1146-3cc4-4c46-8888-64662a3ec809 | 2018-06-15 | Debian LTS support has ended
 Debian 8 (Jessie) (PVHVM) | 1f055de1-48b5-42ed-bc5d-d3552dccb96e | 2019-06-07 | Upstream updates ended
 OnMetal - Debian 8 (Jessie) | aaef6263-b4d6-435b-a7d7-bf51cf61118e | 2019-06-07 | Upstream updates ended
-### Fedora images
+
+### Fedora&reg; images
 
 Image | ID | Date hidden | Notes
 --- | --- | --- | ---
@@ -55,20 +64,20 @@ Fedora 28 (PVHVM) | 7b464928-741b-44af-86ad-0352dcf88a2a | 2019-06-07 | No longe
 OnMetal - Fedora 28 | 5cfe8ebd-1b45-4ddc-868f-e98417d0758f | 2019-06-07 | No longer supported by the Fedora Project. This image was the last image of this version published.
 
 
-### FreeBSD images
+### FreeBSD&reg; images
 
 Image | ID | Date hidden | Notes
 --- | --- | --- | ---
 FreeBSD 10  | 1125dfad-61cf-40e4-890c-afdef535dad4 | 2017-09-06 | Retired
 FreeBSD 11  | c656f3c8-12ff-4b2e-9333-9a857c553292 | 2017-09-06 | Retired
 
-### Gentoo images
+### Gentoo&reg; images
 
 Image | ID | Date hidden | Notes
 --- | --- | --- | ---
 Gentoo 15.3 | c6693b8d-1e99-4112-b2a0-ceefd18a55ca | 2017-09-06 | Retired
 
-### OpenSUSE images
+### OpenSUSE&reg; images
 
 Image | ID | Date hidden | Notes
 --- | --- | --- | ---
@@ -76,14 +85,14 @@ OpenSUSE 13.1 (PVHVM) | 59addab2-1551-4949-b635-bc88f1b6dc7c | 2015-01-15 | No l
 OpenSUSE 13.2 (PVHVM) | 79436148-753f-41b7-aee9-5acbde16582c | 2016-05-03 | No longer supported; this is the last image published.
 OpenSUSE Leap 42 | abe0d447-42ea-41ed-aadf-03828639570d | 2017-09-06 | Retired
 
-### Scientific Linux images
+### Scientific&reg; Linux images
 
 Image | ID | Date hidden | Notes
 --- | --- | --- | ---
 Scientific Linux 6 (PVHVM) | 51706a83-20cb-42dd-92a8-d704f5a7a1bf | 2017-09-06 | Retired
 Scientific Linux 7 (PVHVM) | 6c0551dd-798d-4b56-b847-de58165dbffa | 2017-09-06 | Retired
 
-### Ubuntu operating system images
+### Ubuntu&reg; operating system images
 
 Image | ID | Date hidden | Notes
 --- | --- | --- | ---
@@ -125,7 +134,7 @@ Windows Server 2008 R2 SP1 + SharePoint 2010 Foundation with SQL Server 2008 R2 
 Windows Server 2008 R2 SP1 + SharePoint 2010 Foundation with SQL Server 2008 R2 SP1 Standard | fa14596a-1a70-42d0-bf20-699c35439356 | 2013-10-29 | Base images for Windows Server 2008 now use Datacenter Edition. This is one of the last Windows 2008 Enterprise images released before the switch.
 
 
-### Vyatta image
+### Vyatta&reg; image
 
 Image | ID | Date hidden | Notes
 --- | --- | --- | ---
