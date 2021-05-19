@@ -11,7 +11,7 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article shows how to mount a partition and use the **chroot** command to access your
+This article shows how to mount a partition and use the `chroot` command to access your
 primary file system from [rescue mode](https://docs.rackspace.com/support/how-to/rescue-mode/).
 
 ### Begin an investigation of a server in rescue mode
@@ -22,8 +22,9 @@ Use the following steps to begin an investigation of a server in rescue mode:
 
        fdisk -l
 
-   **Note**: Depending on the version of the base image that you have built from, the partition is either `sdb1` (Xen&reg; Classic) or `xvdb1` (XenServer&reg;).
-   Choose the largest partition with `fdisk -l`. This article assumes that you use XenServer.
+   **Note**: Depending on the version of the base image that you have built from, the
+   partition is either `sdb1` (Xen&reg; Classic) or `xvdb1` (XenServer&reg;).
+   Choose the largest partition with `fdisk -l`. This article assumes you use XenServer.
 
 2. Mount the partition by running the following command, replacing `xvdb1` if necessary:
 
@@ -31,7 +32,8 @@ Use the following steps to begin an investigation of a server in rescue mode:
 
    When you navigate to the `/mnt` directory, you should see your file system.
 
-   In some cases you might need to install a new kernel, remove a bad package, or use `xvdb1` as the root (`/`) directory.
+   In some cases, you might need to install a new kernel, remove a bad package, or use
+   `xvdb1` as the root (`/`) directory.
 
 ### Use xvdb1 as the root directory
 
@@ -39,13 +41,12 @@ Use the following steps to set `xvdb1` as the `/` directory:
 
 1. Mount the necessary file system directories by running the following commands:
 
-
        mount -t proc none /mnt/proc
        mount --rbind /sys /mnt/sys
        mount --rbind /dev /mnt/dev
 
-2. Set up networking for your session on which you used the chroot operation by running the following commands:
-
+2. Set up networking for your session on which you used the `chroot` operation by running
+   the following commands:
 
        ln -s /etc/resolv.conf /mnt/etc/resolv.conf
 
@@ -53,6 +54,5 @@ Use the following steps to set `xvdb1` as the `/` directory:
 
    The file system is now mounted as the root directory.
 
-   
-Use the Feedback tab to make any comments or ask questions. You can also click **Let's Talk** to [start the conversation](https://www.rackspace.com/).
-
+Use the Feedback tab to make any comments or ask questions. You can also click **Let's Talk**
+to [start the conversation](https://www.rackspace.com/).
