@@ -11,10 +11,10 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-Use the following steps to configure an IMAP account on a Windows
-Mobile phone.
+Use the following steps to configure an IMAP account on a Windows&reg;
+Mobile phone:
 
-1. Locate the **Settings** options on the application menu.
+1. Locate the **Settings** options on the **Application** menu.
 
     {{<image src="1.jpg" alt="" title="">}}
 
@@ -30,7 +30,7 @@ Mobile phone.
 
     {{<image src="4.jpg" alt="" title="">}}
 
-5. Enter your full email address and password for your account, and then Click **sign in**.
+5. Enter your full email address and password for your account, and click **sign in**.
 
     {{<image src="5.jpg" alt="" title="">}}
 
@@ -40,19 +40,19 @@ Mobile phone.
 
 7. Add your account name, enter your name, and then enter the following server settings. (You need to scroll down on this screen to see the additional fields.)
 
-    -   Incoming email server: **secure.emailsrvr.com**
+    -   **Incoming email server**: Enter `secure.emailsrvr.com`.
 
-    -   Account type: **IMAP4**
+    -   **Account type**: Select `IMAP4`.
 
-    -   Username: **Full Email address**
+    -   **Username**: Enter your full email address.
 
-    -   Password: **Email address password**
+    -   **Password**: Enter your email account password.
 
-    -   Outgoing (SMTP) email server: **secure.emailsrvr.com**
+    -   **Outgoing (SMTP) email server**: Enter `secure.emailsrvr.com`.
 
-    -   Outgoing server requires authentication: **Enabled**
+    -   **Outgoing server requires authentication**: 
 
-    -   Use the same user name and password for sending email: **Enabled**
+    -   **Use the same user name and password for sending email**: Check this box.
 
     {{<image src="8.jpg" alt="" title="">}}
 
@@ -60,7 +60,7 @@ Mobile phone.
 
 8. Click **sign in**.
 
-Your setup is complete. You will see a new icon within your settings menu with the name of your new email account.
+When the setup completes, you see a new icon in your **Settings** menu with the name of your new email account.
 
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/).
