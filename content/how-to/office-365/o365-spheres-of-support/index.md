@@ -287,34 +287,34 @@ This article outlines the **Fanatical Experience&trade;** we offer and the **Rac
 
 ### Perpetual Software Licenses
 
-| Feature                                  | Fanatical Support                                                                                                          |   | Rackspace Application Services | Troubleshoot | Consult | Enable |
-|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---|--------------------------------|--------------|---------|--------|
-| Access                   | Support limited to license purchase and obtaining product key |   | No support                     |              |         |        |
-| BizTalk Server                      | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Exchange Server Enterprise / Standard                 | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Exchange Server CAL (User / Device)     | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Microsoft Office Standard         | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Microsoft Outlook | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Microsoft PowerPoint      | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Microsoft Word                   | Support limited to license purchase and obtaining product key |   | No support                     |              |         |        |
-| Microsoft Excel                    | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Project Professional / Standard                | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Project Server    | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Project Server CAL (User / Device)       | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Publisher | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| SharePoint Enterprise / Standard CAL (User / Device)     | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| SharePoint Server                   | Support limited to license purchase and obtaining product key |   | No support                     |              |         |        |
-| Skype for Business / Server                     | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Skype for Business Server Enterprise / Plus / Standard CAL (User / Device)                | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| SQL Server CAL (User / Device)   | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| SQL Server Enterprise / Standard Core         | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| SQL Server Standard Edition | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| SQL Server Big Data Node Cores     | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Visio Professional / Standard                  | Support limited to license purchase and obtaining product key |   | No support                     |              |         |        |
-| Windows 10 Enterprise                     | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Windows 10 Home to Pro Upgrade for M365 Business                | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Windows Server CAL (User / Device)    | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Windows Server Datacenter / Essentials / Standard        | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Windows Server External Connector | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Windows Server RDS CAL (User / Device)   | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
-| Windows RMS CAL (User / Device)     | Support limited to license purchase and obtaining product key                                                              |   | No support                     |              |         |        |
+| Feature | Fanatical Support | Rackspace Application Services | Troubleshoot | Consult | Enable |
+| --- | --- | --- | --- | --- | --- |
+| Access | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| BizTalk Server | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Exchange Server Enterprise / Standard | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Exchange Server CAL (User / Device) | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Microsoft Office Standard | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Microsoft Outlook | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Microsoft PowerPoint | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Microsoft Word | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Microsoft Excel | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Project Professional / Standard | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Project Server | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Project Server CAL (User / Device) | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Publisher | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| SharePoint Enterprise / Standard CAL (User / Device) | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| SharePoint Server | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Skype for Business / Server | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Skype for Business Server Enterprise / Plus / Standard CAL (User / Device) | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| SQL Server CAL (User / Device) | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| SQL Server Enterprise / Standard Core  Support limited to license purchase and obtaining product key | No support |   |   |   |
+| SQL Server Standard Edition | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| SQL Server Big Data Node Cores | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Visio Professional / Standard | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Windows 10 Enterprise | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Windows 10 Home to Pro Upgrade for M365 Business | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Windows Server CAL (User / Device) | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Windows Server Datacenter / Essentials / Standard | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Windows Server External Connector | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Windows Server RDS CAL (User / Device) | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Windows RMS CAL (User / Device) | Support limited to license purchase and obtaining product key | No support |   |   |   |
