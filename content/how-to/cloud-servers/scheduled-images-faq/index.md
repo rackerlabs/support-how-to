@@ -1,12 +1,12 @@
 ---
 permalink: scheduled-images-faq
-audit_date:
+audit_date: '2021-05-21'
 title: Scheduled Images FAQ
 type: article
 created_date: '2013-05-22'
 created_by: Brian Rosmaita
-last_modified_date: '2018-10-25'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2021-05-21'
+last_modified_by: Ana Corpus
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -33,7 +33,7 @@ Consider the following issues:
 
 -   Images are useful for recovery in many scenarios, but should never
     be used as your sole source of recovery. We recommend Cloud Backup
-    or your preferred backup method be used in conjunction with
+    or your preferred backup method to be used in conjunction with
     server images.
 -   Some application servers are not good candidates for
     scheduled images. In particular, some database management systems
@@ -61,7 +61,7 @@ and API users:
     [Introducing the Rackspace Cloud Control Panel](/support/how-to/introducing-the-rackspace-cloud-control-panel).
 -   **API users**: See the Cloud Servers [API documentation for the
     Scheduled Images
-    extension](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#enable-scheduled-images).
+    extension](https://docs.rackspace.com/docs/cloud-servers/v2/api-reference/svr-images-operations#enable-scheduled-images).
 
 Images are stored in **Cloud Images**.  You're charged for them as if they were
 stored in your Cloud Files account.  Thus, you'll be charged your normal Cloud
@@ -83,16 +83,13 @@ scheme:
     name longer than 238 characters, it will be truncated to fit
 
 The best way to tell is to look at the image metadata - though
-unfortunately, you can't see it in the Cloud Control Panel yet. Using
-the API or the novaclient command line tool, you will see that an image
+unfortunately, you can't see it in the Cloud Control Panel. Using
+the API, you will see that an image
 created by the scheduled images service has the following metadatum on
 it:
 
     org.openstack__1__created_by: scheduled_images_service
 
-For information about using the novaclient tool for scheduled images,
-see [Using python-novaclient to manage scheduled
-images](/support/how-to/using-python-novaclient-to-manage-scheduled-images).
 {{</accordion>}}
 {{<accordion title="Is there a minimum or maximum time between scheduled images?" col="in" href="accordion5">}}
 
@@ -117,8 +114,8 @@ and throughout the day.
 {{</accordion>}}
 {{<accordion title="Will the image created\_at reflect the completion or start time?" col="in" href="accordion7">}}
 
-The implementation uses the normal OpenStack snapshotting process, so
-the created\_at timestamp will be the time the call was made, i.e., at
+The implementation uses the normal OpenStack snapshot process, so
+the created\_at timestamp will be the time the call was made, for example, at
 the start of the snapshot.  The time it will be available for you to use
 (that is, when its status is ACTIVE) depends on factors such as the size
 of the image and overall network congestion in the cloud.
@@ -185,24 +182,19 @@ constraints:
     'd615a437-aaa9-4a52-a1c0-5bcb0d33038c'
 
 So, if you remove the metadatum 'org.openstack\_\_1\_\_created\_by' from
-the scheduled image you wish to save, the snapshot will not be subject
+the scheduled image that you wish to save, the snapshot will not be subject
 to retention culling.
 
 At the current time, you cannot modify image metadata by using the Cloud
-Control Panel. If you don't want to make API calls directly, a
-command-line tool called `novaclient` is available. For more information
-about using the novaclient tool to manage your scheduled images, see
-[Using python-novaclient to manage scheduled
-images](/support/how-to/using-python-novaclient-to-manage-scheduled-images).
+Control Panel, but only by API calls.
 {{</accordion>}}
 {{<accordion title="How can I change the retention value on my server?" col="in" href="accordion13">}}
 
-You can change the retention value the same way you originally enabled
-scheduled images on your server, by
+You can change the retention value by using the following tools:
 
 -   Cloud Control Panel
 -   API
--   novaclient command-line tool
+
 
 Just specify the new value you wish to use for the retention.
 {{</accordion>}}
@@ -216,8 +208,7 @@ calculates whether any images need to be deleted from your account.
 
 A scheduled image is just a normal snapshot. You can do what you like
 with it just as you can with your other snapshots. You can delete a
-scheduled image at any time using your normal workflow (Cloud Control Panel,
-novaclient, direct API calls).
+scheduled image at any time using your normal workflow (Cloud Control Panel, direct API calls).
 {{</accordion>}}
 
 ### Miscellaneous
@@ -249,7 +240,5 @@ options will remain the same as they are now.
 {{<accordion title="Where can I get more information about Scheduled Images?" col="in" href="accordion18">}}
 
 -   [Scheduled Images API Extension
-    Documentation](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#enable-scheduled-images)
--   [Using python-novaclient to manage scheduled
-    images](/support/how-to/using-python-novaclient-to-manage-scheduled-images)
+    Documentation](https://docs.rackspace.com/docs/cloud-servers/v2/api-reference/svr-images-operations#enable-scheduled-images)
 {{</accordion>}}
