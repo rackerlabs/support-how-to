@@ -1,11 +1,11 @@
 ---
-permalink: /checking-for-windows-udpates-in-windows-server-2016-&-2019/
+permalink: checking-for-windows-udpates-in-windows-server-2016-and-2019
 audit_date:
-title: ‘Checking for Windows Updates in Windows Server 2016-2019’
+title: 'Checking for Windows Updates in Windows Server 2016 and 2019'
 type: article
-created_date: ‘2021-03-05’
+created_date: '2021-03-05'
 created_by: Karoline Mills
-last_modified_date: '2021-04-06’
+last_modified_date: '2021-04-06'
 last_modified_by: Karoline Mills
 product: Cloud Servers
 product_url: cloud-servers
