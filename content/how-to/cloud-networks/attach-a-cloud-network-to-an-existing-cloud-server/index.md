@@ -1,12 +1,12 @@
 ---
 permalink: attach-a-cloud-network-to-an-existing-cloud-server
-audit_date:
+audit_date: '2021-05-24'
 title: Attach a Cloud Network to an Existing Cloud Server
 type: article
 created_date: '2012-09-21'
 created_by: Susan Million
-last_modified_date: '2016-07-07'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2021-05-24'
+last_modified_by: Carlos Arriaga
 product: Cloud Networks
 product_url: cloud-networks
 ---
@@ -21,7 +21,7 @@ using one of the following methods:
 
 If you use the Cloud Networks API to attach network interfaces to or
 detach them from a cloud server, you might experience a brief
-interruption (lasting a few seconds) in traffic hitting your cloud
+interruption (lasting 3-4 seconds) in traffic hitting your cloud
 server while networking is being reset on the server.
 
 +**Warning for Rackconnect v2.0:** Do not attach or detach a cloud network onto a server that is using Rackconnect v2.0. Attaching or detaching a cloud network on a Cloud Server using Rackconnect v2.0 causes the network stack to be reset, which breaks the cloud server's connectivity to Rackconnect v2.0. If you need to attach a network to a cloud server that currently runs Rackconnect v2.0, please contact support before making the change.
@@ -65,4 +65,4 @@ attached to the networks that you selected.
 
 [Using CIDR notation in Cloud Networks](/support/how-to/using-cidr-notation-in-cloud-networks)
 
-[Cloud Networks Developer Guide](https://docs.rackspace.com/docs/cloud-networks/v2/developer-guide/)
+[Cloud Networks Developer Guide](https://docs.rackspace.com/docs/cloud-networks/v2/)
