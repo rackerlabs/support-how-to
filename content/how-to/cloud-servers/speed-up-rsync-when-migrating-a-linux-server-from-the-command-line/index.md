@@ -33,10 +33,10 @@ minutes to complete. The following server use cases can dramatically extend rsyn
   using rsync takes longer to complete than you might expect. This means an initial
   rsync takes longer, but a second pass in rescue mode&mdash;with associated
   downtime&mdash;is shorter.
-- **Servers containing multiple files that are being updated during live rsync**.
-  Typically, these are MySQL&reg; MyISAM table files or web servers hosting multiple domains,
+- **Servers containing multiple files updated during live rsync**. Typically, these
+  are MySQL&reg; MyISAM table files or web servers hosting multiple domains,
   each configured to log to separate files. The need to update these actively written
-  files after the rsync's first-pass copy extends the downtime from a reboot to
+  files after the first-pass rsync copy extends the downtime from a reboot to
   complete a second pass of the rsync process.
 - **Servers containing one or more large files updated during migration**. Examples
   include MySQL databases using InnoDB format, mail servers with large mail logs, and
