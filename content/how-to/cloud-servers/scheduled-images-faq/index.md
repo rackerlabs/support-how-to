@@ -110,7 +110,7 @@ and throughout the day.
 
 The implementation uses the normal OpenStack snapshot process, so
 the created\_at timestamp is when the call occurred at
-the start of the snapshot.  The image's availability time
+the start of the snapshot.  The availability time of the image
 (when its status is ACTIVE) depends on factors such as the size
 of the image and overall network congestion in the cloud.
 {{</accordion>}}
