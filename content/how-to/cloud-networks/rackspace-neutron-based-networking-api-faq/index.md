@@ -1,20 +1,20 @@
 ---
 permalink: rackspace-neutron-based-networking-api-faq
-audit_date:
+audit_date: '2021-05-26'
 title: Rackspace Neutron-based Networking API FAQ
 type: article
 created_date: '2014-02-26'
 created_by: Sameer Satyam
-last_modified_date: '2015-03-17'
-last_modified_by: Kyle Laffoon
+last_modified_date: '2021-05-26'
+last_modified_by: Carlos Arriaga
 product: Cloud Networks
 product_url: cloud-networks
 ---
 
-Neutron is an OpenStack project that will be the basis for all upcoming
+Neutron is an OpenStack&reg; project that is the basis for all
 networking services in the Rackspace Public Cloud. If you deploy
 Rackspace Cloud Servers, you can use Rackspace Networking API based on
-OpenStack Neutron in order to create and manage [Cloud Networks](https://www.rackspace.com/cloud/networks/) and perform other
+OpenStack Neutron to create and manage [Cloud Networks](https://www.rackspace.com/cloud/networks/) and perform other
 Networking operations.
 
 {{<accordion title="Where are the docs?" col="in" href="accordion1">}}
@@ -27,7 +27,7 @@ Networking operations.
 
 At Rackspace we have been using the /os-networksv2 Cloud Servers
 extension to provision networking capabilities in the public cloud. This
-extension was based on nova-network API and could be used primarily to
+extension uses nova-network API as a base, and can
 take advantage of Rackspace [Cloud Networks](https://www.rackspace.com/cloud/networks/). Since we introduced
 the existing API, the Neutron OpenStack project has become the primary
 Networking service in OpenStack. Moving forward, Rackspace Networking
@@ -35,7 +35,7 @@ API will be based on OpenStack Neutron API that is more granular than
 the nova-network API and offers richer functionality and flexibility to
 consume networking services.
 {{</accordion>}}
-{{<accordion title="What new capabilities are being introduced with the new API?" col="in" href="accordion3">}}
+{{<accordion title="What new capabilities does the new API have?" col="in" href="accordion3">}}
 
 The API provides three primary top level resources (networks , ports and
 subnets). Users can now:
@@ -59,16 +59,10 @@ API to take advantage of some of the new capabilities.
 Currently, you still have to use the Cloud Networks virtual interfaces
 extension to attach and detach networks from a Cloud Server.
 {{</accordion>}}
-{{<accordion title="Is this API available to RackConnect customers?" col="in" href="accordion6">}}
-
-RackConnect v2.0 customers can use this API. However, RackConnect v3.0
-users will not be able to take advantage of this API yet. We are
-planning to address this shortly.
-{{</accordion>}}
 {{<accordion title="Can I perform the API functions using the Neutron client?" col="in" href="accordion7">}}
 
 Neutron client is not currently supported. We plan to make the
-client available very soon.
+client available in the future.
 {{</accordion>}}
 {{<accordion title="Where is my XML?" col="in" href="accordion8">}}
 
@@ -111,3 +105,6 @@ No, ports can be created only on Isolated Networks (cloud networks).
 Yes, you can provision both an IPv4 address and an IPv6 address on the
 same port using the fixed_ips attribute.
 {{</accordion>}}
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
