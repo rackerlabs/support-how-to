@@ -214,7 +214,7 @@ restrictions because we spread out the scheduled times for snapshots to
 avoid interfering with each other or with on-demand snapshots. The
 time before an image becomes active depends on the current network
 traffic load, among other things. We guarantee that all users
-receive the same best effort service.
+receive the same best-effort service.
 
 In using scheduled images, keep the following in mind:
 
