@@ -51,7 +51,7 @@ and API users:
     name, and select **Schedule Image**. From the drop-down menu, select whether
     you want to create an image every **Day** or **Week**. If you
     select **Week**, you can also specify on which **Day of Week** for
-    the image creatation. Finally, specify the number of images you
+    the image creation. Finally, specify the number of images you
     want to retain and then click **Create Schedule**. To learn more about
     the Cloud Control Panel, see
     [Introducing the Rackspace Cloud Control Panel](/support/how-to/introducing-the-rackspace-cloud-control-panel).
@@ -78,7 +78,7 @@ The system creates scheduled images with a name based on the following scheme:
            name longer than 238 characters, the system truncates it to fit.
 
 The best way to tell is to look at the image metadata, but
-unfortunately, you can't see it in the Cloud Control Panel. By using
+you can't see it in the Cloud Control Panel. By using
 the API, you can see that an image created by the scheduled images service
 has the following metadatum:
 
@@ -102,7 +102,7 @@ ending at 12:00 UTC the day after the day of the week you specify.
 To operate the scheduled images service with minimal impact on
 on-demand snapshots and other network-intensive data transfers, we might
 change the time a snapshot occurs at any time to optimize load.  We
-reserve the right to modify your image's scjheduled time to
+reserve the right to modify your image's scheduled time to
 balance the number of image creations in flight across the cloud
 and throughout the day.
 {{</accordion>}}
