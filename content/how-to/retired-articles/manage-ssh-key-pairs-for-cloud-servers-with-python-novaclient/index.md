@@ -7,8 +7,6 @@ created_date: '2014-01-29'
 created_by: Trey Hoehne
 last_modified_date: '2019-08-07'
 last_modified_by: Cat Lookabaugh
-product: Cloud Servers
-product_url: cloud-servers
 ---
 
 The SSH protocol for remotely connecting to servers supports the use of key
