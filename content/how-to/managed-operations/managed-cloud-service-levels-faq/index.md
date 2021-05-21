@@ -16,29 +16,29 @@ Get quick answers to common questions about the service levels for Managed OpenS
 
 Managed Public OpenStack Cloud has the following service levels:
 
--   Managed Infrastructure: Rackspace manages the data center, infrastructure, and virtualization layers.
--   Managed Operations: Rackspace manages the data center, infrastructure, virtualization layers, operating system, database layer, and web server.
+-   **Managed Infrastructure**: Rackspace manages the data center, infrastructure, and virtualization layers.
+-   **Managed Operations**: Rackspace manages the data center, infrastructure, virtualization layers,
+    operating system, database layer, and web server.
 {{</accordion>}}
 {{<accordion title="What is the service-level pricing model?" col="in" href="accordion2">}}
 
 The Managed Cloud pricing model provides greater transparency of your total
-cloud expense by separating the cost of infrastructure and support.
+cloud expense by separating infrastructure and support costs.
 
-The infrastructure rate is based on the number of gigabytes (GB) of random
-access memory (RAM) used during the billing cycle, and not on the types of
-server. This way, many small servers are the same price as fewer larger
-servers.
+The infrastructure rate depends on the number of gigabytes (GB) of random
+access memory (RAM) used during the billing cycle, not on the server types.
+This way, many small servers are the same price as fewer larger servers.
 
 The support cost, or Service Level Rate, is determined by the total Compute
 power used. The Service Level Rate covers the maintenance and support of all
-your cloud Compute products (such as servers), and is based on your service
+your cloud Compute products (such as servers) and depends on your service
 level. OnMetal servers have a flat hourly rate independent of RAM. If you do
-not meet the minimum Service Level Rate during your billing cycle, the
-difference is assessed to your account.
+not meet the minimum Service Level Rate during your billing cycle, we assess
+the difference to your account.
 
-Your service level and support cover all products, but the Service Level Rate
-is only assessed against Compute products. Storage services such as Cloud Files
-and Cloud Block Storage have no Service Level Rates associated with them.
+Your service level and support cover all products, but we assess the Service
+Level Rate against only Compute products. Storage services, such as Cloud Files
+and Cloud Block Storage, have no Service Level Rates associated with them.
 {{</accordion>}}
 {{<accordion title="Can new customers choose other service levels for Managed OpenStack Public Cloud?" col="in" href="accordion3">}}
 
@@ -47,10 +47,10 @@ Operations. Customers with an older service level, such as the Infrastructure
 service level, can stay on that level or move to one of the new levels.
 Customers who upgrade to a new service level can't return to the old level.
 {{</accordion>}}
-{<accordion title="What happens with customers who are on the old Infrastructure service level?" col="in" href="accordion4">}}
+{{<accordion title="What happens with customers who are on the old Infrastructure service level?" col="in" href="accordion4">}}
 
 Customers who have the Infrastructure service level keep 
-their current pricing plan and continue to receive the same support as always.
+their current pricing plan and continue to receive the same support.
 {{</accordion>}}
 {<accordion title="Is Rackspace improving the support experience?" col="in" href="accordion5">}}
 
@@ -71,7 +71,7 @@ There are five foundational components to Rackspace support:
 -   **Launch assistance**: Use our specialists to help understand your unique 
     needs.
 -   **24x7 access to cloud engineers**: Reach our experts when your business 
-    need them.
+    needs them.
 {{</accordion>}}
 {<accordion title="Do Managed Operations customers get additional services?" col="in" href="accordion7">}}
 
