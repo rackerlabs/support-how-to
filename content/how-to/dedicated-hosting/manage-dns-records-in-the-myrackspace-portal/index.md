@@ -1,12 +1,12 @@
 ---
 permalink: manage-dns-records-in-the-myrackspace-portal
-audit_date:
+audit_date: '2021-05-24'
 title: Manage DNS records in the MyRackspace Portal
 type: article
 created_date: '2020-02-28'
 created_by: Derek Benson
-last_modified_date: '2020-03-02'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2021-05-24'
+last_modified_by: Carlos Arriaga
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
@@ -208,3 +208,6 @@ Click the domain name you want to edit in the list of zones displayed. If you ha
 1. Select the tab for the appropriate record type. 
 2. Check the box to the left of the record you want to delete. 
 3. Click **Delete Selected Records**.
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
