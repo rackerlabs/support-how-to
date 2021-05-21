@@ -1,12 +1,12 @@
 ---
 permalink: cloud-files-faq
-audit_date:
+audit_date: '2021-05-24'
 title: Cloud Files - FAQs
 type: article
 created_date: '2015-12-03'
 created_by: Rackspace Support
-last_modified_date: '2018-10-24'
-last_modified_by: Kate Dougherty
+last_modified_date: '2021-05-24'
+last_modified_by: Carlos Arriaga
 product: Cloud Files
 product_url: cloud-files
 ---
@@ -28,7 +28,7 @@ forums or documentation.
 A container is a "storage compartment" for your data and provides a way
 for you to organize that data. You can think of a Container as analogous
 to a folder in Windows&reg; or a directory in UNIX&reg;. The primary difference
-between a container and these other "file system" constructs is that
+between a container and these other &mdash;file system, constructs is that
 containers cannot be nested. You can have up to 500,000 Containers in
 your account, but they only exist at the "top level" of your account and
 containers cannot reside within other containers.
@@ -64,9 +64,9 @@ See [Cloud Files and CDN](/support/how-to/getting-started-with-cloud-files-and-c
 
 {{< accordion title="What does *eventual consistency* mean in Cloud Files?" col="in" href="accordion5" >}}
 
-A key characteristic of Cloud Files is *eventual consistency*. In computing, the CAP (Consistency, Availability, and Partition Tolerance) theorem states that distributed systems cannot achieve consistency, availability, *and* network failure tolerance; they can achieve only two. For example, a system can be consistent (that is, all reads get the most current data) and handle network failures, but must sacrifice availability to do so. Or, a system can choose to handle network failures and have perfect availability, but must sacrifice consistency to do so. Distributed systems must always handle network failures, so they must choose to sacrifice either availability or consistency.
+A key characteristic of Cloud Files is *eventual consistency*. In computing, the CAP (Consistency, Availability, and Partition Tolerance) theorem states that distributed systems cannot achieve consistency, availability, *and* network failure tolerance; they can achieve two. For example, a system can be consistent (that is, all reads get the most current data) and handle network failures, but must sacrifice availability to do so. Or, a system can choose to handle network failures and have perfect availability, but must sacrifice consistency to do so. Distributed systems must always handle network failures, so they must choose to sacrifice either availability or consistency.
 
-Storage systems become distributed as they grow. OpenStack Swift (the basis for the Rackspace Cloud Files service) sacrifices consistency for availability and network failure tolerance. This choice enables the system to scale to enormous levels and to provide massive uptime, but it also means that in certain scenarios some data might not be updated throughout the entire system. For example, a container listing might not be updated immediately after an object is written. OpenStack Swift queues the container listing update and allows the object write to succeed. This sort of consistency model is called *eventual consistency*.
+Storage systems become distributed as they grow. OpenStack Swift (the basis for the Rackspace Cloud Files service) sacrifices consistency for availability and network failure tolerance. This choice enables the system to scale to enormous levels and to provide massive uptime, but it also means that in certain scenarios some data might not update throughout the entire system. For example, a container listing might not be  update after an object is written. OpenStack Swift queues the container listing update and allows the object write to succeed. This sort of consistency model is called *eventual consistency*.
 {{< /accordion >}}
 
 {{< accordion title="Where can I find Cloud Files documentation?" col="in" href="accordion6" >}}
@@ -99,10 +99,10 @@ Please click here to view [The Rackspace Cloud Terms of Service](https://www.rac
 {{< accordion title="Why does uploading a file in the Cloud Control Panel set the Allow-Origin header on my container?" col="in" href="accordion9" >}}
 
 When you upload a file in the Cloud Control Panel, an `Allow-Origin`
-header is set on the container to support cross-origin resource sharing
+header supports cross-origin resource sharing on the container.
 (CORS). Browsers prevent AJAX requests between different domains by
 default. Because the Cloud Files API and the Cloud Control Panel reside on
-different domains, CORS must be enabled to support uploads directly to a
+different domains, CORS must support uploads directly to a
 container. When the upload succeeds, the CORS headers are removed.
 
 By allowing the browser to upload directly to the Cloud Files API,
@@ -115,12 +115,12 @@ Read more about CORS at
 {{< accordion title="How do permissions work?" col="in" href="accordion10" >}}
 
 There are no permissions or access controls around containers or objects
-other than being split into separate accounts. Users must authenticate
+other than dividing them into separate accounts. Users must authenticate
 with a valid user name and API Access Key, but once authenticated, they
-can create or delete containers and objects only within that account.
+can create or delete containers and objects within that account.
 
 At this time, there is no way to publicly access the objects stored in
-Cloud Files unless that container is published to CDN. Each request to
+Cloud Files unless that container publishes to CDN. Each request to
 Cloud Files must include a valid "storage token" in an HTTP header
 transmitted over a HTTPS connection.
 
@@ -131,8 +131,8 @@ transmitted over a HTTPS connection.
 
 {{< accordion title="Why have we chosen to support specific players?" col="in" href="accordion11" >}}
 
-Many Rackspace customers are not flash developers, but still want to use
-a streaming offer. There are a few players that are dominating the
+Rackspace customers are not generally flash developers, but still want to use
+a streaming offer. There are players that are dominating the
 market, and we will plan to support each of them. Custom plugins are
 required in order for Streaming delivery to work properly over the
 Akamai network. As Akamai adds support for more players, our customers
@@ -141,9 +141,9 @@ will have access to them.
 
 {{< accordion title="Why are we not using RTMP?" col="in" href="accordion12" >}}
 
-RTMP is probably the most popular delivery format today, but the market is quickly moving towards HTTP delivery for Streaming content. Following are just a few reasons the market is moving towards HTTP:
+RTMP is probably the most popular delivery format today, but the market is moving towards HTTP delivery for Streaming content. Following are just a few reasons the market is moving towards HTTP:
 
--   Accessibility - Many firewalls block RTMP and RTSP streaming
+-   Accessibility - Firewalls block RTMP and RTSP streaming
     protocols because corporations don't want users watching video
     at work. HTTP appears to be normal web traffic, meaning that videos
     served over HTTP are usually left open.
@@ -167,8 +167,7 @@ Yes, this is available to both US and UK Cloud customers.
 {{< accordion title="Does CDN management in Cloud Files support exposing a custom crossdomain.xml file?" col="in" href="accordion14" >}}
 
 Cloud Files CDN does not support exposing a custom **crossdomain.xml** file
-because this file is required by the OpenStack Swift project, on which
-Cloud Files is based.
+because the OpenStack Swift project requires this file on which Cloud Files is based.
 
 OpenStack Swift uses the **crossdomain.xml** file as a global configuration
 file for installation. The file cannot be modified for multiple tenants,
@@ -203,7 +202,7 @@ optimization platform with over 73,000 servers in 70 countries within
 nearly 1,000 networks.
 {{< /accordion >}}
 
-{{< accordion title="What will I experience when Akamai is implemented as my new CDN provider?" col="in" href="accordion18" >}}
+{{< accordion title="What will I experience when Akamai is my new CDN provider?" col="in" href="accordion18" >}}
 
 Rackspace expects no customer impact during your transition to Akamai.
 Once we flip the switch to have a customer's content served by Akamai,
@@ -212,7 +211,7 @@ provider URLs.
 
 This means that CDN customers who currently have Limelight URLs coded
 into their websites will continue to serve content using those URLs when
-they are transitioned to Akamai, but they will be distributed over the
+they transition to Akamai, but they will be distributed over the
 Akamai network. At this time, we do not have any plans to discontinue
 the legacy URLs.
 
@@ -258,7 +257,7 @@ No, all customers facing API calls will remain the same.
     offloads traffic on a backbone network by redirecting traffic to
     edge servers.
 -   Lower network latency and packet loss - End users experience less
-    jitter and improved stream quality. CDN users can therefore deliver
+    jitter and improved stream quality. CDN users can deliver
     high definition content with high Quality of Service, low costs and
     low network load.
 -   Higher Availability - CDNs dynamically distribute assets to
@@ -287,7 +286,7 @@ file support.
 {{< accordion title="How does Rackspace support the upload of large files to Cloud Files?" col="in" href="accordion24" >}}
 
 Although support for uploading content to Cloud Files through the Cloud
-Control Panel is limited to files smaller than 5 GB, we can accommodate
+Control Panel is for files smaller than 5 GB, we can accommodate
 the transfer of files larger than 5 GB by allowing you to segment your
 files into multiple file segments.
 {{< /accordion >}}
@@ -316,7 +315,7 @@ the Swift tool.
 
 {{< accordion title="When should I use the API instead of the Swift tool?" col="in" href="accordion28" >}}
 
-If you are interested in developing against the Rackspace Large File
+If you want to develop against the Rackspace Large File
 Support code to incorporate into your application, you should work
 directly with the Cloud Files API. For more information, see [Use the API to manage large files](/support/how-to/use-the-api-to-manage-large-files).
 {{< /accordion >}}
@@ -337,7 +336,7 @@ download or service of any other object retrieval.
 
 {{< accordion title="Do I have access to my file segments?" col="in" href="accordion31" >}}
 
-Yes, you can edit your file segments just like any other object within
+Yes, you can edit your file segments like any other object within
 Cloud Files.
 {{< /accordion >}}
 
@@ -345,7 +344,7 @@ Cloud Files.
 
 Include your manifest file in your upload. You can change your file name
 by editing this manifest file as well. We recommend using prefixing in
-your file segments to easily map your manifest file to the portions of
+your file segments to map your manifest file to the portions of
 your large file. For example, you could name your segments as follows:
 
         Myfavoritemovie-01
@@ -382,3 +381,6 @@ The Rackspace Cloud system restricts the maximum execution time of any
 one cron job to 15 minutes. Please make sure that your script is well
 tested and can complete its intended job within this time frame.
 {{< /accordion >}}
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
