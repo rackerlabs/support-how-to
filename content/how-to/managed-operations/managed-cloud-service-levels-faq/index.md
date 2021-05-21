@@ -52,7 +52,7 @@ Customers who upgrade to a new service level can't return to the old level.
 Customers who have the Infrastructure service level keep 
 their current pricing plan and continue to receive the same support.
 {{</accordion>}}
-{<accordion title="Is Rackspace improving the support experience?" col="in" href="accordion5">}}
+{{<accordion title="Is Rackspace improving the support experience?" col="in" href="accordion5">}}
 
 Yes, we are always looking at ways to improve our support.
 {{</accordion>}}
