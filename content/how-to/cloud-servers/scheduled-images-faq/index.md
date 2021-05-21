@@ -102,7 +102,7 @@ ending at 12:00 UTC the day after the day of the week you specify.
 To operate the scheduled images service with minimal impact on
 on-demand snapshots and other network-intensive data transfers, we might
 change the time a snapshot occurs at any time to optimize load.  We
-reserve the right to modify your image's scheduled time to
+reserve the right to modify the scheduled time of your image to
 balance the number of image creations in flight across the cloud
 and throughout the day.
 {{</accordion>}}
@@ -157,8 +157,8 @@ That's about 179 years of daily images.
 {{<accordion title="When does automatic deletion occur?" col="in" href="accordion11">}}
 
 When a scheduled image of a server has successfully completed, the
-scheduled images service creates a list of all that server's scheduled
-images and, if necessary, deletes the oldest images until it reaches the
+scheduled images service creates a list of all the scheduled images for that
+server and, if necessary, deletes the oldest images until it reaches the
 retention value for that server.
 {{</accordion>}}
 {{<accordion title="What if I don't want certain images automatically deleted?" col="in" href="accordion12">}}
