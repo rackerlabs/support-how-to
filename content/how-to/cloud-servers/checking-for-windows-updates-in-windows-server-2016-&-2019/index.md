@@ -7,9 +7,10 @@ created_date: ‘2021-03-05’
 created_by: Karoline Mills
 last_modified_date: '2021-04-06’
 last_modified_by: Karoline Mills
-product: Rackspace Cloud
+product: Cloud Servers
 product_url: cloud-servers
 ---
+
 This article explains how to check for new Windows Updates without installing them. This guide is applicable to Windows Server 2016 and 2019.
 
 #### Checking, downloading and installing new Windows Updates
