@@ -56,7 +56,7 @@ their current pricing plan and continue to receive the same support.
 
 Yes, we are always looking at ways to improve our support.
 {{</accordion>}}
-{<accordion title="What do I get from Rackspace support?" col="in" href="accordion6">}}
+{{<accordion title="What do I get from Rackspace support?" col="in" href="accordion6">}}
 
 There are five foundational components to Rackspace support:
 
@@ -73,7 +73,7 @@ There are five foundational components to Rackspace support:
 -   **24x7 access to cloud engineers**: Reach our experts when your business 
     needs them.
 {{</accordion>}}
-{<accordion title="Do Managed Operations customers get additional services?" col="in" href="accordion7">}}
+{{<accordion title="Do Managed Operations customers get additional services?" col="in" href="accordion7">}}
 
 Yes, customers at the Managed Operations service level can take advantage of the
 following additional services:
@@ -84,7 +84,7 @@ following additional services:
 -   Cloud application service management
 -   Named account manager
 {{</accordion>}}
-{<accordion title="What support guarantees do customers receive with Managed Cloud?" col="in" href="accordion8">}}
+{{<accordion title="What support guarantees do customers receive with Managed Cloud?" col="in" href="accordion8">}}
 
 To learn more about our support guarantees, see the general
 [Cloud Terms of Service](https://www.rackspace.com/information/legal/cloud/tos).
