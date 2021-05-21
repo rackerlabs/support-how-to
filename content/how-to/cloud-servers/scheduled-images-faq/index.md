@@ -146,7 +146,7 @@ number of scheduled images for this server reaches the retention value,
 the system deletes the oldest scheduled images so that the total number
 of scheduled images for this server does not exceed the retention value.
 
-Becasue you set the retention value on a per-server basis, you can
+Because you set the retention value on a per-server basis, you can
 specify a different retention value for each server.
 {{</accordion>}}
 {{<accordion title="What is the maximum retention value?" col="in" href="accordion10">}}
