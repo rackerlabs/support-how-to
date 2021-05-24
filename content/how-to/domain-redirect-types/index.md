@@ -94,3 +94,9 @@ plain domain, ie, `bluesky.com`. Doing this will cause any other records for
 that domain to become invisible. The workaround for this would be to create a
 CNAME record for `www.bluesky.com` and then use a redirect for sending traffic
 to bluesky.com.
+
+For more information check this articles:
+
+- [Linux htaccess tips and tricks](/support/how-to/linux-htaccess-tips-and-tricks/)
+- [Create apache redirects](/support/how-to/creating-apache-redirects)
+- [Create nginx redirects](/support/how-to/create-redirects-in-nginx)
