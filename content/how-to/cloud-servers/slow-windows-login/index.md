@@ -11,14 +11,20 @@ product: Cloud Product
 product_url: cloud-product
 ---
 
+Many remote connections or requests to a Windows&reg; server can cause delayed logins with
+your users. This article covers some basic steps you can take to confirm and troubleshoot
+this issue.
 
-### Slow Login on Windows Server Troubleshooting
+### Problem
 
-When there is a high number of remote connections/requests to a server you can see delayed logins with your users. This article will go over some basic steps you can take to confirm and troubleshoot this issue.
+A slow login on Windows is characterized by long user login attempts, which take a minute
+or two before getting disconnected. The disconnnect results in an alert in Event Viewer.
+High resource usage on the local server or Domain Controller can cause some of these
+issues. However, if you don't see slow overall performance and the resource utilization
+for CPU, RAM and disk were below 40%, the following solution might be helpful:
 
-A Slow login on Windows is characterized by long user login attempts &mdash;a minute or two before getting disconnected, that produce an alert within Event Viewer. Some of these issues can be caused by high resource usage on the local server or Domain Controller. However, if you don't see slow overall performance, the resource utilization for CPU, RAM and disk were below 40% the following solution might be of help.
-
-The following example alert can be found in the Event Viewer if you are having a slow login issue into your server:
+You might see an entry similar to the following example alert in the Event Viewer if you
+are having a slow login issue with your server:
 
 - **Log Name:**     `Microsoft-Windows-TerminalServices-RemoteConnectionManager/Admin`
 - **Source:**       `Microsoft-Windows-TerminalServices-RemoteConnectionManager`
@@ -30,28 +36,32 @@ The following example alert can be found in the Event Viewer if you are having a
 - **User:**         `NETWORK SERVICE`
 - **Computer:**     `123456-exampledomain.com`
 - **Description:**  *Remote Desktop Services has taken too long to load the user configuration from server \\123456-exampledomain.com for user rsadmin*
-#### Resolution:
 
-There now is an option to turn off the Domain Controller requests during user logon. This avoids the window for the dead-lock, and fixes the performance issues. To fix this issue in Windows Server 2012, you must upgrade to Windows Server 2012 R2. On Windows Server 2012 R2, create the fQueryUserConfigFromLocalMachine registry entry according to the following steps &mdash;this change does not require a reboot of the system.
+### Resolution:
+
+You can now turn off the Domain Controller requests during user logon, which avoids the window for
+the deadlock and fixes the performance issues. To fix this issue in Windows Server 2012, you must
+upgrade to Windows Server 2012 R2. On Windows Server 2012 R2, create the `fQueryUserConfigFromLocalMachine`
+registry entry according to the following steps.
+
+**Note:** This change does not require a reboot of the system.
 
 To make the registry change, follow these steps:
-- Start Registry Editor. (Press Windows logo key + R, type regedit.exe in the Open box, and then click OK.)
-    In Registry Editor, locate and then click one of the following registry subkeys:
- 
+
+1. To start the Registry Editor, press the Windows logo key + R, type `regedit.exe` in the
+   **Open** box, and click **OK**.  
+2. In the Registry Editor, locate and click one of the following registry subkeys:
+
         HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows NT\Terminal Services
 
--  On the Edit menu, select New, and then select DWORD Value.
-- Type fQueryUserConfigFromLocalMachine.
-- Press and hold (or right-click) fQueryUserConfigFromLocalMachine, and then select Modify.
-- In the Value data box, type 1, and then select OK.
-- Exit Registry Editor.
+3. In the **Edit** menu, select **New**, and then select **DWORD Value**.
+4. Enter `fQueryUserConfigFromLocalMachine`.
+5. Press and hold (or right-click) `fQueryUserConfigFromLocalMachine` and select **Modify**.
+6. In the **Value** data box, type `1` and select **OK**.
+7. Exit the Registry Editor.
 
-# Note for Windows Server 2016:
-You don't have to update registry keys in Windows Server 2016, the updated behavior is the default.
+**Note: For Windows Server 2016, you don't have to update registry keys in Windows
+Server 2016 because the updated behavior is the default.
 
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/). 
-
-
-
-
