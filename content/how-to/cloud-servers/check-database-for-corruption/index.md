@@ -1,29 +1,34 @@
 ---
 permalink: check-database-for-corruption/
-audit_date:
+audit_date: '2021-05-24'
 title: 'Check database for corruption'
 type: article
 created_date: '2021-04-07'
 created_by: David Fonseca
-last_modified_date:
-last_modified_by:
-product:
-product_url: 
+last_modified_date: '2021-05-24'
+last_modified_by: Rose Morales
+product: Cloud Servers
+product_url: cloud-servers
 ---
 
-# Check database for corruption (MySQL)
-This article explains how to check your database for corruption in MySQL.
-When occurs the corruption in a database? Usually occurs as a result of hardware, to be specific in disk-based failures or when a disk is full. 
+This article explains how to check your database for corruption in MySQL. When
+occurs the corruption in a database? It occurs as a result of hardware, to be
+specific in disk-based failures or when a disk is full.
 
-## Symptoms
-The principal symptom is got an error when you try to login, and shows a message in the console:
-`Session Replace: Table './DB_NAME/mdl_sessions2' is marked as crashed and should be repaired`
+### Symptoms
 
-## Solution
-This issue could be checked and repaired using the _mysqlcheck_ command and the flag _--auto-repair DBNAME_.
-Adding the flag _--auto-repair_, MySQL will try to repair the corruption in our database.
+The principal symptom is got an error when you try to login, and shows a message
+in the console: **Session Replace: Table './DB_NAME/mdl_sessions2' is marked as
+crashed and should be repaired**.
 
-```# mysqlcheck -u USER_NAME -p --auto-repair DB_NAME
+### Solution
+
+This issue could be checked and repaired using the `mysqlcheck` command and the
+flag `--auto-repair DBNAME`. Adding the flag `--auto-repair`, MySQL will try to
+repair the corruption in our database.
+
+```sql
+# mysqlcheck -u USER_NAME -p --auto-repair DB_NAME
 Enter password:
 db_test.adodb_logsql                      OK
 db_test.mdl_assignment                    OK
@@ -40,14 +45,28 @@ db_test_18_latest.mdl_log                           OK
 db_test_18_latest.mdl_sessions2                     OK
 ```
 
-If you just want to check if your database is or not corrupted, just type the following command:
-`# mysqlcheck -c DATABASE_NAME  -u USER_NAME -p`
+If you just want to check if your database is or not corrupted, just type the
+following command:
 
-Besides, if you want to check all databases and all tables in your server adding the flag _--all-databases_ and omitting the name of the database:
-`# mysqlcheck -c -u USER_NAME -p --all-databases`
+```sh
+# mysqlcheck -c DATABASE_NAME  -u USER_NAME -p
+```
 
-Alternative, if you just want to check a table inside a database put the command:
-`# mysqlcheck -a DB_NAME TABLE_NAME -u USER_NAME -p`
+Besides, if you want to check all databases and all tables in your server adding
+the flag _--all-databases_ and omitting the name of the database:
 
-## Conclution 
-With the commands presented in this article you now are able to check your MySQL database or table for corruption.
+```sh
+# mysqlcheck -c -u USER_NAME -p --all-databases
+```
+
+Alternative, if you just want to check a table inside a database put the
+command:
+
+```sh
+# mysqlcheck -a DB_NAME TABLE_NAME -u USER_NAME -p
+```
+
+### Conclusion
+
+With the commands presented in this article you now are able to check your MySQL
+database or table for corruption.
