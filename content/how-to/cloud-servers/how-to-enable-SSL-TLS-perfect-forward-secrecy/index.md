@@ -1,7 +1,7 @@
 ---
 permalink: how-to-enable-SSL-TLS-perfect-forward-secrecy/
 audit_date: '2021-05-24'
-title: 'How to enable SSL/TLS Perfect Forward Secrecy in Apache or Nginx'
+title: 'How to enable SSL/TLS perfect forward secrecy in Apache or Nginx'
 type: article
 created_date: '2021-04-24'
 created_by: Miguel Salgado
@@ -11,35 +11,48 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### How to enable Perfect Forward Secrecy&reg; in Apache or NGINX
+This article provides an overview of perfect forward secrecy (PFS) and how
+to enable it on Apache&reg; or Nginx&reg; web servers.
 
-This article provides an overview on what is Perfect Forward Secrecy (PFS) and how to enable in Apache or Nginx web servers.
+### What is PFS?
 
-#### What is Perfect Forward Secrecy?
+PFS protects data shared between the client and the server even if the private key is compromised.
+You can accomplish this by generating a session key for each transaction made. 
 
-Perfect Forward Secrecy protects the data that is shared between the client and the server even if the private key is compromised, this is accomplished by generating a session key for each transaction made. 
+### Why implement PFS on a website?
 
-#### Why to implement Perfect Forward Secrecy to a website?
-
-A TLS or SSL Certificate works by using a public key and private key, when the web browser and the server exchange keys, a session key is created using a key exchange mechanism called RSA where all the information between the client and the server is encrypted. RSA creates a link between the server private key and the session key created for each unique secure session. 
+A TLS or SSL certificate works by using a public key and a private key. When the web browser and
+the server exchange keys, the system creates a session key by using a key exchange mechanism
+called RSA, where all the information between the client and the server is encrypted. RSA
+creates a link between the server private key and the session key created for each unique
+secure session. 
  
-It is possible that the session gets brute-force attacked &mdash;this consists of an attack that injects the server with a numerous combination of security keys until the correct one is found. Even though this process might take a really long time, if the server's private key is compromised, the attackers can't only see the session data but all clients' transactions.
+The session might get brute-force attacked&mdash;this consists of an attack that injects the
+server with combinations of security keys until it finds the correct one. Even though this
+process might take a long time, if the server's private key is compromised, the attackers
+can see both the session data and all client transactions.
 
-#### How does Perfect Forward Secrecy protects a website?
+### How PFS protects a website
 
-Perfect Forward Secrecy enables the server to not rely on a single session key, instead of utilizing the same encryption key whenever a connection is made, a unique session key is generated when a connection is created.
+PFS enables the server not to rely on a single session key. Instead of using the same
+encryption key whenever a user or service makes a connection, PFS generates a unique
+session key for each connection.
 
-Perfect Forward Secrecy is enabled using exchange mechanisms &mdash;`Ephemeral Diffie-Hellman (DHE)` and `Elliptic Curve Diffie-Hellman (ECDHE)`.  If the attackers get to brute force the session key, they will only be able to decrypt the information from that session and not the others
+Enable PFS by using exchange mechanisms&mdash;`Ephemeral Diffie-Hellman (DHE)` and
+`Elliptic Curve Diffie-Hellman (ECDHE)`. If the attackers brute force the session key,
+they can only decrypt the information from that one session and not the others.
 
-#### Requirements to implement Perfect Forward Secrecy in a web server.
+### Requirements to implement PFS in a web server
 
-1. OpenSSL 1.0.1c+
-2. Apache 2.4 or 
-3. Nginx 1.0.6+ and 1.1.0+
+Use one of the following tools to implement PFS:
+
+- OpenSSL 1.0.1c+
+- Apache 2.4 or 
+- Nginx 1.0.6+ and 1.1.0+
 
 You can check the versions of these packages by running the following commands:
 
-**Note: At the moment of writing this article, these are the latest versions available, results may vary from your output.**
+**Note**: The results might vary as the vendors release new versions.
 
 ```
 [root@rackspace-test ~]$ openssl version
@@ -49,31 +62,36 @@ OpenSSL 1.1.1g FIPS  21 Apr 2020
 Server version: Apache/2.4.37 (centos)
 Server built:   Nov  4 2020 03:20:37
 ```
-For *Debian/Ubuntu OS servers based* the command is `apache2ctl -v`
+
+For Debian&reg; or Ubuntu&reg; operating systems servers, the command is `apache2ctl -v`.
 
 ```
 [root@rackspace-test ~]$ nginx -v
 nginx version: nginx/1.14.1
 ```
-**Note:** At the time this article was written, these are the latest versions, results might vary for your output.**
 
-#### SSL Protocol Configuration
+### SSL protocol configuration
 
-Check what websites have SSL implemented.
+Check what websites have SSL implemented by running the commands in the
+following sections.
 
-**Note: For this exercise Perfect Forward Secrecy will be implemented in a domain called example.com.**
+These samples implement PFS in a domain called **example.com**.
 
-##### Apache Instructions
+#### Apache instructions
 
-There are two options to check what websites have an SSL in place:
+There are two options to check what websites have an SSL certificate in place:
 
 ```
 [root@rackspace-test ~]# grep -ir "SSLEngine" /etc/httpd/
 /etc/httpd/conf.d/example.com.conf:     SSLEngine on
 ```
-**Note:** The default path for Apache Virtual Hosts are under the directory `/etc/httpd/conf.d/`, directories might vary for your configuration.
 
-Or with the commands `httpd -S` or `apachectl -S` for *CentOS/RHEL*, `apache2ctl -S` for *Debian/Ubuntu*.
+**Note:** The default path for Apache Virtual Hosts are under the
+directory **/etc/httpd/conf.d/**. Directories might vary for your configuration.
+
+Or, you can use the commands `httpd -S` or `apachectl -S` for CentOS &reg; or Red
+Hat&reg; Enterprise Linux &reg; (RHEL) and `apache2ctl -S` for Debian or Ubuntu
+operating systems.
 
 ```
 [root@rackspace-test ~]# httpd -S | grep 443
@@ -81,14 +99,18 @@ Or with the commands `httpd -S` or `apachectl -S` for *CentOS/RHEL*, `apache2ctl
      port 443 namevhost www.example.com (/etc/httpd/conf.d/example.com.conf:10)
 ```
 
-The following parameters will be added into the vhost configuration with your [favorite text editor](https://docs.rackspace.com/support/how-to/command-line-text-editors-in-linux/).
+Add the following parameters to the vhost configuration with your
+[favorite text editor](https://docs.rackspace.com/support/how-to/command-line-text-editors-in-linux/):
 
 ```
 SSLProtocol all -SSLv2 -SSLv3
 SSLHonorCipherOrder on
 SSLCipherSuite "EECDH+ECDSA+AESGCM EECDH+aRSA+AESGCM EECDH+ECDSA+SHA384 EECDH+ECDSA+SHA256 EECDH+aRSA+SHA384 EECDH+aRSA+SHA256 EECDH+aRSA+RC4 EECDH EDH+aRSA RC4 !aNULL !eNULL !LOW !3DES !MD5 !EXP !PSK !SRP !DSS"
 ```
-As a result, by looking for the word SSL in the vhost, the output should look be similar to this after the implementation.
+
+When you search for the word **SSL** in the vhost, the output should look be similar to the
+following after the implementation:
+
 ```
 [root@rackspace-test ~]# egrep 'SSL' /etc/httpd/conf.d/example.com.conf
      SSLEngine on
@@ -108,7 +130,7 @@ Syntax OK
 
 ##### Nginx Instructions
 
-List the website that have an SSL installed:
+List the websites that have an SSL certificate installed:
 
 ```
 [root@rackspace-test ~]# egrep -ir 'SSL' /etc/nginx/conf.d/
@@ -117,9 +139,11 @@ List the website that have an SSL installed:
 /etc/nginx/conf.d/example.com.conf:        ssl_certificate_key   /etc/ssl/private/2022-example.com.key;
 ```
 
-**Note:** The default path for Nginx Blocks are under the directory `/etc/nginx/conf.d/`, directories might vary for your configuration.
+**Note:** The default path for Nginx Blocks are under the directory
+**/etc/nginx/conf.d/**. Directories might vary for your configuration.
 
-The following parameters will be added into the vhost configuration with your [favorite text editor](https://docs.rackspace.com/support/how-to/command-line-text-editors-in-linux/).
+Add the following parameters to the vhost configuration with your
+[favorite text editor](https://docs.rackspace.com/support/how-to/command-line-text-editors-in-linux/):
 
 ```
 ssl_protocols TLSv1.2 TLSv1.1 TLSv1;
@@ -127,7 +151,8 @@ ssl_prefer_server_ciphers on;
 ssl_ciphers "EECDH+ECDSA+AESGCM EECDH+aRSA+AESGCM EECDH+ECDSA+SHA384 EECDH+ECDSA+SHA256 EECDH+aRSA+SHA384 EECDH+aRSA+SHA256 EECDH+aRSA+RC4 EECDH EDH+aRSA RC4 !aNULL !eNULL !LOW !3DES !MD5 !EXP !PSK !SRP !DSS";
 ```
 
-As a result, by looking for the word SSL in the vhost, the output should be similar to this after the implementation:
+When you search for the word **SSL** in the vhost, the output should look be similar to the
+following after the implementation:
 
 ```
 [root@racksapce-test ~]# egrep -ir 'SSL' /etc/nginx/conf.d/example.com.conf
@@ -148,9 +173,7 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
 [root@rackspace-test ~]# nginx -s reload
 ```
 
-With the steps mentioned above, Perfect Forward Secrecy has been implemented correctly for your websites.
+By using the preceding steps, you can implement PFS correctly for your websites.
 
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/). 
-
-
