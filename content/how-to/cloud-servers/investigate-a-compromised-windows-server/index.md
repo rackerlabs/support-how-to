@@ -1,123 +1,163 @@
 ---
 permalink: investigate-a-compromised-windows-server/
 audit_date: '2021-05-16'
-title: 'How to Investigate a compromised Windows server'
+title: 'Investigate a compromised Windows server'
 type: article
 created_date: '2021-05-06'
 created_by: Dave Myers
 last_modified_date: '2021-05-16'
 last_modified_by: Carlos Arriaga
-product: Cloud Product
-product_url: cloud-product
----
+product: Cloud Servers
+product_url: cloud-servers
 
-This article assists in understanding and identifying indications of a compromised server. This is a very high-level document, you can use it as a resource in tracking down a potential compromise not intented to resolve a compromised server.
+This article helps you understand and identify indications of a compromised
+Windows&reg; server. This is a very high-level document, which you can use as
+a resource in tracking down a potential issue rather than resolving a
+compromised server.
 
-### Types of Compromise
+### Types of compromise
 
-There are two types of compromise we are concerned with: **Application Level** and **System/ root level**. These are much more serious and often require a robust disaster recovery plan to mitigate. 
+This article is concerned with two types of compromise: Application-level
+and System or root-level. These are quite serious and often require a robust
+disaster recovery plan to mitigate.
 
-#### Application Level
+#### Application-level compromise
 
-An Application level compromise occurs when a low-level service or user is compromised. Typical compromises in this group will include the following:
+An Application-level compromise occurs when a low-level service or user is
+compromised. Typical compromises in this group include the following issues:
 
-- Site Defacement
-- FTP Tagging
+- Site defacement
+- FTP tagging
 - FTP file manipulation
-- SQL Injection
+- SQL injection
 
-In this type of compromise, data can be altered on the server. However they never achieve **administrative / root** level access on the server. In these cases, it might be possible to identify and secure the vulnerability. Securing **Application** level vulnerability could involve removing write access from an anonymous web user, removing viruses from a server, or securing an application via available patches. To repair any files that might have been altered, a restore from backup will be required.
+This type of compromise might alter data on the server. However, they never achieve
+administrative or root-level access on the server. In these cases, you might be able
+to identify and secure the vulnerability. Securing Application-level vulnerability
+could involve removing write access from an anonymous web user, removing viruses
+from a server, or securing an application through available patches. To repair any
+altered files, you need to restore from backup.
 
-#### Administrative/System or Root Level compromise
+#### Administrative, system, or root-level compromise
 
-This takes place when an attack has gained Administrative access to the system. This includes the following:
+This type of compromise takes place when an attacker gains administrative access to
+the system and can include the following issues:
 
-- Compromised Service running as System, LocalService, or Administrative user 
-- Compromised user account that has Administrative rights.
-- Access via a non-administrative user to a location restricted to 
-- Administrative users (System directories,etc.).
+- Compromised service running as a `System`, `LocalService`, or `Administrative` user
+- Compromised user account that has Administrative rights
+- Access through a non-administrative user to a location restricted to
+  Administrative users (such as System directories, and so on)
 - Virus found in System or Administrative directory
 - Visibly malicious outbound network activity
 - SQL Injection (includes command execution)
 
-**Note:** When an attacker gains this level of access, it is impossible to determine any modifications that have occurred during the course of compromise.
+**Important:** When an attacker gains this level of access, you cannot determine any
+modifications that occurred during the course of compromise.
 
-### Tools within Windows used in looking for a compromise.
+### Windows tools you can use to look for a compromise
 
-- **Tasklist:** Command line tool provides details on processes and services in the system
-- **Task Manager:** Graphical tool provides details on processes, resource statistics and network activity in the system
-- **Resource Manager:** Graphical tool similar to *Taskmanager* but provides more details on resource use
-
-#### Identifying the compromise
-
-**High Bandwidth Utilization:**
-
-- High Sustained unexected Bandwidth utilization is often a common symptom as systems are usually compromised with the intent of running a network service on them, there may be a service running on the system and listening to an odd port could indicate a compromised server.
-
-- Reviewing Network Connections for TCP
-
-**NetStat** *-naop* 'TCP'
-
-- Reviewing Network Connections for UDP
-
-**NetStat** *-naop* 'UDP'
-
-- To count specific connections:
-
-**NetStat** *-naop* 'TCP' |  **find** /c ":<port>"
+- **Tasklist:** Command-line tool providing details on processes
+  and services in the system
+- **Task Manager:** Graphical tool providing details on processes,
+  resource statistics, and network activity in the system
+- **Resource Manager:** Graphical tool similar to *Taskmanager* but
+  providing more details about resource use
   
-**Note:** **Sysinternal's TCP** view offers alternative graphical tools for this review.
+### Explore a compromised server
 
-**Process Review:**
+To explore a possible compromise situation, perform the following tasks, described in this section:
+
+- Identify the compromise
+- Review the processes
+- Review the services
+- Review the users
+
+#### Identify the compromise
+
+High sustained unexpected bandwidth utilization is often a common symptom.
+Because attackers usually compromise systems intending to run a network
+service on them, there might be a service running on the system, so listening
+to an odd port could indicate a compromised server.
+
+- To review network connections for TCP, run the following command:
+
+      NetStat -naop 'TCP'
+
+- To review network connections for UDP, run the following command:
+
+      NetStat** -naop 'UDP'
+
+- To count specific connections, run one of the following commands:
+
+      NetStat** -naop 'TCP'
+      
+      find /c ":<port>"
   
-Look to identify any suspicious process. A compromised server will likely have one or more malicious processes running.
-These can sometimes be identified because they contain typos, grammar errors or a suspicious description.
+**Note:** The **Sysinternal TCP** view offers alternative graphical tools
+for this review.
 
-- List of processes running from system
+#### Review the processes
   
- **Tasklist** /FI "USERNAME ne NT AUTHORITY\SYSTEM" /FI "STATUS eq running" 
+Identify any suspicious process. A compromised server likely has one or
+more malicious processes running. You can sometimes identify these because
+they contain typos, grammar errors, or a suspicious description.
+
+- To list the processes running on the system, run the following command:
   
-- List of processes defined as a service
-
-  **Tasklist** /svc 
-
-- List a snapshot of the current running process. Same output at the taskmanager process list.
-
-  **Get-Process**
-- List processes and what user they are running under:
-
-  **gwmi** win32_process |select Name, @{l="User name";e={$_.getowner().user}}
-
-**Review Services:**
+      Tasklist /FI "USERNAME ne NT AUTHORITY\SYSTEM" /FI "STATUS eq running" 
   
-Look for typos, grammar errors or suspicious descriptions.  If a service looks questionable, try to determine if the properties,
-dependencies or if the file is executable. Use the ***Services GUI*** to view running services.
+- To list of processes defined as a service, run the following command:
 
-- List of running Services:
-**get-service** | where-object {$_.Status -eq "Running"}
+      Tasklist /svc 
 
-**Review Users:**
+- To list a snapshot of the currently running process with the same output
+  as the taskmanager process list, run the following command:
+
+      Get-Process
   
-Reviewing basic user accounts is one of the quickest ways to know if a server is compromised and can show a bad configuration. Here are the things to check:
+- To list processes and what user they are running under, run one of the following commands:
 
-- Unknown or unusually named user accounts.
+      gwmi win32_process
+      
+      select Name, @{l="User name";e={$_.getowner().user}}
 
-  **net user** - List configured users.
-
-  - Unknown users in the local Administrators group.
-
-  **net localgroup Administrators** - List configured Administrators.
-
-  - Guest account is enabled and/or in the Administrators group.
-
-  **net user guest** - Checks to see if the Guest User account is enabled.
-
-#### Tools available from Microsoft Sysinternals
+#### Review the services
   
-- Documentation to Sysinternals: https://docs.microsoft.com/en-us/sysinternals/resources/troubleshooting-book
-- Live link to sysinternal tools: https://live.sysinternals.com/
-- Sophos AntiRootkit: https://www.sophos.com/en-us/products/free-tools/sophos-anti-rootkit.aspx
+Look for typos, grammar errors, or suspicious descriptions. If a service looks
+questionable, examine the properties and dependencies. Also, determine if the file
+is executable. Use the **Services GUI** to view running services.
+
+- To list running Services, run the following command:
+
+      get-service | where-object {$_.Status -eq "Running"}
+
+#### Review the users
+  
+To know if a server is compromised and identify bad configuration quickly, review
+basic user accounts.
+
+- To identify unknown or unusually named user accounts by listing
+  configured users, run the following command:
+
+      net user
+
+- To identify unknown users in the local Administrators group by listing
+  configured Administrators, run the following command:
+
+      net localgroup Administrators
+
+- To see if a guest account is enabled and in the Administrators group, run
+  the following command:
+
+      net user guest
+
+### Tools available from Microsoft Sysinternals
+
+For more information, review the following sources:
+  
+- [Documentation to Sysinternals](https://docs.microsoft.com/en-us/sysinternals/resources/troubleshooting-book)
+- [Live link to sysinternal tools](https://live.sysinternals.com/)
+- [Sophos AntiRootkit](https://www.sophos.com/en-us/products/free-tools/sophos-anti-rootkit.aspx)
   
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/). 
-
