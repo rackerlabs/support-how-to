@@ -1,12 +1,12 @@
 ---
 permalink: sophos-error-on-EOL-Windows-Server-2008/
-audit_date:
+audit_date: '2021-05-24'
 title: 'Sophos Error due to EOL on Windows Server 2008/2008R2'
 type: article
 created_date: '2021-03-31'
 created_by: Dave Myers
-last_modified_date: '2021-03-31'
-last_modified_by: Dave Myers
+last_modified_date: '2021-05-24'
+last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
 ---
