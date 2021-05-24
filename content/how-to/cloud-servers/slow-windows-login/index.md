@@ -7,8 +7,8 @@ created_date: '2021-04-12'
 created_by: Travis Cook
 last_modified_date: '2021-05-24'
 last_modified_by: Carlos Arriaga
-product: Cloud Product
-product_url: cloud-product
+product: Cloud Servers
+product_url: cloud-servers
 ---
 
 Many remote connections or requests to a Windows&reg; server can cause delayed logins with
