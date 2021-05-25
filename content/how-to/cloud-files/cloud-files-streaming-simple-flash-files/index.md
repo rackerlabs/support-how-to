@@ -1,29 +1,37 @@
 ---
 permalink: cloud-files-streaming-simple-flash-files
-audit_date:
+audit_date: '2021-05-26'
 title: Stream simple Flash files from Cloud Files
 type: article
 created_date: '2011-03-08'
 created_by: Rackspace Support
-last_modified_date: '2018-10-23'
-last_modified_by: Kate Dougherty
+last_modified_date: '2021-05-26'
+last_modified_by: Ana Corpus
 product: Cloud Files
 product_url: cloud-files
 ---
 
-This tutorial describes how to stream media files from Cloud Files to a website. It
-assumes that you have a video file uploaded to Cloud Files and that the container it is in
-is public. It also uses [Flowplayer](https://flowplayer.org/), which is an open-source Flash video player registered
+**Disclaimer**: As of January 12, 2021, excluding the China variant  of Flash, 
+the Flash executable has a built-in kill switch which prevents it from playing 
+Flash files. As of February 2021, all major browsers block Flash and cannot 
+play it. Only IE11, niche browser forks, and some browsers built for China plan
+to continue support.
+
+This article describes how to stream media files from Cloud Files to a website. 
+It assumes that you have a video file uploaded to Cloud Files in a public 
+container. It also uses [Flowplayer](https://flowplayer.org/), which is an open-source Flash video player registered
 under the GPL.
-
-
 ### Streaming
 
-Cloud Files containers that are published and marked as public are delivered over the [Akamai Technologies](https://www.akamai.com/) global content delivery network (CDN). For streaming flash files from your Cloud Files, Akamai provides *pseudostreaming*.
+Cloud Files containers that are published and marked as public are delivered 
+over the [Akamai Technologies](https://www.akamai.com/) global content delivery network (CDN). For streaming flash files from your Cloud Files, Akamai provides *pseudostreaming*.
 
-Pseudostreaming works as follows: When a video is initially loaded, the player reads and stores a list of seek points as part of the video's metadata. These seek points are offsets in the video (both in seconds and in bytes) at which a new key frame starts. To accomplish this, Akamai's streaming supports the [HTTP Range header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.35) to identify those seek points. Real Time Messaging Protocol (RTMP) streaming is not supported.
+Pseudostreaming works as follows: When a video is initially loaded, the player 
+reads and stores a list of seek points as part metadata of the video. These seek points are offsets in the video (both in seconds and in bytes) at which a new 
+key frame starts. To accomplish this, Akamai's streaming supports the [HTTP Range header](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.35) to 
+identify those seek points. Real Time Messaging Protocol (RTMP) streaming is not supported.
 
-Pseudostreaming differs from what Akamai offers with their iOS streaming. iOS streaming is a form of adaptive streaming. The encoder (or a separate segmented process) produces H.264/AAC content in a sequence of small content segments, in MPEG-2 TS format (.ts). There is also a m3u8 index file that references these segments; in the case of live content, the M3U8 is continuously updated to reflect the latest content.
+Pseudostreaming differs from what Akamai offers with their iOS streaming. iOS streaming is a form of adaptive streaming. The encoder (or a separate segmented process) produces H.264/AAC content in a sequence of small content segments, in MPEG-2 TS format (.ts). There is also a m3u8 index file that references these segments. In the case of live content, the M3U8 is continuously updated to reflect the latest content.
 
 For more information about pseudostreaming, see [JW6: Pseudo Streaming in Flash](https://www.joomlarulez.com).
 
@@ -48,7 +56,7 @@ F4F/F4M  | H.264 <br /> VP6  | AAC <br /> MP3 |  None
 
 ### FlowPlayer
 
-1. Go to the [Akamai FlowPlayer](https://mediapm.edgesuite.net/flow/ "https://flowplayer.org") and download the free version of FlowPlayer.
+1. Go to the [Akamai FlowPlayer](https://flowplayer.org) and download FlowPlayer.
 2. Save the zip file to your desktop.
 3. Extract the zip file to your desktop.
 4. Upload the following files to Cloud Files by using the [Cloud Control Panel](https://login.rackspace.com/):
@@ -82,4 +90,9 @@ Create a simple XHTML file that calls Flowplayer and embeds it onto the page. Us
 
 Save this XHTML file and run it from your local machine.
 
-If it is working correctly, the Flash video loads quickly and streams. If not, check your code. If you are still having problems after that, call our Support team or submit a ticket through the [Cloud Control Panel](https://login.rackspace.com/).
+If it is working correctly, the Flash video loads quickly and streams. If not, 
+check your code. If you are still having problems after that, call our Support 
+team or submit a ticket through the [Cloud Control Panel](https://login.rackspace.com/).
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/).
