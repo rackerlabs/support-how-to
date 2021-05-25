@@ -11,21 +11,21 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article explains how to check your database for corruption in MySQL. When
-occurs the corruption in a database? It occurs as a result of hardware, to be
-specific in disk-based failures or when a disk is full.
+This article explains how to check your database for corruption in MySQL&reg;. Why
+does corruption occur in a database? It might happen because of hardware, specifically
+disk-based failures or when a disk is full.
 
 ### Symptoms
 
-The principal symptom is got an error when you try to login, and shows a message
-in the console: **Session Replace: Table './DB_NAME/mdl_sessions2' is marked as
+The principal symptom: You try to log in and get an error message
+in the console: **Session Replace: Table './DB\_NAME/mdl\_sessions2' is marked as
 crashed and should be repaired**.
 
-### Solution
+### Solutions
 
-This issue could be checked and repaired using the `mysqlcheck` command and the
-flag `--auto-repair DBNAME`. Adding the flag `--auto-repair`, MySQL will try to
-repair the corruption in our database.
+You can check and repair this issue by using the `mysqlcheck` command with the
+`--auto-repair DBNAME` flag. When you add the `--auto-repair` flag, MySQL tries to
+repair the corruption in your database.
 
 ```sql
 # mysqlcheck -u USER_NAME -p --auto-repair DB_NAME
@@ -45,21 +45,22 @@ db_test_18_latest.mdl_log                           OK
 db_test_18_latest.mdl_sessions2                     OK
 ```
 
-If you just want to check if your database is or not corrupted, just type the
+If you just want to check if your database is or not corrupted, run the
 following command:
 
 ```sh
 # mysqlcheck -c DATABASE_NAME  -u USER_NAME -p
 ```
 
-Besides, if you want to check all databases and all tables in your server adding
-the flag _--all-databases_ and omitting the name of the database:
+If you want to check all databases and tables in your server, add
+the flag `--all-databases` and omit the name of the database,
+as shown in the following command:
 
 ```sh
 # mysqlcheck -c -u USER_NAME -p --all-databases
 ```
 
-Alternative, if you just want to check a table inside a database put the
+If you just want to check a table inside a database, run the following
 command:
 
 ```sh
@@ -68,5 +69,5 @@ command:
 
 ### Conclusion
 
-With the commands presented in this article you now are able to check your MySQL
+With the commands presented in this article, you can now check your MySQL
 database or table for corruption.
