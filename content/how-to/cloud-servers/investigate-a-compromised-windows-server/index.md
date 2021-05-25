@@ -9,6 +9,7 @@ last_modified_date: '2021-05-16'
 last_modified_by: Carlos Arriaga
 product: Cloud Servers
 product_url: cloud-servers
+---
 
 This article helps you understand and identify indications of a compromised
 Windows&reg; server. This is a very high-level document, which you can use as
