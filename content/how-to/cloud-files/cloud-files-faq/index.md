@@ -96,9 +96,9 @@ Find Cloud Files documentation in the following locations:
 {{< accordion title="Can Cloud Files be used for my cross-domain policy file?" col="in" href="accordion7" >}}
 
 No. The Cloud Files CDN does not support exposing a custom
-**crossdomain.xml** file, because the OpenStack Swift project considers this a
+**crossdomain.xml** file because the OpenStack Swift project considers this a
 required file. OpenStack Swift uses this as a global configuration file for
-the installation, and you can't modify for multiple tenants, such as
+the installation, and you can't modify it for multiple tenants, such as
 our Public Cloud.
 {{< /accordion >}}
 
@@ -120,7 +120,7 @@ Panel reside on different domains, CORS must support uploads directly to a
 container. When the upload succeeds, the system removes the CORS headers.
 
 By allowing the browser to upload directly to the Cloud Files API, you can
-acheive maximum upload performance.
+achieve maximum upload performance.
 
 Read more about CORS at
 <https://en.wikipedia.org/wiki/Cross-origin_resource_sharing>.
@@ -130,8 +130,8 @@ Read more about CORS at
 
 There are no permissions or access controls around containers or objects
 other than dividing them into separate accounts. Users must authenticate
-with a valid user name and API Access Key, but after authentication, they
-can create or delete containers and objects within that account.
+with a valid user name and API Access Key, but they can create or delete
+containers and objects within that account after authentication.
 
 At this time, there is no way to publicly access the objects stored in
 Cloud Files unless that container publishes to CDN. Each request to
@@ -201,7 +201,7 @@ own origin web server.
 When you create a container in Cloud Files and make that container
 public, the files within that container have a designated time to live (TTL). The
 TTL is the time interval after which the CDN rereads the contents of the
-container. For more information on how to mange the TTL attribute, see
+container. For more information on managing the TTL attribute, see
 [Manage Time to Live (TTL) in a Cloud Files Container](/support/how-to/manage-ttl-in-a-cloud-files-container).
 {{< /accordion >}}
 
@@ -215,7 +215,7 @@ industry-leading CDN. For more information on using CDN with Cloud Files, see
 
 {{< accordion title="What is Akamai?" col="in" href="accordion17" >}}
 
-Akamai Technologies, Inc. is a publicly traded company founded in 1998
+Akamai Technologies, Inc. is a publicly-traded company founded in 1998
 (NASDAQ: AKAM). Akamai has a pervasive, highly distributed cloud
 optimization platform with over 73,000 servers in 70 countries within
 nearly 1,000 networks.
@@ -225,8 +225,7 @@ nearly 1,000 networks.
 
 Rackspace expects no customer impact during your transition to Akamai.
 After we flip the switch to have Akamai serve a customer's content,
-Akamai begins supporting both new URLs and all other existing CDN
-provider URLs.
+Akamai supports new URLs and all other existing CDN-provider URLs.
 
 This means that CDN customers who currently have Limelight URLs coded
 into their websites continue to serve content by using those URLs when
@@ -268,7 +267,7 @@ No, all customers facing API calls remain the same.
     network backbone capacity and the number of concurrent users handled.
     For instance, when there is a 10 Megabits per second (Mb/s) network backbone
     and 100 Mb/s of central server capacity, the CDN can deliver only 10 Mb/s. But
-    when we move ten servers to ten edge locations, total capacity grows to
+    when we move ten servers to ten edge locations, the total capacity grows to
     10x10 or 1000 Mb/s.
 -   **Lower delivery costs**: Strategically placed edge servers decrease
     the load on interconnects, public peers, private peers, and
