@@ -1,12 +1,12 @@
 ---
 permalink: create-a-sudo-user-in-ubuntu
-audit_date:
+audit_date: '2021-05-26'
 title: 'Create a sudo user in Ubuntu'
 type: article 
 created_date: '2020-05-20'
 created_by: John Garcia
-last_modified_date:
-last_modified_by:
+last_modified_date: '2021-05-26'
+last_modified_by: Ana Corpus
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -15,7 +15,7 @@ This article describes how to grant sudo access to a new or existing user on the
 
 ### Create a new user
 
-1. Use `adduser` followed by the new user's `<username>` in `newuser` to begin user creation.
+1. Use `adduser` followed by the new `<username>` in `newuser` to begin user creation.
 
        root@server-01:~# adduser newuser
        Adding user `newuser' ...
@@ -81,12 +81,12 @@ This article describes how to grant sudo access to a new or existing user on the
 
        #includedir /etc/sudoers.d
 
-3. Use the **Down Arrow** key to move the cursor to the following section:
+3. Use the **Down Arrow** key to move the cursor to the following section.
 
        # User privilege specification
        root    ALL=(ALL:ALL) ALL
 
-4. Add the newly created user by inserting `<username> ALL=(ALL:ALL) ALL` at the end of the user privilege section as shown in the following example:
+4. Add the newly created user by inserting `<username> ALL=(ALL:ALL) ALL` at the end of the user privilege section as shown in the following example.
 
        # User privilege specification
        root    ALL=(ALL:ALL) ALL
@@ -111,3 +111,6 @@ This article describes how to grant sudo access to a new or existing user on the
 
        root@server-01:~# whoami
        root
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/).
