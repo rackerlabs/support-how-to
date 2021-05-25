@@ -26,7 +26,7 @@ This article lists the steps to enable Office Message Encryption (OME) through t
 
 ### Create the encryption transport rule
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 

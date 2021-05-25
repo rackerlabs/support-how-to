@@ -1,17 +1,18 @@
 ---
 permalink: manage-dns-records-in-the-myrackspace-portal
-audit_date:
+audit_date: '2021-05-24'
 title: Manage DNS records in the MyRackspace Portal
 type: article
 created_date: '2020-02-28'
 created_by: Derek Benson
-last_modified_date: '2020-03-02'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2021-05-24'
+last_modified_by: Carlos Arriaga
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-This article explains how to create and manage Domain Name System (DNS) zones and records within the MyRackspace Portal and covers the following topics:
+This article explains how to create and manage Domain Name System (DNS) zones and
+records within the MyRackspace Portal and covers the following topics:
 
 *    Create and delete DNS zones.
 *    Modify zone Time to Live (TTL) settings.
@@ -21,8 +22,8 @@ This article explains how to create and manage Domain Name System (DNS) zones an
 
 ### Access DNS settings
 
-To access DNS settings, log in to the [My Rackspace portal](https://login.rackspace.com/) and navigate
-to **Network > Domains (DNS)**.
+To access DNS settings, log in to the [My Rackspace portal](https://login.rackspace.com/)
+and navigate to **Network > Domains (DNS)**.
 
 ### Manage DNS zones
 
@@ -36,15 +37,16 @@ choose to register a domain name through one of the many available registrars.
 1. To access the zone creation page, click **Actions > Create Zone**.
 2. In the field **Domains (one per line)**, enter the domain of the zone you want to create.
 3. You must create at least one **A** record in the **Create Records** section when you add a new zone.
-To modify the number of initial records you need, check or uncheck the box for the record. 
+   To modify the number of initial records you need, check or uncheck the box for the record. 
 4. You can add a comment under **Comment**. Use this to describe the purpose of the new zone. It is not 
-accessible publicly.
+   accessible publicly.
 5. Click **Create New Zone** to finish adding the zone.
 
 #### Delete a DNS zone
 
 1. Click the zone domain name that you want to delete in the list of zones displayed. If you have a large 
-number of zones, you can use the **Filter Zones** search box at the upper right to locate the necessary zone.
+   number of zones, you can use the **Filter Zones** search box at the upper right to locate the necessary
+   zone.
 2. Click **Actions > Delete Zone**.
 
 ### Modify DNS zone TTL settings
@@ -64,9 +66,9 @@ Start from the [DNS Zone List](https://my.rackspace.com/portal/domain/list) and 
 Start from the [DNS Zone List](https://my.rackspace.com/portal/domain/list) and perform the following steps:
 
 1. Click the zone domain name you want to modify. If you have a large number of zones, you can use
-the **Filter Zones** search box at the upper right to locate the necessary zone.
+   the **Filter Zones** search box at the upper right to locate the necessary zone.
 2. Click **Actions > Modify Zone TTLs**.
-3. Enter a new TTL in seconds, ranging from 300 to 864400.
+3. Enter a new TTL in seconds, ranging from `300` to `864400`.
 4. Click **Modify All TTLs** to save the change for the zone.
 
 ### Manage subdomains
@@ -78,7 +80,7 @@ This section covers subdomains.
 Start from the [DNS Zone List](https://my.rackspace.com/portal/domain/list) and perform the following steps:
 
 1. Click the zone domain name you want to associate with the subdomain. If you have a large number of 
-zones, you can use the **Filter Zones** search box at the upper right to locate the necessary zone.
+   zones, you can use the **Filter Zones** search box at the upper right to locate the necessary zone.
 2. Click **Actions > Add Subdomain**.
 3. Enter the subdomain.
 4. Choose a target from the list.
@@ -89,7 +91,8 @@ zones, you can use the **Filter Zones** search box at the upper right to locate 
 
 Start from the [DNS Zone List](https://my.rackspace.com/portal/domain/list) and perform the following steps:
 
-1. Click the zone domain name associated with the subdomain. If you have a large number of zones, you can use the **Filter Zones** search box at the upper right to locate the necessary zone.
+1. Click the zone domain name associated with the subdomain. If you have a large number of zones,
+   you can use the **Filter Zones** search box at the upper right to locate the necessary zone.
 2. Click **Actions > Edit Subdomain**.
 3. Click the desired subdomain.
 4. Change the subdomain target by using the list.
@@ -108,7 +111,7 @@ Start from the [DNS Zone List](https://my.rackspace.com/portal/domain/list) and 
    
    This begins the export of all zone files. 
 
-2. After the export completes, a **.zip** file beginning with the account number is added to the file
+2. After the export completes, the system adds a **.zip** file beginning with the account number to the file
 manager containing **.txt** files for each zone in **BIND9** format.
 
 **Note:** This process might take a while, depending on the number of zones.
@@ -129,7 +132,8 @@ DNS record types include the following records:
 
 - **A, AAAA, Cname**: Records for webservers and domain aliases.
 - **MX**: Used for indicating the mail server for your domain.
-- **TXT**: Miscellaneous records with various uses. These are largely used by businesses for domain ownership verification as well as email server security.
+- **TXT**: Miscellaneous records with various uses. Businesses largely use these for domain ownership
+  verification as well as email server security.
 - **SRV**: Records related to various domain services, such as Office 365&reg;.
 
 #### A record fields
@@ -137,7 +141,7 @@ DNS record types include the following records:
 - **Host**: Domain name.
 - **TTL**: The default is 86400 seconds.
 - **Type**: Choose **IN A**.
-- **Target**: Accepts IPv4 addresses. For example, 192.168.1.1.
+- **Target**: Accepts IPv4 addresses. For example, `192.168.1.1`.
 - **Comment**: Optional field used to describe the record.
 
 #### AAAA record fields
@@ -145,7 +149,7 @@ DNS record types include the following records:
 - **Host**: Domain name.
 - **TTL**: The default is 86400 seconds.
 - **Type**: Choose **IN AAAA**.
-- **Target**: Accepts IPv6 addresses. For example, 2001:db8::8a2e:370:7334.
+- **Target**: Accepts IPv6 addresses. For example, `2001:db8::8a2e:370:7334`.
 - **Comment**: Optional field used to describe the record.
 
 #### Cname record fields
@@ -153,14 +157,15 @@ DNS record types include the following records:
 - **Host**: Domain name.
 - **TTL**: The default is 86400 seconds.
 - **Type**: Choose **IN CNAME**.
-- **Target**: Accepts hostnames. For example, example.com.
+- **Target**: Accepts hostnames. For example, `example.com`.
 - **Comment**: Optional field used to describe the record.
 
 #### MX record fields
 
 - **Host**: Domain name.
 - **TTL**: The default is 86400 seconds.
-- **Priority**: Numerical value that defines the priority of the mail server when multiple MX records are configured. Lower numbers indicate a higher priority.
+- **Priority**: Numerical value that defines the priority of the mail server when you
+  configure multiple MX records. Lower numbers indicate a higher priority.
 - **Target**: Accepts hostnames and IP addresses.
 - **Comment**: Optional field used to describe the record.
 
@@ -169,14 +174,15 @@ DNS record types include the following records:
 - **TTL**: The default is 86400 seconds.
 - **Text**: Record value as provided by the provider requesting that you add it.
 - **Comment**: Optional field used to describe the record.
-- **Validate**: Indicates whether the TXT record is used for SPF validation.
+- **Validate**: Indicates whether SPF validation uses the TXT record.
 
 #### SRV records fields
 - ***Service***: Service name
-- ***Protocol***: TCP/UDP
+- ***Protocol***: TCP or UDP
 - **Host** (domain name): Record value as provided by the provider requesting that you add it.
 - **TTL**: The default is 86400 seconds.
-- **Priority**: Numerical value that defines the priority of the mail server when there are multiple MX records configured. Lower numbers indicate a higher priority.
+- **Priority**: Numerical value that defines the priority of the mail server when there are
+  multiple MX records configured. Lower numbers indicate a higher priority.
 - **Weight**: Helps to prioritize certain servers over others when there are multiple SRV records.
 - **Port**: The port associated with the service.
 - **Target**: Accepts hostnames and IP addresses.
@@ -188,7 +194,9 @@ Zone settings enable you to add a descriptive comment to the zone.
 
 ### Add and modify records for existing zones
 
-Click the domain name you want to edit in the list of zones displayed. If you have a large number of zones, you can use the **Filter Zones** search box at the upper right to locate the necessary zone.
+Click the domain name you want to edit in the list of zones displayed. If you have a large
+number of zones, you can use the **Filter Zones** search box at the upper right to locate
+the necessary zone.
 
 #### Add new records
 
@@ -208,3 +216,6 @@ Click the domain name you want to edit in the list of zones displayed. If you ha
 1. Select the tab for the appropriate record type. 
 2. Check the box to the left of the record you want to delete. 
 3. Click **Delete Selected Records**.
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 

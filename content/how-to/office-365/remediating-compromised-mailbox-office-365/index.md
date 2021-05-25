@@ -43,7 +43,7 @@ The following symptoms may indicate that a user account or mailbox is compromise
 
 Use the following steps to secure a compromised user account:
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 
@@ -65,7 +65,7 @@ Use the following steps to secure a compromised user account:
 
 Use the following steps to remove any email forwarding and inbox rules from the user's mailbox:
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 

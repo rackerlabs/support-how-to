@@ -28,7 +28,7 @@ Before you can set up a domain in the Office 365 portal, you must [create your O
 
 ### Add a domain in Office 365
 
-1.	Log in to your [Office 365 Control Panel](https://office365.cp.rackspace.com).
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com).
 
 2.	From the left menu, select **Office 365 Admin Center**.
 

@@ -5,8 +5,8 @@ title: Microsoft 365 Spheres of Support
 type: article
 created_date: '2020-07-31'
 created_by: John Kowalik
-last_modified_date: '2020-08-19'
-last_modified_by: Rose Morales
+last_modified_date: '2021-05-18'
+last_modified_by: Nick Ramirez
 product: Office 365
 product_url: office-365
 ---
@@ -195,7 +195,7 @@ This article outlines the **Fanatical Experience&trade;** we offer and the **Rac
 
 | **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
-| [Out of the Box Setup and Use](https://docs.microsoft.com/en-us/microsoft-365/admin/admin-overview/get-started-with-office-365?redirectSourcePath=%252fen-us%252farticle%252fget-started-with-office-365-for-business-d6466f0d-5d13-464a-adcb-00906ae87029&view=o365-worldwide)  Installation and activation | Guidance, enablement assistance, troubleshooting, customized training, and workshops for administrators and end-users | &check; | &check; | &check; |
+| [Out of the Box Setup and Use](https://docs.microsoft.com/en-us/microsoft-365/admin/admin-overview/get-started-with-office-365?redirectSourcePath=%252fen-us%252farticle%252fget-started-with-office-365-for-business-d6466f0d-5d13-464a-adcb-00906ae87029&view=o365-worldwide)  | Installation and activation | Guidance, enablement assistance, troubleshooting, customized training, and workshops for administrators and end-users | &check; | &check; | &check; |
 | [Microsoft Word](https://www.microsoft.com/en-us/microsoft-365/word) | Installation and activation | Guidance, enablement assistance, troubleshooting, customized training, and workshops for administrators and end-users | &check; | &check; |  |
 | [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel) | Installation and activation | Guidance, enablement assistance, troubleshooting, customized training, and workshops for administrators and end-users | &check; | &check; |  |
 | [Microsoft PowerPoint](https://www.microsoft.com/en-us/microsoft-365/powerpoint) | Installation and activation | Guidance, enablement assistance, troubleshooting, customized training, and workshops for administrators and end-users | &check; | &check; |  |
@@ -259,10 +259,19 @@ This article outlines the **Fanatical Experience&trade;** we offer and the **Rac
 | [Stream](https://docs.microsoft.com/en-us/stream/) | Support limited to license purchase and assignment | Guidance and training based on best practices | &check; | &check; | &check; |
 | [Yammer](https://www.microsoft.com/en-us/microsoft-365/yammer/yammer-overview) | Support limited to license purchase and assignment | Guidance and training based on best practices | &check; | &check; | &check; |
 | [Dynamics](https://dynamics.microsoft.com/en-us/) | Support with license assignment, authentication | Support with license assignment, authentication | &check; |   |   |
-| [StaffHub](https://docs.microsoft.com/en-us/microsoftteams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired?redirectSourcePath=%252fen-us%252farticle%252fgetting-started-with-microsoft-staffhub-92e9480f-0a37-47d2-ac96-2d11ee5f0656) | Support limited to license purchase and assignment | Guidance and training based on best practices | &check; | &check; |   |
+| [Shifts](https://docs.microsoft.com/en-us/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | Support limited to license purchase and assignment | Guidance and training based on best practices | &check; | &check; |   |
 | [Planner](https://www.microsoft.com/en-us/microsoft-365/business/task-management-software) | No support | Support limited to basic connectivity, installation, authentication, and authorization | &check; |   |   |
 | [Whiteboard](https://www.microsoft.com/en-us/microsoft-365/microsoft-whiteboard/digital-whiteboard-app) | No support | Support limited to basic connectivity, installation, authentication, and authorization | &check; |   |   |
 | [Forms](https://support.microsoft.com/en-us/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d) | No support | Support limited to basic connectivity, installation, authentication, and authorization | &check; |   |   |
+
+### Windows Virtual Desktop
+
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| --- | --- | --- | --- | --- | --- |
+| Host pool configuration | No support | Assistance with host pool strategy, design, and configuration | &check; | &check; | &check; |
+| Host pool management | No support | Assistance with host pool deployment issues. Guidance around best practices for host pool management | &check; | &check; | &check; |
+| Golden image creation | No support | Guidance for golden image creation, troubleshooting image creation issues, and software configuration incompatibilities | &check; | &check; |&check; |
+| FSLogix configuration | No support | New FSLogix configurations, troubleshooting User Profile store issues, guidance on future deployments | &check; | &check; | &check; |
 
 ### Software Subscriptions
 
@@ -276,11 +285,36 @@ This article outlines the **Fanatical Experience&trade;** we offer and the **Rac
 | Windows Server RMS CAL \(User / Device\) | Support limited to license purchase and obtaining product key | No support |   |   |    |
 | Windows 7 Extended Security Updates | Support limited to license purchase and obtaining product key | No support |   |   |   |
 
-### Windows Virtual Desktop
+### Perpetual Software Licenses
 
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| Feature | Fanatical Support | Rackspace Application Services | Troubleshoot | Consult | Enable |
 | --- | --- | --- | --- | --- | --- |
-| Host pool configuration | No support | Assistance with host pool strategy, design, and configuration | &check; | &check; | &check; |
-| Host pool management | No support | Assistance with host pool deployment issues. Guidance around best practices for host pool management | &check; | &check; | &check; |
-| Golden image creation | No support | Guidance for golden image creation, troubleshooting image creation issues, and software configuration incompatibilities | &check; | &check; |&check; |
-| FSLogix configuration | No support | New FSLogix configurations, troubleshooting User Profile store issues, guidance on future deployments | &check; | &check; | &check; |
+| Access | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| BizTalk Server | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Exchange Server Enterprise / Standard | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Exchange Server CAL (User / Device) | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Microsoft Office Standard | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Microsoft Outlook | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Microsoft PowerPoint | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Microsoft Word | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Microsoft Excel | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Project Professional / Standard | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Project Server | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Project Server CAL (User / Device) | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Publisher | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| SharePoint Enterprise / Standard CAL (User / Device) | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| SharePoint Server | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Skype for Business / Server | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Skype for Business Server Enterprise / Plus / Standard CAL (User / Device) | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| SQL Server CAL (User / Device) | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| SQL Server Enterprise / Standard Core  Support limited to license purchase and obtaining product key | No support |   |   |   |
+| SQL Server Standard Edition | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| SQL Server Big Data Node Cores | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Visio Professional / Standard | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Windows 10 Enterprise | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Windows 10 Home to Pro Upgrade for M365 Business | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Windows Server CAL (User / Device) | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Windows Server Datacenter / Essentials / Standard | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Windows Server External Connector | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Windows Server RDS CAL (User / Device) | Support limited to license purchase and obtaining product key | No support |   |   |   |
+| Windows RMS CAL (User / Device) | Support limited to license purchase and obtaining product key | No support |   |   |   |

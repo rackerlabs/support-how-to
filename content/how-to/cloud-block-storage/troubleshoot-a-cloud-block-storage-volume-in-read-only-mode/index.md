@@ -1,11 +1,11 @@
 ---
 permalink: troubleshoot-a-cloud-block-storage-volume-in-read-only-mode
-audit_date: '2020-01-3'
+audit_date: '2020-01-03'
 title: Troubleshoot a Cloud Block Storage volume in read-only mode
 type: article
 created_date: '2019-02-20'
 created_by: Rackspace Community
-last_modified_date: '2019-12-4'
+last_modified_date: '2019-12-04'
 last_modified_by: Chad Sterling
 product: Cloud Block Storage
 product_url: cloud-block-storage

@@ -1,8 +1,9 @@
 # Redirects
 
-
-/support/how-to/myrackspace-multi-factor-authentication/ /how-to/multifactor-authentication-from-the-cloud-control-panel// 404
-/how-to/multifactor-authentication-from-the-cloud-control-panel/ /support/how-to/multifactor-authentication-from-the-cloud-control-panel// 301
+/support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/ /how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/ 404
+/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/ /support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/ 301
+/support/how-to/myrackspace-multi-factor-authentication/ /how-to/multifactor-authentication-from-the-myrackspace-portal/ 404
+/how-to/multifactor-authentication-from-the-myrackspace-portal/ /support/how-to/multifactor-authentication-from-the-myrackspace-portal/ 301
 /support/how-to/cloud-servers/what-happens-if-i-do-not-supply-a-vat-id-number/ /how-to/account-management/account-management-faq/ 404
 /how-to/account-management/account-management-faq/ /support/how-to/account-management/account-management-faq/ 301
 /support/how-to/creating-a-monitoring-check-using-the-cloud-control-panel/  /how-to/about-the-rackspace-monitoring-agent/  404
@@ -43,8 +44,17 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 # Retired Articles
 
+/support/how-to/using-python-novaclient-to-manage-scheduled-images/  /how-to/article-retired/ 404
+/support/how-to/rpc-vmware-all-articles /how-to/article-retired/ 404
+/support/how-to/rpc-vmware-faq /how-to/article-retired/ 404
+/support/how-to/rpc-vmware /how-to/article-retired/ 404
+/support/how-to/apache-hadoop-on-rackspace-private-cloud/ /how-to/article-retired/ 404
+/support/how-to/rackspace-private-cloud-documentation/ /how-to/article-retired/ 404
+/support/how-to/rackspace-private-cloud-software-and-sosreport/ /how-to/article-retired/ 404
+/support/how-to/rpc-openstack-all-articles/ /how-to/article-retired/ 404
+/support/how-to/rpc-openstack-faq/ /how-to/article-retired/ 404
+/support/how-to/glusterfs-high-availability-through-ctdb/  /how-to/article-retired/ 404
 /support/how-to/next-generation-cloud-servers-sample-code/  /how-to/article-retired/ 404
-
 /support/how-to/install-mongrel-and-mongrel-clusters-on-the-ubuntu-operating-system/  /how-to/article-retired/ 404
 /support/how-to/install-pyrax/ /how-to/article-retired/ 404
 /support/how-to/vnc-install/ /how-to/article-retired/ 404
