@@ -89,8 +89,8 @@ Control Panel.
 2. Add a `div` element to your HTML page with a unique ID attribute value,
 such as _"player"_.
 
-  The _"Loading the player..."_ text can be whatever text you would 
-  like to display while the player loads.
+  The _"Loading the player..."_ text can be whatever text you want to 
+  display while the player loads.
 
        <div id="player">Loading the player...</div>
 
