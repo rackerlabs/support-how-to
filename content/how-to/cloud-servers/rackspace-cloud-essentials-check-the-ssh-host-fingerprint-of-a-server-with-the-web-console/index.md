@@ -58,7 +58,7 @@ Consider this error message:
 The warning means the following: The fingerprint that identifies the SSH
 server is different from the last time that you connected to it.
 
-###  Check the SSH fingerprint of your server
+### Check the SSH fingerprint of your server
 
 You should write the SSH fingerprint of the server to a file to ensure that you are
 connecting to the right server, especially when connecting from multiple machines or
@@ -76,7 +76,7 @@ If you don't have a username and password to use (if you've disabled passwords f
 all accounts, for example), you can use the **Cloud Control Panel** to reset the
 root password of the server. Then, you can log in with the new credentials. 
 
-####  Use ssh-keygen
+#### Use ssh-keygen
 
 After you log in to the server, you can obtain the host key fingerprint. Run the
 following `ssh-keygen` command against the public key of the server:
@@ -95,7 +95,7 @@ the following example:
 The first number indicates the strength of the key (in this case, 2048 bits). The
 fingerprint follows, along with the location of the key and the type of key (usually RSA).
 
-####  Connect to localhost with SSH
+#### Connect to localhost with SSH
 
 Another way to obtain the public key is to connect to the SSH server by using the SSH
 client from within the server. Log in to the web console and then use the `ssh` command:
@@ -195,7 +195,7 @@ console match before you accept the connection.
 
 This article describes how to obtain the host key fingerprint of a server. Consider keeping
 the host key fingerprints of the servers you connect to in a safe place. You can refer to
-those keys anytime that you need to rule out a *man-in-the-middle* attack, especially when
+those keys anytime you need to rule out a *man-in-the-middle* attack, especially when
 using multiple clients. See [Basics of security in a Linux system](/support/how-to/basic-cloud-server-security)
 for further reference.
 
