@@ -104,11 +104,8 @@ Use the following code, making the following substitutions:
 - On line 7, replace `https://c022320192.cdn.cloudfiles.rackspacecloud.com/video.flv` with the location of your video file.
 - On line 12, replace `https://c022320192.cdn.cloudfiles.rackspacecloud.com/flowplayer-3.5.swf` with your version of this file.
 
-Save this XHTML file and run it from your local machine.
-
-If it is working correctly, the Flash video loads quickly and streams. If not, 
-check your code. If you still have problems after that, call our Support 
-team or submit a ticket through the [Cloud Control Panel](https://login.rackspace.com/).
+Save this XHTML file and run it from your local machine. The Flash video
+should load quickly and stream.
 
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/).
