@@ -22,7 +22,7 @@ using one of the following methods:
 If you use the Cloud Networks API to attach network interfaces to or
 detach them from a cloud server, you might experience a brief
 interruption (lasting 3-4 seconds) in traffic hitting your cloud
-server while the sytem resets networking on the server.
+server while the system resets networking on the server.
 
 **Warning**: For servers running Rackconnect v2.0, do not attach or
 detach a cloud network to or from the server. Attaching or detaching
@@ -70,7 +70,7 @@ in the Cloud Control Panel, perform the following steps:
 11. Click **Create Server**.
 
 The preceding steps create a new server with new public and private IP
-addresses and attaches it to your selected networks.
+addresses and attach it to your selected networks.
 
 ### More information about Cloud Networks
 
