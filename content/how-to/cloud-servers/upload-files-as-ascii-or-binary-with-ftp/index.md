@@ -1,7 +1,7 @@
 ---
-permalink: upload-files-as-ascii-or-binary-via-ftp
+permalink: upload-files-as-ascii-or-binary-with-ftp
 audit_date: '2021-05-24'
-title: Upload files as ASCII or binary via FTP
+title: Upload files as ASCII or binary with FTP
 type: article
 created_date: '2011-03-15'
 created_by: Rackspace Support
