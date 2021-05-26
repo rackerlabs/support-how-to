@@ -11,8 +11,21 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Deciding how you should upload a file depends strictly on the type of file. Upload files such as HTML, ASP, PHP, CGI, and PL in ASCII mode.
+Deciding how you should upload a file depends strictly on the type of file.
 
-A general rule when uploading a file is that anything that you can view with a text editor should be transferred in ASCII mode. Binary files, such as GIF or JPEG images, ZIP files, and executables should be transferred in **binary** mode.
+The majority of FTP programs have an **Auto** mode that switches dynamically
+between ASCII or binary upload modes depending on the type of file. If you use
+the Auto feature, verify the list of ASCII file extensions of the FTP program.
+The FTP program uploads any file not included in the list of ASCII extensions
+in binary mode.
 
-The majority of FTP programs have an **Auto** mode which switches dynamically between ASCII or binary upload modes depending on the type of file. If you use the Auto feature, verify the list of ASCII file extensions of the FTP program. Any file that is not included in the list of ASCII extensions will be uploaded in binary mode.
+### ASCII mode
+
+As a general rule when uploading a file, you should transfer in ASCII mode anything you
+can view with a text editor. Also, upload files such as HTML, ASP, PHP, CGI, and PL in
+ASCII mode.
+
+### Binary mode
+
+Transfer binary files, such as GIF or JPEG images, ZIP files, and executables in
+**binary** mode.
