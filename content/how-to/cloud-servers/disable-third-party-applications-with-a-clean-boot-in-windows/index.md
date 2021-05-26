@@ -66,11 +66,15 @@ then one of the deactivated applications or services is the culprit. Although th
 process is simple, it might take longer to identify which application or service
 is causing the problem.
 
-To do this, go to the **Services tab** of the **System Configuration** window. Then,
-activate and deactivate services and applications until you detect the problem. You
-can start by activating or deactivating half of the list of services and gradually
-eliminating the elements until you identify the cause of the problem. Keep
-activating or deactivating services until you find the issue.
+To do this, perform the following steps:
+
+1. Go to the **Services tab** of the **System Configuration** window. 
+
+2. Activate and deactivate services and applications until you detect the problem.
+   You can start by activating or deactivating half of the list of services and
+   gradually eliminating the elements until you identify the cause of the problem.
+   
+3. Keep activating or deactivating services until you find the issue.
 
 After you find which startup item or service caused the problem, you need to check
 for an update that might fix the problem or contact the program manufacturer to
