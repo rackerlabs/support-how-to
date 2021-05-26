@@ -1,7 +1,7 @@
 ---
 permalink: prevent-issues-with-windows-server-reboots
 audit_date: '2021-05-26'
-title: Prevent issues with Windows&reg; Server reboots
+title: Prevent issues with Windows server reboots
 type: article
 created_date: '2015-08-18'
 created_by: Rose Contreras
@@ -11,10 +11,10 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article describes how to restore your Windows server to a 
+This article describes how to restore your Windows&reg; server to a 
 working state automatically after a reboot. After you complete the 
 procedures in this article, you should not need to launch applications 
-manually or apply firewall rules after your Windows server has rebooted.
+manually or apply firewall rules after your Windows server reboots.
 
 ### Verify that your server is fully patched
 
@@ -24,7 +24,7 @@ updates.
 1.  Move the cursor to the bottom-right corner of the screen and
     activate the **Charms** menu.
 
-2.  Click **Search**, then type **Control Panel**.
+2.  Click **Search** and type `Control Panel`.
 
 3.  On the ribbon under the search field, click **Control Panel**.
 
@@ -35,21 +35,20 @@ updates.
 
 ### Automatically start all critical services
 
-1. Review and confirm that all of the services critical to your processes
-   are set to start automatically. Run the following PowerShell script to
+1. Review and confirm that you have set all of the services critical to your
+   processes to start automatically. Run the following PowerShell&reg; script to
    grab all services that have an automatic startup:
 
         Get-WmiObject Win32Service | Select-Object Name, State, StartMode | Where-Object {$.StartMode -eq 'Auto'} | Format-Table
 
-
-2.  Move the cursor to the bottom right corner of the screen and
+2.  Move the cursor to the bottom-right corner of the screen and
     activate the **Charms** menu.
 
-3.  Click **Search**, then type **services.msc**.
+3.  Click **Search**, then type `services.msc`.
 
 4.  On the ribbon under the search field, click **services.msc**.
 
-5.  In the Services Management window opens, double-click a service that
+5.  In the **Services Management** window, double-click a service that
     you want to configure for automatic startup.
 
 6.  Set the startup type to **Automatic**.
@@ -58,7 +57,7 @@ updates.
 
 Next, schedule a maintenance window during off-peak hours and test your 
 work by rebooting the server. Perform a soft reboot through the **Action** 
-menu in the Cloud Control Panel, or by running the `reboot` command on the 
+menu in the Cloud Control Panel or run the `reboot` command on the 
 server.
 
 When you perform a test reboot, allocate sufficient time in your
