@@ -97,7 +97,7 @@ Control Panel.
 #### B. Add a div element to position player
 
 Add a `div` element to your HTML page with a unique ID attribute value,
-such as **"player"**.
+such as **player**.
 
 You can change the **Loading the player...*** text to the message you want
 to be displayed while the player loads.
@@ -106,7 +106,7 @@ to be displayed while the player loads.
 
 #### C. Add a script elememnt to call the player
 
-Add the folllowing `script` element right below the `div` element. This
+Add the following `script` element right below the `div` element. This
 adds the JW Player and your media to your page.
 
        <script type="text/javascript">
