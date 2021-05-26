@@ -1,12 +1,12 @@
 ---
 permalink: upgrade-apache-http-server-2.2-to-2.4-in-rhel-and-centos
-audit_date: '2021-05-12'
-title: Upgrade Apache HTTP Server 2.2 to 2.4 in RHEL 6 or 7 and CentOS 6 or 7
+audit_date: '2021-05-26'
+title: Upgrade Apache HTTP Server 2.2 to 2.4 in RHEL and CentOS 7
 type: article
 created_date: '2019-01-17'
 created_by: Rackspace Community
-last_modified_date: '2021-05-12'
-last_modified_by: Ana Corpus
+last_modified_date: '2021-05-26'
+last_modified_by: Carlos Arriaga 
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -23,12 +23,12 @@ mitigated these security issues. The scan checks the server's Apache version
 to determine if the installed version resolves the security issue.
 However, some compliance security scans use only the version of Apache to
 determine if the server is vulnerable to Common Vulnerabilities and Exposures
-(CVE), rather than detecting vulnerabilities directly.
+(CVE) rather than detecting vulnerabilities directly.
 
 Such scans almost always generate a false positive. If you enable automatic updates,
 the version might remain the same, even if another release patches the vulnerability.
 Thus, the scan might mark the vulnerability as positive. This result might also happen
-if your provider's scans suddenly show that your server is no longer vulnerable, even
+if your provider's scans show that your server is no longer vulnerable, even
 if previous scans have identified vulnerabilities.
 
 Use the following steps if your security audit reveals that your compliance security
@@ -192,7 +192,7 @@ Directive](https://httpd.apache.org/docs/2.4/mod/core.html#mutex).
 ### *Critical:* Restart the HTTPd
 
 After you complete the steps in this article, you must restart HTTPd and
-verify that it is enabled and running by using the following steps:
+verify that it's enabled and running by using the following steps:
 
 1. Run the following command to restart HTTPd:
 
@@ -208,11 +208,5 @@ verify that it is enabled and running by using the following steps:
 
           systemctl status httpd
 
-    - On CentOS 6 or RHEL 6, run the following commands:
-
-          chkconfig --add httpd && chkconfig httpd on
-          service httpd status
-
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/).
-
