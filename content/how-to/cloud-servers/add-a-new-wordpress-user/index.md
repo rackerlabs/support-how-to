@@ -1,11 +1,11 @@
 ---
 permalink: add-a-new-wordpress-user
-audit_date:
+audit_date: '2021-05-26'
 title: 'Add a new WordPress user'
 type: article
 created_date: '2021-04-06'
 created_by: Alfonso Murillo
-last_modified_date: '2021-04-20'
+last_modified_date: '2021-05-26'
 last_modified_by: Rose Morales
 product: Cloud Servers
 product_url: cloud-servers
@@ -27,14 +27,15 @@ review them thoroughly before implementing them to prevent unexpected downtime.
    add their first name, last name, and website.
 5. If you check the **Send the new user an email about their account** checkbox,
    the new user receives an email with login information.
-6. In the **Role** section, you can select the permissions for the new user.
-   See the following section for the different role explanations.
+6. In the **Role** section, you can select the permissions for the new user. See
+   the following section for the different role explanations.
 7. Click the **Add New User** button.
 
 ### User Roles
 
-When you create a new user, the role you assign defines the website permissions the user
-has. The default role is *Administrator*. Here are the characteristics of the different roles:
+When you create a new user, the role you assign defines the website permissions
+the user has. The default role is **Administrator**. Here are the characteristics
+of the different roles:
 
 - **Super Admin:** Grants access to the site network administration
   and all other features.
@@ -44,7 +45,7 @@ has. The default role is *Administrator*. Here are the characteristics of the di
   belong to other users.
 - **Author:** Allows users to publish and manage their own posts.
 - **Contributor:** Allows users to manage their own posts but not to publish them.
-- **Subscriber:** Allows users to manage only their profile.
+- **Subscriber:** Allows users to manage their profile.
 
 Remember, the *Administrator* role is the default for new users. If
 you want to change this, navigate to **Administration Screens -> Settings ->
@@ -52,6 +53,7 @@ General**.
 
 ### Conclusion
 
-It is important to manage carefully the roles given to new users. Keep the website's
-integrity and security by allowing people to do only what they are supposed to and
-avoid mistakes that can generate errors with the content or the website itself.
+It's important to manage the roles given to new users. Keep the website's
+integrity and security by allowing people to do what they are supposed to
+and avoid mistakes that can generate errors with the content or the website
+itself.
