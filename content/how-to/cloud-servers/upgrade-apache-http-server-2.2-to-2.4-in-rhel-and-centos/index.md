@@ -23,7 +23,7 @@ mitigated these security issues. The scan checks the server's Apache version
 to determine if the installed version resolves the security issue.
 However, some compliance security scans use only the version of Apache to
 determine if the server is vulnerable to Common Vulnerabilities and Exposures
-(CVE), rather than detecting vulnerabilities directly.
+(CVE) rather than detecting vulnerabilities directly.
 
 Such scans almost always generate a false positive. If you enable automatic updates,
 the version might remain the same, even if another release patches the vulnerability.
@@ -210,4 +210,3 @@ verify that it's enabled and running by using the following steps:
 
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/).
-
