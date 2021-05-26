@@ -163,9 +163,8 @@ Increasing **ServerCacheTime** above the default values causes **Lsass.exe** to
 consume memory. Each session cache element typically requires 2 to 4 KB of memory.
 Default server cache time is 10 hours.
 
-For the entries SSL, TLS, and DTLS, the system denies SSPI app requests to use
-those entries. On the other hand, if an SSPI app explicitly
-requests to use SSL, TLS, or DTLS, it might be required.
+If the entry is disabled by default using the DisabledByDefault entry, and an
+SSPI app explicitly request to use SSL, TLS, or DTLS, it may be negotiated.
 
 ### SSL 2.0
 
