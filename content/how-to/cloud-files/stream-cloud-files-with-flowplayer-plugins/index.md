@@ -12,7 +12,7 @@ product_url: cloud-files
 ---
 
 **Disclaimer**: As of January 12, 2021, excluding the China variant of Flash, 
-the Flash executable has a built-in kill switch which prevents it from playing 
+the Flash executable has a built-in kill switch that prevents it from playing 
 Flash files. As of February 2021, all major browsers block Flash and cannot 
 play it. Only IE11, niche browser forks, and some browsers built for China plan
 to continue support.
@@ -29,13 +29,13 @@ You can set up your video for streaming by using the following steps:
    [API](https://docs.rackspace.com/docs/cloud-files/v1/) or the [Cloud
    Control Panel](https://login.rackspace.com/).
 
-    If your video file is more than 5GB, simply use our large object support.
+    If your video file is more than 5GB, use our large-object support.
 
 2.  Download the [Akamai Advanced FlowPlayer Provider
-    plugin](https://mediapm.edgesuite.net/flow/). This plugin is required 
-    for your video to play on the Akamai network.
+    plugin](https://mediapm.edgesuite.net/flow/). The system requires this
+    plugin to play your video on the Akamai network.
 
-3.  Upload the FlowPlayer plugins to your Cloud Files account, or on a
+3.  Upload the FlowPlayer plugins to your Cloud Files account or on a
     server where the internet can access them.
 
 4.  Request your streaming URL by performing a `HEAD` on your object.
@@ -50,7 +50,7 @@ website code:
     in the HTML.
 3.  Link the **flowplayer.css** stylesheet to the Player frame.
 4.  Make any configuration changes to the FlowPlayer object.
-5.  Add in the `.swf` player object so that the player controls the `.swf`
+5.  Add in the **.swf** player object so that the player controls the **.swf**
     object and sets the source for the video.
 
 Use the Feedback tab to make any comments or ask questions. You can also click
