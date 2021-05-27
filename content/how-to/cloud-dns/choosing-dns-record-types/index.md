@@ -17,29 +17,29 @@ a DNS record in the [Cloud Control Panel](https://login.rackspace.com/).
 
 #### A or AAAA
 
-Type A are IPv4 address record. Type AAAA is an IPv6 Address record. Use this
-record type if your server has an IPv6 address as target.
+Type A is an IPv4 address record. Type AAAA is an IPv6 Address record, so use this
+record type if your server has an IPv6 address as a target.
 
 Use an A or AAAA record to point to an IP address. In simple cases, you might
 have a single A or AAAA record as your base record pointing to a single IP
-address. Often there are A or AAAA records that point to different IP addresses.
+address. Often, there are A or AAAA records that point to different IP addresses.
 
 **Note:** If you have a base record (not required), it must be an A or AAAA
 record. For example, you could have **www.mydomain.com** as an A record that
 points to `1.2.3.4`, and **www.domain.com** might be a CName record that points
-to **www.myotherimportantdomain.com**.  Likewise, you might have a
+to **www.myotherimportantdomain.com**. Likewise, you might have a
 **mail.domain.com** record pointing to `5.6.7.8`.
 
 #### Canonical name (CName)
 
-Use a CName's to point to another domain name. For example,
-**mail.mydomain.com** poiting to **mydomain.com**.
+Use a CName record to point to another domain name. For example, point
+**mail.mydomain.com** to **mydomain.com**.
 
 #### Mail exchange (MX)
 
 Use an MX record for mail delivery. For example, creating an MX record for
-**domain.com** would allow you to set up an email address like
-`mailto:mike@domain.com`.
+**domain.com** enables you to set up an email address like
+**mailto:mike@domain.com**.
 
 #### Name server (NS)
 
@@ -53,10 +53,10 @@ Directory Access Protocol (LDAP), for a domain.
 
 #### Text (TXT)
 
-Use a TXT record to store data types such as Sender Policy Framework (SPF) or
+Use a TXT record to store data types, such as Sender Policy Framework (SPF) or
 DomainKeys Identified Mail (DKIM) records.
 
 ### External links
 
 <https://en.wikipedia.org/wiki/List_of_DNS_record_types>: This Wikipedia page provides a listing of resource records
-stored in the [zone files](https://en.wikipedia.org/wiki/Zone_file) of the DNS.
+stored in the DNS [zone files](https://en.wikipedia.org/wiki/Zone_file).
