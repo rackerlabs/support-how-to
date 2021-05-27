@@ -115,7 +115,7 @@ Registry path: `HKLM SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL
 
 Note that the extra entries to specify a value of the Diffie-Helman key are the
 same as the RSA key. If you want to specify a minimum supported range of
-Diffie-Helman key you should create a **ClientMinKeyBitLength** entry and assign the
+Diffie-Helman key, you should create a **ClientMinKeyBitLength** entry and assign the
 desire bit length that you want. If you don't create this entry, the default value
 is 1024 bits. If you specify a maximum support range, create the
 **ClientMaxKeyBitLength** entry and change the desired value. Finally, use the
@@ -163,8 +163,8 @@ Increasing **ServerCacheTime** above the default values causes **Lsass.exe** to
 consume memory. Each session cache element typically requires 2 to 4 KB of memory.
 Default server cache time is 10 hours.
 
-If the entry is disabled by default using the DisabledByDefault entry, and an
-SSPI app explicitly request to use SSL, TLS, or DTLS, it may be negotiated.
+If you disable the entry by default by using the **DisabledByDefault** entry and an
+SSPI app explicitly requests to use SSL, TLS, or DTLS, it might be negotiated.
 
 ### SSL 2.0
 
