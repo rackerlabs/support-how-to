@@ -24,7 +24,7 @@ Check the status of your Rackspace products at the [System Status page](https://
 Call Dedicated Hosting support at the following numbers:
 
 - US: 1-800-961-4454
-- International: +1-210-312-4600
+- International: +1-512-361-4935
 
 You can also log in to the [MyRackspace Portal](https://login.rackspace.com/) to access chat
 support, the knowledge base, and How-To videos.

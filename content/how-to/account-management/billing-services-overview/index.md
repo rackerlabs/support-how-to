@@ -123,7 +123,7 @@ To modify basic billing information for your account, use the following steps:
 If you're unable to find the information that you need in the Cloud Control
 Panel, or if you need more detailed billing and payment information than what
 is available on these pages, contact the Billing Support team. The team is available Monday through Friday from 8 a.m. to 5 p.m. CST, toll-free at 877 934 0410 or internationally at 1 210 581 0410. You can reach the Cloud Accounts Receivable team toll-free at 800 480 2716 or internationally at
-1 210 312 4000.
+1-512-361-4935.
 
 ### Reclaim VAT
 

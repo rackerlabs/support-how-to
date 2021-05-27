@@ -17,7 +17,7 @@ The best way to reach us is by creating a ticket in the
 [MyRackspace portal](https://login.rackspace.com/) and selecting your
 Cloudflare
 device, if applicable. You can also call us at (US) 1-800-961-4454 or
-(International) +1-210-312-4600.
+(International) +1-512-361-4935.
 
 #### When should I contact Cloudflare&reg;?
 
@@ -33,7 +33,6 @@ customers in all plans.
 **Note**: You do not need to move away from your registrar. The only change
 that you make with your registrar is to point the authoritative nameservers
 to the Cloudflare nameservers.
-
 
 ### Where do I change my nameservers to point to Cloudflare?
 
@@ -53,7 +52,6 @@ minutes or less.
 **Note**: Your local DNS cache might take longer to update. Thus,
 propagation everywhere might take longer than five minutes. In rare cases,
 it could take up to 48 hours.
-
 
 #### Can I add domains to my Cloudflare account?
 
