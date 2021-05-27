@@ -21,15 +21,15 @@ review them thoroughly before implementing them to prevent unexpected downtime.
 ### Add a new user
 
 1. Log in to your WordPress administrator page.
-2. In the left sidebar, click on the **Users** option.
-3. Click the **Add new** button in the page's upper-left corner.
+2. In the left sidebar, click **Users**.
+3. Click **Add new** in the upper-left corner of the page.
 4. Write down the username, email, and password for your new user. You can also
    add their first name, last name, and website.
 5. If you check the **Send the new user an email about their account** checkbox,
    the new user receives an email with login information.
 6. In the **Role** section, you can select the permissions for the new user. See
    the following section for the different role explanations.
-7. Click the **Add New User** button.
+7. Click **Add New User**.
 
 ### User Roles
 
