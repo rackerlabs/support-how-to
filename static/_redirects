@@ -2,6 +2,8 @@
 
 /support/how-to/cloud-files-streaming-simple-flash-files/  /how-to/stream-simple-flash-files-from-cloud-files/  404
 /how-to/stream-simple-flash-files-from-cloud-files/  /support/how-to/stream-simple-flash-files-from-cloud-files/  301
+/support/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console/  /how-to/rackspace-cloud-essentials-check-the-ssh-host-fingerprint-of-a-server-with-the-web-console/  404
+/how-to/rackspace-cloud-essentials-check-the-ssh-host-fingerprint-of-a-server-with-the-web-console/  /support/how-to/rackspace-cloud-essentials-check-the-ssh-host-fingerprint-of-a-server-with-the-web-console/  301
 /support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/ /how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/ 404
 /how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/ /support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/ 301
 /support/how-to/myrackspace-multi-factor-authentication/ /how-to/multifactor-authentication-from-the-myrackspace-portal/ 404
