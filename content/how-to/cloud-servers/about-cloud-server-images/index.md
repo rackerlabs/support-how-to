@@ -1,12 +1,12 @@
 ---
 permalink: about-cloud-server-images
-audit_date:
+audit_date: '2021-05-28'
 title: About Cloud Server images
 type: article
 created_date: '2012-07-24'
 created_by: Rackspace Support
-last_modified_date: '2020-09-17'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2021-05-28'
+last_modified_by: Ana Corpus
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -15,7 +15,8 @@ Creating an image enables you to have saved images for later use as a
 template or primary image. You can then use the saved images to easily
 restore a server to a known configuration or rapidly deploy additional
 servers with an identical configuration. Using the
-[Cloud Control Panel](https://login.rackspace.com), you can create images on-demand.
+[Cloud Control Panel](https://login.rackspace.com), you can create images 
+on-demand.
 
 **Note:** Because images are not automatically verified they should not
 be used as a back-up solution.
@@ -34,11 +35,16 @@ images:
     your database before you create an image of your Cloud Server.
 
 
--   **Cloud Server images can be shared between accounts, but not between regions**.
-    You can share images between accounts **in the same region**. This allows you to build a server from the shared image, and then create a copy of the newly created server. To move images between regions, see [Transfer images between regions of the Rackspace open cloud](/support/how-to/transferring-images-between-regions-of-the-rackspace-open-cloud).
+-   **Cloud Server images can be shared between accounts, but not between 
+    regions**.
+    You can share images between accounts **in the same region**. This 
+    allows you to build a server from the shared image, and then create a 
+    copy of the newly created server. To move images between regions, 
+    see [Transfer images between regions of the Rackspace open cloud](https://docs.rackspace.com/support/how-to/transfer-server-images-between-cloud-regions-with-pitchfork/).
 
--   Image creation can take several hours if the disk is extremely large, so be
-    sure to allot an appropriate amount of time to create an image of your server.
+-   Image creation can take several hours if the disk is extremely large, 
+    so be sure to allot an appropriate amount of time to create an image 
+    of your server.
 
 -   Image creation can have a delayed start if there are a large number
     of image requests at one time for a group of servers. The number of
@@ -55,11 +61,15 @@ images:
     again after it fails could result in a successful image process thanks to
     that cleanup operation.
 
--   **If you are using a boot from volume server, you cannot create an image of it**. You can, however, create snapshots and clones of a boot from volume server.
+-   **If you are using a boot from volume server, you cannot create an 
+    image of it**. You can, however, create snapshots and clones of a 
+    boot from volume server.
 
 ### Considerations for Virtual Appliances
 -   Turnkey virtual appliances typically do not support decloning.
-    Thus, while an image will technically preserve the exact state of the appliance, any servers built from the image will not be able to set the following:
+    Thus, while an image will technically preserve the exact state of the 
+    appliance, any servers built from the image will not be able to set 
+    the following:
 
      * Hostname
      * IP configuration
@@ -91,3 +101,6 @@ images:
 -   To be successful, images imported to Rackspace must conform to the general
     requirements described in
     [Preparing an image for import into the Rackspace OpenCloud](/support/how-to/preparing-an-image-for-import-into-the-rackspace-opencloud).
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/).    
