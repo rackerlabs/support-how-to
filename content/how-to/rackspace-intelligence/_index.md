@@ -1,11 +1,11 @@
 ---
-audit_date:
+audit_date: '2021-06-01'
 title: Rackspace Intelligence
 type: article
 created_date: '2015-06-09'
 created_by: Constanze Kratel
-last_modified_date: '2016-01-26'
-last_modified_by: Rose Coste
+last_modified_date: '2021-06-01'
+last_modified_by: Ana Corpus
 permalink: rackspace-intelligence
 product: Rackspace Intelligence
 product_url: rackspace-intelligence
@@ -26,4 +26,6 @@ Some how-to articles about Rackspace Intelligence are specific to one kind of ac
 - [Getting Started with Rackspace Intelligence for dedicated accounts](/support/how-to/getting-started-with-rackspace-intelligence-for-dedicated-accounts)
 - [Log in to Rackspace Intelligence for dedicated accounts](/support/how-to/log-in-to-rackspace-intelligence-for-dedicated-accounts)
 - [Understanding the Rackspace Intelligence User Interface for dedicated accounts](/support/how-to/understanding-the-rackspace-intelligence-user-interface-for-dedicated-accounts)
-- [Viewing and creating graphs of activity in Rackspace Intelligence for dedicated accounts](/support/how-to/viewing-and-creating-graphs-of-activity-in-rackspace-intelligence-for-dedicated-accounts)
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/).
