@@ -11,20 +11,19 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-To ensure that the settings for Mac Mail are correctly configured, perform the following steps:
+To configure the settings for Mac Mail correctly, perform the following steps:
 
-1. In Mac Mail, go to **Mail &gt; Preferences**.
+1. In Mac Mail, go to **Mail->Preferences**.
 
-2. Click **Accounts**, then click the **Server  Settings** tab.
+2. Click **Accounts**, then click the **Server Settings** tab.
 
-3. Click on **Outgoing Mail Server** and select **Edit SMTP Server List**
+3. Click **Outgoing Mail Server** and select **Edit SMTP Server List**.
 
 4. Click the **Server Settings** tab.
 
-5. For **Authentication**, ensure **Password** is selected rather than **MD5 Challenge-Response**.
+5. For **Authentication**, select **Password** rather than **MD5 Challenge-Response**.
 
-6. Click **OK** to close the SMTP window, and then click **OK** again to close Preferences.
+6. Click **OK** to close the SMTP window and click **OK** again to close **Preferences**.
 
 Use the Feedback tab to make any comments or ask questions. You can also click
 **Let's Talk** to [start the conversation](https://www.rackspace.com/).
-
