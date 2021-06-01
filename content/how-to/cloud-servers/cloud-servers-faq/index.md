@@ -12,6 +12,7 @@ product_url: cloud-servers
 ---
 
 ### Getting started
+
 {{<accordion title="I want to install version x.y of software in Linux, but your system doesn't allow me to? How do I install it?" col="in" href="accordion1">}}
 
 The repository for your operating system's package manager probably has an
@@ -152,7 +153,7 @@ support you need to get the most out of the cloud.
     [Cloud Control Panel](https://login.rackspace.com), select
     **Tickets > Create Ticket** to open a ticket directly with our support
     teams to report a problem or make a service request.
--   Call us 24x7x365 at 800 961 4454 (toll-free) or +1 210 312 4000 (international).
+-   Call us 24x7x365 at 800 961 4454 (toll-free) or +1 512-361-4935 (international).
 {{</accordion>}}
 
 ------------------------------------------------------------------------
