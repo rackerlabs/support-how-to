@@ -1,63 +1,68 @@
 ---
 permalink: set-up-rackspace-email-with-thunderbird
-audit_date:
+audit_date: '2021-06-02'
 title: Set up Rackspace Email with Thunderbird
 type: article
 created_date: '2014-05-20'
 created_by: Ian Avery
-last_modified_date: '2017-06-19'
-last_modified_by: Nate Archer
+last_modified_date: '2021-06-02'
+last_modified_by: Ana Corpus
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article shows you how to set up your Rackspace Email account using
+This article shows you how to configure your Rackspace Email account using
 your Thunderbird email client.
 
 1. Open Thunderbird.
-2. In the navigation pane, click **Local Folders**.
-3. Under **Create a new account**, click **Email**.
+2. On the welcome screen, click **Email**.
 
-   {{<image src="thunderbird-create-account.png" alt="" title="">}}
+{{<image src="thunderbird-create-account.png" alt="" title="">}}
 
-4. When prompted to create a new email address, click **Skip this and use my existing email** at the bottom of the dialog box.
-5. In the Mail Account Setup dialog box, enter the following information in the fields provided:
+3. In the Mail Account Setup dialog box, enter the following information: 
 
-    -   **Your name**: Enter the name that you want to appear in the
-        **From** field of messages that you send.
-    -   **Email address**: Enter your entire email address (for example,
-        **yourName@example.com**).
-    -   **Password**: Enter the password for the email account that you
-        are setting up.
+    - **Your name**: Enter the name that you want to appear in the From field of messages that you send. 
 
-6. Click **Continue**.
-7. When Thunderbird attempts to automatically detect the server settings, click **Manual config**. You must enter the settings manually.
+    - **Email address**: Enter your email address (for example, **yourName@example.com**). 
 
-   The dialog box expands to show new fields.
+    - **Password**: Enter the password of the email account. 
+
+4. If Thunderbird is unable to automatically configure your account, the dialog box expands to show new fields.
+5. Enter the following values in the **Incoming** column: 
+
+    - **IMAP** 
+
+    - **Server hostname**: secure.emailsrvr.com 
+
+    - **Port**: 993 
+
+    - **SSL**: SSL/TLS (This value should automatically populate when you enter the port number.) 
+
+    - **Authentication**: Autodetect 
+
+6. Enter the following values in the **Outgoing** column: 
+
+    - **Server hostname**: secure.emailsrvr.com 
+
+    - **Port**: 465 
+
+    - **SSL**: SSL/TLS (This value should automatically populate when you enter the port number.) 
+
+    - **Authentication**: Autodetect
+
+7. Click **Re-test**.
 
     {{<image src="thunderbird-dialog-fields.png" alt="" title="">}}
 
-8.  Enter the following values in the **Incoming** row:
-    -   IMAP
-    -   **Server hostname**: secure.emailsrvr.com
-    -   **Port**: 993
-    -   **SSL**: SSL/TLS (This value should automatically populate when you enter
-        the port number.)
-    -   **Authentication**: Autodetect
+The **Authentication** fields should change to **Normal Password**, and the following message should appear in the middle of the screen: 
 
-8. Enter the following values in the **Outgoing** row:
-    -   **Server hostname**: secure.emailsrvr.com
-    -   **Port**: 465
-    -   **SSL**: SSL/TLS (This value should automatically populate when you enter the port number.)
-    -   **Authentication**: Autodetect
+` 
+The following setting were found by probing the given server. 
+`
 
-9. Click **Re-test**.
+8.  Click **Done**. 
 
-    The **Authentication** fields should change to **Normal Password**,
-    and the following message should appear in the middle of the screen:
+You have configured your mailbox in Thunderbird, and mail should start populating the **Inbox**. 
 
-    `The following setting were found by probing the given server`.
-
-10. Click **Done**.
-
-    The setup process is done. Your mailbox should be added in Thunderbird, and mail should start populating the Inbox.
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/).
