@@ -51,10 +51,10 @@ the domains for account number **1234** and the domain ID **2725511**.
 
 Following is an example XML response from the **List domains** API call,
 but the DNS API supports both the JSON and XML data serialization formats.
-The response format is specified in requests by either using the
+You specify the response format in requests by using either the
 **Accept Header** or adding a **.xml** or **.json** extension to the
 request URI. If you specify no response format, the system uses JSON
-by default. If conflicting formats are specified by using both
+by default. If you have conflicting formats by using both
 an **Accept Header** and a query extension, the query extension takes
 precedence.
 
