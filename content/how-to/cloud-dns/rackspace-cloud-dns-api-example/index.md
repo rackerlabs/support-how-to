@@ -1,7 +1,7 @@
 ---
 permalink: rackspace-cloud-dns-api-example
 audit_date: '2021-06-02'
-title: Rackspace Cloud DNS - API example
+title: Rackspace Cloud DNS&mdash;API example
 type: article
 created_date: '2011-10-19'
 created_by: Rackspace Support
@@ -13,10 +13,10 @@ product_url: cloud-dns
 
 **Previous section:** [Rackspace Cloud DNS - Technical details](/support/how-to/rackspace-cloud-dns-technical-details)
 
-This article shows a simple example using the API.
+This article shows a simple example using the Application Programmer Interface (API).
 
 Every ReST request against the DNS Service requires the inclusion of a
-specific authorization token, supplied by the X-Auth-Token HTTP header.
+specific authorization token supplied by the **X-Auth-Token** HTTP header.
 You can obtain this token by first using the Rackspace Cloud
 Authentication Service and supplying a valid Rackspace Cloud account
 username and API access key.
@@ -31,30 +31,31 @@ username and API access key.
     (... more ...)
     X-Auth-Token: eaaafd18-0fed-4b3a-81b4-663c99ec1cbb
 
-Once authenticated, you can send requests to an available API endpoint.
-Our DNS service is a regionalized service and DNS is therefore
-responsible for appropriate replication., caching, and overall
-maintenance of DNS data across regional boundaries to other DNS servers.
+After authentication, you can send requests to an available API endpoint.
+Our DNS service is regionalized, and DNS is therefore
+responsible for appropriate replication, caching, and overall
+DNS data maintenance across regional boundaries to other DNS servers.
 We have endpoints available in the US and the UK.
 
 -   US `https://dns.api.rackspacecloud.com/v1.0/1234`
 -   UK `https://ion.dns.api.rackspacecloud.com/v1.0/1234`
 
-### List Domain Details
+### List domain details
 
-Next, let's take a look at a simple call to the API. For this example,
-we show a List Domain details request. In this request, we call the US endpoint at `dns.api.rackspacecloud.com`, and request
-the domains for account number 1234, and the domain ID 2725511.
+Next, consider this simple call to the API. This example shows
+a **List domain details** request. The request calls the US endpoint at
+**dns.api.rackspacecloud.com** and requests
+the domains for account number **1234** and the domain ID **2725511**.
 
     curl -X GET -H "X-Auth-Token:eaaafd18-0fed-4b3a-81b4-663c99ec1cbb" -H "Accept:application/xml" https://dns.api.rackspacecloud.com/v1.0/1234/domains/2725511
 
-Following is an example response from the List Domains API call. Here we are
-showing the XML response, but the DNS API supports both the JSON and XML
-data serialization formats. The response format is specified in
-requests by either using the Accept Header or adding a .xml or .json
-extension to the request URI. If no response format is specified, JSON
-is used by default. If conflicting formats are specified using both
-an Accept Header and a query extension, the query extension takes
+Following is an example XML response from the **List domains** API call,
+but the DNS API supports both the JSON and XML data serialization formats.
+The response format is specified in requests by either using the
+**Accept Header** or adding a **.xml** or **.json** extension to the
+request URI. If you specify no response format, the system uses JSON
+by default. If conflicting formats are specified by using both
+an **Accept Header** and a query extension, the query extension takes
 precedence.
 
     <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
