@@ -1,5 +1,6 @@
 # Redirects
 
+/support/how-to/getting-started-with-apache-hadoop-on-rackspace-cloud/  /how-to/article-retired/ 404
 /support/how-to/updating-password-authentication-method-on-mac-mail/  /how-to/update-password-authentication-method-on-mac-mail/  404
 /how-to/update-password-authentication-method-on-mac-mail/  /support/how-to/update-password-authentication-method-on-mac-mail/  301
 /support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/  /how-to/article-retired/ 404

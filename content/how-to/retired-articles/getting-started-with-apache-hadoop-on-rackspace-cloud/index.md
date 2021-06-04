@@ -7,8 +7,6 @@ created_date: '2013-03-18'
 created_by: Alyssa Hurtgen
 last_modified_date: '2020-09-17'
 last_modified_by: Cat Lookabaugh
-product: Cloud Servers
-product_url: cloud-servers
 ---
 
 **Disclaimer**: This article details a process intended for
