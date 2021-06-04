@@ -13,7 +13,7 @@ product_url: cloud-dns
 
 **Previous section:** [Rackspace Cloud DNS - API Example](/support/how-to/rackspace-cloud-dns-api-example)
 
-For more information regarding the API, we encourage you to review the [Rackspace Cloud DNS API documentation](https://docs.rackspace.com/docs/cloud-dns/v1/developer-guide/).
+For more information about our API, we encourage you to review the [Rackspace Cloud DNS API documentation](https://docs.rackspace.com/docs/cloud-dns/v1/).
 
 ### Supported Record Types
 
