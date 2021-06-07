@@ -1,5 +1,5 @@
 ---
-permalink: creating-mx-records-for-google-apps-through-the-cloud-control-panel
+permalink: create-mx-records-for-google-apps-through-the-cloud-control-panel
 audit_date: '2021-06-04'
 title: Create MX records for Google Apps through the Cloud Control Panel
 type: article
