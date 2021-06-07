@@ -12,16 +12,16 @@ product_url: cloud-dns
 ---
 
 This article shows you how to add [Google Apps](https://www.google.com/enterprise/apps/business/pricing.html)
-MX records to a domain managed via the Cloud Control Panel.
+MX records to a domain managed through the Cloud Control Panel.
 
 **Important:** Be sure to verify your domain with Google Apps through their
 administrative interface.
 
-After your domain has been verified, the next step is to add Google's MX records
-to the domain's information in the Domain Name Service (DNS) section of the
+After verifying your domain, the next step is to add Google MX records
+to the domain information in the Domain Name Service (DNS) section of the
 [Cloud Control Panel](https://login.rackspace.com/).
 
-Google Apps provides five MX records to be added to the domain DNS settings. You
+Google Apps provides five MX records for you to add to the domain DNS settings. You
 can find the latest MX record values on [the Google Apps website](https://support.google.com/a/bin/answer.py?hl=en&answer=174125).
 
 ### Add MX records to a domain
@@ -36,22 +36,22 @@ Use the following steps to add MX records to a domain:
 
 4. Click the gear icon next to your domain and select **Add DNS Record**.
 
-5. In the popup dialog box, select **MX Record** as the record type.
+5. In the pop-up dialog box, select **MX Record** as the record type.
 
     {{<image src="addrecord.png" alt="" title="">}}
 
 6. Enter the following information:
 
     - The hostname for your domain (optional)
-    - Mailserver domain
+    - Mail-server domain
     - Priority
     - Time to Live (TTL)
 
-    You can find the five MX record mailserver domains, priority numbers, and
-  recommended TTL on the [Google Apps website](https://support.google.com/a/answer/174125?hl=en).
+   You can find the five MX record mail-server domains, priority numbers, and
+   recommended TTL on the [Google Apps website](https://support.google.com/a/answer/174125?hl=en).
 
-    **Note**: Don't include a period at the end of the mailserver domain when you
-  enter it. The system will add that for you behind the scenes if it's required.
+   **Note**: Don't include a period at the end of the mail-server domain when you
+   enter it. The system adds that for you behind the scenes if it's required.
 
 7. Click **Add Record**.
 
@@ -60,10 +60,10 @@ records.
 
 ### Check and test
 
-Now that the MX records have been stored within the DNS settings for your
+Now that you stored the MX records in the DNS settings for your
 domain, the changes should propagate after the time specified in the TTL has
 passed. You can test your changes with a DNS checker.
 
 Send an email through the Google Apps webmail interface to an email address you
-can access on a different domain, then reply to it. If the email to your domain
-gets back to Google Apps you'll know the DNS changes worked.
+can access on a different domain, and then reply to it. If the email to your domain
+gets back to Google Apps, you know the DNS changes worked.
