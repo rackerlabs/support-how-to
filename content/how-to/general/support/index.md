@@ -1,12 +1,12 @@
 ---
 permalink: support
-audit_date: '2018-12-13'
+audit_date: '2021-06-07'
 title: How to contact Rackspace Support
 type: article
 created_date: '2013-06-17'
 created_by: Rackspace Support
-last_modified_date: '2018-12-13'
-last_modified_by: William Loy
+last_modified_date: '2021-06-07'
+last_modified_by: Rose Morales
 product: General
 product_url: general
 ---
@@ -59,7 +59,7 @@ You can call the following numbers for legacy Datapipe support:
 
 **United States**
 - Toll Free: +1 888-749-5821
-- International: +1 201-792-4847
+- International: +1 201-820-0320
 
 **Europe**
 - Toll Free: +44 800 634 3414
