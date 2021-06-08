@@ -34,7 +34,7 @@ If your Windows server is not fully patched, install all pending updates.
 
 ### Automatically start all critical services
 
-1. Review and confirm that you have set critical services to your processes to
+1. Review and confirm that you have set critical services for your processes to
    start automatically. Run the following PowerShell&reg; script to grab all
    services that have an automatic startup:
 
