@@ -228,6 +228,5 @@ sudo service bind9 restart
 You should now have either a caching or forwarding DNS server configured to serve your clients.
 This can be a great way to speed up DNS queries for the machines you are managing.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 
 

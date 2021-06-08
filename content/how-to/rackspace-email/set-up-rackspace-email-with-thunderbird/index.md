@@ -63,5 +63,4 @@ your Thunderbird&reg; email client.
 
 You have configured your mailbox in Thunderbird and should start seeing mail populating the **Inbox**. 
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/).
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).

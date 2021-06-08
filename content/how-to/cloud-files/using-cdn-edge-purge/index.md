@@ -87,5 +87,4 @@ by using a low TTL or versioning your objects, these are great first
 options. Of course, edge purge is always available as a last resort.
 Still not sure?  Contact Rackspace Support with any questions.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

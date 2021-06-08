@@ -127,5 +127,4 @@ StatsD sends all these items to Rackspace Metrics:
     echo "sample.gauge:10|g" | nc -u -w0 127.0.0.1 8125
     echo "glork:320|ms" | nc -u -w0 127.0.0.1 8125
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/).
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).

@@ -282,5 +282,4 @@ correspond to a curve.
 -  [Elliptic Curve Diffie Hellman](https://wiki.openssl.org/index.php/Elliptic_Curve_Diffie_Hellman)
 -  [Command Line Utilities](https://wiki.openssl.org/index.php/Command_Line_Utilities)
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/).
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).

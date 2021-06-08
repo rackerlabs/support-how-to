@@ -107,5 +107,4 @@ Yes, you can provision both an IPv4 address and an IPv6 address on the
 same port by using the **fixed_ips** attribute.
 {{</accordion>}}
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

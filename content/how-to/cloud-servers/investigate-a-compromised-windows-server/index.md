@@ -160,5 +160,4 @@ For more information, review the following sources:
 - [Live link to sysinternal tools](https://live.sysinternals.com/)
 - [Sophos AntiRootkit](https://www.sophos.com/en-us/products/free-tools/sophos-anti-rootkit.aspx)
   
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

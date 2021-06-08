@@ -43,5 +43,4 @@ You can configuring Mobile Sync in our Help Tool by perfomring the following ste
 
 6. Follow the instructions customized to your specific device type.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/).
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).

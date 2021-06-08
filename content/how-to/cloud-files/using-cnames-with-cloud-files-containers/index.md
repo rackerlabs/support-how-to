@@ -50,5 +50,4 @@ managing your DNS in your existing tool.
 -   You are not charged extra for using CNAMEs.
 -   At this time, CNAMEs do not work with SSL (or HTTPS) delivery.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

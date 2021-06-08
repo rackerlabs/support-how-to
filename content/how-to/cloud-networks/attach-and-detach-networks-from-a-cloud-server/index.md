@@ -79,5 +79,4 @@ before you detach Public or ServiceNet interfaces from cloud servers.
 After the network detaches from the server, it no longer displays
 in the networks list for that server.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

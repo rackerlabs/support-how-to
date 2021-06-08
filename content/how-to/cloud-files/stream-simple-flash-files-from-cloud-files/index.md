@@ -107,5 +107,4 @@ Use the following code, making the following substitutions:
 Save this XHTML file and run it from your local machine. The Flash video
 should load quickly and stream.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/).
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).

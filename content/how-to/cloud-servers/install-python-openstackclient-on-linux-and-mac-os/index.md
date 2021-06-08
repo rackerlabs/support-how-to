@@ -161,5 +161,4 @@ a server with the OpenStack Config Drive and user data for cloud-init:
 
     openstack server create --image "Ubuntu 16.04 LTS (Xenial Xerus) (PVHVM)" --flavor general1-1 --config-drive=True --user-data=rack-ubuntu.yml openstack-server
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

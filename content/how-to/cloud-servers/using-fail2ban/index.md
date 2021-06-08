@@ -79,5 +79,4 @@ For more in-depth information on Fail2ban, see the following Fail2ban resources:
 - [Fail2ban Manual](http://www.fail2ban.org/wiki/index.php/Manual)
 - [Fail2ban How-tos](https://www.fail2ban.org/wiki/index.php/HOWTOs)
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

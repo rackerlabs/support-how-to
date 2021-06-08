@@ -61,5 +61,4 @@ Cloud Control Panel or run the `reboot` command on the server.
 When you perform a test reboot, dedicate time in your maintenance window to
 troubleshoot any issues that arise.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/).
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
