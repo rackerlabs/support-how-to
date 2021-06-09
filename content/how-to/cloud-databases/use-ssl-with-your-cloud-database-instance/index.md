@@ -1,6 +1,6 @@
 ---
 permalink: use-ssl-with-your-cloud-database-instance
-audit_date: '2018-11-06'
+audit_date: '2021-06-09'
 title: Use SSL with your Cloud Databases instance
 type: article
 created_date: '2014-10-02'
