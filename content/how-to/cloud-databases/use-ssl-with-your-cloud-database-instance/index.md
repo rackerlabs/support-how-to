@@ -12,11 +12,12 @@ product_url: cloud-databases
 ---
 
 Secure Sockets Layer (SSL), a security protocol that uses encryption
-technology to protect sensitive information in the Internet, enables 
+technology to protect sensitive information on the Internet, enables 
 users of a website to divulge personal information, such as credit 
 card numbers, Social Security numbers, user names, and passwords. By 
 making an SSL connection to your database, customers can trust that 
-their data is encrypted when it's sent to and from your web application.
+their data is encrypted when the system sends it to and from your web
+application.
 
 **Note:** Using SSL encryption is resource-intensive and might impact
 the latency of your database connection.
@@ -24,19 +25,20 @@ the latency of your database connection.
 ### Download the CA certificate
 
 Cloud Databases configures your database instance to support the use of
-SSL when the instance is provisioned. To encrypt data in transit by using
+SSL when you provision the instance. To encrypt data in transit by using
 SSL, your database connections need to use an SSL certificate
 associated with Cloud Databases.
 
-Follow this [link](https://docs.rackspace.com/docs/cloud-databases/v1/general-api-info/using-ssl) to download the latest SSL certificate.
+Follow this [link](https://docs.rackspace.com/docs/cloud-databases/v1/general-api-info/using-ssl)
+to download the latest SSL certificate.
 
-Your applications should use the downloaded certificate as the Certificate Authority (CA)
-certificate for SSL connections to your database.
+Your applications should use the downloaded certificate as the Certificate
+Authority (CA) certificate for SSL connections to your database.
 
-### Use the certificate with the mysql client
+### Use the certificate with a MySQL client
 
-To make SSL connections by using the `mysql` command line client, execute the following command to specify
-the location of the certificate when you start the client.
+To make SSL connections by using the `mysql` command-line client, execute the following
+command to specify the location of the certificate when you start the client.
 
     mysql --ssl-ca=/path/to/ca-cert.pem
 
