@@ -1,23 +1,22 @@
 ---
-permalink: using-ssl-with-your-cloud-database-instance
+permalink: use-ssl-with-your-cloud-database-instance
 audit_date: '2018-11-06'
 title: Use SSL with your Cloud Databases instance
 type: article
 created_date: '2014-10-02'
 created_by: Neha Verma
-last_modified_date: '2018-11-06'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2021-06-09'
+last_modified_by: Ana Corpus
 product: Cloud Databases
 product_url: cloud-databases
 ---
 
 Secure Sockets Layer (SSL), a security protocol that uses encryption
-technology to ensure that sensitive information sent over the Internet
-is protected, enables users of a website to divulge personal
-information, such as credit card numbers, Social Security numbers,
-user names, and passwords, safely. By making an SSL connection to your database,
-customers can trust that their data is encrypted when it's
-sent to and from your web application.
+technology to protect sensitive information in the Internet, enables 
+users of a website to divulge personal information, such as credit 
+card numbers, Social Security numbers, user names, and passwords. By 
+making an SSL connection to your database, customers can trust that 
+their data is encrypted when it's sent to and from your web application.
 
 **Note:** Using SSL encryption is resource-intensive and might impact
 the latency of your database connection.
@@ -29,19 +28,7 @@ SSL when the instance is provisioned. To encrypt data in transit by using
 SSL, your database connections need to use an SSL certificate
 associated with Cloud Databases.
 
-Download one of the following SSL certificates, based on when the Cloud Databases instance was created:
-
--   For instances created before March 1, 2016, [download the SSL
-certificate](https://ssl.rackspaceclouddb.com/ca-cert.pem) from the
-following URL:
-
-    `https://ssl.rackspaceclouddb.com/ca-cert.pem`
-    
--   For instances created on or after March 1, 2016, [download the SSL
-certificate](https://ssl.rackspaceclouddb.com/rackspace-ca-2016.pem) from the
-following URL:
-
-    `https://ssl.rackspaceclouddb.com/rackspace-ca-2016.pem`
+Follow this [link](https://docs.rackspace.com/docs/cloud-databases/v1/general-api-info/using-ssl) to download the latest SSL certificate.
 
 Your applications should use the downloaded certificate as the Certificate Authority (CA)
 certificate for SSL connections to your database.
@@ -49,7 +36,7 @@ certificate for SSL connections to your database.
 ### Use the certificate with the mysql client
 
 To make SSL connections by using the `mysql` command line client, execute the following command to specify
-the location of the certificate when you start the client:
+the location of the certificate when you start the client.
 
     mysql --ssl-ca=/path/to/ca-cert.pem
 
@@ -73,3 +60,5 @@ give the appropriate privileges to the user.
 
 Remember to run a `FLUSH PRIVILEGES` for the database to make the
 privilege change take effect.
+
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).

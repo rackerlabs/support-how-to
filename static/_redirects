@@ -1,5 +1,7 @@
 # Redirects
 
+/support/how-to/using-ssl-with-your-cloud-database-instance/  /how-to/use-ssl-with-your-cloud-database-instance/  404
+/how-to/use-ssl-with-your-cloud-database-instance/  /support/how-to/use-ssl-with-your-cloud-database-instance/  301
 /support/how-to/getting-started-with-apache-hadoop-on-rackspace-cloud/  /how-to/article-retired/ 404
 /support/how-to/updating-password-authentication-method-on-mac-mail/  /how-to/update-password-authentication-method-on-mac-mail/  404
 /how-to/update-password-authentication-method-on-mac-mail/  /support/how-to/update-password-authentication-method-on-mac-mail/  301
