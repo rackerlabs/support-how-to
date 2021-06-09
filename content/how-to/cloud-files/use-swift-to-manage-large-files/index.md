@@ -51,6 +51,5 @@ contents of the first until the end when the process updates the manifest file.
 
 For more information on using the Swift tool, see the [OpenStack Swift documentation](https://docs.openstack.org/developer/swift/).
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 
 
