@@ -34,12 +34,12 @@ permalink: /support/how-to/
       </div>
       <br>
       <div class="cta row">
-        <div class="col-sm-12 col-md-6">
+        <!-- <div class="col-sm-12 col-md-6">
           <p>
             <a href="/support/how-to/getting-started-with-public-cloud/" id="cloud-button" class="banner-button">Get Started
               with Rackspace Public Cloud</a>
           </p>
-        </div>
+        </div> -->
         <div class="col-sm-12 col-md-6">
           <p>
             <a href="/support/how-to/getting-started-with-hosted-email/" id="hosted-button" class="banner-button">Get Started
@@ -47,14 +47,20 @@ permalink: /support/how-to/
           </p>
         </div>
         <div class="col-sm-12 col-md-6">
-          <p></p>
-        </div>
-        <div class="col-sm-12 col-md-6">
           <p>
             <a href="/support/how-to/getting-started-with-office-365/" id="office-button" class="banner-button">Get Started with
               Office 365</a>
           </p>
         </div>
+        <!-- <div class="col-sm-12 col-md-6">
+          <p></p>
+        </div> -->
+        <!-- <div class="col-sm-12 col-md-6">
+          <p>
+            <a href="/support/how-to/getting-started-with-office-365/" id="office-button" class="banner-button">Get Started with
+              Office 365</a>
+          </p>
+        </div> -->
       </div>
     </div>
   </div>
