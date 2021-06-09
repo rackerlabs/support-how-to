@@ -16,31 +16,13 @@ Rackspace Public Cloud account. This guide removes the complexity of getting
 started on your first Public Cloud projects. We recommend completing tasks in
 the following order:
 
-1. [Create an account](#create-an-account).
-2. [Manage and secure an account](#manage-and-secure-an-account).
-3. [Build your cloud](#build-your-cloud).
-4. [Grow your cloud](#grow-your-cloud).
-
-#### Create an account
-
-Whether you are designing, testing, or launching your application into production,
-you need a home for your code. Before accomplishing any of that, you must first
-create your account. Check out the
-[tips and best practices](/support/how-to/sign-up-for-rackspace-services/#fanatical-support-for-aws-or-rackspace-public-cloud/)
-that bring new customers the greatest success when you create a Public Cloud account.
-If you are need specific instructions on signing up for a different product, click
-any of the following options for further details:
-
--	[Fanatical Support for Rackspace Public Cloud](/support/how-to/sign-up-for-rackspace-services/#fanatical-support-for-rackspace-public-cloud)
--	[Fanatical Support for AWS](/support/how-to/sign-up-for-rackspace-services/#fanatical-support-for-amazon-web-services)
-- [Managed Google Cloud Platform](/support/how-to/sign-up-for-rackspace-services/#managed-google-cloud-platform)
--	[Rackspace Email or Microsoft Exchange](/support/how-to/sign-up-for-rackspace-services/#rackspace-email-or-microsoft-exchange)
--	[Office 365](/support/how-to/sign-up-for-rackspace-services/#office-365)
-
+1. [Manage and secure an account](#manage-and-secure-an-account).
+2. [Build your cloud](#build-your-cloud).
+3. [Grow your cloud](#grow-your-cloud).
 
 #### Manage and secure an account
 
-Now that you have created an account, you can do a few things to prevent surprises.
+You can do a few things to prevent surprises.
 
 1. Protect your account by enabling [Multifactor authentication](/support/how-to/multifactor-authentication-from-the-cloud-control-panel/).
    Multifactor authentication is a free tool that can greatly decrease the chances
