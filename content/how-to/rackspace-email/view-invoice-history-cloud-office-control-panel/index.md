@@ -43,5 +43,4 @@ steps:
    - To print the invoice, click **Print Invoice** in the top right-hand corner of the invoice window.
    - To export the invoice as a comma-separated-values (CSV) file, click **Export CSV** and then save the file to your computer.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

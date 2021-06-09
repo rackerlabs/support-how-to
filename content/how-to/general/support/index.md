@@ -1,12 +1,12 @@
 ---
 permalink: support
-audit_date: '2018-12-13'
+audit_date: '2021-06-07'
 title: How to contact Rackspace Support
 type: article
 created_date: '2013-06-17'
 created_by: Rackspace Support
-last_modified_date: '2018-12-13'
-last_modified_by: William Loy
+last_modified_date: '2021-06-07'
+last_modified_by: Rose Morales
 product: General
 product_url: general
 ---
@@ -24,7 +24,7 @@ Check the status of your Rackspace products at the [System Status page](https://
 Call Dedicated Hosting support at the following numbers:
 
 - US: 1-800-961-4454
-- International: +1-210-312-4600
+- International: +1-512-361-4935
 
 You can also log in to the [MyRackspace Portal](https://login.rackspace.com/) to access chat
 support, the knowledge base, and How-To videos.
@@ -59,7 +59,7 @@ You can call the following numbers for legacy Datapipe support:
 
 **United States**
 - Toll Free: +1 888-749-5821
-- International: +1 201-792-4847
+- International: +1 201-820-0320
 
 **Europe**
 - Toll Free: +44 800 634 3414
@@ -67,10 +67,11 @@ You can call the following numbers for legacy Datapipe support:
 - Local: 0207 515 2555
 
 **Asia**
-- Hong Kong: +852 3521 1466
-- China: +86 21 5058 2100
-- Singapore: +65 6493 7235
+- Hong Kong: 800 900 331
+- China: 400 120 5387
+- Singapore: 0800 120 6184
 
+For a full list of countries and contact numbers, visit our main [contact page](https://www.rackspace.com/contact).
 ### Additional support resources
 
 - [How-To articles](/support/how-to/)

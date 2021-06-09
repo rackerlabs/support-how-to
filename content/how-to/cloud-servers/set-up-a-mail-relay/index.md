@@ -78,5 +78,4 @@ Perform the folloinwg dteps to set up an email relay:
         relay=secure.emailsrvr.com\[98.129.185.2\]:25, delay=0.31, delays=0.02/0.01/0.19/0.1,
         dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as B5E3D2D0476)
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/).
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).

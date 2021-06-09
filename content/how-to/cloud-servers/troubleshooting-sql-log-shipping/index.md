@@ -59,5 +59,4 @@ more details on the root cause.
 
 **Solution**: You need to clear out any unneeded files from the affected disk.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

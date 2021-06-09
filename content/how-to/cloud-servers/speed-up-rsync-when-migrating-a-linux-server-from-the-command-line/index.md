@@ -227,6 +227,5 @@ to judge if a migration will take longer than you want and make preparations acc
 the very least, you can use your newfound migration knowledge to better schedule migrations
 to fit your timing requirements.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 
 

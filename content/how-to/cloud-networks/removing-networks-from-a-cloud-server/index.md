@@ -47,5 +47,4 @@ not available when you remove these networks from a Cloud Server:
 -  [Using CIDR notation in Cloud Networks](/support/how-to/using-cidr-notation-in-cloud-networks)
 -  [Cloud Networks Developer Guide]( https://docs.rackspace.com/docs/cloud-networks/v2/)
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

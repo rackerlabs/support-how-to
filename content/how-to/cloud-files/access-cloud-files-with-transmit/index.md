@@ -99,5 +99,4 @@ your local device and Cloud Files&mdash;you simply drag and drop them between pa
 You cannot create a container by dragging an existing container to another Rackspace Account.
 You must first create a blank container or drag the chosen container into an existing one.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).

@@ -19,12 +19,9 @@ Before you sign up for a Rackspace account, answer the following questions:
 
 **Which cloud or Rackspace product are you using?**
 
-Rackspace supports several different clouds, including Amazon Web Services (AWS), in
-addition to its own suite of cloud products, including Rackspace Public Cloud. The
-signup process depends on what product or service you want to use. This article
-provides instructions for the following products and services:
+Rackspace supports several different clouds, including Amazon Web Services (AWS),
+Google Cloud Platform (GCP), and Office 365. The signup process depends on what product or service you want to use. This article provides instructions for the following products and services:
 
--	[Fanatical Support for Rackspace Public Cloud](#fanatical-support-for-rackspace-public-cloud)
 -	[Fanatical Support for AWS](#fanatical-support-for-amazon-web-services)
 -	[Managed Google Cloud Platform](#managed-google-cloud-platform)
 -	[Rackspace Email or Microsoft Exchange](#rackspace-email-or-microsoft-exchange)
@@ -62,21 +59,6 @@ You can ensure the quick processing of your account by verifying that all of the
 
 The signup process is different depending on the Rackspace product or service for which you are signing up, but every new customer should navigate to [rackspace.com](https://www.rackspace.com) to start.
 
-#### Fanatical Support for Rackspace Public Cloud
-
-1. Navigate to [rackspace.com](https://www.rackspace.com), click **Buy Now** and then select **OpenStack Public Cloud**.
-
-2. Enter your email address, username, password, and the answer to the security question that you select, and then click **Next Step**.
-
-3. Enter your contact information, including name, company, address, and phone number, and then click **Next Step**.
-
-4. Enter your billing information. Rackspace places a $1.00 hold on your credit card to confirm your account.
-
-5. Read and accept the [Rackspace Global Services Agreement](https://www.rackspace.com/information/legal/GSA) and [Rackspace Cloud Terms of Service](https://www.rackspace.com/information/legal/cloud/tos).
-
-6. Click **Create my account**. A confirmation screen appears confirming that your account has been created. You can now log in using the username and password you created.
-
-   **Note:** All Rackspace Public Cloud accounts are set to the Managed Infrastructure service level by default. You can upgrade to the Managed Operations service level inside the Cloud Control Panel. At the top of the Cloud Control Panel, click your account username and then select **Upgrade Service Level**. If you want to upgrade to the Managed Operations service level before starting the sign up process, contact Rackspace Sales at 1-844-768-0239.
 
 #### Fanatical Support for Amazon Web Services
 

@@ -30,5 +30,4 @@ To ensure that the SMTP settings for your iPhone, iPad, or iPod are correctly co
 8. Tap the button on the top-left to go to the previous screen, and then tap **Done**.
 
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 
