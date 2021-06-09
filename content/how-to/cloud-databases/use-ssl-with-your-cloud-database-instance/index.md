@@ -38,7 +38,7 @@ Authority (CA) certificate for SSL connections to your database.
 ### Use the certificate with a MySQL client
 
 To make SSL connections by using the `mysql` command-line client, execute the following
-command to specify the location of the certificate when you start the client.
+command to specify the location of the certificate when you start the client:
 
     mysql --ssl-ca=/path/to/ca-cert.pem
 
