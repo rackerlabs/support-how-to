@@ -87,5 +87,4 @@ Networks connectivity. The ServiceNet Network and the Cloud Network are
 two distinct networks that do not directly connect.
 {{</accordion>}}
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

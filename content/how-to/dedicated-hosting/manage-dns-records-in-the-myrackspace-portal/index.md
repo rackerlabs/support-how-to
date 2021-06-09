@@ -217,5 +217,4 @@ the necessary zone.
 2. Check the box to the left of the record you want to delete. 
 3. Click **Delete Selected Records**.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

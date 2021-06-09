@@ -171,5 +171,4 @@ The following list shows some of the common MySQL grants:
 - **GRANT OPTION**: Grant or remove other users' privileges
 - **CRUD**: Create, Read, Update, Delete
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

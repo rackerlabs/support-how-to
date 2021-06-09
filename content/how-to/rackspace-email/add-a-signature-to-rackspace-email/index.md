@@ -75,5 +75,4 @@ and then click **Save**.
 **Note:** When composing an email, you can change identities by clicking the **From** drop-down menu in Webmail, which appears at the top of
 the Compose Email window.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

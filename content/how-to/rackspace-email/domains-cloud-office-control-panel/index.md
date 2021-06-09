@@ -38,5 +38,4 @@ You can use the **Tools** section of the Control Panel to configure various doma
 - [Activate a catch-all address](/support/how-to/set-an-email-catch-all-address-in-the-cloud-office-control-panel)
 - [Migrating email](/support/how-to/email-migration-services)
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

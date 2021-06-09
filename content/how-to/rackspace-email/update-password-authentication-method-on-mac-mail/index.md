@@ -25,5 +25,4 @@ To configure the settings for Mac Mail correctly, perform the following steps:
 
 6. Click **OK** to close the SMTP window and click **OK** again to close **Preferences**.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/).
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).

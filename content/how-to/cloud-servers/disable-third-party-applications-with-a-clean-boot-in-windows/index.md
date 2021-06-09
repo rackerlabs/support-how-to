@@ -96,5 +96,4 @@ After you finish troubleshooting, follow these steps to reset the computer to st
 5. In the **Task Manager**, enable all of your startup programs and click **OK**.
 6. When prompted to restart the computer, click **Restart**.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

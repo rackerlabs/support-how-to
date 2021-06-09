@@ -89,5 +89,4 @@ The UFW tool is available on the Ubuntu&reg; operating system 8.04 LTS and later
 
        sudo iptables -L
        
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/).
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).

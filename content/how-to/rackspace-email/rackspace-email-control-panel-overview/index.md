@@ -121,5 +121,4 @@ The following sections describe the options available for **Domains** on the Con
 - **Mailbox Details**: Get a summary of your domains' mailboxes.
 - **Mail Forwarding**: See which mailboxes on your domains have forwarding enabled.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

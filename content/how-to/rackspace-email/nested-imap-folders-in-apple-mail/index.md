@@ -62,5 +62,4 @@ You can now navigate to the path for your **com.apple.mail.plist** file.
 
 If you can't correct the issue, we recommend contacting the vendor for full support with Apple Mail.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/).
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).

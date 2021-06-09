@@ -134,5 +134,4 @@ This `script` uses the following attributes:
 - `primary`: This sets player rendering mode. The recommended setting 
   is **flash**.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/).
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).

@@ -147,5 +147,4 @@ The **Advanced** tab has the following options:
 Choose the method that suits your requirements better to a connection between the
 MySQL Workbench app and your MySQL server.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact). 

@@ -116,5 +116,4 @@ This article describes how to grant sudo access to a new or existing user on the
        root@server-01:~# whoami
        root
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/).
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).

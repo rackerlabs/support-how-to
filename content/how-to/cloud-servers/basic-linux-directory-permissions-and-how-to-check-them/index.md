@@ -279,5 +279,4 @@ These are more advanced file and directory permissions like SUIDs, Sticky Bits,
 and ACLs. They are more complex, but can be completely overriden with a regular
 `chmod` command.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/).
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).

@@ -199,5 +199,4 @@ those keys anytime you need to rule out a *man-in-the-middle* attack, especially
 using multiple clients. See [Basics of security in a Linux system](/support/how-to/basic-cloud-server-security)
 for further reference.
 
-Use the Feedback tab to make any comments or ask questions. You can also click
-**Let's Talk** to [start the conversation](https://www.rackspace.com/).
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
