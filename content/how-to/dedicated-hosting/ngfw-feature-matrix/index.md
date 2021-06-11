@@ -1,12 +1,12 @@
 ---
 permalink: ngfw-feature-matrix
-audit_date: '2020-03-12'
+audit_date: '2021-06-11'
 title: NGFW Feature Matrix
 type: article
 created_date: '2020-03-12'
 created_by: Chad Sterling
-last_modified_date: '2020-11-30'
-last_modified_by: Chad Sterling
+last_modified_date: '2021-06-11'
+last_modified_by: Rose Morales
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
