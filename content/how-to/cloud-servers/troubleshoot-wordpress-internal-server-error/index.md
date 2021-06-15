@@ -39,7 +39,8 @@ To get to the server's problem you can follow the next troubleshooting steps:
 5. Repair WordPress core files
 6. Review the PHP version
 
-Before making any changes to your WordPress environment it is recommended that you make a complete backup of the site.
+**Important**: Before making any changes to your WordPress environment it is
+recommended that you make a complete backup of the site.
 
 ### 1. Enable the debugging feature
 
@@ -166,6 +167,9 @@ To know the PHP version running on your server you can run the command:
 The 500 internal server error is one of the most common when working with
 WordPress and it is difficult to fix since it can have multiple causes on the
 server. This article covered the basic troubleshooting steps for finding the
-origin of the error. Please be careful when working with the configuration and
+origin of the error. Be careful when working with the configuration and
 core WordPress files since they are crucial for the site's functionality. It is
 recommended to do backups before modifying them.
+
+Use the Feedback tab to make any comments or ask questions. You can also click
+**Let's Talk** to [start the conversation](https://www.rackspace.com/). 
