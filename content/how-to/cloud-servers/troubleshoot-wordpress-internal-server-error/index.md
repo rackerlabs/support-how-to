@@ -29,7 +29,7 @@ before executing any tasks.
 
 ### Troubleshooting steps
 
-To indentify the server problem, you can use the following troubleshooting steps:
+To identify the server problem, you can use the following troubleshooting steps:
 
 1. Enable the debugging feature.
 2. Review the **.htaccess** file.
@@ -136,7 +136,7 @@ folder to deactivate all plugins.
 
 When you refresh the page and then name the folder **plugins** again, the plugins
 do not activate automatically. You need to activate them one by one
-to search the one that is causing the error.
+to search for the one that is causing the error.
 
 ### 5. Repair WordPress core files
 
@@ -165,9 +165,9 @@ To identify the PHP version running on your server, run the following command:
 
 The `500` internal server error is one of the most common when working with
 WordPress, and it is difficult to fix because it can have multiple causes on the
-server. This article coveres the basic troubleshooting steps to find the
+server. This article covers the basic troubleshooting steps to find the
 origin of the error. Be careful when working with the configuration and
-core WordPress files because they are crucial for the site functionality. We
+core WordPress files because they are crucial for site functionality. We
 recommend you take backups before modifying them.
 
 Use the Feedback tab to make any comments or ask questions. You can also click
