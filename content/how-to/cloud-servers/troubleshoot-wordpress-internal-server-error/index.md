@@ -41,7 +41,7 @@ To identify the server problem, you can use the following troubleshooting steps:
 **Important**: Before making any changes to your WordPress environment, we
 recommend that you make a complete backup of the site.
 
-### 1. Enable the debugging feature
+#### 1. Enable the debugging feature
 
 The WordPress debugging feature helps identify where the error comes from
 by printing more specific information about it to the screen or a debug
@@ -72,7 +72,7 @@ As the comments in the sample mention, the error messages log into
 **/wp-content/debug.log**. You can use these messages to try to identify where
 the error comes from with more specific information.
 
-### 2. Review the .htaccess file
+#### 2. Review the .htaccess file
 
 Web servers running on Apache&reg; use the **.htaccess** configuration file,
 which contains rules for the server's software, redirections, and so on.
@@ -105,7 +105,7 @@ If you have a multisite WordPress installation or want to go deeper into the
 If changing the *.htaccess* file doesn't fix the issue, you can
 go back to your original configuration file with the copy you made.
 
-### 3. Increase the PHP memory limit
+#### 3. Increase the PHP memory limit
 
 Reaching the PHP memory limit might cause the ` HTTP 500` internal server errors.
 To increase the memory limit, you need to edit the **wp-config.php** configuration
@@ -121,7 +121,7 @@ In the previous line, you can define the memory limit used by WordPress.
 You need to review your codes, themes, and plugins to find out what is
 consuming so much memory.
 
-### Check for corrupted plugins
+#### 4. Check for corrupted plugins
 
 WordPress offers a simple way to download and add plugins to your site, but
 these plugins can be incomplete or become incompatible due to a lack of updates.
@@ -138,7 +138,7 @@ When you refresh the page and then name the folder **plugins** again, the plugin
 do not activate automatically. You need to activate them one by one
 to search for the one that is causing the error.
 
-### 5. Repair WordPress core files
+#### 5. Repair WordPress core files
 
 Some of the WordPress core files might be corrupt, although
 it is not likely. To fix this, you can download and replace some files and
@@ -149,7 +149,7 @@ Download the compressed folder and extract the contents. Delete the
 overwitting important files. Move the remaining contents to the root
 folder, replacing the existing folder and core files.
 
-### 6. Review the PHP version
+#### 6. Review the PHP version
 
 Some WordPress components such as core files, plugins, and themes might require
 the latest PHP version.
