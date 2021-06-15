@@ -1,32 +1,37 @@
 ---
 permalink: safelist-addresses-domains-and-ips-in-rackspace-email
-audit_date: '2017-11-13'
+audit_date: '2021-06-15'
 title: Safelist addresses, domains, and IPs in Rackspace Email
 type: article
 created_date: '2017-09-29'
 created_by: William Loy
-last_modified_date: '2017-11-13'
-last_modified_by: William Loy
+last_modified_date: '2021-06-15'
+last_modified_by: Rose Morales
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article explains how to add an email address, IP address, or domain to a safelist in the Rackspace Email webmail interface to ensure important messages are delivered to your inbox.
+This article explains how to add an email address, IP address, or domain to a
+safelist in the Rackspace Email webmail interface to ensure important messages
+are delivered to your inbox.
 
 ### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy
-- **Time needed:** Approximately 5 minutes
+- **Time needed:** 5 minutes
 - **Tools required:**  apps.rackspace.com access
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see
+[Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Why use a safelist?
 
-**Safelisting** an address creates a rule that moves any message flagged as spam from the address you safelisted to the **Inbox** so that you do not miss the message. If you need to **Blocklist** a sender, see [Blocklist addresses, domains and IP addresses in Rackspace Email](/support/how-to/blocklist-addresses-domains-and-ip-addresses-in-rackspace-email).
+**Safelisting** an address creates a rule that moves any message flagged as spam
+from the address you safelisted to the **Inbox** so that you do not miss the
+message. If you need to **Blocklist** a sender, see [Blocklist addresses, domains and IP addresses in Rackspace Email](/support/how-to/blocklist-addresses-domains-and-ip-addresses-in-rackspace-email).
 
-**Warning:** Safelisting does not prevent a sender from being flagged as spam or from being blocked.
+**Warning:** Safelisting does not prevent a sender from being flagged as spam or being blocked.
 
 ### Safelist an email address or domain
 
