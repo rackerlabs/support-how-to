@@ -81,7 +81,7 @@ their **autodiscover.example.com** subdomain to our Autodiscover server
 
 #### TXT record
 
-External sources refernce text (TXT) records to check for domain-specific
+External sources reference text (TXT) records to check for domain-specific
 policies such as SPF, DKIM, and DMARC.
 
 Example:
