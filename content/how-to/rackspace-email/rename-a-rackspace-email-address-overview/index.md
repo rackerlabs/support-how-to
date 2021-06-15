@@ -1,7 +1,7 @@
 ---
-permalink: renaming-a-rackspace-email-address-overview
+permalink: rename-a-rackspace-email-address-overview
 audit_date: '2017-09-11'
-title: Renaming a Rackspace Email address overview
+title: Rename a Rackspace Email address overview
 type: article
 created_date: '2017-09-11'
 created_by: William Loy
@@ -44,7 +44,7 @@ After you have backed up the mail data locally, you are ready to connect to the 
 
 #### Mobile clients
 
-- [Iphone iOS](/support/how-to/configure-a-renamed-email-address-on-iphone-iOS)
+- [Iphone iOS](/support/how-to/configure-a-renamed-email-address-on-iphone-ios)
 - [Android](/support/how-to/configure-a-renamed-email-address-on-android-devices)
 - [Windows](/support/how-to/configure-a-renamed-email-address-configuration-for-windows-mobile-phone)
 
