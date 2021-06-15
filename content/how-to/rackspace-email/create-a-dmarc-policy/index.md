@@ -1,23 +1,24 @@
 ---
 permalink: create-a-dmarc-policy
-audit_date: '2017-08-02'
+audit_date: '2021-06-14'
 title: Create a DMARC policy
 type: article
 created_date: '2017-06-26'
 created_by: Cory Aldrich
-last_modified_date: '2017-10-23'
-last_modified_by: William Loy
+last_modified_date: '2021-06-14'
+last_modified_by: Rose Morales
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
 Domain-based Message Authentication, Reporting & Conformance (DMARC) is used in
 conjunction with SPF and DKIM to combat email spoofing. Spoofing occurs when a
-scammer uses your domain in the From field of an email to impersonate one of your
-users. DMARC uses a policy that is given by your email provider. This policy tells
-the receiving email host how to treat emails sent from your domain based on the criteria
-that you set. This mechanism also gives visibility into reports on what your domain is
-sending, and how receiving hosts are treating that mail.
+scammer uses your domain in the From field of an email to impersonate one of
+your users. DMARC uses a policy that is given by your email provider. This
+policy tells the receiving email host how to treat emails sent from your domain
+based on the criteria that you set. This mechanism also gives visibility into
+reports on what your domain is sending, and how receiving hosts are treating
+that mail.
 
 This article shows how to create a DMARC policy to use with Cloud Office.
 
@@ -28,7 +29,8 @@ This article shows how to create a DMARC policy to use with Cloud Office.
 - **Time needed:** 24-48 hours for DNS record changes to propagate
 - **Tools required:** DNS host Administrator access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see
+[Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
 If you prefer a video tutorial, please see [Rackspace Email - DMARC / DKIM: What It Is & How to Setup{{<image src="dmarc_thumb.png" alt="" title="">}}](https://emailhelp.rackspace.com/l/dmarc-dkim-records-setup).
 
@@ -39,33 +41,35 @@ and DKIM records. Before creating your DMARC policy, you must first [**create an
 
 To set up DMARC the way that works best for your needs, answer these questions:
 
-**How should questionable mail be handled?**
+**How do you want questionable mail handled?**
 
-Decide whether questionable email should be rejected outright or should be classified
-as a “soft fail,” which means that the email is further scrutinized or sent to spam.
+Decide whether questionable email is rejected outright or classified as a “soft
+fail,” which means that the email is further scrutinized or sent to spam.
 
 **Who should receive DMARC reports?**
 
 When the receiving host processes mail that comes from the domain, the host
-generates reports. These reports are sent to the email address specified in the DMARC
-policy.
+generates reports. The reports are sent to the address specified in the
+DMARC policy.
 
-### Parts of a DMARC policy:
+### Parts of a DMARC policy
 
-Each part of the policy is defined as follows:
+The policy definition is the following:
 
- - **dmarc**: identifies the TXT record as a DMARC policy.
-    - **v=DMARC1** indicates the version of DMARC used.
-  - **p=quarantine**: is the policy action.
-    - **none**: Do nothing/reporting only
-    - **quarantine**: Treat the mail as spam
-    - **reject**: Refuse mail that fails DKIM and SPF
-  - **rua=** identifies the destination for the aggregate reports.
-  - **pct=100** specifies how much traffic should be subject to policy validation.
+- **dmarc**: identifies the TXT record as a DMARC policy.
+- **v=DMARC1** indicates the version of DMARC used.
+- **p=quarantine**: is the policy action.
+  - **none**: Do nothing/reporting only
+  - **quarantine**: Treat the mail as spam
+  - **reject**: Refuse mail that fails DKIM and SPF
+- **rua=** identifies the destination for the aggregate reports.
+- **pct=100** specifies how much traffic should be subject to policy validation.
 
 ### Create a DMARC policy in your DNS settings
 
-**Note:** If your DNS is not hosted with Rackspace, you need access to your DNS provider to add the DMARC policy. If you do not know where your DNS is hosted, see [Find DNS host](/support/how-to/find-dns-host).
+**Note:** If your DNS is not hosted with Rackspace, you need access to your DNS
+provider to add the DMARC policy. If you do not know where your DNS is hosted,
+see [Find DNS host](/support/how-to/find-dns-host).
 
 To add your DMARC policy as a TXT record in the Control Panel, follow these steps:
 
@@ -74,7 +78,8 @@ To add your DMARC policy as a TXT record in the Control Panel, follow these step
 3. On the DNS Settings page, click the domain for which you want to add this record.
 4. Under the Advanced Settings section, select **DNS records**.
 5. Under Hosting Records, click on Add Additional Record.
-6. Select **TXT Record** for the record type, and enter the following values, replacing the email address example with your chosen reporting address:
+6. Select **TXT Record** for the record type, and enter the following values,
+   replacing the email address example with your chosen reporting address:
 
    - **Type**: `TXT`
    - **Hostname**: `_dmarc`
@@ -84,17 +89,19 @@ To add your DMARC policy as a TXT record in the Control Panel, follow these step
 
 7. Click **Add Record**
 
-Your new settings take 24 to 48 hours to propagate. For more information on propagation, see [DNS propagation](/support/how-to/dns-record-definitions#dns-propagation).
+Your new settings take 24 to 48 hours to propagate. For more information on
+propagation, see [DNS propagation](/support/how-to/dns-record-definitions#dns-propagation).
 
 ### Select an aggregator
 
 Your DMARC policy is more valuable when you use an aggregator to help filter the
-content of the reports that are returned. Without an aggregator, the reports are in an
-XML format and are virtually unreadable. An aggregator formats this information and
-sends out weekly reports to the email address specified. The weekly report contains the sending
-source (domain or IP address) and information about whether the message passed or
-failed SPF and DKIM. This information enables you to monitor your domain's activity
-and helps to prevent spoofing and domain abuse.
+content of the reports that are returned. Without an aggregator, the reports are
+in an XML format and are virtually unreadable. An aggregator formats this
+information and sends out weekly reports to the email address specified. The
+weekly report contains the sending source (domain or IP address) and information
+about whether the message passed or failed SPF and DKIM. This information
+enables you to monitor your domain's activity and helps to prevent spoofing and
+domain abuse.
 
 Following are some top reporting aggregators, based on suggestions from
 https://dmarc.org/resources/products-and-services/:
