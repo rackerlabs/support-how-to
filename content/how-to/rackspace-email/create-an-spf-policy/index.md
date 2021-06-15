@@ -1,12 +1,12 @@
 ---
 permalink: create-an-spf-policy
-audit_date: '2017-10-06'
+audit_date: '2021-06-15'
 title: Create an SPF policy
 type: article
 created_date: '2017-09-25'
 created_by: William Loy
-last_modified_date: '2018-03-15'
-last_modified_by: William Loy
+last_modified_date: '2021-06-15'
+last_modified_by: Rose Morales
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -17,14 +17,18 @@ This article explains how to create an SPF policy to protect your email traffic.
 
 - **Applies to:** Administrator
 - **Difficulty:** Easy
-- **Time needed:** Approximately 15 minutes to create record, 24-48 hours for the record to propagate
+- **Time needed:** 15 minutes to create record, 24-48 hours for the record to propagate
 - **Tools required:**  DNS host administrator access
 
-You also need access to update DNS entries for your domain. If you do not know where your DNS is hosted, see [Find your DNS host](/support/how-to/find-dns-host).
+You also need access to update DNS entries for your domain. If you do not know
+where your DNS lives, see [Find your DNS host](/support/how-to/find-dns-host).
 
-For more information on prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
+For more information on prerequisite terminology, see
+[Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
-An SPF policy alone is not enough to protect the integrity of your domain's email. In order to create a secure email verification policy, we recommend the following:
+An SPF policy alone is not enough to protect the integrity of your domain's
+email. To create a secure email verification policy, we recommend the
+following:
 
 1. Create an SPF record policy.
 2. [Create a DKIM record](/support/how-to/enable-dkim-in-the-cloud-office-control-panel).
@@ -48,7 +52,7 @@ An SPF policy alone is not enough to protect the integrity of your domain's emai
 
    Enter your choice after **v=spf1 include:emailsrvr.com**, and then save your changes.
 
-4. Authorize additional mail servers by adding their IP or server name after **include:**.
+4. By adding their IP or server names after **include:** allows mail servers.
 
     - For example:
 
