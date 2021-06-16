@@ -11,7 +11,7 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-After you have renamed a Rackspace Email address, your devices will receive new
+After renaming a Rackspace Email address, your devices receive new
 email after you configure them to connect to the new email address. This
 article describes how to configure a renamed email address on iPhone iOS.
 
@@ -29,7 +29,8 @@ For more information about prerequisite terminology, see
 
 The following steps use  general settings for iPhone iOS and might vary across iOS versions.
 
-**Important:** For IMAP folders to sync properly on your iPhone, follow the instructions in the **Configure IMAP folder sync settings** section after completing the following steps.
+**Important:** For IMAP folders to sync properly on your iPhone, follow the instructions
+in the **Configure IMAP folder sync settings** section after completing the following steps:
 
 1. On the home screen, tap the **Settings** icon.
 2. In the **Settings** menu, tap **Mail**, and then tap **Accounts**.
@@ -43,32 +44,34 @@ The following steps use  general settings for iPhone iOS and might vary across i
     - **Password:** Your mailbox password
     - **Description:** A brief description of the mailbox
 
-7. Verify IMAP is selected and that the name, email address, and
+7. Select IMAP and verify that the name, email address, and
    mailbox description fields have content.
 
 8. Enter the following settings:
 
-      - Incoming server settings
-         - **Host Name:** `secure.emailsrvr.com`
-         - **User Name:** Your renamed Rackspace Email address
-         - **Password:** Your mailbox password
+   - **Incoming server settings**:
 
-      - Outgoing server settings
-      - **Host Name:** `secure.emailsrvr.com`
-      - **User Name:** Your renamed Rackspace Email address
-      - **Password:** Your mailbox password
+     - **Host Name:** `secure.emailsrvr.com`
+     - **User Name:** Your renamed Rackspace Email address
+     - **Password:** Your mailbox password
+
+   - **Outgoing server settings**:
+
+     - **Host Name:** `secure.emailsrvr.com`
+     - **User Name:** Your renamed Rackspace Email address
+     - **Password:** Your mailbox password
 
       {{<image src="imap-serversettings.png" title="" alt="">}}
 
-      **Warning:** Before you enter any information, the outgoing server fields
-      display *Optional*. Do *not* skip this step. For your outgoing email to
-      function, you must enter the outgoing server information.
+    **Warning:** Before you enter any information, the outgoing server fields
+    display *Optional*. Do *not* skip this step. For your outgoing email to
+    function, you must enter the outgoing server information.
 
 9. Tap **Next**.
 10. Select the appropriate settings and tap **Save**.
 
 **Note:** Rackspace Email can synchronize mail. If you need to synchronize
-Contacts, and Calendar items to your mobile device, consider upgrading to
+Contacts and Calendar items to your mobile device, consider upgrading to
 [Rackspace Email Plus](/support/how-to/upgrade-to-rackspace-email-plus/).
 
 ### Configure IMAP folder sync settings
@@ -87,9 +90,10 @@ Contacts, and Calendar items to your mobile device, consider upgrading to
 
 6. Repeat steps 4 and 5 for **Deleted Mailbox**.
 
-   You do not have to repeat the steps for the **Archive Mailbox**; it isn't used.
+   You do not have to repeat the steps for the **Archive Mailbox** because you
+   don't use it.
 
-7. On **Advanced**, verify the **Deleted Mailbox** is selected under
+7. On **Advanced**, select the **Deleted Mailbox** under
    **MOVE DISCARDED MESSAGES INTO**. This ensures that deleted messages go to
    the **Deleted Mailbox** folder.
 
@@ -97,4 +101,4 @@ Contacts, and Calendar items to your mobile device, consider upgrading to
    within minutes, depending on the number of items.
 
 **Note:** If you have a large mailbox, it might take longer before the email
-appears. Please wait at least 15 minutes before troubleshooting.
+appears. Wait at least 15 minutes before troubleshooting.
