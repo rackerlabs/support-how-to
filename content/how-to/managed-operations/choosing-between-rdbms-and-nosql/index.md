@@ -11,12 +11,13 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-This page presents information that is helpful for deciding whether to use a
+This page presents information to help you decide whether to use a
 relational database, a NoSQL database, or a hybrid solution.
 
 ### Prerequisite
 
-For an introduction to relational databases and NoSQL databases, see [Types of databases](/support/how-to/types-of-databases).
+For an introduction to relational databases and NoSQL databases, see
+[Types of databases](/support/how-to/types-of-databases).
 
 ### Features of relational databases and NoSQL databases
 
@@ -35,10 +36,10 @@ relational and NoSQL databases:
 | Primarily write data to one location | Write data to any location |
 | Primary concern is scaling reads | Scale writes and reads |
 | Scale up for more users and data | Scale out for more users and data |
-| Maintain data volumes with purges | High data volumes that are retained forever |
+| Maintain data volumes with purges | High data volumes retained forever |
 
 The following image visualizes the structures of various types of databases,
-as well as the data complexity that they are designed to accommodate:
+as well as the data complexity that they accommodate by design:
 
 {{<image src="data-complexity-value-in-relationships.png" alt="" title="">}}
 
@@ -77,8 +78,8 @@ questions:
   availability?
 - Can the database easily replicate data located in the same data center,
   across multiple data centers, and across different cloud availability zones?
-- Does the database offer read/write anywhere capabilities? (Can any node in
-  the cluster be written to and read from?)
+- Does the database offer read/write anywhere capabilities? (Can the system
+  write to and read from any node in the cluster?)
 - Does the database provide a robust set of security features?
 - Does the database support backup and recovery procedures that are easy to
   create and manage?
@@ -108,7 +109,7 @@ questions:
 The following list presents business-related questions that you should ask
 before deciding to use a NoSQL database:
 
-- Is the database backed by a commercial entity?
+- Does a commercial entity back the database?
 - If so, does the commercial entity provide 24x7 enterprise-level support and
   services?
 - Does the database have professional online documentation?
@@ -120,7 +121,7 @@ before deciding to use a NoSQL database:
 
 #### Deployment considerations
 
-A NoSQL database can be used as part of a new application, to augment an
+You can use a NoSQL database as part of a new application, to augment an
 existing application, or to fully replace an application. Before choosing a
 database, consider your deployment needs.
 
@@ -136,14 +137,14 @@ Some organizations choose to augment an existing system by adding a NoSQL
 component. This often happens with applications that have outgrown a
 relational database due to scale problems, the need for better availability,
 or other issues. Parts of the existing system continue to use the existing
-RDBMS, while other components of the application are modified to use the NoSQL
-database.
+RDBMS, while the developers modify other application components to use
+the NoSQL database.
 
 ##### Rip and replace projects
 
-If a system is too costly or is breaking due to an increase in user
-concurrency, data velocity, or data volume from cloud applications, it can be
-fully replaced with a NoSQL database.
+If a system is too costly or is breaking due to increased user
+concurrency, data velocity, or data volume from cloud applications, you can
+replace it fully with a NoSQL database.
 
 ### Guidelines for deciding between a relational database and a NoSQL database
 
