@@ -1,12 +1,12 @@
 ---
 permalink: types-of-databases
-audit_date: '2018-03-20'
+audit_date: '2021-06-16'
 title: 'Types of databases'
 type: article
 created_date: '2018-02-27'
 created_by: Satyakam Mishra
-last_modified_date: '2018-05-07'
-last_modified_by: Kate Dougherty
+last_modified_date: '2021-06-16'
+last_modified_by: Ana Corpus
 product: Managed Operations
 product_url: managed-operations
 ---
@@ -31,9 +31,12 @@ database.
 The relationships between data sets are classified as follows:
 
 - One-to-one: One table record relates to one record in another table.
+
 - One-to-many: One table record relates to many records in another table.
+
 - Many-to-one: More than one table record relates to one table record in
   another table.
+
 - Many-to-many: More than one table record relates to more than one record in
   another table.
 
@@ -41,7 +44,7 @@ The relationships between data sets are classified as follows:
 
 The term NoSQL refers to databases that do not follow traditional RDBMS
 principles. NoSQL is an open source database technology designed to handle big
-data. It was developed by Amazon, Google, LinkedIn, Twitter, and similar
+data. It was developed by Amazon&reg;, Google&reg;, LinkedIn&reg;, Twitter&reg;, and similar
 companies as they looked for ways to handle unprecedented data volumes and
 operation volumes under tight latency constraints.
 
@@ -62,3 +65,5 @@ advantages.
 ### Next step
 
 [Properties of RDBMSs and NoSQL databases](/support/how-to/properties-of-rdbmss-and-nosql-databases/)
+
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
