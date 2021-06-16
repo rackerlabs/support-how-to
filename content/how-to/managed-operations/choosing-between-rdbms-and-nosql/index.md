@@ -1,12 +1,12 @@
 ---
 permalink: choosing-between-rdbms-and-nosql
-audit_date: '2018-03-21'
+audit_date: '2021-06-16'
 title: 'Choosing between a relational database and a NoSQL database'
 type: article
 created_date: '2018-02-27'
 created_by: Satyakam Mishra
-last_modified_date: '2018-04-25'
-last_modified_by: Kate Dougherty
+last_modified_date: '2021-06-16'
+last_modified_by: Ana Corpus
 product: Managed Operations
 product_url: managed-operations
 ---
@@ -175,8 +175,9 @@ or a NoSQL database is best for your application.
 ### Get support
 
 For more information about relational databases and NoSQL databases, see the
-[Managed Operations FAQ](/support/how-to/managed-operations-faq/). If you have further
-questions, contact support.
+[Managed Operations FAQ](/support/how-to/managed-operations-faq/).
 
 Learn more about [Rackspace database
 services](https://www.rackspace.com/dba-services).
+
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
