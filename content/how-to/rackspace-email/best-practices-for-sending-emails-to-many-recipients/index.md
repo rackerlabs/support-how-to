@@ -14,7 +14,7 @@ product_url: rackspace-email
 This article provides best practices for sending legitimate email to several
 recipients through the Rackspace mail system.
 
-If you have received a bounce message when sending an email, see our list of
+If you received a bounce message when sending an email, see our list of
 [common email bounce messages](/support/how-to/common-email-bounces/) for more
 information.
 
@@ -27,22 +27,22 @@ For more information on prerequisite terminology, see
 
 ### Best practices
 
-For a video tutorial see [Rackspace Email - Spam Flags: Best Sending Practices](https://emailhelp.rackspace.com/l/spam-overview).
+For a video tutorial, see [Rackspace Email - Spam Flags: Best Sending Practices](https://emailhelp.rackspace.com/l/spam-overview).
 
 Sending email to many recipients is a common practice of spammers. As a result,
-most email providers have strict rules about this practice since it's hard to
+most email providers have strict rules about this practice because it's hard to
 distinguish your email from typical mass marketing, newsletter, and other
 unsolicited mass email content.
 
 To ensure that your emails reach their destination, we recommend that you use
-the following practices.
+the following practices:
 
 #### Bulk email
 
 Rackspace Cloud Office does not offer bulk email services. To ensure that your
 bulk emails are not blocked, use a reputable bulk email service to send out your
 content. Reputable email service providers deliver your bulk email in a way that
-mail providers accept it as good mail. Following are examples of reputable email
+mail providers accept as good mail. Following are examples of reputable email
 service providers:
 
 - [MailChimp](https://mailchimp.com/) and [Marketo](https://www.marketo.com/) for marketing, advertising, or promotional emails
@@ -56,18 +56,18 @@ Policy](https://www.rackspace.com/information/legal/aup).
 
 Ensure your recipient lists are current and accurate. Sending emails to a
 large number of invalid recipients is a clear indicator of spam. Also, mail
-providers and ISP's can use common invalid addresses as spam traps. Sending mail
-to these spam traps can result in your domain being blocklisted.
+providers and ISPs can use common invalid addresses as spam traps. Sending mail
+to these spam traps can result in them blocklisting your domain.
 
 Use confirmed opt-in practices when collecting email addresses for mailing
-lists. Doing so reduces the chances to be reported as unsolicited. Unsolicited
-mail is more likely to be marked as spam by recipients, which leads to the
-sender being flagged as a spammer by content filters.
+lists. Doing so reduces the chances of being reported as unsolicited. Unsolicited
+mail is more likely to be marked as spam by recipients, which leads to content
+filters flagging the sender as a spammer.
 
 If you send email newsletters or communications to your customers, give them a
 way to remove themselves from your mailing list. Typically you can do this by
-providing an unsubscribe link in the message or with reply-to instructions. This
-is required by law.
+providing an unsubscribe link in the message or with reply-to instructions. The
+law requires this option.
 
 #### Reputation
 
@@ -77,8 +77,8 @@ providers often audit high-volume senders by visiting their websites, which can
 be a factor in determining whether you are a spammer.
 
 If you allow other companies to include references to your business, ensure that
-they are reputable. If they send out spam and your company information is
-referenced in those emails, your domain could be flagged as being related to
+they are reputable. If they send out spam with your company information
+referenced in those emails, systems could flag your domain as being related to
 spam.
 
 #### Message content
