@@ -1,12 +1,12 @@
 ---
 permalink: reasons-to-use-a-nosql-database
-audit_date: '2018-03-20'
+audit_date: '2021-06-17'
 title: 'Reasons to use a NoSQL database'
 type: article
 created_date: '2018-03-20'
 created_by: Satyakam Mishra
-last_modified_date: '2018-05-08'
-last_modified_by: Kate Dougherty
+last_modified_date: '2021-06-17'
+last_modified_by: Ana Corpus
 product: Managed Operations
 product_url: managed-operations
 ---
@@ -39,7 +39,7 @@ You might choose a NoSQL database for the following reasons:
 
   When you are developing in rapid iterations or making frequent updates to
   the data structure, a relational database slows you down. However, because
-  NoSQL data doesn’t need to be prepped ahead of time, you can make frequent
+  NoSQL data doesn’t need to be prepared ahead of time, you can make frequent
   updates to the data structure with minimal downtime.
 
 - To boost horizontal scalability.
@@ -52,3 +52,5 @@ You might choose a NoSQL database for the following reasons:
 ### Next step
 
 [Examples of RDBMS and NoSQL databases](/support/how-to/examples-of-rdbms-and-nosql-databases/)
+
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
