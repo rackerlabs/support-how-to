@@ -17,7 +17,7 @@ This article describes how to export a copy of your email address data from Outl
 
 - **Applies to:** User
 - **Difficulty:** Easy
-- **Time needed:** Dependent on amount of data being exported
+- **Time needed:** Depends on the amount of exported data
 - **Tools required:**  Access to the Outlook account from which you want to export
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
@@ -42,15 +42,15 @@ for a list of all version articles.
 
    The Import and Export wizard launches.
 
-4. In the Import and Export wizard, click **Export to a file**, and then click **Next**.
+4. In the Import and Export wizard, click **Export to a file** and then click **Next**.
 
    {{<image src="export_to_file2016.png" alt="" title="">}}
 
-5. Click **Outlook Data File (.pst)**, and then click **Next**.
+5. Click **Outlook Data File (.pst)** and then click **Next**.
 
    {{<image src="outlook_data_file2016.png" alt="" title="">}}
 
-6. Select the folder that you want to export, and then click **Next**.
+6. Select the folder that you want to export and then click **Next**.
 
    In this case, select the email address at the top of the folder list and
    select the checkbox for **Include subfolders** to export all data.  
@@ -66,7 +66,7 @@ for a list of all version articles.
 8. In the **File Name** box, type the name that you want to use for the new
    **.pst** file and click **OK**.
 
-   **Note:** You might be prompted to enter a password. This is optional and you
+   **Note:** If you see a prompt to enter an optional password, you
    can click **OK** to skip it.
 
    {{<image src="browse_finish2016.png" alt="" title="">}}
