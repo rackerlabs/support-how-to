@@ -10,6 +10,7 @@
                 {{- partial "components/sidebar-account" . -}}
             </div>
             <div class="col-sm-12 col-md-9 col-lg-9 account-content" id="account-content">
+                <div class="content">
                 <h2 class="less-margin">{{ .Params.Title }}</h2>
                 <div class="row account-meta">
                     <div class="col-sm-12 col-md-6 col-lg-6">
@@ -20,6 +21,7 @@
                     </div>
                 </div>
                 {{ .Content }}
+                </div>
                 {{- partial "components/share-bar" . -}}
 
                 {{- partial "components/legal-footer" . -}}

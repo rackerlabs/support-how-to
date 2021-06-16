@@ -8,6 +8,7 @@
                     {{- partial "components/sidebar-account" . -}}
             </div>
             <div class="col-sm-12 col-md-9 col-lg-9 account-content" id="account-content">
+                <div class="content">
                 <h2>{{- .Params.Title | markdownify -}}</h2>
                 {{- if not (in .Params.Permalink "all-articles") -}}
                 <div class="row">
@@ -23,6 +24,7 @@
                 {{- end -}}
                 <hr />
                 {{- .Content -}}
+                </div>
                 {{- partial "components/share-bar" . -}}
                 {{- partial "components/legal-footer" . -}}
             </div>
