@@ -1,17 +1,17 @@
 ---
 permalink: introduction-to-mongodb
-audit_date: '2018-03-21'
-title: 'Introduction to MongoDB'
+audit_date: '2021-06-17'
+title: 'Introduction to MongoDB&reg;'
 type: article
 created_date: '2018-02-27'
 created_by: Satyakam Mishra
-last_modified_date: '2018-04-26'
+last_modified_date: '2021-06-17'
 last_modified_by: Kate Dougherty
 product: Managed Operations
 product_url: managed-operations
 ---
 
-MongoDB is an open source NoSQL database. MongoDB stores data in JSON-like
+MongoDB&reg; is an open source NoSQL database. MongoDB stores data in JSON-like
 documents that can vary in structure. Because MongoDB uses dynamic schemas,
 users can create records without defining the data structure first.
 
@@ -28,9 +28,9 @@ For an introduction to NoSQL databases, see the following articles:
 
 ### Terminology and concepts
 
-Many concepts in MongoDB have close analogs to concepts in relational
-databases such as Oracle Database. The following table compares the basic
-concepts in these systems:
+Many concepts in MongoDB have close analogies to concepts in relational
+databases such as Oracle Database&reg;. The following table compares the basic
+concepts.
 
 | MongoDB                        | Oracle Database |
 | ------------------------------ | --------------- |
@@ -65,7 +65,7 @@ programming language to run these functions.
 ### Are MongoDB and Oracle Database used together?
 
 Yes. There are many examples of hybrid deployments of MongoDB and Oracle
-Database, particularly among ecommerce applications. The flexible data model
+Database, particularly among e-commerce applications. The flexible data model
 that MongoDB uses is a good fit for product catalogs because catalogs typically
 include multiple products with different attributes. However, Oracle Database
 is generally used for checkout systems because these systems require complex
@@ -85,4 +85,6 @@ amounts of data.
 
 ### Next step
 
-[Introduction to Cassandra](/support/how-to/introduction-to-cassandra/)
+[Introduction to Apache Cassandra&reg;](/support/how-to/introduction-to-cassandra/)
+
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
