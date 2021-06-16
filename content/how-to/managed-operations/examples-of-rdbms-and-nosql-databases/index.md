@@ -16,19 +16,20 @@ This article presents several common relational database management systems
 
 ### Prerequisite
 
-For an introduction to RDBMSs and NoSQL databases, see [Properties of RDBMSs and NoSQL databases](/support/how-to/properties-of-rdbmss-and-nosql-databases/).
+For an introduction to RDBMSs and NoSQL databases, see
+[Properties of RDBMSs and NoSQL databases](/support/how-to/properties-of-rdbmss-and-nosql-databases/).
 
 ### Popular relational databases and RDBMSs
 
 The following list describes popular SQL and RDBMS databases:
 
-- **Oracle&reg;**: An object-relational database management system (DBMS) that is
+- **Oracle&reg;**: An object-relational database management system (DBMS)
   written in the C++ language.
 
 - **IBM DB2&reg;**: A family of database server products from IBM&reg;.
 
-- **SAP ASE&reg;**: A relational database server product for businesses that is
-  primarily used on the Unix&reg; operating system.
+- **SAP ASE&reg;**: A business relational database server product for
+  primarily Unix&reg; operating systems.
 
 - **Microsoft SQL Server&reg;**: An RDBMS for enterprise-level databases that supports both
   SQL and NoSQL architectures.
@@ -36,7 +37,7 @@ The following list describes popular SQL and RDBMS databases:
 - **Maria DB&reg;**: An enhanced, drop-in version of MySQL&reg;.
 
 - **PostgreSQL&reg;**: An enterprise-level, object-relational DBMS that uses
-  procedural languages such as Perl and Python in addition to SQL-level code.
+  procedural languages, such as Perl and Python, in addition to SQL-level code.
 
 
 ### Popular NoSQL databases
@@ -47,28 +48,29 @@ The following list describes popular NoSQL databases:
   document-oriented database that stores JSON-like documents in dynamic
   schemas.
 
-- **Apache CouchDB&reg;**: An open source, web-oriented database developed by Apache&reg;.
+- **Apache CouchDB&reg;**: An open-source, web-oriented database developed by Apache&reg;.
   CouchDB uses the JSON data exchange format to store its documents;
   JavaScript for indexing, combining, and transforming documents; and HTTP for
   its API.
 
-- **Apache HBase&reg;**: An open source Apache project that was developed as a part of
-  Hadoop&reg;. HBase is a column store database written in Java. It has
+- **Apache HBase&reg;**: An open-source Apache project developed as a part of
+  Hadoop&reg;. HBase is a column store database written in Java with
   capabilities similar to those that Google BigTable&reg; provides.
 
-- **Oracle NoSQL Database&reg;**: A propietary database that supports JSON, table and key-value datatypes running on-premise, or as a cloud service.
+- **Oracle NoSQL Database&reg;**: A proprietary database that supports JSON table
+  and key-value datatypes running on-premise or as a cloud service.
 
 - **Apache Cassandra DB&reg;**: A distributed database that excels at handling extremely
   large amounts of structured data. Cassandra DB is also highly scalable.
-  Cassandra DB was created at Facebook&reg;.
+  Facebook&reg; created Cassandra DB.
 
-- **Riak&reg;**: An open source, key-value store database written in Erlang. Riak
+- **Riak&reg;**: An open-source, key-value store database written in Erlang. Riak
   has built-in fault-tolerance replication and automatic data distribution
   that enable it to offer excellent performance.
 
 - **Objectivity InfiniteGraph&reg;**: A highly specialized graph database that focuses on
-  graph data structures. InfiniteGraph is useful for finding hidden
-  relationships in big data. It is implemented in Java.
+  graph data structures. InfiniteGraph, implemented in Java, is useful for finding hidden
+  relationships in big data.
 
 ### Next step
 
