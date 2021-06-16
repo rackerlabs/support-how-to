@@ -129,7 +129,7 @@ problems.
 7. Also, ask the recipient if your message got marked as spam.
 
    If your message shows as spam, see 
-   [Best practices for sending person to person email](/support/how-to/best-practices-for-sending-person-to-person-email/)
+   [Best practices for sending person-to-person email](/support/how-to/best-practices-for-sending-person-to-person-email/)
    to prevent this in the future.
 
 ### References
