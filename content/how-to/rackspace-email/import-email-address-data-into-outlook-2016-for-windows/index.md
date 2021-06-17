@@ -32,39 +32,25 @@ for a list of all version articles.
 
 1. In Outlook 2016, click **File > Options** in the navigation bar.
 
-    {{<image src="options2016.png" alt="" title="">}}
-
 2. In the **Outlook Options** window, click **Advanced**.
 
-    {{<image src="advanced2016.png" alt="" title="">}}
-
 3. In the Export section, click **Export**.
-
-    {{<image src="export2016.png" alt="" title="">}}
 
     The **Import and Export Wizard** launches.
 
 4. In the **Import and Export Wizard**, click **Import from another program or
    file**, and then click **Next**.
 
-    {{<image src="import_from_a_file2016.png" alt="" title="">}}
-
 5. Click **Outlook Data File (.pst)** and then click **Next**.
-
-    {{<image src="outlook_data_file.png" alt="" title="">}}
 
 6. Click **Browse** and then select the **Outlook Data File(.pst)** file
    you want to import.
-
-    {{<image src="browse_import2016.png" alt="" title="">}}
 
 7. Select the folder from which to import. If you want to import all folders,
    select the Outlook Data File and the checkbox next to **Include subfolders**.
 
     Select **Import items into the same folder in:** and select the email
     address into which you want to import the data.
-
-    {{<image src="import_from2016.png" alt="" title="">}}
 
 8. Click **Finish**. The Outlook Data File begins importing. The time to
    complete the import could take from minutes to hours, depending on
