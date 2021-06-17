@@ -19,7 +19,7 @@ For an introduction to relational databases and NoSQL databases, see [Types of d
 
 ### Properties of relational databases
 
-Relational databases are efficient systems, which makes them a common choice
+Relational Database Management Systems (RDBMS) are efficient and a common choice
 for storing financial records, logistical information, personnel data, and
 other information in new databases. Because they are easier
 to understand and use than NoSQL databases, relational databases also
@@ -46,10 +46,10 @@ Relational databases have the following properties:
 NoSQL is a non-schema alternative to SQL and RDBMSs designed to store,
 process, and analyze extremely large amounts of unstructured data.
 
-In NoSQL databases, the principles of ACID (atomicity, consistency, isolation,
-and durability) are reduced. In addition, the process of normalization is not
-mandatory in NoSQL. Due to the size and speed of modern data, it is preferable
-for NoSQL databases to be de-normalized.
+NoSQL databases deemphasize the principles of ACID (atomicity, consistency,
+isolation, and durability). In addition, the process of normalization is not
+mandatory in NoSQL. Because of the size and speed of modern data, you
+shoud de-normalize NoSQL databases.
 
 NoSQL databases have the following properties:
 
@@ -61,7 +61,7 @@ NoSQL databases have the following properties:
 
 - They support flexible schema.
 
-- They're able to process both unstructured and semi-structured data.
+- They can process both unstructured and semi-structured data.
 
 - There are no complex relationships, such as the ones between tables in an
   RDBMS.
