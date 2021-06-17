@@ -1,7 +1,7 @@
 ---
 permalink: reasons-to-use-an-sql-database
 audit_date: '2021-06-17'
-title: 'Reasons to use an SQL database'
+title: 'Reasons to use a SQL database'
 type: article
 created_date: '2018-02-27'
 created_by: Satyakam Mishra
@@ -13,15 +13,15 @@ product_url: managed-operations
 
 Many businesses use both relational databases and non-relational databases.
 While NoSQL databases are gaining popularity due to their speed and
-scalability, highly structured SQL databases might be preferable in certain
+scalability, you might prefer highly structured SQL databases in certain
 cases.
 
 ### Prerequisite
 
 For an introduction to relational databases and NoSQL databases, see [Types of
-databases](/support/how-to/types-of-databases/)
+databases](/support/how-to/types-of-databases/).
 
-### Understand when a SQL database might be preferable
+### Understand when to choose a SQL database
 
 You might choose an SQL database for the following reasons:
 
@@ -31,8 +31,8 @@ You might choose an SQL database for the following reasons:
   interact with the database.
 
 - **Your data is structured and unchanging.** If your business isn’t experiencing
-  significant growth that would require additional servers and you’re only
-  working with data that is consistent, then an SQL database might be adequate.
+  significant growth that would require additional servers and you’re
+  working only with consistent data, then an SQL database might be adequate.
 
 ### Next step
 
