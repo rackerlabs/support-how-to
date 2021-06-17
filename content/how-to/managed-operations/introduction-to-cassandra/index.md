@@ -34,7 +34,7 @@ Using Cassandra provides the following advantages:
 - Cassandra uses a peer-to-peer distribution model that makes distributing
   data across multiple data centers and cloud availability zones easy.
 
-Cassandra uses a partitioner, or partitioning key,to determine how to distribute
+Cassandra uses a partitioner, or partitioning key, to determine how to distribute
 data across the nodes that make up a database cluster. A partitioner is a hashing
 mechanism that takes a primary key of a table row, computes a numerical token for
 it, and assigns it to one of the nodes in a cluster. While Cassandra has multiple
