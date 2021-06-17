@@ -30,32 +30,20 @@ for a list of all version articles.
 
 1. In Outlook 2016, click **File > Options**.
 
-   {{<image src="options2016.png" alt="" title="">}}
-
 2. In the Outlook Options window, click **Advanced**.
 
-   {{<image src="advanced2016.png" alt="" title="">}}
-
 3. In the Export section, click **Export**.
-
-   {{<image src="export2016.png" alt="" title="">}}
 
    The Import and Export wizard launches.
 
 4. In the Import and Export wizard, click **Export to a file** and then click **Next**.
 
-   {{<image src="export_to_file2016.png" alt="" title="">}}
-
 5. Click **Outlook Data File (.pst)** and then click **Next**.
-
-   {{<image src="outlook_data_file2016.png" alt="" title="">}}
 
 6. Select the folder that you want to export and then click **Next**.
 
    In this case, select the email address at the top of the folder list and
-   select the checkbox for **Include subfolders** to export all data.  
-
-   {{<image src="export_folder_list2016.png" alt="" title="">}}
+   select the checkbox for **Include subfolders** to export all data.
 
 7. Click **Browse** and then select the location where you want to save the
    **.pst** file.
@@ -68,8 +56,6 @@ for a list of all version articles.
 
    **Note:** If you see a prompt to enter an optional password, you
    can click **OK** to skip it.
-
-   {{<image src="browse_finish2016.png" alt="" title="">}}
 
 9. Click **Finish**.
 
