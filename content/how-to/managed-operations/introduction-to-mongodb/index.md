@@ -1,7 +1,7 @@
 ---
 permalink: introduction-to-mongodb
 audit_date: '2021-06-17'
-title: 'Introduction to MongoDB&reg;'
+title: 'Introduction to MongoDB'
 type: article
 created_date: '2018-02-27'
 created_by: Satyakam Mishra
@@ -11,7 +11,7 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-MongoDB&reg; is an open source NoSQL database. MongoDB stores data in JSON-like
+MongoDB&reg; is an open-source NoSQL database. MongoDB stores data in JSON-like
 documents that can vary in structure. Because MongoDB uses dynamic schemas,
 users can create records without defining the data structure first.
 
@@ -30,7 +30,7 @@ For an introduction to NoSQL databases, see the following articles:
 
 Many concepts in MongoDB have close analogies to concepts in relational
 databases such as Oracle Database&reg;. The following table compares the basic
-concepts.
+terminology and concepts:
 
 | MongoDB                        | Oracle Database |
 | ------------------------------ | --------------- |
@@ -56,13 +56,13 @@ Oracle Database:
 ### Query language
 
 Both MongoDB and Oracle Database have their own rich query language. However,
-there are some differences between them. In order to handle advanced queries,
-Oracle Database supports procedures and functions for manipulating the data
-that is returned from the SELECT statement. In contrast, MongoDB uses callback
+there are some differences between them. Oracle Database supports procedures
+and functions for manipulating the data returned from the SELECT statement
+to handle advanced queries. In contrast, MongoDB uses callback
 functions for advanced queries. The mongo shell uses the JavaScript
 programming language to run these functions.
 
-### Are MongoDB and Oracle Database used together?
+### Can you use MongoDB and Oracle Database together?
 
 Yes. There are many examples of hybrid deployments of MongoDB and Oracle
 Database, particularly among e-commerce applications. The flexible data model
@@ -77,8 +77,8 @@ This model gives Oracle Database integrity features that MongoDB doesn't
 offer, such as isolation, referential integrity, and revision control.
 
 In other cases, new business requirements push organizations to adopt MongoDB
-so that they can incorporate next-generation components into their
-applications. For example, both MongoDB and Oracle Database use conditional
+to incorporate next-generation components into their applications.
+For example, both MongoDB and Oracle Database use conditional
 entry updates, composite keys, Unicode characters, and full-text search.
 However, MongoDB also has a built-in map-reduce function for aggregating large
 amounts of data.
