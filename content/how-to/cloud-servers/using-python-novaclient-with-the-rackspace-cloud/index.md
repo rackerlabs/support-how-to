@@ -20,7 +20,7 @@ directly into the Application Programmer Interface (API).
 The following links provide installation instructions for Windows&reg;, macOS X&reg;, and Linux&reg;:
 
 -   [Install python-novaclient using pip](https://docs.openstack.org/mitaka/user-guide/common/cli_install_openstack_command_line_clients.html)
--   [Install python-novaclient on Linux and Mac OS X by using yum](/https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/10/html/command-line_interface_reference_guide/install_clients)
+-   [Install python-novaclient on Linux by using yum](https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/10/html/command-line_interface_reference_guide/install_clients)
 
 Find a list of common operations that you can perform with the
 client in [Useful python-novaclient commands](/support/how-to/useful-python-novaclient-commands).
