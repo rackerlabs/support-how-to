@@ -1,72 +1,52 @@
 ---
 permalink: synchronize-imap-folders-for-new-accounts-in-apple-mail
-audit_date: '2017-08-23'
+audit_date: '2021-06-17'
 title: Synchronize IMAP folders for new accounts in Apple Mail
 type: article
 created_date: '2017-08-23'
 created_by: William Loy
-last_modified_date: '2017-08-23'
-last_modified_by: William Loy
+last_modified_date: '2021-06-17'
+last_modified_by: Rose Morales
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article describes how to synchronize IMAP folders after you set up a new account in Apple Mail. Because Apple Mail does not automatically synchronize IMAP folders, you must complete this process manually through folder mapping. Instructions for several Apple Mail version are included; select the version that applies to you:
+This article describes how to synchronize IMAP folders after you set up a new
+account in Apple Mail. Because Apple Mail does not automatically synchronize
+IMAP folders, you must complete this process manually through folder mapping.
 
- - [Sierra](#map-imap-folders-in-sierra-apple-mail)
- - [El Capitan or Yosemite](#map-imap-folders-in-el-capitan-or-yosemite-apple-mail)
-
- 
- **Note:** These instructions are for setting up a new account. If you have been using your IMAP account in Apple Mail and are having folder synchronization issues, contact support.
+**Important:** If you have use your IMAP account in Apple Mail and have
+folder synchronization issues, contact support.
 
 ### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy
-- **Time needed:** Approximately 10 minutes
+- **Time needed:** 10 minutes
 - **Tools required:**  Access to Apple Mail IMAP account
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see
+[Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
 ### Map IMAP folders in Sierra Apple Mail
 
- 1. Within the **Mail** app, select **Mail** > **Preferences**.
+Perform teh following steps to mp IMAP folders:
 
-     {{<image src="preference-mapping-sierra.png" alt="" title="">}}
+1. Within the **Mail** app, select **Mail** > **Preferences**.
 
- 2. Select the **Accounts** tab at the top of the window, and then select your IMAP email account in the left pane.
- 
- 3. Select the **Mailbox Behaviors** tab.
+2. Select the **Accounts** tab at the top of the window and select your
+   IMAP email account in the left pane.
 
-     {{<image src="IMAP_MailboxBehaviors.png" alt="" title="">}}
+3. Select the **Mailbox Behaviors** tab.
 
- 4. Click the **Sent Mailbox** menu, and select the **Sent** folder that is listed under your email (*not* the folder listed under **On My Mac**).
+4. Click the **Sent Mailbox** menu and select the **Sent** folder
+   listed under your email (*not* the folder listed under **On My Mac**).
 
-     {{<image src="IMAP_SentFolderMapping.png" alt="" title="">}}
+5. Click the **Junk Mailbox** menu and select the **Spam** folder
+   listed under your email (*not* the folder listed under **On My Mac**).
 
- 5. Click the **Junk Mailbox** menu, and select the **Spam** folder that is listed under your email (*not* the folder listed under **On My Mac**).
+6. Click the **Trash Mailbox** menu and select the **Trash** folder
+   listed under your email (*not* the folder listed under **On My Mac**).
 
-     {{<image src="IMAP_SpamFolderMapping.png" alt="" title="">}}
-
- 6. Click the **Trash Mailbox** menu, and select the **Trash** folder that is listed under your email (*not* the folder listed under **On My Mac**).
-
-     {{<image src="IMAP_TrashFolderMapping.png" alt="" title="">}}
-
-
- 7. Test the functionality of each of these folders to ensure that the mapping was successful.  
-
-### Map IMAP folders in El Capitan or Yosemite Apple Mail
-
- 1. Close all windows so that only your mailbox's Inbox is open and visible.
- 
- 2. Under your email account, click on the **Sent** folder  (*not* the **Sent** folder with the paper airplane icon).
-
-    {{<image src="el_capitan_yosemite_MailboxFolderList.png" alt="" title="">}}
-
- 3. From the **Mailbox** menu, select **Use This Mailbox As** > **Sent Mailbox**.
-
-    {{<image src="el_capitan_yosemite_FolderMapping_Sent.png" alt="" title="">}}
-
- 4. Repeat steps 2 & 3 for the **Junk/Spam** and **Trash** folders.
-
- 5. Test the functionality of each of these folders to ensure that the mapping was successful.  
+7. Test the functionality of each of these folders to ensure that the mapping
+   was successful.
