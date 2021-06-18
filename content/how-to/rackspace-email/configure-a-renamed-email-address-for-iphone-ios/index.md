@@ -61,7 +61,7 @@ in the **Configure IMAP folder sync settings** section after completing the foll
      - **User Name:** Your renamed Rackspace Email address
      - **Password:** Your mailbox password
 
-      {{<image src="imap-serversettings.png" title="" alt="">}}
+    {{<image src="imap-serversettings.png" title="" alt="">}}
 
     **Warning:** Before you enter any information, the outgoing server fields
     display *Optional*. Do *not* skip this step. For your outgoing email to
