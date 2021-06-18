@@ -25,31 +25,32 @@ For more information about prerequisite terminology, see
 
 ### Check mailbox storage in the Cloud Office Control Panel
 
-1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) using
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using
    your Rackspace Cloud Office admin ID and password.
 2. In the **Rackspace Email** section, click **Mailboxes**.
-3. If you have more that one domain, select the domain for which you want to
+3. If you have more than one domain, select the domain for which you want to
    check storage.
-4. The fourth column in the mailbox list labeled **Usage** shows the amount of
+4. The fourth column in the mailbox list, **Usage**, shows the amount of
    free space each user has.
 
-   The **Usage** column is not a real time reading of the mailbox storage.
+   The **Usage** column is not a real-time reading of the mailbox storage.
    **Usage** updates once every 24 hours. Always reference the storage in
-   [apps.rackspace.com](https://apps.rackspace.com/index.php) for real time
+   [apps.rackspace.com](https://apps.rackspace.com/index.php) for real-time
    storage.
 
-**Warning:** Never allow a mailbox to reach full capacity as any message sent to
-that mailbox after will bounce. Rejected messages will *not* arrive after adding
-more space, messages sent *after* will.
+**Warning:** Never allow a mailbox to reach full capacity because any messages sent to
+the mailbox bouncing after that. The system does not send previously undelivered messages
+after you add more space, but it does deliver new messages sent after you add space as usual.
 
 ### Enable storage notifications
 
-1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) using
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using
    your Rackspace Cloud Office admin ID and password.
 2. In the **Rackspace Email** section, click **Mailboxes**.
 3. If you have more than one domain, select the domain for which you want to
    enable storage notifications.
-4. Click **Settings** from the sub-ribbon under **Email Accounts**
+4. Click **Settings** from the sub-ribbon under **Email Accounts**, as
+   shown in the following images:
 
    {{<image src="RSEstorageNotificationsSC1.png" alt="" title="">}}
 
@@ -68,7 +69,7 @@ more space, messages sent *after* will.
 ### Check mailbox storage in webmail
 
 1. Log in to [apps.rackspace.com](https://apps.rackspace.com/index.php).
-2. Click your username in the upper-right hand corner. The dropdown menu
+2. Click your username in the upper right-hand corner. The drop-down menu
    displays the current mailbox storage.
 
    {{<image src="RSEstorageWebmailSC1.png" alt="" title="">}}
@@ -82,34 +83,39 @@ for your storage available on the server.
 Notify users near capacity and counsel them on archiving items to free up
 mailbox storage. 
 
-Rackspace Email Archiving ensures that email traffic to and from your domain is
-archived. For more information, see
+Rackspace Email Archiving archives email traffic to and from your domain.
+For more information, see
 [Enable email archiving: Cloud Office Control Panel](/support/how-to/enable-email-archiving-cloud-office-control-panel/).
 
-Deleting emails frees up mailbox storage, however if a user deletes an excessive
-number of emails, it takes longer to process the deletion. Allow ample time for
-deletion to be reflected in the mailbox storage capacity.
+Deleting emails frees up mailbox storage. However, it takes longer to
+process the deletion if a user deletes an excessive number of emails.
+Allow ample time for the system to reflect the deletion in the mailbox
+storage capacity.
 
-Email in the **Trash** folder *does* count toward mailbox storage capacity.
-Follow these steps to ensure a deleted message is not counting toward your
-mailbox storage:
+Email in the **Trash** folder counts toward mailbox storage capacity.
+Follow these steps to ensure the system does not count a deleted message
+toward your mailbox storage:
 
 1. Move an unwanted message to **Trash**.
 2. Delete the message from the **Trash** folder.
 
 The message no longer counts toward the mailbox storage. If you need to recover
-a message that you deleted from trash, see
+a message you deleted from **Trash**, see
 [Recover deleted email in Webmail](/support/how-to/recover-deleted-email-in-webmail/).
 
-**Warning:** Messages purged from the **Trash** folder can be recovered for up
-to 14 days after deletion. After 14 days this is not possible.
+**Warning:** You can recover messages purged from the **Trash** folder for up
+to 14 days after deletion. After 14 days, you can no longer recover the messages.
 
 ### Mailbox storage best practices
+   
+Keep the following best practices in mind:
 
 - Enable [Rackspace Email Archiving](/support/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains.
-- Rackspace Email storage is maxed at 25GB. Consider upgrading to [Microsoft Exchange](https://www.rackspace.com/email-hosting/hosted-exchange) or [Office 365](https://www.rackspace.com/office-365) for higher storage limits.
+- Rackspace Email storage maxes at 25GB. Consider upgrading to
+  [Microsoft Exchange](https://www.rackspace.com/email-hosting/hosted-exchange) or
+  [Office 365](https://www.rackspace.com/office-365) for higher storage limits.
 - Never store over 10,000 items in one folder.
-- You should not exceed more than 3 levels of subfolders.
+- You should not exceed more than three levels of subfolders.
 
    Example folder structure:
 
@@ -122,6 +128,6 @@ to 14 days after deletion. After 14 days this is not possible.
 
 - Consider removing items from your **Spam** or **Trash** folders.
 - If you archive or delete messages on your
-[local mail client](/support/how-to/cloud-office-support-terminology/#cloud-office-terminology),
+  [local mail client](/support/how-to/cloud-office-support-terminology/#cloud-office-terminology),
   log in to [apps.rackspace.com](https://apps.rackspace.com/index.php) to ensure
-  that those changes are reflected in webmail.
+  that those changes reflect in webmail.
