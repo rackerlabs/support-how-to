@@ -15,8 +15,8 @@ This article describes how to synchronize IMAP folders after you set up a new
 account in Apple Mail. Because Apple Mail does not automatically synchronize
 IMAP folders, you must complete this process manually through folder mapping.
 
-**Important:** If you have been using your IMAP account in Apple Mail and are
- having folder synchronization issues, contact support.
+**Important:** If you have use your IMAP account in Apple Mail and have
+folder synchronization issues, contact support.
 
 ### Prerequisites
 
@@ -30,21 +30,23 @@ For more information about prerequisite terminology, see
 
 ### Map IMAP folders in Sierra Apple Mail
 
- 1. Within the **Mail** app, select **Mail** > **Preferences**.
+Perform teh following steps to mp IMAP folders:
 
- 2. Select the **Accounts** tab at the top of the window, and then select your
-    IMAP email account in the left pane.
+1. Within the **Mail** app, select **Mail** > **Preferences**.
 
- 3. Select the **Mailbox Behaviors** tab.
+2. Select the **Accounts** tab at the top of the window and select your
+   IMAP email account in the left pane.
 
- 4. Click the **Sent Mailbox** menu, and select the **Sent** folder that is
-    listed under your email (*not* the folder listed under **On My Mac**).
+3. Select the **Mailbox Behaviors** tab.
 
- 5. Click the **Junk Mailbox** menu, and select the **Spam** folder that is
-    listed under your email (*not* the folder listed under **On My Mac**).
+4. Click the **Sent Mailbox** menu and select the **Sent** folder
+   listed under your email (*not* the folder listed under **On My Mac**).
 
- 6. Click the **Trash Mailbox** menu, and select the **Trash** folder that is
-    listed under your email (*not* the folder listed under **On My Mac**).
+5. Click the **Junk Mailbox** menu and select the **Spam** folder
+   listed under your email (*not* the folder listed under **On My Mac**).
 
- 7. Test the functionality of each of these folders to ensure that the mapping
-    was successful.
+6. Click the **Trash Mailbox** menu and select the **Trash** folder
+   listed under your email (*not* the folder listed under **On My Mac**).
+
+7. Test the functionality of each of these folders to ensure that the mapping
+   was successful.
