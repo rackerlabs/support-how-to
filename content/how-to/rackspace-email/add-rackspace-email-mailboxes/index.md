@@ -11,10 +11,10 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-You can add a single mailbox to your Rackspace Email account or you can add
-multiple mailboxes by using a CSV or Microsoft Excel file.
+You can add a single mailbox to your Rackspace Email account, or you can add
+multiple mailboxes by using a CSV or Microsoft&reg; Excel&reg; file.
 
-If you need to add a Microsoft Exchange mailbox see
+If you need to add a Microsoft Exchange&reg; mailbox, see
 [Add Microsoft Exchange mailboxes](/support/how-to/adding-microsoft-exchange-mailboxes/).
 
 ### Prerequisites
@@ -30,13 +30,13 @@ For more information about prerequisite terminology, see
 
 ### Add a single mailbox
 
-1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) using
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using
    your Rackspace Cloud Office admin ID and password.
-2. In the Rackspace Email section, click Mailboxes.
+2. In the **Rackspace Email** section, click **Mailboxes**.
 
    {{<image src="CP - RSE Mailboxes.png" alt="" title="">}}
 
-3. If you haver more than one domain, select the domain to which you want to add
+3. If you have more than one domain, select the domain to which you want to add
    a mailbox.
 4. Click **Add Mailbox**.
 
@@ -48,18 +48,17 @@ For more information about prerequisite terminology, see
 
 5. Enter the following information in the fields provided:
 
-    - **First Name and Last Name** (optional): Enter first and last name
-      information for the mailbox owner.
+    - **First Name and Last Name** (optional): Enter the the mailbox owner's
+      first and last name.
     - **Display Name** (optional): Enter the name to display when the user sends
       email.
-    - **User Name:** Enter the name to use in the email address. For example, if
-      you specify **myname** as the username, and the domain is
-      **yourdomainexample.com**, then the email address is
-      **myname@yourdomainexample.com**. **Note:** You are not able to create a
+    - **User Name:** Enter the name to use in the email address. For example, for
+      a username and domain of **myname** and **yourdomainexample.com**, the email
+      address is **myname@yourdomainexample.com**. **Note:** You are cannot create a
       username that already exists as an alias, group list, distribution list,
       or as another mailbox. You must remove the conflicting address from your
       account before using the same username for another purpose.
-    - **Password:** Enter a password for the email account using the following
+    - **Password:** Enter a password for the email account with the following
       requirements:
         - It must be at least eight characters.
         - It must use characters from at least three of the following four
@@ -72,14 +71,13 @@ For more information about prerequisite terminology, see
 
 6. Click **Save**.
 
-   **Note:** After a mailbox creation in the Cloud Office Control Panel, it can
-   take up to 15 minutes for the mailbox to become accessible. You can then log
-   in to the mailbox at
-   [apps.rackspace.com](https://apps.rackspace.com/index.php).
+   **Note:** Mailbox creation in the Cloud Office Control Panel can
+   take up to 15 minutes. After the mailbox is available, you can log
+   in to the mailbox at [apps.rackspace.com](https://apps.rackspace.com/index.php).
 
-The mailbox appears in the mailboxes list. To manage mailbox such as forwarding,
+The mailbox appears in the mailboxes list. To manage mailbox options such as forwarding,
 autoreply, aliases, or settings, click the mailbox name and then click the
-corresponding tab on the details page.
+corresponding tab on the **Details** page.
 
 ### Add mailbox
 
@@ -90,8 +88,6 @@ processed sequentially.
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) using
    your Rackspace Cloud Office admin ID and password.
 2. In the Rackspace Email section, click **Mailboxes**.
-
-    {{<image src="add-mailbox-sc1.png" alt="" title="">}}
 
 3. If you have multiple domains, select the domain to which you want to add a
    mailbox.
