@@ -52,7 +52,7 @@ our Webmail interface.
 
 ### Notes
 
-Rackspace Email provides the ability to create notes, and sync them with your mobile device and
+Rackspace Email provides the ability to create notes and sync them with your mobile device and
 with Rackspace Email Plus.
 
 ### Password recovery
@@ -70,8 +70,8 @@ webmail interface, click the menu beside your email address in the top-right cor
 
 #### General Settings
 
-In the **General Settings** section, you can manage email options, your calendar,
-your preferred language, and the date and time settings.
+In the **General Settings** section, you can manage email, calendar,
+preferred language, and date and time settings.
 
 {{<image src="general_settings.png" alt="" title="">}}
 
@@ -136,8 +136,8 @@ In the **Spam Settings** section, you can manage settings for spam preferences, 
 
 ##### Preferences
 
-- **Spam Filtering** turns your spam filtering on and off, or have it be exclusive.
-- **Spam Handling** specifies how you would like your spam email to be handled.
+- **Spam Filtering** turns your spam filtering on and off or sets it as exclusive.
+- **Spam Handling** specifies how you want to handle your spam email.
 
 ##### Safelist and Blocklist
 
