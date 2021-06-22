@@ -81,13 +81,12 @@ corresponding tab on the **Details** page.
 
 ### Add mailbox
 
-**Warning:** When you add more than one mailbox, the time needed for the new
-mailboxes to become accessible is longer because mailbox additions are
-processed sequentially.
+**Warning:** When you add more than one mailbox, the new mailboxes take lnger to become
+accessible because the system processes mailbox additions sequentially.
 
-1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) using
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using
    your Rackspace Cloud Office admin ID and password.
-2. In the Rackspace Email section, click **Mailboxes**.
+2. In the **Rackspace Email** section, click **Mailboxes**.
 
 3. If you have multiple domains, select the domain to which you want to add a
    mailbox.
@@ -101,7 +100,7 @@ processed sequentially.
     instructions.
 
 5. Create a CSV or Excel file(XLS) that contains the information detailed in the
-   **Data Format** section of the Import Mailboxes page. You can download a
+   **Data Format** section of the **Import Mailboxes** page. You can download a
    template from that section to help you create a file with the correct format.
 
    The **Username**, **Password**, and **Enabled** fields are mandatory for all
@@ -120,12 +119,12 @@ processed sequentially.
         conflicting address from your account before using the same username for
         another purpose.
 
-6. In the **Import File** section of Import Mailboxes page, click **Browse** or
+6. In the **Import File** section of the **Import Mailboxes** page, click **Browse** or
    **Choose File**.
 7. Locate and select the CSV or Excel file that you created.
 8. Click **Open** and then click **Import**.
 
-After creation the mailboxes appear in the mailboxes list. Any errors that occur
+After creation, the mailboxes appear in the mailboxes list. Any errors that occur
 display in the import log. Make corrections as detailed in the import log and
 import again.
 
@@ -138,7 +137,7 @@ necessary licenses to your account before you can add a mailbox.
 
     {{<image src="add-rse-license-sc1.png" alt="" title="">}}
 
-2. Under **Rackspace Email Mailboxes**, add the number of mailboxes that you
+2. Under **Rackspace Email Mailboxes**, add the number of mailboxes you
    want to make available to your account.
 
     {{<image src="add-rse-license-sc2.png" alt="" title="">}}
