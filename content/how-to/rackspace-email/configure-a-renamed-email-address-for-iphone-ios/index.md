@@ -61,8 +61,6 @@ in the **Configure IMAP folder sync settings** section after completing the foll
      - **User Name:** Your renamed Rackspace Email address
      - **Password:** Your mailbox password
 
-      {{<image src="imap-serversettings.png" title="" alt="">}}
-
     **Warning:** Before you enter any information, the outgoing server fields
     display *Optional*. Do *not* skip this step. For your outgoing email to
     function, you must enter the outgoing server information.
@@ -81,13 +79,7 @@ Contacts and Calendar items to your mobile device, consider upgrading to
 2. Under **IMAP**, tap **Account**.
 3. In the account settings, tap **Advanced**.
 4. Under **MAILBOX BEHAVIORS**, tap **Sent Mailbox**.
-
-    {{<image src="mapping-folderlist.png" title="" alt="">}}
-
 5. Under **ON THE SERVER**, tap the **Sent** folder.
-
-   {{<image src="mapping-ontheserver.png" title="" alt="">}}
-
 6. Repeat steps 4 and 5 for **Deleted Mailbox**.
 
    You do not have to repeat the steps for the **Archive Mailbox** because you
