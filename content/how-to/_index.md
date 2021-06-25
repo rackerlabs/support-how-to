@@ -60,6 +60,17 @@ permalink: /support/how-to/
   </div>
   <div class="container">
     <div class="content home product-type product-type-cloud inactive" id="cloud-display">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>Rackspace Managed Services for AWS</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-4">
+        <h4><a href="/support/how-to/aws-marketplace/"><span>Rackspace Services for</span> Amazon Web Services</a></h4>
+      </div>
+    </div>
+    <hr />
       <div class="row">
         <div class="col-sm-12">
           <h3>Rackspace Managed Security</h3>
