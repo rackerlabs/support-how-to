@@ -1,18 +1,18 @@
 ---
 permalink: secure-configuration-baseline/
-audit_date: '2021-06-04'
+audit_date: '2021-06-25'
 title: Rackspace Government Cloud Secure Configuration Baseline
 type: article
-created_date: '2021-06-04'
+created_date: '2021-06-25'
 created_by: Stephanie Fillmon
-last_modified_date: '2021-06-04'
+last_modified_date: '2021-06-25'
 last_modified_by: Stephanie Fillmon
 product: AWS Marketplace
 product_url: aws-marketplace
 ---
 
-In the Amazon Web Services&reg; (AWS) Marketplace, you can subscribe to the
-Rackspace Government Cloud Secure Configuration Baseline as an Amazon
+In the Amazon&reg; Web Services&reg; (AWS) Marketplace, you can subscribe to
+the Rackspace Government Cloud Secure Configuration Baseline as an Amazon
 Machine Image (AMI). The Secure Configuration Baseline is designed to support
 government cloud workloads. The Red Hat&reg; Enterprise Linux&reg; (RHEL) 7.9
 operating system is hardened to a Secure Configuration Baseline and Rackspace
