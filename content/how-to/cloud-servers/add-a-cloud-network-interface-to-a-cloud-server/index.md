@@ -11,9 +11,13 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article shows you how to use the Cloud Servers Application Program Interface (API) and the `rackspace-novaclient` (`nova`) to add a cloud network to a cloud server.  
+This article shows you how to use the Cloud Servers Application Program 
+Interface (API) and the `rackspace-novaclient` (`nova`) to add a cloud 
+network to a cloud server.  
 
-Use the following steps to install `nova` and the Cloud Networks extension on Mac&reg; OS X&reg; and use `nova` to add a virtual interface to a running cloud server that connects to your cloud network. 
+Use the following steps to install `nova` and the Cloud Networks extension 
+on Mac&reg; OS X&reg; and use `nova` to add a virtual interface to a running 
+cloud server that connects to your cloud network. 
 
 **Note:** `nova` is also available for Linux&reg; and Windows&reg;.
 
@@ -21,7 +25,7 @@ Use the following steps to install `nova` and the Cloud Networks extension on Ma
 
        $ sudo easy_install pip
        
-2. Install `nova` and the Cloud Networks virtual interface extension by running the following commands on the command line:
+2. Install `nova` and the Cloud Networks virtual interface extension by  running the following commands on the command line:
 
        $ sudo pip install rackspace-novaclient
        $ sudo pip install os_virtual_interfacesv2_python_novaclient_ext
@@ -38,7 +42,7 @@ Use the following steps to install `nova` and the Cloud Networks extension on Ma
        $ export OS_PROJECT_ID=<account_#>
        $ export OS_NO_CACHE=1
 
- 4. Load the environment variables by running the following command:
+4. Load the environment variables by running the following command:
 
         $ source .profile
 
@@ -69,4 +73,3 @@ You might find the following additional resources helpful:
 
 - [Install CLI client and Cloud Servers Virtual Interface
   extension](https://docs.rackspace.com/docs/cloud-servers/v2/getting-started/send-request-ovw/#id2)
-- [Install python-novaclient on Windows](/support/how-to/installing-python-novaclient-on-windows/)
