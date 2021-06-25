@@ -1,5 +1,6 @@
 # Redirects
 
+<<<<<<< HEAD
 /support/how-to/using-ssl-with-your-cloud-database-instance/  /how-to/use-ssl-with-your-cloud-database-instance/  404
 /how-to/use-ssl-with-your-cloud-database-instance/  /support/how-to/use-ssl-with-your-cloud-database-instance/  301
 /support/how-to/getting-started-with-apache-hadoop-on-rackspace-cloud/  /how-to/article-retired/ 404
@@ -9,6 +10,10 @@
 /how-to/stream-simple-flash-files-from-cloud-files/  /support/how-to/stream-simple-flash-files-from-cloud-files/  301
 /support/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console/  /how-to/rackspace-cloud-essentials-check-the-ssh-host-fingerprint-of-a-server-with-the-web-console/  404
 /how-to/rackspace-cloud-essentials-check-the-ssh-host-fingerprint-of-a-server-with-the-web-console/  /support/how-to/rackspace-cloud-essentials-check-the-ssh-host-fingerprint-of-a-server-with-the-web-console/  301
+=======
+/support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/ /how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/ 404
+/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/ /support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/ 301
+>>>>>>> d560b5b9ab0c625a146416c8ef4509d6d70aa052
 /support/how-to/myrackspace-multi-factor-authentication/ /how-to/multifactor-authentication-from-the-myrackspace-portal/ 404
 /how-to/multifactor-authentication-from-the-myrackspace-portal/ /support/how-to/multifactor-authentication-from-the-myrackspace-portal/ 301
 /support/how-to/cloud-servers/what-happens-if-i-do-not-supply-a-vat-id-number/ /how-to/account-management/account-management-faq/ 404

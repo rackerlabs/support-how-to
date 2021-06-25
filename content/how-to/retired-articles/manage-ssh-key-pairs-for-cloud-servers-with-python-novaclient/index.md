@@ -5,10 +5,15 @@ title: Manage SSH Key Pairs for cloud servers with python-novaclient
 type: article
 created_date: '2014-01-29'
 created_by: Trey Hoehne
+<<<<<<< HEAD:content/how-to/cloud-servers/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/index.md
 last_modified_date: '2021-06-28'
 last_modified_by: Ana Corpus
 product: Cloud Servers
 product_url: cloud-servers
+=======
+last_modified_date: '2019-08-07'
+last_modified_by: Cat Lookabaugh
+>>>>>>> d560b5b9ab0c625a146416c8ef4509d6d70aa052:content/how-to/retired-articles/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/index.md
 ---
 
 The SSH protocol for remotely connecting to servers supports the use of key
