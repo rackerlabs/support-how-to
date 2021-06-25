@@ -56,7 +56,7 @@ Amazon Machine Image (AMI).
     This ensures that the `ec2-user` doesn't expire until you explicitly set it
     to do so.
 
-    {{<image src="advanced-details.png alt="" title="">}}
+    {{<image src="advanced-details.png" alt="" title="">}}
 
 12. Click **Add Storage** and add the appropriate amount of Elastic Block
     Store (EBS) storage volumes
