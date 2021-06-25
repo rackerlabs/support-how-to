@@ -1,12 +1,14 @@
 ---
 permalink: manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient
-audit_date:
+audit_date: '2021-06-28'
 title: Manage SSH Key Pairs for cloud servers with python-novaclient
 type: article
 created_date: '2014-01-29'
 created_by: Trey Hoehne
-last_modified_date: '2019-08-07'
+last_modified_date: '2021-06-28'
 last_modified_by: Cat Lookabaugh
+product: Cloud Servers
+product_url: cloud-servers
 ---
 
 The SSH protocol for remotely connecting to servers supports the use of key
@@ -32,27 +34,25 @@ generate a key pair and assign its public key to a Linux server when the server
 is created.
 
 You can also manage key pairs directly by using the
-[Cloud Servers API](https://docs.rackspace.com/docs/cloud-servers/v2/developer-guide/#create-a-server-key-pair).
+[Cloud Servers API](https://docs.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations#create-a-server-key-pair).
 
-### Prepare python-novaclient
+### Prerequirsites
 
-The instructions in this article assume that the python-nova client is installed
-and configured for use with cloud servers. You can find detailed instructions
-for setting up the client in
+You have installed **python-nova client** in the client computer. You can find detailed instructions to configure the client in
 [Using python-novaclient with the Rackspace Cloud](/support/how-to/using-python-novaclient-with-the-rackspace-cloud).
 
 ### Create a key pair
 
-The python-nova client's key pair support allows you to create or upload an
-existing key pair and associate it with a name you can then reference in build
-operations.
+The **keypair** command in **python-novaclient** creates or uploads an
+existing key-pair and associates it with a name that you can then reference 
+in build operations.
 
-You can create a new key pair by using the `keypair-add` command for `nova` by
-passing a name for the key pair as an argument. The public key is then stored
+You can create a new key-pair by using the `keypair-add` command for `nova` by
+passing a name for the key-pair as an argument. The public key is then stored
 in your user profile via the API. The output of the command is the private key.
 
-For example, to create a key pair named `mykey` and output it to a file in the
-current user's **.ssh** directory, you can run the following command:
+For example, to create a key pair named `mykey` and output it to a file in 
+the **.ssh** directory of the current user, you can run the following command:
 
     nova keypair-add mykey > ~/.ssh/webserver_rsa
 
@@ -110,8 +110,9 @@ server.
 After a server is created with a key pair is up and running, you can log in by
 using that key pair.
 
-On Linux and macOS, you can add your private key to your user account's **.ssh**
-directory, then name your server in the **~/.ssh/config** file:
+On Linux and macOS, you can add your private key the **.ssh**
+directory of your user account, then name your server in the 
+**~/.ssh/config** file:
 
     Host myservername
     User myuser
@@ -128,3 +129,5 @@ connection.  For example:
 Key pairs are stored for users and not for accounts. A user configured on an
 account cannot see or manipulate the keys of other users on the account,
 regardless of the role assigned to that user.
+
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
