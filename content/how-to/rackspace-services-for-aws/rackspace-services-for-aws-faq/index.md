@@ -1,7 +1,7 @@
 ---
-permalink: aws-marketplace-faq/
+permalink: rackspace-services-for-aws-faq/
 audit_date: '2021-06-25'
-title: 'Amazon Web Services Marketplace FAQ'
+title: 'Rackspace Services for AWS FAQ'
 type: article
 created_date: '2021-06-25'
 created_by: Stephanie Fillmon
