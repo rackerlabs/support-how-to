@@ -1,14 +1,14 @@
 ---
-permalink: aws-marketplace/
+permalink: rackspace-services-for-aws/
 audit_date: '2021-06-25'
-title: Amazon Web Services Marketplace
+title: Rackspace services for Amazon Web Services
 type: product
 created_date: '2021-06-25'
 created_by: Stephanie Fillmon
 last_modified_date: '2021-06-04'
 last_modified_by: Stephanie Fillmon
-product: AWS Marketplace
-product_url: aws-marketplace
+product: Rackspace Services for AWS
+product_url: rackspace-services-aws
 ---
 
 Rackspace Technology has a number of offerings for Amazon&reg; Web

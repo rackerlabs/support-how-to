@@ -6,8 +6,8 @@ type: article
 created_date: '2021-06-25'
 created_by: Stephanie Fillmon
 last_modified_by: Stephanie Fillmon
-product: AWS Marketplace
-product_url: aws-marketplace
+product: Rackspace Services for AWS
+product_url: rackspace-services-aws
 ---
 
 This article describes how to launch the Secure Configuration Baseline
