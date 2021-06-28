@@ -20,14 +20,15 @@ You can find the Rackspace Technology service offerings in the
 
 We currently have one Amazon Machine Image,
 [Rackspace Government Cloud Secure Configuration Baseline (RHEL7)](https://aws.amazon.com/marketplace/pp/prodview-pplvdfmwhfqvc).
-
+{{</accordion>}}
 {{< accordion title="How much does the Rackspace Government Cloud AMI cost?" col="in" href="accordion23" >}}
 
 You can see pricing information in the
 [AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-pplvdfmwhfqvc).
-
+{{</accordion>}}
 {{< accordion title="How do I launch an instance with the Rackspace Government Cloud AMI?" col="in" href="accordion23" >}}
 
 See the
 [Secure Configuration Baseline launch instructions](/support/how-to/secure-configuration-baseline-launch-instructions/)
 article for instructions to use the Rackspace Government Cloud AMI.
+{{</accordion>}}
