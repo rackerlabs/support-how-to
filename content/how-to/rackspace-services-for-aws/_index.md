@@ -8,7 +8,7 @@ created_by: Stephanie Fillmon
 last_modified_date: '2021-06-04'
 last_modified_by: Stephanie Fillmon
 product: Rackspace Services for AWS
-product_url: rackspace-services-aws
+product_url: rackspace-services-for-aws
 ---
 
 Rackspace Technology has a number of offerings for Amazon&reg; Web
@@ -20,5 +20,5 @@ including an Amazon Machine Image (AMI):
 For more information about the Rackspace Technology AMI, see the following
 articles:
 
-- [Rackspace Government Cloud Secure Configuration Baseline](/support/how-to/secure-configuration-baseline/)
+- [Rackspace Government Cloud Secure Configuration Baseline](/support/how-to/rackspace-government-cloud-secure-configuration-baseline/)
 - [Secure Configuration Baseline launch instructions](/support/how-to/secure-configuration-baseline-launch-instructions/)

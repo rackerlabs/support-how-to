@@ -1,5 +1,5 @@
 ---
-permalink: secure-configuration-baseline/
+permalink: rackspace-government-cloud-secure-configuration-baseline/
 audit_date: '2021-06-25'
 title: Rackspace Government Cloud Secure Configuration Baseline
 type: article
@@ -8,7 +8,7 @@ created_by: Stephanie Fillmon
 last_modified_date: '2021-06-25'
 last_modified_by: Stephanie Fillmon
 product: Rackspace Services for AWS
-product_url: rackspace-services-aws
+product_url: rackspace-services-for-aws
 ---
 
 In the Amazon&reg; Web Services&reg; (AWS) Marketplace, you can subscribe to
@@ -52,4 +52,4 @@ The Secure Configuration Baseline AMI includes the following specifications:
 
 ### Related articles
 
-- [Secure Configuration Baseline Launch instructions](/support/how-to/aws-marketplace-secure-configuration-baseline-launch-instructions)
+- [Secure Configuration Baseline Launch instructions](/support/how-to/secure-configuration-baseline-launch-instructions/)
