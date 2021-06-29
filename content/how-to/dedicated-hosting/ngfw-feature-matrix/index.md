@@ -1,12 +1,12 @@
 ---
 permalink: ngfw-feature-matrix
-audit_date: '2020-03-12'
+audit_date: '2021-06-11'
 title: NGFW Feature Matrix
 type: article
 created_date: '2020-03-12'
 created_by: Chad Sterling
-last_modified_date: '2020-11-30'
-last_modified_by: Chad Sterling
+last_modified_date: '2021-06-11'
+last_modified_by: Rose Morales
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
@@ -117,7 +117,7 @@ product_url: dedicated-hosting
   <tr>
     <td><b>RackConnect</b></td>
     <td style="background-color: green;color:white;"><b>Version 3 Only</b></td>
-    <td style="background-color: yellow;color:black;"><b>Limited with no automation</b></td>
+    <td style="background-color: red;color:white;">Unsupported Feature</td>
     <td><b>RackConnect</b></td>
   </tr>
 </table>

@@ -5,7 +5,7 @@ title: Windows Spheres of Support for Dedicated and Managed Operations
 type: article
 created_date: '2018-08-02'
 created_by: JP gonzalez
-last_modified_date: '2018-10-31'
+last_modified_date: '2021-06-16'
 last_modified_by: Nick Kidd
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -117,6 +117,7 @@ The following types of database servers are supported in the indicated areas:
 | MSSQL 2014    |                     |                     | Yes                 | Yes                    | Yes          |              |
 | MSSQL 2016    |                     |                     |                     | Yes                    | Yes          |              |
 | MSSQL 2017    |                     |                     |                     |                        | Yes          | Yes          |
+| MSSQL 2019    |                     |                     |                     |                        | Yes          | Yes          |
 
 
 ## Supported platforms for Microsoft SQL editions
