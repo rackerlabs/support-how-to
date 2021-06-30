@@ -7,7 +7,7 @@ created_date: '2021-05-08'
 created_by: Jorge Mijangos
 last_modified_date: '2021-05-10'
 last_modified_by: Jorge Mijangos
-product: cloud-servers
+product: Cloud Servers
 product_url: cloud-servers
 ---
 
