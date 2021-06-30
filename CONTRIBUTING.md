@@ -23,9 +23,13 @@ to contribute. If you have questions, contact us at [how-to@rackspace.com](mailt
 This file describes the general process for maintaining source code for content
 published at [https://docs.rackspace.com/support/how-to/](https://docs.rackspace.com/support/how-to/).
 
-See [Treat Documentation Like Code](https://www.youtube.com/watch?v=haFooDkKr-A&feature=youtu.be)
-for a brief video overview of how to edit articles on the How-To support network.
-If you are a Racker, search MyLearn for the Treat Docs Like Code course.
+We have two short video tutorials that provide an overview for contributing new How-To articles and 
+editing existing articles:
+
+- [Treat Documentation Like Code-Contribute new content](https://www.youtube.com/watch?v=OrxozkL_0JQ)
+- [Treat Documentation Like Code-Update existing comntent](https://www.youtube.com/watch?v=sJjsNnB-d7Y)
+
+If you are a Racker, search the Rackspace University for the Treat Docs Like Code courses.
 
 **Note**: If you already have a GitHub account, you can quickly edit an existing
 article by clicking on the **Edit This Article** button on the left-hand side of
