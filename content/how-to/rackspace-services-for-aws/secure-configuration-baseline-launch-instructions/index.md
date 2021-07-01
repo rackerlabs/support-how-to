@@ -27,11 +27,11 @@ Amazon Machine Image (AMI).
 
 4. In the **Compute** section, select **EC2**.
 
-5. Scroll down to the **Launch instance** section and click **Launch Instance**
-   and then **Launch Instance** in the dropdown menu.
+5. Scroll down to the **Launch instance** section and click **Launch Instance**.
+   Then click **Launch Instance** in the drop-down menu.
 
-6. In the search bar type "Rackspace Government Cloud Secure Configuration
-   Baseline (RHEL7)".
+6. In the search bar, type `Rackspace Government Cloud Secure Configuration
+   Baseline (RHEL7)`.
 
 7. In the left sidebar, click **AWS Marketplace** and then click **Select**
    next to the **Rackspace Government Cloud Secure Configuration Baseline
@@ -48,7 +48,7 @@ Amazon Machine Image (AMI).
     {{<image src="instance-details.png" alt="" title="">}}
 
 11. In the **Advanced Details** section, locate the **User data** setting and
-    ensure that the **As text** option is selected. Then enter the following
+    ensure that you select the **As text** option. Then enter the following
     line of code in the text box:
 
         sudo chage -M -1 -E -1 ec2-user
@@ -63,7 +63,7 @@ Amazon Machine Image (AMI).
     or instance store volumes. You can also edit the settings of the root
     volume.
 
-    **Note**: You can add EBS volumes after launching the instance, but not
+    **Note**: You can add EBS volumes after launching the instance but not
     instance store volumes.
 
 13. Click **Add Tags** and add any appropriate tags for your instance. For more
@@ -71,8 +71,8 @@ Amazon Machine Image (AMI).
     [Tag your Amazon EC2 resources](https://docs.aws.amazon.com/console/ec2/tags).
 
 14. Click **Configure Security Group**. If there are no security groups listed,
-    create a new one by ensuring that the **Create a new security group**
-    option is selected.
+    create a new one by ensuring that you select the **Create a new security group**
+    option.
 
     You can leave the default text for **Security group name** and the
     **Description**.
@@ -93,20 +93,19 @@ Amazon Machine Image (AMI).
     a current one, you must have that key located on your system to access the
     new instance.
 
-    Proceeding without a key prevents your from accessing the server through
-    SSH.
+    Proceeding without a key prevents you from accessing the server through
+    Secure Shell (SSH).
 
     After selecting your key settings, confirm by selecting the box below the
-    key pair question and then click **Launch Instances**.
+    key-pair question and then click **Launch Instances**.
 
-The new instance is launched and the **Launch Status** page displays with the
+The new instance launches, and the **Launch Status** page displays with the
 instance ID. Click the instance ID to view the status of your instance.
 
 ### Access your instance
 
-On the instance status page, when the instance displays `2/2` under the
-**Status check** header, you can
-access it.
+When the instance displays `2/2` under the **Status check** header on the
+**instance status** page, you can access it.
 
 1. Click the checkmark next to the instance, which highlights the
    **Connect** option.
