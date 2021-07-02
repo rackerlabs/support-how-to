@@ -1,7 +1,7 @@
 ---
-permalink: too-many-connections-in-mysql/ 
+permalink: too-many-connections-error-in-mysql/ 
 audit_date: '2021-07-01'
-title: 'MySQL too many connections'
+title: 'Too many connections error in MySQL'
 type: article
 created_date: '2021-05-08'
 created_by: Ivan Arteaga
@@ -15,32 +15,34 @@ The **too many connections** error appears when attempting to connect to a
 server and the available connections, set to 100 by default, are in use
 already.
 
-Keep in mind that MySQL has a variable **`max_connections +1`** for client connections,
-the **`+1`** is dedicated for accounts with **CONNECTION_ADMIN** privileges.
+Keep in mind that MySQL&reg; has a variable **max_connections +1** for client connections,
+the **+1** is dedicated for accounts with **CONNECTION_ADMIN** privileges.
 
-## How do we fix this issue?
+### Solution
 
-1. Identify the `max_connections` variable value:
+Perform the following steps to fix this issue:
+
+1. Identify the **max_connections** variable value:
 
     `mysql --user="root" --password="PASSWORD" --execute='SHOW VARIABLES LIKE "max_connections";`
 
-    The output will look like this:
+    The output looks like this:
 
     | Variable_name   | Value |
     | --------------- | ----- |
     | max_connections | 100   |
 
-2. Use your favorite text editor to change the file in it's default location
-   **/etc/mysql/my.cnf** and set the following values:
+2. Use your favorite text editor to change **/etc/mysql/my.cnf** and set
+   the following values:
 
     ``max_connections = 500``
 
     ``max_user_connections = 500``
 
-    **Note:**Increasing the amount of possible connections directly affects the
-    amount of RAM consumed.
+    **Note:** Increasing the amount of possible connections directly affects the
+              amount of RAM consumed.
 
-    The command `mysql --help` can help locate the **my.cnf** file since it displays
+    The command `mysql --help` can help locate the **my.cnf** file because it displays
     default options on the following files:
 
         /etc/my.cnf
@@ -48,4 +50,4 @@ the **`+1`** is dedicated for accounts with **CONNECTION_ADMIN** privileges.
         /usr/local/etc/my.cnf
         ~/.my.cnf
 
-3. Restart MySQL service and the changes will be applied!
+3. Restart the MySQL service and to apply the changes.
