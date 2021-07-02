@@ -1,12 +1,12 @@
 ---
 permalink: configure-a-renamed-email-address-in-apple-mail
-audit_date: '2017-09-12'
+audit_date: '2021-07-02'
 title: Configure a renamed email address in Apple Mail
 type: article
 created_date: '2017-08-23'
 created_by: William Loy
-last_modified_date: '2018-12-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-07-02'
+last_modified_by: Rose Morales
 product: Rackspace Email
 product_url: rackspace-email
 ---
