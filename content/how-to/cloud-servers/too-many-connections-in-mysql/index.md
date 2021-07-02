@@ -1,44 +1,51 @@
 ---
 permalink: too-many-connections-in-mysql/ 
-audit_date:
+audit_date: '2021-07-01'
 title: 'MySQL too many connections'
 type: article
 created_date: '2021-05-08'
 created_by: Ivan Arteaga
-last_modified_date: '2021-05-08'
+last_modified_date: '2021-07-01'
 last_modified_by: Ivan Arteaga
-product: Managed
-product_url: Managed
+product: Cloud Servers
+product_url: cloud-servers
 ---
-## MySQL too many connections
-The **`too many connections`** error is received when we attempt to connect to the server but the  maximum available connections which is set to 100 by default has been reached or are in use already.
 
-Keep in mind MySQL permits a **`max_connections +1`** client connections, this **`+1`** is reserver for accounts with **CONNECTION_ADMIN** privileges.
+The **too many connections** error appears when attempting to connect to a
+server and the available connections, set to 100 by default, are in use
+already.
 
-## How do we fix this issue? 
+Keep in mind that MySQL has a variable **`max_connections +1`** for client connections,
+the **`+1`** is dedicated for accounts with **CONNECTION_ADMIN** privileges.
 
+## How do we fix this issue?
 
-First, in order to identify our maximum connections value, we enter the following command"
-**`'mysql --user="root" --password="PASSWORD" --execute='SHOW VARIABLES LIKE "max_connections";'`**
+1. Identify the `max_connections` variable value:
 
+    `mysql --user="root" --password="PASSWORD" --execute='SHOW VARIABLES LIKE "max_connections";`
 
-The output will look like this:
-| Variable_name      | Value |
-| ----------- | ----------- |
-| max_connections      | 100       |
+    The output will look like this:
 
-Once identified our current value we enter the following command to change the maximum allowed connections in our mysql configuration file,
+    | Variable_name   | Value |
+    | --------------- | ----- |
+    | max_connections | 100   |
 
-Use your prefered text editor to change **/etc/mysql/my.cnf** to change to the new desired value:
+2. Use your favorite text editor to change the file in it's default location
+   **/etc/mysql/my.cnf** and set the following values:
 
-**`max_connections = 500`**
-**`max_user_connections = 500`**
+    ``max_connections = 500``
 
-**Remember that increasing the amout of possible connections also affects the amout of RAM consumed.**
+    ``max_user_connections = 500``
 
-Also please note that this is one of the default locations for our configuration file and that you can run  **`mysql --help`** and you will see Default options are read from the following files in the given order:**`/etc/my.cnf /etc/mysql/my.cnf /usr/local/etc/my.cnf ~/.my.cnf`**
+    **Note:**Increasing the amount of possible connections directly affects the
+    amount of RAM consumed.
 
-Now you only need to **restart** MySQL and the changes will be applied!
+    The command `mysql --help` can help locate the **my.cnf** file since it displays
+    default options on the following files:
 
+        /etc/my.cnf
+        /etc/mysql/my.cnf
+        /usr/local/etc/my.cnf
+        ~/.my.cnf
 
-
+3. Restart MySQL service and the changes will be applied!
