@@ -45,9 +45,9 @@ Perform the following steps to fix this issue:
     The command `mysql --help` can help locate the **my.cnf** file because it displays
     default options on the following files:
 
-        /etc/my.cnf
-        /etc/mysql/my.cnf
-        /usr/local/etc/my.cnf
-        ~/.my.cnf
+    - **/etc/my.cnf**
+    - **/etc/mysql/my.cnf**
+    - **/usr/local/etc/my.cnf**
+    - **~/.my.cnf**
 
 3. Restart the MySQL service and to apply the changes.
