@@ -13,8 +13,8 @@ product_url: rackspace-email
 
 This article describes how to import contacts to your Rackspace Email account
 from your previous mail provider and export contacts from Rackspace Email before
-upgrading to [Microsoft Exchange](https://www.rackspace.com/email-hosting) or
-[Office 365](https://www.rackspace.com/email-hosting).
+upgrading to [Microsoft&reg; Exchange&reg;](https://www.rackspace.com/email-hosting) or
+[Office 365&reg;](https://www.rackspace.com/email-hosting).
 
 ### Prerequisites
 
@@ -27,7 +27,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 ### Import contacts to Rackspace Email
 
-1. Log in to your Rackspace Email mailbox at [apps.rackspace.com](https://apps.rackspace.com/)
+1. Log in to your Rackspace Email mailbox at [apps.rackspace.com](https://apps.rackspace.com/).
 2. Click the **Contacts** tab.
 3. Click **Import/Export Contacts**.
 
@@ -54,5 +54,5 @@ For more information about prerequisite terminology, see [Cloud Office support t
    {{<image src="ExportContactsRSE.png" alt="" title="">}}
 
 5. Under **Export Contacts**, select your mail client.
-6. Click **Export** and to download a **.csv** file of your contacts through
+6. Click **Export** and download the **.csv** file of your contacts through
    your web browser.
