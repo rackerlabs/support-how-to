@@ -25,14 +25,14 @@ you are operating under the terms of our
 ### Policing and enforcement
 
 Rackspace monitors all cloud host servers for activities that reduce virtual
-servers performance. If we find a virtual server affects another, we reserve the
+server performance. If we find a virtual server affects another, we reserve the
 right to hard reboot, suspend, or switch off the impacting server. We further
 reserve the right to suspend or cancel the impacting account.
 
 **Important**: When performing the recommended application tests, load tests,
 and performance-benchmarking tests in this article, observe the following
-guidelines before and during each test, and stop the test immediately if the
-indicated thresholds are breached.
+guidelines before and during each test and stop the test immediately if it
+breaches the indicated thresholds.
 
 ### Load testing
 
@@ -40,9 +40,9 @@ Be sure to continually monitor the effects of your tests as you apply load.
 Before running load tests, ensure that you know how to view actual RAM, disk IO,
 and network usage in real time. These metrics show whether a test risks
 interfering with other customers' servers on the same host. For specific
-thresholds, see the following Linux and Windows virtual servers sections.
+thresholds, see the following Linux&reg; and Windows&reg; virtual server sections.
 
-Alternatively, there are load-testing services managed with external servers,
+Alternatively, there are load-testing services managed with external servers
 located globally. For example, [load testing with LoadView](https://www.loadview-testing.com)
 allows you to use their external servers and offers testing of API load or
 application load testing.
@@ -50,7 +50,7 @@ application load testing.
 ### Linux virtual servers
 
 Install and use the `screen` package for your Linux distribution to run and view
-the following commands at the same time. To compile the screen from source, go
+the following commands at the same time. To compile the screen from the source, go
 to the [GNU homepage](https://www.gnu.org/software/screen/).
 
 #### RAM
@@ -59,8 +59,8 @@ Use the following command to view RAM usage as you perform tests:
 
      watch free -m
 
-Don't let the value in the `Free` column in the `+/- buffers/cache` line go
-lower than 1000.
+Don't let the value in the **Free** column in the **+/- buffers/cache** line go
+lower than `1000`.
 
 #### Disk IO
 
@@ -68,8 +68,8 @@ Use the following command to view disk IO usage as you perform tests:
 
      top
 
-Watch the `%wa` number in the second line. It might occasionally rise above 1.0,
-but it should not be above 1.0 for more than a couple of seconds.
+Watch the **%wa** number in the second line. It might occasionally rise above `1.0`,
+but it should not be above `1.0` for more than a couple of seconds.
 
 #### Network usage
 
@@ -77,7 +77,7 @@ Use the following command to view network usage as you perform tests:
 
      sudo watch -n 10 -d /sbin/ip addr show eth0
 
-Watch the `RX bytes` number. Every 10 seconds, the `-d` argument highlights any
+Watch the **RX bytes** number. Every 10 seconds, the `-d` argument highlights any
 changes in this number. The 10-second pause gives you time to note the RX bytes
 number before it changes. You can reduce the amount of math required to
 calculate exact changes if you remember that at least eight digits must
@@ -136,7 +136,7 @@ This section describes some counters that you can use to ensure that you do not
 exceed the thresholds and affect other customers on the server. You have to
 change the scale of the graphs and also the counters in **Performance Monitor**,
 especially regarding memory use. If you find these graphs hard to read and
-track, we recommend that you use the `resmon.exe` utility to track them.
+track, we recommend using the `resmon.exe` utility to track them.
 
 #### Processor use
 
@@ -150,55 +150,57 @@ Threshold: Don't let this counter exceed 90 percent.
 
 Watch the following memory-related counters during load testing:
 
-- Counter: **Process > Working Set > _Total** (or per specific process)
+- **Counter**: **Process > Working Set > _Total** (or per specific process)
 
-  Purpose: Shows the current allocated or used RAM by the machine or specific
+  **Purpose**: Shows the current allocated or used RAM by the machine or specific
   application or process
 
-  Threshold: Don't let this counter exceed 90 percent of the VM's total physical
+  **Threshold**: Don't let this counter exceed 90 percent of the VM's total physical
   RAM.
 
-- Counter: **Paging File > % Usage > Total**
+- **Counter**: **Paging File > % Usage > Total**
 
-  Purpose: Review this value in conjunction with **Available MBytes** to
+  **Purpose**: Review this value in conjunction with **Available MBytes** to
   understand paging activity on your system.
 
-  Threshold: Don't let this counter rise above 50 percent of the total paging
+  **Threshold**: Don't let this counter rise above 50 percent of the total paging
   size.
 
-- Counter: **Memory > Available MBytes**
+- **Counter**: **Memory > Available MBytes**
 
-  Purpose: Shows free RAM available to be used by new processes, in megabytes
+  **Purpose**: Shows free RAM available to be used by new processes in megabytes
 
-  Threshold: Don't let this counter fall below 10 percent of total physical RAM.
+  **Threshold**: Don't let this counter fall below 10 percent of total physical RAM.
 
 **Note:** If you are unsure of the amount of RAM installed, run the `msinfo32`
 command from the **Run** box.
 
 #### Disk use
 
-Watch the following disk use counters during load testing:
+Watch the following disk-usage counters during load testing:
 
-- Counter: **PhysicalDisk > Disk Time > _Total**
+- **Counter**: **PhysicalDisk > Disk Time > _Total**
 
-  Purpose: Shows the amount of time that the disk is active
+  **Purpose**: Shows the amount of time that the disk is active
 
-  Threshold: 90 percent
+  **Threshold**: 90 percent
 
-- Counter: **PhysicalDisk > Avg. Disk Queue Length > _Total**
+- **Counter**: **PhysicalDisk > Avg. Disk Queue Length > _Total**
 
-  Purpose: Validates the communication medium
+  **Purpose**: Validates the communication medium
 
-  Threshold: Don't let this counter rise above 4.
+  **Threshold**: Don't let this counter rise above `4`.
 
 #### Network performance
 
-Counter: **Network Interface > Bytes Total/sec > Network Interface**
+Watch the following disk-usage counters during load testing:
 
-Purpose: Measures the number of bytes sent or received
+**Counter**: **Network Interface > Bytes Total/sec > Network Interface**
 
-Threshold: Don't let link speed rise above the **Maximum PerfMon Link Speed
-(%)** value for your VM's size, as shown in the following table:
+**Purpose**: Measures the number of bytes sent or received
+
+**Threshold**: Don't let link speed rise above the **Maximum PerfMon Link Speed
+(%)** value for your server size, as shown in the following table:
 
 <table>
 	<tr>
@@ -236,10 +238,10 @@ Threshold: Don't let link speed rise above the **Maximum PerfMon Link Speed
 ### Network latency testing
 
 Remote testing can cause network latency. To test the network latency to our
- data centers, ping them and then review the response times or the ping returns.
- Each Rackspace data center has its own sandbox server that you can use for ping
- and other network tests. Because most of our cloud infrastructure is hosted in
- the same data centers, this test also works for cloud servers.
+data centers, ping them and then review the response times or the ping returns.
+Each Rackspace data center has its own sandbox server that you can use for ping
+and other network tests. Because we host most of our cloud infrastructure in
+the same data centers, this test also works for cloud servers.
 
 Ping is publicly accessible for the following servers:
 
@@ -251,4 +253,4 @@ Ping is publicly accessible for the following servers:
 - sandbox.syd2.rackspace.net
 
 **Note:** To remove DNS lookup effects, you might want to determine each test
-server's IP address and ping the IP address directly.
+server IP address and ping the IP address directly.
