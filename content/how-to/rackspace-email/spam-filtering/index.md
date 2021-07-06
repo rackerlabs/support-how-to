@@ -13,8 +13,8 @@ product_url: rackspace-email
 
 Over 90% of all email traffic is spam, although most of it never makes it to
 your inbox. Spam can cost millions of dollars in business productivity and
-infrastructure. Spam email is also used to *phish* sensitive and valuable
-information from companies and to trick people into transferring money. Knowing
+infrastructure. Spammers also use spam to *phish* sensitive and valuable
+information from companies and trick people into transferring money. Knowing
 how to defend against spam and phishing attempts is the first step to keep your
 information safe.
 
@@ -51,7 +51,7 @@ providers across the Internet about reported spam, phishing, and viruses. The
 result is an accurate, adaptive, and evolving content filtering system that
 is highly effective at removing spam.
 
-The filtering system does not apply to the sophisticated spammer. Rather, it scans all
+The filtering system does not apply to the sophisticated spammer. Instead, it scans all
 incoming and outgoing mail traffic regardless of sender or intent, and our filters
 flag message content after confirmation by the whole internet community.
 
@@ -94,9 +94,9 @@ If a message arrives in your inbox that you consider spam, report it by
 moving the message to the spam folder.
 
 **Warning:** Rackspace Cloud Office does not forward any message flagged
-as spam, regardless of whether it is safelisted. If the message went to an
-alias, contact, group list, or distribution list, it is considered to be
-forwarded and is not delivered if the system flagged the message as spam.
+as spam, regardless of whether it is safelisted. The system considers any
+message sent to an alias, contact, group list, or distribution list to be
+forwarded and does not deliver the message if it flagged the message as spam.
 
 ### References
 
