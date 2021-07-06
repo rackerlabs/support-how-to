@@ -1,19 +1,22 @@
 ---
 permalink: cloud-office-blocked-attachment-files
-audit_date: '2017-05-30'
+audit_date: '2021-07-05'
 title: Cloud Office Blocked Attachment Types
 type: article
 created_date: '2017-05-19'
 created_by: William Loy
-last_modified_date: '2017-06-02'
-last_modified_by: William Loy
+last_modified_date: '2021-07-05'
+last_modified_by: Rose Morales
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article provides a comprehensive list of file types that are not permitted when you use Rackspace Email or Hosted Exchange.
+This article provides a comprehensive list of file types that are not permitted
+when you use Rackspace Email or Hosted Exchange.
 
-If you receive a bounce message when sending an email, see our list of [common email bounce messages](/support/how-to/common-email-bounces) for more information.
+If you receive a bounce message when sending an email, see our list of
+[common email bounce messages](/support/how-to/common-email-bounces) for more
+information.
 
 ### Prerequisite
 
