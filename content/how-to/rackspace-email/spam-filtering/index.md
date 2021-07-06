@@ -14,7 +14,7 @@ product_url: rackspace-email
 Over 90% of all email traffic is spam, although most of it never makes it to
 your inbox. Spam can cost millions of dollars in business productivity and
 infrastructure. Spam email is also used to *phish* sensitive and valuable
-information from companies, and to trick people into transferring money. Knowing
+information from companies and to trick people into transferring money. Knowing
 how to defend against spam and phishing attempts is the first step to keep your
 information safe.
 
@@ -26,34 +26,33 @@ This article describes the spam filtering system used in Rackspace Cloud Office.
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
-### Blocked Email
+### Blocked email
 
 Rackspace Email uses industry best practice techniques to block email spam
-coming from known disreputable sources. This comprises email we know with a high
+coming from known disreputable sources. We stop email we know with a high
 degree of certainty is not from a legitimate service, including everything from
 compromised servers to *spam cannon* services that send unsolicited spam across
 the Internet.
 
-The following techniques are some of the methods used by Rackspace Email to
-protect you from spam email:
+Rackspace Email uses the following techniques to protect you from spam email:
 
 - IP block lists provided by reputable services
-- Blocking emails with attachment types known to exploit end user computers
+- Blocking emails with attachment types known to exploit end-user computers
 - Account admins can add senders to a Blocklist at both the domain and mailbox
-  level, to prevent them from reaching your inbox.
+  level to prevent them from reaching your inbox.
 
-### Filtered Email
+### Filtered email
 
 If mail passes the Blocklist checks, we apply advanced content filtering to
 verify spam indicators. Content filtering combines techniques to analyze email
-structure and content, and creates key indicators that identify patterns in
-email. These indicators combined with industry-wide feedback from email
-providers across the internet about reported spam, phishing, and viruses. The
-end result is an accurate, adaptive, and evolving content filtering system that
+structure and content and creates key indicators that identify patterns in
+email. We combine these indicators with industry-wide feedback from email
+providers across the Internet about reported spam, phishing, and viruses. The
+result is an accurate, adaptive, and evolving content filtering system that
 is highly effective at removing spam.
 
-The filtering system does not apply to the sophisticated spammer it scans all
-incoming and outgoing mail traffic regardless of sender or intent. Our filters
+The filtering system does not apply to the sophisticated spammer. Rather, it scans all
+incoming and outgoing mail traffic regardless of sender or intent, and our filters
 flag message content after confirmation by the whole internet community.
 
 ### Outbound messages
@@ -65,39 +64,39 @@ follow certain practices to prevent your message from becoming spam:
 - When sending transactional, promotional, or marketing emails, see
   [Best practices for sending emails to many recipients](/support/how-to/best-practices-for-sending-emails-to-many-recipients/).
 
-- If your personal emails to friends and business partners are flagged as
-  spam, see [Best practices for sending person to person email](/support/how-to/best-practices-for-sending-person-to-person-email/).
+- If your personal emails to friends and business partners show as
+  spam, see [Best practices for sending person-to-person email](/support/how-to/best-practices-for-sending-person-to-person-email/).
 
 - Ask your frequent recipients to add your domain to their safelist or
-  whitelist to ensure your messages are delivered to their inboxes.
-  For more information, see
-  [Manage Safelists at Rackspace Cloud Office](/support/how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email/#manage-safelists).
+  whitelist to ensure they receive your messages. For more information, see
+  [Manage safelists at Rackspace Cloud Office](/support/how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email/#manage-safelists).
 
-**Note:** Outbound messages are likely scanned by the recipient's mail provider. Each provider has its own policies for flagging and filtering spam.
+**Note:** The recipient's mail provider likely scans outbound messages. Each provider
+          has its own policies for flagging and filtering spam.
 
 ### Inbound messages
 
-When a legitimate message is flagged as spam, follow these recommendations:
+When a legitimate message flags as spam, follow these recommendations:
 
-- Always mark legitimate messages as “Not Spam”. This is the most effective
+- Always mark legitimate messages as *Not Spam*. This is the most effective
   method for improving the reputation of the sender and is a long-term solution.
 
 - Inform the sender their email has spam suspicion and provide them with
-  [Best practices for sending person to person email](/support/how-to/best-practices-for-sending-person-to-person-email/).
+  [Best practices for sending person-to-person email](/support/how-to/best-practices-for-sending-person-to-person-email/).
 
-- Add the sender to your Safelist. For more information, see
-  [Manage Safelists at Rackspace Cloud Office](/support/how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email/#manage-safelists).
+- Add the sender to your safelist. For more information, see
+  [Manage safelists at Rackspace Cloud Office](/support/how-to/spam-preferences-safe-lists-and-black-list-in-rackspace-email/#manage-safelists).
 
-   **Note:** Using a Safelist ensures that the messages from the sender are
-   delivered to your inbox, but it does not remove a spam flag from a message.
+   **Note:** Using a safelist ensures that you receive messages from the sender,
+   but it does not remove a spam flag from a message.
 
-If a message arrives to your inbox that you consider to be spam, report it by
+If a message arrives in your inbox that you consider spam, report it by
 moving the message to the spam folder.
 
 **Warning:** Rackspace Cloud Office does not forward any message flagged
-as spam, regardless of whether it is safelisted. If the message is sent to an
+as spam, regardless of whether it is safelisted. If the message went to an
 alias, contact, group list, or distribution list, it is considered to be
-forwarded and is not delivered if the message is flagged as spam.
+forwarded and is not delivered if the system flagged the message as spam.
 
 ### References
 
