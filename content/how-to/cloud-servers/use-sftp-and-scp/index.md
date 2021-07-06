@@ -237,7 +237,7 @@ For example:
    
 You can use FileZilla&reg; to transfer files between machines with SFTP by using SSH access.
 
-You can use the following docuemnts to download and use FileZilla:
+You can use the following documents to download and use FileZilla:
 
 - [FileZilla](https://filezilla-project.org/download.php?type=client)
   
