@@ -38,8 +38,8 @@ of the following questions before moving on to the next one.
 2. When did the issue start?
 
    An event that occurred about the same time could have caused the problem. For
-   example, if changes to your office or home network occurred, or a password
-   updated on your mailbox, update the password on your software to fix the
+   example, if changes to your office or home network occurred or you updated
+   your mailbox password, update your software settings or password to fix the
    issue.
 
 3. Have you migrated from another provider?
