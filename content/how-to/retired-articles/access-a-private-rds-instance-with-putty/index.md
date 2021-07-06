@@ -1,14 +1,12 @@
 ---
 permalink: access-a-private-rds-instance-with-putty
-audit_date: '2017-09-26'
+audit_date: '2021-07-05'
 title: Access a private RDS instance with Putty
 type: article
 created_date: '2017-03-07'
 created_by: Gustavo Panizzo
-last_modified_date: '2017-09-26'
-last_modified_by: Nate Archer
-product: Fanatical Support for AWS
-product_url: fanatical-support-for-aws
+last_modified_date: '2021-07-05'
+last_modified_by: Rose Morales
 ---
 
 Rackspace builds your Fanatical Support for AWS (FAWS) environment on private networks. Therefore, if a customer uses an RDS database in their environment, that database must be accessed through a site-to-site VPN.
