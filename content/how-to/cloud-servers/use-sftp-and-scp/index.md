@@ -1,7 +1,7 @@
 ---
-permalink: using-sftp-and-scp/
+permalink: use-sftp-and-scp/
 audit_date:
-title: 'Using SFTP and SCP'
+title: 'Use SFTP and SCP'
 type: article
 created_date: '2021-05-08'
 created_by: Jorge Mijangos
@@ -11,61 +11,50 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Secure File Transfer Protocol **(SFTP)** and Secure Copy **(SCP)** use SSH to transfer files. We recommend to use these protocols instead of the **FTP** protocol, which transfers files in plain text.
+Secure File Transfer Protocol (SFTP) and Secure Copy (SCP) use Secure Shell
+(SSH) to transfer files. We recommend using these protocols instead of the
+FTP protocol, which transfers files in plain text.
 
-### **SCP configuration**
+### Install and use SCP
 
-By default SCP is available in all Rackspace&reg; Cloud Servers. Use the OpenSSH package to install SCP if the **scp** command is not installed in your Linux&reg; computer.
+By default, SCP is available for all Rackspace&reg; Cloud Servers. Use the
+OpenSSH package to install SCP if the **scp** command does not exist on
+your Linux&reg; computer.
 
-To install SCP in **CentOS&reg;** and **RHEL&reg; 7**. 
+To install SCP on **CentOS&reg;** and **Red Hat&reg; Enterprise Linux 7**: 
 
     $ sudo yum install -y openssh-clients
 
-To install SCP in **Ubuntu&reg;** and **Debian&reg;**.
+To install SCP on **Ubuntu&reg;** and **Debian&reg;**:
 
     $ sudo apt install -y openssh-client
 
-First configure a user in the remote server, then use the following command to copy files to the remote server.
+Configure a user on a remote server and use the following command to
+copy files to the remote server, where `remoteserver` is the IP address or
+hostname of the remote server:
  
-    scp username@remoteserver:/path/to/remote/directory/ /path/to/local/machine/directory
-    
-where `remoteserver` is the IP address or hostname of the remote server.
+    $ scp username@remoteserver:/path/to/remote/directory/ /path/to/local/machine/directory
 
-Use the following command to copy a file from your local machine to a remote server.
+Use the following command to copy a file from your local machine to the remote server:
 
-    scp /path/to/filename.ext  username@remoteserver:/destination/path'
+    $ scp /path/to/filename.ext  username@remoteserver:/destination/path'
   
-
-### **SFTP configuration**
-
-Refer to this link to [configure an SFTP user](https://docs.rackspace.com/support/how-to/set-up-sftp-users-in-linux-based-systems/).
-
-First log in to the server to upload or download files. Use the following command:
-
-
-    sftp username@remoteserver
+### SCP connection and commands
  
-where `remoteserver`is the IP address or hostname of the remote server.
-
-In the following example, the server hostname is **test** and its IP address is **23.253.20.165**. The **ifconfig** command shows the following output: 
+ You can use SCP to upload and download files and images. 
  
-    test ~]# ifconfig
-    eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-    inet 23.253.20.165
-        
- ### **SCP connection**
+#### Upload and download files
 
-The **ll** command shows the directories under the **scpuser** home directory:
+The `ll` command shows the directories under the **scpuser** home directory:
               
     # ll /home/scpuser
      down
      up
   
-Directory **down** is where files can be downloaded from the server. 
+You can download files from the **down** directory of the server and upload
+files to the **up** directory of the server. 
   
-Directory **up** is where files can be uploaded to the server. 
-  
-To download files from the server to a local machine, use the following command.
+To download files from the server to a local machine, use the following command:
 
     $ scp -r scpuser@23.253.20.165:/home/scpuser/down /home/mylocaluser/downloads
 
@@ -83,6 +72,7 @@ Example response:
     Whereis.gif                                             100%  738KB   5.1MB/s   00:00    
     whereisMy.gif                                           100%  525KB   4.9MB/s   00:00'    
     
+#### List and upload images
 
 List the images in the local machine:
 
@@ -93,7 +83,7 @@ Example response:
     Atomos.jpg      Entiendos.gif    MoneyPounds.jpg    Pastel.jpg  Whereis.gif     Dinero.jpg       figth.jpg          Ordenes.gif      Wee.jpg         whereisMy.gif    shh.png            Eternity.jpg    HomeroNoNo.gif  si.gif           Con.jpg            Jaa.jpg 
     masake.gif      Gato.gif         maxresdefault.jpg  Puzzle.JPG      Tree.gif        GoodFellas2.gif  len.jpg            yes.gif             Nervous.gif      Husband.jpg        masa.gif             Numpleanos.jpeg  roureright.gif
 
-To upload images from the local machine to the server, use the following command.
+To upload images from the local machine to the server, use the following command:
 
     $ scp -r /home/mylocaluser/memes/up  scpuser@23.253.20.165:/home/scpuser/
 
@@ -119,7 +109,7 @@ Example response:
     Nervous.gif                                               100%  190KB   6.6MB/s   00:00    
     Gato.gif                                                 100%  602KB   17.7MB/s   00:00'    
    
-Confirm on remote server:
+Confirm the files on the remote server:
     
     # ll /home/scpuser/up/
         -rw-------. 1 scpuser scpuser  192710 Apr 29 16:08 Eternity.jpg
@@ -140,34 +130,51 @@ Confirm on remote server:
         -rw-------. 1 scpuser scpuser 1641671 Apr 29 16:08 Tree.gif
         -rw-------. 1 scpuser scpuser 1417531 Apr 29 16:08 yes.gif
 
-**Note:** the **-r** flag on the **scp** command copies directories recursively.
+**Note:** The `-r` flag on the `scp` command copies directories recursively.
 
-### **SFTP connection**
+### SFTP configuration
+
+To connect to a server with SFTP to upload or download files, use the following command,
+where `remoteserver`is the IP address or hostname of the remote server:
+
+    $ sftp username@remoteserver
+
+To find the IP address of a server, use the `ipconfig` command. In the following
+example, the server hostname is **test** has an IP address of **23.253.20.165**: 
+ 
+    [test ~]# ifconfig
+    eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+    inet 23.253.20.165
+
+Refer to our [configure an SFTP user](https://docs.rackspace.com/support/how-to/set-up-sftp-users-in-linux-based-systems/)
+article for more guidance.
+
+### SFTP connection
   
-To set up an SFTP connection:
+Perform the following steps to set up an SFTP connection:
 
 1. Configure an SFTP user on the remote host.
 
-2. _Jail_ the user in a directory, for example, in **/var/www/html/test**.
+2. *Jail* the user in a directory, such as **/var/www/html/test**.
 
-3. Change to the directory in the local machine where the files will be uploaded or downloaded.
+3. Change to the directory in the local machine where you plan to upload or download files.
 
 4. Log in to the remote SFTP server.
 
 For example:
 
-1. Change to the directory from where to upload or download in the local machine:
+1. Change to the directory on the local machine:
   
-       cd /home/mylocaluser/sftp
-  
-2. The directory contains the following documents:
+       $ cd /home/mylocaluser/sftp
+       
+2. List the files in the directory:
 
-        $ ls /home/jorg0782/sftp
-        LocalComp.gif  test1.txt  themes.tar.gz 
+       $ ls /home/jorg1234/sftp
+          LocalComp.gif  test1.txt  themes.tar.gz 
     
 3. Upload the contents of the local directory to the remote server:
             
-       sftp]$ sftp sftpuser@23.253.20.165
+       [sftp]$ sftp sftpuser@23.253.20.165
        sftpuser@23.253.20.165's password: 
        Connected to 23.253.20.165.
        sftp> ls
@@ -226,17 +233,15 @@ For example:
        -rw-r--r--    1 sftpuser sftpuser  4368244 Apr 29 22:21 themes.tar.gz
        sftp> quit
 
-### **FileZilla&reg;**
+### FileZilla
    
-FileZilla is used to transfer files between machines with SFTP by using SSH access.
+You can use FileZilla&reg; to transfer files between machines with SFTP by using SSH access.
 
-You can use the following links to download FileZilla:
+You can use the following docuemnts to download and use FileZilla:
 
-[**FileZilla**](https://filezilla-project.org/download.php?type=client)
+- [FileZilla](https://filezilla-project.org/download.php?type=client)
   
-[**Install and configure FTP and SFTP by using FileZilla**](https://docs.rackspace.com/support/how-to/install-and-configure-ftp-and-sftp-by-using-filezilla/)
+- [Install and configure FTP and SFTP by using FileZilla](support/how-to/install-and-configure-ftp-and-sftp-by-using-filezilla)
    
-
 
  Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
-
