@@ -11,8 +11,8 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article provides a comprehensive list of file types that are not permitted
-when you use Rackspace Email or Hosted Exchange.
+This article provides a comprehensive list of file types that
+Rackspace Email or Hosted Exchange do not permit.
 
 If you receive a bounce message when sending an email, see our list of
 [common email bounce messages](/support/how-to/common-email-bounces) for more
