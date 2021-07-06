@@ -1,6 +1,6 @@
 ---
 permalink: troubleshoot-failed-email-connection
-audit_date: '2017-06-05'
+audit_date: '2021-07-05'
 title: Troubleshoot a failed email connection
 type: article
 created_date: '2017-05-29'
