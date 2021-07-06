@@ -53,8 +53,8 @@ of the following questions before moving on to the next one.
 4. Have you upgraded the mailbox at Rackspace Cloud Office?
 
    After a version upgrade, it generates a copy of the mailbox under another a
-    new server version. For example, if you upgrade a mailbox from Exchange 2007
-    to 2016, the data migrates from an Exchange 2007 mailbox to a new mailbox on
+    new server version. For example, if you upgrade a mailbox from Exchange 2010
+    to 2016, the data migrates from an Exchange 2010 mailbox to a new mailbox on
     Exchange 2016. This means that you must configure your
     [local mail client](/support/how-to/cloud-office-support-terminology/#cloud-office-terminology)
     to connect to the mailbox on the new server. For instructions to configure
