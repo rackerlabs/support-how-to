@@ -35,7 +35,7 @@ This article describes how to request additional IP addresses if you need a just
 E-Mail address.................:
 Server number..................:
 
-Number of IP addresses you need:
+Number of IP addresses for this request:
 Your Fully Qualified Domain Name (FQDN) justification list:
 ---------- Start FQDN List ----------
 
