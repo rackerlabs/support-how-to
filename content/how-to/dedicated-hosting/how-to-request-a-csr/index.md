@@ -35,6 +35,6 @@ This article explains how to create a ticket to generate a Certificate Signing R
 	
 9. Click **Create Ticket**.
 
-Support generates the CSR for you and updates you in a ticket.
+Support generates the CSR for you and updates you in the ticket.
 
 Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
