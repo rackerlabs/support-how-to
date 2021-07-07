@@ -5,23 +5,22 @@ title: View your network device's configuration
 type: article
 created_date: '2017-12-21'
 created_by: Trevor Becker
-last_modified_date: '2019-04-30'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-07-07'
+last_modified_by: Cat Lookabaugh
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
 The MyRackspace Portal contains a self-service feature that enables you to
-download a copy of your firewall's or load balancer's running
-configuration. You can use this feature for your documentation and
-auditing purposes.
+download a copy of the running configuration for your firewall or load balancer.
+You can use this feature for your documentation and auditing purposes.
 
 ### View the configuration of your network device
 
 1. Log in to the [MyRackspace Portal](https://login.rackspace.com/) by
    using your username and password.
 
-2. In the top navigation bar click **Select a Product > Dedicated Hosting**.
+2. In the top navigation bar, click **Select a Product > Rackspace Dedicated**.
 
 3. Select **Products** > **Devices**.
 
@@ -33,23 +32,22 @@ auditing purposes.
 
 5. Click **Download Network Config**.
 
-   The length of the download depends on the size of your network device's
-   configuration. After the download is complete, the configuration is
-   located in your browser's download folder as a **.txt** file.
+   The length of the download depends on the size of your network device
+   configuration. After the download completes, the configuration displays
+   in your browser download folder as a **.txt** file.
 
-   **Note:** The network device's configuration contains sections
-   named **REMOVED**. These fields have been removed because they contain
+   **Note:** The network device configuration includes a section
+   named **REMOVED**, which contains fields removed because they contain
    Rackspace-specific infrastructure settings.
-
 
 ### View client VPN users within your firewall's configuration
 
-Client virtual private network (VPN) users are stored in the firewall's running
-configuration. The structure of a client VPN user is as follows:
+The firewall running configuration stores client virtual private network (VPN)
+users. The structure of a client VPN user is as follows:
 
     Syntax:  username <username> password <password>
     Example: username rackspace-test password Abc123
 
 If you want to perform a client VPN user audit of your firewall, perform the
-steps in the “View the configuration of your network device” section, and search
+steps in the **View the configuration of your network device** section and search
 through the document for the client VPN syntax shown above.

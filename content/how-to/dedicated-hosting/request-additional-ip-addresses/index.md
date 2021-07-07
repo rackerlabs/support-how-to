@@ -1,26 +1,27 @@
 ---
 permalink: request-additional-ip-addresses
-audit_date:
+audit_date: '2021-07-07'
 title: Request additional IP addresses
 type: article
 created_date: '2021-04-15'
 created_by: Alexandra Soares
 last_modified_date: '2021-07-07'
-last_modified_by: Ana Corpus
+last_modified_by: Cat Lookabaugh
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-This article describes how to request additional IP addresses if you need a justification form.
+This article describes how to request additional IP addresses if you need a
+justification form.
 
 ### Create a ticket in MyRackspace portal
 
 1. Log in to the [MyRackspace Portal](https://login.rackspace.com/login) with your username and
    password.
 
-2. On the top navigation bar, choose **Select a Product** > **Dedicated Hosting**.
+2. On the top navigation bar, choose **Select a Product** > **Rackspace Dedicated**.
 
-3. Select **Tickets** > **Create Ticket**. The **Create New Ticket** page displays. 
+3. Select **Tickets** > **Create Ticket**. The **Create New Ticket** page displays.
 
 4. Select the **Subject** field.
 
