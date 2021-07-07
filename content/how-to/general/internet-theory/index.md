@@ -7,8 +7,8 @@ created_date: 2021-04-12
 last_modified_date: 
 last_modified_by: 
 audit_date:
-product: Cloud Servers
-product_url: cloud-product
+product: General
+product_url: general
 ---
 
 # Internet Theory
