@@ -5,31 +5,27 @@ title: 'Identity federation for Dedicated Hosting: Map policies and permissions'
 type: article
 created_date: '2018-11-14'
 created_by: Kate Dougherty
-last_modified_date: '2018-01-11'
-last_modified_by: Kate Dougherty
+last_modified_date: '2021-07-07'
+last_modified_by: Cat Lookabaugh
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-**Note**: This feature is currently an [Early
-Access](/support/how-to/rackspace-product-release-phases/) feature and
-is therefore subject to additional [test
-terms](https://www.rackspace.com/information/legal/testterms).
-If the feature is not available for your account and you
-want to participate, contact your Account Manager.
+**Note**: To use Rackspace Identity Federation, ask your Account Manager to
+arrange access for you.
 
 You can use Rackspace Identity Federation to configure your corporate
 security and identity systems to enable your employees to use their
 regular company credentials to authenticate to Rackspace accounts.
 
-Authentication is based on the Security Assertion Markup Language (SAML) 2.0
-protocol. The SAML messages that are exchanged between an Identity Provider
-and Rackspace are interpreted by an _Attribute Mapping Policy_. This YAML
-Ain't Markup Language (YAML)-formatted policy maps SAML attributes
-to Rackspace required roles and permissions.
+Authentication uses the Security Assertion Markup Language (SAML) 2.0
+protocol. An _Attribute Mapping Policy_ interprets the SAML messages exchanged
+between an Identity Provider and Rackspace. This YAML Ain't Markup Language
+(YAML)-formatted policy maps SAML attributes to Rackspace-required roles and
+permissions.
 
-An Attribute Mapping Policy is composed of one or more rules. These rules
-assign local values that are attached to a user after they log in to
+An Attribute Mapping Policy comprises one or more rules. These rules
+assign local values attached to a user after they log in to
 Rackspace, based on explicit or remote values in the SAML exchange from
 your third-party provider.
 
@@ -49,13 +45,13 @@ Provider, you should have an understanding of the following languages:
 
 - **XPath 2.0**: XML Path Language (XPath) is a World Wide Web Consortium
   (W3C) standard expression language for extracting information from
-  structured data. The language is designed to be embedded in a host language,
-  and the mapping policy language uses it in this way.
+  structured data. The mapping policy language uses XPath, as designed, by
+  embedding it in a host language.
 
-- **YAML 1.1**: YAML is a simple data serialization language that's designed
-  to be human friendly. YAML is very similar to Javascript Object Notation
+- **YAML 1.1**: YAML is a simple data serialization language designed
+  to be human friendly. YAML is similar to Javascript Object Notation
   (JSON) but supports useful features such as comments and the ability to
-  easily input multi-line data. Attribute Mapping Policies are written in YAML.
+  input multi-line data easily. Attribute Mapping Policies use YAML.
 
 ### Configure your SAML provider to work with Rackspace Identity Federation
 
@@ -64,13 +60,12 @@ SAML attributes and assertions in your SAML provider, such as Microsoft&reg;
 Active Directory&reg; Federation Services (AD FS) or Okta&trade;.
 
 The SAML attributes and assertions that you configure in your SAML provider
-are sent to Rackspace so that they can be mapped into Rackspace permissions.
+go to Rackspace and get mapped into Rackspace permissions.
 
 **Note**: You can programmatically retrieve the default values for connecting
 your SAML provider to Rackspace by downloading the [Rackspace service provider
-metadata
-file](https://login.rackspace.com/federate/sp.xml), then uploading it to your
-SAML provider.
+metadata file](https://login.rackspace.com/federate/sp.xml), then uploading it
+to your SAML provider.
 
 For instructions, see the following reference that corresponds to your SAML
 provider:
@@ -85,8 +80,8 @@ Next, you need to export a SAML metadata file from your SAML provider. This
 file contains XML-encoded assertions about authentication, authorization, and
 related attributes.
 
-Most identity systems have a method for generating this metadata file either
-automatically or after some basic configuration has been completed.
+Most identity systems have a method for generating this metadata file, either
+automatically or after you complete some basic configuration.
 
 For specific instructions for exporting a SAML metadata file from Okta, see
 [Configure
@@ -110,27 +105,27 @@ Use the following steps to configure your Identity Provider with Rackspace:
 5. In the **Description** field, enter a description for your Identity
    Provider. The description should be unique for this Identity Provider.
 6. In the **Email Domains** section, click **Add Domain**, then enter the
-   email domain that users logging in from your organization will use, such as
+   email domain that users logging in from your organization use, such as
    **mycompany.com**. The email domain should be unique for this Identity
    Provider.
 
    **Note**: Do not enter an email format (such as <email>@mycompany.com) in
    this field.
 
-   If your users will log in from multiple email domains using this Identity
+   If your users might log in from multiple email domains using this Identity
    Provider, repeat this step and enter the additional email domains.
 
 7. In the **SAML Metadata** section, click **Choose File**, then browse to the
    XML file that you downloaded from your Identity Provider in the previous
    section.
 
-8. After the XML file is attached, click **Create Identity Provider**.
+8. After you attach the XML file, click **Create Identity Provider**.
 
 ### Default Attribute Mapping Policy
 
-A default Attribute Mapping Policy is generated when you create an Identity
+The system generates a default Attribute Mapping Policy when you create an Identity
 Provider by using the MyRackspace Portal or the Rackspace Identity Federation
-API. This policy shows the default attributes that are required for users
+API. This policy shows the default attributes required for users
 logging in to Rackspace, as shown in the following example:
 
     mapping:
@@ -144,9 +139,8 @@ logging in to Rackspace, as shown in the following example:
                     expire: {D}
         version: "RAX-1"
 
-However, you must customize the default Attribute Mapping Policy
-to use specific values before your users log in or are able
-to use Rackspace products and services.
+However, you must customize the default Attribute Mapping Policy to use specific
+values before your users log in or can use Rackspace products and services.
 
 **Note**: You must replace `roles` with `groups`.
 
@@ -173,9 +167,8 @@ policy](https://docs.rackspace.com/docs/cloud-identity/v2/api-reference/identity
 
 This section shows you how to edit your default Attribute Mapping Policy.
 
-We recommend that you start by reading [Attribute mapping
-
-basics](https://docs.rackspace.com/docs/rackspace-federation/config-attribute-mapping/full-roles/).
+We recommend that you start by reading
+[Attribute mapping basics](https://docs.rackspace.com/docs/rackspace-federation/config-attribute-mapping/full-roles/).
 
 ##### Required SAML attributes
 
@@ -193,9 +186,9 @@ Your Attribute Mapping Policy must contain the following information:
   </tr>
   <tr>
     <td>domain</td>
-    <td>The Identity or Account Domain that the Identity Provider is authorized to log users in to.</td>
+    <td>The Identity or Account Domain that the Identity Provider has authority to log users in to.</td>
     <td>Alphanumeric string</td>
-    <td width="40%">Must be set to your Identity Domain. <br />The domain is listed on the Identity Provider details page for your Identity Provider.</td>
+    <td width="40%">Set to your Identity Domain. <br />Find the domain listed on the Identity Provider details page for your Identity Provider.</td>
   </tr>
   <tr>
     <td>name</td>
@@ -214,7 +207,7 @@ Your Attribute Mapping Policy must contain the following information:
     <td>groups</td>
     <td>The Rackspace Identity user groups that you want to assign to the user.</td>
     <td>YAML array of alphanumeric strings</td>
-    <td>Identity user groups are self-defined in the MyRackspace Portal as having specific Dedicated permissions. For information about how to set up user groups, see <a href="manage-user-permissions-for-dedicated-hosting/">Manage user permissions for Dedicated Hosting</a></td>
+    <td>Identity user groups are self-defined in the MyRackspace Portal as having specific Dedicated permissions. For information about how to set up user groups, see <a href="manage-user-permissions-for-dedicated-hosting/">Manage user permissions for Rackspace Dedicated hosting</a></td>
   </tr>
   <tr>
     <td>expires</td>
@@ -226,8 +219,8 @@ Your Attribute Mapping Policy must contain the following information:
 
 #### Set values with Attribute Mapping
 
-You can set values either explicitly, or by using Attribute Mapping Policy
-language features such as substitutions or XPath.
+You can set values either explicitly or by using Attribute Mapping Policy
+language features, such as substitutions or XPath.
 
 The following example syntax uses inline substitutions in the local rule to
 concisely retrieve values and simplify the policy. There are additional ways
@@ -244,12 +237,12 @@ guide](https://docs.rackspace.com/docs/rackspace-federation/appendix/).
   </tr>
   <tr>
     <td>Default</td>
-    <td width="40%">Retrieves the value by looking for common locations or labels for the field. Only an attribute with the same name as the field is matched. For example, name: <code>"{D}"</code> matches the attribute with the name <code>name</code>.</td>
+    <td width="40%">Retrieves the value by looking for common locations or labels for the field. Matchs only an attribute with the same name as the field. For example, name: <code>"{D}"</code> matches the attribute with the name <code>name</code>.</td>
     <td><code>name: "{D}"</code></td>
   </tr>
   <tr>
     <td>Explicit</td>
-    <td>Directly input the values into the Attribute Mapping Policy fields. This is most useful for values that don't change for any federated user logging in, because they are applied to all federated users for this Identity Provider.</td>
+    <td>Directly input the values into the Attribute Mapping Policy fields. This is most useful for values that don't change for any federated user logging in because they apply to all federated users for this Identity Provider.</td>
     <td><code>expire: "PT12H"</code></td>
   </tr>
   <tr>
@@ -267,19 +260,18 @@ guide](https://docs.rackspace.com/docs/rackspace-federation/appendix/).
 #### Example policy with the required attributes
 
 The following Attribute Mapping Policy example uses explicit and SAML-provided
-values to map the required fields. Note that it is a basic example, and
-more customization might be required in some cases.
+values to map the required fields. You might need to customize this basic example.
 
     mapping:
      version: "RAX-1"
-      # Comments are allowed in YAML
+      # You can add comments in YAML
      rules:
      - local:
         user:
            domain: "636462353"
-           # Domain must be set to your Identity Domain
+           # Set the Domain to your Identity Domain
            name: "{D}"
-           #  Username will be set from element named "name" value in your SAML
+           #  Username comes from an element named "name" value in your SAML
            email: "{At(https://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress)}"
            #  Locates the attribute with the above URL as the claim type/name
            groups:
@@ -295,8 +287,8 @@ providers](https://docs.rackspace.com/docs/rackspace-federation/config-3p-saml/#
 
 #### Assign Rackspace permissions
 
-Rackspace Identity Federation for Dedicated Hosting manages access based on
-the groups that are defined in your corporate identity system. The following
+Rackspace Identity Federation for Rackspace Dedicated hosting manages access
+based on the groups defined in your corporate identity system. The following
 code shows you how to map Identity Provider groups to Rackspace Identity group
 roles:
 

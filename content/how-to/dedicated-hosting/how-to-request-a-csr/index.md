@@ -6,20 +6,21 @@ type: article
 created_date: '2021-04-15'
 created_by: Alexandra Soares
 last_modified_date: '2021-07-07'
-last_modified_by: Ana Corpus 
+last_modified_by: Cat Lookabaugh
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-This article explains how to create a ticket to generate a Certificate Signing Request (CSR).
+This article explains how to create a ticket to generate a Certificate Signing
+Request (CSR).
 
-### Create a ticket in MyRackspace portal
+### Create a ticket in the MyRackspace portal
 
 1. Log in to [MyRackspace Portal](https://login.rackspace.com/login) with your username and password.
 
-2. On the top navigation bar, choose **Select a Product** > **Dedicated Hosting**.
+2. On the top navigation bar, choose **Select a Product** > **Rackspace Dedicated**.
 
-3. Select **Tickets** > **Create Ticket**. The **Create New Ticket** page displays. 
+3. Select **Tickets** > **Create Ticket**. The **Create New Ticket** page displays.
 
 4. Select the **Subject** field.
 
@@ -27,13 +28,13 @@ This article explains how to create a ticket to generate a Certificate Signing R
 
    {{<image src="CSR1.png" alt="" title="">}}
 
-6. In the **Ticket Details** section, select a device from the drop-down menu. 
+6. In the **Ticket Details** section, select a device from the drop-down menu.
 
 7. Complete the following form:
 
    {{<image src="CSR2.png" alt="" title="">}}
-	
-9. Click **Create Ticket**.
+
+8. Click **Create Ticket**.
 
 Support generates the CSR for you and updates you in the ticket.
 

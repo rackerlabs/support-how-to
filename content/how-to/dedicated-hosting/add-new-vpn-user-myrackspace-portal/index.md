@@ -5,8 +5,8 @@ title: Add a new VPN user in the MyRackspace Portal
 type: article
 created_date: '2016-11-10'
 created_by: Trevor Becker
-last_modified_date: '2019-10-22'
-last_modified_by: Trevor Becker
+last_modified_date: '2021-07-07'
+last_modified_by: Cat Lookabaugh
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
@@ -20,7 +20,7 @@ template.
 1. Log in to the [MyRackspace Portal](https://login.rackspace.com) by using your
    username and password.
 
-2. In the top navigation bar, click **Select a Product > Dedicated Hosting**.
+2. In the top navigation bar, click **Select a Product > Rackspace Dedicated**.
 
 3. Select **Tickets > Create New Ticket**.
 
@@ -43,22 +43,22 @@ template.
 
    a. The VPN username is case-sensitive and requires at least three characters.
 
-   b. Do not include the question mark (?) or a space ( ) within the VPN username field.
+   b. Do not include a question mark (?) or space ( ) within the VPN username field.
 
-8. The **Generate Random Password** box is checked by default. If you want
+8. The **Generate Random Password** box shows as checked by default. If you want
    to add a custom password, uncheck this box.
 
-   After the box is unchecked, the custom password field displays.
+   After you uncheck the box, the custom password field displays.
 
    This password must have at least eight characters with uppercase, lowercase,
    numbers, and special characters.
 
 9. Click **Create Ticket** at the bottom of the page.
 
-   After the ticket is created, you are redirected back to your ticket list in
-   the MyRackspace Portal. Automation runs in the background while the ticket is
-   created, which typically takes less than a minute to complete. After you
-   refresh your browser, the ticket *Create New VPN User on Firewall Request (from template)*
+   After the ticket generates, you see your ticket list in
+   the MyRackspace Portal. Automation runs in the background while the ticket
+   generates, which typically takes less than a minute to complete. After you
+   refresh your browser, the ticket, *Create New VPN User on Firewall Request (from template)*,
    is in **Confirm Solved** status.
 
 10. Retrieve the password for your new VPN user by opening the ticket. The
