@@ -5,10 +5,8 @@ title: Export email address data from Outlook 2011 for Mac
 type: article
 created_date: '2017-09-07'
 created_by: William Loy
-last_modified_date: '2017-10-11'
-last_modified_by: Nate Archer
-product: Rackspace Email
-product_url: rackspace-email
+last_modified_date: '2021-07-08'
+last_modified_by: Rose Morales
 ---
 
 This article describes how to export a copy of your email address data from Outlook 2011 for Mac OS.
