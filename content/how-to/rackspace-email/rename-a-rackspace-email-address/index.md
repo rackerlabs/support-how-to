@@ -31,8 +31,11 @@ For a video tutorial of the following steps, see
 
 If the mailbox exists in a [local email client](/support/how-to/cloud-office-support-terminology)
 profile such as Outlook&reg; or Apple&reg; Mail, export the user's local profile
-and recreate it after renaming the email address. Exporting the
-profile before renaming the mailbox prevents mail data loss.
+and recreate it after renaming the email address.
+
+When you delete a mailbox the username will be unavailable for 14 days.
+
+Exporting the profile before renaming the mailbox prevents mail data loss.
 
 ### Rename a Rackspace email address
 
