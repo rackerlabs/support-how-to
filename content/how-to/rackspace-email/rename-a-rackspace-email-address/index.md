@@ -29,12 +29,12 @@ For a video tutorial of the following steps, see
 
 ### Before you begin
 
-If the mailbox is set up in a [local email client](/support/how-to/cloud-office-support-terminology)
-profile such as Outlook or Apple Mail, export the user's local profile and recreate it after
-email address renaming. Exporting the
-profile before renaming the mailbox prevents the loss of mail data.
+If the mailbox exists in a [local email client](/support/how-to/cloud-office-support-terminology)
+profile such as Outlook&reg; or Apple&reg; Mail, export the user's local profile
+and recreate it after renaming the email address. Exporting the
+profile before renaming the mailbox prevents mail data loss.
 
-### Rename a Rackspace Email Address
+### Rename a Rackspace email address
 
 1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/).
 
@@ -43,26 +43,27 @@ profile before renaming the mailbox prevents the loss of mail data.
 3. In the mailbox list, click the link for the email address that you want to
    rename.
 
-4. Click the **More** button, expanding the dropdown menu, and select **Rename
+4. Click **More**, expanding the drop-down menu, and select **Rename
    Email Address**.
 
-5. In the Rename Email Address dialog box, enter the user name, and then click
-   **Rename Email Address**. A confirmation message will appear with the banner
-   **Email Address Renamed!**, displaying the old email address and the new
-   email address.
+5. In the **Rename Email Address** dialog box, enter the user name, and click
+   **Rename Email Address**. A confirmation message appears with the banner
+   **Email Address Renamed!**, displaying the old and new email addresses.
 
-    **Note**: If you receive a `This email address is already taken` message, it
-    means the address is already in use as an alias, group list, distribution
-    list, or as a Microsoft Exchange mailbox on this domain. Try a different
+    **Note**: If you receive a **This email address is already taken** message,
+    the address is already in use as an alias, group list, distribution
+    list, or Microsoft Exchange mailbox on this domain. Try a different
     email address.
 
 6. Click **OK**.
 
 ### Update devices to connect to the renamed email address
 
-After you rename the email address, you must update all devices such as desktop
-computers and mobile phones to connect to the renamed mailbox. For steps, see
-Renamed Rackspace Email address setup guide.
-[Renamed Rackspace Email address setup guide](/support/how-to/renaming-a-rackspace-email-address-overview)
+After you rename the email address, you must update all devices, such as desktop
+computers and mobile phones, to connect to the renamed mailbox. For steps, see
+the [Renamed Rackspace Email address setup guide](/support/how-to/renaming-a-rackspace-email-address-overview).
 
-**Note:** We recommend logging in to [apps.rackspace.com](https://apps.rackspace.com/index.php) with the new mailbox address before you configure devices. If you are unable to log in, update the mailbox password before continuing. If you can't log in to the mailbox, see [Change a Rackspace Email mailbox password](/support/how-to/change-rackspace-email-mailbox-password/#change-a-password-through-cloud-office-control-panel).
+**Note:** We recommend logging in to [apps.rackspace.com](https://apps.rackspace.com/index.php)
+with the new mailbox address before you configure devices. If you can't log in, update the
+mailbox password before continuing. If you can't log in to the mailbox, see
+[Change a Rackspace Email mailbox password](/support/how-to/change-rackspace-email-mailbox-password/#change-a-password-through-cloud-office-control-panel).
