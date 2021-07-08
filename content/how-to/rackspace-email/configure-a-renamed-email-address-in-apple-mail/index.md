@@ -1,42 +1,44 @@
 ---
 permalink: configure-a-renamed-email-address-in-apple-mail
-audit_date: '2017-09-12'
+audit_date: '2021-07-02'
 title: Configure a renamed email address in Apple Mail
 type: article
 created_date: '2017-08-23'
 created_by: William Loy
-last_modified_date: '2018-12-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-07-02'
+last_modified_by: Rose Morales
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
-After you have renamed a Rackspace Email address, your email client will receive new mail only after you configure it to connect to the new email address. This article describes how to configure a renamed email address in Apple Mail.
+After you rename a Rackspace Email address, your email client receives
+new mail when you configure it to connect to the new email address. This
+article describes how to configure a renamed email address in Apple&reg; Mail.
 
 ### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy
-- **Time needed:** Approximately 20 minutes
-- **Tools required:**  Mailbox password and access to the email client that you want to receive mail in
+- **Time needed:** 20 minutes
+- **Tools required:**  Mailbox password and access to Apple Mail
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see
+[Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
-**Warning:** If the old email address connects via POP, you must migrate the POP data to an IMAP account so that no data is lost.
+**Warning:** If the old email address connects through POP, you must migrate the POP
+data to an IMAP account to avoid data loss.
 
 ### Configure mail settings
 
 1. Launch the Mail app.
 
-   If Mail is not in your dock, open search by pressing **Command (⌘) + Space**, and then type **Mail** in the search bar. Press enter to launch the Mail application.
+   If Mail is not in your dock, open search by pressing **Command (⌘) + Space**,
+   and then type **Mail** in the search bar. Press **Enter** to launch the Mail
+   application.
 
 2. In the upper-left corner of the menu bar, select **Mail > Add Account**.
 
-   {{<image src="mail_addaccountdropdown.png" alt="" title="">}}
-
-3. In the pop-up window, select **Other Mail Account**, and then click **Continue**.
-
-   {{<image src="accounttype_imap.png" alt="" title="">}}
+3. In the pop-up window, select **Other Mail Account** and click **Continue**.
 
 4. Enter the following information:
 
@@ -46,24 +48,27 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 5. Click **Sign In**.
 
-   An alert states that the mail client cannot verify your account name or password, and requires additional information.
-
-6. Enter the following information:
+6. An alert states that the mail client cannot verify your account name or
+   password. Enter the following information:
 
    - **Email Address:** Your renamed Rackspace Email address
    - **User Name:** Your renamed Rackspace Email address
    - **Password:** Your mailbox password
-   - **Account Type:** IMAP
-   - **Incoming Mail Server:** secure.emailsrvr.com
-   - **Outgoing Mail Server:** secure.emailsrvr.com
+   - **Account Type:** `IMAP`
+   - **Incoming Mail Server:** `secure.emailsrvr.com`
+   - **Outgoing Mail Server:** `secure.emailsrvr.com`
 
-   {{<image src="imap_serversettings.png" alt="" title="">}}
-
-   **Note:** Apple Mail typically clears the **User Name** field after values are entered in the **Incoming Mail Server** and **Outgoing Mail Server** fields. Ensure that the **User Name** field is filled in with your email address *after* you enter the server information and *before* you click **Sign in**.
+   **Note:** Apple Mail typically clears the **User Name** field after you enter
+   new values in the **Incoming Mail Server** and **Outgoing Mail Server**
+   fields. Ensure that the **User Name** field has content *after* you enter the
+   server information and *before* you click **Sign in**.
 
 7. Click **Sign in**.
-8. Select the appropriate synchronization options, and then click **Done**.
+
+8. Select the appropriate synchronization options and click **Done**.
 
    **Note:** You can use the default settings.
 
-**Warning:** You must configure your Mac to synchronize various IMAP folders and prevent duplicate folder creation. This is called **Folder Mapping**. For instructions, see [Sync IMAP folders for new accounts in Apple Mail](/support/how-to/synchronize-imap-folders-for-new-accounts-in-apple-mail/) for instructions.
+**Warning:** Configure your Mac to synchronize more than one IMAP folder,
+**Folder Mapping** and prevent duplicate folder creation. For instructions, see
+[Sync IMAP folders for new accounts in Apple Mail](/support/how-to/synchronize-imap-folders-for-new-accounts-in-apple-mail/).
