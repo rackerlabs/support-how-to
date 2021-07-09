@@ -70,7 +70,7 @@ that meets the following conditions:
 
 -   The account is active and up to date on all billing invoices.
 -   No Cloud Servers on the account run on unsupported operating systems.
--   No Cloud Server images on the account fnr unsupported
+-   No Cloud Server images exist on the account for unsupported
     operating systems.
 
 A technical account manager can ensure that Managed
@@ -104,7 +104,7 @@ managed service at the lowest possible cost.
 ### Is the account fee assessed with only partial-month usage of a managed Cloud Server, or is it prorated?
 
 We do not prorate the account fee. However, the service fee is a
-utility-based fee that bills for only the amount of time that your
+utility-based fee that bills only the amount of time that your
 instance is active.
 
 ### Does the Rackspace Support team automatically scale Cloud Servers if necessary?
