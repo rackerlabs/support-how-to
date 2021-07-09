@@ -12,9 +12,8 @@ product_url: rackspace-email
 ---
 
 This article describes when you might want to export or import email address
-data by using Microsoft Outlook&reg; and includes links to articles with
-instructions for different Outlook versions on both Windows&reg; and Mac
-OS&reg;.
+data by using Microsoft&reg; Outlook&reg; and includes links to articles with
+instructions for different Outlook versions on both Windows&reg; and macOS&reg;.
 
 ### Prerequisites
 
@@ -29,11 +28,11 @@ For more information about prerequisite terminology, see
 
 ### Export or import email address data
 
-Some of the scenarios where is useful to import or export email address data
+Some of the scenarios where it is useful to import or export email address data
 from your Outlook mail client include:
 
 - Renaming a Rackspace Email address
-- Migration to Microsoft Exchange or Office 365
+- Migration to Microsoft Exchange&reg; or Office 365&reg;
 - Converting a POP account to IMAP
 - Transferring local data to a new device
 - Backing up critical data
@@ -43,8 +42,8 @@ making major changes to your email address. After you verify that you have
 properly exported your email address data, you can make needed changes and then
 import the data again.
 
-Following are instructions for exporting and importing email address data by
-using Outlook. Select your version of Outlook for specific instructions.
+Select your version of Outlook for the following specific instructions for
+exporting and importing email address data by using Outlook:
 
 #### Export email address data
 
