@@ -19,18 +19,17 @@ provides an additional level of support and management that includes
 monitoring, operating system layer support, and technical guidance for
 your Rackspace Cloud portfolio.
 
-### What is included with a Rackspace Managed Operations account?
+### What does a Rackspace Managed Operations account include?
 
 Managed Operations accounts include access to a dedicated support team
-that is available 24x7x365 by phone, chat, email, and online support ticket.
-The team supports your Cloud Servers from the operating system level up
-through the application stack of Microsoft&reg; SQL Server&trade;, .NET,
+available 24x7x365 by phone, chat, email, and online support ticket.
+The team supports your Cloud Servers from the operating system level
+through the application stack of Microsoft&reg; SQL Server&trade;, .NET&reg;,
 and Internet Information Services (IIS), as well as the
-Linux&reg;, Apache&reg;, MySQL&reg;, and PHP (LAMP) stack on Linux.
+Linux&reg;, Apache&reg;, MySQL&reg;, and PHP (LAMP) stack on Linux&reg;.
 Rackspace regularly patches and updates your Cloud Server. We also manage your
-[Cloud
-Databases](https://www.rackspace.com/cloud/public/databases/) and provide
-basic database administrator assistance such as user and table
+[Cloud Databases](https://www.rackspace.com/cloud/public/databases/) and provide
+basic database administrator assistance, such as user and table
 management and data backups. The Managed Operations team provides monitoring
 services and proactively responds to any alerts. As a Managed Operations
 customer, you can configure up to eight monitors per server with any
@@ -43,11 +42,11 @@ see [Linux
 Spheres of Support for Dedicated and Managed
 Operations](/support/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops).
 
-**Note:** For information about support for Windows, see [Cloud Servers
+For information about support for Windows&reg;, see [Cloud Servers
 with Managed Operations Support for
 Windows](/support/how-to/cloud-servers-with-managed-operations-support-for-windows).
 
-### Does my server's IP address or hostname change when I upgrade?
+### Does my server IP address or hostname change when I upgrade?
 
 No, upgrading to a Managed Operations account doesn't change server Internet
 Protocol (IP) addresses or hostname. It also doesn't change server IDs, your
@@ -66,12 +65,12 @@ In either case, we update, patch, and run the instance for you.
 
 ### Who is eligible to upgrade?
 
-To upgrade to a Rackspace Managed Operations account, your account must
-meet the following conditions:
+To upgrade to a Rackspace Managed Operations account, you must have an account
+that meets the following conditions:
 
 -   The account is active and up to date on all billing invoices.
 -   No Cloud Servers on the account run on unsupported operating systems.
--   No Cloud Server images on the account are built on unsupported
+-   No Cloud Server images on the account fnr unsupported
     operating systems.
 
 A technical account manager can ensure that Managed
@@ -80,17 +79,15 @@ Operations is the best fit for your needs.
 ### What does a Rackspace Managed Operations account cost?
 
 After you create a Cloud Server or Cloud Database on a Managed
-Operations account, a flat monthly account fee is assessed when at
+Operations account, we apply a flat monthly account fee when at
 least one instance on the account is active or used during that month.
-For more pricing information, see the following web pages:
+For more pricing information, see the following information:
 
--   [Managed Operations product pricing
-    page](https://www.rackspace.com/cloud/public) (USA)
--   [Managed Operations product pricing
-    page](https://www.rackspace.co.uk/cloud/servers/pricing) (UK)
+-   [Managed Operations product pricing](https://www.rackspace.com/cloud/public) (USA)
+-   [Managed Operations product pricing](https://www.rackspace.co.uk/cloud/servers/pricing) (UK)
 
-You can also use the [Rackspace Cloud Price
-Calculator](https://www.rackspace.com/calculator/) to estimate your costs.
+You can also use the [Rackspace Cloud Price Calculator](https://www.rackspace.com/calculator/)
+to estimate your costs.
 
 **Note**: To get pricing information for Cloud Servers with Managed Operations,
 ensure that you check the **Managed Operations: SysOps** box in the lower-left
@@ -98,22 +95,22 @@ corner of the screen.
 
 ### Why is there an account fee as well as a per-instance service fee?
 
-Rackspace Technology determines the monthly individual account fee, this
+Rackspace Technology determines the monthly individual account fee, which
 covers the monthly account administration. Every Cloud Server or Database
-instance incurs in a service fee that represents the administration of each server
+instance incurs a service fee that represents the administration of each server
 instance. This fee structure enables Rackspace to provide you with our
 managed service at the lowest possible cost.
 
 ### Is the account fee assessed with only partial-month usage of a managed Cloud Server, or is it prorated?
 
-The account fee is not prorated. However, the service fee is a
-utility-based fee that is only billed for the amount of time that your
+We do not prorate the account fee. However, the service fee is a
+utility-based fee that bills for only the amount of time that your
 instance is active.
 
 ### Does the Rackspace Support team automatically scale Cloud Servers if necessary?
 
 Not at this time. However, if you notice issues or have questions about
-capacity, your Rackspace Account team will work with you and recommend
+capacity, your Rackspace Account team can work with you and recommend
 solutions.
 
 ### Does Rackspace troubleshoot program code for customers?
@@ -152,13 +149,13 @@ During the upgrade process, Rackspace performs the following steps:
 - If necessary, installs the vendor-provided kernel and prepare for updates.
 
 **Note**: Because rebooting a server during the upgrade process might cause
-problems, you should make an image of each server before an upgrade.
+problems, you should image each server before an upgrade.
 Rackspace does not perform this step for you. You should also ensure that all
 of your services (such as MySQL) restart upon reboot before you upgrade.
 
- In addition, you need to open port 445 for Microsoft Windows&reg; or port
- 22 for Linux for the automation to run successfully. Rackspace
- can only open ports manually after you associate a server to a Managed
+ In addition, you need to open port `445` for Microsoft Windows&reg; or port
+ `22` for Linux for the automation to run successfully. Rackspace
+ can open ports manually only after you associate a server to a Managed
  Operations account.
 
 We recommend that you work with your account manager (AM) throughout the
@@ -168,9 +165,9 @@ AM:
 
 1. If an automated server upgrade fails, an administrator must log in and
    complete the work.
-2. The automation occurs on port 22 on Linux and port 445 on Windows. If these
-   ports are inactive, the server automation process fails but the account still
-   upgrades. If you don't want to use port 22 or 443, Rackspace can make a
+2. The automation occurs on port `22` on Linux and port `445` on Windows. If these
+   ports are inactive, the server automation process fails, but the account still
+   upgrades. If you don't want to use port `22` or `443`, Rackspace can make a
    manual change that enables you to rerun the automation on a different port.
 3. If you have older servers that run operating systems that Managed
    Operations doesn't support, an AM can provide you with options for moving
@@ -183,7 +180,7 @@ AM:
 When this occurs, the process includes a hand-off from your current AM to your
 new AM.
 
-### As a Rackspace customer, can I link my Managed Services configuration and account to a Cloud Server that has a Managed Operations configuration and account?
+### As a Rackspace customer, can I link my Managed Services configuration and account to a Cloud Server with a Managed Operations configuration and account?
 
 Yes, the process is similar to the process you use to link your Managed
 Hosting accounts and your cloud accounts.
@@ -191,7 +188,7 @@ Hosting accounts and your cloud accounts.
 ### How do I contact my Rackspace Managed Operations account team?
 
 You can contact the Rackspace Managed Operations account team by chat,
-phone, or by submitting a ticket online. You can find the phone number and
+phone, or submitting a ticket online. You can find the phone number and
 links to other communication methods in the [Cloud Control
 Panel](https://login.rackspace.com).
 
@@ -202,4 +199,4 @@ If you want to remove the managed service, you need to create a new account
 and build new Cloud Servers and Cloud Databases.
 
 Use the Feedback tab to make any comments or ask questions. You can also click
-**Contact Us** to [start the conversation](https://www.rackspace.com/). 
+**Contact Us** to [start the conversation](https://www.rackspace.com/).
