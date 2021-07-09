@@ -9,18 +9,20 @@ last_modified_date: '2021-07-08'
 last_modified_by: Rose Morales
 ---
 
-This article describes how to export a copy of your email address data from Outlook 2011 for Mac OS.
+This article describes how to export a copy of your email address data from Outlook&reg; 2011 for macOS&reg;.
 
 ### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy
-- **Time needed:**  Dependent on amount of data being exported
+- **Time needed:**  Dependent on the amount of data you're exporting
 - **Tools required:**  Access to the Outlook account from which you want to export
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
-If you need to export or import email address data from a different Outlook version, see [Export and Import email address data using Outlook](/support/how-to/export-and-import-email-address-data-using-outlook) for a list of all version articles.
+If you need to export or import email address data from a different Outlook version, see
+[Export and Import email address data using Outlook](/support/how-to/export-and-import-email-address-data-using-outlook)
+for a list of all version articles.
 
 ### Export email address data
 
@@ -28,13 +30,16 @@ If you need to export or import email address data from a different Outlook vers
 
    {{<image src="file_export2011.png" alt="" title="">}}
    
-   The Export window displays.
+   The **Export** window displays.
 
-2. In the Export window, select **Outlook for Mac Data File(.olm)**, and then check off all of the items that you want to export. Click the right arrow in the lower right corner to continue.
+2. In the **Export** window, select **Outlook for Mac Data File(.olm)**, and then check
+   all the items that you want to export. Click the right arrow in the lower-right corner to continue.
 
     {{<image src="items_export2011.png" alt="" title="">}}
 
-3. A dialog window appears asking if you want to delete items from Outlook after exporting. We do not recommend deleting anything. Select **No, do not delete items** and click the right arrow in the lower right corner to continue.
+3. A dialog window appears asking if you want to delete items from Outlook after exporting.
+   We recommend deleting nothing. Select **No, do not delete items**, and click the right arrow
+   in the lower-right corner to continue.
 
     {{<image src="delete_export2011.png" alt="" title="">}}
 
@@ -42,8 +47,9 @@ If you need to export or import email address data from a different Outlook vers
 
     {{<image src="save_as2011.png" alt="" title="">}}
 
-5. A box will appear with the message **Outlook has finished exporting your data.**. Click **Done**.
+5. A box appears with the message **Outlook has finished exporting your data.**. Click **Done**.
 
     {{<image src="export_complete2011.png" alt="" title="">}}
 
-If you need to import email address data into Outlook 2011 for Mac, see [Import email address data into Outlook 2011 for Mac](/support/how-to/import-email-address-data-into-outlook-2011-for-mac).
+If you need to import email address data into Outlook 2011 for Mac, see
+[Import email address data into Outlook 2011 for Mac](/support/how-to/import-email-address-data-into-outlook-2011-for-mac).
