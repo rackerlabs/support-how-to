@@ -5,36 +5,37 @@ title: Install IMAP for PHP 7.1 on Ubuntu
 type: article
 created_date: '2021-06-23'
 created_by: Alfonso Murillo
-last_modified_date: '2021-06-23'
-last_modified_by: Alfonso Murillo
+last_modified_date: '2021-07-12'
+last_modified_by: Ana Corpus
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-# Install IMAP on Ubuntu for PHP 7.1
-The Internet Message Access-Protocol (IMAP) allows to access email messages from anywhere in an efficient way, by storing these messages on servers and downloading them just when you need to open them. IMAP works as an intermediate between the emails servers and clients.
+The Internet Message Access-Protocol (IMAP) allows to access email messages from anywhere in an efficient way. IMAP stores these messages on servers and downloads them on demand. IMAP works as an intermediate between the emails servers and clients.
 
-PHP offers an IMAP extension that allows to connect to a mailbox by POP3, IMAP and NNTP. This article covers the installation of IMAP on an Ubuntu server for PHP 7.1.
+PHP offers an IMAP extension to connect to a mailbox by using POP3, IMAP and NNTP protocols. This article covers the installation of IMAP on an Ubuntu server for PHP 7.1.
 
-## Check if PGP IMAP in installed
-An easy way of obtaining the IMAP installation information is by creating a PHP file with any name (avoid using *phpinfo.php* since that is a common name searched by hackers) and writing the following:
+### Verify PGP IMAP installation
 
-```
-<?php
-phpinfo();
-?>
-```
+- Create a  file and add the following lines:
 
-When you access this new file you will see all PHP information. Search on that page for IMAP information, if it is not shown you will need to proceed to install the module.
+  ```
+    <?php
+    phpinfo();
+    ?>
+  ```
+- Save the file with any name and the **php** extension.
+**Note:** Don't use name **phpinfo.php**. It  is a common name searched by hackers.
 
-## Install IMAP
-For installing IMAP on Ubuntu for PHP 7.1 you will need to execute the following command:
+- When you access the new file, you can see all PHP information. Search for IMAP information. If it is not in the file, proceed to install the module.
 
-`sudo apt install php7.1-imap`
+### Install IMAP
+- Enter the following command to install IMAP for PHP 7.1 on Ubuntu&reg;:
 
-For this new package to work you might need to restart the server. In case of an Apache server you can run:
+  `sudo apt install php7.1-imap`
 
-`sudo systemctl restart apache2`
+- Restart the server. If the server is an Apache&reg; server, enter the following command:
 
-## Conclusions
-With the simple steps shown on this article you will be able to determine if you have an IMAP package already installed and, if not, you can install it for PHP 7.1 running on Ubuntu.
+   `sudo systemctl restart apache2`
+
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).

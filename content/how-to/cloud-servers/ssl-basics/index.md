@@ -1,150 +1,132 @@
 ---
-permalink: ssl-basics/
+permalink: ssl-basics
 title: SSL Basics
 type: article
 created_by: Coral Moore
-created_date: 2021-04-26
-last_modified_date: 
-last_modified_by: 
+created_date: '2021-04-26'
+last_modified_date: '2021-07-12'
+last_modified_by: Ana Corpus
 audit_date: cloud-servers
 cloud_product: cloud-servers
 ---
 
-# SSL Basics
-*For understanding SSLs, what they are, how they work, and how to get, install, and check them.*
+Secure Socket Layer (SSL) encrypts all sensitive data travelling between a client and a server. A website that uses SSL displays a padlock symbol in the browser, which you can click to see more information.
 
-# What are SSLs?
-++Short answer:++
-Encrypt your sensitive data when it's travelling between your computer and the company server
+SSL has four layers of encryption:
 
-++Long answer:++
-SSL stands for Secure Socket Layer.
+  * **CSR:** The Certificate Signing Request contains information about your domain, your business, and what SSL covers for you. 
+  
+  * **Key:** Generated along with the CSR.
+  
+  * **Cert:** A Certificate.
+  
+  * **CA:** The Certificate Authority.
 
-When you log in to your favourite website and make a purchase, you often need to send sensitive data like your payment information.
-To keep your data safe from untrustworthy types, that web site can wrap your data up in a locked packet of encryption.
-So that only you the sender and the web site have a copy of your details.
-To check this, in your browser, any site with SSL correctly installed should show a small padlock symbol which you can click on to get more information.
-
-### What are SSLs comprised of?
-There are 4 layers of encryption involved!
-   **CSR**     Certificate Signing Request, containing information about your business, your domain, and what you need your SSL to cover
-   **Key**      Generated along with the CSR
-   **Cert**     The certificate
-   **CA**       Certificate Authority
-
-# How to get an SSL
-### Main SSL Choices:
-Method | Advantages
+There are several SSL vendors, for example: 
+Vendor | Advantages
 -|-
-Let'sEncrypt | Free, lasts 6 months
-Purchase through Rackspace | Extra secure, lasts 1-2 years, easy
-Purchase directly with an SSL company | Extra secure, lasts 1-2 years
+Let's Encrypt&reg; | Free, lasts 6 months.
+Rackspace&reg; | Extra secure, lasts 1-2 years, easy to use
+Purchase directly with an SSL vendor | Extra secure, lasts 1-2 years.
 
-### Free vs Purchase
-Your first decision will be if you want a free SSL, or if you would like to purchase one from an SSL vendor.
+Decide whether you want a free SSL, or whether you want to purchase one from an SSL vendor.
 
-If you just need the encryption, you can use a software called Let'sEncrypt to generate your SSL for free.
-Let'sEncrypt is a non-profit certificate authority which provides 90 day long certificates during which renewal can take place at any time.
-So they are free, but would need to be renewed more regularly.
+If you just need the encryption, you can use a software called **Let's Encrypt** to generate an SSL certificate for free. **Let's Encrypt** is a non-profit certificate authority which provides 90 day-long certificates during which renewal can take place at any time.
 
-However if you need further security for things like PCI (Payment Card Industry) compliance, you would likely need to purchase an SSL from an SSL vendor like Thawte or Verisign.
-These SSL companies not only provide you with the SSL, but they first run security checks that your business is legitimate, and that you own it.
-And the little padlock in people's browsers will show that they have verified your business as an extra security measure.
-Each SSL has it's own costs depending on the level of security needed, and typically last for a year or two.
+If you need more security to comply with the Payment Card Industry (PCI), you need to purchase an SSL certificate from a vendor like Thawte&reg; or Verisign&reg;. These SSL companies, apart from providing you an SSL certificate, verify that your business is legitimate and that you own it.
 
-***Note:*** If you need an SSL quickly, the cheaper ones are the quicker ones to process as they take less security checks.
-Part of those checks will usually involve the SSL vendor contacting you by phone or email.
-So be sure to check those (including your junk folder) and respond as soon as you can to speed up the process.
+The padlock in the browser show people accessing your website that your business has been verified, which is an extra security measure. This service varies in costs, depending on the level of security needed, and typically lasts for a year or two.
 
-# Purchase through Rackspace
-If you have a Dedicated account with at least one active Linux® or Windows® dedicated server, you can purchase your SSL through Rackspace!
-The main advantage here is that we handle most of the process for you.
-From generating the initial CSR, communicating with the SSL vendor, keeping the necessary encryption files safe, installing the SSL, adding the cost to your next monthly invoice, and reminding you via ticket when it is due for renewal.
+If you need an SSL certificate quickly, purchase a cost-effective SSL certificate because they make less security checks. Part of those security checks involve the SSL vendor contacting you by phone or email. Check the email regularly and respond as soon as you can to speed the process.
 
-### How to Purchase
-You can peruse, price and purchase the available SSLs in [my.rackspace.com](http://my.rackspace.com) under:
-&emsp;&emsp;Network  - at the top of the page
-&emsp;&emsp;SSL Certificates
-&emsp;&emsp;Actions
-&emsp;&emsp;Purchase certificate
+### Purchase through Rackspace
 
-Once this has gone through, the third party can process it while we keep you updated with their results.
-You will get an email from them which you will need to reply to before they can complete this.
-Then, when the SSL is ready, they will pass it to us, and we can either pass it to you (at your request) or install it for you.
+If you have a dedicated account with at least one active Linux® or Windows® dedicated server, you can purchase your SSL certificate through Rackspace.
 
-# Purchase directly from an SSL Company
-If you are purchasing a new SSL directly from an SSL vendor, you will first need to generate a CSR (certificate signing request)
-It's an encrypted block of text which includes information about your business, your domain, and your public key to pass over to the SSL company.
-They then make your SSL from it.
+We handle most of the process for you: 
+  - We generate the initial CSR. 
+  - Communicate with the SSL vendor. 
+  - Keep the encryption files. 
+  - Install the SSL certificate. 
+  - Remind you via a ticket when the SSL certificate is due for renewal.
 
-You will not need a CSR if you are:
- - Using the free Let'sEncrypt (automatically generates one for you)
- - Purchasing through Rackspace (we automatically generate one for you)
- - Renewing your SSL with all of the same details like company name, domain etc. (the previous CSR would apply)
+To purchase a certificate:
 
+  - Go to [my.rackspace.com](http://my.rackspace.com).
+  - Select **Network** at the top of the page.
+  - Select **SSL Certificates > Actions > Purchase Certificate**
+
+You will get an email from the SSL vendor which you need to reply to continue the process. We receive the SSL certificate, and you decide whether Rackspace or you install the certificate.
+
+### Purchase from an SSL vendor
+
+If you purchase an SSL certificate from an SSL vendor, generate a CSR. A CSR is a file with encrypted text which includes information about your business, your domain, and a public key for the SSL vendor.
+
+**Note:** You don't need a CSR if you renew the SSL certificate and the previous information is still valid.
 ### How to generate a CSR
-- If you have a Cloud account, please use our [CSR Generator.](https://csrgenerator.rackspace.com)
-- If you would like to generate one yourself, please use [this guide.](https://docs.rackspace.com/support/how-to/generate-a-csr)
-- Or if you would like Rackspace to generate one for you, please log a ticket with the following details:
 
-&emsp;&emsp;Common Name (example.com):       
-&emsp;&emsp;Include "www" and "non-www"?:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Y/N
-&emsp;&emsp;Alternative Names?:                
-&emsp;&emsp;Organization:                       
-&emsp;&emsp;Locality (city):               
-&emsp;&emsp;State (full name):               
-&emsp;&emsp;Country Name (2 letter code):      
+You can generate a CSR in the following ways:
 
-`When a CSR is generated, a key is made with it.`
-**`SAVE the key!`**
-`It can't be retrieved later, and the SSL won't work without it!`
+  - If you have a Cloud account, use our [CSR Generator](https://csrgenerator.rackspace.com).
 
-You can then use this CSR to take to any SSL vendor you choose and purchase your SSL.
+  - If you want to generate the CSR, use [this guide](https://docs.rackspace.com/support/how-to/generate-a-csr).
+  - If you want Rackspace to generate sn SSL certificate for you, log a ticket with the following details: 
 
-For more information on these options, please [visit this page.](https://docs.rackspace.com/support/how-to/purchase-or-renew-an-ssl-certificate)
+     - Common Name (example.com)       
+     - Include "www" and "non-www"?
+     - Y/N
+     - Alternative Names               
+     - Organization                       
+     - Locality (city)              
+     - State (full name)              
+     - Country Name (2 letter code)      
 
-# SSL Verification
-Once an SSL has been purchased (either through Rackspace or directly) , the SSL vendor will run their security checks.
-*Is your company real? Are you who you say you are? Do you own this business?*
-And they will AT LEAST send you an email which you will need to respond to.
-More expensive SSLs usually involve more security checks.
+The CSR generates a key. ***Ensure to save the key***, as it can't be retrieved later, and SSL doesn't work without it. Use the CSR to purchase your SSL certificate.
 
-# Installation:
-Once the SSL vendor has provided the SSL certificate, this along with the key and CA will need to be uploaded somewhere.
+For more information, [visit this page.](https://docs.rackspace.com/support/how-to/purchase-or-renew-an-ssl-certificate)
 
-***Note:*** Please remember that all three components are needed for a full installation.
-    **Key** - Generated with the original CSR. Can be retrieved from a previous installation if you are only renewing your SSL.
-    **Certificate** - Provided by the SSL vendor
-    **CA** - Rackspace can retrieve this for you if you have the Key and Certificate.
+### SSL Verification
 
-### How to Find Your Private Key
-- IF none of your company details have changed and you are renewing your SSL, your key can be retrieved from your previous SSL.
-- IF you created your CSR on your server, then your private key is already on your machine and you should not need to import it.
-- IF you created your CSR using an online tool, then you should have saved your private key on your local machine and can go back and retrieve it to complete your installation.
-- IF you asked Rackspace to create the CSR, please reference the ticket, as we should have it saved there.
+The SSL vendor will provide the SSL certificate, the key, and CA after it completes the security checks. These components are required for a complete installation.
 
-### If You Can't Find Your Private Key
-Private keys are only created when a new CSR is generated. The CSR and the Private Key are a pair.
-If you are not able to find your original Private Key, then you will need to create a new CSR (or ask us to) and re-issue (or re-key) your SSL certificate from your account with your SSL vendor.
-**Please Note:** To re-issue your SSL, some validation steps may need to be completed again.
+   - **Key** - Generated with the original CSR. Can be retrieved from a previous installation if you are only renewing your SSL.
 
-[How to install an SSL on your server](https://docs.rackspace.com/support/how-to/install-an-ssl-certificate)
+   - **Certificate** - Provided by the SSL vendor.
 
-[How to install a new SSL on a Cloud Load Balancer.](https://support.rackspace.com/how-to/configure-SSL-certificates-on-cloud-load-balancers)
-[How to configure multiple SSLs on a Cloud Load Balancer.](https://support.rackspace.com/how-to/configure-multiple-SSL-certificates-on-cloud-load-balancers)
-[How to force web traffic to SSL with HTTPS Redirect.](https://docs.rackspace.com/support/how-to/configure-a-load-balancer#additional-configuration-options)
+   - **CA** - Rackspace can retrieve this for you if you have the key and certificate.
 
-If you need your SSL installed on your hardware firewall, please raise a support ticket with your request.
+Where to find your private key:
 
-# Check an SSL
-The easiest way to check an SSL is to load up the site, click on the padlock in your browser, and there should be an option to see more information.
+  - You can retrieve your key from your previous SSL certificate if it is a renewal and the company details haven't changed.
 
-If you would like to use a Linux command, this can also be done with curl:
+  - If you created the CSR in your server, the key should be in the server.
+
+  - If you created the CSR with an online tool, the key should be stored in the server.
+ 
+  - If Rackspace created the CSR, find the key in the ticket.
+
+Without the key, you need to start another process to obtain an SSL certificate. 
+
+### Verify the SSL certificate installation
+
+You can visit your website, and click on the padlock in your browser. There should be an option to see more information.
+
+You can verify the installation with **curl**: 
+
 ```sh
 $ curl -vI https://example.com 2>&1 | egrep 'start|expire|common|issuer|OK'
-*       start date: Aug 21 00:00:00 2019 GMT
+ *       start date: Aug 21 00:00:00 2019 GMT
  *       expire date: Sep 19 12:00:00 2020 GMT
  *       common name: example.com
  *       issuer: CN=RapidSSL RSA CA 2018,OU=www.digicert.com,O=DigiCert Inc,C=US
  < HTTP/1.1 200 OK
  ```
+
+**Note:** If you need the SSL certificate installed on your hardware firewall, raise a support ticket.
+
+Further references: 
+
+[How to install an SSL on your server.](https://docs.rackspace.com/support/how-to/install-an-ssl-certificate)
+[How to install a new SSL on a Cloud Load Balancer.](https://support.rackspace.com/how-to/configure-SSL-certificates-on-cloud-load-balancers)
+[How to configure multiple SSLs on a Cloud Load Balancer.](https://support.rackspace.com/how-to/configure-multiple-SSL-certificates-on-cloud-load-balancers)
+[How to force web traffic to SSL with HTTPS Redirect.](https://docs.rackspace.com/support/how-to/configure-a-load-balancer#additional-configuration-options)
