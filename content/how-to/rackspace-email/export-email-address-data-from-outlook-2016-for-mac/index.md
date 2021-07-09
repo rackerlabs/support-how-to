@@ -39,7 +39,7 @@ for a list of all version articles.
 3. Enter a name for the file, and then click the expand arrow to choose a
    location in which to save the file.
 
-    {{<image src="audit-export2016.png" alt="" title="">}}
+    {{<image src="macOS-Export.png" alt="" title="">}}
 
 4. Click **Finish**.
 
