@@ -9,7 +9,7 @@ last_modified_date: '2021-07-08'
 last_modified_by: Rose Morales
 ---
 
-This article describes how to import a copy of your email address data into Outlook 2010 for Windows.
+This article describes how to import a copy of your email address data into Outlook&reg; 2010 for Windows&reg;.
 
 ### Prerequisites
 
@@ -29,17 +29,17 @@ If you need to export or import email address data from a different Outlook vers
 1. In Outlook 2010, click **File > Options**.
     {{<image src="file_options2010.png" alt="" title="">}}
 
-2. In the Outlook Options window, click **Advanced**.
+2. In the **Outlook Options** window, click **Advanced**.
 
     {{<image src="advanced2010.png" alt="" title="">}}
 
-3. In the Export section, click **Export**.
+3. In the **Export** section, click **Export**.
 
     {{<image src="export2010.png" alt="" title="">}}
     
-    The Import and Export Wizard launches.
+    The **Import and Export** wizard launches.
 
-4. In the Import and Export Wizard, click **Import from a file**, and then click **Next**.
+4. In the **Import and Export** wizard, click **Import from a file**, and then click **Next**.
 
     {{<image src="import_from_a_file2010.png" alt="" title="">}}
 
