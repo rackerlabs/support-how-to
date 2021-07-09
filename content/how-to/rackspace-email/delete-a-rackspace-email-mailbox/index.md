@@ -1,79 +1,79 @@
 ---
 permalink: delete-a-rackspace-email-mailbox
-audit_date: '2017-07-14'
+audit_date: '2021-07-09'
 title: Delete a Rackspace Email mailbox
 type: article
 created_date: '2017-06-09'
 created_by: William Loy
-last_modified_date: '2018-12-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2021-07-09'
+last_modified_by: Rose Morales
 product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article explains how to delete a Rackspace email mailbox in your Cloud Office Control Panel.
+This article explains how to delete a Rackspace email mailbox in your Cloud
+Office Control Panel.
 
 ### Prerequisites
 
 - **Applies to:** Administrator
 - **Difficulty:** Easy
-- **Time needed:** Approximately 5 minutes
+- **Time needed:** 5 minutes
 - **Tools required:**  Cloud Office Control Panel access
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
-
+For more information about prerequisite terminology, see
+[Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
 ### Block access versus delete
 
-It is important to know the difference between blocking access to a mailbox and deleting a mailbox.
+Some of the differences between blocking access to a mailbox and deleting a
+mailbox include the following ones:
 
-- Blocking access to a mailbox prevents users from accessing the mailbox. When mailbox access is blocked, it remains on your account and you continue to be billed for that mailbox. The mailbox retains its previous data and receives new mail sent to it.
+- Blocking a mailbox prevents users from accessing it. It remains on your
+  account, and you continue getting billed for that mailbox while retaining its
+  previous data and receiving new mail sent to it.
 
-- Deleting a mailbox removes that mailbox and all of its data from Rackspace's servers.
+- Deleting a mailbox removes that mailbox and all its data from the Rackspace
+  servers.
 
-If you need any of the data in the mailbox, you must export the data before you delete the mailbox. Data exports must be performed through a [local mail client](/support/how-to/cloud-office-support-terminology), such as Outlook.
+If you need any of the data in the mailbox, you must export it before
+deletion, performing the data export through a
+[local mail client](/support/how-to/cloud-office-support-terminology), such as Outlook&reg;.
 
 ### Delete a mailbox
 
-1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using your Rackspace Cloud Office admin ID and password.
-2. In the Rackspace Email section, click **Mailboxes**.
+Perform the following steps to delete a mailbox:
 
-   {{<image src="add-mailbox-sc1.png" alt="" title="">}}
-
-3. If you have multiple domains, select the domain that contains the mailbox that you want to delete.
-4. Click the name of the mailbox you want to delete.
-
-    {{<image src="click_username.png" alt="" title="">}}
-
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by
+   using your Rackspace Cloud Office admin ID and password.
+2. In the **Rackspace Email** section, click **Mailboxes**.
+3. If you have more than one domain, select the domain that contains the mailbox
+   that you want to delete.
+4. Click **Manage** to the right of the mailbox you want to delete.
 5. Click **DELETE MAILBOX** in the upper-right corner.
+6. A pop-up message appears informing you of what services and data the operation deletes.
+   After you review the information and want to continue deleting the
+   mailbox, click **YES, DELETE MAILBOX**.
 
-    {{<image src="delete_button.png" alt="" title="">}}
-
-6. A pop up appears informing you of what services and data will be deleted. After you review the information and want to continue with deleting the mailbox click **YES, DELETE MAILBOX**.
-
-    {{<image src="yes_delete.png" alt="" title="">}}
-
-    **Warning:** A deleted mailbox can be recovered for up to 14 days. For instructions, see [Recover a deleted mailbox](/support/how-to/recover-a-deleted-rackspace-email-mailbox/).
-
-7. You are returned to the mailbox list where you can see that the mailbox has been removed from the list.
+    **Warning:** You can recover a deleted mailbox for up to 14 days. For
+    instructions, see [Recover a deleted mailbox](/support/how-to/recover-a-deleted-rackspace-email-mailbox/).
+7. The mailbox list displays, and you can see that the mailbox is no longer on
+   the list.
 
 ### Delete multiple mailboxes
 
-1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using your Rackspace Cloud Office admin ID and password.
-2. In the Rackspace Email section, click **Mailboxes**.
+Perform the following steps to delete multiple mailboxes:
 
-   {{<image src="add-mailbox-sc1.png" alt="" title="">}}
-
-3. If you have multiple domains, select the domain that contains the mailbox that you want to delete.
-
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by
+   using your Rackspace Cloud Office admin ID and password.
+2. In the **Rackspace Email** section, click **Mailboxes**.
+3. If you have multiple domains, select the domain that contains the mailbox
+   that you want to delete.
 4. Check the box to the left of all the mailboxes you intend to delete.
-
-5. Expand the **Select Action** menu at the bottom of the mailbox list, and select **Delete mailboxes**
-
-   {{<image src="delete-rse-box-sc2.png" alt="" title="">}}
-
-6.  A pop up appears informing you of what services and data will be deleted. After you review the information and want to continue with deleting the mailbox click **Delete # mailboxes**.
-
-    {{<image src="delete_mult_mailboxes.png" alt="" title="">}}
-
-7. You are returned to the mailbox list where you can see that the mailbox has been removed from the list.
+5. Expand the **Select Action** menu at the bottom of the mailbox list, and
+   select **Delete mailboxes**
+6. A pop-up message appears confirming the services and data selected.
+   After you review the information and want to continue deleting the
+   mailbox, click **Delete # mailboxes**.
+7. The mailbox list appears, so you can confirm that the mailbox disappeared from
+   the list.
