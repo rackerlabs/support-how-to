@@ -11,13 +11,13 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
-This article describes how to export a copy of your email address data from Outlook 2016 for Mac OS.
+This article describes how to export a copy of your email address data from Outlook&reg; 2016 for macOS.
 
 ### Prerequisites
 
 - **Applies to:** User
 - **Difficulty:** Easy
-- **Time needed:** Dependent on amount of data exported
+- **Time needed:** Dependent on the amount of data exported
 - **Tools required:**  Access to the Outlook account from which you want to
   export
 
@@ -29,6 +29,8 @@ version, see [Export and Import email address data using Outlook](/support/how-t
 for a list of all version articles.
 
 #### Export email address data
+
+To export email address data, perform the following steps:
 
 1. In Outlook 2016, click **File > Export** from the top navigation bar to
    display the **Export to Archive File** window.
@@ -43,4 +45,5 @@ for a list of all version articles.
 
 4. Click **Finish**.
 
-If you need to import email address data into Outlook 2016 for Mac, see [Import email address data into Outlook 2016 for Mac](/support/how-to/import-email-address-data-into-outlook-2016-for-mac).
+If you need to import email address data into Outlook 2016 for Mac, see
+[Import email address data into Outlook 2016 for Mac](/support/how-to/import-email-address-data-into-outlook-2016-for-mac).
