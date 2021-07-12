@@ -1,7 +1,7 @@
 ---
 permalink: vhost-and-server-blocks-basics
 audit_date:
-title: Vhosts and Server Blocks Basics
+title: Vhosts and server blocks basics
 type: article
 created_by: Coral Moore
 created_date: '2021-04-09'
@@ -10,15 +10,20 @@ last_modified_by: Ana Corpus
 product: Cloud Servers
 product_url: cloud-servers
 ---
-### How to check the web servers status
 
-The most common web servers that run on Linux&reg; are Apache&reg; (**httpd** or **apache2**) and NGINX&reg;.
+This article introduces you to vhost and server block basics.
 
-Plesk&reg; is a GUI platform to manage websites. If you have Plesk installed, use this article as a guide to understand vhosts.
+### Check the web server status
 
-By default, web servers allow HTTP traffic through port 80, and HTTPS (secure) traffic through port 443.
+The most common web servers that run on Linux&reg; are Apache&reg;
+(**httpd** or **apache2**) and NGINX&reg;. Plesk&reg; is a GUI
+platform for managing websites. If you have Plesk installed, use
+this article as a guide to understand vhosts.
 
-To find the web server that runs on ports 80 and 443, enter the following command:
+By default, web servers allow HTTP traffic through port `80` and HTTPS
+(secure) traffic through port `443`.
+
+To find the webserver that runs on ports `80` and `443`, enter the following command:
 
 ```sh
 # netstat -plnt | awk '$4 ~ /:(80|443)$/'
@@ -26,64 +31,40 @@ tcp6       0      0 :::80                   :::*                    LISTEN      
 tcp6       0      0 :::443                  :::*                    LISTEN      2549/httpd
 ```
 
-To check the status of the **httpd** web server, enter either one of the following commands:
+To check the the status of a webserver, run one of the commands shown in the
+following table:
 
-```
-# service httpd status
-```
-or
+| Type of webserver | Command |
+| --- | --- |
+| **httpd** | `service httpd status` |
+| | or |
+| | `systemctl status httpd` |
+| **apache2** | `service apache2 status` |
+| | or |
+| | `systemctl status apache2` |
+| **nginx* | `service nginx status` |
+| | or |
+| | `systemctl status nginx` |
+| Plesk | `service psa status` |
+| | or |
+| | `systemctl status psa` |
 
-```
-# systemctl status httpd
-```
-
-To check the status of the **apache2** web server, enter either one of the following commands:
-
-```
-# service apache2 status
-```
-or
-
-```
-# systemctl status apache2
-```
-
-To check the status of the **nginx** web server, enter either one of the following commands:
-
-```
-# service nginx status
-```
-
-or
-
-```
-# systemctl status nginx
-```
-
-To check the status of Plesk, enter either one of the following commands:
-
-```
-# service psa status
-```
-
-or
-
-```
-# systemctl status psa
-```
-
-To check the status of Plesk and which web server is in use, enter the following commands:
+In Plesk, to check the status and identify which web server is in use, enter the following command:
 
 ```
 # service psa status; netstat -plnt | awk '$4 ~ /:(80|443)$/'
 ```
-### How to check vhosts configuration
 
-A web server (or a pool of web servers) can host several websites by using Virtual Hosts (vhosts). Vhosts allow several websites to share resources from a physical server.
+### Check the vhosts configuration
 
-Vhosts can be **IP-based** or **name-based**. **IP-based** vhosts assign a different IP address to a website. **Name-based** vhosts assign multiple hostnames to a single IP address. Vhosts keep track of websites in a web server. They specify the configuration of each website.
+A web server (or a pool of web servers) can host several websites by using Virtual Hosts
+(vhosts). Vhosts allow several websites to share resources from a physical server.
 
-To check the vhosts configuration in Apache, enter either one of the following commands:
+Vhosts can be IP-based or name-based. IP-based vhosts assign a different IP address to a website,
+and **name-based** vhosts assign multiple hostnames to a single IP address. Vhosts keep track of
+websites in a web server, specifying the configuration of each website.
+
+To check the vhosts configuration in Apache, enter one of the following commands:
 
 ```
 # httpd -S
@@ -104,15 +85,18 @@ To read the contents of a vhost configuration file, enter the following command:
 
 Entries in the vhosts configuration file include:
 
-  - **:80** or **:443**: These entries specify if the website uses HTTP (80) or HTTPS (443). 
+  - **:80** or **:443**: These entries specify if the website uses HTTP (`80`) or HTTPS (`443`). 
   - **DocumentRoot**: The directory path of the website files.
-  - **Server Name**: The website domain name.
-  - **ServerAlias**: Any other website domain name which you want to redirect to the **Server Name** domain. Domains of the type **www.domain** are usually used, but other domains of subdomains can be used.
+  - **ServerName**: The website domain name.
+  - **ServerAlias**: Any other website domain name which you want to redirect to the
+    **ServerName** domain. You usually use domains of the type **www.domain**, but you can
+    also use other domains or subdomains.
   - **ErrorLog**: The directory path and name of error logs.
-  - **Port 443**: The SSL configuration. Comment this section if the website does not have valid SSL certificate.
-  - **SSL Files**: The 3 SSL files directory path needed for a secure HTTPS server.
+  - **Port 443**: The SSL configuration. Comment this section if the website does not have
+    a valid SSL certificate.
+  - **SSL files**: The three SSL file paths needed for a secure HTTPS server.
 
-The following is a example of a vhosts configuration file:  
+The following example shows a vhosts configuration file:  
 
 ```
 <VirtualHost *:80>
@@ -153,45 +137,59 @@ The following is a example of a vhosts configuration file:
 #    ErrorLog /var/log/httpd/example.com-ssl_error_log
 #</VirtualHost>
 ```
-To copy the configuration file of an existing vhost to create a new one, enter the following command:
+
+To copy the configuration file of an existing vhost to create a new one,
+enter the following command:
 
 ```
 # cat /OLD_DOMAIN.conf | sed 's/OLD_DOMAIN/NEW_DOMAIN/ig' >> /NEW_DOMAIN.conf
 ```
 
-Edit the new vhost configuration file as required. For example, you might need to comment the settings that make port 443 active.
+Edit the new vhost configuration file as required. For example, you might
+need to comment the settings that make port `443` active.
 
-To find the location of DocumentRoot in a vhost configuration file, enter the following command:
+To find the location of **DocumentRoot** in a vhost configuration file,
+enter the following command:
 
 ````sh
 # grep Doc /etc/httpd/vhost.d/example.com.conf
         DocumentRoot /var/www/vhosts/example.com
 ````
 
-### How to make a new vhost
+### Make a new vhost
 
-The instructions to make a new vhost are as follows:
+Use the following instructions to make a new vhost:
 
-  1. If possible, copy an existing vhost to keep consistent settings. Use a text editor like vim, nano, sed, or awk.
+1. If possible, copy an existing vhost to keep consistent settings. Use a text
+   editor or tool like `vim`, `nano`, `sed, or `awk`.
 
-  2. Make a new DocumentRoot directory. The custom and error logs automatically make themselves.
-     ```
-      \# mkdir -p /docroot
-     ```
-  3. Check that the webserver does not send any errors.
-     ```
-      \# httpd -t
-     ```
-  4. Do a graceful restart on the webserver to recognise the changes with minimal disruption to your live environment.
-     ```
-      \# service httpd graceful
-     ```
+2. Make a new **DocumentRoot** directory. The system makes the custom and error logs
+   automatically.
+     
+   ```
+    \# mkdir -p /docroot
+   ```
+     
+3. Check that the web server does not send any errors.
+
+   ```
+    \# httpd -t
+   ```
   
-  5. Check the web server again.
-     ```
-      \# httpd -t; service httpd status
-     ```
-### How to check and troubleshoot changes to the vhost configuration
+4. Do a graceful restart on the web server to incorporate the changes with minimal
+   disruption to your live environment.
+ 
+   ```
+    \# service httpd graceful
+   ```
+  
+5. Check the web server again.
+
+   ```
+    \# httpd -t; service httpd status
+   ```
+
+### Check and troubleshoot changes to the vhost configuration
 
 To check mistakes in Apache, use either one of the following commands:
 
@@ -203,7 +201,9 @@ or
 
 ```sh
 # apache2ctl -t
-AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd: Could not reliably determine the server's fully qualified
+domain name, using 127.0.0.1. Set the 'ServerName' directive globally to
+suppress this message
 Syntax OK
 ```
 
@@ -211,13 +211,15 @@ To check mistakes in NGINX, use the following command:
 
 ```sh
 # nginx -t
-AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd: Could not reliably determine the server's fully qualified
+domain name, using 127.0.0.1. Set the 'ServerName' directive globally to
+suppress this message
 Syntax OK
 ```
 
-Note: Clause _"Could not reliably determine"_ is common and it doesn't mean an error, so it is usually ignored.
+**Note**: The clause *Could not reliably determine* is common, and it doesn't mean an error. You can usually ignore it.
 
-An example error:
+The following example shows a sample error:
 
 ```sh
 # httpd -t
@@ -226,7 +228,7 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 Syntax OK
 ```
 
-Fix this error by creating a DocumentRoot:
+Fix this error by creating a **DocumentRoot**:
 
 ```
 # mkdir -p /var/www/vhosts/example.com
@@ -240,31 +242,37 @@ AH00526: Syntax error on line 5 of /etc/httpd/vhost.d/example.com.conf:
 Invalid command 'oops', perhaps misspelled or defined by a module not included in the server configuration
 ```
 
-The word _oops_ is in the vhost file, and Apache does not know how to interpret it. You can use **vim**, **nano**, or another text editor to fix the error.
+The word *oops* is in the vhost file, and Apache does not know how to interpret it.
+You can use **vim**, **nano**, or another text editor to fix the error.
 
-### How to restart a web server
+### Restart a web server
 
-The web server acknowledges the changes made to the vhosts configuration after a restart. The current threads can finish before the restart occurs with the *graceful* option.
+The web server acknowledges the changes made to the vhosts configuration after a restart.
+The current threads can finish before the restart occurs with the *graceful* option.
 
-To do a graceful restart on Apache, enter the following command:
+To do a graceful restart on Apache, enter one of the following commands:
 
 ```
 # service httpd graceful
 ```
+
 or
 
 ```
 # service apache2 graceful
 ```
 
-The following are best practices to avoid service interruptions after changing the vhosts configuration.
+The following are best practices to avoid service interruptions after
+changing the vhosts configuration:
 
-  * Back up the webserver.
-  * Do the changes.
-  * Do a graceful restart.
-  * Ensure that the webserver runs without errors.
+- Back up the webserver.
+- Make the changes.
+- Do a graceful restart.
+- Ensure that the webserver runs without errors.
 
-It is important to avoid as much downtime as possible in a live environment, which means that after restarting the web server, the checks must be done as quickly as possible. To do this, group all the commands in one line.
+It is important to avoid as much downtime as possible in a live environment,
+which means that after restarting the web server, you should perform the checks
+as quickly as possible. To do this, group all the commands on one line.
 
 To do a graceful restart on Apache and check for errors, enter either one of the following commands:
 
