@@ -1,5 +1,5 @@
 ---
-permalink: unable-to-install-plugins-in-wordpress/
+permalink: wordpress-plugin-installation-errors/
 audit_date:
 title: 'WordPress plugin installation errors'
 type: article
