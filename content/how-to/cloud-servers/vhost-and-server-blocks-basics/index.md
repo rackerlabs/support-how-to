@@ -64,22 +64,16 @@ websites in a web server, specifying the configuration of each website.
 
 To check the vhosts configuration in Apache, enter one of the following commands:
 
-```
-# httpd -S
-```
+    # httpd -S
 
 or
 
-```sh
-# apache2ctl -S
-*:80                   example.com (/etc/httpd/vhost.d/example.com.conf:1)
-```
+    # apache2ctl -S
+    *:80                   example.com (/etc/httpd/vhost.d/example.com.conf:1)
 
 To read the contents of a vhost configuration file, enter the following command:
 
-```
-# cat /etc/httpd/vhost.d/example.com.conf 
-```
+    # cat /etc/httpd/vhost.d/example.com.conf 
 
 Entries in the vhosts configuration file include:
 
@@ -139,9 +133,7 @@ The following example shows a vhosts configuration file:
 To copy the configuration file of an existing vhost to create a new one,
 enter the following command:
 
-```
-# cat /OLD_DOMAIN.conf | sed 's/OLD_DOMAIN/NEW_DOMAIN/ig' >> /NEW_DOMAIN.conf
-```
+    # cat /OLD_DOMAIN.conf | sed 's/OLD_DOMAIN/NEW_DOMAIN/ig' >> /NEW_DOMAIN.conf
 
 Edit the new vhost configuration file as required. For example, you might
 need to comment the settings that make port `443` active.
@@ -149,10 +141,9 @@ need to comment the settings that make port `443` active.
 To find the location of **DocumentRoot** in a vhost configuration file,
 enter the following command:
 
-````sh
-# grep Doc /etc/httpd/vhost.d/example.com.conf
-        DocumentRoot /var/www/vhosts/example.com
-````
+    # grep Doc /etc/httpd/vhost.d/example.com.conf
+    
+    DocumentRoot /var/www/vhosts/example.com
 
 ### Make a new vhost
 
@@ -162,83 +153,69 @@ Use the following instructions to make a new vhost:
    editor or tool like `vim`, `nano`, `sed, or `awk`.
 
 2. Make a new **DocumentRoot** directory. The system makes the custom and error logs
-   automatically.
-     
-   ```
-    \# mkdir -p /docroot
-   ```
-     
-3. Check that the web server does not send any errors.
+   automatically. Run the following command:
 
-   ```
-    \# httpd -t
-   ```
+       # mkdir -p /docroot
+     
+3. Check that the web server does not send any errors:
+
+       # httpd -t
   
 4. Do a graceful restart on the web server to incorporate the changes with minimal
-   disruption to your live environment.
- 
-   ```
-    \# service httpd graceful
-   ```
-  
-5. Check the web server again.
+   disruption to your live environment:
 
-   ```
-    \# httpd -t; service httpd status
-   ```
+       # service httpd graceful
+  
+5. Check the web server again:
+
+       # httpd -t; service httpd status
 
 ### Check and troubleshoot changes to the vhost configuration
 
 To check mistakes in Apache, use either one of the following commands:
 
-````
-# httpd -t
-````
+    # httpd -t
 
 or
 
-```sh
-# apache2ctl -t
-AH00558: httpd: Could not reliably determine the server's fully qualified
-domain name, using 127.0.0.1. Set the 'ServerName' directive globally to
-suppress this message
-Syntax OK
-```
+    # apache2ctl -t
+    
+    AH00558: httpd: Could not reliably determine the server's fully qualified
+    domain name, using 127.0.0.1. Set the 'ServerName' directive globally to
+    suppress this message
+    Syntax OK
 
 To check mistakes in NGINX, use the following command:
 
-```sh
-# nginx -t
-AH00558: httpd: Could not reliably determine the server's fully qualified
-domain name, using 127.0.0.1. Set the 'ServerName' directive globally to
-suppress this message
-Syntax OK
-```
+    # nginx -t
 
-**Note**: The clause *Could not reliably determine* is common, and it doesn't mean an error. You can usually ignore it.
+    AH00558: httpd: Could not reliably determine the server's fully qualified
+    domain name, using 127.0.0.1. Set the 'ServerName' directive globally to
+    suppress this message
+    Syntax OK
+
+**Note**: The clause *Could not reliably determine* is common, and it doesn't
+mean an error. You can usually ignore it.
 
 The following example shows a sample error:
 
-```sh
-# httpd -t
-AH00112: Warning: DocumentRoot [/var/www/vhosts/example.com] does not exist
-AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
-Syntax OK
-```
+    # httpd -t
+    AH00112: Warning: DocumentRoot [/var/www/vhosts/example.com] does not exist
+    AH00558: httpd: Could not reliably determine the server's fully qualified
+    domain name, using 127.0.0.1. Set the 'ServerName' directive globally to
+    suppress this message
+    Syntax OK
 
 Fix this error by creating a **DocumentRoot**:
 
-```
-# mkdir -p /var/www/vhosts/example.com
-```
+    # mkdir -p /var/www/vhosts/example.com
 
 Another example error:
 
-```sh
-# httpd -t
-AH00526: Syntax error on line 5 of /etc/httpd/vhost.d/example.com.conf:
-Invalid command 'oops', perhaps misspelled or defined by a module not included in the server configuration
-```
+    # httpd -t
+    AH00526: Syntax error on line 5 of /etc/httpd/vhost.d/example.com.conf:
+    Invalid command 'oops', perhaps misspelled or defined by a module not
+    included in the server configuration
 
 The word *oops* is in the vhost file, and Apache does not know how to interpret it.
 You can use **vim**, **nano**, or another text editor to fix the error.
@@ -250,15 +227,11 @@ The current threads can finish before the restart occurs with the *graceful* opt
 
 To do a graceful restart on Apache, enter one of the following commands:
 
-```
-# service httpd graceful
-```
+    # service httpd graceful
 
 or
 
-```
-# service apache2 graceful
-```
+    # service apache2 graceful
 
 The following are best practices to avoid service interruptions after
 changing the vhosts configuration:
@@ -274,23 +247,20 @@ as quickly as possible. To do this, group all the commands on one line.
 
 To do a graceful restart on Apache and check for errors, enter either one of the following commands:
 
-```
-# service httpd graceful; httpd -t; service httpd status | grep running
-```
+    # service httpd graceful; httpd -t; service httpd status | grep running
+
 or
 
-```sh
-# service apache2 graceful; apache2ctl -t; service apache2 status | grep running
-AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
-Syntax OK
-Redirecting to /bin/systemctl status httpd.service
-   Active: active (running) (Result: exit-code) since Mon 2021-01-18 12:53:06 GMT; 2 months 19 days ago
-```
+    # service apache2 graceful; apache2ctl -t; service apache2 status | grep running
+    
+    AH00558: httpd: Could not reliably determine the server's fully qualified domain
+    name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+    Syntax OK
+    Redirecting to /bin/systemctl status httpd.service
+    Active: active (running) (Result: exit-code) since Mon 2021-01-18 12:53:06 GMT; 2 months 19 days ago
 
 To restart NGINX and check that it's running, enter the following commands:
 
-```
-# nginx -s reload; nginx -t; service nginx status
-```
+    # nginx -s reload; nginx -t; service nginx status
 
 Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
