@@ -1,7 +1,7 @@
 ---
-permalink: install-imap-for-php71-on-ubuntu/
+permalink: install-imap-for-php71-on-the-ubuntu-operating-system/
 audit_date:
-title: Install IMAP for PHP 7.1 on Ubuntu
+title: Install IMAP for PHP 7.1 on the Ubuntu operating system
 type: article
 created_date: '2021-06-23'
 created_by: Alfonso Murillo
