@@ -25,11 +25,10 @@ By default, web servers allow HTTP traffic through port `80` and HTTPS
 
 To find the webserver that runs on ports `80` and `443`, enter the following command:
 
-```sh
-# netstat -plnt | awk '$4 ~ /:(80|443)$/'
-tcp6       0      0 :::80                   :::*                    LISTEN      2549/httpd
-tcp6       0      0 :::443                  :::*                    LISTEN      2549/httpd
-```
+    # netstat -plnt | awk '$4 ~ /:(80|443)$/'
+    tcp6       0      0 :::80                   :::*                    LISTEN      2549/httpd
+    tcp6       0      0 :::443                  :::*                    LISTEN      2549/httpd
+
 
 To check the the status of a webserver, run one of the commands shown in the
 following table:
@@ -42,7 +41,7 @@ following table:
 | **apache2** | `service apache2 status` |
 | | or |
 | | `systemctl status apache2` |
-| **nginx* | `service nginx status` |
+| **nginx** | `service nginx status` |
 | | or |
 | | `systemctl status nginx` |
 | Plesk | `service psa status` |
@@ -51,9 +50,8 @@ following table:
 
 In Plesk, to check the status and identify which web server is in use, enter the following command:
 
-```
-# service psa status; netstat -plnt | awk '$4 ~ /:(80|443)$/'
-```
+
+    # service psa status; netstat -plnt | awk '$4 ~ /:(80|443)$/'
 
 ### Check the vhosts configuration
 
