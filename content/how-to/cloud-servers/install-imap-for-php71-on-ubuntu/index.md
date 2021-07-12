@@ -11,30 +11,42 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-The Internet Message Access-Protocol (IMAP) allows to access email messages from anywhere in an efficient way. IMAP stores these messages on servers and downloads them on demand. IMAP works as an intermediate between the emails servers and clients.
+The Internet Message Access Protocol (IMAP) allows you to access email messages
+efficiently from anywhere. IMAP stores these messages on servers and downloads
+them on demand and works as an intermediary between the emails servers and clients.
 
-PHP offers an IMAP extension to connect to a mailbox by using POP3, IMAP and NNTP protocols. This article covers the installation of IMAP on an Ubuntu server for PHP 7.1.
+PHP&reg; offers an IMAP extension to connect to a mailbox by using POP3, IMAP, and NNTP
+protocols. This article covers the installation of IMAP on a server with the Ubuntu&reg;
+operating system for PHP 7.1.
 
-### Verify PGP IMAP installation
+### Verify PHP IMAP installation
 
-- Create a  file and add the following lines:
+To verify your installation, perform the following steps:
+
+1. Create a  file and add the following lines:
 
   ```
     <?php
     phpinfo();
     ?>
   ```
-- Save the file with any name and the **php** extension.
-**Note:** Don't use name **phpinfo.php**. It  is a common name searched by hackers.
 
-- When you access the new file, you can see all PHP information. Search for IMAP information. If it is not in the file, proceed to install the module.
+2. Save the file with any name and the **php** extension.
+   
+   **Note:** Don't use the name: **phpinfo.php**. Hackers commonly search for that name.
+
+When you access the new file, you can see all PHP information. If you don't see IMAP information
+in the file, proceed to install the module.
 
 ### Install IMAP
-- Enter the following command to install IMAP for PHP 7.1 on Ubuntu&reg;:
+
+To install IMAP, perform the following steps:
+
+1. Enter the following command to install IMAP for PHP 7.1 on the Ubuntu operating system:
 
   `sudo apt install php7.1-imap`
 
-- Restart the server. If the server is an Apache&reg; server, enter the following command:
+2. Restart the server. If it is an Apache&reg; server, enter the following command:
 
    `sudo systemctl restart apache2`
 
