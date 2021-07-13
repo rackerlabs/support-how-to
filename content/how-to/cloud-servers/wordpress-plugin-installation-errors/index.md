@@ -1,6 +1,6 @@
 ---
 permalink: wordpress-plugin-installation-errors/
-audit_date:
+audit_date: '2021-07-12'
 title: 'WordPress plugin installation errors'
 type: article
 created_date: '2021-06-21'
