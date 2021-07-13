@@ -5,15 +5,15 @@ title: Pitchfork for Cloud Images
 type: article
 created_date: '2021-02-06'
 created_by: Rocio Rodriguez
-last_modified_date: '2021-07-113'
+last_modified_date: '2021-07-13'
 last_modified_by: Rocio Rodriguez
 product: Cloud Images
 product_url: cloud-images
 ---
 
 Use the following steps to create, share, delete, list, or update
-[Cloud Images](https://docs.rackspace.com/support/how-to/cloud-images-faq/) throught the API
-by using Pitchfork:
+[Cloud Images](https://docs.rackspace.com/support/how-to/cloud-images-faq/) through the API
+using Pitchfork:
 
 ### Log in to Pitchfork
 
@@ -41,9 +41,9 @@ To learn how to log in to and use Pitchfork, see [Pitchfork—the Rackspace Clou
 
 3. Fill in the **Parameters** and click **Send API Call**.
 
-When the operation complets, you get a JSON response with the information you requested.
+When the operation completes, you get a JSON response with the information you requested.
 
-### Example of the response bodyfor a *List Image* request
+### Example of the response body for a *List Image* request
 
  ```json
 "images": [
