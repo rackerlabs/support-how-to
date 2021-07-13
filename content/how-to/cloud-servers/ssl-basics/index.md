@@ -1,12 +1,13 @@
 ---
 permalink: ssl-basics
+audit_date: '2021-07-12'
 title: SSL basics
 type: article
 created_by: Coral Moore
 created_date: '2021-04-26'
 last_modified_date: '2021-07-12'
 last_modified_by: Ana Corpus
-audit_date: cloud-servers
+product: Cloud Servers
 cloud_product: cloud-servers
 ---
 
