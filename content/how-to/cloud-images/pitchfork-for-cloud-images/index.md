@@ -5,7 +5,7 @@ title: Pitchfork for Cloud Images
 type: article
 created_date: '2021-02-06'
 created_by: Rocio Rodriguez
-last_modified_date: '2021-07-113'
+last_modified_date: '2021-07-13'
 last_modified_by: Rocio Rodriguez
 product: Cloud Images
 product_url: cloud-images
