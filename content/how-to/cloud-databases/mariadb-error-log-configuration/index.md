@@ -1,6 +1,6 @@
 ---
 permalink: mariadb-error-log-configuration
-audit_date:
+audit_date: '2021-07-12'
 title: 'MariaDB error log configuration'
 type: article
 created_date: '2021-06-23'
