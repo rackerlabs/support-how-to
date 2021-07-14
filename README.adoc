@@ -128,8 +128,8 @@ hugo v0.84.2+extended darwin/amd64 BuildDate=unknown
   Cleaned          |     0
 
 Built in 3988 ms
-Watching for changes in /Users/ravi7895/workspace/rackerlabs/support-how-to/{archetypes,content,i18n,layouts,static}
-Watching for config changes in /Users/ravi7895/workspace/rackerlabs/support-how-to/config.toml
+Watching for changes in /rackerlabs/support-how-to/{archetypes,content,i18n,layouts,static}
+Watching for config changes in /rackerlabs/support-how-to/config.toml
 Environment: "development"
 Serving pages from memory
 Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
