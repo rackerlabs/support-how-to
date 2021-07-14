@@ -5,13 +5,10 @@
 /support/how-to/getting-started-with-apache-hadoop-on-rackspace-cloud/  /how-to/article-retired/ 404
 /support/how-to/updating-password-authentication-method-on-mac-mail/  /how-to/update-password-authentication-method-on-mac-mail/  404
 /how-to/update-password-authentication-method-on-mac-mail/  /support/how-to/update-password-authentication-method-on-mac-mail/  301
-/support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/  /how-to/article-retired/ 404
 /support/how-to/cloud-files-streaming-simple-flash-files/  /how-to/stream-simple-flash-files-from-cloud-files/  404
 /how-to/stream-simple-flash-files-from-cloud-files/  /support/how-to/stream-simple-flash-files-from-cloud-files/  301
 /support/how-to/rackspace-cloud-essentials-checking-a-server-s-ssh-host-fingerprint-with-the-web-console/  /how-to/rackspace-cloud-essentials-check-the-ssh-host-fingerprint-of-a-server-with-the-web-console/  404
 /how-to/rackspace-cloud-essentials-check-the-ssh-host-fingerprint-of-a-server-with-the-web-console/  /support/how-to/rackspace-cloud-essentials-check-the-ssh-host-fingerprint-of-a-server-with-the-web-console/  301
-/support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/ /how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/ 404
-/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/ /support/how-to/manage-ssh-key-pairs-for-cloud-servers-with-python-novaclient/ 301
 /support/how-to/myrackspace-multi-factor-authentication/ /how-to/multifactor-authentication-from-the-myrackspace-portal/ 404
 /how-to/multifactor-authentication-from-the-myrackspace-portal/ /support/how-to/multifactor-authentication-from-the-myrackspace-portal/ 301
 /support/how-to/cloud-servers/what-happens-if-i-do-not-supply-a-vat-id-number/ /how-to/account-management/account-management-faq/ 404
@@ -54,6 +51,7 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 # Retired Articles
 
+/support/how-to/access-a-private-rds-instance-with-putty/ /how-to/article-retired/ 404
 /support/how-to/using-python-novaclient-to-manage-scheduled-images/  /how-to/article-retired/ 404
 /support/how-to/rpc-vmware-all-articles /how-to/article-retired/ 404
 /support/how-to/rpc-vmware-faq /how-to/article-retired/ 404
