@@ -27,8 +27,6 @@ machine.
  netlify deploy
 ```
 
-=== Install the dependencies directly
-
 ==== Install Hugo directly
 
 To build the documentation locally, install link://https://gohugo.io/[Hugo] and have the `hugo`
@@ -63,9 +61,9 @@ mkdir -p $HOME/.gem
 
 Log in and log out (or `source` the environment file you changed previously) to pick up the changes.
 
-Now, install Asciidoctor and any additional dependencies:
+Now, install Asciidoctor:
 
-`npm install`
+`make install`
 
 ====  Build the documentation locally
 
@@ -115,36 +113,41 @@ you may need to restart the server. You can restart the server by pressing 'ctrl
 If everything is working as expected, you will see output similar to:
 
 ```
+Start building sites …
+hugo v0.84.2+extended darwin/amd64 BuildDate=unknown
+
                    | EN-US
 -------------------+--------
-  Pages            |  1773
+  Pages            |  1838
   Paginator pages  |     0
-  Non-page files   |  1013
-  Static files     |    88
+  Non-page files   |   800
+  Static files     |    89
   Processed images |     0
   Aliases          |     0
   Sitemaps         |     1
   Cleaned          |     0
 
-Built in 3593 ms
-Watching for changes in /rackerlabs/support-how-to/{archetypes,assets,content,i18n,layouts,package.hugo.json,package.json,postcss.config.js,static}
-Watching for config changes in /rackerlabs/support-how-to/config.toml
+Built in 3988 ms
+Watching for changes in /Users/ravi7895/workspace/rackerlabs/support-how-to/{archetypes,content,i18n,layouts,static}
+Watching for config changes in /Users/ravi7895/workspace/rackerlabs/support-how-to/config.toml
 Environment: "development"
 Serving pages from memory
 Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
 Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
-INFO 2020/11/18 11:51:49 Received System Events: ["/rackerlabs/support-how-to/static/assets/bundle.js": CHMOD]
+
+   ┌─────────────────────────────────────────────────┐
+   │                                                 │
+   │   ◈ Server now ready on http://localhost:8888   │
+   │                                                 │
+   └─────────────────────────────────────────────────┘
 
 ```
-
-You should now be able to access the Support How-To, for example, from: link:http://localhost:1313/[http://localhost:1313/]
 
 This running instance supports live reload. Changes you make to files should be automatically
 updated in your running instance.
 
-Some files may not be supported for live reload. If you are not automatically seeing your changes live
-you may need to restart the server. You can restart the server by pressing 'ctrl-c' and running
+Some files may not be supported for live reload. If you are not automatically seeing your changes live you may need to restart the server. You can restart the server by pressing 'ctrl-c' and running
 `netlify dev` again.
 
 ==  Project directory structure

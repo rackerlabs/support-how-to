@@ -1,5 +1,5 @@
 [build.environment]
-  HUGO_VERSION = "0.83.1"
+  HUGO_VERSION = "0.84.2"
 
 [build]
   command = "make build"
@@ -36,15 +36,15 @@
 	[plugins.inputs]
 	debug = true
 
-[dev]
-  framework = "#custom"
-  # only start Hugo, `netlify dev` builds/serves functions itself
-  command = "npm start"
-  # swap ports to keep consistent w/ normal local server
-  targetPort = 1314
-  port = 1313
-  # don't launch browser automatically
-  autoLaunch = false
+# [dev]
+#   framework = "#custom"
+#   # only start Hugo, `netlify dev` builds/serves functions itself
+#   command = "npm start"
+#   # swap ports to keep consistent w/ normal local server
+#   targetPort = 1314
+#   port = 1313
+#   # don't launch browser automatically
+#   autoLaunch = false
 
 
 # [[plugins]]
