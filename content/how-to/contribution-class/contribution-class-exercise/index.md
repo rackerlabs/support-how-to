@@ -33,7 +33,7 @@ Somewhat
 - Somewhat
 - No
 
-
+Yes
 
 #### How often do you think you will use the training?
 Somewhat Often
@@ -52,6 +52,8 @@ Somewhat Often
 - Somewhat often
 - Never
 
+Somewhat often
+
 #### Would you recommend this training to others?
 Yes
 Yes
@@ -64,6 +66,9 @@ Yes
 Yes
 
 Yes
+
+Yes
+
 **Answer options**
 - Yes
 - No
@@ -80,6 +85,9 @@ Yes
 Yes
 
 No
+
+Yes (also somewhat conditionally, but given what I'm doing right now I'll probably find need for it)
+
 **Answer options**
 - Yes
 - No
@@ -95,6 +103,8 @@ Thanks!
 Video should be a bit slower or provide download slides
 
 This is a good way of helping others to contribute and learn a bit more about GITHub. Does require a bit of technical know-how!
+
+Had to pause a few times to catch everything in notes. A little bit of slide transcription or providing of the slides directly would go a long way.
 
 **Answer options**
 - Open ended
