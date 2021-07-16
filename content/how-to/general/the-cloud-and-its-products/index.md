@@ -11,34 +11,49 @@ product: General
 product_url: general
 ---
 
-The cloud is the virtualisation and automation of IT resources. Many servers interconnect to make a huge computer. Virtualisation software running on the servers allow you to divide them into smaller virtual machines, and automation configured by using a web interface allows you to configure the virtual machine to meet your needs. You can create an entire solution within minutes and resize it on demand.
+The cloud is the virtualization and automation of IT resources. Many servers
+interconnect to make a huge computer. Virtualization software running on your
+servers enables you to divide them into smaller virtual machines. Automation
+configured by using a web interface enables you to configure a virtual machine
+to meet your needs. You can create an entire solution within minutes and resize
+it on demand.
 
 {{<image src="cloud.gif" alt="" title="">}}
 
-The cloud is divided into public cloud, dedicated hosting and private cloud:
+The cloud consists of public cloud, dedicated hosting, and private cloud:
 
-**Public cloud:** You can scale up and down, and only pay for what you use instead of buying a physical server.
+- **Public cloud:** You can scale up and down and pay for only what you use
+  instead of buying a physical server.
 
-**Dedicated hosting:** This option is better for businesses who need strong data security because they can use reserved physical servers.
+- **Dedicated hosting:** This option is better for businesses that need strong
+  data security because they can use reserved physical servers.
 
-**Private cloud:** your own hardware that resides in your facility that runs virtualisation software.
+- **Private cloud:** This exists on your own hardware that resides in your
+  facility running virtualization software.
+
 ### Cloud products
 
-Some common cloud products are:
+Some common cloud products include the following choices:
 
-**Cloud servers:** A cloud server is a virtual machine in the cloud. It is also referred as computer, system, instance, or node. It provides data storage, processing power, and runs applications.
+**Cloud servers:** A cloud server is a virtual machine in the cloud. Also
+known as a computer, system, instance, or node, these servers provide data
+storage and processing power and run applications.
 
-Cloud servers from major vendors are: 
+The following table shows some major vendors and their cloud server products:
 
 | Vendor | Product |
 |--|--|
-| AWS&reg; | Amazon EC2 |
+| AWS&reg; | Amazon&reg; EC2 |
 | Microsoft&reg; Azure&trade;| Microsoft Virtual Machine |
 | Google Cloud Platform&trade; (GCP)| Compute Engine |
 
-**Cloud databases:** Databases collect data. You can store  credit card information, products, prices, lists, and so on. You don't store documents or images. A database resembles Microsoft Excel in the way that it stores data to retrieve later. The most common databases are Microsoft SQL and MySQL&reg;, which runs on Linux&reg; servers.
+**Cloud databases:** Databases collect data. You can store  credit card
+information, products, prices, lists, and so on. You don't store documents
+or images. A database resembles Microsoft Excel in the way that it stores
+data to retrieve later. The most common databases are Microsoft SQL Server&reg;
+and MySQL&reg;, which run on Linux&reg; servers.
 
-Cloud databases from major vendors are: 
+The following table shows some major vendors and their cloud database products:
 
 | Vendor | Product |
 |--|--|
@@ -46,9 +61,9 @@ Cloud databases from major vendors are:
 | Microsoft| Azure Database |
 | GCP| Cloud SQL |
 
-**Cloud files:** They store images, videos, documents, similarly to Microsoft OneDrive.
+**Cloud files:** They store images, videos, documents, similar to Microsoft OneDrive&reg;.
 
-Cloud files from major vendors are: 
+The following table shows some major vendors and their cloud files products:
 
 | Vendor | Product |
 |--|--|
@@ -56,9 +71,12 @@ Cloud files from major vendors are:
 | Microsoft| Azure Cloud File System |
 | GCP| Cloud Storage |
 
-**Cloud block storage:** It is an extra hard drive or USB device that you can plug to your server. Cloud block storage is a more flexible way to obtain extra space, as opposed to resizing and upgrading an on-premises server. 
+**Cloud block storage:** It is an extra hard drive or USB device that
+you can plug into your virtual server. Cloud block storage is a more
+flexible way to obtain extra space, as opposed to resizing and upgrading
+an on-premises server. 
 
-Cloud block storage products from major vendors are: 
+The following table shows some major vendors and their cloud block storage products:
 
 | Vendor | Product |
 |--|--|
@@ -66,13 +84,19 @@ Cloud block storage products from major vendors are:
 | Microsoft | Azure Storage |
 | GCP | Persistent Disk |
 
-**Cloud backups:** File-based backup of your server data. You can choose which files to back up and retrieve.
+**Cloud backups:** These provide file-based backups of your server data. You
+can choose which files to back up and retrieve.
 
-**Cloud Images:** It copies the entire state of a server, including the OS, data and flavour. This backup is designed to obtain an instant image of your server, so you should rely on cloud backups to preserve your data. Amazon AMI&reg; is an example of a cloud image service.
+**Cloud images:** An image is a copy of an entire state of a server, including
+the OS, data, and flavor. This image obtains an instant copy of your server,
+but you should rely on cloud backups to preserve your data. Amazon AMI&reg;
+is an example of a cloud image service.
 
-**Cloud Monitoring:** Use monitoring to check for information like if your website is running, or how much memory your server is using. Monitoring is crucial to maintain uptime, stay informed, and save you money.
+**Cloud monitoring:** Use monitoring to check for information such as whether
+your website is running or how much memory your server is using. Monitoring
+is crucial to maintain uptime, stay informed, and save you money.
 
-Cloud monitoring from major vendors are: 
+The following table shows some major vendors and their cloud monitoring products:
 
 | Vendor | Product |
 |--|--|
@@ -80,28 +104,54 @@ Cloud monitoring from major vendors are:
 | Microsoft| Azure Monitor |
 | Rackspace| Rackspace Intelligence |
 
-**Cloud load balancer:** Distribute workloads across multiple servers for high availability (HA).
+**Cloud load balancer:** These distribute workloads across multiple servers
+for high availability (HA).
 
-**Cloud DNS:** To configure the DNS for a new web site or domain, for example, **example.com**, the following options are available:
+**Cloud DNS:** To configure the DNS for a new website or domain, such as
+**example.com**, the following options are available:
 
-- The domain-name vendor points the domain to Rackspace.  Rackspace Cloud DNS then points the domain to the Cloud Server. So, if you are constantly spinning Cloud Servers up and down, adjust the Cloud DNS with Rackspace.
+- The domain-name vendor points the domain to Rackspace. Rackspace Cloud DNS
+  then points the domain to the Cloud Server. So, if you are constantly
+  spinning Cloud Servers up and down, adjust the Cloud DNS with Rackspace.
 
--  The domain-name vendor points the domain directly to the Cloud Server. This way you cut the middle man Rackspace Cloud DNS.
+- The domain-name vendor points the domain directly to the Cloud Server.
+  This way, you cut out the middle man, Rackspace Cloud DNS.
 
-**Cloud Orchestration:** Manage groups of cloud resources and their software components as a single unit. The [Cloud Control Panel](login.rackspace.com) has pre-built templates.
+**Cloud Orchestration:** This product manages groups of cloud resources and
+their software components as a single unit. The
+[Cloud Control Panel](login.rackspace.com) has pre-built templates.
 
-**Cloud Queues:** A middle layer where applications post tasks to be run.
+**Cloud Queues:** Queues provide a middle layer where applications can
+post and run tasks.
 
-**Cloud CDN:** Content delivery network uses global edge servers to reduce web site latency. To make your website load faster, servers in different countries store copies for downloads within a region, which makes content available for the clients much faster.
-
-When the first client tries to download content from a website, the request goes from their computer to the internet, and DNS directs the request to the edge server. The edge server doesn't have that content, so it sends the request to the webserver. See the purple arrows going from **CDN** to **Server** in the image.
-
-The webserver sends the response back to the edge server, it keeps a local copy of the content, and sends the response back to the client. When other clients within that region request to download that content, the edge server sends them its local copy, and the webserver doesn't need to send the same content to that region. See the green arrows going from **CDN** to **Your Comp** in the image.
-
+**Cloud CDN:** Content delivery network uses global edge servers to reduce
+website latency. To make your website load faster, servers in different
+countries store copies for downloads within a region, making content
+available for the clients much faster, as shown in the following image:
+  
 {{<image src="cdn.png" alt="" title="">}}
 
-CDN saves a lot of time, a one-second delay in the   response of a web page can cause a 7% reduction in  your conversions. If an e-commerce site has daily revenues of \$100,000, a  one second delay could result in \$2.5 million in lost sales every year.
-### Bonus reading
+When the first client downloads content from a website, the request goes
+from their computer to the internet, and DNS directs the request to the edge
+server. The edge server doesn't have that content, so it sends the request
+to the web server. Notice the purple arrows going from **CDN** to **Server**
+in the preceding image.
+
+The web server sends the response back to the edge server, keeps a local
+copy of the content, and sends the response back to the client. When other
+clients within that region request to download that content, the edge server
+sends them its local copy, and the web server doesn't need to send the same
+content to that region. See the green arrows going from **CDN** to **Your Comp**
+in the preceding image.
+
+CDN saves a lot of time. A one-second delay in a web page response can cause a
+7% reduction in your conversions. If an e-commerce site has daily revenues of
+\$100,000, a one second delay could result in \$2.5 million in lost sales every
+year.
+
+### Additional resources
+  
+For more information, see the following resources:
 
 [Top 10 cloud computing myths, debunked](https://www.rackspace.com/library/cloud-computing-myths)
 
@@ -126,7 +176,6 @@ CDN saves a lot of time, a one-second delay in the   response of a web page can 
 [Cloud DNS](https://docs.rackspace.com/support/how-to/cloud-dns)
 
 [Cloud orchestration](https://docs.rackspace.com/support/how-to/cloud-orchestration)
-
 
 [Cloud queues](https://docs.rackspace.com/support/how-to/cloud-queues)
 
