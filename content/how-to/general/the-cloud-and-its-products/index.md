@@ -146,7 +146,7 @@ in the preceding image.
 
 CDN saves a lot of time. A one-second delay in a web page response can cause a
 7% reduction in your conversions. If an e-commerce site has daily revenues of
-\$100,000, a one second delay could result in \$2.5 million in lost sales every
+\$100,000, a one-second delay could result in \$2.5 million in lost sales every
 year.
 
 ### Additional resources
