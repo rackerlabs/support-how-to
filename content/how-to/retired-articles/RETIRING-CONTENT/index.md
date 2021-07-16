@@ -18,7 +18,7 @@
 
 5. (Optional) If the product index page lists the retired article, see the **Remove the article from the product\_index.md page** section.
 
-After the pull request is ready, post a link in the Microsfot&reg; Teams **review-requests** channel in **Docs** for review and merge.
+After the pull request is ready, post a link in the Microsoft&reg; Teams **review-requests** channel in **Docs** for review and merge.
 
 ### Redirect the article to the retired notification page
 
