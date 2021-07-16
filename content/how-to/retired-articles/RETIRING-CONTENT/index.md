@@ -6,21 +6,23 @@
 
 ### Retire content from the Rackspace How-To content repository on your local computer
 
-1. On your PC, in the How-To repository clone, move the folder with the original article **index.md** file (and any associated images or assets) to the retired articles folder, **support-how-to/content/how-to/retired-articles**.
+1. On your PC, in the How-To repository clone, move the folder with the original article
+   **index.md** file (and any associated images or assets) to the retired articles folder,
+   **support-how-to/content/how-to/retired-articles**.
 
-2. Remove both the `product:` and `product_url:` metadata fields from the retired article's **index.md** file.
+2. Remove both the `product:` and `product_url:` metadata fields from the **index.md** file of the retired article.
 
 3. Commit the changes and create a pull request.
 
-4. Redirect the article to the retired notification page.  See the **Redirect the article to retired notification** section.
+4. Redirect the article to the retired notification page. See the **Redirect the article to the retired notification page** section.
 
-5. (Optional) If the product's index page lists the retired article, see the **Remove the article from the product\_index.md page** section.
+5. (Optional) If the product index page lists the retired article, see the **Remove the article from the product\_index.md page** section.
 
-After the pull request is ready, post a link in the #how-to slack channel for review and merge.
+After the pull request is ready, post a link in the Microsoft&reg; Teams **review-requests** channel in **Docs** for review and merge.
 
 ### Redirect the article to the retired notification page
 
-This step redirects anyone trying to reach the old article link to the retired article notification page.
+This step redirects anyone trying to reach the old article link to the retired-article notification page.
 
 **Important:** Complete this step in the same PR as the one in which you retired the article.
 
@@ -35,12 +37,13 @@ This step redirects anyone trying to reach the old article link to the retired a
 
 ### Remove the article from the product index page
 
-This step is optional, and you should complete it only if the article is on the product's **\_index.md** page (the intro page or the landing page) for the topic.
+This step is optional, and you should complete it only if the article is on the
+product **\_index.md** page (the intro page or the landing page) for the topic.
 
 **Important:** Complete this step in the same PR as the one in which you retired the article.
 
-1. Locate and open `_index.md` found in the retired article's product folder.
+1. Locate and open **\_index.md** found in the product folder of the retired article.
 
-2. Remove the reference with the article's link and alt text.
+2. Remove the reference with the article link and alt text.
 
 3. Commit the changes and push them up to the branch where you retired the article to update the PR.
