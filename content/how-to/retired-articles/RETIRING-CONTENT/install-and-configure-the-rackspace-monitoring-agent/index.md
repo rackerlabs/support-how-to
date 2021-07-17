@@ -7,8 +7,7 @@ created_date: '2012-11-13'
 created_by: Susan Million
 last_modified_date: '2020-11-25'
 last_modified_by: Rose Morales
-product: Rackspace Monitoring
-product_url: rackspace-monitoring
+
 ---
 
 This article describes different methods for installing and configuring the
