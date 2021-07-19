@@ -1,39 +1,45 @@
 ---
 permalink: dns-api-calls-with-pitchfork/
+audit_date: '2021-07-19'
 title: DNS API calls with Pitchfork
 type: article
 created_by: Rocio Rodriguez
-created_date: 2021-05-20
-last_modified_date: 
-last_modified_by: 
-audit_date:
+created_date: '2021-05-20'
+last_modified_date: '2021-07-19'
+last_modified_by: Rose Morales
 product: Cloud DNS
 product_url: cloud-dns
 ---
 
-### Log in to Pitchfork
+### Pitchfork login
 
-Log in to the API tool Pitchfork [https://pitchfork.rax.io/](https://pitchfork.rax.io/)
+Navigate to the [API tool Pitchfork](https://pitchfork.rax.io/).
 
-To learn how to log in to and use Pitchfork, refer to [Pitchfork—the Rackspace Cloud API web application](https://docs.rackspace.com/support/how-to/pitchfork-the-rackspace-cloud-api-web-application)
+To learn how to log in and use Pitchfork in
+[Pitchfork—the Rackspace Cloud API web application](/support/how-to/pitchfork-the-rackspace-cloud-api-web-application).
 
 ### DNS API calls with Pitchfork
 
-1. After you log into Pitchfork, click on the **DNS** section to pull up the DNS API calls.
-2. Navigate to the section you prefer to find the DNS API calls. Then, click **Details** to expand the call.
-
-**Domains:** These calls will let you clone, create, export, import, list domain changes since, list, modifiy multiple, remove, search, update or show domain changes.
-**Subdomains:** This call provides a list of all DNS domains that are subdomains for a specified domain.
-**Records:** These calls will let you add, list, remove, search, show or update records on a domain.
-**Reverse DNS** These calls will let you add, list, remove, show or update pointer record details.
-**Jobs:** This call provides a list of all job details.
-**Limits:** These calls will let you list limit, specific or all limits.
-
+1. Click the **DNS** section to pull up the DNS API calls.
+2. Navigate to the section you prefer and click **Details** to expand the
+   options.
 3. Fill the **Parameters** if needed and click **Send API Call**.
+
+    - **Domains:** These calls will let you clone, create, export, import, list
+    domain changes since, list, modifiy multiple, remove, search, update or show
+    domain changes.
+    - **Subdomains:** This call provides a list of all DNS domains that are
+    subdomains for a specified domain.
+    - **Records:** These calls will let you add, list, remove, search, show or
+    update records on a domain.
+    - **Reverse DNS** These calls will let you add, list, remove, show or update
+    pointer record details.
+    - **Jobs:** This call provides a list of all job details.
+    - **Limits:** These calls will let you list limit, specific or all limits.
 
 4. You will get a JSON response with the information you requested.
 
-### Example of List Domains Response Body:
+### Example of List Domains Response Body
 
  ```"images": [
 {
