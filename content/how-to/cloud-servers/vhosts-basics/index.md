@@ -1,5 +1,5 @@
 ---
-permalink: vhost-basics
+permalink: vhosts-basics
 audit_date: '2021-07-19'
 title: Vhosts basics
 type: article
@@ -11,13 +11,19 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-This article introduces you to vhost and web server basics. A web server runs software to process web pages. Once web traffic has reached the server, it follows steps to reach the right web site. If a server serves web content, it needs a **web server** installed.
+This article introduces you to vhost and web server basics. A web server runs
+software to process web pages. After web traffic has reached the server, it
+follows steps to reach the right website. If a server serves web content, you
+need to install a web server.
 
 ### Check the web server status
 
 The most common web servers that run on Linux&reg; are Apache&reg;
-(**httpd** or **apache2**) and NGINX&reg;. 
-You might also have Plesk&reg; . Plesk is used to manage your websites in a more point-and-click Windows&reg; style. If Plesk is installed, use the rest of this article as a rough guide to understand vhosts, as everything would need to be done within Plesk, not the Linux command line.
+(**httpd** or **apache2**) and NGINX&reg;. You might also have Plesk&reg;.
+You can use Plesk to manage your websites in a more point-and-click
+Windows&reg; style. If you install Plesk, use the rest of this article
+an overview of vhosts because you need to use Plesk instead of the Linux
+command line to perform the tasks described here.
 
 By default, web servers allow HTTP traffic through port `80` and HTTPS
 (secure) traffic through port `443`.
@@ -47,9 +53,8 @@ following table:
 | | or |
 | | `systemctl status psa` |
 
-To check if Plesk is installed and which web server is running, enter the following command:
-
-
+To check for Plesk and see which web server is running,
+enter the following command:
 
     # service psa status; netstat -plnt | awk '$4 ~ /:(80|443)$/'
 
@@ -58,9 +63,10 @@ To check if Plesk is installed and which web server is running, enter the follow
 A web server (or a pool of web servers) can host several websites by using Virtual Hosts
 (vhosts). Vhosts allow several websites to share resources from a physical server.
 
-Vhosts can be IP-based or name-based. IP-based vhosts assign a different IP address to a web site,
-and **name-based** vhosts assign multiple hostnames to a single IP address. Vhosts keep track of
-websites in a web server, specifying the configuration of each web site.
+Vhosts can be IP-address-based or name-based. IP-address-based vhosts assign a different
+IP address to a website, and name-based vhosts assign multiple hostnames to a single IP
+address. Vhosts keep track of websites in a web server, specifying the configuration of
+each website.
 
 To check the vhosts configuration in Apache, enter one of the following commands:
 
@@ -77,16 +83,19 @@ To read the contents of a vhost configuration file, enter the following command:
 
 Entries in the vhosts configuration file include:
 
-  - **:80** or **:443**: These entries specify if the web site uses HTTP (`80`) or HTTPS (`443`). 
-  - **DocumentRoot**: The directory path of the web site files. This is most often the location where developers need access to upload files.
-  - **ServerName**: The web site domain name.
-  - **ServerAlias**: Any other web site domain name which you want to redirect to the
+  - **:80** or **:443**: These entries specify if the website uses HTTP (`80`) or
+    HTTPS (`443`). 
+  - **DocumentRoot**: The directory path of the website files. This is most often
+    the location where developers need access to upload files.
+  - **ServerName**: The website domain name.
+  - **ServerAlias**: Any other website domain name that you want to redirect to the
     **ServerName** domain. You usually use domains of the type **www.domain**, but you can
     also use other domains or subdomains.
   - **ErrorLog**: The directory path and name of error logs.
-  - **Port 443**: The SSL configuration. Comment this section if the web site does not have
+  - **Port 443**: The SSL configuration. Comment this section if the website does not have
     a valid SSL certificate.
-  - **Secure HTTPS site**: The three SSL file paths needed for a full encryption to turn it into a more secure HTTPS site.
+  - **Secure HTTPS site**: The three SSL file paths needed for full encryption to turn
+    it into a more secure HTTPS site.
 
 The following example shows a vhosts configuration file:  
 
@@ -136,7 +145,7 @@ enter the following command:
     # cat /OLD_DOMAIN.conf | sed 's/OLD_DOMAIN/NEW_DOMAIN/ig' >> /NEW_DOMAIN.conf
 
 Edit the new vhost configuration file as required. For example, you might
-need to comment the settings that make port `443` active.
+need to comment out the settings that make port `443` active.
 
 To find the location of **DocumentRoot** in a vhost configuration file,
 enter the following command:
@@ -150,7 +159,7 @@ enter the following command:
 Use the following instructions to make a new vhost:
 
 1. If possible, copy an existing vhost to keep consistent settings. Use a text
-   editor or tool like `vim`, `nano`, `sed`, or `awk` if you need to edit it. 
+   editor, such as `vim`, `nano`, `sed`, or `awk`, if you need to edit it. 
     
     ```
        # cat /OLD_DOMAIN.conf | sed 's/OLD_DOMAIN/NEW_DOMAIN/ig' >> /NEW_DOMAIN.conf
@@ -165,17 +174,20 @@ Use the following instructions to make a new vhost:
 
        # httpd -t
   
-4. Do a graceful restart on the web server to incorporate the changes with minimal disruption to your live environment:
+4. Do a graceful restart on the web server to incorporate the changes with minimal
+   disruption to your live environment:
 
        # service httpd graceful
   
-5. The smallest change in a vhost can interrupt your entire web server and stop it from serving all of your web sites. For that reason, check the web server again:      
+5. The smallest change in a vhost can interrupt your entire web server and stop it
+   from serving all of your websites. For that reason, use one of the following
+   commands to re-check the web server:      
 
-| Type of web server | Command |
-| --- | --- |
-| **httpd** | `# httpd -t; service httpd status` |
-| **apache2** | `# apache2ctl -t; service apache2 status` |
-| **nginx** | `# nginx -t; service nginx status` |
+   | Type of web server | Command |
+   | --- | --- |
+   | **httpd** | `# httpd -t; service httpd status` |
+   | **apache2** | `# apache2ctl -t; service apache2 status` |
+   | **nginx** | `# nginx -t; service nginx status` |
 
 ### Check and troubleshoot changes to the vhost configuration
 
@@ -213,7 +225,7 @@ The following example shows a sample error:
     suppress this message
     Syntax OK
 
-Fix this error by creating a **DocumentRoot**:
+Fix this error by creating a **DocumentRoot** directory:
 
     # mkdir -p /var/www/vhosts/example.com
 
@@ -240,7 +252,9 @@ or
 
     # service apache2 graceful
 
-Sometimes, the smallest change in a vhost can interrupt your entire web server and stop it from serving all of your web sites. So back up your work, and after a doing a graceful restart to recognise changes, ensure that your web server is still running without errors. In a live environment, the key is to avoid as much downtime as possible, which means that you need to do a graceful restart on the web server, and run your checks as quickly as possible so that you can undo your changes if need be.
+Sometimes, the smallest change in a vhost can interrupt your entire web server and stop
+it from serving all of your websites. So back up your work, and after doing a graceful
+restart to recognize changes, ensure that your web server still runs without errors. 
 
 The following are best practices to avoid service interruptions after
 changing the vhosts configuration:
@@ -250,9 +264,10 @@ changing the vhosts configuration:
 - Do a graceful restart.
 - Ensure that the web server runs without errors.
 
-It is important to avoid as much downtime as possible in a live environment,
-which means that after restarting the web server, you should perform the checks
-as quickly as possible. To do this, group all the commands on one line.
+In a live environment, the key is to avoid as much downtime as possible, which means that
+you need to do a graceful restart on the web server and run your checks as quickly as
+possible so that you can undo your changes if needed. To do this, you can group all the
+commands on one line.
 
 To do a graceful restart on Apache and check for errors, enter either one of the following commands:
 
