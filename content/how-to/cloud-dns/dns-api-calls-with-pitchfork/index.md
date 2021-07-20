@@ -11,35 +11,39 @@ product: Cloud DNS
 product_url: cloud-dns
 ---
 
+This article describes how to make domain name server (DNS) API calls by
+using the Pitchfork tool.
+
 ### Pitchfork login
 
-Navigate to the [API tool Pitchfork](https://pitchfork.rax.io/).
+To start using Pitchfork, navigate to the [API tool Pitchfork](https://pitchfork.rax.io/).
 
-To learn how to log in and use Pitchfork in
+To learn how to log in and use Pitchfork, see
 [Pitchfork—the Rackspace Cloud API web application](/support/how-to/pitchfork-the-rackspace-cloud-api-web-application).
 
-### DNS API calls with Pitchfork
+### Make DNS API calls with Pitchfork
 
 1. Click the **DNS** section to pull up the DNS API calls.
 2. Navigate to the section you prefer and click **Details** to expand the
    options.
-3. Fill the **Parameters** if needed and click **Send API Call**.
+3. Fill in the following parameters, if needed, and click **Send API Call**.
 
-    - **Domains:** These calls will let you clone, create, export, import, list
-    domain changes since, list, modifiy multiple, remove, search, update or show
-    domain changes.
+    - **Domains:** These calls let you clone, create, export, import, list
+      domain changes since, list, modify multiple, remove, search, update,
+      or show domain changes.
     - **Subdomains:** This call provides a list of all DNS domains that are
-    subdomains for a specified domain.
-    - **Records:** These calls will let you add, list, remove, search, show or
-    update records on a domain.
-    - **Reverse DNS** These calls will let you add, list, remove, show or update
-    pointer record details.
+      subdomains for a specified domain.
+    - **Records:** These calls let you add, list, remove, search, show, or
+      update records on a domain.
+    - **Reverse DNS** These calls let you add, list, remove, show, or update
+      pointer record details.
     - **Jobs:** This call provides a list of all job details.
-    - **Limits:** These calls will let you list limit, specific or all limits.
+    - **Limits:** These calls let you list limits, either specific ones or
+      all limits.
 
-4. You will get a JSON response with the information you requested.
+After you make a call, you get a JSON response with the information you requested.
 
-### Example of List Domains Response Body
+### Example of a List Domains response body
 
  ```"images": [
 {
