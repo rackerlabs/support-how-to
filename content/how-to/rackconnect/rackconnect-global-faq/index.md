@@ -1,12 +1,12 @@
 ---
 permalink: rackconnect-global-faq
-audit_date: '2020-05-27'
+audit_date: '2021-07-20'
 title: RackConnect Global FAQ
 type: article
 created_date: '2015-10-16'
 created_by: Sameer Satyam
-last_modified_date: '2020-05-27'
-last_modified_by: Michael Levy
+last_modified_date: '2021-07-20'
+last_modified_by: Carlos Arriaga
 product: RackConnect
 product_url: rackconnect
 ---
@@ -14,30 +14,32 @@ product_url: rackconnect
 #### What is RackConnect Global?
 
 RackConnect&reg; Global is a software-defined, multi-cloud interconnection
-platform that links Rackspace customers with other Rackspace data centers,
+platform that links Rackspace Technology customers with other Rackspace data centers,
 third-party data centers, and third-party clouds via direct, private, low-latency,
 virtual connections. All traffic flowing between every endpoint
 avoids the public Internet, and instead, rides the Rackspace private backbone.
 
 #### Why should I care about avoiding the public Internet?
 
-The average enterprise currently uses at least five different multi-cloud
+The average enterprise uses at least five different multi-cloud
 platforms. A typical mix includes on-premises private clouds, colocation,
 hosted private cloud, public cloud, and multiple Software-as-a-Service (SaaS)
 offerings. Data stored and processed in each must flow from one to the other
 rapidly and securely. Over two-thirds of data traffic travels east-west
-between clouds, rather than north-south to the end user. This flow of
-information is susceptible to intrusion. If an adversary can make their way into the east-west traffic, there's a good chance they could make their way easily across
-the network and into all of your platforms.
+between clouds, rather than north-south to the end-user. This flow of
+information is susceptible to intrusion. If an adversary can make their way into
+the east-west traffic, there's a good chance they could make their way quickly across
+the network and into your platforms.
 
 #### How does RackConnect Global work?
 
 RackConnect Global is an “ecosystem of ecosystems.” Rackspace has linked the
 leading interconnection exchanges and cloud providers to our proprietary
 backbone. After you’ve connected with the Rackspace backbone via a Rackspace
-data center or edge location (backbone routers in third-party connectivity-rich colocation sites), you can spin up virtual connections across the
-Rackspace footprint as well as Megaport and the Equinix Cloud Exchange Fabric.
-This enables Rackspace to provide multiple paths for connecting with all your
+data center or edge location (backbone routers in third-party connectivity-rich
+colocation sites), you can spin up virtual connections across the Rackspace
+footprint as well as Megaport and the Equinix Cloud Exchange Fabric. These virtual
+connections enable Rackspace to provide multiple paths for connecting with all your
 cloud and colocation providers wherever they are across the globe for an
 integrated hybrid cloud experience.
 
@@ -45,13 +47,13 @@ For more details, see [https://www.rackspace.com/cloud/hybrid/rackconnect/global
 
 #### Who is the audience for RackConnect Global, and what pain points does it solve?
 
-Any company that uses at least one Rackspace service (colocation, dedicated
+Any company that uses Rackspace service (colocation, dedicated
 hosting, server virtualization, private cloud, managed public cloud, or
 application services) and at least one other IT service provider, should find
 RackConnect Global of tremendous value. The private, secure, low-latency
 solution saves traffic flowing between all connected environments&mdash;Rackspace
 and third-party&mdash;from riding the insecure and bogged down public Internet.
-Compared to procuring long-term individual point-to-point connections from a
+In addition, compared to procuring long-term individual point-to-point connections from a
 telecommunications carrier between each of your clouds,
 RackConnect Global Any-to-Any connectivity is significantly more cost-effective,
 flexible, and easier to implement.
@@ -72,7 +74,7 @@ workload as possible deployed within a static private cloud environment and
 only “burst” into the dynamic public cloud when additional resources are
 required. RackConnect Global is ideal for ensuring private clouds and borrowed
 public cloud resources across any number of providers all function together as
-a seamless and secure environment from an end user standpoint.
+a seamless and secure environment from an end-user standpoint.
 
 
 #### In what regions is the service available?
@@ -122,27 +124,27 @@ Users can connect external environments via the following means:
 -  Procure a local loop from a telecommunications carrier to the most
    proximate RackConnect Global-enabled Rackspace data center or edge location
 
-#### What speeds are supported?
+#### What speeds does RackConnect Global support?
 
 RackConnect Global supports connectivity speeds of 50 Mbps, 100 Mbps, 200
 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, 5 Gbps, and 10 Gbps.
 
 #### Is the traffic secure?
 
-Use RackConnect Global to securely transfer data without going over the
-Internet, using a private circuit that isn’t shared with others&mdash;for an
+Use RackConnect Global to transfer data securely without going over the
+Internet, using a private circuit that others don't share&mdash;for an
 additional layer of protection for your business data and apps. The service
-does not provide encryption of any sort. It is purely an MPLS VPN connection.
-The traffic rides all the way through the Rackspace backbone (the network that
+does not provide encryption of any sort. It's purely an MPLS VPN connection.
+The traffic rides through the Rackspace backbone (the network that
 interconnects Rackspace regions and provides connectivity outside of
 Rackspace) without hitting the Internet path and is inherently secure.
 
 #### Does the service have an SLA?
 
-Yes. RackConnect Global includes a 99.9% Connectivity Uptime Guarantee,
+Yes. RackConnect Global includes a 99.99% Connectivity Uptime Guarantee,
 industry-leading SLAs, and the commitment to 24x7x365 service and support
 that’s at the core of what we do. (Rackspace guarantees that the termination
 endpoint for the RackConnect Global Service virtual circuit can accept
-connections 99.9% of the time in any calendar month, provided that there are
+connections 99.99% of the time in any calendar month, provided that there are
 two or more virtual circuit termination endpoints at the Rackspace data center
 location.) You can read the agreement at [https://www.rackspace.com/information/legal/rackconnect-global-regionlink](https://www.rackspace.com/information/legal/rackconnect-global-regionlink).
