@@ -11,7 +11,7 @@ product: RackConnect
 product_url: rackconnect
 ---
 
-{< accordion title="What is RackConnect Global?" col="in" href="accordion1" >}}
+{{< accordion title="What is RackConnect Global?" col="in" href="accordion1" >}}
 
 RackConnect&reg; Global is a software-defined, multi-cloud interconnection
 platform that links Rackspace Technology customers with other Rackspace data centers,
