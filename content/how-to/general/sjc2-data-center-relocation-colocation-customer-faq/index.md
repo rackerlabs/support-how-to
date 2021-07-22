@@ -16,7 +16,7 @@ noindex: true
 
 Rackspace brought the SJC2 data center, located in downtown San Jose, under the
 Rackspace banner with the acquisition of Datapipe in 2017. It is a 9 MW
-facility comprised of 11 data halls covering 65,000 square feet of raised-floor
+facility comprising 11 data halls covering 65,000 square feet of raised-floor
 space.  The lease for SJC2 expires in 2022, and the landlord has advised that
 they will not be renewing the lease because they are planning to sell the building.
 
