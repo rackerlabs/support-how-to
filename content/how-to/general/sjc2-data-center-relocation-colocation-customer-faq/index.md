@@ -43,8 +43,7 @@ dedicated migration team is responsible for multiple large-scale data center
 consolidation and closure exercises for both Rackspace and legacy Datapipe data
 centers. The migration team can provide guidance and advice on all aspects of
 the move. We have created a *Colocation Migration Guide* based on the experience
-of the migration team for those customers who do not have any experience with
-cabinet migration. Reach out to your Customer Success Manager
+of the migration team. Reach out to your Customer Success Manager
 to request a copy of the guide.
 
 ### What support does Rackspace provide for the move?
