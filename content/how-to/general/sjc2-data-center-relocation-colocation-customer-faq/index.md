@@ -55,7 +55,7 @@ and agree a timeframe to ensure there is no double billing of the cabinets.
 Additionally, if requested, we can carry out a physical audit of your environment
 and assist with the physical move.
 
-### We have a leased line that terminates in SJC2. What will happen to this?
+### We have a leased line that terminates in SJC2. What happens to this?
 
 If Rackspace provided the leased line, we will take care of this and work with
 you to schedule the change. If Rackspace does not provide the line, you should
