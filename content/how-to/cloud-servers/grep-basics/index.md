@@ -1,33 +1,41 @@
 ---
 permalink: grep-basics/
+audit_date: '2021-07-23'
 title: grep basics
 type: article
 created_by: Coral Moore
-created_date: 2021-05-14
-last_modified_date: 
-last_modified_by: 
-audit_date:
+created_date: '2021-05-14'
+last_modified_date: '2021-07-23'
+last_modified_by: Cat Lookabaugh
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-# grep Basics
-*For understanding grep, how to search through output.*
+This article introduces some tools, especially `grep`, a Linux&reg; command-line
+tool that you can use to search directories or files that match specified
+regular expressions.
 
-# What is grep?
-++Official answer:++
-grep searches the named input FILEs (or standard input if no files are named, or if a single hyphen-minus (-) is given as filename) for lines containing a match to the given PATTERN.
-By default, grep prints the matching lines.
+### What is `grep`?
 
-++Nicer answer:++
-Search a file or output for something specific.
-Like Ctrl+F in Windows.
-Instead of a huge wall of information, only show me what I'm looking for
+**Official answer:**
 
-# Basics
-Often the easiest way to show how a command works, is with examples!
+`grep` searches the named input files (or standard input if you don't
+specify a file or use a single hyphen (**-**) as the filename)
+for lines containing a match to the given pattern. By default, `grep`
+prints the matching lines.
 
-Show standard users:
+**Nicer answer:**
+
+Search a file, directory, or output for something specific, similar to
+**Ctrl** + **f** in Windows&reg;. Use this function to target exactly
+what you need.
+
+### Basics
+
+Often, the easiest way to show how a command works, is with examples.
+
+You can see all users in the **/etc/passwd** file with the following command:
+
 ```sh
 # cat /etc/passwd
 rack:x:1001:1001::/home/rack:/bin/bash
@@ -36,24 +44,27 @@ mysql:x:27:27:MariaDB Server:/var/lib/mysql:/sbin/nologin
 sher:x:1002:1002::/home/sher:/bin/bash
 ```
 
-Using grep, we can now narrow down that list to find a single user.
+Using `grep`, you can narrow down that list to find a single user.
 
-Find a specific user:
-*(Show standard users, take that output, and only show me the line with 'sher' in it)*
+**Find a specific user**:
+
+List the users but filter the output showing only the line with **sher** in it.
+
 ```sh
 # cat /etc/passwd | grep 'sher'
 sher:x:1002:1002::/home/sher:/bin/bash
 ```
 
-Quicker find a specific user:
-*(find the line with 'sher' in the users file)*
+Or, find the same user with a single command:
+
 ```sh
 # grep 'sher' /etc/passw
 rack:x:1001:1001::/home/rack:/bin/bash
 sher:x:1002:1002::/home/sher:/bin/bash
 ```
 
-Find all users with bash access:
+In the following example, find all users with bash access:
+
 ```sh
 # grep 'bash' /etc/passwd
 rack:x:1001:1001::/home/rack:/bin/bash
@@ -61,186 +72,245 @@ sher:x:1002:1002::/home/sher:/bin/bash
 ```
 
 ### Flags
-Like most Linux commands, grep uses flags with a '-letter' to add extra behaviours.
 
-**-v** means show me everything EXCEPT what I specified:
+Like most Linux commands, `grep` uses flags, usually one or more
+letters preceeded by one or more dashes, to add extra functionality.
+
+`-v`: Show everything thst does not include the specified
+search pattern:
+
 ```sh
 # grep -v 'nologin' /etc/passwd
 rack:x:1001:1001::/home/rack:/bin/bash
 sher:x:1002:1002::/home/sher:/bin/bash
 ```
-**-i** means ignore upper case and lower case:
-*Very useful when you don't know exactly what you're looking for*
+
+`-i`: Show matches, ignoring the case, which is useful when
+you don't know exactly what you need:
+
 ```sh
 # grep -i 'SHER' /etc/passwd
 sher:x:1002:1002::/home/sher:/bin/bash
 ```
 
-### Search for multiple things
-grep uses the pipe symbol | to mean 'or' allowing you to search for more than 1 thing at a time.
-But to use it this way, there are 3 methods:
+### Search for multiple patterns
 
-**\\** escapes the next character **|** , allowing it to work as 'or':
+`grep` uses the pipe symbol (**|**) to mean *or* allowing you to search
+for more than one thing at a time. Use one of the following methods
+to search for several things at once:
+
+**\\**: Escapes the next character, a pipe (**|**) allowing it to work as *or*:
+
 ```sh
 # grep 'sher\|rack' /etc/passwd
 rack:x:1001:1001::/home/rack:/bin/bash
 sher:x:1002:1002::/home/sher:/bin/bash
 ```
 
-**-E** is a flag allowing special characters like **|** to be interpreted as things like 'or':
+**-E**: Interprets special characters, such as **|** as *or*:
+
 ```sh
 # grep -E 'sher|rack' /etc/passwd
 rack:x:1001:1001::/home/rack:/bin/bash
 sher:x:1002:1002::/home/sher:/bin/bash
 ```
 
-**egrep** is also the easiest way to achieve the exact same thing:
+The `egrep` command does the same thing:
+
 ```sh
 # egrep 'sher|rack' /etc/passwd
 rack:x:1001:1001::/home/rack:/bin/bash
 sher:x:1002:1002::/home/sher:/bin/bash
 ```
 
-### All together
-You can use a variety of these different flags, all together if you wish to really refine a search.
-Show me all users who AREN'T sher or rack, regardless of uppercase or lowercase:
+### Combining flags
+
+You can use various flags in combination to refine a search.
+
+The following example shows all users who aren't **sher** or **rack**,
+regardless of the case of the pattern of file content:
+
 ```sh
 # egrep -vi 'SHER|RACK' /etc/passwd
 ```
 
-# Practical Examples
-### Ignore comments
-In Linux, lines are often 'commented out' by adding the # symbol at the beginning of the line.
-This way, you can add your own notes, or old information which any scripts/programs will know to ignore and not try to run as code.
-But there is a way to read files whilst ignoring those comments ourselves.
+### Practical examples
 
-Read something and ignore commented out lines:
+The following sections cover other uses for `grep` and introduce other useful commands.
+
+#### Ignore comments
+
+In Linux, you comment out lines by adding the pound symbol (**#**) at the
+beginning of the line. This way, you can add your own notes, and scripts or programs
+ignore the comments and do not execute those lines.
+
+To display files ignoring those comments, use tbe following command:
+
 ```sh
 # grep -v ^'#' /file
 ```
 
-You can even run a grep, on top of another grep!
+You can even run a `grep` on top of another `grep` comand.
 
-Read something, ignore commented out lines, and THEN look for something specific:
+For example, list a file ignoring commented lines, and then look for something specific:
+
 ```sh
 # grep -v ^'#' /file | grep 'hello'
 ```
 
-### Search history
-Most Linux systems keep a log of commands run, which you can access with the command 'history'
-But pair 'history' up with 'grep', and you can very effectively investigate what has been run on your system so far.
+#### Search history
 
-Check what commands were run regarding the word 'passwd':
+Most Linux systems keep a log of executed commands, which you can access with
+the command `history`. When you combine `history` with `grep`, you can very
+effectively investigate what has been run on your system so far.
+
+Check the `passwd` commands run and other commands containing the
+**passwd** pattern:
+
 ```sh
 # history | grep 'passwd'
 ```
 
-Check what commands were run on a specific day:
+Find commands run on a specific day:
+
 ```sh
 # history | grep '2021-05-10'
 ```
 
-Check what commands were run at a specific time:
+Check which commands ran at a specific time:
+
 ```sh
 # history | grep '2021-05-10 11:00:'
 ```
 
-### Check ports and root login
-List the web traffic ports 80 + 443, and what's running on them:
+#### Check ports and root login
+
+List the web traffic running on ports `80` and `443`:
+
 ```sh
 # netstat -plnt | egrep '80|443'
 ```
 
-**^** asks grep so only show lines starting with what you're searching for.
+You can use **^** in a `grep` command to show only those lines
+starting with your search pattern.
 
-Check if root logins are enabled:
+For example, run the following command to check whether the system allows
+root logins:
+
 ```sh
 # grep ^'Permit' /etc/ssh/sshd_config
 ```
 
-### Search logs with head + tail
-Show the **top** of the log in attempt log:
+#### Search logs with head and tail
+
+Use `top` to show the first ten lines of the login attempts log:
+
 ```sh
 # head /var/log/secure
 ```
 
-Show the **end** of the log in attempt log:
+Use `tail` to show the lines at the end of the login attempts log:
+
 ```sh
 # tail /var/log/secure
 ```
 
-Show the **top 10 lines** of who logged in last:
+Use the `last` command to show the first ten lines of the most recent logins:
+
 ```sh
 # last | head -10
 ```
 
-Show the **end** of the log in attempt log **with a live feed**:
-So if someone tries to log in, you’ll see it update right then and there
+Use the `tail -f`, for example, to see the most recent login attempts and stream
+ongoing attempts. If someone tries to log in, you can see it as it happens with
+the following command:
+
 ```sh
 # tail -f /var/log/secure
 Ctrl + C to exit
 ```
 
-# How to play/experiment
-### With vim / nano
-vi, vim, or nano are the most commonly recognised text editors in Linux.
-You can use them to freely type into a file, like you would in Windows with Notepad.
+### Other tools
 
-Open up and create a new file called test:
+You can experiment with your newfound skills by using the tools in this section.
+
+#### vim or nano
+
+`vi`, `vim`, and `nano` are the most common text editors in Linux.
+You can use them to edit a file, similar to using Notepad in Windows.
+
+Open up and create a new file, **test**:
+
 ```sh
 # vim /test
 ```
 
-Actions | Press these keys in this order | Explanation
+Actions | Key sequence | Explanation
 -|-|-
-To start typing new content: | i | i stands for insert
-To exit without saving: | Esc : q !	| Escape insert mode, and quit
-To exit and save: | Esc : w q ! | Escape insert mode, write, and quit
+To start typing new content: | `i` | Prepare to insert text
+To exit without saving: | **Esc** `:q!`	| Escape insert mode and quit
+To exit and save: | **Esc** `:wq!` | Escape insert mode, write, and quit
 
-### With echo
-echo is a simple command which tells Linux to echo what you say back to you.
-This is effective for testing grep commands without going to the trouble of creating a new file.
+#### echo
 
-Say hello:
+`echo` is a simple command that tells Linux to repeat what you just typed.
+This is effective for testing `grep` commands without first creating a new file.
+
+For example, make **hello** display:
+
 ```sh
 # echo 'hello'
 hello
 ```
 
-Say hello, then search for the middle:
+Display **hello** and search for the middle letters:
+
 ```sh
 # echo 'hello' | grep 'ell'
 hello
 ```
 
-You can even echo onto multiple lines by using **-e** and **\n** to mean 'new line'
+You can even use `echo` to display multiple lines by using `-e` and `\n` to
+add new lines.
 
-Say hi and ho on separate lines:
+Display **hi** and **ho** on separate lines:
+
 ```sh
 # echo -e 'hi\nho'
 hi
 ho
 ```
 
-Say hi and ho on separate lines, but then only look for hi:
+Display **hi** and **ho** on separate lines and search for **hi**:
+
 ```sh
 # echo -e 'hi\nho' | grep 'hi'
 hi
 ```
 
-### With sed
-sed has a whole variety of uses like grep, but here are some basic examples of how to single out specific lines.
+#### With sed
 
-Use vim to make a file:
+Just like `grep`, `sed` has many uses, but primarily you use this command to
+search for and replace specified content. Here are some basic examples of how
+to single out specific lines:
+
+First, Use `vim` to create a file:
+
 ```sh
 # vim /test
+```
+
+When the editor opens, enter the folloiwng lines:
+
+```sh
 1 Hi
 2 How
 3 Are
 4 You
 ```
 
-Read your new file:
+Display the new file:
+
 ```sh
 # cat test
 1 Hi
@@ -249,7 +319,8 @@ Read your new file:
 4 You
 ```
 
-Exclude only the first line:
+Use `sed` to return everything except the first line:
+
 ```sh
 # sed 1d test
 2 How
@@ -257,15 +328,21 @@ Exclude only the first line:
 4 You
 ```
 
-Include only the first line:
+Return only the first line:
+
 ```sh
 # sed 1q test
+```
+
 or
+
+``` sh
 # sed '1!d' test
 1 Hi
 ```
 
-Include only the second to fourth lines:
+Return only the second to fourth lines:
+
 ```sh
 # sed '2,4!d' test
 2 How
@@ -273,5 +350,8 @@ Include only the second to fourth lines:
 4 You
 ```
 
-There are many other tools which you can use such as awk, cut, sort, xargs etc.
-But now that you know how to create a file/echo, you can more effectively experiment with them.
+### Conclusion
+
+There are many other tools which you can use such as `awk`, `cut`, `sort`, `xargs`,
+and so on. Now that you know how to create a file by using `echo`, you can
+experiment more effectively with them.
