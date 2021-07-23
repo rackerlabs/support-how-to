@@ -74,9 +74,9 @@ sher:x:1002:1002::/home/sher:/bin/bash
 ### Flags
 
 Like most Linux commands, `grep` uses flags, usually one or more
-letters preceeded by one or more dashes, to add extra functionality.
+letters preceded by one or more dashes, to add extra functionality.
 
-`-v`: Show everything thst does not include the specified
+`-v`: Show everything that does not include the specified
 search pattern:
 
 ```sh
@@ -150,7 +150,7 @@ To display files ignoring those comments, use tbe following command:
 # grep -v ^'#' /file
 ```
 
-You can even run a `grep` on top of another `grep` comand.
+You can even run a `grep` on top of another `grep` command.
 
 For example, list a file ignoring commented lines, and then look for something specific:
 
@@ -221,9 +221,9 @@ Use the `last` command to show the first ten lines of the most recent logins:
 # last | head -10
 ```
 
-Use the `tail -f`, for example, to see the most recent login attempts and stream
-ongoing attempts. If someone tries to log in, you can see it as it happens with
-the following command:
+Use the `tail -f` to watch a file grow in real time. For example, you can see
+the most recent login attempts and watch ongoing attempts. If someone tries to
+log in, you can see it as it happens with the following command:
 
 ```sh
 # tail -f /var/log/secure
@@ -290,7 +290,7 @@ hi
 
 #### With sed
 
-Just like `grep`, `sed` has many uses, but primarily you use this command to
+Like `grep`, `sed` has many uses, but you primarily use this command to
 search for and replace specified content. Here are some basic examples of how
 to single out specific lines:
 
@@ -300,7 +300,7 @@ First, Use `vim` to create a file:
 # vim /test
 ```
 
-When the editor opens, enter the folloiwng lines:
+When the editor opens, enter the following lines:
 
 ```sh
 1 Hi
@@ -352,6 +352,6 @@ Return only the second to fourth lines:
 
 ### Conclusion
 
-There are many other tools which you can use such as `awk`, `cut`, `sort`, `xargs`,
+There are many other tools that you can use, such as `awk`, `cut`, `sort`, `xargs`,
 and so on. Now that you know how to create a file by using `echo`, you can
 experiment more effectively with them.
