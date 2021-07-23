@@ -288,7 +288,7 @@ Display **hi** and **ho** on separate lines and search for **hi**:
 hi
 ```
 
-#### With sed
+#### sed
 
 Like `grep`, `sed` has many uses, but you primarily use this command to
 search for and replace specified content. Here are some basic examples of how
