@@ -1,12 +1,12 @@
 ---
 permalink: linux-spheres-of-support-for-dedicated-and-managed-ops
-audit_date: '2017-03-07'
+audit_date: '2021-07-22'
 title: Linux Spheres of Support for Dedicated and Managed Operations
 type: article
 created_date: '2017-03-03'
 created_by: Alex Juarez
-last_modified_date: '2021-02-10'
-last_modified_by: Sean Crumpler
+last_modified_date: '2021-07-22'
+last_modified_by: Man Chung
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
@@ -17,16 +17,20 @@ This article outlines our support of software and server configurations for mach
 
 The following operating systems are supported for both Dedicated and Managed Operations:
 
-- CentOS&reg; 7
-- Red Hat&reg; Enterprise Linux&reg; 8
-- Red Hat Enterprise Linux 7
-- Ubuntu&reg; 18.04 LTS (Bionic Beaver)
-- Ubuntu 16.04 LTS (Xenial Xerus)
-
-The following operating systems are supported only for Managed Operations:
-
-- Debian&reg; 9 (Stretch)
-- Debian 8 (Jessie)
+|   | Dedicated | Managed Operations | Fanatical AWS | Microsoft Azure |
+| --- | --- | --- | --- | --- |
+| CentOS&reg; 8 | - | Yes | Yes | Yes |
+| CentOS 7 | Yes | Yes | Yes | Yes |
+| Red Hat&reg; Enterprise Linux&reg; 8 | Yes | Yes | Yes | Yes |
+| Red Hat Enterprise Linux 7 | Yes | Yes | Yes | Yes |
+| Oracle&reg; Linux 8 | Yes | - | - | - |
+| Oracle Linux 7 | Yes | - | - | - |
+| Ubuntu&reg; 20.04 LTS (Focal Fossa) | Yes | Yes | Yes | Yes |
+| Ubuntu 18.04 LTS (Bionic Beaver) | Yes | Yes | Yes | Yes |
+| Ubuntu 16.04 LTS (Xenial Xerus) | Yes | Yes | Yes | Yes |
+| Debian&reg; 10 (Buster) | - | Yes | Yes | Yes |
+| Debian 9 (Stretch) | - | Yes | Yes | Yes |
+| Amazon&reg; Linux 2 | - | - | Yes | - |
 
 **Note**: Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support
 dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end
@@ -50,8 +54,9 @@ The following types of database servers are supported in the indicated areas:
 
 |   | Installation | Configuration | Troubleshooting | Patching |
 | --- | --- | --- | --- | --- |
-| MySQL and MariaDB | Yes | Yes | Yes | Yes |
+| MySQL | Yes | Yes | Yes | Yes |
 | Percona | Yes | Yes | Yes | Yes |
+| MariaDB | Yes | Yes | Yes | Yes |
 
 **Note**: Linux OS administrators handle basic database support topics. Advanced topics might require DBA support assistance.
 PostgreSQL, MongoDB&reg;, and Oracle&reg; are not supported by Linux OS administrators. The Rackspace DBA team supports Oracle
@@ -102,14 +107,14 @@ The following caching tools are supported in the indicated areas:
 |   | Installation | Configuration | Troubleshooting | Patching |
 | --- | --- | --- | --- | --- |
 | Memcached | Yes | Yes | Yes | Yes |
-| Redis | Yes | Yes | Yes | Yes |
 | Varnish | Yes | Yes | Yes | Yes |
+| Redis | Yes | Yes | Yes | Yes |
 
 **Note**: Rackspace does not support VCL customization for Varnish.
 
 ### Clustering
 
-The following services are supported on Red Hat Cluster Suite&reg; (RHCS) in the indicated areas:
+The following services are supported on Pacemaker Cluster Suite&reg; (PCS) in the indicated areas:
 
 |   | Installation | Configuration | Troubleshooting | Patching |
 | --- | --- | --- | --- | --- |
@@ -117,8 +122,8 @@ The following services are supported on Red Hat Cluster Suite&reg; (RHCS) in the
 | NFS | Yes | Yes | Yes | Yes |
 | Redis | Yes | Yes | Yes | Yes |
 
-**Note**: RHCS is supported only on physical hardware platforms (not including OnMetal offerings). 
-The DBA team and Linux OS administrators support Oracle on RHCS in tandem.
+**Note**: We support PCS on only physical hardware platforms (not including OnMetal offerings). 
+We do not support Oracle on PCS.
 
 ### Containerization technologies
 
