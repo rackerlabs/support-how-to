@@ -92,7 +92,7 @@ permalink: /support/how-to/
         <div class="col-sm-12 col-md-3 icon cloudflare">
           <h4><a href="/support/how-to/rms-cloudflare/"><span>Cloudflare</span> with Rackspace Managed Services</a></h4>
         </div>
-        <div class="col-sm-12 col-md-3 icon pdr">
+        <div class="col-sm-12 col-md-3">
           <h4><a href="/support/how-to/imperva-app-protect/"><span>Imperva App Protect</span> with Rackspace Managed Services</a></h4>
         </div>
       </div>
