@@ -83,14 +83,17 @@ permalink: /support/how-to/
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-12 col-md-4 icon pdr">
+        <div class="col-sm-12 col-md-3 icon pdr">
           <h4><a href="/support/how-to/rackspace-pdr/"><span>Rackspace</span> Proactive Detection & Response</a></h4>
         </div>
-        <div class="col-sm-12 col-md-4 icon alert-logic">
+        <div class="col-sm-12 col-md-3 icon alert-logic">
           <h4><a href="/support/how-to/rms-alert-logic/"><span>Alert Logic</span> Security Solutions</a></h4>
         </div>
-        <div class="col-sm-12 col-md-4 icon cloudflare">
+        <div class="col-sm-12 col-md-3 icon cloudflare">
           <h4><a href="/support/how-to/rms-cloudflare/"><span>Cloudflare</span> with Rackspace Managed Services</a></h4>
+        </div>
+        <div class="col-sm-12 col-md-3 icon pdr">
+          <h4><a href="/support/how-to/imperva-app-protect/"><span>Imperva App Protect</span> with Rackspace Managed Services</a></h4>
         </div>
       </div>
       <hr />
