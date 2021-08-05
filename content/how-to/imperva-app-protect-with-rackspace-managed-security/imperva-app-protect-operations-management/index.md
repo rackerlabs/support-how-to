@@ -1,5 +1,5 @@
 ---
-permalink: operations-management/
+permalink: imperva-app-protect-operations-management/
 audit_date: '2021-08-04'
 title: Imperva App Protect operations management
 type: article

@@ -1,5 +1,5 @@
 ---
-permalink: onboarding-to-imperva-app-protect/
+permalink: onboarding-to-imperva-app-protect-with-rackspace-managed-security/
 audit_date: '2021-08-04'
 title: Onboarding to Imperva App Protect with Rackspace Managed Security
 type: article

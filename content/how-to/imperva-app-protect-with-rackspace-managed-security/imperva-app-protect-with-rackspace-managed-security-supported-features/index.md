@@ -1,5 +1,5 @@
 ---
-permalink: supported-features/
+permalink: imperva-app-protect-with-rackspace-managed-security-supported-features/
 audit_date: '2021-08-04'
 title: Imperva App Protect with Rackspace Managed Security supported features
 type: article
