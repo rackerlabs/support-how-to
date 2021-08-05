@@ -12,6 +12,7 @@ product_url: imperva-app-protect
 ---
 
 ![architecture_diagram](https://docs-be.imperva.com/bundle/cloud-application-security/page/introducing/Images/512.png?_LANG=enus)
+*Image source: https://docs-be.imperva.com/bundle/cloud-application-security/page/introducing/Images/512.png?_LANG=enus*
 
 Imperva App Protect is activated through a DNS change without installing
 on-premises software or hardware and without making any changes to the site

@@ -36,7 +36,8 @@ features:
 - Attack Analytics
 
 Additional add-ons can be purchased or are included depending on the plan that
-you select. For more information, see [Add on services](placeholder-link).
+you select. For more information, see
+[Add on services](/support/how-to/platform-architecture-security-and-addon-services).
 
 ### Base plans offered
 
