@@ -69,7 +69,8 @@ account. After you have taken these steps, you are eligible to upgrade.
 
 If you need a new Cloud Server or Cloud Database, you can create the image on
 the server or have the Managed Operations team create it for you.
-In either case, we update, patch, and run the instance for you.
+In either case, we update, patch, and
+run the instance for you.
 
 {{< /accordion >}}
 
