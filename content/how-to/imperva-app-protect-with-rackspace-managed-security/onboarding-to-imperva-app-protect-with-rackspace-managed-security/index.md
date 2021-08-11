@@ -12,13 +12,34 @@ product_url: imperva-app-protect
 ---
 
 Rackspace experts are here to guide your onboarding experience to the
-Imperva App Protect solution. There are four phases to the onboarding
-experience:
+Imperva App Protect solution. There are four phases to onboarding:
 
 1. Initial site check
 2. Initial configuration
 3. Testing and configuration finalization
 4. Cutover and monitoring
+
+This article includes the following sections:
+
+- [Site Readiness Checks](#site-readiness-checks)
+- [Onboarding](#onboarding)
+  - [Sites to be onboarded](#sites-to-be-onboarded)
+    - [Reusing CNAMEs](#reusing-cnames)
+  - [IP addresses to safelist](#ip-addresses-to-safelist)
+  - [HTTPS certificate](#https-certificate)
+  - [Known good non-browser clients](#known-good-non-browser-clients)
+  - [User list](#user-list)
+  - [Global load balancer and failover configuration (Add-on)](#global-load-balancer-and-failover-configuration-add-on)
+  - [Advanced Bot Protection (Add-on)](#advanced-bot-protection-add-on)
+- [Testing and Configuration Finalization](#testing-and-configuration-finalization)
+  - [HTTPS Certification Verification](#https-certificate-verification)
+  - [Site Testing](#site-testing)
+  - [Enable 2FA for Imperva App Protect Users](#enable-2fa-for-imperva-app-protect-users)
+- [Data Storage Region](#data-storage-region)
+- [Cutover and Monitoring](#cutover-and-monitoring)
+  - [Cross Site Scripting (Set to Alert Only by Default)](#cross-site-scripting-set-to-alert-only-by-default)
+
+
 
 ### Site Readiness Checks
 
@@ -187,7 +208,7 @@ Helpers by default:
 
 For more information on Rackspace best practices regarding non-browser
 clients, see
-[Whitelisting Known non-browser clients](/support/how-to/best-practices-for-imperva-app-protect#whitelisting-known-non-browser-clients)
+[Safelisting Known non-browser clients](/support/how-to/best-practices-for-imperva-app-protect#safelisting-known-non-browser-clients)
 
 #### User list
 

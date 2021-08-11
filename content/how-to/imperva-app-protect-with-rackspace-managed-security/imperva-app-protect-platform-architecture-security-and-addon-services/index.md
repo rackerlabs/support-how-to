@@ -1,7 +1,7 @@
 ---
-permalink: platform-architecture-security-and-addon-services/
+permalink: imperva-app-protect-platform-architecture-security-and-addon-services/
 audit_date: '2021-08-04'
-title: 'Platform architecture, security, and add-on services'
+title: 'Imperva App Protect Platform architecture, security, and add-on services'
 type: article
 created_date: '2021-08-04'
 created_by: Adam Brown
@@ -85,7 +85,7 @@ depending on which level you select.
 | Advanced Website Protection (formerly Unlimited DDoS Protection) | An always-on DDoS mitigation service that manages any type, size or duration of attack with near-zero latency in under 3 seconds--backed by a service level agreement. Protects applications on-premises or in the cloud with activation via a simple DNS change. |
 | Additional bandwidth (only available on Enterprise 100 plan) | Increase the amount of inspected traffic that will be processed through the Imperva service. |
 | Edge Load Balancing | A cloud-based load balancer that supports local and global server load balancing across on-premises and public cloud data centers. Supports automatic failover to standby servers to enable high-availability and disaster recovery without any TTL-related delays. You can read more about Imperva's Cloud Load Balancer here: <br /><br /> [Imperva App Protect - Load Balancer](https://docs.imperva.com/bundle/cloud-application-security/page/introducing/load-balancing-failover.htm) |
-| Advanced Bot Protection | A service that gives advanced visibility and control over human, good bot, and bad bot traffic without imposing friction on legitimate users. This service is not currently supported by Rackspace Technology, but can still be enabled. You can read more about Imperva's Advanced Bot Protection here: <br /><br /> [Imperva App PRotect - Advanced Bot Protection](https://docs.imperva.com/bundle/advanced-bot-protection/page/74791.htm)|
+| Advanced Bot Protection | A service that gives advanced visibility and control over human, good bot, and bad bot traffic without imposing friction on legitimate users. This service is not currently supported by Rackspace Technology, but can still be enabled. You can read more about Imperva's Advanced Bot Protection here: <br /><br /> [Imperva App Protect - Advanced Bot Protection](https://docs.imperva.com/bundle/advanced-bot-protection/page/74791.htm)|
 
 
 ### Additional capabilities
@@ -183,9 +183,9 @@ Rackspace Technology supplies support for the following rules:
   experience (support different payment processors, shippers, or currencies),
   and so on.
 
-See [Best practices for Imperva App Protect](best_practices.md) for some best
+See [Best practices for Imperva App Protect](/support/how-to/imperva-app-protect-best-practices) for some best
 practices in implementing rules. Rules that fall outside the
-[spheres of support](support/spheresofsupport.md) for the Imperva service
+[spheres of support](/support/how-to/imperva-app-protect-spheres-of-support) for the Imperva service
 are subject to
 [Professional Services](https://www.rackspace.com/services/professional-services).
 

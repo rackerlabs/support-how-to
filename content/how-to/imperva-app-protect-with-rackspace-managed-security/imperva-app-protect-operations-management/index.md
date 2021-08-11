@@ -26,6 +26,8 @@ through the various point of presences (PoPs) to ensure 24x7x365 availability
 and configuration management. Exact details on the backup process cannot be
 provided for the SaSS based service.
 
+Imperva defines Maintenance as follows:
+
 | Essential Maintenance |   |
 | :-- | :-- |
 | Definition | Required for a production incident that is currently or potentially affecting our Imperva customers |

@@ -43,9 +43,14 @@ you select. For more information, see
 
 Rackspace Technology offers the following Imperva App Protect base plans.
 
-| **Bot Type**  | **Description** |
+| **Plan**  | **Includes** |
 | :-- | :-- |
-| Search Bot  | A bot that searches data and indexes it for later use by a search engine. For example, Googlebot, Bingbot |
+| 20 Mbps Plan | <ul><li>Imperva App Protect with up to 20 mbps traffic inspection\*</li><li>1 website</li></ul> |
+| 50 Mbps Plan | <ul><li>Imperva App Protect with up to 50 mbps traffic inspection</li><li>1 website</li></ul> |
+| 100 Mbps Plan | <ul><li>Imperva App Protect with up to 100 mbps traffic inspection</li><li>1 website</li></ul> |
+
+\* based on the amount of clean, inspected traffic that will be ingested by
+Imperva.
 
 ### Advanced plans offered (Application Security)
 
@@ -59,36 +64,34 @@ fit your need.
 
 | **Plan**  | **Includes** |
 | :-- | :-- |
-| App Protect Essentials  | <ul><li>1 site/application</li><li>Web Application Firewall</li><li>IP Reputation Intelligence</li><li>Attack Analytics</li><li>CDN</li><li>Bot Protection</li><li>SIEM Integration</li></ul> |
-| App Protect Professional  | <ul><li>1 site/application</li><li>Web Application Firewall</li><li>IP Reputation Intelligence</li><li>Attack Analytics</li><li>CDN</li><li>Bot Protection</li><li>SIEM Integration</li><li>Advanced Web Protection (DDoS mitigation), with 3 second response time SLA</li></ul> |
-| App Protect Enterprise  | <ul><li>1 site/application</li><li>Web Application Firewall</li><li>IP Reputation Intelligence</li><li>Attack Analytics</li><li>CDN</li><li>Edge Load Balancing</li><li>Bot Protection</li><li>Advanced Bot Protection </li><li>SIEM Integration</li><li>Advanced Web Protection (DDoS mitigation), with 3 second response time SLA</li></ul> |
+| App Protect Essentials  | <ul><li>1 site/application</li><li>Cloud Web Application Firewall</li><li>IP Reputation Intelligence</li><li>Attack Analytics</li><li>CDN</li><li>Bot Protection</li><li>SIEM Integration</li></ul> |
+| App Protect Professional  | <ul><li>1 site/application</li><li>Cloud Web Application Firewall</li><li>IP Reputation Intelligence</li><li>Attack Analytics</li><li>CDN</li><li>Bot Protection</li><li>SIEM Integration</li><li>Advanced Web Protection (DDoS mitigation), with 3 second response time SLA</li></ul> |
+| App Protect Enterprise  | <ul><li>1 site/application</li><li>Cloud Web Application Firewall</li><li>IP Reputation Intelligence</li><li>Attack Analytics</li><li>CDN</li><li>Edge Load Balancing</li><li>Bot Protection</li><li>Advanced Bot Protection - Support provided by Imperva Analyst Services</li><li>SIEM Integration</li><li>Advanced Web Protection (DDoS mitigation), with 3 second response time SLA</li></ul> |
 
 ### Growth and Adjustments
 
-If you need to adjust your plan, reach out to your Rackspace Account
-Executive and we can complete this process for you.
+If you need to adjust your plan, reach out to your Rackspace Technology
+Account Executive and we can complete this process for you.
 
 See the following general adjustment guidelines:
 
 - If the bandwidth of your plan is exceeded, you can either pay an overage fee
   or move to the next plan
 - At the 100 mbps plan, throughput can be added incrementally
-- Additional sites/applications can be added incrementally or in packs to
+- Additional sites or applications can be added incrementally or in packs to
   any plan
 
 ### Defining a Site and Domain
 
 Rackspace needs a list of sites to be onboarded into the Imperva App Protect
 offering. A site might stand for a single application or a group of
-applications that are managed together sharing the same dashboards and
+applications that are managed together, sharing the same dashboards and
 configuration settings.
 
 - Domain names must share the same origin server/IP address
 - The SSL certificate used by the site or domain names must be the same
 
-**Website**: A destination on the Internet and the SSL certificate, if
-used, for that destination. A destination is either a public IP address or
-a CNAME.
+**Site**: A collection of web pages within a public IP address or a CNAME.
 
 **Domain**: Enables multiple websites or applications to resolve to a single
 destination. If these websites have the same destination and SSL
@@ -98,7 +101,7 @@ resolve to the same IP address or CNAME, but have different SSL
 certificates, they must be configured on the system separately and require
 individual licenses to avoid SSL mismatch errors.
 
-**Note:** Using a single website license and configuring multiple websites
+Using a single website license and configuring multiple websites
 together in the Imperva system results in all sites being combined into a
 single unit. These sites are reported and managed (security and acceleration
 policies) as a single unit. If you require granular reporting or separate

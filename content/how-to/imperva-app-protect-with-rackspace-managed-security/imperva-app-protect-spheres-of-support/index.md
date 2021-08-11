@@ -1,5 +1,5 @@
 ---
-permalink: imperva-spheres-of-support/
+permalink: imperva-app-protect-spheres-of-support/
 audit_date: '2021-08-04'
 title: Imperva App Protect spheres of support
 type: article
@@ -547,4 +547,4 @@ Rackspace Technology currently does not support. Rackspace Technology
 looks to support all Imperva App Protect features where Rackspace can provide
 value to the customer. Additional features and support will be added over time
 to expand the support of the platform to meet the capabilities of the
-platform. Offer not available to legacy Datapipe or Adapt customers. 
+platform. Offer not available to legacy Datapipe or Adapt customers.

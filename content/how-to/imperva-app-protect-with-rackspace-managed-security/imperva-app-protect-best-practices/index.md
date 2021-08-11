@@ -1,7 +1,7 @@
 ---
-permalink: best-practices-for-imperva-app-protect/
+permalink: imperva-app-protect-best-practices/
 audit_date: '2021-08-04'
-title: Best practices for Imperva App Protect
+title: Imperva App Protect best practices
 type: article
 created_date: '2021-08-04'
 created_by: Adam Brown
@@ -26,12 +26,11 @@ Service.
   - [User management](#user-management)
   - [Data storage regions](#data-storage-regions)
   - [Restricting origin server access to Imperva only](#restricting-origin-server-access-to-imperva-only)
-
 - [Performance and content optimizations](#performance-and-content-optimizations)
   - [Cache shield](#cache-shield)
   - [Dynamic content acceleration](#dynamic-content-acceleration)
   - [HTTP/2](#http/2)
-  - [Error page branding](#error-page-branding) 
+  - [Error page branding](#error-page-branding)
 
 ### Security
 
