@@ -1,7 +1,7 @@
 ---
 permalink: imperva-app-protect-platform-architecture-security-and-addon-services/
 audit_date: '2021-08-04'
-title: 'Imperva App Protect Platform architecture, security, and add-on services'
+title: 'Imperva App Protect platform architecture, security, and add-on services'
 type: article
 created_date: '2021-08-04'
 created_by: Adam Brown

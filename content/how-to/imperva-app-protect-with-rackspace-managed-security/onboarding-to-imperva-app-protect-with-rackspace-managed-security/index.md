@@ -181,7 +181,7 @@ in the ticket which domain you need to utilize this verification method for.
 
 For more information on Rackspace best practices regarding certificate
 management, see
-[Certificate Management](/support/how-to/best-practices-for-imperva-app-protect#certificate-management).
+[Certificate Management](/support/how-to/imperva-app-protect-best-practices#certificate-management).
 
 #### Known good non-browser clients
 
@@ -208,7 +208,7 @@ Helpers by default:
 
 For more information on Rackspace best practices regarding non-browser
 clients, see
-[Safelisting Known non-browser clients](/support/how-to/best-practices-for-imperva-app-protect#safelisting-known-non-browser-clients)
+[Safelisting Known non-browser clients](/support/how-to/imperva-app-protect-best-practices#safelisting-known-non-browser-clients)
 
 #### User list
 
@@ -228,7 +228,7 @@ associated Imperva Cloud account.
 | Admin | Administrator (Default Role) | Grants full permissions to the assigned user to manage the account or sub account |
 
 For more information on Rackspace best practices regarding user-management, see
-[User Management](/support/how-to/best-practices-for-imperva-app-protect#user-management).
+[User Management](/support/how-to/imperva-app-protect-best-practices#user-management).
 
 #### Global load balancer and failover configuration (Add-on)
 
@@ -347,14 +347,14 @@ It is highly recommended that you enable 2FA for your account. To do so, see
 [Imperva App Protect - 2FA Enablement](https://docs.imperva.com/bundle/cloud-application-security/page/settings/user-settings.htm#Enabletwofactorauthentication).
 
 For more information on Rackspace best practices regarding user-management, see
-[User Management](/support/how-to/best-practices-for-imperva-app-protect#user-management).
+[User Management](/support/how-to/imperva-app-protect-best-practices#user-management).
 
 ### Data Storage Region
 
 Customers, if the need arises, should adjust their data storage region for a
 particular site if the predetermined region is not desired. For best practices
 on implementing or adjusting the data storage region, see
-[Data Storage Regions](/support/how-to/best-practices-for-imperva-app-protect#data-storage-regions).
+[Data Storage Regions](/support/how-to/imperva-app-protect-best-practices#data-storage-regions).
 
 ### Cutover and Monitoring
 
@@ -457,4 +457,4 @@ Block Request.
 
 For more information on Rackspace best practices regarding adjusting
 WAF threat responses, see
-[WAF Threat Response](/support/how-to/best-practices-for-imperva-app-protect#waf-threat-response).
+[WAF Threat Response](/support/how-to/imperva-app-protect-best-practices#waf-threat-response).
