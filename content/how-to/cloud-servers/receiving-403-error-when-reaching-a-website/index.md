@@ -1,5 +1,5 @@
 ---
-permalink: receiving-403-error-when-reaching-a-website
+permalink: receiving-403-error-when-reaching-a-website/
 audit_date:
 title: 'Receiving 403 error when reaching a website'
 type: article
