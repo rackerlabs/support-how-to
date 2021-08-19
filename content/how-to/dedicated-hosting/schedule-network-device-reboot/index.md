@@ -39,6 +39,7 @@ When a device requires maintenance:
 3. To schedule maintenance, click the cog icon to the left of the device number and select **Schedule Maintenance**.
 4. Select a date and time for the maintenance to begin, click the acknowledge checkbox, and click
 **Schedule Maintenance**.
+   
    Behind the scenes, we prepare your device for maintenance. We continuously
    update the notification available in the MyRack Portal to let you know where we are
    every step of the way.
