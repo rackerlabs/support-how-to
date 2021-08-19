@@ -23,31 +23,25 @@ When a device requires maintenance:
 ### Schedule device maintenance
 
 1. Upon receiving a maintenance notification or email, click the **Click here to schedule maintenance** link and log in to the [MyRackspace Portal](https://my.rackspace.com/).
-
-The **Automated Maintenance** page appears. The **Automated Maintenance** page includes:
-
-- A list of all devices that require maintenance.
-- Filters on the left that enable you to refine the list of devices by status, data center location, and hardware type.
-- A search option that enables you to locate a specific device.
+   The **Automated Maintenance** page appears. The **Automated Maintenance** page includes:
+    - A list of all devices that require maintenance.
+    - Filters on the left that enable you to refine the list of devices by status, data center location, and hardware type.
+    - A search option that enables you to locate a specific device.
 
 2. To view more information about a device and the reason it requires maintenance, click the device number.
+   The device panel expands and shows important information about the device, including:
+    - The name of the vulnerability
+    - The device type and model
+    - The current and suggested versions
 
-The device panel expands and shows important information about the device, including:
-
-- The name of the vulnerability
-- The device type and model
-- The current and suggested versions
-
-You can also click a link to see the associated notification in the MyRack portal.
+   You can also click a link to see the associated notification in the MyRack portal.
 
 3. To schedule maintenance, click the cog icon to the left of the device number and select **Schedule Maintenance**.
-
 4. Select a date and time for the maintenance to begin, click the acknowledge checkbox, and click
 **Schedule Maintenance**.
-
-Behind the scenes, we prepare your device for maintenance. We continuously
-update the notification available in the MyRack Portal to let you know where we are
-every step of the way.
+   Behind the scenes, we prepare your device for maintenance. We continuously
+   update the notification available in the MyRack Portal to let you know where we are
+   every step of the way.
 
 5. To cancel or reschedule the maintenance, click the cog icon to the left of the device number and
 select **Cancel** or **Reschedule**.  
