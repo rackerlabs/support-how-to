@@ -24,7 +24,7 @@ You can use the following code example to add a site seal to your website:
 ```javascript
 <!-- DigiCert Seal HTML -->
 <!-- Place HTML on your site where the seal should appear -->
-<div id="DigiCertClickID_{hash}></div>
+<div id="DigiCertClickID_{hash}"></div>
 
 <!-- DigiCert Seal Code -->
 <!-- Place with DigiCert Seal HTML or with other scripts -->
