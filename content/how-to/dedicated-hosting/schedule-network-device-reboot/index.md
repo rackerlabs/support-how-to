@@ -30,7 +30,7 @@ When a device requires maintenance:
 
    {{<image src="schedule-maintenance.png" alt="" title="">}}
 
-    Alternatively, you can click **Services > Schedule Maintenance** to begin the scheduling process.
+    Alternatively, you can click **Services > Automated Maintenances** to begin the scheduling process.
 
    {{<image src="schedule-maintenance-1.jpg" alt="" title="">}}
 
