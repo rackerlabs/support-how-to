@@ -32,7 +32,7 @@ When a device requires maintenance:
 
     Alternatively, you can click **Services > Schedule Maintenance** to begin the scheduling process.
 
-   {{<image src="schedule-maintenance-1.png" alt="" title="">}}
+   {{<image src="schedule-maintenance-1.jpg" alt="" title="">}}
 
 2. To view more information about a device and the reason it requires maintenance, click the device number.
    The device panel expands and shows important information about the device, including:
