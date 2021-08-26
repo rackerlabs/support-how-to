@@ -28,6 +28,13 @@ When a device requires maintenance:
     - Filters on the left that enable you to refine the list of devices by status, data center location, and hardware type.
     - A search option that enables you to locate a specific device.
 
+    {{<image src="schedule-maintenance.png" alt="" title="">}}
+
+
+    Alternatively, you can click **Services > Schedule Maintenance** to begin the scheduling process.
+
+    {{<image src="schedule-maintenance-1.png" alt="" title="">}}
+
 2. To view more information about a device and the reason it requires maintenance, click the device number.
    The device panel expands and shows important information about the device, including:
     - The name of the vulnerability
