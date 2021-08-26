@@ -4,9 +4,9 @@ audit_date: '2018-05-15'
 title: Schedule device maintenance
 type: article
 created_date: '2017-10-03'
-created_by: Trevor Becker and Angela Howell
-last_modified_date: '2021-08-19'
-last_modified_by: Cat Lookabaugh
+created_by: Process Engineering Group
+last_modified_date: '2021-08-26'
+last_modified_by: Chris Moyer
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
