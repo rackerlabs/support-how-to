@@ -11,28 +11,28 @@ product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-Because you are a dedicated hosting customer, we issue notifications through the MyRack
-Portal that informs when an upgrade, patch, or other maintenance is available for your
-devices. You can schedule when you want us to complete that work for you.
-
-When a device requires maintenance:
-
-- We issue a notification in the MyRack Portal informing you of the maintenance
-- You receive an email informing you that maintenance is available
+You can schedule a maintenance for eligible devices in the MyRackspace portal. 
+The Automated Maintenance page tool enables the ability to schedule pre-defined 
+maintenances at a desired date and time.
 
 ### Schedule device maintenance
 
-1. Upon receiving a maintenance notification or email, click the **Click here to schedule maintenance** link and log in to the [MyRackspace Portal](https://my.rackspace.com/).
+1. Log in to the [MyRackspace Portal](https://my.rackspace.com/).
+
+2. Click **Services > Automated Maintenances** to begin the scheduling process.
+   
+   {{<image src="schedule-maintenance-1.jpg" alt="" title="">}}
+   
    The **Automated Maintenance** page appears. The **Automated Maintenance** page includes:
     - A list of all devices that require maintenance.
-    - Filters on the left that enable you to refine the list of devices by status, data center location, and hardware type.
-    - A search option that enables you to locate a specific device.
+    - Filters on the left to refine the list of devices by status, data center location, and hardware type.
+    - A search option to locate a specific device.
 
    {{<image src="schedule-maintenance.png" alt="" title="">}}
 
-    Alternatively, you can click **Services > Automated Maintenances** to begin the scheduling process.
+    
 
-   {{<image src="schedule-maintenance-1.jpg" alt="" title="">}}
+  
 
 2. To view more information about a device and the reason it requires maintenance, click the device number.
    The device panel expands and shows important information about the device, including:
