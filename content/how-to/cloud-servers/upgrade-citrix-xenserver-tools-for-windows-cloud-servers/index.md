@@ -72,7 +72,7 @@ to install the `Rackspace Cloud Servers agent`.
 
 2. In the command prompt, run the following code:
 
-          powershell.exe -NoProfile -NoLogo -InputFormat None -ExecutionPolicy Bypass -Command "iex(New-Object Net.WebClient).DownloadString('https://b2566e7bb4c60838ad8e-2feac036ecfab0eba46621f3ae4943bc.r28.cf1.rackcdn.com/latest/Update-Xentools.ps1')"
+          powershell.exe -NoProfile -NoLogo -InputFormat None -ExecutionPolicy Bypass -Command "iex(New-Object Net.WebClient).DownloadString('https://87df11eb517b9ca6b2dd-2feac036ecfab0eba46621f3ae4943bc.ssl.cf1.rackcdn.com/latest/Update-Xentools.ps1')"
 
    Your output should be similar to the following:
 
