@@ -10,8 +10,6 @@ last_modified_by: Miguel Salgado
 product: Cloud Servers
 product_url: cloud-servers
 ---
-
-# Import database to a local MySQL instance
 This article provides a basic guide to import a database to a local MySQL instance from text files through the command-line by using the `mysqlimport` client, which is a program included in MySQL.
 
 The `mysqlimport` program offers a simplified command-line interface for the `LOAD DATA` MySQL statement, which reads rows from a text file to add them to tables in the database. `mysqlimport` sends a `LOAD DATA` statement to the server.
