@@ -1,5 +1,5 @@
 ---
-permalink:/import-database-to-a-local-mysql-instance
+permalink: /import-database-to-a-local-mysql-instance
 audit_date:
 title: 'Import Database to a Local MySQL Instance'
 type: article
