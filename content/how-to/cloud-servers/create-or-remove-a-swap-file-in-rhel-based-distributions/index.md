@@ -23,16 +23,16 @@ Then we have Swap File, created in order to use Disk Space whenever we fill up o
 Usually Swap File is used in Low RAM systems (1GB ~) and it is important to mention that we don't necessarily require swap file to run our Linux enviroment however its recommended to avoid our system presenting a degraded performance whenever we run high demanding programs and processes.
 
 #### Recommended Swap File Size based on RAM memory.
-|RAM Size|Swap Size (Without Hibernation)|Swap size (With Hibernation)|
-| :---|:--:|---:|
-| 256MB|256MB|512MB|
-| 512MB|512MB|1GB|
-| 1GB|1GB|2GB|
-| 2GB|1GB|3GB|
-| 3GB|2GB|5GB|
-| 4GB|2GB|6GB|
-| 6GB|2GB|8GB|
-| 8GB|3GB|11GB|
+|RAM Size | Swap size (without hibernation) | Swap size (with hibernation) |
+|---------|---------------------------------|------------------------------|
+| 256MB | 256MB | 512MB |
+| 512MB | 512MB | 1GB |
+| 1GB | 1GB | 2GB |
+| 2GB | 1GB | 3GB |
+| 3GB | 2GB | 5GB |
+| 4GB | 2GB | 6GB |
+| 6GB | 2GB | 8GB |
+| 8GB | 3GB | 11GB |
 
 #### Procedure 
 1.- The first step while creating the swap file is to verify the curret swap file size.
@@ -84,8 +84,14 @@ mkswap /swapfile`
 
 6.-Verify that the new swap file is configured with `free -m`, `swapon -s` or `swapon -show`
 
-#### Removing Swap File
+### Remove a swap file
 
-1.- Deactivate swap file with `swapoff -v /swapfile` then remove the `/etc/fstab` entry and lastly, remove the swapfile with `rm -f /swafile2`
+1. Run the following command to deactivate the swap file:
 
+        swapoff -v /swapfile
 
+2. Use a text editor to remove the **/etc/fstab** entry.
+
+3. Run the following command to remove the swapfile:
+
+        rm -f /swapfile
