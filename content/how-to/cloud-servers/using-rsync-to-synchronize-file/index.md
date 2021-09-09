@@ -1,5 +1,5 @@
 ---
-permalink: '/using-rsync-to-synchronize-files'
+permalink: /using-rsync-to-synchronize-files
 audit_date:
 title: 'Using rsync to Synchronize Files'
 type: article
