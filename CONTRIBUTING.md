@@ -27,7 +27,7 @@ We have two short video tutorials that provide an overview for contributing new 
 editing existing articles:
 
 - [Treat Documentation Like Code-Contribute new content](https://www.youtube.com/watch?v=OrxozkL_0JQ)
-- [Treat Documentation Like Code-Update existing comntent](https://www.youtube.com/watch?v=sJjsNnB-d7Y)
+- [Treat Documentation Like Code-Update existing content](https://www.youtube.com/watch?v=sJjsNnB-d7Y)
 
 If you are a Racker, search the Rackspace University for the Treat Docs Like Code courses.
 
