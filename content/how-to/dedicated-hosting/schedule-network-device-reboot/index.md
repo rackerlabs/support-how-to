@@ -1,58 +1,54 @@
 ---
-permalink: schedule-network-device-reboot
+permalink: schedule-device-maintenance
 audit_date: '2018-05-15'
-title: Schedule a network device reboot
+title: Schedule device maintenance
 type: article
 created_date: '2017-10-03'
-created_by: Trevor Becker and Angela Howell
-last_modified_date: '2018-05-15'
-last_modified_by: Cat Lookabaugh
+created_by: Process Engineering Group
+last_modified_date: '2021-08-26'
+last_modified_by: Chris Moyer
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-You can schedule a reboot for network (or net) devices in the MyRackspace
-portal. The Schedule Reboot tool enables you to schedule a net device reboot
-for a predefined date and time, and it activates the reboot button process for
-your net device.
+You can schedule a maintenance for eligible devices in the MyRackspace portal. 
+The Automated Maintenance page tool enables the ability to schedule pre-defined 
+maintenances at a desired date and time.
 
-For more information about the reboot button process, see the [Network device reboot FAQ](/support/how-to/network-device-reboot-faq/).
-
-### Schedule a net device reboot
+### Schedule device maintenance
 
 1. Log in to the [MyRackspace Portal](https://my.rackspace.com/).
 
-2. In the top navigation bar, click **Products > Devices**.
+2. Click **Services > Automated Maintenances** to begin the scheduling process.
+   
+   {{<image src="schedule-maintenance-1.jpg" alt="" title="">}}
+   
+   The **Automated Maintenance** page appears. The **Automated Maintenance** page includes:
+    - A list of all devices that require maintenance.
+    - Filters on the left to refine the list of devices by status, data center location, and hardware type.
+    - A search option to locate a specific device.
 
-3. On the **Devices** page, click the gear icon next to network device that you
-   want to reboot, and select **Schedule Reboot**.
+   {{<image src="schedule-maintenance.png" alt="" title="">}}
 
-   {{<image src="schedule-reboot.png" alt="" title="">}}
+    
 
-4. On the **Schedule Reboot** page, enter the following information:
+  
 
-   - **Reason**: The reason that you want to reboot your net device
-   - **Date/Time**: The date and time when you want your net device to reboot
-   - **Devices**: The net device or devices that you want to reboot
+2. To view more information about a device and the reason it requires maintenance, click the device number.
+   The device panel expands and shows important information about the device, including:
+    - The name of the vulnerability
+    - The device type and model
+    - The current and suggested versions
 
-     - **HA network devices**: Select only one net device in an HA pair for code version updates. The standby unit will be updated automatically as a part of failover/HA functionality.
+   You can also click a link to see the associated notification in the MyRack portal.
 
-   {{<image src="enter-reboot-info-rev.png" alt="" title="">}}
+3. To schedule maintenance, click the cog icon to the left of the device number and select **Schedule Maintenance**.
+4. Select a date and time for the maintenance to begin, click the acknowledge checkbox, and click
+**Schedule Maintenance**.
+   
+   Behind the scenes, we prepare your device for maintenance. We continuously
+   update the notification available in the MyRack Portal to let you know where we are
+   every step of the way.
 
-5. Click **Schedule Reboot**.
-
-   A list of devices that will be impacted by the reboot displays.
-
-6. To proceed with scheduling the net device reboot, click **Confirm Reboot(s)**
-   and then click **OK** on the following warning confirmation screen.
-
-   A message displays **Reboot(s) successfully scheduled** at the top of the panel.
-
-   {{<image src="notification-message.png" alt="" title="">}}
-
-You can see details on your scheduled reboots in the **Firewall Reboots** tab.
-If you need to make changes to your scheduled reboot, click **Edit/Cancel** to
-modify an entry. Enter a new date and time, and then click **Save Changes** and
-**OK**.
-
-{{<image src="edit-reboot.png" alt="" title="">}}
+5. To cancel or reschedule the maintenance, click the cog icon to the left of the device number and
+select **Cancel** or **Reschedule**.  
