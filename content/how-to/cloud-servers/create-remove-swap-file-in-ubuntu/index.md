@@ -109,4 +109,4 @@ For more information on `fstab`, visit:
 
 3. Run the following command to remove the swapfile:
 
-        rm -f /
+        rm -f /swapfile
