@@ -1,5 +1,5 @@
 ---
-permalink: schedule-network-device-reboot
+permalink: schedule-device-maintenance
 audit_date: '2018-05-15'
 title: Schedule device maintenance
 type: article
