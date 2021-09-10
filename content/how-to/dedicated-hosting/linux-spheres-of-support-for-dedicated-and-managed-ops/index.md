@@ -23,8 +23,8 @@ The following operating systems are supported for both Dedicated and Managed Ope
 | CentOS 7 | Yes | Yes | Yes | Yes |
 | Red Hat&reg; Enterprise Linux&reg; 8 | Yes | Yes | Yes | Yes |
 | Red Hat Enterprise Linux 7 | Yes | Yes | Yes | Yes |
-| Oracle&reg; Linux 8 | Yes | - | - | - |
-| Oracle Linux 7 | Yes | - | - | - |
+| Oracle&reg; Linux 8 | Yes | - | Yes | Yes |
+| Oracle Linux 7 | Yes | - | Yes | Yes |
 | Ubuntu&reg; 20.04 LTS (Focal Fossa) | Yes | Yes | Yes | Yes |
 | Ubuntu 18.04 LTS (Bionic Beaver) | Yes | Yes | Yes | Yes |
 | Ubuntu 16.04 LTS (Xenial Xerus) | Yes | Yes | Yes | Yes |
