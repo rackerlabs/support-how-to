@@ -5,7 +5,7 @@ title: Linux Spheres of Support for Dedicated and Managed Operations
 type: article
 created_date: '2017-03-03'
 created_by: Alex Juarez
-last_modified_date: '2021-07-22'
+last_modified_date: '2021-09-10'
 last_modified_by: Man Chung
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -23,8 +23,8 @@ The following operating systems are supported for both Dedicated and Managed Ope
 | CentOS 7 | Yes | Yes | Yes | Yes |
 | Red Hat&reg; Enterprise Linux&reg; 8 | Yes | Yes | Yes | Yes |
 | Red Hat Enterprise Linux 7 | Yes | Yes | Yes | Yes |
-| Oracle&reg; Linux 8 | Yes | - | - | - |
-| Oracle Linux 7 | Yes | - | - | - |
+| Oracle&reg; Linux 8 | Yes | - | Yes | Yes |
+| Oracle Linux 7 | Yes | - | Yes | Yes |
 | Ubuntu&reg; 20.04 LTS (Focal Fossa) | Yes | Yes | Yes | Yes |
 | Ubuntu 18.04 LTS (Bionic Beaver) | Yes | Yes | Yes | Yes |
 | Ubuntu 16.04 LTS (Xenial Xerus) | Yes | Yes | Yes | Yes |
