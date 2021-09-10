@@ -1,5 +1,6 @@
 # Redirects
 
+/support/how-to/schedule-network-device-reboot /support/how-to/schedule-device-maintenance 301
 /support/how-to/using-ssl-with-your-cloud-database-instance/  /how-to/use-ssl-with-your-cloud-database-instance/  404
 /how-to/use-ssl-with-your-cloud-database-instance/  /support/how-to/use-ssl-with-your-cloud-database-instance/  301
 /support/how-to/getting-started-with-apache-hadoop-on-rackspace-cloud/  /how-to/article-retired/ 404
