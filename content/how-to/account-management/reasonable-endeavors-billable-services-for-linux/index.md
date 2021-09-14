@@ -1,12 +1,12 @@
 ---
 permalink: reasonable-endeavors-billable-services-for-linux
 audit_date: '2021-03-11'
-title: Reasonable Endeavors OS Billable Services for Linux
+title: Reasonable Endeavors OS Billable Services for Linux and Windows
 type: article
 created_date: '2021-03-11'
 created_by: Ryan Francis
-last_modified_date: '2021-03-11'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2021-09-14'
+last_modified_by: Chris Moyer
 product: Account Management
 product_url: account-management
 ---
@@ -14,14 +14,12 @@ product_url: account-management
 As part of our OS Billable Services offering for Reasonable Endeavors, Rackspace
 enables our engineers to extend additional help to customers beyond our
 [Spheres of Support](https://docs.rackspace.com/support/how-to/linux-spheres-of-support-for-dedicated-and-managed-ops)
-for an additional fee. With Reasonable Endeavors OS Billable Services for Linux&reg;, engineers
-can allocate more time to these unsupported requests where historically, they had to
-reject many of these requests due to time constraints and lack of resources.
+for an additional fee. WWith Reasonable Endeavors OS Billable Services for Windows and Linux®, engineers can allocate more time to these unsupported requests where historically, they had to reject many of these requests due to time constraints and lack of resources.
 
 ### Criteria and guidelines
 
 The following criteria and guidelines apply to Reasonable Endeavors OS Billable Services
-for Linux:
+for Windows and Linux:
 
 * We bill Reasonable Endeavors based on actual time spent at the rate of $250.00 USD per
   hour with a minimum of one hour.
