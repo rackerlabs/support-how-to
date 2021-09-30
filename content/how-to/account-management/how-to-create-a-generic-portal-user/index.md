@@ -29,7 +29,7 @@ When creating portal users on your account, it is important that every user has 
 
 {{<image src="generic-user-3.png" alt="" title="">}}
 
-**Note:** For group users, you’ll need to input a generic name in the fields for first & last name as shown below
+**Note:** For group users, you’ll need to input a generic name in the fields for first & last name as shown above.
 
 ### Cloud Account Steps
 
