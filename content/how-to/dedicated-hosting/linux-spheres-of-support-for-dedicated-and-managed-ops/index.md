@@ -23,7 +23,8 @@ The following operating systems are supported for both Dedicated and Managed Ope
 | Amazon&reg; Linux 2 | - | - | Yes | - |
 | CentOS&reg; 8 | - | Yes | Yes | Yes |
 | CentOS 7 | Yes | Yes | Yes | Yes |
-| Debian&reg; 10 (Buster) | - | Yes | Yes | Yes |
+| Debian&reg; 11 (Bullseye) | - | TBA | TBA | TBA |
+| Debian 10 (Buster) | - | Yes | Yes | Yes |
 | Debian 9 (Stretch) | - | Yes | Yes | Yes |
 | Red Hat&reg; Enterprise Linux&reg; 8 | Yes | Yes | Yes | Yes |
 | Red Hat Enterprise Linux 7 | Yes | Yes | Yes | Yes |
