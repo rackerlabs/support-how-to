@@ -134,6 +134,7 @@ We do not support Oracle on PCS.
  |   | Installation | Configuration | Troubleshooting | Patching |
  | --- | --- | --- | --- | --- |
  | Docker| Yes | Yes | Yes | Yes |
+ | Podman | Yes | Yes | Yes | Yes |
 
  **Note**: Rackspace Support does not extend into the individual containers.
 
