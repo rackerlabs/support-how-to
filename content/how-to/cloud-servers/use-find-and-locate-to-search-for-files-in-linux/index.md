@@ -199,3 +199,5 @@ $ locate -S
 
 ### Conclusion
 Searching for files in the Linux command line might be difficult. The tools presented in this article provide an easy way to handle and find files. By understanding the different parameters the search can be as specific as one want it to be.
+
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
