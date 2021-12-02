@@ -10,9 +10,6 @@ last_modified_by: Carlos Alzaga
 product: Cloud Product
 product_url: cloud-Product
 ---
-
-# Linux System shutdown logs
-
 There are different ways to determine the causes of a system shut down in Linux; was it run from console? or someone just simply hit the power button? 
 
 **Note:** Consider when a system shuts down in a normal way meaning: a user with root privileges or an acpi script; either way it can be found by checking the system logs.
@@ -81,20 +78,21 @@ root     pts/1        10.191.200.5     Wed Nov 21 03:47 - 03:47  (00:00)
 reboot   system boot  3.10.0-862.14.4. Wed Nov 21 03:46 - 13:13 (1107+09:26)
 [root@Rackspace~]# 
 ```
-
 Where:
-- `-x` displays the system shutdown entries and run level changes.`
+`-x` displays the system shutdown entries and run level changes.`
 
 ### The uptime command
 
 To find out for how long the Linux system has been up, use the following command `uptime`
 
+```sh
 [root@Rackspace~]# uptime -s
 2020-11-21 10:13:26
 
 [root@Rackspace~] uptime -p
 up 1 years, 2 weeks, 1 day, 3 hours, 1 minute
 [root@Rackspace~]# 
+```
 
 ### Conclusion
 In conclusion, there are ways to determine the reasons of a system shutdown and the users that might have done a system shutdown.
