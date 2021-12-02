@@ -55,7 +55,7 @@ We can obtain more information of an interface as stats of transmitted and recei
 
 #### The Route table
 Another feature is the routing table. To obtain this informations, we need tu run the command: `ip route show`
-```
+```sh
 [root@localhost ~]# ip route show
 default via 192.168.100.1 dev ens37 proto dhcp metric 100
 192.168.100.0/24 dev ens37 proto kernel scope link src 192.168.100.37 metric 100
@@ -82,7 +82,7 @@ As we can see, I added the IP address 192.168.100.20 to interface ens33.
 #### Deleting an IP
 The following command will delete an IP from an interface `ip addr del {ip_addr/mask} dev {interface}`
 
-```sh
+```bash
 [root@localhost ~]# ip addr del 192.168.100.50/255.255.255.0 dev ens33
 [root@localhost ~]# ip a
 [...]
