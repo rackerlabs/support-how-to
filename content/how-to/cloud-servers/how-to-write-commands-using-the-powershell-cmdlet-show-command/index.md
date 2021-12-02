@@ -17,21 +17,19 @@ If you’re having trouble getting a command’s syntax right, with all the spac
 
 **Note:** This won’t work on a server OS that doesn’t have a GUI installed.
 
-Figure 1. Show-Command uses a graphical prompt to complete command parameters.
-
 {{<image src="powershell.png" alt="" title="">}}
+*Figure 1. Show-Command uses a graphical prompt to complete command parameters.*
 
 When you’re finished, you can either click `Run` to run the command or click `Copy` to put the completed command on the clipboard. Back in the shell, paste the command (right-click in the console, or press Ctrl-V in the ISE) to look at it. This is a great way to teach yourself the proper syntax, as shown in Figure 2, and you’ll get the proper syntax every time.
 
-Figure 2. Show-Command produces the proper command-line syntax based on your entries in its dialog box.
-
 {{<image src="powershell2.png" alt="" title="">}}
-
+*Figure 2. Show-Command produces the proper command-line syntax based on your entries in its dialog box.*
+  
 When you produce a command this way, you’ll always get the full-form command: full command name, full parameter names, all parameter names typed, and so on. It’s a great way to see the perfect, preferred, best-practice way of using PowerShell.
 
 Unfortunately, Show-Command works only with single commands. When you start stringing together multiple commands, it can help you with only one at a time.
 
 Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
 
-## Related Articles
+#### Related Articles
 - [Show-Command Powershell 7.2 - Microsoft Documentation](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/show-command?view=powershell-7.2)
