@@ -94,8 +94,9 @@ Reboot the server and you will be able to see the image that was selected in the
 # systemctl reboot
 ```
 {{<image src="grub1.png" alt="" title="">}}
- 
-#### How to configure GRUB2 in CentOS/RHEL based distributions in Rackspace Servers
+    
+    
+### How to configure GRUB2 in CentOS/RHEL based distributions in Rackspace Servers
 
 Now is time to apply this on Rackspace servers, for this we need to clarify that we can not add a background image to be displayed at boot time, 
 
@@ -193,7 +194,7 @@ After reboot the machine you will see something like Image 2.
 ```
 {{<image src="grub2.png" alt="" title="">}}
 
-#### How to configure GRUB2 in Ubuntu/Debian based distributions in Rackspace Cloud Servers
+### How to configure GRUB2 in Ubuntu/Debian based distributions in Rackspace Cloud Servers
 
 Changes applied to /etc/default/grub won't be reflected on the configuration in **Ubuntu Cloud Servers**, Instead, changes must be applied to /etc/default/grub.d/50-cloudimg-settings.cfg.
 
