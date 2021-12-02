@@ -15,26 +15,6 @@ In this article you will be able to understand the basics of GRUB configuration 
 
 GRUB stand for (Grand Unified Bootloader), bootloader and is the first software program that runs when a computer starts. It is responsible for loading and transferring the control to an operating system kernel software. Each machine has the ability to store multiple kernels, that could be updates for the same OS version and even a completely different operative system. By default a computer can store three kernels, the newest and two previous versions.
 
-### Glosary
-
-Some of the most common menu entries worked here are detailed bellow:
-|**Menu Entries** ||
-| ----------- | ----------- |
-| **Header** | Description|
-|**GRUB_TIMEOUT** | Boot the default entry this many seconds after the menu is displayed, unless a key is pressed. The default is ‘5’. Set to ‘0’ to boot immediately without displaying the menu, or to ‘-1’ to wait indefinitely.|
-|| If ‘GRUB_TIMEOUT_STYLE’ is set to ‘countdown’ or ‘hidden’, the timeout is instead counted before the menu is displayed.|
-| **GRUB_DISTRIBUTOR** | Set by distributors of GRUB to their identifying name. This is used to generate more informative menu entry titles. |
-| **GRUB_DEFAULT** |  The default menu entry. This may be a number, in which case it identifies the Nth entry in the generated menu counted from zero, or the title of a menu entry, or the special string ‘saved’. Using the id may be useful if you want to set a menu entry as the default even though there may be a variable number of entries before it.|
-| **GRUB_DISABLE_SUBMENU** | Normally, grub-mkconfig will generate top level menu entry for the kernel with highest version number and put all other found kernels or alternative menu entries for recovery mode in submenu. For entries returned by os-prober first entry will be put on top level and all others in submenu. If this option is set to ‘true’, flat menu with all entries on top level will be generated instead. Changing this option will require changing existing values of ‘GRUB_DEFAULT’, ‘fallback’ (see fallback) and ‘default’ (see default) environment variables as well as saved default entry using grub-set-default and value used with grub-reboot.|
-| **GRUB_TERMINAL_OUTPUT** | Select the terminal output device. You may select multiple devices here, separated by spaces.|
-|| Valid terminal output names depend on the platform, but may include ‘console’ (native platform console), ‘serial’ (serial terminal), ‘serial_<port>’ (serial terminal with explicit port selection), ‘gfxterm’ (graphics-mode output), ‘vga_text’ (VGA text output), ‘mda_text’ (MDA text output), ‘morse’ (Morse-coding using system beeper) or ‘spkmodem’ (simple data protocol using system speaker). |
-| **GRUB_CMDLINE_LINUX** | Command-line arguments to add to menu entries for the Linux kernel. |
-| **GRUB_DISABLE_RECOVERY** | If this option is set to ‘true’, disable the generation of recovery mode menu entries.|
-| **GRUB_ENABLE_BLSCFG** | BLS (Boot Loader Specification) defines a scheme and file format to manage boot loader configuration for each boot option in a drop-in directory, without the need to manipulate bootloader configuration files.|
-| **GRUB_TIMEOUT_STYLE** | If this option is unset or set to ‘menu’, then GRUB will display the menu and then wait for the timeout set by ‘GRUB_TIMEOUT’ to expire before booting the default entry. Pressing a key interrupts the timeout.|
-|| If this option is set to ‘countdown’ or ‘hidden’, then, before displaying the menu, GRUB will wait for the timeout set by ‘GRUB_TIMEOUT’ to expire. If ESC or F4 are pressed, or SHIFT is held down during that time, it will display the menu and wait for input. If a hotkey associated with a menu entry is pressed, it will boot the associated menu entry immediately. If the timeout expires before either of these happens, it will boot the default entry. In the ‘countdown’ case, it will show a one-line indication of the remaining time.|
-| **GRUB_BACKGROUND** | Set a background image for use with the ‘gfxterm’ graphical terminal. The value of this option must be a file readable by GRUB at boot time, and it must end with .png, .tga, .jpg, or .jpeg. The image will be scaled if necessary to fit the screen.|
-
 ### How to configure GRUB2 in CentOS/RHEL based distributions. 
 
 Create a backup of the current configuration in case something breaks and you need to recover the default version back.
@@ -265,6 +245,26 @@ After reboot the machine you will see something like Image 4.
 
 {{<image src="grub4.png" alt="" title="">}}
 
-> Consider as rule of thumb to be already logged into your Rackspace portal for those 15 seconds to be enough to check the emergency console, also be aware that after the reboot, it may be necessary three attempts to see the emergency console.
+Consider as rule of thumb to be already logged into your Rackspace portal for those 15 seconds to be enough to check the emergency console, also be aware that after the reboot, it may be necessary three attempts to see the emergency console.
 
+### Glosary
+
+Some of the most common menu entries worked here are detailed bellow:
+|**Menu Entries** ||
+| ----------- | ----------- |
+| **Header** | Description|
+|**GRUB_TIMEOUT** | Boot the default entry this many seconds after the menu is displayed, unless a key is pressed. The default is ‘5’. Set to ‘0’ to boot immediately without displaying the menu, or to ‘-1’ to wait indefinitely.|
+|| If ‘GRUB_TIMEOUT_STYLE’ is set to ‘countdown’ or ‘hidden’, the timeout is instead counted before the menu is displayed.|
+| **GRUB_DISTRIBUTOR** | Set by distributors of GRUB to their identifying name. This is used to generate more informative menu entry titles. |
+| **GRUB_DEFAULT** |  The default menu entry. This may be a number, in which case it identifies the Nth entry in the generated menu counted from zero, or the title of a menu entry, or the special string ‘saved’. Using the id may be useful if you want to set a menu entry as the default even though there may be a variable number of entries before it.|
+| **GRUB_DISABLE_SUBMENU** | Normally, grub-mkconfig will generate top level menu entry for the kernel with highest version number and put all other found kernels or alternative menu entries for recovery mode in submenu. For entries returned by os-prober first entry will be put on top level and all others in submenu. If this option is set to ‘true’, flat menu with all entries on top level will be generated instead. Changing this option will require changing existing values of ‘GRUB_DEFAULT’, ‘fallback’ (see fallback) and ‘default’ (see default) environment variables as well as saved default entry using grub-set-default and value used with grub-reboot.|
+| **GRUB_TERMINAL_OUTPUT** | Select the terminal output device. You may select multiple devices here, separated by spaces.|
+|| Valid terminal output names depend on the platform, but may include ‘console’ (native platform console), ‘serial’ (serial terminal), ‘serial_<port>’ (serial terminal with explicit port selection), ‘gfxterm’ (graphics-mode output), ‘vga_text’ (VGA text output), ‘mda_text’ (MDA text output), ‘morse’ (Morse-coding using system beeper) or ‘spkmodem’ (simple data protocol using system speaker). |
+| **GRUB_CMDLINE_LINUX** | Command-line arguments to add to menu entries for the Linux kernel. |
+| **GRUB_DISABLE_RECOVERY** | If this option is set to ‘true’, disable the generation of recovery mode menu entries.|
+| **GRUB_ENABLE_BLSCFG** | BLS (Boot Loader Specification) defines a scheme and file format to manage boot loader configuration for each boot option in a drop-in directory, without the need to manipulate bootloader configuration files.|
+| **GRUB_TIMEOUT_STYLE** | If this option is unset or set to ‘menu’, then GRUB will display the menu and then wait for the timeout set by ‘GRUB_TIMEOUT’ to expire before booting the default entry. Pressing a key interrupts the timeout.|
+|| If this option is set to ‘countdown’ or ‘hidden’, then, before displaying the menu, GRUB will wait for the timeout set by ‘GRUB_TIMEOUT’ to expire. If ESC or F4 are pressed, or SHIFT is held down during that time, it will display the menu and wait for input. If a hotkey associated with a menu entry is pressed, it will boot the associated menu entry immediately. If the timeout expires before either of these happens, it will boot the default entry. In the ‘countdown’ case, it will show a one-line indication of the remaining time.|
+| **GRUB_BACKGROUND** | Set a background image for use with the ‘gfxterm’ graphical terminal. The value of this option must be a file readable by GRUB at boot time, and it must end with .png, .tga, .jpg, or .jpeg. The image will be scaled if necessary to fit the screen.|
+    
 Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
