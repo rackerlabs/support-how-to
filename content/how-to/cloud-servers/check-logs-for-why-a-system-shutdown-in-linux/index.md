@@ -1,11 +1,11 @@
 ---
 permalink: check-logs-for-why-a-system-shutdown-in-linux
-audit_date:
+audit_date: '2021-12-02'
 title: 'Check Logs for why a System Shutdown in Linux'
 type: article
-created_date: '2021-04-06'
+created_date: '2021-12-02'
 created_by: Daniel Perez
-last_modified_date: '2021-26-11'
+last_modified_date: '2021-12-02'
 last_modified_by: Carlos Alzaga
 product: Cloud Product
 product_url: cloud-Product
