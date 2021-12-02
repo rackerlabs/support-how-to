@@ -11,12 +11,12 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Apache HTTPD (also known as the *Apache HTTPD Server*) provides the service with which the client web browser communicate. This service has a daemon process (httpd) which runs in the background on your server and waits for requests from web clients. Then, web browsers provide those connections to the HTTP daemon and send requests, which daemon interprets, sending back the required data(an image, web page, etc).
+Apache Web Server provides the service with which the client web browser communicate. This service has a daemon process (httpd) which runs in the background on your server and waits for requests from web clients. Then, web browsers provide those connections to the HTTP daemon and send requests, which daemon interprets, sending back the required data(an image, web page, etc).
 
 ### Prerequisites
    - OS Fedora 31
 
-### httpd package
+### Check for the httpd package
 We always must make sure about a package content before installing it. To do that we can run these commands:
 
 ```sh
@@ -24,6 +24,7 @@ We always must make sure about a package content before installing it. To do tha
 # rpm -qpi httpd-*rpm
 # rpm -qpc httpd-*rpm
 ```
+
 The yumdownloader command help us to download the latest version of the httpd pakage to the current directory.
 THe rpm -qpi httpd-*rpm command let us see the pakage info.
 THe rpm -qpc httpd-*rpm command let us see the configuration files of the pagkage.
