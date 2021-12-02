@@ -15,7 +15,7 @@ product_url: cloud-Product
 
 There are different ways to determine the causes of a system shut down in Linux; was it run from console? or someone just simply hit the power button? 
 
-**Note:** Consider when a system shuts down in a normal way meaning: a user with root privileges or an acpi script; either way we can find out by checking the logs.
+**Note:** Consider when a system shuts down in a normal way meaning: a user with root privileges or an acpi script; either way it can be found by checking the system logs.
 
 ### Advanced Configuration and Power Interface
 
