@@ -252,7 +252,7 @@ Consider as rule of thumb to be already logged into your Rackspace portal for th
 Some of the most common menu entries worked here are detailed bellow:
 |**Menu Entries** ||
 | ----------- | ----------- |
-| **Header** | Description|
+| **Header** | **Description**|
 |**GRUB_TIMEOUT** | Boot the default entry this many seconds after the menu is displayed, unless a key is pressed. The default is ‘5’. Set to ‘0’ to boot immediately without displaying the menu, or to ‘-1’ to wait indefinitely.|
 || If ‘GRUB_TIMEOUT_STYLE’ is set to ‘countdown’ or ‘hidden’, the timeout is instead counted before the menu is displayed.|
 | **GRUB_DISTRIBUTOR** | Set by distributors of GRUB to their identifying name. This is used to generate more informative menu entry titles. |
