@@ -88,3 +88,5 @@ With name-based virtual hosts you can host multiple websites on the same IP / se
 ### Related articles
 - [Manage DNS records in the MyRackspace Portal (Dedicated Customers)](https://docs.rackspace.com/support/how-to/manage-dns-records-in-the-myrackspace-portal/)
 - [Create DNS records with Cloud DNS (Cloud Customers)](https://docs.rackspace.com/support/how-to/creating-dns-records-with-cloud-dns)
+
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
