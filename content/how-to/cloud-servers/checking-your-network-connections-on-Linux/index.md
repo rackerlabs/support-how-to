@@ -61,6 +61,7 @@ default via 192.168.100.1 dev ens37 proto dhcp metric 100
 192.168.100.0/24 dev ens37 proto kernel scope link src 192.168.100.37 metric 100
 ```
 
+
 ### Other important commands 
 
 #### Adding a new IP to a interface
@@ -114,6 +115,4 @@ The following command will disable a network interface `ip link set {interface} 
     link/ether 00:0c:29:9a:f2:b3 brd ff:ff:ff:ff:ff:ff
 ...
 ```
-
-### Recommendation
-If you want to know more about naming scheme for network interfaces you can follow-up this article https://www.networkworld.com/article/3262045/checking-your-network-connections-on-linux.html
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
