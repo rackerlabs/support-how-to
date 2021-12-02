@@ -82,7 +82,7 @@ As we can see, I added the IP address 192.168.100.20 to interface ens33.
 #### Deleting an IP
 The following command will delete an IP from an interface `ip addr del {ip_addr/mask} dev {interface}`
 
-```bash
+```sh
 [root@localhost ~]# ip addr del 192.168.100.50/255.255.255.0 dev ens33
 [root@localhost ~]# ip a
 [...]
