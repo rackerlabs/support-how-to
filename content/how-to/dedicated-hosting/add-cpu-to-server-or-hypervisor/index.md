@@ -13,6 +13,7 @@ product_url: dedicated-hosting
 
 This article explains how to create a ticket to add a CPU to a server or hypervisor.  
 
+Fabric Ticekting requires service or hyper
 ### Create a ticket in the MyRackspace portal
 
 1. Log in to the [MyRackspace portal](https://login.rackspace.com/login) with
