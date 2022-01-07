@@ -17,9 +17,9 @@ This article describes how to resize your server in the [Cloud Control Panel](ht
 
 Servers can resize up or down with the following exceptions:
 
-    Standard flavor Linux servers that use the deprecated paravirtual (PV) virtualization mode can resize down, potentially losing data.
-    OnMetal servers cannot be resized up or down.
-    All other flavors can only resize up.
+- Standard flavor Linux servers that use the deprecated paravirtual (PV) virtualization mode can resize down, potentially losing data.
+- OnMetal servers cannot be resized up or down.
+- All other flavors can only resize up.
 
 ### Resize a server via the Cloud Control Panel
 
