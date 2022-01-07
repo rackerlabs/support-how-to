@@ -4,7 +4,7 @@ audit_date: '2022-01-07'
 title: Resize a Cloud Server
 type: article
 created_date: '2022-01-07'
-created_by: Ivan Espejel
+created_by: Rackspace Support
 last_modified_date: '2022-01-07'
 last_modified_by: Miguel Salgado
 product: Cloud Servers
@@ -14,6 +14,12 @@ product_url: cloud-servers
 **Previous section:** [Create a Cloud Server](/support/how-to/create-a-cloud-server)
 
 This article describes how to resize your server in the [Cloud Control Panel](https://login.rackspace.com). The process changes the virtual processor (vCPU), random access memory (RAM), and might also change disk size.
+
+Servers can resize up or down with the following exceptions:
+
+    Standard flavor Linux servers that use the deprecated paravirtual (PV) virtualization mode can resize down, potentially losing data.
+    OnMetal servers cannot be resized up or down.
+    All other flavors can only resize up.
 
 ### Resize a server via the Cloud Control Panel
 
