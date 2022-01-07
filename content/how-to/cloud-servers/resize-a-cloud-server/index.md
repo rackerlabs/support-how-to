@@ -41,9 +41,9 @@ A notification displays prompting you to verify the changes that you made to you
 
    With a Linux server, you can use Secure Shell (SSH) to connect to either the public or private IP address for the server and run the following commands to verify the changes: 
 
-   `nproc`: Number of processors
-   `df -hP`: Hard disk usage
-   `free -m`: Available RAM
+- `nproc`: Number of processors
+- `df -hP`: Hard disk usage
+- `free -m`: Available RAM
 
    **Note**: Servers booted from a Cloud Block Storage volume don't gain disk space after a resize.
 
@@ -97,3 +97,7 @@ navigating to the **Server Details** page for the server that you resized.
 - [Basic Cloud Server security](/support/how-to/basic-cloud-server-security)
 - [Cloud Servers API reference: Resize specified server](https://docs.rackspace.com/docs/cloud-servers/v2/api-reference/svr-basic-operations/#resize-specified-server)
 - [Pitchfork - the Rackspace Cloud API web application](/support/how-to/pitchfork-the-rackspace-cloud-api-web-application)
+
+<br>
+   
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
