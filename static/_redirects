@@ -655,6 +655,9 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 /support/how-to/all  /support/how-to/  404
 
+/support/how-to/resize-standard-and-general-purpose-servers/ /support/how-to/resize-a-cloud-server 301
+/support/how-to/resize-up-compute-and-memory-servers/ /support/how-to/resize-a-cloud-server 301
+
 # Individual Redirects
 
 /support/how-to/manage-scheduled-images-with-the-python-novaclient/  /how-to/using-python-novaclient-to-manage-scheduled-images/  404
