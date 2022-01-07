@@ -10,7 +10,6 @@ last_modified_by: Jorge Garcia
 product: Cloud Servers  
 product_url: cloud-servers
 ---
-# Windows Server 2016: Scheduled reboot for updates skipped for 7 days
 Our clients noticed 2016 servers were regularly rebooting exactly one week after they were scheduled to after automatic updates were applied.
 
 Working with Microsoft to find out this is due to the **"Limit restart delays"** feature:
