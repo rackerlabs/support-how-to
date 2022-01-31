@@ -1,11 +1,11 @@
 ---
 permalink: rhel-and-centos-subscription-options-in-linux-infrastructures
-audit_date: '2022-31-01'
+audit_date: '2022-01-31'
 title: Red Hat and CentOS subscription options in Linux infrastructures
 type: article
-created_date: '2022-31-01'
+created_date: '2022-01-31'
 created_by: Rackspace Support
-last_modified_date: '2022-31-01'
+last_modified_date: '2022-01-31'
 last_modified_by: Miguel Salgado
 product: Dedicated Hosting
 product_url: dedicated-hosting
