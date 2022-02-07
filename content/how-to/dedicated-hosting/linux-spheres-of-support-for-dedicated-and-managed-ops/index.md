@@ -19,18 +19,18 @@ The following operating systems are supported for both Dedicated and Managed Ope
 
 |   | Dedicated | Managed Operations | Fanatical AWS | Microsoft Azure |
 | --- | --- | --- | --- | --- |
-| AlmaLinux&reg; 8 | TBA | TBA | TBA | TBA |
+| AlmaLinux&reg; 8 | Yes | TBA | Yes | Yes |
 | Amazon&reg; Linux 2 | - | - | Yes | - |
 | CentOS&reg; 8 | - | Yes | Yes | Yes |
 | CentOS 7 | Yes | Yes | Yes | Yes |
 | Debian&reg; 11 (Bullseye) | - | TBA | TBA | TBA |
 | Debian 10 (Buster) | - | Yes | Yes | Yes |
 | Debian 9 (Stretch) | - | Yes | Yes | Yes |
-| Red Hat&reg; Enterprise Linux&reg; 8 | Yes | Yes | Yes | Yes |
-| Red Hat Enterprise Linux 7 | Yes | Yes | Yes | Yes |
 | Oracle&reg; Linux 8 | Yes | - | Yes | Yes |
 | Oracle Linux 7 | Yes | - | Yes | Yes |
-| Rocky Linux&reg; 8 | TBA | TBA | TBA | TBA |
+| Red Hat&reg; Enterprise Linux&reg; 8 | Yes | Yes | Yes | Yes |
+| Red Hat Enterprise Linux 7 | Yes | Yes | Yes | Yes |
+| Rocky Linux&reg; 8 | Yes | TBA | TBA | Yes |
 | Ubuntu&reg; 20.04 LTS (Focal Fossa) | Yes | Yes | Yes | Yes |
 | Ubuntu 18.04 LTS (Bionic Beaver) | Yes | Yes | Yes | Yes |
 
