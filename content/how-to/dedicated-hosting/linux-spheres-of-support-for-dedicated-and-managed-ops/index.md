@@ -5,7 +5,7 @@ title: Linux Spheres of Support for Dedicated and Managed Operations
 type: article
 created_date: '2017-03-03'
 created_by: Alex Juarez
-last_modified_date: '2021-10-13'
+last_modified_date: '2022-02-09'
 last_modified_by: Man Chung
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -21,8 +21,7 @@ The following operating systems are supported for both Dedicated and Managed Ope
 | --- | --- | --- | --- | --- |
 | AlmaLinux&reg; 8 | Yes | TBA | Yes | Yes |
 | Amazon&reg; Linux 2 | - | - | Yes | - |
-| CentOS&reg; 8 | - | Yes | Yes | Yes |
-| CentOS 7 | Yes | Yes | Yes | Yes |
+| CentOS&reg; 7 | Yes | Yes | Yes | Yes |
 | Debian&reg; 11 (Bullseye) | - | TBA | TBA | TBA |
 | Debian 10 (Buster) | - | Yes | Yes | Yes |
 | Debian 9 (Stretch) | - | Yes | Yes | Yes |
@@ -30,7 +29,7 @@ The following operating systems are supported for both Dedicated and Managed Ope
 | Oracle Linux 7 | Yes | - | Yes | Yes |
 | Red Hat&reg; Enterprise Linux&reg; 8 | Yes | Yes | Yes | Yes |
 | Red Hat Enterprise Linux 7 | Yes | Yes | Yes | Yes |
-| Rocky Linux&reg; 8 | Yes | TBA | TBA | Yes |
+| Rocky Linux&reg; 8 | Yes | TBA | Yes | Yes |
 | Ubuntu&reg; 20.04 LTS (Focal Fossa) | Yes | Yes | Yes | Yes |
 | Ubuntu 18.04 LTS (Bionic Beaver) | Yes | Yes | Yes | Yes |
 
