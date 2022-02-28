@@ -1,5 +1,4 @@
 # Dedicated Hosting_Table
-
 | Common Request (Template Name)| Category | Allowed Device Type | Minimum Devices Required |
 | ----------------------------- | -------- | ------------------- | ------------------------ |
 | Add Amor anywhere| Service / Change |    - |  - |
