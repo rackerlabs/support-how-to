@@ -1,4 +1,4 @@
-# Dedicated Hosting Templates
+# Dedicated Hosting_Table
 
 | Common Request (Template Name)| Category | Allowed Device Type | Minimum Devices Required |
 | ----------------------------- | -------- | ------------------- | ------------------------ |
@@ -70,11 +70,3 @@
 |                                        |        | VMware Service for OS Adm. |
 | VPN User Management - add, reset, delete…| Account / User Mgtm | VM | One |
 | Website is Down | Change | - | - |
- 
-
-
-
-
-
-
-
