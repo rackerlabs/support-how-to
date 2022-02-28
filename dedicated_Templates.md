@@ -1,9 +1,9 @@
 # Dedicated Hosting Templates
 
-| Common Request (Template Name)| Category | Allowed device Type | Minimum Devices Required |
+| Common Request (Template Name)| Category | Allowed Device Type | Minimum Devices Required |
 | ----------------------------- | -------- | ------------------- | ------------------------ |
 | Add Amor anywhere| Service / Change |    - |    - |
-| Add CPU to Server or Hypervisor | Change | Hypervisor        | One |
+| Add CPU to Server or Hypervisor | Change | Hypervisor, Hypervisor ESXi, Server, VM  | One |
 |                                 |        | Hypervisor ESXi |     |
 |                                 |        | Server          |     |
 |                                 |        | VM              |     |                                             
