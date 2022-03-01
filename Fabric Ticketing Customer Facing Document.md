@@ -88,7 +88,55 @@ You can **Add Groups** to the ticket as shown in the above image. The added grou
 
 ## How To Create Ticket
 
-The create ticket is different as compared to the previous MyRack ticketing application that dedicated customers are familiar with. The Fabric ticketing application automatically determines which queue or team a ticket will be sent to. This is calculated based on the user’s selection of the category, account type, product/service, and device(s). Most of the selections are within Step: 2.
+The create ticket is different as compared to the previous MyRack ticketing application that dedicated customers are familiar with. The Fabric Ticketing Application automatically determines which queue or team a ticket will be sent to. This is calculated based on the user’s selection of the category, account type, product/service, and device(s). Most of the selections are within Step: 2.
 
+## Step 1: Choose Category
 
+![Choose Category](https://user-images.githubusercontent.com/98875667/156199904-a4cf30a8-3009-48bc-9847-c631db7059a1.png)
 
+You must choose the required category from the pre-defined ITIL/ITSM management options. Below is the list of categories:
+
+* **Change**: Change category is used to raise the ticket for add, remove or modify the infrastructure. Examples of change category are Configuration of Manager Console, add               or remove hosts, and so on. 
+* **Incident**: Incident category is used to raise the unplanned interruption or reduction in service quality. Examples of incidents are email delivery issues, lack of access                 to the network, website down and so on. 
+
+* **Account**: Account category is used to raise an issue related to overall account access, account settings, contact information or managing users. 
+
+* **Billing and Payments**: The Billing and Payments category is used to raise an issue related to usage and payments or payment options. 
+
+* **Request for Information**: Request for Information category is used to request general information. Examples of general information are the address of the organization,                                  headquarters location, and so on.
+
+## Step 2: Account & Product
+
+<img width="514" alt="Select Device" src="https://user-images.githubusercontent.com/98875667/156201098-b384b102-cbad-4419-9e75-39bc679b28c6.png">
+
+* If you only have access to one account, then that account will auto populate. The input will also be disabled since no other options exist for selection. 
+
+* If you only have access to one product, then that product will auto populate. If you have access to multiple products, then select the product that best relates to your request from the options in the drop-down list
+
+* The application only allows for dedicated devices to be added to a ticket. Adding multi-cloud devices is not allowed at this current time.
+
+<img width="522" alt="CommonRequest" src="https://user-images.githubusercontent.com/98875667/156202047-48e96698-c410-4dd2-92c3-31a9a0018e83.png">
+
+* This option drop-down depends on the previous selections you have made. Only the list of options that relate to your previous device, product, and account selections will display.
+
+![Draft](https://user-images.githubusercontent.com/98875667/156202917-c23a6d43-0e4a-4029-b54a-ba5b25bc870f.png)
+
+At the bottom of step two you will see a message that says, **Draft Saved**. A ticket draft tracks the selected step, selected field values, and progress of the your create ticket page. This allows you to continue the ticket in a different browser, or device at any time. The draft does not have a time limit and can be continued days, or months later. Each time you visit the "Create Ticket" page the application will check for the most recent draft. 
+
+## Step 3: Issue Details
+
+<img width="465" alt="Issue1" src="https://user-images.githubusercontent.com/98875667/156203849-022c8cbd-a993-48b4-a511-90ba3975e6aa.png">
+
+You fill in details of subject, description, and recipient(s). Optionally you can upload the attachment up to 20MB file. As you click on **Submit** button, your tickets are available at the top of the list. 
+
+## Submitting Feedback on New Ticketing Application
+
+<img width="411" alt="FT18" src="https://user-images.githubusercontent.com/98875667/156204400-91684c25-1d05-49c8-9350-e05ccd029e72.png">
+
+After you create a new ticket, a feedback form appears asking for a new ticketing experience as shown in the above image.
+
+* If you submit a feedback form, then the next feedback form for the new ticket can be submitted after the intervals of 15 days (about 2 weeks). 
+
+* If you tick the check box "Don't show me this again" while submitting the feedback form, then for the next new ticket feedback form will not appear. 
+
+If you have questions/concerns related to this page, then you can submit a comment at the bottom of this wiki or send an email to us at ticketing-feedback@rackspace.com
