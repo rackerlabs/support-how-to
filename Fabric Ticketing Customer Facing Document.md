@@ -136,7 +136,6 @@ You fill in details of subject, description, and recipient(s). Optionally you ca
 After you create a new ticket, a feedback form appears asking for a new ticketing experience as shown in the above image.
 
 * If you submit a feedback form, then the next feedback form for the new ticket can be submitted after the intervals of 15 days (about 2 weeks). 
-
 * If you tick the check box "Don't show me this again" while submitting the feedback form, then for the next new ticket feedback form will not appear. 
 
 If you have questions/concerns related to this page, then you can submit a comment at the bottom of this wiki or send an email to us at ticketing-feedback@rackspace.com
