@@ -35,4 +35,3 @@
 | Enroll in RPC-VMWare Guest OS Services | Change | Virtual Machine for Linux, Virtual Machine for Windows, VMware Service for OS Adm. | One |
 | VPN User Management - add, reset, delete…| Account / User Mgtm | VM | One |
 | Website is Down | Change | - | - |
-
