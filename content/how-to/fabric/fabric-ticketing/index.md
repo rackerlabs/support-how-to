@@ -1,8 +1,8 @@
 ---
 permalink: "fabric-ticketing"
 audit_date:
-type: article
-title: "Fabric ticketing"
+type: product
+title: Fabric Ticketing
 created_date: '2022-03-04'
 created_by: Asmita
 last_modified_date: '2022-03-04'
@@ -140,14 +140,3 @@ At the bottom of step two you will see a message that says, **Draft Saved**. A t
 <img width="465" alt="Issue1" src="https://user-images.githubusercontent.com/98875667/156203849-022c8cbd-a993-48b4-a511-90ba3975e6aa.png">
 
 You fill in details of subject, description, and recipient(s). Optionally you can upload the attachment up to 20MB file. As you click on **Submit** button, your tickets are available at the top of the list. 
-
-## Submitting Feedback on New Ticketing Application
-
-<img width="411" alt="FT18" src="https://user-images.githubusercontent.com/98875667/156204400-91684c25-1d05-49c8-9350-e05ccd029e72.png">
-
-After you create a new ticket, a feedback form appears asking for a new ticketing experience as shown in the above image.
-
-* If you submit a feedback form, then the next feedback form for the new ticket can be submitted after the intervals of 15 days (about 2 weeks). 
-* If you tick the check box "Don't show me this again" while submitting the feedback form, then for the next new ticket feedback form will not appear. 
-
-If you have questions/concerns related to this page, then you can submit a comment at the bottom of this wiki or send an email to us at ticketing-feedback@rackspace.com
