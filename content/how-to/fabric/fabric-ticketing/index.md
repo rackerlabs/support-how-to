@@ -24,7 +24,7 @@ You can access the ticketing application by entering login credentials. This pag
 * https://manage.rackspace.com/ 
 * https://portal.rackspace.com/ 
 
-Enter your email address and password to login into the portal. 
+Enter your username and password to login into the portal. 
 
 <img width="540" alt="FT1" src="https://user-images.githubusercontent.com/98875667/156165005-98fc3bb1-c56b-47dd-b1e9-ec2c31403728.png">
 
@@ -32,7 +32,7 @@ Enter your email address and password to login into the portal.
 
 <img width="945" alt="FT6" src="https://user-images.githubusercontent.com/98875667/156172786-71f7f0d1-5193-4fc4-a8f3-e4ef9b35a8b9.png">
 
-For all multi-cloud and non-dedicated users, the ticket navigation option will take you to the new ticketing application as shown in the above image.
+The ticket navigation option will take you to the new ticketing application as shown in the above image.
 
 The global dashboard view has tabs as listed below:
 * Tickets
@@ -57,7 +57,7 @@ The user must be granted ticketing permissions for the ticket navigation items t
 <img width="302" alt="FT9" src="https://user-images.githubusercontent.com/98875667/156182984-cf86867f-a906-45bd-9e37-e0a8daba6c67.png">
 
 1. Create Ticket: User can create new ticket using this option. Details of how new ticket is created is detailed in upcoming sections. 
-2. Search: User can search the required tickets. 
+2. Search: User can utilize the field to search by Ticket ID, Subject, and for text used in comments. 
 
 <img width="142" alt="FT10" src="https://user-images.githubusercontent.com/98875667/156183312-0c15933a-b591-4deb-8dd8-1ccbb2682681.png">
 
@@ -80,7 +80,7 @@ You can load your ticket in a new browser tab by selecting the ticket ID from th
 
 The right-side ticket panel displays the details of the selected ticket. The details of the ticket are divided into three tabs such as: 
 
-* **Comments**: Comment option displays the details of the most recently created ticket. 
+* **Comments**: Comment option displays all comments for the selected ticket. 
 
 <img width="691" alt="FT14" src="https://user-images.githubusercontent.com/98875667/156187554-fc47f74f-89a0-44b5-865c-ccbb90353123.png">
 
@@ -92,7 +92,7 @@ You can **Add Recipient** to the ticket as shown in the above image. The added r
 
 <img width="280" alt="FT16" src="https://user-images.githubusercontent.com/98875667/156188912-77a59f2c-d667-4038-afa3-f4c4747a4db1.png">
 
-You can **Add Groups** to the ticket as shown in the above image. The added groups will get notifications about the ticket. This option is available for the dedicated users.
+You can **Add Groups** to the ticket as shown in the above image. The added groups will get notifications about the ticket.
 
 <img width="308" alt="FT17" src="https://user-images.githubusercontent.com/98875667/156189256-474c010b-a7db-4471-ae60-677c338d03cf.png">
 
@@ -108,8 +108,8 @@ The create ticket is different as compared to the previous MyRack ticketing appl
 
 You must choose the required category from the pre-defined ITIL/ITSM management options. Below is the list of categories:
 
-* **Change**: Change category is used to raise the ticket for add, remove or modify the infrastructure. Examples of change category are Configuration of Manager Console, add               or remove hosts, and so on. 
-* **Incident**: Incident category is used to raise the unplanned interruption or reduction in service quality. Examples of incidents are email delivery issues, lack of access                 to the network, website down and so on. 
+* **Change**: Change category is used to raise the ticket for add, remove or modify the infrastructure. Examples of change category are Configuration of Manager Console, add or remove hosts, and so on. 
+* **Incident**: Incident category is used to raise the unplanned interruption or reduction in service quality. Examples of incidents are email delivery issues, lack of access to the network, website down and so on. 
 
 * **Account**: Account category is used to raise an issue related to overall account access, account settings, contact information or managing users. 
 
