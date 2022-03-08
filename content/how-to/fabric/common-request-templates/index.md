@@ -4,11 +4,11 @@ audit_date:
 type: article
 title: "Common request templates"
 created_date: '2022-03-04'
-created_by:
-last_modified_date:
-last_modified_by:
-product:
-product_url:
+created_by: Asmita
+last_modified_date: '2022-03-08'
+last_modified_by: Asmita
+product: Fabric
+product_url: Fabric
 ---
 # Dedicated Hosting_Table
 | Common Request (Template Name)| Category | Allowed Device Type | Minimum Devices Required |

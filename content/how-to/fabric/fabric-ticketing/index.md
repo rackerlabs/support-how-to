@@ -4,11 +4,11 @@ audit_date:
 type: article
 title: "Fabric ticketing"
 created_date: '2022-03-04'
-created_by:
-last_modified_date:
-last_modified_by:
-product:
-product_url:
+created_by: Asmita
+last_modified_date: '2022-03-04'
+last_modified_by: Asmita
+product: Fabric
+product_url: Fabric
 ---
 # Introduction
 Rackspace Technology uses a new ticketing application as part of its Fabric branding. The ticketing application follows ITSM and ITIL change management standards by allowing customers to designate a category for the ticket.
