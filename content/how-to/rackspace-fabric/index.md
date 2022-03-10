@@ -12,8 +12,4 @@ product_url: rackspace-fabric
 ---
 Rackspace Technology uses a new ticketing application as part of its Fabric branding. The dedicated hosting table categorizes request in terms of common request, device type, and minimum devices required.
 
-### Fabric Ticketing
-[fabric-ticketing](/support/how-to/rackspace-fabric/fabric-ticketing)
-
-### Common Request Templates
-[common-request-templates](/support/how-to/rackspace-fabric/common-request-templates)
+{{<list product_url="rackspace-fabric">}}
