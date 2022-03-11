@@ -260,13 +260,16 @@ permalink: /support/how-to/
     </div>
   </div>
   <div class="container">
-    <div class="Rackspace Ticketing Application" id="Rackspace Fabric">
+    <div class="Rackspace Fabric" id="rackspace-fabric">
       <div class="row">
         <div class="primary col-sm-12 col-md-4 icon private">
-          <h4><a href="/support/how-to/rackspace-fabric/"><span>Rackspace</span>Fabric</a></h4>
+          <h4><a href="/support/how-to/rackspace-fabric/"><span>Rackspace</span>Rackspace Fabric</a></h4>
         </div>
         <div class="col-sm-12 col-md-4 icon private">
-          <h4><a href="https://docs.rackspace.com/docs/rackspace-fabric/"><span>Rackspace</span>Fabric</a></h4>
+          <h4><a href="https://docs.rackspace.com/docs/common-request-templates/"><span>Rackspace</span>Common Request Template</a></h4>
+        </div>
+        <div class="col-sm-12 col-md-4 icon private">
+          <h4><a href="https://docs.rackspace.com/docs/fabric-ticketing/"><span>Rackspace</span>Fabric Ticketing</a></h4>
         </div>
       </div>
     </div>
