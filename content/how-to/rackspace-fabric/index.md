@@ -1,8 +1,8 @@
 ---
-permalink: rackspace-fabric
+permalink: "rackspace-fabric"
 audit_date: '2022-03-10'
 type: product
-title: Rackspace Fabric
+title: "Rackspace Fabric"
 created_date: '2022-03-08'
 created_by: Asmita
 last_modified_date: '2022-03-08'

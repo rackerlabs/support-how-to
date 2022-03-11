@@ -1,8 +1,8 @@
 ---
-permalink: common-request-templates
+permalink: "common-request-templates"
 audit_date: '2022-03-10'
 type: article
-title: Common Request Templates
+title: "Common Request Templates"
 created_date: '2022-03-04'
 created_by: Asmita
 last_modified_date: '2022-03-09'

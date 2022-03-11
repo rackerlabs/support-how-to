@@ -1,8 +1,8 @@
 ---
-permalink: fabric-ticketing
+permalink: "fabric-ticketing"
 audit_date: '2022-03-10'
 type: article
-title: Fabric Ticketing
+title: "Fabric Ticketing"
 created_date: '2022-03-10'
 created_by: Asmita
 last_modified_date: '2022-03-10'
