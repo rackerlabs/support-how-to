@@ -10,6 +10,7 @@ last_modified_by: Asmita
 product: Rackspace Fabric
 product_url: common-request-templates
 ---
+
 # Common Request Templates
 | Common Request (Template Name)| Category | Allowed Device Type | Minimum Devices Required |
 | ----------------------------- | -------- | ------------------- | ------------------------ |

@@ -15,4 +15,4 @@ Rackspace Technology uses a new ticketing application as part of its Fabric bran
 
 For more information about new ticketing application, see the following articles:
 - [Common request template](/support/how-to/common-request-templates)
-- [Fabric Ticketing Application](/support/how-to/fabric-ticketing)
+- [Fabric Ticketing](/support/how-to/fabric-ticketing)
