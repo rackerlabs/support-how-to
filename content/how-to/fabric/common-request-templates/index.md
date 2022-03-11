@@ -26,7 +26,7 @@ product_url: Fabric
 | Remove Virtual IP Address from Load Balancer | Change | Load Balancer | One |
 | Generate Certificate Signing Request (CSR) | Change | Firewall Platform, Firewall Platform WAF | One |  
 | Hypervisor ESXi Version Check | Change | Hypervisor ESXi | One |
-| IP Allocation                 | Change | Firewall Platform, Managed Shared Storage, Server, VM | One |
+| IP Allocation | Change | All | One |
 | Local User Management | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |
 | Logical Security Testing | Account / User Mgtm | None | - |
 | Login Access to Server | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |
