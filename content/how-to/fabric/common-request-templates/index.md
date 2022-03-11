@@ -31,7 +31,7 @@ product_url: Fabric
 | Logical Security Testing | Account / User Mgtm | None | - |
 | Login Access to Server | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |
 | Network Troubleshooting | Change | Firewall Platform, Firewall Platform WAF, Hypervisor, Hypervisor ESXi, Load Balancer, Managed Shared Storage, RPC-V, Server, VM | One |
-| Nullroute Banned IPs    | Change| Managed Shared Storage Server | None
+| Nullroute Banned IPs | Change | All | None
 | OS Troubleshooting      | Incident | - | - |
 | Performance Issue       | Incident | - | - |
 | Reset User Password on Active Directory Domain | Account / User Mgtm | None | None |
