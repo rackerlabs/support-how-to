@@ -1,7 +1,7 @@
 ---
 title: Rackspace Fabric - All Articles
 category: Rackspace Fabric
-permalink: rackspace-fabric
+permalink: rackspace-fabric-all-articles
 product: Rackspace Fabric
 product_url: rackspace-fabric
 ---
