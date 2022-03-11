@@ -18,7 +18,7 @@ product_url: Fabric
 | Add Disk Space to Server or Hypervisor | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |  
 | Add RAM to Server or Hypervisor | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |  
 | Create New User on Active Domain Directory | Account / User Mgmt | None | None |
-| Create New User on Server                  | Account / User Mgmt | None | One |
+| Create New User on Server | Change | Server, VM | One |
 | Add Virtual IP Address to Load Balancer | Change | Load Balancer | One |
 | Create new VPN user on Firewall | Change | Firewall Platform, VM | One |
 | Request Emergency Financial Accomodations | Account / Account Management | - | - |
