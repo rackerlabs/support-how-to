@@ -16,7 +16,6 @@ permalink: /support/how-to/
         <li class="tablink" id="cloud-ctrl"><a href="#cloud-hosting" onclick="openTab(event, 'cloud-display');">Cloud Services</a></li>
         <li class="tablink" id="office-ctrl"><a href="#cloud-office"  onclick="openTab(event, 'office-display');">Cloud Office</a></li>
         <li class="tablink" id="rpc-ctrl"><a href="#private-cloud"  onclick="openTab(event, 'rpc-display');">Private Cloud</a></li>
-        <!-- <li class="tablink" id="Rackspace Fabric"><a href="#rackspace-fabric" onclick="opentab(event,'rackspace-fabric');">Rackspace Ticketing Application</a></li> -->
         <li class="tablink"><a href="/support/how-to/account-management">Account Management</a></li>
       </ul>
     </div>
@@ -266,14 +265,14 @@ permalink: /support/how-to/
         <div class="primary col-sm-12 col-md-4 icon private">
           <h4><a href="/support/how-to/rackspace-fabric/"><span>Rackspace</span>Fabric</a></h4>
         </div>
-        <h4>Fabric Ticketing Application</h4>
+        <!-- <h4>Fabric Ticketing Application</h4>
         <div class="col-sm-12 col-md-4 icon private">
           <h4><a href="https://docs.rackspace.com/docs/fabric-ticketing/rpc"><span>Rackspace</span>Fabric Ticketing</a></h4>
         </div>
         <h4>Common Request Template</h4>
         <div class="col-sm-12 col-md-4 icon private">
           <h4><a href="https://docs.rackspace.com/docs/common-request-templates/rpc"><span>Rackspace</span>Common Request Templates</a></h4>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
