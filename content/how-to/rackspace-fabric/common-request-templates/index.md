@@ -8,7 +8,7 @@ created_by: Asmita
 last_modified_date: '2022-03-09'
 last_modified_by: Asmita
 product: Rackspace Fabric
-product_url: common-request-templates
+product_url: rackspace-fabric
 ---
 
 # Common Request Templates

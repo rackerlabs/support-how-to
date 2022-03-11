@@ -8,7 +8,7 @@ created_by: Asmita
 last_modified_date: '2022-03-10'
 last_modified_by: Asmita
 product: Rackspace Fabric
-product_url: fabric-ticketing
+product_url: rackspace-fabric
 ---
 # Introduction
 Rackspace Technology uses a new ticketing application as part of its Fabric branding. The ticketing application follows ITSM and ITIL change management standards by allowing customers to designate a category for the ticket.
