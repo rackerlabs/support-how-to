@@ -39,7 +39,7 @@ product_url: Fabric
 | Reset VPN User Password on Firewall | Change | Firewall Platform | One |
 | Colocation SmartHands and General Support Request | Change | Colocation | One |
 | User Password Reset/Account Unlock | Change | - | - |
-| Usage Drop | Change | Firewall Platform, Managed Shared Storage, RPC-V, Server, VM | None |
+| Usage Drop | Change | All | None |
 | Enroll in RPC-VMWare Guest OS Services | Change | Virtual Machine for Linux, Virtual Machine for Windows, VMware Service for OS Administration | One |
 | VPN - add, reset, delete VPN user(s) on firewall(s) | Account / User Mgtm | Firewall Platform | One |
 | Website is Down | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |
