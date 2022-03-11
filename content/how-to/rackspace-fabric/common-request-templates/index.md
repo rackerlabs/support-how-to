@@ -2,13 +2,13 @@
 permalink: common-request-templates
 audit_date: '2022-03-10'
 type: article
-title: Common request templates
+title: Common Request Templates
 created_date: '2022-03-04'
 created_by: Asmita
 last_modified_date: '2022-03-09'
 last_modified_by: Asmita
 product: Rackspace Fabric
-product_url: rackspace-fabric
+product_url: common-request-templates
 ---
 # Common Request Templates
 | Common Request (Template Name)| Category | Allowed Device Type | Minimum Devices Required |
