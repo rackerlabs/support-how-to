@@ -139,4 +139,4 @@ At the bottom of step two you will see a message that says, **Draft Saved**. A t
 
 <img width="465" alt="Issue1" src="https://user-images.githubusercontent.com/98875667/156203849-022c8cbd-a993-48b4-a511-90ba3975e6aa.png">
 
-You fill in details of subject, description, and recipient(s). Optionally you can upload the attachment up to 20MB file. As you click on **Submit** button, your tickets are available at the top of the list. 
+You fill in details of subject, description, and recipient(s). Optionally you can upload the attachment up to 20MB file. As you click on **Submit** button, your tickets are available at the top of the list.
