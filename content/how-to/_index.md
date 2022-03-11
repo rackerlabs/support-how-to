@@ -260,17 +260,18 @@ permalink: /support/how-to/
     </div>
   </div>
   <div class="container">
-    <div class="Rackspace Ticketing Application" id="rpc-display">
+    <div class="Rackspace Ticketing Application" id="Rackspace Fabric">
       <div class="row">
         <div class="primary col-sm-12 col-md-4 icon private">
-          <h4><a href="/support/how-to/rackspace-fabric/"><span>Rackspace</span>Fabric Ticketing</a></h4>
+          <h4><a href="/support/how-to/rackspace-fabric/"><span>Rackspace</span>Fabric</a></h4>
         </div>
+        <h4>Fabric Ticketing Application</h4>
         <div class="col-sm-12 col-md-4 icon private">
           <h4><a href="https://docs.rackspace.com/docs/fabric-ticketing/rpc"><span>Rackspace</span>Fabric Ticketing</a></h4>
         </div>
-        <h4><a href="/support/how-to/rackspace-fabric/"><span>Rackspace-Template</span>Common Request Templates</a></h4>
+        <h4>Common Request Template</h4>
         <div class="col-sm-12 col-md-4 icon private">
-          <h4><a href="https://docs.rackspace.com/docs/common-request-templates/rpc"><span>Rackspace-Template</span>Common Request Templates</a></h4>
+          <h4><a href="https://docs.rackspace.com/docs/common-request-templates/rpc"><span>Rackspace</span>Common Request Templates</a></h4>
         </div>
       </div>
     </div>
