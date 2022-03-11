@@ -266,11 +266,11 @@ permalink: /support/how-to/
           <h4><a href="/support/how-to/rackspace-fabric/"><span>Rackspace</span>Fabric Ticketing</a></h4>
         </div>
         <div class="col-sm-12 col-md-4 icon private">
-          <h4><a href="https://docs.rackspace.com/docs/fabric-ticketing/"></h4>
+          <h4><a href="https://docs.rackspace.com/docs/fabric-ticketing/rpc"><span>Rackspace</span>Fabric Ticketing</a></h4>
         </div>
         <h4><a href="/support/how-to/rackspace-fabric/"><span>Rackspace-Template</span>Common Request Templates</a></h4>
         <div class="col-sm-12 col-md-4 icon private">
-          <h4><a href="https://docs.rackspace.com/docs/common-request-templates/"></h4>
+          <h4><a href="https://docs.rackspace.com/docs/common-request-templates/rpc"><span>Rackspace-Template</span>Common Request Templates</a></h4>
         </div>
       </div>
     </div>
