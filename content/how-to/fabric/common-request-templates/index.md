@@ -32,7 +32,7 @@ product_url: Fabric
 | Login Access to Server | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |
 | Network Troubleshooting | Change | Firewall Platform, Firewall Platform WAF, Hypervisor, Hypervisor ESXi, Load Balancer, Managed Shared Storage, RPC-V, Server, VM | One |
 | Nullroute Banned IPs | Change | All | None
-| OS Troubleshooting      | Incident | - | - |
+| OS Troubleshooting | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |
 | Performance Issue       | Incident | - | - |
 | Reset User Password on Active Directory Domain | Account / User Mgtm | None | None |
 | Reset User Password on Server | Change | Server, VM | One |
