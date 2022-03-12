@@ -6,7 +6,7 @@ title: "Rackspace Fabric"
 created_date: '2022-03-08'
 created_by: Asmita
 last_modified_date: '2022-03-08'
-last_modified_by: Asmita
+last_modified_by: Asmita Nakwa
 product: Rackspace Fabric
 product_url: rackspace-fabric
 ---
