@@ -14,9 +14,7 @@ product_url: rackspace-fabric
 Rackspace Technology uses a new ticketing application as part of its Fabric branding. The ticketing application follows ITSM and ITIL change management standards by allowing customers to designate a category for the ticket.
 
 ## Intended Audience for Docs
-This documentation is intended for assisting customers with the new Fabric Ticketing Application. 
-
-*This documentation describes the user experience (aka. BPiT-Business Process Input Template) to support customer and assist customer with application issues related to this portal.*
+This documentation is intended for assisting customers with the new Fabric Ticketing Application. It describes the user experience to assist with common tasks related to this portal.
 
 ## Access to Fabric Ticketing Application
 You can access the ticketing application by entering login credentials. This page can be reached from any of the current customer portal URLs as listed below.
@@ -61,7 +59,7 @@ The user must be granted ticketing permissions for the ticket navigation items t
 
 <img width="142" alt="FT10" src="https://user-images.githubusercontent.com/98875667/156183312-0c15933a-b591-4deb-8dd8-1ccbb2682681.png">
 
-3. Status Drop Down: Allows a user to narrow down the list results by ticket status of Open Tickets, Pending Customer, Closed Tickets, and All Tickets. 
+3. Status Drop-down: Allows a user to narrow down the list results by ticket status of Open Tickets, Pending Customer, Closed Tickets, and All Tickets. 
 
 <img width="257" alt="FT11" src="https://user-images.githubusercontent.com/98875667/156183533-ce5b707d-2d71-45ea-b626-2c5c1ec7c9e4.png">
 
@@ -88,7 +86,7 @@ The right-side ticket panel displays the details of the selected ticket. The det
 
 <img width="290" alt="FT15" src="https://user-images.githubusercontent.com/98875667/156187836-c9be71b9-a9f2-408f-a918-84cb46e277f6.png">
 
-You can **Add Recipient** to the ticket as shown in the above image. The added recipients will get notification about the ticket once added. The **Add Recipient** pop over will hide contacts that have ticket notifications settings disabled on a dedicated account and does not apply to multi-cloud contacts.
+You can **Add Recipient** to the ticket as shown in the above image. The added recipients will get notifications about the ticket once added. The **Add Recipient** popover will hide contacts that have ticket notification settings disabled on an account.
 
 <img width="280" alt="FT16" src="https://user-images.githubusercontent.com/98875667/156188912-77a59f2c-d667-4038-afa3-f4c4747a4db1.png">
 
@@ -98,9 +96,9 @@ You can **Add Groups** to the ticket as shown in the above image. The added grou
 
 * **Devices**: You can view the device list. This option is only applicable for dedicated customer tickets at this current time. 
 
-## How To Create Ticket
+## How To Create a Ticket
 
-The create ticket is different as compared to the previous MyRack ticketing application that dedicated customers are familiar with. The Fabric Ticketing Application automatically determines which queue or team a ticket will be sent to. This is calculated based on the user’s selection of the category, account type, product/service, and device(s). Most of the selections are within Step: 2.
+The create ticket page is different as compared to the previous MyRack ticketing application that dedicated customers are familiar with. The Fabric Ticketing Application automatically determines which queue or team a ticket will be sent to. This is calculated based on the user’s selection of the category, account type, product/service, and device(s). Most of the selections are within Step: 2.
 
 ## Step 1: Choose Category
 
@@ -108,14 +106,14 @@ The create ticket is different as compared to the previous MyRack ticketing appl
 
 You must choose the required category from the pre-defined ITIL/ITSM management options. Below is the list of categories:
 
-* **Change**: Change category is used to raise the ticket for add, remove or modify the infrastructure. Examples of change category are Configuration of Manager Console, add or remove hosts, and so on. 
+* **Change**: Change category is used to raise the ticket for add, remove or modify the infrastructure. Examples of change category are Configuration of Manager Console, add or remove hosts, add or remove device and so on. 
 * **Incident**: Incident category is used to raise the unplanned interruption or reduction in service quality. Examples of incidents are email delivery issues, lack of access to the network, website down and so on. 
 
 * **Account**: Account category is used to raise an issue related to overall account access, account settings, contact information or managing users. 
 
 * **Billing and Payments**: The Billing and Payments category is used to raise an issue related to usage and payments or payment options. 
 
-* **Request for Information**: Request for Information category is used to request general information. Examples of general information are the address of the organization,                                  headquarters location, and so on.
+* **Request for Information**: Request for Information category is used to request general information. Examples of general information are the address of the organization, headquarters location, and so on.
 
 ## Step 2: Account & Product
 
@@ -129,9 +127,7 @@ You must choose the required category from the pre-defined ITIL/ITSM management 
 
 <img width="522" alt="CommonRequest" src="https://user-images.githubusercontent.com/98875667/156202047-48e96698-c410-4dd2-92c3-31a9a0018e83.png">
 
-* This option drop-down depends on the previous selections you have made. Only the list of options that relate to your previous device, product, and account selections will display.
-
-Visit our [Common request templates](/support/how-to/common-request-templates) article for more information about accessing each template.
+* This option drop-down depends on the previous selections you have made. Only the list of options that relate to your previous device, product, and account selections will display. Leave this field with the "None Selected" value in order to create a Custom Ticket or choose one of the template options to create a ticket based on common change requests. Visit our [Common request templates](/support/how-to/common-request-templates) article for more information about accessing each template.
 
 ### Draft Saved (Autosave)
 ![Draft](https://user-images.githubusercontent.com/98875667/156202917-c23a6d43-0e4a-4029-b54a-ba5b25bc870f.png)
@@ -142,4 +138,4 @@ At the bottom of step two you will see a message that says, **Draft Saved**. A t
 
 <img width="465" alt="Issue1" src="https://user-images.githubusercontent.com/98875667/156203849-022c8cbd-a993-48b4-a511-90ba3975e6aa.png">
 
-You fill in details of subject, description, and recipient(s). Optionally you can upload the attachment up to 20MB file. As you click on **Submit** button, your tickets are available at the top of the list.
+You fill in details of subject, description, and recipient(s). Optionally you can upload attachments up to 20MB per file. After clicking the **Submit** button, the draft will be cleared and a new ticket will be available at the top of the ticket list.
