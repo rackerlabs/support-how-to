@@ -12,9 +12,11 @@ product_url: rackspace-fabric
 ---
 
 # Common Request Templates
-| Common Request (Template Name)| Category | Allowed Device Type | Minimum Devices Required |
+This is a list of available common request templates, the category selections they depend on, and types of device selections that may be required in order to navigate to the desired template. Keep in mind that some templates may not show depending on your account type, products, or services. Please consult with support, your customer success manager or account manager if issues accessing a template still exist after utilizing this documentation.
+
+| Common Request (Template Name)| Category | Allowed Device Selections | Minimum Devices Required |
 | ----------------------------- | -------- | ------------------- | ------------------------ |
-| Add Amor anywhere| Service / Change |    - |  - |
+| Add Amor anywhere| Change | - |  - |
 | Add CPU to Server or Hypervisor | Change  | Hypervisor, Hypervisor ESXi, Server, VM | One |                          
 | Add Disk Space to Server or Hypervisor | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |  
 | Add RAM to Server or Hypervisor | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |  
@@ -27,12 +29,12 @@ product_url: rackspace-fabric
 | Remove Virtual IP Address from Load Balancer | Change | Load Balancer | One |
 | Generate Certificate Signing Request (CSR) | Change | Firewall Platform, Firewall Platform WAF | One |  
 | Hypervisor ESXi Version Check | Change | Hypervisor ESXi | One |
-| IP Allocation | Change | All | One |
+| IP Allocation | Change | Any | One |
 | Local User Management | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |
 | Logical Security Testing | Account / User Mgtm | None | - |
 | Login Access to Server | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |
 | Network Troubleshooting | Change | Firewall Platform, Firewall Platform WAF, Hypervisor, Hypervisor ESXi, Load Balancer, Managed Shared Storage, RPC-V, Server, VM | One |
-| Nullroute Banned IPs | Change | All | None
+| Nullroute Banned IPs | Change | Any | None
 | OS Troubleshooting | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |
 | Performance Issues | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |
 | Reset User Password on Active Directory Domain | Account / User Mgtm | None | None |
@@ -40,7 +42,7 @@ product_url: rackspace-fabric
 | Reset VPN User Password on Firewall | Change | Firewall Platform | One |
 | Colocation SmartHands and General Support Request | Change | Colocation | One |
 | User Password Reset/Account Unlock | Change | - | - |
-| Usage Drop | Change | All | None |
+| Usage Drop | Change | Any | None |
 | Enroll in RPC-VMWare Guest OS Services | Change | Virtual Machine for Linux, Virtual Machine for Windows, VMware Service for OS Administration | One |
 | VPN - add, reset, delete VPN user(s) on firewall(s) | Account / User Mgtm | Firewall Platform | One |
 | Website is Down | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |
