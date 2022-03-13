@@ -16,7 +16,7 @@ This is a list of available common request templates, the category selections th
 
 | Common Request (Template Name)| Category | Allowed Device Selections | Minimum Devices Required |
 | ----------------------------- | -------- | ------------------- | ------------------------ |
-| Add Amor anywhere| Change | - |  - |
+| Add Amor anywhere| Change | None | None |
 | Add CPU to Server or Hypervisor | Change  | Hypervisor, Hypervisor ESXi, Server, VM | One |                          
 | Add Disk Space to Server or Hypervisor | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |  
 | Add RAM to Server or Hypervisor | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |  
@@ -24,14 +24,14 @@ This is a list of available common request templates, the category selections th
 | Create New User on Server | Change | Server, VM | One |
 | Add Virtual IP Address to Load Balancer | Change | Load Balancer | One |
 | Create new VPN User on Firewall | Change | Firewall Platform | One |
-| Request Emergency Financial Accomodations | Account / Account Management | - | - |
+| Request Emergency Financial Accomodations | Account / Account Management | None | None |
 | Delete Contact | Account / User Management | None | None |
 | Remove Virtual IP Address from Load Balancer | Change | Load Balancer | One |
 | Generate Certificate Signing Request (CSR) | Change | Firewall Platform, Firewall Platform WAF | One |  
 | Hypervisor ESXi Version Check | Change | Hypervisor ESXi | One |
 | IP Allocation | Change | Any | One |
 | Local User Management | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |
-| Logical Security Testing | Account / User Management | None | - |
+| Logical Security Testing | Account / User Management | None | None |
 | Login Access to Server | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |
 | Network Troubleshooting | Change | Firewall Platform, Firewall Platform WAF, Hypervisor, Hypervisor ESXi, Load Balancer, Managed Shared Storage, RPC-V, Server, VM | One |
 | Nullroute Banned IPs | Change | Any | None
@@ -41,7 +41,7 @@ This is a list of available common request templates, the category selections th
 | Reset User Password on Server | Change | Server, VM | One |
 | Reset VPN User Password on Firewall | Change | Firewall Platform | One |
 | Colocation SmartHands and General Support Request | Change | Colocation | One |
-| User Password Reset/Account Unlock | Change | - | - |
+| User Password Reset/Account Unlock | Change | None | None |
 | Usage Drop | Change | Any | None |
 | Enroll in RPC-VMWare Guest OS Services | Change | Virtual Machine for Linux, Virtual Machine for Windows, VMware Service for OS Administration | One |
 | VPN - add, reset, delete VPN user(s) on firewall(s) | Account / User Management | Firewall Platform | One |
