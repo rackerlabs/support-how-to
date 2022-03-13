@@ -131,6 +131,9 @@ You must choose the required category from the pre-defined ITIL/ITSM management 
 
 * This option drop-down depends on the previous selections you have made. Only the list of options that relate to your previous device, product, and account selections will display.
 
+Visit our [Common request templates](/support/how-to/common-request-templates) article for more information about accessing each template.
+
+### Draft Saved (Autosave)
 ![Draft](https://user-images.githubusercontent.com/98875667/156202917-c23a6d43-0e4a-4029-b54a-ba5b25bc870f.png)
 
 At the bottom of step two you will see a message that says, **Draft Saved**. A ticket draft tracks the selected step, selected field values, and progress of the your create ticket page. This allows you to continue the ticket in a different browser, or device at any time. The draft does not have a time limit and can be continued days, or months later. Each time you visit the "Create Ticket" page the application will check for the most recent draft. 
