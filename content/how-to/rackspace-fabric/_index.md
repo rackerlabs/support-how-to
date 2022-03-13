@@ -11,8 +11,11 @@ product: Rackspace Fabric
 product_url: rackspace-fabric
 ---
 
+Our proprietary software platform provides a single, multi-tenant user interface and access to thousands of Rackspace Technology cloud experts. We developed Rackspace Fabric with 20+ years of expertise in every thread, weaving it all together into a single platform — one fabric — to become the foundation of our distinctive service delivery model.
+
+### Fabric Ticketing
 Rackspace Technology uses a new ticketing application as part of its Fabric branding. The dedicated hosting table categorizes request in terms of common request, device type, and minimum devices required.
 
 For more information about new ticketing application, see the following articles:
-- [Common request template](/support/how-to/common-request-templates)
 - [Fabric Ticketing](/support/how-to/fabric-ticketing)
+- [Common request templates](/support/how-to/common-request-templates)
