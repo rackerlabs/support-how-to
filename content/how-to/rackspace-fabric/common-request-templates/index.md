@@ -17,15 +17,15 @@ This is a list of available common request templates, the category selections th
 | **Common Request (Template Name)**| **Category** | **Allowed Device Selections** | **Minimum Devices Required** |**Product/Service**|
 | ----------------------------- | -------- | ------------------- | ------------------------ |------ |
 | Add Amor anywhere| Change | None | None | Dedicated Hosting |
-| Add CPU to Server or Hypervisor | Change  | Hypervisor, Hypervisor ESXi, Server, VM | One |Dedicated Hosting |                          
+| Add CPU to Server or Hypervisor | Change  | Hypervisor, Hypervisor ESXi, Server, VM | One | Dedicated Hosting |                          
 | Add Disk Space to Server or Hypervisor | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |  Dedicated Hosting |
 | Add RAM to Server or Hypervisor | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |  Dedicated Hosting |
-| Create New User on Active Domain Directory | Account / User Management | None | None |- |
-| Create New User on Server | Change | Server, VM | One |Dedicated Hosting |
-| Add Virtual IP Address to Load Balancer | Change | Load Balancer | One |Dedicated Hosting |
+| Create New User on Active Domain Directory | Account / User Management | None | None | User Management |
+| Create New User on Server | Change | Server, VM | One | Dedicated Hosting |
+| Add Virtual IP Address to Load Balancer | Change | Load Balancer | One | Dedicated Hosting |
 | Create new VPN User on Firewall | Change | Firewall Platform | One |Dedicated Hosting |
 | Request Emergency Financial Accomodations | Account / Account Management | None | None | - |
-| Delete Contact | Account / User Management | None | None | - |
+| Delete Contact | Account / User Management | None | None | User Management |
 | Remove Virtual IP Address from Load Balancer | Change | Load Balancer | One |Dedicated Hosting |
 | Generate Certificate Signing Request (CSR) | Change | Firewall Platform, Firewall Platform WAF | One |  Dedicated Hosting |
 | Hypervisor ESXi Version Check | Change | Hypervisor ESXi | One |Dedicated Hosting |
@@ -37,12 +37,12 @@ This is a list of available common request templates, the category selections th
 | Nullroute Banned IPs | Change | Any |Dedicated Hosting |
 | OS Troubleshooting | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |Dedicated Hosting |
 | Performance Issues | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |Dedicated Hosting |
-| Reset User Password on Active Directory Domain | Account / User Management | None | None |Dedicated Hosting |
+| Reset User Password on Active Directory Domain | Account / User Management | None | None | User Management |
 | Reset User Password on Server | Change | Server, VM | One | Dedicated Hosting |
 | Reset VPN User Password on Firewall | Change | Firewall Platform | One | Dedicated Hosting |
 | Colocation SmartHands and General Support Request | Change | Colocation | One | Dedicated Hosting |
 | User Password Reset/Account Unlock | Change | None | None | Dedicated Hosting |
 | Usage Drop | Change | Any | None | Dedicated Hosting |
 | Enroll in RPC-VMWare Guest OS Services | Change | Virtual Machine for Linux, Virtual Machine for Windows, VMware Service for OS Administration | One | Dedicated Hosting |
-| VPN - add, reset, delete VPN user(s) on firewall(s) | Account / User Management | Firewall Platform | One | - | 
+| VPN - add, reset, delete VPN user(s) on firewall(s) | Change | Firewall Platform | One | Dedicated Hosting | 
 | Website is Down | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |Dedicated Hosting |
