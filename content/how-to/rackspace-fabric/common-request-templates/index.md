@@ -16,7 +16,7 @@ This is a list of available common request templates, the category selections th
 
 | **Common Request (Template Name)** | **Category** | **Product/Service** | **Allowed Device Selections** | **Minimum Devices Required** |
 | ----------------------------- | -------- | ---------------- | ------------------- | ------------------------ |
-| Add Amor anywhere| Change | Dedicated Hosting | None | None |
+| Add Armor Anywhere | Change | Dedicated Hosting | None | None |
 | Add CPU to Server or Hypervisor | Change  | Dedicated Hosting | Hypervisor, Hypervisor ESXi, Server, VM | One |                          
 | Add Disk Space to Server or Hypervisor | Change | Dedicated Hosting | Hypervisor, Hypervisor ESXi, Server, VM | One |  
 | Add RAM to Server or Hypervisor | Change | Dedicated Hosting | Hypervisor, Hypervisor ESXi, Server, VM | One |  
