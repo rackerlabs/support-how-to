@@ -26,15 +26,15 @@ This is a list of available common request templates, the category selections th
 | Create new VPN User on Firewall | Change | Firewall Platform | One |Dedicated Hosting |
 | Request Emergency Financial Accomodations | Account / Account Management | None | None | - |
 | Delete Contact | Account / User Management | None | None | User Management |
-| Remove Virtual IP Address from Load Balancer | Change | Load Balancer | One |Dedicated Hosting |
+| Remove Virtual IP Address from Load Balancer | Change | Load Balancer | One | Dedicated Hosting |
 | Generate Certificate Signing Request (CSR) | Change | Firewall Platform, Firewall Platform WAF | One |  Dedicated Hosting |
 | Hypervisor ESXi Version Check | Change | Hypervisor ESXi | One |Dedicated Hosting |
 | IP Allocation | Change | Any | One |Dedicated Hosting |
-| Local User Management | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |Dedicated Hosting |
+| Local User Management | Change | Hypervisor, Hypervisor ESXi, Server, VM | One | Dedicated Hosting |
 | Logical Security Testing | Account / User Management | None | None |Dedicated Hosting |
 | Login Access to Server | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |Dedicated Hosting |
 | Network Troubleshooting | Change | Firewall Platform, Firewall Platform WAF, Hypervisor, Hypervisor ESXi, Load Balancer, Managed Shared Storage, RPC-V, Server, VM | One |Dedicated Hosting |
-| Nullroute Banned IPs | Change | Any |Dedicated Hosting |
+| Nullroute Banned IPs | Change | Any | Dedicated Hosting |
 | OS Troubleshooting | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |Dedicated Hosting |
 | Performance Issues | Change | Hypervisor, Hypervisor ESXi, Server, VM | One |Dedicated Hosting |
 | Reset User Password on Active Directory Domain | Account / User Management | None | None | User Management |
