@@ -14,7 +14,7 @@ product_url: rackspace-fabric
 # Common Request Templates
 This is a list of available common request templates, the category selections they depend on, and types of device selections that may be required in order to navigate to the desired template. Keep in mind that some templates may not show depending on your account type, products, or services. Please consult with support, your customer success manager or account manager if issues accessing a template still exist after utilizing this documentation.
 
-| Common Request (Template Name) | Category | Product/Service | Allowed Device Selections | Minimum Devices Required |
+| **Common Request (Template Name)** | **Category** | **Product/Service** | **Allowed Device Selections** | **Minimum Devices Required** |
 | ----------------------------- | -------- | ---------------- | ------------------- | ------------------------ |
 | Add Amor anywhere| Change | Dedicated Hosting | None | None |
 | Add CPU to Server or Hypervisor | Change  | Dedicated Hosting | Hypervisor, Hypervisor ESXi, Server, VM | One |                          
@@ -24,10 +24,11 @@ This is a list of available common request templates, the category selections th
 | Create New User on Server | Change | Dedicated Hosting | Server, VM | One |
 | Add Virtual IP Address to Load Balancer | Change | Dedicated Hosting | Load Balancer | One |
 | Create new VPN User on Firewall | Change | Dedicated Hosting | Firewall Platform | One |
+| On-site Physical Colocation Access Request | Change | Dedicated Hosting | Colocation | One |
 | Request Emergency Financial Accomodations | Account | Account Management | None | None |
 | Delete Contact | Account | User Management | None | None |
 | Remove Virtual IP Address from Load Balancer | Change | Dedicated Hosting | Load Balancer | One |
-| Generate Certificate Signing Request (CSR) | Change, Account | Dedicated Hosting, Account Management | Firewall Platform, Firewall Platform WAF | One |  
+| Generate Certificate Signing Request (CSR) | Change | Dedicated Hosting | Firewall Platform, Firewall Platform WAF | One |  
 | Hypervisor ESXi Version Check | Change | Dedicated Hosting | Hypervisor ESXi | One |
 | IP Allocation | Change | Dedicated Hosting | Any | One |
 | Local User Management | Change | Dedicated Hosting | Hypervisor, Hypervisor ESXi, Server, VM | One |
