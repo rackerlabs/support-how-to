@@ -4,9 +4,9 @@ audit_date: '2022-03-10'
 type: article
 title: "Fabric Ticketing"
 created_date: '2022-03-10'
-created_by: Asmita
-last_modified_date: '2022-03-10'
-last_modified_by: Asmita
+created_by: Asmita Nakwa
+last_modified_date: '2022-03-15'
+last_modified_by: Steven Salinas
 product: Rackspace Fabric
 product_url: rackspace-fabric
 ---
@@ -64,7 +64,23 @@ The user must be granted ticketing permissions for the ticket navigation items t
 <img width="257" alt="FT11" src="https://user-images.githubusercontent.com/98875667/156183533-ce5b707d-2d71-45ea-b626-2c5c1ec7c9e4.png">
 
 4. Filter: This filter option can filter your tickets using options such as Device, Created By, Accounts, and Date Range 
-5. Refresh List: When you click on Refresh List option, the most recently created ticket appears on the top of the ticket list. 
+5. Refresh List: When you click on Refresh List option, the most recently created ticket appears on the top of the ticket list.
+
+##### Export Tickets
+<img class="fig-img" src="/support/how-to/fabric-ticketing/export-tickets_01.png" alt="An expanded drop-down showing the export ticket and close ticket options">
+
+**NOTE**: Make sure ticket list item checkboxes are not selected. The **Export Tickets** feature does not support exporting individual tickets based on the ticket item checkboxes. The option will be disabled if any checkboxes are selected.
+
+To **Export Tickets** do the following:
+1. Select **Actions** > **Export Tickets**.
+
+<img class="fig-img" src="/support/how-to/fabric-ticketing/export-tickets_02.png" alt="Export ticket popover showing radio button options to export Open Tickets, Closed Tickets, or Pending Customer tickets">
+
+2. Select to export either **Closed Tickets**, **Open Tickets**, or **Pending Tickets**.
+3. Select the **Export Tickets** button.
+4. A .csv file will download in the browser.
+
+**Warning**: Currently it is only possible to export a maximum of 5,000 tickets for each option.
 
 #### **Right Side Ticket Panel**:  
 
