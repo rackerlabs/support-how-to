@@ -1,8 +1,8 @@
 ---
-permalink: "rackspace-fabric-faq"
+permalink: rackspace-fabric-faq
 audit_date:
 type: article
-title: "Rackspace fabric faq"
+title: Rackspace Fabric FAQ
 created_date: '2022-03-16'
 created_by: Asmita Nakwa
 last_modified_date: '2022-03-16'
