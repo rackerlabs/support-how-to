@@ -2,11 +2,11 @@
 permalink: "rackspace-fabric-faq"
 audit_date: '2022-03-17'
 type: article
-title: "Rackspace fabric faq"
+title: "Rackspace Fabric FAQ"
 created_date: '2022-03-17'
 created_by: Asmita Nakwa
 last_modified_date: '2022-03-17'
-last_modified_by: '2022-03-17'
+last_modified_by: Asmita
 product: Rackspace Fabric
 product_url: rackspace-fabric
 ---
@@ -44,7 +44,8 @@ Opt in to the ticketing beta using the ticketing drop down in the global navigat
 
 {{<accordion title="I have raised ticket using Rackspace BETA version of ticketing system, but unable to edit the ticket. I am getting the notification as I don't have permission to update." col="in" href="accordion2">}}
 
-User need to have either Edit or Admin permission on the device that is attached to a ticket in order to update the ticket. {{</accordion>}}
+User need to have either Edit or Admin permission on the device that is attached to a ticket in order to update the ticket.
+{{</accordion>}}
 
 {{<accordion title="I need to access the Managed Backup option in the portal."" col="in" href="accordion3">}}
 
