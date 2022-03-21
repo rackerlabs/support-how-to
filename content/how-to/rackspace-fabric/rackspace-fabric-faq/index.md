@@ -48,7 +48,7 @@ Opt in to the ticketing beta using the ticketing drop down in the global navigat
 User need to have either Edit or Admin permission on the device that is attached to a ticket in order to update the ticket.
 {{</accordion>}}
 
-{{<accordion title="I need to access the Managed Backup option in the portal."" col="in" href="accordion3">}}
+{{<accordion title="I need to access the Managed Backup option in the portal." col="in" href="accordion3">}}
 
 As per documentation on below link, access to **View Reports** is required. To access the Managed Backup option. https://one.rackspace.com/display/myrackspace/Managed+Backup?searchId=OLV66F2LT
 {{</accordion>}}
