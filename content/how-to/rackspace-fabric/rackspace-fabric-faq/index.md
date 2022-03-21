@@ -11,6 +11,7 @@ product: Rackspace Fabric
 product_url: rackspace-fabric
 ---
 ### General
+
 {{<accordion title="How can I reset the password of my Email?" col="in" href="accordion1">}}
 
 If this is cloud account admin, they can review the following link (https://account.rackspace.com/event-history). It should help them understand any recent changes/access to their account.
