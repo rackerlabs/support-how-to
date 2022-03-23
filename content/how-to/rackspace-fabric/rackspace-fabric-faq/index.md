@@ -19,21 +19,22 @@ If this is cloud account admin, they can review the following link (https://acco
 
 {{<accordion title="How can I return back to my previous ticketing application?" col="in" href="accordion2">}}
 
-The customer needs to add the firewall as a device and the **Add VPN User** template will be visible in common requests.
+Rackspace is decommissioning the previous ticketing section and moving customers to the Fabric Ticketing experience which has already been used by multi-cloud users for some time. New features and customer feedback improvements will be implemented in the new Fabric Ticketing application and are currently in progress.
 {{</accordion>}}
 
 {{<accordion title="I am not able to login to MyRack portal. I have been asked for MFA verification though I have not configured MFA yet." col="in" href="accordion3">}}
 
-MFA is mandatory for all customers but should allow customer to configure it. In case to remove the MFA please contact identity team.
+MFA is mandatory for all customers but should allow customer to configure it. In case to remove the MFA please contact identity team. To configure MFA, refer to [Configure-MFA](/support/how-to/configure-mfa)
 {{</accordion>}}
 
 {{<accordion title="I am not getting email notification via My Rackportal for incidents pertaining to Alert Logic." col="in" href="accordion4">}}
 
-The customer will get notification only if the device in question is opted in.{{</accordion>}}
+The customer will get notification only if the device in question is enabled in **Notification Preference** option. To check the preference option, refer to [Notification-Preference](/support/how-to/notification prefernce).
+ {{</accordion>}}
 
 {{<accordion title="I am unable to login to MyRack Portal. While login it is showing no primary contact exists." col="in" href="accordion5">}}
 
-There is no primary contact on the account. That is required for the account to work. I believe it can be set from Core.
+Create a new ticket using fabric ticketing application under the category **Account** and select account type as **User Management**.  If you are unable to login to the portal, contact the your Admin or follow-up with support team or Account Manager.
 {{</accordion>}}
 
 ### Permission
