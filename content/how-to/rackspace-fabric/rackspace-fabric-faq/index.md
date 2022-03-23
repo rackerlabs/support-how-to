@@ -46,7 +46,8 @@ Opt in to the ticketing beta using the ticketing drop down in the global navigat
 
 {{<accordion title="I have raised ticket using Rackspace BETA version of ticketing system, but unable to edit the ticket. I am getting the notification as I don't have permission to update." col="in" href="accordion2">}}
 
-User need to have either Edit or Admin permission on the device that is attached to a ticket in order to update the ticket.
+Customer should raise the ticket in one of those 5 categories (Change/Incident/Account/Billing and payments/Request for information)  and select appropriate account and product. 
+Also need to contact admin (customer side) or need to contact their Customer Success Manager or Support Team.
 {{</accordion>}}
 
 {{<accordion title="I need to access the Managed Backup option in the portal." col="in" href="accordion3">}}
@@ -66,7 +67,7 @@ Below is a documentation with more details:
 The naming convention for vm should be <CoreDeviceId>-<device name>, for these vms seems this pattern is not followed so we observed that deviceid is null in our database.
 {{</accordion>}}
 
-{{<accordion title="How can I update device name in Vcenter by removing Devices IDs?" col="in" href="accordion6">}}
+{{<accordion title="I am not able to generate PIN via Rackspace portal." col="in" href="accordion6">}}
 
 The customer should be able to unlock the PIN from the portal, according to the directions posted here: [Support Pin Management](https://docs.rackspace.com/support/how-to/support-pin-management/) if they cannot, I would advise contacting the customer identity team, as that is where the PIN is stored. Be advised though: This is a security measure.  No action should be taken to subvert it without a suitable verification of the customers identity.
 {{</accordion>}}
