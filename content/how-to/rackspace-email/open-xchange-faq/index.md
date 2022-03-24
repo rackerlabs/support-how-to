@@ -1,3 +1,16 @@
+---
+permalink: rackspace-email-faq
+audit_date: '2021-02-26'
+title: Rackspace Email to Open-Xchange Migration FAQ
+type: article
+created_date: '2022-03-25'
+created_by: Rackspace Support
+last_modified_date: '2022-03-25'
+last_modified_by: Brian Hazzard
+product: Rackspace Email
+product_url: rackspace-email
+---
+
 # Rackspace Email to Open-Xchange Migration FAQ
 This page will be kept up to date with Frequently Asked Questions about the transformation of Rackspace Email as we migrate to a newer, bigger, and better email solution leveraging our partnership with Open-Xchange (OX).
 
