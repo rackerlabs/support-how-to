@@ -21,7 +21,7 @@ If this is cloud account admin, they can review the following link (https://acco
 Rackspace is decommissioning the previous ticketing section and moving customers to the Fabric Ticketing experience which has already been used by multi-cloud users for some time. New features and customer feedback improvements will be implemented in the new Fabric Ticketing application and are currently in progress.{{</accordion>}}
 
 {{<accordion title="I am not able to login to MyRack portal. I have been asked for MFA verification though I have not configured MFA yet." col="in" href="accordion3">}}
-MFA is mandatory for all customers but should allow customer to configure it. In case to remove the MFA please contact identity team. To configure MFA, refer to [Configure-MFA](/support/how-to/configure-mfa)
+MFA is mandatory for all customers but should allow customer to configure it. In case to remove the MFA please contact identity team. To configure MFA, refer to [Multi-Factor Authentication](/support/how-to/multi-factor authentication)
 {{</accordion>}}
 
 {{<accordion title="I am not getting email notification via My Rackportal for incidents pertaining to Alert Logic." col="in" href="accordion4">}}
