@@ -1,3 +1,16 @@
+---
+permalink: "Multi-Factor Authentication"
+audit_date: '2022-03-23'
+type: article
+title: "Multi-Factor Authentication"
+created_date: '2022-03-23'
+created_by: Rohit Rajput
+last_modified_date: '2022-03-23'
+last_modified_by: Rohit
+product: Rackspace Fabric
+product_url: rackspace-fabric
+---
+
 Configuring Multi-Factor Authentication (MFA)
 =======================================
 
