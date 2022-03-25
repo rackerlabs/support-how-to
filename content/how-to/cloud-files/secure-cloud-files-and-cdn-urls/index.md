@@ -5,8 +5,8 @@ title: Secure Cloud Files and CDN URLs
 type: article
 created_date: '2019-02-11'
 created_by: Rackspace Community
-last_modified_date: '2019-02-20'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2022-03-24'
+last_modified_by: Maeve Goetz
 product: Cloud Files
 product_url: cloud-files
 ---
@@ -27,6 +27,8 @@ and select **View All Links**, which displays the following CDN links:
 - Streaming: https://b0c42c537095921be66c-cc339a649709710bbecd3db1e126ec2b.r3.stream.cf1.rackcdn.com
 
 - iOS Streaming: https://09ac235af93af07922d6-cc339a649709710bbecd3db1e126ec2b.iosr.cf1.rackcd
+
+**Note: Streaming and iOS Streaming URLs will be decommissioned on May 31, 2022.**
 
 If you find that the HTTP URL is too long, you can shorten it with a CNAME pointing to that URL.
 
