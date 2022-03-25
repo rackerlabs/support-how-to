@@ -5,8 +5,8 @@ title: Cloud Files cURL cookbook
 type: article
 created_date: '2012-06-25'
 created_by: Rackspace Support
-last_modified_date: '2021-04-20'
-last_modified_by: Ana Corpus
+last_modified_date: '2022-03-24'
+last_modified_by: Maeve Goetz
 product: Cloud Files
 product_url: cloud-files
 ---
@@ -493,12 +493,16 @@ The following request enables and publishes the images container:
     HTTP/1.1 204 No Content Date: Wed, 15 Feb 2012 20:28:29 GMT
     Server: Apache
     X-CDN-URI: https://c12345.r49.cf2.rackcdn.com
-    X-CDN-SSL-URI: https://c12345.ssl.cf2.rackcdn.com X-CDN-STREAMING-URI: https://c12345.r49.stream.cf2.rackcdn.com
+    X-CDN-SSL-URI: https://c12345.ssl.cf2.rackcdn.com 
+    X-CDN-STREAMING-URI: https://c12345.r49.stream.cf2.rackcdn.com
+    X-CDN-IOS-URI: https://c12345.iosr.cf2.rackcdn.com
     X-CDN-Enabled: True
     X-TTL: 259200
     X-Log-Retention: False
     Connection: close
     Content-Type: text/plain; charset=UTF-8
+
+**Note: X-Cdn-Streaming-Uri and X-Cdn-Ios-Uri links will be discontinued on May 31, 2022**
 
 ##### View a container's CDN details
 
@@ -519,11 +523,14 @@ The following request lists the CDN details of the images container:
     X-CDN-URI: https://c4965949.r49.cf2.rackcdn.com
     X-CDN-SSL-URI: https://c4965949.ssl.cf2.rackcdn.com
     X-CDN-STREAMING-URI: https://c4965949.r49.stream.cf2.rackcdn.com
+    X-CDN-IOS-URI: https://c4965949.iosr.cf2.rackcdn.com
     X-CDN-Enabled: True
     X-TTL: 259200
     X-Log-Retention: False
     Connection: close
     Content-Type: text/plain; charset=UTF-8
+
+**Note: X-Cdn-Streaming-Uri and X-Cdn-Ios-Uri links will be discontinued on May 31, 2022**
 
 ##### Update a container's CDN attributes
 
@@ -560,10 +567,13 @@ The following example request unpublishes a container called **images**:
     < X-CDN-URI: https://c4965949.r49.cf2.rackcdn.com
     < X-CDN-SSL-URI: https://c4965949.ssl.cf2.rackcdn.com
     < X-CDN-STREAMING-URI: https://c4965949.r49.stream.cf2.rackcdn.com
+    < X-CDN-IOS-URI: https://c4965949.iosr.cf2.rackcdn.com
     < Content-Length: 0
     < Connection: close
     < Content-Type: text/plain; charset=UTF-8
     <
+
+**Note: X-Cdn-Streaming-Uri and X-Cdn-Ios-Uri links will be discontinued on May 31, 2022**
 
 ##### Purge an object
 
