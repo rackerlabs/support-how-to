@@ -5,8 +5,8 @@ title: Multifactor authentication from the MyRackspace Portal
 type: article
 created_date: '2014-07-17'
 created_by: Margaret Eker
-last_modified_date: '2021-05-05'
-last_modified_by: Rose Morales
+last_modified_date: '2022-03-29'
+last_modified_by: Asmita Nakwa
 product: Cloud Servers
 product_url: cloud-servers
 ---
