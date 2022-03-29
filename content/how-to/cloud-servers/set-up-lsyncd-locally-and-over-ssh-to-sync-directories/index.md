@@ -7,8 +7,8 @@ created_by: Alfonso Murillo
 last_modified_date: '2022-03-29'
 last_modified_by: Jorge Garcia
 audit_date: '2022-03-29'
-product:
-product_url:
+product: Cloud Servers
+product_url: cloud-servers
 ---
 This article explains how to set up the **Lsyncd** tool both locally and over SSH to keep directories synchronized.
 
@@ -19,38 +19,36 @@ The advantage of using **Lsyncd** is that it is a free and lightweight solution 
 ## Requirements
 For **Lsyncd** to work properly you need to have `rsync` installed.
 
-To install `rsync` in CentOS, Fedora, or Red Hat systems use:
+**NOTE:** Is recommended to run the following commands as sudo
 
+To install `rsync` in CentOS, Fedora, or Red Hat systems use:
 ```sh
-# yum install rsync
+yum install rsync
 ```
 
 For Ubuntu or Debian systems use:
-
 ```sh
-# apt-get update
-# apt-get install rsync
+apt-get update
+apt-get install rsync
 ```
 
 ## Install Lsyncd
 To install `lsyncd` on a CentOS, Fedora, or Red Hat system it is necessary to enable the EPEL repository before installing `lsyncd`. The following commands are used to accomplish the installation:
-
 ```sh
-# yum install epel-release
-# yum install lsyncd
+yum install epel-release
+yum install lsyncd
 ```
 
 For an Ubuntu or Debian system, the `lsyncd` tool is included in the default repositories, so the following commands should be enough for the installation:
 
 ```sh
-# sudo apt-get update
-# sudo apt-get install lsyncd
+sudo apt-get update
+sudo apt-get install lsyncd
 ```
 
 To confirm that the installation was successful and verify the installed version, use the following command:
-
 ```sh
-# lsyncd -version
+lsyncd -version
 ```
 
 ## Lsyncd configuration files
@@ -61,8 +59,8 @@ This file contains all the parameters used to perform the synchronization betwee
 For example configuration files you can review the contents in `/usr/share/doc/lsyncd*/examples/` (the * refers to the Lsyncd version installed).
 
 ```sh
-# cd /usr/share/doc/lsyncd-2.2.2/examples/
-# ll
+cd /usr/share/doc/lsyncd-2.2.2/examples/
+ll
 total 40
 -rw-r--r--. 1 root root 715 Feb 16 2017 lalarm.lua
 -rw-r--r--. 1 root root 1055 Feb 16 2017 lbash.lua
@@ -81,7 +79,7 @@ For the purposes of this article, the configuration files that can be useful exa
 A configuration file will have the following structure:
 
 ```sh
-# cat /usr/share/doc/lsyncd-2.2.2/examples/lrsync.lua
+cat /usr/share/doc/lsyncd-2.2.2/examples/lrsync.lua
 ```
 ```
 -- User configuration file for lsyncd.
@@ -135,8 +133,8 @@ sync {
 To synchronize the contents of the local directory `/path/source_dir` to the local directory `/path/destination_dir` we need to perform some changes in the configuration file and it is recommended to create a log file and a status file to keep track of the task progress, although it is an optional step:
 
 ```sh
-# mkdir /var/log/lsyncd
-# touch /var/log/lsyncd/lsyncd.{log,status}
+mkdir /var/log/lsyncd
+touch /var/log/lsyncd/lsyncd.{log,status}
 ```
 
 The next step is to modify the configuration file in `/etc/lsyncd.conf` to specify the source and target directories and, if created, the location of the log and status files. The configuration will be as follows:
@@ -164,7 +162,7 @@ sync {
 To activate this new configuration start the service with the following command:
 
 ```sh
-# systemctl start lsyncd
+systemctl start lsyncd
 ```
 
 After following the above instructions, the Lsyncd will start synchronizing the contents from `/path/source_dir` to `/path/destination_dir`.
@@ -210,7 +208,7 @@ To accomplish a remote synchronization using Lsyncd, the source server must have
 Use the following command **on the source server** to generate the keys:
 
 ```sh
-# ssh-keygen -t rsa
+ssh-keygen -t rsa
 ```
 
 You will be prompted to enter the file where you want to save the key; unless you have a special configuration, leave it empty to use the default location. After this, another prompt will ask for a passphrase; leave this empty as you need complete passwordless login.
@@ -218,14 +216,14 @@ You will be prompted to enter the file where you want to save the key; unless yo
 Now that the keys are generated, copy the key to the **destination** server. To copy it into the `authorized_keys` file in the destination server, use the following instruction on the **source** server where the keys have been generated:
 
 ```sh
-# sudo su
-# ssh-copy-id DESTINATION_SERVER_IP
+sudo su
+ssh-copy-id DESTINATION_SERVER_IP
 ```
 
 To test that the passwordless connection is accomplished, log into the **destination** server from the **source** one:
 
 ```sh
-# ssh DESTINATION_SERVER_IP
+ssh DESTINATION_SERVER_IP
 ```
 
 If you are able to log without being prompted for a password, the process has succeeded.
@@ -233,9 +231,9 @@ If you are able to log without being prompted for a password, the process has su
 Now that you are logged in, create a directory on the remote host that will work as the destination folder and exit the SSH session:
 
 ```sh
-# mkdir /path/remote_destination_dir
-# exit
-# exit
+mkdir /path/remote_destination_dir
+exit
+exit
 ```
 
 #### Edit the configuration file
@@ -274,13 +272,13 @@ sync {
 Once the changes have been made to the configuration file start the service as explained above:
 
 ```sh
-# systemctl start lsyncd
+systemctl start lsyncd
 ```
 
 If the Lsyncd service is already running, just restart it:
 
 ```sh
-# sudo service lsyncd restart
+sudo service lsyncd restart
 ```
 
 Warning:
@@ -399,8 +397,6 @@ Using Lsyncd to keep local and remote folders synchronized is an economic and ef
 
 ## Related articles
 - [Using rsync to Synchronize Files](https://docs.rackspace.com/support/how-to/using-rsync-to-synchronize-file)
-
-
 
 <br>
 
