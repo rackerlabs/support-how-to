@@ -32,7 +32,7 @@ apt-get update
 apt-get install rsync
 ```
 
-## Install Lsyncd
+### Install Lsyncd
 To install `lsyncd` on a CentOS, Fedora, or Red Hat system it is necessary to enable the EPEL repository before installing `lsyncd`. The following commands are used to accomplish the installation:
 ```sh
 yum install epel-release
@@ -51,7 +51,7 @@ To confirm that the installation was successful and verify the installed version
 lsyncd -version
 ```
 
-## Lsyncd configuration files
+### Lsyncd configuration files
 The default configuration file for Lsyncd is created automatically at `/etc/lsyncd.conf` when the installation is completed.
 
 This file contains all the parameters used to perform the synchronization between directories, either locally or remotely.
@@ -126,7 +126,7 @@ sync {
 }
 ```
 
-## Synchronize local directories
+### Synchronize local directories
 To synchronize the contents of the local directory `/path/source_dir` to the local directory `/path/destination_dir` we need to perform some changes in the configuration file and it is recommended to create a log file and a status file to keep track of the task progress, although it is an optional step:
 
 ```sh
@@ -192,7 +192,7 @@ sync{
 [...]
 ```
 
-## Synchronize remote directories through SSH
+### Synchronize remote directories through SSH
 To accomplish a remote synchronization using Lsyncd, the source server must have passwordless SSH access to the target server. This is done by creating SSH keys in the **source** server.
 
 #### Generate keys for SSH passwordless access
@@ -234,7 +234,7 @@ The structure of the configuration file will remain as explained in the section 
 
 The configuration file will look like this:
 
-```
+```sh
 [...]
 settings = {
     logfile = "/var/log/lsyncd/lsyncd.log",
@@ -272,23 +272,21 @@ If the Lsyncd service is already running, just restart it:
 sudo service lsyncd restart
 ```
 
-Warning:
-It is only safe to enable Lsyncd to start on boot if you are certain that the destination directories are never changed by anything other Lsyncd.
+**WARNING:** It is only safe to enable Lsyncd to start on boot if you are certain that the destination directories are never changed by anything other Lsyncd. Otherwise, do not enable Lsyncd on boot and make sure the MOTD contains a line to show that Lsyncd is installed and in use. For example:
 
-Otherwise, do not enable Lsyncd on boot and make sure the MOTD contains a line to show that Lsyncd is installed and in use. For example:
-
-```
 On reboot, take the following steps:
 
 rsync check if you are in a "remote/server" situation
-# rsync -n -avrc root@REMOTE_SERVER:/PATH_TO_FOLDER_TO_BE_SYNCED/* /PATH_TO_FOLDER/
-
-Start Lsyncd with
-# systemctl start lsyncd.service
+```sh
+rsync -n -avrc root@REMOTE_SERVER:/PATH_TO_FOLDER_TO_BE_SYNCED/* /PATH_TO_FOLDER/
 ```
 
+Start Lsyncd with
+```sh
+systemctl start lsyncd.service
+```
 
-## Excluding directories from Lsyncd
+### Excluding directories from Lsyncd
 Sometimes you need to exclude some selected folders in a specific directory. Examples include: 
 - NFS mounted media files.
 - Log files. When synchronized, log files create a lot of unnecessary chatter and bandwidth usage. In some cases, this can cause significant delays in synchronization.
@@ -319,16 +317,15 @@ vhosts/www.example.com/wp-content/uploads
 *CAUTION: Make sure the excludes file has no empty lines in it. If it does, lsyncd treats this as "exclude /" and then everything gets excluded.*
 
 
-## Lsyncd on NFS solutions
+### Lsyncd on NFS solutions
 Lsyncd is commonly used to replicate files in a master-slave architecture. While this works great for handling content/code updates, for user-contributed or media files, it is often easier to use NFS to share a folder between the various web servers. Be very careful to exclude folders shared over NFS from Lsyncd. In the worst case scenario, where your master server is rebooted but the NFS share fails to mount, this could result in Lsyncd wiping out the contents of your NFS share.
 
 There are a couple of ways to handle this. 
 
-### Option 1: Excluding directories from Lsyncd
+#### Option 1: Excluding directories from Lsyncd
 For more details see the section 'Excluding directories from Lsyncd'
 
-### Option 2: Use a symbolic link
-
+#### Option 2: Use a symbolic link
 Rsync by default does not work with the targets of symbolic links. We can use this to protect the NFS-mounted content.
 
 Instead of:
@@ -344,7 +341,7 @@ ln -s /nfsmount/uploads uploads
 ```
 Now your NFS-mounted content is safely located outside of the Lsyncd-replicated directory tree.
 
-### Option 3: Set rsync parameters
+#### Option 3: Set rsync parameters
 Rsync supports a -x option that tells rsync not to cross file-system boundaries.  But before proceeding, there are several notes that you need to be aware of before trying this:
 
 - This will not work with Cloud Block Storage volumes, extra LVM volumes, etc. 
