@@ -5,8 +5,8 @@ title: Rackspace Email to Open-Xchange Migration FAQ
 type: article
 created_date: '2022-03-25'
 created_by: Rackspace Support
-last_modified_date: '2022-03-25'
-last_modified_by: Brian Hazzard
+last_modified_date: '2022-03-29'
+last_modified_by: Daniel Boyle
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -14,7 +14,7 @@ product_url: rackspace-email
 # Rackspace Email to Open-Xchange Migration FAQ
 This page will be kept up to date with Frequently Asked Questions about the transformation of Rackspace Email as we migrate to a newer, bigger, and better email solution leveraging our partnership with Open-Xchange (OX).
 
-OX is the leader in open mail platforms, to transform our email offering. Rackspace aims to build a Fanatical Experience™ on the world's best technology solutions, and OX App Suite is THE definitive business-class email suite. This partnership joins the simplicity, affordability, and Support that have always been the focus of Rackspace Email with the feature rich and intuitive user experience provided by OX App Suite.
+OX is the leader in open mail platforms, and OX App Suite is THE definitive business-class email suite. This partnership joins the simplicity, affordability, and Support that have always been the focus of Rackspace Email with the feature rich and intuitive user experience provided by OX App Suite.
 
 **Bookmark this page and watch it regularly throughout the year for updated FAQs about the migration**
 
@@ -42,7 +42,6 @@ No, the price you pay will remain the same.
 - Webmail sites: May require DNS updates. Details will be communicated in advance of the change.
 
 ### The following features are being removed:
-- Forward & delete will be removed when we start migrating Rackspace Email users.
 - Split domain routing (SDR): 
 	- Starting April 2022, new configurations will not be available.
 	- If SDR is configured for a domain, it will remain until you disable it, or we start migrating Rackspace Email users.
