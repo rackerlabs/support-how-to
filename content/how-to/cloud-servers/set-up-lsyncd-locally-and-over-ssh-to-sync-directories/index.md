@@ -60,7 +60,7 @@ For example configuration files you can review the contents in `/usr/share/doc/l
 
 ```sh
 cd /usr/share/doc/lsyncd-2.2.2/examples/
-ll
+ls -lh
 total 40
 -rw-r--r--. 1 root root 715 Feb 16 2017 lalarm.lua
 -rw-r--r--. 1 root root 1055 Feb 16 2017 lbash.lua
@@ -80,12 +80,9 @@ A configuration file will have the following structure:
 
 ```sh
 cat /usr/share/doc/lsyncd-2.2.2/examples/lrsync.lua
-```
-```
+[...]
 -- User configuration file for lsyncd.
---
 -- Simple example for default rsync.
---
 settings {
     statusFile = "/tmp/lsyncd.stat",
     statusInterval = 1,
@@ -100,7 +97,7 @@ sync{
 
 As mentioned before, Lscynd uses the `rsync` tool to perform the synchronization, so you are able to use the `rsync` flags to personalize the process by adding an `rsync` parameter to the `sync` statement:
 
-```
+```sh
 [...]
 sync {
     default.rsync,
@@ -120,7 +117,7 @@ sync {
 
 Also, it is important to consider that Lsyncd aggregates the events for a default of 20 seconds before verifying if any changes have been done. This time can be modified by using the `delay` parameter in the `sync` section of the configuration file:
 
-```
+```sh
 sync {
     default.rsync,
     source = "src",
@@ -139,14 +136,10 @@ touch /var/log/lsyncd/lsyncd.{log,status}
 
 The next step is to modify the configuration file in `/etc/lsyncd.conf` to specify the source and target directories and, if created, the location of the log and status files. The configuration will be as follows:
 
-```
-----
+```sh
 -- User configuration file for lsyncd.
---
 -- Simple example for default rsync, but executing moves through on the target.
---
 -- For more examples, see /usr/share/doc/lsyncd*/examples/
---
 settings {
     logfile = "/var/log/lsyncd/lsyncd.log",
     statusFile = "/var/log/lsyncd/lsyncd.status"
@@ -167,25 +160,23 @@ systemctl start lsyncd
 
 After following the above instructions, the Lsyncd will start synchronizing the contents from `/path/source_dir` to `/path/destination_dir`.
 
-Warning:
-It is only safe to enable Lsyncd to start on boot if you are certain that the destination directories are never changed by anything other Lsyncd.
+**WARNING**: It is only safe to enable Lsyncd to start on boot if you are certain that the destination directories are never changed by anything other Lsyncd. Otherwise, do not enable Lsyncd on boot and make sure the MOTD contains a line to show that Lsyncd is installed and in use. For example:
 
-Otherwise, do not enable Lsyncd on boot and make sure the MOTD contains a line to show that Lsyncd is installed and in use. For example:
-
-```
 On reboot, take the following steps:
 
-rsync check if you are in a "remote/server" situation
+rsync check if you are in a "remote/server" situation:
+```sh
 # rsync -n -avrc root@REMOTE_SERVER:/PATH_TO_FOLDER_TO_BE_SYNCED/* /PATH_TO_FOLDER/
-
-Start Lsyncd with
-# systemctl start lsyncd.service
+```
+Start Lsyncd with:
+```sh
+systemctl start lsyncd.service
 ```
 
 #### Need to synchronize multiple local directories?
 To synchronize more than one pair of directories it is possible to add more `sync` statements in the configuration file:
 
-```
+```sh
 [...]
 sync{
 default.rsync,
