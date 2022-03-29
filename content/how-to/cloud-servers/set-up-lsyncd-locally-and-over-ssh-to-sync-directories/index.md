@@ -304,13 +304,13 @@ Sometimes you need to exclude some selected folders in a specific directory. Exa
 - Temporary files used by running processes.
 
 In order to exclude folders only you need to put the relative path of the excluded folder. For example:
-- /var/www is the destination directory being synced to the slaves
-- /var/www/vhosts/www.example.com/wp-content/uploads is the directory that is mounted from your NFS server, or that you otherwise don't want synced.
+- */var/www* is the destination directory being synced to the slaves
+- */var/www/vhosts/www.example.com/wp-content/uploads* is the directory that is mounted from your NFS server, or that you otherwise don't want synced.
 - Create an excludes in the lsyncd configuration. Assuming you're using Lsyncd 2.1.5 on CentOS 6, first ensure you have an excludes file in place within 
 Lsyncd's configuration as shown below next to the 'excludeFrom line:
-```
-[root@web01 ~]# vim /etc/lsyncd/lsyncd.conf
-...
+```sh
+vim /etc/lsyncd/lsyncd.conf
+[...]
 sync {
     default.rsyncssh,
     source="/var/www/",
@@ -318,12 +318,11 @@ sync {
     targetdir="/var/www/",
     excludeFrom="/etc/lsyncd-excludes.txt",
     rsync = {
-...
 ```
 
 Next exclude the path relative to the source directory specified for synchronization. Since the target directory is /var/www, and the directory we want to exclude is /var/www/vhosts/www.example.com/wp-content/uploads, our entry would be:
-```
-[root@web01 ~]# /etc/lsyncd-excludes.txt
+```sh
+cat /etc/lsyncd-excludes.txt
 vhosts/www.example.com/wp-content/uploads
 ```
 *CAUTION: Make sure the excludes file has no empty lines in it. If it does, lsyncd treats this as "exclude /" and then everything gets excluded.*
@@ -343,12 +342,11 @@ Rsync by default does not work with the targets of symbolic links. We can use th
 
 Instead of:
 
-/var/www <-- root folder for Lsyncd replication
-
-/uploads <-- NFS share mount point
+*/var/www* <-- root folder for Lsyncd replication
+*/uploads* <-- NFS share mount point
 
 Mount the NFS share under a different folder, say /nfsmount, then do the following (assuming the uploads content has already been copied to /nfsmount/uploads):
-```
+```sh
 cd /var/www
 rm -Rf uploads
 ln -s /nfsmount/uploads uploads
@@ -364,8 +362,7 @@ Rsync supports a -x option that tells rsync not to cross file-system boundaries.
 
 For Lsyncd 2.0.x:
 Add this option to the options Lsyncd passes to rsync by editing the rsyncOpts line in /etc/lsyncd.lua:
-```
-...
+```sh
 sync{
         default.rsyncssh,
         source="/var/www",
@@ -374,13 +371,11 @@ sync{
         delete="running",
         rsyncOpts="-avzx"
 }
-...
 ```
 
 For Lsyncd 2.1.x:
 With Lsyncd 2.1.x, rsyncOpts has been changed to rsync={options} with the use of options with a full name rather than just a letter like before.  Add the following to /etc/lsyncd.conf:
-```
-...
+```sh
 sync{
         default.rsyncssh,
         source="/var/www",
@@ -389,7 +384,6 @@ sync{
         delete="running",
         rsync={ one_file_system=true }
  }
-...
 ```
 
 ## Conclusions
