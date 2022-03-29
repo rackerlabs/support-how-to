@@ -166,7 +166,7 @@ On reboot, take the following steps:
 
 rsync check if you are in a "remote/server" situation:
 ```sh
-# rsync -n -avrc root@REMOTE_SERVER:/PATH_TO_FOLDER_TO_BE_SYNCED/* /PATH_TO_FOLDER/
+rsync -n -avrc root@REMOTE_SERVER:/PATH_TO_FOLDER_TO_BE_SYNCED/* /PATH_TO_FOLDER/
 ```
 Start Lsyncd with:
 ```sh
