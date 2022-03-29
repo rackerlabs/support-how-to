@@ -5,8 +5,8 @@ title: Multifactor authentication from the Cloud Control Panel
 type: article
 created_date: '2014-07-17'
 created_by: Margaret Eker
-last_modified_date: '2021-05-05'
-last_modified_by: Rose Morales
+last_modified_date: '2022-03-31'
+last_modified_by: Rohit Rajput
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -128,8 +128,12 @@ To register and verify a mobile code device, use the following steps:
 2. In the upper-right corner of the Cloud Control Panel, click the user menu and
    select **My Profile & Settings**.
 
+<img width="383" alt="chrome_kE2DgyCefB" src="https://user-images.githubusercontent.com/96761530/160662203-c5eabb2d-29f5-4d72-aaa0-9109016ffb21.png">
+
 3. In the **Security Settings** section, select **Enable** for **Multi-factor
    authentication**.
+   
+   <img width="467" alt="chrome_bz6GjpL2wM" src="https://user-images.githubusercontent.com/96761530/160662363-de2b77ea-7a81-434a-9a01-b05a7f3583c0.png">
 
 4. Select **Use a Mobile App** and click **Next**.
 
