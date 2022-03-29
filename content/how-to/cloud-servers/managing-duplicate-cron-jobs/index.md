@@ -32,7 +32,7 @@ The text that starts with a pound symbol (#) is a comment within the code, so it
 
 **NOTE:** Be aware that you first need to test if the script fits your needs. Do not assume it may work in the first try. Modifications may be needed.
 
-```bash
+```
 # A. Define your PID file using the full path where it'll be located.
 # Do not place your code within any /tmp folder as these get cleaned up automatically and might interfere with the expected behaviour of the script.
 
