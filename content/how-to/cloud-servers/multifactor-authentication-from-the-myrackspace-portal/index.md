@@ -5,65 +5,48 @@ title: Multifactor authentication from the MyRackspace Portal
 type: article
 created_date: '2014-07-17'
 created_by: Margaret Eker
-last_modified_date: '2021-05-05'
-last_modified_by: Rose Morales
+last_modified_date: '2022-03-29'
+last_modified_by: Asmita Nakwa
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Customers can increase security on MyRackspace accounts by using the Rackspace
-Cloud Identity Service multifactor authentication (MFA) capabilities. MFA
-adds an extra layer of identity verification to the login process by requiring
-a user to submit a time-sensitive code that the Identity service sends to an SMS
-or mobile code device associated with the user's account:
+Customers can increase security on MyRackspace accounts by using the Rackspace Cloud Identity Service Multi-Factor Authentication (MFA) capabilities. MFA adds an extra layer of identity verification to login process by requiring a user to submit a time-sensitive code that the Identity service sends to an SMS or mobile code device associated with the user's account:
 
-- An SMS device is a mobile phone, notebook, or other digital device with an
-  associated phone number capable of receiving SMS text messages.
+- **Use SMS**: An SMS device is a mobile phone, notebook, or other digital device with an
+  associated phone number capable of receiving SMS text messages. You cannot use this functionality for Smartphones. 
 
-- A client application installed on your phone, notebook, or other digital
-  device creates and uses the mobile device code.
+- **Use A Mobile App**: A client application installed on your phone, notebook, or other digital
+  device creates and uses the mobile device code. You can use this application using smartphones.
 
-You can add MFA by updating your account settings in the
-[MyRackspace Portal](https://login.rackspace.com). After you pair a device with
-your account, authentication becomes a two-step process:
+You can add MFA by updating your account settings in the [MyRackspace Portal](https://login.rackspace.com). After you pair a device with your account, authentication becomes a two-step process:
 
-1. Each time you log in, the Identity service generates a code and sends it
-   to the paired device.
+1. Each time you log in, the Identity service generates a code and sends it to the paired device.
 
-2. When it sends the code, the system prompts you to type the code and
-   submit it to the Identity service to complete the authentication process.
+2. When it sends the code, the system prompts you to type the code and submit it to the Identity service to complete the authentication process.
 
-   **Note:** Standard text message rates and data fees apply based on your
-   contract with your mobile device provider.
+   **Note:** Standard text message rates and data fees apply based on your contract with your mobile device provider.
 
-Additionally, MyRackspace account administrators can configure account-wide
-settings to specify an MFA policy for all account users. Administrators can
-update the account-wide settings to require MFA for all users. When this setting
-is enabled, users cannot access their account until they configure MFA. The system logs
-current users out as soon as it applies the account-wide requirement. The next time
-they log in, users get a notification of the increased security and a prompt to
-complete the setup process.
+Additionally, MyRackspace account administrators can configure account-wide settings to specify an MFA policy for all account users. Administrators can update the account-wide settings to require MFA for all users. When this setting is **Enabled**, users cannot access their account until they configure MFA as shown in below image.
 
-**Important**: By default, we enable MFA account-wide. If you want to disable
-this setting, you need to generate a support ticket.
+<img width="604" alt="Security Settings" src="https://user-images.githubusercontent.com/98875667/160432380-0d3997a9-4d64-4953-bf1a-9e2bd3ffda21.png">
+
+The system logs current users out as soon as it applies the account-wide requirement. The next time they log in, users get a notification of the increased security and a prompt to complete the setup process.
+
+**Important**: By default, we enable MFA account-wide. If you want to disable this setting, you need to generate a support ticket.
 
 ### Considerations
 
 - You cannot configure MFA from the Cloud Control Panel inside of the MyRackspace
-  Portal. You must log in to the
-  [Cloud Control Panel](https://login.rackspace.com) and use these
+  Portal. You must log in to the [Cloud Control Panel](https://login.rackspace.com) and use these
   [instructions](/support/how-to/multifactor-authentication-from-the-cloud-control-panel/)
   to set up your users for the Cloud Control Panel.
 
-- Administrators cannot set up devices for users. Users must configure their own
-  devices. To change MFA settings, users must log in to the MyRackspace Portal with
-  the user credentials they want to modify.
+- Administrators cannot set up devices for users. Users must configure their own devices. To  change MFA settings, users must log in to the MyRackspace Portal with the user credentials they want to modify.
 
 ### Configure your account to authenticate by using an SMS device
 
-To configure your account to use an SMS device for MFA, you need the phone number
-associated with your digital device. Ensure that you have enabled the device to
-receive SMS text messages.
+To configure your account to use an SMS device for MFA, you need the phone number associated with your digital device. Ensure that you have enabled the device to receive SMS text messages.
 
 To register and verify an SMS device, use the following steps:
 
@@ -72,19 +55,28 @@ To register and verify an SMS device, use the following steps:
 2. In the upper-right corner of the Cloud Control Panel, click the **user** menu
    and select **My Profile & Settings**.
 
-3. In the **Security Settings** section, select **Enable** for **Multi-factor
-   authentication**.
+<img width="934" alt="Cloud Control Panel1 " src="https://user-images.githubusercontent.com/98875667/160443302-c6b735cc-2437-4475-935b-4f2916a75a4b.png">
+
+3. In the **Security Settings** section, select **Enable** for **Multi-factor authentication**.
+
+<img width="498" alt="Cloud Control Panel2" src="https://user-images.githubusercontent.com/98875667/160444323-2232eccf-5208-40b6-b282-94daea83084c.png">
 
 4. Select **User SMS** and click **Next**.
 
+<img width="568" alt="Cloud Control Panel3" src="https://user-images.githubusercontent.com/98875667/160561585-1b625767-ed02-44da-85dc-8940f8e07609.png">
+
 5. Select the country code for the device, type the device phone number and
    click **Next**
+
+<img width="561" alt="Cloud Control Panel4" src="https://user-images.githubusercontent.com/98875667/160562720-ec1ba8c3-4bda-46c3-aa8f-7c946a063c3a.png">
 
    **Note**: The Identity service sends an SMS text message with a four-digit
    PIN to the specified phone.
 
 6. Type the PIN code sent to your mobile device in the verification code field
    then, click **Verify**.
+
+<img width="556" alt="Cloud Control Panel5" src="https://user-images.githubusercontent.com/98875667/160563434-be1d28c1-570f-422f-9dd0-1a1595c07014.png">
 
    After you submit the verification code, you need to re-authenticate by using
    the MFA process.
@@ -110,60 +102,61 @@ To register and verify a mobile code device, use the following steps:
 2. In the upper-right corner of the Cloud Control Panel, click the **user** menu and
     select **My Profile & Settings**.
 
-3. In the **Security Settings** section, select **Enable** for **Multi-factor
-    authentication**.
+<img width="934" alt="Cloud Control Panel1 " src="https://user-images.githubusercontent.com/98875667/160443302-c6b735cc-2437-4475-935b-4f2916a75a4b.png">
+
+3. In the **Security Settings** section, select **Enable** for **Multi-factor authentication**.
+
+<img width="498" alt="Cloud Control Panel2" src="https://user-images.githubusercontent.com/98875667/160444323-2232eccf-5208-40b6-b282-94daea83084c.png">
 
 4. Select **Use a Mobile App** and click **Next**.
 
+<img width="563" alt="Cloud Control Panel6" src="https://user-images.githubusercontent.com/98875667/160617544-369fcca3-ebdc-49e1-b72e-c4a2ccbd3edf.png">
+
 5. Type a **Device nickname** for the OTP device. Then, click **Next**.
 
-6. The Identity service generates a QR code. Use the OTP client application on
-    your device to scan the barcode and click **Verify**.
+<img width="562" alt="Cloud Control Panel7" src="https://user-images.githubusercontent.com/98875667/160620600-e9f2fa63-377f-4fee-a9ff-18fe42991954.png">
 
-    After you scan the code, the OTP application on your device creates the OTP
-    device using your specified device name. It also generates a code.
+6. The Identity service generates a QR code. Use the OTP client application on your device to scan the barcode and click **Verify**.
 
-7. To verify the new device, enter the code on the **Verification Code** form.
-    Then, click **Verify**.
+After you scan the code, the OTP application on your device creates the OTP device using your specified device name. It also generates a code.
 
-    After you submit the verification code, the system automatically logs you
-    out.
+<img width="546" alt="Cloud Control Panel8" src="https://user-images.githubusercontent.com/98875667/160622412-44665c5d-d5df-4cd8-a2ea-9dc700db527d.png">
 
-    **Note:** By default, the new OTP device is the default method for
-    authentication. If you do not want it to be the default or if you do not
-    want to be logged out of your account, remove the selection from **Make this
-    my default authentication method**.
+7. To verify the new device, enter the code on the **Verification Code** form. Then, click **Verify**.
 
-    You can update the default authentication method on the **Account settings**
-    page.
+After you submit the verification code, the system automatically logs you out.
 
-8. In the Panel, enter your username and password. Then, enter the verification
-    code from the OTP device that you paired with your account.
+   **Note:** By default, the new OTP device is the default method for authentication. If you do not want it to be the default or if you do not want to be logged out of your account, remove the selection from **Make this my default authentication method**.
+
+You can update the default authentication method on the **Account settings** page.
+
+8. In the Panel, enter your username and password. Then, enter the verification code from the OTP device that you paired with your account.
 
 ### Change the default MFA method
 
-If you configured your account with both SMS and OTP devices, you can
-select the default MFA method from the **My Profile & Settings** page.
+If you configured your account with both SMS and OTP devices, you can select the default MFA method from the **My Profile & Settings** page.
 
 1. Log in to the [MyRackspace Portal](https://login.rackspace.com/).
 
 2. In the upper-right corner of the Cloud Control Panel, click the **user** menu
     and select **My Profile & Settings**.
 
+<img width="934" alt="Cloud Control Panel1 " src="https://user-images.githubusercontent.com/98875667/160443302-c6b735cc-2437-4475-935b-4f2916a75a4b.png">    
+
 3. In the **Security Settings** section, under **Multi-Factor Authentication**,
    select **Manage**.
 
-4. In the **Security Settings** section, select **Enable** for **Multi-factor
-    authentication**.
+<img width="454" alt="Cloud Control Panel9" src="https://user-images.githubusercontent.com/98875667/160645750-a702e6ed-5169-46fd-8654-17460c596e54.png">   
 
-5. Under **Method**, select **Switch to SMS** if you set up a Mobile App or **Switch
-   to Mobile App** if you set up SMS.
+When a Mobile App or SMS is configured, the status in the **Manage** option is set to **Enabled** by default.
+
+5. Under **Method**, select **Switch to SMS** if you set up a Mobile App or **Switch to Mobile App** if you set up SMS.
+
+<img width="545" alt="Cloud Control Panel10" src="https://user-images.githubusercontent.com/98875667/160654419-6fb17b64-5d54-4fc9-aff4-f971dbbb1e00.png">
 
 ### Configure account-wide MFA settings from an Administrator account
 
-Account administrators can update MyRackspace account-wide settings to require
-all users to authenticate by using MFA. When this setting is enabled, users can't
-access their accounts until they add and verify a device on their account.
+Account administrators can update MyRackspace account-wide settings to require all users to authenticate by using MFA. When this setting is enabled, users can't access their accounts until they add and verify a device on their account.
 
 To configure account-wide settings for MFA, use the following steps:
 
@@ -196,16 +189,14 @@ code sent to the device.
 
 ### Log in to MyRackspace by using MFA
 
-If you add MFAn to your account, authentication is a two-step process.
+If you add MFA to your account, authentication is a two-step process.
 
 #### Prerequisites
 
 - MyRackspace account with a valid username and password credentials
-- Access to the registered and verified SMS or mobile code device paired with
-  your MyRackspace account
+- Access to the registered and verified SMS or mobile code device paired with your MyRackspace account
 
-To log in to the MyRackspace Portal with MFA, use the
-following steps:
+To log in to the MyRackspace Portal with MFA, use the following steps:
 
 1. Log in to the [MyRackspace Portal](https://login.rackspace.com/) with your
    username and password.
