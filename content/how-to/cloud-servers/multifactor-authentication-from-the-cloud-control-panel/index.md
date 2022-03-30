@@ -292,7 +292,7 @@ Rackspace Cloud users can view and manage the MFA configuration from the
 
 #### Verify your device
 
-You can verify your SMS or OTP device from the **Account Settings** page.
+You can verify your SMS or Mobile App from the **Account Settings** page.
 
 - If you have an unverified SMS device on your account, use the **Verify**
   option to complete the verification process.
@@ -319,7 +319,7 @@ option to remove the existing phone number by following the instructions in the
 preceding task. Then, update the account settings with the new phone number and
 verify the device.
 
-#### Remove an SMS or OTP device
+#### Remove an SMS or Mobile App
 
 To remove an SMS device, use the **Remove all devices**.
 
