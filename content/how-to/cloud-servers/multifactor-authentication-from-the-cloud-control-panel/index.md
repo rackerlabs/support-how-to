@@ -15,13 +15,13 @@ Customers can have increased security on Rackspace Cloud accounts by using the
 Rackspace Cloud Identity Service's multifactor authentication (MFA) capabilities.
 MFA adds an extra layer of identity verification to the login process by
 requiring a user to submit a time-sensitive code that the Identity service sends
-to an SMS or OTP (one-time password) device associated with the user's account:
+to an SMS or Mobile App associated with the user's account:
 
 - An SMS device is a mobile phone, notebook, or other digital device with an
   associated phone number capable of receiving SMS text messages.
 
-- An OTP client application installed on your phone, notebook, or other digital
-  device creates and uses the OTP code.
+- A Mobile App is a client application installed on your phone, notebook, or other digital
+  device creates and uses the code.
 
 You can modify MFA by updating your account settings in the
 [Rackspace Cloud Control Panel](https://login.rackspace.com). After you pair
@@ -117,13 +117,9 @@ To register and verify an SMS device, use the following steps:
    After you submit the verification code, you need to re-authenticate by using
    the MFA process.
 
-### Configure your account to authenticate by using an OTP device
+### Configure your account to authenticate by using a Mobile App.
 
-A one-time password (OTP), also known as a one-time PIN or dynamic password, is
-a password that is valid for one login session or transaction on a computer
-system or other digital device.
-
-To configure your account to use an OTP device for MFA, you must install one of the
+To configure your account to use a Mobile App for MFA, you must install one of the
 following OTP client applications on your device:
 
 - [Authy](https://www.authy.com/)
@@ -147,27 +143,28 @@ To register and verify a mobile code device, use the following steps:
 
 4. Select **Use a Mobile App** and click **Next**.
 
-<img width="418" alt="1" src="https://user-images.githubusercontent.com/96761530/160828070-208ccff7-68d5-49cb-8938-33682bc7d5ea.png">
+   <img width="418" alt="1" src="https://user-images.githubusercontent.com/96761530/160828070-208ccff7-68d5-49cb-8938-33682bc7d5ea.png">
 
     **Note**: Supported applications: Authy, Duo, Google Authenticator.
 
-5. Type a **Device nickname** for the OTP device. Then, click **Next**.
+5. Type a **Device nickname** for the Mobile App. Then, click **Next**.
 
-<img width="421" alt="2" src="https://user-images.githubusercontent.com/96761530/160828200-8a7deb50-f234-4db3-93b0-d6d2e86575a5.png">
+    <img width="421" alt="2" src="https://user-images.githubusercontent.com/96761530/160828200-8a7deb50-f234-4db3-93b0-d6d2e86575a5.png">
 
-6. The Identity service generates a QR code. Use the OTP client application on
+6. The Identity service generates a **QR** code. Use the application on
    your device to scan the barcode and click **Verify**.
-
-   After you scan the code, the OTP application on your device creates the OTP
-   device using your specified device name. It also generates a code.
+   
+   After you scan the barcode, the application on your device generates an OTP/code.
 
 7. To verify the new device, enter the code on the **Verify Code** form. Then,
    click **Verify**.
-
+   
+   <img width="418" alt="chrome_AKW5hogMrQ" src="https://user-images.githubusercontent.com/96761530/160834586-dfc2435d-3aa6-48a2-b26b-410650d3a3d4.png">
+   
    After you submit the verification code, the system automatically logs you
    out.
 
-   **Note:** By default, the new OTP device is the default method for
+   **Note:** By default, the new Mobile App is the default method for
    authentication. If you do not want it to be the default or if you do not want
    to be logged out of your account, remove the selection from **Make this my
    default authentication method**.
@@ -176,26 +173,34 @@ To register and verify a mobile code device, use the following steps:
    page.
 
 8. In the Cloud Control Panel, enter your username and password. Then, enter the
-   verification code from the OTP device that you paired with your account.
+   verification code from the Mobile App that you paired with your account.
 
 ### Change default MFA method
 
-If you configured your account with both SMS and OTP devices, you
+If you configured your account with both SMS and Mobile App , you
 can select the default MFA method from the **My Profile & Settings** page.
 
 1. Log in to the [Rackspace Cloud Control Panel](https://login.rackspace.com).
 
 2. In the upper-right corner of the Cloud Control Panel, click the user menu and
    select **My Profile & Settings**.
+   
+   <img width="383" alt="chrome_kE2DgyCefB" src="https://user-images.githubusercontent.com/96761530/160662203-c5eabb2d-29f5-4d72-aaa0-9109016ffb21.png">
 
 3. In the **Security Settings** section, under **Multi-Factor Authentication**,
    select **Manage**.
+   
+   <img width="516" alt="1 1" src="https://user-images.githubusercontent.com/96761530/160835573-b1e72c50-d0b9-4069-8342-506428478aa7.png">
+
 
 4. In the **Security Settings** section, select **Enable** for **Multi-factor
    authentication**.
 
 5. Under **Method**, select **Switch to SMS** (if you set up a mobile app) or
    **Switch to Mobile App** (if you set up SMS).
+   
+   <img width="359" alt="1 2" src="https://user-images.githubusercontent.com/96761530/160835662-b7dd9df1-cfd1-4988-9f72-0154a373fc9c.png">
+
 
 ### Configure account-wide MFA settings from an Administrator account
 
@@ -261,8 +266,8 @@ Perform the following steps to log in to the Rackspace Cloud with MFA:
    SMS device, the Identity service sends an SMS text message with a
    seven-digit code to the device registered to your account.
 
-   If you configured your device to use MFA by OTP
-   device, open the OTP client application and get the code from the OTP device
+   If you configured your device to use MFA by Mobile App
+   , open the client application and get the code from the Mobile App
    associated with your Rackspace Cloud account.
 
 2. When prompted, type the code in the **MFA Code** field on the Control Panel.
@@ -292,7 +297,7 @@ You can verify your SMS or OTP device from the **Account Settings** page.
 - If you have an unverified SMS device on your account, use the **Verify**
   option to complete the verification process.
 
-- If you have an unverified OTP device, use the **Manage**
+- If you have an unverified Mobile App , use the **Manage**
   option to complete the verification process.
 
 #### Remove MFA
@@ -305,6 +310,7 @@ with your account.
 
 2. In the **Security Settings** section, select **Disable** for **Multi-factor
    authentication**.
+  
 
 #### Change the mobile phone number
 
@@ -317,7 +323,7 @@ verify the device.
 
 To remove an SMS device, use the **Remove all devices**.
 
-To remove an OTP device, use the **Manage** option to delete the device from
+To remove an Mobile App, use the **Manage** option to delete the device from
 your account.
 
 ### Troubleshooting
