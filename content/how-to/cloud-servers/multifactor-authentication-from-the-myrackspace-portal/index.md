@@ -189,16 +189,14 @@ code sent to the device.
 
 ### Log in to MyRackspace by using MFA
 
-If you add MFAn to your account, authentication is a two-step process.
+If you add MFA to your account, authentication is a two-step process.
 
 #### Prerequisites
 
 - MyRackspace account with a valid username and password credentials
-- Access to the registered and verified SMS or mobile code device paired with
-  your MyRackspace account
+- Access to the registered and verified SMS or mobile code device paired with your MyRackspace account
 
-To log in to the MyRackspace Portal with MFA, use the
-following steps:
+To log in to the MyRackspace Portal with MFA, use the following steps:
 
 1. Log in to the [MyRackspace Portal](https://login.rackspace.com/) with your
    username and password.
