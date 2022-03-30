@@ -89,20 +89,30 @@ To register and verify an SMS device, use the following steps:
 
 2. In the upper-right corner of the Cloud Control Panel, click the **user** menu
    and select **My Profile & Settings**.
+   
+   <img width="383" alt="chrome_kE2DgyCefB" src="https://user-images.githubusercontent.com/96761530/160662203-c5eabb2d-29f5-4d72-aaa0-9109016ffb21.png">
 
 3. In the **Security Settings** section, select **Enable** for **Multi-factor
    authentication**.
+   
+<img width="467" alt="chrome_bz6GjpL2wM" src="https://user-images.githubusercontent.com/96761530/160662363-de2b77ea-7a81-434a-9a01-b05a7f3583c0.png">
 
 4. Select **User SMS** and click **Next**.
 
+<img width="471" alt="chrome_Bm4bOLRY6P" src="https://user-images.githubusercontent.com/96761530/160827998-aa941232-2a3b-43d8-aa89-a8f0e6d0633a.png">
+
 5. Select the country code for the device, type the device phone number, and
    click **Next**
+   
+   <img width="447" alt="chrome_nS0ZLndo5L" src="https://user-images.githubusercontent.com/96761530/160828369-bed666bf-2bcc-47cf-9166-a9543288f144.png">
 
    **Note**: The Identity service sends an SMS text message with a four-digit
    PIN to the specified phone.
 
 6. Type the PIN code sent to your mobile device in the verification code field
    then, click **Verify**.
+
+<img width="441" alt="chrome_XQlqaYvy0x" src="https://user-images.githubusercontent.com/96761530/160828878-90bccc86-c032-4eea-ab2c-1e7f63705804.png">
 
    After you submit the verification code, you need to re-authenticate by using
    the MFA process.
@@ -137,9 +147,13 @@ To register and verify a mobile code device, use the following steps:
 
 4. Select **Use a Mobile App** and click **Next**.
 
+<img width="418" alt="1" src="https://user-images.githubusercontent.com/96761530/160828070-208ccff7-68d5-49cb-8938-33682bc7d5ea.png">
+
     **Note**: Supported applications: Authy, Duo, Google Authenticator.
 
 5. Type a **Device nickname** for the OTP device. Then, click **Next**.
+
+<img width="421" alt="2" src="https://user-images.githubusercontent.com/96761530/160828200-8a7deb50-f234-4db3-93b0-d6d2e86575a5.png">
 
 6. The Identity service generates a QR code. Use the OTP client application on
    your device to scan the barcode and click **Verify**.
