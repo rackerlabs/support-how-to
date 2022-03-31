@@ -95,11 +95,11 @@ To register and verify an SMS device, use the following steps:
 3. In the **Security Settings** section, select **Enable** for **Multi-factor
    authentication**.
    
-<img width="467" alt="chrome_bz6GjpL2wM" src="https://user-images.githubusercontent.com/96761530/160662363-de2b77ea-7a81-434a-9a01-b05a7f3583c0.png">
+   <img width="467" alt="chrome_bz6GjpL2wM" src="https://user-images.githubusercontent.com/96761530/160662363-de2b77ea-7a81-434a-9a01-b05a7f3583c0.png">
 
 4. Select **User SMS** and click **Next**.
 
-<img width="471" alt="chrome_Bm4bOLRY6P" src="https://user-images.githubusercontent.com/96761530/160827998-aa941232-2a3b-43d8-aa89-a8f0e6d0633a.png">
+   <img width="471" alt="chrome_Bm4bOLRY6P" src="https://user-images.githubusercontent.com/96761530/160827998-aa941232-2a3b-43d8-aa89-a8f0e6d0633a.png">
 
 5. Select the country code for the device, type the device phone number, and
    click **Next**
@@ -112,7 +112,7 @@ To register and verify an SMS device, use the following steps:
 6. Type the PIN code sent to your mobile device in the verification code field
    then, click **Verify**.
 
-<img width="441" alt="chrome_XQlqaYvy0x" src="https://user-images.githubusercontent.com/96761530/160828878-90bccc86-c032-4eea-ab2c-1e7f63705804.png">
+   <img width="441" alt="chrome_XQlqaYvy0x" src="https://user-images.githubusercontent.com/96761530/160828878-90bccc86-c032-4eea-ab2c-1e7f63705804.png">
 
    After you submit the verification code, you need to re-authenticate by using
    the MFA process.
@@ -134,7 +134,7 @@ To register and verify a mobile code device, use the following steps:
 2. In the upper-right corner of the Cloud Control Panel, click the user menu and
    select **My Profile & Settings**.
 
-<img width="383" alt="chrome_kE2DgyCefB" src="https://user-images.githubusercontent.com/96761530/160662203-c5eabb2d-29f5-4d72-aaa0-9109016ffb21.png">
+   <img width="383" alt="chrome_kE2DgyCefB" src="https://user-images.githubusercontent.com/96761530/160662203-c5eabb2d-29f5-4d72-aaa0-9109016ffb21.png">
 
 3. In the **Security Settings** section, select **Enable** for **Multi-factor
    authentication**.
@@ -216,14 +216,21 @@ account.
 
 2. In the top navigation bar, click **Select a Product > Rackspace Cloud**.
 
-3. In the upper-right, click **Account** > **Account Settings**. Under
-   **Rackspace Account Settings**, click **Change** next to **Multi-Factor
-   Authentication**.
+   <img width="384" alt="3 1" src="https://user-images.githubusercontent.com/96761530/161066869-b0ef57b7-e2e6-4d6f-9a5f-56c712d98d32.png">
 
-4. In the **Security Settings** section, select **Enable** for **Multi-factor
+3. In the upper-right, click **Account** > **Account Settings**.
+
+   <img width="311" alt="3 2" src="https://user-images.githubusercontent.com/96761530/161067080-ed2759d3-b497-4b4d-a632-2726dbf023c9.png">
+
+4.  Under **Rackspace Account Settings**, click **Change** next to **Multi-Factor
+   Authentication**.
+   
+   <img width="485" alt="3 3" src="https://user-images.githubusercontent.com/96761530/161067197-9a33a96b-0e40-4378-a2fa-c3bd3973ccf0.png">
+
+5. In the **Security Settings** section, select **Enable** for **Multi-factor
    authentication**.
 
-5. On the **Account-wide two-factor authentication** form, click the selection
+6. On the **Account-wide two-factor authentication** form, click the selection
    to set the policy for account users. Then, click **Save Setting** to apply
    the change.
 
