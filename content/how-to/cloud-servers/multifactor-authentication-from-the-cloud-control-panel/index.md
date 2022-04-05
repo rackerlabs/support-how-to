@@ -47,7 +47,7 @@ complete the setup process.
 **Important**: By default, we enable MFA account-wide. If you want to disable
 this setting, you need to generate a support ticket.
 
-### Considerations
+### Considerations 
 
 - MyRackspace also implements MFA. For information, see
   [Multifactor authentication from the MyRackspace portal](/support/how-to/multifactor-authentication-from-the-myrackspace-portal).
