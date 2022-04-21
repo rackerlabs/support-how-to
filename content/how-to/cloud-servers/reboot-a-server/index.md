@@ -106,4 +106,8 @@ entering the following command:
 
     shutdown /s
 
+#### Using API
+
+You can also [use an API to stop a cloud server](https://docs.rackspace.com/support/how-to/use-an-api-call-to-stop-a-cloud-server).
+
 **Next section:** [Rescue mode](/support/how-to/rescue-mode)
