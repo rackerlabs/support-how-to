@@ -31,7 +31,7 @@ What is load balancing? Mission critical web-based applications and workloads of
 
 ###  Cloud Load Balancers API
 
-- [API Getting Started Guide](https://docs.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/#getting-started)
-- [API Developer's Guide](https://docs.rackspace.com/docs/cloud-load-balancers/v1/developer-guide/#developer-guide)
+- [API Getting Started Guide](https://docs.rackspace.com/docs/cloud-load-balancers/v1/getting-started/)
+- [API Developer's Guide](https://docs.rackspace.com/docs/cloud-load-balancers/v1/)
 - [Role-Based Access Permissions via the API](/support/how-to/permissions-matrix-for-cloud-load-balancers)
 
