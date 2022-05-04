@@ -18,7 +18,7 @@ Managing Notifications
 
 <img width="538" alt="1" src="https://user-images.githubusercontent.com/96761530/159910060-dd0aed1d-fd30-4ba9-ba63-5327d7c02fa3.png">
 
-**Step 3**. From the list of Standard Notifications, toggle on the **Email notification** for the required alert. 
+**Step 3**. From the list of Standard Notifications, toggle on the **Email Notification** for the required alert. 
 
 **Step 4**. Click **Update Preferences** to save the changes.
 
