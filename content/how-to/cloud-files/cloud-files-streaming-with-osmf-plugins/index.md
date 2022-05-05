@@ -5,11 +5,13 @@ title: Cloud Files streaming with OSMF plugins
 type: article
 created_date: '2011-09-12'
 created_by: Rackspace Support
-last_modified_date: '2021-05-26'
-last_modified_by: Ana Corpus
+last_modified_date: '2022-05-05'
+last_modified_by: Maeve Goetz
 product: Cloud Files
 product_url: cloud-files
 ---
+
+**Streaming URLs will be decommissioned on July 31, 2022.**
 
 **Disclaimer**: As of January 12, 2021, excluding the China variant  of Flash, 
 the Flash executable has a built-in kill switch that prevents it from playing 
