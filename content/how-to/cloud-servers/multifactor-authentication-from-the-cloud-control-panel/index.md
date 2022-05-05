@@ -94,8 +94,8 @@ To register and verify an SMS device, use the following steps:
 
 3. In the **Security Settings** section, select **Enable** for **Multi-factor
    authentication**.
-   
-   <img width="467" alt="chrome_bz6GjpL2wM" src="https://user-images.githubusercontent.com/96761530/160662363-de2b77ea-7a81-434a-9a01-b05a7f3583c0.png">
+
+    <img width="467" alt="Updated 1" src="https://user-images.githubusercontent.com/96761530/166915047-4129fbae-f0a8-4c40-b8d1-90547d9366d4.png">
 
 4. Select **User SMS** and click **Next**.
 
@@ -138,7 +138,7 @@ To register and verify a mobile code device, use the following steps:
 3. In the **Security Settings** section, select **Enable** for **Multi-factor
    authentication**.
    
-   <img width="467" alt="chrome_bz6GjpL2wM" src="https://user-images.githubusercontent.com/96761530/160662363-de2b77ea-7a81-434a-9a01-b05a7f3583c0.png">
+   <img width="467" alt="Updated 1" src="https://user-images.githubusercontent.com/96761530/166915128-ace472b0-a460-4315-909a-29dd26ec8112.png">
 
 4. Select **Use a Mobile App** and click **Next**.
 
@@ -213,7 +213,7 @@ account.
 
 2. In the upper-right, click **Account** > **Account Settings**.
 
-   <img width="311" alt="3 2" src="https://user-images.githubusercontent.com/96761530/161067080-ed2759d3-b497-4b4d-a632-2726dbf023c9.png">
+   <img width="311" alt="updated 2" src="https://user-images.githubusercontent.com/96761530/166915605-2bf14b3b-22ae-4fb9-ac7f-f930e6a0b27a.png">
 
 3.  Under **Rackspace Account Settings**, click **Change** next to Multi-Factor
    Authentication.
