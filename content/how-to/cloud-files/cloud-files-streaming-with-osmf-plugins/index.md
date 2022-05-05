@@ -11,7 +11,7 @@ product: Cloud Files
 product_url: cloud-files
 ---
 
-**Streaming URLs will be decommissioned on July 31, 2022.**
+**Note: X-Cdn-Streaming-Uri and X-Cdn-Ios-Uri links will be discontinued on July 31, 2022**
 
 **Disclaimer**: As of January 12, 2021, excluding the China variant  of Flash, 
 the Flash executable has a built-in kill switch that prevents it from playing 
