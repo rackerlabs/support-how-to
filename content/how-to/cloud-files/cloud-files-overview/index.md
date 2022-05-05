@@ -34,7 +34,7 @@ scenarios and is well suited for a number of applications. The following list
 includes some of the ideal uses for Cloud Files:
 
 -   Backing up or archiving data
--   Serving images and videos (streaming data to users' browsers, **Note the streaming feature will decommissioned on July 31, 2022**)
+-   Serving images and videos (streaming data to users' browsers, **Note the streaming feature will be decommissioned on July 31, 2022**)
 -   Serving content with a world-class CDN (Akamai)
 -   Storing secondary or tertiary, static, web-accessible data
 -   Developing new applications with data storage integration
