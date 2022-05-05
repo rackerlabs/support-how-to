@@ -5,8 +5,8 @@ title: Cloud Files overview
 type: article
 created_date: '2012-07-23'
 created_by: Rackspace Support
-last_modified_date: '2018-12-13'
-last_modified_by: Kate Dougherty
+last_modified_date: '2022-05-05'
+last_modified_by: Maeve Goetz
 product: Cloud Files
 product_url: cloud-files
 ---
@@ -34,7 +34,7 @@ scenarios and is well suited for a number of applications. The following list
 includes some of the ideal uses for Cloud Files:
 
 -   Backing up or archiving data
--   Serving images and videos (streaming data to users' browsers)
+-   Serving images and videos (streaming data to users' browsers, **Note the streaming feature will decommissioned on July 31, 2022**)
 -   Serving content with a world-class CDN (Akamai)
 -   Storing secondary or tertiary, static, web-accessible data
 -   Developing new applications with data storage integration
