@@ -5,7 +5,7 @@ title: Cloud Files cURL cookbook
 type: article
 created_date: '2012-06-25'
 created_by: Rackspace Support
-last_modified_date: '2022-03-24'
+last_modified_date: '2022-05-05'
 last_modified_by: Maeve Goetz
 product: Cloud Files
 product_url: cloud-files
@@ -502,7 +502,7 @@ The following request enables and publishes the images container:
     Connection: close
     Content-Type: text/plain; charset=UTF-8
 
-**Note: X-Cdn-Streaming-Uri and X-Cdn-Ios-Uri links will be discontinued on May 31, 2022**
+**Note: X-Cdn-Streaming-Uri and X-Cdn-Ios-Uri links will be discontinued on July 31, 2022**
 
 ##### View a container's CDN details
 
@@ -530,7 +530,7 @@ The following request lists the CDN details of the images container:
     Connection: close
     Content-Type: text/plain; charset=UTF-8
 
-**Note: X-Cdn-Streaming-Uri and X-Cdn-Ios-Uri links will be discontinued on May 31, 2022**
+**Note: X-Cdn-Streaming-Uri and X-Cdn-Ios-Uri links will be discontinued on July 31, 2022**
 
 ##### Update a container's CDN attributes
 
@@ -573,7 +573,7 @@ The following example request unpublishes a container called **images**:
     < Content-Type: text/plain; charset=UTF-8
     <
 
-**Note: X-Cdn-Streaming-Uri and X-Cdn-Ios-Uri links will be discontinued on May 31, 2022**
+**Note: X-Cdn-Streaming-Uri and X-Cdn-Ios-Uri links will be discontinued on July 31, 2022**
 
 ##### Purge an object
 
