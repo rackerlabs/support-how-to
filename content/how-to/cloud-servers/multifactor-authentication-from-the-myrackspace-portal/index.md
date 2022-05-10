@@ -11,13 +11,12 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Customers can increase security on MyRackspace accounts by using the Rackspace dedicated Multi-Factor Authentication (MFA) capabilities. MFA adds an extra layer of identity verification to login process by requiring a user to submit a time-sensitive code that the Identity service sends to SMS or mobile code device associated with the user's account:
+Customers can increase security on MyRackspace accounts by using the Rackspace dedicated Multi-Factor Authentication (MFA) capabilities. MFA adds an extra layer of identity verification to the login process by requiring a user to submit a time-sensitive code that the Identity service sends to SMS or mobile code device associated with the user's account:
 
 - **SMS**: An SMS device is a mobile phone, notebook, or other digital device with an
   associated phone number capable of receiving SMS text messages. You cannot use this functionality for Smartphones. 
 
-- **Mobile Passcode**: A client application installed on your phone, notebook, or other digital
-  device creates and uses the mobile passcode code. You can use this application using smartphones apps like:
+- **Mobile Passcode**: A client application installed on your phone, notebook, or other digital device creates and uses the mobile passcode. You can use this with smartphones apps like:
   * Authy
   * Duo
   * Google Authenticator
@@ -42,7 +41,7 @@ The system logs current users out as soon as it applies the account-wide require
   [instructions](/support/how-to/multifactor-authentication-from-the-my-rackspace-portal/)
   to set up your users for the Rackspace Dedicated.
 
-- Administrators cannot set up devices for users. Users must configure their own devices. To  change MFA settings, users must log in to the MyRackspace Portal with the user credentials they want to modify.
+- Administrators cannot set up devices for users. Users must configure their own devices. To change MFA settings, users must log in to the MyRackspace Portal with the user credentials they want to modify.
 
 ### Configure your account to authenticate by using SMS
 
