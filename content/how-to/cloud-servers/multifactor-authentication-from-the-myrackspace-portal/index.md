@@ -153,7 +153,7 @@ To configure account-wide settings for MFA, use the following steps:
 
 2. Click **Account**, and then select **User Management** from the menu.
 
-<img width="430" alt="Dedicated 12" src="https://user-images.githubusercontent.com/98875667/161504307-f61f1ac4-83a0-4ae4-9167-02479751b224.png">
+<img width="430" alt="Dedicated 12" src="https://user-images.githubusercontent.com/98875667/167610720-825644e8-5818-43f8-b22b-14296d393c84.png">
 
 3. Click **My Multi-Factor Devices**.
 
