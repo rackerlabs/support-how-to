@@ -3,8 +3,8 @@ title: Cloud Files
 type: product
 created_date: '2016-01-17'
 created_by: Rackspace Support
-last_modified_date: '2020-09-20'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2022-05-05'
+last_modified_by: Maeve Goetz
 permalink: cloud-files
 product: Cloud Files
 product_url: cloud-files
@@ -25,7 +25,7 @@ easy-to-use control panel, for a Fanatical Experience&trade; from day one.
 - [Best practices for using Cloud Files](/support/how-to/best-practices-for-using-cloud-files)
 - [Using CNAMEs with Cloud Files containers](/support/how-to/using-cnames-with-cloud-files-containers)
 - [Cloud Files delete and purge requests](/support/how-to/cloud-files-deletion-and-purge-requests)
-- [Getting started with Cloud Files streaming](/support/how-to/getting-started-with-cloud-files-streaming/)
+- [Getting started with Cloud Files streaming](/support/how-to/getting-started-with-cloud-files-streaming/) **(Note: Streaming will be discontinued on July 31, 2022)**
 - [Set up a static website with Cloud Files](/support/how-to/set-up-a-static-website-with-cloud-files/)
 - [Back up data with Cloud Files](/support/how-to/back-up-data-with-cloud-files/)
 - [Secure Cloud Files and CDN](/support/how-to/secure-cloud-files-and-cdn-urls/)
