@@ -662,6 +662,7 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 /support/how-to/how-to-change-your-server-rootadmin-password-from-your-account/ /support/how-to/reset-a-server-password/ 301
 /support/how-to/troubleshoot-mysql-configuration-with-a-mysqltuner-script /support/how-to/how-to-use-mysqltuner-in-linux/ 301
 /support/how-to/change-the-hostname-change-on-centos-6-servers/ /support/how-to/centos-hostname-change/ 301
+/support/how-to/dns-basics /support/how-to/dns-fundamentals/ 301
 
 # Individual Redirects
 
