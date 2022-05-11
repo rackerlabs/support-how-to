@@ -659,8 +659,8 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 /support/how-to/resize-up-compute-and-memory-servers/ /support/how-to/resize-a-cloud-server 301
 
 /support/how-to/install-a-lamp-stack-on-centos-8/ /support/how-to/how-to-install-a-lamp-stack-on-rhel-7-based-distributions/ 301
-
 /support/how-to/how-to-change-your-server-rootadmin-password-from-your-account/ /support/how-to/reset-a-server-password/ 301
+/support/how-to/troubleshoot-mysql-configuration-with-a-mysqltuner-script /support/how-to/how-to-use-mysqltuner-in-linux/ 301
 
 # Individual Redirects
 
