@@ -660,6 +660,8 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 /support/how-to/install-a-lamp-stack-on-centos-8/ /support/how-to/how-to-install-a-lamp-stack-on-rhel-7-based-distributions/ 301
 
+/support/how-to/how-to-change-your-server-rootadmin-password-from-your-account/ /support/how-to/reset-a-server-password/ 301
+
 # Individual Redirects
 
 /support/how-to/manage-scheduled-images-with-the-python-novaclient/  /how-to/using-python-novaclient-to-manage-scheduled-images/  404
