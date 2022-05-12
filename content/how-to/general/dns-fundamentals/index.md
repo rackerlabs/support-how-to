@@ -1,12 +1,12 @@
 ---
 permalink: dns-fundamentals
-audit_date: '2017-11-13'
+audit_date: '2022-05-11'
 title: DNS Fundamentals
 type: article
 created_date: '2017-01-26'
 created_by: Alan Hicks
-last_modified_date: '2017-11-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2022-05-11'
+last_modified_by: Miguel Salgado
 product: General
 product_url: general
 ---
