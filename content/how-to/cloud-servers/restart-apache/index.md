@@ -1,12 +1,12 @@
 ---
 permalink: restart-apache
-audit_date: '2019-01-22'
+audit_date: '2022-05-12'
 title: Restart Apache
 type: article
-created_date: '2019-01-22'
+created_date: '2022-05-12'
 created_by: Rackspace Community
-last_modified_date: '2019-01-22'
-last_modified_by: Kate Dougherty
+last_modified_date: '2022-05-12'
+last_modified_by: Miguel Salgado
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -24,33 +24,50 @@ to your configuration files, we recommend that you back up the existing files.
 The cause of the error might simply be a misspelled word or a dot (.) that's out of place.
 Run the following command to check the syntax:
 
-    httpd –S
+```sh
+    [user@server ~]$ httpd –S
+```
 
 You should see the following output:
 
+```
     Syntax OK
+```
 
 If you receive an error message similar to the one in the following example output, you need to address the error before you attempt to restart Apache:
 
+```
     Syntax error on line 51 of /etc/httpd/conf/httpd.conf:
     Invalid command 'erverRoot', perhaps misspelled or defined by a module not included in the server configuration
+```
 
 ### Check the Apache error logs
 
 If you resolve those errors and Apache still doesn't restart, check the Apache error logs. Using two windows might be helpful. In one window, use the tail command against the error log by running the following command:
 
+```sh
     tail –f /var/log/httpd/error_log
-    
+```
 
 In the other window, attempt to restart Apache by running the following
 command:
 
-    /etc/init.d/httpd restart
+```sh
+    # For RHEL/CentOS 6
+    [user@server ~]$ sudo /etc/init.d/httpd restart
+    # For Ubuntu 14/Debian 8
+    [user@server ~]$ sudo /etc/init.d/apache2 restart
+    # For RHEL/CentOS 7+
+    [user@server ~]$ sudo systemctl restart httpd
+    # For Ubuntu 16+/Debian 9+
+    [user@server ~]$ sudo systemctl restart apache2
+```
 
 Watch the first window while restarting Apache to see any errors that are being generated to the logs.
 
 Apache also might not restart if there is another service that is binding to the port that Apache is trying to use, as shown in the following output:
 
+```sh
     Stopping httpd:                                           [FAILED]
     Starting httpd: httpd: Could not reliably determine the server's fully qualified domain name, using 2001:4801:7824:103:9ed:a5a8:3301:d53a for ServerName
     [Wed Sep 10 20:48:11 2014] [warn] NameVirtualHost *:443 has no VirtualHosts
@@ -59,15 +76,19 @@ Apache also might not restart if there is another service that is binding to the
     (98)Address already in use: make_sock: could not bind to address 0.0.0.0:80
     no listening sockets available, shutting down
     Unable to open logs
+```
 
 This output shows that Apache is not able to start because another service is already assigned to port 80.
 
 You can either change the port to which Apache is assigned or check if the other service that is assigned to this port is supposed to be on port 80. Run the `netstat` command to identify the other service that is using that port, as shown in the following example:
 
-    netstat –plnt
+```sh
+    [user@server ~]$ sudo netstat –plnt
+```
 
 The output should look similar to the following example:
 
+```
     Active Internet connections (only servers)
     Proto Recv-Q Send-Q Local Address             Foreign Address             State      PID/Program name
     tcp       0     0 0.0.0.0:80                  0.0.0.0:*                   LISTEN     5272/sshd
@@ -75,12 +96,15 @@ The output should look similar to the following example:
     tcp       0     0 0.0.0.0:3306                0.0.0.0:*                   LISTEN     5835/mysqld
     tcp       0     0 :::80                                       :::*        LISTEN     5272/sshd
     tcp       0     0 ::1:25                                      :::*        LISTEN     1581/master
+```
 
 In this example, the output shows that Secure Shell (SSH) is listening on port 80, which should not be the case. You can rectify this situation by modifying the configuration file for SSH to listen on a different port, then restart Apache.
 
 You might also see the following error:
 
+```
     httpd dead but subsys locked, but pid exists
+```
 
 This error means that Apache was running, but crashed. When you start Apache,
 it creates a lock file to indicate that it is running. The lock file helps prevent
@@ -89,9 +113,25 @@ removed. When it crashes, however, the lock file still exists but the process
 does not. If you see this error, you need to remove the lock file by running
 the following commands:
 
-    rm /var/lock/subsys/httpd
+```sh
+    # For RHEL/CentOS based distributions
+    [user@server ~]$ sudo rm /var/lock/subsys/httpd
+    # For Ubuntu/Debian based distributions
+    [user@server ~]$ sudo rm /var/lock/subsys/apache2
 
-    /etc/init.d/httpd restart
+    # For RHEL/CentOS 6
+    [user@server ~]$ sudo /etc/init.d/httpd restart
+    # For Ubuntu 14/Debian 8
+    [user@server ~]$ sudo /etc/init.d/apache2 restart
+    # For RHEL/CentOS 7+
+    [user@server ~]$ sudo systemctl restart httpd
+    # For Ubuntu 16+/Debian 9+
+    [user@server ~]$ sudo systemctl restart apache2
+```
 
 Running these commands removes the unused lock file so that Apache can create
 a new one when it restarts.
+
+<br>
+
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
