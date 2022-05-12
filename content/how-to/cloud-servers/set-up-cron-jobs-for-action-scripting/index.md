@@ -146,7 +146,7 @@ command to edit the crontab file:
 ```
 Each line in the crontab file has five date and time fields in the following format:
 
-```
+```text
     minute (0-59) hour (0-23) day (1-31) month (1-12) weekday (0-6)
 ```
 
@@ -155,7 +155,7 @@ of times that you want the script to run.
 
 Add the following entries to the crontab file:
 
-```cron
+```text
     MAILTO= youremail@domain.com
 
     */5 * * * * /usr/local/sbin/continuous.sh
@@ -163,3 +163,6 @@ Add the following entries to the crontab file:
     16 02 * * * /usr/local/sbin/daily.sh
     26 03 * * 0 /usr/local/sbin/weekly.sh
 ```
+
+<br>
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
