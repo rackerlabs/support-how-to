@@ -20,7 +20,7 @@ Use the following instructions to resolve a stalled Cloud Backup DriveClient:
 
 2.	Stop the DriveClient service on the server.
 
-### Windows
+### Windows method
 
 #### Command Prompt method
 
