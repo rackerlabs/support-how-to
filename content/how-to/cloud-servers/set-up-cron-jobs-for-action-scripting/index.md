@@ -4,7 +4,7 @@ audit_date: '2022-05-12'
 title: Set up cron jobs for action scripting
 type: article
 created_date: '2022-05-12'
-created_by: Rackspace Community
+created_by: Rackspace Support
 last_modified_date: '2022-05-12'
 last_modified_by: Miguel Salgado
 product: Cloud Servers
