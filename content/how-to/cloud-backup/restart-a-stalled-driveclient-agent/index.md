@@ -26,17 +26,22 @@ Use the following instructions to resolve a stalled Cloud Backup DriveClient:
 
 Use the following commands at the command prompt to stop and restart the DriveClient agent:
 
-1.	Stop the DriveClient:
+1. Stop the DriveClient:
 
-    `sc stop driveclient`
+    ```powershell
+    sc stop driveclient
+    ```
 
-2.	Query the DriveClient until it returns `STOPPED`:
+2. Query the DriveClient until it returns `STOPPED`:
 
-    `sc query driveclient`
+    ```powershell
+    sc query driveclient
+    ```
+3. Restart the DriveClient:
 
-3.	Restart the DriveClient:
-
-    `sc start driveclient`
+    ```powershell
+    sc start driveclient
+    ```
 
 4. Verify the DriveClient agent is connected through the Cloud Backup control panel.
 
@@ -44,17 +49,23 @@ Use the following commands at the command prompt to stop and restart the DriveCl
 
 Use the following commands in Powershell to stop and restart the DriveClient agent:
 
-1.      Stop the DriveClient:
+1. Stop the DriveClient:
 
-    `Stop-Service -Name "driveclient"`
+    ```powershell
+    Stop-Service -Name "driveclient"
+    ```
 
-2.      Query the DriveClient until it returns `STOPPED`:
+2. Query the DriveClient until it returns `STOPPED`:
 
-    `Get-Service | where-object {$_.name -like '*driveclient*'}`
+    ```powershell
+    Get-Service | where-object {$_.name -like '*driveclient*'}
+    ```
 
-3.      Restart the DriveClient:
+3. Restart the DriveClient:
 
-    `Start-Service -Name "driveclient"`
+    ```powershell
+    Start-Service -Name "driveclient"
+    ```
 
 4. Verify the DriveClient agent is connected through the Cloud Backup control panel.
 
@@ -62,8 +73,8 @@ Use the following commands in Powershell to stop and restart the DriveClient age
 
 Use the following commands in the Task Manager to stop and restart the DriveClient agent:
 
-1.	Right-click **driveclient.exe** and select **End Process** or **End Process Tree**.
-2.	Right-click **driveclient.exe** and select **Start**.
+1. Right-click **driveclient.exe** and select **End Process** or **End Process Tree**.
+2. Right-click **driveclient.exe** and select **Start**.
 3. Verify the DriveClient agent is connected through the Cloud Backup control panel.
 
 ### Linux method
@@ -74,19 +85,27 @@ Use the following commands in Linux&reg; to stop and restart the DriveClient age
 
 1. Stop the DriveClient:
 
-    `sudo service driveclient stop`
+    ```sh
+    [user@server ~]$ sudo service driveclient stop
+    ```
 
 2. Verify the DriveClient is stopped:
 
-    `ps -ef | grep driveclient`
+    ```sh
+    [user@server ~]$ sudo ps -ef | grep driveclient
+    ```
 
    If the DriveClient does not stop, you can force DriveClient to stop by running the following command:
 
-    `killall -9 driveclient`
+    ```sh
+    [user@server ~]$ sudo killall -9 driveclient
+    ```
 
 3. Restart the DriveClient service:
 
-    `sudo service driveclient start`
+    ```sh
+    [user@server ~]$ sudo service driveclient start
+    ```
 
 4. Verify the DriveClient agent is connected through the Cloud Backup control panel.
 
@@ -94,19 +113,27 @@ Use the following commands in Linux&reg; to stop and restart the DriveClient age
 
 1. Stop the DriveClient:
 
-    `sudo systemctl stop driveclient`
+    ```sh
+    [user@server ~]$ sudo systemctl stop driveclient
+    ```
 
 2. Verify the DriveClient is stopped:
 
-    `ps -ef | grep driveclient`
+    ```sh
+    [user@server ~]$ sudo ps -ef | grep driveclient
+    ```
 
    If the DriveClient does not stop, you can force DriveClient to stop by running the following command:
 
-    `killall -9 driveclient`
+    ```sh
+    [user@server ~]$ sudo killall -9 driveclient
+    ```
 
 3. Restart the DriveClient service:
 
-    `sudo systemctl start driveclient`
+    ```sh
+    [user@server ~]$ sudo systemctl start driveclient
+    ```
 
 4. Verify the DriveClient agent is connected through the Cloud Backup control panel.
 
