@@ -44,7 +44,7 @@ An example of a falsified email is as follows:
 ### Recognize a spoof message
 Scammers change different parts of an email to make it appear as if the communication was sent by someone other than the intended recipient. You must read the email headers of a suspected faked message to see the attributes listed below. Some instances of faked properties are as follows:
 
-- **FROM: ** This appears to come from a legitimate source on a spoofed message.
+- **FROM:** This appears to come from a legitimate source on a spoofed message.
 - **REPLY-TO:** This can also be spoofed, but a lazy scammer might leave the actual REPLY-TO address. If you see a different sending address here, it might be a spoofed email.
 - **RETURN-PATH:** This can also be spoofed, but a lazy scammer might leave the actual RETURN-PATH address. If you see a different sending address here, it might be a spoofed email.
 - **SOURCE IP address or "X-ORIGIN" address:** This is typically more difficult to alter, but it is possible.
