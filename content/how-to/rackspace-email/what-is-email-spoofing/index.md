@@ -11,13 +11,6 @@ product: Cloud Servers
 product_url: cloud-servers
 ---
 
-### Prerequisites
- - Difficulty: Moderate
- - Time needed: 15 minutes
- - Tools required: Email access
- - Applies to: Administrator and User
-
-### What is email spoofing?
 Email spoofing use spam and phishing as a way to fool people into thinking a message came from someone or company they know and can trust. The attacker forges email headers in spoofing attacks so that client software shows the false sender address, which most users believe to be a legitimate source. Users will not notice the counterfeit sender in a message until they examine the sender more carefully. They are more likely to trust a name, or a company name they are familiar with and as a result, they'll click on fraudulent sites, open virus attachments, send personal information, and even wire money. Antimalware software and recipient servers can help detect and filter fraudulent messages.
 
 ### What to look for in a suspected fraudulent email: 
