@@ -1,22 +1,22 @@
 ---
-permalink: use-firewalld-on-centos-7-red-hat-and-fedora
-audit_date: '2019-01-22'
-title: Use firewalld on CentOS 7, Red Hat, and Fedora
-created_date: '2019-02-26'
-created_by: Rackspace Community
-last_modified_date: '2019-02-26'
-last_modified_by: Kate Dougherty
+permalink: use-firewalld-on-redhat-based-distributions
+audit_date: '2022-05-12'
+title: Use firewalld on RedHat Based Distributions
+created_date: '2022-05-12'
+created_by: Rackspace Support
+last_modified_date: '2022-05-12'
+last_modified_by: Miguel Salgado
 product: Cloud Servers
 product_url: cloud-servers
 ---
 
-Firewalld has replaced iptables as the firewall for CentOS&reg; 7. The syntax
+Firewalld has replaced iptables as the firewall for RHEL based distributions. The syntax
 that firewalld uses is more user-friendly. This post shows you how to ensure
 that firewalld is running and starts when your server boots. It also shows you 
 how to create persistent and flexible firewall rules.
 
-**Note**: Red Hat&reg; Fedora&reg; also uses firewalld, so all of the commands
-in this article also work in the Fedora image that Rackspace provides.
+**Note**: Red Hat&reg;, CentOS&reg;, Alma Linux&reg;, Rocky Linux&reg; also uses firewalld, so all of the commands
+in this article also work in the RHEL based images Rackspace has available.
 
 ### Basic firewalld concepts
 
@@ -61,34 +61,45 @@ boot.
 You can easily check if the firewall is running by using the `--state` flag,
 as shown in the following example:
 
-    $ sudo firewall-cmd --state
+```sh
+    [user@server ~]$ sudo firewall-cmd --state
     Finding out about your zones
+```
 
 If firewalld is not running, you can enable and start it by running the
 following commands:
 
-    $ sudo systemctl enable firewalld
-    $ sudo systemctl start firewalld
+```sh
+    [user@server ~]$ sudo systemctl enable firewalld
+    [user@server ~]$ sudo systemctl start firewalld
+```
 
 You can see which zone is currently the default zone by running the following
 command:
 
-    $ sudo firewall-cmd --get-default-zone
+```sh
+    [user@server ~]$ sudo firewall-cmd --get-default-zone
+```
 
 You can see which network interfaces are assigned to which zones by running
 the following command:
 
-    $ sudo firewall-cmd --get-active-zones
+```sh
+    [user@server ~]$ sudo firewall-cmd --get-active-zones
+```
 
 **Note**: The default assigns all network interfaces to the public zone.
 
 You can also find the rules that are associated with the public zone by
 running the following command:
 
-    $ sudo firewall-cmd --list-all --zone=public
+```sh
+    [user@server ~]$ sudo firewall-cmd --list-all --zone=public
+```
 
 The output should look like the following example:
 
+```
     public (default, active)
 
     interfaces: eth0 eth1
@@ -106,6 +117,7 @@ The output should look like the following example:
     icmp-blocks:
 
     rich rules:
+```
 
 The output shows that the public zone is the default, and has eth0 and
 eth1 network interfaces. Dynamic Host Configuration Protocol (DHCP)
@@ -115,7 +127,9 @@ traffic on port `1025`.
 
 To get a list of the available zones, run the following command:
 
-    $ sudo firewall-cmd --get-zones
+```sh
+    [user@server ~]$ sudo firewall-cmd --get-zones
+```
 
 ### Set up your zones
 
@@ -123,20 +137,26 @@ You can move interfaces between zones during your session by using the
 `--change-interface=` argument and the `--zone` argument. If the firewall
 restarts, the interface reverts to the default zone.
 
-    $ sudo firewall-cmd --zone=internal --change-interface=eth1
+```sh
+    [user@server ~]$ sudo firewall-cmd --zone=internal --change-interface=eth1
+```
 
 To define a permanent zone for an interface, open the configuration file for
 the interface and add the following lines:
 
+```
     ...
     ONBOOT=yes
     ZOME=internal
+```
 
 Save and close the file, then run the following commands to restart the
 networking and firewall and force the changes to take effect:
 
-    $ sudo systemctl restart network
-    $ sudo systemctl restart firewalld
+```sh
+    [user@server ~]$ sudo systemctl restart network
+    [user@server ~]$ sudo systemctl restart firewalld
+```
 
 ### Set up the rules
 
@@ -146,11 +166,15 @@ enable you to allow `http` rather than `tcp port 80`.
 
 You can obtain a list of these services by using the following command:
 
-    $ sudo firewall-cmd --get-services
+```sh
+    [user@server ~]$ sudo firewall-cmd --get-services
+```
 
 Then, use the following example command to add a service:
 
-    $ sudo firewall-cmd --add-service=http
+```sh
+    [user@server ~]$ sudo firewall-cmd --add-service=http
+```
 
 The configuration takes immediate effect, but doesn't survive reboots. To
 enable these types of service configurations to restart when the server
@@ -158,8 +182,10 @@ reboots, you need to add the `--permanent` argument. We recommend that you run
 both of these commands in sequence so that the configuration takes immediate
 effect, and services also reboot, as shown in the following example:
 
-    $ sudo firewall-cmd --add-service=http
+```sh
+    [user@server ~]$ sudo firewall-cmd --add-service=http
     firewall-cmd --permanent --add-service=http
+```
 
 You can obtain additional details about firewalld's pre-defined rules by
 navigating to the **/usr/lib/firewalld/services/** directory and reading the
@@ -172,9 +198,10 @@ case for rich rules is allowing access from a particular IP address or IP
 address range. The following commands enable access to TCP port 80 from any IP
 on the 192.168.0.0 network and make the rule permanent:
 
-    $ sudo firewall-cmd --add-rich-rule 'rule family="ipv4" source address="192.168.0.0/24" service name="http" accept'
-
-    $ sudo firewall-cmd --add-rich-rule 'rule family="ipv4" source address="192.168.0.0/24" service name="http" accept' --permanent
+```sh
+    [user@server ~]$ sudo firewall-cmd --add-rich-rule 'rule family="ipv4" source address="192.168.0.0/24" service name="http" accept'
+    [user@server ~]$ sudo firewall-cmd --add-rich-rule 'rule family="ipv4" source address="192.168.0.0/24" service name="http" accept' --permanent
+```
 
 For examples of rich rules, see the [Fedora&reg;
 Wiki](https://fedoraproject.org/wiki/Features/FirewalldRichLanguage).
@@ -188,23 +215,34 @@ then changing the details.
 
 The following example command copies an existing file to a new file:
 
-    $ sudo cp /usr/lib/firewalld/services/http.xml /usr/lib/firewalld/services/myservice.xml
+```sh
+    [user@server ~]$ sudo cp /usr/lib/firewalld/services/http.xml /usr/lib/firewalld/services/myservice.xml
+```
 
 The following command opens the new file for editing:
 
-    $ sudo vim /usr/lib/firewalld/services/myserver.xml
+```sh
+    [user@server ~]$ sudo vim /usr/lib/firewalld/services/myserver.xml
+```
 
 The file should look like the following example:
 
+```
     <!--?xml version="1.0" encoding="utf-8"?-->
     <service>
       <short>My Custom Service</short>
       <description>A brief description of the service. This rule allows port 1134 on TCP for my application.</description>
       <port protocol="tcp" port="1134"></port>
     </service>
-
+```
 To apply your changes, use the following commands with the name of the file,
 minus the **.xml** file extension:
 
-    $ sudo firewall-cmd --add-service=myservice
-    $ sudo firewall-cmd --permanent --add-service=myservice
+```sh
+    [user@server ~]$ sudo firewall-cmd --add-service=myservice
+    [user@server ~]$ sudo firewall-cmd --permanent --add-service=myservice
+```
+
+<br>
+
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
