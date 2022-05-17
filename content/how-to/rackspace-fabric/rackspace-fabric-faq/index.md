@@ -14,22 +14,23 @@ product_url: rackspace-fabric
 ### General
 {{<accordion title="How can I reset the password of my Email?" col="in" href="accordion1">}}
 
-If this is cloud account admin, they can review the following link (https://account.rackspace.com/event-history). It should help them understand any recent changes/access to their account.
+If you're a cloud account administrator, go to https://account.rackspace.com/event-history. It should support users in knowing any recent modifications or account access.
 {{</accordion>}}
 
 {{<accordion title="How can I return back to my previous ticketing application?" col="in" href="accordion2">}}
-Rackspace is decommissioning the previous ticketing section and moving customers to the Fabric Ticketing experience which has already been used by multi-cloud users for some time. New features and customer feedback improvements will be implemented in the new Fabric Ticketing application and are currently in progress.{{</accordion>}}
+Rackspace is deactivating the former ticketing component and migrating clients to Fabric Ticketing, which has been utilized by multi-cloud users for some time. New features and customer feedback enhancements are gradually being integrated in the new Fabric Ticketing application.
+{{</accordion>}}
 
 {{<accordion title="I am not able to login to MyRack portal. I have been asked for MFA verification though I have not configured MFA yet." col="in" href="accordion3">}}
 MFA is mandatory for all customers but should allow customer to configure it. In case to remove the MFA please contact identity team. To configure MFA, refer to [Multi-Factor Authentication](/support/how-to/multi-factor authentication)
 {{</accordion>}}
 
 {{<accordion title="I am not getting email notification via My Rackportal for incidents pertaining to Alert Logic." col="in" href="accordion4">}}
-The customer will get notification only if the device in question is enabled in **Notification Preference** option. To check the preference option, refer to [Notification-Preference](/support/how-to/notification prefernce).
+You will receive the notification if the device in question is enabled in the **Notification Preference** option. To check the preference option, refer to [Notification-Preference](/support/how-to/notification prefernce).
  {{</accordion>}}
 
 {{<accordion title="I am unable to login to MyRack Portal. While login it is showing no primary contact exists." col="in" href="accordion5">}}
-Create a new ticket using fabric ticketing application under the category **Account** and select account type as **User Management**.  If you are unable to login to the portal, contact the your Admin or follow-up with support team or Account Manager.
+Create a new ticket in the fabric ticketing app under the category **Account** and select **User Management** as the account type. Contact your Admin or follow up with the support team or Account Manager if you are unable to log into the portal.
 {{</accordion>}}
 
 ### Permission
@@ -39,12 +40,12 @@ Opt in to the ticketing beta using the ticketing drop down in the global navigat
 {{</accordion>}}
 
 {{<accordion title="I have raised ticket using Rackspace BETA version of ticketing system, but unable to edit the ticket. I am getting the notification as I don't have permission to update." col="in" href="accordion2">}}
-Customer should raise the ticket in one of those 5 categories (Change/Incident/Account/Billing and payments/Request for information)  and select appropriate account and product. 
+Customer should raise the ticket in one of those 5 categories (Change/Incident/Account/Billing and payments/Request for information) and select appropriate account and product. 
 Also need to contact admin (customer side) or need to contact their Customer Success Manager or Support Team.
 {{</accordion>}}
 
 {{<accordion title="I need to access the Managed Backup option in the portal." col="in" href="accordion3">}}
-As per documentation on below link, access to **View Reports** is required. To access the Managed Backup option. https://one.rackspace.com/display/myrackspace/Managed+Backup?searchId=OLV66F2LT
+To access **View Reports**, you can see documentation linked below. To have access to the Managed Backup feature. https://one.rackspace.com/display/myrackspace/Managed+Backup?searchId=OLV66F2LT
 {{</accordion>}}
 
 {{<accordion title="I am having issue in loading MAR report in the portal." col="in" href="accordion4">}}
