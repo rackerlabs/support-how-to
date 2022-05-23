@@ -55,7 +55,11 @@ Below is a documentation with more details:
 {{</accordion>}}
 
 {{<accordion title="How can I update device name in Vcenter by removing Devices IDs?" col="in" href="accordion5">}}
-The naming convention for vm should be <device name>, for these vms seems this pattern is not followed so we observed that deviceid is null in our database.
+The naming convention for vm is changed as <device name>. Device names will be changed as below:
+- DE1CPSxx5 
+- DE1CPS2xx 
+- DE1CPSxx7
+
 {{</accordion>}}
 
 {{<accordion title="I am not able to generate PIN via Rackspace portal." col="in" href="accordion6">}}
