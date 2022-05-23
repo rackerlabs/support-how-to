@@ -60,5 +60,5 @@ The naming convention for vm should be <CoreDeviceId>-<device name>, for these v
 
 {{<accordion title="I am not able to generate PIN via Rackspace portal." col="in" href="accordion6">}}
 
-The customer should be able to unlock the PIN from the portal, according to the directions posted here: [Support Pin Management](https://docs.rackspace.com/support/how-to/support-pin-management/) if they cannot, I would advise contacting the customer identity team, as that is where the PIN is stored. Be advised though: This is a security measure.  No action should be taken to subvert it without a suitable verification of the customers identity.
+The customer should be able to unlock the PIN from the portal, according to the directions posted here: [Support Pin Management](https://docs.rackspace.com/support/how-to/support-pin-management/) if they cannot, then it is advised to contact the customer identity team, as that is where the PIN is stored. Be advised though: This is a security measure.  No action should be taken to subvert it without a suitable verification of the customers identity.
 {{</accordion>}}
