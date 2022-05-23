@@ -1,6 +1,6 @@
 ---
 permalink: "rackspace-fabric-faq"
-audit_date: '2022-03-17'
+audit_date: '2022-05-20'
 type: article
 title: "Rackspace Fabric FAQ"
 created_date: '2022-03-17'
