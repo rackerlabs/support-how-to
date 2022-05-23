@@ -26,11 +26,7 @@ Rackspace is deactivating the former ticketing component and migrating clients t
 {{</accordion>}}
 
 {{<accordion title="I am not able to login to MyRack portal. I have been asked for MFA verification though I have not configured MFA yet." col="in" href="accordion3">}}
-<<<<<<< HEAD
-MFA is mandatory for all customers but should allow customer to configure it. If MFA is enabled and customer want to remove that, then that should be done by Identity team. To configure MFA, refer to [Multi-Factor Authentication](/support/how-to/multi-factor authentication)
-=======
 MFA is mandatory for all customers but should allow customer to configure it. In case to remove the MFA please contact identity team. To configure MFA, refer to [Multi-Factor Authentication](/support/how-to/multi-factor-authentication)
->>>>>>> b2024ba8ba5ecd5c5bcb6c20642969798d26f406
 {{</accordion>}}
 
 {{<accordion title="I am not getting email notification via My Rackportal for incidents pertaining to Alert Logic." col="in" href="accordion4">}}
