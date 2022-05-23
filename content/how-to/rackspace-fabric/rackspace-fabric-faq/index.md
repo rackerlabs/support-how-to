@@ -1,11 +1,15 @@
 ---
 permalink: "rackspace-fabric-faq"
-audit_date: '2022-03-17'
+audit_date: '2022-05-20'
 type: article
 title: "Rackspace Fabric FAQ"
 created_date: '2022-03-17'
 created_by: Asmita Nakwa
+<<<<<<< HEAD
 last_modified_date: '2022-03-23'
+=======
+last_modified_date: '2022-05-20'
+>>>>>>> b2024ba8ba5ecd5c5bcb6c20642969798d26f406
 last_modified_by: Asmita
 product: Rackspace Fabric
 product_url: rackspace-fabric
@@ -22,11 +26,15 @@ Rackspace is deactivating the former ticketing component and migrating clients t
 {{</accordion>}}
 
 {{<accordion title="I am not able to login to MyRack portal. I have been asked for MFA verification though I have not configured MFA yet." col="in" href="accordion3">}}
+<<<<<<< HEAD
 MFA is mandatory for all customers but should allow customer to configure it. If MFA is enabled and customer want to remove that, then that should be done by Identity team. To configure MFA, refer to [Multi-Factor Authentication](/support/how-to/multi-factor authentication)
+=======
+MFA is mandatory for all customers but should allow customer to configure it. In case to remove the MFA please contact identity team. To configure MFA, refer to [Multi-Factor Authentication](/support/how-to/multi-factor-authentication)
+>>>>>>> b2024ba8ba5ecd5c5bcb6c20642969798d26f406
 {{</accordion>}}
 
 {{<accordion title="I am not getting email notification via My Rackportal for incidents pertaining to Alert Logic." col="in" href="accordion4">}}
-You will receive the notification if the device in question is enabled in the **Notification Preference** option. To check the preference option, refer to [Notification-Preference](/support/how-to/notification prefernce).
+You will receive the notification if the device in question is enabled in the **Notification Preference** option. To check the preference option, refer to [Notification-Preference](/support/how-to/notification-preference).
  {{</accordion>}}
 
 {{<accordion title="I am unable to login to MyRack Portal. While login it is showing no primary contact exists." col="in" href="accordion5">}}
@@ -52,5 +60,5 @@ The naming convention for vm should be <device name>, for these vms seems this p
 
 {{<accordion title="I am not able to generate PIN via Rackspace portal." col="in" href="accordion6">}}
 
-The customer should be able to unlock the PIN from the portal, according to the directions posted here: [Support Pin Management](https://docs.rackspace.com/support/how-to/support-pin-management/) if they cannot, I would advise contacting the customer identity team, as that is where the PIN is stored. Be advised though: This is a security measure.  No action should be taken to subvert it without a suitable verification of the customers identity.
+The customer should be able to unlock the PIN from the portal, according to the directions posted here: [Support Pin Management](https://docs.rackspace.com/support/how-to/support-pin-management/) if they cannot, then it is advised to contact the customer identity team, as that is where the PIN is stored. Be advised though: This is a security measure.  No action should be taken to subvert it without a suitable verification of the customers identity.
 {{</accordion>}}
