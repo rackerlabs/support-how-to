@@ -26,7 +26,7 @@ MFA is mandatory for all customers but should allow customer to configure it. In
 {{</accordion>}}
 
 {{<accordion title="I am not getting email notification via My Rackportal for incidents pertaining to Alert Logic." col="in" href="accordion4">}}
-You will receive the notification if the device in question is enabled in the **Notification Preference** option. To check the preference option, refer to [Notification-Preference](/support/how-to/notification prefernce).
+You will receive the notification if the device in question is enabled in the **Notification Preference** option. To check the preference option, refer to [Notification-Preference](/support/how-to/notification-preference).
  {{</accordion>}}
 
 {{<accordion title="I am unable to login to MyRack Portal. While login it is showing no primary contact exists." col="in" href="accordion5">}}
