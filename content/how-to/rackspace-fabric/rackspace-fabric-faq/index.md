@@ -5,7 +5,7 @@ type: article
 title: "Rackspace Fabric FAQ"
 created_date: '2022-03-17'
 created_by: Asmita Nakwa
-last_modified_date: '2022-03-17'
+last_modified_date: '2022-03-23'
 last_modified_by: Asmita
 product: Rackspace Fabric
 product_url: rackspace-fabric
@@ -22,7 +22,7 @@ Rackspace is deactivating the former ticketing component and migrating clients t
 {{</accordion>}}
 
 {{<accordion title="I am not able to login to MyRack portal. I have been asked for MFA verification though I have not configured MFA yet." col="in" href="accordion3">}}
-MFA is mandatory for all customers but should allow customer to configure it. In case to remove the MFA please contact identity team. To configure MFA, refer to [Multi-Factor Authentication](/support/how-to/multi-factor authentication)
+MFA is mandatory for all customers but should allow customer to configure it. If MFA is enabled and customer want to remove that, then that should be done by Identity team. To configure MFA, refer to [Multi-Factor Authentication](/support/how-to/multi-factor authentication)
 {{</accordion>}}
 
 {{<accordion title="I am not getting email notification via My Rackportal for incidents pertaining to Alert Logic." col="in" href="accordion4">}}
@@ -35,17 +35,9 @@ Create a new ticket in the fabric ticketing app under the category **Account** a
 
 ### Permission
 
-{{<accordion title="I am unable to upload documents and tried multiple times on multiple tickets." col="in" href="accordion1">}}
-Opt in to the ticketing beta using the ticketing drop down in the global navigation.
-{{</accordion>}}
-
 {{<accordion title="I have raised ticket using Rackspace BETA version of ticketing system, but unable to edit the ticket. I am getting the notification as I don't have permission to update." col="in" href="accordion2">}}
 Customer should raise the ticket in one of those 5 categories (Change/Incident/Account/Billing and payments/Request for information) and select appropriate account and product. 
 Also need to contact admin (customer side) or need to contact their Customer Success Manager or Support Team.
-{{</accordion>}}
-
-{{<accordion title="I need to access the Managed Backup option in the portal." col="in" href="accordion3">}}
-To access **View Reports**, you can see documentation linked below. To have access to the Managed Backup feature. https://one.rackspace.com/display/myrackspace/Managed+Backup?searchId=OLV66F2LT
 {{</accordion>}}
 
 {{<accordion title="I am having issue in loading MAR report in the portal." col="in" href="accordion4">}}
@@ -55,7 +47,7 @@ Below is a documentation with more details:
 {{</accordion>}}
 
 {{<accordion title="How can I update device name in Vcenter by removing Devices IDs?" col="in" href="accordion5">}}
-The naming convention for vm should be <CoreDeviceId>-<device name>, for these vms seems this pattern is not followed so we observed that deviceid is null in our database.
+The naming convention for vm should be <device name>, for these vms seems this pattern is not followed so we observed that deviceid is null in our database.
 {{</accordion>}}
 
 {{<accordion title="I am not able to generate PIN via Rackspace portal." col="in" href="accordion6">}}
