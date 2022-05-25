@@ -35,7 +35,7 @@ Create a new ticket in the fabric ticketing app under the category **Account** a
 
 ### Permission
 
-{{<accordion title="I have raised ticket using Rackspace BETA version of ticketing system, but unable to edit the ticket. I am getting the notification as I don't have permission to update." col="in" href="accordion2">}}
+{{<accordion title="I am unable to edit a ticket. I am getting the notification as I don't have permission to update." col="in" href="accordion2">}}
 Customer should raise the ticket in one of those 5 categories (Change/Incident/Account/Billing and payments/Request for information) and select appropriate account and product. 
 Also need to contact admin (customer side) or need to contact their Customer Success Manager or Support Team.
 {{</accordion>}}
