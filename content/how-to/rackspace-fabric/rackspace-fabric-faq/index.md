@@ -40,17 +40,11 @@ Customer should raise the ticket in one of those 5 categories (Change/Incident/A
 Also need to contact admin (customer side) or need to contact their Customer Success Manager or Support Team.
 {{</accordion>}}
 
-{{<accordion title="I am having issue in loading MAR report in the portal." col="in" href="accordion4">}}
-MAR is generated at Global Data Operations side monthly which is then reported to MyRack. 
-Below is a documentation with more details:
-[MAR Process](https://one.rackspace.com/display/SMBHAMS/MAR+Processes)
-{{</accordion>}}
-
 {{<accordion title="How can I update device name in Vcenter by removing Devices IDs?" col="in" href="accordion5">}}
 The naming convention for VM is changed. Device names are changed as - DE1CPSxx5 
 {{</accordion>}}
 
 {{<accordion title="I am not able to generate PIN via Rackspace portal." col="in" href="accordion6">}}
 
-The customer should be able to unlock the PIN from the portal, according to the directions posted here: [Support Pin Management](https://docs.rackspace.com/support/how-to/support-pin-management/) if they cannot, then it is advised to contact the customer identity team, as that is where the PIN is stored. Be advised though: This is a security measure.  No action should be taken to subvert it without a suitable verification of the customers identity.
+According to the instructions here: [Support Pin Management](https://docs.rackspace.com/support/how-to/support-pin-management/), you should be able to unlock the PIN via the portal. If you are unable to do so, you should contact the customer identity team, which is where the PIN is kept. However, bare in mind that this is a security measure. Without a proper verification of the customer's identity, no action should be performed to subvert it.
 {{</accordion>}}
