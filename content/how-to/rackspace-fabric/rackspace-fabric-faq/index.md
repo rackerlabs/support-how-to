@@ -5,7 +5,7 @@ type: article
 title: "Rackspace Fabric FAQ"
 created_date: '2022-03-17'
 created_by: Asmita Nakwa
-last_modified_date: '2022-05-23'
+last_modified_date: '2022-05-27'
 last_modified_by: Asmita
 product: Rackspace Fabric
 product_url: rackspace-fabric
