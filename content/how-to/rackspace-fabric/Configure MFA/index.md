@@ -24,7 +24,7 @@ Follow the below procedure to configure Multi-Factor-Authentication (MFA)
 
 **Step 3.** In the User page, Click **My Multi-Factor-Devices**. 
 
-<img width="446" alt="MFA Article" src="1.1.png">
+<img width="446" alt="MFA Article" src="159493299-f5632706-6c2a-4ad8-896e-cb1bd0765fbf.png">
 
 **Step 4.** Adding a device to setup multi-factor-authentication via Mobile Passcode or Scanner.
 
