@@ -1,11 +1,11 @@
 ---
 permalink: multifactor-authentication-from-the-cloud-control-panel/
 audit_date: '2020-10-27'
-title: Multifactor authentication from the Cloud Control Panel
+title: Multifactor-authentication from the Cloud Control Panel
 type: article
 created_date: '2014-07-17'
 created_by: Margaret Eker
-last_modified_date: '2022-04-05'
+last_modified_date: '2022-05-27'
 last_modified_by: Rohit Rajput
 product: Cloud Servers
 product_url: cloud-servers
