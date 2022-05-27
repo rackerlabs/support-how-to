@@ -1,5 +1,5 @@
 ---
-permalink: "Multi-Factor-Authentication"
+permalink: multi-factor-authentication
 audit_date: '2022-03-23'
 type: article
 title: "Multi-Factor-Authentication"
