@@ -5,7 +5,7 @@ title: 'Reset your Cisco ASA VPN user password by using the Rackspace Portal'
 type: article
 created_date: '2020-06-24'
 created_by: Derek Pranger
-last_modified_date: '2021-07-07'
+last_modified_date: '2022-07-07'
 last_modified_by: Cat Lookabaugh
 product: Cloud Networks
 product_url: cloud-networks
@@ -77,4 +77,3 @@ request manually.
 
 11. To confirm that the password is reset, open the ticket. The password appears
     in the most recent comment.
-    
