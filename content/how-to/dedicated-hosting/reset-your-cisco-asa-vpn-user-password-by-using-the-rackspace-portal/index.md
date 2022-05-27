@@ -77,3 +77,4 @@ request manually.
 
 11. To confirm that the password is reset, open the ticket. The password appears
     in the most recent comment.
+    
