@@ -1,22 +1,22 @@
 ---
-permalink: "Multi-Factor Authentication"
+permalink: "Multi-Factor-Authentication"
 audit_date: '2022-03-23'
 type: article
-title: "Multi-Factor Authentication"
+title: "Multi-Factor-Authentication"
 created_date: '2022-03-23'
 created_by: Rohit Rajput
-last_modified_date: '2022-03-23'
-last_modified_by: Rohit
+last_modified_date: '2022-05-27'
+last_modified_by: Rohit Rajput
 product: Rackspace Fabric
 product_url: rackspace-fabric
 ---
 
-Configuring Multi-Factor Authentication (MFA)
+Configuring Multi-Factor-Authentication (MFA)
 =======================================
 
-Follow the below procedure to configure Multi-Factor Authentication (MFA)
+Follow the below procedure to configure Multi-Factor-Authentication (MFA)
 
-**Step 1.** Login to https://portal.rackspace.com.
+**Step 1.** Login to https://manage.rackspace.com/
 
 **Step 2.** In the top navigation panel, click **Account** >> **User Management**.
 
@@ -26,7 +26,7 @@ Follow the below procedure to configure Multi-Factor Authentication (MFA)
 
 <img width="446" alt="MFA Article" src="https://user-images.githubusercontent.com/96761530/159742905-d2f2c2f8-4e88-49c0-9634-87ef395b641c.png">
 
-**Step 4.** Adding a device to setup multi-factor authentication via Mobile Passcode or Scanner.
+**Step 4.** Adding a device to setup multi-factor-authentication via Mobile Passcode or Scanner.
 
 **Configuring Mobile Passcode via scanner**
  
