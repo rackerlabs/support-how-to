@@ -1,12 +1,11 @@
 ---
 permalink: multifactor-authentication-from-the-cloud-control-panel/
 audit_date: '2020-10-27'
-title: Multifactor authentication from the Cloud Control Panel
+title: Multifactor-authentication from the Cloud Control Panel
 type: article
 created_date: '2014-07-17'
-created_by: Margaret Eker 
-last_modified_date: '2022-04-05'
 last_modified_by: Rohit Rajput
+last_modified_date: '2022-05-30'
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -47,7 +46,7 @@ complete the setup process.
 **Important**: By default, we enable MFA account-wide. If you want to disable
 this setting, you need to generate a support ticket.
 
-### Considerations
+### Considerations 
 
 - MyRackspace also implements MFA. For information, see
   [Multifactor authentication from the MyRackspace portal](/support/how-to/multifactor-authentication-from-the-myrackspace-portal).
@@ -90,21 +89,21 @@ To register and verify an SMS device, use the following steps:
 2. In the upper-right corner of the Cloud Control Panel, click the **user** menu
    and select **My Profile & Settings**.
    
-   <img width="383" alt="chrome_kE2DgyCefB" src="https://user-images.githubusercontent.com/96761530/160662203-c5eabb2d-29f5-4d72-aaa0-9109016ffb21.png">
+   <img width="383" alt="chrome_kE2DgyCefB" src="chrome_kE2DgyCefB.png">
 
 3. In the **Security Settings** section, select **Enable** for **Multi-factor
    authentication**.
-
-    <img width="467" alt="Updated 1" src="https://user-images.githubusercontent.com/96761530/166915047-4129fbae-f0a8-4c40-b8d1-90547d9366d4.png">
-
+   
+   <img width="467" alt="chrome_bz6GjpL2wM" src="Inkedchrome_bz6GjpL2wM_LI.jpg">
+ 
 4. Select **User SMS** and click **Next**.
 
-   <img width="471" alt="chrome_Bm4bOLRY6P" src="https://user-images.githubusercontent.com/96761530/160827998-aa941232-2a3b-43d8-aa89-a8f0e6d0633a.png">
+   <img width="471" alt="chrome_Bm4bOLRY6P" src="chrome_Bm4bOLRY6P.png">
 
 5. Select the country code for the device, type the device phone number, and
    click **Next**
    
-   <img width="447" alt="chrome_nS0ZLndo5L" src="https://user-images.githubusercontent.com/96761530/160828369-bed666bf-2bcc-47cf-9166-a9543288f144.png">
+   <img width="447" alt="chrome_nS0ZLndo5L" src="chrome_nS0ZLndo5L.png">
 
    **Note**: The Identity service sends an SMS text message with a four-digit
    PIN to the specified phone.
@@ -112,7 +111,7 @@ To register and verify an SMS device, use the following steps:
 6. Type the PIN code sent to your mobile device in the verification code field
    then, click **Verify**.
 
-   <img width="441" alt="chrome_XQlqaYvy0x" src="https://user-images.githubusercontent.com/96761530/160828878-90bccc86-c032-4eea-ab2c-1e7f63705804.png">
+   <img width="441" alt="chrome_XQlqaYvy0x" src="chrome_XQlqaYvy0x.png">
 
    After you submit the verification code, you need to re-authenticate by using
    the MFA process.
@@ -133,22 +132,22 @@ To register and verify a mobile code device, use the following steps:
 2. In the upper-right corner of the Cloud Control Panel, click the user menu and
    select **My Profile & Settings**.
 
-   <img width="383" alt="chrome_kE2DgyCefB" src="https://user-images.githubusercontent.com/96761530/160662203-c5eabb2d-29f5-4d72-aaa0-9109016ffb21.png">
+   <img width="383" alt="chrome_kE2DgyCefB" src="chrome_kE2DgyCefB.png">
 
 3. In the **Security Settings** section, select **Enable** for **Multi-factor
    authentication**.
    
-   <img width="467" alt="Updated 1" src="https://user-images.githubusercontent.com/96761530/166915128-ace472b0-a460-4315-909a-29dd26ec8112.png">
+   <img width="467" alt="chrome_bz6GjpL2wM" src="Inkedchrome_bz6GjpL2wM_LI.jpg">
 
 4. Select **Use a Mobile App** and click **Next**.
 
-   <img width="418" alt="1" src="https://user-images.githubusercontent.com/96761530/160828070-208ccff7-68d5-49cb-8938-33682bc7d5ea.png">
+   <img width="418" alt="1" src="1.png">
 
     **Note**: Supported applications: Authy, Duo, Google Authenticator.
 
 5. Type a **Device nickname** for the Mobile App. Then, click **Next**.
 
-    <img width="421" alt="2" src="https://user-images.githubusercontent.com/96761530/160828200-8a7deb50-f234-4db3-93b0-d6d2e86575a5.png">
+    <img width="421" alt="2" src="2.png">
 
 6. The Identity service generates a **QR** code. Use the application on
    your device to scan the barcode and click **Verify**.
@@ -158,7 +157,7 @@ To register and verify a mobile code device, use the following steps:
 7. To verify the new device, enter the code on the **Verify Code** form. Then,
    click **Verify**.
    
-   <img width="418" alt="chrome_AKW5hogMrQ" src="https://user-images.githubusercontent.com/96761530/160834586-dfc2435d-3aa6-48a2-b26b-410650d3a3d4.png">
+   <img width="418" alt="chrome_AKW5hogMrQ" src="chrome_AKW5hogMrQ.png">
    
    After you submit the verification code, the system automatically logs you
    out.
@@ -182,21 +181,23 @@ can select the default MFA method from the **My Profile & Settings** page.
 2. In the upper-right corner of the Cloud Control Panel, click the user menu and
    select **My Profile & Settings**.
    
-   <img width="383" alt="chrome_kE2DgyCefB" src="https://user-images.githubusercontent.com/96761530/160662203-c5eabb2d-29f5-4d72-aaa0-9109016ffb21.png">
+   <img width="383" alt="chrome_kE2DgyCefB" src="chrome_kE2DgyCefB.png">
 
 3. In the **Security Settings** section, under **Multi-Factor Authentication**,
    select **Manage**.
    
-   <img width="516" alt="1 1" src="https://user-images.githubusercontent.com/96761530/160835573-b1e72c50-d0b9-4069-8342-506428478aa7.png">
+   <img width="516" alt="1 1" src="1.1.png">
 
 
 4. In the **Security Settings** section, select **Enable** for **Multi-factor
    authentication**.
+   
+   <img width="467" alt="chrome_bz6GjpL2wM" src="Inkedchrome_bz6GjpL2wM_LI.jpg">
 
 5. Under **Method**, select **Switch to SMS** (if you set up a mobile app) or
    **Switch to Mobile App** (if you set up SMS).
    
-   <img width="359" alt="1 2" src="https://user-images.githubusercontent.com/96761530/160835662-b7dd9df1-cfd1-4988-9f72-0154a373fc9c.png">
+   <img width="359" alt="1 2" src="1.2.png">
 
 
 ### Configure account-wide MFA settings from an Administrator account
@@ -213,16 +214,16 @@ account.
 
 2. In the upper-right, click **Account** > **Account Settings**.
 
-   <img width="311" alt="updated 2" src="https://user-images.githubusercontent.com/96761530/166915605-2bf14b3b-22ae-4fb9-ac7f-f930e6a0b27a.png">
+   <img width="311" alt="3 2" src="3.2.png">
 
 3.  Under **Rackspace Account Settings**, click **Change** next to Multi-Factor
    Authentication.
    
-   <img width="485" alt="3 3" src="https://user-images.githubusercontent.com/96761530/161067197-9a33a96b-0e40-4378-a2fa-c3bd3973ccf0.png">
+   <img width="485" alt="3 3" src="3.3.png">
 
 4. In the Pop-up window, click **Require Multi-Factor Account-Wide**.
 
-   <img width="384" alt="MFA ADMIN" src="https://user-images.githubusercontent.com/96761530/161553015-771ac56b-f0d0-402a-b182-fcb65bb22ba6.png">
+   <img width="384" alt="MFA ADMIN" src="MFA ADMIN.png">
 
 
    If you update the setting to **require Multi-Factor Account-Wide**, any users currently logged into the Rackspace Control Panel without Multi-Factor   Authentiocation enabled will be logged out and asked to set up multi-factor upon re-entry.
@@ -248,16 +249,16 @@ with your account.
 1. In the upper-right corner of the Cloud Control Panel, click the **userName**
    menu and select **My Profile & Settings**.
   
-   <img width="383" alt="chrome_kE2DgyCefB" src="https://user-images.githubusercontent.com/96761530/161544059-76bd04a9-8cb8-4787-83bf-d066d089b036.png">
+   <img width="383" alt="chrome_kE2DgyCefB" src="chrome_kE2DgyCefB.png">
 
 2. In the **Security Settings** section, click **Manage** for **Multi-factor
    authentication**.
   
-  <img width="516" alt="1 1" src="https://user-images.githubusercontent.com/96761530/161547256-8f835537-b739-4e56-a7bd-3acd603aac77.png">
+  <img width="516" alt="1 1" src="1.1.png">
 
   3. Select **Disable** and click **Done**.  
   
-  <img width="359" alt="Disable MFA 2" src="https://user-images.githubusercontent.com/96761530/161547310-a2b6dfef-1072-43e8-99ec-48ead4a32ad5.png">
+  <img width="359" alt="Disable MFA 2" src="Disable MFA 2.png">
 
   
 
