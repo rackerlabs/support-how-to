@@ -5,11 +5,12 @@ title: Getting started with Cloud Files streaming
 type: article
 created_date: '2016-02-10'
 created_by: Stephanie Fillmon
-last_modified_date: '2018-12-13'
-last_modified_by: Kate Dougherty
+last_modified_date: '2022-05-05'
+last_modified_by: Maeve Goetz
 product: Cloud Files
 product_url: cloud-files
 ---
+## Streaming with Cloud Files will be Decommissioned on July 31, 2022.
 
 Streaming content through Cloud Files enables you to deliver video content
 quickly and easily, without making your users download the content
