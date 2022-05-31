@@ -1,7 +1,7 @@
 ---
 permalink: linux-nobootwait-vs-nofail
 audit_date: '2022-05-31'
-title: 'Diferences Between Nobootwait and no fail in Linux Filesystems'
+title: 'Differences Between Nobootwait and nofail in Linux Filesystems'
 type: article
 created_date: '2022-05-31'
 created_by: Marco Estrada
