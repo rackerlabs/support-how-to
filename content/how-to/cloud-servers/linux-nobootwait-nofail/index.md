@@ -56,7 +56,7 @@ As we can see, this options can be used depending on what we want to accomplish,
 On the other hand if we need that one filesystem, (because is critical and needed for our operations) is mounted, we could use the Nofail option.
 
 ## References
-- [How do I disable mounting of a filesystem if the hardware has failed. - Redhat] (https://access.redhat.com/solutions/343003)
+- [How do I disable mounting of a filesystem if the hardware has failed. - Redhat](https://access.redhat.com/solutions/343003)
 <br>
 
 Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
