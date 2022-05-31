@@ -18,7 +18,7 @@ When we power up our device the linux boot process starts. and one of the "steps
 
 Fstab is a plaintext file in a very simple format, but also can be very confusing at the first time.
 
-!{{<image src="Image1.png" title>}}
+!{{<image src="Image1.png">}}
 <p align="center">1.1 Image of a default fstab file
 
 In the fstab file we could find six fields which are:
