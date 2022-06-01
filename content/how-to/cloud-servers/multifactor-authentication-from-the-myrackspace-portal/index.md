@@ -228,19 +228,19 @@ You can generate up to ten bypass codes that you can use to authenticate if the 
 
 4. Manually copy the recovery codes to a file or click **Save Your Codes** to generate a text file with the codes.
 
-#### To remove MFA
+#### **To Remove MFA**
 
 You can turn off MFA and remove all devices associated with your account.
 
 On the **My Multi-Factor Devices** page, click **Remove all devices**.
 
-#### To change the mobile phone number
+#### **To change the mobile phone number**
 
 To change the mobile phone number paired with your account, use the **Remove all devices** option to remove the existing phone number (for instructions, see the preceding task). Then, update the authentication settings with the new phone number and verify the device.
 
-#### To remove an SMS device
+#### **To Remove SMS device**
 
-To remove an SMS device, use the **Remove all devices** option.
+To remove SMS device, use the **Remove all devices** option.
 
 ### Troubleshooting
 
