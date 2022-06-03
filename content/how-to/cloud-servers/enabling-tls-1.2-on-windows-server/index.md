@@ -15,9 +15,9 @@ Rackspace strongly recommends enabling the **Transport Layer Security (TLS)** pr
 **WARNING:** This article contains steps that tell you how to modify the registry. However, serious problems might occur if you modify the registry incorrectly. Therefore, make sure that you follow the steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, see [How to back up and restore the registry in Windows.](https://support.microsoft.com/en-us/topic/how-to-back-up-and-restore-the-registry-in-windows-855140ad-e318-2a13-2829-d428a2ab0692) 
 
 ### Prerequisites 
-\- For Windows Server 2008 SP2, [KB4019276](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019276) must be installed.
-\- For Windows Server 2008 R2, Windows Server 2008 R2 Service Pack 1 [KB976932](https://www.catalog.update.microsoft.com/Search.aspx?q=KB976932) must be installed.
-\- The .NET framework on your server should be 4.5 or newer. 
+- For Windows Server 2008 SP2, [KB4019276](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019276) must be installed.
+- For Windows Server 2008 R2, Windows Server 2008 R2 Service Pack 1 [KB976932](https://www.catalog.update.microsoft.com/Search.aspx?q=KB976932) must be installed.
+- The .NET framework on your server should be 4.5 or newer. 
 
 ### How to Enable TLS 1.2 manually.
 Per the [TLS-SSL Settings article](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn786418(v=ws.11)?redirectedfrom=MSDN), for TLS 1.2 to be enabled and negotiated by Windows, the following registry locations, subkeys, and values must be set as follows:  
