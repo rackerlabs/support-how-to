@@ -59,7 +59,7 @@ new-itemproperty -path "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders
 - [How to back up and restore the registry in Windows.](https://support.microsoft.com/en-us/topic/how-to-back-up-and-restore-the-registry-in-windows-855140ad-e318-2a13-2829-d428a2ab0692) 
 - [Windows Update KB4019276](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019276)
 - [Windows Update KB976932](https://www.catalog.update.microsoft.com/Search.aspx?q=KB976932)
-- [TLS-SSL Settings - Microsoft](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn786418(v=ws.11)?redirectedfrom=MSDN)
+- [TLS-SSL Settings](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn786418(v=ws.11)?redirectedfrom=MSDN)
 </br>
 
 Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
