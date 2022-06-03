@@ -1,7 +1,7 @@
 ---
 permalink: enabling-tls-1.2-on-windows-server
 audit_date: '2022-06-03'
-title: 'Enabling TLS 1.2 on Windows Server'
+title: 'Enabling TLS 1.2 on a Windows Server'
 type: article
 created_date: '2021-03-10'
 created_by: Rackspace Support
