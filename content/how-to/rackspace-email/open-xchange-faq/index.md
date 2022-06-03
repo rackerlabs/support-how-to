@@ -51,7 +51,7 @@ No, the price you pay will remain the same.
 	- If a catch-all is configured for a domain, it will remain until you disable it, or we start migrating Rackspace Email users.
 	- Catch-all will be removed for all domains when we start migrating Rackspace Email users.
 - Webmail identities
-	- Starting July 2022, new configurations will not be available.
+	- Starting June 2022, new configurations will not be available.
 	- If an identity is configured it will remain. 
 	- Webmail identities will be removed from all mailboxes when we start migrating Rackspace Email users. 
 - BCC archiving
