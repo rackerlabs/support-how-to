@@ -665,7 +665,7 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 /support/how-to/dns-basics /support/how-to/dns-fundamentals/ 301
 /support/how-to/use-firewalld-on-centos-7-red-hat-and-fedora/ /support/how-to/use-firewalld-on-redhat-based-distributions 301
 
-#06-03-2022.
+# 06-03-2022
 /support/how-to/install-wordpress-in-centos-7/ install-wordpress-on-linux-with-apache/ 301
 
 # Individual Redirects
