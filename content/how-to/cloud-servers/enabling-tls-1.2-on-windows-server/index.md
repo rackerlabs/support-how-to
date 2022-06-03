@@ -36,6 +36,7 @@ Per the [TLS-SSL Settings article](https://docs.microsoft.com/en-us/previous-ver
 
 ### How to Enable TLS 1.2 with Powershell.
 Execute the following commands in Powershell to enable TLS 1.2:
+
 ```
 # Make TSL 1.2 protocol registry keys.
 md "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2" 
@@ -51,6 +52,7 @@ new-itemproperty -path "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders
 
 new-itemproperty -path "HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client" -name "DisabledByDefault" -value 0 -PropertyType "DWord" 
 ```
+</br>
 
 **NOTE:** A reboot is required for the changes to go into effect.  
 
