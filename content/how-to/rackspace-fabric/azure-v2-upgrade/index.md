@@ -2,7 +2,7 @@
 permalink: azure-v2-upgrade
 audit_date: '2022-06-07'
 type: article
-title: "Customer Experience | Azure V1 to V2 Migration"
+title: "Azure V2 Upgrade"
 created_date: '2022-06-07'
 created_by: Rohit Rajput
 last_modified_date: '2022-06-08'
