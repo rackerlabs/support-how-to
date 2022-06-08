@@ -14,7 +14,7 @@ product_url: rackspace-fabric
 Customer Experience | Azure V1 to V2 Migration
 =======================================
 
-**Follow the below procedure to access Azure Accounts** 
+**How to access Azure Subscriptions** 
 
 **Step 1.** Login to https://manage.rackspace.com/
 
@@ -40,7 +40,7 @@ Accessing Dedicated Hosting Portal
 
 **Note**: The Dedicated Hosting Portal (MyRackspace) will not be accessible unless the user switches back to the Dedicated Hosting Account.
 
-**Follow the below procedure to switch into your Dedicated Hosting Account**
+**How to switch into Dedicated Hosting Account**
 
 Step 1. In the top navigation panel, click **Account** >> **Switch Account**.
 
@@ -58,7 +58,7 @@ Step 1. In the top navigation panel, click **Account** >> **Switch Account**.
 Managing Permissions
 -----------------------------
 
-**Follow the below procedure to Manage Permissions**
+**How to manage Azure Permissions**
 
 **Step 1**. In the top navigation panel, click **My Accounts** >> **Rackspace Dedicated**.
 
