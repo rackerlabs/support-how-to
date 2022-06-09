@@ -14,7 +14,7 @@ As depicted below, there is the case in which an original install of Apache 2.4 
 
 **NOTE:** Ubuntu 14.04 and Ubuntu 16.04 have both gone End Of Life, this article is no longer maintained and you should update to a supported version.
 
-```
+```text
 apache2: Syntax error on line 140 of /etc/apache2/apache2.conf: 
 Syntax error on line 2 of /etc/apache2/mods-enabled/access_compat.load: 
 Cannot load /usr/lib/apache2/modules/mod_access_compat.so into server: 
