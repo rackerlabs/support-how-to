@@ -24,7 +24,7 @@ Action 'configtest' failed.
 
 This is due to a configuration file that's trying to load a library trying to load a library (`mod_access_compat.so`) that it cannot find.
 
-The file appears to be [part of the `apache2-bin` package](http://packages.ubuntu.com/search?searchon=contents&keywords=mod_access_compat.so&mode=exactfilename&suite=trusty&arch=any), therefore all its files must be present (installed) with:
+The file appears to be part of the [apache2-bin package](http://packages.ubuntu.com/search?searchon=contents&keywords=mod_access_compat.so&mode=exactfilename&suite=trusty&arch=any), therefore all its files must be present (installed) with:
 
 ```sh
 $ sudo apt-get --reinstall install apache2-bin
