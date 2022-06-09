@@ -10,7 +10,7 @@ last_modified_by: Ivan Espejel
 product: Cloud Servers
 product_url: cloud-servers
 ---
-As depicted below, there is the case in which an original install of apache 2.4 on ubuntu14 is not starting even after removing or purging the files in /etc/apache2 as well as reinstalling apache. 
+As depicted below, there is the case in which an original install of Apache 2.4 on Ubuntu is not starting even after removing or purging the files in /etc/apache2 as well as reinstalling apache. 
 
 **NOTE:** Ubuntu 14.04 and Ubuntu 16.04 have both gone End Of Life, this article is no longer maintained and you should update to a supported version.
 
