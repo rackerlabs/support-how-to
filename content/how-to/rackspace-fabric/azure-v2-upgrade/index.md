@@ -11,7 +11,7 @@ product: Rackspace Fabric
 product_url: rackspace-fabric
 ---
 
-Customer Experience | Azure V1 to V2 Migration
+Azure V2 Upgrade
 =======================================
 
 **How to access Azure Subscriptions** 
@@ -81,6 +81,8 @@ Managing Permissions
 **Step 4**. **Select/Deselect** the **Checkbox** to manage the User Groups and click **Save Changes**.
 
 <img width="337" alt="Edit Group 1" src="Edit Group 1.png">
+
+
 
 
 
