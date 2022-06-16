@@ -1,12 +1,12 @@
 ---
 permalink: install-an-ssl-certificate
-audit_date: '2018-10-23'
+audit_date: '2022-06-'
 title: Install an SSL certificate
 type: article
-created_date: '2018-10-23'
-created_by: Cat Lookabaugh
-last_modified_date: '2021-04-28'
-last_modified_by: Stephanie Fillmon
+created_date: '2022-10-23'
+created_by: Alberto Blanquel
+last_modified_date: '2022-04-28'
+last_modified_by: Miguel Salgado
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -25,15 +25,13 @@ The following sections provide instructions for the installation process:
 
 - [Install certificate on Microsoft&reg; Windows&reg; 2008 R2 and 2012 servers](#install-certificate-on-windows-servers)
 
-- [Install certificate on Linux&reg; server with Apache&reg;](#install-certificate-on-linux-server-with-apache)
+- [Install certificate in Apache Web Server](#install-certificate-in-apache-web-server)
 
-- [Install certificate on Linux server with Nginx&reg;](#install-certificate-on-linux-server-with-nginx)
+- [Install certificate in NGINX with php-fpm](#install-certificate-in-nginx-with-php-fpm)
 
 - [Install certificate on Managed Hosting solutions](#install-certificate-on-managed-hosting-solutions)
 
 - [Install certificate on a custom Microsoft&reg; Azure&reg; domain](#install-certificate-on-a-custom-microsoft-azure-domain)
-
-- [Reload or restart the web server service](#reload-or-restart-the-web-server)
 
 - [Test the certificate](#test-the-certificate)
 
@@ -115,147 +113,516 @@ one), and choose your certificate storage location (*Windows Server 2012 only*).
 After you set up the bindings, the **Site Bindings** window shows the binding for
 HTTPS.
 
-### Install certificate on Linux server with Apache
+### Install certificate in Apache Web Server
+The following sections show you how to install and bind SSL certificate on Apache web servers 
 
-The following sections show you how to save your certificate on a Linux server
-and configure Apache to use the certificate, modify the IP tables, and verify
-the settings.  After you have installed the certificate,
-[reload or restart the web server](#reload-or-restart-the-web-server).
+#### Prerequisite
+The first step in adding a vhost is to make sure the server has apache installed and it is running, This can be done with the following commands. (If you already know that the Apache is up and running you can skip this step).
 
-#### Save the certificate and key file
+**RHEL 6/CentOS 6**
+```sh
+$ service httpd status
+```
 
-Save the certificate provided by the SSL vendor and the **.key** file that you
-generated when you created the CSR in the appropriate directories.  We
-recommend the following directories:
+**RHEL 7/CentOS 7+**
+```sh
+$ systemctl status httpd  
+```
 
-**RPM-based distributions**
+**Debian 8+/Ubuntu 16+**
+```sh
+$ systemctl status apache2
+```
 
-- **Certificates and CA-certificates**: `/etc/pki/tls/certs/domain.com.crt or domain.com.ca-crt`
-- **Keys**: `/etc/pki/tls/private/domain.com.key`
+At this point, if Apache is not installed, you will receive an error that the process cannot be found. You can check if the server is running Apache with the following command:
+```sh
+$ netstat -plnt | awk '$4 ~ /:(80|443)$/'
+```
 
-**OpenSSL (or Debian&reg;)**
+If you find the server is not running Apache, this is not the correct option for you. Please try another process listed in this article.
 
-- **Certificates**: `/etc/ssl/certs/ssl.crt`
-- **Keys**: `/etc/ssl/private/ssl.key`
+#### Check that the SSL Apache module is available
 
-#### Configure httpd.conf
+**mod_ssl** is an optional module for the Apache HTTP Server. It provides strong cryptography for the Apache webserver. Without this the Apache webserver will not be able to utilise or provide SSL encryption.
 
-Open the Apache **httpd.conf** file in a text editor, and add the following
-lines for the ``VirtualHost``, changing the IP address and the paths to the
-certificate files to reflect the location of your certificate:
+To check if the SSL module has been enabled run the following command in order to what OS are you using:
 
-    <VirtualHost 123.45.67.89:443>
-    ServerName www.domain.com
-    DocumentRoot /path/to/your/document/root/htdocs
+**RHEL / CentOS**
+```sh 
+[root@web01 ~]# httpd -M | grep ssl
+```
 
-    SSLEngine ON
-    SSLCertificateFile /etc/httpd/conf/ssl.crt/domain.com.crt
-    SSLCertificateKeyFile /etc/httpd/conf/ssl.key/domain.com.key
+If no output is received the mod_ssl (shared) requires installation to serve SSL traffic.
 
-    ErrorLog logs/ssl.domain.com.error_log
-    CustomLog logs/ssl.domain.com.access_log combined
-    </VirtualHost>
+Run the following command to install mod_ssl:
 
-Save the changes and exit the editor.
+```sh
+# For RHEL 7/ CentOS 7
+$ yum install mod_ssl
 
-**Note**: If you want all of the IP addresses on the public interface to use
-the virtual host, you can put `<VirtualHost *:443>` in the configuration instead
-of specifying a specific IP address.
+# For RHEL 8/ CentOS 8 / Alma Linux / Rocky Linux.
+$ dnf install mod_ssl
+```
 
-#### iptables
+To check if the SSL module has been enabled run the following command:
+```sh
+$ apachectl -M | grep ssl
+ ssl_module (shared)
+```
+**Debian/Ubuntu**
 
-You might need to open a port in your firewall to allow SSL connections to
-port ``443``.  To verify if you need to do this, get a list of your firewall
-rules by running the following command:
+To check if the SSL module has been enabled run the following command:
+```sh
+$ apachectl -M | grep ssl
+ ssl_module (shared)
+```
 
-    sudo /sbin/iptables -L
+If no output is shown, the **mod_ssl (shared)** requires enabling to serve SSL traffic.
+Run the following command to enable **mod_ssl**
+```sh
+$ a2enmod ssl
+```
+Once mod_ssl has been installed, Apache will require a restart to enable. Run the appropriate distribution command to restart Apache, you can find it int the reload or restar web server section.
 
-If you have iptables active but without exceptions for port ``443``, you'll
-need to add some, as shown the following sample:
+#### Install and secure SSL Components on the server
+Now that you have the **SSL Certificate**, **Private key** and **CA Bundle** you are ready to add these certificates to the server. The best practices dictates that the certificates are named (expirationYear-domain, eg: 2022-example.com.crt) and stored in the following locations.
 
-    sudo /sbin/iptables -I INPUT -p tcp --dport 443 -m state --state NEW,ESTABLISHED -j ACCEPT
-    sudo /sbin/iptables -I OUTPUT -p tcp --sport 443 -m state --state ESTABLISHED -j ACCEPT
+**RHEL/CentOS**
 
-Remember to add the rules to your iptables configuration file or run the
-following code on Red Hat&reg;-based distributions:
+Using your preferred text editor, create new files at the locations provided below. Be sure to change the example.com to the name of the domain on the server.
 
-    sudo /sbin/service iptables save
+SSL Certificate - /etc/pki/tls/certs/2022-example.com.crt
+SSL CA Bundle  - /etc/pki/tls/certs/2022-example.com.CA.crt
+SSL Private Key - /etc/pki/tls/private/2022-example.com.key
 
-#### Verify configuration syntax
+**Debian/Ubuntu**
 
-Use the following commands to verify your configuration for various operating
-systems:
+Using your preferred text editor, create new files at the locations provided below. Be sure to change the example.com to the name of the domain on the server.
 
-**Most distributions**:
+SSL Certificate - /etc/ssl/certs/2022-example.com.crt
+SSL CA Bundle  - /etc/ssl/certs/2022-example.com.CA.crt
+SSL Private Key - /etc/ssl/private/2022-example.com.key
 
-To verify the configuration file syntax, run the following command ensuring that
-you have no spelling errors and haven't added the wrong file names:
+**NOTE:** When a private key is installed with world-readable permissions, it allows anyone with access to even a user account on the server to decipher any information encrypted with its corresponding certificate.   It is important to ensure that the certificate and key have the correct permissions.**
 
-    # apachectl -t
+Once the SSL certificate components hace been installed at the proper locations, it is important that we set the correct permissions for the Private Key file.
 
-If the file is good, the command returns ``Syntax OK``. If there are errors,
-the command returns the incorrect lines.
+``` sh
+$ chmod 600 /path/to/private/key/file.key
+``` 
+#### Create or modify VirtualHost file
+**RHEL/CentOS**
+Virtual host files are what specify the configuration of our separate sites and dictate how the Apache web server will respond to various domain requests.
 
-**RPM-based distributions**:
+Rackspace best practice dictates that the virtual host is located in the following locations:
+- ***/etc/httpd/conf.d/example.com.conf***
+    
+Alternative locations for Apache Virtual host can be:
+- ***/etc/httpd/conf/httpd.conf*** (default apache configuration file, also utilized extensively by Webmin)
+- ***/etc/httpd/conf.d/ssl.conf*** (global defaullt configuration file for SSL)
+- ***/etc/httpd/vhost.d/example.com.conf*** (vhost.d is a user created directory and although reasonably common it is not the best practice)
+    
+**NOTE:**: Due to the configurations that we have outlined, all virtual host files must end in .conf. For the purposes of this example, we will assume a virtual host for port 80 already exists in its own config file.
 
-To verify the configuration file syntax, run the following command ensuring that
-you have no spelling errors and haven't added the wrong file names:
+Start by opening the virtual host file in your preferred text editor:
+```sh
+$ vim /etc/httpd/conf.d/example.com.conf
+```
 
-    # httpd -t
+If the port 80 Virtual Host was configured by Rackspace, in most cases, a dummy 443 block would have been created as a placeholder. If so, you can remove the comment character at the start of each line and modify the section as needed.
 
-If the file is good, the command returns ``Syntax OK``. If there are errors,
-the command returns the incorrect lines.
+There are a few things to verify:
+- ServerName/ServerAlias matches for your domain
+- The DocumentRoot matches the the port 80 block
+- The Directory section matches the port 80 block
 
-**Debian-based distributions**:
+Place the following in your virtual host for the block 443:
+```apache
+SSLEngine on
+SSLCertificateFile      /etc/pki/tls/certs/2022-example.com.crt
+SSLCertificateChainFile /etc/pki/tls/certs/2022-example.com.CA.crt
+SSLCertificateKeyFile   /etc/pki/tls/private/2022-example.com.key
+```
 
-To verify the configuration file syntax, run the following command ensuring that
-you have no spelling errors and haven't added the wrong file names:
+**Debian/Ubuntu**
+Virtual host files are what specify the configuration of our separate sites and dictate how the Apache web server will respond to various domain requests.
 
-    # apache2 -t
+Rackspace best practice dictates that the virtual host is located in the following locations:
+- /etc/apache2/sites-available/example.com.conf
 
-If the file is good, the command returns ``Syntax OK``. If there are errors,
-the command returns the incorrect lines.
+This directory is the location where the config file is stored. It is then symlinked to ***/etc/apache2/sites-enabled/example.com.conf***
 
-#### Install certificate on Linux server with Nginx
+**NOTE**: Due to the configurations that we have outlined, all virtual host files must end in .conf. For the purposes of this example, we will assume a virtual host for port 80 already exists in its own config file.
 
-The following sections show you how to save your certificate on a Linux server
-with Nginx&trade; and configure the virtual hosts file.  After you have
-installed the certificate, [reload or restart the web server](#reload-or-restart-the-web-server).
+Start by opening the virtual host file in your preferred text editor:
+```sh
+$ vim /etc/apache2/sites-available/example.com.conf
+```
 
-#### Save the certificates and key file
+If the port 80 Virtual Host was configured by Rackspace, in most cases, a dummy 443 block would have been created as a placeholder. If so, you can remove the comment character at the start of each line and modify the section as needed.
 
-Save the primary and intermediate certificates, which should be in the
-**domain_name.pem** file that you received from the SSL vendor, to the server,
-along with the **.key** file that you generated when you created the CSR.
+There are a few things to verify:
+- ServerName/ServerAlias matches for your domain
+- The DocumentRoot matches the the port 80 block
+- The Directory section matches the port 80 block
 
-If you don't already have a certificate bundle file, combine the primary
-certificate (for example, **my_domain.crt**) and the intermediate certificate
-(for example, **intermediate.crt**) into a single file by running the following
-command:
+Place the following in your virtual host for the block 443:
+```apache
+<VirtualHost *:443>
+        ServerName      example.com
+        ServerAlias     www.example.com
+        DocumentRoot    /var/www/vhosts/example.com
+        <Directory /var/www/vhosts/example.com>
+                Options -Indexes +FollowSymLinks -MultiViews
+                AllowOverride All
+        </Directory>
 
-    cat my_domain.crt intermediate.crt >> bundle.crt
+        CustomLog   /var/log/apache2/example.com-access.log combined
+        ErrorLog    /var/log/apache2/example.com-error.log
 
-#### Configure the Nginx virtual hosts file
+        SSLEngine on
+        SSLCertificateKeyFile   /etc/ssl/private/2022-example.com.key
+        SSLCertificateFile      /etc/ssl/certs/2022-example.com.crt
+        SSLCertificateChainFile /etc/ssl/certs/2022-example.com.ca.crt
+</VirtualHost>
+```
 
-Use the following instructions to edit the Nginx virtual hosts file:
+#### Check syntax and enable virtual host in Apache
+Now that the Document Root and Virtual Host config files have been created, we can check the syntax of the config files and reload Apache.
 
-1. Edit the Nginx virtual host file on your server.
+**WARNING**: The following steps can lead to breaking the Apache process. Make sure that these steps are followed exactly and that you verify your work after making the changes. If the changes you make result in Apache process stopping, this means the domains on the server are now down. Revert any changes made an ensure the Apache process is running or **Call to Rackspace Global Support**
 
-2. Copy the existing, non-secure server module (from the `server {` line
-through the closing curly brace for the server section) and paste the code
-immediately below the server module.
+**RHEL/CentOS 6**
+In order to verify the syntax of the configuration files are correct, you will need to run the following command:
+```sh
+$ httpd -t
+Syntax OK
+```
+If everything checks out, you will get a message that indicates **Syntax OK**.
 
-3. In the pasted section, add the following lines between the `server {` line
-and the `server name` line:
+If you do not see this message, it indicates there may be a syntax issue in your Apache config files. 
 
-        listen   443;
+**These errors will need to be addressed before completing the next step. Do not proceed until you've received a Syntax OK message.**
 
-        ssl    on;
-        ssl_certificate    /etc/ssl/your_domain_name.pem; (or bundle.crt)
-        ssl_certificate_key    /etc/ssl/your_domain_name.key;
+Once the syntax check returns OK, run the following command to reload Apache:
+```sh
+$ apachectl graceful
+```
 
-4. Make sure that the **ssl_certificate** file matches your bundle file and
-that the **ssl_certificate_key** file matches your key file.
+Once Apache has been reloaded, remember to check that Apache is running as expected as described in Prerequisites section.
+
+**RHEL/CentOS 7**
+
+In order to verify the syntax of the configuration files are correct, you will need to run the following command:
+```
+$ httpd -t
+Syntax OK
+```
+If everything checks out, you will get a message that indicates **Syntax OK**. 
+
+If you do not see this message, it indicates there may be a syntax issue in your Apache config files. 
+
+**These errors will need to be addressed before completing the next step. Do not proceed until you've received a Syntax OK message.**
+
+Once the syntax check returns OK, run the following command to reload Apache:
+```sh
+$ apachectl graceful
+```
+
+Once Apache has been reloaded, remember to check that Apache is running as expected as described in Prerequisites section.
+
+**Debian/Ubuntu**
+
+In order to verify the syntax of the configuration files are correct, you will need to run the following command:
+```sh
+$ apachectl -t
+```
+
+If everything checks out, you will get a message that indicates **Syntax OK**. 
+
+If you do not see this message, it indicates there may be a syntax issue in your Apache config files. 
+
+**These errors will need to be addressed before completing the next step. Do not proceed until you've received a Syntax OK message.**
+
+Once the syntax check returns OK, run the following command to reload Apache:
+```sh
+$ apachectl graceful
+```
+
+Once Apache has been reloaded, remember to check that Apache is running as expected as described in Prerequisites section.
+
+### Install certificate in Nginx with PHP-FPM
+#### Prerequisite
+The first step in adding a server block is to make sure the server has Nginx installed and it is running. This can be done with the following commands.
+
+**RHEL/CentOS 6**
+```sh
+$ service nginx status
+```
+**RHEL 7+/CentOS 7+/Debian 8+/Ubuntu 16+**
+```sh
+$ systemctl status nginx
+```
+
+At this point, if NGINX is not installed, you will receive an error that the process cannot be found. You can check if the server is running  Nginx with the following command: 
+```sh
+$ netstat -plnt | awk '$4 ~ /:(80|443)$/'
+```
+If you find the server is not running NGINX, this is not the correct procces. Pleas try another process that is describe in this article.
+
+#### Install and secure SSL components on the server
+Now that you have the **SSL Certificate**, **Private key** and **CA Bundle** you are ready to add these certificates to the server. The best practices dictates that the certificates are named (expirationYear-domain, eg: 2022-example.com.crt) and stored in the following locations.
+
+**RHEL/CentOS**
+Nginx only utilizes two certificate files for each server block. The CA Bundle and Certificate files are combined into a single file. There are two ways to go about setting up the chained certificate for use with Nginx.
+
+Using your preferred text editor, create new files at the locations provided below. Be sure to change the **example. com** to the name of the domain on the server.
+
+The first method is simply adding both the CRT and the CA Bundle contents to a single file in the proper certificate location. This is shown in the example below:
+SSL Certificate/Chain - /etc/pki/tls/certs/2022-example.com.chained.crt
+SSL Private Key - /etc/pki/tls/private/2022-example.com.key
+    
+The second method includes an additional step in which you add the CA bundle as it's own file to the server and then concatenate the files into a new file. This is shown in the example below.
+
+SSL Certificate - /etc/pki/tls/certs/2022-example.com.crt
+SSL CA Bundle  - /etc/pki/tls/certs/2022-example.com.CA.crt
+SSL Private Key - /etc/pki/tls/private/2022-example.com.key
+ 
+Once the files have been created, you can run the following command:
+```sh
+cat /etc/pki/tls/certs/2022-example.com.crt /etc/pki/tls/certs/2022-example.com.CA.crt > /etc/pki/tls/certs/2022-example.com.chained.crt
+```
+
+**Debian/Ubuntu**
+Nginx only utilizes two certificate files for each server block. The CA Bundle and Certificate files are combined into a single file. There are two ways to go about setting up the chained certificate for use with Nginx.
+
+Using your preferred text editor, create new files at the locations provided below. Be sure to change the example.com to the name of the domain on the server.
+
+The first method is simply adding both the CRT and the CA Bundle contents to a single file in the proper certificate location. This is shown in the example below:
+
+SSL Certificate/Chain - /etc/ssl/certs/2022-example.com.chained.crt
+SSL Private Key - /etc/ssl/private/2022-example.com.key
+
+The second method includes an additional step in which you add the CA bundle as it's own file to the server and then concatenate the files into a new file. This is shown in the example below.
+
+SSL Certificate - /etc/ssl/certs/2022-example.com.crt
+SSL CA Bundle  - /etc/ssl/certs/2022-example.com.CA.crt
+SSL Private Key - /etc/ssl/private/2022-example.com.key
+ 
+Once the files have been created, you can run the following command:
+```sh
+cat /etc/ssl/certs/2022-example.com.crt /etc/ssl/certs/2022-example.com.CA.crt > /etc/ssl/certs/2022-example.com.chained.crt
+```
+
+**NOTE:** When a private key is installed with world-readable permissions, it allows anyone with access to even a user account on the server to decipher any information encrypted with its corresponding certificate. It is important to ensure that the certificate and key have the correct permissions.
+
+Once the SSL certificate components have been installed at the proper locations, it is important that we set the correct permissions for the Private Key file. 
+```sh
+    chmod 600 /path/to/private/key/file.key
+```
+
+#### Create of modify Server Blocks in Virtual Host
+
+**RHEL/CentOS**
+Virtual host files are what specify the configuration of our separate sites and dictate how the Nginx web server will respond to various domain requests.
+
+Rackspace best practice dictates that the virtual host is located in the following locations:
+- ***/etc/nginx/conf.d/example.com.conf***
+
+Alternative locations for Nginx Virtual host can be..
+- ***/etc/nginx/conf/httpd.conf*** (default apache configuration file, also utilized extensively by Webmin)
+- ***/etc/nginx/conf.d/ssl.conf*** (global defaullt configuration file for SSL)
+- ***/etc/nginx/vhost.d/example.com.conf*** (vhost.d is a user created directory and although reasonably common it is not Rackspace best practice)
+
+**NOTE**: Due to the configurations that we have outlined, all virtual host files must end in .conf. For the purposes of this example, we will assume a virtual host for port 80 already exists in its own config file.**
+
+Start by opening the virtual host file in your preferred text editor:
+```sh
+$ vim /etc/nginx/conf.d/example.com.conf
+```
+
+There are a few things to verify:
+- ServerName/ServerAlias matches for your domain
+- The DocumentRoot matches the the port 80 block
+- The Directory section matches the port 80 block
+
+You will need to change the example.com for your website name and place it in your virtual host:
+
+```nginx
+server {
+    listen              443;
+
+    server_name         example.com www.example.com;
+    root                /var/www/vhosts/example.com;
+    index               index.html;
+
+    ssl                 on;
+    ssl_certificate     /etc/pki/tls/certs/2022-example.com.chained.crt;
+    ssl_certificate_key /etc/pki/tls/private/2022-example.com.key;
+
+    access_log          /var/log/nginx/example.com_ssl_access.log main;
+    error_log           /var/log/nginx/example.com_ssl_error.log;
+}
+```
+
+Once the changes have been made to the appropriate config files, save and quit the file.
+
+**Debian/Ubuntu**
+Virtual host files are what specify the configuration of our separate sites and dictate how the Nginx web server will respond to various domain requests.
+
+Rackspace best practice dictates that the virtual host is located in the following locations:
+- ***/etc/nginx/sites-available/example.com.conf***
+
+This directory is the location where the config file is stored. It is then symlinked to **/etc/nginx/sites-enabled/example.com.conf**
+
+**NOTE**: Due to the configurations that we have outlined, all virtual host files must end in .conf. For the purposes of this example, we will assume a virtual host for port 80 already exists in its own config file.
+
+Start by opening the virtual host file in your preferred text editor:
+```sh
+vim /etc/nginx/sites-available/example.com.conf
+```
+
+There are a few things to verify:
+- ServerName/ServerAlias matches for your domain
+- The DocumentRoot matches the the port 80 block
+- The Directory section matches the port 80 block
+
+You will need to change the example.com for your website name and place it in your virtual host:
+
+```nginx
+server {
+    listen              443;
+
+    server_name         example.com www.example.com;
+    root                /var/www/vhosts/example.com;
+    index               index.html;
+
+    ssl                 on;
+    ssl_certificate     /etc/pki/tls/certs/2022-example.com.chained.crt;
+    ssl_certificate_key /etc/pki/tls/private/2022-example.com.key;
+
+    access_log          /var/log/nginx/example.com_ssl_access.log main;
+    error_log           /var/log/nginx/example.com_ssl_error.log;
+}
+```
+Once the changes have been made to the appropriate config files, save and quit the file.
+
+### Check syntax and enable server blocks in Nginx
+Now that the Document Root and Server Blocks have been configured we can check the syntax of the config and reload Nginx.
+
+**WARNING**: The following steps can lead to breaking the Apache process. Make sure that these steps are followed exactly and that you verify your work after making the changes. If the changes you make result in Apache process stopping, this means the domains on the server are now down. Revert any changes mad an ensure the Apache process is running or **Call to Rackspace Global Support**
+
+**RHEL/CentOS 6**
+In order to verify the syntax of the configuration files are correct, you will need to run the following command:
+```sh
+$ nginx -t
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+```
+
+If everything checks out, you will get a message that indicates **Syntax OK**. 
+
+If you do not see this message, it indicates there may be a syntax issue in your NGINX config files. 
+
+**These errors will need to be addressed before completing the next step. Do not proceed until you've received a Syntax OK message**.
+
+Once the syntax check returns OK, run the following command to reload Nginx:
+```sh
+$ service nginx reload
+```
+
+Once NGINX has been reloaded, remember to check that Nginx is running as expected as described in Prerequisites section. 
+
+If you made any changes with PHP-FPM, you will also need to check the syntax of PHP-FPM and reload.
+```sh
+$ php-fpm -t
+[16-Jun-2022 09:25:05] NOTICE: configuration file /etc/php-fpm.conf test is successful
+```
+
+If everything checks out, you will get a message that indicates **Syntax OK**. 
+
+If you do not see this message, it indicates there may be a syntax issue in your PHP-FPM config files. 
+
+**These errors will need to be addressed before completing the next step. Do not proceed until you've received a Syntax OK message**.
+
+Once the syntax check returns OK, run the following command to reload PHP=FPM:
+```
+$ service php-fpm reload
+``` 
+**RHEL/CentOS 7**
+In order to verify the syntax of the configuration files are correct, you will need to run the following command:
+```sh
+$ nginx -t
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+```
+
+If everything checks out, you will get a message that indicates **Syntax OK**. 
+
+If you do not see this message, it indicates there may be a syntax issue in your Nginx config files. 
+
+**These errors will need to be addressed before completing the next step. Do not proceed until you've received a Syntax OK message**.
+
+Once the syntax check returns OK, run the following command to reload Nginx:
+```sh
+$ systemctl reload nginx
+```
+
+Once Nginx has been reloaded, remember to check that Nginx is running as expected as described in Prerequisites section. 
+
+If you made any changes with PHP-FPM, you will also need to check the syntax of PHP-FPM and reload.
+```sh
+$ php-fpm -t
+[16-Jun-2022 09:25:05] NOTICE: configuration file /etc/php-fpm.conf test is successful
+```
+
+If everything checks out, you will get a message that indicates **Syntax OK**. 
+
+If you do not see this message, it indicates there may be a syntax issue in your PHP-FPM config files. 
+
+**These errors will need to be addressed before completing the next step. Do not proceed until you've received a Syntax OK message**.
+
+Once the syntax check returns OK, run the following command to reload PHP=FPM:
+```sh
+$ systemctl reload php-fpm    
+``` 
+**Debian/Ubuntu**
+In order to verify the syntax of the configuration files are correct, you will need to run the following command:
+```sh
+$ nginx -t
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+```
+
+If everything checks out, you will get a message that indicates **Syntax OK**. 
+
+If you do not see this message, it indicates there may be a syntax issue in your Nginx config files. 
+
+**hese errors will need to be addressed before completing the next step. Do not proceed until you've received a Syntax OK message**.
+
+Once the syntax check returns OK, run the following command to reload Nginx:
+```sh
+$ systemctl reload nginx
+```
+
+Once Nginx has been reloaded, remember to check that Nginx is running as expected as described in Prerequisites section.
+
+If you made any changes with PHP-FPM, you will also need to check the syntax of PHP-FPM and reload.
+```sh
+$ php-fpm -t
+[16-Jun-2022 09:25:05] NOTICE: configuration file /etc/php-fpm.conf test is successful
+```
+
+If everything checks out, you will get a message that indicates **Syntax OK**. 
+
+If you do not see this message, it indicates there may be a syntax issue in your PHP-FPM config files. 
+
+**These errors will need to be addressed before completing the next step. Do not proceed until you've received a Syntax OK message**.
+
+Once the syntax check returns OK, run the following command to reload PHP=FPM:
+```
+$ systemctl reload php-fpm    
+```
 
 ### Install certificate on Managed Hosting solutions
 
@@ -337,47 +704,6 @@ whether to use **Server Name Indication (SNI) SSL** or **IP-based SSL**.
 
     SSL is now enabled for your custom domain.
 
-### Reload or restart the web server
-
-After you have installed the SSL certificate, you should reload the web server
-service.  This section describes the steps to restart Apache and Nginx.
-
-When you are making changes to Apache, you have two different options for your
-changes to work: to restart the service or to reload the service. A restart
-should be necessary only if you are adding or removing modules (such as
-the ``ssl_module``). Because restarting a service takes some time to come back
-up, we recommend that you use the reload option.
-
-#### Reload Apache
-
-To reload Apache, run the following command:
-
-**CentOS 7.x and later**
-
-    # systemctl reload httpd
-
-**CentOS 6.x and earlier**
-
-    # service httpd reload
-
-**The Ubuntu operating system**
-
-    # /etc/init.d/apache2 reload
-
-#### Restart Apache
-
-To restart your Apache web server, run the following command:
-
-    # /etc/init.d/httpd restart
-    or
-    # /etc/init.d/apache2 restart
-
-#### Restart Nginx
-
-To restart Nginx, run the following command:
-
-        sudo /etc/init.d/nginx restart
-
 ### Test the certificate
 
 The best way to test a certificate is to use a third-party tool like the
@@ -385,7 +711,7 @@ Qualys&reg; [SSLLabs scanner](https://www.ssllabs.com/ssltest/). If you need
 assistance in improving the security configuration of your certificate, contact
 Rackspace Support.
 
-**Note**: If you browse to your website by using the Hypertext Transfer Protocol
+**NOTE**: If you browse to your website by using the Hypertext Transfer Protocol
 Secure (HTTPS) protocol directive, the padlock icon on your browser is displayed
 in the locked position if your certificates are installed correctly and the server
 is properly configured for SSL.
