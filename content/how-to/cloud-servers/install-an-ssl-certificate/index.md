@@ -191,10 +191,11 @@ Now that you have the **SSL Certificate**, **Private key** and **CA Bundle** you
 **RHEL/CentOS**
 
 Using your preferred text editor, create new files at the locations provided below. Be sure to change the example.com to the name of the domain on the server.
-
+```txt
 SSL Certificate - /etc/pki/tls/certs/2022-example.com.crt
 SSL CA Bundle  - /etc/pki/tls/certs/2022-example.com.CA.crt
 SSL Private Key - /etc/pki/tls/private/2022-example.com.key
+```
 
 **Debian/Ubuntu**
 
