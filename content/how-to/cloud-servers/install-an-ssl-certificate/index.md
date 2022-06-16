@@ -299,6 +299,7 @@ Now that the Document Root and Virtual Host config files have been created, we c
 **WARNING**: The following steps can lead to breaking the Apache process. Make sure that these steps are followed exactly and that you verify your work after making the changes. If the changes you make result in Apache process stopping, this means the domains on the server are now down. Revert any changes made an ensure the Apache process is running or **Call to Rackspace Global Support**
 
 **RHEL/CentOS 6**
+
 In order to verify the syntax of the configuration files are correct, you will need to run the following command:
 ```sh
 $ httpd -t
@@ -318,6 +319,7 @@ $ apachectl graceful
 Once Apache has been reloaded, remember to check that Apache is running as expected as described in Prerequisites section.
 
 **RHEL/CentOS 7**
+
 In order to verify the syntax of the configuration files are correct, you will need to run the following command:
 ```sh
 $ httpd -t
@@ -337,6 +339,7 @@ $ apachectl graceful
 Once Apache has been reloaded, remember to check that Apache is running as expected as described in Prerequisites section.
 
 **Debian/Ubuntu**
+
 In order to verify the syntax of the configuration files are correct, you will need to run the following command:
 ```sh
 $ apachectl -t
@@ -522,6 +525,7 @@ Now that the Document Root and Server Blocks have been configured we can check t
 **WARNING**: The following steps can lead to breaking the Apache process. Make sure that these steps are followed exactly and that you verify your work after making the changes. If the changes you make result in Apache process stopping, this means the domains on the server are now down. Revert any changes mad an ensure the Apache process is running or **Call to Rackspace Global Support**
 
 **RHEL/CentOS 6**
+
 In order to verify the syntax of the configuration files are correct, you will need to run the following command:
 ```sh
 $ nginx -t
@@ -555,10 +559,11 @@ If you do not see this message, it indicates there may be a syntax issue in your
 **WARNING:** These errors will need to be addressed before completing the next step. Do not proceed until you've received a Syntax OK message
 
 Once the syntax check returns OK, run the following command to reload PHP=FPM:
-```
+```sh
 $ service php-fpm reload
 ``` 
 **RHEL/CentOS 7**
+
 In order to verify the syntax of the configuration files are correct, you will need to run the following command:
 ```sh
 $ nginx -t
@@ -596,6 +601,7 @@ Once the syntax check returns OK, run the following command to reload PHP=FPM:
 $ systemctl reload php-fpm    
 ``` 
 **Debian/Ubuntu**
+
 In order to verify the syntax of the configuration files are correct, you will need to run the following command:
 ```sh
 $ nginx -t
