@@ -22,11 +22,17 @@ If you want to install an SSL certificate on a load balancer, see
 The following sections provide instructions for the installation process according to each platform:
 
 - [Prerequisites](#prerequisites)
+
 - [Install certificate on Microsoft&reg; Windows&reg; 2008 R2 and 2012 servers](#install-certificate-on-windows-servers)
+
 - [Install certificate in Apache Web Server](#install-certificate-in-apache-web-server)
+
 - [Install certificate in NGINX with php-fpm](#install-certificate-in-nginx-with-php-fpm)
+
 - [Install certificate on Managed Hosting solutions](#install-certificate-on-managed-hosting-solutions)
+
 - [Install certificate on a custom Microsoft&reg; Azure&reg; domain](#install-certificate-on-a-custom-microsoft-azure-domain)
+
 - [Test the certificate](#test-the-certificate)
 
 After you have installed your certificate, you should reload your web server
@@ -44,7 +50,7 @@ for instructions.
 - The Certificate Authority (CA) bundle with the root and intermediate
 certificates provided by the SSL vendor.
 - The **.key** file that was generated when you created the CSR.
-- An installed web server such as Apache and ``mod_ssl``.
+- An installed web server such as Apache or NGINX.
 - An Internet Protocol (IP) address for your SSL certificate.
 
 #### Copy the files into the default location on your server
