@@ -622,7 +622,7 @@ If you do not see this message, it indicates there may be a syntax issue in your
 **These errors will need to be addressed before completing the next step. Do not proceed until you've received a Syntax OK message**.
 
 Once the syntax check returns OK, run the following command to reload PHP=FPM:
-```
+```sh
 $ systemctl reload php-fpm    
 ```
 
