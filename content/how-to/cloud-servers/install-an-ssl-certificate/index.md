@@ -116,6 +116,8 @@ HTTPS.
 ### Install certificate in Apache Web Server
 The following sections show you how to install and bind SSL certificate on Apache web servers 
 
+**NOTE:** Be aware that the commands are run by the root user, if you do not have access to the root user but you have sudo permissions, use the sudo command at the beginning of each line.
+
 #### Prerequisite
 The first step in adding a vhost is to make sure the server has apache installed and it is running, This can be done with the following commands. (If you already know that the Apache is up and running you can skip this step).
 
@@ -252,7 +254,7 @@ SSLCertificateKeyFile   /etc/pki/tls/private/2022-example.com.key
 Virtual host files are what specify the configuration of our separate sites and dictate how the Apache web server will respond to various domain requests.
 
 Rackspace best practice dictates that the virtual host is located in the following locations:
-- /etc/apache2/sites-available/example.com.conf
+- ***/etc/apache2/sites-available/example.com.conf***
 
 This directory is the location where the config file is stored. It is then symlinked to ***/etc/apache2/sites-enabled/example.com.conf***
 
@@ -354,6 +356,10 @@ $ apachectl graceful
 Once Apache has been reloaded, remember to check that Apache is running as expected as described in Prerequisites section.
 
 ### Install certificate in Nginx with PHP-FPM
+The following sections show you how to install and bind SSL certificate on NGINX web servers 
+
+**NOTE:** Be aware that the commands are run by the root user, if you do not have access to the root user but you have sudo permissions, use the sudo command at the beginning of each line.
+
 #### Prerequisite
 The first step in adding a server block is to make sure the server has Nginx installed and it is running. This can be done with the following commands.
 
