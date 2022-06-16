@@ -19,20 +19,14 @@ certificate on various servers and operating systems.
 If you want to install an SSL certificate on a load balancer, see
 [Configure SSL certificates on Cloud Load Balancers](/support/how-to/configure-SSL-certificates-on-cloud-load-balancers).
 
-The following sections provide instructions for the installation process:
+The following sections provide instructions for the installation process according to each platform:
 
 - [Prerequisites](#prerequisites)
-
 - [Install certificate on Microsoft&reg; Windows&reg; 2008 R2 and 2012 servers](#install-certificate-on-windows-servers)
-
 - [Install certificate in Apache Web Server](#install-certificate-in-apache-web-server)
-
 - [Install certificate in NGINX with php-fpm](#install-certificate-in-nginx-with-php-fpm)
-
 - [Install certificate on Managed Hosting solutions](#install-certificate-on-managed-hosting-solutions)
-
 - [Install certificate on a custom Microsoft&reg; Azure&reg; domain](#install-certificate-on-a-custom-microsoft-azure-domain)
-
 - [Test the certificate](#test-the-certificate)
 
 After you have installed your certificate, you should reload your web server
@@ -656,13 +650,9 @@ If you do not already have SSL certificate, you need to get one from a trusted
 CA. The certificate must meet all of the following requirements:
 
 - Signed by a trusted CA (no private CA servers).
-
 - Contains a private key.
-
 - Created for key exchange and exported to a **.pfx** file.
-
 - Uses a minimum of 2048-bit encryption.
-
 - Has a subject name that matches the custom domain it needs to secure. To
 secure multiple domains with one certificate, you need to use a wildcard name
 (for example, **.contoso.com**) or specify the `subjectAltName` values.
