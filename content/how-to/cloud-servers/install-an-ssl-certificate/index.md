@@ -121,7 +121,7 @@ The following sections show you how to install and bind SSL certificate on Apach
 #### Prerequisite
 The first step in adding a vhost is to make sure the server has apache installed and it is running, This can be done with the following commands. (If you already know that the Apache is up and running you can skip this step).
 
-**RHEL 6/CentOS 6**
+##### RHEL 6/CentOS 6
 ```sh
 $ service httpd status
 ```
