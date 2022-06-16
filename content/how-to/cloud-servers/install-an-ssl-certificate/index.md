@@ -1,11 +1,11 @@
 ---
 permalink: install-an-ssl-certificate
-audit_date: '2022-06-'
+audit_date: '2022-06-16'
 title: Install an SSL certificate
 type: article
-created_date: '2022-10-23'
+created_date: '2022-06-16'
 created_by: Alberto Blanquel
-last_modified_date: '2022-04-28'
+last_modified_date: '2022-06-16'
 last_modified_by: Miguel Salgado
 product: Cloud Servers
 product_url: cloud-servers
@@ -149,7 +149,7 @@ To check if the SSL module has been enabled run the following command in order t
 
 **RHEL / CentOS**
 ```sh 
-[root@web01 ~]# httpd -M | grep ssl
+$ httpd -M | grep ssl
 ```
 
 If no output is received the mod_ssl (shared) requires installation to serve SSL traffic.
@@ -169,6 +169,7 @@ To check if the SSL module has been enabled run the following command:
 $ apachectl -M | grep ssl
  ssl_module (shared)
 ```
+
 **Debian/Ubuntu**
 
 To check if the SSL module has been enabled run the following command:
@@ -203,15 +204,17 @@ SSL Certificate - /etc/ssl/certs/2022-example.com.crt
 SSL CA Bundle  - /etc/ssl/certs/2022-example.com.CA.crt
 SSL Private Key - /etc/ssl/private/2022-example.com.key
 
-**NOTE:** When a private key is installed with world-readable permissions, it allows anyone with access to even a user account on the server to decipher any information encrypted with its corresponding certificate.   It is important to ensure that the certificate and key have the correct permissions.**
+**NOTE:** When a private key is installed with world-readable permissions, it allows anyone with access to even a user account on the server to decipher any information encrypted with its corresponding certificate.   It is important to ensure that the certificate and key have the correct permissions.
 
 Once the SSL certificate components hace been installed at the proper locations, it is important that we set the correct permissions for the Private Key file.
 
 ``` sh
 $ chmod 600 /path/to/private/key/file.key
 ``` 
+
 #### Create or modify VirtualHost file
 **RHEL/CentOS**
+
 Virtual host files are what specify the configuration of our separate sites and dictate how the Apache web server will respond to various domain requests.
 
 Rackspace best practice dictates that the virtual host is located in the following locations:
@@ -219,7 +222,7 @@ Rackspace best practice dictates that the virtual host is located in the followi
     
 Alternative locations for Apache Virtual host can be:
 - ***/etc/httpd/conf/httpd.conf*** (default apache configuration file, also utilized extensively by Webmin)
-- ***/etc/httpd/conf.d/ssl.conf*** (global defaullt configuration file for SSL)
+- ***/etc/httpd/conf.d/ssl.conf*** (global default configuration file for SSL)
 - ***/etc/httpd/vhost.d/example.com.conf*** (vhost.d is a user created directory and although reasonably common it is not the best practice)
     
 **NOTE:**: Due to the configurations that we have outlined, all virtual host files must end in .conf. For the purposes of this example, we will assume a virtual host for port 80 already exists in its own config file.
@@ -312,9 +315,8 @@ $ apachectl graceful
 Once Apache has been reloaded, remember to check that Apache is running as expected as described in Prerequisites section.
 
 **RHEL/CentOS 7**
-
 In order to verify the syntax of the configuration files are correct, you will need to run the following command:
-```
+```sh
 $ httpd -t
 Syntax OK
 ```
@@ -332,7 +334,6 @@ $ apachectl graceful
 Once Apache has been reloaded, remember to check that Apache is running as expected as described in Prerequisites section.
 
 **Debian/Ubuntu**
-
 In order to verify the syntax of the configuration files are correct, you will need to run the following command:
 ```sh
 $ apachectl -t
@@ -368,19 +369,20 @@ At this point, if NGINX is not installed, you will receive an error that the pro
 ```sh
 $ netstat -plnt | awk '$4 ~ /:(80|443)$/'
 ```
+
 If you find the server is not running NGINX, this is not the correct procces. Pleas try another process that is describe in this article.
 
 #### Install and secure SSL components on the server
 Now that you have the **SSL Certificate**, **Private key** and **CA Bundle** you are ready to add these certificates to the server. The best practices dictates that the certificates are named (expirationYear-domain, eg: 2022-example.com.crt) and stored in the following locations.
 
 **RHEL/CentOS**
-Nginx only utilizes two certificate files for each server block. The CA Bundle and Certificate files are combined into a single file. There are two ways to go about setting up the chained certificate for use with Nginx.
+NGINX only utilizes two certificate files for each server block. The CA Bundle and Certificate files are combined into a single file. There are two ways to go about setting up the chained certificate for use with Nginx.
 
 Using your preferred text editor, create new files at the locations provided below. Be sure to change the **example. com** to the name of the domain on the server.
 
 The first method is simply adding both the CRT and the CA Bundle contents to a single file in the proper certificate location. This is shown in the example below:
-SSL Certificate/Chain - /etc/pki/tls/certs/2022-example.com.chained.crt
-SSL Private Key - /etc/pki/tls/private/2022-example.com.key
+- SSL Certificate/Chain - /etc/pki/tls/certs/2022-example.com.chained.crt
+- SSL Private Key - /etc/pki/tls/private/2022-example.com.key
     
 The second method includes an additional step in which you add the CA bundle as it's own file to the server and then concatenate the files into a new file. This is shown in the example below.
 
@@ -394,7 +396,7 @@ cat /etc/pki/tls/certs/2022-example.com.crt /etc/pki/tls/certs/2022-example.com.
 ```
 
 **Debian/Ubuntu**
-Nginx only utilizes two certificate files for each server block. The CA Bundle and Certificate files are combined into a single file. There are two ways to go about setting up the chained certificate for use with Nginx.
+NGINX only utilizes two certificate files for each server block. The CA Bundle and Certificate files are combined into a single file. There are two ways to go about setting up the chained certificate for use with Nginx.
 
 Using your preferred text editor, create new files at the locations provided below. Be sure to change the example.com to the name of the domain on the server.
 
