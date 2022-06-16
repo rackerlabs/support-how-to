@@ -395,11 +395,12 @@ The first method is simply adding both the CRT and the CA Bundle contents to a s
 - SSL Private Key - /etc/pki/tls/private/2022-example.com.key
     
 The second method includes an additional step in which you add the CA bundle as it's own file to the server and then concatenate the files into a new file. This is shown in the example below.
-
+```text
 SSL Certificate - /etc/pki/tls/certs/2022-example.com.crt
 SSL CA Bundle  - /etc/pki/tls/certs/2022-example.com.CA.crt
 SSL Private Key - /etc/pki/tls/private/2022-example.com.key
- 
+```
+
 Once the files have been created, you can run the following command:
 ```sh
 cat /etc/pki/tls/certs/2022-example.com.crt /etc/pki/tls/certs/2022-example.com.CA.crt > /etc/pki/tls/certs/2022-example.com.chained.crt
@@ -416,11 +417,12 @@ SSL Certificate/Chain - /etc/ssl/certs/2022-example.com.chained.crt
 SSL Private Key - /etc/ssl/private/2022-example.com.key
 
 The second method includes an additional step in which you add the CA bundle as it's own file to the server and then concatenate the files into a new file. This is shown in the example below.
-
+```text
 SSL Certificate - /etc/ssl/certs/2022-example.com.crt
 SSL CA Bundle  - /etc/ssl/certs/2022-example.com.CA.crt
 SSL Private Key - /etc/ssl/private/2022-example.com.key
- 
+```
+
 Once the files have been created, you can run the following command:
 ```sh
 cat /etc/ssl/certs/2022-example.com.crt /etc/ssl/certs/2022-example.com.CA.crt > /etc/ssl/certs/2022-example.com.chained.crt
