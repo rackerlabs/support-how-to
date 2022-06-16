@@ -386,6 +386,7 @@ If you find the server is not running NGINX, this is not the correct procces. Pl
 Now that you have the **SSL Certificate**, **Private key** and **CA Bundle** you are ready to add these certificates to the server. The best practices dictates that the certificates are named (expirationYear-domain, eg: 2022-example.com.crt) and stored in the following locations.
 
 **RHEL/CentOS**
+
 NGINX only utilizes two certificate files for each server block. The CA Bundle and Certificate files are combined into a single file. There are two ways to go about setting up the chained certificate for use with Nginx.
 
 Using your preferred text editor, create new files at the locations provided below. Be sure to change the **example. com** to the name of the domain on the server.
@@ -407,6 +408,7 @@ cat /etc/pki/tls/certs/2022-example.com.crt /etc/pki/tls/certs/2022-example.com.
 ```
 
 **Debian/Ubuntu**
+
 NGINX only utilizes two certificate files for each server block. The CA Bundle and Certificate files are combined into a single file. There are two ways to go about setting up the chained certificate for use with Nginx.
 
 Using your preferred text editor, create new files at the locations provided below. Be sure to change the example.com to the name of the domain on the server.
