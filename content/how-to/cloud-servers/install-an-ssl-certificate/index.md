@@ -47,6 +47,7 @@ don't already have a certificate, see
 [Generate a CSR](/support/how-to/generate-a-csr/) and
 [Purchase or renew an SSL certificate](/support/how-to/purchase-or-renew-an-ssl-certificate/)
 for instructions.
+
 - The Certificate Authority (CA) bundle with the root and intermediate
 certificates provided by the SSL vendor.
 - The **.key** file that was generated when you created the CSR.
@@ -126,12 +127,12 @@ The first step in adding a vhost is to make sure the server has apache installed
 $ service httpd status
 ```
 
-**RHEL 7/CentOS 7+**
+##### RHEL 7/CentOS 7+
 ```sh
 $ systemctl status httpd  
 ```
 
-**Debian 8+/Ubuntu 16+**
+##### Debian 8+/Ubuntu 16+
 ```sh
 $ systemctl status apache2
 ```
@@ -149,7 +150,7 @@ If you find the server is not running Apache, this is not the correct option for
 
 To check if the SSL module has been enabled run the following command in order to what OS are you using:
 
-**RHEL / CentOS**
+##### RHEL / CentOS
 ```sh 
 $ httpd -M | grep ssl
 ```
@@ -172,8 +173,7 @@ $ apachectl -M | grep ssl
  ssl_module (shared)
 ```
 
-**Debian/Ubuntu**
-
+##### Debian/Ubuntu
 To check if the SSL module has been enabled run the following command:
 ```sh
 $ apachectl -M | grep ssl
@@ -190,8 +190,7 @@ Once mod_ssl has been installed, Apache will require a restart to enable. Run th
 #### Install and secure SSL Components on the server
 Now that you have the **SSL Certificate**, **Private key** and **CA Bundle** you are ready to add these certificates to the server. The best practices dictates that the certificates are named (expirationYear-domain, eg: 2022-example.com.crt) and stored in the following locations.
 
-**RHEL/CentOS**
-
+##### RHEL/CentOS
 Using your preferred text editor, create new files at the locations provided below. Be sure to change the example.com to the name of the domain on the server.
 ```txt
 SSL Certificate - /etc/pki/tls/certs/2022-example.com.crt
@@ -199,8 +198,7 @@ SSL CA Bundle  - /etc/pki/tls/certs/2022-example.com.CA.crt
 SSL Private Key - /etc/pki/tls/private/2022-example.com.key
 ```
 
-**Debian/Ubuntu**
-
+##### Debian/Ubuntu
 Using your preferred text editor, create new files at the locations provided below. Be sure to change the example.com to the name of the domain on the server.
 
 SSL Certificate - /etc/ssl/certs/2022-example.com.crt
@@ -216,8 +214,7 @@ $ chmod 600 /path/to/private/key/file.key
 ``` 
 
 #### Create or modify VirtualHost file
-**RHEL/CentOS**
-
+##### RHEL/CentOS
 Virtual host files are what specify the configuration of our separate sites and dictate how the Apache web server will respond to various domain requests.
 
 Rackspace best practice dictates that the virtual host is located in the following locations:
@@ -250,7 +247,7 @@ SSLCertificateChainFile /etc/pki/tls/certs/2022-example.com.CA.crt
 SSLCertificateKeyFile   /etc/pki/tls/private/2022-example.com.key
 ```
 
-**Debian/Ubuntu**
+##### Debian/Ubuntu
 Virtual host files are what specify the configuration of our separate sites and dictate how the Apache web server will respond to various domain requests.
 
 Rackspace best practice dictates that the virtual host is located in the following locations:
@@ -298,7 +295,7 @@ Now that the Document Root and Virtual Host config files have been created, we c
 
 **WARNING**: The following steps can lead to breaking the Apache process. Make sure that these steps are followed exactly and that you verify your work after making the changes. If the changes you make result in Apache process stopping, this means the domains on the server are now down. Revert any changes made an ensure the Apache process is running or **Call to Rackspace Global Support**
 
-**RHEL/CentOS 6**
+##### RHEL/CentOS 6
 
 In order to verify the syntax of the configuration files are correct, you will need to run the following command:
 ```sh
@@ -318,7 +315,7 @@ $ apachectl graceful
 
 Once Apache has been reloaded, remember to check that Apache is running as expected as described in Prerequisites section.
 
-**RHEL/CentOS 7**
+##### RHEL/CentOS 7
 
 In order to verify the syntax of the configuration files are correct, you will need to run the following command:
 ```sh
@@ -329,7 +326,7 @@ If everything checks out, you will get a message that indicates **Syntax OK**.
 
 If you do not see this message, it indicates there may be a syntax issue in your Apache config files. 
 
-**These errors will need to be addressed before completing the next step. Do not proceed until you've received a Syntax OK message.**
+**WARNING:** These errors will need to be addressed before completing the next step. Do not proceed until you've received a Syntax OK message.
 
 Once the syntax check returns OK, run the following command to reload Apache:
 ```sh
@@ -338,7 +335,7 @@ $ apachectl graceful
 
 Once Apache has been reloaded, remember to check that Apache is running as expected as described in Prerequisites section.
 
-**Debian/Ubuntu**
+##### Debian/Ubuntu
 
 In order to verify the syntax of the configuration files are correct, you will need to run the following command:
 ```sh
@@ -366,11 +363,11 @@ The following sections show you how to install and bind SSL certificate on NGINX
 #### Prerequisite
 The first step in adding a server block is to make sure the server has Nginx installed and it is running. This can be done with the following commands.
 
-**RHEL/CentOS 6**
+##### RHEL/CentOS 6
 ```sh
 $ service nginx status
 ```
-**RHEL 7+/CentOS 7+/Debian 8+/Ubuntu 16+**
+##### RHEL 7+/CentOS 7+/Debian 8+/Ubuntu 16+
 ```sh
 $ systemctl status nginx
 ```
@@ -385,8 +382,7 @@ If you find the server is not running NGINX, this is not the correct procces. Pl
 #### Install and secure SSL components on the server
 Now that you have the **SSL Certificate**, **Private key** and **CA Bundle** you are ready to add these certificates to the server. The best practices dictates that the certificates are named (expirationYear-domain, eg: 2022-example.com.crt) and stored in the following locations.
 
-**RHEL/CentOS**
-
+##### RHEL/CentOS
 NGINX only utilizes two certificate files for each server block. The CA Bundle and Certificate files are combined into a single file. There are two ways to go about setting up the chained certificate for use with Nginx.
 
 Using your preferred text editor, create new files at the locations provided below. Be sure to change the **example. com** to the name of the domain on the server.
@@ -407,8 +403,7 @@ Once the files have been created, you can run the following command:
 cat /etc/pki/tls/certs/2022-example.com.crt /etc/pki/tls/certs/2022-example.com.CA.crt > /etc/pki/tls/certs/2022-example.com.chained.crt
 ```
 
-**Debian/Ubuntu**
-
+##### Debian/Ubuntu
 NGINX only utilizes two certificate files for each server block. The CA Bundle and Certificate files are combined into a single file. There are two ways to go about setting up the chained certificate for use with Nginx.
 
 Using your preferred text editor, create new files at the locations provided below. Be sure to change the example.com to the name of the domain on the server.
@@ -439,7 +434,7 @@ Once the SSL certificate components have been installed at the proper locations,
 
 #### Create of modify Server Blocks in Virtual Host
 
-**RHEL/CentOS**
+##### RHEL/CentOS
 Virtual host files are what specify the configuration of our separate sites and dictate how the Nginx web server will respond to various domain requests.
 
 Rackspace best practice dictates that the virtual host is located in the following locations:
@@ -483,7 +478,7 @@ server {
 
 Once the changes have been made to the appropriate config files, save and quit the file.
 
-**Debian/Ubuntu**
+##### Debian/Ubuntu
 Virtual host files are what specify the configuration of our separate sites and dictate how the Nginx web server will respond to various domain requests.
 
 Rackspace best practice dictates that the virtual host is located in the following locations:
@@ -528,7 +523,7 @@ Now that the Document Root and Server Blocks have been configured we can check t
 
 **WARNING**: The following steps can lead to breaking the Apache process. Make sure that these steps are followed exactly and that you verify your work after making the changes. If the changes you make result in Apache process stopping, this means the domains on the server are now down. Revert any changes mad an ensure the Apache process is running or **Call to Rackspace Global Support**
 
-**RHEL/CentOS 6**
+##### RHEL/CentOS 6
 
 In order to verify the syntax of the configuration files are correct, you will need to run the following command:
 ```sh
@@ -566,7 +561,7 @@ Once the syntax check returns OK, run the following command to reload PHP=FPM:
 ```sh
 $ service php-fpm reload
 ``` 
-**RHEL/CentOS 7**
+##### RHEL/CentOS 7
 
 In order to verify the syntax of the configuration files are correct, you will need to run the following command:
 ```sh
@@ -604,7 +599,7 @@ Once the syntax check returns OK, run the following command to reload PHP=FPM:
 ```sh
 $ systemctl reload php-fpm    
 ``` 
-**Debian/Ubuntu**
+##### Debian/Ubuntu
 
 In order to verify the syntax of the configuration files are correct, you will need to run the following command:
 ```sh
