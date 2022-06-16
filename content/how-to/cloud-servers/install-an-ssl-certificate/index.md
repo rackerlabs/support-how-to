@@ -733,4 +733,6 @@ is properly configured for SSL.
 
 Another way to test the certificate is to go to [whynopadlock.com](https://www.whynopadlock.com/).
 Enter your URL in **Secure Address**, and it shows any discrepancies that could
-cause the site to be unsecure, such as mixed content issues.
+cause the site to be unsecure, such as mixed content issues.</br>
+
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
