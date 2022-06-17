@@ -28,7 +28,7 @@ Azure V2 Upgrade
 
 **Step 4.** Under **Switch Account**, select a specific **Manage Cloud Account** from the list and click **Switch Account**. 
 
-*Note: You can search for and view any Azure subscriptions by clicking the carat icon next to the Managed Cloud account or typing in the search box*
+*Note: You can search for and view any Azure subscriptions by clicking the carat icon next to the Managed Cloud account or typing in the filter accounts box*
 
 <img width="399" alt="Switch Account" src="https://user-images.githubusercontent.com/96761530/174084683-1708e248-1f7e-4ec0-91b1-8bd6af81b80c.png">
 
