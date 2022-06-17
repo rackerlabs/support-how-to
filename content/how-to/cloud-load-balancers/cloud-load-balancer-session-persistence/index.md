@@ -8,7 +8,7 @@ created_by: Morgan Marion
 last_modified_date: '2022-06-17'
 last_modified_by: Miguel Salgado
 product: Cloud Load Balancers
-product_url: load-balancers
+product_url: cloud-load-balancers
 ---
 Session Persistence is an additional configuration option on a Cloud Load Balancer where subsequent requests from clients are directed to the same node in your load balancer pool.
 
@@ -38,3 +38,6 @@ Send this [API call](https://pitchfork.rax.io/load_balancers/#disable_session_pe
 For more a more detailed look at Session Persistence, please see our Developer Documentation.
 - [Cloud Load BalancersSession persistence](https://docs.rackspace.com/docs/cloud-load-balancers/v1/api-reference/sessions)
 - [Pitchfork - the Rackspace Cloud API web application](https://docs.rackspace.com/support/how-to/pitchfork-the-rackspace-cloud-api-web-application)
+</br>
+
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
