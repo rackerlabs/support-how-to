@@ -25,8 +25,8 @@ in Linux&reg;.
 2.  Modify the value to match your FQDN hostname,
     as shown in the following example:
     ```sh
-    $ sudo hostnamectl set-hostname NEW-HOST
-    $ sudo hostname
+    $  hostnamectl set-hostname NEW-HOST
+    $  hostname
     NEW-HOST
     ```
 
@@ -34,14 +34,14 @@ in Linux&reg;.
     networking, change the host that is associated with the main IP address
     for your server, as shown in the following example:
     ```sh         
-    $ sudo vim /etc/hosts    
+    $  vim /etc/hosts    
     127.0.0.1      localhost localhost.localdomain
     123.45.67.89   hostname.domain.com   hostname
     ```
 
 4.  Change the domain name (where required)
     ```sh
-    $ sudo vim /etc/resolv.conf
+    $  vim /etc/resolv.conf
     domain abc.com            <--- This would be the domain.
     nameserver 173.203.4.8
     nameserver 173.203.4.9
@@ -49,7 +49,7 @@ in Linux&reg;.
 
 5.  Change networking configuration /etc/sysconfig/network
     ```sh
-    $ sudo vim /etc/sysconfig/network
+    $  vim /etc/sysconfig/network
     NETWORKING=yes
     FORWARD_IPV4=false
     HOSTNAME=hostname.domainname.com   <---- change this bit (FQDN)
@@ -60,13 +60,13 @@ in Linux&reg;.
 
 6.  Change networking configuration /etc/sysconfig/network
     ```sh
-    $ sudo vim /etc/hostname
+    $  vim /etc/hostname
     hostname.domainname.com
     ```
 
 7.  Update the Mail Transfer Agent (MTA) configuration.
     ```sh
-    $ sudo vim /etc/postfix/mydomains
+    $  vim /etc/postfix/mydomains
     mydomains - included a list of aliases for your machine here, formatted:
     example.com                                   OK
     After change, run 'postmap /etc/postfix/mydomains'
@@ -77,34 +77,34 @@ in Linux&reg;.
 
     Update the hostname in Postfix if it is hadcoded in and restart the service
     ```sh
-    $ sudo vim /etc/postfix/main.cf
-    $ sudo postmap /etc/postfix/main.cf
-    $ sudo systemctl restart postfix
+    $  vim /etc/postfix/main.cf
+    $  postmap /etc/postfix/main.cf
+    $  systemctl restart postfix
     ```
     **NOTE:** This file can have quite a bit of information. You can grep for 'hostname' for faster results.
     ```sh
-    $ sudo grep 'hostname' /etc/postfix/main.cnf
-    $ sudo cat /etc/postfix/main.cnf | grep hostname
+    $  grep 'hostname' /etc/postfix/main.cnf
+    $  cat /etc/postfix/main.cnf | grep hostname
     ```
 
 8.  Update MySQL, MariaDB or Percona - Check the user table for the old hostname.
     ```sh
-    $ sudo mysql -e "SELECT DISTINCT host FROM mysql.user;"
+    $  mysql -e "SELECT DISTINCT host FROM mysql.user;"
     ```
 
     If binary logging is enabled and the log files named using the original hostname then you must update /etc/my.cnf or binary logging will break and possibly have replication. You must specify the filename of the existing files, i.e. the old hostname
 
     ```sh
-    $ sudo grep  -E 'log-bin|relay-log' /etc/my.cnf /etc/mysql/my.cnf
+    $  grep  -E 'log-bin|relay-log' /etc/my.cnf /etc/mysql/my.cnf
     log-bin=/var/lib/mysqllogs/oldlogfilename
     relay-log=/var/lib/mysqllogs/oldrelaylogfilename
     ```
 
 9.  Restart syslog
     ```sh
-    $ sudo service rsyslog restart    
+    $  service rsyslog restart    
     or
-    $ sudo systemctl restart rsyslog
+    $  systemctl restart rsyslog
     ```
 
 # Related Articles
