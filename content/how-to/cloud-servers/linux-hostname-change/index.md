@@ -27,7 +27,9 @@ in Linux&reg;.
 2.  Modify the value to match your FQDN hostname,
     as shown in the following example:
     ```sh
-    $ sudo hostname my.new.hostname.com
+    $ sudo hostnamectl set-hostname NEW-HOST
+    $ sudo hostname
+    NEW-HOST
     ```
 
 3.  Open the file at /etc/hosts. To update the information for internal
