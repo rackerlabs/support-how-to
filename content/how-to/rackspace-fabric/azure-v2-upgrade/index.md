@@ -5,7 +5,7 @@ type: article
 title: "Azure V2 Upgrade"
 created_date: '2022-06-07'
 created_by: Rohit Rajput
-last_modified_date: '2022-06-16'
+last_modified_date: '2022-06-20'
 last_modified_by: Rohit Rajput
 product: Rackspace Fabric
 product_url: rackspace-fabric
@@ -26,15 +26,15 @@ Azure V2 Upgrade
 
 <img width="351" alt="Login" src="https://user-images.githubusercontent.com/96761530/174084535-602a3f44-2ab0-4b32-9ab3-d5d6302b02c1.png">
 
-**Step 4.** Under **Switch Account**, select a specific **Manage Cloud Account** from the list and click **Switch Account**. 
+**Step 4.** Select a specific **Manage Cloud Account** from the list and click **Switch Account**. The selected account can be **Set to Default** by selecting the **Checkbox**.
 
-*Note: You can search for and view any Azure subscriptions by clicking the carat icon next to the Managed Cloud account or typing in the filter accounts box*
+**Note: You can search for and view any Azure subscriptions by clicking the carat icon next to the Managed Cloud account or typing in the filter accounts box**
 
-<img width="399" alt="Switch Account" src="https://user-images.githubusercontent.com/96761530/174084683-1708e248-1f7e-4ec0-91b1-8bd6af81b80c.png">
+<img width="470" alt="Switch Account Updated" src="https://user-images.githubusercontent.com/96761530/174619736-b765a898-a402-49b4-a48d-d01baabab0ff.png">
 
 **Step 5.** In the top navigation panel, click **My Accounts** >> **Microsoft Azure**.
 
-<img width="333" alt="Microsoft Azure" src="https://user-images.githubusercontent.com/96761530/174084762-373fac64-f8dd-446c-b6a9-a368eaef046a.png">
+<img width="366" alt="Microsoft Azure" src="https://user-images.githubusercontent.com/96761530/174607285-568b577d-e1ff-4df8-a682-2ec683ca7f6a.png">
 
 **Step 6.** Under **Microsoft Azure**, you can see the list of **Azure Subscriptions**. 
 
@@ -44,7 +44,7 @@ Azure V2 Upgrade
 Accessing Dedicated Hosting Portal
 --------------------------------------------
 
-**Note**: The Dedicated Hosting Portal (MyRackspace) will not be accessible unless the user is currently in a Dedicated Hosting Account.
+**Note**: The Dedicated Hosting Portal (MyRackspace) will only be accessible when the user is currently in a Dedicated Hosting Account.
 
 **How to switch into Dedicated Hosting Account**
 
@@ -52,13 +52,13 @@ Accessing Dedicated Hosting Portal
 
 <img width="356" alt="Switch Account for Dedicated" src="https://user-images.githubusercontent.com/96761530/174084944-f2718cbd-4635-4362-aa5b-ceb8ab8cd385.png">
 
-**Step 2.** Under **Switch Account**, select the **Rackspace Dedicated** Account from the list and click **Switch Account**.
+**Step 2.** Select the **Rackspace Dedicated** Account from the list and click **Switch Account**. The selected account can be **Set to Default** by selecting the **Checkbox**.
 
-<img width="450" alt="Switch to Dedicated" src="https://user-images.githubusercontent.com/96761530/174085048-17c4cb09-4571-4ef8-993e-9573871e82bc.png">
+<img width="470" alt="Switch Account for Dedicated updated" src="https://user-images.githubusercontent.com/96761530/174620192-4beff853-67cb-467a-82fa-213bbbf027d9.png">
 
 **Step 3.** In the top navigation panel, click **My Accounts** >> **Rackspace Dedicated**.
 
-<img width="302" alt="Rackspace Dedicated" src="https://user-images.githubusercontent.com/96761530/174086563-9c9a6757-9b51-42ba-827a-364e7d1feef0.png">
+<img width="349" alt="Rackspace Dedicated" src="https://user-images.githubusercontent.com/96761530/174618018-8236ce39-1db9-4b43-b28d-6cb6732796a0.png">
 
 
 Managing Permissions
@@ -68,9 +68,9 @@ Managing Permissions
 
 **Step 1.** In the top navigation panel, click **My Accounts** >> **Rackspace Dedicated**.
 
-*Note: If Rackspace Dedicated is grayed out and not clickable, this indicates that you are currently in the Managed Cloud account. You will need to switch back into the dedicated hosting account for Rackspace Dedicated to be clickable* 
+**Note: If Rackspace Dedicated is grayed out and not clickable, this indicates that you are currently in the Managed Cloud account. To access the Rackspace Dedicated, you will need to switch back into the dedicated hosting account.**
 
-<img width="302" alt="Rackspace Dedicated" src="https://user-images.githubusercontent.com/96761530/174085385-3ca4ba8e-c6a9-437b-9649-ec2e420c658b.png">
+<img width="349" alt="Rackspace Dedicated" src="https://user-images.githubusercontent.com/96761530/174618070-97dd2e43-1952-48df-9adb-f82f3eaad285.png">
 
 **Step 2.** In the MyRackspace navigation bar, click **Account** >> **Permissions**.
 
@@ -107,9 +107,9 @@ Managing Permissions
 
 <img width="351" alt="Login" src="https://user-images.githubusercontent.com/96761530/174084535-602a3f44-2ab0-4b32-9ab3-d5d6302b02c1.png">
 
-**Step 2.** Under **Switch Account**, select a specific **Manage Cloud Account** from the list and click **Switch Account**.
+**Step 2.** Select a specific **Manage Cloud Account** from the list and click **Switch Account**. The selected account can be **Set to Default** by selecting the **Checkbox**.
 
-<img width="399" alt="Switch Account" src="https://user-images.githubusercontent.com/96761530/174084683-1708e248-1f7e-4ec0-91b1-8bd6af81b80c.png">
+<img width="470" alt="Switch Account Updated" src="https://user-images.githubusercontent.com/96761530/174619816-407596eb-e384-4f9b-b032-60b3f1e44311.png">
 
 **Step 3.** In the top menu bar, click **Tickets** >> **Ticket List**.
 
@@ -117,7 +117,8 @@ Managing Permissions
 
 **Step 4.** The **Ticket List** opens and you can view either the most recently created ticket or last modified ticket at the top. 
 
-*Note: For additional functionality and features, please review the Fabric Ticketing overview documentation found [here](https://docs.rackspace.com/support/how-to/fabric-ticketing)*
+**Note: For additional functionality and features, please click [here](https://docs.rackspace.com/support/how-to/fabric-ticketing) to review the Fabric Ticketing overview document.**
+
 
 <img width="220" alt="View Ticket" src="https://user-images.githubusercontent.com/96761530/174087955-9f5cdd86-cc68-410d-905e-f9cf0f6d9cd7.png">
 
