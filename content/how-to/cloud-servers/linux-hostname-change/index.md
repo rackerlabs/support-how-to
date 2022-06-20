@@ -10,8 +10,6 @@ last_modified_by: Miguel Salgado
 product: Cloud Servers
 product_url: cloud-servers
 ---
-# Change a Linux Server's hostname
-
 By default, your server is started with the server's given name as the hostname. 
 Some software such as cPanel&reg; requires a valid fully qualified domain name (FQDN) for the hostname 
 to be used during their licensing verification system. This article describes how to change a server hostname 
