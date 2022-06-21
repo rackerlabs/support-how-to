@@ -20,6 +20,8 @@ product_url: rackspace-email
 
 ### Catch-All addressing
 
+**Important**: This feature has been **sunset**. Refer to the [Rackspace Email to Open-Xchange Migration FAQ](https://docs.rackspace.com/support/how-to/rackspace-email-all-articles)
+
 Catch-All addressing is a mail-routing server feature that you can enable and
 link to a live mailbox. This feature aims to collect all email that
 comes to misspelled or nonexistent mailboxes on your domain.
