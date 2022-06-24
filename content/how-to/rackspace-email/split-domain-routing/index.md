@@ -11,6 +11,8 @@ product: Rackspace Email
 product_url: rackspace-email
 ---
 
+**Important**: This feature has been **sunset**. Refer to the [Rackspace Email to Open-Xchange Migration FAQ](https://docs.rackspace.com/support/how-to/rackspace-email-all-articles)
+
 Split domain routing (SDR) allows you to have a single domain's
 mailboxes distributed between our system and an external system, working
 together as if they were in one environment. You use this primarily when
