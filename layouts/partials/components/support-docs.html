@@ -38,10 +38,8 @@
         </div>
 
         <div class="col-md-8"> 
-            <h3 class="sub-section-heading"><label for="product-select">Platform</label></h3>
+            <h3 class="sub-section-heading">Platform</h3>
             <div class="row">
-                <select name="product" id="product-select">
-                    <option value="">--Please select a product--</option>
                     <div class="col-md-12"><ul class="area">
                     <li id="aws" class="link"><a class="front-links" target="_blank" href="https://docs.rackspace.com/docs/fanatical-support-aws/" onclick="clickForActive(event);">Amazon Web Services</a></li>
                     <li id="gcp" class="link"><a class="front-links" target="_blank" href="https://docs.rackspace.com/docs/fanatical-support-gcp/" onclick="clickForActive(event);">Google Cloud Platform</a></li>
@@ -50,10 +48,15 @@
                     <li id="dedicated" class="link"><a class="front-links" target="_blank" href="https://docs.rackspace.com/support/how-to/dedicated-hosting/" onclick="clickForActive(event);">Rackspace Dedicated</a></li>
                     <li id="VMware" class="link"><a class="front-links" target="_blank" href="https://docs.rackspace.com/support/how-to/vmware-server-virtualization/" onclick="clickForActive(event);">VMware Cloud</a></li>
                    </ul>
-                   </div>
-                </select>      
+                   </div>    
             </div>
-        
+
+            <td><select name="Platform" id='platform'>
+                <option value="aws"><a class="front-links" target="_blank" href="https://docs.rackspace.com/docs/fanatical-support-aws/">Home</a></option>
+                <option value="gcp"><a class="front-links" target="_blank" href="https://docs.rackspace.com/docs/fanatical-support-gcp/">Contact</a></option>
+                <option value="Azure"><a class="front-links" target="_blank" href="https://docs.rackspace.com/support/how-to/#cloud-office">Sitemap</a></option>
+            </select></td><td>
+            
         <!-- <div class="row">   
             <div class="col-sm-12 col-md-6">
                 <div class="top-links" id="gs-main-page">
