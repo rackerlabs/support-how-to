@@ -11,10 +11,10 @@ product: Rackspace Fabric
 product_url: rackspace-fabric
 ---
 
-Azure V2 Upgrade
+# Azure V2 Upgrade
 =======================================
 
-**How to access Azure Subscriptions** 
+## How to access Azure Subscriptions
 
 **Step 1.** Access the URL https://manage.rackspace.com/
 
@@ -28,7 +28,7 @@ Azure V2 Upgrade
 
 **Step 4.** Select a specific **Manage Cloud Account** from the list and click **Switch Account**. The selected account can be **Set to Default** by selecting the **Checkbox**.
 
-**Note: You can search for and view any Azure subscriptions by clicking the carat icon next to the Managed Cloud account or typing in the filter accounts box**
+**Note: You can search for and view any Azure subscriptions by clicking the arrow icon next to the Managed Cloud account or typing in the filter accounts box**
 
 <img width="470" alt="Switch Account Updated" src="Switch Account Updated.png">
 
@@ -41,12 +41,11 @@ Azure V2 Upgrade
 <img width="470" alt="Azure Subscriptions" src="Azure Subscriptions.png">
 
 
-Accessing Dedicated Hosting Portal
---------------------------------------------
+## Accessing Dedicated Hosting Portal
 
 **Note**: The Dedicated Hosting Portal (MyRackspace) will only be accessible when the user is currently in a Dedicated Hosting Account.
 
-**How to switch into Dedicated Hosting Account**
+### How to switch into Dedicated Hosting Account
 
 **Step 1.** In the top navigation panel, click **Account** >> **Switch Account**.
 
@@ -61,10 +60,9 @@ Accessing Dedicated Hosting Portal
 <img width="349" alt="Rackspace Dedicated" src="Rackspace Dedicated.png">
 
 
-Managing Permissions
------------------------------
+## Managing Permissions
 
-**How to manage Azure Permissions**
+### How to manage Azure Permissions
 
 **Step 1.** In the top navigation panel, click **My Accounts** >> **Rackspace Dedicated**.
 
@@ -92,16 +90,14 @@ Managing Permissions
 
 
 
-**Managing Tickets for Azure v2**
-====================================
+## Managing Tickets for Azure v2
 
 **You can View, Update and Create tickets by following the procedures below**:
 
 
-**Viewing Azure v2 Tickets**
-----------------------------------------
+### Viewing Azure v2 Tickets
 
-**How to view Azure v2 Tickets**
+#### How to view Azure v2 Tickets
 
 **Step 1.** In the top navigation panel, click **Account** >> **Switch Account**.
 
@@ -123,10 +119,9 @@ Managing Permissions
 
 
 
-**Creating a Ticket for Azure v2 Subscriptions**
-------------------------------------
+### Creating a Ticket for Azure v2 Subscriptions
 
-**How to Create a Ticket**
+#### How to Create a Ticket
 
 **Step 1.** Ensure that you are currently in the correct Managed Cloud account by selecting the account dropdown. This will show you the account name and number of your current account.
 
