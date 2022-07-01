@@ -12,7 +12,6 @@ product_url: rackspace-fabric
 ---
 
 # Azure V2 Upgrade
-=======================================
 
 ## How to access Azure Subscriptions
 
