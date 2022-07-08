@@ -125,18 +125,17 @@ To give a user account permissions without product permissions, use the
 following steps:
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
+<img width="533" alt="rbac1" src="rbac1.png">
 2. In the top navigation bar, click **Account > User Management**.
+<img width="379" alt="rbac2" src="rbac2.png">
 3. Click on the user for whom you want to assign permissions.
-4. In the **Product Permissions** area under **Rackspace Cloud Product
-   Permissions** and then under **PRODUCT ACCESS**, click **Edit**.
-
+<img width="919" alt="rbac3" src="rbac3.png">
+4. Click **Edit** under **PRODUCT ACCESS** and under **Rackspace Cloud** in the **Product Permissions** section.
+<img width="900" alt="rbac4" src="rbac4.png">
    The **Rackspace Cloud Permissions** window opens.
-
-5. Under **Cloud Access**, choose the type of global access you want the 
-   user to have, including a **Custom** option, or select the individual
-   product and select from the options available for it, usually **ADMIN**,
-   **CREATOR, or **OBSERVER**.
-6. Then click **Save**.
+<img width="203" alt="rbac5" src="rbac5.png">
+5. Under **Cloud Access**, choose the type of global access you want the user to have, including a **Custom** option, or select the individual product and select from the options available for it, usually **ADMIN**, **CREATOR**, or **OBSERVER** as shown in above image.
+6. Then, click **Save**.
 
 **Note**: A user may be assigned both a product role and an account role.
 
