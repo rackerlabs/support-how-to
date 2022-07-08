@@ -9,7 +9,7 @@ last_modified_date: '2022-07-08'
 last_modified_by: Asmita Nakwa
 ---
 
-Rackspace uses an _account registration code_ to verify new users on an account, much like two-factor authentication. 
+Rackspace uses an _Account Registration Code_ to verify new users on an account, much like two-factor authentication. 
 <img width="776" alt="accountregistrationcode1" src="accountregistrationcode1.png">
 If an account administrator adds you as a new user, an account registration code is generated for your new user account and you receive an email notification that walks you through how to log in to the [Cloud Control Panel](https://login.rackspace.com) for the first time. Your first login is the only time that you need the
 registration code, unless you forget your user name.
