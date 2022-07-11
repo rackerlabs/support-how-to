@@ -15,4 +15,4 @@ If an account administrator adds you as a new user, an account registration code
 
 The primary contact on the account is the only person who can change this code. When the primary contact adds a new user, the new user receives a registration code. The primary contact must give the new user their code.
 
-If you are the primary contact on the account and you forget the code and need to reset your login, contact your **Account Manager** or **Rackspace Support**.
+If you are the primary contact on the account and you forget the code and need to reset your login, then contact your **Account Manager** or **Rackspace Support**.
