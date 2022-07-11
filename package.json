@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "netlify-cli": "^8.14.1"
+  }
+}
