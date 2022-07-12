@@ -25,7 +25,8 @@ The following operating systems are supported for both Dedicated and Managed Ope
 | CentOS&reg; 7 | Yes | Yes | Yes | Yes |
 | Debian&reg; 11 (Bullseye) | - | Yes | Yes | Yes |
 | Debian 10 (Buster) | - | Yes | Yes | Yes |
-| Oracle&reg; Linux 8 | Yes | - | Yes | Yes |
+| Oracle&reg; Linux 9 | tba | - | tba | tba |
+| Oracle Linux 8 | Yes | - | Yes | Yes |
 | Oracle Linux 7 | Yes | - | Yes | Yes |
 | Red Hat&reg; Enterprise Linux&reg; 9 | tba | tba | tba | tba |
 | Red Hat Enterprise Linux&reg; 8 | Yes | Yes | Yes | Yes |
