@@ -29,7 +29,7 @@ The following operating systems are supported for both Dedicated and Managed Ope
 | Oracle Linux 8 | Yes | - | Yes | Yes |
 | Oracle Linux 7 | Yes | - | Yes | Yes |
 | Red Hat&reg; Enterprise Linux&reg; 9 | tba | tba | tba | tba |
-| Red Hat Enterprise Linux&reg; 8 | Yes | Yes | Yes | Yes |
+| Red Hat Enterprise Linux 8 | Yes | Yes | Yes | Yes |
 | Red Hat Enterprise Linux 7 | Yes | Yes | Yes | Yes |
 | Rocky Linux&reg; 9 | tba | tba | tba | tba |
 | Rocky Linux 8 | Yes | Yes | Yes | Yes |
