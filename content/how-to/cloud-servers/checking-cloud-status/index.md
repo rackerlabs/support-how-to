@@ -27,3 +27,8 @@ to view any related messages.
 You can also click on a service to view its status by data center.
 
 {{<image src="picture2.png" alt="" title="">}}
+  
+If you click on tab Other Status Pages, you can view status of Cloud Office, AWS, GCP and Microsoft Azure.
+</br>
+
+Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
