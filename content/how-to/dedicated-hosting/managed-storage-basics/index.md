@@ -10,8 +10,6 @@ last_modified_by: Osvaldo Ambrosio
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
-# Manage Storage Basics
-
 The term storage (short for computer data storage) generally refers to any method of saving bits to a medium in a non-volatile way; this could be local hard drives, a SSD drive and so forth. At Rackspace, the term managed storage (often just shortened to storage) refers to a remotely-connected external storage device such as SAN, DAS, or NAS. This article describes storage offerings at Rackspace and how they relate to the supported Linux distributions in use, collectively referred to as the Managed Storage Offering at Rackspace.
 
 ### Terms and definitions
