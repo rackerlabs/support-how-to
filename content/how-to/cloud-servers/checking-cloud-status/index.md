@@ -19,14 +19,14 @@ emergency outages.
 
 The page lists all Cloud services, their current status, and a recent history.
 
-<image src="picture1.png">
+{{<image src="picture1.png">}}
 
 If a service has an alert, you can click the icon for that day
 to view any related messages.
 
 You can also click on a service to view its status by data center.
 
-<image src="picture2.png">
+{{<image src="picture2.png">}}
   
 If you click on tab Other Status Pages, you can view status of Cloud Office, AWS, GCP and Microsoft Azure.
 </br>
