@@ -5,184 +5,134 @@ title: Learn about Role-Based Access Control (RBAC)
 type: article
 created_date: '2013-04-14'
 created_by: Renee Rendon
-last_modified_date: '2019-10-08'
-last_modified_by: Catherine Richardson
+last_modified_date: '2022-07-15'
+last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
 ---
 
-**Previous section:** [Getting started with Role-Based Access Control
+**Previous Section:** [Getting started with Role-Based Access Control
 (RBAC)](/support/how-to/getting-started-with-role-based-access-control-rbac)
 
-This article answers basic questions about the Role-Based Access Control
-(RBAC) service.
+This article answers basic questions about the Role-Based Access Control (RBAC) service.
 
 **Note:** The RBAC service is currently unavailable for RackConnect.
 
-### What is RBAC?
+### Overview
 
-RBAC is a secure method of restricting account access to authorized
-users. This method enables account owners to add users and assign roles.
-Each role has specific permissions that Rackspace has defined.
-RBAC enables users to perform actions based on the scope of their
-assigned roles.
+RBAC is a secure method of restricting account access to authorized users. This method enables account owners to add users and assign roles. Each role has specific permissions that Rackspace has defined. RBAC enables users to perform actions based on the scope of their assigned roles.
 
-Account owners can create up to 100 users, each with
-their own password and API key.
+Account owners can create up to 100 users, each with their own password and API key.
 
-### Why implement RBAC?
+### Implementation of RBAC
 
-RBAC gives customers a greater degree of control over cloud resource use,
-with an additional layer of system security.
+RBAC gives customers a greater degree of control over cloud resource use, with an additional layer of system security.
 
-### What types of users does RBAC have?
+### Types of Users
 
 RBAC has the following types of users:
 
--   **Account owner** - The account owner is the primary contact for the
-    account and has full permissions to execute all capabilities for
-    every product available. Each account has a single account owner.
+-   **Account owner** - The account owner, who serves as the main point of contact for the account, is fully authorized to use all available product features. There is just one account owner per account.
 
--   **Account user** - The account user is a user who has been added by
-    the account owner and has been assigned to specific product or
-    account roles.
+-   **Account user** - The account user is a user that the account owner added and who has been given access to particular products or account roles.
 
-### What actions are restricted to the account owner?
+### Actions Performed by Account Owner
 
 The account owner is the only user who can perform the following actions:
 
 -   Create new users, modify existing users, and delete users.
 -   Make changes to contacts, including the billing contact.
 
-### What is a role?
+### Role
 
-The term *role* describes the level of access that is associated with a user's
-account. RBAC limits risk by ensuring that users do not have access to
-features that extend beyond their areas of expertise or responsibility.
+The term *role* describes the level of access that is associated with a user's account. RBAC limits risk by ensuring that users do not have access to features that extend beyond their areas of expertise or responsibility.
 
-A role can grant access to all of the resources relating to a single product
-or to multiple products. RBAC does not restrict access to specific files,
-directories, or servers.
+A role can grant access to all of the resources relating to a single product or to multiple products. RBAC does not restrict access to specific files, directories, or servers.
 
-### What roles are available through RBAC?
+### Roles Available Through RBAC
 
 This section describes the roles that are available through RBAC.
 
-#### Multiple-product roles
+#### Multiple-product Roles
 
-Multiple-product roles grant access to resources that are associated with
-multiple products.
+Multiple-product roles grant access to resources that are associated with multiple products.
 
 RBAC has the following multiple-product roles:
 
--   **Full Access** - The Full Access role has permissions to
-    create, read, update, and delete resources within multiple
-    designated products.
+-   **Full Access** - The Full Access role has permissions to create, read, update, and delete resources within multiple designated products.
 
--   **Read-only Access** - The Read-only Access role has permissions to
-    view resources within multiple designated products.
+-   **Read-only Access** - The Read-only Access role has permissions to view resources within multiple designated products.
 
 These permissions apply to products that are RBAC-enabled.
 
-**Note**: Users with Full Access and Read-Only Access roles have
-automatic access to all new products that become RBAC-enabled, with the
-exception of account administration tasks such as billing. Product roles
-do not include account roles.
+**Note**: Users with Full Access and Read-Only Access roles have automatic access to all new products that become RBAC-enabled, with the exception of account administration tasks such as billing. Product roles do not include account roles.
 
-#### Custom roles
+#### Custom Roles
 
-Custom roles enable account owners to assign users different permissions for
-different products. After a user is assigned custom roles, those roles can
-only be changed on a per-product basis.
+Custom roles enable account owners to assign users different permissions for different products. After a user is assigned custom roles, those roles can only be changed on a per-product basis.
 
 RBAC has the following custom roles:
 
--   **Product:admin** - The Product Admin role has permissions to
-    create, read, update, and delete resources for the designated
-    product.
+-   **Product:Admin** - The Product Admin role has permissions to create, read, update, and delete resources for the designated product.
 
--   **Product:creator** - The Product Creator role has permissions to
-    create, read, and update resources for the designated product. This
-    role cannot delete a resource. All destructive actions are prohibited.
+-   **Product:Creator** - The Product Creator role has permissions to create, read, and update resources for the designated product. This role cannot delete a resource. All destructive actions are prohibited.
 
--   **Product:observer** - The Product Observer role has permissions to
-    read given resources for the designated product. This role is read-only.
+-   **Product:Observer** - The Product Observer role has permissions to read given resources for the designated product. This role is read-only.
 
-#### Account roles
+#### Account Roles
 
-Assign the following account roles to the users who manage your Rackspace
-customer account:
+Assign the following account roles to the users who manage your Rackspace customer account:
 
--   **Billing:admin** - The Billing Admin role has
-    permissions to create, read, update, and delete billing and
-    payment resources for the designated product.
+-   **Billing:admin** - The Billing Admin role has permissions to create, read, update, and delete billing and payment resources for the designated product.
 
--   **Billing:observer** - The Billing Observer role has
-    permissions to read billing and payment resources for the
-    designated product. This role is read-only.
+-   **Billing:observer** - The Billing Observer role has permissions to read billing and payment resources for the designated product. This role is read-only.
 
-To give a user account permissions without product permissions, use the
-following steps:
+To give a user account permissions without product permissions, use the following steps:
 
-1. Log in to the [Cloud Control Panel](https://login.rackspace.com).
+1. Log in to the [Cloud Control Panel](https://login.rackspace.com) as shown in below image.
+<img width="533" alt="rbac1" src="rbac1.png">
 2. In the top navigation bar, click **Account > User Management**.
-3. Click on the user for whom you want to assign permissions.
-4. In the **Product Permissions** area under **Rackspace Cloud Product
-   Permissions** and then under **PRODUCT ACCESS**, click **Edit**.
-
+<img width="379" alt="rbac2" src="rbac2.png">
+3. Select the user for whom you wish to set permissions by clicking.
+<img width="919" alt="rbac3" src="rbac3.png">
+4. Click **Edit** under the **PRODUCT ACCESS** tab in the **Rackspace Cloud** under **Product Permissions** section.
+<img width="900" alt="rbac4" src="rbac4.png">
    The **Rackspace Cloud Permissions** window opens.
-
-5. Under **Cloud Access**, choose the type of global access you want the 
-   user to have, including a **Custom** option, or select the individual
-   product and select from the options available for it, usually **ADMIN**,
-   **CREATOR, or **OBSERVER**.
-6. Then click **Save**.
+<img width="203" alt="rbac5" src="rbac5.png">
+5. Under **Cloud Access**, choose the type of global access you want the user to have, including a **Custom** option, or select the individual product and select from the options available for it, usually **ADMIN**, **CREATOR, **OBSERVER**, or **None**.
+6. Then click **Save** or **Update**.
 
 **Note**: A user may be assigned both a product role and an account role.
 
-### What are the contact types in the Cloud Control Panel?
+### Types of Contact in Cloud Control Panel
 
-Contact types are similar to tags. Using contact types can help account owners
-manage users. The Cloud Control Panel offers the following contact types:
+Contact types are similar to tags. Using contact types can help account owners to manage users. The Cloud Control Panel offers the following contact types:
 
--   **Administrative** - This contact type is assigned to users who
-    primarily handle administrative duties such as billing
-    and payments. Administrative contacts do not receive technical
-    alerts from our automated systems. No specific account implications
-    come with this role. For example, when an administrative user changes
-    their address, the change does not affect the billing address for the
-    account.
+-   **Administrative** - Users that primarily perform administrative tasks, such as billing and payments, are given this contact category. Our automated systems do not send technical notifications to administrative contacts. This role has no particular significance for your accounts. For instance, the billing address for the account remains unaffected when an administrative user changes their address.
 
--   **Technical** - This contact type is assigned to users who
-    primarily perform technical tasks. These users receive monitoring
-    alerts by default.
+-   **Technical** - Users that accomplish mostly technical tasks are assigned this contact type. These users automatically get monitoring alerts.
 
-### When do I need to implement RBAC?
+### Need for Implementation of RBAC
 
 Implement RBAC when you want to achieve the following results:
 
--   Minimize downtime and accidental changes to cloud resources by restricting
-    account access to only a few people.
+-   Minimize downtime and accidental changes to cloud resources by restricting account access to only a few people.
 
--   Help prevent unauthorized access to cloud products by assigning each user
-    their own credentials.
+-   Help prevent unauthorized access to cloud products by assigning each user their own credentials.
 
 -   Synchronize cloud product access with the functions of an employee's job.
 
-### Who can use RBAC?
+### Use of RBAC
 
 RBAC is available to all Rackspace customers.
 
-### How can I get RBAC?
+### Activation of RBAC
 
-RBAC is automatically activated when the account owner adds users to an
-account. Account owners can add users through the
-[Cloud Control Panel](https://login.rackspace.com/) or the API.
+RBAC is automatically activated when the account owner adds users to an account. Account owners can add users through the [Cloud Control Panel](https://login.rackspace.com/) or the API.
 
-For more information about specific RBAC-related APIs, see the [Rackspace
-API documentation](https://docs.rackspace.com/docs/).
+For more information about specific RBAC-related APIs, see the [Rackspace API documentation](https://docs.rackspace.com/docs/).
 
-### Which products are currently RBAC-enabled?
+### RBAC-enabled Products
 
 The following Rackspace products are RBAC-enabled:
 
@@ -204,17 +154,16 @@ The following Rackspace products are RBAC-enabled:
 -   [Rackspace CDN](/support/how-to/rackspace-cdn)
 -   [Rackspace billing FAQ](/support/how-to/rackspace-billing-faq)
 
-### Which products will be RBAC-enabled in the future?
+#### Future RBAC-enabled Products
 
 New products are RBAC-enabled as they are launched.
 
-### Which products will not have RBAC?
+### Product Without RBAC
 
 The following Rackspace products will not have RBAC:
 
 -   RackConnect
 
-### Next section
+### Next Section
 
-[Use Role-Based Access Control
-(RBAC)](/support/how-to/managing-role-based-access-control-rbac)
+[Use Role-Based Access Control (RBAC)](/support/how-to/managing-role-based-access-control-rbac)
