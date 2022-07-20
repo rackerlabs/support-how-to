@@ -19,7 +19,7 @@ product_url: rackspace-fabric
 
 **Step 2.** Enter your Login credentials and click **Log In**.The application Home Page opens.
 
-{{<image width="400" alt="Login Credentials" src="login-credentials.png">}}
+{{<img width="400" alt="Login Credentials" src="login-credentials.png">}}
 <!-- 
 **Step 3.** In the top navigation panel, click **Account** >> **Switch Account**.
 
