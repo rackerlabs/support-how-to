@@ -20,7 +20,7 @@ product_url: rackspace-fabric
 **Step 2.** Enter your Login credentials and click **Log In**.The application Home Page opens.
 
 {{<image width="400" alt="Login Credentials" src="login-credentials.png">}}
-
+<!-- 
 **Step 3.** In the top navigation panel, click **Account** >> **Switch Account**.
 
 {{<image width="351" alt="Login" src="login.png">}}
@@ -140,4 +140,4 @@ Note: You can also Create a ticket by navigating **Ticket List** >> **Create Tic
 
 **Step 5.** In **Issue Details** section, fill in details of Subject, Description, and Recipient(s). Optionally you can upload attachments up to 20MB per file. Click **Submit** and your ticket will be created.
 
-{{<image width="379" alt="Issue Details" src="issue-details.png">}}
+{{<image width="379" alt="Issue Details" src="issue-details.png">}} -->
