@@ -7,6 +7,8 @@ created_date: '2022-06-07'
 created_by: Rohit Rajput
 last_modified_date: '2022-07-19'
 last_modified_by: Rohit Rajput
+product: Rackspace Fabric
+product_url: rackspace-fabric
 ---
 
 # Azure V2 Upgrade
@@ -17,8 +19,9 @@ last_modified_by: Rohit Rajput
 
 **Step 2.** Enter your Login credentials and click **Log In**.The application Home Page opens.
 
-{{<image src="login-credentials.png" alt="Login Credentials" title="">}}
-<!-- 
+<img width="400" alt="Login Credentials" src="/support/how-to/azure-v2-upgrade/login-credentials.png">
+ 
+<!--
 **Step 3.** In the top navigation panel, click **Account** >> **Switch Account**.
 
 {{<image width="351" alt="Login" src="login.png">}}
