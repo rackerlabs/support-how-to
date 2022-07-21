@@ -85,7 +85,7 @@ product_url: rackspace-fabric
 
 **Step 4.** **Select/Deselect** the **Checkboxes** to manage the members of the User Groups and click **Save Changes**.
 
-<img width="306" alt="Edit Group 1" src="/support/how-to/azure-v2-upgrade/edit-goup-1.png">
+<img width="306" alt="Edit Group 1" src="/support/how-to/azure-v2-upgrade/edit-group-1.png">
 
 
 
