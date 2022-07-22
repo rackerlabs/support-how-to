@@ -32,22 +32,22 @@ Also, new users receive an email from Rackspace notifying them that they have be
 To create a new user, use the following steps:
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com/).
-{{<img width="508" alt="multi-account-RBAC-login" src="ulti-account-RBAC-login.png">}}
+{{<image width="508" alt="multi-account-RBAC-login" src="/support/how-to/managing-role-based-access-control-rbac/multi-account-RBAC-login.png">}}
 
 2. In the upper-right corner of the control panel, click **Account > User Management.**
-{{<img width="946" alt="MultiAccountRBAC1" src="MultiAccountRBAC1.png">}}
+{{<image width="946" alt="multi_account_rbac1" src="/support/how-to/managing-role-based-access-control-rbac/multi_account_rbac1.png">}}
 
 3. On the **User & Permissions** page, click **Create User**.
-{{<img width="945" alt="MultiAccountRBAC2" src="MultiAccountRBAC2.png">}}
+{{<image width="945" alt="multi_account_rbac2" src="multi_account_rbac2.png">}}
 
 4. Enter information in the **Create a User** section as shown in below image.
-{{<img width="314" alt="MultiAccountRBAC3" src="MultiAccountRBAC3.png">}}
+{{<image width="314" alt="multi_account_rbac3" src="multi_account_rbac3.png">}}
 
 5. Select a **Contact Type** to assign to the user. RBAC has the following
    contact types:
    -  Technical
    -  Administrative
-{{<img width="275" alt="MultiAccountRBAC4" src="MultiAccountRBAC4.png">}}
+{{<image width="275" alt="multi_account_rbac4" src="multi_account_rbac4.png">}}
    
    These contact types are for reference only. They do not affect the user's
    permissions.
@@ -56,18 +56,18 @@ To create a new user, use the following steps:
 
 7. On the page that opens, in the **Rackspace Account Permissions** section, you can either assign the user the **Account Administrator** role, or assign roles for the **Manage Users** area, the **Billing and Payments** area, the **Tickets** area, or **Product Access** separately.
 
-{{<img width="554" alt="MultiAccountRBAC5" src="MultiAccountRBAC5.png">}}
+{{<image width="554" alt="multi_account_rbac5" src="multi_account_rbac5.png">}}
    To assign a user the account administrator role, click the toggle button next to **Account Administrator**.
 
-{{<img width="624" alt="MultiAccountRBAC6" src="MultiAccountRBAC6.png">}}
+{{<image width="624" alt="multi_account_rbac6" src="multi_account_rbac6.png">}}
 
    Alternatively, to assign different permissions for different areas, scroll to the **AREA** section and select the **PERMISSION** that you want to assign by using the pencil menu to the right of each area.
 
-{{<img width="554" alt="MultiAccountRBAC7" src="MultiAccountRBAC7.png">}}
+{{<image width="554" alt="multi_account_rbac7" src="multi_account_rbac7.png">}}
 
 8. Optionally, in the **Product Permissions** section, assign product permissions to the user. Click tab for a product, and then **Edit** the **PRODUCT ACCESS**.
 
-{{<img width="680" alt="MultiAccountRBAC8" src="MultiAccountRBAC8.png">}}
+{{<image width="680" alt="multi_account_rbac8" src="multi_account_rbac8.png">}}
 
 The **Rackspace Cloud** tab enables you to assign either permissions for all Rackspace Cloud products, or per-product custom roles.
 
