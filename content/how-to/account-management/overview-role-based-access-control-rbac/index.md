@@ -5,7 +5,7 @@ title: Learn about Role-Based Access Control (RBAC)
 type: article
 created_date: '2013-04-14'
 created_by: Renee Rendon
-last_modified_date: '2022-07-15'
+last_modified_date: '2022-07-22'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -19,17 +19,14 @@ This article answers basic questions about the Role-Based Access Control (RBAC) 
 **Note:** The RBAC service is currently unavailable for RackConnect.
 
 ### Overview
-
 RBAC is a secure method of restricting account access to authorized users. This method enables account owners to add users and assign roles. Each role has specific permissions that Rackspace has defined. RBAC enables users to perform actions based on the scope of their assigned roles.
 
 Account owners can create up to 100 users, each with their own password and API key.
 
 ### Implementation of RBAC
-
 RBAC gives customers a greater degree of control over cloud resource use, with an additional layer of system security.
 
 ### Types of Users
-
 RBAC has the following types of users:
 
 -   **Account owner** - The account owner, who serves as the main point of contact for the account, is fully authorized to use all available product features. There is just one account owner per account.
@@ -37,26 +34,21 @@ RBAC has the following types of users:
 -   **Account user** - The account user is a user that the account owner added and who has been given access to particular products or account roles.
 
 ### Actions Performed by Account Owner
-
 The account owner is the only user who can perform the following actions:
 
 -   Create new users, modify existing users, and delete users.
 -   Make changes to contacts, including the billing contact.
 
 ### Role
-
 The term *role* describes the level of access that is associated with a user's account. RBAC limits risk by ensuring that users do not have access to features that extend beyond their areas of expertise or responsibility.
 
 A role can grant access to all of the resources relating to a single product or to multiple products. RBAC does not restrict access to specific files, directories, or servers.
 
 ### Roles Available Through RBAC
-
 This section describes the roles that are available through RBAC.
 
 #### Multiple-product Roles
-
 Multiple-product roles grant access to resources that are associated with multiple products.
-
 RBAC has the following multiple-product roles:
 
 -   **Full Access** - The Full Access role has permissions to create, read, update, and delete resources within multiple designated products.
@@ -68,9 +60,7 @@ These permissions apply to products that are RBAC-enabled.
 **Note**: Users with Full Access and Read-Only Access roles have automatic access to all new products that become RBAC-enabled, with the exception of account administration tasks such as billing. Product roles do not include account roles.
 
 #### Custom Roles
-
 Custom roles enable account owners to assign users different permissions for different products. After a user is assigned custom roles, those roles can only be changed on a per-product basis.
-
 RBAC has the following custom roles:
 
 -   **Product:Admin** - The Product Admin role has permissions to create, read, update, and delete resources for the designated product.
@@ -80,7 +70,6 @@ RBAC has the following custom roles:
 -   **Product:Observer** - The Product Observer role has permissions to read given resources for the designated product. This role is read-only.
 
 #### Account Roles
-
 Assign the following account roles to the users who manage your Rackspace customer account:
 
 -   **Billing:admin** - The Billing Admin role has permissions to create, read, update, and delete billing and payment resources for the designated product.
@@ -90,16 +79,22 @@ Assign the following account roles to the users who manage your Rackspace custom
 To give a user account permissions without product permissions, use the following steps:
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com) as shown in below image.
-<img width="533" alt="rbac1" src="rbac1.png">
+{{<img width="533" alt="rbac1" src="rbac1.png">}}
+
 2. In the top navigation bar, click **Account > User Management**.
-<img width="379" alt="rbac2" src="rbac2.png">
+{{<img width="379" alt="rbac2" src="rbac2.png">}}
+
 3. Select the user for whom you wish to set permissions by clicking.
-<img width="919" alt="rbac3" src="rbac3.png">
+{{<img width="919" alt="rbac3" src="rbac3.png">}}
+
 4. Click **Edit** under the **PRODUCT ACCESS** tab in the **Rackspace Cloud** under **Product Permissions** section.
-<img width="900" alt="rbac4" src="rbac4.png">
-   The **Rackspace Cloud Permissions** window opens.
-<img width="203" alt="rbac5" src="rbac5.png">
+{{<img width="900" alt="rbac4" src="rbac4.png">}}
+
+The **Rackspace Cloud Permissions** window opens.
+{{<img width="203" alt="rbac5" src="rbac5.png">}}
+
 5. Under **Cloud Access**, choose the type of global access you want the user to have, including a **Custom** option, or select the individual product and select from the options available for it, usually **ADMIN**, **CREATOR, **OBSERVER**, or **None**.
+
 6. Then click **Save** or **Update**.
 
 **Note**: A user may be assigned both a product role and an account role.
@@ -113,7 +108,6 @@ Contact types are similar to tags. Using contact types can help account owners t
 -   **Technical** - Users that accomplish mostly technical tasks are assigned this contact type. These users automatically get monitoring alerts.
 
 ### Need for Implementation of RBAC
-
 Implement RBAC when you want to achieve the following results:
 
 -   Minimize downtime and accidental changes to cloud resources by restricting account access to only a few people.
@@ -123,17 +117,14 @@ Implement RBAC when you want to achieve the following results:
 -   Synchronize cloud product access with the functions of an employee's job.
 
 ### Use of RBAC
-
 RBAC is available to all Rackspace customers.
 
 ### Activation of RBAC
-
 RBAC is automatically activated when the account owner adds users to an account. Account owners can add users through the [Cloud Control Panel](https://login.rackspace.com/) or the API.
 
 For more information about specific RBAC-related APIs, see the [Rackspace API documentation](https://docs.rackspace.com/docs/).
 
 ### RBAC-enabled Products
-
 The following Rackspace products are RBAC-enabled:
 
 -   [Cloud Servers](/support/how-to/cloud-servers)
@@ -154,16 +145,12 @@ The following Rackspace products are RBAC-enabled:
 -   [Rackspace CDN](/support/how-to/rackspace-cdn)
 -   [Rackspace billing FAQ](/support/how-to/rackspace-billing-faq)
 
-#### Future RBAC-enabled Products
-
+#### **Future RBAC-enabled Products**
 New products are RBAC-enabled as they are launched.
 
 ### Product Without RBAC
-
 The following Rackspace products will not have RBAC:
-
 -   RackConnect
 
 ### Next Section
-
 [Use Role-Based Access Control (RBAC)](/support/how-to/managing-role-based-access-control-rbac)
