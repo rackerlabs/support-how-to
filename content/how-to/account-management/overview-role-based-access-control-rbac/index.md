@@ -79,19 +79,19 @@ Assign the following account roles to the users who manage your Rackspace custom
 To give a user account permissions without product permissions, use the following steps:
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com) as shown in below image.
-{{<image width="533" alt="rbac1" src="/support/how-to/overview-role-based-access-control-rbac/rbac1.png">}}
+<image width="533" alt="rbac1" src="/support/how-to/overview-role-based-access-control-rbac/rbac1.png">
 
 2. In the top navigation bar, click **Account > User Management**.
-{{<image width="379" alt="rbac2" src="/support/how-to/overview-role-based-access-control-rbac/rbac2.png">}}
+<image width="379" alt="rbac2" src="/support/how-to/overview-role-based-access-control-rbac/rbac2.png">
 
 3. Select the user for whom you wish to set permissions by clicking.
-{{<image width="919" alt="rbac3" src="/support/how-to/overview-role-based-access-control-rbac/rbac3.png">}}
+<image width="919" alt="rbac3" src="/support/how-to/overview-role-based-access-control-rbac/rbac3.png">
 
 4. Click **Edit** under the **PRODUCT ACCESS** tab in the **Rackspace Cloud** under **Product Permissions** section.
-{{<image width="900" alt="rbac4" src="/support/how-to/overview-role-based-access-control-rbac/rbac4.png">}}
+<image width="900" alt="rbac4" src="/support/how-to/overview-role-based-access-control-rbac/rbac4.png">
 
 The **Rackspace Cloud Permissions** window opens.
-{{<image width="203" alt="rbac5" src="/support/how-to/overview-role-based-access-control-rbac/rbac5.png">}}
+<image width="203" alt="rbac5" src="/support/how-to/overview-role-based-access-control-rbac/rbac5.png">
 
 5. Under **Cloud Access**, choose the type of global access you want the user to have, including a **Custom** option, or select the individual product and select from the options available for it, usually **ADMIN**, **CREATOR, **OBSERVER**, or **None**.
 
