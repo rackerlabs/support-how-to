@@ -34,7 +34,7 @@ This article outlines the **Fanatical Experience&trade;** we offer and the **Rac
 ### Exchange Online
 
 
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| **Feature** | **Fanatical Support** | **Rackspace Application Services (Rackspace Elastic Engineering)** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
 | [DKIM](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?view=o365-worldwide) | Basic troubleshooting | Tailored solutions and guidance | &check; | &check; | &check; |
 | [DMARC](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/use-dmarc-to-validate-email?view=o365-worldwide) | Basic troubleshooting | Tailored solutions and guidance | &check; | &check; | &check; |
