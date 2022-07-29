@@ -40,7 +40,7 @@ Support time frames for the base channes:
 - RHEL 7 (ends June 30, 2024)
 - RHEL 8 (ends May 31, 2029)
 
-> *Note: RHEL is not available on Rackspace Cloud for customers whose accounts were created after 30th June 2016 due to Red Hat licensing restrictions. Customers with existing accounts will be able to continue to create new RHEL cloud servers. CentOS is the most similar alternative option.
+**NOTE:** RHEL is not available on Rackspace Cloud for customers whose accounts were created after 30th June 2016 due to Red Hat licensing restrictions. Customers with existing accounts will be able to continue to create new RHEL cloud servers. CentOS is the most similar alternative option.
 
 #### CentOS
 CentOS is a community project based on RHEL which is developed, maintained and supported by its community. Some key differences between RHEL and CentOS:
@@ -116,14 +116,14 @@ End of Life (EOL) is the date beyond which the operating system or software pack
 Any support Rackspace provides for servers running an EOL operating system falls under our reasonable endeavours policy and no tools or future Rackspace updates (for example, to our monitoring agents) will be guaranteed to continue working on the EOL operating system. EOL operating systems can no longer be provisioned. See  https://www.rackspace.com/information/legal/eolterms for more detail on support limitations of EOL releases.
 
 #### Related articles
-[Linux patching for Cloud Servers with the Managed Operations service level][LPatch]
-[Patching base images][Pimg]
-[Linux Spheres of Support for Dedicated and Managed Operations][LSph]
+- [Linux patching for Cloud Servers with the Managed Operations service level][LPatch]
+- [Patching base images][Pimg]
+- [Linux Spheres of Support for Dedicated and Managed Operations][LSph]
 
 #### References
-[RHEL support life cycle][rhel]
-[General questions about CentOS][centos]
-[Unattended-upgrades (Ubuntu)][ubuntu]
+- [RHEL support life cycle][rhel]
+- [General questions about CentOS][centos]
+- [Unattended-upgrades (Ubuntu)][ubuntu]
 
 [LPatch]: <https://docs.rackspace.com/support/how-to/linux-patching-for-cloud-servers-managed-operations-service-level/>
 [PImg]: <https://docs.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-images-product-concepts/base-images/patching-base-images>
