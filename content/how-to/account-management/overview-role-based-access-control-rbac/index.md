@@ -153,4 +153,4 @@ The following Rackspace products will not have RBAC:
 -   RackConnect
 
 ### Next Section
-[Use Role-Based Access Control (RBAC)](/support/how-to/managing-role-based-access-control-rbac)
+[Use Role-Based Access Control (RBAC)](/support/how-to/use-role-based-access-control-rbac)

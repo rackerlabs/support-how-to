@@ -5,7 +5,7 @@ title: Account Management FAQ
 type: article
 created_date: '2019-05-16'
 created_by: Stephanie Fillmon
-last_modified_date: '2020-07-15'
+last_modified_date: '2020-07-28'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -30,7 +30,7 @@ Yes, RBAC is available to all Rackspace customers.
 
 {{< accordion title="When I add a user login to an existing contact, can I configure custom role assignments?" col="in" href="accordion19" >}}
 
-Yes, you can. For instructions, see [Use Role-Based Access Control (RBAC)](/support/how-to/managing-role-based-access-control-rbac).
+Yes, you can. For instructions, see [Use Role-Based Access Control (RBAC)](/support/how-to/use-role-based-access-control-rbac).
 {{</ accordion >}}
 
 {{< accordion title="How can I find out a user's capabilities?" col="in" href="accordion20" >}}
@@ -97,7 +97,7 @@ Following is the initial pop-up window that appears when you enable RBAC.
 
 For information about additional products that will be RBAC-enabled in the future, refer to [Learn about Role Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac).
 
-For information about changing your admin credentials, refer to [Use Role-Based Access Control (RBAC)](/support/how-to/managing-role-based-access-control-rbac).
+For information about changing your admin credentials, refer to [Use Role-Based Access Control (RBAC)](/support/how-to/use-role-based-access-control-rbac).
 
 For access to the Cloud Control Panel, log in at [https://login.rackspace.com/](https://login.rackspace.com/).
 
