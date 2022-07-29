@@ -3,7 +3,7 @@ permalink: using-rbac-with-myrackspace
 audit_date: '2022-07-28'
 title: Using RBAC with MyRackspace
 type: article
-created_date: '2013-06-28'
+created_date: '2022-07-28'
 created_by: Asmita Nakwa
 last_modified_date: '2022-07-28'
 last_modified_by: Asmita Nakwa
@@ -74,7 +74,7 @@ You can use the four tabs as shown in below image to assign permissions in the f
 - **Manage groups**
 - **Global permissions**
 
-#### Assign By User:
+#### Assign By User
 Using this method, you can choose a person and give them account-level **Direct** or **Effective Permissions**. By choosing the tabs on the **Assign By User** page, you can also restrict a user's access to any connected cloud accounts, devices, services, product groups, and group membership.
 
 **Assign by Users**
@@ -146,7 +146,7 @@ Use the following steps to grant access to a user group or product group:
 
 <img width="404" alt="myrack-account-RBAC17" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC17.png">
 
-4. Select Save Changes.
+4. Select **Save** Changes.
 
 
 **Delete a User or Product Group**
@@ -160,9 +160,10 @@ Use the following steps to delete a user or product group:
 
 3. Select the Actions dropdown in the upper-right corner as shown in above image.
 
-4. Select Delete Group**.
+4. Select **Delete Group**.
 
 ### Global Permissions
+
 The Global Permissions section lets you to make changes across your entire account.
 
 Ticketing Settings enable you to control the tickets that your users have permission to see when those tickets include one or more devices.
