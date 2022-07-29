@@ -21,7 +21,7 @@ Role-Based Access Control (RBAC) and learn about the service.
 ### Managing RBAC
 
 -   [Use Role-Based Access Control (RBAC)](/support/how-to/use-role-based-access-control-rbac)
--   [Using RBAC with MyRackspace](/support/how-to/use-role-based-access-control-rbac-with-myrackspace)
+-   [Using RBAC with MyRackspace](/support/how-to/using-rbac-with-myrackspace)
 
 ### Permissions matrixes for RBAC
 
