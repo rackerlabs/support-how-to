@@ -17,7 +17,7 @@ This article describes known issues with Role-Based Access Control (RBAC). We ar
 
 ### Custom Role
 
-<img width="265" alt="customrole" src="support/how-to/known-issues-and-suggested-workarounds-role-based-access-control-rbac/customrole.png">
+<img width="265" alt="customrole" src="/support/how-to/known-issues-and-suggested-workarounds-role-based-access-control-rbac/customrole.png">
 
 The Custom role enables you to assign per-product access. After a user is assigned the Custom role, the account owner cannot change this role to a multiproduct role (All Products or No Product Access) by using the Cloud Control Panel.
 
