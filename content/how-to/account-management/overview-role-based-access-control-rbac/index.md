@@ -87,6 +87,7 @@ Assign the following account roles to the users who manage your Rackspace custom
 To give a user account permissions without product permissions, use the following steps for cloud users:
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com) as shown in below image.
+
 <image width="533" alt="rbac1" src="/support/how-to/overview-role-based-access-control-rbac/rbac1.png">
 
 2. In the top navigation bar, click **Account > User Management**.
@@ -111,7 +112,7 @@ The **Rackspace Cloud Permissions** window opens.
 
 1. Log in to the [Rackspace Dedicated](https://login.rackspace.com) as shown in below image.
 
-image width="533" alt="rbac1" src="/support/how-to/overview-role-based-access-control-rbac/rbac1.png">
+<image width="533" alt="rbac1" src="/support/how-to/overview-role-based-access-control-rbac/rbac1.png">
 
 2. In the top navigation bar, click **Account > User Management**.
 
