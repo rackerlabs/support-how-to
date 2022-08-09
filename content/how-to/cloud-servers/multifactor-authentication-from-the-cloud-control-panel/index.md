@@ -1,12 +1,11 @@
 ---
 permalink: multifactor-authentication-from-the-cloud-control-panel/
 audit_date: '2020-10-27'
-title: Multifactor authentication from the Cloud Control Panel
+title: Multifactor-authentication from the Cloud Control Panel
 type: article
 created_date: '2014-07-17'
-created_by: Margaret Eker
-last_modified_date: '2021-05-05'
-last_modified_by: Rose Morales
+last_modified_by: Rohit Rajput
+last_modified_date: '2022-05-30'
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -15,13 +14,13 @@ Customers can have increased security on Rackspace Cloud accounts by using the
 Rackspace Cloud Identity Service's multifactor authentication (MFA) capabilities.
 MFA adds an extra layer of identity verification to the login process by
 requiring a user to submit a time-sensitive code that the Identity service sends
-to an SMS or OTP (one-time password) device associated with the user's account:
+to an SMS or Mobile App associated with the user's account:
 
 - An SMS device is a mobile phone, notebook, or other digital device with an
   associated phone number capable of receiving SMS text messages.
 
-- An OTP client application installed on your phone, notebook, or other digital
-  device creates and uses the OTP code.
+- A Mobile App is a client application installed on your phone, notebook, or other digital
+  device creates and uses the code.
 
 You can modify MFA by updating your account settings in the
 [Rackspace Cloud Control Panel](https://login.rackspace.com). After you pair
@@ -47,7 +46,7 @@ complete the setup process.
 **Important**: By default, we enable MFA account-wide. If you want to disable
 this setting, you need to generate a support ticket.
 
-### Considerations
+### Considerations 
 
 - MyRackspace also implements MFA. For information, see
   [Multifactor authentication from the MyRackspace portal](/support/how-to/multifactor-authentication-from-the-myrackspace-portal).
@@ -89,14 +88,22 @@ To register and verify an SMS device, use the following steps:
 
 2. In the upper-right corner of the Cloud Control Panel, click the **user** menu
    and select **My Profile & Settings**.
+   
+   <img width="383" alt="chrome_kE2DgyCefB" src="chrome_kE2DgyCefB.png">
 
 3. In the **Security Settings** section, select **Enable** for **Multi-factor
    authentication**.
-
+   
+   <img width="467" alt="chrome_bz6GjpL2wM" src="Inkedchrome_bz6GjpL2wM_LI.jpg">
+ 
 4. Select **User SMS** and click **Next**.
+
+   <img width="471" alt="chrome_Bm4bOLRY6P" src="chrome_Bm4bOLRY6P.png">
 
 5. Select the country code for the device, type the device phone number, and
    click **Next**
+   
+   <img width="447" alt="chrome_nS0ZLndo5L" src="chrome_nS0ZLndo5L.png">
 
    **Note**: The Identity service sends an SMS text message with a four-digit
    PIN to the specified phone.
@@ -104,22 +111,19 @@ To register and verify an SMS device, use the following steps:
 6. Type the PIN code sent to your mobile device in the verification code field
    then, click **Verify**.
 
+   <img width="441" alt="chrome_XQlqaYvy0x" src="chrome_XQlqaYvy0x.png">
+
    After you submit the verification code, you need to re-authenticate by using
    the MFA process.
 
-### Configure your account to authenticate by using an OTP device
+### Configure your account to authenticate by using a Mobile App.
 
-A one-time password (OTP), also known as a one-time PIN or dynamic password, is
-a password that is valid for one login session or transaction on a computer
-system or other digital device.
-
-To configure your account to use an OTP device for MFA, you must install one of the
+To configure your account to use a Mobile App for MFA, you must install one of the
 following OTP client applications on your device:
 
 - [Authy](https://www.authy.com/)
 - [Duo](https://www.duosecurity.com/)
 - [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en)
-- [SecureAuth OTP](https://www.secureauth.com/Support/Downloads/Client-Applications.aspx)
 
 To register and verify a mobile code device, use the following steps:
 
@@ -128,56 +132,73 @@ To register and verify a mobile code device, use the following steps:
 2. In the upper-right corner of the Cloud Control Panel, click the user menu and
    select **My Profile & Settings**.
 
+   <img width="383" alt="chrome_kE2DgyCefB" src="chrome_kE2DgyCefB.png">
+
 3. In the **Security Settings** section, select **Enable** for **Multi-factor
    authentication**.
+   
+   <img width="467" alt="chrome_bz6GjpL2wM" src="Inkedchrome_bz6GjpL2wM_LI.jpg">
 
 4. Select **Use a Mobile App** and click **Next**.
 
+   <img width="418" alt="1" src="1.png">
+
     **Note**: Supported applications: Authy, Duo, Google Authenticator.
 
-5. Type a **Device nickname** for the OTP device. Then, click **Next**.
+5. Type a **Device nickname** for the Mobile App. Then, click **Next**.
 
-6. The Identity service generates a QR code. Use the OTP client application on
+    <img width="421" alt="2" src="2.png">
+
+6. The Identity service generates a **QR** code. Use the application on
    your device to scan the barcode and click **Verify**.
-
-   After you scan the code, the OTP application on your device creates the OTP
-   device using your specified device name. It also generates a code.
+   
+   After you scan the barcode, the application on your device generates an OTP/code.
 
 7. To verify the new device, enter the code on the **Verify Code** form. Then,
    click **Verify**.
-
+   
+   <img width="418" alt="chrome_AKW5hogMrQ" src="chrome_AKW5hogMrQ.png">
+   
    After you submit the verification code, the system automatically logs you
    out.
 
-   **Note:** By default, the new OTP device is the default method for
+   **Note:** By default, the new Mobile App is the default method for
    authentication. If you do not want it to be the default or if you do not want
    to be logged out of your account, remove the selection from **Make this my
    default authentication method**.
 
-   You can update the default authentication method on the **Account settings**
+   You can update the default authentication method on the **My Profile & Settings**
    page.
 
-8. In the Cloud Control Panel, enter your username and password. Then, enter the
-   verification code from the OTP device that you paired with your account.
 
 ### Change default MFA method
 
-If you configured your account with both SMS and OTP devices, you
+If you configured your account with both SMS and Mobile App , you
 can select the default MFA method from the **My Profile & Settings** page.
 
 1. Log in to the [Rackspace Cloud Control Panel](https://login.rackspace.com).
 
 2. In the upper-right corner of the Cloud Control Panel, click the user menu and
    select **My Profile & Settings**.
+   
+   <img width="383" alt="chrome_kE2DgyCefB" src="chrome_kE2DgyCefB.png">
 
 3. In the **Security Settings** section, under **Multi-Factor Authentication**,
    select **Manage**.
+   
+   <img width="516" alt="1 1" src="1.1.png">
+
 
 4. In the **Security Settings** section, select **Enable** for **Multi-factor
    authentication**.
+   
+   <img width="467" alt="chrome_bz6GjpL2wM" src="Inkedchrome_bz6GjpL2wM_LI.jpg">
 
 5. Under **Method**, select **Switch to SMS** (if you set up a mobile app) or
    **Switch to Mobile App** (if you set up SMS).
+   
+   <img width="359" alt="1 2" src="1.2.png">
+
 
 ### Configure account-wide MFA settings from an Administrator account
 
@@ -191,28 +212,23 @@ account.
 
 1. Log in to the [Rackspace Cloud Control Panel](https://login.rackspace.com).
 
-2. In the top navigation bar, click **Select a Product > Rackspace Cloud**.
+2. In the upper-right, click **Account** > **Account Settings**.
 
-3. In the upper-right, click **Account** > **Account Settings**. Under
-   **Rackspace Account Settings**, click **Change** next to **Multi-Factor
-   Authentication**.
+   <img width="311" alt="3 2" src="3.2.png">
 
-4. In the **Security Settings** section, select **Enable** for **Multi-factor
-   authentication**.
+3.  Under **Rackspace Account Settings**, click **Change** next to Multi-Factor
+   Authentication.
+   
+   <img width="485" alt="3 3" src="3.3.png">
 
-5. On the **Account-wide two-factor authentication** form, click the selection
-   to set the policy for account users. Then, click **Save Setting** to apply
-   the change.
+4. In the Pop-up window, click **Require Multi-Factor Account-Wide**.
 
-   If you update the setting to **required**, users who do not have MFA
-   configured must add it the next time they log in. The system
-   logs out current users who have not set up MFA after
-   displaying an error message similar to the following example:
+   <img width="384" alt="MFA ADMIN" src="MFA ADMIN.png">
 
-   {{<image alt="Force user to log out when multi-factor authentication requirement is not met" src="mfa-force-logout.png" title="Force user to log out when multi-factor authentication requirement is not met">}}
 
-   When these users log back in, the system guides them through the
-   MFA setup.
+   If you update the setting to **require Multi-Factor Account-Wide**, any users currently logged into the Rackspace Control Panel without Multi-Factor   Authentiocation enabled will be logged out and asked to set up multi-factor upon re-entry.
+  
+  When these users log back in, the system guides them through the MFA setup.
 
 ### Configure MFA during account log in
 
@@ -224,58 +240,6 @@ To access your account, click **Set Up Multi-Factor Authentication.** Then,
 follow the steps to register and verify a device and authenticate by using the
 code sent to the device.
 
-### Log in to the Rackspace Cloud by using MFA
-
-If you add MFA capabilities to your account, authentication is a two-step process.
-
-#### Prerequisites
-
-- Rackspace Cloud accounts with a valid username and password credentials
-- Access to the registered and verified SMS or OTP device paired with your
-  Rackspace Cloud account
-
-Perform the following steps to log in to the Rackspace Cloud with MFA:
-
-1. Log in to the [Rackspace Cloud Control Panel](https://login.rackspace.com)
-   with your user name and password.
-
-   If you configured your account to use MFA with an
-   SMS device, the Identity service sends an SMS text message with a
-   seven-digit code to the device registered to your account.
-
-   If you configured your device to use MFA by OTP
-   device, open the OTP client application and get the code from the OTP device
-   associated with your Rackspace Cloud account.
-
-2. When prompted, type the code in the **MFA Code** field on the Control Panel.
-   Then, click **Verify** to log in to your account:
-
-   If the code is expired or invalid, refresh the page to return to the
-   Rackspace Cloud Control Panel login page. Then, log in again and click the
-   **Resend code** option on the **Account Settings** page to get a new code.
-
-### Manage MFA
-
-Rackspace Cloud users can view and manage the MFA configuration from the
-**Account Settings** menu in the Cloud Control Panel.
-
-#### View and enable MFA settings
-
-1. In the upper-right corner of the Cloud Control Panel, click the **userName**
-    menu and select **My Profile & Settings**.
-
-2. In the **Security Settings** section, select **Enable** for **Multi-factor
-   authentication**.
-
-#### Verify your device
-
-You can verify your SMS or OTP device from the **Account Settings** page.
-
-- If you have an unverified SMS device on your account, use the **Verify**
-  option to complete the verification process.
-
-- If you have an unverified OTP device, use the **Manage**
-  option to complete the verification process.
 
 #### Remove MFA
 
@@ -284,9 +248,19 @@ with your account.
 
 1. In the upper-right corner of the Cloud Control Panel, click the **userName**
    menu and select **My Profile & Settings**.
+  
+   <img width="383" alt="chrome_kE2DgyCefB" src="chrome_kE2DgyCefB.png">
 
-2. In the **Security Settings** section, select **Disable** for **Multi-factor
+2. In the **Security Settings** section, click **Manage** for **Multi-factor
    authentication**.
+  
+  <img width="516" alt="1 1" src="1.1.png">
+
+  3. Select **Disable** and click **Done**.  
+  
+  <img width="359" alt="Disable MFA 2" src="Disable MFA 2.png">
+
+  
 
 #### Change the mobile phone number
 
@@ -295,13 +269,7 @@ option to remove the existing phone number by following the instructions in the
 preceding task. Then, update the account settings with the new phone number and
 verify the device.
 
-#### Remove an SMS or OTP device
-
-To remove an SMS device, use the **Remove all devices**.
-
-To remove an OTP device, use the **Manage** option to delete the device from
-your account.
-
+  
 ### Troubleshooting
 
 Use the following information to resolve common issues that can occur when
