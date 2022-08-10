@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-email-faq
+permalink: open-xchange-faq
 audit_date: '2021-02-26'
 title: Rackspace Email to Open-Xchange Migration FAQ
 type: article
