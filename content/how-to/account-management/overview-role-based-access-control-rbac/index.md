@@ -90,50 +90,41 @@ Assign the following account roles to the users who manage your Rackspace custom
 To give a user account permissions without product permissions, use the following steps for cloud users:
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com) as shown in below image.
-
 <image width="533" alt="rbac1" src="/support/how-to/overview-role-based-access-control-rbac/rbac1.png">
 
 2. In the top navigation bar, click **Account > User Management**.
-
 <image width="379" alt="rbac2" src="/support/how-to/overview-role-based-access-control-rbac/rbac2.png">
 
 3. Select the user for whom you wish to set permissions.
-
 <image width="919" alt="rbac3" src="/support/how-to/overview-role-based-access-control-rbac/rbac3.png">
 
 4. Click **Edit** under the **PRODUCT ACCESS** tab in the **Rackspace Cloud** under **Product Permissions** section.
-
 <image width="900" alt="rbac4" src="/support/how-to/overview-role-based-access-control-rbac/rbac4.png">
 
 The **Rackspace Cloud Permissions** window opens.
-
 <image width="203" alt="rbac5" src="/support/how-to/overview-role-based-access-control-rbac/rbac5.png">
 
 5. Under **Cloud Access**, choose the type of global access you want the user to have including a **Custom** option, or select the individual product and select from the options available for it, usually **ADMIN**, **CREATOR, **OBSERVER**, or **None**.
 
-6. Then click **Save** or **Update**.
+6. Click **Save** or **Update**.
 
 **Note**: A user may be assigned both a product role and an account role.
 
 **Account Permissions for Rackspace Dedicated Users**
 
 1. Log in to the [Rackspace Dedicated](https://login.rackspace.com) as shown in below image.
-
 <image width="533" alt="rbac1" src="/support/how-to/overview-role-based-access-control-rbac/rbac1.png">
 
 2. In the top navigation bar, click **Account > User Management**.
-
 <image width="379" alt="rbac2" src="/support/how-to/overview-role-based-access-control-rbac/rbac2.png"> 
 
 3. In the top navigation bar, click **Account > Permissions**.
-
 <img width="689" alt="rbac6" src="/support/how-to/overview-role-based-access-control-rbac/rbac6.png">
 
 
 **Note:** You can grant a user a combination of direct and effective permissions. MyRackspace uses the highest level of permission granted. 
 
 <img width="928" alt="rbac7" src="/support/how-to/overview-role-based-access-control-rbac/rbac7.png">
-
 
 To assign permissions you can use the following way as listed below:
 - Assign By User
@@ -149,6 +140,8 @@ To assign permissions you can use the following way as listed below:
 2. Select the checkbox under **Direct** permissions you want to assign to that user/user group.
 <img width="928" alt="rbac9" src="/support/how-to/overview-role-based-access-control-rbac/rbac9.png">
 
+3. Click **Save Changes**.
+
 **Assign By Product**
 
 1. To assign permission **By Product**, select product/product group from the column.
@@ -157,6 +150,8 @@ To assign permissions you can use the following way as listed below:
 2. Select the checkbox under **Direct** permissions you want to assign to that product/product group.
 <img width="942" alt="rbac11" src="/support/how-to/overview-role-based-access-control-rbac/rbac11.png">
 
+3. Click **Save Changes**.
+
 **Manage Groups**
 
 1. To add new User Groups/Product Groups, click **Manage Groups**.
@@ -164,6 +159,8 @@ To assign permissions you can use the following way as listed below:
 
 2. Enter a name for the new group and select the green plus sign.
 <img width="918" alt="rbac13" src="/support/how-to/overview-role-based-access-control-rbac/rbac13.png">
+
+3. Click **Save Changes**.
 
 **Manage Global Permissions**
 
