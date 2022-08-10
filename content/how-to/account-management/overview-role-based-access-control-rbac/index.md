@@ -150,17 +150,18 @@ To assign permissions you can use the following way as listed below:
 2. Select the checkbox under **Direct** permissions you want to assign to that product/product group.
 <img width="942" alt="rbac11" src="/support/how-to/overview-role-based-access-control-rbac/rbac11.png">
 
-3. Click **Save Changes**.
+3. 
 
 **Manage Groups**
 
 1. To add new User Groups/Product Groups, click **Manage Groups**.
-<img width="925" alt="rbac12" src="/support/how-to/overview-role-based-access-control-rbac/rbac12.png">
+<img width="925" alt="rbClick **Save Changes**.ac12" src="/support/how-to/overview-role-based-access-control-rbac/rbac12.png">
 
 2. Enter a name for the new group and select the green plus sign.
 <img width="918" alt="rbac13" src="/support/how-to/overview-role-based-access-control-rbac/rbac13.png">
 
 3. Click **Save Changes**.
+
 
 **Manage Global Permissions**
 
