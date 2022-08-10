@@ -5,8 +5,8 @@ title: Cloud Backup backup actions
 type: article
 created_date: '2012-08-22'
 created_by: David Hendler
-last_modified_date:  '2020-01-15'
-last_modified_by: Brett Johnson
+last_modified_date: '2022-08-09'
+last_modified_by: Rahul Gupta
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -24,17 +24,17 @@ You can access the **Backup Actions** menu in the following ways:
     on the gear icon next to the backup name on the **Configured Backups**
     page.
 
-    {{<image src="ScreenShot2015-10-15at4.20.11PM.png" alt="" title="">}}
+    {{<image src="ScreenShot2022-08-09at4.20.11PM.png" alt="" title="">}}
 
 -   Click on the **Actions** menu at the top of the **Configuration Details**
     page for a configured backup.
 
-    {{<image src="ScreenShot2015-10-15at4.18.36PM.png" alt="" title="">}}
+    {{<image src="ScreenShot2022-08-09at4.18.36PM.png" alt="" title="">}}
 
 From the **Actions** menu, you can perform the following actions:
 
 -   Perform a backup
--   Restore a backup
+-   Restore a snapshot
 -   Configure a backup
 -   Configure files
 -   Disable a backup
@@ -49,11 +49,11 @@ progress bar is displayed until the backup is completed.
 
 {{<image src="ScreenShot2015-10-15at4.29.20PM.png" alt="" title="">}}
 
-### Restore a backup
+### Restore a snapshot
 
-1.  From the **Actions** menu, select **Restore Backup**.
+1.  From the **Actions** menu, select **Restore snapshot**.
 
-2.  On the first page of the **Restore a Backup** wizard, select the
+2.  On the first page of the **Restore a snapshot** wizard, select the
     backup date to restore from, and then click **Next Step**.
 
 3.  On the next page, select the destination system, and then click
@@ -71,7 +71,7 @@ progress bar is displayed until the backup is completed.
     by clicking the **Selected & Excluded Items** tab. The files included in the restore and specifically excluded are listed.
     3. When you are done, click **Next Step**.
 
-    {{<image src="ScreenShot2015-10-15at4.53.59PM.png" alt="" title="">}}
+    {{<image src="ScreenShot2022-08-09at4.53.59PM.png" alt="" title="">}}
 
 5.  On the next page, select the destination folder.
 
@@ -139,7 +139,7 @@ You can change the files and folders that are saved in your backup.
 You can prevent a backup from running by selecting **Disable Backup**
 from the **Actions** menu.
 
-{{<image src="ScreenShot2015-10-16at2.36.44PM.png" alt="" title="">}}
+{{<image src="ScreenShot2022-08-09at2.36.44PM.png" alt="" title="">}}
 
 When you disable a backup, the following actions occur:
 
