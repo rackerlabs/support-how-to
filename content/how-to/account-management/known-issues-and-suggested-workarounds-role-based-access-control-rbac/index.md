@@ -16,12 +16,15 @@ product_url: account-management
 This article describes known issues with Role-Based Access Control (RBAC). We are diligently working to resolve these issues. If you're experiencing an issue that doesn't appear in this article, contact Rackspace Support.
 
 ### Custom Role
-
+**Cloud Users**
 <img width="265" alt="customrole" src="/support/how-to/known-issues-and-suggested-workarounds-role-based-access-control-rbac/customrole.png">
 
 The Custom role enables you to assign per-product access. After a user is assigned the Custom role, the account owner cannot change this role to a multiproduct role (All Products or No Product Access) by using the Cloud Control Panel.
 
-#### Workaround
+**Dedicated Users**
+The direct permissions enables you to assign per user access. After a user assigned admin role, the account owner cannot change this role.
+
+#### **Workaround**
 
 The account owner can simulate the Full Access role by assigning the user the Admin role for all available products. To simulate the Read-Only Access role, the account owner can assign the Observer role to the user for all available products.
 
@@ -31,7 +34,7 @@ You can also change the Custom role to a multiproduct role by contacting Rackspa
 
 ### Multiple Roles for One User
 
-You can only assign multiple roles for one user by using the [API](https://docs.rackspace.com/docs/). The Cloud Control Panel displays only the first role that is assigned to users that have multiple roles.
+You can only assign multiple roles for one user by using the [API](https://docs.rackspace.com/docs/). The Cloud Control Panel or the dedicated hosting displays only the first role that is assigned to users that have multiple roles.
 
 #### Workaround
 
