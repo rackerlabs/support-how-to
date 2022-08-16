@@ -5,7 +5,7 @@ title: Known Issues and Suggested Workarounds for RBAC
 type: article
 created_date: '2013-08-16'
 created_by: Renee Rendon
-last_modified_date: '2022-08-11'
+last_modified_date: '2022-08-16'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -18,14 +18,15 @@ This article describes known issues with Role-Based Access Control (RBAC). We ar
 ### Custom Role
 
 **Cloud Users**
-
 <img width="265" alt="customrole" src="/support/how-to/known-issues-and-suggested-workarounds-role-based-access-control-rbac/customrole.png">
 
 The Custom role enables you to assign per-product access. After a user is assigned the Custom role, the account owner cannot change this role to a multiproduct role (All Products or No Product Access) by using the Cloud Control Panel.
 
 **Dedicated Users**
+<img width="883" alt="customrole_dedicated" src="/support/how-to/known-issues-and-suggested-workarounds-role-based-access-control-rbac/customrole_dedicated.png">
 
-The direct permissions enables you to assign per user access. After a user is assigned admin role, the account owner cannot change this role by using dedicated hosting.
+For dedicated users there are two types of permissions such as direct and effective permissions. By selecting None, View, Edit, or Admin under the direct permission column, the user, user group, or group membership receives the required permissions.
+You can give each user their own access by using the direct permissions. The account owner cannot modify an admin role once it has been assigned to a user.
 
 #### **Workaround**
 
@@ -39,7 +40,7 @@ You can also change the Custom role to a multiproduct role by contacting Rackspa
 
 You can only assign multiple roles for one user by using the [API](https://docs.rackspace.com/docs/). The Cloud Control Panel or the dedicated hosting displays only the first role that is assigned to users that have multiple roles.
 
-#### Workaround
+#### **Workaround**
 
 You can view multiple roles that are associated with a user by using the [API](https://docs.rackspace.com/docs/).
 
@@ -47,7 +48,7 @@ You can view multiple roles that are associated with a user by using the [API](h
 
 When an account is suspended, all users of the account are disabled. Users aren't automatically re-enabled when the account is reactivated.
 
-#### Workaround
+#### **Workaround**
 
 When the account is reactivated, the account owner must re-enable users by using the API or by contacting Rackspace Support.
 
