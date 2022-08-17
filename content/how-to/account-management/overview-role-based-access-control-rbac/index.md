@@ -44,7 +44,6 @@ A role can grant access to all of the resources relating to a single product or 
 This section describes the roles that are available through RBAC.
 
 #### **Multiple-product Roles**
-
 Multiple-product roles grant access to resources that are associated with multiple products.
 RBAC has the following multiple-product roles:
 -   **Full Access** - The Full Access role has permissions to create, read, update, and delete resources within multiple designated products.
@@ -56,25 +55,21 @@ These permissions apply to products that are RBAC-enabled.
 
 #### **Custom Roles**
 
-##### Custom Role for Cloud Users
+##### **Custom Role for Cloud Users**
 Custom roles enable account owners to assign users different permissions for different products. After a user is assigned custom roles, those roles can only be changed on a per-product basis.
 
 RBAC has the following custom roles:
-
 -   **Product: Admin** - The Product Admin role has permissions to create, read, update, and delete resources for the designated product.
-
 -   **Product: Creator** - The Product Creator role has permissions to create, read, and update resources for the designated product. This role cannot delete a resource. All destructive actions are prohibited.
 
 -   **Product: Observer** - The Product Observer role has permissions to read given resources for the designated product. This role is read-only.
 
 #### **Account Roles**
 Assign the following account roles to the users who manage your Rackspace customer account:
-
 -   **Billing:admin** - The Billing Admin role has permissions to create, read, update, and delete billing and payment resources for the designated product.
 -   **Billing:observer** - The Billing Observer role has permissions to read billing and payment resources for the designated product. This role is read-only.
 
 **Account Permissions for Cloud Users**
-
 To give a user account permissions without product permissions, use the following steps for cloud users:
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com) as shown in below image.
@@ -89,7 +84,7 @@ To give a user account permissions without product permissions, use the followin
 4. Click **Edit** under the **PRODUCT ACCESS** tab in the **Rackspace Cloud** under **Product Permissions** section.
 <image width="900" alt="rbac4" src="/support/how-to/overview-role-based-access-control-rbac/rbac4.png">
 
-The **Rackspace Cloud Permissions** window opens.
+The **Rackspace Cloud Permissions** window opens as shown below.
 <image width="203" alt="rbac5" src="/support/how-to/overview-role-based-access-control-rbac/rbac5.png">
 
 5. Under **Cloud Access**, choose the type of global access you want the user to have including a **Custom** option, or select the individual product and select from the options available for it, usually **ADMIN**, **CREATOR, **OBSERVER**, or **None**.
@@ -123,7 +118,7 @@ Implement RBAC when you want to achieve the following results:
 RBAC is available to all Rackspace customers.
 
 ### Activation of RBAC
-RBAC is automatically activated when the account owner adds users to an account. Account owners can add cloud users through the [Cloud Control Panel](https://login.rackspace.com/) or the API and dedicated users through the [Dedicated Users](https://login.rackspace.com/) or the API.
+RBAC is automatically activated when the account owner adds users to an account. Account owners can add cloud users through the [Cloud Control Panel](https://login.rackspace.com/) or the API.
 
 For more information about specific RBAC-related APIs, see the [Rackspace API documentation](https://docs.rackspace.com/docs/).
 
@@ -149,15 +144,13 @@ The following Rackspace products are RBAC-enabled:
 -   [Rackspace billing FAQ](/support/how-to/rackspace-billing-faq)
 
 
-
-##### Custom Role for Rackspace Dedicated Hosting Account
+##### **Custom Role for Rackspace Dedicated Hosting Account**
 
 Two types of permissions are available for Rackspace Dedicated hosting accounts:
 - **Direct Permissions**: These grant the user direct access to account permissions, linked cloud accounts, devices, or services.
 - **Effective Permissions**: Users inherit these because of their memberships in user and product groups.
 
 **Account Permissions for Rackspace Dedicated Users**
-
 To give a user account permissions without product permissions, use the following steps for dedicated users:
 
 1. Log in to the [Rackspace Dedicated](https://login.rackspace.com) as shown in below image.
@@ -168,7 +161,6 @@ To give a user account permissions without product permissions, use the followin
 
 3. In the top navigation bar, click **Account > Permissions**.
 <img width="689" alt="rbac6" src="/support/how-to/overview-role-based-access-control-rbac/rbac6.png">
-
 
 **Note:** You can grant a user a combination of direct and effective permissions. MyRackspace uses the highest level of permission granted. 
 
@@ -209,6 +201,9 @@ To assign permissions you can use the following way as listed below:
 <img width="918" alt="rbac13" src="/support/how-to/overview-role-based-access-control-rbac/rbac13.png">
 
 3. Click **Save Changes**.
+
+### Activation of RBAC
+RBAC is automatically activated when the account owner adds users to an account. Account owners dedicated users through the [Dedicated Users](https://login.rackspace.com/) or the API.
 
 #### **Future RBAC-enabled Products**
 New products are RBAC-enabled as they are launched.
