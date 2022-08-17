@@ -27,14 +27,11 @@ RBAC gives customers a greater degree of control over cloud resource use, with a
 
 ### Types of Users
 RBAC has the following types of users:
-
 -   **Account owner** - The account owner, who serves as the main point of contact for the account, is fully authorized to use all available product features. Each account has a single account owner.
-
 -   **Account user** - A user added by the account owner and has all the access of particular products or account roles.
 
 ### Actions Performed by Account Owner
 The account owner is the only user who can perform the following actions:
-
 -   Create new users, modify existing users, and delete users.
 -   Make changes to contacts, including the billing contact.
 
@@ -50,7 +47,6 @@ This section describes the roles that are available through RBAC.
 
 Multiple-product roles grant access to resources that are associated with multiple products.
 RBAC has the following multiple-product roles:
-
 -   **Full Access** - The Full Access role has permissions to create, read, update, and delete resources within multiple designated products.
 -   **Read-only Access** - The Read-only Access role has permissions to view resources within multiple designated products.
 
@@ -60,7 +56,7 @@ These permissions apply to products that are RBAC-enabled.
 
 #### **Custom Roles**
 
-##### **Custom Role for Cloud Users**
+##### Custom Role for Cloud Users
 Custom roles enable account owners to assign users different permissions for different products. After a user is assigned custom roles, those roles can only be changed on a per-product basis.
 
 RBAC has the following custom roles:
@@ -71,22 +67,14 @@ RBAC has the following custom roles:
 
 -   **Product: Observer** - The Product Observer role has permissions to read given resources for the designated product. This role is read-only.
 
-##### **Custom Role for Rackspace Dedicated Hosting Account**
-
-Two types of permissions are available for Rackspace Dedicated hosting accounts:
-
-- **Direct Permissions**: These grant the user direct access to account permissions, linked cloud accounts, devices, or services.
-
-- **Effective Permissions**: Users inherit these because of their memberships in user and product groups.
-
 #### **Account Roles**
 Assign the following account roles to the users who manage your Rackspace customer account:
 
 -   **Billing:admin** - The Billing Admin role has permissions to create, read, update, and delete billing and payment resources for the designated product.
-
 -   **Billing:observer** - The Billing Observer role has permissions to read billing and payment resources for the designated product. This role is read-only.
 
 **Account Permissions for Cloud Users**
+
 To give a user account permissions without product permissions, use the following steps for cloud users:
 
 1. Log in to the [Cloud Control Panel](https://login.rackspace.com) as shown in below image.
@@ -109,59 +97,6 @@ The **Rackspace Cloud Permissions** window opens.
 6. Click **Save** or **Update**.
 
 **Note**: A user may be assigned both a product role and an account role.
-
-**Account Permissions for Rackspace Dedicated Users**
-
-1. Log in to the [Rackspace Dedicated](https://login.rackspace.com) as shown in below image.
-<image width="533" alt="rbac1" src="/support/how-to/overview-role-based-access-control-rbac/rbac1.png">
-
-2. In the top navigation bar, click **Account > User Management**.
-<image width="379" alt="rbac2" src="/support/how-to/overview-role-based-access-control-rbac/rbac2.png"> 
-
-3. In the top navigation bar, click **Account > Permissions**.
-<img width="689" alt="rbac6" src="/support/how-to/overview-role-based-access-control-rbac/rbac6.png">
-
-
-**Note:** You can grant a user a combination of direct and effective permissions. MyRackspace uses the highest level of permission granted. 
-
-<img width="928" alt="rbac7" src="/support/how-to/overview-role-based-access-control-rbac/rbac7.png">
-
-To assign permissions you can use the following way as listed below:
-- Assign By User
-- Assign By Product
-- Manage Groups
-- Global Permissions
-
-**Assign By User**
-
-1. To assign permission **By User**, select a user/user group from the column. 
-<img width="931" alt="rbac8" src="/support/how-to/overview-role-based-access-control-rbac/rbac8.png">
-
-2. Select the checkbox under **Direct** permissions you want to assign to that user/user group.
-<img width="928" alt="rbac9" src="/support/how-to/overview-role-based-access-control-rbac/rbac9.png">
-
-3. Click **Save Changes**.
-
-**Assign By Product**
-
-1. To assign permission **By Product**, select product/product group from the column.
-<img width="810" alt="rbac10" src="/support/how-to/overview-role-based-access-control-rbac/rbac10.png">
-
-2. Select the checkbox under **Direct** permissions you want to assign to that product/product group.
-<img width="942" alt="rbac11" src="/support/how-to/overview-role-based-access-control-rbac/rbac11.png">
-
-3. 
-
-**Manage Groups**
-
-1. To add new User Groups/Product Groups, click **Manage Groups**.
-<img width="925" alt="rbClick **Save Changes**.ac12" src="/support/how-to/overview-role-based-access-control-rbac/rbac12.png">
-
-2. Enter a name for the new group and select the green plus sign.
-<img width="918" alt="rbac13" src="/support/how-to/overview-role-based-access-control-rbac/rbac13.png">
-
-3. Click **Save Changes**.
-
 
 **Manage Global Permissions**
 
@@ -212,6 +147,68 @@ The following Rackspace products are RBAC-enabled:
 -   [Cloud Feeds](/support/how-to/cloud-feeds-overview)
 -   [Rackspace CDN](/support/how-to/rackspace-cdn)
 -   [Rackspace billing FAQ](/support/how-to/rackspace-billing-faq)
+
+
+
+##### Custom Role for Rackspace Dedicated Hosting Account
+
+Two types of permissions are available for Rackspace Dedicated hosting accounts:
+- **Direct Permissions**: These grant the user direct access to account permissions, linked cloud accounts, devices, or services.
+- **Effective Permissions**: Users inherit these because of their memberships in user and product groups.
+
+**Account Permissions for Rackspace Dedicated Users**
+
+To give a user account permissions without product permissions, use the following steps for dedicated users:
+
+1. Log in to the [Rackspace Dedicated](https://login.rackspace.com) as shown in below image.
+<image width="533" alt="rbac1" src="/support/how-to/overview-role-based-access-control-rbac/rbac1.png">
+
+2. In the top navigation bar, click **Account > User Management**.
+<image width="379" alt="rbac2" src="/support/how-to/overview-role-based-access-control-rbac/rbac2.png"> 
+
+3. In the top navigation bar, click **Account > Permissions**.
+<img width="689" alt="rbac6" src="/support/how-to/overview-role-based-access-control-rbac/rbac6.png">
+
+
+**Note:** You can grant a user a combination of direct and effective permissions. MyRackspace uses the highest level of permission granted. 
+
+<img width="928" alt="rbac7" src="/support/how-to/overview-role-based-access-control-rbac/rbac7.png">
+
+To assign permissions you can use the following way as listed below:
+- Assign By User
+- Assign By Product
+- Manage Groups
+- Global Permissions
+
+**Assign By User**
+
+1. To assign permission **By User**, select a user/user group from the column. 
+<img width="931" alt="rbac8" src="/support/how-to/overview-role-based-access-control-rbac/rbac8.png">
+
+2. Select the checkbox under **Direct** permissions you want to assign to that user/user group.
+<img width="928" alt="rbac9" src="/support/how-to/overview-role-based-access-control-rbac/rbac9.png">
+
+3. Click **Save Changes**.
+
+**Assign By Product**
+
+1. To assign permission **By Product**, select product/product group from the column.
+<img width="810" alt="rbac10" src="/support/how-to/overview-role-based-access-control-rbac/rbac10.png">
+
+2. Select the checkbox under **Direct** permissions you want to assign to that product/product group.
+<img width="942" alt="rbac11" src="/support/how-to/overview-role-based-access-control-rbac/rbac11.png">
+
+3. Click **Save Changes**.
+
+**Manage Groups**
+
+1. To add new User Groups/Product Groups, click **Manage Groups**.
+<img width="925" alt="rbClick **Save Changes**.ac12" src="/support/how-to/overview-role-based-access-control-rbac/rbac12.png">
+
+2. Enter a name for the new group and select the green plus sign.
+<img width="918" alt="rbac13" src="/support/how-to/overview-role-based-access-control-rbac/rbac13.png">
+
+3. Click **Save Changes**.
 
 #### **Future RBAC-enabled Products**
 New products are RBAC-enabled as they are launched.
