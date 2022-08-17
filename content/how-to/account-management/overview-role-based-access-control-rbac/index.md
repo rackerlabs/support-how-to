@@ -5,7 +5,7 @@ title: Learn about Role-Based Access Control (RBAC)
 type: article
 created_date: '2013-04-14'
 created_by: Renee Rendon
-last_modified_date: '2022-08-09'
+last_modified_date: '2022-08-17'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -61,7 +61,6 @@ Custom roles enable account owners to assign users different permissions for dif
 RBAC has the following custom roles:
 -   **Product: Admin** - The Product Admin role has permissions to create, read, update, and delete resources for the designated product.
 -   **Product: Creator** - The Product Creator role has permissions to create, read, and update resources for the designated product. This role cannot delete a resource. All destructive actions are prohibited.
-
 -   **Product: Observer** - The Product Observer role has permissions to read given resources for the designated product. This role is read-only.
 
 #### **Account Roles**
@@ -98,20 +97,14 @@ The **Rackspace Cloud Permissions** window opens as shown below.
 The Global Permissions section lets you make changes across your entire account.
 
 ### Types of Contact in Cloud Control Panel
-
 Contact types are similar to tags. Using contact types can help account owners to manage users. The Cloud Control Panel offers the following contact types:
-
 -   **Administrative** - Users that primarily perform administrative tasks, such as billing and payments, are given this contact category. Our automated systems do not send technical notifications to administrative contacts. This role has no particular significance for your accounts. For instance, the billing address for the account remains unaffected when an administrative user changes their address.
-
 -   **Technical** - Users that accomplish mostly technical tasks are assigned this contact type. These users automatically get monitoring alerts.
 
 ### Need for Implementation of RBAC
 Implement RBAC when you want to achieve the following results:
-
 -   Minimize downtime and accidental changes to cloud or dedicated resources by restricting account access to only a few people.
-
 -   Help prevent unauthorized access to cloud products by assigning each user their own credentials.
-
 -   Synchronize cloud product access with the functions of an employee's job.
 
 ### Use of RBAC
@@ -203,14 +196,14 @@ To assign permissions you can use the following way as listed below:
 3. Click **Save Changes**.
 
 ### Activation of RBAC
-RBAC is automatically activated when the account owner adds users to an account. Account owners dedicated users through the [Dedicated Users](https://login.rackspace.com/) or the API.
+RBAC is automatically activated when the account owner adds users to an account. Account owners can add dedicated users through the [Dedicated Users](https://login.rackspace.com/) or the API.
 
 #### **Future RBAC-enabled Products**
 New products are RBAC-enabled as they are launched.
 
 ### Product Without RBAC
 The following Rackspace products will not have RBAC:
--   RackConnect
+- RackConnect
 
 ### Next Section
 [Use Role-Based Access Control (RBAC)](/support/how-to/use-role-based-access-control-rbac)
