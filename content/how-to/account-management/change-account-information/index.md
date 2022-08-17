@@ -5,8 +5,8 @@ title: Change account information
 type: article
 created_date: '2015-06-18'
 created_by: David Hendler
-last_modified_date: '2019-01-08'
-last_modified_by: Kate Dougherty
+last_modified_date: '2022-08-17'
+last_modified_by: Rohit Rajput 
 product: Account Management
 product_url: account-management
 slug: change-account-information
@@ -15,30 +15,41 @@ slug: change-account-information
 This article describes the various administrative account changes that you can
 request and the appropriate steps needed to complete them.
 
-### Dedicated customers
+### Dedicated Customers
 
-Dedicated customers can download the **Primary Contact Change** form in the
-[MyRackspace Control Panel](https://login.rackspace.com). For instructions
-about how to find the form, see the **Dedicated customers** section of [Change
-to a new primary contact](/support/how-to/change-to-new-primary-contact).
+You can download the **Primary Contact Change** form by using the following steps: 
 
-If you are the current primary contact for your account, you can update the
-primary contact information by selecting and editing the **Primary Contact
-Information** in your **Account Settings**.
+**Step 1.** Log in to the `Rackspace Technology Portal <https://login.rackspace.com/>`_.
 
-Request the **Service Transfer** form from your account manager.
+**Step 2.** In the top navigation panel, select **Account >> Docs and Forms**.
 
-### All other customers
+<img width="359" alt="Acc Docs   forms" src="https://user-images.githubusercontent.com/96761530/185171170-aa8e4210-7a6d-4280-881e-b79acb77f079.png">
 
-All other customers can find links to the forms described in this article by
-logging in to the [Cloud Control Panel](https://login.rackspace.com) and
-selecting **Account > Docs and Forms**.
+**Step 3.** Under **Compliance Documents and Forms** click **Primary Contact Change Form**. Download the **Primary Contact Change Form** and save it. 
+
+<img width="324" alt="Change Primary contact form" src="https://user-images.githubusercontent.com/96761530/185171936-a250b8e9-948c-4190-b5aa-7acff385c8e7.png">
+
+
+You can request the **Service Transfer** form from your account manager.
+
+
+### Cloud Customers
+
+Cloud customers can find links to the forms described in this article by using the following steps:
+
+**Step 1.** Log in to the `Rackspace Technology Portal <https://login.rackspace.com/>. 
+
+**Step 2.** In the top navigation panel, select **Account >> Docs and Forms**.
+
+<img width="375" alt="Acc Docs   forms cloud" src="https://user-images.githubusercontent.com/96761530/185176583-c1b38327-ef8b-45d2-8900-c890e851ab9e.png">
+
+
 
 ### Service Transfer form requirements
 
 The Billing team has strict requirements for processing the Service Transfer
-form for a Rackspace account. Use the following information to have the
-submission processed quickly and efficiently.
+form for a Rackspace account. Use the following information for processing the
+submission quickly and efficiently:
 
 **Page 1 - Account details**
 
@@ -59,7 +70,7 @@ submission processed quickly and efficiently.
 {{<image alt="Signature section details, including Transferring customer (Assignor) and Accepting customer (assignee) information" src="change-account-2.jpg" title="Signature section details, including Transferring customer (Assignor) and Accepting customer (assignee) information">}}
 
 Do not fill out the **RACKSPACE US, INC.** section. A Rackspace
-representative completes this section.
+representative will complete this section.
 
 **Page 3 - Consolidated and / or Linked Cloud Accounts (Exhibit A)**
 
@@ -72,18 +83,18 @@ provide the following information:
 
 ### Best practices for legal change forms
 
-The Service Transfer and Primary Contact Change forms have many required
-fields that must be complete before the Billing team can process the forms.
+The **Service Transfer change forms** and **Primary Contact Change forms** have many required
+fields that must be completed before the Billing team can process the forms.
 After you have completed the form, scan the document and attach it to the
 support ticket in the [Cloud Control Panel](https://login.rackspace.com) or
 the [MyRackspace Control Panel](https://login.rackspace.com).
 
-To avoid form rejection, use the following tips when completing the
+To avoid form rejection, use the following tips while completing the
 form:
 
 - The signatures on the **Service Transfer** form *must* come
   from an officer or an owner of the company.
-- The owner or officer must initial any changes regarding an increase
+- The owner or officer must initiate any changes regarding an increase
   in MMR or added devices or domains that are made to the form after
   the initial submission.
 - No blank fields are allowed on any form, except where indicated. You
