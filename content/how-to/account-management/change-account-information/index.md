@@ -19,15 +19,15 @@ request and the appropriate steps needed to complete them.
 
 You can download the **Primary Contact Change** form by using the following steps: 
 
-**Step 1.** Log in to the `Rackspace Technology Portal <https://login.rackspace.com/>`_.
+**Step 1.** Log in to the `Rackspace Technology Portal <https://login.rackspace.com/>.
 
 **Step 2.** In the top navigation panel, select **Account >> Docs and Forms**.
 
-<img width="359" alt="Acc Docs   forms" src="https://user-images.githubusercontent.com/96761530/185171170-aa8e4210-7a6d-4280-881e-b79acb77f079.png">
+<img width="359" alt="Acc Docs   forms" src="Acc Docs & forms.png">
 
 **Step 3.** Under **Compliance Documents and Forms** click **Primary Contact Change Form**. Download the **Primary Contact Change Form** and save it. 
 
-<img width="324" alt="Change Primary contact form" src="https://user-images.githubusercontent.com/96761530/185171936-a250b8e9-948c-4190-b5aa-7acff385c8e7.png">
+<img width="324" alt="Change Primary contact form" src="Change Primary contact form.png">
 
 
 You can request the **Service Transfer** form from your account manager.
@@ -41,7 +41,7 @@ Cloud customers can find links to the forms described in this article by using t
 
 **Step 2.** In the top navigation panel, select **Account >> Docs and Forms**.
 
-<img width="375" alt="Acc Docs   forms cloud" src="https://user-images.githubusercontent.com/96761530/185176583-c1b38327-ef8b-45d2-8900-c890e851ab9e.png">
+<img width="375" alt="Acc Docs   forms cloud" src="Acc Docs & forms cloud.png">
 
 
 
