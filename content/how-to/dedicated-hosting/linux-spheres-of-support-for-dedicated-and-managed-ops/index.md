@@ -5,7 +5,7 @@ title: Linux Spheres of Support for Dedicated and Managed Operations
 type: article
 created_date: '2017-03-03'
 created_by: Alex Juarez
-last_modified_date: '2022-02-24'
+last_modified_date: '2022-07-12'
 last_modified_by: Man Chung
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -19,18 +19,22 @@ The following operating systems are supported for both Dedicated and Managed Ope
 
 |   | Dedicated | Managed Operations | Fanatical AWS | Microsoft Azure |
 | --- | --- | --- | --- | --- |
-| AlmaLinux&reg; 8 | Yes | Yes | Yes | Yes |
+| AlmaLinux&reg; 9 | tba | tba | tba | tba |
+| AlmaLinux 8 | Yes | Yes | Yes | Yes |
 | Amazon&reg; Linux 2 | - | - | Yes | - |
 | CentOS&reg; 7 | Yes | Yes | Yes | Yes |
 | Debian&reg; 11 (Bullseye) | - | Yes | Yes | Yes |
 | Debian 10 (Buster) | - | Yes | Yes | Yes |
-| Debian 9 (Stretch) | - | Yes | Yes | Yes |
-| Oracle&reg; Linux 8 | Yes | - | Yes | Yes |
+| Oracle&reg; Linux 9 | tba | - | tba | tba |
+| Oracle Linux 8 | Yes | - | Yes | Yes |
 | Oracle Linux 7 | Yes | - | Yes | Yes |
-| Red Hat&reg; Enterprise Linux&reg; 8 | Yes | Yes | Yes | Yes |
+| Red Hat&reg; Enterprise Linux&reg; 9 | tba | tba | tba | tba |
+| Red Hat Enterprise Linux 8 | Yes | Yes | Yes | Yes |
 | Red Hat Enterprise Linux 7 | Yes | Yes | Yes | Yes |
-| Rocky Linux&reg; 8 | Yes | Yes | Yes | Yes |
-| Ubuntu&reg; 20.04 LTS (Focal Fossa) | Yes | Yes | Yes | Yes |
+| Rocky Linux&reg; 9 | tba | tba | tba | tba |
+| Rocky Linux 8 | Yes | Yes | Yes | Yes |
+| Ubuntu&reg; 22.04 LTS (Jammy Jellyfish) | tba | tba | tba | tba |
+| Ubuntu 20.04 LTS (Focal Fossa) | Yes | Yes | Yes | Yes |
 | Ubuntu 18.04 LTS (Bionic Beaver) | Yes | Yes | Yes | Yes |
 
 **Note**: Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support
