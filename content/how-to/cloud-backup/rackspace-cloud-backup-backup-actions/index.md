@@ -24,12 +24,12 @@ You can access the **Backup Actions** menu in the following ways:
     on the gear icon next to the backup name on the **Configured Backups**
     page.
 
-    {{<image src="ScreenShot2022-08-09at4.20.11PM.png" alt="" title="">}}
+    {{<image src="CloudBackupSystemList.png" alt="" title="">}}
 
 -   Click on the **Actions** menu at the top of the **Configuration Details**
     page for a configured backup.
 
-    {{<image src="ScreenShot2022-08-09at4.18.36PM.png" alt="" title="">}}
+    {{<image src="CloudServerDetail.png" alt="" title="">}}
 
 From the **Actions** menu, you can perform the following actions:
 
@@ -71,7 +71,7 @@ progress bar is displayed until the backup is completed.
     by clicking the **Selected & Excluded Items** tab. The files included in the restore and specifically excluded are listed.
     3. When you are done, click **Next Step**.
 
-    {{<image src="ScreenShot2022-08-09at4.53.59PM.png" alt="" title="">}}
+    {{<image src="RestoreSnapshotBrowseFilesFolder.png" alt="" title="">}}
 
 5.  On the next page, select the destination folder.
 
@@ -139,7 +139,7 @@ You can change the files and folders that are saved in your backup.
 You can prevent a backup from running by selecting **Disable Backup**
 from the **Actions** menu.
 
-{{<image src="ScreenShot2022-08-09at2.36.44PM.png" alt="" title="">}}
+{{<image src="ConfiguredBackups.png" alt="" title="">}}
 
 When you disable a backup, the following actions occur:
 
