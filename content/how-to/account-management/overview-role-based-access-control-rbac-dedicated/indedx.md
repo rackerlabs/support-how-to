@@ -1,11 +1,11 @@
 ---
-permalink: overview-role-based-access-control-rbac
+permalink: overview-role-based-access-control-rbac-dedicated
 audit_date: '2018-02-16'
 title: Learn about Role-Based Access Control (RBAC)
 type: article
-created_date: '2013-04-14'
-created_by: Renee Rendon
-last_modified_date: '2022-08-17'
+created_date: '2022-08-25'
+created_by: Asmita Nakwa
+last_modified_date: '2022-08-25'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -53,91 +53,12 @@ These permissions apply to products that are RBAC-enabled.
 
 **Note**: Users with Full Access and Read-Only Access roles have automatic access to all new products that become RBAC-enabled, with the exception of account administration tasks such as billing. Product roles do not include account roles.
 
-#### **Custom Roles**
-
-##### **Custom Role for Cloud Users**
-Custom roles enable account owners to assign users different permissions for different products. After a user is assigned custom roles, those roles can only be changed on a per-product basis.
-
-RBAC has the following custom roles:
--   **Product: Admin** - The Product Admin role has permissions to create, read, update, and delete resources for the designated product.
--   **Product: Creator** - The Product Creator role has permissions to create, read, and update resources for the designated product. This role cannot delete a resource. All destructive actions are prohibited.
--   **Product: Observer** - The Product Observer role has permissions to read given resources for the designated product. This role is read-only.
-
 #### **Account Roles**
 Assign the following account roles to the users who manage your Rackspace customer account:
 -   **Billing:admin** - The Billing Admin role has permissions to create, read, update, and delete billing and payment resources for the designated product.
 -   **Billing:observer** - The Billing Observer role has permissions to read billing and payment resources for the designated product. This role is read-only.
 
-**Account Permissions for Cloud Users**
-To give a user account permissions without product permissions, use the following steps for cloud users:
-
-1. Log in to the [Cloud Control Panel](https://login.rackspace.com) as shown in below image.
-<image width="533" alt="rbac1" src="/support/how-to/overview-role-based-access-control-rbac/rbac1.png">
-
-2. In the top navigation bar, click **Account > User Management**.
-<image width="379" alt="rbac2" src="/support/how-to/overview-role-based-access-control-rbac/rbac2.png">
-
-3. Select the user for whom you wish to set permissions.
-<image width="919" alt="rbac3" src="/support/how-to/overview-role-based-access-control-rbac/rbac3.png">
-
-4. Click **Edit** under the **PRODUCT ACCESS** tab in the **Rackspace Cloud** under **Product Permissions** section.
-<image width="900" alt="rbac4" src="/support/how-to/overview-role-based-access-control-rbac/rbac4.png">
-
-The **Rackspace Cloud Permissions** window opens as shown below.
-<image width="203" alt="rbac5" src="/support/how-to/overview-role-based-access-control-rbac/rbac5.png">
-
-5. Under **Cloud Access**, choose the type of global access you want the user to have including a **Custom** option, or select the individual product and select from the options available for it, usually **ADMIN**, **CREATOR, **OBSERVER**, or **None**.
-
-6. Click **Save** or **Update**.
-
-**Note**: A user may be assigned both a product role and an account role.
-
-**Manage Global Permissions**
-
-The Global Permissions section lets you make changes across your entire account.
-
-### Types of Contact in Cloud Control Panel
-Contact types are similar to tags. Using contact types can help account owners to manage users. The Cloud Control Panel offers the following contact types:
--   **Administrative** - Users that primarily perform administrative tasks, such as billing and payments, are given this contact category. Our automated systems do not send technical notifications to administrative contacts. This role has no particular significance for your accounts. For instance, the billing address for the account remains unaffected when an administrative user changes their address.
--   **Technical** - Users that accomplish mostly technical tasks are assigned this contact type. These users automatically get monitoring alerts.
-
-### Need for Implementation of RBAC
-Implement RBAC when you want to achieve the following results:
--   Minimize downtime and accidental changes to cloud or dedicated resources by restricting account access to only a few people.
--   Help prevent unauthorized access to cloud products by assigning each user their own credentials.
--   Synchronize cloud product access with the functions of an employee's job.
-
-### Use of RBAC
-RBAC is available to all Rackspace customers.
-
-### Activation of RBAC
-RBAC is automatically activated when the account owner adds users to an account. Account owners can add cloud users through the [Cloud Control Panel](https://login.rackspace.com/) or the API.
-
-For more information about specific RBAC-related APIs, see the [Rackspace API documentation](https://docs.rackspace.com/docs/).
-
-### RBAC-enabled Products
-The following Rackspace products are RBAC-enabled:
-
--   [Cloud Servers](/support/how-to/cloud-servers)
--   [Cloud Files](/support/how-to/cloud-files)
--   [Cloud Databases](/support/how-to/cloud-databases)
--   [Cloud Load Balancers](/support/how-to/cloud-load-balancers)
--   [Cloud Queues](/support/how-to/cloud-queues)
--   [Rackspace Monitoring](/support/how-to/rackspace-monitoring)
--   [Rackspace Metrics](/support/how-to/rackspace-metrics)
--   [Cloud Backup](/support/how-to/cloud-backup)
--   [Cloud Networks](/support/how-to/cloud-networks)
--   [Cloud Block Storage](/support/how-to/cloud-block-storage)
--   [Auto Scale](/support/how-to/rackspace-auto-scale)
--   [Cloud Images](/support/how-to/cloud-images)
--   [Cloud Orchestration](/support/how-to/cloud-orchestration)
--   [Cloud DNS](/support/how-to/cloud-dns)
--   [Cloud Feeds](/support/how-to/cloud-feeds-overview)
--   [Rackspace CDN](/support/how-to/rackspace-cdn)
--   [Rackspace billing FAQ](/support/how-to/rackspace-billing-faq)
-
-
-##### **Custom Role for Rackspace Dedicated Hosting Account**
+##### **Custom Role**
 
 Two types of permissions are available for Rackspace Dedicated hosting accounts:
 - **Direct Permissions**: These grant the user direct access to account permissions, linked cloud accounts, devices, or services.
