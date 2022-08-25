@@ -16,7 +16,9 @@ Role-Based Access Control (RBAC) and learn about the service.
 
 ### Overview
 
-[Learning about Role-Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac)
+Learning about Role-Based Access Control (RBAC)
+- [Rackspace Cloud](/support/how-to/overview-role-based-access-control-rbac-cloud)
+- [Rackspace Dedicated](/support/how-to/overview-role-based-access-control-rbac-Dedicated)
 
 ### Managing RBAC
 
