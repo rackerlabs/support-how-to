@@ -68,17 +68,17 @@ Two types of permissions are available for Rackspace Dedicated hosting accounts:
 To give a user account permissions without product permissions, use the following steps for dedicated users:
 
 1. Log in to the [Rackspace Dedicated](https://login.rackspace.com) as shown in below image.
-<image width="533" alt="rbac1" src="/support/how-to/overview-role-based-access-control-rbac/rbac1.png">
+<image width="533" alt="rbac1" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac1.png">
 
 2. In the top navigation bar, click **Account > User Management**.
-<image width="379" alt="rbac2" src="/support/how-to/overview-role-based-access-control-rbac/rbac2.png"> 
+<image width="379" alt="rbac2" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac2.png"> 
 
 3. In the top navigation bar, click **Account > Permissions**.
-<img width="689" alt="rbac6" src="/support/how-to/overview-role-based-access-control-rbac/rbac6.png">
+<img width="689" alt="rbac6" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac6.png">
 
 **Note:** You can grant a user a combination of direct and effective permissions. MyRackspace uses the highest level of permission granted. 
 
-<img width="928" alt="rbac7" src="/support/how-to/overview-role-based-access-control-rbac/rbac7.png">
+<img width="928" alt="rbac7" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac7.png">
 
 To assign permissions you can use the following way as listed below:
 - Assign By User
@@ -89,30 +89,30 @@ To assign permissions you can use the following way as listed below:
 **Assign By User**
 
 1. To assign permission **By User**, select a user/user group from the column. 
-<img width="931" alt="rbac8" src="/support/how-to/overview-role-based-access-control-rbac/rbac8.png">
+<img width="931" alt="rbac8" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac8.png">
 
 2. Select the checkbox under **Direct** permissions you want to assign to that user/user group.
-<img width="928" alt="rbac9" src="/support/how-to/overview-role-based-access-control-rbac/rbac9.png">
+<img width="928" alt="rbac9" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac9.png">
 
 3. Click **Save Changes**.
 
 **Assign By Product**
 
 1. To assign permission **By Product**, select product/product group from the column.
-<img width="810" alt="rbac10" src="/support/how-to/overview-role-based-access-control-rbac/rbac10.png">
+<img width="810" alt="rbac10" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac10.png">
 
 2. Select the checkbox under **Direct** permissions you want to assign to that product/product group.
-<img width="942" alt="rbac11" src="/support/how-to/overview-role-based-access-control-rbac/rbac11.png">
+<img width="942" alt="rbac11" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac11.png">
 
 3. Click **Save Changes**.
 
 **Manage Groups**
 
 1. To add new User Groups/Product Groups, click **Manage Groups**.
-<img width="925" alt="rbClick **Save Changes**.ac12" src="/support/how-to/overview-role-based-access-control-rbac/rbac12.png">
+<img width="925" alt="rbClick **Save Changes**.ac12" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac12.png">
 
 2. Enter a name for the new group and select the green plus sign.
-<img width="918" alt="rbac13" src="/support/how-to/overview-role-based-access-control-rbac/rbac13.png">
+<img width="918" alt="rbac13" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac13.png">
 
 3. Click **Save Changes**.
 

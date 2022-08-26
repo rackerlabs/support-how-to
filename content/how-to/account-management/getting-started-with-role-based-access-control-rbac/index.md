@@ -5,7 +5,7 @@ title: Getting started with Role-Based Access Control (RBAC)
 type: article
 created_date: '2013-07-15'
 created_by: Renee Rendon
-last_modified_date: '2022-07-29'
+last_modified_date: '2022-08-26'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -18,7 +18,7 @@ Role-Based Access Control (RBAC) and learn about the service.
 
 Learning about Role-Based Access Control (RBAC)
 - [Rackspace Cloud](/support/how-to/overview-role-based-access-control-rbac-cloud)
-- [Rackspace Dedicated](/support/how-to/overview-role-based-access-control-rbac-Dedicated)
+- [Rackspace Dedicated](/support/how-to/overview-role-based-access-control-rbac-dedicated)
 
 ### Managing RBAC
 
