@@ -95,7 +95,12 @@ Yes, hybrid domains will still work after the migration.
 No, the settings for MX,SPF,and DKIM will remain the same. 
 
 ## Do I need to change the IMAP, POP, or SMTP server or port settings?
-No, the settings will remain the same. 
+You will not need to change the settings if the client is configured to use SSL with the settings below. Refer to the Email Help Tool if you need instructions on how to configure clients. 
+
+The secure settings are:
+* Secure IMAP: secure.emailsrvr.com (Port 993)
+* Secure POP: secure.emailsrvr.com (Port 995)
+* Secure SMTP: secure.emailsrvr.com (Ports 465 or 587)
 
 ## Will the URL  I use to access Rackspace Email change?
 No, the URL will not change.
