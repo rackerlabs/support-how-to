@@ -75,7 +75,7 @@ Yes.
 
 {{< accordion title="How does RBAC work with MyRackspace?" col="in" href="accordion27" >}}
 
-With RBAC, account owners can leave permissions as they are in MyRackspace or set up restricted access to specific products for users through the Cloud Control Panel. For more detailed information, see [Learn about Role-Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac/).
+With RBAC, account owners can leave permissions as they are in MyRackspace or set up restricted access to specific products for users through the Cloud Control Panel. For more detailed information, see Learn about Role-Based Access Control (RBAC) for [Rackspace Cloud](/support/how-to/overview-role-based-access-control-rbac-cloud/) and [Rackspace Dedicated](/support/how-to/overview-role-based-access-control-rbac-dedicated/).
 {{</ accordion >}}
 
 {{< accordion title="Can I link dedicated, hybrid, and cloud permissions?" col="in" href="accordion28" >}}
