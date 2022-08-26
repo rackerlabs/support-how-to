@@ -38,7 +38,7 @@ as email addresses and passwords, and to add new users.
 
 - To make changes for a user, click the entry under **USERNAME**. The **USER DETAILS** page displays. You can edit contact information, security settings, and user permissions.
 
-- To add a new user, click **Create User**. On the **Create a User** page, enter information for the new user's information and contact type. For more information from the administrator and new user's perspectives, see [New user workflow](/support/how-to/new-user-workflow). For information about access controls for new users, see [Learn about Role-Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac). After you have entered all of the information for the new user, click the **Create User** button at the bottom of the page.
+- To add a new user, click **Create User**. On the **Create a User** page, enter information for the new user's information and contact type. For more information from the administrator and new user's perspectives, see [New user workflow](/support/how-to/new-user-workflow). For information about access controls for new users, see Learn about Role-Based Access Control (RBAC) for [Rackspace Cloud](/support/how-to/overview-role-based-access-control-rbac-cloud) and [Rackspace Dedicated](/support/how-to/overview-role-based-access-control-rbac-dedicated). After you have entered all of the information for the new user, click the **Create User** button at the bottom of the page.
 
 - To add an identity provider, click the **Identity Federation** tab, and then click **Add Identity Provider**. Enter a description, the email domain, and SAML metadata, and then click **Create Identity Provider**.
 
