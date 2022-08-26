@@ -1,6 +1,6 @@
 ---
 permalink: overview-role-based-access-control-rbac-dedicated
-audit_date: '2018-02-16'
+audit_date: '2022-08-25'
 title: Learn about Role-Based Access Control (RBAC)
 type: article
 created_date: '2022-08-25'
@@ -11,7 +11,7 @@ product: Account Management
 product_url: account-management
 ---
 
-**Previous Section:** [Getting started with Role-Based Access Control (RBAC)](/support/how-to/getting-started-with-role-based-access-control-rbac)
+**Previous Section:** [Rackspace Cloud](/support/how-to/overview-role-based-access-control-rbac-cloud)
 
 This article answers basic questions about the Role-Based Access Control (RBAC) service.
 
@@ -101,7 +101,7 @@ To assign permissions you can use the following way as listed below:
 1. To assign permission **By Product**, select product/product group from the column.
 <img width="810" alt="rbac10" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac10.png">
 
-2. Select the checkbox under **Direct** permissions you want to assign to that product/product group.
+2. Select the check box under **Direct** permissions you want to assign to that product/product group.
 <img width="942" alt="rbac11" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac11.png">
 
 3. Click **Save Changes**.
@@ -109,7 +109,7 @@ To assign permissions you can use the following way as listed below:
 **Manage Groups**
 
 1. To add new User Groups/Product Groups, click **Manage Groups**.
-<img width="925" alt="rbClick **Save Changes**.ac12" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac12.png">
+<img width="925" alt="rbac12" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac12.png">
 
 2. Enter a name for the new group and select the green plus sign.
 <img width="918" alt="rbac13" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac13.png">
