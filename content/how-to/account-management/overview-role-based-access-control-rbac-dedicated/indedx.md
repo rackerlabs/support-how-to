@@ -1,7 +1,7 @@
 ---
 permalink: overview-role-based-access-control-rbac-dedicated
 audit_date: '2022-08-25'
-title: Learn about Role-Based Access Control (RBAC)
+title: Overview Role Based Access Control for Dedicated
 type: article
 created_date: '2022-08-25'
 created_by: Asmita Nakwa
