@@ -95,7 +95,7 @@ Following is the initial pop-up window that appears when you enable RBAC.
 
 <img class="fig-img" src="/support/how-to/account-management-faq/RBAC.png" alt="">
 
-For information about additional products that will be RBAC-enabled in the future, refer to [Learn about Role Based Access Control (RBAC)](/support/how-to/overview-role-based-access-control-rbac).
+For information about additional products that will be RBAC-enabled in the future, refer to [Rackspace Cloud](/support/how-to/overview-role-based-access-control-rbac-cloud) and [Rackspace Dedicated](/support/how-to/overview-role-based-access-control-rbac-dedicated).
 
 For information about changing your admin credentials, refer to [Use Role-Based Access Control (RBAC)](/support/how-to/use-role-based-access-control-rbac).
 
