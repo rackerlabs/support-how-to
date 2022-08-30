@@ -54,6 +54,7 @@ These permissions apply to products that are RBAC-enabled.
 **Note**: Users with Full Access and Read-Only Access roles have automatic access to all new products that become RBAC-enabled, with the exception of account administration tasks such as billing. Product roles do not include account roles.
 
 #### **Account Roles**
+
 Assign the following account roles to the users who manage your Rackspace customer account:
 -   **Billing:admin** - The Billing Admin role has permissions to create, read, update, and delete billing and payment resources for the designated product.
 -   **Billing:observer** - The Billing Observer role has permissions to read billing and payment resources for the designated product. This role is read-only.
@@ -68,10 +69,10 @@ Two types of permissions are available for Rackspace Dedicated hosting accounts:
 To give a user account permissions without product permissions, use the following steps for dedicated users:
 
 1. Log in to the [Rackspace Dedicated](https://login.rackspace.com) as shown in below image.
-<image width="533" alt="rbac1" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac1.png">
+<img width="533" alt="rbac1" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac1.png">
 
 2. In the top navigation bar, click **Account > User Management**.
-<image width="379" alt="rbac2" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac2.png"> 
+<img width="379" alt="rbac2" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac2.png"> 
 
 3. In the top navigation bar, click **Account > Permissions**.
 <img width="689" alt="rbac6" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac6.png">
