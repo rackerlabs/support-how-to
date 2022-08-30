@@ -5,7 +5,7 @@ title: Account Management FAQ
 type: article
 created_date: '2019-05-16'
 created_by: Stephanie Fillmon
-last_modified_date: '2020-07-28'
+last_modified_date: '2020-08-30'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
