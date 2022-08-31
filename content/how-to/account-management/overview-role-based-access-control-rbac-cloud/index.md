@@ -55,7 +55,6 @@ These permissions apply to products that are RBAC-enabled.
 
 #### **Custom Roles**
 
-##### **Custom Role for Cloud Users**
 Custom roles enable account owners to assign users different permissions for different products. After a user is assigned custom roles, those roles can only be changed on a per-product basis.
 
 RBAC has the following custom roles:

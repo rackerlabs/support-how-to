@@ -59,7 +59,7 @@ Assign the following account roles to the users who manage your Rackspace custom
 -   **Billing:admin** - The Billing Admin role has permissions to create, read, update, and delete billing and payment resources for the designated product.
 -   **Billing:observer** - The Billing Observer role has permissions to read billing and payment resources for the designated product. This role is read-only.
 
-##### **Custom Role**
+##### **Custom Roles**
 
 Two types of permissions are available for Rackspace Dedicated hosting accounts:
 - **Direct Permissions**: These grant the user direct access to account permissions, linked cloud accounts, devices, or services.
