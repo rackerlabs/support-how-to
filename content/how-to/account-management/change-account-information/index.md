@@ -5,7 +5,7 @@ title: Change account information
 type: article
 created_date: '2015-06-18'
 created_by: David Hendler
-last_modified_date: '2022-08-17'
+last_modified_date: '2022-09-01'
 last_modified_by: Rohit Rajput 
 product: Account Management
 product_url: account-management
@@ -100,12 +100,4 @@ form:
 - No blank fields are allowed on any form, except where indicated. You
   cannot type **Same** in any field.
 
-### Types of account changes
 
-The following articles provide detailed information about what changes can be
-made to your account by using the Service Transfer Form:
-
-- [Update an account's billing information](/support/how-to/update-account-billing-information)
-- [Transfer an account's ownership or Tax ID](/support/how-to/transfer-account-ownership-or-tax-id)
-- [Change an account's company name](/support/how-to/change-account-company-name)
-- [Change an account's primary contact](/support/how-to/change-to-new-primary-contact)
