@@ -21,7 +21,7 @@ On dedicated with Managed or Intensive SLA, there are the following Linux OS opt
 - Red Hat Enterpise Linux 7 or 8.
 - Alma Linux 8
 - Rocky Linux 8
-- CentOs 7
+- CentOS 7
 - Oracle Linux 7 or 8
 - Ubuntu 18.04 LTS or 20.04 LTS
 
