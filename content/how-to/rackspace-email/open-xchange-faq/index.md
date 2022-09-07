@@ -1,5 +1,5 @@
 ---
-permalink: rackspace-email-faq
+permalink: open-xchange-faq
 audit_date: '2021-02-26'
 title: Rackspace Email to Open-Xchange Migration FAQ
 type: article
@@ -34,10 +34,21 @@ No, the price you pay will remain the same.
 
 ### The following features are changing: 
 - The maximum forward address limit will change to 4 (Currently 15)
-- Folder cleanup: 
-	- We will implement a new global setting for the spam and trash folders.
-	- The settings for inbox, draft, and sent folders will be removed.
-	- You will be notified if your mailbox is affected by this change.
+- Folder cleanup:
+    - Starting August 2022 we will start implementing the new folder clean up settings. 
+    - The new setting for spam/trash is 30 days. You will not be able to change this setting. 
+    - The settings for inbox, draft, and sent folders will be removed.
+    - The settings for "total messages" will be removed. 
+    
+        Deployment Plan:
+            
+        - (August 2022) The new spam/trash settings will be applied to all new domains/mailboxes.
+            
+        - (August 2022) New logic will prevent exceeding the 30 day limit on existing domains/mailboxes. 
+            
+        - (August 2022) Apply the new spam/trash limits to all the domains/mailboxes that are under the 30 day limit. Once the new settings are applied you will not be able to change them.
+        - (Date TBD) Change the spam/trash settings for all the domains/mailboxes that are over the 30 day limit. Note: The Admin will be notified before this change (via ticket) if the account has mailboxes with spam/trash folders over the 30 day limit. 
+        
 - Allow/Block Lists:
     - Domain level configured via Control Panel: 
         - Originally we planned on removing the Administrators ability to configure the domain level allow/blocklist via the Control Panel. We took your feedback into consideration and found a way to keep this feature. 
@@ -84,7 +95,12 @@ Yes, hybrid domains will still work after the migration.
 No, the settings for MX,SPF,and DKIM will remain the same. 
 
 ## Do I need to change the IMAP, POP, or SMTP server or port settings?
-No, the settings will remain the same. 
+You will not need to change the settings if the client is configured to use SSL with the settings below. Refer to the Email Help Tool if you need instructions on how to configure clients. 
+
+The secure settings are:
+* Secure IMAP: secure.emailsrvr.com (Port 993)
+* Secure POP: secure.emailsrvr.com (Port 995)
+* Secure SMTP: secure.emailsrvr.com (Ports 465 or 587)
 
 ## Will the URL  I use to access Rackspace Email change?
 No, the URL will not change.
