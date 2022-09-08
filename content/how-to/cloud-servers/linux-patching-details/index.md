@@ -53,6 +53,19 @@ CentOS is a community project based on RHEL which is developed, maintained and s
 CentOS end of life dates are the same as for RHEL:
 - CentOS 7 (ends June 30, 2024)
 
+#### AlmaLinux / Rocky Linux
+AlmaLinux is an Open Source, community owned and governed, forever-free enterprise Linux distribution, focused on long-term stability, providing a robust production-grade platform. [AlmaLinux]: <https://almalinux.org>
+
+Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux®. It is under intensive development by the community. [Rocky Linux]: <https://Rockylinux.org>
+
+Applies to both:
+- Does not have upstream support or vendor escalation available
+- Has different build environments and QA processes for its packages
+- Both will receive updates later than RHEL, since packages can't be built until the source code is made available by Red Hat.
+- Not eligible for hot fixes or other out of band packages provided by Red Hat support
+- Extended Update Support (EUS) is not available - only latest base release is supported.
+- End of life by their respective vendors will be inline with upstream vendor, Red Hat.
+
 #### Red Hat Enterpise Linux EUS (Extended Update Support)
 Available on Dedicated only. Not available on Rackspace Cloud.
 
@@ -62,7 +75,7 @@ As above, typical use cases for EUS are customers who need to remain on a partic
 
 EUS support time frames for recent versions are as follows:
 - RHEL 6 no longer supports EUS releases
-- 7.9 EUS (Final RHEL 7 EUS Release)
+- RHEL 7.9 EUS (Final RHEL 7 EUS Release)
 - RHEL 8.4 (ends May 31, 2023)
 - RHEL 8.6 (ends May 31, 2024)
 
