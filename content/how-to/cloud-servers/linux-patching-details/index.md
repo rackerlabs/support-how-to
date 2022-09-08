@@ -107,7 +107,8 @@ Auter is a Rackspace developed re-implementation of yum-cron, which aims to solv
 
 Who Can Get It? Auter can be installed for any customer running Rackspace supported RHEL or CentOS servers. Currently, Auter does not support Ubuntu. Auter is open source and available in the epel repositories, so it can also be installed on systems outside of Rackspace as well.
 
-Ubuntu systems at Rackspace default to automatically applying all security updates nightly via the package unattended-upgrades. This can be changed to update all packages, or to be disabled if you wish. This is the only automatic updates method available for Ubuntu at Rackspace. unattended-upgrades is open source, and so you can also use it on any systems you have outside of Rackspace as well
+#### UnattendedUpgrades
+Ubuntu systems at Rackspace default to automatically applying all security updates nightly via the package unattended-upgrades. This can be changed to update all packages, or to be disabled if you wish. This is the only automatic updates method available for Ubuntu at Rackspace. Unattended-upgrades is open source, so it can also be used on systems outside of Rackspace.
 
 #### Manual Patching
 Outside of Intensive SLA's Intensive Non-Managed Patching, Rackspace does not offer regular Manual Patching.
