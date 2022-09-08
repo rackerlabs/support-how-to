@@ -28,7 +28,7 @@ This article explains how to create a ticket to add a CPU to a server or hypervi
 
    <img width="958" alt="hypervisor6" src="/source/how-to/add-cpu-to-server-or-hypervisor/hypervisor6.png">
 
-5. From the **Common Request** menu, Select **Add CPU to Server or Hypervisor**.
+5. From the **Common Request** menu, select **Add CPU to Server or Hypervisor**.
 
   <img width="249" alt="hypervisor7" src="/source/how-to/add-cpu-to-server-or-hypervisor/hypervisor7.png">
 
