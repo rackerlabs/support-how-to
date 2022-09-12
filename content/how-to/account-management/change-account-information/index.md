@@ -5,7 +5,7 @@ title: Change account information
 type: article
 created_date: '2015-06-18'
 created_by: David Hendler
-last_modified_date: '2022-09-01'
+last_modified_date: '2022-09-12'
 last_modified_by: Rohit Rajput 
 product: Account Management
 product_url: account-management
@@ -19,7 +19,7 @@ request and the appropriate steps needed to complete them.
 
 You can download the **Primary Contact Change** form by using the following steps: 
 
-**Step 1.** Log in to the `Rackspace Technology Portal <https://login.rackspace.com/>.
+**Step 1.** Log in to the Rackspace Technology Portal <https://login.rackspace.com/>.
 
 **Step 2.** In the top navigation panel, select **Account >> Docs and Forms**.
 
@@ -37,7 +37,7 @@ You can request the **Service Transfer** form from your account manager.
 
 Cloud customers can find links to the forms described in this article by using the following steps:
 
-**Step 1.** Log in to the `Rackspace Technology Portal <https://login.rackspace.com/>. 
+**Step 1.** Log in to the Rackspace Technology Portal <https://login.rackspace.com/>. 
 
 **Step 2.** In the top navigation panel, select **Account >> Docs and Forms**.
 
