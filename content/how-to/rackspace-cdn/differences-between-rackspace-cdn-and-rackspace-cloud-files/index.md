@@ -5,8 +5,8 @@ title: Differences between Rackspace CDN and Rackspace Cloud Files
 type: article
 created_date: '2015-05-08'
 created_by: Rackspace Support
-last_modified_date: '2018-06-26'
-last_modified_by: Becky Geizner
+last_modified_date: '2022-05-05'
+last_modified_by: Maeve Goetz
 product: Rackspace CDN
 product_url: rackspace-cdn
 ---
@@ -30,7 +30,7 @@ Following are some differences between Rackspace CDN and Cloud Files:
     However, serving other CDN-enabled containers or serving CDN-enabled
     content over SSL/TLS is possible. Cloud Files supports streaming video
     from CDN-enabled containers as well as serving CDN-enabled content over
-    SSL/TLS.
+    SSL/TLS. **Note: Cloud Files streaming will be decommissioned on July 31, 2022.**
 
 These, and other differences, are summarized in the following table:
 
@@ -41,7 +41,7 @@ These, and other differences, are summarized in the following table:
 | Caching rules (TTL) | Customizable | Flat per Container |
 | Force Refresh Content | Purge (per file)<br />Invalidate (Simple RegEX) | Purge (per file)<br />Limit 25 per day |
 | Restrictions | HTTP Referrer, GeoLocation, IP Address | N/A |
-| Streaming | No support is provided, with exception to CDN-enabled content over SSL/TSL | Chunked encoded streaming and iOS streaming available |
+| Streaming | No support is provided, with exception to CDN-enabled content over SSL/TSL | Chunked encoded streaming and iOS streaming available until July 31, 2022 |
 
 ### Additional resources
 

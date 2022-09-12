@@ -4,7 +4,6 @@ audit_date: '2020-10-27'
 title: Multifactor-authentication from the Cloud Control Panel
 type: article
 created_date: '2014-07-17'
-created_by: Margaret Eker
 last_modified_by: Rohit Rajput
 last_modified_date: '2022-05-30'
 product: Cloud Servers
@@ -96,7 +95,7 @@ To register and verify an SMS device, use the following steps:
    authentication**.
    
    <img width="467" alt="chrome_bz6GjpL2wM" src="Inkedchrome_bz6GjpL2wM_LI.jpg">
-
+ 
 4. Select **User SMS** and click **Next**.
 
    <img width="471" alt="chrome_Bm4bOLRY6P" src="chrome_Bm4bOLRY6P.png">

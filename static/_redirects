@@ -51,7 +51,7 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 # Retired Articles
 
-/support/how-to/install-and-configure-the-rackspace-monitoring-agent/ /how-to/article-retired/ 404
+/support/how-to/install-and-configure-the-rackspace-monitoring-agent/ /docs/rackspace-monitoring/v1/getting-started/install-configure 301
 /support/how-to/access-a-private-rds-instance-with-putty/ /how-to/article-retired/ 404
 /support/how-to/using-python-novaclient-to-manage-scheduled-images/  /how-to/article-retired/ 404
 /support/how-to/rpc-vmware-all-articles /how-to/article-retired/ 404
@@ -657,6 +657,19 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 /support/how-to/resize-standard-and-general-purpose-servers/ /support/how-to/resize-a-cloud-server 301
 /support/how-to/resize-up-compute-and-memory-servers/ /support/how-to/resize-a-cloud-server 301
+
+/support/how-to/install-a-lamp-stack-on-centos-8/ /support/how-to/how-to-install-a-lamp-stack-on-rhel-7-based-distributions/ 301
+/support/how-to/how-to-change-your-server-rootadmin-password-from-your-account/ /support/how-to/reset-a-server-password/ 301
+/support/how-to/troubleshoot-mysql-configuration-with-a-mysqltuner-script /support/how-to/how-to-use-mysqltuner-in-linux/ 301
+/support/how-to/change-the-hostname-change-on-centos-6-servers/ /support/how-to/centos-hostname-change/ 301
+/support/how-to/dns-basics /support/how-to/dns-fundamentals/ 301
+/support/how-to/use-firewalld-on-centos-7-red-hat-and-fedora/ /support/how-to/use-firewalld-on-redhat-based-distributions 301
+
+/support/how-to/centos-hostname-change /support/how-to/linux-hostname-change 301
+/support/how-to/change-a-server-hostname-in-the-ubuntu-operating-system /support/how-to/linux-hostname-change 301
+
+# 06-03-2022
+/support/how-to/install-wordpress-in-centos-7/ /support/how-to/install-wordpress-on-linux-with-apache/ 301
 
 # Individual Redirects
 
