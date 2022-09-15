@@ -5,7 +5,7 @@ title: Account Management FAQ
 type: article
 created_date: '2019-05-16'
 created_by: Stephanie Fillmon
-last_modified_date: '2020-08-30'
+last_modified_date: '2020-09-14'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -15,7 +15,7 @@ product_url: account-management
 
 {{< accordion title="What would it cost to choose RBAC?" col="in" href="accordion16" >}}
 
-RBAC is a free feature that is accessible through an API for some public cloud providers.
+RBAC is a no-cost feature which is available to selected public cloud services with an API.
 {{</ accordion >}}
 
 {{< accordion title="Can a customer opt out of RBAC?" col="in" href="accordion17" >}}
@@ -28,12 +28,12 @@ Customers can opt out by simply removing the account users.
 Yes, RBAC is available to all Rackspace customers.
 {{</ accordion >}}
 
-{{< accordion title="When I add a user login to an existing contact, can I configure custom role assignments?" col="in" href="accordion19" >}}
+{{< accordion title="When I add a user login credential to an existing contact, can I configure custom role assignments?" col="in" href="accordion19" >}}
 
 Yes, you can. For instructions, see [Use Role-Based Access Control (RBAC)](/support/how-to/use-role-based-access-control-rbac).
 {{</ accordion >}}
 
-{{< accordion title="How can I find out a user's capabilities?" col="in" href="accordion20" >}}
+{{< accordion title="How can I find out a user's roles and responsibilities?" col="in" href="accordion20" >}}
 
 Using the [List global roles assigned to a user](https://docs.rackspace.com/docs/cloud-identity/v2/api-reference/role-operations/#list-global-roles-assigned-to-a-user) API methods defined in the *Identity API Guide*. you can check about the roles for a certain user. Through the [Cloud Control Panel](https://login.rackspace.com), you can also see the roles that each user has.
 {{</ accordion >}}
@@ -55,36 +55,35 @@ All users can create support tickets. However, only the account owner is updated
 
 {{< accordion title="Can I delegate all functionality as an account owner?" col="in" href="accordion23" >}}
 
-Not at this time, but we are working on developing and delivering that functionality.
+Yes, now account owner can delegate all functionality.
 {{</ accordion >}}
 
 {{< accordion title="Does RBAC provide fine-grained access control for specific servers, directories, or files?" col="in" href="accordion24" >}}
 
-RBAC is limited to granting a user access to a given product. RBAC is not granular enough to restrict access to individual servers, files, or directories.
+RBAC is limited to grant a user access to a given product. RBAC is not granular enough to restrict access to individual servers, files, or directories.
 {{</ accordion >}}
 
-{{< accordion title="Does the API offer more features for RBAC than the Cloud Control Panel offers?" col="in" href="accordion25" >}}
+{{< accordion title="Does the API offer more features for RBAC than the Cloud Control Panel?" col="in" href="accordion25" >}}
 
-Yes, at this time more features are available through the API. For more information about using the API for RBAC, see the [Rackspace API Documentation](https://docs.rackspace.com/docs/).
+Yes, at this time more features are available through the API. For more information about using the API for RBAC, refer to [Rackspace API Documentation](https://docs.rackspace.com/docs/).
 {{</ accordion >}}
 
 {{< accordion title="Do account users automatically inherit the RackConnect and Managed Cloud features?" col="in" href="accordion26" >}}
 
-Yes.
+Yes, account users can automatically inherit the RackConnect and Managed Cloud features.
 {{</ accordion >}}
 
 {{< accordion title="How does RBAC work with MyRackspace?" col="in" href="accordion27" >}}
 
-With RBAC, account owners can leave permissions as they are in MyRackspace or set up restricted access to specific products for users through the Cloud Control Panel. For more detailed information, see Learn about Role-Based Access Control (RBAC) for [Rackspace Cloud](/support/how-to/overview-role-based-access-control-rbac-cloud/) and [Rackspace Dedicated](/support/how-to/overview-role-based-access-control-rbac-dedicated/).
+With RBAC, account owners can leave permissions as they are in MyRackspace or set up restricted access to specific products for users through the Cloud Control Panel. For more detailed information, refer to Learn about Role-Based Access Control (RBAC) for [Rackspace Cloud](/support/how-to/overview-role-based-access-control-rbac-cloud/) and [Rackspace Dedicated](/support/how-to/overview-role-based-access-control-rbac-dedicated/).
 {{</ accordion >}}
 
 {{< accordion title="Can I link dedicated, hybrid, and cloud permissions?" col="in" href="accordion28" >}}
 
-You cannot link these permissions at this time. We plan to address having a common
-permission scheme among dedicated, hybrid, and cloud customers in the future.
+"Currently it is not possible to have one user credential for all accounts. A Dedicated account requires one set of user credentials, and Cloud accounts require a different set of user credentials. We do provid an Account Linking feature that allows a Dedicated account to link Cloud Accounts, and you can manage the Dedicated users that are allowed to click and access a Cloud Account to perform either Administrative, Editing, or Viewing functions. See the following article to configure this feature."
 {{</ accordion >}}
 
-{{< accordion title="Are servers, containers, files, databases, and load balancers shared, or do users each have their own set of resources?" col="in" href="accordion29" >}}
+{{< accordion title="Are servers, containers, files, databases, and load balancers shared, or does each user have their own set of resources?" col="in" href="accordion29" >}}
 
 All resources for an account are shared across users that have the correct roles. In other words, account users do not have their own set of resources but share a pool of resources that other users of the account might have access to.
 {{</ accordion >}}
