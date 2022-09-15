@@ -80,7 +80,8 @@ With RBAC, account owners can leave permissions as they are in MyRackspace or se
 
 {{< accordion title="Can I link dedicated, hybrid, and cloud permissions?" col="in" href="accordion28" >}}
 
-"Currently it is not possible to have one user credential for all accounts. A Dedicated account requires one set of user credentials, and Cloud accounts require a different set of user credentials. We do provid an Account Linking feature that allows a Dedicated account to link Cloud Accounts, and you can manage the Dedicated users that are allowed to click and access a Cloud Account to perform either Administrative, Editing, or Viewing functions. See the following article to configure this feature."
+Currently it is not possible to have one user credential for all accounts. A Dedicated account requires one set of user credentials, and Cloud accounts require a different set of user credentials. We do provide an Account Linking feature that allows a Dedicated account to link Cloud Accounts, and you can manage the Dedicated users that are allowed to click and access a Cloud Account to perform either Administrative, Editing, or Viewing functions. Refer the following article to configure this feature.
+[Rackspace Cloud](/support/how-to/overview-role-based-access-control-rbac-cloud/) and [Rackspace Dedicated](/support/how-to/overview-role-based-access-control-rbac-dedicated/)
 {{</ accordion >}}
 
 {{< accordion title="Are servers, containers, files, databases, and load balancers shared, or does each user have their own set of resources?" col="in" href="accordion29" >}}
@@ -99,11 +100,9 @@ For information about additional products that will be RBAC-enabled in the futur
 For information about changing your admin credentials, refer to [Use Role-Based Access Control (RBAC)](/support/how-to/use-role-based-access-control-rbac).
 
 For access to the Cloud Control Panel, log in at [https://login.rackspace.com/](https://login.rackspace.com/).
-
 {{</ accordion >}}
 
 {{< accordion title="What happens if I do not supply a VAT ID number?" col="in" href="accordion31" >}}
 
 If you do not have a VAT ID number or choose not to supply one, Rackspace applies the appropriate tax handling to your invoice. It is in your best interest to supply your VAT ID number because the tax handling for a registered entity is beneficial in most circumstances.
-
 {{< /accordion >}}
