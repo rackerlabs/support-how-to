@@ -5,7 +5,7 @@ title: Overview Role Based Access Control for Cloud
 type: article
 created_date: '2013-04-14'
 created_by: Renee Rendon
-last_modified_date: '2022-08-25'
+last_modified_date: '2022-09-14'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -13,7 +13,7 @@ product_url: account-management
 
 **Previous Section:** [Getting started with Role-Based Access Control (RBAC)](/support/how-to/getting-started-with-role-based-access-control-rbac)
 
-This article answers basic questions about the Role-Based Access Control (RBAC) service.
+This article provides generic information about Role-Based Access Control (RBAC) service.
 
 **Note:** The RBAC service is currently unavailable for RackConnect.
 
