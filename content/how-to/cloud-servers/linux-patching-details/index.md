@@ -5,8 +5,8 @@ title: 'Linux Patching details'
 type: article
 created_date: '2022-07-29'
 created_by: Osvaldo Ambrosio
-last_modified_date: '2022-07-29'
-last_modified_by: Jorge Garcia
+last_modified_date: '2022-09-20'
+last_modified_by: Man Chung
 product: Cloud servers
 product_url: cloud-servers
 ---
