@@ -5,8 +5,8 @@ title: Add disk space to a server or hypervisor
 type: article
 created_date: '2019-12-12'
 created_by: Chad Sterling
-last_modified_date: '2021-07-07'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2021-09-20'
+last_modified_by: Asmita Nakwa
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
@@ -18,28 +18,37 @@ This article explains how to create a ticket to add disk space to a server or hy
 1. Log in to the [MyRackspace Portal](https://login.rackspace.com/login) with your username and
    password.
 
-2. In the top navigation bar, choose **Select a Product** > **Rackspace Dedicated**.
+<img width="409" alt="adddisk4" src="/support/how-to/add-disk-space-to-server-or-hypervisor/adddisk4.png">
 
-3. Select **Tickets** > **Create Ticket**. The **Create New Ticket** page displays.
+2. In the top navigation bar, choose **Support** > **Support Center**.
 
-4. Select the **Subject** field.
+<img width="941" alt="adddisk5" src="/support/how-to/add-disk-space-to-server-or-hypervisor/adddisk5.png">
 
-5. From the drop-down menu, select **Add Disk Space to Server or Hypervisor.**
+3. From the **Common Request** menu select **Add Disk Space to Sever or Hypervisor** as shown in following image.
 
-   {{<image src="adddisk1.png" alt="" title="">}}
+<img width="677" alt="adddisk6" src="/support/how-to/add-disk-space-to-server-or-hypervisor/adddisk6.png">
 
-6. In the **Ticket Details** section, select a device from the drop-down menu.
+4. When you choose **Add Disk Space to Server or Hypervisor**, step 3 **Issue Details** will be accessed immediately as shown in following image.
 
-7. Enter the amount of disk space needed, and choose whether to add the space to an existing volume or to
-   configure as a new drive.
+<img width="383" alt="adddisk7" src="/support/how-to/add-disk-space-to-server-or-hypervisor/adddisk7.png">
 
-   {{<image src="adddisk2.png" alt="" title="">}}
+5. In **Issue Details** section, select a **Device** from the drop-down menu.
+
+<img width="440" alt="adddisk8" src="/support/how-to/add-disk-space-to-server-or-hypervisor/adddisk8.png">
+
+6. In **Add to Existing or New Volume** choose whether to add the space to an existing volume or to configure as a new drive..
+
+   <img width="434" alt="adddisk9" src="/support/how-to/add-disk-space-to-server-or-hypervisor/adddisk9.png"> 
+
+7. Enter the amount of disk space needed.
+
+   <img width="434" alt="adddisk10" src="/support/how-to/add-disk-space-to-server-or-hypervisor/adddisk10.png">
 
 8. In the **Preferred Maintenance Schedule** section, you can choose to have the
    work done at any time by selecting the **Anytime** checkbox.  Otherwise, fill
    out the remaining maintenance details to have the work completed in a
    scheduled maintenance window.
 
-9. Select **Create Ticket**.
+9. Select **Submit**.
 
-   {{<image src="adddisk3.png" alt="" title="">}}
+   <img width="234" alt="adddisk11" src="/support/how-to/add-disk-space-to-server-or-hypervisor/adddisk11.png">
