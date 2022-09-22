@@ -5,7 +5,7 @@ title: Account Management FAQ
 type: article
 created_date: '2019-05-16'
 created_by: Stephanie Fillmon
-last_modified_date: '2020-09-14'
+last_modified_date: '2020-09-22'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -35,7 +35,7 @@ Yes, you can. For instructions, see [Use Role-Based Access Control (RBAC)](/supp
 
 {{< accordion title="How can I find out a user's roles and responsibilities?" col="in" href="accordion20" >}}
 
-Using the [List global roles assigned to a user](https://docs.rackspace.com/docs/cloud-identity/v2/api-reference/role-operations/#list-global-roles-assigned-to-a-user) API methods defined in the *Identity API Guide*. you can check about the roles for a certain user. Through the [Cloud Control Panel](https://login.rackspace.com), you can also see the roles that each user has.
+You can query the roles for a given user by using the [List global roles assigned to a user](https://docs.rackspace.com/docs/cloud-identity/v2/api-reference/role-operations/#list-global-roles-assigned-to-a-user) API operation described in the *Identity API Guide*. Additionally, you can view the roles that a user has through the [Cloud Control Panel](https://login.rackspace.com).
 {{</ accordion >}}
 
 {{< accordion title="Can I view multiple accounts in the Cloud Control Panel?" col="in" href="accordion21" >}}
@@ -50,12 +50,12 @@ Per-billing and per-user usage are not offered at this time.
 
 {{< accordion title="Which users can create support tickets?" col="in" href="accordion22" >}}
 
-All users can create support tickets. However, only the account owner is updated on the ticket status.
+All users with account administration permissions are allowed to create support tickets related to account or device changes. Users limited to device permissions are only allowed to create tickets for the specific devices they are granted permissions on. For further information about Ticket Creation, please visit the [Fabric Ticketing section](https://docs.rackspace.com/support/how-to/fabric-ticketing/).
 {{</ accordion >}}
 
 {{< accordion title="Can I delegate all functionality as an account owner?" col="in" href="accordion23" >}}
 
-Yes, now account owner can delegate all functionality.
+Yes, an account owner can delegate all functionality.
 {{</ accordion >}}
 
 {{< accordion title="Does RBAC provide fine-grained access control for specific servers, directories, or files?" col="in" href="accordion24" >}}
