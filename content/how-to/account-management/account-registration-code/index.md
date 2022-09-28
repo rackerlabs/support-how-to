@@ -7,6 +7,8 @@ created_date: '2019-02-08'
 created_by: Rackspace Community
 last_modified_date: '2022-09-28'
 last_modified_by: Asmita Nakwa
+product: Account Management
+product_url: account-management
 ---
 
 Rackspace uses an _account registration code_ to verify new users on an account, much like two-factor authentication as shown in below image. 
