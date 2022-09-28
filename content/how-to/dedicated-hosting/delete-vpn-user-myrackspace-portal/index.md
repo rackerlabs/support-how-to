@@ -5,8 +5,8 @@ title: Delete a VPN user in the MyRackspace Portal
 type: article
 created_date: '2017-10-16'
 created_by: Trevor Becker
-last_modified_date: '2021-07-07'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2022-09-28'
+last_modified_by: Asmita Nakwa
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
@@ -19,7 +19,11 @@ This article describes how to delete a VPN user by using a ticket template.
 1. Log in to the [MyRackspace Portal](https://login.rackspace.com) by using your
    username and password.
 
-2. In the top navigation bar, click **Select a Product > Rackspace Dedicated**.
+   <img width="409" alt="logincredentials" src="/support/how-to/delete-vpn-user-myrackspace-portal/deletevpn1.png">
+
+2. In the top navigation bar, click **Support > Support Center**.
+
+   <img width="941" alt="selectsupport" src="/support/how-to/delete-vpn-user-myrackspace-portal/deletevpn2.png"> 
 
 3. Select **Tickets** > **Create New Ticket**.
 
