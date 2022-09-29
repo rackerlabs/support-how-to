@@ -25,14 +25,17 @@ This article describes how to delete a VPN user by using a ticket template.
 
    <img width="941" alt="selectsupport" src="/support/how-to/delete-vpn-user-myrackspace-portal/deletevpn2.png"> 
 
-3. Select **Tickets** > **Create New Ticket**.
+3. From the **Common Request** menu select **VPN - add, reset, delete VPN user(s) on firewalls** as shown in following image.
 
-4. On the **Create New Ticket** page, click the **Subject** text field, and in
-   the drop-down menu, select **VPN User Management - add, reset, delete VPN user(s) on firewall(s)**.
+   <img width="830" alt="selectdeletevpn" src="/support/how-to/delete-vpn-user-myrackspace-portal/deletevpn3.png">
 
-   {{<image src="image003.jpeg" alt="" title="">}}
+4. You can view **Issue Details** section by selecting **VPN - add, reset, delete VPN user(s) on firewalls** as shown in following image.
 
-5. Check the box next to **Delete VPN user on firewall**.
+   <img width="508" alt="vpnusermanagement" src="/support/how-to/delete-vpn-user-myrackspace-portal/deletevpn4.png">
+
+5. Check the box next to **Delete VPN user on firewall** as shown in following image.
+
+   <img width="388" alt="selectdeletevpn" src="/support/how-to/delete-vpn-user-myrackspace-portal/deletevpn5.png">
 
 6. In the **Firewall** drop-down field, select the appropriate firewalls.
 
@@ -42,24 +45,28 @@ This article describes how to delete a VPN user by using a ticket template.
    b. If you need to delete the VPN user from all firewalls on the account,
    ensure that you select all firewalls in this field.
 
+   <img width="410" alt="selectfirewall" src="/support/how-to/delete-vpn-user-myrackspace-portal/deletevpn6.png">
+
 7. Enter your desired VPN username in the **VPN Username** field.
 
    a. The VPN username is case-sensitive and requires at least three characters.
 
    b. Do not include a question mark (?) or space ( ) within the VPN username field.
 
-8. Click **Create Ticket** at the bottom of the page.
+   <img width="423" alt="usernamecredential" src="/support/how-to/delete-vpn-user-myrackspace-portal/deletevpn7.png">
+
+
+8. Click **Submit** at the bottom of the page.
 
    After the ticket generates, you see your ticket list in
    the MyRackspace Portal. Automation runs in the background while the process
    creates the ticket, which typically takes less than a minute to complete.
    After you refresh your browser, the ticket *Delete VPN User on Firewall Request (from template)*
-   is in **Confirm Solved** status.
+   is in **Solved** status.
 
 9. Confirm the details about the deletion of the VPN user by opening the ticket.
    The details are in the most recent comment.
 
-   {{<image src="image004.jpeg" alt="" title="">}}
 
 If you need any assistance outside of this article, open a ticket so that
 Rackspace Support can process your request.
