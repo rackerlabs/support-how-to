@@ -5,7 +5,7 @@ title: Account Registration Code
 type: article
 created_date: '2019-02-08'
 created_by: Rackspace Community
-last_modified_date: '2022-09-28'
+last_modified_date: '2022-09-30'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
