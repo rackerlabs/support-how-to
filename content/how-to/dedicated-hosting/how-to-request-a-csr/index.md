@@ -24,7 +24,7 @@ Request (CSR).
 
    <img width="941" alt="selectsupportcenter" src="/support/how-to/how-to-request-a-csr/csr2.png">
 
-3. Under Common Request menu, click **See All Templates**. The See All Templates displays list of all templates.
+3. Under **Common Request** menu, click **See All Templates**. The **See All Templates** displays list of all templates.
 
    <img width="958" alt="templatelist" src="/support/how-to/how-to-request-a-csr/csr3.png">
 
@@ -32,7 +32,7 @@ Request (CSR).
 
    <img width="960" alt="selectcsr" src="/support/how-to/how-to-request-a-csr/csr4.png">
    
-5. In **Issue Details** sections you can select a device from the drop-down menu.
+5. In **Issue Details** section you can select a device from the drop-down menu.
 
    <img width="569" alt="listofdevices" src="/support/how-to/how-to-request-a-csr/csr5.png">
 
@@ -42,6 +42,6 @@ Request (CSR).
 
 8. Click **Submit**.
 
-Support generates the CSR for you and updates you in the ticket.
+Support center generates the CSR for you and updates you in the support ticket.
 
 Use the Feedback tab to make any comments or ask questions. You can also [start a conversation with us](https://www.rackspace.com/contact).
