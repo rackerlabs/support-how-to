@@ -23,11 +23,11 @@ You can download the **Primary Contact Change** form by using the following step
 
 **Step 2.** In the top navigation panel, select **Account >> Docs and Forms**.
 
-<img width="359" alt="Acc Docs   forms" src="Acc Docs & forms.png">
+<img width="359" alt="account-docs-forms   forms" src="accdocs&forms.png">
 
 **Step 3.** Under **Compliance Documents and Forms** click **Primary Contact Change Form**. Download the **Primary Contact Change Form** and save it. 
 
-<img width="324" alt="Change Primary contact form" src="Change Primary contact form.png">
+<img width="324" alt="Change Primary contact form" src="changeprimarycontactform.png">
 
 
 You can request the **Service Transfer** form from your account manager.
@@ -41,7 +41,7 @@ Cloud customers can find links to the forms described in this article by using t
 
 **Step 2.** In the top navigation panel, select **Account >> Docs and Forms**.
 
-<img width="375" alt="Acc Docs   forms cloud" src="Acc Docs & forms cloud.png">
+<img width="375" alt="Acc Docs   forms cloud" src="acc-docs-forms-cloud.png">
 
 
 
@@ -94,7 +94,7 @@ form:
 
 - The signatures on the **Service Transfer** form *must* come
   from an officer or an owner of the company.
-- The owner or officer must initiate any changes regarding an increase
+- The owner or officer must initial any changes regarding an increase
   in MMR or added devices or domains that are made to the form after
   the initial submission.
 - No blank fields are allowed on any form, except where indicated. You
