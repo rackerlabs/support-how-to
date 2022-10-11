@@ -5,8 +5,8 @@ title: Add RAM to a server or hypervisor
 type: article
 created_date: '2019-12-12'
 created_by: Chad Sterling
-last_modified_date: '2021-07-07'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2022-10-11'
+last_modified_by: Asmita Nakwa
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
@@ -17,28 +17,30 @@ This article explains how to create a ticket to add RAM to a server or hyperviso
 
 1. Log in to the [MyRackspace Portal](https://login.rackspace.com/login) with your username and
    password.
+   
+   <img width="409" alt="logincredentials" src="/support/how-to/add-ram-to-server-or-hypervisor/addramserverhypervisor1.png">
 
-2. In the top navigation bar, choose **Select a Product** > **Rackspace Dedicated**.
+2. In the top navigation bar, choose **Support** > **Support Center**.
 
-3. Select **Tickets** > **Create Ticket**. The **Create New Ticket** page displays.
+   <img width="941" alt="selectsupportcenter" src="/support/how-to/add-ram-to-server-or-hypervisor/addramserverhypervisor2.png">
 
-4. Select the **Subject** field.
+3. Under **Common Request** menu, click **See All Templates**. The **See All Templates** displays list of all templates.
 
-5. From the drop-down menu, select **Add RAM to Server or Hypervisor**.
+   <img width="958" alt="templatelist" src="/support/how-to/add-ram-to-server-or-hypervisor/addramserverhypervisor3.png">
 
-   {{<image src="addram1.png" alt="" title="">}}
+4. From the **Common Request** menu, select **Add RAM to Server or Hypervisor** as shown in following image.
 
-6. In the **Ticket Details** section, select a device from the drop-down menu.
+   <img width="894" alt="selectrequiredtemplate" src="/support/how-to/add-ram-to-server-or-hypervisor/addramserverhypervisor4.png"> 
 
-7. Enter the amount of RAM you want to add.
+5. Select **Device(s)** from the drop down list. Enter the amount of RAM you want to add as shown in following image.
 
-   {{<image src="addram2.png" alt="" title="">}}
+   <img width="487" alt="requiredamountofRAM" src="/support/how-to/add-ram-to-server-or-hypervisor/addramserverhypervisor5.png"> 
 
 8. In the **Preferred Maintenance Schedule** section, you can choose to have the
    work done at any time by selecting the **Anytime** checkbox.  Otherwise, fill
    out the remaining maintenance details to have the work completed in a scheduled
    maintenance window.
 
-9. Select **Create Ticket**.
+9. Click **Submit** button.
 
-   {{<image src="addram3.png" alt="" title="">}}
+   <img width="262" alt="enterdetailsofmaintenanceschedule" src="/support/how-to/add-ram-to-server-or-hypervisor/addramserverhypervisor6.png">
