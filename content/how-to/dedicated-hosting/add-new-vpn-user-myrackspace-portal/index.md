@@ -5,7 +5,7 @@ title: Add a new VPN user in the MyRackspace Portal
 type: article
 created_date: '2016-11-10'
 created_by: Trevor Becker
-last_modified_date: '2022-09-16'
+last_modified_date: '2022-10-13'
 last_modified_by: Asmita Nakwa
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -16,50 +16,47 @@ Portal. This article describes how to add a new VPN user by using a Support Cent
 
 ### Create a ticket in the MyRackspace Portal
 
-1. Log in to the [MyRackspace Portal](https://login.rackspace.com) by using your
+**Step 1.** Log in to the [MyRackspace Portal](https://login.rackspace.com) by using your
    username and password.
 
-   <img width="409" alt="newvpn1" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn1.png">
+   <img width="409" alt="logincredentials" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn1.png">
 
-2. In the top navigation bar, click **Support > Support Center**.
+**Step 2.** In the top navigation bar, click **Support > Support Center**.
 
-   <img width="941" alt="newvpn2" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn2.png">
+   <img width="941" alt="selectsupport" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn2.png">
 
-3. Under **Common Request**, click **See All Templates**. The See All Templates displays list of all templates.
+**Step 3.** Under **Common Request**, click **See All Templates**. The See All Templates displays list of all templates.
 
-   <img width="958" alt="newvpn3" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn3.png">
+   <img width="958" alt="listoftemplates" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn3.png">
 
-4. From the **Common Request** menu, select **VPN User Management - add, reset, delete VPN user(s) on firewall(s)**.
+**Step 4.** From the **Common Request** menu, select **VPN User Management - add, reset, delete VPN user(s) on firewall(s)**.
 
-   <img width="830" alt="newvpn4" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn4.png">
+   <img width="830" alt="selectrequiredtemplate" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn4.png">
 
-4. In **Issue Details** sections you can select one, multiple or all of the following VPN user management options as shown in following image.
+**Step 5.** In **Issue Details** sections you can select one, multiple or all of the following VPN user management options as shown in following image.
 
-   <img width="633" alt="newvpn5" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn5.png">
+   <img width="633" alt="selectanyormultipleusermanagement" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn5.png">
 
-5. Check the box next to **Create new VPN user on firewall**.
+**Step 6.** Check the box next to **Create new VPN user on firewall**.
 
-   <img width="408" alt="newvpn6" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn6.png">
+   <img width="408" alt="checkboxcreatenewVPN" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn6.png">
 
-6. In the **Firewall** drop-down field, select the appropriate firewall(s).
+**Step 7.** In the **Firewall** drop-down field, select the appropriate firewall(s).
 
-   <img width="370" alt="newvpn7" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn7.png">
+   <img width="370" alt="selectfirewall" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn7.png">
 
-   a. If you have high availability (HA) firewalls, you may select only one of the two
-      HA firewalls in the drop-down menu. Automation adds the user to both HA firewalls.
-
-   b. If you need to add the VPN user to all firewalls on the account, ensure
+   a. If you need to add the VPN user to all firewalls on the account, ensure
       you select all firewalls in this field.
 
-7. Enter your desired VPN username in the **VPN Username** field.
+**Step 8.** Enter your desired VPN username in the **VPN Username** field.
 
-   <img width="374" alt="newvpn8" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn8.png">
+   <img width="374" alt="enterVPNusername" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn8.png">
 
    a. The VPN username is case-sensitive and requires at least three characters.
 
    b. Do not include a question mark (?) or space ( ) within the VPN username field.
 
-8. The **Generate Random Password** box shows as checked by default. If you want
+**Step 9.** The **Generate Random Password** box shows as checked by default. If you want
    to add a custom password, uncheck this box.
 
    After you uncheck the box, the custom password field displays.
@@ -67,9 +64,9 @@ Portal. This article describes how to add a new VPN user by using a Support Cent
    This password must have at least eight characters with uppercase, lowercase,
    numbers, and special characters.
 
-   <img width="346" alt="newvpn9" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn9.png">   
+   <img width="346" alt="generatepassword" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn9.png">   
 
-9. Click **Submit** at the bottom of the page.
+**Step 10.** Click **Submit** at the bottom of the page.
 
    After the ticket generates, you see your ticket list in
    the MyRackspace Portal. Automation runs in the background while the ticket
@@ -77,7 +74,7 @@ Portal. This article describes how to add a new VPN user by using a Support Cent
    refresh your browser, the ticket, *Create New VPN User on Firewall Request (from template)*,
    is in **Confirm Solved** status.
 
-10. Retrieve the password for your new VPN user by opening the ticket. The
+**Step 11.** Retrieve the password for your new VPN user by opening the ticket. The
     password is in the most recent comment.
 
    {{<image src="image002.jpeg" alt="" title="">}}
