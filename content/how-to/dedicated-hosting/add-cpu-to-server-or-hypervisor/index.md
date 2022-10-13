@@ -40,10 +40,10 @@ This article explains how to create a ticket to add a CPU to a server or hypervi
 **Step 6.** In the **Preferred Maintenance Schedule** section, you can choose to have the
    work done at any time by selecting the **Anytime** checkbox. Fill out the required fields such as contact name, phone number and select the appropriate radio button as shown in following image. 
 
-   <img width="275" alt="Checkbox Anytime is tick so that you don't have to decide day and time" src="/support/how-to/add-cpu-to-server-or-hypervisor/hypervisor9.png">
+   <img width="275" alt="Checkbox Anytime is selected so that you don't have to decide day and time" src="/support/how-to/add-cpu-to-server-or-hypervisor/hypervisor9.png">
 
-   If checkbox for **Anytime** is deselect, then set the preferred maintainance day and time.
-   fill out the required maintainance fields to have the work completed in a scheduled maintenance window.
+   If checkbox for **Anytime** is deselected, then set the preferred maintenance day and time.
+   Fill out the required maintenance fields to have the work completed in a scheduled maintenance window.
 
    <img width="195" alt="Deselected Anytime Checkbox to decide day and time for schedule maintenance" src="/support/how-to/add-cpu-to-server-or-hypervisor/hypervisor10.png">
 
