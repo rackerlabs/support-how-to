@@ -5,8 +5,8 @@ title: Change account information
 type: article
 created_date: '2015-06-18'
 created_by: David Hendler
-last_modified_date: '2022-10-12'
 last_modified_by: Rohit Rajput 
+last_modified_date: '2022-10-12'
 product: Account Management
 product_url: account-management
 slug: change-account-information
