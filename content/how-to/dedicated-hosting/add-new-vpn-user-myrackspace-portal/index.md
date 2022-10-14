@@ -12,7 +12,7 @@ product_url: dedicated-hosting
 ---
 
 Adding new client VPN users is now an automated task within the MyRackspace
-Portal. This article describes how to add a new VPN user by using a Support Center.
+Portal. This article describes how to add a new VPN user by using the Support Center.
 
 ### Create a ticket in the MyRackspace Portal
 
@@ -25,7 +25,7 @@ Portal. This article describes how to add a new VPN user by using a Support Cent
 
    <img width="941" alt="Select support center from the top navigation bar" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn2.png">
 
-**Step 3.** Under **Common Request**, click **See All Templates**. The See All Templates displays list of all templates.
+**Step 3.** Under **Common Request**, click **See All Templates**. A list of all Common Request templates will be displayed.
 
    <img width="958" alt="Displays the list of templates" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn3.png">
 
@@ -33,13 +33,13 @@ Portal. This article describes how to add a new VPN user by using a Support Cent
 
    <img width="830" alt="Select VPN User Management- add, reset, delete VPN user(s) on firewall(s) from the menu" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn4.png">
 
-**Step 5.** In **Issue Details** sections you can select one, multiple or all of the following VPN user management options as shown in following image.
+**Step 5.** In the **Issue Details** section you can select one, multiple or all of the following VPN user management options as shown in following image.
 
    <img width="633" alt="Select any one or multiple VPN user on firewall" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn5.png">
 
 **Step 6.** Check the box next to **Create new VPN user on firewall**.
 
-   <img width="408" alt="Tick the option create new VPN" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn6.png">
+   <img width="408" alt="Select the create new VPN option" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn6.png">
 
 **Step 7.** In the **Firewall** drop-down field, select the appropriate firewall(s).
 
