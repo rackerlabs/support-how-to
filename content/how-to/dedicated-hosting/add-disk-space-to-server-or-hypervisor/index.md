@@ -5,7 +5,7 @@ title: Add disk space to a server or hypervisor
 type: article
 created_date: '2019-12-12'
 created_by: Chad Sterling
-last_modified_date: '2021-10-14'
+last_modified_date: '2022-10-14'
 last_modified_by: Asmita Nakwa
 product: Dedicated Hosting
 product_url: dedicated-hosting
