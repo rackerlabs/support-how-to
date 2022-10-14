@@ -23,7 +23,7 @@ You can download the **Primary Contact Change** form by using the following step
 
 **Step 2.** In the top navigation panel, select **Account >> Docs and Forms**.
 
-<img width="359" alt="account-docs-forms   forms" src="accdocs&forms.png">
+<img width="359" alt="Docs and Forms option available under the Account navigation" src="accdocs&forms.png">
 
 **Step 3.** Under **Compliance Documents and Forms** click **Primary Contact Change Form**. Download the **Primary Contact Change Form** and save it. 
 
@@ -41,7 +41,7 @@ Cloud customers can find links to the forms described in this article by using t
 
 **Step 2.** In the top navigation panel, select **Account >> Docs and Forms**.
 
-<img width="375" alt="Acc Docs   forms cloud" src="acc-docs-forms-cloud.png">
+<img width="375" alt="Docs and Forms option available under the Account navigation for cloud" src="acc-docs-forms-cloud.png">
 
 
 
