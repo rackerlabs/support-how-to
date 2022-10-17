@@ -5,7 +5,7 @@ title: Add a new VPN user in the MyRackspace Portal
 type: article
 created_date: '2016-11-10'
 created_by: Trevor Becker
-last_modified_date: '2022-10-14'
+last_modified_date: '2022-10-17'
 last_modified_by: Asmita Nakwa
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -78,7 +78,7 @@ Portal. This article describes how to add a new VPN user by using the Support Ce
 **Step 11.** Retrieve the password for your new VPN user by opening the ticket. The
     password is in the most recent comment.
 
-   {{<image src="image002.jpeg" alt="" title="">}}
+   <img width="643" alt="Open ticket displays the new password" src="/support/how-to/add-new-vpn-user-myrackspace-portal/newvpn11.png">
 
 ### Limitations
 
