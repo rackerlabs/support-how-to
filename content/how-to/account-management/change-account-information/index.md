@@ -6,7 +6,7 @@ type: article
 created_date: '2015-06-18'
 created_by: David Hendler
 last_modified_by: Rohit Rajput 
-last_modified_date: '2022-10-12'
+last_modified_date: '2022-10-18'
 product: Account Management
 product_url: account-management
 slug: change-account-information
@@ -21,7 +21,7 @@ You can download the **Primary Contact Change** form by using the following step
 
 **Step 1.** Log in to the Rackspace Technology Portal <https://login.rackspace.com/>.
 
-**Step 2.** In the top navigation panel, select **Account >> Docs and Forms**.
+**Step 2.** In the top navigation panel, click **Account >> Docs and Forms**.
 
 <img width="359" alt="Docs and Forms option available under the Account navigation" src="accdocs&forms.png">
 
@@ -85,10 +85,30 @@ provide the following information:
 
 The **Service Transfer change forms** and **Primary Contact Change forms** have many required
 fields that must be completed before the Billing team can process the forms.
-After you have completed the form, scan the document and attach it to the
-support ticket in the [Cloud Control Panel](https://login.rackspace.com) or
-the [MyRackspace Control Panel](https://login.rackspace.com).
+After you have completed the form, create a Custom Ticket on Support Center and attach the scanned copy of your form. 
 
+You can create a **Custom Ticket** on **Support Center** by using the following steps:   
+    
+**Step 1.** Log in to the Rackspace Technology Portal <https://login.rackspace.com/>.   
+    
+**Step 2.** In the top navigation panel, click **Support >> Support Center**.    
+
+<img width="351" alt="Support Center Navigation" src="supportsupportcenter.png">
+    
+**Step 3.** In the **Support Center** page, click **Submit an Issue**.
+    
+<img width="470" alt="Submit an Issue Navigation" src="supportcentersubmitissue.png">
+    
+**Step 3.** In **Create Ticket** page, select the appropriate **Account** and **Product** and click **Continue**.
+    
+<img width="413" alt="Account and Product selection" src="accountproduct.png">
+    
+**Step 4.** In **Issue Details**, provide the appropriate details and attach your file in **Attach Files**. Click **Submit** and your ticket will be created. 
+
+<img width="379" alt="Provide Issue Details and attach files to the ticket" src="issuedetails.png">
+
+
+    
 To avoid form rejection, use the following tips while completing the
 form:
 
