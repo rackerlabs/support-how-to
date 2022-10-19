@@ -83,7 +83,7 @@ The **Rackspace Cloud** tab enables you to assign either permissions for all Rac
 
    **Note:** Depending on the roles assigned, the Control Panel view is different for each user.
 
-   **Note:** After a user is assigned a custom role, that custom role cannot be modified. However, if the user is later assigned the account administrator role at the account level, that action overwrites all product-level custom roles. For more information, see [Known issues andsuggested workarounds for RBAC](/support/how-to/known-issues-and-suggested-workarounds-role-based-access-control-rbac).
+   **Note:** After a user is assigned a custom role, that custom role cannot be modified. However, if the user is later assigned the account administrator role at the account level, that action overwrites all product-level custom roles. For more information, see [Known issues and suggested workarounds for RBAC](/support/how-to/known-issues-and-suggested-workarounds-role-based-access-control-rbac).
 
 ### Suggested Role Configurations
 
