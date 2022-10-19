@@ -6,7 +6,7 @@ type: article
 created_date: '2015-06-18'
 created_by: David Hendler
 last_modified_by: Rohit Rajput 
-last_modified_date: '2022-10-18'
+last_modified_date: '2022-10-19'
 product: Account Management
 product_url: account-management
 slug: change-account-information
@@ -83,7 +83,7 @@ provide the following information:
 
 ### Best practices for legal change forms
 
-The **Service Transfer change forms** and **Primary Contact Change forms** have many required
+The **Service Transfer Change forms** and **Primary Contact Change forms** have many required
 fields that must be completed before the Billing team can process the forms.
 After you have completed the form, create a Custom Ticket on Support Center and attach the scanned copy of your form. 
 
