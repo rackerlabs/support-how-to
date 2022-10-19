@@ -5,7 +5,7 @@ title: Add a new VPN user in the MyRackspace Portal
 type: article
 created_date: '2016-11-10'
 created_by: Trevor Becker
-last_modified_date: '2022-10-17'
+last_modified_date: '2022-10-19'
 last_modified_by: Asmita Nakwa
 product: Dedicated Hosting
 product_url: dedicated-hosting
