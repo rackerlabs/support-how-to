@@ -27,7 +27,7 @@ You can download the **Primary Contact Change** form by using the following step
 
 **Step 3.** Under **Compliance Documents and Forms** click **Primary Contact Change Form**. Download the **Primary Contact Change Form** and save it. 
 
-<img width="324" alt="Change Primary contact form" src="/support/how-to/change-account-information/changeprimarycontactform.png">
+<img width="324" alt="Change Primary contact form" src="changeprimarycontactform.png">
 
 
 You can request the **Service Transfer** form from your account manager.
