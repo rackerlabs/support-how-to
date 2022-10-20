@@ -1,12 +1,12 @@
 ---
 permalink: change-account-information
 audit_date: '2018-02-25'
-title: Change account information
+title: Change Account Information
 type: article
 created_date: '2015-06-18'
 created_by: David Hendler
-last_modified_date: '2019-01-08'
-last_modified_by: Kate Dougherty
+last_modified_by: Rohit Rajput 
+last_modified_date: '2022-10-20'
 product: Account Management
 product_url: account-management
 slug: change-account-information
@@ -15,30 +15,41 @@ slug: change-account-information
 This article describes the various administrative account changes that you can
 request and the appropriate steps needed to complete them.
 
-### Dedicated customers
+### Dedicated Customers
 
-Dedicated customers can download the **Primary Contact Change** form in the
-[MyRackspace Control Panel](https://login.rackspace.com). For instructions
-about how to find the form, see the **Dedicated customers** section of [Change
-to a new primary contact](/support/how-to/change-to-new-primary-contact).
+You can download the **Primary Contact Change** form by using the following steps: 
 
-If you are the current primary contact for your account, you can update the
-primary contact information by selecting and editing the **Primary Contact
-Information** in your **Account Settings**.
+**Step 1.** Log in to the Rackspace Technology Portal <https://login.rackspace.com/>.
 
-Request the **Service Transfer** form from your account manager.
+**Step 2.** In the top navigation panel, click **Account >> Docs and Forms**.
 
-### All other customers
+<img width="359" alt="Docs and Forms option available under the Account navigation" src="accdocs&forms.png">
 
-All other customers can find links to the forms described in this article by
-logging in to the [Cloud Control Panel](https://login.rackspace.com) and
-selecting **Account > Docs and Forms**.
+**Step 3.** Under **Compliance Documents and Forms** click **Primary Contact Change Form**. Download the **Primary Contact Change Form** and save it. 
+
+<img width="324" alt="Change Primary contact form" src="changeprimarycontactform.png">
+
+
+You can request the **Service Transfer** form from your account manager.
+
+
+### Cloud Customers
+
+Cloud customers can find links to the forms described in this article by using the following steps:
+
+**Step 1.** Log in to the Rackspace Technology Portal <https://login.rackspace.com/>. 
+
+**Step 2.** In the top navigation panel, select **Account >> Docs and Forms**.
+
+<img width="375" alt="Docs and Forms option available under the Account navigation for cloud" src="acc-docs-forms-cloud.png">
+
+
 
 ### Service Transfer form requirements
 
 The Billing team has strict requirements for processing the Service Transfer
-form for a Rackspace account. Use the following information to have the
-submission processed quickly and efficiently.
+form for a Rackspace account. Use the following information for processing the
+submission quickly and efficiently:
 
 **Page 1 - Account details**
 
@@ -59,7 +70,7 @@ submission processed quickly and efficiently.
 {{<image alt="Signature section details, including Transferring customer (Assignor) and Accepting customer (assignee) information" src="change-account-2.jpg" title="Signature section details, including Transferring customer (Assignor) and Accepting customer (assignee) information">}}
 
 Do not fill out the **RACKSPACE US, INC.** section. A Rackspace
-representative completes this section.
+representative will complete this section.
 
 **Page 3 - Consolidated and / or Linked Cloud Accounts (Exhibit A)**
 
@@ -72,13 +83,33 @@ provide the following information:
 
 ### Best practices for legal change forms
 
-The Service Transfer and Primary Contact Change forms have many required
-fields that must be complete before the Billing team can process the forms.
-After you have completed the form, scan the document and attach it to the
-support ticket in the [Cloud Control Panel](https://login.rackspace.com) or
-the [MyRackspace Control Panel](https://login.rackspace.com).
+The **Service Transfer Change forms** and **Primary Contact Change forms** have many required
+fields that must be completed before the Billing team can process the forms.
+After you have completed the form, create a Custom Ticket on Support Center and attach the scanned copy of your form. 
 
-To avoid form rejection, use the following tips when completing the
+You can create a **Custom Ticket** on **Support Center** by using the following steps:   
+    
+**Step 1.** Log in to the Rackspace Technology Portal <https://login.rackspace.com/>.   
+    
+**Step 2.** In the top navigation panel, click **Support >> Support Center**.    
+
+<img width="351" alt="Support Center Navigation" src="supportsupportcenter.png">
+    
+**Step 3.** In the **Support Center** page, click **Submit an Issue**.
+    
+<img width="470" alt="Submit an Issue Navigation" src="supportcentersubmitissue.png">
+    
+**Step 3.** In **Create Ticket** page, select the appropriate **Account** and **Product** and click **Continue**.
+    
+<img width="413" alt="Account and Product selection" src="accountproduct.png">
+    
+**Step 4.** In **Issue Details**, provide the appropriate details and attach your file in **Attach Files**. Click **Submit** and your ticket will be created. 
+
+<img width="379" alt="Provide Issue Details and attach files to the ticket" src="issuedetails.png">
+
+
+    
+To avoid form rejection, use the following tips while completing the
 form:
 
 - The signatures on the **Service Transfer** form *must* come
@@ -89,12 +120,4 @@ form:
 - No blank fields are allowed on any form, except where indicated. You
   cannot type **Same** in any field.
 
-### Types of account changes
 
-The following articles provide detailed information about what changes can be
-made to your account by using the Service Transfer Form:
-
-- [Update an account's billing information](/support/how-to/update-account-billing-information)
-- [Transfer an account's ownership or Tax ID](/support/how-to/transfer-account-ownership-or-tax-id)
-- [Change an account's company name](/support/how-to/change-account-company-name)
-- [Change an account's primary contact](/support/how-to/change-to-new-primary-contact)
