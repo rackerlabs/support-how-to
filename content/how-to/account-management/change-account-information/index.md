@@ -1,12 +1,12 @@
 ---
 permalink: change-account-information
 audit_date: '2018-02-25'
-title: Change account information
+title: Change Account Information
 type: article
 created_date: '2015-06-18'
 created_by: David Hendler
 last_modified_by: Rohit Rajput 
-last_modified_date: '2022-10-19'
+last_modified_date: '2022-10-20'
 product: Account Management
 product_url: account-management
 slug: change-account-information
