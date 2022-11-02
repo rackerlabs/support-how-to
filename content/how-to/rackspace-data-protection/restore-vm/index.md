@@ -8,7 +8,7 @@ created_by: Asmita Nakwa
 last_modified_date: '2022-11-01'
 last_modified_by: 
 product: Rackspace Data Protection
-product_url: restore-vm
+product_url: rackspace-data-protection
 ---
 
 # Restoring a VM

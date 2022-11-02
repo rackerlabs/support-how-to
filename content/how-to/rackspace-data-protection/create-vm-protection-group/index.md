@@ -8,7 +8,7 @@ created_by: Asmita Nakwa
 last_modified_date: '2022-10-26'
 last_modified_by: 
 product: Rackspace Data Protection
-product_url: create-vm-protection-group
+product_url: rackspace-data-protection
 ---
 
 # Create a VM Protection Group

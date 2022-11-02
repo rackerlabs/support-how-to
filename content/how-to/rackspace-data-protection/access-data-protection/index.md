@@ -8,7 +8,7 @@ created_by: Asmita Nakwa
 last_modified_date: '2022-10-21'
 last_modified_by: 
 product: Rackspace Data Protection
-product_url: access-data-protection
+product_url: rackspace-data-protection
 ---
 
 # How to Access Rackspace Data Protection
