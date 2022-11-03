@@ -1,11 +1,11 @@
 ---
 permalink: manage-local-users-in-the-myrackspace-portal
 audit_date: '2019-12-12'
-title: Manage local users in the MyRackspace portal
+title: Manage Local Users in the MyRackspace Portal
 type: article
 created_date: '2019-12-12'
 created_by: Chad Sterling
-last_modified_date: '2022-10-06'
+last_modified_date: '2022-11-03'
 last_modified_by: Asmita Nakwa
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -13,38 +13,38 @@ product_url: dedicated-hosting
 
 This article explains how to use a ticket template to manage local users.
 
-### Create a ticket in the MyRackspace portal
+### Create a Ticket in the MyRackspace portal
 
-1. Log in to the [MyRackspace portal](https://login.rackspace.com/login) with
+**Step 1.** Log in to the [MyRackspace portal](https://login.rackspace.com/login) with
    your username and password.
 
-   <img width="409" alt="logincredentials" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement1.png">
+   <img width="409" alt="Enter login credentials" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement1.png">
 
-2. In the top navigation bar, choose **Support** > **Support Center**.
+**Step 2.** In the top navigation bar, choose **Support** > **Support Center**.
 
-   <img width="941" alt="selectsupportcenter" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement2.png">
+   <img width="941" alt="Select support center from drop down menu" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement2.png">
 
-3. Under **Common Request** menu, click **See All Templates**. The **See All Templates** displays list of all templates.
+**Step 3.** Under **Common Request** menu, click **See All Templates**. The **See All Templates** displays list of all templates.
 
-   <img width="958" alt="listoftemplates" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement3.png">
+   <img width="958" alt="Displays the list of templates" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement3.png">
 
-4. From the **Common Request** menu, select **Local User Management** as shown in following image.
+**Step 4.** From the **Common Request** menu, select **Local User Management** as shown in following image.
 
-   <img width="960" alt="selectlocalusermanagement" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement4.png">
+   <img width="960" alt="Select local usermanagement from the templates" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement4.png">
 
-5. In **Issue Details** section you can select the affected **Device(s)** and **Action Type**.
+**Step 5.** In **Issue Details** section you can select the affected **Device(s)** and **Action Type**.
 
-   <img width="644" alt="selectdeviceandactiontype" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement5.png">
+   <img width="644" alt="Select the device and action types from Issue Details section" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement5.png">
 
-#### Create a user
+#### Create a User
 
-1. Enter the **Username**, **Password**, and **Full Name** of the user you want
+**Step 1.** Enter the **Username**, **Password**, and **Full Name** of the user you want
    to create on the selected devices.
 
    The **Password** should be at least eight characters, with at least three
    character types (uppercase, lowercase, numeric, and symbol).
 
-2. You can also assign the following attributes to the user:
+**Step 2.** You can also assign the following attributes to the user:
 
     - User cannot change their password
     - Password never expires
@@ -53,38 +53,39 @@ This article explains how to use a ticket template to manage local users.
       Administrators group on Windows&reg; and gives the user sudo privileges on
       Linux&reg;.)
 
-3. Click **Submit** button.
+**Step 3.** Click the **Submit** button.
 
-   <img width="416" alt="credentialofnewuser" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement6.png">
+   <img width="416" alt="Enter credential of new user" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement6.png">
 
-#### Delete, Enable or Disable/lock a user
-1. Select the desired action from the **Action Type** drop-down menu.
+#### Delete, Enable or Disable/lock a User
 
-2. Enter the username.
+**Step 1.** Select the desired action from the **Action Type** drop-down menu.
+
+**Step 2.** Enter the username.
 
    Deleting a user completely removes them from the selected devices.
 
-3. Click **Submit** button.
+**Step 3.** Click the **Submit** button.
 
-   <img width="466" alt="usernametodelete" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement7.png">
+   <img width="466" alt="Enter the name of the user to delete" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement7.png">
 
-#### Change a user password
+#### Change a User Password
 
-1. Specify the **Username** and **Password** to reset on the selected devices.
+**Step 1.** Specify the **Username** and **Password** to reset on the selected devices.
 
    The **Password** should be at least eight characters, with at least three
    character types (uppercase, lowercase, numeric, and symbol).
 
-2. Click **Submit** button.
+**Step 2.** Click **Submit** button.
 
-   <img width="440" alt="userchangepassword" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement8.png">
+   <img width="440" alt="To change User password enter the suitable password" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement8.png">
 
-#### Audit users or user groups  
+#### Audit Users or User Groups  
 
 These actions provide a list of users or user groups on each selected server and
 require no additional input.
 
-  <img width="397" alt="audituserorusergroup" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement9.png">
+  <img width="397" alt="Displays the list of users or user groups" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement9.png">
 
   After the ticket generates, you see your ticket list in the MyRackspace Portal.
   It typically takes a few minutes for the ticket creation process to complete.
