@@ -6,7 +6,7 @@ title: "How to Access Data Protection"
 created_date: '2022-10-21'
 created_by: Asmita Nakwa
 last_modified_date: '2022-10-21'
-last_modified_by: 
+last_modified_by: Asmita Nakwa
 product: Rackspace Data Protection
 product_url: rackspace-data-protection
 ---
@@ -17,4 +17,4 @@ product_url: rackspace-data-protection
 
 2. Click **Launch Data Protection** button to get redirected and logged into the portal.
 
-   <img width="383" alt="data_protection1" src="/support/how-to/rackspace-data-protection/data_protection1.png">
+   <img width="383" alt="data_protection1" src="/support/how-to/access-data-protection/data_protection1.png">
