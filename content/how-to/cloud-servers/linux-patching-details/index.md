@@ -5,8 +5,8 @@ title: 'Linux Patching details'
 type: article
 created_date: '2022-07-29'
 created_by: Osvaldo Ambrosio
-last_modified_date: '2022-07-29'
-last_modified_by: Jorge Garcia
+last_modified_date: '2022-09-20'
+last_modified_by: Man Chung
 product: Cloud servers
 product_url: cloud-servers
 ---
@@ -21,7 +21,7 @@ On dedicated with Managed or Intensive SLA, there are the following Linux OS opt
 - Red Hat Enterpise Linux 7 or 8.
 - Alma Linux 8
 - Rocky Linux 8
-- CentOs 7
+- CentOS 7
 - Oracle Linux 7 or 8
 - Ubuntu 18.04 LTS or 20.04 LTS
 
@@ -33,9 +33,9 @@ For the main channel an OS is subscribed to, there are the following options:
 
 #### Red Hat Enterpise Linux Base
 In Rackspace terminology, the RHEL "Base" channel is equivalent to the "standard" version of Red Hat which customers get with a regular Red Hat subscription.
-The "Base" channel tracks the latest minor release of RHEL at all times. When subscribed to this channel, servers will receive the latest versions of all packages released by Red Hat. This is appropriate for most servers without specific RHEL version requirements or OS platform certification/validation. Using Base there can occasionally be regressions which slip through Red Hat validation, but this is rare. Rackspace recommends the use of Base channel except when using SAN storage, for example with Red Hat Cluster Suite (RHCS) nodes, or when there is a third party requirement for a specific RHEL minor release.
+The "Base" channel tracks the latest minor release of RHEL at all times. When subscribed to this channel, servers will receive the latest versions of all packages released by Red Hat. This is appropriate for most servers without specific RHEL version requirements or OS platform certification/validation. Using Base there can occasionally be regressions which slip through Red Hat validation, but this is rare. Rackspace recommends using the base channel. EUS is only offered under approval from senior Linux engineers.
 
-Support time frames for the base channes:
+Support time frames for the base channels:
 - RHEL 6 (ended November 30, 2020)
 - RHEL 7 (ends June 30, 2024)
 - RHEL 8 (ends May 31, 2029)
@@ -50,11 +50,21 @@ CentOS is a community project based on RHEL which is developed, maintained and s
 - Not eligible for hot fixes or other out of band packages provided by Red Hat support
 - Extended Update Support (EUS) is not available for CentOS
 
-As a service, Rackspace provides "CentOS point releases" for CentOS 6 which are designed to lock package versions to those released for a certain minor version - in other words, a rough approximation of EUS for RHEL. To do this, when CentOS release a new minor release (for example CentOS 6.7), before the packages are uploaded into Rackspace's patching infrastructure, a snapshot of the channel is taken, and a "point release" channel is created based on that.
-
 CentOS end of life dates are the same as for RHEL:
-- CentOS 6 (ends November 30, 2020)
 - CentOS 7 (ends June 30, 2024)
+
+#### AlmaLinux / Rocky Linux
+AlmaLinux is an Open Source, community owned and governed, forever-free enterprise Linux distribution, focused on long-term stability, providing a robust production-grade platform. [AlmaLinux]: <https://almalinux.org>
+
+Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux®. It is under intensive development by the community. [Rocky Linux]: <https://Rockylinux.org>
+
+Applies to both:
+- Does not have upstream support or vendor escalation available
+- Has different build environments and QA processes for its packages
+- Both will receive updates later than RHEL, since packages can't be built until the source code is made available by Red Hat.
+- Not eligible for hot fixes or other out of band packages provided by Red Hat support
+- Extended Update Support (EUS) is not available - only latest base release is supported.
+- End of life by their respective vendors will be inline with upstream vendor, Red Hat.
 
 #### Red Hat Enterpise Linux EUS (Extended Update Support)
 Available on Dedicated only. Not available on Rackspace Cloud.
@@ -65,10 +75,9 @@ As above, typical use cases for EUS are customers who need to remain on a partic
 
 EUS support time frames for recent versions are as follows:
 - RHEL 6 no longer supports EUS releases
-- 7.4 EUS (ends August 31, 2019)
-- 7.5 EUS (ends April 30, 2020)
-- 7.6 EUS (ends October 31, 2020)
-- 7.7 EUS (GA 2H/2019; Final RHEL 7 EUS Release)
+- RHEL 7.9 EUS (Final RHEL 7 EUS Release)
+- RHEL 8.4 (ends May 31, 2023)
+- RHEL 8.6 (ends May 31, 2024)
 
 ### Patching infrastructure
 Rackspace hosts update sources for all the Linux versions we support. This infraestructure is hosted within Rackspace data centers, meaning clients don't need Internet connectivity in order to receive updates. The Rackspace infrastructure synchronizes updates from the vendor once a day.  
@@ -76,36 +85,37 @@ Rackspace hosts update sources for all the Linux versions we support. This infra
 ### Patching Methodologies
 
 #### Intensive Scheduled Patching
-n the first week of each month a ticket for each account is generated by our Linux Patching team listing the updates available from RHN/Spacewalk only (i.e. not including any additional yum repositories) at that time. An event is scheduled in RHN Satellite or Spacewalk to apply updates to the server on either the third Wednesday or Friday of the month, depending on patching group selected. On that day, between midnight and 4am data center time, the server will apply the set of updates listed on the ticket. Finally, in the last week of the month the Linux Patching team generates failure tickets for any devices which reported a non-zero exit status for Support to manually investigate.
+In the first week of each month a ticket for each account is generated listing the updates available from RHUI only (i.e. not including any additional repositories) at that time. An event is scheduled to apply updates to the server on either the third Wednesday or third Friday of the month, depending on patching group selected. On that day, between midnight and 4am data center time, the server will apply the set of updates listed on the ticket. Finally, in the last week of the month, failure tickets are generated for any devices which reported a non-zero exit status.
 
-Who Can Get It? Devices with an Intensive SLA running RHEL or CentOS. Not available for Cloud, Ubuntu or Managed SLA devices.
+Who Can Get It? Devices with an Intensive SLA running RHEL, CentOS, AlmaLinux or Rocky Linux. Not available for Cloud, Ubuntu or Managed SLA devices.
 
 #### Intensive Non-Managed Patching
-Intensive Non-Managed Patching is a manual process where Support works with the customer to manually apply updates to their servers. In the first week of every month a ticket is generated by our Linux Patching team, listing the updates from RHN/Spacewalk channels only available for devices on an account at that particular time. This ticket remains in the Segment Support queue until the customer replies to the ticket asking Rackspace to go ahead with patching for that month, at which point the ticket will move into the general support queue. Support will then work with the customer to plan, co-ordinate and execute a maintenance to update the customers server following our Rackspace Maintenance Process.
+Intensive Non-Managed Patching is a manual process where Support works with the customer to manually apply updates to their servers. In the first week of every month a ticket is generated listing the updates from RHUI channels only. This ticket requires the customer to reply, asking Rackspace to go ahead with patching for that month. Support will then work with the customer to plan, co-ordinate and execute a maintenance to update the customers server following our Rackspace Maintenance Process.
 
-A key misconception is that the package list generated in the ticket at the start of the month is what is applied to the server when the manual patching maintenance is executed. That is not the case - when we apply updates manually, all available updates are applied including any updates released by the vendor between the monthly ticket and the time updates are applied, and any updates from non-RHN/Spacewalk channels.
+A key misconception is that the package list generated in the ticket at the start of the month is what is applied to the server when the manual patching maintenance is executed. That is not the case - when we apply updates manually, all available updates are applied including any updates released by the vendor between the monthly ticket and the time updates are applied.
 
-Who Can Get It? Intensive Non-Managed patching is available for devices with an Intensive SLA running RHEL or CentOS. Intensive Non-Managed patching is not available for Ubuntu, Cloud, or Managed SLA devices.
+Who Can Get It? Intensive Non-Managed patching is available for devices with an Intensive SLA running RHEL, CentOS, AlmaLinux, or Rocky Linux. Intensive Non-Managed patching is not available for Ubuntu, Cloud, or Managed SLA devices.
 
-#### yum-cron
+#### yum-cron / DNF-Automatic
 
-yum-cron is a host based package which will update a system nightly via a cron job.
+yum-cron / DNF-Automatic is a host based package which will update a system nightly via a cron job.
 
-Who Can Get It? yum-cron is the default patching strategy for Managed SLA CentOS and RHEL devices at Rackspace, and runs nightly. It's also available to Intensive SLA customers if they prefer it. yum-cron is open source (part of the yum project), so it can also be installed on systems outside of Rackspace as well.
+Who Can Get It? yum-cron / DNF-Automatic is the default patching strategy for Managed SLA RHEL/CentOS/AlmaLinux/Rocky Linux devices at Rackspace, and runs nightly. It's also available to Intensive SLA customers if they prefer it. 
 
 #### Auter
 Auter is a Rackspace developed re-implementation of yum-cron, which aims to solve some limitations and add features targeted at Enterprise customers.
 
 Who Can Get It? Auter can be installed for any customer running Rackspace supported RHEL or CentOS servers. Currently, Auter does not support Ubuntu. Auter is open source and available in the epel repositories, so it can also be installed on systems outside of Rackspace as well.
 
-Ubuntu systems at Rackspace default to automatically applying all security updates nightly via the package unattended-upgrades. This can be changed to update all packages, or to be disabled if you wish. This is the only automatic updates method available for Ubuntu at Rackspace. unattended-upgrades is open source, and so you can also use it on any systems you have outside of Rackspace as well
+#### UnattendedUpgrades
+Ubuntu systems at Rackspace default to automatically applying all security updates nightly via the package unattended-upgrades. This can be changed to update all packages, or to be disabled if you wish. This is the only automatic updates method available for Ubuntu at Rackspace. Unattended-upgrades is open source, so it can also be used on systems outside of Rackspace.
 
 #### Manual Patching
-Outside of Intensive SLA's Intensive Non-Managed Patching, Rackspace does not offer regular Manual Patching. Since Manual Patching is labour intensive, customers should be discouraged from creating monthly/regular tickets for GTS SysAds to perform Manual Patching Maintenances, and instead steered towards one of the other options.
+Outside of Intensive SLA's Intensive Non-Managed Patching, Rackspace does not offer regular Manual Patching.
 
-Manual Patching should be used under the following circumstances:
-- Manual Patching of RHCS, PCS, or Oracle Clusters (note: Current RHCS/PCS standard is to yum exclude cluster and service packages, and allow the SLA's default patching standard to take care of all other OS level updates)
-- Manual Patching to fix patching problem. EG a broken dependency has resulted in the culmination of hundreds of packages.
+Manual Patching should only be used under the following circumstances:
+- Manual Patching of PCS, or Oracle RAC servers
+- Manual Patching to fix patching problem. EG: a broken dependency has resulted in hundreds of pending package updates.
 
 #### No Patching/Customer Managed Patching
 Customers can choose to manage their own patching or to not patch their servers at all. Not patching systems is strongly discouraged by Rackspace in order to prevent security vulnerabilities and avoid being affected by software bugs. With this options customers have full control and responsibility over their own patching.
