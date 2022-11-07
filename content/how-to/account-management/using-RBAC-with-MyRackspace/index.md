@@ -5,7 +5,7 @@ title: Using RBAC with MyRackspace
 type: article
 created_date: '2022-07-28'
 created_by: Asmita Nakwa
-last_modified_date: '2022-07-28'
+last_modified_date: '2022-11-07'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -31,29 +31,29 @@ Also, new users receive an email from Rackspace notifying them that they have be
 
 To create a new user, follow below steps:
 
-1. Log in to the [Rackspace Dedicated Account](https://login.rackspace.com/).
+**Step 1.** Log in to the [Rackspace Dedicated Account](https://login.rackspace.com/).
 
-<img width="508" alt="myrack-account-RBAC-login1" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC-login1.png">
+<img width="508" alt="Enter login credentials for dedicated account" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC-login1.png">
 
-2. In the upper-right corner of the control panel, click **Account > User Management.**
+**Step 2.** In the upper-right corner of the control panel, click **Account > User Management.**
 
-<img width="461" alt="myrack-account-RBAC2" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC2.png">
+<img width="461" alt="Select User Management from the upper right corner" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC2.png">
 
-3. On the **Account/User List** page, click **Create New User**.
+**Step 3.** On the **Account/User List** page, click **Create New User**.
 
-<img width="483" alt="myrack-account-RBAC3" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC3.png">
+<img width="483" alt="Select create new user" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC3.png">
 
-4. Enter information in the **Create a User** section as shown in below image.
+**Step 4.** Enter information in the **Create a User** section as shown in below image.
 
-<img width="793" alt="myrack-account-RBAC4" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC4.png">
+<img width="793" alt="Update the information for new user" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC4.png">
 
-5. Click **Create User**.
+**Step 5.** Click **Create User** button.
 
-<img width="947" alt="myrack-account-RBAC5" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC5.png">
+<img width="947" alt="Once updated the information then click Create User button" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC5.png">
 
-6. To Manage permissions in the [Rackspace Dedicated Account](https://login.rackspace.com/) portal select **Account**>**Permissions**.
+**Step 6.** To Manage permissions in the [Rackspace Dedicated Account](https://login.rackspace.com/) portal select **Account**>**Permissions**.
 
-<img width="560" alt="myrack-account-RBAC6" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC6.png">
+<img width="560" alt="Manage permissions select permissions under account" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC6.png">
 
 **Note**: To access the **Permissions** area in the MyRackspace Portal and modify another user’s permissions, you must have either **Account Administrator** permission or **Admin permission**. Account Administrator permission grants the user unlimited access to all sections of the MyRackspace Portal. Admin permission (on a device or service) grants the user the ability to access and manage the device or service.
 
@@ -61,13 +61,13 @@ To create a new user, follow below steps:
 There are two types of permissions available for Rackspace Dedicated Hosting accounts:
 - **Direct permissions**: These grant the user direct access to account permissions, linked cloud accounts, devices, or services.
 
-- **Effective permissions**:Users inherit these because of their memberships in user and product groups.
+- **Effective permissions**: Users inherit effective permissions because of their memberships in user and product groups.
 
-<img width="939" alt="myrack-account-RBAC8" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC8.png">
+<img width="939" alt="Effective permissions are inherited" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC8.png">
 
 You can use the four tabs as shown in below image to assign permissions in the following ways:
 
-<img width="781" alt="myrack-account-RBAC7" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC7.png">
+<img width="781" alt="Assign different types of permission using four tabs" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC7.png">
 
 - **Assign by user**
 - **Assign by product**
@@ -81,7 +81,7 @@ Using this method, you can choose a person and give them account-level **Direct*
 
 To asign permissions by user, select a user and select from one of the tabs to update the user permissions as shown in below image.
 
-<img width="459" alt="myrack-account-RBAC9" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC9.png">
+<img width="459" alt="Assign permission by user" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC9.png">
 
 **Assign by User Groups**
 This method enables you to select a group of users and grant them:
@@ -89,22 +89,24 @@ This method enables you to select a group of users and grant them:
 - Permissions at the account level
 - Access to linked cloud accounts, devices, services, or product groups
 
-<img width="449" alt="myrack-account-RBAC10" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC10.png">
+<img width="449" alt="Assign permission by group" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC10.png">
 
 #### Assign By Products
 This method enables you to manage user access to an individual product or product group.
 
 To assign permissions by product or product group, perform the following steps:
-1. Select Assign By Product.
-<img width="467" alt="myrack-account-RBAC11" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC11.png">
 
-2. Make a selection from the Product or Product Group column, then below screen appears.
+**Step 1.** Select **Assign By Product**.
 
-<img width="915" alt="myrack-account-RBAC12" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC12.png">
+<img width="467" alt="Select assign by product" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC11.png">
 
-3. Update the user, user group, or Group membership permission.
+**Step 2.** Make a selection from the **Product or Product Group** column, then below screen appears.
 
-4. Select **Save** Changes.
+<img width="915" alt="Select from product or product group" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC12.png">
+
+**Step 3.** Update the user, user group, or Group membership permission.
+
+**Step 4.** Select **Save** Changes.
 
 
 #### Manage Group
@@ -112,55 +114,55 @@ The Manage Groups tab enables you to create new User and Product groups and upda
 
 **Create User Groups**
 
-1. Select Manage Groups.
+**Step 1.** Select **Manage Groups** from top navigation bar.
 
-<img width="477" alt="myrack-account-RBAC13" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC13.png">
+<img width="477" alt="Select manage group from top navigation" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC13.png">
 
-2. At the top of the User Groups column, enter a name for the new group and select the green plus sign as shown in below image.
+**Step 2.** At the top of the User Groups column, enter a name for the new group and select the green plus sign as shown in below image.
 
-<img width="477" alt="myrack-account-RBAC14" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC14.png">
+<img width="477" alt="Enter name of the new group" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC14.png">
 
-3. Select the Group Members to add and select Save Changes.
+**Step 3.** Select the **Group Members** to add and select Save Changes.
 
 **Create Product Group**
 
-1. Select Manage Groups
+**Step 1.** Select Manage Groups
 
-2. At the top of the User Product column, enter a name for the new group and select the green plus sign as shown in below image.
+**Step 2.** At the top of the User Product column, enter a name for the new group and select the green plus sign as shown in below image.
 
 <img width="452" alt="myrack-account-RBAC15" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC15.png">
 
-3. Select the Product to add and select Save Changes.
+**Step 3.** Select the Product to add and select Save Changes.
 
 **Grant Access to a User Group or Product Group**
 
 Use the following steps to grant access to a user group or product group:
 
-1. Select Manage Groups.
+**Step 1.** Select Manage Groups.
 
-2. Select an existing group from the User Groups or Product Groups column.
+**Step 2.** Select an existing group from the User Groups or Product Groups column.
 
-<img width="470" alt="myrack-account-RBAC16" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC16.png">
+<img width="470" alt="Select an existing group" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC16.png">
 
-3. Select the member to add.
+**Step 3.** Select the member to add.
 
-<img width="404" alt="myrack-account-RBAC17" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC17.png">
+<img width="404" alt="Select the member" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC17.png">
 
-4. Select **Save** Changes.
+**Step 4.** Select **Save** Changes.
 
 
 **Delete a User or Product Group**
 Use the following steps to delete a user or product group:
 
-1. Select Manage Groups.
+**Step 1.** Select **Manage Groups** from top navigation bar.
 
-2. Select an existing group from the User Groups or Product Groups column.
+**Step 2.** Select an existing group from the User Groups or Product Groups column.
 
-<img width="908" alt="myrack-account-RBAC18" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC18.png">
+<img width="908" alt="Select an existing user groups" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC18.png">
 
-3. Select the Actions dropdown in the upper-right corner as shown in above image.
+**Step 3.** Select the **Actions** dropdown in the upper-right corner as shown in above image.
 
-4. Select **Delete Group**.
+**Step 4.** Select **Delete Group**.
 
 ### Global Permissions
 

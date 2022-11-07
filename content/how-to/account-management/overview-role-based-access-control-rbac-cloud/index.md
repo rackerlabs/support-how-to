@@ -5,7 +5,7 @@ title: Overview Role Based Access Control for Cloud
 type: article
 created_date: '2013-04-14'
 created_by: Renee Rendon
-last_modified_date: '2022-09-14'
+last_modified_date: '2022-11-07'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -27,10 +27,13 @@ RBAC gives customers a greater degree of control over cloud resource use, with a
 
 ### Types of Users
 RBAC has the following types of users:
+
 -   **Account owner** - The account owner, who serves as the main point of contact for the account, is fully authorized to use all available product features. Each account has a single account owner.
+
 -   **Account user** - A user added by the account owner and has all the access of particular products or account roles.
 
 ### Actions Performed by Account Owner
+
 The account owner is the only user who can perform the following actions:
 -   Create new users, modify existing users, and delete users.
 -   Make changes to contacts, including the billing contact.
@@ -46,7 +49,9 @@ This section describes the roles that are available through RBAC.
 #### **Multiple-product Roles**
 Multiple-product roles grant access to resources that are associated with multiple products.
 RBAC has the following multiple-product roles:
+
 -   **Full Access** - The Full Access role has permissions to create, read, update, and delete resources within multiple designated products.
+
 -   **Read-only Access** - The Read-only Access role has permissions to view resources within multiple designated products.
 
 These permissions apply to products that are RBAC-enabled.
@@ -63,31 +68,38 @@ RBAC has the following custom roles:
 -   **Product: Observer** - The Product Observer role has permissions to read given resources for the designated product. This role is read-only.
 
 #### **Account Roles**
+
 Assign the following account roles to the users who manage your Rackspace customer account:
 -   **Billing:admin** - The Billing Admin role has permissions to create, read, update, and delete billing and payment resources for the designated product.
 -   **Billing:observer** - The Billing Observer role has permissions to read billing and payment resources for the designated product. This role is read-only.
 
 **Account Permissions for Cloud Users**
+
 To give a user account permissions without product permissions, use the following steps for cloud users:
 
-1. Log in to the [Cloud Control Panel](https://login.rackspace.com) as shown in below image.
-<image width="533" alt="rbac1" src="/support/how-to/overview-role-based-access-control-rbac-cloud/rbac1.png">
+**Step 1.** Log in to the [Cloud Control Panel](https://login.rackspace.com) as shown in below image.
 
-2. In the top navigation bar, click **Account > User Management**.
-<image width="379" alt="rbac2" src="/support/how-to/overview-role-based-access-control-rbac-cloud/rbac2.png">
+<image width="533" alt="Enter Cloud credentials" src="/support/how-to/overview-role-based-access-control-rbac-cloud/rbac1.png">
 
-3. Select the user for whom you wish to set permissions.
-<image width="919" alt="rbac3" src="/support/how-to/overview-role-based-access-control-rbac-cloud/rbac3.png">
+**Step 2.** In the top navigation bar, click **Account > User Management**.
 
-4. Click **Edit** under the **PRODUCT ACCESS** tab in the **Rackspace Cloud** under **Product Permissions** section.
-<image width="900" alt="rbac4" src="/support/how-to/overview-role-based-access-control-rbac-cloud/rbac4.png">
+<image width="379" alt="Select User Management from Account tab" src="/support/how-to/overview-role-based-access-control-rbac-cloud/rbac2.png">
+
+**Step 3.** Select the user for whom you wish to set permissions.
+
+<image width="919" alt="Select user to set the permission" src="/support/how-to/overview-role-based-access-control-rbac-cloud/rbac3.png">
+
+**Step 4.** Under the Rackspace Cloud** option in the **Product Permissions** section, click **Edit** next to the **PRODUCT ACCESS** tab.
+
+<image width="900" alt="Click Edit to edit product access" src="/support/how-to/overview-role-based-access-control-rbac-cloud/rbac4.png">
 
 The **Rackspace Cloud Permissions** window opens as shown below.
+
 <image width="203" alt="rbac5" src="/support/how-to/overview-role-based-access-control-rbac-cloud/rbac5.png">
 
-5. Under **Cloud Access**, choose the type of global access you want the user to have including a **Custom** option, or select the individual product and select from the options available for it, usually **ADMIN**, **CREATOR, **OBSERVER**, or **None**.
+**Step 5.** Under **Cloud Access**, choose the type of global access you want the user to have including a **Custom** option, or select the individual product and select from the options available for it, usually **ADMIN**, **CREATOR, **OBSERVER**, or **None**.
 
-6. Click **Save** or **Update**.
+**Step 6.** Click **Save** or **Update**.
 
 **Note**: A user may be assigned both a product role and an account role.
 
@@ -97,10 +109,13 @@ The Global Permissions section lets you make changes across your entire account.
 
 ### Types of Contact in Cloud Control Panel
 Contact types are similar to tags. Using contact types can help account owners to manage users. The Cloud Control Panel offers the following contact types:
+
 -   **Administrative** - Users that primarily perform administrative tasks, such as billing and payments, are given this contact category. Our automated systems do not send technical notifications to administrative contacts. This role has no particular significance for your accounts. For instance, the billing address for the account remains unaffected when an administrative user changes their address.
+
 -   **Technical** - Users that accomplish mostly technical tasks are assigned this contact type. These users automatically get monitoring alerts.
 
 ### Need for Implementation of RBAC
+
 Implement RBAC when you want to achieve the following results:
 -   Minimize downtime and accidental changes to cloud or dedicated resources by restricting account access to only a few people.
 -   Help prevent unauthorized access to cloud products by assigning each user their own credentials.

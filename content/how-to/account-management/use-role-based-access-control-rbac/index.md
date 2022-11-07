@@ -5,7 +5,7 @@ title: Use Role Based Access Control (RBAC)
 type: article
 created_date: '2013-06-28'
 created_by: Renee Rendon
-last_modified_date: '2022-07-22'
+last_modified_date: '2022-11-07'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -31,43 +31,49 @@ Also, new users receive an email from Rackspace notifying them that they have be
 
 To create a new user, use the following steps:
 
-1. Log in to the [Cloud Control Panel](https://login.rackspace.com/).
-<img width="508" alt="multi-account-RBAC-login" src="/support/how-to/use-role-based-access-control-rbac/multi-account-RBAC-login.png">
+**Step 1.** Log in to the [Cloud Control Panel](https://login.rackspace.com/).
 
-2. In the upper-right corner of the control panel, click **Account > User Management.**
-<img width="946" alt="multi_account_rbac1" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac1.png">
+<img width="508" alt="Enter login credentials for cloud users" src="/support/how-to/use-role-based-access-control-rbac/multi-account-RBAC-login.png">
 
-3. On the **User & Permissions** page, click **Create User**.
-<img width="945" alt="multi_account_rbac2" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac2.png">
+**Step 2.** In the upper-right corner of the control panel, click **Account > User Management.**
 
-4. Enter information in the **Create a User** section as shown in below image.
-<img width="314" alt="multi_account_rbac3" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac3.png">
+<img width="946" alt="Select User Management from the drop down menu of Account tab" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac1.png">
 
-5. Select a **Contact Type** to assign to the user. RBAC has the following
+**Step 3.** On the **User & Permissions** page, click **Create User**.
+
+<img width="945" alt="Click Create user from the page User & Permissions" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac2.png">
+
+**Step 4.** Enter information in the **Create a User** section as shown in below image.
+
+<img width="314" alt="Update the information for user" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac3.png">
+
+**Step 5.** Select a **Contact Type** to assign to the user. RBAC has the following
    contact types:
    -  Technical
    -  Administrative
-<img width="275" alt="multi_account_rbac4" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac4.png">
+
+<img width="275" alt="Select the required contact type" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac4.png">
    
    These contact types are for reference only. They do not affect the user's
    permissions.
 
-6. Click **Create User**.
+**Step 6.** Click **Create User** button.
 
-7. You can either give the user the role of **Account Administrator** in the **Rackspace Account Permissions** section of the page that appears, or you can give them roles for the **Manage Users** area, the **Billing and Payments** area, the **Tickets** area, or the **Product Access** area individually.
+**Step 7.** You can either give the user the role of **Account Administrator** in the **Rackspace Account Permissions** section of the page that appears, or you can give them roles for the **Manage Users** area, the **Billing and Payments** area, the **Tickets** area, or the **Product Access** area individually.
 
-<img width="554" alt="multi_account_rbac5" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac5.png">
+<img width="554" alt="Assign required role to the user" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac5.png">
+   
    To assign a user the account administrator role, click the toggle button next to **Account Administrator**.
 
-<img width="624" alt="multi_account_rbac6" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac6.png">
+<img width="624" alt="Assign account administrator role to the user select Account Administrator" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac6.png">
 
-   Alternatively, to assign different permissions for different areas, scroll to the **AREA** section and select the **PERMISSION** that you want to assign by using the pencil menu to the right of each area.
+   Alternatively, to assign different permissions for different areas, scroll to the **AREA** section and select the **PERMISSION** that you want to assign by using the pencil icon to the right of each area.
 
-<img width="554" alt="multi_account_rbac7" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac7.png">
+<img width="554" alt="Assign permissions to different areas using pencil icon to the right" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac7.png">
 
-8. Optionally, in the **Product Permissions** section, assign product permissions to the user. Click tab for a product, and then **Edit** the **PRODUCT ACCESS**.
+**Step 8.** Optionally, in the **Product Permissions** section, assign product permissions to the user. Click tab for a product, and then **Edit** the **PRODUCT ACCESS**.
 
-<img width="680" alt="multi_account_rbac8" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac8.png">
+<img width="680" alt="Assign product permissions to the user" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac8.png">
 
 The **Rackspace Cloud** tab enables you to assign either permissions for all Rackspace Cloud products, or per-product custom roles.
 
