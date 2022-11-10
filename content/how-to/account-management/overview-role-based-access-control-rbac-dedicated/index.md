@@ -91,11 +91,11 @@ To assign permissions you can use the following way as listed below:
 
 **Step 1.** To assign permission **By User**, select a user/user group from the column. 
 
-<img width="931" alt="rbac8" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac8.png">
+<img width="931" alt="Select user/user group to assign permission" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac8.png">
 
 **Step 2.** Select the checkbox under **Direct** permissions you want to assign to that user/user group.
 
-<img width="928" alt="rbac9" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac9.png">
+<img width="928" alt="Assign permission by selecting checkbox" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac9.png">
 
 **Step 3.** Click **Save Changes** button.
 

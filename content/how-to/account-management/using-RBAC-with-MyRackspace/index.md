@@ -21,7 +21,7 @@ For information about setting up RBAC through the API, see the [Rackspace Identi
 
 ### Account Credentials
 
-Rackspace recommends that you can change the account password before adding new users to the account.
+Rackspace recommends that you change the account password before adding new users to the account.
 
 When new users are created, a temporary password is assigned to them. They should change the temporary password at their first login.
 

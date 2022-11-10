@@ -95,7 +95,7 @@ To give a user account permissions without product permissions, use the followin
 
 The **Rackspace Cloud Permissions** window opens as shown below.
 
-<image width="203" alt="rbac5" src="/support/how-to/overview-role-based-access-control-rbac-cloud/rbac5.png">
+<image width="203" alt="Displays rackspace cloud permission" src="/support/how-to/overview-role-based-access-control-rbac-cloud/rbac5.png">
 
 **Step 5.** Under **Cloud Access**, choose the type of global access you want the user to have including a **Custom** option, or select the individual product and select from the options available for it, usually **ADMIN**, **CREATOR, **OBSERVER**, or **None**.
 
