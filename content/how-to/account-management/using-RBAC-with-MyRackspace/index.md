@@ -5,7 +5,7 @@ title: Using RBAC with MyRackspace
 type: article
 created_date: '2022-07-28'
 created_by: Asmita Nakwa
-last_modified_date: '2022-11-07'
+last_modified_date: '2022-11-11'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -130,7 +130,7 @@ The Manage Groups tab enables you to create new User and Product groups and upda
 
 **Step 2.** At the top of the User Product column, enter a name for the new group and select the green plus sign as shown in below image.
 
-<img width="452" alt="myrack-account-RBAC15" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC15.png">
+<img width="452" alt="Enter name of the product group and click green plus symbol" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC15.png">
 
 **Step 3.** Select the Product to add and select Save Changes.
 
@@ -160,7 +160,7 @@ Use the following steps to delete a user or product group:
 
 <img width="908" alt="Select an existing user groups" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC18.png">
 
-**Step 3.** Select the **Actions** dropdown in the upper-right corner as shown in above image.
+**Step 3.** Select the **Actions** drop-down in the upper-right corner as shown in above image.
 
 **Step 4.** Select **Delete Group**.
 
