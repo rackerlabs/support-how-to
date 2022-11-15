@@ -19,11 +19,11 @@ product_url: rackspace-data-protection
 
    <img width="156" alt="Select option Recoveries from Data Protection drop down" src="/support/how-to/restore-vm/restore_vm1.png">
 
-3. Select **Virtual Machines** > **VMs** by clicking the blue **Recover** icon in the top right corner of the screen.
+3. Select **Virtual Machines** >> **VMs** by clicking the blue **Recover** icon in the top right corner of the screen.
 
    <img width="523" alt="Click recover button to select VMs from drop down menu of Virtual Machines" src="/support/how-to/restore-vm/restore_vm2.png">
 
-4. The new **Recovery** screen is displays.
+4. The new **Recovery** screen displays.
 
 5. In the search bar, type the name of the VM or VMs that need to be recovered. This search field accepts wildcards and partial names.
 
@@ -33,9 +33,9 @@ product_url: rackspace-data-protection
 
    <img width="487" alt="Choose VM for restoration" src="/support/how-to/restore-vm/restore_vm4.png">
 
-7. The protection group-specific recovery points that are available will be displayed. Click the **Select Recovery Point** button after selecting your recovery point.
+7. The protection group specific recovery points that are available will be displayed. Click the **Select Recovery Point** button after selecting your recovery point.
 
-   <img width="335" alt="restore_vm5" src="/support/how-to/restore-vm/restore_vm5.png">
+   <img width="335" alt="Display list of specific recovery points" src="/support/how-to/restore-vm/restore_vm5.png">
 
 8. Click the **Next: Recover Options** button at the bottom left of the screen.
 
@@ -47,7 +47,7 @@ product_url: rackspace-data-protection
 
    - By selecting the edit pencil next to Virtual Machines, you can go back to the previous screen and change your selection of the VM(s) and recovery point.
 
-   <img width="355" alt="restore_vm8" src="/support/how-to/restore-vm/restore_vm8.png">
+   <img width="355" alt="You can change your selection by using edit option" src="/support/how-to/restore-vm/restore_vm8.png">
 
    - Existing VM Handling: 
 
@@ -77,5 +77,5 @@ product_url: rackspace-data-protection
 
 10. Click the **Recovery** button to initiate the recovery.
 
-11. Progress is montiored from **Recovery Screen**.
+11. Progress is monitored from **Recovery Screen**.
 

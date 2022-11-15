@@ -19,7 +19,7 @@ product_url: rackspace-data-protection
 
    <img width="159" alt="From top navigation select data protection, then select protection from drop down menu" src="/support/how-to/create-vm-protection-group/create_vm_protection1.png">
 
-3. The protection screen will display protection groups for your organisation.
+3. The Protection screen will display Protection groups for your organization.
 
    <img width="952" alt="Displays the lists of protection groups" src="/support/how-to/create-vm-protection-group/create_vm_protection4.png">
 
@@ -31,7 +31,7 @@ product_url: rackspace-data-protection
 
    <img width="371" alt="Select option Add Objects" src="/support/how-to/create-vm-protection-group/create_vm_protection3.png">
 
-6. Select your VMware environment from the **Registered Source** dropdown menu. 
+6. From the **Registered Source** dropdown menu, select your **VMware Environment**. 
 
    <img width="372" alt="Click dropdown arrow to select Registered Source" src="/support/how-to/create-vm-protection-group/create_vm_protection5.png">
 
@@ -45,7 +45,7 @@ product_url: rackspace-data-protection
    
    **Example 1:** Everything in our VMware environment should be automatically protected by this protection group, but we want to exclude the server named win-test from this protection group. We would like servers created in the future to be automatically protected by this group without the need for manual intervention.
 
-      - Click the autoprotect shield first, which is to the right of your VMware source (top level).
+      - In the right of your VMware source (top level), Click Auto Protect shield.
         
         <img width="372" alt="Select autoprotect shield" src="/support/how-to/create-vm-protection-group/create_vm_protection7.png">
 
@@ -53,7 +53,7 @@ product_url: rackspace-data-protection
 
       <img width="298" alt="Display all objects are auto protected" src="/support/how-to/create-vm-protection-group/create_vm_protection8.png">
 
-      - You can then sort by VM listing or search for the VM name(s) (call out 1) that you wish to exclude. Once those VMs have been located, click the blue autoprotect shield (call out 2) to the left of those object(s). The shield (call out 3) will turn red indicating the object is excluded from auto protection.
+      - You can then sort by VM listing or search for the VM name(s) (call out 1) that you wish to exclude. Once those VMs have been located, click the blue Auto Protect shield (call out 2) to the left of those object(s). The shield (call out 3) will turn red indicating the object is excluded from Auto Protection.
 
       <img width="307" alt="Display list of VM" src="/support/how-to/create-vm-protection-group/create_vm_protection9.png">
 
@@ -61,9 +61,9 @@ product_url: rackspace-data-protection
 
       - Sort by VM listing or search for the VM name(s) that you wish to protect. Click the checkbox next to the VMs that you wish to protect as part of this group.
 
-      <img width="302" alt="create_vm_protection10" src="/support/how-to/create-vm-protection-group/create_vm_protection10.png">
+      <img width="302" alt="Select VM which need to be protected" src="/support/how-to/create-vm-protection-group/create_vm_protection10.png">
 
-8. Once the desired servers have all been selected, click the **Continue** button at the bottom right of the **Add Objects** window.
+8. Once the desired servers have been selected, click the **Continue** button at the bottom right of the **Add Objects** window.
 
 9. Enter name of the protection group.
 

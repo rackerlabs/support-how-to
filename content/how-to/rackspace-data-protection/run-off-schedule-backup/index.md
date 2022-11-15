@@ -25,7 +25,7 @@ product_url: rackspace-data-protection
 
    <img width="485" alt="Displays the menu of protection group" src="/support/how-to/run-off-schedule-backup/run_off_schedule_backup3.png">
 
-5. You can choose which servers in the group should be backed up as part of this manual job run on the next screen, as well as the backup type that should be used. You have the option of backing up either selected objects or all of them.  
+5. On the following screen you can select what backup type should be taken and which servers in the group should be backed up as part of this manual job run. It is possible to backup only select objects or all objects.
 
    <img width="487" alt="Select the servers in the group to be backed up" src="/support/how-to/run-off-schedule-backup/run_off_schedule_backup4.png">
 

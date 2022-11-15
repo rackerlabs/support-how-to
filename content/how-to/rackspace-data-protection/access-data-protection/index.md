@@ -17,4 +17,4 @@ product_url: rackspace-data-protection
 
 2. Click **Launch Data Protection** button to get redirected and logged into the portal.
 
-   <img width="383" alt="data_protection1" src="/support/how-to/access-data-protection/data_protection1.png">
+   <img width="383" alt="Launch data protection" src="/support/how-to/access-data-protection/data_protection1.png">

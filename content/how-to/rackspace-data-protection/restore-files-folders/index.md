@@ -17,7 +17,7 @@ product_url: rackspace-data-protection
 
    <img width="156" alt="Select option Recoveries from Data Protection drop down" src="/support/how-to/restore-files-folders/restore_files_folders1.png">
 
-3. Select **Virtual Machines** > **Files or Folders** by clicking the blue **Recover** icon in the top right corner of the screen.
+3. Select **Virtual Machines** >> **Files or Folders** by clicking the blue **Recover** icon in the top right corner of the screen.
 
    <img width="522" alt="Click Recover button to select Files or Folder from drop down menu of Virtual Machines" src="/support/how-to/restore-files-folders/restore_files_folders2.png">
 
@@ -27,11 +27,11 @@ product_url: rackspace-data-protection
 
     - You can browse the server file system by using the radio button for Browse. Wildcards can be used. Type the server’s name, then press Browse to browse the file system.
 
-    <img width="524" alt="restore_files_folders3" src="/support/how-to/restore-files-folders/restore_files_folders3.png">
+    <img width="524" alt="Browse the server file by using radio button" src="/support/how-to/restore-files-folders/restore_files_folders3.png">
 
        - The recovery point can be adjusted in the dropdown menu at the top right of the screen.
 
-    <img width="523" alt="restore_files_folders4" src="/support/how-to/restore-files-folders/restore_files_folders4.png">
+    <img width="523" alt="Adjust recovery point" src="/support/how-to/restore-files-folders/restore_files_folders4.png">
 
        - File selection works like a shopping cart. If files are part of the same protection group and recovery point, they can be added to a single recovery job. Select the files that need to be recovered, then press **Save**.
 
@@ -39,7 +39,7 @@ product_url: rackspace-data-protection
 
 5. Files are recovered by restoring them back to a server, or by creating a download link on the Cohesity portal.
 
-   **A** To restore files back to a server, press **Next: Recover Options**.
+   **A-** To restore files back to a server, press **Next: Recover Options**.
 
    <img width="562" alt="Click Next: Recover Options to restore files back to a server" src="/support/how-to/restore-files-folders/restore_files_folders6.png">
 
@@ -79,7 +79,7 @@ product_url: rackspace-data-protection
 
       - Press the **Recover** button to initiate the recovery. Progress can be monitored from the recovery screen.
 
-   **B** Click the **Download Files** button to create a downloaded task..
+   **B-** Click the **Download Files** button to create a downloaded task..
 
       <img width="486" alt="Click Download Files to download the task" src="/support/how-to/restore-files-folders/restore_files_folders9.png">
 

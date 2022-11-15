@@ -27,7 +27,7 @@ product_url: rackspace-data-protection
 
    <img width="565" alt="Display the menu of protection group" src="/support/how-to/edit-vm-protection-group/edit_vm_protection3.png">
 
-5. The **Edit Protection** window will be displayed.
+5. The **Edit Protection** window will appear.
 
    <img width="329" alt="When you click edit icon, edit protection screen displays" src="/support/how-to/edit-vm-protection-group/edit_vm_protection4.png">
 
@@ -41,9 +41,9 @@ product_url: rackspace-data-protection
 
    - Automatic protection can be added at various levels in the VMware hierarchy, indicated by the blue shield to the right of objects. If auto protection is defined, all objects at that level and below in the hierarchy will be automatically protected. This includes any objects created at those protected levels in the future. Individual objects can be excluded from Auto Protect to refine selection granularity.
 
-      - To enable auto protect, click the auto protect shield to the right of your VMware source (top level is used in the example, but auto protect can be defined at lower levels in the hierarchy if desired).  
+      - To enable Auto Protect, click the Auto Protect shield to the right of your VMware source (top level is used in the example, but Auto Protect can be defined at lower levels in the hierarchy if desired).  
 
-   <img width="450" alt="edit_vm_protection6" src="/support/how-to/edit-vm-protection-group/edit_vm_protection6.png">
+   <img width="450" alt="Unable auto protect" src="/support/how-to/edit-vm-protection-group/edit_vm_protection6.png">
 
       - All objects will now be shown as auto protected. To save changes to the selected objects, click the blue **Save Selection** button.
 
