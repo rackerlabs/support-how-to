@@ -79,7 +79,7 @@ product_url: rackspace-data-protection
 
       - Press the **Recover** button to initiate the recovery. Progress can be monitored from the recovery screen.
 
-   **B-** Click the **Download Files** button to create a downloaded task..
+   **B-** Click the **Download Files** button to create a downloaded task.
 
       <img width="486" alt="Click Download Files to download the task" src="/support/how-to/restore-files-folders/restore_files_folders9.png">
 
