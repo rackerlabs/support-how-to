@@ -45,15 +45,19 @@ product_url: rackspace-data-protection
 
    <img width="450" alt="Unable auto protect" src="/support/how-to/edit-vm-protection-group/edit_vm_protection6.png">
 
-      - All objects will now be shown as auto protected. To save changes to the selected objects, click the blue **Save Selection** button.
+      - All objects will now be shown as auto protected. 
 
    <img width="452" alt="All objects listed are auto protected" src="/support/how-to/edit-vm-protection-group/edit_vm_protection7.png">
 
+      - To save changes to the selected objects, click the blue **Save Selection** button.
+
    - To exclude a server from an auto protect group. 
 
-     - Check the name(s) of the VMs you want to disable. Click the blue auto protect shield to the left of those objects once those VMs have been identified. The shield will change to red to show that the object is no longer covered by automatic protection. To save changes to the selected objects, click the blue **Save Selection** button.
+     - Check the name(s) of the VMs you want to disable. Click the blue auto protect shield to the left of those objects once those VMs have been identified. The shield will change to red to show that the object is no longer covered by automatic protection.
 
    <img width="445" alt="Exclude server from auto protect group" src="/support/how-to/edit-vm-protection-group/edit_vm_protection8.png">
+
+      - To save changes to the selected objects, click the blue **Save Selection** button.
 
    - To add or remove servers to a job that manually defines objects.
 
@@ -68,14 +72,14 @@ product_url: rackspace-data-protection
 
    <img width="328" alt="Change name of the protection group" src="/support/how-to/edit-vm-protection-group/edit_vm_protection10.png">
 
-   - Policy
+   - Policy: 
      A backup policy can be changed by selecting a new policy from the dropdown menu. Note that changing a policy will only affect job runs from the time of the change forward. Retention will be unchanged for backups that ran prior to the policy change.
 
      Backup policies define backup retention as well as the frequency. If your protection group needs to use a backup policy that does not appear in your policy list, then contact support, and ask for a new custom policy to be created for your organization.
 
    <img width="328" alt="Change of policy backup" src="/support/how-to/edit-vm-protection-group/edit_vm_protection11.png">
 
-   - Start Time
+   - Start Time: 
      Backup start time can be defined for protection groups set to run daily jobs as shown in following image.
 
    <img width="328" alt="Setting of start time for protection groups" src="/support/how-to/edit-vm-protection-group/edit_vm_protection12.png">

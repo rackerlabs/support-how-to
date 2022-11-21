@@ -17,7 +17,7 @@ product_url: rackspace-data-protection
 
    <img width="138" alt="Select Data Protection" src="/support/how-to/run-off-schedule-backup/run_off_schedule_backup1.png">
 
-3. The Protection screen will display your organization's Protection groups and gives you an overview of the latest job runs for each group.
+3. The Protection screen will display protection groups for your organization. Click the job that needs a manual job run. 
 
    <img width="952" alt="Displays the lists of protection groups" src="/support/how-to/run-off-schedule-backup/run_off_schedule_backup2.png">
 

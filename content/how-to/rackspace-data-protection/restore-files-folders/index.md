@@ -29,11 +29,11 @@ product_url: rackspace-data-protection
 
     <img width="524" alt="Browse the server file by using radio button" src="/support/how-to/restore-files-folders/restore_files_folders3.png">
 
-       - The recovery point can be adjusted in the dropdown menu at the top right of the screen.
+    - The recovery point can be adjusted in the dropdown menu at the top right of the screen.
 
     <img width="523" alt="Adjust recovery point" src="/support/how-to/restore-files-folders/restore_files_folders4.png">
 
-       - File selection works like a shopping cart. If files are part of the same protection group and recovery point, they can be added to a single recovery job. Select the files that need to be recovered, then press **Save**.
+    - File selection works like a shopping cart. If files are part of the same protection group and recovery point, they can be added to a single recovery job. Select the files that need to be recovered, then press **Save**.
 
     <img width="486" alt="Select the files that needs to be recovered" src="/support/how-to/restore-files-folders/restore_files_folders5.png">
 
@@ -47,7 +47,7 @@ product_url: rackspace-data-protection
 
    <img width="336" alt="Select any of the radio button to set the restore parameters" src="/support/how-to/restore-files-folders/restore_files_folders7.png">
 
-       - To return to the previous screen and edit selections, press the edit pencil icon at the top right of the screen.
+      - To return to the previous screen and edit selections, press the edit pencil icon at the top right of the screen.
 
    <img width="373" alt="To edit the parameters click on edit icon" src="/support/how-to/restore-files-folders/restore_files_folders8.png">
 

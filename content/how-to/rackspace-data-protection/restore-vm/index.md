@@ -53,7 +53,7 @@ product_url: rackspace-data-protection
 
      None – Cohesity will make no changes to the original VM(s). This is the default behavior and the most common option. You can use the **Rename** option under Recovery options to ensure there are no name conflicts. VM recovery will fail if there is an existing VM with the same name. 
 
-     Overwrite Existing VM – Chose this option only if the original VMs should be overwritten. Exercise care choosing this option, as the original VM will be deleted. 
+     Overwrite Existing VM – Choose this option only if the original VMs should be overwritten. Exercise care choosing this option, as the original VM will be deleted. 
 
      Keep Existing VM – This option will power down and rename the original VM. This allows the recovered VM to be powered on right away and use the original VM name without creating a conflict.     
    

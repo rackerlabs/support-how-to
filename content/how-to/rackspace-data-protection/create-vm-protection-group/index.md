@@ -37,9 +37,9 @@ product_url: rackspace-data-protection
 
 7. In the Objects selection screen, you can define what objects are included in this protection group and how they are selected.
 
-   - Objects can be manually defined by checking the individual boxes (call out 1) to the left of each object.
+   - Objects can be manually defined by checking the individual boxes to the left of each object.
 
-   - Automatic protection can be added at various levels in the VMware hierarchy, indicated by the blue shield (call out 2) to the right of objects. If auto protect is defined, all objects at that level and below in the hierarchy will be automatically protected. This includes any objects created at those protected levels in the future. Individual objects can be excluded from Auto Protect to refine selection granularity. 
+   - Automatic protection can be added at various levels in the VMware hierarchy, indicated by the blue shield to the right of objects. If auto protect is defined, all objects at that level and below in the hierarchy will be automatically protected. This includes any objects created at those protected levels in the future. Individual objects can be excluded from Auto Protect to refine selection granularity. 
 
    <img width="372" alt="Displays the manual selection and automatic protection" src="/support/how-to/create-vm-protection-group/create_vm_protection6.png">
    
@@ -53,7 +53,7 @@ product_url: rackspace-data-protection
 
       <img width="298" alt="Display all objects are auto protected" src="/support/how-to/create-vm-protection-group/create_vm_protection8.png">
 
-      - You can then sort by VM listing or search for the VM name(s) (call out 1) that you wish to exclude. Once those VMs have been located, click the blue Auto Protect shield (call out 2) to the left of those object(s). The shield (call out 3) will turn red indicating the object is excluded from Auto Protection.
+      - You can then sort by VM listing or search for the VM name(s) that you wish to exclude. Once those VMs have been located, click the blue Auto Protect shield to the left of those object(s). The shield will turn red indicating the object is excluded from Auto Protection.
 
       <img width="307" alt="Display list of VM" src="/support/how-to/create-vm-protection-group/create_vm_protection9.png">
 
