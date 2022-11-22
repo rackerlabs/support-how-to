@@ -23,7 +23,7 @@ product_url: rackspace-data-protection
 
    <img width="952" alt="Displays the lists of protection groups" src="/support/how-to/edit-vm-protection-group/edit_vm_protection2.png">
 
-4. Click the three vertical (call out 1) dots next to the desired protection group to bring up the menu, then select Edit (call out 2).
+4. Click the three vertical dots next to the desired protection group to bring up the menu, then select Edit.
 
    <img width="565" alt="Display the menu of protection group" src="/support/how-to/edit-vm-protection-group/edit_vm_protection3.png">
 
@@ -83,20 +83,3 @@ product_url: rackspace-data-protection
      Backup start time can be defined for protection groups set to run daily jobs as shown in following image.
 
    <img width="328" alt="Setting of start time for protection groups" src="/support/how-to/edit-vm-protection-group/edit_vm_protection12.png">
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-
