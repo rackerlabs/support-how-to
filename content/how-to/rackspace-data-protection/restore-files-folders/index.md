@@ -5,7 +5,7 @@ type: article
 title: "Restoring Files/Folders"
 created_date: '2022-10-21'
 created_by: Asmita Nakwa
-last_modified_date: '2022-11-02'
+last_modified_date: '2022-11-22'
 last_modified_by: Asmita Nakwa
 product: Rackspace Data Protection
 product_url: rackspace-data-protection

@@ -5,7 +5,7 @@ type: product
 title: "Rackspace Data Protection"
 created_date: '2022-10-20'
 created_by: Asmita Nakwa
-last_modified_date: '2022-10-28'
+last_modified_date: '2022-11-22'
 last_modified_by: Asmita Nakwa
 product: Rackspace Data Protection
 product_url: rackspace-data-protection
