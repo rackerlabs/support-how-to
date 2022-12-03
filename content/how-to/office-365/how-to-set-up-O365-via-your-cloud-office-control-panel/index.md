@@ -15,10 +15,12 @@ Get quick answers to common questions about setting up Rackspace Office 365.
 
 ### Prerequisites
 
-- **Applies to:** Office 365 Administrator
-- **Difficulty:** Easy
-- **Time Needed:** 10 minutes
-- **Tools required:** Office 365 tenant Administrator access
+- **Applies to:** Cloud Office Administrator
+- **Difficulty:** Moderate
+- **Time Needed:** 30-60 minutes
+- **Tools required:** Cloud Office Control Panel & Office 365 Administrator access
+
+The purpose of this document is to provide instruction on how to setup a brand new Office 365 environment through Rackspace.
 
 For more information about prerequisite terminology, see
 [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
@@ -40,63 +42,67 @@ If the tenant ID that you enter is valid and available, a green check box appear
 
 When you first log in, the Office 365 portal requires you to enter and confirm a new password. After you confirm the password, the only user who can log in to your Office 365 account is **admin@{tenantName}.onmicrosoft.com**, until new users are created.
 
-#### Add a subscription
-After you create an Office 365 tenant, choose an Office 365 subscription. To compare Office 365 subscriptions offered by Rackspace, see Office 365 - Pick your plan.
-
-1.	In the [Manage Office 365 at Rackspace Control Panel](https://www.rackspace.com/office-365/pick-your-plan), click on **Products** -> **Product Catalog** on the left sidebar.
-2.	Select a plan and click **Add Product**. You can learn more about each license by clicking on the arrow next to the details. To compare Office 365 subscriptions offered by Rackspace, see [Office 365 - Pick your plan](https://www.rackspace.com/office-365/pick-your-plan).
-3.	Enter the number of licenses that you need and review the charges.
-4.	Click **Add Product**.
+After you create an Office 365 tenant. Follow the below steps to complete setup.
 
 #### Add a domain in Office 365
-The default domain in Office 365® is **{tenantName}.onmicrosoft.com**. Until you add your own domain to Office 365, any new users that you create contain the default domain name.
+The default domain in Office 365® is **{tenantName}.onmicrosoft.com**. Until you add your own domain to Office 365, any new users that you create contain the default domain name.  To add a domain follow the steps below.
 
-### Add a domain in Office 365
 1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com/).
-2.	From the left menu, select **Office 365 Admin Center**.
-3.	From the left menu, select **Settings**, and then select **Domains**.
-4.	In the **Domains** section, click **Add Domain**.
-5.	Enter the domain name when prompted, and then click **Next**.
+2.	From the left menu, select a drop-down menu labeled “More”. 
+3.	Select **Manage In Microsoft 365 Admin Center**.
+4.	From the left menu, select **Show All** -> **Settings**, and then select **Domains**.
+5.	In the Domains section, click **Add Domain**.
+6.	Enter the domain name when prompted, and then click **Use this domain**.
+7.	You will be taken to a page titled “Verify that you own the domain.”
+
 
 #### Verify that you own the domain
 This step requires you to log in to your domain’s DNS host portal. If you do not know what your DNS host is, see [Find your DNS host](https://docs.rackspace.com/support/how-to/find-dns-host/).
-1.	Select the **Add a TXT record instead** option, and then select **Next**.
+
+1.	Select the **Add a TXT record to the domains DNS record** option, and then select **Continue**.
 2.	Copy the TXT record information provided on the **Verify domain** page.
 3.	Log in to your domain’s DNS host portal.
 4.	Add the TXT record by using the information provided on the **Verify domain** page.
-5.	Save this change at your DNS host.
-6.	After the TXT record fully propagates, select **Verify**.
+5.	Save this change at your DNS host & allow 15-30 mins for your record to propagate.
+6.	After the TXT record fully propagates, select **Verify in the Microsoft Admin Center**.
 
-After Office 365 verifies your domain and you are ready to use your services, you need to finalize your setup by configuring the DNS entries for your Office 365 services.
+After Office 365 verifies your domain and you are ready to use your services, you need to finalize your setup by configuring the remaining DNS entries for your Office 365 services.
 
 
 ### Configuring DNS records for your Office 365 services
 Use the following steps to configure the DNS records for your Office 365 services:
 1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com/).
-2.	From the left menu, select **Office 365 Admin Center**.
-3.	From the left menu, select **Settings**, and then select **Domains**.
-4.	In the **Domains** section, select the domain you want to configure services for.
-5.	From the domain setup wizard, select **Continue Setup** from the top menu.
-6.	On the **Set up your online services** screen, select **I’ll manage my own DNS records** and click **Next**.
-7.	When prompted, select the online services you want to configure. The selection is based on the current licenses that are assigned to your users.
-8.	After selecting your online services, click **Next**.
+2.	From the left menu, select a drop-down menu labeled “More”. 
+3.	Select **Manage In Microsoft 365 Admin Center**.
+4.	From the left menu, select **Show All** -> **Settings**, and then select **Domains**.
+5.	In the Domain section select the Domain you want to configure services for.
+6.	From the Domain setup wizard, select **Continue Setup** from the top menu.
+7.	On the **Set up your online services** screen, select **I’ll manage my own DNS records** and click **Next**.
+8.	When prompted, select the online services you want to configure. The selection is based on the current licenses that are assigned to your users.
+9.	After selecting your online services, click **Next**.
 This step requires you to log in to your domain’s DNS host portal.
+10.	Log in to your DNS host and copy the records from the table provided into your DNS host. Save this change at your DNS host & allow 15-30 mins for your record to propagate.
+11.	Once your new DNS records have propagated, go back to your Microsoft Admin Center & select **Verify**.
 
-9.	Log in to your DNS host and copy the records from the table provided into your DNS host.
-10.	After all records are entered into your DNS host, select **Verify**.
-
-**Note:** It might take up to 24-48 hours for the DNS records to fully propagate from your DNS host and for Office 365 to verify them.
+**Note:** In rare cases it can take up to 24-48 hours for the DNS records to fully propagate from your DNS host and for Office 365 to verify them.
 
 ### Add an Office 365 license
+1.	In the [Manage Office 365 at Rackspace Control Panel](https://manage365.rackspace.com/), click on **Product Catalog** -> **Select Microsoft365** on the left sidebar.
+2.	Scroll down and Select **Exchange Online (Plan 1)** and click **Add Product**. 
+3.	Enter the number of licenses to match mailbox quantity required and select “Monthly” commitment option.
+4.	Click **Add Product**.
+5.	It may take a moment for provisioning to complete.
+
+### Add an Office 365 User
 1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com/).
-2.	From the left menu, select **Products**, and then select **Business Catalog**.
-3.	Select Exchange Online Plan 1 and click **Add Product**. 
-4.	Enter the number of licenses that you need and review the charges.
-5.	Click **Add Product**.
+2.	From the left menu, select **My Users**.
+3.	Select Add User & complete new user form
+4.	Now assign a license to the newly added user (steps below)
+
 
 ### Assign a license to a user
 1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com/).
-2.	From the left menu, select **Users**.
+2.	From the left menu, select **My Users**.
 3.	Find the user you want to assign the license to and select **Manage**.
 4.	Select the license you’d like to apply to the user.
 5.	Click **Save** at the bottom of the page to finish the process.
