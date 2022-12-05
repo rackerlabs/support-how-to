@@ -69,29 +69,13 @@ This step requires you to log in to your domain’s DNS host portal. If you do n
 After Office 365 verifies your domain and you are ready to use your services, you need to finalize your setup by configuring the remaining DNS entries for your Office 365 services.
 
 
-### Configuring DNS records for your Office 365 services
-Use the following steps to configure the DNS records for your Office 365 services:
-1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com/).
-2.	From the left menu, select a drop-down menu labeled “More”. 
-3.	Select **Manage In Microsoft 365 Admin Center**.
-4.	From the left menu, select **Show All** -> **Settings**, and then select **Domains**.
-5.	In the Domain section select the Domain you want to configure services for.
-6.	From the Domain setup wizard, select **Continue Setup** from the top menu.
-7.	On the **Set up your online services** screen, select **I’ll manage my own DNS records** and click **Next**.
-8.	When prompted, select the online services you want to configure. The selection is based on the current licenses that are assigned to your users.
-9.	After selecting your online services, click **Next**.
-This step requires you to log in to your domain’s DNS host portal.
-10.	Log in to your DNS host and copy the records from the table provided into your DNS host. Save this change at your DNS host & allow 15-30 mins for your record to propagate.
-11.	Once your new DNS records have propagated, go back to your Microsoft Admin Center & select **Verify**.
-
-**Note:** In rare cases it can take up to 24-48 hours for the DNS records to fully propagate from your DNS host and for Office 365 to verify them.
-
 ### Add an Office 365 license
 1.	In the [Manage Office 365 at Rackspace Control Panel](https://manage365.rackspace.com/), click on **Product Catalog** -> **Select Microsoft365** on the left sidebar.
 2.	Scroll down and Select **Exchange Online (Plan 1)** and click **Add Product**. 
 3.	Enter the number of licenses to match mailbox quantity required and select “Monthly” commitment option.
 4.	Click **Add Product**.
 5.	It may take a moment for provisioning to complete.
+
 
 ### Add an Office 365 User
 1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com/).
@@ -112,3 +96,21 @@ Yes, all users must create new profiles. We’ve created an online mail client s
 
 #### Does Rackspace update the customer’s DNS records?
 No. Admins are responsible for updating their domain’s DNS records. Rackspace does not have access to your externally hosted DNS and cannot accept access to external DNS hosting accounts.
+
+
+### Configuring DNS records for your Office 365 services
+Use the following steps to configure the DNS records for your Office 365 services:
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com/).
+2.	From the left menu, select a drop-down menu labeled “More”. 
+3.	Select **Manage In Microsoft 365 Admin Center**.
+4.	From the left menu, select **Show All** -> **Settings**, and then select **Domains**.
+5.	In the Domain section select the Domain you want to configure services for.
+6.	From the Domain setup wizard, select **Continue Setup** from the top menu.
+7.	On the **Set up your online services** screen, select **I’ll manage my own DNS records** and click **Next**.
+8.	When prompted, select the online services you want to configure. The selection is based on the current licenses that are assigned to your users.
+9.	After selecting your online services, click **Next**.
+This step requires you to log in to your domain’s DNS host portal.
+10.	Log in to your DNS host and copy the records from the table provided into your DNS host. Save this change at your DNS host & allow 15-30 mins for your record to propagate.
+11.	Once your new DNS records have propagated, go back to your Microsoft Admin Center & select **Verify**.
+
+**Note:** In rare cases it can take up to 24-48 hours for the DNS records to fully propagate from your DNS host and for Office 365 to verify them.
