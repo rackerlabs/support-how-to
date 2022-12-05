@@ -110,8 +110,10 @@ This step requires you to log in to your domain’s DNS host portal.
 **Note:** In rare cases it can take up to 24-48 hours for the DNS records to fully propagate from your DNS host and for Office 365 to verify them.
 
 
+### FAQ
+
 #### Do my users have to create new profiles for their desktop mail clients and mobile devices?
-Yes, all users must create new profiles. We’ve created an online mail client setup tool that walks users through configuring their email for use on all of the most popular desktop and mobile platforms: https://emailhelp.rackspace.com/
+No, for the time being we recommend customers use Outlook Web App (OWA) to access their new Office 365 mailboxes. Further guidance regarding desktop mail clients will be provided in the future. To access OWA use portal.office.com > Outlook icon or outlook.office.com.
 
 #### Does Rackspace update the customer’s DNS records?
 No. Admins are responsible for updating their domain’s DNS records. Rackspace does not have access to your externally hosted DNS and cannot accept access to external DNS hosting accounts.
