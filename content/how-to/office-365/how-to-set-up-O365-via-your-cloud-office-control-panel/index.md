@@ -5,8 +5,8 @@ title: How to set up O365 via your Cloud Office Control Panel
 type: article
 created_date: '2022-12-02'
 created_by: Nina Canutt
-last_modified_date: '2022-12-02'
-last_modified_by: Steven Salinas
+last_modified_date: '2022-12-05'
+last_modified_by: Man Chung
 product: Office 365
 product_url: office-365
 ---
@@ -91,12 +91,6 @@ After Office 365 verifies your domain and you are ready to use your services, yo
 4.	Select the license you’d like to apply to the user.
 5.	Click **Save** at the bottom of the page to finish the process.
 
-#### Do my users have to create new profiles for their desktop mail clients and mobile devices?
-Yes, all users must create new profiles. We’ve created an online mail client setup tool that walks users through configuring their email for use on all of the most popular desktop and mobile platforms: https://emailhelp.rackspace.com/
-
-#### Does Rackspace update the customer’s DNS records?
-No. Admins are responsible for updating their domain’s DNS records. Rackspace does not have access to your externally hosted DNS and cannot accept access to external DNS hosting accounts.
-
 
 ### Configuring DNS records for your Office 365 services
 Use the following steps to configure the DNS records for your Office 365 services:
@@ -114,3 +108,10 @@ This step requires you to log in to your domain’s DNS host portal.
 11.	Once your new DNS records have propagated, go back to your Microsoft Admin Center & select **Verify**.
 
 **Note:** In rare cases it can take up to 24-48 hours for the DNS records to fully propagate from your DNS host and for Office 365 to verify them.
+
+
+#### Do my users have to create new profiles for their desktop mail clients and mobile devices?
+Yes, all users must create new profiles. We’ve created an online mail client setup tool that walks users through configuring their email for use on all of the most popular desktop and mobile platforms: https://emailhelp.rackspace.com/
+
+#### Does Rackspace update the customer’s DNS records?
+No. Admins are responsible for updating their domain’s DNS records. Rackspace does not have access to your externally hosted DNS and cannot accept access to external DNS hosting accounts.
