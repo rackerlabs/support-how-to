@@ -5,8 +5,8 @@ title: How to set up O365 via your Cloud Office Control Panel
 type: article
 created_date: '2022-12-02'
 created_by: Nina Canutt
-last_modified_date: '2022-12-02'
-last_modified_by: Steven Salinas
+last_modified_date: '2022-12-05'
+last_modified_by: Man Chung
 product: Office 365
 product_url: office-365
 ---
@@ -69,6 +69,29 @@ This step requires you to log in to your domain’s DNS host portal. If you do n
 After Office 365 verifies your domain and you are ready to use your services, you need to finalize your setup by configuring the remaining DNS entries for your Office 365 services.
 
 
+### Add an Office 365 license
+1.	In the [Manage Office 365 at Rackspace Control Panel](https://manage365.rackspace.com/), click on **Product Catalog** -> **Select Microsoft365** on the left sidebar.
+2.	Scroll down and Select **Exchange Online (Plan 1)** and click **Add Product**. 
+3.	Enter the number of licenses to match mailbox quantity required and select “Monthly” commitment option.
+4.	Click **Add Product**.
+5.	It may take a moment for provisioning to complete.
+
+
+### Add an Office 365 User
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com/).
+2.	From the left menu, select **My Users**.
+3.	Select Add User & complete new user form
+4.	Now assign a license to the newly added user (steps below)
+
+
+### Assign a license to a user
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com/).
+2.	From the left menu, select **My Users**.
+3.	Find the user you want to assign the license to and select **Manage**.
+4.	Select the license you’d like to apply to the user.
+5.	Click **Save** at the bottom of the page to finish the process.
+
+
 ### Configuring DNS records for your Office 365 services
 Use the following steps to configure the DNS records for your Office 365 services:
 1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com/).
@@ -86,29 +109,11 @@ This step requires you to log in to your domain’s DNS host portal.
 
 **Note:** In rare cases it can take up to 24-48 hours for the DNS records to fully propagate from your DNS host and for Office 365 to verify them.
 
-### Add an Office 365 license
-1.	In the [Manage Office 365 at Rackspace Control Panel](https://manage365.rackspace.com/), click on **Product Catalog** -> **Select Microsoft365** on the left sidebar.
-2.	Scroll down and Select **Exchange Online (Plan 1)** and click **Add Product**. 
-3.	Enter the number of licenses to match mailbox quantity required and select “Monthly” commitment option.
-4.	Click **Add Product**.
-5.	It may take a moment for provisioning to complete.
 
-### Add an Office 365 User
-1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com/).
-2.	From the left menu, select **My Users**.
-3.	Select Add User & complete new user form
-4.	Now assign a license to the newly added user (steps below)
-
-
-### Assign a license to a user
-1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com/).
-2.	From the left menu, select **My Users**.
-3.	Find the user you want to assign the license to and select **Manage**.
-4.	Select the license you’d like to apply to the user.
-5.	Click **Save** at the bottom of the page to finish the process.
+### FAQ
 
 #### Do my users have to create new profiles for their desktop mail clients and mobile devices?
-Yes, all users must create new profiles. We’ve created an online mail client setup tool that walks users through configuring their email for use on all of the most popular desktop and mobile platforms: https://emailhelp.rackspace.com/
+No, for the time being we recommend customers use Outlook Web App (OWA) to access their new Office 365 mailboxes. Further guidance regarding desktop mail clients will be provided in the future. To access OWA use https://portal.office.com > Outlook icon or https://outlook.office.com.
 
 #### Does Rackspace update the customer’s DNS records?
 No. Admins are responsible for updating their domain’s DNS records. Rackspace does not have access to your externally hosted DNS and cannot accept access to external DNS hosting accounts.
