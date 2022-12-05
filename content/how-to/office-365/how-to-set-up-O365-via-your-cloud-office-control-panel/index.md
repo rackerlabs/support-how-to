@@ -113,7 +113,7 @@ This step requires you to log in to your domain’s DNS host portal.
 ### FAQ
 
 #### Do my users have to create new profiles for their desktop mail clients and mobile devices?
-No, for the time being we recommend customers use Outlook Web App (OWA) to access their new Office 365 mailboxes. Further guidance regarding desktop mail clients will be provided in the future. To access OWA use portal.office.com > Outlook icon or outlook.office.com.
+No, for the time being we recommend customers use Outlook Web App (OWA) to access their new Office 365 mailboxes. Further guidance regarding desktop mail clients will be provided in the future. To access OWA use https://portal.office.com > Outlook icon or https://outlook.office.com.
 
 #### Does Rackspace update the customer’s DNS records?
 No. Admins are responsible for updating their domain’s DNS records. Rackspace does not have access to your externally hosted DNS and cannot accept access to external DNS hosting accounts.
