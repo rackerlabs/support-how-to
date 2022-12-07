@@ -32,36 +32,36 @@ The Microsoft 365 tenant that you create is permanent. If you already have an ex
 
 1.	Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) using your Rackspace Cloud Office admin ID and password.
 
-<image alt="Control Panel Login" src="Login.png" title="Control Panel Login">
+<image alt="Control Panel Login" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/Login.png" title="Control Panel Login">
 
 2.1 In the Microsoft Office 365 section, select **Add Office 365**.
 
-<image alt="Add Office 365" src="AddO365.png" title="Add Office 365">
+<image alt="Add Office 365" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/AddO365.png" title="Add Office 365">
 
 2.2 For existing tenant, select **Manage Office 365**. 
 
-<image alt="Manage Office 365" src="ManageO365.png" title="Manage Office 365">
+<image alt="Manage Office 365" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/ManageO365.png" title="Manage Office 365">
 
 3.	Enter a tenant name using only letters and numbers.
 A tenant is a unique name for your organization within the Office 365 portal. Your tenant name is your **account ID** on Microsoft’s systems.
 If the tenant ID that you enter is valid and available, a green check box appears next to the name.
 4.	Fill in the requested information. All fields are required.
 
-<image alt="Create Tenant" src="CreateTenant.png" title="Create Tenant">
+<image alt="Create Tenant" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/CreateTenant.png" title="Create Tenant">
 
 5.	Click **Save/Create** Tenant.
 
 ### Log in to the Office 365 portal
 1.	Log in to the [Manage Office 365 at Rackspace Control Panel](https://manage365.rackspace.com/) with the Global Administrator of your tenant.
 
-<image alt="O365 Rackspace Control Panel" src="RackspaceManage365Login.png" title="O365 Rackspace Control Panel">
+<image alt="O365 Rackspace Control Panel" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/RackspaceManage365Login.png" title="O365 Rackspace Control Panel">
 
 2.	This portal will take you to your **Rackspace Office 365 Management Page**.  
   
 ### Add an Office 365 License
 1.  Click on Product Catalog > Select Microsoft365 on the left sidebar. 
 
-<image alt="Add Product License" src="AddLicense.png" title="Add Product License">
+<image alt="Add Product License" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/AddLicense.png" title="Add Product License">
 
 2.  Scroll down and Select Exchange Online (Plan 1) and click Add Product. 
 3.  Enter the number of licenses to match mailbox quantity required and select “Monthly” commitment option. 
@@ -70,28 +70,28 @@ If the tenant ID that you enter is valid and available, a green check box appear
 5.  Go back to [Manage Office 365 at Rackspace Control Panel](https://manage365.rackspace.com/). This portal will take you to your **Rackspace Office 365 Management Page**.  
 6.  Click on **Office 365 Admin Center** on the left sidebar to be logged in to the Office 365 Admin Center automatically. 
   
-<image alt="O365 Rackspace Control Panel" src="O365AdminCenter.png" title="O365 Rackspace Control Panel">
+<image alt="O365 Rackspace Control Panel" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/O365AdminCenter.png" title="O365 Rackspace Control Panel">
 
 7.  When you first log in, the Office 365 portal requires you to enter and confirm a new password. After you confirm the password, the only user who can log in to your Office 365 account is admin@{tenantName}.onmicrosoft.com, until new users are created. 
 
-<image alt="Update Password" src="UpdatePassword.png" title="Update Password">
+<image alt="Update Password" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/UpdatePassword.png" title="Update Password">
   
 8.  First user admin@{tenantName}.onmicrosoft.com will log into Microsoft 365 Admin Center and will add the domain and configure Office 365 tenant.  Administrators can contact Microsoft Support for assistance per the instructions below. 
   
 ### How to get assistance from Microsoft Support
 1.  For assistance adding your domain and configuring Office 365 tenant, please **select Help & Support button** in the Office 365 Dashboard to contact **Microsoft Support**. 
 
-<image alt="Help & Support" src="HelpandSupport.png" title="Help & Support">
+<image alt="Help & Support" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/HelpandSupport.png" title="Help & Support">
 
 2.  In the **How can we help?** field enter **“Rackspace Customer – Need Assistance”** and hit enter. It is important that you mention above in the Title section of the ticket, so your ticket gets into the appropriate queue on the first contact. At this time, you can click on the **Contact Support** button. Please see the template below. 
 
-<image alt="How can we help?" src="NeedAssistance.png" title="How can we help?">
+<image alt="How can we help?" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/NeedAssistance.png" title="How can we help?">
 
 **Note:** You can complete the domain setup and Office 365 tennant configuration yourself by following the steps in Appendix section. If you cannot, please follow the above steps to contact Microsoft Support   
 
-<image alt="Contact Support" src="ContactSupport.png" title="Contact Support">
+<image alt="Contact Support" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/ContactSupport.png" title="Contact Support">
 
-<image alt="Support Form" src="SupportForm.png" title="Support Form">
+<image alt="Support Form" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/SupportForm.png" title="Support Form">
 
 ### Add Users and assigning a license     
 After you have verified your domain in the tenant, you can add users and assign licensing as follows:                                                                         
@@ -117,7 +117,7 @@ After you have verified your domain in the tenant, you can add users and assign 
       Username:  john.doe@contoso.com 
       Password: (password created during user creation) 
 
-<image alt="Signin" src="Signin.png" title="Signin">
+<image alt="Signin" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/Signin.png" title="Signin">
 
 ### FAQ
 
