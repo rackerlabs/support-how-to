@@ -5,8 +5,8 @@ title: How to set up O365 via your Cloud Office Control Panel
 type: article
 created_date: '2022-12-02'
 created_by: Nina Canutt
-last_modified_date: '2022-12-05'
-last_modified_by: Man Chung
+last_modified_date: '2022-12-06'
+last_modified_by: Nick Kidd
 product: Office 365
 product_url: office-365
 ---
@@ -20,30 +20,118 @@ Get quick answers to common questions about setting up Rackspace Office 365.
 - **Time Needed:** 30-60 minutes
 - **Tools required:** Cloud Office Control Panel & Office 365 Administrator access
 
-The purpose of this document is to provide instruction on how to setup a brand new Office 365 environment through Rackspace.
+The purpose of this document is to provide instruction on how to setup a brand new Office 365 environment through Rackspace.  
+
+**Note:** Due to the recent increase in requests for assistance to Rackspace Cloud Office support, a temporary process in which you can request Microsoft to assist with adding O365 licensing and DNS setup has been implemented. You can still do perform these steps on your own with the steps found in the appendix at the bottom of this article. 
 
 For more information about prerequisite terminology, see
 [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
 
-### Create a tenant ID
-The tenant ID that you create is permanent. If you have an existing tenant ID for your Office 365 account, open a support ticket so we can transfer it for you.
+### Create a Microsoft 365 tenant
+The Microsoft 365 tenant that you create is permanent. If you already have an existing tenant for your Office 365 account, open a Rackspace support ticket so we can transfer it for you. 
 
 1.	Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) using your Rackspace Cloud Office admin ID and password.
-2.	In the Microsoft Office 365 section, select **Manage Office 365**.
+
+<image alt="Control Panel Login" src="Login.png" title="Control Panel Login">
+
+2.1 In the Microsoft Office 365 section, select **Add Office 365**.
+
+<image alt="Add Office 365" src="AddO365.png" title="Add Office 365">
+
+2.2 For existing tenant, select **Manage Office 365**. 
+
+<image alt="Manage Office 365" src="ManageO365.png" title="Manage Office 365">
+
 3.	Enter a tenant name using only letters and numbers.
 A tenant is a unique name for your organization within the Office 365 portal. Your tenant name is your **account ID** on Microsoft’s systems.
 If the tenant ID that you enter is valid and available, a green check box appears next to the name.
 4.	Fill in the requested information. All fields are required.
-5.	Click **Create Tenant**.
 
-#### Log in to the Office 365 portal
+<image alt="Create Tenant" src="CreateTenant.png" title="Create Tenant">
+
+5.	Click **Save/Create** Tenant.
+
+### Log in to the Office 365 portal
 1.	Log in to the [Manage Office 365 at Rackspace Control Panel](https://manage365.rackspace.com/) with the Global Administrator of your tenant.
-2.	In this portal, you can manage users (add or edit users, reset passwords, and edit assigned licenses) and licenses (add, edit, and remove licenses). If you need to manage any other settings, such as the Exchange Admin Center or the Security and Compliance center, click on **Office 365 Admin Center** on the left sidebar to be logged in to the Office 365 Admin Center automatically.
 
-When you first log in, the Office 365 portal requires you to enter and confirm a new password. After you confirm the password, the only user who can log in to your Office 365 account is **admin@{tenantName}.onmicrosoft.com**, until new users are created.
+<image alt="O365 Rackspace Control Panel" src="RackspaceManage365Login.png" title="O365 Rackspace Control Panel">
 
-After you create an Office 365 tenant. Follow the below steps to complete setup.
+2.	This portal will take you to your **Rackspace Office 365 Management Page**.  
+  
+### Add an Office 365 License
+1.  Click on Product Catalog > Select Microsoft365 on the left sidebar. 
 
+<image alt="Add Product License" src="AddLicense.png" title="Add Product License">
+
+2.  Scroll down and Select Exchange Online (Plan 1) and click Add Product. 
+3.  Enter the number of licenses to match mailbox quantity required and select “Monthly” commitment option. 
+4.  Click Add Product. 
+  **Note:** It may take a moment for provisioning to complete. 
+5.  Go back to [Manage Office 365 at Rackspace Control Panel](https://manage365.rackspace.com/). This portal will take you to your **Rackspace Office 365 Management Page**.  
+6.  Click on **Office 365 Admin Center** on the left sidebar to be logged in to the Office 365 Admin Center automatically. 
+  
+<image alt="O365 Rackspace Control Panel" src="O365AdminCenter.png" title="O365 Rackspace Control Panel">
+
+7.  When you first log in, the Office 365 portal requires you to enter and confirm a new password. After you confirm the password, the only user who can log in to your Office 365 account is admin@{tenantName}.onmicrosoft.com, until new users are created. 
+
+<image alt="Update Password" src="UpdatePassword.png" title="Update Password">
+  
+8.  First user admin@{tenantName}.onmicrosoft.com will log into Microsoft 365 Admin Center and will add the domain and configure Office 365 tenant.  Administrators can contact Microsoft Support for assistance per the instructions below. 
+  
+### How to get assistance from Microsoft Support
+1.  For assistance adding your domain and configuring Office 365 tenant, please **select Help & Support button** in the Office 365 Dashboard to contact **Microsoft Support**. 
+
+<image alt="Help & Support" src="HelpandSupport.png" title="Help & Support">
+
+2.  In the **How can we help?** field enter **“Rackspace Customer – Need Assistance”** and hit enter. It is important that you mention above in the Title section of the ticket, so your ticket gets into the appropriate queue on the first contact. At this time, you can click on the **Contact Support** button. Please see the template below. 
+
+<image alt="How can we help?" src="NeedAssistance.png" title="How can we help?">
+
+**Note:** You can complete the domain setup and Office 365 tennant configuration yourself by following the steps in Appendix section. If you cannot, please follow the above steps to contact Microsoft Support   
+
+<image alt="Contact Support" src="ContactSupport.png" title="Contact Support">
+
+### Add Users and assigning a license     
+After you have verified your domain in the tenant, you can add users and assign licensing as follows:                                                                         
+#### Add an Office 365 User
+1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com/).
+2.	From the left menu, select **My Users**.
+3.	Select Add User & complete new user form
+4.	Now assign a license to the newly added user (steps below)
+
+#### Assign a license to a user
+1.	Log in to your Office 365 Control Panel.
+2.	From the left menu, select My Users.
+3.	Find the user you want to assign the license to and select Manage.
+4.	Select the license you’d like to apply to the user.
+5.	Click Save at the bottom of the page to finish the process.
+
+#### Connect to your New Exchange Online Mailbox 
+
+1.  To access your new Microsoft Exchange Online Mailbox: 
+1.1 Go to [https://outlook.office.com](https://outlook.office.com) in a browser
+2.   Login with your email address: 
+2.1 Example: 
+      Username:  john.doe@contoso.com 
+      Password: (password created during user creation) 
+
+<image alt="Signin" src="Signin.png" title="Signin">
+
+### FAQ
+
+#### Does Rackspace update the customer’s DNS records?
+No. Admins are responsible for updating their domain’s DNS records. Rackspace does not have access to your externally hosted DNS and cannot accept access to external DNS hosting accounts.
+
+#### When do I contact Microsoft Support?
+After you have created Office 365 tenant in Step 3 above in this article. Microsoft Support will help you complete the configuration using the Microsoft 365 admin center.
+
+#### Can I contact Microsoft Support before creating the Office 365 tenant?
+We will not recommend you contact Microsoft Support until Office 365 tenant is created. Microsoft Support will not be able to provide configuration assistance until tenant is created through Rackspace admin page.
+
+
+### Appendix                                                                             
+                                                                            
+                                                                     
 #### Add a domain in Office 365
 The default domain in Office 365® is **{tenantName}.onmicrosoft.com**. Until you add your own domain to Office 365, any new users that you create contain the default domain name.  To add a domain follow the steps below.
 
@@ -69,30 +157,7 @@ This step requires you to log in to your domain’s DNS host portal. If you do n
 After Office 365 verifies your domain and you are ready to use your services, you need to finalize your setup by configuring the remaining DNS entries for your Office 365 services.
 
 
-### Add an Office 365 license
-1.	In the [Manage Office 365 at Rackspace Control Panel](https://manage365.rackspace.com/), click on **Product Catalog** -> **Select Microsoft365** on the left sidebar.
-2.	Scroll down and Select **Exchange Online (Plan 1)** and click **Add Product**. 
-3.	Enter the number of licenses to match mailbox quantity required and select “Monthly” commitment option.
-4.	Click **Add Product**.
-5.	It may take a moment for provisioning to complete.
-
-
-### Add an Office 365 User
-1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com/).
-2.	From the left menu, select **My Users**.
-3.	Select Add User & complete new user form
-4.	Now assign a license to the newly added user (steps below)
-
-
-### Assign a license to a user
-1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com/).
-2.	From the left menu, select **My Users**.
-3.	Find the user you want to assign the license to and select **Manage**.
-4.	Select the license you’d like to apply to the user.
-5.	Click **Save** at the bottom of the page to finish the process.
-
-
-### Configuring DNS records for your Office 365 services
+#### Configuring DNS records for your Office 365 services
 Use the following steps to configure the DNS records for your Office 365 services:
 1.	Log in to your [Office 365 Control Panel](https://manage365.rackspace.com/).
 2.	From the left menu, select a drop-down menu labeled “More”. 
@@ -110,10 +175,4 @@ This step requires you to log in to your domain’s DNS host portal.
 **Note:** In rare cases it can take up to 24-48 hours for the DNS records to fully propagate from your DNS host and for Office 365 to verify them.
 
 
-### FAQ
 
-#### Do my users have to create new profiles for their desktop mail clients and mobile devices?
-No, for the time being we recommend customers use Outlook Web App (OWA) to access their new Office 365 mailboxes. Further guidance regarding desktop mail clients will be provided in the future. To access OWA use https://portal.office.com > Outlook icon or https://outlook.office.com.
-
-#### Does Rackspace update the customer’s DNS records?
-No. Admins are responsible for updating their domain’s DNS records. Rackspace does not have access to your externally hosted DNS and cannot accept access to external DNS hosting accounts.
