@@ -22,7 +22,7 @@ Get quick answers to common questions about setting up Rackspace Office 365.
 
 The purpose of this document is to provide instruction on how to setup a brand new Office 365 environment through Rackspace.  
 
-**Note:** Due to the recent increase in requests for assistance to Rackspace Cloud Office support, a temporary process in which you can request Microsoft to assist with adding O365 licensing and DNS setup has been implemented. You can still do perform these steps on your own with the steps found in the appendix at the bottom of this article. 
+**Note:** Due to the recent increase in requests for assistance to Rackspace Cloud Office support, a temporary process in which you can request Microsoft to assist with adding O365 licensing and DNS setup has been implemented. You can still perform these steps on your own with the steps found in the appendix at the bottom of this article. 
 
 For more information about prerequisite terminology, see
 [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology/).
