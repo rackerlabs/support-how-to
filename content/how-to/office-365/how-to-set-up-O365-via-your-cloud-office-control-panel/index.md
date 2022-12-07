@@ -91,6 +91,8 @@ If the tenant ID that you enter is valid and available, a green check box appear
 
 <image alt="Contact Support" src="ContactSupport.png" title="Contact Support">
 
+<image alt="Support Form" src="SupportForm.png" title="Support Form">
+
 ### Add Users and assigning a license     
 After you have verified your domain in the tenant, you can add users and assign licensing as follows:                                                                         
 #### Add an Office 365 User
