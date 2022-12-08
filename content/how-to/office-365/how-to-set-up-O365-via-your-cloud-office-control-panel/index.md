@@ -53,11 +53,8 @@ If the tenant ID that you enter is valid and available, a green check box appear
 
 ### Log in to the Office 365 portal
 1.	Log in to the [Manage Office 365 at Rackspace Control Panel](https://manage365.rackspace.com/) with the Global Administrator of your tenant.
-
-<image alt="O365 Rackspace Control Panel" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/RackspaceManage365Login.png" title="O365 Rackspace Control Panel">
-
 2.	This portal will take you to your **Rackspace Office 365 Management Page**.  
-  
+
 ### Add an Office 365 License
 1.  Click on Product Catalog > Select Microsoft365 on the left sidebar. 
 
