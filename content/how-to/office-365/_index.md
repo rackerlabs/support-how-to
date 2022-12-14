@@ -27,3 +27,6 @@ The following support articles help you get start using Office 365:
 [Microsoft Office 365 frequently asked questions](https://products.office.com/en-us/business/microsoft-office-365-frequently-asked-questions)
 
 [Rackspace Office 365 plans](https://www.rackspace.com/office-365/pick-your-plan)
+
+<!-- Testing hugo youTube shortcode embed as mentioned on https://gohugo.io/content-management/shortcodes/#youtube -->
+{{< youtube g-N_NpOGVUk >}}
