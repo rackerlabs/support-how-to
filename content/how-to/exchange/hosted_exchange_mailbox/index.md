@@ -45,3 +45,40 @@ To access Cloud Office Control Panel, using [MyRackspace Portal](https://login.r
 **iii**. In the Cloud Office window, click **Open Cloud Office Control Panel**.
 
 **Step 2.** Click **Manage** drop-down menu, next to each mailbox and select **Download Mailbox**. In the Download Mailbox window, enable checkbox to accept the terms and click **Download Mailbox button.**
+
+<img width="468" alt="manage_download_mailbox" src="manage_download_mailbox.png">
+
+Download Hosted Exchange Mailbox using the Manage Office 365 at Rackspace Control Panel
+-------------------------------------------------
+
+**Step 1**. Log in to [Manage Office 365 at Rackspace Control Panel](https://manage365.rackspace.com/login?ReturnUrl=%2F) with the account's **Global Admin** credentials. 
+
+**Step 2**. In the home page, if the mailbox data is ready for download, click the **Mail Recovery** button to view the Mail Recovery download page.
+
+<img width="307" alt="mail_recovery" src="mail_recovery.png">
+
+**Note:** If the mailbox data is not ready for download, the home page will display the following message requesting to check back later.
+
+<img width="250" alt="email_note1" src="https://user-images.githubusercontent.com/96761530/208292027-5995310e-c0db-4f09-8ad9-e9c775e43853.png">
+
+**Step 3**. The list of Hosted Exchange mailboxes will appear on the Mail Recovery page. You can also search for the users based on name. Click the **Download .pst** link next to each mailbox to download that user's PST file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
