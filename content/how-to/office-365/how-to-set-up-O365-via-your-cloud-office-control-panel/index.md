@@ -74,21 +74,7 @@ If the tenant ID that you enter is valid and available, a green check box appear
 <image alt="Update Password" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/UpdatePassword.png" title="Update Password">
   
 8.  First user admin@{tenantName}.onmicrosoft.com will log into Microsoft 365 Admin Center and will add the domain and configure Office 365 tenant.  Administrators can contact Microsoft Support for assistance per the instructions below. 
-  
-### How to get assistance from Microsoft Support
-1.  For assistance adding your domain and configuring Office 365 tenant, please **select Help & Support button** in the Office 365 Dashboard to contact **Microsoft Support**. 
 
-<image alt="Help & Support" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/HelpandSupport.png" title="Help & Support">
-
-2.  In the **How can we help?** field enter **“Rackspace Customer – Need Assistance”** and hit enter. It is important that you mention above in the Title section of the ticket, so your ticket gets into the appropriate queue on the first contact. At this time, you can click on the **Contact Support** button. Please see the template below. 
-
-<image alt="How can we help?" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/NeedAssistance.png" title="How can we help?">
-
-**Note:** You can complete the domain setup and Office 365 tennant configuration yourself by following the steps in Appendix section. If you cannot, please follow the above steps to contact Microsoft Support   
-
-<image alt="Contact Support" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/ContactSupport.png" title="Contact Support">
-
-<image alt="Support Form" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/SupportForm.png" title="Support Form">
 
 ### Add Users and assigning a license     
 After you have verified your domain in the tenant, you can add users and assign licensing as follows:                                                                         
