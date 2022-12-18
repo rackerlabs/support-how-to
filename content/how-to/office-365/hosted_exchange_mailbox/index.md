@@ -45,7 +45,7 @@ To access Cloud Office Control Panel, using [MyRackspace Portal](https://login.r
 
 **Step 2.** Click **Manage** drop-down menu, next to each mailbox and select **Download Mailbox**. In the Download Mailbox window, enable checkbox to accept the terms and click **Download Mailbox button.**
 
-<img width="468" alt="manage_download_mailbox" src="/support/how-to/hosted_exchange_mailbox/manage_download_mailbox.png">
+<img width="468" alt="manage_download_mailbox" src="/support/how-to//hosted_exchange_mailbox/manage_download_mailbox.png">
 
 	
 	
