@@ -63,6 +63,92 @@ Download Hosted Exchange Mailbox using the Manage Office 365 at Rackspace Contro
 
 **Step 3**. The list of Hosted Exchange mailboxes will appear on the Mail Recovery page. You can also search for the users based on name. Click the **Download .pst** link next to each mailbox to download that user's PST file.
 
+<img width="308" alt="download_pst" src="https://user-images.githubusercontent.com/96761530/208293182-7f240315-5a2c-42c2-b9b3-d8c2c066bb58.png">
+
+**Note:** Once a user's mailbox has been downloaded, a green check-mark icon will appear next to the specific user’s download link.
+
+
+FAQ
+============
+
+**Q.** **Will the Hosted Exchange mailboxes be back up and running at some point?**
+
+**A.** TBD
+
+---------------------------------------------------------------------------------------------
+**Q.** **How long does each download take?**
+
+**A.** TBD
+
+----------------------------------------------------------------------------------
+**Q.** **How long will the downloads be available?**
+
+**A.** TBD.
+
+-------------------------------------------------------------------------------------------
+**Q.** **What about Public Folders? Will Public Folder data be available for download?**
+
+**A.** TBD.
+
+---------------------------------------------------------------------------------------------
+**Q.** **What about Resource mailboxes? Will Resource data be available for download?**
+
+**A.** TBD.
+
+---------------------------------------------------------------------------------------------------
+**Q.** **How large are the PST files?**
+
+**A.** This depends on the size of the mailbox. They could range anywhere from 0 MB ~ X GB.
+Is there a "Download All" or bulk download option?
+At this time, no. Each user will need to be downloaded one at a time.
+
+------------------------------------------------------------------------------------------------------
+**Q.** **Is there any file type besides PST available?**
+
+**A.** No. PST is the only download option available.
+
+-----------------------------------------------------------------------------------------------------------
+**Q.** **Can the PST file be downloaded more than once?**
+
+**A.** Yes. There is no limit to the number of downloads for each PST file.
+
+-----------------------------------------------------------------------------------------------------------
+**Q..** **What if I already deleted the Hosted Exchange mailboxes from the Control Panel? Can I still download the PSTs?**
+
+**A** If you've added Microsoft 365 to your account, then you can still access the download links using the [Manage Office 365 at Rackspace Control Panel](https://manage365.rackspace.com/login?ReturnUrl=%2F).
+
+----------------------------------------------------------------------------------------------------------
+**Q.** **How can I tell if someone has already downloaded a user's mailbox?**
+
+**A.** Once an admin has downloaded a mailbox from the Cloud Office Control Panel, this action will be logged in the [Audit Logs](http://cp.rackspace.com/myaccount/auditlogs) 
+
+---------------------------------------------------------------------------------------------------------------------------------
+**Q.** **I've downloaded all of my mailbox PSTs. Now what?**
+
+**A.** If you've moved your Hosted Exchange mailbox to a different provider, you will need to use Microsoft Outlook in order to import the data to your new mailbox.
+ 
+ - [Import email address data into Outlook 2016 for Windows](https://docs.rackspace.com/support/how-to/import-email-address-data-into-outlook-2016-for-windows).
+ 
+ - [Import email address data into Outlook 2013 for Windows](https://docs.rackspace.com/support/how-to/import-email-address-data-into-outlook-2013-for-windows).
+
+If you have moved your mailbox to an external mail provider, you may need to reach out to that other provider for additional information on configuring Microsoft Outlook and importing PST data into your mailbox.
+
+If you have moved your mailbox to Microsoft 365, you can follow the import instructions in the following article: (LINK)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+**Q.** **I have requested to have mail forwarding enabled on my Hosted Exchange mailbox. What can I do with the PST file once I’ve downloaded it?**
+
+**A.** If you wish to continue to have mail forwarding enabled on your mailbox, you should download and save the PST file. Once downloaded, you will need to use Microsoft Outlook in order to import or access the mailbox data. 
+
+You can also choose to set up a new Microsoft 365 tenant and import your PST data into your newly created Microsoft 365 mailboxes.
+
+For more information on creating a new Microsoft 365 tenant, see [How to set up O365 via your Cloud Office Control Panel](https://docs.rackspace.com/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel). 
+
+For more information on importing your PST file into your Microsoft 365 mailbox, see (LINK)
+
+
+
+
 
 
 
