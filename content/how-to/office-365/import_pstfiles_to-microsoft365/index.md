@@ -20,15 +20,6 @@ This article describes how to import a PST file into Microsoft 365 mailbox.
 - **Difficulty:** Moderate
 - **Tools required:** Microsoft Outlook
 
-Important Considerations for Importing
-----------------------------------------------
-
-Before you proceed to import PST files to Microsoft 365, consider the following points:
-
-- Ensure that you have Cloud Office Administrator access
-
-- Ensure that you have installed Desktop version of Microsoft Outlook in Windows 
-
 -------------------------------------------------------------------------------------------------------------------
    
 **Note** 
