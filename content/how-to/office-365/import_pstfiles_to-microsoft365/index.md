@@ -48,37 +48,25 @@ Importing PST files to Microsoft 365
 
 **Step 3**. From the side menu panel, navigate **Open & Export>>Import/Export**. The Import and Export Wizard window opens. 
 
-<img width="204" alt="openexport_importexport" src="openexport_importexport.png">
+<img width="204" alt="Open Export and then import export" src="/support/how-to/import_pstfiles_to-microsoft365/openexport_importexport.png">
 
 
 **Step 4**. Select **Import from another program or file**, and then click **Next**.
 
-<img width="235" alt="importfromanotherprogram" src="importfromanotherprogram.png">
+<img width="235" alt="Import from another program" src="/support/how-to/import_pstfiles_to-microsoft365/importfromanotherprogram.png">
 
 **Step 5**. Select **Outlook Data File (.pst)** file type and click **Next**. The Import Outlook Data File window opens.
 
-<img width="225" alt="outlookdatafile" src="outlookdatafile.png">
+<img width="225" alt="Outlook Datafile" src="/support/how-to/import_pstfiles_to-microsoft365/outlookdatafile.png">
 
 **Step 6**. Click **Browse** to search for the .pst file you want to import. Under **Options**, choose how you want to handle duplicate items, then click **Next**.
 
-<img width="262" alt="browse_options" src="browse_option.png">
+<img width="262" alt="Browse options" src="/support/how-to/import_pstfiles_to-microsoft365/browse_option.png">
 
 **Step 7**. Make sure the checkbox for **include subfolders** is checked and the **Import items into the same folder in:** is selected, with your mailbox selected in the drop-down menu.
 
-<img width="243" alt="importitemsintosamefolder_finish" src="importitemsintosamefolder_finish.png">
+<img width="243" alt="Import items into same folder" src="/support/how-to/import_pstfiles_to-microsoft365/importitemsintosamefolder_finish.png">
 
 
 **Step 8**. Click **Finish**. Outlook will begin importing the contents of your PST file. This process can take anywhere from a few seconds to a few hours depending on the size of the PST file.
-
-
-
-
-
-
-
-
-
-
-
-
 
