@@ -21,7 +21,7 @@ This article describes how to import a PST file into Microsoft 365 mailbox.
 - **Tools required:** Microsoft Outlook
 
 -------------------------------------------------------------------------------------------------------------------   
-**Note**:  Importing PST files into a mailbox requires the desktop version of Microsoft Outlook on Windows.
+Importing PST files into a mailbox requires the desktop version of Microsoft Outlook on Windows.
 If you have not yet configured your Microsoft 365 mailbox in Microsoft Outlook, see [Set up your Microsoft 365 Exchange Online mailbox in Outlook for Windows](https://docs.rackspace.com/support/how-to/set-up-your-microsoft-365-exchange-online-mailbox-in-outlook-for-windows/) for configuration steps.
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](https://docs.rackspace.com/support/how-to/cloud-office-support-terminology/).
