@@ -38,24 +38,24 @@ Importing PST files to Microsoft 365
 
 **Step 3**. Select **Open & Export >> Import/Export**. This will open the Import/Export wizard.
 
-<img width="204" alt="Open Export and then import export" src="/support/how-to/import_pstfiles_to-microsoft365/openexport_importexport.png">
+<img alt="Open Export and then import export" src="/support/how-to/import_pstfiles_to-microsoft365/openexport_importexport.png">
 
 
 **Step 4**. Select **Import from another program or file**, and then click **Next**.
 
-<img width="235" alt="Import from another program" src="/support/how-to/import_pstfiles_to-microsoft365/importfromanotherprogram.png">
+<img alt="Import from another program" src="/support/how-to/import_pstfiles_to-microsoft365/importfromanotherprogram.png">
 
 **Step 5**. Select **Outlook Data File (.pst)** and click **Next**.
 
-<img width="225" alt="Outlook Datafile" src="/support/how-to/import_pstfiles_to-microsoft365/outlookdatafile.png">
+<img alt="Outlook Datafile" src="/support/how-to/import_pstfiles_to-microsoft365/outlookdatafile.png">
 
 **Step 6**. Click **Browse** to search for the .pst file you want to import. Under **Options**, choose how you want to handle duplicate items, then click **Next**.
 
-<img width="262" alt="Browse options" src="/support/how-to/import_pstfiles_to-microsoft365/browse_options.png">
+<img alt="Browse options" src="/support/how-to/import_pstfiles_to-microsoft365/browse_options.png">
 
 **Step 7**. Make sure the checkbox for **include subfolders** is checked and the **Import items into the same folder in:** is selected, with your mailbox selected in the drop-down menu.
 
-<img width="243" alt="Import items into same folder" src="/support/how-to/import_pstfiles_to-microsoft365/importitemsintosamefolder_finish.png">
+<img alt="Import items into same folder" src="/support/how-to/import_pstfiles_to-microsoft365/importitemsintosamefolder_finish.png">
 
 
 **Step 8**. Click **Finish**. Outlook will begin importing the contents of your PST file. This process can take anywhere from a few seconds to a few hours depending on the size of the PST file.
