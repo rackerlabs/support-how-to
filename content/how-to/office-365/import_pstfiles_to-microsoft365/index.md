@@ -44,7 +44,7 @@ Importing PST files to Microsoft 365
 
 **Step 2**. From the top menu bar, select **File**.
 
-<img width="470" alt="file" src="/support/how-to/office-365/file.png">
+<img width="470" alt="file" src="/support/how-to/import_pstfiles_to-microsoft365/file.png">
 
 **Step 3**. From the side menu panel, navigate **Open & Export>>Import/Export**. The Import and Export Wizard window opens. 
 
