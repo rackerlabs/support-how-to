@@ -14,7 +14,7 @@ product_url: office-365
 How to import PST files to Microsoft 365
 ===============================================
 
-This article describes how to import a PST file into Microsoft 365 mailbox. 
+This article describes how to import a PST file into a Microsoft 365 mailbox. 
 ### Prerequisites
 - **Applies to:** Cloud Office Administrator
 - **Difficulty:** Moderate
@@ -30,13 +30,13 @@ Importing PST files to Microsoft 365
 
 **Procedure**
 
-**Step 1**. Access the Microsoft Outlook application installed in your desktop.
+**Step 1**. Open Microsoft Outlook with your Microsoft 365 mailbox profile.
 
-**Step 2**. From the top menu bar, select **File**.
+**Step 2**. At the top of the Outlook ribbon, select **File**.
 
 <img width="470" alt="file" src="/support/how-to/import_pstfiles_to-microsoft365/file.png">
 
-**Step 3**. From the side menu panel, navigate **Open & Export>>Import/Export**. The Import and Export Wizard window opens. 
+**Step 3**. Select **Open & Export >> Import/Export**. This will open the Import/Export wizard.
 
 <img width="204" alt="Open Export and then import export" src="/support/how-to/import_pstfiles_to-microsoft365/openexport_importexport.png">
 
@@ -45,7 +45,7 @@ Importing PST files to Microsoft 365
 
 <img width="235" alt="Import from another program" src="/support/how-to/import_pstfiles_to-microsoft365/importfromanotherprogram.png">
 
-**Step 5**. Select **Outlook Data File (.pst)** file type and click **Next**. The Import Outlook Data File window opens.
+**Step 5**. Select **Outlook Data File (.pst)** and click **Next**.
 
 <img width="225" alt="Outlook Datafile" src="/support/how-to/import_pstfiles_to-microsoft365/outlookdatafile.png">
 
