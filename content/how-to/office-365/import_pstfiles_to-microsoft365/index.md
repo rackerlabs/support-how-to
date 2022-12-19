@@ -61,7 +61,7 @@ Importing PST files to Microsoft 365
 
 **Step 6**. Click **Browse** to search for the .pst file you want to import. Under **Options**, choose how you want to handle duplicate items, then click **Next**.
 
-<img width="262" alt="Browse options" src="/support/how-to/import_pstfiles_to-microsoft365/browse_option.png">
+<img width="262" alt="Browse options" src="/support/how-to/import_pstfiles_to-microsoft365/browse_options.png">
 
 **Step 7**. Make sure the checkbox for **include subfolders** is checked and the **Import items into the same folder in:** is selected, with your mailbox selected in the drop-down menu.
 
