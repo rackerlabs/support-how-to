@@ -60,3 +60,6 @@ Importing PST files to Microsoft 365
 
 **Step 8**. Click **Finish**. Outlook will begin importing the contents of your PST file. This process can take anywhere from a few seconds to a few hours depending on the size of the PST file.
 
+### How to import a .pst file into a Microsoft 365 mailbox using Microsoft Outlook
+<!-- YouTube video embed for https://youtu.be/w-DTWtGHspQ -->
+{{< youtube w-DTWtGHspQ >}}
