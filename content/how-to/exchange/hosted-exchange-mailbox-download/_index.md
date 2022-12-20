@@ -1,10 +1,10 @@
 ---
 permalink: hosted-exchange-mailbox
 audit_date: '2022-12-20'
-title: Hosted Exchange Mailbox Download & FAQ
+title: Hosted Exchange Mailbox Download
 type: article
 created_date: '2022-12-20'
-created_by: Rohit Rajput
+created_by: Tom Mitchell
 product: Microsoft Exchange
 product_url: exchange
 ---
