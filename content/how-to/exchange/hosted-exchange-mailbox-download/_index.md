@@ -26,7 +26,6 @@ Prerequisites
 	
 Downloading Hosted Exchange Mailbox using the Cloud Office Control Panel
 -----------------------------------------------------------------
-**Procedure**
 
 **Step 1.**
 Log in to the Rackspace 
