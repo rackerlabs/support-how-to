@@ -29,7 +29,7 @@ Downloading Hosted Exchange Mailbox using the Cloud Office Control Panel
 Log in to the Rackspace 
 [Cloud Office Control Panel](https://cp.rackspace.com/)
 
-**Note** If you typically access your account using the using, using [MyRackspace Portal](https://login.rackspace.com/login), follow the below steps:
+**Note** If you typically access your account using the [MyRackspace Portal](https://login.rackspace.com/login), follow the below steps to log in to the Cloud Office Control Panel:
 <br />**i**.  In the top navigation bar, click **Select a Product>>Dedicated Hosting**.
 <br />**ii**.	Click **Products>>Cloud Office**.
 <br />**iii**. In the Cloud Office window, click **Open Cloud Office Control Panel**.
