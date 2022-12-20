@@ -30,12 +30,9 @@ Log in to the Rackspace
 [Cloud Office Control Panel](https://cp.rackspace.com/)
 
 **Note** If you typically access your account using the using, using [MyRackspace Portal](https://login.rackspace.com/login), follow the below steps:
-
-- **i**.  In the top navigation bar, click **Select a Product>>Dedicated Hosting**.
-
-- **ii**.	Click **Products>>Cloud Office**.
-
-- **iii**. In the Cloud Office window, click **Open Cloud Office Control Panel**.
+**i**.  In the top navigation bar, click **Select a Product>>Dedicated Hosting**.
+**ii**.	Click **Products>>Cloud Office**.
+**iii**. In the Cloud Office window, click **Open Cloud Office Control Panel**.
 
 **Step 2.**  Click **Mailboxes** under the **Hosted Exchange** section.
 
