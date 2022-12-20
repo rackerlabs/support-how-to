@@ -49,11 +49,11 @@ continue to work on making mailbox data available for download and the links wil
 soon as the mailbox data is ready for download. Check back later to see if the mailbox has
 become available for download.
 
-<img width="468" alt="manage_download_mailbox" src="manage-download-mailbox.png">
+<img width="700" alt="manage_download_mailbox" src="manage-download-mailbox.png">
 
 **Step 4.** Click the checkbox to agree to the terms and press the **Download Mailbox** button
 
-<img width="468" alt="download_mailbox_modal" src="download-mailbox-modal.png">
+<img width="700" alt="download_mailbox_modal" src="download-mailbox-modal.png">
 
 **Step 5.** Your browser will download the PST file to the local device. For information on next steps and other questions related to the download process, please reviewthe [FAQs here](https://www.rackspace.com/sites/default/files/2022-12/Data-Recovery-FAQs-1.pdf)
 
