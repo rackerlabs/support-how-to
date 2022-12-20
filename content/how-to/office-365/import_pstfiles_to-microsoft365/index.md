@@ -1,11 +1,11 @@
 ---
 permalink: import_pstfiles_to-microsoft365
-audit_date: '2022-12-17'
+audit_date: '2022-12-19'
 title: How to import PST files to Microsoft 365
 type: article
-created_date: '2022-12-17'
-created_by: Rohit Rajput
-last_modified_date: '2022-12-17'
+created_date: '2022-12-19'
+created_by: Tom Mitchell
+last_modified_date: '2022-12-19'
 last_modified_by: Rohit Rajput
 product: Office 365
 product_url: office-365
@@ -27,8 +27,6 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 Importing PST files to Microsoft 365
 ------------------------------------------
-
-**Procedure**
 
 **Step 1**. Open Microsoft Outlook with your Microsoft 365 mailbox profile.
 
