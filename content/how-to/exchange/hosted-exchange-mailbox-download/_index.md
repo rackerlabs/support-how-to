@@ -5,8 +5,6 @@ title: Hosted Exchange Mailbox Download & FAQ
 type: article
 created_date: '2022-12-20'
 created_by: Rohit Rajput
-last_modified_date: '2022-12-17'
-last_modified_by: Rohit Rajput 
 product: Microsoft Exchange
 product_url: exchange
 ---
