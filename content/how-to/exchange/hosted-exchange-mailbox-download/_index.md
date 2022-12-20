@@ -57,3 +57,5 @@ become available for download.
 **Step 5.** Your browser will download the PST file to the local device. For information on next steps and other questions related to the download process, please reviewthe [FAQs here](https://www.rackspace.com/sites/default/files/2022-12/Data-Recovery-FAQs-1.pdf)
 
 **Video** [How to download your Hosted Exchange mailbox from the Rackspace Cloud Office control panel](https://youtu.be/LTpSK-6GvTA)
+<!-- YouTube video embed for https://youtu.be/LTpSK-6GvTA -->
+{{< youtube LTpSK-6GvTA >}}
