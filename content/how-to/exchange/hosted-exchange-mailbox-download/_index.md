@@ -9,7 +9,7 @@ product: Microsoft Exchange
 product_url: exchange
 ---
 
-Hosted Exchange Mailbox Download & FAQ
+Hosted Exchange Mailbox Download
 ========================================
 This article describes how to download your Hosted Exchange mailbox data. Hosted Exchange mailbox data is available in PST format and can be downloaded using the **Rackspace Cloud Office Control Panel** or the **Manage Office 365 at Rackspace Control Panel**. 
 
