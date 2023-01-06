@@ -5,7 +5,7 @@ title: Hosted Exchange Mailbox Download
 type: article
 created_date: '2022-12-20'
 created_by: Tom Mitchell
-last_modified_date: '2022-12-20'
+last_modified_date: '2023-01-06'
 product: Microsoft Exchange
 product_url: exchange
 ---
