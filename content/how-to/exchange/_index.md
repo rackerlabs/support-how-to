@@ -24,7 +24,7 @@ Welcome to Microsoft Exchange hosted by Rackspace! Use this brief step-by-step g
 - [View invoice history in the Cloud Office Control Panel](/support/how-to/view-invoice-history-cloud-office-control-panel)
 - [View and pay unpaid invoices in the Cloud Office Control Panel](/support/how-to/view-and-pay-unpaid-invoices-cloud-office-control-panel)
 - [Set up an API key in the Cloud Office Control Panel](/support/how-to/set-up-an-api-key-cloud-office-control-panel)
-- [Hosted Exchange Mailbox Download](/support/how-to/hosted-exchange-mailbox)
+- [Hosted Exchange Mailbox Download](/support/how-to/hosted-exchange-mailbox-download)
 
 ###  Plan your migration
 
