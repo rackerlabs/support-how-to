@@ -1,5 +1,5 @@
 ---
-permalink: hosted-exchange-mailbox
+permalink: hosted-exchange-mailbox-download
 audit_date: '2022-12-20'
 title: Hosted Exchange Mailbox Download
 type: article
