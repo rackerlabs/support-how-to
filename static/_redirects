@@ -681,11 +681,11 @@ support/how-to/rackspace-email-password-recovery-faq/  /support/how-to/manage-pa
 
 /support/how-to/sign-up-for-rackspace-services/  /how-to/sign-up-for-rackspace-services/ 200
 
+# Redirects 1/10/2023
+/support/how-to/configuring-rackspace-cloud-files-with-cyberduck/ /support/how-to/configure-rackspace-cloud-files-with-cyberduck/ 301
+
 # Remaining page redirects
 
 /support/how-to/*       /how-to/:splat      200
 # /how-to/*       /support/how-to/:splat      301
 
-
-# Redirects 1/10/2023
-/support/how-to/configuring-rackspace-cloud-files-with-cyberduck/ /support/how-to/configure-rackspace-cloud-files-with-cyberduck/ 301
