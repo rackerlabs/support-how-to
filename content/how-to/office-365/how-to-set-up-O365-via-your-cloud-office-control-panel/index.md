@@ -55,7 +55,9 @@ If the tenant ID that you enter is valid and available, a green check box appear
 
 <image alt="Add Product License" src="/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel/AddLicense.png" title="Add Product License">
 
-2.  Scroll down and Select Exchange Online (Plan 1) and click Add Product. 
+2.	Scroll down and Select one of the following Exchange Online plans based on your mailbox size requirements:
+    - If your mailbox is under 48GB choose Plan 1.
+    - If your mailbox is over 48GB choose Plan 2.
 3.  Enter the number of licenses to match mailbox quantity required and select “Monthly” commitment option. 
 4.  Click Add Product. 
   **Note:** It may take a moment for provisioning to complete. 
