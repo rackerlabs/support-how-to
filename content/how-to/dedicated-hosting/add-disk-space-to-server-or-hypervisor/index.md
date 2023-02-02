@@ -5,7 +5,7 @@ title: Add disk space to a server or hypervisor
 type: article
 created_date: '2019-12-12'
 created_by: Chad Sterling
-last_modified_date: '2023-01-31'
+last_modified_date: '2023-02-2'
 last_modified_by: Asmita Nakwa
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -19,7 +19,7 @@ This article explains how to create a ticket to add disk space to a server or hy
 
 <img width="409" alt="Enter credentials for Username and Password" src="/support/how-to/add-disk-space-to-server-or-hypervisor/adddisk4.png">
 
-**Step 2.** In the top navigation bar, choose **Support** > **Support Center**.
+**Step 2.** In the top navigation bar, choose **Support** >> **Support Center**.
 
 <img width="941" alt="Select support center from top navigation bar" src="/support/how-to/add-disk-space-to-server-or-hypervisor/adddisk5.png">
 
@@ -50,4 +50,4 @@ This article explains how to create a ticket to add disk space to a server or hy
 
    <img width="234" alt="Anytime checkbox is deselected, then select preferred day and time" src="/support/how-to/add-disk-space-to-server-or-hypervisor/adddisk11.png">
 
-**Step 5.** Click **Submit** button.
+**Step 5.** Click the **Submit** button.
