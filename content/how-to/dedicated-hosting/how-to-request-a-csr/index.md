@@ -5,7 +5,7 @@ title: 'How to Request a CSR'
 type: article
 created_date: '2021-04-15'
 created_by: Alexandra Soares
-last_modified_date: '2023-02-01'
+last_modified_date: '2023-02-02'
 last_modified_by: Asmita Nakwa
 product: Dedicated Hosting
 product_url: dedicated-hosting
