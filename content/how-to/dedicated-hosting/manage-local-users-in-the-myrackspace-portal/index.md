@@ -5,7 +5,7 @@ title: Manage Local Users in the MyRackspace Portal
 type: article
 created_date: '2019-12-12'
 created_by: Chad Sterling
-last_modified_date: '2022-11-11'
+last_modified_date: '2023-02-02'
 last_modified_by: Asmita Nakwa
 product: Dedicated Hosting
 product_url: dedicated-hosting
@@ -20,15 +20,11 @@ This article explains how to use a ticket template to manage local users.
 
    <img width="409" alt="Enter login credentials" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement1.png">
 
-**Step 2.** In the top navigation bar, choose **Support** > **Support Center**.
+**Step 2.** In the top navigation bar, select **Support** > **Support Center**.
 
    <img width="941" alt="Select support center from drop down menu" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement2.png">
 
-**Step 3.** Under **Common Request** menu, click **See All Templates**. It displays list of all templates.
-
-   <img width="958" alt="Displays the list of templates" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement3.png">
-
-**Step 4.** From the **Common Request** menu, select **Local User Management**.
+**Step 3.** Under **Common Request** menu, click **See All Templates**. It displays list of all templates and select **Local User Management**
 
    <img width="960" alt="Select local usermanagement from the templates" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement4.png">
 
@@ -46,14 +42,12 @@ On each chosen server, the action you choose next will be executed. The details 
    The **Password** should be at least eight characters, with at least three
    character types (uppercase, lowercase, numeric, and symbol).
 
-**Step 2.** You can also assign the following attributes to the user:
+**Step 2.** You can also assign the following optional features to the user:
 
-    - User cannot change their password
-    - Password never expires
-    - User login is disabled
-    - User has admin privileges (This option adds the newly created user to the
-      Administrators group on Windows&reg; and gives the user sudo privileges on
-      Linux&reg;.)
+   - User cannot change their password
+   - Password never expires
+   - User login is disabled
+   - User has admin privileges
 
 **Step 3.** Click the **Submit** button.
 
