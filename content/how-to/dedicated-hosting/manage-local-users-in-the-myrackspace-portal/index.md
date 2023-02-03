@@ -1,85 +1,87 @@
 ---
 permalink: manage-local-users-in-the-myrackspace-portal
 audit_date: '2019-12-12'
-title: Manage local users in the MyRackspace portal
+title: Manage Local Users in the MyRackspace Portal
 type: article
 created_date: '2019-12-12'
 created_by: Chad Sterling
-last_modified_date: '2021-07-07'
-last_modified_by: Cat Lookabaugh
+last_modified_date: '2023-02-02'
+last_modified_by: Asmita Nakwa
 product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
 This article explains how to use a ticket template to manage local users.
 
-### Create a ticket in the MyRackspace portal
+### Create a Ticket in the MyRackspace portal
 
-1. Log in to the [MyRackspace portal](https://login.rackspace.com/login) with
+**Step 1.** Log in to the [MyRackspace portal](https://login.rackspace.com/login) with
    your username and password.
 
-2. In the top navigation bar, choose **Select a Product** > **Rackspace Dedicated**.
+   <img width="409" alt="Enter login credentials" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement1.png">
 
-3. Select **Tickets** > **Create Ticket**. The **Create New Ticket** page displays.
+**Step 2.** In the top navigation bar, select **Support** > **Support Center**.
 
-4. Select the **Subject** field.
+   <img width="941" alt="Select support center from drop down menu" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement2.png">
 
-5. From the drop-down menu, select **Local User Management.**
+**Step 3.** Under **Common Request** menu, click **See All Templates**. It displays list of all templates and select **Local User Management**
 
-   {{<image src="localuser1.png" alt="" title="">}}
+   <img width="960" alt="Select local usermanagement from the templates" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement4.png">
 
-6. Select the affected **Device(s)** and **Action Type**.
+**Step 5.** In **Issue Details** section you can select the appropriate **Device(s)** and **Action Type**.
 
-#### Create a user
+   <img width="644" alt="Select the device and action types from Issue Details section" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement5.png">
 
-1. Enter the **Username**, **Password**, and **Full Name** of the user you want
+On each chosen server, the action you choose next will be executed. The details of each action are described below:   
+
+**Create a User on the Selected Device**
+
+**Step 1.** Enter the **Username**, **Password**, and **Full Name** of the user you want
    to create on the selected devices.
 
    The **Password** should be at least eight characters, with at least three
    character types (uppercase, lowercase, numeric, and symbol).
 
-2. You can also assign the following attributes to the user:
+**Step 2.** You can also assign the following optional features to the user:
 
-    - User cannot change their password
-    - Password never expires
-    - User login is disabled
-    - User has admin privileges (This option adds the newly created user to the
-      Administrators group on Windows&reg; and gives the user sudo privileges on
-      Linux&reg;.)
+   - User cannot change their password
+   - Password never expires
+   - User login is disabled
+   - User has admin privileges
 
-3. Select **Create Ticket**.
+**Step 3.** Click the **Submit** button.
 
-   {{<image src="localuser2.png" alt="" title="">}}
+   <img width="416" alt="Enter credential of new user" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement6.png">
 
-#### Delete, Enable or Disable/lock a user
+**Delete, Enable or Disable/lock a User on the Selected Device**
 
-1. Select the desired action from the **Action Type** drop-down menu.
+**Step 1.** Select the desired action from the **Action Type** drop-down menu.
 
-2. Enter the username.
+**Step 2.** Enter the username.
 
    Deleting a user completely removes them from the selected devices.
 
-3. Select **Create Ticket**.
+**Step 3.** Click the **Submit** button.
 
-   {{<image src="localuser3.png" alt="" title="">}}
+   <img width="466" alt="Enter the name of the user to delete" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement7.png">
 
-#### Change a user password
+**Change a User Password on the Selected Device**
 
-1. Specify the **Username** and **Password** to reset on the selected devices.
+**Step 1.** Enter the **Username** and **Password** to reset on the selected devices.
 
    The **Password** should be at least eight characters, with at least three
    character types (uppercase, lowercase, numeric, and symbol).
 
-2. Select **Create Ticket**.
+**Step 2.** Click the **Submit** button.
 
-   {{<image src="localuser4.png" alt="" title="">}}
+   <img width="440" alt="To change User password enter the suitable password" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement8.png">
 
-#### Audit users or user groups  
+**Audit Users or User Groups on the Selected Device**  
 
 These actions provide a list of users or user groups on each selected server and
 require no additional input.
 
-{{<image src="localuser5.png" alt="" title="">}}
+  <img width="397" alt="Displays the list of users or user groups" src="/support/how-to/manage-local-users-in-the-myrackspace-portal/localusermanagement9.png">
 
-  After the ticket generates, you see your ticket list in the MyRackspace Portal.
-  It typically takes a few minutes for the ticket creation process to complete.
+  After the ticket is generated, you can see your ticket list in the MyRackspace Portal.
+  It takes a few minutes for the ticket creation process to complete.
