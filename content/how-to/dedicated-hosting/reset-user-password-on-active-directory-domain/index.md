@@ -25,7 +25,7 @@ Microsoft&reg; Active Directory user in the MyRackspace portal.
 
    <img width="941" alt="Select support center from drop down menu" src="/support/how-to/reset-user-password-on-active-directory-domain/resetpassword2.png">
 
-**Step 3.** In **Common Request** section, click **See All Templates** and it will display list **See All**.
+**Step 3.** In **Common Request** section, click **See All Templates** and it will display list of all templates.
 
    <img width="958" alt="Displays list of templates" src="/support/how-to/reset-user-password-on-active-directory-domain/resetpassword3.png">
 
