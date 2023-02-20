@@ -47,7 +47,7 @@ No, the price you pay will remain the same.
         - (August 2022) New logic will prevent exceeding the 30 day limit on existing domains/mailboxes. 
             
         - (August 2022) Apply the new spam/trash limits to all the domains/mailboxes that are under the 30 day limit. Once the new settings are applied you will not be able to change them.
-        - (Date TBD) Change the spam/trash settings for all the domains/mailboxes that are over the 30 day limit. Note: The Admin will be notified before this change (via ticket) if the account has mailboxes with spam/trash folders over the 30 day limit. 
+        - (November 1st 2022) Change the spam/trash settings for all the domains/mailboxes that are over the 30 day limit. Note: The Admin was notified before this change (via ticket) if the account has mailboxes with spam/trash folders over the 30 day limit. 
         
 - Allow/Block Lists:
     - Domain level configured via Control Panel: 
@@ -76,7 +76,7 @@ No, the price you pay will remain the same.
 	- If BCC is configured for a domain, it will remain until you disable it, or we start routing mail through the new infrastructure.
 	- BCC will be removed for all domains when we start routing mail through the new infrastructure.
 - Spam Settings
-	- Starting June 2022, Administrators will no longer be able to set spam settings. 
+	- Starting January 3rd 2023 (Originally planned for June 2022), Administrators will no longer be able to set spam settings. 
 	- The new spam delivery behavior will deliver spam messages to the recipient's spam/junk folder. 
     - This specific change applies to both Rackspace Email and Hosted Exchange.
 - Admin Reply/Forward Control

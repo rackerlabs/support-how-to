@@ -5,8 +5,8 @@ title: Manage Cloud Office Administrator information in the Control Panel
 type: article
 created_date: '2020-10-23'
 created_by: Nicholas Ramirez
-last_modified_date: '2020-11-03'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2022-12-22'
+last_modified_by: Chris Phillips
 product: Rackspace Email
 product_url: rackspace-email
 ---
@@ -19,25 +19,25 @@ product_url: rackspace-email
 - **Time needed:** 5-10 Minutes
 - **Tools required:** Rackspace Cloud Office Administrator credentials
 
-For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
+For more information about prerequisite terminology, see [Cloud Office support terminology](https://docs.rackspace.com/support/how-to/cloud-office-support-terminology/).
 
 This article describes how to modify information for your Cloud Office Control Panel Administrator by using the **My Profile** feature in
-the [Cloud Office Control Panel](cp.rackspace.com).
+the [Cloud Office Control Panel](https://cp.rackspace.com/).
 
-**Note:** Managed and Dedicated customers access contacts and permissions in the MyRackspace Portal. For more information, see
-[Adding or Editing Users](https://docs.rackspace.com/support/how-to/viewing-and-editing-user-information-for-your-account/) in the MyRackspace Portal.
+**IMPORTANT:** Managed and Dedicated customers access contacts and permissions in the MyRackspace Portal. For more information, see
+[Adding or Editing Users](https://docs.rackspace.com/docs/portal-onboarding-guide/administrative/access_permissions_users/) in the MyRackspace Portal.
 
 
-### Access *My Profile* in the Cloud Office Control Panel
+### Access *My Account* in the Cloud Office Control Panel
 
 If you, as a Cloud Office Administrator, want to update your own contact information, security settings, authentication methods, or notification preferences,
-you can do this in the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com).
+you can do this in the **My Account** section of the [Cloud Office Control Panel](https://cp.rackspace.com/).
 
-Use the following steps to access the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
+Use the following steps to access the **My Profile** section of the [Cloud Office Control Panel](https://cp.rackspace.com/):
 
-1. Log in to the [Cloud Office Control Panel](cp.rackspace.com) by using your Cloud Office administrator credentials.
+1. Log in to the [Cloud Office Control Panel](https://cp.rackspace.com/) by using your Cloud Office administrator credentials.
 
-2. Click the **Contact Card** icon in the top-right hand corner and then click **My Profile** from the drop-down menu.
+2. Click the **My Account** in the top-right hand corner and then click **Administrators** from the drop-down menu.
 
 
 Use the steps in the following sections to make changes to your account and security settings.
@@ -45,9 +45,9 @@ Use the steps in the following sections to make changes to your account and secu
 
 #### Cloud Office Control Panel admin information
 
-Use the following steps to modify your **Admin Information** in the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
+Use the following steps to modify your **Admin Information** in the **My Account** section of the [Cloud Office Control Panel](https://cp.rackspace.com/):
 
-1. Click **Edit Admin Information** and then choose one of the following fields to update:
+1. Click the **Manage** button next to the Adminstrator and then choose one of the following fields to update:
 
    - **First Name**
    - **Last Name**
@@ -63,7 +63,7 @@ Use the following steps to modify your **Admin Information** in the **My Profile
 
 #### Security question and answer
 
-Use the following steps to modify your **Security Question and Answer** from within the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
+Use the following steps to modify your **Security Question and Answer** from within the **My Profile** section of the [Cloud Office Control Panel](https://cp.rackspace.com/):
 
 1. Click **Edit Security Question**.
 
@@ -81,7 +81,7 @@ Use the following steps to modify your **Security Question and Answer** from wit
 Cloud Office Administrators must set up a **Multi-Factor Authentication Method** as a second layer of security for their account. Administrators
 can choose between SMS text delivery for verification or a mobile authenticator application for verification.
 
-Use the following steps to modify your **Multi-Factor Authentication** settings within the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
+Use the following steps to modify your **Multi-Factor Authentication** settings within the **My Profile** section of the [Cloud Office Control Panel](https://cp.rackspace.com/):
 
 
 **Edit your current primary phone number for login verification:**
@@ -133,7 +133,7 @@ Use the following steps to modify your **Multi-Factor Authentication** settings 
 
 *Trusted devices* allow a Cloud Office administrator to log in from specified devices without being prompted for multi-factor authentication on each login attempt. Adminstrators can establish trusted devices when they log in from a new device by opting to **Remember This Device** during the initial sign-in process.
 
-Use the following steps to modify your **Trusted Devices** within the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
+Use the following steps to modify your **Trusted Devices** within the **My Profile** section of the [Cloud Office Control Panel](https://cp.rackspace.com/):
 
 
 **Remove trusted devices:**
@@ -153,7 +153,7 @@ Use the following steps to modify your **Trusted Devices** within the **My Profi
 
 **Notification Settings** allow a Cloud Office Administrator to choose what types of alerts they want to receive regarding billing information, product updates, and system alerts.
 
-Use the following steps to modify your **Notification Settings** within the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
+Use the following steps to modify your **Notification Settings** within the **My Profile** section of the [Cloud Office Control Panel](https://cp.rackspace.com/):
 
 
 1. Click **Edit Notification Settings**, then select one or more of the following options:
@@ -170,7 +170,7 @@ Use the following steps to modify your **Notification Settings** within the **My
 
 **Security Settings** allow a Cloud Office Administrator to set up optional password expiration periods as well as allowing the administrator to restrict log-in attempts to specific IP addresses.
 
-Use the following steps to modify your **Security Settings** within the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
+Use the following steps to modify your **Security Settings** within the **My Profile** section of the [Cloud Office Control Panel](https://cp.rackspace.com/):
 
 
 **Create a password expiration policy:**
@@ -194,9 +194,9 @@ Use the following steps to modify your **Security Settings** within the **My Pro
 #### Linked accounts
 
 
-*Linked accounts* allow a Cloud Office Administrator to seamlessly transition between the [Cloud Office Control Panel](cp.rackspace.com) and the [Office 365 Control Panel](manage365.rackspace.com).
+*Linked accounts* allow a Cloud Office Administrator to seamlessly transition between the [Cloud Office Control Panel](https://cp.rackspace.com/) and the [Office 365 Control Panel](https://manage365.rackspace.com/).
 
-Use the following steps to modify your **Linked Accounts** within the **My Profile** section of the [Cloud Office Control Panel](cp.rackspace.com):
+Use the following steps to modify your **Linked Accounts** within the **My Profile** section of the [Cloud Office Control Panel](https://cp.rackspace.com/):
 
 
 **Link a Microsoft 365 admin ID:**

@@ -4,8 +4,8 @@ audit_date: '2020-07-31'
 title: Microsoft 365 Spheres of Support
 type: article
 created_date: '2020-07-31'
-created_by: John Kowalik
-last_modified_date: '2021-05-18'
+created_by: Jeremiah Sauder
+last_modified_date: '2022-11-22'
 last_modified_by: Nick Ramirez
 product: Office 365
 product_url: office-365
@@ -21,7 +21,7 @@ product_url: office-365
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/support/how-to/cloud-office-support-terminology).
 
-This article outlines the **Fanatical Experience&trade;** we offer and the **Rackspace&reg; Application Services** support for **Microsoft 365&reg;**.
+This article outlines the **Fanatical Experience&trade;** we offer and the **Rackspace&reg; Application Services** / **Elastic Engineering** support for **Microsoft 365&reg;**.
 
 | Support type | Definition |
 | --- | --- |
@@ -34,7 +34,7 @@ This article outlines the **Fanatical Experience&trade;** we offer and the **Rac
 ### Exchange Online
 
 
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
 | [DKIM](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/use-dkim-to-validate-outbound-email?view=o365-worldwide) | Basic troubleshooting | Tailored solutions and guidance | &check; | &check; | &check; |
 | [DMARC](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/use-dmarc-to-validate-email?view=o365-worldwide) | Basic troubleshooting | Tailored solutions and guidance | &check; | &check; | &check; |
@@ -77,7 +77,7 @@ This article outlines the **Fanatical Experience&trade;** we offer and the **Rac
 ### Sharepoint Online
 
 
-| **Feature**  | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| **Feature**  | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
 | [Site Customization](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-overview) | No support  | Guidance and advice on industry proven customizations, project management of partner-run, full-on customizations. | &check; | &check; |  |
 | [Site enablement](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-rollout) | No support | Guidance and advice on industry-proven customizations, project management of partner-run, full-on enablements. | &check; | &check; |  |
@@ -90,110 +90,107 @@ This article outlines the **Fanatical Experience&trade;** we offer and the **Rac
 | [Folder Sync](https://support.microsoft.com/en-us/office/sync-sharepoint-files-with-the-onedrive-sync-client-groove-exe-59b1de2b-519e-4d3a-8f45-51647cf291cd?ui=en-us&rs=en-us&ad=us) | Basic troubleshooting | Set up, and best practices | &check; | &check; | &check; |
 | [IRM using Azure Information Protection](https://docs.microsoft.com/en-us/microsoft-365/compliance/set-up-irm-in-sp-admin-center?view=o365-worldwide) | Basic troubleshooting | Tailored AIP template configuration, enablement, and management to suit Enterprise business needs. | &check; | &check; | &check; |
 | [Office Online (create/edit)](https://support.microsoft.com/en-us/office/using-office-for-the-web-in-your-organization-s-sharepoint-site-73b51b4a-ea0b-4e20-af5d-50232d9e73ca?ui=en-us&rs=en-us&ad=us) | Basic troubleshooting | Tutorials, customized training, and available administrator and end-user workshops. | &check; | &check; | &check; |
-| [Recycle Bin (SharePoint admin center)](https://docs.microsoft.com/en-us/sharepoint/restore-deleted-site-collection) | Basic troubleshooting | Set up and best practices.  | &check; | &check; | &check; |
-| [Recycle Bin (site collection)](https://support.microsoft.com/en-us/office/restore-items-in-the-recycle-bin-that-were-deleted-from-sharepoint-or-teams-6df466b6-55f2-4898-8d6e-c0dff851a0be?ui=en-us&rs=en-us&ad=us) | Basic troubleshooting  | Set up and best practices. | &check; | &check; | &check; |
-| [Document libraries](https://support.microsoft.com/en-us/office/what-is-a-document-library-3b5976dd-65cf-4c9e-bf5a-713c10ca2872?ui=en-us&rs=en-us&ad=us) | Basic troubleshooting | Set up and best practices. | &check; | &check; | &check; |
-
+| [Recycle Bin (SharePoint admin center)](https://docs.microsoft.com/en-us/sharepoint/restore-deleted-site-collection) | Basic troubleshooting | Set up, and best practices.  | &check; | &check; | &check; |
+| [Recycle Bin (site collection)](https://support.microsoft.com/en-us/office/restore-items-in-the-recycle-bin-that-were-deleted-from-sharepoint-or-teams-6df466b6-55f2-4898-8d6e-c0dff851a0be?ui=en-us&rs=en-us&ad=us) | Basic troubleshooting  | Set up, and best practices. | &check; | &check; | &check; |
+| [Document libraries](https://support.microsoft.com/en-us/office/what-is-a-document-library-3b5976dd-65cf-4c9e-bf5a-713c10ca2872?ui=en-us&rs=en-us&ad=us) | Basic troubleshooting | Set up, and best practices. | &check; | &check; | &check; |
+| [Lists](https://support.microsoft.com/en-us/office/introduction-to-lists-0a1c3ace-def0-44af-b225-cfa8d92c52d7) | Basic troubleshooting | Set up, and best practices. | &check; | &check; | &check; |
+| [Permissions](https://learn.microsoft.com/en-us/sharepoint/sites/user-permissions-and-permission-levels) | Basic troubleshooting  | Guidance and training based on best practices. | &check; | &check; |  |
 
 ### OneDrive
 
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
 | [OneDrive desktop application](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage) | Basic troubleshooting | Set up, and best practices | &check; | &check; | &check; |
 | [Advanced Sync Settings](https://support.microsoft.com/en-us/office/support/how-to-access-onedrive-settings-6173f176-fd9a-4a34-88f5-5646ec6f568b) | Basic troubleshooting | Set up, and best practices. | &check; | &check; | &check; |
 | [Sharing settings and management](https://docs.microsoft.com/en-us/onedrive/manage-sharing) | Basic troubleshooting | Set up, and best practices. | &check; | &check; | &check; |
-
+| [Lists](https://support.microsoft.com/en-us/office/introduction-to-lists-0a1c3ace-def0-44af-b225-cfa8d92c52d7) | Basic troubleshooting | Set up and best practices. | &check; | &check; | &check; |
+| [Permissions](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07) | Basic troubleshooting | Guidance and training based on best practices. | &check; | &check; |  |
+| [Offboarding](https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee?view=o365-worldwide) | Basic troubleshooting | Set up, and best practices. | &check; | &check; | &check; |
 
 ### Identity and Access Management
 
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
-| [Azure AD Premium P1](https://azure.microsoft.com/en-us/pricing/details/active-directory/)  | Basic troubleshooting | Implementation, guidance, assistance with Azure AD Premium P1 Features | &check; | &check; | &check; |
-| [Azure AD Premium P2](https://azure.microsoft.com/en-us/pricing/details/active-directory/) | Basic troubleshooting | Implementation, guidance, assistance with Azure AD Premium P2 Features | &check; | &check; |&check; |
+| [Azure AD Premium P1 / P2](https://azure.microsoft.com/en-us/pricing/details/active-directory/)  | Basic troubleshooting | Implementation, guidance, assistance with Azure AD Premium P1 / P2 Features | &check; | &check; | &check; |
 | [Self-Service Group and app Management Plus Dynamic Groups](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-self-service-management) | No support | Help creating and maintaining customized templates, rules, configurations, and settings around Office 365 Groups | &check; | &check; | &check; |
 | [Self Service Password Reset](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/let-users-reset-passwords?redirectSourcePath=%252fen-us%252farticle%252flet-users-reset-their-own-passwords-in-office-365-5bc3f460-13cc-48c0-abd6-b80bae72d04a&view=o365-worldwide) | Basic troubleshooting | Help enabling and enabling Self-Service Password Reset (SSPR) in conjunction with on-premises Active Directory (AD) and Active Directory Federation Services (ADFS) | &check; | &check; | &check; |
 | [Multifactor Authentication](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?redirectSourcePath=%252fen-us%252farticle%252fset-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6&view=o365-worldwide) | Basic troubleshooting | Integration with MFA clients included in Office 365 as well as third-party solutions that reside on-premises and in the cloud through Active Directory Federation Services (ADFS) | &check; | &check; | &check; |
-| [Microsoft Identity Manager](https://www.microsoft.com/en-us/microsoft-365/enterprise-mobility-security) | No support | Assistance working with Microsoft Identity Manager (MIM) to integrate into a cloud-based identity solution | &check; | &check; | &check; |
-| [Cloud App Security](https://docs.microsoft.com/en-us/cloud-app-security/what-is-cloud-app-security) | No support | Implementation, guidance, and assistance with Microsoft Cloud App Security (MCAS) features | &check; | &check; | &check; |
-| [Azure AD Connect Health](https://techcommunity.microsoft.com/t5/microsoft-security-and/azure-ad-connect-amp-connect-health-is-now-ga/ba-p/249225) | No support | Guidance and support through setup, maintenance, and enablement of Azure Active Directory Connect (AADC) and Health Monitoring for active alerts | &check; | &check; | &check; |
-| [Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection) |  | Plan, design, and enable | &check; | &check; | &check; |
+| [Defender for Cloud Apps](https://docs.microsoft.com/en-us/cloud-app-security/what-is-cloud-app-security) | No support | Implementation, guidance, and assistance with Microsoft Defender for Cloud Apps features | &check; | &check; | &check; |
+| [Azure AD Connect](https://techcommunity.microsoft.com/t5/microsoft-security-and/azure-ad-connect-amp-connect-health-is-now-ga/ba-p/249225) | No support | Guidance and support through setup, maintenance, and enablement of Azure Active Directory Connect (AADC) and Health Monitoring for active alerts | &check; | &check; | &check; |
 | [Privileged Identity Management](https://docs.microsoft.com/en-us/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide) | No support | Just-in-time access, direct (time-based) access, assign roles, access review | &check; | &check; | &check; |
 | [Advanced Threat Analytics](https://docs.microsoft.com/en-us/advanced-threat-analytics/what-is-ata) | Basic troubleshooting| Plan, design, and enable | &check; | &check; | &check; |
 | [Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection) | Basic troubleshooting | Plan, design, and enable | &check; | &check; | &check; |
-
+| [Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection) | Basic troubleshooting | Plan, design, and enable | &check; | &check; | &check; |
+| [Federated Identity](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/whatis-fed) | No support | Plan, design, and enable | &check; | &check; |  |
+| [Enterprise Applications - Federating SAML apps to Azure AD](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/migrate-adfs-apps-to-azure) | No support | Guidance and training based on best practices. | &check; | &check; |  |
+| [Conditional Access](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/overview) | Basic troubleshooting | Plan, design, and enable | &check; | &check; | &check; |
 
 ### Information Protection
 
 
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
-| [Azure Information Protection](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection) | Basic troubleshooting | Plan, design, and enable | &check; | &check; | &check; |
-| [Manual Document classification](https://docs.microsoft.com/en-us/azure/information-protection/rms-client/client-classify-protect) | Basic troubleshooting | Tailored solutions and guidance | &check; | &check; | &check; |
+| [Microsoft Information Protection](https://docs.microsoft.com/en-us/azure/information-protection/what-is-information-protection) | Basic troubleshooting | Plan, design, and enable | &check; | &check; | &check; |
+| [Document classification policies](https://docs.microsoft.com/en-us/azure/information-protection/rms-client/client-classify-protect) | Basic troubleshooting | Tailored solutions and guidance | &check; | &check; | &check; |
 | [Bring your own key](https://docs.microsoft.com/en-us/microsoft-365/compliance/customer-key-overview?view=o365-worldwide) | No support | Help configuring custom on-premises security encryption keys with customers Office 365 enablement. | &check; | &check; | &check; |
 | [Document Tracking and Revocation](https://docs.microsoft.com/en-us/azure/information-protection/rms-client/client-track-revoke) | Basic troubleshooting | Tailored solutions and guidance | &check; | &check; | &check; |
-| [Custom Templates (AIP)](https://docs.microsoft.com/en-us/azure/information-protection/configure-policy-templates) | Basic troubleshooting | Tailored template configuration, enablement, and management to suit Enterprise business needs | &check; | &check; | &check; |
-| [Automated Data Classification](https://www.avepoint.com/blog/office-365/automate-classification-secure-sensitive-data-office-365-protection/) | Basic troubleshooting | Tailored solutions and guidance | &check; | &check; | &check; |
-| [Hold your own key](https://techcommunity.microsoft.com/t5/microsoft-security-and/azure-information-protection-with-hyok-hold-your-own-key/ba-p/249920) | No support | Tailored solutions and guidance | &check; | &check; | &check; |
 | [Advanced e-Discovery](https://docs.microsoft.com/en-us/microsoft-365/compliance/overview-ediscovery-20?view=o365-worldwide) | No support | Tailored solutions and guidance | &check; | &check; | &check; |
-| [Customer Lockbox](https://docs.microsoft.com/en-us/microsoft-365/compliance/customer-lockbox-requests?view=o365-worldwide) | No support | Tailored solutions and guidance | &check; | &check; | &check; |
-| [Privileged Access Management](https://docs.microsoft.com/en-us/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide) | No support | Tailored solutions and guidance | &check; | &check; | &check; |
 
 
 ### Device Management and Security
 
 
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
-| [Microsoft Intune](https://www.microsoft.com/en-us/microsoft-365/enterprise-mobility-security/microsoft-intune) | Support limited to license purchase and assignment | Rackspace provides guidance, project management, best practices, enablement assistance, and admin and end-user training as needed | &check; | &check; | &check; |
-| [System Center Configuration Manager](https://docs.microsoft.com/en-us/deployoffice/deploy-microsoft-365-apps-configuration-manager) | No support | Help creating and enabling System Center Configuration Manager (SCCM) solutions on workstations | &check; | &check; | &check; |
+| [Microsoft Endpoint Manager](https://learn.microsoft.com/en-us/mem/endpoint-manager-overview) | Support limited to license purchase and assignment | Rackspace provides guidance, project management, best practices, enablement assistance, and admin and end-user training as needed | &check; | &check; | &check; |
+| [Custom App Packaging - Line of business apps, MSI supported. Win32 consulted](https://learn.microsoft.com/en-us/mem/intune/apps/apps-add-office365) | No support | Rackspace provides guidance around packaging and deployment of supported apps. |  | &check; |  |
+| [Custom Script Deployment](https://learn.microsoft.com/en-us/mem/intune/apps/intune-management-extension) | No support | Rackspace provides guidance around the deployment of custom scripts and limited troubleshooting when a script fails to run on an Intune-enrolled device. | &check; | &check; |  |
+| [Integration with Apple Business Manager](https://learn.microsoft.com/en-us/mem/intune/enrollment/tutorial-use-device-enrollment-program-enroll-ios) | No support | Rackspace provides guidance around packaging and deployment of Apple Business Manager. |  | &check; |  |
+| [Enablement of default Configuration policies](https://learn.microsoft.com/en-us/mem/intune/protect/security-baseline-settings-mdm-all?pivots=mdm-november-2021) | No support | Rackspace provides guidance around default baseline settings for Intune enrolled devices. |  | &check; |  |
+| [Microsoft Defender Firewall](https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-windows-firewall-rules-in-intune) | No support | Rackspace provides guidance around Microsoft Defender Firewall settings. |  | &check; |  |
+| [Microsoft Tunnel](https://learn.microsoft.com/en-us/mem/intune/protect/microsoft-tunnel-overview) | No support | Rackspace provides guidance around set up of Microsoft Tunnel. |  | &check; |  |
+| [Graph for Intune](https://learn.microsoft.com/en-us/graph/api/resources/intune-graph-overview?view=graph-rest-1.0) | No support | Rackspace provides guidance around reporting using Microsoft Graph for Intune. |  | &check; |  |
+| [Policy Sets](https://learn.microsoft.com/en-us/mem/intune/fundamentals/policy-sets) | No support | Rackspace provides guidance around reporting using Microsoft Graph for Intune. |  | &check; | &check; |
+| [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/en-us/deployoffice/deploy-microsoft-365-apps-configuration-manager) | No support | Help creating and enabling System Center Configuration Manager (SCCM) solutions on workstations | &check; | &check; | &check; |
+| [Defender for Endpoint](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide) | No support | Enablement assistance and usage | &check; | &check; | &check; |
+| [Device Guard](https://learn.microsoft.com/en-us/windows/security/threat-protection/device-guard/introduction-to-device-guard-virtualization-based-security-and-windows-defender-application-control) | No support | Enablement assistance and usage | &check; | &check; | &check; |
+| [Windows Hello and Credential Guard](https://learn.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-manage) | No support | Enablement assistance and usage | &check; | &check; | &check; |
 
 
 ### Advanced Threat Protection
 
 
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
 | [Safe Links](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/atp-safe-links?view=o365-worldwide) | Basic troubleshooting | Tailored solutions and guidance | &check; | &check; | &check; |
 | [Safe Attachments](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide) | Basic troubleshooting | Tailored solutions and guidance | &check; | &check; | &check; |
 | [Spoof intelligence](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/learn-about-spoof-intelligence?view=o365-worldwide) | Basic troubleshooting | Tailored solutions and guidance | &check; | &check; | &check; |
 | [Quarantine](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/manage-quarantined-messages-and-files?view=o365-worldwide) | Basic troubleshooting | Tailored solutions and guidance | &check; | &check; | &check; |
 | [Advanced anti-phishing capabilities](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?view=o365-worldwide) | Basic troubleshooting | Tailored solutions and guidance | &check; | &check; | &check; |
-
+| [Attack simulator](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/attack-simulation-training-get-started?view=o365-worldwide) | Basic troubleshooting | Tailored solutions and guidance | &check; | &check; | &check; |
 
 ### Microsoft Teams
 
 
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
-| [Display presence status](https://support.microsoft.com/en-us/office/control-access-to-your-presence-information-in-skype-for-business-fea86e34-60cf-4dd0-bfb2-169a42afd92c?ui=en-us&rs=en-us&ad=us) | Basic troubleshooting | Tutorials, customized training, and available admin workshops | &check; | &check; | &check; |
+| [Display presence status](https://support.microsoft.com/en-us/office/control-access-to-your-presence-information-in-skype-for-business-fea86e34-60cf-4dd0-bfb2-169a42afd92c?ui=en-us&rs=en-us&ad=us) | Basic troubleshooting | Tutorials and guidance | &check; | &check; | &check; |
 | [Audio and Audio Conferencing](https://docs.microsoft.com/en-us/microsoftteams/tutorial-audio-conferencing) | Basic troubleshooting | Enablement assistance and usage | &check; | &check; | &check; |
 | [Video](https://support.microsoft.com/en-us/office/video-set-up-audio-and-video-in-skype-for-business-c3cb24f0-e51c-448e-8bf7-b60f85f07be5?ui=en-us&rs=en-us&ad=us) | Basic troubleshooting | Enablement assistance and usage | &check; | &check; | &check; |
-| [File Transfers](https://support.microsoft.com/en-us/office/move-or-copy-files-in-teams-f83ed547-359b-4fc8-bf5a-60467f53dd60?ui=en-us&rs=en-us&ad=us) | Basic troubleshooting | Tutorials, customized training, and available administrator workshops | &check; | &check; | &check; |
 | [Desktop Sharing](https://docs.microsoft.com/en-us/microsoftteams/configure-desktop-sharing) | Basic troubleshooting | Enablement assistance and usage | &check; | &check; | &check; |
 | [Instant Messaging](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/instant-messaging) | Basic troubleshooting | Enablement assistance and usage | &check; | &check; | &check; |
 | [Federated Communication](https://docs.microsoft.com/en-us/MicrosoftTeams/manage-external-access) | Basic troubleshooting | Enablement assistance and usage | &check; | &check; | &check; |
 | [Security and Archiving](https://docs.microsoft.com/en-us/microsoftteams/security-compliance-overview) | Basic troubleshooting | Enablement assistance and usage | &check; | &check; | &check; |
 | [Teams Desktop Client](https://docs.microsoft.com/en-us/microsoftteams/get-clients) | Basic troubleshooting | Tutorials, customized training, available administrator, and end-user workshops. Project management of enablement and testing in a localized customer environment | &check; | &check; | &check; |
-| [Phone System / Voice](https://docs.microsoft.com/en-us/microsoftteams/cloud-voice-landing-page) | No support | Tailored solutions and guidance | &check; | &check; | &check; |
+| [Phone System / Voice (No devices)](https://docs.microsoft.com/en-us/microsoftteams/cloud-voice-landing-page) | No support | Tailored solutions and guidance | &check; | &check; | &check; |
 | [Live Events](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events) | No support | Tailored solutions and guidance | &check; | &check; | &check; |
 | [Teams Policies](https://docs.microsoft.com/en-us/microsoftteams/teams-policies) | No support | Tailored solutions and guidance | &check; | &check; | &check; |
 | [Data loss prevention](https://docs.microsoft.com/en-us/microsoft-365/compliance/dlp-microsoft-teams?view=o365-worldwide) | No support | Tailored solutions and guidance | &check; | &check; | &check; |
 
 
-### Windows Desktop / End-user Computing
-
-
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
-| --- | --- | --- | --- | --- | --- |
-| [Windows Defender Anti-virus](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) | No support | Enablement assistance and usage |&check; | &check; | &check; |
-| [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) | No support | Enablement assistance and usage | &check; | &check; | &check; |
-| [Device Guard](https://docs.microsoft.com/en-us/windows-hardware/drivers/bringup/device-guard-and-credential-guard) | No support | Enablement assistance and usage | &check; | &check; | &check; |
-| [Windows Hello and Credential Guard](https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard) | No support  | Enablement assistance and usage | &check; | &check; | &check; |
-| [Delve](https://support.microsoft.com/en-us/office/what-is-office-delve-1315665a-c6af-4409-a28d-49f8916878ca?ui=en-us&rs=en-us&ad=us) | Basic troubleshooting | Enablement assistance and usage | &check; | &check; | &check; |
-
 ### Microsoft Office Applications
 
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
 | [Out of the Box Setup and Use](https://docs.microsoft.com/en-us/microsoft-365/admin/admin-overview/get-started-with-office-365?redirectSourcePath=%252fen-us%252farticle%252fget-started-with-office-365-for-business-d6466f0d-5d13-464a-adcb-00906ae87029&view=o365-worldwide)  | Installation and activation | Guidance, enablement assistance, troubleshooting, customized training, and workshops for administrators and end-users | &check; | &check; | &check; |
 | [Microsoft Word](https://www.microsoft.com/en-us/microsoft-365/word) | Installation and activation | Guidance, enablement assistance, troubleshooting, customized training, and workshops for administrators and end-users | &check; | &check; |  |
@@ -222,29 +219,23 @@ This article outlines the **Fanatical Experience&trade;** we offer and the **Rac
 ### Power BI
 
 
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
-| [Power BI Premium P1](https://docs.microsoft.com/en-us/power-bi/admin/service-premium-what-is) | Support limited to license purchase and assignment | Support limited to basic connectivity, installation, authentication, and authorization | &check; |  |  |
-| [Power BI Premium P2](https://docs.microsoft.com/en-us/power-bi/admin/service-premium-what-is) | Support limited to license purchase and assignment | Support limited to basic connectivity, installation, authentication, and authorization | &check; |  |  |
-| [Power BI Premium P3](https://docs.microsoft.com/en-us/power-bi/admin/service-premium-what-is) | Support limited to license purchase and assignment | Support limited to basic connectivity, installation, authentication, and authorization | &check; |  |  |
-| [Power BI Pro](https://powerbi.microsoft.com/en-us/power-bi-pro/) | Support for default installation | Support limited to basic connectivity, installation, authentication, and authorization | &check; |  |  |
+| [Power BI](https://docs.microsoft.com/en-us/power-bi/admin/service-premium-what-is) | Support limited to license purchase, assignment, and default installation | Support limited to basic connectivity, installation, authentication, and authorization | &check; |  |  |
 
 
 ### Microsoft Project
 
 
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
 | [Project Online](https://www.microsoft.com/en-us/microsoft-365/project/compare-microsoft-project-management-software?tab=1) | Support limited to license purchase and assignment | Support limited to basic connectivity, installation, authentication, and authorization | &check; |  |  |
-| [Project Online Essentials](https://www.microsoft.com/en-us/microsoft-365/project/compare-microsoft-project-management-software) | Support limited to license purchase and assignment | Support limited to basic connectivity, installation, authentication, and authorization | &check; |  |  |
-| [Project Online Premium](https://www.microsoft.com/en-us/microsoft-365/project/project-plan-5?activetab=pivot%3aoverviewtab) | Support for default installation | Support limited to basic connectivity, installation, authentication, and authorization | &check; |  |  |
-| [Project Online Professional](https://www.microsoft.com/en-us/microsoft-365/project/project-plan-3?activetab=pivot%3aoverviewtab) | Support for default installation | Support limited to basic connectivity, installation, authentication, and authorization | &check; |  |  |
 
 
 ### Power Platform
 
 
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
 | [Power Apps](https://docs.microsoft.com/en-us/power-platform/admin/pricing-billing-skus) | Support limited to license purchase and assignment | Guidance and training based on best practices.  Limited support on App management | &check; | &check; |  |
 | [Power Automate](https://flow.microsoft.com/en-us/) | Support limited to license purchase and assignment | Guidance and training based on best practices | &check; | &check; | &check; |
@@ -253,29 +244,21 @@ This article outlines the **Fanatical Experience&trade;** we offer and the **Rac
 ### Microsoft 365 Addons
 
 
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
 | [Visio Online Plan 1](https://www.microsoft.com/en-us/microsoft-365/visio/visio-plan-1?activetab=pivot%3aoverviewtab) | Support for default installation | Support limited to basic connectivity, installation, authentication/authorization | &check; |   |   |
 | [Stream](https://docs.microsoft.com/en-us/stream/) | Support limited to license purchase and assignment | Guidance and training based on best practices | &check; | &check; | &check; |
 | [Yammer](https://www.microsoft.com/en-us/microsoft-365/yammer/yammer-overview) | Support limited to license purchase and assignment | Guidance and training based on best practices | &check; | &check; | &check; |
 | [Dynamics](https://dynamics.microsoft.com/en-us/) | Support with license assignment, authentication | Support with license assignment, authentication | &check; |   |   |
-| [Shifts](https://docs.microsoft.com/en-us/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | Support limited to license purchase and assignment | Guidance and training based on best practices | &check; | &check; |   |
+| [Shifts](https://docs.microsoft.com/en-us/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | Support limited to license purchase and assignment | Guidance and training based on best practices | &check; |  |   |
 | [Planner](https://www.microsoft.com/en-us/microsoft-365/business/task-management-software) | No support | Support limited to basic connectivity, installation, authentication, and authorization | &check; |   |   |
 | [Whiteboard](https://www.microsoft.com/en-us/microsoft-365/microsoft-whiteboard/digital-whiteboard-app) | No support | Support limited to basic connectivity, installation, authentication, and authorization | &check; |   |   |
-| [Forms](https://support.microsoft.com/en-us/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d) | No support | Support limited to basic connectivity, installation, authentication, and authorization | &check; |   |   |
+| [Forms](https://support.microsoft.com/en-us/office/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d) | No support | Support limited to basic connectivity, installation, authentication, and authorization | &check; | &check;   | &check;   |
 
-### Windows Virtual Desktop
-
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
-| --- | --- | --- | --- | --- | --- |
-| Host pool configuration | No support | Assistance with host pool strategy, design, and configuration | &check; | &check; | &check; |
-| Host pool management | No support | Assistance with host pool deployment issues. Guidance around best practices for host pool management | &check; | &check; | &check; |
-| Golden image creation | No support | Guidance for golden image creation, troubleshooting image creation issues, and software configuration incompatibilities | &check; | &check; |&check; |
-| FSLogix configuration | No support | New FSLogix configurations, troubleshooting User Profile store issues, guidance on future deployments | &check; | &check; | &check; |
 
 ### Software Subscriptions
 
-| **Feature** | **Fanatical Support** | **Rackspace Application Services** | **Troubleshoot** | **Consult** | **Enable** |
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
 | SQL Server Enterprise | Support limited to license purchase and obtaining product key | No support |   |   |   |
 | SQL Server Standard | Support limited to license purchase and obtaining product key | No support |   |   |   |
@@ -287,7 +270,7 @@ This article outlines the **Fanatical Experience&trade;** we offer and the **Rac
 
 ### Perpetual Software Licenses
 
-| Feature | Fanatical Support | Rackspace Application Services | Troubleshoot | Consult | Enable |
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
 | Access | Support limited to license purchase and obtaining product key | No support |   |   |   |
 | BizTalk Server | Support limited to license purchase and obtaining product key | No support |   |   |   |

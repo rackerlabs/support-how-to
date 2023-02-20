@@ -3,8 +3,8 @@ title: Account Management
 type: product
 created_date: '2019-05-16'
 created_by: Stephanie Fillmon
-last_modified_date: '2019-05-16'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2022-11-04'
+last_modified_by: Asmita Nakwa
 permalink: account-management
 product: Account Management
 product_url: account-management
@@ -16,10 +16,10 @@ managing invoices, and more.
 
 ### Account Management
 
-- [Change an account's company name](/support/how-to/change-account-company-name)
+- [Change your Account Company Name](/support/how-to/change-account-company-name)
 - [Change account information](/support/how-to/change-account-information/)
-- [Change the account owner](/support/how-to/change-account-owner/)
-- [Change the account's primary contact](/support/how-to/change-to-new-primary-contact/)
+- [Change your Cloud Account Owner](/support/how-to/change-account-owner/)
+- [Update your Account’s Primary Contact](/support/how-to/change-to-new-primary-contact/)
 - [Sign up for Rackspace services](/support/how-to/sign-up-for-rackspace-services/)
 
 ### Billing
