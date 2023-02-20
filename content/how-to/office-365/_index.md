@@ -18,8 +18,10 @@ The following support articles help you get start using Office 365:
 - [Set up Office 365](/support/how-to/set-up-office-365)
 - [Add an Office 365 license](/support/how-to/add-an-office-365-license)
 - [Add a domain in Office 365](/support/how-to/add-a-domain-in-office-365)
+- [How to set up O365 via your Cloud Office Control Panel](/support/how-to/how-to-set-up-O365-via-your-cloud-office-control-panel)
 - [Upgrade Rackspace Email and Microsoft Exchange to Office 365 FAQ](/support/how-to/upgrade-rackspace-email-and-microsoft-exchange-to-office-365-faq).
 - [Log in to the archive manager for Office 365](/support/how-to/log-in-to-the-archive-manager-for-office-365)
+- [How to import PST files to Microsoft 365](/support/how-to/import_pstfiles_to-microsoft365)
 
 ### Other support Resources
 

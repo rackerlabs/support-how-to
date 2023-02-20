@@ -71,7 +71,7 @@ Locate the appropriate KMS server in the following list:
 
 3. Set the KMS manually within the registry:
 
-        slmgr.vbs /skms kms-server-from-table-above:1688
+        slmgr.vbs /skms kms.rackspace.com:1688
 
 4. Request activation from the KMS:
 
