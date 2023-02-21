@@ -5,8 +5,8 @@ title: Cloud Backup system actions
 type: article
 created_date: '2012-08-22'
 created_by: David Hendler
-last_modified_date: '2018-10-24'
-last_modified_by: Kate Dougherty
+last_modified_date: '2022-08-09'
+last_modified_by: Rahul Gupta
 product: Cloud Backup
 product_url: cloud-backup
 ---
@@ -28,7 +28,7 @@ You can access the **Actions** menu from the gear widget next to the server name
 The **Actions** menu offers the following actions:
 
 -   Create Backup
--   Restore Backup
+-   Restore Snapshot
 -   Enable Encryption
 -   Cleanup
 -   Disable
@@ -40,9 +40,7 @@ Clicking **Create Backup** from the **Actions** menu is the same as clicking **C
 
 **Note:** You cannot back up or restore a system that is offline. If the system status displays ``offline`` and your server is active, contact support.
 
-### Restore Backup
-
-Clicking **Restore Backup** from the **Actions** menu is the same as clicking **Restore Backup** from the gear icon on the **Cloud Backups Systems** page. For complete instructions, see the "Restore Backup" section in the [Cloud Backup actions](/support/how-to/rackspace-cloud-backup-backup-actions) article.
+### Restore Snapshot
 
 **Note:** You cannot back up or restore a system with an offline status. If the system status displays ``offline`` and your server is active, contact support.
 
