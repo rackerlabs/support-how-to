@@ -5,7 +5,7 @@ title: Known Issues and Suggested Workarounds for RBAC
 type: article
 created_date: '2013-08-16'
 created_by: Renee Rendon
-last_modified_date: '2023-02-21'
+last_modified_date: '2023-02-23'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -21,14 +21,13 @@ This article describes known issues with Role-Based Access Control (RBAC). We ar
 
    <img width="265" alt="Displays Cloud access permissions and types of services" src="/support/how-to/known-issues-and-suggested-workarounds-role-based-access-control-rbac/customrole.png">
 
-The Custom role enables you to assign per-product access. After a user is assigned the Custom role, the account owner cannot change this role to a multiproduct role (All Products or No Product Access) by using the Cloud Control Panel.
+The Custom role enables you to assign access per-product. After a user is assigned the Custom role, the account owner cannot change this role to a multiproduct role (All Products or No Product Access).
 
 **Dedicated Users**
 
    <img width="883" alt="Assign required permissions to user" src="/support/how-to/known-issues-and-suggested-workarounds-role-based-access-control-rbac/customrole_dedicated.png">
 
-For dedicated users there are two types of permissions such as direct and effective permissions. By selecting None, View, Edit, or Admin under the direct permission column, the user, user group, or group membership receives the required permissions.
-You can give each user their own access by using the direct permissions. The account owner cannot modify an admin role once it has been assigned to a user.
+For dedicated users there are two types of permissions such as direct and effective permissions. The User, User Group, or Group Membership can receive the required permissions by selecting None, View, Edit, or Admin under the direct permission column.
 
 #### **Workaround**
 
