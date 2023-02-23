@@ -5,8 +5,8 @@ title: Role-Based Access Control (RBAC) permissions matrix for Cloud Hosting
 type: article
 created_date: '2013-06-17'
 created_by: Renee Rendon
-last_modified_date: '2020-10-23'
-last_modified_by: Rose Morales
+last_modified_date: '2023-02-23'
+last_modified_by: Asmita Nakwa
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -21,9 +21,9 @@ The RBAC permissions matrix displays the type of product roles that are availabl
 
 RackConnect is not RBAC-enabled.
 
-### Product roles
+### Product Roles
 
-Product | Admin | Creator | Observer
+**Product** | **Admin** | **Creator** | **Observer**
 --- | --- | --- | ---
 [Cloud Servers](/support/how-to/permissions-matrix-for-next-generation-cloud-servers) | Yes | Yes | Yes
 [Cloud Files](/support/how-to/permissions-matrix-for-cloud-files) | Yes | No | Yes
@@ -44,9 +44,9 @@ Product | Admin | Creator | Observer
 [Cloud Feeds](/support/how-to/detailed-permissions-matrix-for-cloud-feeds) | No | No | Yes
 [Cloud Metrics](/support/how-to/detailed-permissions-matrix-for-cloud-metrics) | Yes | Yes | Yes
 
-### Account access
+### Account Access
 
-Account service | Admin | Observer
+**Account service** | **Admin** | **Observer**
 --------------- | --- | ---
 [Billing services](/support/how-to/detailed-permissions-matrix-for-billing-services) | Yes | Yes
 [Payment services](/support/how-to/detailed-permissions-matrix-for-billing-services) | Yes | Yes
