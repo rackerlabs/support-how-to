@@ -5,7 +5,7 @@ title: Use Role Based Access Control (RBAC)
 type: article
 created_date: '2013-06-28'
 created_by: Renee Rendon
-last_modified_date: '2022-11-07'
+last_modified_date: '2023-02-23'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -43,7 +43,7 @@ To create a new user, use the following steps:
 
 <img width="945" alt="Click Create user from the page User & Permissions" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac2.png">
 
-**Step 4.** Enter information in the **Create a User** section as shown in below image.
+**Step 4.** Enter information in the **Create a User** section.
 
 <img width="314" alt="Update the information for user" src="/support/how-to/use-role-based-access-control-rbac/multi_account_rbac3.png">
 

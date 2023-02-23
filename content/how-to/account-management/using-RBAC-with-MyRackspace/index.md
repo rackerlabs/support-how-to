@@ -5,7 +5,7 @@ title: Using RBAC with MyRackspace
 type: article
 created_date: '2022-07-28'
 created_by: Asmita Nakwa
-last_modified_date: '2022-11-11'
+last_modified_date: '2023-02-23'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -43,7 +43,7 @@ To create a new user, follow below steps:
 
 <img width="483" alt="Select create new user" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC3.png">
 
-**Step 4.** Enter information in the **Create a User** section as shown in below image.
+**Step 4.** Enter information in the **Create a User** section.
 
 <img width="793" alt="Update the information for new user" src="/support/how-to/using-rbac-with-myrackspace/myrack-account-RBAC4.png">
 

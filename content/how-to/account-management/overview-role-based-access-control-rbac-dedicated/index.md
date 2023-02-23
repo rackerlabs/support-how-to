@@ -5,7 +5,7 @@ title: Overview Role Based Access Control for Dedicated
 type: article
 created_date: '2022-08-25'
 created_by: Asmita Nakwa
-last_modified_date: '2022-11-07'
+last_modified_date: '2023-02-23'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -69,12 +69,14 @@ Two types of permissions are available for Rackspace Dedicated hosting accounts:
 To give a user account permissions without product permissions, use the following steps for dedicated users:
 
 **Step 1.** Log in to the [Rackspace Dedicated](https://login.rackspace.com) as shown in below image.
+
 <img width="533" alt="Enter credentials of dedicated users" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac1.png">
 
 **Step 2.** In the top navigation bar, click **Account > User Management**.
 <img width="379" alt="Select user management from Account tab" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac2.png"> 
 
 **Step 3.** In the top navigation bar, click **Account > Permissions**.
+
 <img width="689" alt="Select permissions under Account tab" src="/support/how-to/overview-role-based-access-control-rbac-dedicated/rbac6.png">
 
 **Note:** You can give a user a combination of direct and effective permissions. MyRackspace uses the highest level of permission. 

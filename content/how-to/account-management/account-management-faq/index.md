@@ -5,7 +5,7 @@ title: Account Management FAQ
 type: article
 created_date: '2019-05-16'
 created_by: Stephanie Fillmon
-last_modified_date: '2020-09-22'
+last_modified_date: '2023-02-23'
 last_modified_by: Asmita Nakwa
 product: Account Management
 product_url: account-management
@@ -13,7 +13,7 @@ product_url: account-management
 
 ### Access Control
 
-{{< accordion title="What would it cost to choose RBAC?" col="in" href="accordion16" >}}
+{{< accordion title="What is the cost to opt in to RBAC?" col="in" href="accordion16" >}}
 
 RBAC is a no-cost feature which is available to selected public cloud services with an API.
 {{</ accordion >}}
@@ -28,7 +28,7 @@ Customers can opt out by simply removing the account users.
 Yes, RBAC is available to all Rackspace customers.
 {{</ accordion >}}
 
-{{< accordion title="When I add a user login credential to an existing contact, can I configure custom role assignments?" col="in" href="accordion19" >}}
+{{< accordion title="When I add a user login to an existing contact, can I configure custom role assignments?" col="in" href="accordion19" >}}
 
 Yes, you can. For instructions, see [Use Role-Based Access Control (RBAC)](/support/how-to/use-role-based-access-control-rbac).
 {{</ accordion >}}
