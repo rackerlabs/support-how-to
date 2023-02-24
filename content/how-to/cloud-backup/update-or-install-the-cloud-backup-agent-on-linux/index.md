@@ -213,6 +213,6 @@ updater, or it eventually re-enables the agent.
 
 For more troubleshooting tips and FAQs, see the following articles:
 
-- [Cloud Backup Troubleshooting](/how-to/cloud-backup-troubleshooting/)
-- [Cloud Backup FAQs](/how-to/cloud-backup-faq/).
+- [Cloud Backup Troubleshooting](/support/how-to/cloud-backup-troubleshooting/)
+- [Cloud Backup FAQs](/support/how-to/cloud-backup-faq/).
 
