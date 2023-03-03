@@ -37,8 +37,8 @@ No, the price you pay will remain the same.
 - Folder cleanup:
     - Starting August 2022 we will start implementing the new folder clean up settings. 
     - The new setting for spam/trash is 30 days. You will not be able to change this setting. 
+    - The settings for "total messages" will be removed.
     - The settings for inbox, draft, and sent folders will be removed.
-    - The settings for "total messages" will be removed. 
     
         Deployment Plan:
             
@@ -47,14 +47,14 @@ No, the price you pay will remain the same.
         - (August 2022) New logic will prevent exceeding the 30 day limit on existing domains/mailboxes. 
             
         - (August 2022) Apply the new spam/trash limits to all the domains/mailboxes that are under the 30 day limit. Once the new settings are applied you will not be able to change them.
-        - (November 1st 2022) Change the spam/trash settings for all the domains/mailboxes that are over the 30 day limit. Note: The Admin was notified before this change (via ticket) if the account has mailboxes with spam/trash folders over the 30 day limit. 
+        - (March 2023) Change the spam/trash settings for all the domains/mailboxes that are over the 30 day limit. Note: The Admin was notified before this change (via ticket) if the account has mailboxes with spam/trash folders over the 30 day limit. 
         
 - Allow/Block Lists:
     - Domain level configured via Control Panel: 
         - Originally we planned on removing the Administrators ability to configure the domain level allow/blocklist via the Control Panel. We took your feedback into consideration and found a way to keep this feature. 
-    - App Suite:
-	   - Limits of 250 entries will be applied to the Allow list and the Blocklist independently. 
-	   - IP addresses and domains will no longer be a valid list entry on the Allow list or Blocklist.
+    - Mailbox level:
+	   - Limits of 250 entries will be applied to the Safelist and Blocklist independently. 
+	   - IP addresses will no longer be a valid list entry on the Safelist or Blocklist.
 - Mobilesync: Will be replaced by support for open standards (Caldav, Carddav, IMAP,etc...) 
 - Webmail sites: May require DNS updates. Details will be communicated in advance of the change.
 
@@ -76,20 +76,15 @@ No, the price you pay will remain the same.
 	- If BCC is configured for a domain, it will remain until you disable it, or we start routing mail through the new infrastructure.
 	- BCC will be removed for all domains when we start routing mail through the new infrastructure.
 - Spam Settings
-	- Starting January 3rd 2023 (Originally planned for June 2022), Administrators will no longer be able to set spam settings. 
-	- The new spam delivery behavior will deliver spam messages to the recipient's spam/junk folder. 
-    - This specific change applies to both Rackspace Email and Hosted Exchange.
+	- Starting April 2023, Administrators will no longer be able to set spam settings.
+    - The “Off” and “Exclusive” Spam Filtering options will no longer be available. 
+    - All inbound mail will be scaned. Anything that is classified as spam will be delivered to the Spam Folder. 
+
 - Admin Reply/Forward Control
 	- Starting May 2022, Administrators will no longer have access to configure Out of Office auto-reply or mail forwarding via the Control Panel. 
 
 ## What about Rackspace Email Plus? 
 Rackspace Email Plus will continue to exist, and your files will be migrated with your mailbox. 
-
-## Are Hosted Exchange mailboxes migrating? 
-No, Hosted Exchange mailboxes will not migrate. 
-
-## I have Rackspace Email and Hosted Exchange on the same domain. Will this work after the migration? 
-Yes, hybrid domains will still work after the migration. 
 
 ## Do I need to change my domains DNS settings (MX,SPF,DKIM)? 
 No, the settings for MX,SPF,and DKIM will remain the same. 
