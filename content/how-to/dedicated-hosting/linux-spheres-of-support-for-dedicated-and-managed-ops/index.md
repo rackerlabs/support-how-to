@@ -15,27 +15,27 @@ This article outlines our support of software and server configurations for mach
 
 ### Operating systems
 
-The following operating systems are supported for both Dedicated and Managed Operations:
+Operating Systems and Platform support Matrix:
 
-|   | Dedicated | Managed Operations | Fanatical AWS | Microsoft Azure |
-| --- | --- | --- | --- | --- |
-| AlmaLinux&reg; 9 | tba | tba | tba | tba |
-| AlmaLinux 8 | Yes | Yes | Yes | Yes |
-| Amazon&reg; Linux 2 | - | - | Yes | - |
-| CentOS&reg; 7 | Yes | Yes | Yes | Yes |
-| Debian&reg; 11 (Bullseye) | - | Yes | Yes | Yes |
-| Debian 10 (Buster) | - | Yes | Yes | Yes |
-| Oracle&reg; Linux 9 | tba | - | tba | tba |
-| Oracle Linux 8 | Yes | - | Yes | Yes |
-| Oracle Linux 7 | Yes | - | Yes | Yes |
-| Red Hat&reg; Enterprise Linux&reg; 9 | tba | tba | tba | tba |
-| Red Hat Enterprise Linux 8 | Yes | Yes | Yes | Yes |
-| Red Hat Enterprise Linux 7 | Yes | Yes | Yes | Yes |
-| Rocky Linux&reg; 9 | tba | tba | tba | tba |
-| Rocky Linux 8 | Yes | Yes | Yes | Yes |
-| Ubuntu&reg; 22.04 LTS (Jammy Jellyfish) | tba | tba | tba | tba |
-| Ubuntu 20.04 LTS (Focal Fossa) | Yes | Yes | Yes | Yes |
-| Ubuntu 18.04 LTS (Bionic Beaver) | Yes | Yes | Yes | Yes |
+|   | Physical Servers | Hosted VMWare | Rackspace Openstack Public Cloud | Rackspace Services for VMWare Cloud & Rackspace Private Cloud VMware | AWS | Azure |
+| --- | --- | --- | --- | --- | --- | --- |
+| AlmaLinux&reg; 9 | tba | tba | tba | Yes | Yes | Yes |
+| AlmaLinux 8 | Yes | Yes | Yes | Yes | Yes | Yes |
+| Amazon&reg; Linux 2 | - | - | - | - | Yes | - |
+| CentOS&reg; 7 | Yes | Yes | Yes | Yes | Yes | Yes |
+| Debian&reg; 11 (Bullseye) | - | - | Yes | Yes | Yes | Yes |
+| Debian 10 (Buster) | - | - | Yes | Yes | Yes | Yes |
+| Oracle&reg; Linux 9 | tba | tba | - | Yes | Yes | Yes |
+| Oracle Linux 8 | Yes | Yes | - | Yes | Yes | Yes |
+| Oracle Linux 7 | Yes | Yes | - | Yes | Yes | Yes |
+| Red Hat&reg; Enterprise Linux&reg; 9 | tba | tba | tba | Yes | Yes | Yes |
+| Red Hat Enterprise Linux 8 | Yes | Yes | Yes | Yes | Yes | Yes |
+| Red Hat Enterprise Linux 7 | Yes | Yes | Yes | Yes | Yes | Yes |
+| Rocky Linux&reg; 9 | tba | tba | tba | Yes | Yes | Yes |
+| Rocky Linux 8 | Yes | Yes | Yes | Yes | Yes | Yes |
+| Ubuntu&reg; 22.04 LTS (Jammy Jellyfish) | tba | tba | tba | Yes | Yes | Yes |
+| Ubuntu 20.04 LTS (Focal Fossa) | Yes | Yes | Yes | Yes | Yes | Yes |
+| Ubuntu 18.04 LTS (Bionic Beaver) | Yes | Yes | Yes | Yes | Yes | Yes |
 
 **Note**: Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support
 dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end
