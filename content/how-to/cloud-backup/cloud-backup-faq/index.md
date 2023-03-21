@@ -253,10 +253,14 @@ account or **Administrative** access to Cloud Files for your sub-user account.
 
 {{< accordion title="What does Cloud Backup cost?" col="in" href="accordion17" >}}
 
+There are two costs. One is a Backup License Fee and other is cost of Storage
+which is for the Cloud File it uses to store customer data.
 With advanced deduplication and compression capabilities built-in,
 Cloud Backup can save you money by using less storage.
+
 Standard rates for Cloud Files storage fees apply. For current storage
-fees, see the [Cloud Files storage fees](https://www.rackspace.com/cloud/cloud_hosting_products/files/pricing/).
+fees, please either reach out to Rackspace Sales team or Account Manager
+or you can use the "Biiling" option on your Rackspace Cloud account page.
 {{< /accordion >}}
 
 {{< accordion title="Why are the files that are being modified during backup missing or corrupted?" col="in" href="accordion18" >}}
