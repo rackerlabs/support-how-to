@@ -5,8 +5,8 @@ title: Manually enable automatic updates on Red Hat Enterprise Linux and CentOS 
 type: article
 created_date: '2018-11-06'
 created_by: Rackspace Support
-last_modified_date: '2018-11-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2023-03-21'
+last_modified_by: Pravanjan Hota
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -54,6 +54,7 @@ RHEL 6 and CentOS 6 Rackspace public cloud servers:
        # Don't install, just check and download (valid: yes|no)
        # Implies CHECK_ONLY=yes (gotta check first to see what to download)
        DOWNLOAD_ONLY=no
+       DAYS_OF_WEEK="1"      (sun = 0, sat = 6)
 
 3. *(Optional)* To set up notifications for automatic package updates, such
    as time of installation, packages installed, and installation errors,
@@ -75,10 +76,7 @@ RHEL 6 and CentOS 6 Rackspace public cloud servers:
    After you have saved the file, the following message displays stating that
    the file was properly written:
 
-       APT::Periodic::Update-Package_Lists "1";
-       APT::Periodic::Download-Upgradable-Packages "1";
-       APT::Periodic::Unattended-Upgrade "1";
-       APT::Periodic::AutocleanInterval "14";
+       "/etc/yum/yum-cron.conf" 81L, 2620C written
 
 5. Start the `yum-cron` service by running the following command:
 
@@ -88,6 +86,34 @@ RHEL 6 and CentOS 6 Rackspace public cloud servers:
    command:
 
        $ chkconfig yum-cron on
+
+7. Sometimes, you may need to maintain the version of a package and not update
+   it, due to compatibility issues that may arise with other applications that
+   depend on the package.
+
+   Here, We take an example of 2 packages -- mysql and php.
+
+   Edit the `yum-cron.conf` file:
+
+       $ vi /etc/yum/yum-cron.conf
+
+
+   At the bottom, in the [base] section, append a line with the `exclude`
+   parameter and define the packages you want to exclude from updating.
+
+       exclude = mysql* php*
+
+   Your configuration should now look as shown below,
+
+       ```
+       [base]
+       exclude = mysql* php*
+       ```
+
+   Restart yum-cron to load the changes made
+
+       $ /etc/inid.d/yum-cron restart
+
 
 ### RHEL 7 and CentOS 7
 
@@ -196,3 +222,6 @@ RHEL 7 and CentOS 7 Rackspace public cloud servers:
    following command to enable it:
 
        $ systemctl enable yum-cron
+
+8. If you need to set up package update exclusions, follow similarly as step 7
+   mentioned above in RHEL 5/6 section.
