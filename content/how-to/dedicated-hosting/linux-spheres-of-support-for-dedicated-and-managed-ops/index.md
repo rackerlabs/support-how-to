@@ -21,7 +21,8 @@ Operating Systems and Platform support Matrix:
 | --- | --- | --- | --- | --- | --- | --- |
 | AlmaLinux&reg; 9 | tba | tba | tba | Yes | Yes | Yes |
 | AlmaLinux 8 | Yes | Yes | Yes | Yes | Yes | Yes |
-| Amazon&reg; Linux 2 | - | - | - | - | Yes | - |
+| Amazon&reg; Linux 2023 | - | - | - | - | Yes | - |
+| Amazon Linux 2 | - | - | - | - | Yes | - |
 | CentOS&reg; 7 | Yes | Yes | Yes | Yes | Yes | Yes |
 | Debian&reg; 11 (Bullseye) | - | - | Yes | Yes | Yes | Yes |
 | Debian 10 (Buster) | - | - | Yes | Yes | Yes | Yes |
