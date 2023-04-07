@@ -75,11 +75,6 @@ RHEL 6 and CentOS 6 Rackspace public cloud servers:
    If you are using `vim` to edit the configuration file, press **esc** and
    then enter **:wq** to save any changes.
 
-   After you have saved the file, the following message displays stating that
-   the file was properly written:
-
-       "/etc/yum/yum-cron.conf" 81L, 2620C written
-
 5. Start the `yum-cron` service by running the following command:
 
        $ /etc/inid.d/yum-cron start
@@ -104,9 +99,10 @@ RHEL 7 and CentOS 7 Rackspace public cloud servers:
 
        $ yum -y install yum-cron
 
-2. To view the `yum-cron` configuration file, use the following command:
+2. To view the `yum-cron` configuration file(It is the default config file
+   used by the `yum-cron` script), use the following command:
 
-       $ vi /etc/sysconfig/yum-cron
+       $ vi /etc/yum/yum-cron.conf
 
    You can also open the file in any text editor.
 
@@ -207,11 +203,12 @@ RHEL 7 and CentOS 7 Rackspace public cloud servers:
 9. Sometimes, you may need to maintain the version of a package and not update
    it, due to compatibility issues that may arise with other applications that
    depend on the package.
+   Also, there is one more file you can use `yum-cron-hourly.conf`
+   under `/etc/yum` directory for slicing yum works based on your need.
 
-   Here, We take an example of 2 packages -- mysql and php.
+   Here, We take an example of 2 packages to exclude: mysql and php.
 
-   Edit the `yum-cron.conf` file and `yum-cron-hourly.conf` under `/etc/yum` directory.
-   Exammple settings in `yum-cron.conf`:
+   Edit the `yum-cron.conf` file.
 
        $ vi /etc/yum/yum-cron.conf
 
@@ -226,8 +223,8 @@ RHEL 7 and CentOS 7 Rackspace public cloud servers:
        [base]
        exclude = mysql* php*
 
-   Do it similarly in `yum-cron-hourly.conf` file also.
-   And then restart the yum-cron service.
+   Do it similarly in `yum-cron-hourly.conf` file also if you are using.
+   And then restart the yum-cron service after finishing the edit on both files.
 
        $ systemctl start yum-cron
 
