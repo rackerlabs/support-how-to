@@ -15,7 +15,6 @@ Please note, the spheres of support differ by product. Any request for services 
 
 
 <p style="text-align: center;"><b>Rackspace Block Storage</b></p>
-
 |                     | **Supported**                                            | **Unsupported**                                    |
 | ------------------- | -------------------------------------------------------- | -------------------------------------------------- |
 | **Protocols**       | FC                                                       | iSCI                                               |
