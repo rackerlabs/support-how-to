@@ -14,7 +14,8 @@ The following tables delineates what managed services are in scope for each of t
 Please note, the spheres of support differ by product. Any request for services beyond those marked in scope would command an additional charge at Rackspace then-current rates for professional services, pending availability.
 
 
-<p style="text-align: center;"><b>Rackspace Block Storage</b></p>
+<p style="text-align: center; font-size: 16px; font-weight: 600;">Rackspace Block Storage</p>
+
 |                     | **Supported**                                            | **Unsupported**                                    |
 | ------------------- | -------------------------------------------------------- | -------------------------------------------------- |
 | **Protocols**       | FC                                                       | iSCI                                               |
