@@ -198,6 +198,7 @@ Please note, the spheres of support differ by product. Any request for services 
 
 <p style="text-align: center; font-size: 16px; font-weight: 600; margin-bottom:4px; margin-top:40px;">Unified Data Storage - Dedicated SAN</p>
 <p style="text-align: center; font-size: 16px; font-weight: 600; margin-bottom:4px;">Dell Unity XT</p>
+
 |                     | **Supported**                                                      | **Unsupported**             |
 | ------------------- | ------------------------------------------------------------------ | --------------------------- |
 | **Protocols**       | FC                                                                 | iSCSI                       |
@@ -244,6 +245,7 @@ Please note, the spheres of support differ by product. Any request for services 
 
 
 <p style="text-align: center; font-size: 16px; font-weight: 600; margin-bottom:4px; margin-top:40px;">Dedicated Object Storage (Dell ECS)</p>
+
 |                     | **Supported**                                                      | **Unsupported**                              |
 | ------------------- | ------------------------------------------------------------------ | -------------------------------------------- |
 | **Protocols**       | S3                                                                 |                                              |
