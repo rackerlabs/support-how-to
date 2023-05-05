@@ -9,14 +9,12 @@ product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-# Rackspace Private Cloud Storage Spheres of Support 
-
 The following tables delineates what managed services are in scope for each of the storage services governed by the Dedicated Hosting Product terms found here: [https://www.rackspace.com/information/legal/DedicatedHostingTerms](https://www.rackspace.com/information/legal/DedicatedHostingTerms).
 
 Please note, the spheres of support differ by product. Any request for services beyond those marked in scope would command an additional charge at Rackspace then-current rates for professional services, pending availability.
 
-**Rackspace Block Storage**
 
+## **Rackspace Block Storage**
 |                     | **Supported**                                            | **Unsupported**                                    |
 | ------------------- | -------------------------------------------------------- | -------------------------------------------------- |
 | **Protocols**       | FC                                                       | iSCI                                               |
@@ -49,11 +47,9 @@ Please note, the spheres of support differ by product. Any request for services 
 | **Maintenance**     | Rackspace change management (managed, defined, executed) |                                                    |
 |                     | Fabric expansion                                         |                                                    |
 
-**Unified Data Storage – Dedicated NAS**
 
-**Dell Isilon/PowerScale, NetApp FAS/AFF**
- Outer pipes  Cell padding 
-No sorting
+## **Unified Data Storage – Dedicated NAS**
+## **Dell Isilon/PowerScale, NetApp FAS/AFF**
 |                     | **Supported**                                             | **Unsupported**                                                              |
 | ------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | **Protocols**       | NFS                                                       | FCOE                                                                         |
@@ -102,7 +98,8 @@ No sorting
 |                     | Software patches                                          |                                                                              |
 |                     | Hardware driver or firmware updates                       |                                                                              |
 
-**Rackspace Object Storage**
+
+## **Rackspace Object Storage**
 |                     | **Supported**                                                    | **Unsupported**                                        |
 | ------------------- | ---------------------------------------------------------------- | ------------------------------------------------------ |
 | **Protocols**       | S3                                                               |                                                        |
@@ -134,8 +131,9 @@ No sorting
 |                     |  firmware updates                                                |                                                        |
 |                     | Xdoctor & Service Console updates                                |                                                        |
 
-**Unified Data Storage – Dedicated NAS**
-**Dell Isilon/PowerScale, NetApp FAS/AFF**
+
+## **Unified Data Storage – Dedicated NAS**
+## **Dell Isilon/PowerScale, NetApp FAS/AFF**
 |                     | **Supported**                                                 | **Unsupported**                                   |
 | ------------------- | ------------------------------------------------------------- | ------------------------------------------------- |
 | **Protocols**       | NFS                                                           | FCOE                                              |
@@ -193,8 +191,9 @@ No sorting
 |                     | Hardware driver or firmware updates                           |                                                   |
 |                     | Shelf expansions/additions                                    |                                                   |
 
-**Unified Data Storage - Dedicated SAN**
-**Dell Unity XT**
+
+## **Unified Data Storage - Dedicated SAN**
+## **Dell Unity XT**
 |                     | **Supported**                                                      | **Unsupported**             |
 | ------------------- | ------------------------------------------------------------------ | --------------------------- |
 | **Protocols**       | FC                                                                 | iSCSI                       |
@@ -239,7 +238,8 @@ No sorting
 |                     | Fabric expansion                                                   |                             |
 |                     | Storage expansion                                                  |                             |
 
-**Dedicated Object Storage (Dell ECS)**
+
+## **Dedicated Object Storage (Dell ECS)**
 |                     | **Supported**                                                      | **Unsupported**                              |
 | ------------------- | ------------------------------------------------------------------ | -------------------------------------------- |
 | **Protocols**       | S3                                                                 |                                              |
