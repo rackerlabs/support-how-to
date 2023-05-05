@@ -14,7 +14,7 @@ The following tables delineates what managed services are in scope for each of t
 Please note, the spheres of support differ by product. Any request for services beyond those marked in scope would command an additional charge at Rackspace then-current rates for professional services, pending availability.
 
 
-<p style="text-align: center; font-size: 16px; font-weight: 600;">Rackspace Block Storage</p>
+<p style="text-align: center; font-size: 16px; font-weight: 600; margin-bottom:4px; margin-top:40px;">Rackspace Block Storage</p>
 
 |                     | **Supported**                                            | **Unsupported**                                    |
 | ------------------- | -------------------------------------------------------- | -------------------------------------------------- |
@@ -49,8 +49,8 @@ Please note, the spheres of support differ by product. Any request for services 
 |                     | Fabric expansion                                         |                                                    |
 
 
-<p style="text-align: center; font-size: 16px; font-weight: 600;">Unified Data Storage – Dedicated NAS</p>
-<p style="text-align: center; font-size: 16px; font-weight: 600;">Dell Isilon/PowerScale, NetApp FAS/AFF</p>
+<p style="text-align: center; font-size: 16px; font-weight: 600; margin-bottom:4px; margin-top:40px;">Unified Data Storage – Dedicated NAS</p>
+<p style="text-align: center; font-size: 16px; font-weight: 600; margin-bottom:4px">Dell Isilon/PowerScale, NetApp FAS/AFF</p>
 
 |                     | **Supported**                                             | **Unsupported**                                                              |
 | ------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------- |
@@ -101,7 +101,7 @@ Please note, the spheres of support differ by product. Any request for services 
 |                     | Hardware driver or firmware updates                       |                                                                              |
 
 
-<p style="text-align: center; font-size: 16px; font-weight: 600;">Rackspace Object Storage</p>
+<p style="text-align: center; font-size: 16px; font-weight: 600; margin-bottom:4px; margin-top:40px;">Rackspace Object Storage</p>
 
 |                     | **Supported**                                                    | **Unsupported**                                        |
 | ------------------- | ---------------------------------------------------------------- | ------------------------------------------------------ |
@@ -135,8 +135,8 @@ Please note, the spheres of support differ by product. Any request for services 
 |                     | Xdoctor & Service Console updates                                |                                                        |
 
 
-<p style="text-align: center; font-size: 16px; font-weight: 600;">Unified Data Storage – Dedicated NAS</p>
-<p style="text-align: center; font-size: 16px; font-weight: 600;">Dell Isilon/PowerScale, NetApp FAS/AFF</p>
+<p style="text-align: center; font-size: 16px; font-weight: 600; margin-bottom:4px; margin-top:40px;">Unified Data Storage – Dedicated NAS</p>
+<p style="text-align: center; font-size: 16px; font-weight: 600; margin-bottom:4px;">Dell Isilon/PowerScale, NetApp FAS/AFF</p>
 
 |                     | **Supported**                                                 | **Unsupported**                                   |
 | ------------------- | ------------------------------------------------------------- | ------------------------------------------------- |
@@ -196,8 +196,8 @@ Please note, the spheres of support differ by product. Any request for services 
 |                     | Shelf expansions/additions                                    |                                                   |
 
 
-<p style="text-align: center; font-size: 16px; font-weight: 600;">Unified Data Storage - Dedicated SAN</p>
-<p style="text-align: center; font-size: 16px; font-weight: 600;">Dell Unity XT</p>
+<p style="text-align: center; font-size: 16px; font-weight: 600; margin-bottom:4px; margin-top:40px;">Unified Data Storage - Dedicated SAN</p>
+<p style="text-align: center; font-size: 16px; font-weight: 600; margin-bottom:4px;">Dell Unity XT</p>
 |                     | **Supported**                                                      | **Unsupported**             |
 | ------------------- | ------------------------------------------------------------------ | --------------------------- |
 | **Protocols**       | FC                                                                 | iSCSI                       |
@@ -243,7 +243,7 @@ Please note, the spheres of support differ by product. Any request for services 
 |                     | Storage expansion                                                  |                             |
 
 
-<p style="text-align: center; font-size: 16px; font-weight: 600;">Dedicated Object Storage (Dell ECS)</p>
+<p style="text-align: center; font-size: 16px; font-weight: 600; margin-bottom:4px; margin-top:40px;">Dedicated Object Storage (Dell ECS)</p>
 |                     | **Supported**                                                      | **Unsupported**                              |
 | ------------------- | ------------------------------------------------------------------ | -------------------------------------------- |
 | **Protocols**       | S3                                                                 |                                              |
