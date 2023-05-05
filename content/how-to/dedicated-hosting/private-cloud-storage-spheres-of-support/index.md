@@ -9,9 +9,7 @@ product: Dedicated Hosting
 product_url: dedicated-hosting
 ---
 
-The following tables delineates what managed services are in scope for each of the storage services governed by the Dedicated Hosting Product terms found here: [https://www.rackspace.com/information/legal/DedicatedHostingTerms](https://www.rackspace.com/information/legal/DedicatedHostingTerms).
-
-Please note, the spheres of support differ by product. Any request for services beyond those marked in scope would command an additional charge at Rackspace then-current rates for professional services, pending availability.
+The following tables delineates what managed services are in scope for each of the storage services governed by the Dedicated Hosting Product terms found here: [https://www.rackspace.com/information/legal/DedicatedHostingTerms](https://www.rackspace.com/information/legal/DedicatedHostingTerms). Please note, the spheres of support differ by product. Any request for services beyond those marked in scope would command an additional charge at Rackspace then-current rates for professional services, pending availability.
 
 
 <p style="text-align: center; font-size: 16px; font-weight: 600; margin-bottom:4px; margin-top:40px;">Rackspace Block Storage</p>
