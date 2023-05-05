@@ -1,3 +1,14 @@
+---
+permalink: private-cloud-storage-spheres-of-support
+audit_date: '2023-05-05'
+title: Rackspace Private Cloud Storage Spheres of Support
+type: article
+created_date: '2023-05-05'
+created_by: Michael Levy
+product: Dedicated Hosting
+product_url: dedicated-hosting
+---
+
 # Rackspace Private Cloud Storage Spheres of Support 
 
 The following tables delineates what managed services are in scope for each of the storage services governed by the Dedicated Hosting Product terms found here: [https://www.rackspace.com/information/legal/DedicatedHostingTerms](https://www.rackspace.com/information/legal/DedicatedHostingTerms).
