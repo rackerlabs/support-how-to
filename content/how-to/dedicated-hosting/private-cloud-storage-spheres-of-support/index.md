@@ -49,8 +49,9 @@ Please note, the spheres of support differ by product. Any request for services 
 |                     | Fabric expansion                                         |                                                    |
 
 
-## **Unified Data Storage – Dedicated NAS**
-## **Dell Isilon/PowerScale, NetApp FAS/AFF**
+<p style="text-align: center; font-size: 16px; font-weight: 600;">Unified Data Storage – Dedicated NAS</p>
+<p style="text-align: center; font-size: 16px; font-weight: 600;">Dell Isilon/PowerScale, NetApp FAS/AFF</p>
+
 |                     | **Supported**                                             | **Unsupported**                                                              |
 | ------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | **Protocols**       | NFS                                                       | FCOE                                                                         |
@@ -100,7 +101,8 @@ Please note, the spheres of support differ by product. Any request for services 
 |                     | Hardware driver or firmware updates                       |                                                                              |
 
 
-## **Rackspace Object Storage**
+<p style="text-align: center; font-size: 16px; font-weight: 600;">Rackspace Object Storage</p>
+
 |                     | **Supported**                                                    | **Unsupported**                                        |
 | ------------------- | ---------------------------------------------------------------- | ------------------------------------------------------ |
 | **Protocols**       | S3                                                               |                                                        |
@@ -133,8 +135,9 @@ Please note, the spheres of support differ by product. Any request for services 
 |                     | Xdoctor & Service Console updates                                |                                                        |
 
 
-## **Unified Data Storage – Dedicated NAS**
-## **Dell Isilon/PowerScale, NetApp FAS/AFF**
+<p style="text-align: center; font-size: 16px; font-weight: 600;">Unified Data Storage – Dedicated NAS</p>
+<p style="text-align: center; font-size: 16px; font-weight: 600;">Dell Isilon/PowerScale, NetApp FAS/AFF</p>
+
 |                     | **Supported**                                                 | **Unsupported**                                   |
 | ------------------- | ------------------------------------------------------------- | ------------------------------------------------- |
 | **Protocols**       | NFS                                                           | FCOE                                              |
@@ -193,8 +196,8 @@ Please note, the spheres of support differ by product. Any request for services 
 |                     | Shelf expansions/additions                                    |                                                   |
 
 
-## **Unified Data Storage - Dedicated SAN**
-## **Dell Unity XT**
+<p style="text-align: center; font-size: 16px; font-weight: 600;">Unified Data Storage - Dedicated SAN</p>
+<p style="text-align: center; font-size: 16px; font-weight: 600;">Dell Unity XT</p>
 |                     | **Supported**                                                      | **Unsupported**             |
 | ------------------- | ------------------------------------------------------------------ | --------------------------- |
 | **Protocols**       | FC                                                                 | iSCSI                       |
@@ -240,7 +243,7 @@ Please note, the spheres of support differ by product. Any request for services 
 |                     | Storage expansion                                                  |                             |
 
 
-## **Dedicated Object Storage (Dell ECS)**
+<p style="text-align: center; font-size: 16px; font-weight: 600;">Dedicated Object Storage (Dell ECS)</p>
 |                     | **Supported**                                                      | **Unsupported**                              |
 | ------------------- | ------------------------------------------------------------------ | -------------------------------------------- |
 | **Protocols**       | S3                                                                 |                                              |
@@ -279,6 +282,3 @@ Please note, the spheres of support differ by product. Any request for services 
 |                     | Emergency Rackspace change management (managed, defined, executed) |                                              |
 |                     | Cluster expansion                                                  |                                              |
 | **Maintenance**     | Storage expansion                                                  |                                              |
-
-
-
