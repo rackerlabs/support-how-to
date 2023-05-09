@@ -31,16 +31,13 @@ worldwide at no additional cost. SMS alerting has the following advantages:
   plan. (*Standard text messaging rates from your carrier apply.*)
 - Delivers alerts anywhere you have a cell signal.
 
-If you are not yet using Rackspace Monitoring, sign up at no cost on [the Rackspace website](https://cart.rackspace.com/cloud/?cp_id=cloud_monitoring).
-
 ### Set up alerts
 
 You configure SMS alerts for your account by adding one or more new
-notifications through the [raxmon CLI](/support/how-to/getting-started-with-rackspace-monitoring-cli). You can add
-SMS alerts to an existing notification plan, or you can create a new one. Be
+notifications through the [raxmon CLI](https://docs.rackspace.com/docs/rackspace-monitoring/v1/getting-started/). You can add SMS alerts to an existing notification plan, or you can create a new one. Be
 sure to attach the notification plan to one or more alarms. For step-by-step
 guidance, see the tutorial on setting up notifications and notification plans in
-the Rackspace Monitoring [Getting Started Guide](https://docs.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#document-api-operations/notifications-operations).
+the Rackspace Monitoring [Getting Started Guide](https://docs.rackspace.com/docs/rackspace-monitoring/v1/getting-started/create-first-monitor#setting-up-notifications).
 
 **Note:** You can create alarms and notifications in any order, but to create a
 new notification plan, you need to create a notification first.
@@ -63,4 +60,4 @@ customers.
 
 ### Additional resources
 
-Complete API documentation for [Rackspace Monitoring](https://docs.rackspace.com/docs/rackspace-monitoring/v1/developer-guide/#document-developer-guide)
+Complete API reference documentation for [Rackspace Monitoring](https://docs.rackspace.com/docs/rackspace-monitoring/v1/api-reference/)
