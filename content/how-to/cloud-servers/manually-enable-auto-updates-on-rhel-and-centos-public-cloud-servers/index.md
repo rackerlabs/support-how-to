@@ -5,8 +5,8 @@ title: Manually enable automatic updates on Red Hat Enterprise Linux and CentOS 
 type: article
 created_date: '2018-11-06'
 created_by: Rackspace Support
-last_modified_date: '2018-11-06'
-last_modified_by: Stephanie Fillmon
+last_modified_date: '2023-03-21'
+last_modified_by: Pravanjan Hota
 product: Cloud Servers
 product_url: cloud-servers
 ---
@@ -40,9 +40,11 @@ RHEL 6 and CentOS 6 Rackspace public cloud servers:
    updates, as shown in the following example:
 
        # Pass any given parameter to yum, as run in all the scripts invoked
-       # by this package.  Be aware that this is global, and yum is invoked in
-       # several modes by these scripts for which your own parameter might not
-       # be appropriate
+       # by this package. YUM_PARAMETER gets passed directly to yum.
+       # Make sure to single quote globs and double quote the variable contents.
+       # YUM_PARAMETER="--exclude='kernel*' --exclude='grub*'"
+       # Above would help exclude kernel and grub updates and stick to your
+       # desired version.
        YUM_PARAMETER=
 
        # Don't install, just check (valid: yes|no)
@@ -54,6 +56,7 @@ RHEL 6 and CentOS 6 Rackspace public cloud servers:
        # Don't install, just check and download (valid: yes|no)
        # Implies CHECK_ONLY=yes (gotta check first to see what to download)
        DOWNLOAD_ONLY=no
+       DAYS_OF_WEEK="1"      (sun = 0, sat = 6)
 
 3. *(Optional)* To set up notifications for automatic package updates, such
    as time of installation, packages installed, and installation errors,
@@ -72,14 +75,6 @@ RHEL 6 and CentOS 6 Rackspace public cloud servers:
    If you are using `vim` to edit the configuration file, press **esc** and
    then enter **:wq** to save any changes.
 
-   After you have saved the file, the following message displays stating that
-   the file was properly written:
-
-       APT::Periodic::Update-Package_Lists "1";
-       APT::Periodic::Download-Upgradable-Packages "1";
-       APT::Periodic::Unattended-Upgrade "1";
-       APT::Periodic::AutocleanInterval "14";
-
 5. Start the `yum-cron` service by running the following command:
 
        $ /etc/inid.d/yum-cron start
@@ -88,6 +83,11 @@ RHEL 6 and CentOS 6 Rackspace public cloud servers:
    command:
 
        $ chkconfig yum-cron on
+
+   Restart yum-cron to load the changes made
+
+       $ /etc/inid.d/yum-cron restart
+
 
 ### RHEL 7 and CentOS 7
 
@@ -99,9 +99,10 @@ RHEL 7 and CentOS 7 Rackspace public cloud servers:
 
        $ yum -y install yum-cron
 
-2. To view the `yum-cron` configuration file, use the following command:
+2. To view the `yum-cron` configuration file(It is the default config file
+   used by the `yum-cron` script), use the following command:
 
-       $ vi /etc/sysconfig/yum-cron
+       $ vi /etc/yum/yum-cron.conf
 
    You can also open the file in any text editor.
 
@@ -170,12 +171,14 @@ RHEL 7 and CentOS 7 Rackspace public cloud servers:
    If you are using `vim` to edit the configuration file, press **esc** and
    then enter **:wq** to save any changes.
 
-   After you have saved the file, the following message displays stating that
-   the file was properly written:
+6. You also need to update /etc/yum/yum-cron-hourly.conf file if you want to
+   apply update hourly. Otherwise /etc/yum/yum-cron.conf will run on daily
+   using the following cron job. Similarly hourly cron job is at the
+   `/etc/cron.hourly/0yum-hourly.cron` location.
 
-       "/etc/yum/yum-cron.conf" 81L, 2620C written
+       $ cat /etc/cron.daily/0yum-daily.cron
 
-6. Check whether the `yum-cron` service is started by running the following
+7. Check whether the `yum-cron` service is started by running the following
    command:
 
        $ systemctl status yum-cron
@@ -185,14 +188,43 @@ RHEL 7 and CentOS 7 Rackspace public cloud servers:
 
        $ systemctl start yum-cron
 
-7. Now that the service is running, you should ensure that the service starts
+8. Now that the service is running, you should ensure that the service starts
    automatically after a server reboot. Run the following command to check
    whether `yum-cron` is enabled:
 
-       $ systemctl list-unit-files –type=service
+       $ systemctl is-enabled yum-cron
 
    Find the `yum-cron.service` process in the list. If it is enabled, the
    service starts when the server is booted. If it is disabled, use the
    following command to enable it:
 
        $ systemctl enable yum-cron
+
+9. Sometimes, you may need to maintain the version of a package and not update
+   it, due to compatibility issues that may arise with other applications that
+   depend on the package.
+   Also, there is one more file you can use `yum-cron-hourly.conf`
+   under `/etc/yum` directory for slicing yum works based on your need.
+
+   Here, We take an example of 2 packages to exclude: mysql and php.
+
+   Edit the `yum-cron.conf` file.
+
+       $ vi /etc/yum/yum-cron.conf
+
+
+   At the bottom, in the [base] section, append a line with the `exclude`
+   parameter and define the packages you want to exclude from updating.
+
+       exclude = mysql* php*
+
+   Your configuration should now look as shown below:
+
+       [base]
+       exclude = mysql* php*
+
+   Do it similarly in `yum-cron-hourly.conf` file also if you are using.
+   And then restart the yum-cron service after finishing the edit on both files.
+
+       $ systemctl start yum-cron
+
