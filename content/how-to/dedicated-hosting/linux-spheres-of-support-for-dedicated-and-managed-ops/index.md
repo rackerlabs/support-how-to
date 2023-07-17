@@ -24,7 +24,8 @@ Operating Systems and Platform support Matrix:
 | Amazon&reg; Linux 2023 | - | - | - | - | Yes | - |
 | Amazon Linux 2 | - | - | - | - | Yes | - |
 | CentOS&reg; 7 | Yes | Yes | Yes | Yes | Yes | Yes |
-| Debian&reg; 11 (Bullseye) | - | - | Yes | Yes | Yes | Yes |
+| Debian&reg; 12 (Book Worm) | - | - | Yes | Yes | Yes | Yes |
+| Debian 11 (Bullseye) | - | - | Yes | Yes | Yes | Yes |
 | Debian 10 (Buster) | - | - | Yes | Yes | Yes | Yes |
 | Oracle&reg; Linux 9 | tba | tba | - | Yes | Yes | Yes |
 | Oracle Linux 8 | Yes | Yes | - | Yes | Yes | Yes |
@@ -34,9 +35,8 @@ Operating Systems and Platform support Matrix:
 | Red Hat Enterprise Linux 7 | Yes | Yes | Yes | Yes | Yes | Yes |
 | Rocky Linux&reg; 9 | tba | tba | tba | Yes | Yes | Yes |
 | Rocky Linux 8 | Yes | Yes | Yes | Yes | Yes | Yes |
-| Ubuntu&reg; 22.04 LTS (Jammy Jellyfish) | tba | tba | tba | Yes | Yes | Yes |
+| Ubuntu&reg; 22.04 LTS (Jammy Jellyfish) | Yes | Yes | tba | Yes | Yes | Yes |
 | Ubuntu 20.04 LTS (Focal Fossa) | Yes | Yes | Yes | Yes | Yes | Yes |
-| Ubuntu 18.04 LTS (Bionic Beaver) | Yes | Yes | Yes | Yes | Yes | Yes |
 
 **Note**: Rackspace makes every effort to align our support dates for operating systems with the manufacturer's support
 dates. If a manufacturer decides to shorten the support life of an operating system, Rackspace might be forced to end
