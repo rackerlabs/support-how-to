@@ -24,7 +24,8 @@ Operating Systems and Platform support Matrix:
 | Amazon&reg; Linux 2023 | - | - | - | - | Yes | - |
 | Amazon Linux 2 | - | - | - | - | Yes | - |
 | CentOS&reg; 7 | Yes | Yes | Yes | Yes | Yes | Yes |
-| Debian&reg; 11 (Bullseye) | - | - | Yes | Yes | Yes | Yes |
+| Debian&reg; 12 (Book Worm) | - | - | Yes | Yes | Yes | Yes |
+| Debian 11 (Bullseye) | - | - | Yes | Yes | Yes | Yes |
 | Debian 10 (Buster) | - | - | Yes | Yes | Yes | Yes |
 | Oracle&reg; Linux 9 | tba | tba | - | Yes | Yes | Yes |
 | Oracle Linux 8 | Yes | Yes | - | Yes | Yes | Yes |
