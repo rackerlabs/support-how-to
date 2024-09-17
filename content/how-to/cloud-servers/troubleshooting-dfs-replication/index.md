@@ -96,7 +96,7 @@ Have the servers check-in with AD. This should return "*operation succeed*" as a
 
 To view what is replicating, run the following command:
 
-    $ FDSRDIAG replicationstate
+    $ DFSRDIAG replicationstate
 
 The results are similar to the following if replication is working:
 
