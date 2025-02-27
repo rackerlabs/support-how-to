@@ -5,7 +5,7 @@ title: Microsoft 365 Spheres of Support
 type: article
 created_date: '2020-07-31'
 created_by: Jeremiah Sauder
-last_modified_date: '2022-11-22'
+last_modified_date: '2024-06-11'
 last_modified_by: Nick Ramirez
 product: Office 365
 product_url: office-365
@@ -111,18 +111,17 @@ This article outlines the **Fanatical Experience&trade;** we offer and the **Rac
 
 | **Feature** | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
 | --- | --- | --- | --- | --- | --- |
-| [Azure AD Premium P1 / P2](https://azure.microsoft.com/en-us/pricing/details/active-directory/)  | Basic troubleshooting | Implementation, guidance, assistance with Azure AD Premium P1 / P2 Features | &check; | &check; | &check; |
+| [Entra ID Premium P1 / P2](https://azure.microsoft.com/en-us/pricing/details/active-directory/)  | Basic troubleshooting | Implementation, guidance, assistance with Entra ID Premium P1 / P2 Features | &check; | &check; | &check; |
 | [Self-Service Group and app Management Plus Dynamic Groups](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/groups-self-service-management) | No support | Help creating and maintaining customized templates, rules, configurations, and settings around Office 365 Groups | &check; | &check; | &check; |
 | [Self Service Password Reset](https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/let-users-reset-passwords?redirectSourcePath=%252fen-us%252farticle%252flet-users-reset-their-own-passwords-in-office-365-5bc3f460-13cc-48c0-abd6-b80bae72d04a&view=o365-worldwide) | Basic troubleshooting | Help enabling and enabling Self-Service Password Reset (SSPR) in conjunction with on-premises Active Directory (AD) and Active Directory Federation Services (ADFS) | &check; | &check; | &check; |
 | [Multifactor Authentication](https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?redirectSourcePath=%252fen-us%252farticle%252fset-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6&view=o365-worldwide) | Basic troubleshooting | Integration with MFA clients included in Office 365 as well as third-party solutions that reside on-premises and in the cloud through Active Directory Federation Services (ADFS) | &check; | &check; | &check; |
 | [Defender for Cloud Apps](https://docs.microsoft.com/en-us/cloud-app-security/what-is-cloud-app-security) | No support | Implementation, guidance, and assistance with Microsoft Defender for Cloud Apps features | &check; | &check; | &check; |
-| [Azure AD Connect](https://techcommunity.microsoft.com/t5/microsoft-security-and/azure-ad-connect-amp-connect-health-is-now-ga/ba-p/249225) | No support | Guidance and support through setup, maintenance, and enablement of Azure Active Directory Connect (AADC) and Health Monitoring for active alerts | &check; | &check; | &check; |
+| [Entra ID Connect](https://techcommunity.microsoft.com/t5/microsoft-security-and/azure-ad-connect-amp-connect-health-is-now-ga/ba-p/249225) | No support | Guidance and support through setup, maintenance, and enablement of Azure Active Directory Connect (AADC) and Health Monitoring for active alerts | &check; | &check; | &check; |
 | [Privileged Identity Management](https://docs.microsoft.com/en-us/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide) | No support | Just-in-time access, direct (time-based) access, assign roles, access review | &check; | &check; | &check; |
 | [Advanced Threat Analytics](https://docs.microsoft.com/en-us/advanced-threat-analytics/what-is-ata) | Basic troubleshooting| Plan, design, and enable | &check; | &check; | &check; |
-| [Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection) | Basic troubleshooting | Plan, design, and enable | &check; | &check; | &check; |
-| [Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection) | Basic troubleshooting | Plan, design, and enable | &check; | &check; | &check; |
+| [Entra ID Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection) | Basic troubleshooting | Plan, design, and enable | &check; | &check; | &check; |
 | [Federated Identity](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/whatis-fed) | No support | Plan, design, and enable | &check; | &check; |  |
-| [Enterprise Applications - Federating SAML apps to Azure AD](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/migrate-adfs-apps-to-azure) | No support | Guidance and training based on best practices. | &check; | &check; |  |
+| [Enterprise Applications - Federating SAML apps to Entra ID](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/migrate-adfs-apps-to-azure) | No support | Guidance and training based on best practices. | &check; | &check; |  |
 | [Conditional Access](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/overview) | Basic troubleshooting | Plan, design, and enable | &check; | &check; | &check; |
 
 ### Information Protection
@@ -239,6 +238,14 @@ This article outlines the **Fanatical Experience&trade;** we offer and the **Rac
 | --- | --- | --- | --- | --- | --- |
 | [Power Apps](https://docs.microsoft.com/en-us/power-platform/admin/pricing-billing-skus) | Support limited to license purchase and assignment | Guidance and training based on best practices.  Limited support on App management | &check; | &check; |  |
 | [Power Automate](https://flow.microsoft.com/en-us/) | Support limited to license purchase and assignment | Guidance and training based on best practices | &check; | &check; | &check; |
+
+
+### Artificial Intelligence
+
+
+| **Feature** | **Fanatical Support** | **Rackspace Application Services** / **Elastic Engineering** | **Troubleshoot** | **Consult** | **Enable** |
+| --- | --- | --- | --- | --- | --- |
+| [Copilot for Microsoft 365](https://fair.rackspace.com/lp/microsoft-365-copilot-assessment/#contact) | Support limited to license purchase and assignment | Rackspace provides guidance, project management, best practices, enablement assistance, and admin and end-user training as needed | &check; | &check; | &check; |
 
 
 ### Microsoft 365 Addons
